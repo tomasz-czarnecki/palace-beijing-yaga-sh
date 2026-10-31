@@ -1,0 +1,25 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Downloaded originals (scans, plans, DEM tiles, research-only photos): local research use only, see CLAUDE.md "Copyright"
+research/raw/
+
+# Georeferenced overlays derived from research-only plans
+research/overlays/
+
+# Tooling and review images
+node_modules/
+screenshots/
+
+# Vercel CLI link
+.vercel/
+
+# Never inside the public site, whatever happens to be copied there
+site/reconstruction/overlays/
+site/**/*.csv
+site/**/raw/
