@@ -2,14 +2,20 @@
 
 ## Goal
 
-Rebuild the Old Summer Palace, the Qing imperial garden-palace north-west of Beijing, as it stood before Anglo-French troops looted and burned it in October 1860. The result is a map and a 3D model that people can walk through in the browser.
+Rebuild the Old Summer Palace, the Qing imperial garden-palace north-west of Beijing, as it stood before October 1860, when French and British troops looted it and British troops, on Elgin's order, burned it. The result is a map and a 3D model that people can walk through in the browser.
 The complex is three gardens: Yuanming Yuan 圆明园, Changchun Yuan 长春园 (with the European palaces, Xiyang Lou 西洋楼) and Qichun Yuan 绮春园 (later Wanchun Yuan 万春园).
 
 **Sister project and template:** `/opt/data/workspace/000_Dev/kostrzyn-yaga-sh` (Küstrin c. 1913). Same structure, same research rules, same management of buildings. Read its `CLAUDE.md`, `research/README.md`, `research/sources.md`, `research/questions.md` and `research/buildings.csv` to see how a thing was done there. **Never edit that repo.**
 
+**Read next:**
+- `research/README.md`: every file, field, id scheme and catalogue, and the full rebuild order.
+- `docs/METHOD.md`: the reusable playbook for the next historical site.
+- `docs/rounds/README.md`: what each round was asked, what it delivered and what went wrong; the briefs beside it.
+- `research/questions.md`: open points. `research/wishlist.md`: what would replace the biggest guesses.
+
 ## Status
 
-Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2 done: the 2D dev map and every building as a box in a 3D preview (`site/reconstruction/`), one page per building. Round 3 done: pictures, drawings and texts for every object, shown in the panel (`research/evidence/`, `research/photos/`, `tools/check_evidence.py`). Next: detailed models; settle Q36 first, because S01 at 九洲清晏 carries names of 1873. Homepage: a simple placeholder that leads to the 3D view.
+Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2 done: the 2D dev map and every building as a box in a 3D preview (`site/reconstruction/`), one page per building. Round 3 done: pictures, drawings and texts for every object, shown in the panel (`research/evidence/`, `research/photos/`, `tools/check_evidence.py`). Round 4 done: this rulebook, `research/README.md`, `docs/`. Next: detailed models; settle Q36 first, because S01 at 九洲清晏 carries names of 1873. Homepage: a simple page (EN, zh draft) that leads to the 3D view.
 
 Decided:
 - **Target state:** the gardens just before the destruction of October 1860 (Xianfeng reign). Earlier evidence (the Forty Scenes album of 1744, the Xiyang Lou engravings of the 1780s) counts for that state wherever nothing later contradicts it. Q1 in `research/questions.md` tracks this.
@@ -23,7 +29,7 @@ Decided:
 - **Changchun Yuan 长春园, "Garden of Long Spring":** lakes around 含经堂 Hanjing Tang (S05, S143). The Xiyang Lou 西洋楼, the European palaces, stand in a strip along its north edge, 860 m long (S149), built under Castiglione and Benoist (S02).
 - **Qichun Yuan 绮春园,** later 万春园 Wanchun Yuan: small gardens merged (S49, S06). Its 正觉寺 Zhengjue Si is the only building that survives (S145).
 - **Building:** mostly grey tile and rolled ridges 卷棚, unlike the Forbidden City, with glazed exceptions such as 安佑宫 Anyou Gong and 方壶胜境 Fanghu Shengjing (S08, S06, S122). Sampled on two album leaves only (`research/typology/halls.md`).
-- **Evidence:** S01 is Malone's "Official Map" or his tracing of it (S02 pp.231–232): every hall, by bays, in a state of about Daoguang to Xianfeng (Q2, Q3). It is the base for positions and footprints. The map reads to about ±10–20 m in Changchun Yuan and on the Xiyang Lou, ±30–40 m around the lakes and in Qichun Yuan, ±75 m in the west (Q7).
+- **Evidence:** S01 is Malone's "Official Map" or his tracing of it (S02 pp.231–232): every hall, by bays, in a state of about Daoguang to Xianfeng (Q2, Q3), except 九洲清晏, whose labels are of 1873 or later (Q36). It is the base for positions and footprints. The map reads to about ±10–20 m in Changchun Yuan and on the Xiyang Lou, ±30–40 m around the lakes and in Qichun Yuan, ±75 m in the west (Q7).
 - **Today:** farmland and digging removed most hills and filled most water from the 1940s to the 1970s (S145). Lakes re-dug and lined; 福海 and 后湖 keep their shape (S146, S148).
 
 ## Timeline
@@ -50,6 +56,7 @@ Decided:
   - A = shown on a source made while the gardens stood (Qing site plans, Yangshi Lei 样式雷 drawings, the Forty Scenes, the Xiyang Lou engravings, pre-1860 texts), or measured on remains that survive unchanged (lake shores, ruins in place).
   - B = a later source (photos of the ruins after 1860, 20th-century surveys, modern scholarly reconstructions), or a written description only.
   - C = inferred (typology, symmetry, a guess). Every guess is C.
+  - S01 counts as B, not A, until Q2 is settled, so no position is A today. How the grades apply to rows: `research/README.md`.
 - **Evidence order:** Qing site plans win on positions and footprints. Paintings and engravings give forms, roofs, trees and bridges. Today's lakes, islands and hills anchor the georeferencing, because much of the landscape survives. Modern reconstructions (Tsinghua's Digital Yuanmingyuan and others) are B: cite their facts, never copy their images.
 - **Source status:** found → viewed → downloaded (copy in `research/raw/`); also to-request (offline, must be ordered) and blocked (site refused automated access).
 - **Numbers come from runs.** Every figure (areas, widths, heights, RMS) comes from a script run on the repo data.
@@ -63,7 +70,44 @@ All evidence lives in `research/` (conventions in `research/README.md`).
 - **3D view:** `site/reconstruction/3d.html`, `3d.js`, `halls3d.js`, `panel3d.js`, three.js vendored, the way in. A preview: it does not decide the final engine. URL: `?b=<ID>` opens that page and frames its object, `?shot=1` hides the panels and animates nothing, `?conf=1` colours by confidence.
 - **Evidence:** pictures in `research/photos/catalog.csv` (web copies in `site/reconstruction/photos/`, by `scripts/photos_catalog.py`), texts, drawings and reports in `research/evidence/catalog.csv`, facts for the rows in `research/evidence/facts.csv` (`scripts/apply_facts.py`). `tools/check_evidence.py` counts coverage and fails on an empty panel or a research-only image on the site.
 - **Building pages:** `research/buildings/<ID>-<slug>/index.md`, one per row of `buildings.csv` and per gate; list in `research/buildings/README.md`. `scripts/building_pages.py` writes the block between the markers, `data/buildings/<ID>.json` (public; `GARDEN-*.json` what speaks for a garden) and `research/raw/buildings/<ID>.json` (local, with the plan readers' notes, the plan crop and research-only copies). **To edit:** write under `## Notes`, then run the script; it never touches that part. Notes go on the public site, except what stands below a line holding only `%% private %%`. `tools/check_pages.py` proves every clickable object has a page.
-- **Detailed models:** later, `models/<ID>-<slug>/summary.json`, see `models/README.md`.
+- **Detailed models:** later, `models/<ID>-<slug>/summary.json`, see `models/README.md`. No model and no publishing step exist yet.
+
+## Pipeline and rebuild order
+
+Run from the repo root with `uv run python <script>`. Fields, inputs and outputs of each step: `research/README.md`.
+
+1. **Fetch and stitch (needs `research/raw/`):** `scripts/fetch_osm.py` (network), `scripts/clip_dem.py`, `scripts/mosaic_plan.py`.
+2. **Read the plan:** `scripts/trace_plan.py`, `scripts/georef.py` (`fit` by default; `overlay` and `images` as separate commands).
+3. **Typology:** `scripts/typology_rules.py`, `scripts/typology_scale_check.py`.
+4. **Inventory and layers:** `scripts/build_r1.py`, then `scripts/apply_facts.py`.
+5. **Review images:** `scripts/render_r1.py`, `scripts/coverage_chart.py`.
+6. **Public data:** `scripts/publish_layers.py`, `scripts/ground1860.py`, `scripts/boxes1860.py`, `scripts/photos_catalog.py`, `tools/plan_crops.py` (local only), `scripts/building_pages.py`.
+7. **Checks:** `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_docs.py`. Each exits non-zero on a failure.
+
+`scripts/scene1860.py` is imported, not run. After a change to `buildings.csv`, `layers/`, `typology/params.json` or a catalogue, rerun step 6 and step 7; they take seconds. Never edit generated rows: `buildings.csv` comes from `scripts/build_r1.py` plus `research/evidence/facts.csv`. `research/photos/catalog.csv` and `research/evidence/catalog.csv` are edited by hand.
+
+## Public and private
+
+| What | In git | On the site |
+|---|---|---|
+| `site/` | yes | yes, only this folder is served |
+| Geometry traced from S01 (`*_1860`), with credit | yes | yes (Q6) |
+| The plan S01 as an image, `research/overlays/`, `research/raw/` | no | never (localhost only, `/_local/`) |
+| Free pictures | `research/photos/images/` | smaller copies, through `scripts/photos_catalog.py` only |
+| Research-only pictures and texts | no copy; `research/raw/photos/` locally | link card only |
+| `research/` otherwise, `scripts/`, `tools/`, `docs/`, `models/`, this file | yes | no |
+
+Rights calls still waiting for Tomasz: Q6 (plan image), Q50 (Malone quotes, Sirén, Skušek, pre-1900 photographs).
+
+## Ports and processes
+
+| Port | What |
+|---|---|
+| 8790 | preview of `site/`, `/opt/data/scripts/palace_preview_server.py`, forwarded by Tomasz. No overlay. Never for workers |
+| 8796 | `tools/serve_local.py`, the `site` entry in `.claude/launch.json`: with `/_local/`; `--public` turns it off |
+| own port | anything else a worker starts; stop it before ending the turn. Rounds used 8797 and 8800–8809 |
+
+Markers and chains live outside the repo: `/opt/data/scripts/rounds_palace/<name>.done`, `/opt/data/scripts/palace_r*_chain*.sh`. Logs: `/opt/data/cache/scratch/<name>.jsonl`, `<name>_progress.md`. Scratch may be cleared, so nothing of value stays only there.
 
 ## Copyright
 
@@ -88,17 +132,19 @@ All evidence lives in `research/` (conventions in `research/README.md`).
 ```
 site/                     the public website, the only thing a host serves (Root Directory = site, static, no build)
   index.html, zh/, credits.html, styles.css, main.js, assets/
-  reconstruction/         index.html (2D dev map, Leaflet), 3d.html (three.js preview, the way in), data/ (public layers, buildings/ = panel pages), photos/ (free pictures), vendor/
-research/                 README.md, sources.md, questions.md, buildings.csv, buildings/ (one page per building), layers/ (GeoJSON working copies),
-                          georef/ (control points), photos/ (catalog.csv), evidence/ (catalog.csv, facts.csv), typology/, image-credits/CREDITS.md, raw/ and overlays/ (gitignored)
+  reconstruction/         index.html (2D dev map, Leaflet), 3d.html (three.js preview, the way in), data/ (public layers, buildings/ = panel pages), generated/ (ground, walls and bridges), photos/ (free pictures), vendor/
+research/                 README.md, sources.md, questions.md, wishlist.md, buildings.csv, buildings/ (one page per building), layers/ (GeoJSON working copies),
+                          plan/ (what was read off S01), georef/ (control points), photos/ (catalog.csv), evidence/ (catalog.csv, facts.csv), typology/, terrain/, image-credits/CREDITS.md, raw/ and overlays/ (gitignored)
 scripts/                  the Python pipeline (uv, pyproject.toml); writes into research/ and site/reconstruction/data/
-tools/                    serve_local.py (local preview with the private layers under /_local/), screenshot scripts
+tools/                    serve_local.py (local preview with the private layers under /_local/), plan_crops.py, check_pages.py, check_evidence.py, check_docs.py
+docs/                     METHOD.md (the playbook), rounds/ (briefs and what each round did); never public
+screenshots/              review images, gitignored
 models/                   later: detailed models, one folder per building (models/<ID>-<slug>/summary.json), as in Küstrin
 ```
 
 - Nothing under `site/` may reference a file outside `site/`. No `package.json`, no Python and no folder named `public` under `site/`.
 - Links inside `site/` must work on a plain static server too (`reconstruction/3d.html`, `credits.html`, `zh/`).
-- **Never public:** `research/raw/`, `research/overlays/`, `scripts/`, this file.
+- **Never public:** `research/raw/`, `research/overlays/`, `scripts/`, `docs/`, this file.
 
 ## Website and git
 
