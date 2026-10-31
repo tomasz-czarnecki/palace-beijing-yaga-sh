@@ -232,7 +232,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **A worker overruns.** The pictures worker ran about 100 minutes against a 30–45 minute scope. Give a deadline by the clock (`date -u`), and turn what's missing into a wish row.
 - **Rules broken under pressure.** One worker ran `git checkout` twice despite "no git writes"; others wrote shared files; one fetched tiles too fast. Say so in the final message; those reports are in `docs/rounds/README.md`.
 - **Late shared facts.** The plan's scale was corrected after wave 1, so the correction was added to the common brief before wave 2. Keep that brief a living file.
-- **Valuable tools left in scratch.** Round 3's merge scripts and the font subset script `palace_home_subset.py` sit outside the repo. Catalogues are the truth, so a rebuild doesn't need them, but they can't be rerun from a clone. Copy what's reusable into `tools/`.
+- **Valuable tools left in scratch.** Round 3's merge scripts sat outside the repo. Catalogues are the truth, so a rebuild doesn't need them, but they can't be rerun from a clone. Copy what's reusable into `tools/`, as was done with the font subsetter (`tools/font_subset.py`).
 
 **Reading evidence:**
 - **A check that isn't blind.** The georeference worker edited its check set after seeing errors: first pass median 52 m, kept set 31 m. Both stay in the JSON, and Q7 says it plainly. Fix the check set first.

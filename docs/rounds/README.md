@@ -14,7 +14,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r1b` | not recorded | 15:36–17:58 | 142 min | 72 | $80.16 | 11537d0 | done |
 | `palace_r2_map` | xhigh | 17:59–18:30 | 30 min | 81 | $9.42 | 33b3f29 | done |
 | `palace_r3_evidence` | not recorded | 19:12–20:55 | 103 min | 71 | $76.61 | 0bb4f81 | done |
-| `palace_r4_docs` | high | from 20:56 | see the `.done` marker | - | - | the commit named "Docs: ..." made by the chain after it exits | this round |
+| `palace_r4_docs` | high | 20:56-21:08 (12 min) | exit 0 at 21:08Z | - | - | `4b44190` | this round |
 
 ## palace_home
 
