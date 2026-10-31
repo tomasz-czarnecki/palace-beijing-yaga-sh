@@ -26,9 +26,27 @@ Yuanming Yuan
 - YM86-B0015
 - YM86-B0016
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0471** (guess): North gate of Yuanmingyuan Park (20260829174306).jpg (2026-08-29 17:43:06 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:North_gate_of_Yuanmingyuan_Park_(20260829174306).jpg
+
+  ![P0471](../../photos/images/P0471.jpg)
+
+
+## Texts and drawings (5)
+
+- **E2396** (description, sure): 鱼跃鸢飞总平面图, list card. special/yslt, card of ysltd/11992 · S310. https://www.mhymy.com/special/yslt
+  The site's card for this plan places the 鱼跃鸢飞 Yuyue Yuanfei scene just inside 大北门 Da Beimen, the Great North Gate, which it says was also called 北楼门 Beilou Men; this is the site's modern description, not a statement read on the sheet.
+- **E2394** (description, likely): 北门 in orders of 1733-34 (see the S47 rows); yaffin 北楼门. 1733-34; n.d. blog · S47 pp.113-114; S356 系列09 no.25 · S47. https://blog.sina.com.cn/s/blog_65fec3ab0100sv4p.html
+  The orders call it 北门. A blog of about 2011 says 大北门 is also called 北楼门, as S05's list has it, north of 鱼跃鸢飞 on the garden axis.
+- **E2336** (description, likely): 若帆之阁 北门 土地庙, 山神庙 (S47 section 2.8). 2012, citing archive and Qing texts · p.114; table rows 18-19 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  An order of 1734 places an earth god in a small one-bay room west of the north-gate Guandi temple, and a mountain god in the fold of the hills west of the north gate. Both sit close inside the north gate of the garden.
+- **E2395** (description, likely): 北门内 水关 小庙 (S47 section 2.7). 2012, citing archive and Qing texts · p.113 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  Orders of 1733-34 speak of a rain-god shrine at the rushing water north-west of 北苑山房 inside 北门, and of 北门内水关之河北小庙: so a water gate stood just inside the north gate by then.
+- **E1744** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 鱼跃鸢飞. 2020 edition · v2 p.235 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=238
+  Built under Yongzheng, inside the great north gate: a double-eaved tower of two floors astride a stream, five bays each way with doors on four sides, plaques on each. 畅观轩, 铺翠环流, 传妙, 多子亭 stand by it. It survived 1860 and was lost around 1900, say the editors.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 大北门. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 

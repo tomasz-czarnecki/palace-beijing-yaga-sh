@@ -23,9 +23,22 @@ Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0380** (sure): 鸣玉溪桥 20130323.JPG (2013-03-23 16:52:06 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E9%B8%A3%E7%8E%89%E6%BA%AA%E6%A1%A5_20130323.JPG
+
+  ![P0380](../../photos/images/P0380.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 长春仙馆: see YM12
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

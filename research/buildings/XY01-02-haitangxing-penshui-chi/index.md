@@ -31,9 +31,27 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 174.8° from north
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0041** (sure): 谐奇趣南面 (圆明园铜版画册 / 西洋楼铜版画, plate 一 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-17.jpg
+
+  ![P0041](../../photos/images/P0041.jpg)
+
+
+## Texts and drawings (2)
+
+- **E0931** (description, likely): Plate II: 谐奇趣 Xieqiqu, south front (by content). 1786-1803 · pp.176-177, Plate II · S258. https://archive.org/details/BIUSante_40644
+  > Sur le sol de cette seconde terrasse sont placées à droite et à gauche deux galeries en hémicycle, lesquelles ne s'élèvent que jusqu'au niveau de la première terrasse.
+  Round stair with a double ramp and a niche with a throne; a basin with vases and animals, birds and quadrupeds spouting; a dolphin in the centre; octagonal pavilions at the ends of the galleries; on the left a triumphal arch with a European dial; a three-arch bridge. Delatour's Plate II matches Malone's Engraving 1.
+- **E0932** (description, likely): Engraving 1: 谐奇趣 Xieqiqu, south front. 1934 · p.141 · S02. https://archive.org/details/historyofpekings00malo
+  > A three-story building in the center was joined by curved galleries to two two-storied towers at the southeast and southwest of the main building.
+  Curved stairs from the second floor down to a pool with several fountains between galleries and towers; a lake with a balustrade in front. Capitals mix Corinthian and Ionic (p.143).
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 海棠形喷水池. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 谐奇趣: see XY01
 
 ## Open questions
 

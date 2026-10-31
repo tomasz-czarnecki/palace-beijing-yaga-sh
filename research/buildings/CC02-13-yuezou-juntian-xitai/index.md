@@ -37,9 +37,27 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0410** (sure): Ruins of Hanjingtang 20130324.JPG (2013-03-24 17:27:07 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Ruins_of_Hanjingtang_20130324.JPG
+
+  ![P0410](../../photos/images/P0410.jpg)
+
+
+## Texts and drawings (3)
+
+- **E0058** (description, sure): 神心妙达 at 淳化轩. 2021 · section 2.2 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  In 1814 the 乐奏钧天 stage and dressing rooms went up on the east of 淳化轩, and 神心妙达 was rebuilt as the hall to watch from. The same words in S05 j81:35b are a quotation in the 水木明瑟 preface and have nothing to do with this hall.
+- **E0057** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 含经堂. 2020 edition · v3 p.244 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
+  The largest group in this garden, finished 1747, rebuilt 1770 with 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼. 含经堂 is a seven-bay double-eaved glazed hall; 霞翥楼 mirrors 梵香楼 and, with the inner plaque 味腴书室, held the 四库全书荟要, which identifies our 味腴书屋. A stage was added east of 淳化轩 in 1814. Guards were still posted after 1860.
+- **E0064** (archaeology, sure): 含经堂 乐奏钧天 stage as cited in 圆明园戏场探微. 2021 · citing 考古 2004(2) · S144. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  The park's theatre paper reports the excavated 乐奏钧天 Yuezou Juntian stage of 含经堂 as about 16 m square, built over a granite cellar with a clear height of 2.47 m.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 樂奏?天 (? marks an unread character), 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 含经堂: see CC02
 
 ## Open questions
 

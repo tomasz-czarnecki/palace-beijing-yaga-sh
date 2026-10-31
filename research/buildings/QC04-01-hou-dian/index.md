@@ -34,7 +34,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0588** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 敷春堂. 2020 edition · v4 p.200 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=203
+  Begun 1801 north of 迎晖殿: a five-bay 工字 hall, with 集禧堂 before it and the five-bay, two-storey 问月楼 behind. The note sets out the rest: 凌虚阁 east of the rear hall, 翠合轩 a small chapel behind it, 澄光榭 south-east of 问月楼, 蔚藻堂 in a court to the south-west, 镜绿亭 south of that, 蔼芳圃 the west gate, 淙玉轩 and 舒卉轩 further south. Some buildings outlasted 1860 and the 1873 repair plan, then were lost around 1900, say the editors.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 敷春堂 (no picture of this hall found): see QC04
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

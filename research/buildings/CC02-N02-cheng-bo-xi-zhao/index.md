@@ -34,7 +34,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0063** (archaeology, sure): 澄波夕照 at 含经堂. c. 2011 blog, on the dig of 2001-03 · 系列15 · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100sxa7.html
+  After the dig of 2001-03 at 含经堂, the foundations of 澄波夕照, 得胜概 and a rock pavilion were restored in part. So the label on S01 has a site on the ground.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 澄波夕照, 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 含经堂 (no picture of this hall found): see CC02
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Position:** 40.01037, 116.28598. S01 likely (S01 · confidence B)
 - **Bays:** 9x1 on the plan (S05, S02, S01)
 - **Size in the inventory:** 32.8 × 13.8 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 又東為眉月軒 [j81:26a] (S05)
 - **Note:** Crescent plan, 東偏學月牙形 [j81:26b]; S02 p.88. (S05, S02, S01)
 - **Plan reader's note:** Curved hall on a pool; Malone p.88 wide curve on the edge of a pool. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
@@ -36,7 +35,27 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1584** (text, sure): 日下舊聞考 汇芳书院. 1780s (乾隆 敕撰) · j81:25b-26b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 鴻慈永祜東垣外徑連岡三重度橋而東則彚芳書院也内宇為抒藻軒後為涵逺齋齋前西垣内為翠照樓東垣内為倬雲樓又東為眉月軒倬雲樓南稍東為隨安室又東敞宇三楹為問津逾溪橋數武有石坊為斷橋殘雪（圓明園册）臣等謹按彚芳書院四十景之一額為皇上御書倬雲樓中楹額曰竹深荷淨與院内諸額皆御書涵逺齋内聨曰寳案凝香圖書陳道法仙臺麗景晴雨驗耕桑亦御書問津額為世宗御書
+  East of the wall of 鴻慈永祜, over three ridges: 彚芳書院 with 抒藻軒, 涵逺齋, 翠照樓, 倬雲樓, 眉月軒, 隨安室, the three-bay 問津, and a stone arch 斷橋殘雪 beyond a footbridge.
+- **E1600** (poem, sure): 眉月轩. 乾隆二十六年 (1761) · v2 p.169, under 汇芳书院; source ref 8-443 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=172
+  > 临水疏轩曲若眉，人犹未当月犹之。那更法善资神术，即看当前七宝池。
+  Poem 眉月轩 by the Qianlong Emperor, 1761, filed by the editors under 汇芳书院.
+- **E1601** (poem, likely): 题眉月轩. 乾隆五十六年 (1791) · v2 p.172, under 汇芳书院; source ref 17-318 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=175
+  > 临湖有文轩，强半圆而椭。思何称可方，眉月名以我。过望更移东，恰似见于左。天光冰影间，同异言胥琐。是谓三即一，无可无不可。
+  Poem 题眉月轩 by the Qianlong Emperor, 1791, filed by the editors under 汇芳书院.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 9x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 汇芳书院 (no picture of this hall found): see YM18
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

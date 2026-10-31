@@ -10,14 +10,14 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 纳翠楼 Nacui Lou (S05, S01 · confidence C)
-- **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** tower (S05, S01 · confidence C)
-- **Destroyed:** 1860 (S05, S01)
+- **Name:** 纳翠楼 Nacui Lou (S05, S01, S111 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S01, S111)
+- **Type:** tower (S05, S01, S111 · confidence B)
+- **Built:** 1751 (S05, S01, S111)
+- **Destroyed:** 1860 (S05, S01, S111)
 - **Position:** 40.00599, 116.30119. S01 guess (S01 · confidence C)
-- **Bays:** 3x1 on the plan (S05, S01)
+- **Bays:** 3 in the texts / 3x1 on the plan (S05, S01, S111)
 - **Size in the inventory:** 10.0 × 7.3 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 西為納翠樓 [j82:18b] (S05)
 - **Plan reader's note:** 纳翠楼, 西. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 7955, 4170 (S01) *(research copy, not public)*
@@ -35,7 +35,26 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1978** (text, sure): 日下舊聞考 别有洞天. 1780s (乾隆 敕撰) · j82:18b-19a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 接秀山房之南有敞宇北依山南臨河為别有洞天五楹西為納翠樓西南為水木清華之閣閣西稍北為時賞齋（圓明園册）臣等謹按别有洞天四十景之一額與納翠樓水木清華之閣諸額皆皇上御書
+  South of 接秀山房, hill behind and stream before: the five-bay 别有洞天, with 納翠樓, 水木清華之閣 and 時賞齋.
+- **E1989** (poem, likely): 题纳翠楼. 乾隆二十四年 (1759) · v3 p.24, under 别有洞天; source ref 6-692 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=27
+  > 楼名纳翠岂虚言，苑树虽凋松竹存。迩日雪中饶别致，绿琼天雨汞珠繁。
+  Poem 题纳翠楼 by the Qianlong Emperor, 1759, filed by the editors under 别有洞天.
+- **E1986** (description, sure): 老北京的记忆(133): 圆明园别有洞天遗址, quoting 《圆明园百景图志》. blog · post 133 · S111. https://blog.sina.com.cn/s/blog_88741e0d0102xbym.html
+  Scene by scene history and sizes. 1751 main hall rebuilt as three linked rolls and 纳翠楼 added; about 1761 the west side redone after 保定 莲池书院, naming Qianlong's own note. 水木清华之阁 two storeys, 时赏斋 a raised hall. Second-hand: blog quoting 百景图志.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 3x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 别有洞天 (no picture of this hall found): see YM34
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

@@ -34,7 +34,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E2090** (description, guess): 乐道堂: a lead to 奕訢. web · infobox · S382. https://zh.wikipedia.org/wiki/奕訢
+  Prince Gong's style includes 乐道堂主人. As 洞天深处 housed the Emperor's sons, this label may be his study. No text on disk places a 乐道堂 in the garden.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 乐道堂. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 洞天深处 (no picture of this hall found): see YM40
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

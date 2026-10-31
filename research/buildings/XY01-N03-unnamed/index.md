@@ -30,9 +30,24 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 355.1° from north
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0042** (likely): 谐奇趣北面 (圆明园铜版画册 / 西洋楼铜版画, plate 二 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C.jpg
+
+  ![P0042](../../photos/images/P0042.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 谐奇趣: see XY01
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

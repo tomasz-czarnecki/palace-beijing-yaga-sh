@@ -166,7 +166,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [CC14-B0670](CC14-B0670-unnamed/index.md) | Hall without a name on the plan | Changchun Yuan | 1 |  |
 | [CC14-B0694](CC14-B0694-unnamed/index.md) | Hall without a name on the plan | Changchun Yuan | 1 |  |
 | [CC14-B0695](CC14-B0695-unnamed/index.md) | Hall without a name on the plan | Changchun Yuan | 1 |  |
-| [CC14-N01](CC14-N01-unnamed/index.md) | 狎?亭 | Changchun Yuan | 1 |  |
+| [CC14-N01](CC14-N01-xia-ou-ting/index.md) | 狎鸥亭 Xia'ou Ting | Changchun Yuan | 1 |  |
 | [CC14-N02](CC14-N02-jie-zhou/index.md) | 芥舟 Jie Zhou | Changchun Yuan | 2 |  |
 | [CC14-N03](CC14-N03-chao-hui-ting/index.md) | 朝暉亭 Chao Hui Ting | Changchun Yuan | 1 |  |
 | [CC15](CC15-yingqing-zhai/index.md) | 映清斋 Yingqing Zhai | Changchun Yuan | 1 |  |
@@ -380,7 +380,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [QC30](QC30-cuihe-xuan/index.md) | 翠合轩 Cuihe Xuan | Qichun Yuan | 1 |  |
 | [QC31](QC31-lingxu-ge/index.md) | 凌虚阁 Lingxu Ge | Qichun Yuan | 1 |  |
 | [QC31-B1439](QC31-B1439-unnamed/index.md) | Hall without a name on the plan | Qichun Yuan | 1 |  |
-| [QC32](QC32-xiede-zhai/index.md) | 协德斋 Xiede Zhai | Qichun Yuan | 1 |  |
+| [QC32](QC32-in-the/index.md) | 协性斋 in the | Qichun Yuan | 1 |  |
 | [QC33](QC33-chengguang-xie/index.md) | 澄光榭 Chengguang Xie | Qichun Yuan | 0 |  |
 | [QC34](QC34-wojian-shi/index.md) | 我见室 Wojian Shi | Qichun Yuan | 0 |  |
 | [QC35](QC35-weizao-tang/index.md) | 蔚藻堂 Weizao Tang | Qichun Yuan | 1 |  |
@@ -392,7 +392,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [QC35-B1295](QC35-B1295-unnamed/index.md) | Hall without a name on the plan | Qichun Yuan | 1 |  |
 | [QC35-B1296](QC35-B1296-unnamed/index.md) | Hall without a name on the plan | Qichun Yuan | 1 |  |
 | [QC35-N01](QC35-N01-unnamed/index.md) | ?黛亭 | Qichun Yuan | 1 |  |
-| [QC36](QC36-aifang-pu/index.md) | 霭芳圃 Aifang Pu | Qichun Yuan | 1 |  |
+| [QC36](QC36-aifang-pu/index.md) | 藹芳圃 Aifang Pu | Qichun Yuan | 1 |  |
 | [QC37](QC37-jinglu-ting/index.md) | 镜绿亭 Jinglü Ting | Qichun Yuan | 0 |  |
 | [QC38](QC38-congyu-xuan/index.md) | 淙玉轩 Congyu Xuan | Qichun Yuan | 1 |  |
 | [QC38-B1301](QC38-B1301-unnamed/index.md) | Hall without a name on the plan | Qichun Yuan | 1 |  |
@@ -414,8 +414,8 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [QC50](QC50-mingke-jingshe/index.md) | 茗柯精舍 Mingke Jingshe | Qichun Yuan | 0 |  |
 | [QC51](QC51-laixun-shi/index.md) | 来薰室 Laixun Shi | Qichun Yuan | 0 |  |
 | [QC52](QC52-bore-guan/index.md) | 般若观 Bore Guan | Qichun Yuan | 0 |  |
-| [QC53](QC53-unnamed/index.md) | 松风?月 | Qichun Yuan | 1 |  |
-| [QC54](QC54-unnamed/index.md) | ?吟楼 | Qichun Yuan | 1 |  |
+| [QC53](QC53-songfeng-luoyue/index.md) | 松风萝月 Songfeng Luoyue | Qichun Yuan | 1 |  |
+| [QC54](QC54-tiaoyin-lou/index.md) | 眺吟楼 Tiaoyin Lou | Qichun Yuan | 1 |  |
 | [QC54-N01](QC54-N01-zhi-fang/index.md) | 值房 Zhi Fang | Qichun Yuan | 1 |  |
 | [QC55](QC55-hui-xin-chu/index.md) | 会心处 Hui Xin Chu | Qichun Yuan | 1 |  |
 | [QC56](QC56-chang-ting/index.md) | 敞厅 Chang Ting | Qichun Yuan | 1 |  |
@@ -695,7 +695,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM03-N01](YM03-N01-qi-jian-dian/index.md) | 七间殿 Qi Jian Dian | Yuanming Yuan | 1 |  |
 | [YM03-N02](YM03-N02-fu-shou-ren-en/index.md) | 福寿仁恩 Fu Shou Ren En | Yuanming Yuan | 1 |  |
 | [YM03-N03](YM03-N03-hou-dian/index.md) | 后殿 Hou Dian | Yuanming Yuan | 1 |  |
-| [YM03-N04](YM03-N04-unnamed/index.md) | ?顺堂 | Yuanming Yuan | 1 |  |
+| [YM03-N04](YM03-N04-si-shun-tang/index.md) | 思顺堂 Si Shun Tang | Yuanming Yuan | 1 |  |
 | [YM03-N05](YM03-N05-qian-dian/index.md) | 前殿 Qian Dian | Yuanming Yuan | 1 |  |
 | [YM03-N06](YM03-N06-cheng-en-tang/index.md) | 承恩堂 Cheng En Tang | Yuanming Yuan | 1 |  |
 | [YM03-N07](YM03-N07-tong-shun-tang/index.md) | 同顺堂 Tong Shun Tang | Yuanming Yuan | 1 |  |
@@ -1024,7 +1024,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM23-13](YM23-13-puji-qiao/index.md) | 普济桥 Puji Qiao | Yuanming Yuan | 0 |  |
 | [YM23-B0248](YM23-B0248-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM23-B0316](YM23-B0316-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
-| [YM23-N01](YM23-N01-unnamed/index.md) | 知?堂 | Yuanming Yuan | 1 |  |
+| [YM23-N01](YM23-N01-zhiguo-tang/index.md) | 知过堂 Zhiguo Tang | Yuanming Yuan | 1 |  |
 | [YM23-N02](YM23-N02-unnamed/index.md) | 墨?亭 | Yuanming Yuan | 1 |  |
 | [YM23-N03](YM23-N03-shui-yun-ju/index.md) | 水云居 Shui Yun Ju | Yuanming Yuan | 1 |  |
 | [YM23-N04](YM23-N04-unnamed/index.md) | ?月 | Yuanming Yuan | 1 |  |
@@ -1219,7 +1219,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM34-B0818](YM34-B0818-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM34-B0819](YM34-B0819-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM34-N01](YM34-N01-han-bi-ting/index.md) | 涵碧亭 Han Bi Ting | Yuanming Yuan | 1 |  |
-| [YM34-N02](YM34-N02-unnamed/index.md) | ?水澄? | Yuanming Yuan | 1 |  |
+| [YM34-N02](YM34-N02-yanshui-chenghua/index.md) | 岩水澄华 Yanshui Chenghua | Yuanming Yuan | 1 |  |
 | [YM34-N03](YM34-N03-unnamed/index.md) | ?漾楼 | Yuanming Yuan | 1 |  |
 | [YM34-N04](YM34-N04-unnamed/index.md) | 竹??山斋 | Yuanming Yuan | 1 |  |
 | [YM35](YM35-jiajing-mingqin/index.md) | 夹镜鸣琴 Jiajing Mingqin | Yuanming Yuan | 0 |  |
@@ -1487,7 +1487,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM47-B1106](YM47-B1106-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM47-N01](YM47-N01-zi-yuan-xuan/index.md) | 自远轩 Zi Yuan Xuan | Yuanming Yuan | 1 |  |
 | [YM47-N02](YM47-N02-unnamed/index.md) | ?琴?? | Yuanming Yuan | 0 |  |
-| [YM47-N03](YM47-N03-unnamed/index.md) | ?藻楼 | Yuanming Yuan | 1 |  |
+| [YM47-N03](YM47-N03-cuizao-lou/index.md) | 粹藻楼 Cuizao Lou | Yuanming Yuan | 1 |  |
 | [YM47-N04](YM47-N04-unnamed/index.md) | ??琴峡 | Yuanming Yuan | 1 |  |
 | [YM48](YM48-zibi-shanfang/index.md) | 紫碧山房 Zibi Shanfang | Yuanming Yuan | 0 |  |
 | [YM48-01](YM48-01-hengyun-tang/index.md) | 横云堂 Hengyun Tang | Yuanming Yuan | 1 |  |
@@ -1503,7 +1503,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM48-B0054](YM48-B0054-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM48-B0055](YM48-B0055-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM48-B0057](YM48-B0057-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
-| [YM48-N01](YM48-N01-unnamed/index.md) | 乐?人和 | Yuanming Yuan | 1 |  |
+| [YM48-N01](YM48-N01-le-zai-renhe/index.md) | 乐在人和 Le Zai Renhe | Yuanming Yuan | 1 |  |
 | [YM48-N02](YM48-N02-unnamed/index.md) | 含?? | Yuanming Yuan | 1 |  |
 | [YM48-N03](YM48-N03-gong-men/index.md) | 宫门 Gong Men | Yuanming Yuan | 1 |  |
 | [YM49](YM49-ruofan-zhi-ge/index.md) | 若帆之阁 Ruofan zhi Ge | Yuanming Yuan | 0 |  |

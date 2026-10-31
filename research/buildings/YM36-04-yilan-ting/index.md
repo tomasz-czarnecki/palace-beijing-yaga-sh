@@ -10,14 +10,14 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 贻兰庭 Yilan Ting (S05, S01 · confidence B)
+- **Name:** 贻兰庭 Yilan Ting (S05, S01, S111 · confidence B)
 - **Written on the plan:** 贻兰亭 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** other (S05, S01 · confidence B)
-- **Destroyed:** 1860 (S05, S01)
+- **Garden:** Yuanming Yuan (S05, S01, S111)
+- **Type:** other (S05, S01, S111 · confidence B)
+- **Destroyed:** 1860 (S05, S01, S111)
 - **Position:** 40.00995, 116.30095. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 7.7 × 9.1 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 又北為貽蘭庭 [j82:21a] (S05)
+- **Note:** double-eave square pavilion (S111, post 125). (S05, S01, S111)
 - **Plan reader's note:** Plan 亭, text 庭, S111 贻兰庭 四方重檐亭. Label is west across the shore line. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8196, 2068 (S01) *(research copy, not public)*
@@ -34,7 +34,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E2015** (text, sure): 日下舊聞考 涵虚朗鉴、福海. 1780s (乾隆 敕撰) · j82:21a-21b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 涵虛朗鑑在福海東即雷峯夕照正宇其北稍西為惠如春又東北為尋雲榭又北為貽蘭庭為會心不逺其南為臨衆芳為雲錦墅為菊秀松㽔為萬景天全（明圓園册）臣等謹按涵虛朗鑑四十景之一額為皇上御書舊懸湖西澄虛榭後移置湖東雷峯夕照軒宇内惠如春尋雲榭諸額亦御書
+  East of 福海: 涵虛朗鑑, the main range of 雷峯夕照, with 惠如春, 尋雲榭, 貽蘭庭, 會心不逺, 臨衆芳, 雲錦墅, 菊秀松㽔 and 萬景天全. The plaque first hung at 澄虛榭 on the west shore and was moved here, which explains why the 1744 preface places the scene on the west.
+- **E2017** (description, sure): 老北京的记忆(125): 涵虚朗鉴 and 接秀山房, quoting 《圆明园百景图志》. 2017 · post 125 · S111. https://blog.sina.com.cn/s/blog_88741e0d0102x6gc.html
+  Gives scene sizes and hall by hall measures: 涵虚朗鉴 200 x 60 m, 接秀山房 250 x 50 m. 接秀山房 became 观澜堂 in late Jiaqing. 1855 interior drawing at the NLC. Notes the names of the east-shore scenes were swapped around 1744, and that some modern plans mislabel the halls.
+- **E2019** (description, sure): 圆明园福海东岸历史建筑方位考, 圆明园研究 78期. 2024-03-04 · xs/ktsb/202403/t20240304_4643616 · S338. https://www.yuanmingyuanpark.cn/xs/ktsb/202403/t20240304_4643616.html
+  Shows that plans disagree on which hall is which along the east shore of 福海: the 1936 Beiping survey, the 1979 He and Zeng plan and the 2010 百景图志 each label differently. Checking Yangshi Lei drawings and texts against the sites, it reads the surviving bases north to south as 贻兰亭, 会心不远, 寻云榭, 惠如春, 雷峰夕照, 临众芳, 云锦墅, 观澜堂. It notes no scientific dig has been done here.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 贻兰亭. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 涵虚朗鉴 (no picture of this hall found): see YM36
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

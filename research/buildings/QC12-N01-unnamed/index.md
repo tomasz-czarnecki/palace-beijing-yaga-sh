@@ -33,7 +33,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0698** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 澄心堂. 2020 edition · v4 p.337 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=340
+  On an island in the south lake of the western group, once 竹园, rebuilt 1815: a five-bay hall in two rolls with a hip-gable annex and side wings, plaques 垂虹榭 and 绮旭轩 on them. 湛清轩 stands on an islet north-east; a three-bay open hall 凌虚亭 stands on the hill across the lake.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled ?虹榭 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 澄心堂 (no picture of this hall found): see QC12
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

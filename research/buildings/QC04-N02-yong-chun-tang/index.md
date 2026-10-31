@@ -33,7 +33,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0587** (description, likely): 张宝章: 敷春堂 renamed 永春堂 under Daoguang. 2015 post · section 四 · S224. https://www.yuanmingyuanpark.cn/ymyyj/yj032/201504/t20150420_693218.html
+  After the repair of 1821-22, Daoguang is said to have renamed 敷春堂 to 永春堂 as the Empress Dowager's bedroom hall. No document cited.: 1832, 1856 and 1873 still write 敷春堂.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 永春堂, 4x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 敷春堂 (no picture of this hall found): see QC04
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

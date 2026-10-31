@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S43, S01)
 - **Position:** 40.01300, 116.29768. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 14.4 × 9.1 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 湛虛翠軒東數十武有闗帝廟 [j82:6a] (S05)
 - **Plan reader's note:** Label in the court. B0021, B0023 flank it. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 7020, 360 (S01) *(research copy, not public)*
@@ -35,7 +34,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E2334** (text, sure): 日下舊聞考 若帆之阁. 1780s (乾隆 敕撰) · j82:6a-6b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 北逺山村東北度石橋折而西為湛虛翠軒又西為耕雲堂又西為若帆之閣湛虛翠軒東數十武有闗帝廟（圓明園册）臣等謹按若帆之閣下層額曰御風泠然上額曰平臨天境與湛虛翠軒諸額皆御書
+  North-east of 北逺山村 over a stone bridge and west: 湛虛翠軒, 耕雲堂, the two-storey 若帆之閣 with a plaque per floor, and a 闗帝廟 a little to the east.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 关帝庙. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 若帆之阁 (no picture of this hall found): see YM49
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

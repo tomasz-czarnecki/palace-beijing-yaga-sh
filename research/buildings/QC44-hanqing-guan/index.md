@@ -23,7 +23,23 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0856** (text, guess): Q11 proposal: position hints for the Thirty Scenes. working note 2026-10-31 · S223 卷十八; S220; S42; S47 · S223. https://archive.org/details/02096508.cn/page/n52
+  Hints only. QC37 鏡綠亭: north of the 洲, so on the north shore of QC06 if 洲 means the island, near QC57 浩然亭 (guess). QC40 竹林院 = QC25 延寿寺 (S42 snippet). QC48 含淳堂 = QC18 生冬室 (S220). QC44 涵清館 may be QC07 涵秋館: the seasonal set 敷春, 清夏, 涵秋, 生冬 appears in the list as 敷春, 清夏, 涵清, 含淳 (our inference, C). QC29, QC30, QC31 on the 敷春堂 island (S42 snippet). QC52 般若觀 is also the name of an imperial boat at the 松风萝月 dock (S42 snippet): perhaps no building at all.
+- **E0663** (drawing, guess, search index only): 涵秋馆地盘图. entry cites 1805 and 1810; drawing date not seen · holder not seen · S42. https://www.mhymy.com/dasl/ysltd/7704.html
+  A long north-south island, about 200 by 60 m, about 1 ha, north-west of 敷春堂, lake to the east and north, with the hall in the north part.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

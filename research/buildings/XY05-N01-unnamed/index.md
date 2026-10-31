@@ -29,9 +29,24 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.73 × 8.7 m, eave 7 m, ridge 9.5 m
 - **Confidence:** C, all assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0046** (guess): 养雀笼西面 (圆明园铜版画册 / 西洋楼铜版画, plate 六 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-4.jpg
+
+  ![P0046](../../photos/images/P0046.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled small walled court north of 养雀笼, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 养雀笼: see XY05
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j83, the Qianlong poems on Kanripo, Delatour 1803, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

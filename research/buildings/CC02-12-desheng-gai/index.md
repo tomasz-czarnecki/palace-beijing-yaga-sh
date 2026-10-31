@@ -34,9 +34,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 172.3° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0409** (sure): 得胜概敞厅遗址 20130126.JPG (2013-01-26 16:20:05 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%BE%97%E8%83%9C%E6%A6%82%E6%95%9E%E5%8E%85%E9%81%97%E5%9D%80_20130126.JPG
+
+  ![P0409](../../photos/images/P0409.jpg)
+
+
+## Texts and drawings (1)
+
+- **E0063** (archaeology, sure): 澄波夕照 at 含经堂. c. 2011 blog, on the dig of 2001-03 · 系列15 · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100sxa7.html
+  After the dig of 2001-03 at 含经堂, the foundations of 澄波夕照, 得胜概 and a rock pavilion were restored in part. So the label on S01 has a site on the ground.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 得胜? (? marks an unread character), 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 含经堂: see CC02
 
 ## Open questions
 

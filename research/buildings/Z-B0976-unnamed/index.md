@@ -28,7 +28,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 5x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the nearest named compound, 如园, about 90 m away (no picture of this hall found): see CC18
+- Evidence for the whole garden, the three gardens (no picture of this hall found): see GARDEN-ALL
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

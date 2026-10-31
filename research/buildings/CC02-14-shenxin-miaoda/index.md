@@ -10,10 +10,10 @@ Changchun Yuan
 
 ## What we know
 
-- **Name:** 神心妙达 Shenxin Miaoda (S43, S48, S01 · confidence C)
+- **Name:** 神心妙达 Shenxin Miaoda (S43, S48, S01 · confidence B)
 - **Garden:** Changchun Yuan (S43, S48, S01)
-- **Type:** theatre (S43, S48, S01 · confidence C)
-- **Built:** 1814 改建 (S43) (S43, S48, S01)
+- **Type:** theatre (S43, S48, S01 · confidence B)
+- **Built:** 1814 改建 (S43); 1814 rebuilt as viewing hall (S43, S48, S01)
 - **Destroyed:** 1860 (S43, S48, S01)
 - **Position:** 40.00889, 116.30752. S01 guess (S01 · confidence C)
 - **Bays:** 5x2 on the plan (S43, S48, S01)
@@ -36,7 +36,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0058** (description, sure): 神心妙达 at 淳化轩. 2021 · section 2.2 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  In 1814 the 乐奏钧天 stage and dressing rooms went up on the east of 淳化轩, and 神心妙达 was rebuilt as the hall to watch from. The same words in S05 j81:35b are a quotation in the 水木明瑟 preface and have nothing to do with this hall.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 神心妙达, 5x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 含经堂 (no picture of this hall found): see CC02
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

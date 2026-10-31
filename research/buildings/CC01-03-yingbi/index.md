@@ -26,7 +26,20 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0007** (archaeology, sure): 《圆明园长春园宫门区遗址发掘报告》, as quoted in 北平旧梦 老北京的记忆(81). excavated 2001-04 to 2004-10 · blog post, quoting the report and 《圆明园百景图志》 · S112. https://blog.sina.com.cn/s/blog_88741e0d0102w60j.html
+  The dig of the 长春园 gate district found the layout still that of the Qianlong founding, with a strictly symmetrical axis of screen wall, 宫门, 牌楼门, 澹怀堂 Danhuai Tang and 众乐亭 Zhongle Ting, 220 m from screen wall to pavilion. It also found stone steps running into the lake north of 众乐亭, read as the imperial boat landing, and it corrects details of the 1930s Beiping survey map. Second-hand: a blog quoting the report.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 影壁. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 澹怀堂 (no picture of this hall found): see CC01
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

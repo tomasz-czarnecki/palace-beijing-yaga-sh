@@ -34,7 +34,31 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (5)
+
+- **E0088** (poem, sure): 静莲斋. 乾隆三十五年 (1770) · v3 p.252, under 含经堂; source ref 10-707 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=255
+  > 斋前本无池，无池安得莲。然则奚名斋，寓意有取焉。芳葩植瓶中，奇峰耸庭前。曰假假固非，谓真真实然。而此非了义，半提讵提全。绣佛供花龛，见叶贮珠编。时偶值几暇，净几几页翻。可以空五蕴，可以息万缘。静乃在斯乎，青莲口所宣。
+  Poem 静莲斋 by the Qianlong Emperor, 1770, filed by the editors under 含经堂.
+- **E0089** (poem, sure): 静莲斋. 乾隆三十六年 (1771) · v3 p.257, under 含经堂; source ref 10-857 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=260
+  > 一间静室避歊炎，瓶供莲华水贮奁。识得色香本无处，底须几上置楞严。
+  Poem 静莲斋 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0090** (poem, sure): 静莲斋. 乾隆三十八年 (1773) · v3 p.260, under 含经堂; source ref 11-436 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=263
+  > 缀景萧斋额静莲，不关玩物不参禅。即如周氏称君子，岂弗宜珍座席边。
+  Poem 静莲斋 by the Qianlong Emperor, 1773, filed by the editors under 含经堂.
+- **E0059** (description, likely): 嘉庆帝所题圆明园淳化轩诗考析 (尤李). 2023-08-16 post · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/0bc9dd46ac1b4792b33bab6f8a9eb883.htm
+  Through Jiaqing's poems. It dates the addition of 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼 behind 含经堂 to 1770, when the compound reached full size. The 重刻淳化阁帖 stones were set in the galleries in front of 淳化轩.
+- **E0057** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 含经堂. 2020 edition · v3 p.244 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
+  The largest group in this garden, finished 1747, rebuilt 1770 with 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼. 含经堂 is a seven-bay double-eaved glazed hall; 霞翥楼 mirrors 梵香楼 and, with the inner plaque 味腴书室, held the 四库全书荟要, which identifies our 味腴书屋. A stage was added east of 淳化轩 in 1814. Guards were still posted after 1860.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 静莲斋, 5x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 含经堂 (no picture of this hall found): see CC02
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

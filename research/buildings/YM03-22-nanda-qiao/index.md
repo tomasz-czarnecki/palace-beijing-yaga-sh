@@ -21,9 +21,22 @@ Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0367** (sure): Nanda Bridge in Yuanmingyuan Ruins 20130201.JPG (2013-02-01 16:19:29 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Nanda_Bridge_in_Yuanmingyuan_Ruins_20130201.JPG
+
+  ![P0367](../../photos/images/P0367.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 九洲清晏: see YM03
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

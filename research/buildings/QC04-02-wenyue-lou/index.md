@@ -10,15 +10,16 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 问月楼 Wenyue Lou (S06, S01 · confidence B)
-- **Garden:** Qichun Yuan (S06, S01)
-- **Type:** tower (S06, S01 · confidence B)
-- **Destroyed:** 1860 (S06, S01)
+- **Name:** 问月楼 Wenyue Lou (S06, S01, S361 · confidence B)
+- **Garden:** Qichun Yuan (S06, S01, S361)
+- **Type:** tower (S06, S01, S361 · confidence B)
+- **Destroyed:** 1860 (S06, S01, S361)
 - **Position:** 40.00176, 116.30604. S01 sure (S01 · confidence B)
-- **Bays:** 5x1 on the plan (S06, S01)
+- **Bays:** 5, on two storeys in the texts / 5x1 on the plan (S06, S01, S361)
 - **Size in the inventory:** 18.2 × 10.3 m. S01 plan px / hall scale (S01)
-- **Where the text puts it:** 宫廷区 依次 ... 后殿 问月楼 (S06) (S06, S01) *(research copy, not public)*
-- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). (S06, S01)
+- **Storeys:** 2 (S06, S01, S361)
+- **Where the text puts it:** 宫廷区 依次 ... 后殿 问月楼 (S06) (S06, S01, S361) *(research copy, not public)*
+- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). (S06, S01, S361)
 - **Plan reader's note:** Label south of hall; yard behind it. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 9599, 6531 (S01) *(research copy, not public)*
@@ -35,10 +36,50 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (10)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0600** (poem, sure): 问月楼. 嘉庆六年 (1801) · v4 p.201, under 敷春堂; source ref 2-73 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=204
+  > 层楼临渌沼，俯鉴浪花涟。问月遐心结，披云灏景延。观文搜典籍，察理悟鱼鸢。凭槛舒遥目，佳音盼陕川。
+  Poem 问月楼 by the Jiaqing Emperor, 1801, filed by the editors under 敷春堂.
+- **E0602** (poem, sure): 问月楼. 嘉庆九年 (1804) · v4 p.217, under 敷春堂; source ref 3-53 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=220
+  > 佳境四时宜，小春调律琯。层楼豁吟眸，庭院旭光满。平阪草知寒，曲栏菊趁暖。白云漾疏林，渐觉密叶短。雁字写遥峰，霞天觅侣伴。黄绵乐和融，心神自安坦。
+  Poem 问月楼 by the Jiaqing Emperor, 1804, filed by the editors under 敷春堂.
+- **E0603** (poem, sure): 问月楼 (绮春园三十景). 嘉庆十年 (1805) · v4 p.177, under 绮春园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=180
+  > 冰轮万古丽天衢，圆缺阴晴景各殊。若使清光常遍满，自然昏夜不模糊。如恒漫拟银蟾窟，有象争攀仙桂株。凭槛拈题舒逸兴，岂同诗客劝提壶。
+  One of the Thirty Scenes of 绮春园 by the Jiaqing Emperor, 1805 (S58): the poem 问月楼.
+- **E0605** (poem, sure): 问月楼. 嘉庆十二年 (1807) · v4 p.223, under 敷春堂; source ref 3-346 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=226
+  > 即境额楼檐，高出苍松表。虚窗度南薰，静影摇丛筱。平湖府碧漪，汎汎波光㵿。浚淤遍洁清，大圆印心皎。乃进知修功，有为能息扰。超然物外游，放眼溪山小。
+  Poem 问月楼 by the Jiaqing Emperor, 1807, filed by the editors under 敷春堂.
+- **E0636** (poem, sure): 凤麟洲: 嘉庆十二年 poem of the Jiaqing Emperor. 嘉庆十二年 (1807), date from the compilation · p.302 item (4), under 凤麟洲 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=302
+  > 避暑无逾此，芳洲舟可通。回廊环曲折，虚牖启玲珑。庭印一奁镜，窗含四面风。远峰清影蘸，茂树碧阴充。月问南楼上，亭开比渚崇（问月楼在洲之南，镜绿亭在洲之北）。虹桥连岸右， 松嶂峙池东。胜境诚难绘，游心兴岂穷。建新仍旧境，尚俭念卑宫。
+  Jiaqing describes the island in 1807: reachable by boat, winding galleries, a court pool, a rainbow bridge, a pine crag east; his note puts 问月楼 south and 镜绿亭 north of the island, which fits the 敷春堂 group lying south of it. Built new on the old site, and frugally, he says.
+- **E0601** (poem, likely): 问月楼晴眺. 嘉庆七年 (1802) · v4 p.204, under 敷春堂; source ref 2-114 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=207
+  > 连日凝阴未蒙泽，凭栏晴景漾芳津。月圆月缺恒终古，花谢花开总在春。尚待新膏通宿润，渐看广陌扬轻尘。惭无善政救饥馑，虔望时和旸雨匀。
+  Poem 问月楼晴眺 by the Jiaqing Emperor, 1802, filed by the editors under 敷春堂.
+- **E0604** (poem, likely): 登问月楼即目. 嘉庆十一年 (1806) · v4 p.221, under 敷春堂; source ref 3-230 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=224
+  > 拾级登楼舒远目，风来极浦畅披襟。田田翠盖清芬细，缕缕绿杨密幄深。浴鹭闲窥荷岸侧，游鳞戏跃苇洲浔。旷观咸若皆生趣，长养静孚造化心。
+  Poem 登问月楼即目 by the Jiaqing Emperor, 1806, filed by the editors under 敷春堂.
+- **E0524** (description, sure): 张宝章: Qichun Yuan under Jiaqing and Daoguang. 《圆明园研究》第32期 · sections 三, 四 · S224. https://www.yuanmingyuanpark.cn/ymyyj/yj032/201504/t20150420_693218.html
+  Axis from the great gate in the south-east: 勤政殿, 中和堂, 敷春堂, up to 问月楼 on the lake shore. In the north a large water split by a causeway, with 凤麟洲 on an island in the east part; south of the small western lake 展诗应律, 庄严法界, 生冬室, 春泽斋, 四宜书屋. On two southern islands 畅和堂 and 绿满轩, with 澄心堂 between 畅和堂 and 正觉寺. This also gives QC09 庄严法界 a rough position (Q11).
+- **E0588** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 敷春堂. 2020 edition · v4 p.200 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=203
+  Begun 1801 north of 迎晖殿: a five-bay 工字 hall, with 集禧堂 before it and the five-bay, two-storey 问月楼 behind. The note sets out the rest: 凌虚阁 east of the rear hall, 翠合轩 a small chapel behind it, 澄光榭 south-east of 问月楼, 蔚藻堂 in a court to the south-west, 镜绿亭 south of that, 蔼芳圃 the west gate, 淙玉轩 and 舒卉轩 further south. Some buildings outlasted 1860 and the 1873 repair plan, then were lost around 1900, say the editors.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 问月楼, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 敷春堂 (no picture of this hall found): see QC04
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 
+- Q11: Qichun Yuan's thirty scenes
 - Q12: 敷春堂
 
 <!-- generated:end -->

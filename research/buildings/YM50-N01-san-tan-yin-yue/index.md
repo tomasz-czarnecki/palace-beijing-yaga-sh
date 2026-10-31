@@ -34,7 +34,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E2342** (text, sure): 日下舊聞考 三潭印月、天宇空明. 1780s (乾隆 敕撰) · j82:13b-14a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 方壺勝境西北為三潭印月又西北度橋為天宇空明其後為澄景堂堂東為清曠樓西為華照樓（圓明園册）臣等謹按三潭印月天宇空明諸額皆皇上御書
+  North-west of 方壺勝境: 三潭印月; then over a bridge 天宇空明 with 澄景堂, 清曠樓 and 華照樓 behind.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 三潭印月. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 三潭印月 (no picture of this hall found): see YM50
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

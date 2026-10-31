@@ -34,7 +34,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E2318** (archaeology, sure): 紫碧山房 2017, 新京报 via 中新网. 2017-12-15 · passage on 紫碧山房 · S132. https://www.chinanews.com.cn/sh/2017/12-15/8400775.shtml
+  紫碧山房 Zibi Shanfang, the highest point of the garden in the far north-west, yielded a service house, gate, the halls 紫碧山房, 含余清 and 澄素楼, a landing, stone bridge, walls, roads, channel and hill. Remains absent from the documents also appeared: an earlier wall footing with its apron, a retaining wall of the hill, a semicircular landing, a drain and a stone path.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 宫门, 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 紫碧山房 (no picture of this hall found): see YM48
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

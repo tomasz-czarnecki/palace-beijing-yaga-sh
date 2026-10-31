@@ -33,7 +33,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0728** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 畅和堂. 2020 edition · v4 p.324 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=327
+  South-west corner, by the Hanlin garden 澄怀园: from 1732 Ertai's 晚香园, then Yin Jishan's 寻春园, derelict after 1770, rebuilt 1813. Gate 松路花龛 of three bays, main hall five bays in two rolls with side halls 澄霞宇 and 开襟馆, and a square pavilion 森翠. West of its wall is the Hanlin garden 澄怀园.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 松路?? (? marks an unread character), 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 畅和堂 (no picture of this hall found): see QC14
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

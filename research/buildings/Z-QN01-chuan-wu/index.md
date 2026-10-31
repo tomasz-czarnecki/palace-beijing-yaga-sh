@@ -31,7 +31,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E2397** (description, likely, search index only): 圆明三园中的船坞. not seen · mhymy xsjl/6203 · S42. https://www.mhymy.com/xsjl/6203.html
+  Nine docks across the three gardens, two in Qichun. 松风萝月 dock on the north of the back lake, facing east, boats 般若观 and 浮汉槎. 喜雨山房 dock on the west of the back lake, on a north-south line, joining the long river to the south. Z-QN01, Z-QN02 fit by position only; which is which is ours.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 船坞, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this hall found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

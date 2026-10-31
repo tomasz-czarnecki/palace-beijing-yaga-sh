@@ -32,11 +32,26 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 85.9° from north
 - **Confidence:** C, assumed
 
-## Pictures (3)
+## Pictures (2)
 
-- P0059: 线法山东门 Xianfashan dongmen, east gate of the Perspective Hill (圆明园铜版画册, plate 19 of 20) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-16.jpg
-- P0179: Ruinerna efter Östporten till Xianfa-kullen i det gamla sommarpalatset (000611, F.2603) (1920 (holder); 1900-1920 (Commons)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/195708
-- P0225: Moore negatives of the European palaces, Royal BC Museum MS-3171 (13 negatives, 12 views, c.1875 to early 1880s) (perhaps c.1875; early 1880s (visualisingchina.net)). https://search-bcarchives.royalbcmuseum.bc.ca/c-f-moore-fonds
+- **P0059** (sure): 线法山东门 (圆明园铜版画册 / 西洋楼铜版画, plate 十九 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-16.jpg
+
+  ![P0059](../../photos/images/P0059.jpg)
+
+- **P0225** (likely): Moore negatives of the European palaces, Royal BC Museum MS-3171 (13 negatives, 12 views, c.1875 to early 1880s) (perhaps c.1875; early 1880s (visualisingchina.net)). https://search-bcarchives.royalbcmuseum.bc.ca/c-f-moore-fonds Research-only: link card.
+
+## Texts and drawings (3)
+
+- **E0985** (description, sure): Plates XVI to XIX: 观水法, 线法山门, 线法山, 螺蛳牌楼. 1786-1803 · pp.184-185, Plates XVI-XIX · S258. https://archive.org/details/BIUSante_40644
+  > Montagne factice sur laquelle il y a un Ting-tsé,
+  XVI throne facing the jets. XVII triumphal arch, the most Greek. XVIII an artificial hill with a 亭 on top. XIX another triumphal arch, less sober.
+- **E0990** (description, sure): Engraving 19: 线法山东门 / 螺蛳牌楼. 1934 · p.159 · S02. https://archive.org/details/historyofpekings00malo
+  > was a peculiar gateway of three arches with both side passages leading through side rooms, and with decorations of vine-like trees carved even over the faces of the pillars on the outside of the building.
+  Three-arched gate, side passages through side rooms, carved vine ornament on the pillars.
+- **E0942** (description, sure): 万花阵 and 花园门; 线法山 and 螺蛳牌楼, yaffin 系列02, 13. c. 2011 · captions to the 20 engravings · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100svq5.html
+  Lead: the maze gate 花园门 is shaped like a Western clock case with two brass doors; the maze 89 x 59 m, walls about 1.2 m high and over 1,600 m long; the hill 线法山 has a gate each side, the east one called 螺蛳牌楼. Check against the engravings.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 螺蛳牌楼. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 

@@ -54,9 +54,9 @@ def main():
         page = json.loads(text)
         if any(x.get("private") or x["label"] in PRIVATE_LABELS for x in page["facts"]):
             problems.append(f"{f.name}: a private fact")
-        if "/_local/" in text or "raw/" in text or any("image" in p or "thumb" in p for p in page["photos"]):
-            problems.append(f"{f.name}: a local path or an image")
-        if not page["sources"] and page["kind"] != "gate":
+        if "/_local/" in text or "research/raw" in text or any(p.get("link_only") and ("image" in p or "thumb" in p) for p in page["photos"]):
+            problems.append(f"{f.name}: a local path, or an image of a research-only picture")
+        if not page["sources"] and page["kind"] not in ("gate", "garden"):
             problems.append(f"{f.name}: no sources")
     print(f"{len(clickable)} clickable objects, {sum(p.endswith('no page') for p in problems)} without a page; {len(folders)} page folders, {len(public_files)} public files checked; generator idempotent: {'generator' not in ' '.join(problems)}")
     for p in problems:

@@ -32,9 +32,24 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0052** (likely): 海晏堂东面 (圆明园铜版画册 / 西洋楼铜版画, plate 十二 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-18.jpg
+
+  ![P0052](../../photos/images/P0052.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 3x4 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 海晏堂: see XY08
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

@@ -23,7 +23,37 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (7)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0910** (poem, sure): 来薰室. 嘉庆六年 (1801) · v4 p.171, under 绮春园; source ref 2-82 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=174
+  > 习习南熏静里来，纱棂洞启八窗开。招延爽籁中庭敞，扇被清风广厦恢。念系小民怨暑雨，忧深余孽鼓氛埃。西南何日方消劫，筹笔惭非将将才。
+  Poem 来薰室 by the Jiaqing Emperor, 1801, filed by the editors under 绮春园.
+- **E0911** (poem, sure): 来薰室 (绮春园三十景). 嘉庆十年 (1805) · v4 p.183, under 绮春园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=186
+  > 赤伞烘云畏赫炎，南薰习习入疏帘。消除溽暑凉生簟，披拂轻飔爽接檐。庭际禽声林外啭，阶前花馥座中添。心清身逸居佳境，轸念嚣尘遍里阎。
+  One of the Thirty Scenes of 绮春园 by the Jiaqing Emperor, 1805 (S58): the poem 来薰室.
+- **E0912** (poem, sure): 来薰室. 嘉庆十一年 (1806) · v4 p.186, under 绮春园; source ref 3-231 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=189
+  > 几椽书屋临芳渚，习习南薰入牖来。棲叶新蝉噪密树，寻巢好鸟啄轻苔。浇诗佳茗一瓯瀹，延爽疏棂四面开。妙景天成足吟眺，兰桡又溯碧溪隈。
+  Poem 来薰室 by the Jiaqing Emperor, 1806, filed by the editors under 绮春园.
+- **E0913** (poem, sure): 来薰室. 嘉庆十三年 (1808) · v4 p.187, under 绮春园; source ref 4-49 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=190
+  > 书堂启平原，四面清溪绕。波光叠轻漪，幽芬布曲沼。绿幄荫葱茏，南薰来树杪。纱疏新爽延，尽屏尘壒扰。披襟暑顿消，游心超物表。晴霞绘长空，朗映远山皎。
+  Poem 来薰室 by the Jiaqing Emperor, 1808, filed by the editors under 绮春园.
+- **E0914** (poem, sure): 来薰室. 嘉庆十五年 (1810) · v4 p.188, under 绮春园; source ref 4-260 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=191
+  > 室小轩庭敞，南薰静里来。花宜沿砌种，窗必向林开。帘影遥分竹，炉烟低罥苔。片时契真赏，放棹碧溪隈。
+  Poem 来薰室 by the Jiaqing Emperor, 1810, filed by the editors under 绮春园.
+- **E0915** (poem, sure): 来薰室. 嘉庆十六年 (1811) · v4 p.189, under 绮春园; source ref 4-355 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=192
+  > 茗事初探讨，南薰习习来。清声摇砌竹，天籁下庭槐。帘影笼红药，炉香印碧苔。燕居观物候，长养溥陈荄。
+  Poem 来薰室 by the Jiaqing Emperor, 1811, filed by the editors under 绮春园.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

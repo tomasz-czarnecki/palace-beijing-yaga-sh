@@ -48,6 +48,48 @@
     .ph-link .ph-title { font-weight: 600; }
     .ph-meta { color: #6b6256; }
     .ph-link a { display: inline-block; margin-top: 3px; }
+    #bpanel h4 { margin: 10px 0 5px; font-size: 12px; font-weight: 600; color: #4a4238; }
+    .ph-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 8px; margin-bottom: 6px; }
+    .ph { margin: 0; min-width: 0; }
+    .ph.big { grid-column: 1 / -1; }
+    .ph-open { display: block; width: 100%; padding: 0; border: 0; background: #e4dccf; cursor: zoom-in; }
+    .ph-open img { display: block; width: 100%; height: auto; }
+    .ph:not(.big) .ph-open img { aspect-ratio: 4 / 3; object-fit: cover; }
+    .ph-open:focus-visible { outline: 2px solid #DB6543; outline-offset: 2px; }
+    .ph figcaption { padding-top: 4px; font-size: 11.5px; line-height: 1.3; overflow-wrap: anywhere; }
+    .ph .ph-title { font-weight: 600; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+    .ph-credit { color: #7a7064; font-size: 10.5px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+    .ph-shows { margin: 3px 0; }
+    .ph-local { display: block; width: 100%; margin: 4px 0 2px; }
+    .conf { padding: 0 4px; border-radius: 2px; background: #6b6256; color: #fff; font-size: 10.5px; }
+    .conf.sure { background: #1d6b3f; } .conf.guess { background: #8a2d1f; }
+    .ev { margin: 0 0 8px; padding: 6px 8px; border: 1px solid #e4dccf; border-radius: 3px; background: #faf6ee; font-size: 12px; overflow-wrap: anywhere; }
+    .ev .ph-title { font-weight: 600; }
+    .ev-top { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 2px; }
+    .ev-kind { padding: 0 5px; border-radius: 2px; background: #8a4530; color: #fff; font-size: 10.5px; }
+    .ev-kind.drawing, .ev-kind.plan { background: #2f6275; } .ev-kind.archaeology { background: #6f5a2a; } .ev-kind.reconstruction { background: #6b6256; } .ev-kind.description { background: #52604a; }
+    .ev-index { padding: 0 5px; border: 1px solid #b8ab97; border-radius: 2px; color: #6b6256; font-size: 10.5px; }
+    .ev-sum { margin: 4px 0; }
+    .ev-text { margin: 4px 0; padding-left: 8px; border-left: 2px solid #d9cdbb; white-space: pre-line; font-size: 12.5px; line-height: 1.55; color: #2c261f; }
+    .ev details > summary, .ev-more > summary { cursor: pointer; color: #6b4a3a; }
+    .ev-more > summary { margin-bottom: 6px; font-size: 12px; }
+    .bp-searched { margin: 10px 0 0; padding: 6px 8px; background: #f3ecdf; border-radius: 3px; font-size: 11.5px; color: #4a4238; }
+    .bp-fallback { background: #f8f3ea; margin: 0 -14px; padding: 12px 14px 4px !important; }
+    .bp-fallback h3 { text-transform: none !important; letter-spacing: 0 !important; font: 600 12.5px 'Geist', system-ui, sans-serif !important; }
+    #lightbox { position: fixed; inset: 0; z-index: 2000; background: #120f0cf2; display: flex; align-items: stretch; color: #F5EEE2; font: 13px/1.45 'Geist', system-ui, sans-serif; }
+    #lightbox[hidden] { display: none; }
+    #lb-stage { flex: 1 1 auto; min-width: 0; display: flex; align-items: center; justify-content: center; padding: 14px; }
+    #lb-img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    #lb-caption { flex: 0 0 340px; overflow-y: auto; padding: 56px 18px 18px; border-left: 1px solid #2F2720; background: #17130F; overflow-wrap: anywhere; }
+    #lb-caption h2 { font-size: 15px; line-height: 1.3; font-weight: 600; margin: 0 0 12px; }
+    #lb-caption .row { margin-bottom: 8px; }
+    #lb-caption .k { display: block; font: 10px ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; color: #A1927D; }
+    #lb-caption a { color: #F0A58C; }
+    #lb-caption .count { margin-top: 10px; color: #A1927D; font-size: 12px; }
+    .lb-btn { position: absolute; top: 10px; min-width: 40px; height: 36px; padding: 0 10px; border: 1px solid #A1927D; border-radius: 3px; background: #17130F; color: #F5EEE2; font-size: 14px; cursor: pointer; }
+    .lb-btn:disabled { opacity: .35; cursor: default; }
+    #lb-close { right: 14px; } #lb-next { right: 66px; } #lb-prev { right: 114px; }
+    @media (max-width: 760px) { #lightbox { flex-direction: column; } #lb-stage { flex: 0 0 48%; padding: 52px 8px 8px; } #lb-caption { flex: 1 1 auto; border-left: 0; padding-top: 12px; } }
     #back, #walk-exit { position: fixed; top: 58px; left: 50%; transform: translateX(-50%); z-index: 800; padding: 6px 12px; border: 1px solid #17130F; border-radius: 3px; background: #17130F; color: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; cursor: pointer; }
     body.panel-open #back { left: calc((100vw - min(400px, 100vw)) / 2); }
     #back[hidden], #walk-exit[hidden] { display: none; }
@@ -102,6 +144,13 @@
     <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, levels from today's ground. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know.</div>
   </div>
   <aside id="bpanel" aria-label="Building" hidden></aside>
+  <div id="lightbox" role="dialog" aria-label="Picture" hidden>
+    <div id="lb-stage"><img id="lb-img" alt=""></div>
+    <div id="lb-caption"></div>
+    <button class="lb-btn" id="lb-prev" type="button" aria-label="Previous picture">&larr;</button>
+    <button class="lb-btn" id="lb-next" type="button" aria-label="Next picture">&rarr;</button>
+    <button class="lb-btn" id="lb-close" type="button" aria-label="Close">Esc</button>
+  </div>
   <button id="back" type="button" hidden>Back to overview</button>
   <button id="walk-exit" type="button" hidden>Stop walking</button>
   <div id="walk-tip" hidden>W A S D or arrows to walk · drag to look · Shift to hurry · Esc to stop</div>

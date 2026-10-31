@@ -19,7 +19,7 @@ Yuanming Yuan
 - **Storeys:** 2 (S43, S01)
 - **Roof:** 重檐歇山 (S43) (S43, S01)
 - **Where the text puts it:** 恒春堂 (S43) (S43, S01) *(research copy, not public)*
-- **Note:** 坐南朝北, 四面各三间 (S43). Date not stated; used 1819, 1839. (S43, S01)
+- **Note:** 坐南朝北, 四面各三间 (S43). Date not stated; used 1819, 1839. roof: hip-and-gable 歇山, double eaves (S43, section 1.8). (S43, S01)
 - **Plan reader's note:** 壶中仙籁戏台: square stage inside the court north of 恒春堂, B0425-27 row beyond. rect=36,30,0 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 2048, 2572 (S01) *(research copy, not public)*
@@ -37,7 +37,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1501** (description, sure): 壶中仙籁 戏台 at 恒春堂. 2021 · section 1.8 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  Two-storey stage in a court of 恒春堂, hip-and-gable with double eaves, facing north, three bays each way, plaques 天上云璈 below or above and 壶中仙籁; five bays of dressing rooms in two rolls behind it. Plays on record 1819 and 1839.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 武陵春色 (no picture of this hall found): see YM14
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

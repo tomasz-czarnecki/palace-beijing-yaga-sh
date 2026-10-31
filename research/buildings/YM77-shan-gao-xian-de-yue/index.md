@@ -27,9 +27,20 @@ Yuanming Yuan
 - YM77-B0416
 - YM77-N01 山高先得月
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0487** (guess): 圆明园内的新修建筑 - Refurbished Buildings in Yuanmingyuan Park - 2013.03 - panoramio.jpg (Taken on 13 March 2013 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E5%86%85%E7%9A%84%E6%96%B0%E4%BF%AE%E5%BB%BA%E7%AD%91_-_Refurbished_Buildings_in_Yuanmingyuan_Park_-_2013.03_-_panoramio.jpg
+
+  ![P0487](../../photos/images/P0487.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 山高先得月. https://artmuseum.princeton.edu/collections/objects/138657
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

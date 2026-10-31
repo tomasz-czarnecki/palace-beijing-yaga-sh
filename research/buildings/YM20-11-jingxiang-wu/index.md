@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Position:** 40.00795, 116.28882. S01 guess (S01 · confidence C)
 - **Bays:** 2x1 on the plan (S05, S01)
 - **Size in the inventory:** 6.2 × 5.4 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 西偏為静香屋 [j81:29a] (S05)
 - **Plan reader's note:** 静香屋: 西偏. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 2952, 2392 (S01) *(research copy, not public)*
@@ -34,7 +33,27 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1633** (text, sure): 日下舊聞考 澹泊宁静. 1780s (乾隆 敕撰) · j81:29a-30a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 日天琳宇迤東稍南稻田彌望河水周環中有田字式殿凡四門其東北面皆有樓北樓正宇為澹泊寧静東為曙光樓殿之東門外為翠扶樓西門外別垣内宇為多稼軒南向七楹其東臨稻畦者前為觀稼軒後為怡情悦目為稻香亭又東稍北為溪山不盡為蘭溪隱玉多稼軒西池南為水精域西偏為静香屋為招鶴磴池後東北為寸碧西北為引勝正北為互妙樓（圓明園冊）臣等謹按澹泊寧静四十景之一額為皇上御書南門額曰亦復佳西門額曰得山水趣北廊後額曰麥雨稻風與曙光樓額皆御書多稼軒觀稼軒怡情悅目稻香亭溪山不盡蘭溪隱玉諸額皆世宗御書多稼軒聨曰風裊爐烟移晝漏月臨書幌正宵衣又曰厥惟艱哉載芟載柞籌穡事亦既勤止曰暘曰雨驗農時皆皇上御書
+  Rice fields ringed by water, with a hall on a 田 plan of four gates at the centre: 澹泊寧静. Around it 曙光樓, 翠扶樓, and a western court with the seven-bay 多稼軒, 觀稼軒, 怡情悦目, 稻香亭, 溪山不盡, 蘭溪隱玉, 水精域, 静香屋, 招鶴磴, 寸碧, 引勝 and 互妙樓.
+- **E1654** (poem, sure): 静香屋. 乾隆三十五年 (1770) · v2 p.193, under 映水兰香 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=196
+  > 精舍避风还向阳，虽然近水了无凉。盆梅几朵才舒蕊，此是卉中真静香。
+  Poem 静香屋 by the Qianlong Emperor, 1770, filed by the editors under 映水兰香.
+- **E1655** (poem, sure): 静香屋. 乾隆五十六年 (1791) · v2 p.195, under 映水兰香 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=198
+  > 书屋临溪方十尺，初春冰冻不波呈。田田未吐水华远，真是静香善副名。
+  Poem 静香屋 by the Qianlong Emperor, 1791, filed by the editors under 映水兰香.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 2x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 澹泊宁静 (no picture of this hall found): see YM20
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

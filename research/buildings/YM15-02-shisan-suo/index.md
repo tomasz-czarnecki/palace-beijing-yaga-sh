@@ -35,7 +35,20 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1536** (archaeology, likely): 十三所: surveyed 1994. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html
+  The 1994 survey names 十三所 as one of three sites probed, with 藻园 and 山高水长. The paying part of the report holds the results: not read. The same words in the texts row are tied to YM73 and YM15; here to the hall YM15-02.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 十三所. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 山高水长 (no picture of this hall found): see YM15
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

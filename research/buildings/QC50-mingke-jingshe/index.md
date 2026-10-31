@@ -23,7 +23,37 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (7)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0904** (poem, sure): 茗柯精舍. 嘉庆七年 (1802) · v4 p.172, under 绮春园; source ref 2-107 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=175
+  > 妙选芳芽品玉泉，竹垆妥置及时煎。能消尘念生清爽，两腋风来觉静便。
+  Poem 茗柯精舍 by the Jiaqing Emperor, 1802, filed by the editors under 绮春园.
+- **E0905** (poem, sure): 茗柯精舍. 嘉庆十年 (1805) · v4 p.184, under 绮春园; source ref 3-164 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=187
+  > 玉泉味甘芳，活火煎竹鼎。雨前贡浙西，嫩芽试佳茗。鱼蟹眼浮波，旗枪茁细梃。一瓯润诗肠，幽芬砚席迥。得暇偶怡情，岂同吟客等。心清理万几，镜辉常炯炯。
+  Poem 茗柯精舍 by the Jiaqing Emperor, 1805, filed by the editors under 绮春园.
+- **E0906** (poem, sure): 茗柯精舍 (绮春园三十景). 嘉庆十年 (1805) · v4 p.183, under 绮春园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=186
+  > 珍藏佳茗贮都篮，试煮玉泉味至甘。嫩叶欣传龙井产，枯禅漫向赵州参。浇诗雅合一瓯足，解渴何须七椀贪。悦性养和消暑气，凉飔两腋觉清酣。
+  One of the Thirty Scenes of 绮春园 by the Jiaqing Emperor, 1805 (S58): the poem 茗柯精舍.
+- **E0907** (poem, sure): 茗柯精舍. 嘉庆十三年 (1808) · v4 p.187, under 绮春园; source ref 4-49 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=190
+  > 湘帘筠几置都篮，茗事宜从午昼探。鱼蟹泛波佳候转，旗枪沸鼎淡芬含。碧浮嫩荚芽轻漾，清挹名泉味至甘。试品半瓯烦暑滌，岂同七椀玉川耽。
+  Poem 茗柯精舍 by the Jiaqing Emperor, 1808, filed by the editors under 绮春园.
+- **E0908** (poem, sure): 茗柯精舍. 嘉庆十四年 (1809) · v4 p.188, under 绮春园; source ref 4-139 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=191
+  > 几闲涤心虑，座右置都篮。芳浥旗枪列，候先鱼蟹探。茗抽龙井美，水煮玉泉甘。祛暑胜瓜李，无须七椀贪。
+  Poem 茗柯精舍 by the Jiaqing Emperor, 1809, filed by the editors under 绮春园.
+- **E0909** (poem, sure): 茗柯精舍. 嘉庆十五年 (1810) · v4 p.188, under 绮春园; source ref 4-260 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=191
+  > 精舍在川上，趁闲偶一过。名泉煮活火，佳茗掇柔柯。顿觉暑氛滌，平添吟思多。清风齐入牖，延爽乐安和。
+  Poem 茗柯精舍 by the Jiaqing Emperor, 1810, filed by the editors under 绮春园.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

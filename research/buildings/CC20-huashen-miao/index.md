@@ -33,7 +33,22 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E0376** (description, sure): 长春园 花神庙 (S47 section 2.17). 2012, citing archive and Qing texts · p.117; table row 29 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  South-west across the water from 海岳开襟: by Yangshi Lei plans three bays with a surrounding gallery. Date unknown. The only such shrine in Changchun Yuan.
+- **E0500** (description, likely): 贾珺, 圆明三园中的祀庙祠宇建筑探析, 故宫博物院院刊 2012(3). 2012 · PDF, earlier fetch · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  A survey of the 33 shrines of the three gardens, with dates and forms: ancestor halls, flower god and dragon king temples, 河神庙, 关帝庙. The first thing to read for small temples with little else. Assigned here by type, not checked per temple.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 花神庙, 2x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

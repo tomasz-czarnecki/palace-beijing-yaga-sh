@@ -32,7 +32,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0194** (text, sure): 日下舊聞考 平畴交远风. 1780s (乾隆 敕撰) · j83:12b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 愛山樓東北為平疇交逺風南為轉湘帆（長春園册）臣等謹案平疇交逺風宇後額曰平皋綠浄聯曰畏民碞其難其慎敕天命惟㡬惟康
+  North-east of 愛山樓: 平疇交逺風, with 轉湘帆 to the south and a rear plaque 平皋綠浄.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 平畴交远风 hall, 9x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 平畴交远风 (no picture of this hall found): see CC11
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

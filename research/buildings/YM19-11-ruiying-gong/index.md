@@ -16,7 +16,6 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.00826, 116.28606. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 7.2 × 4.8 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 又東別院為瑞應宫 [j81:27b] (S05)
 - **Note:** 龍神 [j81:28b]; front 仁應殿, middle 和感殿, rear 晏安殿. (S05, S01)
 - **Plan reader's note:** Label south of the gate. Gate rect=30,16,0 (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -34,7 +33,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1609** (text, sure): 日下舊聞考 日天琳宇. 1780s (乾隆 敕撰) · j81:27a-28b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 彚芳書院之南為日天琳宇西前樓下之正宇也其制有中前樓中後樓上下各七楹有西前樓西後樓上下各七楹前後樓間穿堂各三楹中前樓南有天橋與樓相屬天橋東南重簷八方者為燈亭西前樓南為東轉角樓又西稍南為西轉角樓中前樓之東垣内八方亭為楞嚴壇又東別院為瑞應宫前為仁應殿中為和感殿後為晏安殿（圓明園册）臣等謹按日天琳宇四十景之一額為皇上御書其規制皆仿雍和宫後佛樓式中前樓上奉闗帝世宗御書額曰極樂世界皇上御書額曰赫聲濯靈聨曰千載丹心扶大義兩間正氣䕶皇圖西前樓上奉玉皇大帝世宗御書額曰一天喜色皇上御書額曰總持元化聨曰地載無私宏槖鑰乾元資始肇綱維此外凡樓宇上下皆供佛像及諸神位瑞應宫諸殿皆祀龍神
+  South of 彚芳書院, a temple group copied from the rear Buddha tower of 雍和宫 Yonghe Gong: paired front and rear towers of seven bays on two floors joined by passages, a 'sky bridge', an octagonal double-eaved lantern pavilion, 楞嚴壇, and 瑞應宫 with three halls to the dragon gods. Guandi and the Jade Emperor occupy the upper floors.
+- **E0499** (description, sure): 三类 形制, 山墙 红色 (S47 section 3). 2012, citing archive and Qing texts · pp.121-123 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  S47 sorts the shrines in three types by form and notes that on the album the gable walls of seven of them are painted red, against grey or white on other buildings: 瑞应宫, 太岁坛, the 杏花春馆 earth shrine, the 北远山村 and 涵虚朗鉴 dragon shrines, 广育宫 and 多宝阁. A colour rule usable for the models.
+- **E1611** (description, sure): 日天琳宇 瑞应宫, 雷神殿, 关帝, 玉皇, 太岁坛, 三神殿 (S47 section 2.4). 2012, citing archive and Qing texts · p.112, p.121; table rows 6-11 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  瑞应宫 forms the east court in three depths behind a gate: 仁应殿, 和感殿, 晏安殿, the largest dragon-god temple of the three gardens, with a 斗坛. 晏安殿 went from seven to nine bays in 1788 to add a thunder-god room in its east side bays. Guandi stood upstairs in the middle front building, the Jade Emperor upstairs in the west one; a 太岁坛 stood at the south-west corner, a late plan marks a 三神殿 in the east wing of the forecourt.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 瑞应宫. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 日天琳宇 (no picture of this hall found): see YM19
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

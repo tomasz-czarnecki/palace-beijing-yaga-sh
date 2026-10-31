@@ -33,10 +33,31 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 174.8° from north
 - **Confidence:** C, assumed
 
-## Pictures (2)
+## Pictures (4)
 
-- P0044: 花园门北面 Huayuan men beimian, garden gate, north side (圆明园铜版画册, plate 4 of 20) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-2.jpg
-- P0184: 花园门 south side, foreigners sitting by the gate (between 1872 and 1873 (Commons); 1873 (hpchina blog)). https://commons.wikimedia.org/wiki/File%3AForeigners_take_photos_in_front_of_the_garden_gate_in_xiyanglou.jpg
+- **P0044** (sure): 花园门北面 (圆明园铜版画册 / 西洋楼铜版画, plate 四 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-2.jpg
+
+  ![P0044](../../photos/images/P0044.jpg)
+
+- **P0184** (sure): 花园门 south side, foreigners sitting by the gate (between 1872 and 1873 (Commons); 1873 (hpchina blog)). https://commons.wikimedia.org/wiki/File%3AForeigners_take_photos_in_front_of_the_garden_gate_in_xiyanglou.jpg
+
+  ![P0184](../../photos/images/P0184.jpg)
+
+- **P0318** (guess): Sirén: Yuanmingyuan (Old Summer Palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199640 Research-only: link card.
+- **P0319** (guess): Sirén: Yuanmingyuan (Old Summer Palace): Ruins. Enligt text på fotokuvert: Yuanmingyuan. Gamla Sommarpalatset. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199641 Research-only: link card.
+
+## Texts and drawings (3)
+
+- **E0940** (description, sure): Plate IV: 花园门 Huayuan Men. 1786-1803 · p.178, Plate IV · S258. https://archive.org/details/BIUSante_40644
+  > Aux pieds des colonnes sont deux cippes sur lesquels posent deux lions accroupis,
+  Arch with two columns and entablature, two crouching lions on cippi. Panelled wall carried on a small bridge, river below with two more small bridges.
+- **E0941** (description, sure): Engraving 4: 花园门 Huayuan Men. 1934 · pp.143-144 · S02. https://archive.org/details/historyofpekings00malo
+  > The wall was of gray brick cut smooth and decorated with a large pattern in pink and a deep cream tint.
+  North side of the maze gate, seen from inside; 蓄水楼 visible over the wall. Wall colours as quoted, source of the colours not stated.
+- **E0942** (description, sure): 万花阵 and 花园门; 线法山 and 螺蛳牌楼, yaffin 系列02, 13. c. 2011 · captions to the 20 engravings · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100svq5.html
+  Lead: the maze gate 花园门 is shaped like a Western clock case with two brass doors; the maze 89 x 59 m, walls about 1.2 m high and over 1,600 m long; the hill 线法山 has a gate each side, the east one called 螺蛳牌楼. Check against the engravings.
+
+**On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 

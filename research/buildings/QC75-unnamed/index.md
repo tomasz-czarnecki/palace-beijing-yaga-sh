@@ -37,7 +37,20 @@ Qichun Yuan
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0927** (description, guess): 绮春园 东南隅 四所. 2015 post · section 四 · S224. https://www.yuanmingyuanpark.cn/ymyyj/yj032/201504/t20150420_693218.html
+  Under Daoguang the four courts in the south-east corner served as quarters of consorts of former emperors. S01 labels a long block in that corner 四局, in a hand that miscopies other labels: 四所 is possible. Position and that likeness only.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 四局 / 善房 / 茶房. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

@@ -24,7 +24,18 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0939** (description, sure): 线法桥. Wikipedia text, unsourced there · zh.wikipedia 圆明园, 西洋楼 section · S06. https://zh.wikipedia.org/wiki/圆明园
+  South of 蓄水楼 against the west wall of 长春园: five arches with beast faces spouting water, and a false door with a large Western clock in the centre, carved walls either side. Parts were later moved to Yenching University. A lead: not seen on a Qing source. No engraving of the 20 is named for it.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 蓄水楼 (no picture of this hall found): see XY02
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

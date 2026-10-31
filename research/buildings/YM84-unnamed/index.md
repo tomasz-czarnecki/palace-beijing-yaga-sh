@@ -37,7 +37,20 @@ Yuanming Yuan
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the nearest named compound, 同乐园, about 70 m away (no picture of this compound found): see YM44
+- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

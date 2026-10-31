@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.00808, 116.29878. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 3.8 × 4.8 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 東南度橋為東島有亭為瀛海仙山 [j82:16b] (S05)
 - **Note:** East islet. (S05, S01)
 - **Plan reader's note:** Label (7305,3120) on the east island, with rocks. Small square near the label; a semicircular outline stands at about (7220,2970). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -35,7 +34,33 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (5)
+
+- **E1933** (text, sure): 日下舊聞考 蓬岛瑶台、福海. 1780s (乾隆 敕撰) · j82:16b-17a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 蓬島瑶臺在福海中央門三楹南嚮正殿七楹殿前東為暢襟樓西為神洲三島東偏為隨安室西偏為日日平安報好音由蓬島瑶臺東南度橋為東島有亭為瀛海仙山西北度橋為北島正宇三楹（圓明園册）臣等謹按蓬島瑶臺四十景之一舊名蓬萊洲後易今名額為皇上御書門額曰鏡中閣與暢襟樓隨安室額皆御書神洲三島日日平安報好音瀛海仙山諸額皆世宗御書
+  Centre of 福海: a three-bay gate facing south and seven-bay main hall, with 暢襟樓, 神洲三島, 隨安室 and 日日平安報好音; bridges to an east isle with the pavilion 瀛海仙山 and a north isle with a three-bay range. Formerly 蓬萊洲.
+- **E1943** (poem, sure): 瀛海仙山（133）. 道光三年 (1823) · v2 p.408, under 蓬岛瑶台 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=411
+  > 仙瀛偶访步层峦，半月高台夏亦寒。入望烟岚云外赏，凌虚楼阁画中看。穿林窈窕青松磴，护岸周遭白石栏。雨霁空明澄万象，畅观只觉水天宽。
+  Poem 瀛海仙山（133） by the Daoguang Emperor, 1823, filed by the editors under 蓬岛瑶台.
+- **E1944** (poem, likely): 瀛海仙山口号（173）. 道光四年 (1824) · v2 p.410, under 蓬岛瑶台 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=413
+  > 天光云影湛晴波，习习南薰静里过。知命乐天慎修德，长生仙药竟如何。
+  Poem 瀛海仙山口号（173） by the Daoguang Emperor, 1824, filed by the editors under 蓬岛瑶台.
+- **E1935** (description, likely): Six paintings, I: 蓬岛瑶台 Pengdao Yaotai. before 1799 · pp.190-195, Tableau I · S258. https://archive.org/details/BIUSante_40644
+  > offre une vaste étendue d'eau qui embrasse trois îles liées l'une à l'autre par deux ponts.
+  Delatour owned six Chinese paintings of the garden, described by the garden writer Morel. Identifications here are mine, by form. Three islands, two bridges; large island with four building ranges round a square court on a stone plinth, one pavilion with an upper floor; smaller island with two ranges and walls; smallest with a mound and an open hexagonal kiosk on six columns; water lilies.
+- **E1936** (description, likely): Scene 32, 蓬岛瑶台 Pengdao Yaotai. 1934 · p.93 · S02. https://archive.org/details/historyofpekings00malo
+  > The central island was occupied by a little palace courtyard, decorated with glazed tile, and connected by bridges with the smaller islands lying to the northwest and east.
+  Central island with a small palace court and glazed tile; bridges to the north-west island, also built over, and the east island, a rustic retreat with pavilion, rocks and trees. Decorated after a painting by the Tang artist 李思训 Li Sixun.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 瀛海仙山. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 蓬岛瑶台 (no picture of this hall found): see YM32
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

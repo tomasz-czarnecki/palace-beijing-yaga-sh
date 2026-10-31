@@ -31,9 +31,19 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Water:** stands partly over the water layer: on piers or on a bank too thin for the layer to show
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0435** (likely): Lake of Yuanmingyuan, Huixin Bridge.jpg (2007-05-07 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Lake_of_Yuanmingyuan,_Huixin_Bridge.jpg
+
+  ![P0435](../../photos/images/P0435.jpg)
+
+
+## Texts and drawings (1)
+
+- **E0676** (description, likely): 圆明园五朝御制诗文集注 v4, editors' note on 鉴碧亭. 2020 edition · v4 p.236 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=239
+  Begun in mid-Jiaqing on an islet in the lake west of 迎晖殿, with 正觉寺 to its west: a double-eaved square pavilion, three bays a side, gallery round. On the north of the islet is the five-bay 天心水面 with annexes, and a pavilion 玩鹤. A single-arch stone bridge to the north-east still stands.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 会心处. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 

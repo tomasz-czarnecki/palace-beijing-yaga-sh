@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Position:** 40.00555, 116.30057. S01 likely (S01 · confidence B)
 - **Bays:** 3x3 on the plan (S05, S02, S01)
 - **Size in the inventory:** 23.9 × 13.6 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 苑牆東出水闗 [j82:19a] (S05)
 - **Note:** Malone p.94 fortified gateway over the stream. (S05, S02, S01)
 - **Plan reader's note:** 城关 水关: the same tower, spanning the stream. rect=45,100,0 [shares block A-ym_east-016 with YM34-05] (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
@@ -35,7 +34,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E1996** (text, sure): 日下舊聞考: 城关 水关. 1780s (乾隆 敕撰) · j82:19a · S05. https://github.com/kanripo/KR2k0036
+  > 苑牆東出水闗
+- **E1981** (description, sure): Scene 34, 别有洞天 Bieyou Dongtian. 1934 · pp.93-94 · S02. https://archive.org/details/historyofpekings00malo
+  > It led, as through a cave, to "another sky" and to a small lake surrounded by houses called Hsiu Ch'ing Ts'un, or Beautiful Pure Village.
+  A fortified water gate over the stream behind the hill at the south-east corner of 福海, leading to a small lake and 秀清村 Xiuqing Cun.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 3x3 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 别有洞天 (no picture of this hall found): see YM34
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

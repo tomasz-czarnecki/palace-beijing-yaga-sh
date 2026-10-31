@@ -10,12 +10,13 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 东所 Dong Suo (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S01)
-- **Type:** other (S01 · confidence B)
-- **Destroyed:** 1860 (S01)
+- **Name:** 东所 Dong Suo (S01, S337 · confidence B)
+- **Garden:** Yuanming Yuan (S01, S337)
+- **Type:** other (S01, S337 · confidence B)
+- **Changed:** Label fits the two courts of after 1846, when the four courts were reduced (S01, S337)
+- **Destroyed:** 1860 (S01, S337)
 - **Position:** 40.00260, 116.29456. S01 sure (S01 · confidence B)
-- **Bays:** 5 in the texts (S01)
+- **Bays:** 5 in the texts (S01, S337)
 - **Plan reader's note:** Label south of it, in the east column. [shares block B1070 with YM40-01] (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 5010, 5364 (S01) *(research copy, not public)*
@@ -34,11 +35,24 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1178** (reconstruction, likely): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. post 2024, on plans of Jiaqing to Daoguang · section 二 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
+  Sequence of works on Yangshi Lei plans: after 1828 清晖阁 became 湛静斋 with 穿堂殿 and 后殿; 1831 怡情书史 and its fish pond gave way to 慎德堂; 1836 the three axis halls were rebuilt and 同道堂 added; 1846 the four courts of 洞天深处 became two. This fits the labels 前殿, ?顺堂, 后殿 on S01 as the former 湛静斋 group.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 东所. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 洞天深处 (no picture of this hall found): see YM40
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 
-None that name it.
+- Q3: Which state does S01 draw?
 
 <!-- generated:end -->
 

@@ -32,7 +32,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E1263** (description, guess): Scene 7, 慈云普护 Ciyun Puhu, Island of Shrines. 1934 · p.80 · S02. https://archive.org/details/historyofpekings00malo
+  > A three-storied bell tower with a sun dial on its south front, and shrines to Buddha, to the God of War, and to the Dragon King were grouped around a cove on the west side of this small island.
+  Three-storey bell tower with a sundial on the south front and shrines to Buddha, the God of War and the Dragon King, round a cove on the west side.
+- **E1266** (description, likely): 释圆明园慈云普护之多神殿. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/38163bb8aee541e2b80b63a5b0149e22.htm
+  慈云普护 Ciyun Puhu, north shore of 后湖, 120 x 90 m, 800 m2 of buildings. A temple garden for several faiths: 欢喜佛场 for Buddha, a tower with 观音 above and 关帝 below, and the 龙王殿 for 昭福龙王. Cites a 1794 repair list giving three bays with a three-bay rear annex for 欢喜佛场.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 钟亭. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 慈云普护 (no picture of this hall found): see YM07
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

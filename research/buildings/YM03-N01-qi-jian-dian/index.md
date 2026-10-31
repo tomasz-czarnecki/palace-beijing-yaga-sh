@@ -34,11 +34,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1175** (plan, guess): 法国巴黎《圆明园地盘全图》考辨: names and red lines at 九洲清晏 (王其亨, 张凤梧, 《中国园林》2009 no.12). 2009, on a plan of 1858-1873/74 · section 年代推断 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/f075d549d1d94c89bc870ce17d7f8eb1.htm
+  The Guimet plan also carries the labels 思顺堂 and 承恩堂, with red lines of the Tongzhi project at 九洲清晏: a fourth depth for 慎德堂, a changed 同道堂 with its theatre, 九洲清晏殿 changed, and in the east road a square pavilion, galleries and a rear hall, with a pool. The authors date the red lines to 1873-74 and the base plan to 1858 or later. S01 at the same place shows a square pavilion in a round pool in the court south of its 七间殿.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 七间殿, 8x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 
 - Q3: Which state does S01 draw?
+- Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
 
 <!-- generated:end -->
 

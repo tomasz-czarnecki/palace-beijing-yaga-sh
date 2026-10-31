@@ -31,7 +31,22 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E2372** (description, guess): 圆明园买卖街钩沉: the sets of 铺面房. reprint 2021; 《圆明园研究》第14期 · section 一 · S222. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
+  The three gardens have two shopping streets, 同乐园 and 含经堂, plus small groups of shops elsewhere such as at 北远山村 and behind 西峰秀色. The 铺面房 yard YM59 in the far south-west is none of those named. It fits by name only: its use stays a guess.
+- **E2373** (description, guess): 铺面房: forms and scale, for YM59 if shops. reprint 2021 · S222 sections 二, 四 · S222. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
+  Shop bays are about 3.2 m wide and 4.8 m deep, in rows, with flat-roof 拍子, 牌楼 or two-storey fronts. 含经堂's row: 135.65 m long, 6.3 m deep, 40 bays; A late Yangshi Lei plan of the 同乐园 street marks offices, not shops, in the old shop buildings, so a label 铺面房 need not mean shops at YM59: unproven.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 铺面房, 3x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 铺面房 (no picture of this hall found): see YM59
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

@@ -8,12 +8,12 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 镜绿亭 Jinglü Ting (S06 · confidence B)
-- **Garden:** Qichun Yuan (S06)
-- **Type:** scene (S06 · confidence B)
-- **Destroyed:** 1860 (S06)
+- **Name:** 镜绿亭 Jinglü Ting (S06, S361 · confidence B)
+- **Garden:** Qichun Yuan (S06, S361)
+- **Type:** scene (S06, S361 · confidence B)
+- **Destroyed:** 1860 (S06, S361)
 - **Position:** Not placed: the name was not found on the plan.
-- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. (S06)
+- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. double-eaved square pavilion (S361, v4 p.200). (S06, S361)
 - **Plan reader's note:** Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. (S01) *(research copy, not public)*
 - **How it was read:** not_found (S01) *(research copy, not public)*
 
@@ -23,7 +23,44 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (10)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0856** (text, guess): Q11 proposal: position hints for the Thirty Scenes. working note 2026-10-31 · S223 卷十八; S220; S42; S47 · S223. https://archive.org/details/02096508.cn/page/n52
+  Hints only. QC37 鏡綠亭: north of the 洲, so on the north shore of QC06 if 洲 means the island, near QC57 浩然亭 (guess). QC40 竹林院 = QC25 延寿寺 (S42 snippet). QC48 含淳堂 = QC18 生冬室 (S220). QC44 涵清館 may be QC07 涵秋館: the seasonal set 敷春, 清夏, 涵秋, 生冬 appears in the list as 敷春, 清夏, 涵清, 含淳 (our inference, C). QC29, QC30, QC31 on the 敷春堂 island (S42 snippet). QC52 般若觀 is also the name of an imperial boat at the 松风萝月 dock (S42 snippet): perhaps no building at all.
+- **E0850** (poem, sure): 镜绿亭. 嘉庆七年 (1802) · v4 p.203, under 敷春堂; source ref 2-106 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=206
+  > 方亭轩敞跨清池，明镜澄泓印绿漪。洞鉴山川真锦绣，佳哉造物示无私。
+  Poem 镜绿亭 by the Jiaqing Emperor, 1802, filed by the editors under 敷春堂.
+- **E0851** (poem, sure): 镜绿亭. 嘉庆八年 (1803) · v4 p.210, under 敷春堂; source ref 2-215 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=213
+  > 一池新水漾琉璃，影浸方亭镜碧漪。静契文宣在川旨，盈科不息有如斯。
+  Poem 镜绿亭 by the Jiaqing Emperor, 1803, filed by the editors under 敷春堂.
+- **E0852** (poem, sure): 镜绿亭. 嘉庆九年 (1804) · v4 p.216, under 敷春堂; source ref 3-15 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=219
+  > 绿漪环绕赤栏通，满沼朱华扬午风。徙倚匡床对君子，湛然神印镜辉融。
+  Poem 镜绿亭 by the Jiaqing Emperor, 1804, filed by the editors under 敷春堂.
+- **E0853** (poem, sure): 镜绿亭. 嘉庆十年 (1805) · v4 p.218, under 敷春堂; source ref 3-113 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=221
+  > 绿沼澄泓云影印，如磨明镜湛清辉。心源静照欣无滓，勅政勤民知所依。
+  Poem 镜绿亭 by the Jiaqing Emperor, 1805, filed by the editors under 敷春堂.
+- **E0854** (poem, sure): 镜绿亭 (绮春园三十景). 嘉庆十年 (1805) · v4 p.178, under 绮春园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=181
+  > 方亭据胜建溪滨，锦水沦涟清绝尘。细縠含风摇绿藻，虚奁映日跃金鳞。小洲曲折通前岸，浅浪回旋达远津。又见朱华冒芳渚，午飔徐送净香频。
+  One of the Thirty Scenes of 绮春园 by the Jiaqing Emperor, 1805 (S58): the poem 镜绿亭.
+- **E0855** (poem, sure): 镜绿亭. 嘉庆十一年 (1806) · v4 p.221, under 敷春堂; source ref 3-230 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=224
+  > 方亭架荷渚，四面纳薰风。乍见田田绿，旋舒灼灼红。波光摇的烁，镜影印虚空。芳径赤栏畔，回廊曲折通。
+  Poem 镜绿亭 by the Jiaqing Emperor, 1806, filed by the editors under 敷春堂.
+- **E0636** (poem, sure): 凤麟洲: 嘉庆十二年 poem of the Jiaqing Emperor. 嘉庆十二年 (1807), date from the compilation · p.302 item (4), under 凤麟洲 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=302
+  > 避暑无逾此，芳洲舟可通。回廊环曲折，虚牖启玲珑。庭印一奁镜，窗含四面风。远峰清影蘸，茂树碧阴充。月问南楼上，亭开比渚崇（问月楼在洲之南，镜绿亭在洲之北）。虹桥连岸右， 松嶂峙池东。胜境诚难绘，游心兴岂穷。建新仍旧境，尚俭念卑宫。
+  Jiaqing describes the island in 1807: reachable by boat, winding galleries, a court pool, a rainbow bridge, a pine crag east; his note puts 问月楼 south and 镜绿亭 north of the island, which fits the 敷春堂 group lying south of it. Built new on the old site, and frugally, he says.
+- **E0588** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 敷春堂. 2020 edition · v4 p.200 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=203
+  Begun 1801 north of 迎晖殿: a five-bay 工字 hall, with 集禧堂 before it and the five-bay, two-storey 问月楼 behind. The note sets out the rest: 凌虚阁 east of the rear hall, 翠合轩 a small chapel behind it, 澄光榭 south-east of 问月楼, 蔚藻堂 in a court to the south-west, 镜绿亭 south of that, 蔼芳圃 the west gate, 淙玉轩 and 舒卉轩 further south. Some buildings outlasted 1860 and the 1873 repair plan, then were lost around 1900, say the editors.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

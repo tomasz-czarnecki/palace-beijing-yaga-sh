@@ -33,7 +33,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0291** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 玉玲珑馆. 2020 edition · v4 p.1 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=4
+  Built 1747, added to about 1764, on an island south of 狮子林. Gate five bays; main hall of seven (plaque 正谊明道), rear of nine (林光澹碧). West court has 撷景室, 蹈和堂 and the square 朝晖亭 on the water; the east has five-bay 鹤安斋, the double-eaved 狎鸥亭, 随安室, a greenhouse, a fountain, 澹然书屋 and 芥舟 at the shore.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 朝暉亭, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 玉玲珑馆 (no picture of this hall found): see CC14
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

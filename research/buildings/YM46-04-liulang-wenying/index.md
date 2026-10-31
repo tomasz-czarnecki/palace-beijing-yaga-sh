@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.01017, 116.28920. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 8.4 × 4.8 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 閣西為栁浪聞鶯 [j81:35b-36a] (S05)
 - **Plan reader's note:** House just outside; label to the east. Third char unclear. rect=35,16,0 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3185, 1340 (S01) *(research copy, not public)*
@@ -34,7 +33,24 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E2125** (text, sure): 日下舊聞考 园门 (十八门)、水闸三座. 1780s (乾隆 敕撰) · j80:6b-7b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
+  > 園内為門十八南曰大宫門曰左右門曰東西夾道門曰東西如意門曰福園門曰西南門曰水閘門曰藻園門東曰東樓門曰鐡門曰明春門曰隨墻門曰蘂珠宫門西曰隨墻門正北曰北樓門為閘三西南為一空進水閘東北為五空出水閘為一空出水閘（圓明園冊）臣等謹按圓明園之水發源玉泉山由西馬厰入進水閘支流派衍至園内日天琳宇桞浪聞鶯諸處之響水口水勢遂分西北高而東南低五空出水閘在明春門北一空出水閘在蘂珠宫北水出苑牆經長春園出七空閘東入清河
+  Lists the eighteen garden gates by compass side (大宫門, 福園門, 藻園門, 明春門, 蘂珠宫門, 北樓門 and others) and the three sluices. The note traces the water: in from 玉泉山 Jade Spring Hill by the south-west one-opening inlet, splitting at 日天琳宇 and 桞浪聞鶯, falling from north-west to south-east, out through the five-opening and one-opening sluices and across Changchun Yuan to the seven-opening sluice 七空閘.
+- **E2195** (text, sure): 日下舊聞考 文源阁. 1780s (乾隆 敕撰) · j81:35b-36b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 水木明瑟之北稍西為文源閣上下各六楹閣西為栁浪聞鶯（圓明園册）臣等謹按文源閣乾隆三十九年建與文華殿後之文淵閣避暑山莊之文津閣皆以貯四庫全書閣額及閣内汲古觀瀾額皆御書聨曰因溯委以會心是處原泉來活水即登髙而遊目當前奥㝔對玲峯屏扆聨曰寧誇池館消閒暇雅喜詩書悅性靈檐柱聨曰討尋宜富波瀾浩矣無涯神智益披攬直探星宿挹之不盡古今涵亦御書閣前石為玲峯刋御製文源閣詩閣東亭内石碣刋御製文源閣記恭錄卷内
+  文源閣, six bays on each floor, built 乾隆三十九年 (1774) as one of the Four Treasuries libraries, beside 文淵閣 and 文津閣; 栁浪聞鶯 to the west. The note gives its couplets and the 玲峯 rock before it, with a poem cut on the rock and the 文源閣記 on a stele in the east pavilion.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 柳浪?莺 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 文源阁 (no picture of this hall found): see YM46
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

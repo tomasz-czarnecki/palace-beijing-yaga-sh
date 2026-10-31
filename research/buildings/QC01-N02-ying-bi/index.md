@@ -32,7 +32,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0568** (description, sure, search index only): Palace front of Qichun Yuan. 2011 post · t20110105_231486 (search summary) · S227. https://www.yuanmingyuanpark.cn/cgll/zyjd/qcy/201101/t20110105_231486.html
+  From the screen wall to the hill behind 中和堂: about 200 by 120 m. Built 1809 and called the new gate. Great and second gates are gate halls with rolled-ridge hip-and-gable roofs. 迎晖殿 is the main hall where the dowager took birthday homage. In 1986 the gates and walls were rebuilt on the site; the 迎晖殿 terrace remains.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 影壁. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 绮春园宫门 (no picture of this hall found): see QC01
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

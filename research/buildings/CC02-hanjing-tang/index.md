@@ -8,15 +8,14 @@ Changchun Yuan
 
 ## What we know
 
-- **Name:** 含经堂 Hanjing Tang (S05, S43, S48, S01 · confidence B)
-- **Garden:** Changchun Yuan (S05, S43, S48, S01)
-- **Type:** compound (S05, S43, S48, S01 · confidence B)
-- **Built:** 乾隆十二年 1747 基本建成 (S43;S48) (S05, S43, S48, S01)
-- **Changed:** 1770-72 淳化轩 etc added (S43; S48; j83:5b, 6b); 1780 四库荟要 to 霞翥楼 (S48); 1814 theatre (S43;S48) (S05, S43, S48, S01)
-- **Destroyed:** 1860 (S05, S43, S48, S01)
+- **Name:** 含经堂 Hanjing Tang (S05, S43, S48, S01, S201, S361 · confidence A)
+- **Garden:** Changchun Yuan (S05, S43, S48, S01, S201, S361)
+- **Type:** compound (S05, S43, S48, S01, S201, S361 · confidence A)
+- **Built:** 乾隆十二年 1747 基本建成 (S43;S48); by c. 1747: first 含經堂 poem at the end of the first collection; by 1749 (poem 乾隆十四年) (S05, S43, S48, S01, S201, S361)
+- **Changed:** 1770-72 淳化轩 etc added (S43; S48; j83:5b, 6b); 1780 四库荟要 to 霞翥楼 (S48); 1814 theatre (S43;S48); 1770 rebuilt; 1814 stage east of 淳化轩 (S05, S43, S48, S01, S201, S361)
+- **Destroyed:** 1860 (S05, S43, S48, S01, S201, S361)
 - **Position:** 40.00812, 116.30734. S01 sure (S01 · confidence B)
-- **日下旧闻考:** 雲容水態西北循山逕入 [j83:4a] (S05)
-- **Note:** Largest group of Changchun (S43). Malone p.98 No.2 almost as large as the private apartments. (S05, S43, S48, S01)
+- **Note:** Largest group of Changchun (S43). Malone p.98 No.2 almost as large as the private apartments. (S05, S43, S48, S01, S201, S361)
 - **Plan reader's note:** Blue 2. Labels read: 含经堂, 宫门, 淳化轩, 蕴真斋, 静莲斋, 渊映斋, 三?轩, 樂奏?天, 得胜?, 澄波夕照. Polygon includes the north outlier 得胜? and the east rows. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 10576, 3254 (S01) *(research copy, not public)*
@@ -61,14 +60,289 @@ Changchun Yuan
 - CC02-N04
 - CC02-N05
 
-## Pictures (0)
+## Pictures (10)
 
-None in the catalog yet.
+- **P0402** (sure): 含经堂遗址 20130126.JPG (2013-01-26 15:43:43 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E9%81%97%E5%9D%80_20130126.JPG
+
+  ![P0402](../../photos/images/P0402.jpg)
+
+- **P0403** (sure): Hanjingtang 20130126.JPG (2013-01-26 15:41:50 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Hanjingtang_20130126.JPG
+
+  ![P0403](../../photos/images/P0403.jpg)
+
+- **P0404** (sure): 含经堂淳化轩遗址 20130126.jpg (2013-01-26 16:10:53 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E6%B7%B3%E5%8C%96%E8%BD%A9%E9%81%97%E5%9D%80_20130126.jpg
+
+  ![P0404](../../photos/images/P0404.jpg)
+
+- **P0405** (sure): 含经堂蕴真斋遗址 20130126.JPG (2013-01-26 16:18:37 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E8%95%B4%E7%9C%9F%E6%96%8B%E9%81%97%E5%9D%80_20130126.JPG
+
+  ![P0405](../../photos/images/P0405.jpg)
+
+- **P0406** (sure): 含经堂三友轩遗址 20130324.JPG (2013-03-24 17:29:20 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E4%B8%89%E5%8F%8B%E8%BD%A9%E9%81%97%E5%9D%80_20130324.JPG
+
+  ![P0406](../../photos/images/P0406.jpg)
+
+- **P0407** (sure): 买卖街遗址 20130421.JPG (2013-04-21 14:15:46 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E4%B9%B0%E5%8D%96%E8%A1%97%E9%81%97%E5%9D%80_20130421.JPG
+
+  ![P0407](../../photos/images/P0407.jpg)
+
+- **P0408** (sure): 含经堂梵香楼遗址 20130421.JPG (2013-04-21 14:06:31 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E6%A2%B5%E9%A6%99%E6%A5%BC%E9%81%97%E5%9D%80_20130421.JPG
+
+  ![P0408](../../photos/images/P0408.jpg)
+
+- **P0409** (sure): 得胜概敞厅遗址 20130126.JPG (2013-01-26 16:20:05 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%BE%97%E8%83%9C%E6%A6%82%E6%95%9E%E5%8E%85%E9%81%97%E5%9D%80_20130126.JPG
+
+  ![P0409](../../photos/images/P0409.jpg)
+
+- **P0410** (sure): Ruins of Hanjingtang 20130324.JPG (2013-03-24 17:27:07 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Ruins_of_Hanjingtang_20130324.JPG
+
+  ![P0410](../../photos/images/P0410.jpg)
+
+- **P0505** (sure): 含经堂遗址 - Site of Hanjing Hall - 2013.03 - panoramio.jpg (Taken on 13 March 2013 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E9%81%97%E5%9D%80_-_Site_of_Hanjing_Hall_-_2013.03_-_panoramio.jpg
+
+  ![P0505](../../photos/images/P0505.jpg)
+
+
+## Texts and drawings (81)
+
+- **E0019** (poem, sure): 御製夏日含經堂詩. 1749 (乾隆十四年) · j83:5b-6a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆十四年御製夏日含經堂詩　鬲軒能却暑邃室亦生凉味道研精義隨時愛景光（用選句）苑禽鳴處樂砌卉吐來芳石鼎閒嘗煮瑶琴靜不張詩吟西蜀杜壁畫輞川王差喜娛清暇還慚致治康
+  Summer poem on 含經堂: cool rooms, stone tripod, a qin, and paintings of 輞川 Wangchuan on the wall.
+- **E0021** (poem, sure): 御製味腴書屋詩. 1759 (乾隆二十四年) · j83:6b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆二十四年御製味腴書屋詩　含經堂畔敞書筵味道腴常喜静便枕葄崇情托經史躍飛精趣察魚鳶遣閑偶染兎枝墨結習猶披蠖葉篇少坐即臨勤政殿敕幾惟日慎邦權
+  Poem on 味腴書屋, a study beside 含經堂.
+- **E0023** (poem, sure): 御製題淳化軒詩. 1770 (乾隆三十五年) · j83:6a-6b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆三十五年御製題淳化軒詩　閣帖欣猶善本全㡬餘考訂為重鐫墨華輝映題軒扁石刻珍藏嵌壁磚閲古於焉閲嵗月賞心何異賞雲烟頤居倘得遂初願（内府藏有淳化閣帖初搨既為訂正重刻因於含經堂後廻廊分嵌石幅廊之中拓為是軒即以帖名名之若紀元得至六十則夀登八十五彼時當歸政居此果如所願得以翰墨静娛誠至樂也）陶冩端知勝管絃
+  Poem on 淳化軒: he had the 淳化閣帖 re-cut from a first impression, set the stones into the rear galleries of 含經堂 and widened the central part into the hall, which he hoped to retire to.
+- **E0051** (text, sure): 御製淳化軒記. 乾隆 (undated in S05; the stones set up by 1770) · j83:5a-5b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 御製淳化軒記淳化軒何為而作也以藏重刻淳化閣帖石而作也蓋自伏滔崆峒之銘石虹堯碑之文歴代相傳石刻尚焉然物有其成必有其壊世逺年湮真偽莫辨則漢唐且難得其全者無論周秦以上矣故言帖必以趙宋為猶近而宋帖必以淳化為最羙重刻之由考稽之故已見於帖前之頁册後之䟦兹不複記記所以藏石作軒之故云石刻既成凡若干頁使散置之慮其有失也爰於長春園中含經堂之後就舊有之廻廊每廊砌石若干頁恰得若干廊而帖石畢砌焉廊之中原有蘊真齋因稍移齋於其北即舊基而拓為軒事起藏帖則以帖名名之夫淳化宋太宗之紀年也為人君者即不能以唐虞為師亦當以夏甲周成為軌所謂取法乎上僅能得其中耳若宋太宗始終國家之間慙德多矣吾所不取而又有何慕於淳化而以之名軒為哉
+  Why 淳化軒 exists: the re-cut 淳化閣帖 stones were set in the existing galleries behind 含經堂, and 蘊真齋 was moved north onto old foundations so that a hall could be built on the site.
+- **E0401** (poem, sure): 御製長春園題句（有序）. 1770 (乾隆三十五年) · j83:1b-2b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆三十五年御製長春園題句（有序）　山水無樂夀之徵興隨所遇日月引壺洲之景春與俱長廼拓餘地於御園爰效嘉名於仙館顧當年之賜號時□體元籌他日之安居兹惟卜始波通福海東壖旭麗扶桑垣亘清河北陌香浮華黍列縹緗以娛志堂啟含經撫翰墨以怡神軒成淳化思永勵始終如一式是齋乎開襟而氣象盈千登斯樓也他若某邱某壑境足賞心有榭有亭勝堪寓目每㡬暇朅來遊憇擬耄期恒此頤恬以紀元六十載為衡積願笑惟奢望從周甲廿五年而計朂勤敢有倦心儷以弁言系之長律長春非敢暢春侔（祖暢春園在圓明園之南居之皇所建今奉皇太后）即景名園亦有由賜號當年例仙館（長春仙館為圓明園四十景之一雍正年間賜居也即以當年賜號名之）倦勤他日擬菟裘（予有夙願若至乾隆六十年夀登八十有五時亦應歸政故鄰圓明園之東豫脩此園為他日優游之地雖屬侈望然果得如此亦國家景運之隆天下臣民之慶也）培松拱把冀鱗老留石平心待句酬廿五春秋仍劼毖（今嵗六旬屈指果得歸政尚當二十五年然一日臨蒞矢不敢少懈此敬勤之志必居此園時然後可息肩娛老耳）耄期嵗月合優游
+  Dated 1770 and his sixtieth year: he says he built this garden east of 圓明園 as a retirement home for the sixtieth year of his reign, when he would be 85. It names 含經堂, 淳化軒, 思永齋 and the 'open breast' tower 海嶽開襟.
+- **E0052** (text, sure): 日下舊聞考 含经堂. 1780s (乾隆 敕撰) · j83:4a-4b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 雲容水態西北循山逕入建琉璃坊楔三其北宫門五楹南嚮内爲含經堂七楹後為淳化閣又後爲蘊真齋含經堂東為霞翥樓為淵映齋堂西為梵香樓為涵光室（長春園册）臣等謹案淳化軒内額曰奉三無私聨曰貞石麗延廊畧存古意淳風扇寰宇冀遂初心東西廊廡壁間嵌御定淳化閣帖石刻藴真齋内額曰禮園書圃霞翥樓内額曰味腴書屋
+  Three glazed arches, a five-bay gate facing south, the seven-bay 含經堂, then 淳化軒 (printed 閣), 蘊真齋 behind, with 霞翥樓, 淵映齋, 梵香樓 and 涵光室. The rock-cut 淳化閣帖 stones lined the side galleries; 霞翥樓 holds the plaque 味腴書屋.
+- **E0016** (poem, sure): 御製 含經堂. c. 1747, inferred from the last dated heading (御製詩初集) · KR4f0005_044:17a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_044.txt
+  > 含經堂 築牆所戒雕搆宇何湏峻階迎花木幽室貯琴書潤珪璋煥文府禮樂遵先進躬修企髙堅氣質消鄙吝學後知不足道豈蘄聲聞推行慙（去聲）前規憂盛撫鴻運惟此恭黙思菑畬守經訓
+  The earliest poem on 含經堂, in the last section of the first collection. Praises a plain hall, a court of flowers and rooms of books, and warns against carved walls.
+- **E0068** (poem, sure): 御製 詠淳化軒庭梅二首一韻. 1792 (御製詩五集) · KR4f0005_463:16a-16b · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_463.txt
+  > 詠淳化軒庭梅二首一韻 庭梅自與盆梅異謝却火攻何礙遲猶憶昔年言理趣顯仁蔵用㑹扵斯（顯諸仁即蔵諸用一闔一闢生生之所以不息也庭前植梅二株冬間圍）（以氊棚向陽開門春暖則徹棚花發即一梅而顯蔵之理可㑹丁未淳化軒對庭梅作識語中曽闡其義）今年春冷因通閏最早山桃亦放遲却是庭梅具深意送行㡬朶發英斯（向年庭梅至春仲已盛開今嵗以通閏花信俱遲日内将唘蹕西巡枝頭）（數朶舒英如有意然）
+  Two plum trees in the court of 淳化軒 are wrapped in a felt shelter with a south door over winter and uncovered in spring.
+- **E0069** (poem, sure): 御製 題淳化軒. 1795 (御製詩五集) · KR4f0005_486:12b-13a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_486.txt
+  > 題淳化軒 宫寧夀御園淳化（是處之淳化軒亦猶大内之寧夀宫皆豫為歸政後娛老之所也）都為菟裘娛老居數嵗以前豫立者一年已近即真予天恩獨厚鑒由始衆意雖殷志踐初（予於踐阼之初焚香告天若得）（在位六十年即當歸政今已仰䝉之誠鑒佑幸符初願在天下臣民以及外藩䝉古愛戴以予精力康健）（猶昔無不望予未即倦勤者予亦未嘗不諒其悃忱顧予已上告昊蒼曷敢有渝初志耶）廿五竟符八六願（予即位時年已二十五嵗以百嵗計之已逾四分之一而當陳願之始實未計及在位六）（十年夀當耄耋也明嵗元日傳位嗣皇帝子則八十六嵗若如所願自三代而後未有聞者予之仰䝉天）（眷自非豈易篤愛所獨鍾臻此）豈容易得漫虚譽
+  Written in the year before his abdication. His note compares 淳化軒 with 寧夀宫 in the palace: both were prepared as places for his old age.
+- **E0070** (text, sure): 榆巢雜識. early 19th c. · line 1315 of the corpus file · S212. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/志存记录/榆巢杂识.txt
+  > ○淳化阁帖内府所刻帖，三希堂帖，嵌于阅古楼；墨妙轩帖，嵌于万寿山惠山园中。乾隆癸巳，重刻淳化阁帖成。适长春园中新构文轩落成，右、左廊各十二楹，每楹分嵌六石，即以淳化名轩。尝拓四百部，分赐群臣。内府拓帖，多用乌金拓，独此仿蝉翼拓，犹存古意。
+  淳化軒 was finished as the stones were: galleries of twelve bays on each side, each bay holding six stones. Gives the year as 癸巳 (1773), against 1770 in S05.
+- **E0081** (poem, likely): 御製 三友軒. 1770 (御製詩三集) · KR4f0005_255:4a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_255.txt
+  > 三友軒 禁中三友軒額為（去聲）藏名蹟園中三友軒窓外真培植名實雖不同要以取有益寓意非玩物向曽詠其徳（舊題）（三友軒詩以松喻直梅喻諒竹喻多聞並就其徳性推言之）益常願居前損則應離側三者正相反求友可不擇於恒總宜謹況在躬為辟
+  He separates the 三友軒 in the palace, named for paintings it holds, from the one in the garden, named for the pine, plum and bamboo planted outside its window.
+- **E0084** (poem, likely): 御製 理心樓. c. 1770, inferred from the last dated heading (御製詩三集) · KR4f0005_257:25b · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_257.txt
+  > 理心樓 華節甫言過新正頗有暇御苑適清逰卜晝弗卜夜室樓如暖閣（廣厦中鋪板為層室非重樓傑構也）憩息明窓下理心向所題心理在私化竹素具淵源繕性因抽架
+  The note gives a building form: 理心樓 is not a real upper storey, but a floor of boards laid inside a large hall, like a warm room.
+- **E0014** (poem, sure): 含经堂. 乾隆十二年 (1747) · v3 p.244, under 含经堂; source ref 2-975 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
+  > 筑墙所戒雕，构宇何须峻。阶迎花木幽，室贮琴书润。珪璋焕文府，礼乐遵先进。躬修企高坚，气质消鄙吝。学后知不足，道岂蕲声闻。推行惭前规，忧盛抚鸿运。惟此恭默思，菑畬守经训。
+  Poem 含经堂 by the Qianlong Emperor, 1747, filed by the editors under 含经堂.
+- **E0015** (poem, sure): 含经堂: 乾隆十二年 poem of the Qianlong Emperor. 乾隆十二年 (1747), date from the compilation · p.277 item (1), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=277
+  > 筑墙所戒雕，构宇何湏峻。阶迎花木幽，室贮琴书润。珪璋焕文府，礼乐遵先进。躬修企高坚，气质消鄙吝。学后知不足，道岂蕲声闻。推行惭前规，忧盛抚鸿运。惟此恭黙思，菑畬守经训。
+  Poem of the Qianlong Emperor at 含经堂, 1747, on the view. Year as given by the compilation.
+- **E0017** (poem, sure): 秋日含经堂. 乾隆十三年 (1748) · v3 p.245, under 含经堂; source ref 3-253 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=248
+  > 不陋非奢德惭馨，有台有沼讵称灵。生机对物观其妙，义府因心获所宁。入户云山萦峭蒨，盈庭露卉灿丁星。优游清昼读书乐，兴与秋空共杳冥。
+  Poem 秋日含经堂 by the Qianlong Emperor, 1748, filed by the editors under 含经堂.
+- **E0018** (poem, sure): 夏日含经堂. 乾隆十四年 (1749) · v3 p.245, under 含经堂; source ref 4-300 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=248
+  > 髙轩能却暑，邃室亦生凉。味道研精义，随时爱景光
+  Poem 夏日含经堂 by the Qianlong Emperor, 1749, filed by the editors under 含经堂.
+- **E0071** (poem, sure): 蕴真斋. 乾隆二十年 (1755) · v3 p.246, under 含经堂; source ref 5-324 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=249
+  > 游览未可亟，宴息贵有时。澹宁斯亦佳，藻缋徒尔为。远愧尧代阶，近取谢氏诗。葆光味妙理，养粹协化机。宁独尚清静，治理从此施。
+  Poem 蕴真斋 by the Qianlong Emperor, 1755, filed by the editors under 含经堂.
+- **E0020** (poem, sure): 味腴书屋: 乾隆二十四年 poem of the Qianlong Emperor. 乾隆二十四年 (1759), date from the compilation · p.284 item (1), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 含经堂畔敞书筵，味道腴常喜静便。枕葄崇情托经史，跃飞精趣察鱼鸢。遣闲偶染兔枝墨，结习犹披蠖叶篇。少坐亟临勤政殿，勅几惟日慎邦权。
+  Poem of the Qianlong Emperor at 味腴书屋, 1759, on reading. Year as given by the compilation.
+- **E0077** (poem, sure): 涵光室有咏. 乾隆二十五年 (1760) · v3 p.249, under 含经堂; source ref 7-332 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=252
+  > 曰明乃是光，于暗义斯堕。曰暗实无光，试向虚室坐。光固有恒性，明暗无不可。明光灭暗生，暗光灭明作。生灭岂涉光，如是薪传火。
+  Poem 涵光室有咏 by the Qianlong Emperor, 1760, filed by the editors under 含经堂.
+- **E0072** (poem, sure): 蕴真斋. 乾隆三十三年 (1768) · v3 p.251, under 含经堂; source ref 9-396 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=254
+  > 道筦天倪自有端，书斋触目入澄观。恰如万物含韶际，真意应从蕴处看。
+  Poem 蕴真斋 by the Qianlong Emperor, 1768, filed by the editors under 含经堂.
+- **E0022** (poem, sure): 味腴书屋: 乾隆三十四年 poem of the Qianlong Emperor. 乾隆三十四年 (1769), date from the compilation · p.284 item (2), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 随宜构书屋，到处可翻披。于学贵时习，所无要日知。寜惟立身彼，特愧化民兹。经史精腴在，真咀味者谁。
+  Poem of the Qianlong Emperor at 味腴书屋, 1769, on reading. Year as given by the compilation.
+- **E0024** (poem, sure): 淳化轩: 乾隆三十五年 poem of the Qianlong Emperor. 乾隆三十五年 (1770), date from the compilation · p.281 item (1), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  > 阁帖欣犹善本全，几余考订为重镌。墨华辉暎题轩扁，石刻珍藏嵌壁砖。阅古于焉阅岁月，赏心何异赏云烟。頥居倘得遂初愿（内府藏有淳化阁帖，初搨既为订正重刻。因于含经堂后回廊分嵌石幅廊之中，拓为是轩，即以帖名名之，若纪元得至六十则，寿登八十五，彼时当归政居此，果如所愿，得以翰墨静娯，诚至乐也） ，陶写端知胜管弦。
+  Qianlong, 1770: his note says the recut 淳化阁帖 was set in the gallery behind 含经堂, and the hall named after it, for his retirement at 85.
+- **E0074** (poem, sure): 渊映斋偶题. 乾隆三十五年 (1770) · v3 p.252, under 含经堂; source ref 10-643 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=255
+  > 斋非近池构，何以称渊映。讵曰漫与名，亦惟别托兴。或跃玩羲爻，如临凛诗敬。颇有澄澈趣，而无波澜竞。月影落空庭，岂异琳塘净。
+  Poem 渊映斋偶题 by the Qianlong Emperor, 1770, filed by the editors under 含经堂.
+- **E0080** (poem, sure): 三友轩. 乾隆三十五年 (1770) · v3 p.254, under 含经堂; source ref 10-736 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=257
+  > 禁中三友轩，额为藏名迹。园中三友轩，窗外真培植。名实虽不同，要以取有益。寓意非玩物，向曾咏其德
+  Poem 三友轩 by the Qianlong Emperor, 1770, filed by the editors under 含经堂.
+- **E0085** (poem, sure): 理心楼. 乾隆三十五年 (1770) · v3 p.254, under 含经堂; source ref 10-736 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=257
+  > 书屋名理心，问心云何理。寻思非由外，仍由心内耳。颜渊问为仁，曰克己复礼。己似外物诱，克则从衷矣。至于礼之复，实复心本始。不敏请事斯，吾愿学颜子。
+  Poem 理心楼 by the Qianlong Emperor, 1770, filed by the editors under 含经堂.
+- **E0088** (poem, sure): 静莲斋. 乾隆三十五年 (1770) · v3 p.252, under 含经堂; source ref 10-707 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=255
+  > 斋前本无池，无池安得莲。然则奚名斋，寓意有取焉。芳葩植瓶中，奇峰耸庭前。曰假假固非，谓真真实然。而此非了义，半提讵提全。绣佛供花龛，见叶贮珠编。时偶值几暇，净几几页翻。可以空五蕴，可以息万缘。静乃在斯乎，青莲口所宣。
+  Poem 静莲斋 by the Qianlong Emperor, 1770, filed by the editors under 含经堂.
+- **E0025** (poem, sure): 淳化轩: 乾隆三十六年 poem of the Qianlong Emperor. 乾隆三十六年 (1771), date from the compilation · p.281 item (2), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  > 中矩折旋廊路循，略经修饰境如新。壁间帖版待精刻（轩廊将以重刻淳化阁帖，石版嵌壁縁摹镌，务在精审，今尚未讫工，而轩廊则早成矣。 ） ，座侧芸编已毕陈。鼎柏氤氲喷瑞雾，盆梅馥郁粲韶春。彩镫应节飘萧缀，无易由言化致淳。
+  Poem of the Qianlong Emperor at 淳化轩, 1771. Year as given by the compilation.
+- **E0026** (poem, sure): 淳化轩: 乾隆三十六年 poem of the Qianlong Emperor. 乾隆三十六年 (1771), date from the compilation · p.281 item (3), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  > 如翼两廊砌帖版，苕华阅古作清供。讵希治世符黄帝，匪学纪年慕宋宗。屏展太湖得怪石，画栽台岭徙竒松。他时结愿斯娱老（拟于将来八十五岁归政时居此），此日铭心敢懈恭。
+  Poem of the Qianlong Emperor at 淳化轩, 1771, on the view. Year as given by the compilation.
+- **E0065** (poem, sure): 淳化轩. 乾隆三十六年 (1771) · v3 p.256, under 含经堂; source ref 10-839 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=259
+  > 屏石叠玲珑，文轩有路通。建廊藏帖版，开户对薰风。烟月怡神表，古今想像中。设因验治理，亦得我心同。
+  Poem 淳化轩 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0066** (poem, sure): 淳化轩. 乾隆三十六年 (1771) · v3 p.256, under 含经堂; source ref 10-857 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=259
+  > 延清契道筦，却暑抚薰弦。此日忧勤励，他年颐养便
+  Poem 淳化轩 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0086** (poem, sure): 理心楼. 乾隆三十六年 (1771) · v3 p.256, under 含经堂; source ref 10-780 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=259
+  > 华节甫言过，新正颇有暇。御苑适清游，卜昼弗卜夜。
+  Poem 理心楼 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0087** (poem, sure): 理心楼口号. 乾隆三十六年 (1771) · v3 p.255, under 含经堂; source ref 10-776 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=258
+  > 一二日间有万几，易云几者动之微。理心设不于斯会，反致憧憧失所依。
+  Poem 理心楼口号 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0089** (poem, sure): 静莲斋. 乾隆三十六年 (1771) · v3 p.257, under 含经堂; source ref 10-857 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=260
+  > 一间静室避歊炎，瓶供莲华水贮奁。识得色香本无处，底须几上置楞严。
+  Poem 静莲斋 by the Qianlong Emperor, 1771, filed by the editors under 含经堂.
+- **E0067** (poem, sure): 淳化轩. 乾隆三十七年 (1772) · v3 p.258, under 含经堂; source ref 11-246 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=261
+  > 若翼敞轩楹，明窗几席清。宁惟展古帖，藉以缮今情。庭树芳藏干，盆梅馥满英。华灯悬应节，所惭是循名。
+  Poem 淳化轩 by the Qianlong Emperor, 1772, filed by the editors under 含经堂.
+- **E0027** (poem, sure): 淳化轩: 乾隆三十八年 poem of the Qianlong Emperor. 乾隆三十八年 (1773), date from the compilation · p.281 item (5), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  > 两廊石版壁安全。精核过于王氏编。嗜古因之频阅古，引年冀以待他年。分阴堪遣万几暇，尺宅恒惺方寸田。虽曰宋宗无可企，以言淳化亦应然（向作淳化轩记，以轩因帖命名，非慕宋太宗之年号意，木如此夫宋太宗始终家国之问，多惭德其人，固不足取，然化理欲淳，实为君者所当勉也）。
+  Poem of the Qianlong Emperor at 淳化轩, 1773, on the view. Year as given by the compilation.
+- **E0090** (poem, sure): 静莲斋. 乾隆三十八年 (1773) · v3 p.260, under 含经堂; source ref 11-436 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=263
+  > 缀景萧斋额静莲，不关玩物不参禅。即如周氏称君子，岂弗宜珍座席边。
+  Poem 静莲斋 by the Qianlong Emperor, 1773, filed by the editors under 含经堂.
+- **E0028** (poem, sure): 含经堂: 乾隆三十九年 poem of the Qianlong Emperor. 乾隆三十九年 (1774), date from the compilation · p.278 item (16), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=278
+  > 例踰节事始来过，率以灯筵庆赏多。岂似芸编资古汲，已看梅蕊受春和。诸家执臆说诚伙，一室操戈理则那。删驳折中信非易，吾方勉此敢延俄（近命词臣校勘四库全书，每取原书披阅，或缮冩进呈，见其中有《义解踳杂》，纪载失实，辄为题识辩论书之巻端，亦有举其讹舛处，谕诸臣随时订正者。）。
+  Poem of the Qianlong Emperor at 含经堂, 1774, on reading. Year as given by the compilation.
+- **E0029** (poem, sure): 淳化轩: 乾隆三十九年 poem of the Qianlong Emperor. 乾隆三十九年 (1774), date from the compilation · p.281 item (6), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  > 堂（含经）后斋（藴真）前步屧巡，两廊石刻早安匀（昨经三仿终还始，昨岁曾取刻帖，时双钩油条填墨对临。自五月中驻避暑山庄，至木兰行围，回跸凡四阅，月计临三 遍）。却鲜一如精与神，略省察都愧往古。少徘徊又是新春，即兹灯节宁能罢，无易由言欲化淳。
+  Poem of the Qianlong Emperor at 淳化轩, 1774, on the view. Year as given by the compilation.
+- **E0073** (poem, sure): 蕴真斋. 乾隆三十九年 (1774) · v3 p.261, under 含经堂; source ref 12-526 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=264
+  > 蕴为发之始，真则假之对。真以蕴乃佳，假以发斯味。真诚而假私，返身必由内。然与斋何涉，循名实可背。愿言勉克己，如临师保诲。
+  Poem 蕴真斋 by the Qianlong Emperor, 1774, filed by the editors under 含经堂.
+- **E0030** (poem, sure): 含经堂: 乾隆四十年 poem of the Qianlong Emperor. 乾隆四十年 (1775), date from the compilation · p.278 item (17), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=278
+  > 闲余节后到书堂，例以新正有咏章。那可放心因政简，依然即景为诗忙。欣看薫蘤含春意，笑指寒檠孤夜光（堂中虽例悬华檠，而曾未燃烛夜赏） 。计日文华循讲典（将以二月初六日举行经筵），枕经先此绎思长。
+  Poem of the Qianlong Emperor at 含经堂, 1775, on reading. Year as given by the compilation.
+- **E0075** (poem, sure): 题渊映斋. 乾隆四十年 (1775) · v3 p.263, under 含经堂; source ref 12-669 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=266
+  > 书斋实弗临池水，渊映胡然题额名。只为昼存与宵养，欲知物理及民情。
+  Poem 题渊映斋 by the Qianlong Emperor, 1775, filed by the editors under 含经堂.
+- **E0078** (poem, sure): 涵光室有会. 乾隆四十年 (1775) · v3 p.263, under 含经堂; source ref 12-669 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=266
+  > 冬室欲其暖，夏室欲其凉。惟有春之室，所喜涵韶光。韶光融户外，十笏中能藏。放弥卷则退，羲经言已详。又如虚生白，颇亦契蒙庄。即景得静会，止止来千祥。
+  Poem 涵光室有会 by the Qianlong Emperor, 1775, filed by the editors under 含经堂.
+- **E0031** (poem, sure): 含经堂: 乾隆四十一年 poem of the Qianlong Emperor. 乾隆四十一年 (1776), date from the compilation · p.278 item (18), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=278
+  > 节前本无暇，节后略余闲。况值开印未，尚迟引见班（开印后方进阁本，各部轮班奏事引见）。圆明及长春，无过咫尺间。冰床渡冻浦，笋舆入松闗。坐我含经堂，展彼霏芸编。不为劳爱耳，洵有益开焉。设问益何得，自反㣲赧颜。
+  Poem of the Qianlong Emperor at 含经堂, 1776, on reading. Year as given by the compilation.
+- **E0032** (poem, sure): 含经堂: 乾隆四十二年 poem of the Qianlong Emperor. 乾隆四十二年 (1777), date from the compilation · p.279 item (19), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 例以来节后（迩年率以节后务间方至此屡见向咏），稍闲乃逮斯。已惭多构筑，宁敢恣游嬉。盆卉当春发，架编遣暇披。东厢贮荟要，数典不忘兹（是处东厢仿宫中摛藻堂之式，按经、史、子、集列架并命缮四库全书荟要贮之）。
+  Qianlong, 1777: his note says the east wing was shelved after 摛藻堂 to hold the 四库全书荟要.
+- **E0076** (poem, sure): 渊映斋. 乾隆四十二年 (1777) · v3 p.265, under 含经堂; source ref 12-962 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=268
+  > 渊乃训其深，映乃训其委。惟深斯不穷，则委皆成美。其要曰忘物，而更在忘己。试看渊映间，其中鲜彼此。书斋讵玩景，顾名当会理。设云即景题，阶前无止水。
+  Poem 渊映斋 by the Qianlong Emperor, 1777, filed by the editors under 含经堂.
+- **E0079** (poem, sure): 涵光室口号. 乾隆四十二年 (1777) · v3 p.265, under 含经堂; source ref 12-962 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=268
+  > 涵光室里说涵光，此意分明是注庄。更咏春生何处好，试看止止纳千祥。
+  Poem 涵光室口号 by the Qianlong Emperor, 1777, filed by the editors under 含经堂.
+- **E0033** (poem, sure): 含经堂: 乾隆四十六年 poem of the Qianlong Emperor. 乾隆四十六年 (1781), date from the compilation · p.279 item (20), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 昔岁上元过后来（往年上元节后，每至斯堂，率有题咏，故有闲余节后到书堂例，以新正有咏章之句） ，即今依例此清陪。事无不可过去者（昔有句云：无不可过去之事） ，心则安能顿忘哉。灯火虽教答令节，杯桊仍复引余哀。慎终追远宣尼训，经义由来二语该。
+  Poem of the Qianlong Emperor at 含经堂, 1781, on reading. Year as given by the compilation.
+- **E0034** (poem, sure): 味腴书屋: 乾隆四十六年 poem of the Qianlong Emperor. 乾隆四十六年 (1781), date from the compilation · p.284 item (3), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 含经堂左箱，荟要个中蔵（四库全书荟要二部，一贮大内者，每册末页用摛藻堂印，一贮御园者，用味腴书室印。）。四库贯今古，万籖贮缥缃。虽云稡精秘，尚自浩汪洋。六部天人备（谓经），千秋治乱详（谓史）。百家纯与驳（谓子），诸集否和臧（谓集）。元以钩而获，腴其味则长。宁输二酉富，祇为万几忙。那得闲无事，于斯枕葄偿。
+  Poem of the Qianlong Emperor at 味腴书屋, 1781, on reading. Year as given by the compilation.
+- **E0035** (poem, sure): 味腴书屋: 乾隆四十七年 poem of the Qianlong Emperor. 乾隆四十七年 (1782), date from the compilation · p.284 item (4), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 荟要收四库（是室中，列书厨弆四库全书荟要），味腴沃一心。六经言与行，诸史古和今。子已分粹驳，集犹资酌斟。如云踰尝鼎，厓略在精寻。
+  Poem of the Qianlong Emperor at 味腴书屋, 1782, on reading. Year as given by the compilation.
+- **E0036** (poem, sure): 淳化轩: 乾隆四十八年 poem of the Qianlong Emperor. 乾隆四十八年 (1783), date from the compilation · p.282 item (7), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=282
+  > 重摹淳化帖，石版砌厢廊。遂以颜轩额，寜云摹宋皇。亦经几岁月（壬辰年重刻淳化阁帖，成以石嵌轩壁，阅今巳十二年，计宋淳化初刻时几八百年矣。 ） ，时复赏烟光。望雪逢优雪，益増敬不遑。
+  Poem of the Qianlong Emperor at 淳化轩, 1783, on the view. Year as given by the compilation.
+- **E0037** (poem, sure): 含经堂: 乾隆五十年 poem of the Qianlong Emperor. 乾隆五十年 (1785), date from the compilation · p.279 item (21), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 过节芸堂至，率成例事如。闹余颇喜静，几浄遂观书。改过偶思彼（用论语蘧伯玉事），躬行何有予。十年屈指近，娱老企斯居（今岁乙巳新韶至乙夘，归政之期屈指十年）。
+  Poem of the Qianlong Emperor at 含经堂, 1785, on reading. Year as given by the compilation.
+- **E0038** (poem, sure): 味腴书屋: 乾隆五十二年 poem of the Qianlong Emperor. 乾隆五十二年 (1787), date from the compilation · p.284 item (5), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 四库浩无涘，因成荟要书。依然庋厨阁，何有玩居诸。腴匪外来者，味当已饫如。芸编翻却置，笑负少年初。
+  Poem of the Qianlong Emperor at 味腴书屋, 1787, on reading. Year as given by the compilation.
+- **E0039** (poem, sure): 淳化轩: 乾隆五十二年 poem of the Qianlong Emperor. 乾隆五十二年 (1787), date from the compilation · p.282 item (10), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=282
+  > 淳化因蔵帖，循名未副名。岂真在墨宝，讵可忘民生。风俗漓惟甚，货财价匪轻。徒称滋户口（我朝顺治初年，民数不过一千六十三万，今休养生息百数十年，民数已至二万七八千万之多，较国初增二十倍，户口多则用物多，物价安得不贵，此保泰所以难也），惭愧在持盈。
+  Poem of the Qianlong Emperor at 淳化轩, 1787. Year as given by the compilation.
+- **E0040** (poem, sure): 含经堂: 乾隆五十六年 poem of the Qianlong Emperor. 乾隆五十六年 (1791), date from the compilation · p.279 item (23), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 自昔元宵三五仍，挈壶时刻别除乘。兹当置望逢十七，却看满轮无减增（上元本言十五而望，或有迟一二日者，今岁正月置望在十七，今夜月轮始满） 。昨偶值风烟火罢（御园镫节，例以十三日起至燕九日收，灯前十四日以傍晩雪势未止，停放烟火，十五正日恰即晴霁，依例举行，昨十六日又以值风停止，七日之内偶停一二日，亦属恒事耳） ，今犹婪节宴游应。买镫那一钱王藉（容斋随笔云：西京正月十五前后各一日看镫，本朝增为五夜，俗言钱忠懿纳土进钱买两夜，遂展至十七十八），中外百年乐可征（向例上元节于御园正大光明殿筵宴各蒙古回部外藩及各国使臣，晚间命于山高水长楼前观放烟火，并令随至同乐园观庆丰图，以示优惠。今岁西北则増哈萨克斯坦，南则増暹罗、缅甸诸藩国来使，我朝百数十年版图式廓，中外一家，欢若家庭，实亦自昔罕闻） 。
+  Poem of the Qianlong Emperor at 含经堂, 1791, on banquets. Year as given by the compilation.
+- **E0041** (poem, sure): 含经堂: 乾隆五十六年 poem of the Qianlong Emperor. 乾隆五十六年 (1791), date from the compilation · p.279 item (24), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 节后临堂例合仍，庆宵行惠暇难乘。曦烘菱牖昼渐永，雪积玉林景倍増。膏泽扫培真富有，勤劳行赏亦均应（每得雪后，命步甲园户等扫培树根，即藉以行赏，岁为成例，亦敛时敷锡之一端也）。敛时福更敷而锡，义叶含经念庶征。
+  Poem of the Qianlong Emperor at 含经堂, 1791, on snow. Year as given by the compilation.
+- **E0042** (poem, sure): 淳化轩: 乾隆五十六年 poem of the Qianlong Emperor. 乾隆五十六年 (1791), date from the compilation · p.282 item (11), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=282
+  > 春寒今岁勒花荣，淳化庭梅却发英。讶看舒风迎玉砌，悟因护暖罩毡棚。笑嬴盆树枯和菀（屋中盆梅却烂漫矣），幻结山桃弟与兄（近日山桃始开）。芳谱何须分次第，傥来七字偶摅情。
+  Poem of the Qianlong Emperor at 淳化轩, 1791, on the view. Year as given by the compilation.
+- **E0043** (poem, sure): 含经堂: 乾隆五十七年 poem of the Qianlong Emperor. 乾隆五十七年 (1792), date from the compilation · p.279 item (25), under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=279
+  > 长春园拟倦勤居（圆明圆之东曰长春园，乃予预葺以待归政后所居，与大内之宁寿宫同。）， 堂曰含经久额子。四载为期即归政，一生惟是不离书。可知凡事豫则立，鲜得如心愿以舒。敬忆当年嘉号赐雍正年间，因集当今法会以纪一时问答语，予曾仰蒙恩赐长春居士之号，今即以名园，计倦勤居此，近阅四载，颙冀上苍鸿佑，若果符斯愿，是当年恩贶已为之兆矣），或叨天佑望无虚。
+  Poem of the Qianlong Emperor at 含经堂, 1792, on state papers. Year as given by the compilation.
+- **E0044** (poem, sure): 淳化轩: 乾隆五十七年 poem of the Qianlong Emperor. 乾隆五十七年 (1792), date from the compilation · p.282 item (12), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=282
+  > 庭梅自与盆梅异，谢却火攻何碍迟。犹忆昔年言理趣，显仁蔵用会于斯。” “今年春冷因通闰，最早山桃亦放迟。却是庭梅具深意，送行几朵发英斯（向年，庭梅至春仲已盛开，今岁以通闰，花信俱迟，日内将启跸西巡，枝头数朵舒英如有意然。）。
+  Poem of the Qianlong Emperor at 淳化轩, 1792, on the view. Year as given by the compilation.
+- **E0082** (poem, sure): 三友轩歌. 嘉庆六年 (1801) · v3 p.284, under 含经堂; source ref 2-90 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=287
+  > 松高荫翠招长风，飒然拂竹摇玲珑。迎冬梅蕊机已动，素心相印形神通。品尊卉木推三友，浮筠劲节岁寒守。肯因冰雪易贞坚，夭桃秾李皆厮走。
+  Poem 三友轩歌 by the Jiaqing Emperor, 1801, filed by the editors under 含经堂.
+- **E0045** (poem, sure): 味腴书屋: 嘉庆七年 poem of the Jiaqing Emperor. 嘉庆七年 (1802), date from the compilation · p.284 item (6), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 古籍先言味㝡腴，几闲探讨作君谟。唐虞善行难师法，莅政临民实恧吾。
+  Poem of the Jiaqing Emperor at 味腴书屋, 1802, on reading. Year as given by the compilation.
+- **E0046** (poem, sure): 味腴书屋: 嘉庆八年 poem of the Jiaqing Emperor. 嘉庆八年 (1803), date from the compilation · p.284 item (7), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 治理在简编，诗书存古训。精华味最腴，探寻心切近。沉潜务虚衷，可益真学问。圣道亘千秋，日月经天运。
+  Poem of the Jiaqing Emperor at 味腴书屋, 1803, on reading. Year as given by the compilation.
+- **E0083** (poem, sure): 题三友轩. 嘉庆十四年 (1809) · v3 p.296, under 含经堂; source ref 4-180 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=299
+  > 严飙卷冻云，暖旭映朱牗。蜃窗朗西轩，坐对三益友。苍颜欣不凋，夭矫岁寒后。筼筜枝茂蕃，碧筠劲节守。梅占百花先，冷艳屏尘垢。神契物外交，忘年乐悠久。
+  Poem 题三友轩 by the Jiaqing Emperor, 1809, filed by the editors under 含经堂.
+- **E0047** (poem, sure): 味腴书屋: 嘉庆十五年 poem of the Jiaqing Emperor. 嘉庆十五年 (1810), date from the compilation · p.284 item (8), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 图治有源本，简编勉味腴。 史经总同贯，今古岂殊途。荟要充楹栋，研精在黄谟。诚求行实政，化雨渐涵濡。
+  Poem of the Jiaqing Emperor at 味腴书屋, 1810, on reading. Year as given by the compilation.
+- **E0048** (poem, sure): 味腴书屋: 嘉庆二十四年 poem of the Jiaqing Emperor. 嘉庆二十四年 (1819), date from the compilation · p.285 item (9), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=285
+  > 旧额箴心随处题，味余勤学得端倪。衷无嗜好政清简，葄史枕经古与稽。
+  Poem of the Jiaqing Emperor at 味腴书屋, 1819, on reading. Year as given by the compilation.
+- **E0049** (poem, sure): 味腴书屋: 嘉庆二十四年 poem of the Jiaqing Emperor. 嘉庆二十四年 (1819), date from the compilation · p.285 item (10), under 味腴书屋 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=285
+  > 旧额书斋及六旬，益勤温故庶知新。文源有本时探讨，学海无涯日引伸。师范常怀虞怠惰，圣功力勉永遵循。屏除杂念守成宪，修已诚求安万民。
+  Poem of the Jiaqing Emperor at 味腴书屋, 1819, on reading. Year as given by the compilation.
+- **E0050** (poem, sure): 淳化轩: 道光四年 poem of the Daoguang Emperor. 道光四年 (1824), date from the compilation · p.284 item (21), under 淳化轩 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  > 世俗叹浇薄，天恩感渥深。永思不忍政，常廑化淳心。恭俭身应率，真诚道可寻。兢兢瞻宝翰，绍衣凛微忱。
+  Poem of the Daoguang Emperor at 淳化轩, 1824. Year as given by the compilation.
+- **E0056** (description, sure): 长春园 No.2, 含经堂 Hanjing Tang. 1934 · p.98 · S02. https://archive.org/details/historyofpekings00malo
+  > A palace on the large island in the center of the garden which was almost as large as the emperor's private palace in the Yuan Ming Yuan, and contained an inscribed stone tablet to Emperor Yu the Great which had been handed down from several dynasties before the Sung.
+  Almost as large as the emperor's own palace in the Yuan Ming Yuan, with an old inscribed tablet. Qianlong is said to have retired here after abdication (Yuan's memorandum, hearsay). Plate p.100: rock garden north of it; p.101 calls it very extensive.
+- **E0494** (description, sure): 长春园 Changchun Yuan: eight chief groups. 1934 · p.98 · S02. https://archive.org/details/historyofpekings00malo
+  > The new garden which the Emperor constructed in 1751 just east of the Yuan Ming Yuan he called the Ch'ang Ch'un Yuan, or Garden of Long Spring.
+  From Rixia j83. Built 1751 by Malone's date, added to for years; about a third of the size of the Yuan Ming Yuan proper; islands and artificial hills with wider spaces and larger lakes. No.1 audience hall inside the south gate (澹怀堂); No.2 palace on the central island (含经堂); Nos.3, 6, 8 lakeside gardens; Nos.4, 5, 7 palace groups on islands. Mapping of numbers to ids is mine; only 6 and 8 are named by Malone.
+- **E0058** (description, sure): 神心妙达 at 淳化轩. 2021 · section 2.2 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  In 1814 the 乐奏钧天 stage and dressing rooms went up on the east of 淳化轩, and 神心妙达 was rebuilt as the hall to watch from. The same words in S05 j81:35b are a quotation in the 水木明瑟 preface and have nothing to do with this hall.
+- **E0059** (description, sure): 嘉庆帝所题圆明园淳化轩诗考析 (尤李). 2023-08-16 post · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/0bc9dd46ac1b4792b33bab6f8a9eb883.htm
+  Through Jiaqing's poems. It dates the addition of 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼 behind 含经堂 to 1770, when the compound reached full size. The 重刻淳化阁帖 stones were set in the galleries in front of 淳化轩.
+- **E2156** (description, sure): 圆明园买卖街钩沉. post n.d. · hwyj · S115. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
+  The two shop streets. 同乐园's runs over 130 m north-south, split by a stream and 双桥, to the south of 舍卫城, in place by 1744. 含经堂's, dug in 2001-02, has a base 135.65 x about 6.3 m and 28 stoves, so perhaps eating houses. It has 40 shop bays in 9 units, against 10 buildings on the Yangshi Lei plan.
+- **E1454** (description, likely): 圆明园漫记, 宋广波. n.d. · essay · S335. https://www.aisixiang.com/data/141347.html
+  A walker's essay. It says the base of 万方安和 and the goldfish pond of 坦坦荡荡 were dug and repaired in 2004 and were basically intact. It lists 澹怀堂, 含经堂 and 养雀笼 as the digs of its time. Lead only, not a report.
+- **E0053** (description, sure): 圆明园百景史事分景汇编: 含经堂. 1747-1810 · from p.277, under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=277
+  The 1747 poem is on the newly finished hall. A note of 1777 says the east wing was shelved like 摛藻堂 in the palace for the 四库全书荟要. Most poems are about reading. The compiler captions a poem of 1791 as a feast here, but the poem's own note puts the banquet at 正大光明殿. 含经堂: 34 dated items, 1747-1810, of which 34 poems (Qianlong, Jiaqing); recurring themes: reading, the view, escaping the heat. First dated 1747, last dated 1810.
+- **E0054** (description, sure): 圆明园百景史事分景汇编: 味腴书屋. 1759-1819 · from p.284, under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=284
+  A reading room in the 含经堂 compound (also written 味腴书室, 味余书室); poems of 1781-1787 have Qianlong consulting the 四库全书荟要 here. 味腴书屋: 10 dated items, 1759-1819, of which 10 poems (Qianlong, Jiaqing); recurring themes: reading. First dated 1759, last dated 1819.
+- **E0055** (description, sure): 圆明园百景史事分景汇编: 淳化轩. 1770-1824 · from p.281, under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=281
+  In 1770 Qianlong had a good rubbing of the 淳化阁帖 recut, set the slabs into the gallery walls behind 含经堂 and widened the gallery into this hall, meaning to retire here at 85. A note of 1771 says the galleries were done and the carving was not. 淳化轩: 21 dated items, 1770-1824, of which 21 poems (Qianlong, Jiaqing, Daoguang); recurring themes: the view. First dated 1770, last dated 1824.
+- **E0057** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 含经堂. 2020 edition · v3 p.244 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
+  The largest group in this garden, finished 1747, rebuilt 1770 with 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼. 含经堂 is a seven-bay double-eaved glazed hall; 霞翥楼 mirrors 梵香楼 and, with the inner plaque 味腴书室, held the 四库全书荟要, which identifies our 味腴书屋. A stage was added east of 淳化轩 in 1814. Guards were still posted after 1860.
+- **E0060** (drawing, sure, search index only): 含经堂平面图 (图名: 长春园淳化轩). 原图乾隆五十九年 (1794) 后, 贴样嘉庆十九年 (1814) · 国家图书馆善本部 样021-23号 · S310. https://www.mhymy.com/dasl/ysltd/7866.html
+  Presentation plan of Hanjing Tang under the title Chunhua Xuan, 722x503 mm, colour and ink with red and yellow slips, drawn after 1794 with a pasted slip of 1814. No image here; the site may ask a small payment for the full record.
+- **E0061** (archaeology, sure): 含经堂 dig: 地天母 bronze from 梵香楼. 2001-2003 · section on 陈辉 · S333. https://www.visitbeijing.com.cn/article/49Nly85Lvzb
+  Approval to survey and dig 长春园宫门 and 含经堂 came in March 2001, and the cleared site was presented by December 2003. A small bronze Buddha inscribed 地天母 was found; the park's archaeologist identifies it as the only known survivor of the 700-odd images of 梵香楼 Fanxiang Lou.
+- **E0063** (archaeology, sure): 澄波夕照 at 含经堂. c. 2011 blog, on the dig of 2001-03 · 系列15 · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100sxa7.html
+  After the dig of 2001-03 at 含经堂, the foundations of 澄波夕照, 得胜概 and a rock pavilion were restored in part. So the label on S01 has a site on the ground.
+- **E0064** (archaeology, sure): 含经堂 乐奏钧天 stage as cited in 圆明园戏场探微. 2021 · citing 考古 2004(2) · S144. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
+  The park's theatre paper reports the excavated 乐奏钧天 Yuezou Juntian stage of 含经堂 as about 16 m square, built over a granite cellar with a clear height of 2.47 m.
+- **E0062** (archaeology, sure, search index only): 北京圆明园含经堂遗址2001~2002年度发掘简报, 考古 2004(2): 41-65. 2004 · abstract via library record · S143. https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_cass_nssd_9325303
+  Brief report of the 2001-2002 seasons at 含经堂 Hanjing Tang: the site covers over 60,000 m2, with building remains over 30,000 m2 in more than 30 units. Only the abstract is reachable; the full 25 pages must be requested.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 含经堂. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 
 - Q9: Bay counts, plan against text
 - Q14: A label names which hall?
+- Q45: Halls in the texts with no row
 
 <!-- generated:end -->
 

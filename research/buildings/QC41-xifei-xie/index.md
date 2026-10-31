@@ -8,12 +8,12 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 夕霏榭 Xifei Xie (S06 · confidence B)
-- **Garden:** Qichun Yuan (S06)
-- **Type:** scene (S06 · confidence B)
-- **Destroyed:** 1860 (S06)
+- **Name:** 夕霏榭 Xifei Xie (S06, S361 · confidence B)
+- **Garden:** Qichun Yuan (S06, S361)
+- **Type:** scene (S06, S361 · confidence B)
+- **Destroyed:** 1860 (S06, S361)
 - **Position:** Not placed: the name was not found on the plan.
-- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. (S06)
+- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. hexagonal pavilion (S361, v4 p.293). (S06, S361)
 - **Plan reader's note:** Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. (S01) *(research copy, not public)*
 - **How it was read:** not_found (S01) *(research copy, not public)*
 
@@ -23,11 +23,26 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
+  > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
+  The earliest list of the Thirty Scenes we can see, and the history before it seems to come from Daoguang's colophon to Jiaqing's poem set (有宣宗恭跋). It places 問月樓 south of 洲 and 鏡綠亭 north of it, names 迎暉殿 as the main hall of the dowager's residence, and equates 含光樓 with the old 聯暉樓. Punctuation is ours; the print has none. Transcribed by eye.
+- **E0865** (poem, sure): 夕霏榭 (绮春园三十景). 嘉庆十年 (1805) · v4 p.179, under 绮春园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=182
+  > 夕宇霏霞景可攀，斜阳绚彩满西山。枫屏耀锦红千片，蓼岸澄波绿一湾。叶舞沙汀翻灿烂，泉淙石涧泻潺湲。偶来虚榭探佳致，陶句清新寄兴閒。
+  One of the Thirty Scenes of 绮春园 by the Jiaqing Emperor, 1805 (S58): the poem 夕霏榭.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 
-None that name it.
+- Q11: Qichun Yuan's thirty scenes
 
 <!-- generated:end -->
 

@@ -18,7 +18,6 @@ Yuanming Yuan
 - **Position:** 40.00310, 116.28844. S01 likely (S01 · confidence B)
 - **Bays:** 5 in the texts / 6x1 on the plan (S05, S01)
 - **Size in the inventory:** 25.4 × 8.5 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 為茹古涵今五楹南向 [j81:3b] (S05)
 - **Note:** 牙籤萬軸 [j81:4b] (S05, S01)
 - **Plan reader's note:** Pale ink. Text 5 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
@@ -37,7 +36,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1354** (text, sure): 日下舊聞考 茹古涵今. 1780s (乾隆 敕撰) · j81:3b-4a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 坦坦蕩蕩之南為茹古涵今五楹南向其後方殿為韶景軒四面各五楹韶景軒前東為茂育齋西為竹香齋又北為靜通齋（圓圓明園册）臣等謹按茹古涵今四十景之一也額為皇上御書韶景軒額恭懸軒内其外南簷額曰喜接南薰東簷額曰景麗東皇西簷額曰翠生西嶺北簷額曰清風北户與竹香齋額皆御書茂育齋静通齋額皆世宗御書
+  South of 坦坦蕩蕩: the five-bay 茹古涵今 facing south; behind it the square 韶景軒 of five bays per side, with a plaque on each of its four eaves; 茂育齋, 竹香齋 and 靜通齋 around it.
+- **E1358** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 茹古涵今. 2020 edition · v2 p.56 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=59
+  For books and study: a seven-bay gate, five-bay front hall, and 韶景轩, five bays on each of four sides with four plaques, then 茂育斋, 竹香斋, 静通斋.
+- **E1359** (description, likely, search index only): 茹古涵今 scene card. n.d. · mhymy jqjs 3851 · S340. https://www.mhymy.com/ymss/jqjs/3851.html
+  Also called 韶景轩, south of 坦坦荡荡, 9,000 m2 with a dense 3,300 m2 of buildings, around a large square hall of the same name.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 茹古涵今, 6x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 茹古涵今 (no picture of this hall found): see YM11
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

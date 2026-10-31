@@ -16,7 +16,6 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.00255, 116.29337. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 23.9 × 10.6 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 後為後天不老 [j82:28b] (S05)
 - **Plan reader's note:** Label just south. Second island to the north: text 后. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 4510, 5297 (S01) *(research copy, not public)*
@@ -33,7 +32,27 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E2087** (text, sure): 日下舊聞考 洞天深处. 1780s (乾隆 敕撰) · j82:28b-29a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 洞天深處在如意館西稍南前宇乃諸皇子所居為四所東西二街南北一街前為福園門四所之西為諸皇子肄業之所前有前垂天貺中為中天景物東宇為斯文在兹後為後天不老（圓明園册）臣等謹按洞天深處四十景之一額為皇上御書前垂天貺中天景物後天不老及如意館諸額皆世宗御書斯文在兹額恭懸至聖先師神龕上聫曰道統集成歸至徳聖功養正仰微言皆御書
+  West and a little south of 如意館, near the 福園門: four courts where the imperial princes lived, with streets between; west of them the princes' school with 前垂天貺, 中天景物, 斯文在兹 (shrine to Confucius) and 後天不老.
+- **E2098** (poem, likely): 恭和御制至后天不老书房作元韵（405）. 乾隆五十三年 (1788) · v4 p.392, under 春熙院 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=395
+  > 芸窗风日永，典学忆当年。逊志希先哲，崇文重昔贤。来游宸藻丽，惇叙圣恩全。庆洽春韶普，承欢岁月緜。
+  Poem 恭和御制至后天不老书房作元韵（405） by the Qianlong Emperor, 1788, filed by the editors under 春熙院.
+- **E2099** (poem, likely): 至后天不老书房作. 嘉庆二年 (1797) · v3 p.116, under 洞天深处; source ref 1-207 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=119
+  > 昔日弦歌地，重来已隔年。随兄怀雅训，勖弟勉成贤。师友三天聚，儿孙五代全。都蒙皇父泽，惇叙国恩绵。
+  Poem 至后天不老书房作 by the Jiaqing Emperor, 1797, filed by the editors under 洞天深处.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 后天不老. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 洞天深处 (no picture of this hall found): see YM40
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

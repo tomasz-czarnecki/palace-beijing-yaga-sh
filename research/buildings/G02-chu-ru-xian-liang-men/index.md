@@ -26,7 +26,23 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E0378** (text, sure): 大宫門 and 出入賢良門. 1780s · j80:8b-9a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
+  > 大宫門五楹門前左右朝房各五楹……大宫門内為出入賢良門五楹門左右為直房前跨石橋度橋東西朝房各五楹
+  The main gate of five bays with five-bay offices left and right; inside it 出入贤良门, five bays, with duty rooms and a stone bridge in front of it.
+- **E0380** (description, sure): Malone: gates of the south side, 大宫门 and second gate. 1934 · pp.50-54, 68-70 · S02. https://archive.org/details/historyofpekings00malo
+  The present 出入贤良门 lies on the line of the south wall, while the Great Palace Gate opens through a shorter wall like a bay: Malone reads it as a later addition. He notes 藻园门 lies west of 西南门, which makes the name 西南门 a misnomer, and supposes 藻园门 was added later.
+
+**On the plan:** Drawn as a gate on the plan of the gardens (S01). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this gate found): see GARDEN-YM
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

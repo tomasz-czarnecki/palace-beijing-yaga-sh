@@ -31,9 +31,24 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 86° from north
 - **Confidence:** C
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0389** (sure): Bieyou Dongtian Marble Boat 20130323.jpg (2013-03-23 15:32:26 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Bieyou_Dongtian_Marble_Boat_20130323.jpg
+
+  ![P0389](../../photos/images/P0389.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 别有洞天: see YM34
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

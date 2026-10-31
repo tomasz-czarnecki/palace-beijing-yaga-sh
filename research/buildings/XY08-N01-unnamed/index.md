@@ -32,9 +32,28 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 2 m
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (2)
 
-None in the catalog yet.
+- **P0051** (guess): 海晏堂北面 (圆明园铜版画册 / 西洋楼铜版画, plate 十一 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-9.jpg
+
+  ![P0051](../../photos/images/P0051.jpg)
+
+- **P0053** (guess): 海晏堂南面 (圆明园铜版画册 / 西洋楼铜版画, plate 十三 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-10.jpg
+
+  ![P0053](../../photos/images/P0053.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 西水?房 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 海晏堂: see XY08
+
+**Searched and not found:** No text or drawing names it in 日下旧闻考 j83, the Qianlong poems on Kanripo, Delatour 1803, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions
 

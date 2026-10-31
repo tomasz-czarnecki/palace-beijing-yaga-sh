@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Position:** 40.01147, 116.29628. S01 sure (S01 · confidence B)
 - **Bays:** 11x1 on the plan (S05, S01)
 - **Size in the inventory:** 37.6 × 6.6 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 西峯秀色迤東東西船塢各二所 [j82:8a] (S05)
 - **Note:** Boat houses, 2+2. S02 p.92 near 福海. (S05, S01)
 - **Plan reader's note:** Two groups, each 4 rows: text 东西船坞各二所. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -39,7 +38,26 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E1815** (text, sure): 日下舊聞考 四宜书屋. 1780s (乾隆 敕撰) · j82:8a-9a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 西峯秀色迤東東西船塢各二所北岸為四宜書屋五楹即安瀾園之正宇東南為葄經館又南為采芳洲其後為飛睇亭東北為緑帷舫四宜書屋西南為無邊風月之閣又西南為涵秋堂北為烟月清真樓樓西稍南為逺秀山房樓北度曲橋為染霞樓（圓明園册）臣等謹按四宜書屋四十景之一額為世宗御書皇上即於其地畧仿海寧陳氏安瀾園之意因以命名詳御製安瀾園記並御製安瀾園十景詩恭録卷内葄經館諸額皆御書
+  Past paired boathouses: the five-bay 四宜書屋, the main range of the 安瀾園 Anlan Yuan, with 葄經館, 采芳洲, 飛睇亭, 緑帷舫, 無邊風月之閣, 涵秋堂, 烟月清真樓, 逺秀山房 and 染霞樓. The note says it was modelled on the 陳 family garden at 海寧 Haining.
+- **E2391** (text, sure): 《日下舊聞考》 on 船塢 in 西峯秀色 and 蕊珠宫. 乾隆, 1780s · j82:8a, 12b · S05. https://www.kanripo.org/text/KR2k0036/082
+  > 西峯秀色迤東東西船塢各二所 / 噦鸞殿東為蕊珠宫宫南船塢後有龍王廟
+  Four boathouses east of 西峰秀色 and one south of 蕊珠宫. YM85 is not 蕊珠宫's dock per the plan note: no text found for it.
+- **E2392** (description, guess): 贾珺 on the 四宜书屋 dock as a shrine. 2012 · S47 table row 20; p.113 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  A hanging-gable dock south-east of 四宜书屋 housed tablets of wind, cloud, thunder and rain gods from Yongzheng's time; the rain-god tablet moved out in 1733. Which dock of YM82 is meant is not said.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 船坞, 11x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 四宜书屋 (no picture of this hall found): see YM28
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

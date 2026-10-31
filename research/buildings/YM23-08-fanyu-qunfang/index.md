@@ -17,7 +17,6 @@ Yuanming Yuan
 - **Position:** 40.00853, 116.28770. S01 likely (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x1 on the plan (S05, S01)
 - **Size in the inventory:** 20.6 × 10.3 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 正殿為蕃育羣芳五楹 [j82:2a-b] (S05)
 - **Plan reader's note:** 蕃育群芳: five bays match text. Rear of the walled court. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 2519, 2067 (S01) *(research copy, not public)*
@@ -34,7 +33,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E1704** (text, sure): 日下舊聞考 濂溪乐处. 1780s (乾隆 敕撰) · j82:2a-2b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 濓溪樂處之南為彚萬總春之廟正殿為蕃育羣芳五楹殿東北樓為香逺益清樓西為樂天和為味真書屋又西為池水共心月同明廟東沿山徑出為普濟橋（圓明園册）臣等謹按彚萬總春之廟以祀花神殿樓諸額皆皇上御書池水共心月同明額世宗御書
+  South of 濓溪樂處: the flower-spirit temple 彚萬總春之廟, with the five-bay 蕃育羣芳, 香逺益清, 樂天和, 味真書屋, 池水共心月同明 and the 普濟橋.
+- **E1710** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 汇万总春之庙. 2020 edition · v3 p.148 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=151
+  The flower-god temple garden on the south shore of 濂溪乐处, from early Qianlong: five-bay 蕃育群芳, tower with plaques 涵虚朗鉴 and 香远益清, 乐天和, 味真书屋, an open hall 池水共心月同明, and the boat-shaped 宝莲航.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 5x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 濂溪乐处 (no picture of this hall found): see YM23
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

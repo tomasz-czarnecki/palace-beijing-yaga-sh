@@ -29,7 +29,20 @@ Qichun Yuan
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the nearest named compound, 天心水面, about 70 m away (no picture of this compound found): see QC26
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

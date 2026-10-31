@@ -18,7 +18,6 @@ Yuanming Yuan
 - **Position:** 40.00325, 116.28864. S01 likely (S01 · confidence B)
 - **Bays:** 3x1 on the plan (S05, S01)
 - **Size in the inventory:** 10.8 × 7.9 m. S01 plan px / hall scale (S01)
-- **日下旧闻考:** 韶景軒前東為茂育齋 [j81:3b] (S05)
 - **Plan reader's note:** Pale ink, black spot on the label. Position fits 韶景轩前东 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 2614, 4654 (S01) *(research copy, not public)*
@@ -35,7 +34,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1354** (text, sure): 日下舊聞考 茹古涵今. 1780s (乾隆 敕撰) · j81:3b-4a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 坦坦蕩蕩之南為茹古涵今五楹南向其後方殿為韶景軒四面各五楹韶景軒前東為茂育齋西為竹香齋又北為靜通齋（圓圓明園册）臣等謹按茹古涵今四十景之一也額為皇上御書韶景軒額恭懸軒内其外南簷額曰喜接南薰東簷額曰景麗東皇西簷額曰翠生西嶺北簷額曰清風北户與竹香齋額皆御書茂育齋静通齋額皆世宗御書
+  South of 坦坦蕩蕩: the five-bay 茹古涵今 facing south; behind it the square 韶景軒 of five bays per side, with a plaque on each of its four eaves; 茂育齋, 竹香齋 and 靜通齋 around it.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 茂?? (? marks an unread character), 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 茹古涵今 (no picture of this hall found): see YM11
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

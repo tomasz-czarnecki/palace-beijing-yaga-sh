@@ -17,13 +17,29 @@ Gate in the garden walls
 
 No box of its own: the hall drawn at this point stands for the gate in the 3D view.
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0488** (guess): 長春園.jpg (2021-05-28 15:44:56 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E9%95%B7%E6%98%A5%E5%9C%92.jpg
+
+  ![P0488](../../photos/images/P0488.jpg)
+
+
+## Texts and drawings (1)
+
+- **E0393** (text, sure): 长春园宫门. 1780s · j83:3a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 長春園宫門五楹東西朝房各五楹正殿爲澹懷堂
+  S01 labels only 长春园 under this gate: it is the five-bay main gate of the garden with five-bay offices east and west.
+
+**On the plan:** Drawn as a gate on the plan of the gardens (S01). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
 
 ## Open questions
 
 - Q25: Other dates
+- Q52: Smaller conflicts
 
 <!-- generated:end -->
 

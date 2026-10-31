@@ -10,12 +10,12 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 天王殿 Tianwang Dian (S49, S01 · confidence B)
-- **Garden:** Qichun Yuan (S49, S01)
-- **Type:** temple (S49, S01 · confidence B)
-- **Destroyed:** not burnt 1860 (S49) (S49, S01)
+- **Name:** 天王殿 Tianwang Dian (S49, S01, S221 · confidence B)
+- **Garden:** Qichun Yuan (S49, S01, S221)
+- **Type:** temple (S49, S01, S221 · confidence B)
+- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221)
 - **Position:** 39.99883, 116.30346. S01 likely (S01 · confidence B)
-- **Bays:** 4x2 on the plan (S49, S01)
+- **Bays:** 5 in the texts / 4x2 on the plan (S49, S01, S221)
 - **Size in the inventory:** 14.8 × 8.5 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** No label; next hall on the axis. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
@@ -31,9 +31,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 172.7° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0429** (sure): 正觉寺天王殿 20130317.JPG (2013-03-17 08:24:42 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E8%A7%89%E5%AF%BA%E5%A4%A9%E7%8E%8B%E6%AE%BF_20130317.JPG
+
+  ![P0429](../../photos/images/P0429.jpg)
+
+
+## Texts and drawings (2)
+
+- **E0681** (description, sure): 正觉寺: plan, halls and furnishing. reprint 2021; 《圆明园研究》第5期 · section 四 · S221. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/lswh/f8d06436b9d444f98d64cdd88753acef.htm
+  Faces south, five halls on the axis: gate of three bays with Qianlong's four-language plaque, bell and drum towers, five-bay 天王殿, seven-bay 三圣殿 on a stone terrace, 文殊亭, seven-bay 最上楼; a monks' yard of 8 buildings and 22 bays on the east. The only temple in the three gardens run by lamas. Furnishing comes mostly from 金勋's unpublished 成府村志.
+- **E0683** (description, sure): 藏传佛教与圆明园正觉寺. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/lswh/f8d06436b9d444f98d64cdd88753acef.htm
+  正觉寺 Zhengjue Si, built 1773-74 as a Tibetan Buddhist temple with a 达喇嘛 and 40 lamas sent from 宝谛寺. Walks through its halls with 金勋's account of the five colours of Buddhas in 最上楼.
+
+**On the plan:** Drawn on the plan of the gardens (S01) with no label, 4x2 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 正觉寺: see QC11
 
 ## Open questions
 

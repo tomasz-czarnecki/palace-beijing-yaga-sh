@@ -19,6 +19,7 @@ LOCAL = {
     "/_local/overlays/": ROOT / "research/overlays",  # the plan S01, georeferenced; never public
     "/_local/photos/": ROOT / "research/raw/photos",  # research-only copies; never public
     "/_local/buildings/": ROOT / "research/raw/buildings",  # full building pages; never public
+    "/_local/plancrops/": ROOT / "research/raw/plancrops",  # the plan S01 round each object; never public
 }
 
 

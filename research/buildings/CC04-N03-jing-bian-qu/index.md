@@ -33,7 +33,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E0135** (text, sure): 日下舊聞考 思永斋. 1780s (乾隆 敕撰) · j83:9a-9b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 蒨園後河北岸為思永齋七楹齋北樓宇臨池為山色湖光共一樓齋東别院為小有天園（長春園册）臣等謹案思永齋門額曰静便趣齋内額曰萬横香玉
+  North of the stream behind 蒨園: 思永齋, seven bays, with the tower 山色湖光共一樓 and the side court 小有天園.
+- **E0138** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 思永斋. 2020 edition · v3 p.302 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=305
+  Begun 1747 on a ringed island: a seven-bay hall, gate plaque 静便趣, with copies of the recut 淳化阁帖 and of the 西洋楼 engravings kept inside. 山色湖光共一楼 stands north with an octagonal gallery; 小有天园, after a Hangzhou garden, is the east court.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 静便趣, 4x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 思永斋 (no picture of this hall found): see CC04
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

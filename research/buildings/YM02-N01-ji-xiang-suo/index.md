@@ -34,7 +34,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E1083** (description, sure): 吉祥所 of 勤政亲贤. c. 2011 blog, unnamed source · 系列06, section 勤政亲贤 · S50. 
+  East of 勤政亲贤 stood 吉祥院, called also 吉祥所, counted apart in the building totals. In 1860 its gate and three courts survived while the rest burned. No other source seen: a lead.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 吉祥所, 4x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 勤政亲贤 (no picture of this hall found): see YM02
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

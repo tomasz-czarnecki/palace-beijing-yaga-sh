@@ -26,7 +26,22 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E0396** (description, likely): 祭器 由运料门 (S47 section 4). 2012, citing archive and Qing texts · p.127, citing S60 p.1053 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  A file of 1817 says ritual vessels for the spring and autumn rites at 惠济祠 and 河神庙 were carried in by garden labourers from outside 运料门 and carried back out by it: a working gate of the garden on the Qichun side.
+- **E0389** (description, likely): 围墙 and gates between the three gardens (S57 = S116). 2021, on Yangshi Lei wall plans · section 1.2, 3.3 · S57. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483376.html
+  Between 圆明园 and 长春园: 明春门, 绿油门, 蕊珠门. Between 绮春园 and 长春园: 茜园门. Between 绮春园 and 圆明园: 秀清村门. Today's wall file names 藻园门, 西爽村门, 运料门, 绿油门, 福缘门 and 东楼门 as sites of wall gates, 西北门 and 大北门 by their walls. 绿油门 is not labelled on S01.
+
+**On the plan:** Drawn as a gate on the plan of the gardens (S01). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this gate found): see GARDEN-QC
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

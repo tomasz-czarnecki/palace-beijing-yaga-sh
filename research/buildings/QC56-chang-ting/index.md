@@ -29,9 +29,24 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 173.2° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (2)
 
-None in the catalog yet.
+- **P0473** (guess): 三园交界 - Intersection of Three Gardens - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%9B%AD%E4%BA%A4%E7%95%8C_-_Intersection_of_Three_Gardens_-_2012.12_-_panoramio.jpg
+
+  ![P0473](../../photos/images/P0473.jpg)
+
+- **P0484** (guess): 荷塘 - panoramio.jpg (24 January 2011 (original upload date) (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E8%8D%B7%E5%A1%98_-_panoramio.jpg
+
+  ![P0484](../../photos/images/P0484.jpg)
+
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 敞厅, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+**Searched and not found:** No text or drawing names it in 養吉齋叢錄 j18, modern studies of 绮春园, what search indexes show of the Yangshi Lei drawings; 日下旧闻考 does not cover this garden, and Jiaqing's 三十景 poems could not be reached (wishlist).
 
 ## Open questions
 

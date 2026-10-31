@@ -10,12 +10,12 @@ Changchun Yuan
 
 ## What we know
 
-- **Name:** 青莲朵 Qinglian Duo (S05, S06 · confidence B)
+- **Name:** 青莲朵 Qinglian Duo (S05, S06 · confidence A)
 - **Garden:** Changchun Yuan (S05, S06)
-- **Type:** other (S05, S06 · confidence B)
+- **Type:** other (S05, S06 · confidence A)
+- **Built:** 青蓮朶 rock named 壬申 1752, from 德壽宫 Hangzhou; second copy of 梅石碑 set beside it in 1767 (S05, S06)
 - **Destroyed:** not destroyed; moved 1915 (S06) (S05, S06)
 - **Position:** Not placed: the name was not found on the plan.
-- **日下旧闻考:** 朗潤齋西有石立於園門内為青蓮朶 [j83:7a] (S05)
 - **Note:** Rock from 德寿宫 Hangzhou; named 壬申 1752 [j83:8a]. Moved 1915 to 中山公园 (S06). (S05, S06)
 
 ## Our model now
@@ -24,7 +24,30 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (5)
+
+- **E0091** (poem, sure): 御製蒨園八景詩. 1753 (乾隆十八年) · j83:8a-9a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆十八年御製蒨園八景詩　一亭一沼爰静神逰之鄉非壑非林自足天成之趣此中大有佳處物外聊爾寄情不為嵩山之比方偶效右丞之格調　機緘合希夷水木呈明翠銀塘横半𤱔萬頃煙波意（右朗潤齋）　樓臨内外湖地髙望斯逺湛然虚且明絜矩出治本（右湛景樓）　風前度彌静雨後香益清倣彿吳興岸菱歌唱晩晴（右菱香沜）　藍瑛碑側石名之青蓮朶介示無去來黙傳忘物我（右青蓮朶）總此一大内謾稱别有天達人誚坐井匪我古已然（右别有天）　石激出淙乳儼中宫商音我不觧攫醳而愛韻天琴（右韻天琴）　笠亭據假山亦足云標勝設擬宣城蹟合得謫仙詠（右標勝亭）　境以曲折幽中宏延外廣尺宅含寸田至人貴知養（右委宛藏）
+  Eight short poems on 蒨園: 朗潤齋, 湛景樓, 菱香沜, 青蓮朶, 别有天, 韻天琴, 標勝亭 and 委宛藏.
+- **E0092** (poem, sure): 御製重摹梅石碑置青蓮朶側而系之詩（有序）. 1767 (乾隆三十二年) · j83:7b-8a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 乾隆三十二年御製重摹梅石碑置青蓮朶側而系之詩（有序）　乙酉冬曽摹徳夀宫梅石碑驛致杭州以留舊跡因思梅既乆枯石又北來則新碑與舊碑不過存其名於依稀髣髴間耳既又思梅之槁於南者雖不可復生而石之存於北者固在也因命重摹一通置之石側青蓮朶者盖壬申初到時所命名亦並有詩紀事云　昔年德夀石名曰青蓮朶梅枯石北來惟餘碑尚妥徳夀豈復存乆矣燬兵火不禁興廢感碑亦漫漶頗因之為橅蹟驛致江之左新碑鄰舊碑那見梅石我重摹置石側為結無緣果誰云假氷玉猶是真嶪峩如因憶中郎武賁何不可
+  Poem with preface: the 梅石碑 from the old 德壽宫 in Hangzhou. The stone itself had come north as 青蓮朶; he made a second copy of the stele to set beside it.
+- **E0103** (text, sure): 日下舊聞考 蒨园. 1780s (乾隆 敕撰) · j83:7a-7b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 澹懐堂迤西濵河水石之間為蒨園門西嚮内為朗潤齋三楹其東為湛景樓又東為菱香沜朗潤齋西有石立於園門内為青蓮朶齋東南山池間為標勝亭又東南為别有天西北為韻天琴南角門外别院為委宛藏（長春園册）臣等謹案蒨園門左碑亭一刋重摹梅石碑標勝亭西壁勒御製蒨園八景詩
+  West of 澹懐堂: the west-facing gate of 蒨園 with the three-bay 朗潤齋, 湛景樓, 菱香沜, the rock 青蓮朶, 標勝亭, 别有天, 韻天琴 and 委宛藏. A stele pavilion by the gate holds the re-engraved 梅石碑, and 蒨園八景詩 are cut on the west wall of 標勝亭.
+- **E0112** (poem, sure): 青莲朵. 乾隆十八年 (1753) · v3 p.328, under 蒨园 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=331
+  > 蓝瑛碑侧石，名之青莲朵。介示无去来，默传忘物我。
+  Poem 青莲朵 by the Qianlong Emperor, 1753, filed by the editors under 蒨园.
+- **E0105** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 蒨园. 2020 edition · v3 p.327 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=330
+  Begun 1752, its south-east much rebuilt about 1808, when the five-bay 碧静堂 was made. 青莲朵 is the rock from 德寿宫 in Hangzhou. Three gates: a west land gate, a seven-bay north water gate with a landing, and 蒨园门, the only way through to 绮春园.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 蒨园 (no picture of this hall found): see CC03
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

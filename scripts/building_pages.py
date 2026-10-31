@@ -2,17 +2,20 @@
 
   uv run python scripts/building_pages.py        (after boxes1860.py)
 
-Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson. Writes:
+Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson. Writes:
   research/buildings/<ID>-<slug>/index.md        every row of buildings.csv and every gate. The block between the markers is rewritten; `## Notes` below it is hand-written and never touched
   research/buildings/README.md                   the list of all of them
-  site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, what the texts say, the box. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted)
+  site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, the box, the evidence. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted). GARDEN-YM.json etc. hold what speaks for a whole garden
   research/raw/buildings/<ID>.json               local only (gitignored): the full version, with the plan readers' notes, for tools/serve_local.py
 
-Notes go on the public site, except what stands below a line holding only `%% private %%`. Pictures are link entries for now: the pictures round brings the free images.
+Notes go on the public site, except what stands below a line holding only `%% private %%`.
+
+Evidence on a page, in this order: its own pictures, its own texts and drawings, the plan S01 as a link, then what speaks for a set of buildings (the compound, or the nearest compound and the garden) by reference, so the panel fetches it from that page and nothing is written twice; last, a line saying what was searched and not found. A research-only picture or drawing is a link card, never an image or a copied text (asserted).
 """
 
 import csv
 import json
+import math
 import re
 import unicodedata
 from pathlib import Path
@@ -24,14 +27,30 @@ PAGES = ROOT / "research/buildings"
 SITE_DATA = ROOT / "site/reconstruction/data"
 PUBLIC_OUT = SITE_DATA / "buildings"
 LOCAL_OUT = ROOT / "research/raw/buildings"
+LOCAL_CROPS = ROOT / "research/raw/plancrops"
 START = "<!-- generated:start (scripts/building_pages.py): do not edit between these markers -->"
 END = "<!-- generated:end -->"
 NOTES_HINT = "<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->"
 PRIVATE_LINE = "%% private %%"
 # What may stand in a public file. Anything else stops the script.
-PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "questions", "sources"}
+PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "plan_ref", "fallback", "searched", "questions", "sources"}
 PUBLIC_FACT_KEYS = {"label", "value", "sources", "confidence"}
-PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url"}
+PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "group", "conf", "why", "licence", "attribution", "also_shows", "camera_note", "image", "thumb", "link_only", "of"}
+PUBLIC_EVIDENCE_KEYS = {"id", "kind", "source_id", "title", "date", "locator", "link", "rights_class", "status", "conf", "excerpt_zh", "excerpt_other", "summary"}
+GARDENS = {"Yuanming Yuan": "YM", "Changchun Yuan": "CC", "Xiyang Lou": "XY", "Qichun Yuan": "QC"}
+GARDEN_NAME = {"YM": "圆明园 Yuanming Yuan", "CC": "长春园 Changchun Yuan", "XY": "西洋楼 Xiyang Lou", "QC": "绮春园 Qichun Yuan", "ALL": "the three gardens"}
+ALSO_GARDEN = {"西洋楼": "XY", "西洋楼 set": "XY", "圆明园": "YM", "general plan": "ALL", "GARDEN:YM": "YM", "GARDEN:CC": "CC", "GARDEN:XY": "XY", "GARDEN:QC": "QC", "GARDEN:ALL": "ALL"}
+NOT_GARDEN = {f"P{n:04d}" for n in (*range(155, 161), 153, 154, 281, 282, 283, 278, 286)}  # the debated Twelve Months (Q43), the scenes of October 1860: kept in the catalog, not repeated on every plain hall
+SEARCHED_PICTURES = "the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons"
+SEARCHED_TEXTS = {
+    "YM": "日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
+    "XY": "日下旧闻考 j83, the Qianlong poems on Kanripo, Delatour 1803, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
+    "CC": "日下旧闻考 j83-84, the Qianlong poems on Kanripo, Malone 1934, what search indexes show of the Yangshi Lei drawings",
+    "QC": "養吉齋叢錄 j18, modern studies of 绮春园, what search indexes show of the Yangshi Lei drawings; 日下旧闻考 does not cover this garden, and Jiaqing's 三十景 poems could not be reached (wishlist)",
+    "ALL": "日下旧闻考, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
+}
+GARDEN_POEMS = 6
+UNNAMED_LINE = "This block has no name on the plan or in the texts, so no source can be searched for it by name."
 ID_RE = re.compile(r"^((?:YM|CC|XY|QC)\d+(?:-[A-Z]*\d+)?|Z-[A-Z]*\d+|G\d+)-")
 
 md = MarkdownIt("commonmark", {"html": False}).disable("image")  # raw HTML comes out escaped
@@ -46,6 +65,34 @@ BASIS_LINE = {
 }
 ROOF_WORD = {"hip_gable": "hip-and-gable 歇山", "hip": "hip 庑殿", "gable": "gable 硬山 or 悬山", "pyramid": "pyramid 攒尖"}
 SHAPE_WORD = {"terrace": "terrace", "wall": "wall", "pool": "pool", "octagon": "octagon"}
+
+
+def era_group(p):
+    """Which heading a picture stands under in the panel."""
+    frm = int(p["date_from"]) if p["date_from"].isdigit() else None
+    to = int(p["date_to"]) if p["date_to"].isdigit() else frm
+    if p["kind"] == "photo":
+        return "today" if ((to or 0) >= 1950 or "today's state" in p["notes"]) else "ruins"
+    if to and to <= 1860:
+        return "stood"
+    if frm is None and p["kind"] in ("painting", "engraving"):
+        return "stood"
+    return "later"
+
+
+def public_why(text):
+    text = re.sub(r"^KEY PLATE for [^:]+:\s*", "", text or "")
+    text = re.sub(r"\s*KEY PLATE for [^:]+:\s*", " ", text)
+    text = re.sub(r"\s*BEST for [^.;]*[.;]?", "", text)
+    text = re.sub(r"\s*use for layout, roof types\.?", "", text)
+    return text.strip()
+
+
+def clean_licence(text):
+    text = re.sub(r"\{\{([^}]*)\}\}", r"\1", text or "")
+    text = re.sub(r"Commons file tags?: ", "Commons: ", text)
+    text = re.sub(r"Commons LicenseShortName ", "Commons: ", text)
+    return re.sub(r"; BnF/Gallica: free non-commercial reuse with credit \(project rule, Gallica page not reachable from this server\)", "; BnF: free non-commercial reuse with credit", text)
 
 
 def split_ids(text):
@@ -116,12 +163,31 @@ class Book:
         for r in self.rows.values():
             if r["parent_id"]:
                 self.children.setdefault(r["parent_id"], []).append(r["id"])
-        self.photos = {}
+        self.photos, self.evidence = {}, {}
         for p in rd("research/photos/catalog.csv"):
             if not p["source_url"].startswith("http"):
                 continue
             for item in split_ids(p["shows"]):
-                self.photos.setdefault(item.split(":")[0], []).append(p)
+                pid, conf = item.split(":")
+                self.photos.setdefault(pid, []).append((p, conf))
+            tag = ALSO_GARDEN.get(p["also_shows"].strip())
+            if tag and not p["shows"] and p["photo_id"] not in NOT_GARDEN:
+                self.photos.setdefault(f"GARDEN-{tag}", []).append((p, "likely"))
+        for e in rd("research/evidence/catalog.csv"):
+            for item in split_ids(e["shows"]):
+                bits = item.split(":")
+                pid, conf = (f"GARDEN-{bits[1]}", bits[2] if len(bits) > 2 else "likely") if bits[0] == "GARDEN" else (bits[0], bits[1])
+                self.evidence.setdefault(pid, []).append((e, conf))
+        self.tops = [r for r in self.rows.values() if not r["parent_id"] and not r["id"].startswith("Z-") and r["lat"]]
+        self.gate_garden = {g: self.nearest(*reversed(f["geometry"]["coordinates"]), [])[0]["garden"] for g, f in self.gates.items()}
+
+    def nearest(self, lat, lon, skip):
+        """The named compound nearest to a point: the set of buildings a block in no compound can lean on. Compounds with nothing of their own are skipped."""
+        def dist(r):
+            return math.hypot((float(r["lat"]) - lat) * 111000, (float(r["lon"]) - lon) * 85000)
+        named = [r for r in self.tops if r["id"] not in skip and (r["name_zh"] or r["name_on_plan"]) and "?" not in (r["name_zh"] or r["name_on_plan"]) and (self.photos.get(r["id"]) or self.evidence.get(r["id"]))]
+        best = min(named, key=dist)
+        return best, dist(best)
 
     def name(self, pid):
         """Chinese and pinyin first, then what the page is."""
@@ -235,9 +301,7 @@ def row_facts(r):
     if r["roof_tiles"]:
         out.append(fact("Tiles", r["roof_tiles"], src))
     quote = r["rel_position"]
-    if quote and "[j" in quote:  # 日下旧闻考, public domain (S05); any other text in this field is not published
-        out.append(fact("日下旧闻考", quote, "S05"))
-    elif quote:
+    if quote and "[j" not in quote:  # 日下旧闻考 (S05) stands in the evidence; any other text in this field is not published
         out.append(fact("Where the text puts it", quote, src, private=True))
     note = r["notes"]
     head, plan = note, ""
@@ -283,6 +347,110 @@ def sources_of(book, cited):
     return [book.sources.get(s, {"id": s, "text": "OpenStreetMap contributors, ODbL" if "OSM" in s else "", "licence": "", "url": ""}) for s in sorted(set(cited), key=lambda s: (order(s), s))]
 
 
+def photo_entry(p, conf, public, of=None):
+    pid = p["photo_id"]
+    out = {"id": pid, "title": p["title"], "date": p["date"], "creator": p["creator"], "archive": p["archive"], "source_url": p["source_url"], "kind": p["kind"], "group": era_group(p), "conf": conf, "why": public_why(p["why"]), "attribution": p["attribution"], "licence": clean_licence(p["licence"])}
+    if of:
+        out["of"] = of
+    if p["also_shows"] and not p["also_shows"].startswith("GARDEN"):
+        out["also_shows"] = p["also_shows"]
+    if p["camera_note"] and p["camera_lat"]:
+        out["camera_note"] = p["camera_note"]
+    if p["rights_class"] == "free" and p["file"] and p["shows"]:
+        out["image"], out["thumb"] = f"photos/{pid}.jpg", f"photos/{pid}_t.jpg"
+    elif p["rights_class"] != "free":
+        out["link_only"] = True
+        if not public and p["file"]:  # the research copy, on the research machine only
+            out["image"] = out["thumb"] = f"/_local/photos/{pid}.jpg"
+    return out
+
+
+def evidence_entry(e, conf):
+    return {"id": e["evidence_id"], "kind": e["kind"], "source_id": e["source_id"], "title": e["title"], "date": e["date"], "locator": e["locator"], "link": e["link"], "rights_class": e["rights_class"], "status": e["status"], "conf": conf, "excerpt_zh": e["excerpt_zh"], "excerpt_other": e["excerpt_other"], "summary": e["summary_en"]}
+
+
+GROUP_ORDER = {"stood": 0, "later": 1, "ruins": 2, "today": 3}
+KIND_ORDER = {"text": 0, "poem": 0, "description": 2, "drawing": 3, "plan": 4, "archaeology": 5, "reconstruction": 6}
+CONF_ORDER = {"sure": 0, "likely": 1, "guess": 2}
+
+
+def sort_photos(items):
+    return sorted(items, key=lambda x: (CONF_ORDER[x[1]] > 1, GROUP_ORDER[era_group(x[0])], x[0]["rights_class"] != "free", CONF_ORDER[x[1]], x[0]["photo_id"]))
+
+
+def sort_evidence(items):
+    # the 1780s account and the 1744 poem first, then the rest by year; a search-index entry last in its kind
+    def rank(source):
+        return 0 if source in ("S05", "S40") else 2 if source in ("S360", "S361") else 1
+    def year(text):
+        m = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", text or "")
+        return int(m[1]) if m else 9999
+    return sorted(items, key=lambda x: (KIND_ORDER.get(x[0]["kind"], 9), x[0]["rights_class"] != "free" and x[0]["kind"] == "description", x[0]["status"] != "viewed", rank(x[0]["source_id"]), CONF_ORDER[x[1]], year(x[0]["date"]), x[0]["evidence_id"]))
+
+
+def plan_ref(book, pid):
+    """The plan as a link: it stays off the site until Tomasz decides (Q6)."""
+    url = "https://artmuseum.princeton.edu/collections/objects/138657"
+    if pid in book.gates:
+        return {"text": "Drawn as a gate on the plan of the gardens (S01).", "link": url, "source_id": "S01"}
+    r = book.rows[pid]
+    if not r["plan_x"]:
+        return None
+    label = r["name_on_plan"]
+    bays = f", {r['bays_plan']} cells" if r["bays_plan"] else ""
+    if label and "?" not in label:
+        text = f"Drawn on the plan of the gardens (S01), labelled {label}{bays}."
+    elif label:
+        text = f"Drawn on the plan of the gardens (S01), labelled {label} (? marks an unread character){bays}."
+    elif r["parent_id"] or r["id"].startswith("Z-"):
+        text = f"Drawn on the plan of the gardens (S01) with no label{bays}: a building stood here, its name unknown."
+    else:
+        text = "Its place is drawn on the plan of the gardens (S01), with no name written."
+    return {"text": text, "link": url, "source_id": "S01"}
+
+
+def fallback_of(book, pid, kind):
+    """What speaks for the set of buildings this one belongs to: [{kind, id, name}], for the panel to fetch."""
+    if kind == "gate":
+        tag = GARDENS.get(book.gate_garden[pid], "ALL")
+        return [{"kind": "garden", "id": f"GARDEN-{tag}", "name": GARDEN_NAME[tag]}]
+    r = book.rows[pid]
+    tag = GARDENS.get(r["garden"], "ALL")
+    garden = {"kind": "garden", "id": f"GARDEN-{tag}", "name": GARDEN_NAME[tag]}
+    if r["parent_id"]:
+        out = [{"kind": "compound", "id": r["parent_id"], "name": book.short(r["parent_id"])}]
+        if not (book.photos.get(r["parent_id"]) or book.evidence.get(r["parent_id"])):
+            out.append(garden)
+        return out
+    if book.photos.get(pid):
+        return []
+    if not r["lat"]:
+        return [garden]
+    if book.evidence.get(pid):
+        return [garden]
+    near, metres = book.nearest(float(r["lat"]), float(r["lon"]), [pid])
+    return [{"kind": "nearest", "id": near["id"], "name": book.short(near["id"]), "metres": round(metres, -1)}, garden]
+
+
+def searched_line(book, pid, kind, photos, evidence):
+    if pid in book.gates:
+        named, tag = bool(book.short(pid)), GARDENS.get(book.gate_garden[pid], "ALL")
+    else:
+        r = book.rows[pid]
+        named, tag = bool(r["name_zh"] or (r["name_on_plan"] and "?" not in r["name_on_plan"])), GARDENS.get(r["garden"], "ALL")
+    own_pic = bool(photos)
+    if own_pic and evidence:
+        return ""
+    if not named:
+        return UNNAMED_LINE
+    bits = []
+    if not own_pic:
+        bits.append(f"No picture of it found in {SEARCHED_PICTURES}.")
+    if not evidence:
+        bits.append(f"No text or drawing names it in {SEARCHED_TEXTS[tag]}.")
+    return " ".join(bits)
+
+
 def build(book, pid):
     if pid in book.gates:
         f = book.gates[pid]
@@ -309,13 +477,35 @@ def build(book, pid):
     names = [book.short(pid)]
     if pid not in book.gates:
         names.append(book.rows[pid]["name_zh"])
-    photos = [{"id": p["photo_id"], "title": p["title"], "date": p["date"], "creator": p["creator"], "archive": p["archive"], "source_url": p["source_url"]} for p in book.photos.get(pid, [])]
+    photos = sort_photos(book.photos.get(pid, []))
+    evidence = [evidence_entry(e, c) for e, c in sort_evidence(book.evidence.get(pid, []))]
+    cited += [s for e in evidence for s in split_ids(e["source_id"])]
+    cited += [s for p, _ in photos for s in split_ids(p["source_id"])]
+    inside = []
+    seen = {p["photo_id"] for p, _ in photos}
+    for c in book.children.get(pid, []):
+        for p, conf in book.photos.get(c, []):
+            if p["photo_id"] not in seen and p["rights_class"] == "free":
+                seen.add(p["photo_id"])
+                inside.append((p, conf, c))
     has_box = bool(boxes) or (kind == "compound" and pid in book.by_parent)
     return {
         "id": pid, "kind": kind, "title": book.name(pid), "subtitle": sub, "parent": parent, "children": children, "position": position,
         "object": {"kind": "boxes", "count": len(boxes) or len(book.by_parent.get(pid, []))} if has_box else None,
-        "model": model, "facts": facts, "photos": photos, "questions": questions_of(book, pid, names), "cited": cited,
+        "model": model, "facts": facts, "photos_rows": photos, "inside_rows": inside, "evidence": evidence, "plan_ref": plan_ref(book, pid), "fallback": fallback_of(book, pid, kind),
+        "searched": searched_line(book, pid, kind, photos, evidence), "questions": questions_of(book, pid, names), "cited": cited,
     }
+
+
+def build_garden(book, tag):
+    """What speaks for a whole garden. The garden's own rows, then those for all three."""
+    pid = f"GARDEN-{tag}"
+    photos = sort_photos(book.photos.get(pid, []) + (book.photos.get("GARDEN-ALL", []) if tag != "ALL" else []))
+    rows = book.evidence.get(pid, []) + (book.evidence.get("GARDEN-ALL", []) if tag != "ALL" else [])
+    poems = sort_evidence([x for x in rows if x[0]["kind"] == "poem"])[:GARDEN_POEMS]  # this page is fetched for every plain hall: a sample, the rest stay in the catalog
+    evidence = [evidence_entry(e, c) for e, c in sort_evidence([x for x in rows if x[0]["kind"] != "poem"] + poems)]
+    cited = [s for e in evidence for s in split_ids(e["source_id"])] + [s for p, _ in photos for s in split_ids(p["source_id"])]
+    return {"id": pid, "kind": "garden", "title": GARDEN_NAME[tag], "subtitle": "", "parent": None, "children": [], "position": None, "object": None, "model": None, "facts": [], "photos_rows": photos, "inside_rows": [], "evidence": evidence, "plan_ref": None, "fallback": [], "searched": "", "questions": [], "cited": cited}
 
 
 def read_notes(path):
@@ -359,16 +549,60 @@ def page_markdown(page):
         lines += [f"- **{k}:** {v}" for k, v in page["model"]["rows"]] + [""]
     if page["children"]:
         lines += [f"## Inside it ({len(page['children'])})", ""] + [f"- {c} {n}".rstrip() for c, n in page["children"]] + [""]
-    lines += [f"## Pictures ({len(page['photos'])})", ""]
-    lines += [f"- {p['id']}: {p['title']} ({p['date']}). {p['source_url']}" for p in page["photos"]] or ["None in the catalog yet."]
+    lines += [f"## Pictures ({len(page['photos_rows'])})", ""]
+    for p, conf in page["photos_rows"]:
+        rights = "" if p["rights_class"] == "free" else " Research-only: link card."
+        lines.append(f"- **{p['photo_id']}** ({conf}): {p['title']} ({p['date']}). {p['source_url']}{rights}")
+        if p["file"]:
+            lines.append(f"\n  ![{p['photo_id']}](../../{p['file'].removeprefix('research/')})\n")
+    if not page["photos_rows"]:
+        lines.append("None of its own.")
+    if page["inside_rows"]:
+        lines += ["", f"Of its halls: {', '.join(f'{p['photo_id']} ({c})' for p, _, c in page['inside_rows'])}."]
+    lines += ["", f"## Texts and drawings ({len(page['evidence'])})", ""]
+    for e in page["evidence"]:
+        where = " · ".join(x for x in (e["date"], e["locator"], e["source_id"]) if x)
+        lines.append(f"- **{e['id']}** ({e['kind']}, {e['conf']}{', search index only' if e['status'] != 'viewed' else ''}): {e['title']}. {where}. {e['link']}")
+        if e["excerpt_zh"]:
+            lines.append(f"  > {e['excerpt_zh'].replace(chr(10), ' ')}")
+        if e["excerpt_other"]:
+            lines.append(f"  > {e['excerpt_other'].replace(chr(10), ' ')}")
+        if e["summary"]:
+            lines.append(f"  {e['summary']}")
+    if not page["evidence"]:
+        lines.append("None of its own.")
+    if page["plan_ref"]:
+        lines += ["", f"**On the plan:** {page['plan_ref']['text']} {page['plan_ref']['link']}"]
+    if page["fallback"]:
+        lines += ["", "## Evidence for the set of buildings", ""]
+        for f in page["fallback"]:
+            lines.append(f"- {fallback_heading(f, page)}: see {f['id']}")
+    if page["searched"]:
+        lines += ["", f"**Searched and not found:** {page['searched']}"]
     lines += ["", "## Open questions", ""]
     lines += [f"- {q['id']}: {q['title']}" for q in page["questions"]] or ["None that name it."]
     lines += ["", END, ""]
     return "\n".join(lines)
 
 
+def fallback_heading(f, page):
+    bare = not page["photos_rows"]
+    what = "picture of this hall" if page["kind"] == "hall" else "picture of this compound" if page["kind"] == "compound" else "picture of this gate"
+    if f["kind"] == "compound":
+        return f"Evidence for the whole compound {f['name']}" + (f" (no {what} found)" if bare else "")
+    if f["kind"] == "nearest":
+        return f"Evidence for the nearest named compound, {f['name']}, about {f['metres']:g} m away" + (f" (no {what} found)" if bare else "")
+    return f"Evidence for the whole garden, {f['name']}" + (f" (no {what} found)" if bare else "")
+
+
 def panel_page(book, page, hand, public):
-    out = {k: page[k] for k in ("id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "photos", "questions")}
+    out = {k: page[k] for k in ("id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "questions", "evidence", "searched")}
+    out["photos"] = [photo_entry(p, c, public) for p, c in page["photos_rows"]]
+    out["photos_inside"] = [photo_entry(p, c, public, of=[o, book.short(o)]) for p, c, o in page["inside_rows"]]
+    out["plan_ref"] = dict(page["plan_ref"]) if page["plan_ref"] else None
+    if not public and out["plan_ref"] and (LOCAL_CROPS / f"{page['id']}.jpg").exists():
+        out["plan_ref"]["image"] = f"/_local/plancrops/{page['id']}.jpg"
+    out["fallback"] = [{**f, "heading": fallback_heading(f, page)} for f in page["fallback"]]
     out["notes_html"] = notes_html(hand, public)
     out["facts"] = [f for f in page["facts"] if not f.get("private")] if public else page["facts"]
     used = set(page["cited"])
@@ -385,10 +619,14 @@ def assert_public(page):
     assert set(page) <= PUBLIC_KEYS, (pid, set(page) - PUBLIC_KEYS)
     for f in page["facts"]:
         assert set(f) == PUBLIC_FACT_KEYS, (pid, f)
-    for p in page["photos"]:
-        assert set(p) <= PUBLIC_PHOTO_KEYS and p["source_url"].startswith("http"), (pid, p["id"])
+    for p in page["photos"] + page.get("photos_inside", []):
+        assert set(p) <= PUBLIC_PHOTO_KEYS and p["source_url"].startswith("http"), (pid, p["id"], set(p) - PUBLIC_PHOTO_KEYS)
+        assert not (p.get("link_only") and (p.get("image") or p.get("thumb"))), (pid, p["id"], "a research-only picture with an image")
+    for e in page.get("evidence", []):
+        assert set(e) <= PUBLIC_EVIDENCE_KEYS, (pid, e["id"])
+        assert e["rights_class"] == "free" or not (e["excerpt_zh"] or e["excerpt_other"]), (pid, e["id"], "copied text from a research-only source")
     text = json.dumps(page, ensure_ascii=False)
-    for word in ("/_local/", "raw/", "plan_x", "princeton_mosaic"):
+    for word in ("/_local/", "research/raw", "plan_x", "princeton_mosaic"):
         assert word not in text, (pid, word)
 
 
@@ -437,6 +675,11 @@ def main():
         write_if_changed(PUBLIC_OUT / f"{pid}.json", json.dumps(panel_page(book, page, hand, True), ensure_ascii=False, separators=(",", ":")))
         write_if_changed(LOCAL_OUT / f"{pid}.json", json.dumps(panel_page(book, page, hand, False), ensure_ascii=False, separators=(",", ":")))
         written.add(pid)
+    for tag in GARDEN_NAME:
+        page = build_garden(book, tag)
+        write_if_changed(PUBLIC_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", True), ensure_ascii=False, separators=(",", ":")))
+        write_if_changed(LOCAL_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", False), ensure_ascii=False, separators=(",", ":")))
+        written.add(page["id"])
     write_if_changed(PAGES / "README.md", "\n".join(readme) + "\n")
     for folder in (PUBLIC_OUT, LOCAL_OUT):
         for f in folder.glob("*.json"):  # IDs that left the data: their JSON goes, a folder with notes never does

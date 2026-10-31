@@ -27,7 +27,26 @@ Assumed: the plan shows this compound's place and no single hall, so a few boxes
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E2374** (text, sure): 《日下舊聞考》 on 劉猛將軍廟. 乾隆, 1780s · j81:18b · S05. https://www.kanripo.org/text/KR2k0036/081
+  > 月地雲居之東為法源樓又東為静室西度橋折而北為劉猛將軍廟
+  The temple to the locust-quelling god, north over a bridge from the area of 月地云居.
+- **E1525** (description, likely): Scene 15, 山高水长 Shangao Shuichang, the Drill Field. 1934 · p.83 · S02. https://archive.org/details/historyofpekings00malo
+  > The largest open field in the Yuan Ming Yuan was near the southwest corner of the garden. On the east side stood a two-story building from which the Emperor, his officials, and the ladies of the court could view the archery contests,
+  Largest open field, with a two-storey viewing building on the east, used for archery, feasts for embassies and fireworks. Dutch embassy here January-February 1795. Across the stream a half-mile straight horse run from the round tower in the north to 藻园 in the south; by the round tower a small shrine to General Liu Meng (per Jung Hua).
+- **E2375** (description, sure): 贾珺 on 刘猛将军庙. 2012 · S47 p.111 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  Three-bay hall with ridge and finials in a small walled forecourt, under 2 zhang deep; appears on the Forty Scenes album. Repaired 1793. Yongzheng spread the cult against locusts. The plaques 昆虫毋作, 用佐为霖 near 安佑宫 may belong to it.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 刘?将军庙 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

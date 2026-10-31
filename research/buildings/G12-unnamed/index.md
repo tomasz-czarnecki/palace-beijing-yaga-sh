@@ -25,7 +25,19 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (0)
+
+None of its own.
+
+**On the plan:** Drawn as a gate on the plan of the gardens (S01). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this gate found): see GARDEN-YM
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

@@ -20,3 +20,19 @@ What would replace the biggest guesses. Most valuable first.
 | Ohlmer's 12 negatives, Hildesheim (Roemer- und Pelizaeus-Museum); C. F. Moore, Royal BC Museum; HPC Bristol (hums-chinaphotos@bristol.ac.uk); Sidney Gamble, Duke | Earliest ruin photographs, with terms that allow showing them | Holders | Ask for terms. Gamble needs a browser (bot check) |
 | FABDEM tile N39/N40 E116 (S158) | One try on the hills question, CC BY-NC-SA | Bristol | Download |
 | Sources for 集禧堂, 永春堂, 乐道堂, 延清堂, 同顺堂, 承恩堂 and Malone's 1737 painted map (lost, S02 p.62) | Dating of the plan | Yangshi Lei, S60 | Library |
+| 样011-3 九洲清晏全样 (Oct–Dec 1855), 慎德堂 series 样005-4, 1851, 1859; 同道堂 样005-13, 样005-27-1 (1855); 敷春堂东南所 样088-6-1 (winter 1859–60); 观澜堂 样042-11-2 (1855) | The state of 1860 itself, above all at 九洲清晏, where S01 shows names of 1873 (Q36) | National Library of China, via S13 续编 | Library or reproduction order; first read the record on mhymy in a browser |
+| A browser pass over mhymy.com `/dasl/ysltd/page/N`, `/special/yslt`: 146 records in the topic, only 20 listed by us | The 87 Yangshi Lei rows known only from search summaries; 45 facts waiting as `lead` | 梦回圆明园 | A person, in a browser, or the 微圆明园 mini-program, or ask the operators. Scripts to resume: `mhymy_crawl.py`, in the round's scratch |
+| NLC's machine-readable catalogue of Yangshi Lei drawings (14,396 records, 2007–09) | Every shelf number | National Library of China 善本部 | Letter or visit |
+| S361 《圆明园五朝御制诗文集注》 v1; the 84 圆明园研究 issues; the unread poems in S360, S361 | 正大光明, 九洲清晏, 长春仙馆 poems and scene notes; later scholarship | yuanmingyuanpark.cn | Retry slowly on another day |
+| 《圆明园百景图志》 (大百科 2010) in print | All sizes now quoted through a blog; Qichun positions | Libraries | Book order |
+| 嘉庆 绮春园新二十景, 道光 poems; 故宫珍本丛刊 (海南 2000) volumes | QC21, QC44, QC53, QC54, 集禧堂 | Libraries | Library |
+| 養吉齋叢錄 j18–19 in print (北京古籍 / 中华 2005); 王闓運 圓明園詞 自注; 翁同龢, 越縵堂 diaries of 1860; 會典事例 | Dated orders 1850–60, witnesses in Chinese. S223 was read by eye from a poor scan | Libraries; ctext in a browser | Library |
+| 刘敦桢, 同治重修圆明园史料, 营造学社汇刊 1933(2) | The list of what stood in 1873, 七间殿, 同顺堂; now only second-hand (Q47) | Reprints | Library |
+| 贺艳 《再现·圆明园》 series, 紫禁城 2011–12; 《再现圆明园》, 《远逝的辉煌》 (郭黛姮) | 九洲清晏 in the state of 1860 | CNKI; libraries | Library |
+| 《圆明园长春园宫门区遗址发掘报告》; 《圆明园长春园含经堂遗址发掘报告》; 考古 2004(2) | Measured footprints | Libraries; CNKI | Interlibrary loan |
+| Album of 20 colour leaves, c. 1821 or later, Palace Museum, in the Hong Kong Palace Museum's catalogue (S261) | A view nearer 1860 than 1744, for 20 scenes: maybe the best pictures after the album | HKPM catalogue; Palace Museum | Buy or borrow; ask the museum |
+| Malone's plates pp.72, 99, 140 as jp2 at IA; 《国立北平图书馆馆刊》 1933 圆明园专号 (线法墙地样) | Q4, Q36: the flap at 九洲清晏 | IA; NLC | Download pages; find a scan |
+| Sirén, The Imperial Palaces of Peking vol. 3, plate list pl. 205–216 | Ties of six Sirén photographs (Q49) | Any research library | Scan the list |
+| Illustrated London News, Le Monde illustré, L'Illustration, Harper's 1860–61; 点石斋画报; Le Rouge cahiers XIV–XVI plate by plate; Delatour's own plates | Prints of 1860, thin now. The web-search budget ended before this ran | HKBU's ILN index, HathiTrust, Gallica | Next round, or a browser |
+| Own photographs at the park: 文源阁 and 石玲峰, 舍卫城, 七孔闸, 如园, 鉴园; also 中山公园 for the 须弥座 of 仙人承露台 | Free modern pictures for compounds with none | On site | A visit, released CC BY-SA |
+| The 187 Commons name queries that did not run (`q_unrun_final.txt` in the round's scratch), subcategories, English captions | "No picture found" on many compounds is not yet proof | Wikimedia Commons | Run slowly over a day |

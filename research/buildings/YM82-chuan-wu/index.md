@@ -23,7 +23,25 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (3)
+
+- **E2391** (text, sure): 《日下舊聞考》 on 船塢 in 西峯秀色 and 蕊珠宫. 乾隆, 1780s · j82:8a, 12b · S05. https://www.kanripo.org/text/KR2k0036/082
+  > 西峯秀色迤東東西船塢各二所 / 噦鸞殿東為蕊珠宫宫南船塢後有龍王廟
+  Four boathouses east of 西峰秀色 and one south of 蕊珠宫. YM85 is not 蕊珠宫's dock per the plan note: no text found for it.
+- **E2392** (description, guess): 贾珺 on the 四宜书屋 dock as a shrine. 2012 · S47 table row 20; p.113 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
+  A hanging-gable dock south-east of 四宜书屋 housed tablets of wind, cloud, thunder and rain gods from Yongzheng's time; the rain-god tablet moved out in 1733. Which dock of YM82 is meant is not said.
+- **E2397** (description, likely, search index only): 圆明三园中的船坞. not seen · mhymy xsjl/6203 · S42. https://www.mhymy.com/xsjl/6203.html
+  Nine docks across the three gardens, two in Qichun. 松风萝月 dock on the north of the back lake, facing east, boats 般若观 and 浮汉槎. 喜雨山房 dock on the west of the back lake, on a north-south line, joining the long river to the south. Z-QN01, Z-QN02 fit by position only; which is which is ours.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 船坞. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

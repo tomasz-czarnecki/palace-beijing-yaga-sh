@@ -22,9 +22,21 @@ Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0368** (sure): Zongting Bridge 20130318.JPG (2013-03-18 17:27:22 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Zongting_Bridge_20130318.JPG
+
+  ![P0368](../../photos/images/P0368.jpg)
+
+
+## Texts and drawings (1)
+
+- **E0508** (description, likely): 圆明园历史桥梁形制研究. 2020-07-29 · 圆明园官网 yjbg t20200729_4416663 · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416663.html
+  Park study of the forms of the garden's historic bridges, from archives and digs, intended to guide new bridges. Abstract on the page, the full text is an attached PDF.
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 九洲清晏: see YM03
 
 ## Open questions
 

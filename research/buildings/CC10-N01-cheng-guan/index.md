@@ -32,7 +32,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0186** (text, sure): 日下舊聞考 泽兰堂. 1780s (乾隆 敕撰) · j83:12b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
+  > 由寳相寺度城關而東迤南為翠交軒軒下石室為熙春洞北為愛山樓又北為澤蘭堂（長春園册）臣等謹案愛山樓上額曰天風海濤樓下額曰山静雲閒澤蘭堂額曰神觀蕭爽
+  East of 寳相寺 through a walled gate: 翠交軒 with the stone room 熙春洞 under it, 愛山樓 and 澤蘭堂. The note gives plaques.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 城关. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 泽兰堂 (no picture of this hall found): see CC10
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 

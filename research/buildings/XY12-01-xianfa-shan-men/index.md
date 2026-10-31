@@ -30,9 +30,27 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 83.5° from north
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None in the catalog yet.
+- **P0057** (sure): 线法山门正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-14.jpg
+
+  ![P0057](../../photos/images/P0057.jpg)
+
+
+## Texts and drawings (2)
+
+- **E0985** (description, sure): Plates XVI to XIX: 观水法, 线法山门, 线法山, 螺蛳牌楼. 1786-1803 · pp.184-185, Plates XVI-XIX · S258. https://archive.org/details/BIUSante_40644
+  > Montagne factice sur laquelle il y a un Ting-tsé,
+  XVI throne facing the jets. XVII triumphal arch, the most Greek. XVIII an artificial hill with a 亭 on top. XIX another triumphal arch, less sober.
+- **E0989** (description, sure): Engraving 17: 线法山门 Xianfa Shan gate. 1934 · p.159 · S02. https://archive.org/details/historyofpekings00malo
+  > A triple gateway, resembling a European triumphal arch.
+  Triple gateway like a triumphal arch.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 线法山门. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 线法山: see XY12
 
 ## Open questions
 

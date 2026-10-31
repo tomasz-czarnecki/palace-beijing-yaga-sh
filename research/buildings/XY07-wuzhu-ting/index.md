@@ -36,12 +36,34 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
 ## Pictures (1)
 
-- P0049: 竹亭北面 Zhuting beimian, bamboo pavilions, north side (圆明园铜版画册, plate 9 of 20) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-7.jpg
+- **P0049** (sure): 竹亭北面 (圆明园铜版画册 / 西洋楼铜版画, plate 九 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-7.jpg
+
+  ![P0049](../../photos/images/P0049.jpg)
+
+
+## Texts and drawings (5)
+
+- **E0953** (description, sure): Plate IX: 五竹亭 Wuzhu Ting. 1786-1803 · p.181, Plate IX · S258. https://archive.org/details/BIUSante_40644
+  > Cinq pavillons en bambou, posés en hémicycle, et ouverts de tous côtés, d'où l'on voit les jets d'eau.
+  Five bamboo pavilions set in a half circle, open all round, joined by bamboo galleries. Our model has them in a row (Q15, Q35).
+- **E0954** (description, sure): Engraving 9: 五竹亭 Wuzhu Ting. 1934 · p.148 · S02. https://archive.org/details/historyofpekings00malo
+  > It consisted of five pavilions in Chinese style connected by covered walks.
+  Faced north towards 方外观. In Malone's time only two lotus pools, the fountain and the wall behind it were left (plate p.149).
+- **E0951** (description, likely): Plate VIII: 方外观 Fangwai Guan. 1786-1803 · pp.180-181, Plate VIII · S258. https://archive.org/details/BIUSante_40644
+  > Sous cet avant-corps est pratiqué un souterrain, dans lequel on pénètre par une porte, accompagnée à droite et à gauche d'une espèce d'œil de bœuf grillé;
+  Small building on a terrace, three windows, rusticated pilasters at the ends. Under the projecting terrace a low room with a door and two grilled oeil-de-boeuf, thought to be for coolness. Round stairs at each end. On the left an open octagonal pavilion beyond a canal with a rich bridge.
+- **E0544** (drawing, sure, search index only): 西洋楼水法图. 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/7643.html
+  Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
+- **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
+  Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
+
+**On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Open questions
 
 - Q15: 五竹亭 (XY07) is not drawn
 - Q35: Xiyang Lou massing (Round 2)
+- Q48: Xiyang Lou
 
 <!-- generated:end -->
 

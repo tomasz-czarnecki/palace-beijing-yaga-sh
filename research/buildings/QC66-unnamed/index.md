@@ -26,7 +26,20 @@ Qichun Yuan
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (1)
+
+- **E0652** (archaeology, likely): 圆明园凤麟洲保护工程考古勘探报告. survey 2007 · mhymy dasl/11467, free part only · S155. https://www.mhymy.com/dasl/11467.html
+  Survey by 北京市文物研究所, June-July 2007. East of 仙人承露台, water on all sides, stone-edged. Area A about 50 by 26-48 m, 1690 m2; area B 24 by 22 m, 445 m2. Later layers are paywalled.
+
+**On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
+
+**Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 
 ## Open questions
 

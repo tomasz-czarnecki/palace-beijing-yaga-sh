@@ -34,7 +34,23 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Pictures (0)
 
-None in the catalog yet.
+None of its own.
+
+## Texts and drawings (2)
+
+- **E1450** (description, sure): Scene 13, 万方安和 Wanfang Anhe, the Swastika Building. 1934 · p.81 · S02. https://archive.org/details/historyofpekings00malo
+  > The building in the form of a swastika, a symbol which is used as a Chinese character meaning ten thousand, and also Buddha's heart, is built on a foundation of brick and stone and is entirely surrounded by water.
+  卍-plan building on a brick and stone foundation, entirely in water. At the south end of the lake a much smaller building in the form of a cross, the character for ten. Yongzheng often came here, says Qianlong's poem.
+- **E1453** (description, sure, search index only): 圆明园新证—万方安和考, 端木泓. n.d. · journal article, earlier fetch · S357. 
+  Reads 万方安和 as a Buddhist cosmic diagram: the 万字房 at its heart, the 十字亭 as a node, and the long hall of 山高水长 as an answering stroke. Only the abstract was seen; no stable link kept.
+
+**On the plan:** Drawn on the plan of the gardens (S01), labelled 十字亭. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Evidence for the set of buildings
+
+- Evidence for the whole compound 万方安和 (no picture of this hall found): see YM13
+
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
 
 ## Open questions
 
