@@ -1,0 +1,393 @@
+/* Yuanmingyuan 1860. Same family as the Küstrin 1913 site (structure and component names from yaga.sh); accent is cinnabar, roof-tile blue is the one cool note. */
+
+@font-face { font-family: 'Geist'; src: url('assets/fonts/geist-latin.woff2') format('woff2'); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Geist'; src: url('assets/fonts/geist-latin-ext.woff2') format('woff2'); font-weight: 100 900; font-display: swap; unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Geist Mono'; src: url('assets/fonts/geist-mono-latin.woff2') format('woff2'); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Geist Mono'; src: url('assets/fonts/geist-mono-latin-ext.woff2') format('woff2'); font-weight: 100 900; font-display: swap; unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader-latin.woff2') format('woff2'); font-style: italic; font-weight: 200 800; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Newsreader'; src: url('assets/fonts/newsreader-latin-ext.woff2') format('woff2'); font-style: italic; font-weight: 200 800; font-display: swap; unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* Subsets holding only the characters these pages use (see credits). Text outside them falls back to the system's Chinese fonts. */
+@font-face { font-family: 'Noto Sans SC'; src: url('assets/fonts/noto-sans-sc-subset.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Noto Serif SC'; src: url('assets/fonts/noto-serif-sc-subset.woff2') format('woff2'); font-weight: 500; font-display: swap; }
+
+:root {
+  /* palette: Küstrin's warm near-black; accent is the cinnabar of the album's walls and columns, tile is the blue of its glazed roofs */
+  --bg: #17130F;
+  --surface: #221C16;
+  --ink: #F5EEE2;
+  --body: #CFC3B0;
+  --muted: #A1927D;
+  --line: #2F2720;
+  --line-strong: #54483B;
+  --accent: #E0553A;
+  --tile: #8EA3C0;
+  --sans: 'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --mono: 'Geist Mono', 'Noto Sans SC', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --serif: 'Newsreader', 'Noto Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
+  --zh-serif: 'Noto Serif SC', 'Songti SC', 'SimSun', serif;
+  --fs-display: clamp(32px, 4.4vw, 56px);
+  --fs-lead: clamp(17px, 1.4vw, 19px);
+  --fs-label: 12px;
+  --gutter: clamp(24px, 4vw, 48px);
+  --max: 1200px;
+  --header-h: 64px;
+  --bar-h: 28px;
+  --section-y: clamp(72px, 9vw, 128px);
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: var(--header-h); }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+img { display: block; max-width: 100%; }
+::selection { background: var(--accent); color: var(--bg); }
+a { color: var(--ink); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* Buttons: square, as on yaga.sh */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 200ms var(--ease-out), color 200ms var(--ease-out);
+}
+
+.btn-dark { background: var(--ink); color: var(--bg); }
+.btn-sm { min-height: 44px; padding: 0 16px; font-size: 14px; }
+
+@media (hover: hover) {
+  .btn-dark:hover { background: var(--accent); }
+}
+
+/* Header */
+
+/* yaga.sh family bar, as on elliott.yaga.sh: drawn in yaga.sh's own warm dark palette, so it reads as the parent site */
+.yaga-bar { background: #161514; border-bottom: 1px solid #2A2826; }
+.yaga-bar-inner {
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  height: var(--bar-h);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.yaga-bar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--bar-h);
+  color: #C4BFB7;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  transition: color 200ms var(--ease-out);
+}
+.yaga-bar-link strong { color: #F5F4F2; font-weight: 500; }
+.yaga-bar-arrow { display: block; width: 12px; height: 12px; flex: none; transition: transform 200ms var(--ease-out); }
+.yaga-bar-mark { display: block; width: 16px; height: 16px; flex: none; }
+@media (hover: hover) {
+  .yaga-bar-link:hover { color: #F5F4F2; }
+  .yaga-bar-link:hover .yaga-bar-arrow { transform: translateX(-3px); }
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header-inner {
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  height: var(--header-h);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand { display: flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; color: var(--ink); }
+.brand-mark { display: block; width: 28px; height: 28px; flex: none; }
+.brand-name { font-size: 16px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; }
+
+.header-right { display: flex; align-items: center; gap: 16px; }
+
+.lang { display: flex; align-items: center; gap: 10px; min-height: 44px; font-family: var(--mono); font-size: var(--fs-label); letter-spacing: 0.06em; color: var(--muted); }
+.lang b { color: var(--ink); font-weight: 500; }
+.lang a { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); text-decoration: none; }
+@media (hover: hover) { .lang a:hover { color: var(--ink); } }
+
+/* Hero: same two columns as yaga.sh. An album leaf takes Miss Yaga's place. */
+
+.hero { min-height: calc(100svh - var(--header-h) - var(--bar-h) - 1px); display: flex; flex-direction: column; }
+
+.hero-grid {
+  flex: 1;
+  width: 100%;
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: clamp(40px, 5vw, 64px) var(--gutter);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 80px);
+  align-items: center;
+}
+
+.hero-figure { order: 2; margin: 0; width: 100%; max-width: min(100%, calc(100svh - 240px)); justify-self: end; }
+.hero-copy { min-width: 0; }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.eyebrow-bar { width: 24px; height: 2px; background: var(--accent); flex: none; }
+
+h1, h2 {
+  font-weight: 500;
+  font-size: var(--fs-display);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin: 12px 0 0 0;
+  color: var(--ink);
+  max-width: 18ch;
+  text-wrap: balance;
+}
+
+.hero-copy h1 { margin-top: 20px; max-width: none; }
+.title-zh { display: block; font-family: var(--zh-serif); font-size: 1.5em; line-height: 1.15; letter-spacing: 0.04em; }
+.title-pinyin { display: block; margin-top: 10px; font-size: 0.72em; letter-spacing: -0.02em; }
+.title-en { display: block; margin-top: 6px; font-size: 0.72em; letter-spacing: -0.02em; color: var(--accent); }
+
+.accent { color: var(--accent); }
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 6px 10px;
+  border: 1px solid var(--line-strong);
+  font-family: var(--mono);
+  font-size: var(--fs-label);
+  letter-spacing: 0.06em;
+  color: var(--tile);
+}
+.tag::before { content: ''; width: 6px; height: 6px; background: var(--tile); flex: none; }
+
+.lead {
+  font-size: var(--fs-lead);
+  line-height: 1.6;
+  color: var(--body);
+  max-width: 44ch;
+  margin: 20px 0 0 0;
+  text-wrap: pretty;
+}
+
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+
+/* Sections */
+
+.band { border-top: 1px solid var(--line); }
+
+.band-inner {
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: var(--section-y) var(--gutter);
+}
+
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: clamp(32px, 5vw, 80px);
+  align-items: start;
+}
+
+.copy p {
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--body);
+  max-width: 58ch;
+  margin: 20px 0 0;
+  text-wrap: pretty;
+}
+.copy p:first-child { margin-top: 0; }
+.copy .list + p { margin-top: 28px; }
+
+/* Archival image with caption: square edge, 1px border, caption in the serif */
+
+.plate-frame { display: block; background: var(--surface); border: 1px solid var(--line-strong); }
+.plate-frame img { width: 100%; height: auto; }
+
+.caption {
+  margin-top: 12px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.45;
+  color: var(--body);
+  text-wrap: pretty;
+}
+.caption a { color: inherit; text-underline-offset: 2px; }
+.caption [lang^="zh"] { font-style: normal; }
+
+/* Dated list */
+
+.list { list-style: none; margin: 28px 0 0; padding: 0; border-top: 1px solid var(--line); }
+.list li { display: grid; grid-template-columns: 8.5em minmax(0, 1fr); gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 16px; line-height: 1.55; color: var(--body); text-wrap: pretty; }
+.list b { font-family: var(--mono); font-size: 13px; font-weight: 500; line-height: 1.9; letter-spacing: 0.02em; color: var(--ink); }
+
+/* Paper band: yaga.sh's white corporate band, in the silk of the album */
+
+.paper {
+  --bg: #EFE6D3;
+  --surface: #E5DAC3;
+  --ink: #1C1712;
+  --body: #3E352A;
+  --muted: #6B5E4D;
+  --line: #D6C9B1;
+  --line-strong: #B9AA8F;
+  --accent: #A32E1B;
+  --tile: #3F5578;
+  background: var(--bg);
+  color: var(--ink);
+  border-top: 0;
+}
+
+/* Confidence legend */
+
+.legend { display: grid; gap: 10px; margin: 28px 0 0; }
+.legend div { display: flex; gap: 12px; align-items: baseline; font-size: 15px; line-height: 1.5; color: var(--body); }
+.legend b {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  font-family: var(--mono);
+  font-size: var(--fs-label);
+  font-weight: 500;
+  color: var(--ink);
+}
+
+/* Footer */
+
+.contact-inner {
+  max-width: calc(var(--max) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 40px var(--gutter) 0;
+}
+
+.credits-link { margin: 0; font-family: var(--mono); font-size: var(--fs-label); letter-spacing: 0.06em; text-transform: uppercase; }
+.credits-link a { color: var(--body); }
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 24px 0 32px;
+}
+
+.footer-brand { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--ink); }
+
+.copyright {
+  font-family: var(--mono);
+  font-size: var(--fs-label);
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+/* Sources and credits */
+
+.credits .band-inner { padding-bottom: 48px; }
+.h1-credits { margin: 16px 0 24px; max-width: 18ch; }
+.credits .lead { max-width: 62ch; }
+.credits-block { margin-top: clamp(48px, 6vw, 72px); }
+.credits-block h2 { margin: 0 0 16px; max-width: none; font-family: var(--mono); font-size: var(--fs-label); font-weight: 500; line-height: 1.4; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.source-list { list-style: none; margin: 0; padding: 0; max-width: 78ch; }
+.source-list li { padding: 10px 0; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.5; color: var(--body); overflow-wrap: anywhere; }
+.source-list a { color: var(--body); }
+.credit-note { max-width: 62ch; margin: 0 0 24px; font-size: 14px; line-height: 1.5; color: var(--body); }
+.credit-scroll { overflow-x: auto; }
+.credit-table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.5; color: var(--body); }
+.credit-table th { padding: 8px 12px 8px 0; text-align: left; font-family: var(--mono); font-size: var(--fs-label); font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line-strong); }
+.credit-table td { padding: 12px 12px 12px 0; vertical-align: top; border-bottom: 1px solid var(--line); }
+.credit-table a { color: var(--body); overflow-wrap: anywhere; }
+.credit-thumb { width: 108px; }
+.credit-thumb img { width: 96px; height: 96px; max-width: none; object-fit: cover; background: var(--surface); }
+.credit-src { font-size: 13px; color: var(--muted); }
+.credit-src a { color: var(--muted); }
+
+/* Placeholder for the reconstruction page */
+
+.placeholder { min-height: calc(100svh - var(--header-h) - var(--bar-h) - 1px); display: flex; align-items: center; }
+.placeholder .band-inner { width: 100%; }
+.placeholder h1 { max-width: 22ch; margin-top: 16px; }
+.placeholder .lead { max-width: 52ch; }
+
+/* The Chinese page: serif headings, no tight Latin tracking, no italics, no uppercase */
+
+:lang(zh) h1, :lang(zh) h2 { font-family: var(--zh-serif); letter-spacing: 0.02em; line-height: 1.25; }
+:lang(zh) h2 .accent { display: inline-block; } /* wrap between phrases, never inside one */
+:lang(zh) .hero-copy h1 { font-family: var(--sans); }
+:lang(zh) .title-en { font-family: var(--zh-serif); letter-spacing: 0.02em; }
+:lang(zh) .lead, :lang(zh) .copy p, :lang(zh) .list li, :lang(zh) .legend div { line-height: 1.8; }
+:lang(zh) .caption { font-family: var(--zh-serif); font-style: normal; font-size: 15px; line-height: 1.6; }
+:lang(zh) .eyebrow, :lang(zh) .btn { letter-spacing: 0.04em; }
+
+/* Responsive */
+
+@media (max-width: 860px) {
+  .hero { min-height: 0; }
+  .hero-grid, .split { grid-template-columns: minmax(0, 1fr); }
+  .hero-figure { order: 2; max-width: none; justify-self: stretch; }
+  .hero-copy { order: 1; }
+}
+
+@media (max-width: 560px) {
+  .brand-name { font-size: 15px; }
+  .site-header-inner { gap: 8px; }
+  /* the hero button sits right below; the language switch has to stay reachable */
+  .header-right .btn-sm { display: none; }
+  .list li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .credit-table { min-width: 620px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

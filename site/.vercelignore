@@ -1,0 +1,5 @@
+# Second lock. This folder is the whole deployment (Vercel Root Directory = site), and git already leaves these out.
+# If one of them is ever copied here by hand, it still does not go online.
+reconstruction/overlays/
+**/raw/
+**/*.csv
