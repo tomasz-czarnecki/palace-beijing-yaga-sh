@@ -1,0 +1,1784 @@
+{
+ "rows": 1824,
+ "compounds": 212,
+ "compounds_with_position": 191,
+ "compounds_with_polygon": 189,
+ "compounds_no_position": [
+  "YM43",
+  "CC21",
+  "QC09",
+  "QC21",
+  "QC24",
+  "QC28",
+  "QC29",
+  "QC33",
+  "QC34",
+  "QC37",
+  "QC40",
+  "QC41",
+  "QC42",
+  "QC44",
+  "QC45",
+  "QC46",
+  "QC47",
+  "QC48",
+  "QC50",
+  "QC51",
+  "QC52"
+ ],
+ "forty_scenes_positioned": 40,
+ "xiyang_lou_positioned": 15,
+ "halls_rows": 1612,
+ "halls_with_position": 1461,
+ "halls_with_footprint": 1418,
+ "halls_named": 612,
+ "halls_named_with_footprint": 419,
+ "footprints": 1560,
+ "by_garden": {
+  "Changchun Yuan": {
+   "compounds": 30,
+   "compounds_positioned": 29,
+   "halls": 201,
+   "halls_positioned": 180,
+   "footprints": 202
+  },
+  "Qichun Yuan": {
+   "compounds": 79,
+   "compounds_positioned": 60,
+   "halls": 249,
+   "halls_positioned": 249,
+   "footprints": 294
+  },
+  "Xiyang Lou": {
+   "compounds": 15,
+   "compounds_positioned": 15,
+   "halls": 28,
+   "halls_positioned": 27,
+   "footprints": 40
+  },
+  "Yuanming Yuan": {
+   "compounds": 88,
+   "compounds_positioned": 87,
+   "halls": 1116,
+   "halls_positioned": 987,
+   "footprints": 1009
+  },
+  "outside the walls": {
+   "compounds": 0,
+   "compounds_positioned": 0,
+   "halls": 18,
+   "halls_positioned": 18,
+   "footprints": 15
+  }
+ },
+ "plan_vs_osm_points_m": {
+  "Yuanming Yuan": {
+   "n": 36,
+   "median": 41,
+   "p90": 164
+  },
+  "Xiyang Lou": {
+   "n": 10,
+   "median": 15,
+   "p90": 37
+  }
+ },
+ "per_compound": {
+  "YM01": {
+   "name": "正大光明",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 13,
+   "footprints": 17
+  },
+  "YM02": {
+   "name": "勤政亲贤",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 11,
+   "footprints": 28
+  },
+  "YM03": {
+   "name": "九洲清晏",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 30,
+   "footprints": 55
+  },
+  "YM04": {
+   "name": "镂月开云",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 9
+  },
+  "YM05": {
+   "name": "天然图画",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 9,
+   "footprints": 18
+  },
+  "YM06": {
+   "name": "碧桐书院",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 22
+  },
+  "YM07": {
+   "name": "慈云普护",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 7
+  },
+  "YM08": {
+   "name": "上下天光",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 6
+  },
+  "YM09": {
+   "name": "杏花春馆",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 11,
+   "footprints": 16
+  },
+  "YM10": {
+   "name": "坦坦荡荡",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 10
+  },
+  "YM11": {
+   "name": "茹古涵今",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 5,
+   "footprints": 15
+  },
+  "YM12": {
+   "name": "长春仙馆",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 12,
+   "footprints": 15
+  },
+  "YM13": {
+   "name": "万方安和",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 10,
+   "footprints": 8
+  },
+  "YM14": {
+   "name": "武陵春色",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 15,
+   "footprints": 24
+  },
+  "YM15": {
+   "name": "山高水长",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 9
+  },
+  "YM16": {
+   "name": "月地云居",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 8,
+   "footprints": 25
+  },
+  "YM17": {
+   "name": "鸿慈永祜",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 13,
+   "footprints": 18
+  },
+  "YM18": {
+   "name": "汇芳书院",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 9,
+   "footprints": 14
+  },
+  "YM19": {
+   "name": "日天琳宇",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 15,
+   "footprints": 19
+  },
+  "YM20": {
+   "name": "澹泊宁静",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 15,
+   "footprints": 10
+  },
+  "YM21": {
+   "name": "映水兰香",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 6,
+   "footprints": 4
+  },
+  "YM22": {
+   "name": "水木明瑟",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 5
+  },
+  "YM23": {
+   "name": "濂溪乐处",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 16,
+   "footprints": 11
+  },
+  "YM24": {
+   "name": "多稼如云",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 7
+  },
+  "YM25": {
+   "name": "鱼跃鸢飞",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 12
+  },
+  "YM26": {
+   "name": "北远山村",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 7,
+   "footprints": 8
+  },
+  "YM27": {
+   "name": "西峰秀色",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 13
+  },
+  "YM28": {
+   "name": "四宜书屋",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 11,
+   "footprints": 27
+  },
+  "YM29": {
+   "name": "方壶胜境",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 23
+  },
+  "YM30": {
+   "name": "澡身浴德",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 11,
+   "footprints": 19
+  },
+  "YM31": {
+   "name": "平湖秋月",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 11
+  },
+  "YM32": {
+   "name": "蓬岛瑶台",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 9
+  },
+  "YM33": {
+   "name": "接秀山房",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 5
+  },
+  "YM34": {
+   "name": "别有洞天",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 11,
+   "footprints": 23
+  },
+  "YM35": {
+   "name": "夹镜鸣琴",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 12,
+   "footprints": 10
+  },
+  "YM36": {
+   "name": "涵虚朗鉴",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 10,
+   "footprints": 16
+  },
+  "YM37": {
+   "name": "廓然大公",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 14,
+   "footprints": 15
+  },
+  "YM38": {
+   "name": "坐石临流",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 7
+  },
+  "YM39": {
+   "name": "曲院风荷",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 21
+  },
+  "YM40": {
+   "name": "洞天深处",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 9,
+   "footprints": 74
+  },
+  "YM41": {
+   "name": "大宫门",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 13,
+   "footprints": 10
+  },
+  "YM42": {
+   "name": "园门 (十八门)",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 12,
+   "footprints": 4
+  },
+  "YM43": {
+   "name": "水闸三座",
+   "garden": "Yuanming Yuan",
+   "position": false,
+   "read": "likely",
+   "halls_named": 3,
+   "footprints": 0
+  },
+  "YM44": {
+   "name": "同乐园",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 8,
+   "footprints": 20
+  },
+  "YM45": {
+   "name": "舍卫城",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 9,
+   "footprints": 40
+  },
+  "YM46": {
+   "name": "文源阁",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 5
+  },
+  "YM47": {
+   "name": "藻园",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 12,
+   "footprints": 17
+  },
+  "YM48": {
+   "name": "紫碧山房",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 11,
+   "footprints": 14
+  },
+  "YM49": {
+   "name": "若帆之阁",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 9
+  },
+  "YM50": {
+   "name": "三潭印月",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 8
+  },
+  "YM51": {
+   "name": "课农轩",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 6
+  },
+  "YM52": {
+   "name": "顺木天",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 1
+  },
+  "YM53": {
+   "name": "藏舟坞",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 3
+  },
+  "YM54": {
+   "name": "福海",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM55": {
+   "name": "后湖",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM56": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 8
+  },
+  "YM57": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "YM58": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "YM59": {
+   "name": "铺面房",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 14
+  },
+  "YM60": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "YM61": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "YM62": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "YM63": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "YM64": {
+   "name": "?内地?",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM65": {
+   "name": "鱼家寨",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM66": {
+   "name": "刘?将军庙",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM67": {
+   "name": "花神庙",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 12
+  },
+  "YM68": {
+   "name": "?月 / ?云舒卷 strip",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 1
+  },
+  "YM69": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "YM70": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 8
+  },
+  "YM71": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "YM72": {
+   "name": "观音庵",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 3
+  },
+  "YM73": {
+   "name": "十三所",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 21
+  },
+  "YM74": {
+   "name": "关帝庙",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 10
+  },
+  "YM75": {
+   "name": "天宇空明",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 4
+  },
+  "YM76": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "YM77": {
+   "name": "山高先得月",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 3
+  },
+  "YM78": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 6
+  },
+  "YM79": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 4
+  },
+  "YM80": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 4
+  },
+  "YM81": {
+   "name": "松风阁",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 4
+  },
+  "YM82": {
+   "name": "船坞",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "YM83": {
+   "name": "春和镇",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 6
+  },
+  "YM84": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 12
+  },
+  "YM85": {
+   "name": "船坞",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "YM86": {
+   "name": "大北门",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "YM87": {
+   "name": "北傍门",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "YM88": {
+   "name": "",
+   "garden": "Yuanming Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC01": {
+   "name": "澹怀堂",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 7,
+   "footprints": 11
+  },
+  "CC02": {
+   "name": "含经堂",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 17,
+   "footprints": 40
+  },
+  "CC03": {
+   "name": "蒨园",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 10,
+   "footprints": 12
+  },
+  "CC04": {
+   "name": "思永斋",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 6,
+   "footprints": 19
+  },
+  "CC05": {
+   "name": "得全阁",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 2,
+   "footprints": 5
+  },
+  "CC06": {
+   "name": "海岳开襟",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 5
+  },
+  "CC07": {
+   "name": "流香渚",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 1
+  },
+  "CC08": {
+   "name": "法慧寺",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 8
+  },
+  "CC09": {
+   "name": "宝相寺",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 8
+  },
+  "CC10": {
+   "name": "泽兰堂",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 8
+  },
+  "CC11": {
+   "name": "平畴交远风",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 2,
+   "footprints": 2
+  },
+  "CC12": {
+   "name": "丛芳榭",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 3,
+   "footprints": 9
+  },
+  "CC13": {
+   "name": "狮子林",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 14,
+   "footprints": 8
+  },
+  "CC14": {
+   "name": "玉玲珑馆",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 7,
+   "footprints": 15
+  },
+  "CC15": {
+   "name": "映清斋",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 8
+  },
+  "CC16": {
+   "name": "鉴园",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 11
+  },
+  "CC17": {
+   "name": "东宫门",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 3
+  },
+  "CC18": {
+   "name": "如园",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 16
+  },
+  "CC19": {
+   "name": "七空闸",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "CC20": {
+   "name": "花神庙",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC21": {
+   "name": "林渊锦镜",
+   "garden": "Changchun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "CC22": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC23": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC24": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "CC25": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "CC26": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC27": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "CC28": {
+   "name": "court north of 谐奇趣",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "CC29": {
+   "name": "?井",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 1
+  },
+  "CC30": {
+   "name": "",
+   "garden": "Changchun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "XY01": {
+   "name": "谐奇趣",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 6
+  },
+  "XY02": {
+   "name": "蓄水楼",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 1
+  },
+  "XY03": {
+   "name": "花园门",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "XY04": {
+   "name": "黄花阵",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 2
+  },
+  "XY05": {
+   "name": "养雀笼",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 4
+  },
+  "XY06": {
+   "name": "方外观",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "XY07": {
+   "name": "五竹亭",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "XY08": {
+   "name": "海晏堂",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 8
+  },
+  "XY09": {
+   "name": "远瀛观",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "XY10": {
+   "name": "大水法",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "XY11": {
+   "name": "观水法",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "XY12": {
+   "name": "线法山",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 1
+  },
+  "XY13": {
+   "name": "螺蛳牌楼",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "XY14": {
+   "name": "方河",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "XY15": {
+   "name": "线法墙",
+   "garden": "Xiyang Lou",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC01": {
+   "name": "绮春园宫门",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 4
+  },
+  "QC02": {
+   "name": "迎晖殿",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "QC03": {
+   "name": "中和堂",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC04": {
+   "name": "敷春堂",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 8,
+   "footprints": 23
+  },
+  "QC05": {
+   "name": "清夏斋",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 8
+  },
+  "QC06": {
+   "name": "凤麟洲",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC07": {
+   "name": "涵秋馆",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC08": {
+   "name": "鉴碧亭",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC09": {
+   "name": "庄严法界",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC10": {
+   "name": "仙人承露台",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC11": {
+   "name": "正觉寺",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 5,
+   "footprints": 11
+  },
+  "QC12": {
+   "name": "澄心堂",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 8
+  },
+  "QC13": {
+   "name": "含晖楼",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 8
+  },
+  "QC14": {
+   "name": "畅和堂",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 4,
+   "footprints": 8
+  },
+  "QC15": {
+   "name": "绿满轩",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 2,
+   "footprints": 3
+  },
+  "QC16": {
+   "name": "湛清轩",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC17": {
+   "name": "春泽斋",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 10
+  },
+  "QC18": {
+   "name": "生冬室",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "QC19": {
+   "name": "四宜书屋 (绮春)",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 16
+  },
+  "QC20": {
+   "name": "展诗应律",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 4
+  },
+  "QC21": {
+   "name": "卧云轩",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC22": {
+   "name": "惠济祠",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC23": {
+   "name": "河神庙",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC24": {
+   "name": "龙王庙",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC25": {
+   "name": "延寿寺",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 6
+  },
+  "QC26": {
+   "name": "天心水面",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC27": {
+   "name": "心镜轩",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC28": {
+   "name": "延英论道",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC29": {
+   "name": "鉴德书屋",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC31": {
+   "name": "凌虚阁",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC33": {
+   "name": "澄光榭",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC34": {
+   "name": "我见室",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC35": {
+   "name": "蔚藻堂",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 9
+  },
+  "QC37": {
+   "name": "镜绿亭",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC38": {
+   "name": "淙玉轩",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "QC39": {
+   "name": "舒卉轩",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC40": {
+   "name": "竹林院",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC41": {
+   "name": "夕霏榭",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC42": {
+   "name": "镜红馆",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC43": {
+   "name": "喜雨山房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC44": {
+   "name": "涵清馆",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC45": {
+   "name": "华滋庭",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC46": {
+   "name": "苔香室",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC47": {
+   "name": "虚明镜",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC48": {
+   "name": "含淳堂",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC49": {
+   "name": "水心榭",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "guess",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC50": {
+   "name": "茗柯精舍",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC51": {
+   "name": "来薰室",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC52": {
+   "name": "般若观",
+   "garden": "Qichun Yuan",
+   "position": false,
+   "read": "not_found",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC53": {
+   "name": "松风?月",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC54": {
+   "name": "?吟楼",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 2
+  },
+  "QC55": {
+   "name": "会心处",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC56": {
+   "name": "敞厅",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC57": {
+   "name": "浩然亭",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC58": {
+   "name": "招凉榭",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC59": {
+   "name": "护松扉 / 排青幌",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 2,
+   "footprints": 3
+  },
+  "QC60": {
+   "name": "翰林花园",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 0
+  },
+  "QC61": {
+   "name": "西爽村",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 9
+  },
+  "QC62": {
+   "name": "别有洞天",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC63": {
+   "name": "七宝?",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 2
+  },
+  "QC64": {
+   "name": "点景房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC65": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC66": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC67": {
+   "name": "西住所",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 6
+  },
+  "QC68": {
+   "name": "东住所",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 8
+  },
+  "QC69": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 8
+  },
+  "QC70": {
+   "name": "学圃",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 1,
+   "footprints": 2
+  },
+  "QC71": {
+   "name": "膳房 / 茶房 / ?房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 4
+  },
+  "QC72": {
+   "name": "点景房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC73": {
+   "name": "村庄房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 1
+  },
+  "QC74": {
+   "name": "??斋",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC75": {
+   "name": "四局 / 善房 / 茶房",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "sure",
+   "halls_named": 3,
+   "footprints": 11
+  },
+  "QC76": {
+   "name": "地? / 官厅",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 1,
+   "footprints": 11
+  },
+  "QC77": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC78": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 4
+  },
+  "QC79": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 5
+  },
+  "QC80": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  },
+  "QC81": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 2
+  },
+  "QC82": {
+   "name": "",
+   "garden": "Qichun Yuan",
+   "position": true,
+   "read": "likely",
+   "halls_named": 0,
+   "footprints": 3
+  }
+ }
+}

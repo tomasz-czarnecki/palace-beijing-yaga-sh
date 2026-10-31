@@ -1,0 +1,15 @@
+[project]
+name = "palace-beijing"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "imagecodecs>=2026.3.6",
+    "numpy",
+    "pillow",
+    "pypinyin>=0.55.0",
+    "pyproj",
+    "requests",
+    "scipy>=1.17.1",
+    "shapely",
+    "tifffile>=2026.3.3",
+]

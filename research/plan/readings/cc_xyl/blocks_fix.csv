@@ -1,0 +1,61 @@
+block_id,action,x,y,w_px,h_px,angle_deg,note
+B0068,reject,,,,,,Hatching on the ring base of the maze centre.
+B0047,merge:B0048,,,,,,South porch or stair of the hall.
+B0301,reject,,,,,,Neck of the 谐奇趣 pool into the lake; no building.
+B0153,reject,,,,,,Fan stair of the 海晏堂 west front.
+B0149,resize,9052,968,65,18,0,North row of a small court.
+B0150,resize,9079,998,40,13,-90,East row of the court.
+A-cc_xyl-002,add,9027,998,40,12,-90,West row of the court.
+A-cc_xyl-001,add,9840,1192,64,31,0,"South wing of 海晏堂 main block, mirror of B0154."
+B0152,resize,9393.5,966,67,28,0,Box took in the porch; hall only.
+B0266,resize,9565,1540,40,80,0,Box spanned the empty west court and the hall; hall only.
+B0267,reject,,,,,,Inner court of 法慧寺.
+A-cc_xyl-003,add,9636,1526,103,32,0,North row of 法慧寺.
+A-cc_xyl-004,add,9620,1589,69,36,0,Second row.
+A-cc_xyl-005,add,9562,1650,110,24,-90,"Ring, west."
+A-cc_xyl-006,add,9620,1698,140,30,0,"Ring, south."
+A-cc_xyl-007,add,9678,1650,110,20,-90,"Ring, east."
+B0241,resize,9973.5,1471.5,27,11,0,Short corridor; box too big.
+B0242,resize,10022,1485,71,54,0,Top hall of 宝相寺.
+B0243,resize,10075,1471,35,11,0,East corridor.
+B0271,reject,,,,,,"Court of 宝相寺, not a hall."
+B0269,reject,,,,,,Part of a long wall band.
+B0279,reject,,,,,,Wide bridge over the moat at G20.
+B0280,reject,,,,,,"Same bridge, north end."
+B0281,reject,,,,,,Second hourglass bridge on the outer moat.
+B0630,resize,8816,3388,48,31,0,Full 3-bay hall.
+B0706,resize,9472,3765,117,45,0,Full width of the 思永斋 hall.
+B0711,resize,9470,3893,81,44,0,South range: box too short.
+B0687,reject,,,,,,Mostly empty ground between two walls.
+B0689,reject,,,,,,Inner court lines and stair.
+B0690,reject,,,,,,Inner court lines.
+B0691,reject,,,,,,Inner court lines.
+A-cc_xyl-008,add,9476,3687,109,26,0,Inner U range in the middle court of 思永斋.
+A-cc_xyl-009,add,9408,3708,80,22,-90,"West range of middle court, mirror of B0692."
+A-cc_xyl-010,add,9603,3741,46,20,-90,N-S 4-bay range east of 思永斋.
+B0541,resize,10573,3030,134,100,0,淳化轩: box ran north over the 蕴真斋 court.
+A-cc_xyl-011,add,10713,3010,94,61,0,South range of the theatre court.
+B0653,resize,11413.5,3527,141,82,0,Whole hall.
+B0654,merge:B0653,,,,,,Inside the same hall.
+B0638,resize,11616,3414,82,32,-90,East range only; box took in the empty ground east of it.
+B0719,reject,,,,,,Empty court south of B0720.
+A-cc_xyl-016,add,11610,4105,38,19,-90,N-S range east of 映清斋's court.
+A-cc_xyl-012,add,12352,4132,82,27,-90,East range of the 鉴园 court.
+B0709,resize,12417,3868,104,18,-90,"8 bays, box stopped early."
+B0609,resize,12518,3272,50,37,0,Full width 朝房.
+B0586,reject,,,,,,Bridge 护河石桥.
+A-cc_xyl-013,add,10381,3588,50,15,-90,West 坊楔 of the 含经堂 forecourt.
+A-cc_xyl-014,add,10581,3734,73,14,0,South 坊楔.
+A-cc_xyl-015,add,10673,3358,83,27,-90,"East inner range, mirror of B0632."
+B0890,merge:B0889,,,,,,Same hall.
+B0940,resize,11035,4915,70,31,0,Whole 5-bay gate x 11000-11070.
+A-cc_xyl-017,add,9923,4446,32,28,0,Small grid at the north end of a corridor in 蒨园.
+A-cc_xyl-018,add,11927,4790,26,44,0,"N-S hall in the oval rock court of 如园, not boxed."
+A-cc_xyl-021,add,12372,4325,194,15,-90,船坞 west row.
+A-cc_xyl-022,add,12407,4325,194,12,-90,船坞 east row.
+A-cc_xyl-023,add,12365,4305,42,17,-90,船坞 side room.
+A-cc_xyl-024,add,12365,4405,34,17,-90,船坞 side room.
+B0584,reject,,,,,,Empty strip between the 含经堂 wall and the 买卖街 rows.
+B0788,reject,,,,,,Court of the CC05 group.
+A-cc_xyl-019,add,11479,2781,28,32,0,Pavilion on island R0222.
+A-cc_xyl-020,add,9934,4641,32,18,0,Hall on the wall.

@@ -1,0 +1,650 @@
+id,parent_id,name_zh,name_pinyin,name_en,garden,type,built,changed,destroyed,sources,confidence,bays,frontage_m,depth_m,storeys,roof,roof_tiles,rel_position,notes
+YM01,,正大光明,Zhengda Guangming,The Main Audience Hall (Central Great Brilliant Bright),Yuanming Yuan,scene,"雍正三年 1725 (S02 p.76, S42 正大光明区域)",,1860,S05;S02;S08;S42,A,,,,,,,出入賢良門内為正大光明殿 [j80:9b],"name_en: Malone p.75. Scene spans 大宫门 (YM41), 二宫门, 正大光明殿, 寿山. S42: 南起大影壁北至寿山 纵长370 m, 东西宽310 m, 建筑面积7000 m2."
+YM01-01,YM01,出入贤良门,Churu Xianliang Men,,Yuanming Yuan,gate,,,1860,S05;S02,B,5,,,,,,大宫門内為出入賢良門五楹 [j80:9a],"是為二宮門. Malone p.75 ""Gate for the Departure and Entrance of Virtue and Goodness""; gilt dragons at the entrance."
+YM01-02,YM01,出入贤良门前石桥,Churu Xianliang Men qian shiqiao,,Yuanming Yuan,bridge,,,1860,S05;S02,B,,,,,,,門前河形如月中駕石橋三 [j80:9b],"Rixia: three stone bridges over a moon-shaped moat; Malone p.75 ""an arched bridge"". See conflicts."
+YM01-03,YM01,内朝房,Nei chaofang,,Yuanming Yuan,other,,,1860,S05;S42,B,5 each,,,,,,度橋東西朝房各五楹 [j80:9a],two wings; S42 calls them 左右内朝房.
+YM01-04,YM01,军机处,Junji Chu,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,(二宮門外)東南為清茶房為軍機處 [j80:9a],Malone p.75 east waiting rooms.
+YM01-05,YM01,清茶房,Qingcha Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東南為清茶房 [j80:9a],
+YM01-06,YM01,茶膳房,Chashan Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西南為茶膳房 [j80:9a],
+YM01-07,YM01,翻书房,Fanshu Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,再西為繙書房 [j80:9a],S42 also 缮书房; not reconciled.
+YM01-08,YM01,正大光明殿,Zhengda Guangming Dian,,Yuanming Yuan,audience hall,雍正三年 1725 (S02 p.76),Plain under Yongzheng; columns painted red and capitals with dragons before the end of Qianlong (S02 p.76),1860,S05;S02;S06,B,7,,,,卷棚歇山 (S06),灰瓦 grey (S06),出入賢良門内為正大光明殿七楹 [j80:9b],"S06 进深五间. Malone p.75 measured the foundation on site: 129 x 63 ft, 4 ft high = 39.3 x 19.2 x 1.2 m; porch colonnade of 10 columns; pillars c. 2 ft 8 in. Macartney 150 x 60 ft (S02 p.76). Interior height over 20 ft per Staunton (S02 p.76 n.). Macartney gifts 1793 set up here. Scene of camp and last fire 1860 (S02 p.77). 不雕不繪 per 1744 poem [j80:11a]."
+YM01-09,YM01,东西配殿,Dong Xi peidian,,Yuanming Yuan,other,,,1860,S05,B,5 each,,,,,,東西配殿各五楹 [j80:9b],
+YM01-10,YM01,寿山殿,Shoushan Dian,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為壽山殿 [j80:9b],
+YM01-11,YM01,洞明堂,Dongming Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東為洞明堂 [j80:9b],世宗御書額 [j80:11a]
+YM01-12,YM01,寿山,Shou Shan,,Yuanming Yuan,other,,,1860,S05;S02;S42,B,,,,,,,屋後峭石壁立玉筍嶙峋 [j80:11a]; 在正大光明殿北侧有寿山 (S42),Hill with rockery behind the hall (S02 p.76). S06: 笋石 later moved to the Summer Palace 仁寿殿.
+YM01-13,YM01,前湖,Qian Hu,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,正大光明後有湖亦稱前湖 [j80:20b],"Water body between 正大光明 and 九洲清晏; Malone p.79 ""Front Lake"". Same name also used for the lakes south of 大宫门; see YM41-13 and conflicts."
+YM02,,勤政亲贤,Qinzheng Qinxian,Hall of Diligent Government (Diligent in Government and Friendly with Officials),Yuanming Yuan,scene,,"Differs between album and later Yangshi Lei plans (S41, no details)",1860,S05;S02;S08;S41,A,,,,,,,正大光明殿東為勤政親賢 [j80:11b],name_en: Malone p.77.
+YM02-01,YM02,勤政殿,Qinzheng Dian,,Yuanming Yuan,audience hall,,,1860,S05,B,5,,,,,,正大光明殿東為勤政親賢正殿五楹 [j80:11b],額曰勤政親賢; 後楹額曰為君難. 日於此披省章奏召對臣工 [j80:18a].
+YM02-02,YM02,飞云轩,Feiyun Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,勤政親賢之東為飛雲軒 [j80:19a],
+YM02-03,YM02,静鉴阁,Jingjian Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,東有閣為靜鑑 [j80:19a],
+YM02-04,YM02,怀清芬,Huai Qingfen,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其北為懐清芬 [j80:19a-b],
+YM02-05,YM02,秀木佳荫,Xiumu Jiayin,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北為秀木佳䕃 [j80:19b],
+YM02-06,YM02,生秋庭,Shengqiu Ting,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,轉後為生秋庭 [j80:19b],
+YM02-07,YM02,芳碧丛,Fangbi Cong,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,靜鑑閣東為芳碧叢 [j80:19b],
+YM02-08,YM02,保合太和殿,Baohe Taihe Dian,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,後為保合太和正殿三楹 [j80:19b],西暖閣額 叢雲 養性; 北曰隨安室 [j80:20a]
+YM02-09,YM02,富春楼,Fuchun Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,後為富春樓 [j80:19b],樓下額 坐擁琳琅 蔚然深秀 無倦齋 清風明月 [j80:20a]
+YM02-10,YM02,竹林清响,Zhulin Qingxiang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,樓東為竹林清響 [j80:19b],
+YM03,,九洲清晏,Jiuzhou Qingyan,The Emperor's Private Apartments (Nine Continents Clear and Calm),Yuanming Yuan,scene,最早建筑清晖阁 康熙四十六年 1707 (S42); name under Yongzheng (S42),"1765 四景 added (S05); 1831 慎德堂, 乐安和/怡情书史 removed (S41; S43); 1836 fire on the central axis, 3 halls rebuilt (S41; S54); 1837 同道堂 (S43); 1855 theatre (S43)",1860,S05;S02;S08;S41;S42;S43,A,,,,,,,湖正北為圓明園殿 [j80:20b],"name_en: Malone pp.77-79. S42: 东西长220 m, 南北宽120 m, 占地25000 m2, 建筑面积8600 m2, 殿宇游廊656间. Rixia spells 九州清宴. Plan readers: the 1860 state of the west road is the Daoguang one."
+YM03-01,YM03,圆明园殿,Yuanming Yuan Dian,,Yuanming Yuan,other,,Bays and depth changed after 1836 fire (S41),1860,S05;S02;S41,B,5,,,,,,湖正北為圓明園殿五楹 [j80:20b],"Hangs 圓明園 plaque by Kangxi [j80:1b, 21a]. See conflicts on the plaque."
+YM03-02,YM03,奉三无私殿,Fengsan Wusi Dian,,Yuanming Yuan,other,,After 1836 fire (S41); theatre repaired 1852 (S43),1860,S05;S41;S43,B,7,,,,,,後為奉三無私殿七楹 [j80:20b],Forty Scenes album kept here from 1747 (S41). Theatre: outdoor (S43 n.6).
+YM03-03,YM03,九洲清晏殿,Jiuzhou Qingyan Dian,,Yuanming Yuan,residence,,After 1836 fire (S41),1860,S05;S41;S54,B,7,,,,,,又後為九州清宴殿七楹 [j80:20b],Yongzheng and Daoguang said to have died at 九州清晏 (S54 lead; S43 places Daoguang at 慎德堂).
+YM03-04,YM03,天地一家春,Tiandi Yijia Chun,,Yuanming Yuan,residence,,,1860,S05;S42;S44,B,,,,,,,東為天地一家春 [j80:20b],East road 寝殿 (S42). 孝慎皇后 died here 1833 (S44).
+YM03-05,YM03,乐安和,Le An He,,Yuanming Yuan,residence,,Removed c. 1831 for 慎德堂 (S41): not standing in 1860,1860,S05;S41,B,,,,,,,西為樂安和 [j80:20b],寢殿 [j80:25a]. Not for the 1860 model.
+YM03-06,YM03,清晖阁,Qinghui Ge,,Yuanming Yuan,tower,康熙四十六年 1707 (S42),Pines before it burnt 1763 (S41); demolition early Daoguang (S55) vs still listed in west road (S42): open,1860,S05;S02;S41;S42;S55,B,,,,,,,又西為清暉閣 [j80:20b],"Held the 1737 painted map of the garden, north wall [j80:23a; S02 p.62]."
+YM03-07,YM03,露香斋,Luxiang Zhai,,Yuanming Yuan,other,乾隆三十年 1765 [j80:24a-b],,1860,S05,B,,,,,,,閣前為露香齋 [j80:20b],Not in the 1744 album. West road later rebuilt: 1860 status unknown.
+YM03-08,YM03,茹古堂,Rugu Tang,,Yuanming Yuan,library,乾隆三十年 1765 [j80:24a-25a],,1860,S05,B,,,,,,,左為茹古堂 [j80:20b],Poem: 所貯惟縹緗 [j80:25a]. Not in the 1744 album. 1860 status unknown.
+YM03-09,YM03,松云楼,Songyun Lou,,Yuanming Yuan,tower,乾隆三十年 1765 [j80:24a-b],,1860,S05,B,,,,2,,,為松雲樓 [j80:20b],兩層樓 [j80:24b]. 1860 status unknown.
+YM03-10,YM03,涵德书屋,Hande Shuwu,,Yuanming Yuan,library,乾隆三十年 1765 [j80:24b],,1860,S05,B,,,,,,,右為涵徳書屋 [j80:20b-21a],1860 status unknown.
+YM03-11,YM03,慎德堂,Shende Tang,,Yuanming Yuan,residence,道光十一年 1831 (S41;S43); 道光十年 per S54,,1860,S41;S43;S42,B,5,,,,,,西路 (S42),五间三卷大寝宫 (S43). Daoguang died here (S43). In 1860 state only. Malone p.79 n.: Tongzhi said born here (hearsay).
+YM03-12,YM03,壶天仙籁戏台,Hutian Xianlai xitai,,Yuanming Yuan,theatre,,,1860,S43,B,,,,,,,慎德堂后院 (S43),Indoor theatre; exact place unknown (S43).
+YM03-13,YM03,同道堂,Tongdao Tang,,Yuanming Yuan,residence,道光十七年 1837 (S43),,1860,S42;S43,B,3,,,,,,九洲清晏殿西侧 (S42;S43),Xianfeng favourite (S43).
+YM03-14,YM03,同道堂戏台,Tongdao Tang xitai,,Yuanming Yuan,theatre,咸丰五年 1855 (S43),,1860,S43,B,,7.04,7.04,,,,同道堂前 (S43),见方7.04 m; 每面三间; 匾 与古为新; 南接扮戏房 (S43).
+YM03-15,YM03,怡情书史,Yiqing Shushi,,Yuanming Yuan,other,,Removed c. 1831 (S41),1860,S41;S54,B,,,,,,,西路 (S41;S54),Not for the 1860 model.
+YM03-16,YM03,昭吟镜亭,Zhaoyin Jing Ting,,Yuanming Yuan,pavilion,,,1860,S42,B,,,,,,,西路 (S42),Listed by S42 as west road in the late state; date not stated.
+YM03-17,YM03,基福堂,Jifu Tang,,Yuanming Yuan,other,,,1860,S42,B,,,,,,,西路 (S42),Listed by S42 as west road in the late state; date not stated.
+YM03-18,YM03,性存斋,Xingcun Zhai,,Yuanming Yuan,other,,,1860,S42,B,,,,,,,西路 (S42),Listed by S42 as west road in the late state; date not stated.
+YM03-19,YM03,永春室,Yongchun Shi,,Yuanming Yuan,other,,,1860,S42,B,,,,,,,西路 (S42),Listed by S42 as west road in the late state; date not stated.
+YM03-20,YM03,泉石自娱,Quanshi Ziyu,,Yuanming Yuan,other,,,1860,S42,B,,,,,,,东路 (S42),
+YM03-21,YM03,如意桥,Ruyi Qiao,,Yuanming Yuan,bridge,,,1860,S06;S41,B,,,,,,,岛南 东 (S06),
+YM03-22,YM03,南大桥,Nanda Qiao,,Yuanming Yuan,bridge,,,1860,S06,B,,,,,,,岛南 西 (S06),
+YM03-23,YM03,棕亭桥,Zongting Qiao,,Yuanming Yuan,bridge,,"3-span plank bridge in silk album, with a pavilion in the woodcut; repaired 1777 (S41)",1860,S41,B,,,,,,,九州清晏岛西北角 到茹古涵今 (S41),
+YM04,,镂月开云,Louyue Kaiyun,The Peony Terrace (Engraved Moon and Open Clouds),Yuanming Yuan,scene,雍正初 牡丹台 (S06),Renamed 1744 [j80:26b]; 纪恩堂 plaque 1766 [j80:26b-27a],1860,S05;S02;S08;S06,A,,,,,,,在富春樓之後 [j80:26a],name_en: Malone p.79.
+YM04-01,YM04,纪恩堂,Ji'en Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,二色瓦 two-colour (poem: 殿以香楠為材覆二色瓦) [j80:30a],鏤月開雲在富春樓之後即紀恩堂 [j80:26a],"Nanmu timber. Kangxi, Yongzheng, Qianlong met here 1722 [j80:28a]. S06: 金碧二色琉璃瓦."
+YM04-02,YM04,御兰芬,Yu Lanfen,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北為御蘭芬 [j80:26a],後齋堂 [j80:30b]
+YM05,,天然图画,Tianran Tuhua,A Painting by Nature,Yuanming Yuan,scene,,"South pool and islet filled, probably c. 1831; pool found by excavation (S41). Not in the 1860 state.",1860,S05;S02;S08;S41,A,,,,,,,鏤月開雲後有池一區 [j80:31b],name_en: Malone p.79.
+YM05-01,YM05,天然图画楼,Tianran Tuhua Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,池西北方樓為天然圖畫 [j80:31b],
+YM05-02,YM05,朗吟阁,Langyin Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,樓北為朗吟閣 [j80:31b],
+YM05-03,YM05,竹薖楼,Zhuke Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,又北為竹薖樓 [j80:31b],簷額 桃花春一溪
+YM05-04,YM05,五福堂,Wufu Tang,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,東為五福堂五楹 [j80:31b],S41 also 五福五代堂.
+YM05-05,YM05,竹深荷净,Zhushen Hejing,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,堂後迤北殿五楹為竹深荷淨 [j80:31b],
+YM05-06,YM05,静知春事佳,Jingzhi Chunshi Jia,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其東南為靜知春事佳 [j80:31b],
+YM05-07,YM05,苏堤春晓,Sudi Chunxiao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東渡河為蘇堤春曉 [j80:31b],
+YM05-08,YM05,文昌阁,Wenchang Ge,,Yuanming Yuan,tower,,,"survived 1860 (a 文昌阁 is on the 1873 survey, S06); gone later",S43;S06;S47,B,,,,,,,天然图画文昌阁 (S43),"S06 places a 文昌阁 south of 万方安和, S43 at 天然图画: see conflicts."
+YM06,,碧桐书院,Bitong Shuyuan,Library of the Green Wu T'ung Trees,Yuanming Yuan,scene,,Differs on later plans (S41). Malone p.79: official map patch shows rebuilt layout on this island.,1860,S05;S02;S08;S41,A,,,,,,,由五福堂渡河而北山阜旋繞内為碧桐書院 [j80:34b],name_en: Malone p.79. Malone n.30: hearsay on Tongzhi birthplace.
+YM06-01,YM06,前宇,Qian yu,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,前宇三楹 [j80:34b],
+YM06-02,YM06,正殿,Zhengdian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,正殿五楹 [j80:34b],碧桐書院額 hangs here [j80:35a]
+YM06-03,YM06,后照殿,Hou zhaodian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,後照殿五楹 [j80:34b],
+YM06-04,YM06,云岑亭,Yuncen Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,其西巖石上為雲岑亭 [j80:34b],
+YM07,,慈云普护,Ciyun Puhu,Island of Shrines (Merciful Clouds Universally Protecting),Yuanming Yuan,scene,,Differs on later plans (S41),1860,S05;S02;S08;S41,A,,,,,,,碧桐書院之西為慈雲普䕶 [j80:35b],name_en: Malone p.80.
+YM07-01,YM07,欢喜佛场,Huanxi Fochang,,Yuanming Yuan,temple,,,1860,S05,B,3,,,,,,前殿南臨後湖三楹為歡喜佛塲 [j80:35b],
+YM07-02,YM07,慈云普护楼,Ciyun Puhu Lou,,Yuanming Yuan,temple,,,1860,S05;S02;S47,B,3,,,,,,其北樓宇三楹 [j80:35b],上奉觀音 下祀關帝 [j80:35b]. 1744 poem 有樓三層刻漏鐘表在焉 [j80:36b]; Malone p.80 3-storey bell tower. See conflicts.
+YM07-03,YM07,龙王殿,Longwang Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,東偏為龍王殿 [j80:35b],祀圓明園昭福龍王
+YM08,,上下天光,Shangxia Tianguang,The Island of the Zig-zag Bridges (Heavenly Light Above and Below),Yuanming Yuan,scene,雍正初年 (S42),"Daoguang: upper floor enclosed, square pavilion, 值房院 and west hall added (S42); bridge pavilions changed (S41)",1860,S05;S02;S08;S41;S42,A,,,,,,,慈雲普䕶之西臨湖有樓 [j80:37a],name_en: Malone p.80.
+YM08-01,YM08,上下天光楼,Shangxia Tianguang Lou,,Yuanming Yuan,tower,,,1860,S05;S42;S43,B,3,29.97,18.69,2,,,臨湖有樓上下各三楹 [j80:37a],"S42: 楼连月台通面宽29.97 m 通进深18.69 m (with terrace); 楼上三间各面宽8.64, 进深7.68, 外廊1.28. 内檐 涵月楼 (Daoguang)."
+YM08-02,YM08,饮和亭,Yinhe Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,右六方亭額曰飲和 [j80:37b],hexagonal
+YM08-03,YM08,奇赏亭,Qishang Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,左六方亭額曰竒賞 [j80:37b],hexagonal. 1744 poem: 垂虹駕湖 [j80:38a]; Malone p.80 zig-zag bridges carry them.
+YM08-04,YM08,平安院,Ping'an Yuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為平安院 [j80:37a],
+YM09,,杏花春馆,Xinghua Chunguan,The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms),Yuanming Yuan,scene,康熙年间 初名菜圃 (S42),1755 春雨轩 and 涧壑余清 built over the vegetable beds (S41); Malone p.80 n.: official map shows a lake and more buildings.,1860; 杏花春馆 and 春雨轩 on the 1873 survival list (S06),S05;S02;S08;S41;S42,A,,,,,,,上下天光之西折而南度橋為杏花春館 [j81:1a],name_en: Malone p.80.
+YM09-01,YM09,春雨轩,Chunyu Xuan,,Yuanming Yuan,other,乾隆二十年 1755 (S41),,survived 1860 fire per 1873 survey (S06),S05;S41;S06,B,,,,,,,西北為春雨軒 [j81:1a],Not in the 1744 album. S42: scene also collectively 春雨轩.
+YM09-02,YM09,杏花村,Xinghua Cun,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,軒西為杏花村 [j81:1a],
+YM09-03,YM09,涧壑余清,Jianhe Yuqing,,Yuanming Yuan,other,乾隆二十年 1755 (S41),,1860,S05,B,,,,,,,村南為磵壑餘清 [j81:1a],
+YM09-04,YM09,镜水斋,Jingshui Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,春雨軒後東為鏡水齋 [j81:1a],
+YM09-05,YM09,抑斋,Yi Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西北室為抑齋 [j81:1a],
+YM09-06,YM09,翠微堂,Cuiwei Tang,,Yuanming Yuan,other,,,1860,S05;S41,B,,,,,,,又西為翠微堂 [j81:1a],Site excavated (S41).
+YM09-07,YM09,土地祠,Tudi Ci,,Yuanming Yuan,temple,,,1860,S47,B,1,3.2,3.36,,,,杏花春馆西南 东向 (S47),"S47: 面宽一丈 3.20 m, 屋身进深一丈五寸 3.36 m, 廊1.12 m; title granted 1858."
+YM09-08,YM09,屏岩,Ping Yan,,Yuanming Yuan,gate,,,1860,S41,B,,,,,,,山顶小城关 (S41),"Small city-gate on the hill, shown in album, found by excavation. Malone p.80: stone gateway on the hill."
+YM09-09,YM09,绿云酣,Lüyun Han,,Yuanming Yuan,pavilion,,,1860,S41,B,,,,,,,半山腰六角亭 (S41),
+YM10,,坦坦荡荡,Tantan Dangdang,The Tank (Tranquil and Vast),Yuanming Yuan,scene,康熙后叶 初称金鱼池; 定名 乾隆四年 1739 (S42),Pool reshaped from 卍 to a rectangle shortly before 1744 (S41),1860,S05;S02;S08;S41;S42,A,,,,,,,杏花春館之西度碧瀾橋為坦坦蕩蕩 [j81:2b],name_en: Malone p.80.
+YM10-01,YM10,坦坦荡荡殿,Tantan Dangdang Dian,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,為坦坦蕩蕩三楹 [j81:2b],
+YM10-02,YM10,素心堂,Suxin Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,前宇為素心堂 [j81:2b],
+YM10-03,YM10,光风霁月堂,Guangfeng Jiyue Tang,,Yuanming Yuan,other,,,1860,S05;S02;S41,B,,,,,,,後宇為光風霽月堂 [j81:2b],Malone p.80: in the middle of the tank with bridges on 4 sides. Excavated (S41).
+YM10-04,YM10,知鱼亭,Zhiyu Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,東北為知魚亭 [j81:2b],
+YM10-05,YM10,萃景斋,Cuijing Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東北為萃景齋 [j81:2b],
+YM10-06,YM10,双佳斋,Shuangjia Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西北為雙佳齋 [j81:2b],
+YM10-07,YM10,半亩园,Banmu Yuan,,Yuanming Yuan,other,,,1860,S41;S43,B,5,,,,,,(S41;S43),
+YM10-08,YM10,碧澜桥,Bilan Qiao,,Yuanming Yuan,bridge,,,1860,S05,B,,,,,,,杏花春館之西度碧瀾橋 [j81:2b],
+YM11,,茹古涵今,Rugu Hanjin,Ju Ku Han Chin (Seize the Old; It Contains the Present),Yuanming Yuan,scene,,,1860,S05;S02;S08;S42,A,,,,,,,坦坦蕩蕩之南為茹古涵今五楹南向 [j81:3b],"name_en: Malone p.80. S42: 亦总称韶景轩; 占地9000 m2, 建筑面积3300 m2."
+YM11-01,YM11,茹古涵今殿,Rugu Hanjin Dian,,Yuanming Yuan,library,,,1860,S05,B,5,,,,,,為茹古涵今五楹南向 [j81:3b],牙籤萬軸 [j81:4b]
+YM11-02,YM11,韶景轩,Shaojing Xuan,,Yuanming Yuan,other,,,1860,S05;S02,B,5 per side,,,,重檐 double (S02 p.80: double roof),,其後方殿為韶景軒四面各五楹 [j81:3b],"Malone p.80: square, 8 columns a side."
+YM11-03,YM11,茂育斋,Maoyu Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,韶景軒前東為茂育齋 [j81:3b],
+YM11-04,YM11,竹香斋,Zhuxiang Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西為竹香齋 [j81:3b],
+YM11-05,YM11,静通斋,Jingtong Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北為靜通齋 [j81:3b],
+YM12,,长春仙馆,Changchun Xianguan,The Long Spring Lodge of the Immortal,Yuanming Yuan,scene,"不晚于雍正四年 1726, 初名莲花馆 (S42;S43)",,1860,S05;S02;S08;S42;S43,A,,,,,,,茹古涵今之南為長春仙館 [j81:5a],name_en: Malone p.80. Qianlong's lodging as prince; later for the empress dowager [j81:5a-b].
+YM12-01,YM12,门,Men,,Yuanming Yuan,gate,,,1860,S05,B,3,,,,,,門三楹 [j81:5a],
+YM12-02,YM12,正殿 藤影花丛,Zhengdian (Tengying Huacong),,Yuanming Yuan,residence,,,1860,S05;S43,B,5,,,,,,正殿五楹 [j81:5a],"S43: 藤影花丛 正殿五间后接抱厦三间, 戏台 by 1738."
+YM12-03,YM12,绿荫轩,Lüyin Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後殿為緑䕃軒 [j81:5a],
+YM12-04,YM12,丽景轩,Lijing Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,正殿西廊後為麗景軒 [j81:5a],
+YM12-05,YM12,含碧堂,Hanbi Tang,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,長春仙館之西為含碧堂五楹 [j81:6a],
+YM12-06,YM12,林虚桂静,Linxu Guijing,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,堂後為林虚桂静 [j81:6a],
+YM12-07,YM12,古香斋,Guxiang Zhai,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,左為古香齋 [j81:6a],
+YM12-08,YM12,抑斋,Yi Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其東楹有閣為抑齋 [j81:6a-b],
+YM12-09,YM12,墨池云,Mochi Yun,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,林虚桂静東稍南為墨池雲 [j81:6b],
+YM12-10,YM12,随安室,Sui'an Shi,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,後有殿為隨安室 [j81:6b],青宮時書屋 [j81:7b]
+YM12-11,YM12,鸣玉溪桥,Mingyuxi Qiao,,Yuanming Yuan,bridge,,,1860,S41,B,,,,,"卷棚歇山 (bridge pavilion, S41)",,长春仙馆岛北部 (S41),"单孔发券石拱桥, 桥亭三间 卷棚歇山; remains excavated (S41)."
+YM13,,万方安和,Wanfang Anhe,Swastika Building (Peace and Harmony Everywhere),Yuanming Yuan,scene,雍正初年 (S42;S43),,1860; a 十字亭 on the 1873 survival list (S06),S05;S02;S08;S42;S43,A,,,,,,,在杏花春館西北建宇池中形如卍字 [j81:9a],name_en: Malone p.81. Plaques in parts of the 卍: 正室 南面 etc. Poem 1764 lists nine four-character parts [j81:10b-12a]. S06: 33 bays. Theatre in the west arm by 1727 (S43).
+YM13-01,YM13,万方安和 南面正室,Wanfang Anhe zhengshi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,懸於卍字東南方為向陽正室 [j81:11a],"Part of the 卍 building, not a separate hall."
+YM13-02,YM13,佳气迎人,Jiaqi Yingren,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,"東西内宇 ... 向西旋轉北步近室之中 [j81:9a,11a]","Part of the 卍 building, not a separate hall."
+YM13-03,YM13,四方宁静,Sifang Ningjing,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,卍字中宇曰四方寜静 [j81:9a],"Part of the 卍 building, not a separate hall."
+YM13-04,YM13,碧溪一带,Bixi Yidai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,"東面 ... 東向俯長溪 [j81:9b,11a]","Part of the 卍 building, not a separate hall."
+YM13-05,YM13,山水清音,Shanshui Qingyin,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東面 [j81:9b],"Part of the 卍 building, not a separate hall."
+YM13-06,YM13,神洲三岛,Shenzhou Sandao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北面曰滌塵心曰神洲三島 [j81:9b]; 室中亦有樓 [j81:11b],"Part of the 卍 building, not a separate hall."
+YM13-07,YM13,高山流水,Gaoshan Liushui,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北面 [j81:9b],"Part of the 卍 building, not a separate hall."
+YM13-08,YM13,枕流漱石,Zhenliu Shushi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西面 [j81:9a-b],"Part of the 卍 building, not a separate hall."
+YM13-09,YM13,洞天深处,Dongtian Shenchu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西面 [j81:9a-b],"Part of the 卍 building, not a separate hall. Not to be confused with YM40."
+YM13-10,YM13,十字亭,Shizi Ting,,Yuanming Yuan,pavilion,,,survived 1860 per 1873 survey (S06),S02;S06,B,,,,,,,At the south end of the lake (S02 p.81),Malone: cross-shaped small building. 文昌阁 also placed here by S06.
+YM14,,武陵春色,Wuling Chunse,Peach Blossom Cave (Spring Colors at Wu Ling),Yuanming Yuan,scene,"建于1720年前, 初名桃花坞 (S42)",桃花坞 theatre added 1811 (S43); differs on later plans (S41),1860,S05;S02;S08;S41;S42;S43,A,,,,,,,萬方安和後度橋折而東稍北石洞之南為武陵春色 [j81:12b],name_en: Malone p.81. Qianlong studied here 1726 as 樂善堂 [j81:13a].
+YM14-01,YM14,壶中天 石洞,Huzhong Tian shidong,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,石洞内額曰壺中天 [j81:13b],Canal runs through it (S02 p.81).
+YM14-02,YM14,壶中日月长,Huzhong Riyue Chang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,池北軒為壺中日月長 [j81:12b],
+YM14-03,YM14,天然佳妙,Tianran Jiamiao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東為天然佳妙 [j81:12b],
+YM14-04,YM14,洞天日月多佳景,Dongtian Riyue Duo Jiajing,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其南厦為洞天日月多佳景 [j81:12b],
+YM14-05,YM14,全璧堂,Quanbi Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,武陵春色之西為全璧堂 [j81:12b],
+YM14-06,YM14,小隐栖迟亭,Xiaoyin Qichi Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,東南亭為小隠棲遲 [j81:12b],
+YM14-07,YM14,清秀亭,Qingxiu Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,堂後由山口入東為清秀亭 [j81:12b],
+YM14-08,YM14,清会亭,Qinghui Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,西為清會亭 [j81:12b],
+YM14-09,YM14,桃花坞,Taohua Wu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北為桃花塢 [j81:12b],
+YM14-10,YM14,清水濯缨,Qingshui Zhuoying,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,塢之西室為清水濯纓 [j81:12b],
+YM14-11,YM14,桃源深处,Taoyuan Shenchu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西稍北為桃源深處 [j81:12b],
+YM14-12,YM14,绾春轩,Wanchun Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,塢東為綰春軒 [j81:12b],
+YM14-13,YM14,品诗堂,Pinshi Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,軒東北為品詩堂 [j81:13a],
+YM14-14,YM14,恒春堂,Hengchun Tang,,Yuanming Yuan,other,,,1860,S43,B,5,,,,,,中部偏西院内 (S43),
+YM14-15,YM14,壶中仙籁戏台,Huzhong Xianlai xitai,,Yuanming Yuan,theatre,,,1860,S43,B,,,,2,重檐歇山 (S43),,恒春堂 (S43),"坐南朝北, 四面各三间 (S43). Date not stated; used 1819, 1839."
+YM15,,山高水长,Shangao Shuichang,The Drill Field (Hills High and Waters Long),Yuanming Yuan,scene,,,1860,S05;S02;S08,A,,,,,,,萬方安和西南為山高水長 [j81:15a-b],"name_en: Malone p.83. 外藩朝正錫宴, 侍衞較射, 燈節 火戲 [j81:15b-16a]. Dutch embassy 1795 (S02 p.83)."
+YM15-01,YM15,山高水长楼,Shangao Shuichang Lou,,Yuanming Yuan,tower,,,1860,S05;S02;S06,B,9,,,2,,,樓西向九楹 後擁連岡前帶河流 [j81:15b],"Malone p.83 two-storey, east side of the field; S06 两层五楹: see conflicts. Ladies on upper floor 1795."
+YM15-02,YM15,十三所,Shisan Suo,,Yuanming Yuan,other,,,1860,S06;S42,B,,,,,,,东 (S06),Also in the 藻园 survey area (S42 11828); princes' lodgings per S06.
+YM16,,月地云居,Yuedi Yunju,"Yueh Ti Yun Chu (Dwelling of the Moon, Earth, and Clouds)",Yuanming Yuan,scene,旧称清净地 (S42),Differs on later plans (S41),1860,S05;S02;S08;S41;S42,A,,,,,,,山髙水長之北度橋由山口入 [j81:18b],name_en: Malone p.83.
+YM16-01,YM16,山门,Shanmen,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,山門額曰清浄地 [j81:19a],
+YM16-02,YM16,前殿 方殿,Qiandian,,Yuanming Yuan,temple,,,1860,S05;S02,B,5 per side,,,,重檐 double (S02 p.83 n.),,前殿方式四面各五楹 [j81:18b],"Malone: square, 8 columns a side; drum and bell tower."
+YM16-03,YM16,正殿,Zhengdian,,Yuanming Yuan,temple,,,1860,S05,B,5,,,,,,殿五楹 [j81:18b],
+YM16-04,YM16,后楼,Hou lou,,Yuanming Yuan,temple,,,1860,S05,B,7,,,2,,,後樓上下各七楹 [j81:18b],簷額 蓮花法藏
+YM16-05,YM16,法源楼,Fayuan Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,月地雲居之東為法源樓 [j81:18b],
+YM16-06,YM16,静室,Jingshi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東為静室 [j81:18b],
+YM16-07,YM16,刘猛将军庙,Liu Mengjiangjun Miao,,Yuanming Yuan,temple,,,1860,S05;S47,B,3,,,,,,西度橋折而北為劉猛將軍廟 [j81:18b],
+YM16-08,YM16,魁星楼,Kuixing Lou,,Yuanming Yuan,temple,,,survived 1860 per 1873 survey (S06;S47),S47;S06,B,,,,,,,刘猛将军庙东侧 (S47),"Round brick platform in album, octagon on the 1933 survey (S47)."
+YM17,,鸿慈永祜,Hongci Yonghu,The Ancestral Shrine (Vast Compassion and Eternal Blessing),Yuanming Yuan,scene,乾隆七年 1742 [j81:20b]; S02 p.88 same; stele 癸亥 1743 finish [j81:23b],,1860; masonry ruins pulled down later (S02 p.218),S05;S02;S08,A,,,,,,,月地雲居之後循山徑入 [j81:19b],"name_en: Malone pp.83-88. Same compound as 安佑宫. Cost 600,000 taels (Attiret 1743 via S02 p.88). 恭仿壽皇殿之制."
+YM17-01,YM17,鸿慈永祜坊,Hongci Yonghu Fang,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,琉璃 glazed,安佑宫前琉璃坊座南面額也 [j81:20a],North face 燕翼長詒 [j81:21a]. S02 p.85: 4 short walls framing 3 gates.
+YM17-02,YM17,石华表,Shi huabiao,,Yuanming Yuan,other,,,1860,S05;S02;S06,B,,,,,,,左右石華表各一 [j81:20a],"S02 p.85: four carved marble pillars c. 20 ft high, c. 100 ft apart, forming a square. See conflicts."
+YM17-03,YM17,三坊,San fang,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,坊南及東西復有三坊環列 [j81:20a],羮牆愾慕 雲日瞻依; 勲華式煥 謨烈重光; 徳配清寧 功隆作述 [j81:21a]. S02 p.85.
+YM17-04,YM17,月河桥,Yuehe Qiao,,Yuanming Yuan,bridge,,,1860,S05,B,,,,,,,其南為月河橋 [j81:20a],
+YM17-05,YM17,致孚殿,Zhifu Dian,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,又東南為致孚殿三楹西向 [j81:20a],West-facing. Carved records of the garden inside [j81:21b] (S02 p.86 places the tablets in pavilions).
+YM17-06,YM17,安佑门,Anyou Men,,Yuanming Yuan,gate,,,1860,S05;S02,B,5,,,,,,宫門五楹南向為安佑門 [j81:20a],"S02 p.85: 3 middle gates in the outer wall, stone qilin; yellow-tiled red wall."
+YM17-07,YM17,白玉石桥,Baiyushi Qiao,,Yuanming Yuan,bridge,,,1860,S05;S02,B,,,,,,,門前白玉石橋三座 [j81:20a],"S02 p.85: five bridges on the outer moat, three plus two on the inner."
+YM17-08,YM17,井亭,Jing ting,,Yuanming Yuan,pavilion,,,1860,S05;S02,B,,,,,,,左右井亭各一 [j81:20a],
+YM17-09,YM17,朝房,Chaofang,,Yuanming Yuan,other,,,1860,S05,B,5 each,,,,,,朝房各五楹 [j81:20a],
+YM17-10,YM17,安佑宫,Anyou Gong,,Yuanming Yuan,temple,,,1860,S05;S02;S06,B,9,,,,重檐 double eaves; S06 歇山,黄琉璃 yellow glazed (S02 p.88 n.; S06),門内重檐正殿九楹為安佑宫 [j81:20a],"Malone n.: 10 pillars across the front, 40 in all. On a marble terrace, 5 stairs. 為室九 [j81:23a]. Kangxi centre, Yongzheng east; Qianlong added later (S06)."
+YM17-11,YM17,配殿,Peidian,,Yuanming Yuan,other,,,1860,S05,B,5 each,,,,,,左右配殿各五楹 [j81:20b],
+YM17-12,YM17,碑亭,Bei ting,,Yuanming Yuan,pavilion,,,1860,S05;S02,B,,,,,重檐 double (S02 p.86),,碑亭各一 [j81:20b],
+YM17-13,YM17,燎亭,Liao ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,燎亭各一 [j81:20b],S02 p.86: two green glazed incense burners.
+YM18,,汇芳书院,Huifang Shuyuan,The Library of Collected Fragrance,Yuanming Yuan,scene,乾隆七年 1742 (S43),,1860,S05;S02;S08;S43,A,,,,,,,鴻慈永祜東垣外徑連岡三重度橋而東 [j81:25b],name_en: Malone p.88.
+YM18-01,YM18,抒藻轩,Shuzao Xuan,,Yuanming Yuan,other,,,1860,S05;S43,B,5,,10.88,,卷棚悬山 (S43),,内宇為抒藻軒 [j81:25b],"S43: 五间后接抱厦三间; 通进深10.88 (殿6.4, 抱厦3.2, 前廊1.28); indoor stage 1742."
+YM18-02,YM18,涵远斋,Hanyuan Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為涵逺齋 [j81:25b],S06 涵远楼.
+YM18-03,YM18,翠照楼,Cuizhao Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,齋前西垣内為翠照樓 [j81:25b-26a],
+YM18-04,YM18,倬云楼,Zhuoyun Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,東垣内為倬雲樓 [j81:26a],
+YM18-05,YM18,眉月轩,Meiyue Xuan,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,又東為眉月軒 [j81:26a],"Crescent plan, 東偏學月牙形 [j81:26b]; S02 p.88."
+YM18-06,YM18,随安室,Sui'an Shi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,倬雲樓南稍東為隨安室 [j81:26a],
+YM18-07,YM18,问津,Wenjin,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,又東敞宇三楹為問津 [j81:26a],
+YM18-08,YM18,断桥残雪,Duanqiao Canxue,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,逾溪橋數武有石坊為斷橋殘雪 [j81:26a],stone pailou
+YM19,,日天琳宇,Ritian Linyu,A Buddhist Temple (Sun Heaven Topaz Roof),Yuanming Yuan,scene,,Differs on later plans (S41),1860,S05;S02;S08;S41;S47,A,,,,,,,彚芳書院之南為日天琳宇 [j81:27a],name_en: Malone p.89. 規制皆仿雍和宫後佛樓式 [j81:27b]. 旧称佛楼 (S47). S47 also 雷神殿 关帝殿 玉皇殿 太岁坛 三神殿.
+YM19-01,YM19,西前楼,Xi qianlou,,Yuanming Yuan,temple,,,1860,S05,B,7,,,2,,,日天琳宇 西前樓下之正宇也 ... 上下各七楹 [j81:27a],上奉玉皇 [j81:28a]
+YM19-02,YM19,西后楼,Xi houlou,,Yuanming Yuan,temple,,,1860,S05,B,7,,,2,,,有西前樓西後樓上下各七楹 [j81:27a],
+YM19-03,YM19,中前楼,Zhong qianlou,,Yuanming Yuan,temple,,,1860,S05,B,7,,,2,,,有中前樓中後樓上下各七楹 [j81:27a],上奉關帝 [j81:27b-28a]
+YM19-04,YM19,中后楼,Zhong houlou,,Yuanming Yuan,temple,,,1860,S05,B,7,,,2,,,[j81:27a],
+YM19-05,YM19,穿堂,Chuantang,,Yuanming Yuan,gallery,,,1860,S05,B,3 each,,,,,,前後樓間穿堂各三楹 [j81:27a],
+YM19-06,YM19,天桥,Tianqiao,,Yuanming Yuan,bridge,,,1860,S05;S02,B,,,,,,,中前樓南有天橋與樓相屬 [j81:27a],Upper-level bridge (S02 p.89).
+YM19-07,YM19,灯亭,Deng ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,重檐八方 double-eave octagon,,天橋東南重簷八方者為燈亭 [j81:27a],
+YM19-08,YM19,东转角楼,Dong zhuanjiao lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西前樓南為東轉角樓 [j81:27a],
+YM19-09,YM19,西转角楼,Xi zhuanjiao lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,又西稍南為西轉角樓 [j81:27a],
+YM19-10,YM19,楞严坛,Lengyan Tan,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,中前樓之東垣内八方亭為楞嚴壇 [j81:27b],octagonal
+YM19-11,YM19,瑞应宫,Ruiying Gong,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,又東別院為瑞應宫 [j81:27b],"龍神 [j81:28b]; front 仁應殿, middle 和感殿, rear 晏安殿."
+YM19-12,YM19,仁应殿,Renying Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,前為仁應殿 [j81:27b],
+YM19-13,YM19,和感殿,Hegan Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,中為和感殿 [j81:27b],
+YM19-14,YM19,晏安殿,Yan'an Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,後為晏安殿 [j81:27b],
+YM20,,澹泊宁静,Danbo Ningjing,"The ""Field"" Character Building (Placid, Contented, Peaceful, Quiet)",Yuanming Yuan,scene,雍正五年 1727 (S42),,1860,S05;S02;S08;S42,A,,,,,,,日天琳宇迤東稍南稻田彌望 [j81:29a],name_en: Malone p.89.
+YM20-01,YM20,田字殿,Tianzi Dian,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,河水周環中有田字式殿凡四門 ... 北樓正宇為澹泊寧静 [j81:29a],田-plan.
+YM20-02,YM20,曙光楼,Shuguang Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,東為曙光樓 [j81:29a],
+YM20-03,YM20,翠扶楼,Cuifu Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,殿之東門外為翠扶樓 [j81:29a],
+YM20-04,YM20,多稼轩,Duojia Xuan,,Yuanming Yuan,other,,,1860,S05;S42,B,7,,,,,石板瓦 slate (S42 映水兰香 summary),西門外別垣内宇為多稼軒南向七楹 [j81:29a],
+YM20-05,YM20,观稼轩,Guanjia Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其東臨稻畦者前為觀稼軒 [j81:29a],"Open, no doors on a terrace [j81:32a]."
+YM20-06,YM20,怡情悦目,Yiqing Yuemu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為怡情悦目 [j81:29a],
+YM20-07,YM20,稻香亭,Daoxiang Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,為稻香亭 [j81:29a],
+YM20-08,YM20,溪山不尽,Xishan Bujin,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東稍北為溪山不盡 [j81:29a],
+YM20-09,YM20,兰溪隐玉,Lanxi Yinyu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為蘭溪隱玉 [j81:29a],
+YM20-10,YM20,水精域,Shuijing Yu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,多稼軒西池南為水精域 [j81:29a],
+YM20-11,YM20,静香屋,Jingxiang Wu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西偏為静香屋 [j81:29a],
+YM20-12,YM20,招鹤磴,Zhaohe Deng,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為招鶴磴 [j81:29a],
+YM20-13,YM20,寸碧亭,Cunbi Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,池後東北為寸碧 [j81:29a],竹亭 on a rockery [j81:31b]
+YM20-14,YM20,引胜,Yinsheng,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西北為引勝 [j81:29a],
+YM20-15,YM20,互妙楼,Humiao Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,正北為互妙樓 [j81:29a-b],
+YM21,,映水兰香,Yingshui Lanxiang,Ying Shui Lan Hsiang (Reflections on the Water and the Fragrance of Iris),Yuanming Yuan,scene,,,1860,S05;S02;S08,A,,,,,,,澹泊寧静度河橋而西 [j81:33b],name_en: Malone p.89.
+YM21-01,YM21,映水兰香殿,Yingshui Lanxiang Dian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,為映水蘭香西向五楹 [j81:33b],
+YM21-02,YM21,钓鱼矶,Diaoyu Ji,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東南為釣魚磯 [j81:33b],
+YM21-03,YM21,印月池,Yinyue Chi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北為印月池 [j81:33b],
+YM21-04,YM21,知耕织,Zhi Gengzhi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,池北為知耕織 [j81:33b],
+YM21-05,YM21,濯鳞沼,Zhuolin Zhao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北稍東為濯鱗沼 [j81:33b],
+YM21-06,YM21,贵织山堂,Guizhi Shantang,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,映水蘭香西南為貴織山堂祀蠶神 [j81:34a],Sericulture deity.
+YM22,,水木明瑟,Shuimu Mingse,Shui Mu Ming Se (A Stream and Trees and a Bright Lute),Yuanming Yuan,scene,雍正时期 (S42),Rice fields and double-roof pavilion in the album background replaced by 文源阁 1774 (S02 p.89),1860,S05;S02;S08;S42,A,,,,,,,映水蘭香東北為水木明瑟 [j81:35a],"name_en: Malone p.89. Rixia gives no hall list. 用泰西水法引入室中以轉風扇 [j81:35a-b]; Malone p.89 over a water channel. S42: 主体 丰乐轩, 水木明瑟殿 俗称风扇房. S41: 四达亭 drawn in this album leaf."
+YM22-01,YM22,水木明瑟殿,Shuimu Mingse Dian,,Yuanming Yuan,other,,,1860,S05;S42,B,,,,,,,(S42),风扇房.
+YM22-02,YM22,丰乐轩,Fengle Xuan,,Yuanming Yuan,other,,,1860,S42,B,,,,,,,(S42),
+YM23,,濂溪乐处,Lianxi Lechu,Lien Hsi Lo Ch'u (the Happy Place of Falling Streams),Yuanming Yuan,scene,雍正 (慎修思永 S43),Water porch and rocky pavilion removed before the official map (S02 p.91); differs on plans (S41),1860; 慎修思永 and 知过堂 on the 1873 survival list (S06),S05;S02;S08;S41;S43,A,,,,,,,水木明瑟西北環池帶河為濓溪樂處 [j82:1a],name_en: Malone p.91. Largest garden in a garden (S06).
+YM23-01,YM23,慎修思永,Shenxiu Siyong,,Yuanming Yuan,residence,,,survived 1860 per 1873 survey (S06),S05;S43;S06,B,9,,,,,,正殿九楹 [j82:1a]; 殿檐額曰慎修思永 [j82:1b],S43: 正殿九间前后抱厦各五间; indoor Western stage by 1739.
+YM23-02,YM23,云香清胜,Yunxiang Qingsheng,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為雲香清勝 [j82:1a],
+YM23-03,YM23,芰荷深处,Jihe Shenchu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東垣為芰荷深處 [j82:1a],
+YM23-04,YM23,香雪廊,Xiangxue Lang,,Yuanming Yuan,gallery,,,1860,S05,B,,,,,,,折而東北為香雪廊 [j82:1a],
+YM23-05,YM23,云霞舒卷楼,Yunxia Shujuan Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,其東有樓為雲霞舒卷 [j82:1a],
+YM23-06,YM23,临泉亭,Linquan Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,樓北亭為臨(泉) [j82:1a],
+YM23-07,YM23,汇万总春之庙,Huiwan Zongchun zhi Miao,,Yuanming Yuan,temple,,,1860,S05;S02,B,,,,,,,濓溪樂處之南為彚萬總春之廟 [j82:2a],Flower deity (花神) [j82:2b]; Malone p.91 Temple of the Goddess of Flowers.
+YM23-08,YM23,蕃育群芳,Fanyu Qunfang,,Yuanming Yuan,temple,,,1860,S05,B,5,,,,,,正殿為蕃育羣芳五楹 [j82:2a-b],
+YM23-09,YM23,香远益清楼,Xiangyuan Yiqing Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,殿東北樓為香逺益清 [j82:2b],
+YM23-10,YM23,乐天和,Le Tianhe,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,樓西為樂天和 [j82:2b],
+YM23-11,YM23,味真书屋,Weizhen Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為味真書屋 [j82:2b],
+YM23-12,YM23,池水共心月同明,Chishui Gongxin Yue Tongming,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西為池水共心月同明 [j82:2b],
+YM23-13,YM23,普济桥,Puji Qiao,,Yuanming Yuan,bridge,,,1860,S05,B,,,,,,,廟東沿山徑出為普濟橋 [j82:2b],
+YM24,,多稼如云,Duojia Ruyun,To Chia Ju Yun (Crops Bountiful as the Clouds),Yuanming Yuan,scene,,Differs on later plans (S41),1860,S05;S02;S08;S41,A,,,,,,,濓溪樂處迤北對河外稻塍者 [j82:2b-3a],name_en: Malone p.91.
+YM24-01,YM24,多稼如云正宇,Duojia Ruyun zhengyu,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,正宇五楹 [j82:3a],
+YM24-02,YM24,芰荷香,Jihe Xiang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,前宇為芰荷香 [j82:3a],
+YM24-03,YM24,湛绿,Zhanlü,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,正宇東稍南有室為湛緑 [j82:3a],
+YM25,,鱼跃鸢飞,Yuyue Yuanfei,Yu Yueh Yo Fei (Fishes Leap and Birds Fly),Yuanming Yuan,scene,,,1860; on the 1873 survival list (S06),S05;S02;S08;S06,A,,,,,,,多稼如雲東北為魚躍鳶飛 [j82:3b],name_en: Malone p.91. S06 also misprints 鱼跃莺飞.
+YM25-01,YM25,鱼跃鸢飞殿,Yuyue Yuanfei Dian,,Yuanming Yuan,other,,,survived 1860 per 1873 survey (S06),S05;S02,B,5 per side,,,2,,,四面為門各五楹 [j82:3b],Malone p.91: 2-storey with windows on all sides; S06 五楹方殿.
+YM25-02,YM25,畅观轩,Changguan Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東廂為暢觀軒 [j82:3b],
+YM25-03,YM25,铺翠环流,Pucui Huanliu,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西南為鋪翠環流樓 [j82:3b-4a],
+YM25-04,YM25,传妙,Chuanmiao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,南有室為傳妙 [j82:4a],
+YM25-05,YM25,多子亭,Duozi Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,又南出山口為多子亭 [j82:4a],
+YM26,,北远山村,Beiyuan Shancun,Pei Yuan Shan T'sun (Village of the Distant Northern Mountains),Yuanming Yuan,scene,,,1860,S05;S02;S08,A,,,,,,,魚躍鳶飛之東禾疇彌望河南北岸 [j82:5a],name_en: Malone p.91.
+YM26-01,YM26,兰野,Lanye,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北岸石垣西偏為蘭野 [j82:5a],
+YM26-02,YM26,绘雨精舍,Huiyu Jingshe,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後為繪雨精舍 [j82:5a],
+YM26-03,YM26,水村图,Shuicun Tu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其西南為水村圖 [j82:5a],
+YM26-04,YM26,皆春阁,Jiechun Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,又西有樓前後相屬前為皆春閣 [j82:5a],
+YM26-05,YM26,稻凉楼,Daoliang Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,後為稻涼樓 [j82:5a],
+YM26-06,YM26,涉趣楼,Shequ Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,又西為涉趣樓 [j82:5a],
+YM26-07,YM26,湛虚书屋,Zhanxu Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,右為湛虛書屋 [j82:5a],
+YM27,,西峰秀色,Xifeng Xiuse,Hsi Feng Hsiu Se (the Elegant Color of the Western Peaks),Yuanming Yuan,scene,雍正六年 1728 (S43),,1860,S05;S02;S08;S43,A,,,,,,,北逺山村西南有室臨河西向 [j82:6b],name_en: Malone p.91. Yongzheng favourite [j82:7b-8a]. West-facing. Theatre from the start (S43).
+YM27-01,YM27,西峰秀色轩,Xifeng Xiuse Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,有室臨河西向為西峯秀色 [j82:6b],
+YM27-02,YM27,小匡庐,Xiao Kuanglu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,河西松巒峻峙為小匡廬 [j82:6b],Hill after Mt Lu.
+YM27-03,YM27,龙王庙,Longwang Miao,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,後有龍王廟 [j82:6b],
+YM27-04,YM27,含韵斋,Hanyun Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西峯秀色之東為含韻齋 [j82:6b],Magnolias [j82:7a]. S06 含韵轩.
+YM27-05,YM27,一堂和气,Yitang Heqi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東為一堂和氣 [j82:6b],
+YM27-06,YM27,自得轩,Zide Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東南為自得軒 [j82:6b],
+YM27-07,YM27,岚镜舫,Lanjing Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後垣東為嵐鏡舫 [j82:6b],
+YM27-08,YM27,花港观鱼,Huagang Guanyu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西為花港觀魚 [j82:6b],
+YM28,,四宜书屋,Siyi Shuwu,Ssu I Shu Wu (the Library of the Four Delights),Yuanming Yuan,scene,,Remodelled after Haining 隅园 (安澜园) c. 1762-64 [j82:9a; poems 1764],1860,S05;S02;S08,A,,,,,,,西峯秀色迤東 ... 北岸為四宜書屋 [j82:8a],name_en: Malone p.92. After 1762 also 安瀾園. Not to be confused with QC 四宜书屋. Album shows the pre-安澜园 state.
+YM28-01,YM28,四宜书屋殿,Siyi Shuwu Dian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,北岸為四宜書屋五楹即安瀾園之正宇 [j82:8a],
+YM28-02,YM28,葄经馆,Zuojing Guan,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,東南為葄經館 [j82:8a],樸室三間 [j82:10b]
+YM28-03,YM28,采芳洲,Caifang Zhou,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又南為采芳洲 [j82:8a],
+YM28-04,YM28,飞睇亭,Feidi Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,其後為飛睇亭 [j82:8a],
+YM28-05,YM28,绿帷舫,Lüwei Fang,,Yuanming Yuan,gallery,,,1860,S05,B,,,,,,,東北為緑帷舫 [j82:8a],曲廊 [j82:11b]
+YM28-06,YM28,无边风月之阁,Wubian Fengyue zhi Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,四宜書屋西南為無邊風月之閣 [j82:8a],
+YM28-07,YM28,涵秋堂,Hanqiu Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西南為涵秋堂 [j82:8a],
+YM28-08,YM28,烟月清真楼,Yanyue Qingzhen Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,北為烟月清真樓 [j82:8a-b],
+YM28-09,YM28,远秀山房,Yuanxiu Shanfang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,樓西稍南為逺秀山房 [j82:8b],
+YM28-10,YM28,染霞楼,Ranxia Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,樓北度曲橋為染霞樓 [j82:8b],
+YM28-11,YM28,船坞,Chuanwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西峯秀色迤東東西船塢各二所 [j82:8a],"Boat houses, 2+2. S02 p.92 near 福海."
+YM29,,方壶胜境,Fanghu Shengjing,Fang Hu Sheng Ching (Elevated Region of the Square Pot),Yuanming Yuan,scene,乾隆五年 1740 (S02 p.93); 乾隆三年 1738 per S06,,1860; masonry pulled down later (S02 p.218),S05;S02;S08;S06,A,,,,,,,四宜書屋之東臨池樓宇為方壺勝境 [j82:12a-b],"name_en: Malone pp.92-93. Malone: 12 buildings of golden glazed tile, terraces, 3 pavilions over water. S06: 2000+ Buddhist images."
+YM29-01,YM29,方壶胜境楼,Fanghu Shengjing Lou,,Yuanming Yuan,other,,,1860,S05;S02,B,5,,,2,,金黄琉璃 golden glazed (S02 p.93),臨池樓宇為方壺勝境上下各五楹 [j82:12a-b],樓宇上額 宜春殿 敬勝怠.
+YM29-02,YM29,坊座,Fangzuo,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南建坊座二 [j82:12b],芝田日永 閬苑春深; 鳯鳴珠樹 鹿夀靈臺.
+YM29-03,YM29,三亭 (月台),San ting,,Yuanming Yuan,pavilion,,,1860,S06;S02,B,,,,,重檐 double (S06),,前为山字形月台 上有三座重檐大亭 (S06),"S02 p.93 three terraces with open pavilions, marble balustrades."
+YM29-04,YM29,哕鸾殿,Huiluan Dian,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其北樓宇為噦鸞殿 [j82:12b],
+YM29-05,YM29,琼华楼,Qionghua Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,又北為瓊華樓 [j82:12b],
+YM29-06,YM29,蕊珠宫,Ruizhu Gong,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,噦鸞殿東為蕊珠宫 [j82:12b],
+YM29-07,YM29,船坞,Chuanwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,宫南船塢 [j82:12b],
+YM29-08,YM29,龙王庙,Longwang Miao,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,(船塢)後有龍王廟 [j82:12b],
+YM30,,澡身浴德,Zaoshen Yude,Bathe the Person and Cleanse the Heart,Yuanming Yuan,scene,,,1860,S05;S02;S08,A,,,,,,,在福海西南隅即澄虛榭 [j82:14a],name_en: Malone p.93.
+YM30-01,YM30,澄虚榭,Chengxu Xie,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,即澄虛榭正宇三楹東嚮 [j82:14a],East-facing. Once hung the 涵虚朗鉴 plaque [j82:21b].
+YM30-02,YM30,含清晖,Han Qinghui,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,南為含清暉 [j82:14a],
+YM30-03,YM30,涵妙识,Han Miaoshi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,北為涵妙識 [j82:14a],
+YM30-04,YM30,静香馆,Jingxiang Guan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,折而西向為静香館 [j82:14a],
+YM30-05,YM30,解愠书屋,Jieyun Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西為解愠書屋 [j82:14a],
+YM30-06,YM30,旷然阁,Kuangran Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西南為曠然閣 [j82:14a],
+YM30-07,YM30,望瀛洲,Wangying Zhou,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,澡身浴徳之北度河橋為望瀛洲 [j82:15a],
+YM30-08,YM30,深柳读书堂,Shenliu Dushu Tang,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,其北為深桞讀書堂 [j82:15a],"Old name of 雙鶴齋 site per 1755 poem note: 是處昔又名深柳讀書堂 [j82:24a]: name reused, see conflicts."
+YM30-09,YM30,溪月松风,Xiyue Songfeng,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,堂北為溪月松風 [j82:15a],
+YM31,,平湖秋月,Pinghu Qiuyue,Level Lake and Autumn Moon,Yuanming Yuan,scene,,,1860,S05;S02;S08,A,,,,,,,在福海西北隅 [j82:15b],name_en: Malone p.93.
+YM31-01,YM31,平湖秋月正宇,Pinghu Qiuyue zhengyu,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,正宇三楹 [j82:15b],
+YM31-02,YM31,流水音,Liushui Yin,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西為流水音 [j82:15b],
+YM31-03,YM31,花屿兰皋,Huayu Langao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東北出山口臨河為花嶼蘭皋 [j82:15b],
+YM31-04,YM31,两峰插云,Liangfeng Chayun,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,折而東南度橋為兩峯挿雲 [j82:15b],
+YM31-05,YM31,山水乐,Shanshui Le,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東南為山水樂 [j82:15b],
+YM31-06,YM31,君子轩,Junzi Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其北為君子軒 [j82:15b],
+YM31-07,YM31,藏密楼,Cangmi Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,為藏密樓 [j82:15b],
+YM32,,蓬岛瑶台,Pengdao Yaotai,The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrace),Yuanming Yuan,scene,"雍正初年 (S43), 旧名蓬莱洲 [j82:16b]",,1860; on the 1873 survival list (S06),S05;S02;S08;S43;S06,A,,,,,,,在福海中央 [j82:16b],name_en: Malone p.93.
+YM32-01,YM32,门,Men,,Yuanming Yuan,gate,,,1860,S05,B,3,,,,,,門三楹南嚮 [j82:16b],額 鏡中閣.
+YM32-02,YM32,正殿,Zhengdian,,Yuanming Yuan,residence,,,1860,S05;S43,B,7,,,,,,正殿七楹 [j82:16b],S43: 两卷七间接前抱厦五间.
+YM32-03,YM32,畅襟楼,Changjin Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,殿前東為暢襟樓 [j82:16b],
+YM32-04,YM32,神洲三岛,Shenzhou Sandao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西為神洲三島 [j82:16b],
+YM32-05,YM32,随安室,Sui'an Shi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東偏為隨安室 [j82:16b],
+YM32-06,YM32,日日平安报好音,Riri Ping'an Bao Haoyin,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西偏為日日平安報好音 [j82:16b],
+YM32-07,YM32,瀛海仙山亭,Yinghai Xianshan Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,東南度橋為東島有亭為瀛海仙山 [j82:16b],East islet.
+YM32-08,YM32,北岛正宇,Beidao zhengyu,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,西北度橋為北島正宇三楹 [j82:16b],S06 calls north islet 北屿仙居.
+YM33,,接秀山房,Jiexiu Shanfang,The House Which Meets the Beauty of the Hills,Yuanming Yuan,scene,雍正时期 (S51),观鱼跃 replaced by 观澜堂 c. 1817 (S51); differs on plans (S41),1860,S05;S02;S08;S41;S51,A,,,,,,,在福海東隅 [j82:17b],name_en: Malone p.93.
+YM33-01,YM33,接秀山房正宇,Jiexiu Shanfang zhengyu,,Yuanming Yuan,other,,,1860,S05,B,3,,,,,,正宇三楹西嚮 [j82:17b],
+YM33-02,YM33,琴趣轩,Qinqu Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,後稍東為琴趣軒 [j82:17b],
+YM33-03,YM33,寻云楼,Xunyun Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,其北方樓為尋雲 [j82:17b],
+YM33-04,YM33,澄练楼,Chenglian Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,東南為澄練樓 [j82:17b],
+YM33-05,YM33,怡然书屋,Yiran Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,樓後為怡然書屋 [j82:17b],
+YM33-06,YM33,安隐幢,Anyin Chuang,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,尋雲樓稍東佛室為安隠幢 [j82:17b],
+YM33-07,YM33,揽翠亭,Lancui Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,接秀山房之南為攬翠亭 [j82:18a],
+YM33-08,YM33,观澜堂,Guanlan Tang,,Yuanming Yuan,residence,"嘉庆二十二年 1817 前后, replacing 观鱼跃 (S51)",,1860,S51;S06;S52,B,5,,22.24,,,,接秀山房殿以南 (S51),"南向三卷五间; 通进深22.24 m (blog S52 quoting archive; lead, unverified)."
+YM34,,别有洞天,Bieyou Dongtian,Pieh Yu Tung T'ien (There Is Another Cave of Heaven),Yuanming Yuan,scene,"雍正时期, 初名秀清村 (S51)",Main hall rebuilt 3-span roof mid-Qianlong; 1761 west court (S51); differs on plans (S41),1860,S05;S02;S08;S41;S51,A,,,,,,,接秀山房之南有敞宇北依山南臨河 [j82:18b],name_en: Malone pp.93-94.
+YM34-01,YM34,别有洞天殿,Bieyou Dongtian Dian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,為别有洞天五楹 [j82:18b],
+YM34-02,YM34,纳翠楼,Nacui Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西為納翠樓 [j82:18b],
+YM34-03,YM34,水木清华之阁,Shuimu Qinghua zhi Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西南為水木清華之閣 [j82:18b],
+YM34-04,YM34,时赏斋,Shishang Zhai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,閣西稍北為時賞齋 [j82:18b-19a],
+YM34-05,YM34,秀清村,Xiuqing Cun,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,苑牆東出水闗曰秀清村 [j82:19a-b],Old name of the scene; Malone p.94 lake with houses behind a gateway over the stream.
+YM34-06,YM34,城关 水关,Chengguan shuiguan,,Yuanming Yuan,gate,,,1860,S05;S02,B,,,,,,,苑牆東出水闗 [j82:19a],Malone p.94 fortified gateway over the stream.
+YM34-07,YM34,石舫,Shi fang,,Yuanming Yuan,other,,,1860,S06,B,,,,,,,(S06),
+YM35,,夹镜鸣琴,Jiajing Mingqin,Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute),Yuanming Yuan,scene,雍正朝 (S43),,1860,S05;S02;S08;S43,A,,,,,,,别有洞天迤西為夾鏡鳴琴 [j82:19b],name_en: Malone p.94.
+YM35-01,YM35,夹镜鸣琴桥亭,Jiajing Mingqin qiaoting,,Yuanming Yuan,bridge,,,1860,S05;S02;S41,B,,,,,,,架虹橋一道上搆傑閣 [j82:20b],Bridge with a pavilion; water falls from the hill behind (S02 p.94).
+YM35-02,YM35,聚远楼,Juyuan Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,南為聚逺樓 [j82:19b],
+YM35-03,YM35,广育宫,Guangyu Gong,,Yuanming Yuan,temple,,,1860,S05;S41;S43,B,,,,,,,東為廣育宫 [j82:19b],碧霞元君. On a hill 8-9 m (S41).
+YM35-04,YM35,广育宫坊,Guangyu Gong fang,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,前建坊座 [j82:19b],含𢎞光大 品物咸亨
+YM35-05,YM35,凝祥殿,Ningxiang Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,後為凝祥殿 [j82:19b],
+YM35-06,YM35,南屏晚钟,Nanping Wanzhong,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,宫東為南屏晚鐘 [j82:19b],
+YM35-07,YM35,西山入画,Xishan Ruhua,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東度橋為西山入畫 [j82:19b],
+YM35-08,YM35,山容水态,Shanrong Shuitai,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為山容水態 [j82:19b-20a],
+YM35-09,YM35,湖山在望,Hushan Zaiwang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,夾鏡鳴琴之西為湖山在望 [j82:20a],
+YM35-10,YM35,佳山水,Jia Shanshui,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為佳山水 [j82:20a],
+YM35-11,YM35,洞里长春,Dongli Changchun,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為洞裏長春 [j82:20a],
+YM36,,涵虚朗鉴,Hanxu Langjian,Vast Empty Clear Mirror,Yuanming Yuan,scene,,1744 poem 結宇福海之西 [j82:21b-22a]; plaque 舊懸湖西澄虛榭 後移置湖東雷峯夕照軒宇 [j82:21b]. The album view predates this move.,1860,S05;S02;S08,A,,,,,,,在福海東即雷峯夕照正宇 [j82:21a],name_en: Malone p.93.
+YM36-01,YM36,雷峰夕照,Leifeng Xizhao,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,即雷峯夕照正宇 [j82:21a],
+YM36-02,YM36,惠如春,Huiru Chun,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其北稍西為惠如春 [j82:21a],
+YM36-03,YM36,寻云榭,Xunyun Xie,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又東北為尋雲榭 [j82:21a],
+YM36-04,YM36,贻兰庭,Yilan Ting,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北為貽蘭庭 [j82:21a],
+YM36-05,YM36,会心不远,Huixin Buyuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為會心不逺 [j82:21a],
+YM36-06,YM36,临众芳,Lin Zhongfang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其南為臨衆芳 [j82:21a],
+YM36-07,YM36,云锦墅,Yunjin Shu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為雲錦墅 [j82:21a],
+YM36-08,YM36,菊秀松蔚,Juxiu Songwei,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為菊秀松㽔 [j82:21a],Last character 㽔 in the text.
+YM36-09,YM36,万景天全,Wanjing Tianquan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為萬景天全 [j82:21a],
+YM37,,廓然大公,Kuoran Dagong,The Porch of the Great Gentleman,Yuanming Yuan,scene,,,1860; on the 1873 survival list (S06),S05;S02;S08;S06,A,,,,,,,福海西北隅平湖秋月之西 [j82:22b],name_en: Malone p.93.
+YM37-01,YM37,廓然大公正宇,Kuoran Dagong zhengyu,,Yuanming Yuan,other,,,1860,S05,B,7,,,,,,正宇七楹 [j82:22b],S06 calls the 7-bay main hall 双鹤斋; 1755 poem: 廓然大公扁即在後室 [j82:24a].
+YM37-02,YM37,双鹤斋,Shuanghe Zhai,,Yuanming Yuan,other,,,1860,S05;S06,B,,,,,,,前為雙鶴齋 [j82:22b],
+YM37-03,YM37,规月桥,Guiyue Qiao,,Yuanming Yuan,bridge,,,1860,S05,B,,,,,,,西北為規月橋 [j82:22b],"Half-round, 上置行廊 [j82:24a]."
+YM37-04,YM37,绮吟堂,Qiyin Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東北為綺吟堂 [j82:22b],
+YM37-05,YM37,采芝径,Caizhi Jing,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北為採芝徑 [j82:22b],
+YM37-06,YM37,峭蒨居,Qiaoqian Ju,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又北徑巖洞而西為峭蒨居 [j82:22b],
+YM37-07,YM37,天真可佳楼,Tianzhen Kejia Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,北垣門外有樓為天真可佳 [j82:22b],
+YM37-08,YM37,披云径,Piyun Jing,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,峭蒨居西為披雲徑 [j82:22b],
+YM37-09,YM37,启秀亭,Qixiu Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,又西亭為啟秀 [j82:22b],笠亭 on the hilltop [j82:25a]
+YM37-10,YM37,韵石淙,Yunshi Cong,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西稍南為韻石淙 [j82:22b],
+YM37-11,YM37,芰荷深处,Jihe Shenchu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西北平臺臨池為芰荷深處 [j82:22b],
+YM37-12,YM37,影山楼,Yingshan Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,垣外為影山樓 [j82:22b],
+YM37-13,YM37,环秀山房,Huanxiu Shanfang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,雙鶴齋西為環秀山房 [j82:22b],
+YM37-14,YM37,临湖楼,Linhu Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西北為臨湖樓 [j82:22b],
+YM38,,坐石临流,Zuoshi Linliu,The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water),Yuanming Yuan,scene,,,1860,S05;S02;S08;S41,A,,,,,,,在水木明瑟東南澹泊寧靜之東 [j82:25b],"name_en: Malone p.94. Album leaf also shows 同乐园 (YM44) and 舍卫城 (YM45) (S41; S02 p.94). Hall list is only this pavilion; the rest are YM44, YM45."
+YM38-01,YM38,坐石临流亭,Zuoshi Linliu Ting,,Yuanming Yuan,pavilion,,,1860,S05;S06,B,3,,,,,,溪水周環軒宇三楹西嚮 [j82:25b],Poem: 作亭據勝處 [j82:26a]. S06: 兰亭八柱 stones (moved 1915 to 中山公园).
+YM39,,曲院风荷,Quyuan Fenghe,"Ch'u Yuan Feng Ho (Yeast Courtyard, Wind, and Lotus)",Yuanming Yuan,scene,,Differs on later plans (S41); housed 南府 eunuchs in Qianlong-Jiaqing (S43),1860,S05;S02;S08;S41;S43,A,,,,,,,坐石臨流東南當碧桐書院正東 [j82:26b],name_en: Malone pp.94-96. Rixia writes 麴院風荷.
+YM39-01,YM39,麴院风荷殿,Quyuan Fenghe Dian,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,為麴院風荷五楹南嚮 [j82:26b],
+YM39-02,YM39,洛迦胜境,Luojia Shengjing,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,其西佛樓為洛迦勝境 [j82:26b],
+YM39-03,YM39,九孔桥,Jiukong Qiao,,Yuanming Yuan,bridge,,,1860,S05;S02,B,,,,,,,跨池東西橋九空 [j82:27a],9 arches (S02 p.96).
+YM39-04,YM39,金鳌坊,Jin'ao Fang,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,坊楔二西為金鼇 [j82:27a],
+YM39-05,YM39,玉蝀坊,Yudong Fang,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東為玉蝀 [j82:27a-b],
+YM39-06,YM39,四围佳丽,Siwei Jiali,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,金鼇西南河外室為四圍佳麗 [j82:27b],
+YM39-07,YM39,饮练长虹亭,Yinlian Changhong Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,玉蝀東有亭為飲練長虹 [j82:27b],
+YM39-08,YM39,宁和镇,Ninghe Zhen,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,又東南度橋折而北設城闗為寧和鎮 [j82:27b],
+YM40,,洞天深处,Dongtian Shenchu,"The Palace School, the Princes' Residences, and Studios (the Depth of the Vault of Heaven)",Yuanming Yuan,scene,,Four courts rebuilt as two groups (S41); 如意馆 new layout pasted on plan (S02 p.96 n.),1860,S05;S02;S08;S41,A,,,,,,,在如意館西稍南 [j82:28b],name_en: Malone p.96.
+YM40-01,YM40,四所,Si suo,,Yuanming Yuan,residence,,,1860,S05,B,,,,,,,前宇乃諸皇子所居為四所東西二街南北一街 [j82:28b],Princes.
+YM40-02,YM40,福园门,Fuyuan Men,,Yuanming Yuan,gate,,,1860,S05;S02,B,,,,,,,前為福園門 [j82:28b],"Outer wall, c. 300 yds east of 大宫门 (S02 p.96). See YM42."
+YM40-03,YM40,前垂天贶,Qianchui Tiankuang,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,四所之西為諸皇子肄業之所前有前垂天貺 [j82:28b],
+YM40-04,YM40,中天景物,Zhongtian Jingwu,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,中為中天景物 [j82:28b],
+YM40-05,YM40,斯文在兹,Siwen Zaizi,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,東宇為斯文在兹 [j82:28b],Shrine to Confucius [j82:29a]
+YM40-06,YM40,后天不老,Houtian Bulao,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,後為後天不老 [j82:28b],
+YM40-07,YM40,如意馆,Ruyi Guan,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,在如意館西稍南 [j82:28b],European artists and clockmakers worked here (S02 p.96).
+YM41,,大宫门,Da Gongmen,The Great Palace Gate (Malone p.68),Yuanming Yuan,compound,雍正三年 1725 区域 (S42),,1860,S05;S02;S42,B,,,,,,,大宫門前輦道東西皆有湖 [j80:7b],"Front court of YM01, not a separate album leaf (S02 p.71). Text only here; plan readers can raise to A."
+YM41-01,YM41,大宫门门殿,Da Gongmen mendian,,Yuanming Yuan,gate,,"石麒麟 pair replaced by bronze 1741, bronze lions 1763 (S42)",1860,S05;S42;S02,B,5,21.57,11.33,,,,大宫門五楹 [j80:8b],"S42: 台基通面宽21.57, 进深11.33, 台高0.77 (platform figures). 坐北朝南; 东西骑建宫墙."
+YM41-02,YM41,左右门,Zuoyou men,,Yuanming Yuan,gate,,,1860,S42;S05,B,,,,,,,两侧设左右门 (S42),
+YM41-03,YM41,东西夹道门,Dongxi Jiadao men,,Yuanming Yuan,gate,,,1860,S42;S05,B,,,,,,,左右门之东西两侧 (S42),
+YM41-04,YM41,外朝房,Wai chaofang,,Yuanming Yuan,other,,,1860,S05;S42,B,5 each,,,,,,門前左右朝房各五楹 [j80:8b],S42 + 转角朝房各34间.
+YM41-05,YM41,东侧衙署直房,Dongce yashu zhifang,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,其後東為宗人府内閣吏部禮部兵部都察院理藩院翰林院詹事府國子監鑾儀衛東四旗各衙門直房 [j80:8b],Malone p.70 n. translates each.
+YM41-06,YM41,西侧衙署直房,Xice yashu zhifang,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,西為户部刑部工部欽天監内務府光禄寺通政司大理寺鴻臚寺太常寺太僕寺御書處上駟院武備院西四旗各衙門直房 [j80:8b],
+YM41-07,YM41,银库,Yin Ku,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東夾道内為銀庫 [j80:8b],
+YM41-08,YM41,南书房,Nan Shufang,,Yuanming Yuan,library,,,1860,S05,B,,,,,,,又東北為南書房 [j80:8b],
+YM41-09,YM41,档案房,Dang'an Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東南為檔案房 [j80:8b],
+YM41-10,YM41,造办处,Zaoban Chu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西夾道之西南為造辦處 [j80:8b-9a],
+YM41-11,YM41,药房,Yao Fang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又南為藥房 [j80:9a],
+YM41-12,YM41,大影壁,Da yingbi,,Yuanming Yuan,other,,,1860 fire did not remove it: Malone measured it before it was torn down for material (S02 p.69 n.),S42;S02,B,,41.6,,,,,宫门前石甬路正南 (S42),"S42 东西长41.6 m, 自宫门月台南沿至影壁 204.8 m. Malone p.69 measured 137 ft = 41.8 m, over 5 ft thick, c. 15 ft high."
+YM41-13,YM41,前湖 (扇面湖),Qian Hu (Shanmian Hu),,Yuanming Yuan,other,乾隆二十八年 1763 poem [j80:8a],,1860,S05;S02,B,,,,,,,大宫門前輦道東西皆有湖是為前湖 [j80:7b],"Malone p.68 ""Fan Lakes"". Monument on the west bank 1763."
+YM42,,园门 (十八门),Yuanmen (eighteen gates),,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,園内為門十八 [j80:6b],"Grouping row: Rixia lists 18 gates of YM. 3 already rows: 大宫门 (YM41-01), 左右门 (YM41-02), 东西夹道门 (YM41-03), 福园门 (YM40-02)."
+YM42-01,YM42,东如意门,Dong Ruyi Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南 ... 曰東西如意門 [j80:6b],
+YM42-02,YM42,西如意门,Xi Ruyi Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南 ... 曰東西如意門 [j80:6b],
+YM42-03,YM42,西南门,Xinan Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南 ... 曰西南門 [j80:6b],
+YM42-04,YM42,水闸门,Shuizha Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南 ... 曰水閘門 [j80:6b],
+YM42-05,YM42,藻园门,Zaoyuan Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,南 ... 曰藻園門 [j80:6b],
+YM42-06,YM42,东楼门,Donglou Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東曰東樓門 [j80:6b]; 麴院... 其東南為東樓門 [j82:27b],
+YM42-07,YM42,铁门,Tie Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東 ... 曰鐡門 [j80:6b-7a],
+YM42-08,YM42,明春门,Mingchun Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東 ... 曰明春門 [j80:7a]; 流香渚之西循山逕行即逹 [j83:12a],
+YM42-09,YM42,东随墙门,Dong suiqiang men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東 ... 曰隨墻門 [j80:7a],
+YM42-10,YM42,蕊珠宫门,Ruizhu Gong Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,東 ... 曰蘂珠宫門 [j80:7a],
+YM42-11,YM42,西随墙门,Xi suiqiang men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,西曰隨墻門 [j80:7a],
+YM42-12,YM42,北楼门,Beilou Men,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,正北曰北樓門 [j80:7a],
+YM43,,水闸三座,Shuizha (three sluices),,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為閘三 [j80:7a],Water from 玉泉山 via 西馬厰; flows NW to SE; out through 长春园 and 七空闸 to 清河 [j80:7a-b].
+YM43-01,YM43,一空进水闸,Yikong jinshui zha,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西南為一空進水閘 [j80:7a],Text says 西南; S06 says water enters at 紫碧山房 in the NW: see conflicts.
+YM43-02,YM43,五空出水闸,Wukong chushui zha,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,五空出水閘在明春門北 [j80:7a],
+YM43-03,YM43,一空出水闸,Yikong chushui zha,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,一空出水閘在蘂珠宫北 [j80:7a-b],
+YM44,,同乐园,Tongle Yuan,,Yuanming Yuan,compound,,,1860,S05;S02;S43;S41,A,,,,,,,麴院風荷之北為同樂園 [j82:27b],Shown in album leaf YM38 (S41; S02 p.95). 坐石臨流 東為同樂園 [j82:26a].
+YM44-01,YM44,同乐园看戏楼,Tongle Yuan kanxi lou,,Yuanming Yuan,theatre,,,1860,S05;S43,B,5,16.0,5.12,2,,,前後樓各五楹南向 [j82:27b],"S43: 工字楼 each bay 3.2 m, depth 5.12, 前后廊1.28; 3-bay 穿堂楼 3.84 x 3.2."
+YM44-02,YM44,清音阁,Qingyin Ge,,Yuanming Yuan,theatre,,,1860,S05;S43,B,,,,3,,,其前為清音閣北向 [j82:27b],"S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼."
+YM44-03,YM44,扮戏楼,Banxi lou,,Yuanming Yuan,theatre,,,1860,S43,B,5,22.2,6.4,,,,大戏台南接五间扮戏楼 (S43),"通面净宽22.2, 进深6.4, 外廊各1.6. 又南 九间南楼 32 x 5.92."
+YM44-04,YM44,东西转角配楼,Dongxi zhuanjiao peilou,,Yuanming Yuan,other,,,1860,S43,B,14 each,,,,,,戏台两侧 各十四间 (S43),
+YM44-05,YM44,永日堂,Yongri Tang,,Yuanming Yuan,temple,,,1860,S05;S47,B,,,,,,,東為永日堂 [j82:27b],S47 lists as Buddhist.
+YM44-06,YM44,南北长街 (买卖街),Nanbei Changjie (Maimai Jie),,Yuanming Yuan,other,,,1860,S05;S02;S06,B,,,,,,,中有南北長街 [j82:27b],New Year fair street (S02 p.94; S06).
+YM44-07,YM44,抱朴草堂,Baopu Caotang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,街西為抱樸草堂 [j82:27b],
+YM44-08,YM44,双桥,Shuang qiao,,Yuanming Yuan,bridge,,,1860,S05,B,,,,,,,街北度雙橋為舎衛城 [j82:27b],
+YM45,,舍卫城,Shewei Cheng,She Wei Ch'eng or Wall of Sravasti (Malone p.63),Yuanming Yuan,temple,"乾隆五年 1740 (S02 p.63, p.94 n.: 佛城 in the Yuan Ming Yuan Tse Li); plaque 雍正御笔 (S46)",,"Looted 1860; 南城门 and plaque stood in an 1882 photograph, gone in an 1900 photograph; walls gone by 1921 (S46); north wall removed 1960s (S06)",S05;S02;S46;S41,A,,,,,,,街北度雙橋為舎衛城 [j82:27b-28a],Shown in album leaf YM38 (S41; S02 p.95). S46: 2019 dig; 南城门 墩台宽15.4 m 进深12.6 m 残高1-1.25 m. S06: 36万+ images (lead).
+YM45-01,YM45,坊楔,Fangxie,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,前樹坊楔三 [j82:27b-28a],北坊 花界 香城; 東 金池; 西 曇霏 珠林 [j82:28a]
+YM45-02,YM45,多宝阁,Duobao Ge,,Yuanming Yuan,tower,,,1860,S05;S46,B,,,,,,,城南面為多寳閣 [j82:27b-28a],Gate-tower; 祀關帝.
+YM45-03,YM45,山门,Shanmen,,Yuanming Yuan,gate,,,1860,S05,B,,,,,,,内為山門 [j82:28a],
+YM45-04,YM45,寿国寿民殿,Shouguo Shoumin Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,正殿為壽國壽民 [j82:28a],
+YM45-05,YM45,仁慈殿,Renci Dian,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,後為仁慈殿 [j82:28a],
+YM45-06,YM45,普福宫,Pufu Gong,,Yuanming Yuan,temple,,,1860,S05,B,,,,,,,又後為普福宫 [j82:28a],
+YM45-07,YM45,最胜阁,Zuisheng Ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,城北為最勝閣 [j82:28a],
+YM46,,文源阁,Wenyuan Ge,"The Wen Yuan Ko, Library of the Source of Literature (Malone p.89)",Yuanming Yuan,library,乾隆三十九年 1774 [j81:36a],,1860; library burnt (S02 p.188); stele and rock survived the fire (S02 p.89),S05;S02;S45,B,,,,,,,水木明瑟之北稍西為文源閣 [j81:35b],Copied from 天一阁 [j81:36b]. Not in the 1744 album. Stood on rice fields of the album (S02 p.89).
+YM46-01,YM46,文源阁阁,Wenyuan Ge ge,,Yuanming Yuan,library,,,1860,S05;S02;S45,B,6,,,2,,waves in white and green glaze (S02 p.90); S42 green and black (lead),上下各六楹 [j81:35b],天一生水 地六成之 [j81:37a].
+YM46-02,YM46,玲峰,Ling Feng,,Yuanming Yuan,other,,,1860,S05;S02,B,,,,,,,閣前石為玲峯 [j81:36b],Monolith 12-15 ft = 3.7-4.6 m on a terrace in the pool (S02 p.90). 1775 poem.
+YM46-03,YM46,碑亭,Bei ting,,Yuanming Yuan,pavilion,,,1860,S05;S02,B,,,,,,,閣東亭内石碣 [j81:36b],Stele moved to 北京图书馆 (S06).
+YM46-04,YM46,柳浪闻莺,Liulang Wenying,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,閣西為栁浪聞鶯 [j81:35b-36a],
+YM47,,藻园,Zao Yuan,"Ts'ao Yuan, Garden of Aquatic Grasses (Malone p.81)",Yuanming Yuan,compound,brick dated 1751 found on site (S02 p.81 n.),,1860,S05;S02;S42,B,,,,,,,長春仙館由西南門迤西為藻園 [j81:8b],"S42: 南北长190, 东西宽125, 占地2.3万 m2; 勘探 建筑环船坞 南北105, 东西95. Not in the album."
+YM47-01,YM47,旷然堂,Kuangran Tang,,Yuanming Yuan,other,,,1860,S05,B,5,,,,,,内為曠然堂五楹 [j81:8b],
+YM47-02,YM47,贮清书屋,Zhuqing Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,堂後為貯清書屋 [j81:8b],
+YM47-03,YM47,夕佳书屋,Xijia Shuwu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,曠然堂東池上為夕佳書屋 [j81:8b],
+YM47-04,YM47,镜澜榭,Jinglan Xie,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,稍北為鏡瀾榭 [j81:8b],
+YM47-05,YM47,凝眺楼,Ningtiao Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,東南樓為凝眺 [j81:8b],
+YM47-06,YM47,怀新馆,Huaixin Guan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,為懷新館 [j81:8b-9a],
+YM47-07,YM47,湛碧轩,Zhanbi Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西北為湛碧軒 [j81:9a],
+YM47-08,YM47,湛清华,Zhan Qinghua,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,西南為湛清華 [j81:9a],
+YM48,,紫碧山房,Zibi Shanfang,"The Cold Hill, Han Shan (Malone p.88)",Yuanming Yuan,compound,,,1860; on the 1873 survival list (S06),S05;S02;S41;S06,B,,,,,,,鴻慈永祜後垣西北為紫碧山房 [j81:25a],"Not in the album, the one scene not painted (S41). Highest hill: 58.16 m elevation on the 1965 survey (S41). Malone p.65 n. dates it unknown; S41 says it existed by 1744."
+YM48-01,YM48,横云堂,Hengyun Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,前宇為横雲堂 [j81:25a],
+YM48-02,YM48,紫碧山房正宇,Zibi Shanfang zhengyu,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,正宇 [j81:25b],
+YM48-03,YM48,石帆室,Shifan Shi,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,山房東巖洞中為石帆室 [j81:25a],
+YM48-04,YM48,丰乐轩,Fengle Xuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,東南為豐樂軒 [j81:25a],
+YM48-05,YM48,霁华楼,Jihua Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,北為霽華樓 [j81:25a],
+YM48-06,YM48,景晖楼,Jinghui Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,迤東為景暉樓 [j81:25a],
+YM48-07,YM48,澄素楼,Chengsu Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,横雲堂西池上為澄素樓 [j81:25a],
+YM48-08,YM48,引溪亭,Yinxi Ting,,Yuanming Yuan,pavilion,,,1860,S05,B,,,,,,,西北為引溪亭 [j81:25a],
+YM49,,若帆之阁,Ruofan zhi Ge,,Yuanming Yuan,compound,,,1860,S05;S43,B,,,,,,,北逺山村東北度石橋折而西 ... 又西為若帆之閣 [j82:6a],"S43: inside 大北门 east side, small garden. Not in the album as a leaf."
+YM49-01,YM49,湛虚翠轩,Zhanxu Cuixuan,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,度石橋折而西為湛虛翠軒 [j82:6a],
+YM49-02,YM49,耕云堂,Gengyun Tang,,Yuanming Yuan,other,,,survived 1860 per 1873 survey (S06),S05;S06,B,,,,,,,又西為耕雲堂 [j82:6a],
+YM49-03,YM49,若帆之阁阁,Ruofan zhi Ge ge,,Yuanming Yuan,tower,,,1860,S05,B,,,,2,,,又西為若帆之閣 [j82:6a],"下層 御風泠然, 上 平臨天境 [j82:6a]."
+YM49-04,YM49,关帝庙,Guandi Miao,,Yuanming Yuan,temple,雍正时期 (S43),,1860,S05;S43,B,,,,,,,湛虛翠軒東數十武有闗帝廟 [j82:6a],
+YM50,,三潭印月,Santan Yinyue,,Yuanming Yuan,compound,,,1860,S05;S41,B,,,,,,,方壺勝境西北為三潭印月 [j82:13b],Drawn in the 方壶胜境 album leaf (S41). Three small stone pagodas in the water (S41).
+YM50-01,YM50,天宇空明,Tianyu Kongming,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,又西北度橋為天宇空明 [j82:13b],
+YM50-02,YM50,澄景堂,Chengjing Tang,,Yuanming Yuan,other,,,1860,S05,B,,,,,,,其後為澄景堂 [j82:13b],
+YM50-03,YM50,清旷楼,Qingkuang Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,堂東為清曠樓 [j82:13b],
+YM50-04,YM50,华照楼,Huazhao Lou,,Yuanming Yuan,tower,,,1860,S05,B,,,,,,,西為華照樓 [j82:13b],
+YM51,,课农轩,Kenong Xuan,,Yuanming Yuan,compound,,,survived 1860 per 1873 survey (S06),S06,B,,,,,,,,Named only in the 1873 survey via S06. Not in S05 j80-82. Position: plan readers.
+YM52,,顺木天,Shunmu Tian,,Yuanming Yuan,compound,,,survived 1860 per 1873 survey (S06),S06,B,,,,,,,,Named only in the 1873 survey via S06. Not in S05 j80-82. Position: plan readers.
+YM53,,藏舟坞,Cangzhou Wu,,Yuanming Yuan,other,,,survived 1860 per 1873 survey (S06),S06,B,,,,,,,,Named only in the 1873 survey via S06. Boat house.
+YM54,,福海,Fu Hai,The Happy Sea (Malone p.93),Yuanming Yuan,other,,,n/a (water),S05;S02,B,,,,,,,福海亦稱東湖 [j82:14a],"Lake, not destroyed. Malone: almost half a mile a side. 周廣凡數頃. Lower level 44.14 m near 澡身浴德 (S41 from the 1965 survey). Stone edge removed 1960s (S06)."
+YM55,,后湖,Hou Hu,Back Lake (Malone p.79),Yuanming Yuan,other,,,n/a (water),S05;S02,B,,,,,,,前殿南臨後湖 [j80:35b],Ringed by nine islands YM03-YM11 (S02 p.79).
+CC01,,澹怀堂,Danhuai Tang,,Changchun Yuan,compound,乾隆十二年 1747 宫门 (S44); poem 1749 [j83:3b],,1860,S05;S44,B,,,,,,,長春園宫門五楹 ... 正殿爲澹懷堂 [j83:3a],"S44: 宫门区 南起影壁 北至众乐亭 220 x 95 m, 2.1万 m2, 建筑面积2650 m2. Also 勤政殿 (S44). S49 spells 淡怀堂."
+CC01-01,CC01,长春园宫门,Changchun Yuan Gongmen,,Changchun Yuan,gate,1747 (S44),,1860,S05;S44;S57,B,5,,,,,,長春園宫門五楹 [j83:3a],"Astride the south wall. 复建 2008-09 (S57). Bronze qilin moved here 1763, one survives at the Summer Palace (S44)."
+CC01-02,CC01,朝房,Chaofang,,Changchun Yuan,other,,,1860,S05,B,5 each,,,,,,東西朝房各五楹 [j83:3a],
+CC01-03,CC01,影壁,Yingbi,,Changchun Yuan,other,,,1860,S44;S06,B,,,,,,,宫门前大影壁 (S44),
+CC01-04,CC01,澹怀堂殿,Danhuai Tang dian,,Changchun Yuan,audience hall,,,1860,S05;S06;S44,B,9,,,,卷棚歇山 (S06),,正殿爲澹懷堂 [j83:3a],"九楹 from S06, not S05. 前有月台丹陛, 东西配殿五楹 (S06). Empresses' coffins lay here 1833, 1840 (S44)."
+CC01-05,CC01,众乐亭,Zhongle Ting,,Changchun Yuan,pavilion,,,1860,S05;S44,B,,,,,,,後爲衆樂亭 [j83:3a],Square per S06.
+CC01-06,CC01,云容水态,Yunrong Shuitai,,Changchun Yuan,other,,,1860,S05;S44,B,5,,,,,,亭後河北敞宇為雲容水態 [j83:3a],
+CC01-07,CC01,长桥,Chang Qiao,,Changchun Yuan,bridge,,,1860,S05;S44;S06;S49,B,,,,,,,其西稍南為長橋 [j83:3a],13-span 板桥 (S44) vs 10 (S06; S49 40 m): see conflicts.
+CC02,,含经堂,Hanjing Tang,,Changchun Yuan,compound,乾隆十二年 1747 基本建成 (S43;S48),"1770-72 淳化轩 etc added (S43; S48; j83:5b, 6b); 1780 四库荟要 to 霞翥楼 (S48); 1814 theatre (S43;S48)",1860,S05;S43;S48,B,,,,,,,雲容水態西北循山逕入 [j83:4a],Largest group of Changchun (S43). Malone p.98 No.2 almost as large as the private apartments.
+CC02-01,CC02,琉璃坊楔,Liuli fangxie,,Changchun Yuan,gate,,,1860,S05,B,,,,,,琉璃 glazed,建琉璃坊楔三 [j83:4a],
+CC02-02,CC02,宫门,Gongmen,,Changchun Yuan,gate,,,1860,S05,B,5,,,,,,其北宫門五楹南嚮 [j83:4a],
+CC02-03,CC02,含经堂殿,Hanjing Tang dian,,Changchun Yuan,other,,,1860,S05;S06,B,7,,,,,,内爲含經堂七楹 [j83:4a-b],S06 says 五楹: see conflicts.
+CC02-04,CC02,淳化轩,Chunhua Xuan,,Changchun Yuan,other,乾隆三十五年 1770 (S43; j83:6a),,1860,S05;S43;S48,B,,,,,,,後為淳化閣 [j83:4b],"Text has 淳化閣 in the description, 淳化軒 in the commentary and record: use 淳化轩. Corridors hold the re-cut 閣帖 stones, 144 (S48)."
+CC02-05,CC02,蕴真斋,Yunzhen Zhai,,Changchun Yuan,other,,moved north 1770 for 淳化轩 [j83:5b],1860,S05,B,,,,,,,又後爲蘊真齋 [j83:4b],
+CC02-06,CC02,霞翥楼,Xiazhu Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,含經堂東為霞翥樓 [j83:4b],内額 味腴書屋.
+CC02-07,CC02,渊映斋,Yuanying Zhai,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為淵映齋 [j83:4b],
+CC02-08,CC02,梵香楼,Fanxiang Lou,,Changchun Yuan,temple,,,1860,S05;S47,B,,,,,,,堂西為梵香樓 [j83:4b],
+CC02-09,CC02,涵光室,Hanguang Shi,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為涵光室 [j83:4b],
+CC02-10,CC02,三友轩,Sanyou Xuan,,Changchun Yuan,other,1770-72 (S48),,1860,S48,B,,,,,,,(S48),
+CC02-11,CC02,理心楼,Lixin Lou,,Changchun Yuan,tower,1770-72 (S48),,1860,S48;S06,B,,,,,,,(S48),
+CC02-12,CC02,得胜盖,Desheng Gai,,Changchun Yuan,other,乾隆二十四年 1759 (S06),,1860,S06,B,,,,,,,出后门 敞厅 (S06),
+CC02-13,CC02,乐奏钧天戏台,Yuezou Juntian xitai,,Changchun Yuan,theatre,嘉庆十九年 1814 (S43),,1860,S43;S48,B,,16,16,,重檐 double (S43),,淳化轩东侧 (S43),"S43: 16米见方, 檐柱4.48 m; 下层 乐奏钧天 上层 阆苑仙音; basement 2.47 m."
+CC02-14,CC02,神心妙达,Shenxin Miaoda,,Changchun Yuan,theatre,1814 改建 (S43),,1860,S43;S48,B,,,,,,,淳化轩东侧 (S43),Viewing hall.
+CC02-15,CC02,买卖街,Maimai Jie,,Changchun Yuan,other,,,1860,S06,B,,,,,,,东墙外 (S06),
+CC03,,蒨园,Qian Yuan,,Changchun Yuan,compound,乾隆十八年 1753 poems [j83:7b],,1860,S05;S06,B,,,,,,,澹懐堂迤西濵河水石之間為蒨園門西嚮 [j83:7a],S06 and most modern texts write 茜园. Malone p.98 one of the three pretty gardens.
+CC03-01,CC03,蒨园门,Qian Yuan Men,,Changchun Yuan,gate,,,1860,S05,B,,,,,,,為蒨園門西嚮 [j83:7a],
+CC03-02,CC03,朗润斋,Langrun Zhai,,Changchun Yuan,other,,,1860,S05,B,3,,,,,,内為朗潤齋三楹 [j83:7a],
+CC03-03,CC03,湛景楼,Zhanjing Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,其東為湛景樓 [j83:7a],
+CC03-04,CC03,菱香沜,Lingxiang Pan,,Changchun Yuan,other,,,1860,S05,B,,,,,,,又東為菱香沜 [j83:7a],
+CC03-05,CC03,青莲朵,Qinglian Duo,,Changchun Yuan,other,,,not destroyed; moved 1915 (S06),S05;S06,B,,,,,,,朗潤齋西有石立於園門内為青蓮朶 [j83:7a],Rock from 德寿宫 Hangzhou; named 壬申 1752 [j83:8a]. Moved 1915 to 中山公园 (S06).
+CC03-06,CC03,标胜亭,Biaosheng Ting,,Changchun Yuan,pavilion,,,1860,S05,B,,,,,,,齋東南山池間為標勝亭 [j83:7a],
+CC03-07,CC03,别有天,Bieyou Tian,,Changchun Yuan,other,,,1860,S05,B,,,,,,,又東南為别有天 [j83:7a],
+CC03-08,CC03,韵天琴,Yuntian Qin,,Changchun Yuan,other,,,1860,S05,B,,,,,,,西北為韻天琴 [j83:7a],
+CC03-09,CC03,委宛藏,Weiwan Cang,,Changchun Yuan,other,,,1860,S05,B,,,,,,,南角門外别院為委宛藏 [j83:7a],
+CC03-10,CC03,梅石碑亭,Meishi bei ting,,Changchun Yuan,pavilion,乾隆三十二年 1767 [j83:7b],,1860,S05,B,,,,,,,蒨園門左碑亭一 [j83:7a],
+CC04,,思永斋,Siyong Zhai,,Changchun Yuan,compound,乾隆十二年 1747 基本建成 (S43),,1860,S05;S43,B,,,,,,,蒨園後河北岸為思永齋七楹 [j83:9a],"Malone p.98 Numbers Four, Five, Seven are palace groups on islands."
+CC04-01,CC04,思永斋殿,Siyong Zhai dian,,Changchun Yuan,other,,,1860,S05;S06,B,7,,,,,,為思永齋七楹 [j83:9a],S06: 工字殿十七楹: see conflicts. Indoor stage from 1747 (S43).
+CC04-02,CC04,山色湖光共一楼,Shanse Huguang Gong Yilou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,齋北樓宇臨池為山色湖光共一樓 [j83:9a],
+CC04-03,CC04,小有天园,Xiaoyoutian Yuan,,Changchun Yuan,other,乾隆二十三年 1758 record 去嵗丁丑 [j83:9b],,1860,S05;S02,B,,,,,,,齋東别院為小有天園 [j83:9a],"After 汪氏 garden, West Lake (S02 p.98)."
+CC05,,得全阁,Dequan Ge,,Changchun Yuan,compound,,,1860,S05,B,,,,,,,思永齋西稍南河外為得全閣 [j83:10b],額曰天心水面 [j83:11a]. S48 merges it with the middle floor of 海岳开襟: see conflicts.
+CC05-01,CC05,宝云楼,Baoyun Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,南為寳雲樓 [j83:10b],
+CC05-02,CC05,远风楼,Yuanfeng Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,北為逺風樓 [j83:10b-11a],
+CC06,,海岳开襟,Haiyue Kaijin,,Changchun Yuan,compound,by 1759 poem [j83:11a-b],,1860; on the 1873 survival list (S06),S05;S02;S06,B,,,,3,,,齋北河池潨滙中有圓式崇基其上樓宇三層為海嶽開襟 [j83:11a],"Round terrace, boat access only (S02 p.98). 下層 海嶽開襟, 南簷 青瑶嶼, 上 乘六龍. Blog S48 diameter near 100 m (lead)."
+CC06-01,CC06,枋楔,Fangxie,,Changchun Yuan,gate,,,1860,S05,B,,,,,,,四旁枋楔各一 [j83:11a],4 pailou.
+CC07,,流香渚,Liuxiang Zhu,,Changchun Yuan,compound,,,1860,S05,B,,,,,,,海嶽開襟之西河池外有亭為流香渚 [j83:11b],西循山逕行即逹圓明園之明春門 [j83:12a]
+CC07-01,CC07,流香渚亭,Liuxiang Zhu ting,,Changchun Yuan,pavilion,,,1860,S05,B,,,,,,,有亭為流香渚 [j83:11b],
+CC07-02,CC07,罨画溪,Yanhua Xi,,Changchun Yuan,other,,,1860,S05,B,,,,,,,亭北為罨畫溪 [j83:11b],
+CC08,,法慧寺,Fahui Si,,Changchun Yuan,temple,,,1860,S05;S02;S47,B,,,,,,,海嶽開襟東北為諧竒趣東為法慧寺 [j83:12a],
+CC08-01,CC08,山门,Shanmen,,Changchun Yuan,gate,,,1860,S05,B,,,,,,,山門西嚮 [j83:12a],額 普香界
+CC08-02,CC08,四面延楼,Simian Yanlou,,Changchun Yuan,temple,,,1860,S05,B,,,,,,,内為四面延樓 [j83:12a],
+CC08-03,CC08,光明性海,Guangming Xinghai,,Changchun Yuan,temple,,,1860,S05,B,,,,,,,後殿為光明性海 [j83:12a],
+CC08-04,CC08,琉璃方塔,Liuli fangta,,Changchun Yuan,tower,,,stood until 1900 per the old man Lu (S02 p.101 n.),S05;S02,B,,,,,,glazed tile,其西别院有琉璃方塔 [j83:12a],"S02 p.101: square below, octagonal in the middle, round at top."
+CC09,,宝相寺,Baoxiang Si,,Changchun Yuan,temple,,,1860,S05;S47,B,,,,,,,法慧寺東為寳相寺 [j83:12a],
+CC09-01,CC09,山门,Shanmen,,Changchun Yuan,gate,,,1860,S05,B,,,,,,,山門南嚮 [j83:12a],
+CC09-02,CC09,澄光阁,Chengguang Ge,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,内為澄光閣 [j83:12a],
+CC09-03,CC09,昙霏阁,Tanfei Ge,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,後為曇霏閣 [j83:12a],
+CC09-04,CC09,现大圆镜,Xian Dayuanjing,,Changchun Yuan,temple,,,1860,S05,B,,,,,,,又後崇基上有殿為現大圓鏡 [j83:12a],額 香臺華鬘
+CC10,,泽兰堂,Zelan Tang,,Changchun Yuan,compound,,,1860,S05;S48,B,,,,,,,由寳相寺度城關而東迤南為翠交軒 [j83:12b],"S48: on the central N axis, 占地1万 m2 (lead)."
+CC10-01,CC10,翠交轩,Cuijiao Xuan,,Changchun Yuan,other,,,1860,S05,B,,,,,,,度城關而東迤南為翠交軒 [j83:12b],
+CC10-02,CC10,熙春洞,Xichun Dong,,Changchun Yuan,other,,,1860,S05,B,,,,,,,軒下石室為熙春洞 [j83:12b],
+CC10-03,CC10,爱山楼,Aishan Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,北為愛山樓 [j83:12b],
+CC10-04,CC10,泽兰堂殿,Zelan Tang dian,,Changchun Yuan,other,,,1860,S05,B,,,,,,,又北為澤蘭堂 [j83:12b],
+CC11,,平畴交远风,Pingchou Jiao Yuanfeng,,Changchun Yuan,compound,,,1860,S05,B,,,,,,,愛山樓東北為平疇交逺風 [j83:12b],宇後額 平皋綠浄
+CC11-01,CC11,转湘帆,Zhuan Xiangfan,,Changchun Yuan,other,"乾隆十二年 1747 (S48, lead)",,1860,S05;S48,B,,,,,,,南為轉湘帆 [j83:12b],
+CC12,,丛芳榭,Congfang Xie,,Changchun Yuan,compound,1747 (S48); poem 1759 [j83:13a],,1860,S05;S48,B,,,,,,,平疇交逺風之東為叢芳榭 [j83:12b],
+CC12-01,CC12,琴清斋,Qinqing Zhai,,Changchun Yuan,other,,,1860,S05,B,,,,,,,後為琴清齋 [j83:12b],
+CC13,,狮子林,Shizi Lin,Lion Grove (Malone p.98),Changchun Yuan,compound,乾隆三十七年 1772 [j83:13b],,1860,S05;S02;S48,B,,,,,,,叢芳榭之東為獅子林 [j83:13b],After 苏州 黄氏涉园. 16 scenes in 2 sets of poems. Listed in Rixia order.
+CC13-01,CC13,虹桥,Hong Qiao,,Changchun Yuan,bridge,,,1860,S05,B,,,,,,,為虹橋 [j83:13b],
+CC13-02,CC13,假山,Jiashan,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為假山 [j83:13b],
+CC13-03,CC13,纳景堂,Najing Tang,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為納景堂 [j83:13b],
+CC13-04,CC13,清閟阁,Qingbi Ge,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,為清閟閣 [j83:13b],
+CC13-05,CC13,藤架,Teng jia,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為藤架 [j83:13b],
+CC13-06,CC13,磴道,Dengdao,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為磴道 [j83:13b],
+CC13-07,CC13,占峰亭,Zhanfeng Ting,,Changchun Yuan,pavilion,,,1860,S05,B,,,,,,,為占峯亭 [j83:13b],
+CC13-08,CC13,清淑斋,Qingshu Zhai,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為清淑齋 [j83:13b],
+CC13-09,CC13,小香幢,Xiao Xiangchuang,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,為小香幢 [j83:13b],
+CC13-10,CC13,探真书屋,Tanzhen Shuwu,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為探真書屋 [j83:13b],
+CC13-11,CC13,延景楼,Yanjing Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,為延景樓 [j83:13b],
+CC13-12,CC13,云林石室,Yunlin Shishi,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為雲林石室 [j83:13b],
+CC13-13,CC13,横碧轩,Hengbi Xuan,,Changchun Yuan,other,,,1860,S05,B,,,,,,,為横碧軒 [j83:13b],
+CC13-14,CC13,水门,Shuimen,,Changchun Yuan,gate,,,1860,S05,B,,,,,,,為水門 [j83:13b],
+CC14,,玉玲珑馆,Yulinglong Guan,,Changchun Yuan,compound,by 1755 poem [j83:17b],,1860,S05;S48,B,,,,,,,獅子林之南為玉玲瓏館 [j83:17a],
+CC14-01,CC14,正谊明道,Zhengyi Mingdao,,Changchun Yuan,other,,,1860,S05;S48,B,5,,,,,,正宇為正誼明道五楹 [j83:17a],S48: 七开间 前有抱厦五间 (lead): see conflicts.
+CC14-02,CC14,林光澹碧,Linguang Danbi,,Changchun Yuan,other,,,1860,S05,B,,,,,,,北為林光澹碧 [j83:17a],
+CC14-03,CC14,鹤安斋,He'an Zhai,,Changchun Yuan,other,,,1860,S05,B,,,,,,,東為鶴安齋 [j83:17b],
+CC14-04,CC14,蹈和堂,Daohe Tang,,Changchun Yuan,other,,,1860,S05,B,,,,,,,西南為蹈和堂 [j83:17b],
+CC15,,映清斋,Yingqing Zhai,,Changchun Yuan,compound,,,1860,S05;S48,B,,,,,,,昭曠亭亭東南為映清齋 [j83:18a],
+CC15-01,CC15,昭旷亭,Zhaokuang Ting,,Changchun Yuan,pavilion,,,1860,S05,B,,,,,,,玉玲瓏館之南為昭曠亭 [j83:18a],
+CC16,,鉴园,Jian Yuan,,Changchun Yuan,compound,"乾隆三十二年 1767 (S48, lead)",,1860,S05;S02;S48,B,,,,,,,齋東為鑑園 [j83:18a],
+CC16-01,CC16,鉴园正宇,Jian Yuan zhengyu,,Changchun Yuan,other,,,1860,S05,B,5,,,,,,敞宇五楹西嚮 [j83:18a],
+CC16-02,CC16,漱琼斋,Shuqiong Zhai,,Changchun Yuan,other,,,1860,S05,B,,,,,,,北為潄瓊齋 [j83:18a],
+CC16-03,CC16,师善堂,Shishan Tang,,Changchun Yuan,other,,,1860,S05,B,,,,,,,其東為師善堂 [j83:18a],
+CC16-04,CC16,船坞,Chuanwu,,Changchun Yuan,other,,,1860,S05,B,,,,,,,鑑園之後有船塢 [j83:18a],
+CC17,,东宫门,Dong Gongmen,,Changchun Yuan,gate,,,1860,S05;S02;S06,B,7,,,2,,,由鑑園北山徑折而東為東宫門 [j83:18a],"亦稱大東門. 樓宇上下各七楹東向. Xianfeng said to have left through it 1860, rebuilt under 慈禧 (S02 p.101, oral). Lions moved to 正阳门 and 新华门 (S06)."
+CC17-01,CC17,朝房,Chaofang,,Changchun Yuan,other,,,1860,S05,B,3 each,,,,,,南北朝房各三楹 [j83:18a],
+CC17-02,CC17,护河石桥,Huhe shiqiao,,Changchun Yuan,bridge,,,1860,S05,B,,,,,,,其外為䕶河有石橋 [j83:18a],
+CC18,,如园,Ru Yuan,"Ju Yuan, Garden of Likeness (Malone p.98)",Changchun Yuan,compound,poem 乾隆三十五年 1770 [j83:18b],,1860,S05;S02;S48,B,,,,,,,鑑園西南為如園 [j83:18b],"After 瞻园 Nanjing [j83:18b]. S06 also 茹园. S48 adds 清瑶榭, 含碧楼, 惟绿轩, 延清亭, 含翠轩 (lead)."
+CC18-01,CC18,门,Men,,Changchun Yuan,gate,,,1860,S05,B,3,,,,,,門三楹西嚮 [j83:18b],
+CC18-02,CC18,敦素堂,Dunsu Tang,,Changchun Yuan,other,,,1860,S05,B,,,,,,,内為敦素堂 [j83:18b],
+CC18-03,CC18,冠霞阁,Guanxia Ge,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,堂北稍東為冠霞閣 [j83:18b],
+CC18-04,CC18,明漪楼,Mingyi Lou,,Changchun Yuan,tower,,,1860,S05,B,,,,,,,又東為明漪樓 [j83:18b],
+CC19,,七空闸,Qikong Zha,,Changchun Yuan,other,,,stood until the 1960s (S06),S05;S06,B,,,,,,,又東出七空閘灌溉稻田 [j83:3b],"East water exit, also j80:7b. Pulled down 1950s-60s (S06)."
+CC20,,花神庙,Huashen Miao,,Changchun Yuan,temple,,,1860,S47,B,3,,,,,,海岳开襟对岸西南处 (S47),From Yangshi Lei per S47; not in S05.
+CC21,,林渊锦镜,Linyuan Jinjing,,Changchun Yuan,compound,,,survived 1860 per 1873 survey (S06),S06,B,,,,,,,,Named only in the 1873 survey via S06.
+XY01,,谐奇趣,Xieqiqu,"Hsieh Ch'i Ch'u, Harmonious Strange and Pleasant",Xiyang Lou,european,乾隆十二年 1747 起 (S02 p.139; S42); 乾隆十六年秋 1751 完成 (S54 lead),,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S05;S02;S06;S42;S54;S56,A,"7 lower, 3 upper (S06)",,,3,庑殿顶 (S06),"红色圆光琉璃瓦, 蓝琉璃脊 (S06)",海嶽開襟東北為諧竒趣 [j83:12a]; 长春园最早的西洋式建筑 (S06),"name_en: Malone. Copper engraving no. 1-2 per S02 (seen via Malone, picture worker holds the ID). Plans Castiglione 郎世宁, fountains Benoist 蒋友仁 (S02 pp.139-140); also Attiret 王致诚 (S42;S56). Malone p.141: 3-storey centre, curved galleries to 2 two-storey towers SE and SW; S06 两层: see conflicts. Only XY building named in S05. Photos of ruins 1860+, 1900+ S02 p.142."
+XY01-01,XY01,八角奏乐亭,Bajiao Zouyue Ting,,Xiyang Lou,pavilion,,,1860,S06;S02,B,,,,2,,五色琉璃 (S06),游廊尽头 (S06),Malone: 2-storey towers.
+XY01-02,XY01,海棠形喷水池,Haitangxing penshui chi,,Xiyang Lou,european,,,1860,S06;S02,B,,,,,,,楼南 月台下 (S06),"Bronze ducks 18, sheep 4 and a stone fish (S06); fish now at 未名湖."
+XY02,,蓄水楼,Xushui Lou,"Hsu Shui Lou, Building for Gathering the Waters",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,5 (S06),,,2,,,faced eastward on the courtyard north of Number Two (S02 p.143),"name_en: Malone. Copper engraving no. 3 per S02 (seen via Malone, picture worker holds the ID). Small 2-storey with a northern 1-storey wing (S02). Holds 养水池, 轧水机 (S06)."
+XY02-01,XY02,线法桥,Xianfa Qiao,,Xiyang Lou,bridge,,,1860,S06,B,,,,,,,蓄水楼南 (S06),"5 arches, at the west wall; 水闸 links to YM (S06). Stone moved to 燕京大学 (S06)."
+XY03,,花园门,Huayuan Men,"Hua Yuan Men, Flower Garden Gate",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,gate to the Maze; 蓄水楼 seen over the wall (S02 pp.143-144),"name_en: Malone. Copper engraving no. 4 per S02 (seen via Malone, picture worker holds the ID). Grey cut brick with pink and cream pattern (S02)."
+XY04,,黄花阵,Huanghua Zhen,"Hua Yuan, Flower Garden, a maze",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S42,A,,89,59,,,,广场之北为黄花阵 (S06),"name_en: Malone. Copper engraving no. 5 per S02 (seen via Malone, picture worker holds the ID). Engraving calls it 花园. Also 万花阵 (S06; S42). S06 89 x 59 m; walls 1.2 m high. S06 wall length 16 km looks wrong, check on plan. Rebuilt in modern times (S06)."
+XY04-01,XY04,中央亭,Zhongyang ting,,Xiyang Lou,pavilion,,,1860,S02;S06,B,,,,,,,center ... octagonal pavilion (S02 p.145),Old caretaker Lu: mechanical birds (hearsay). 2-storey building at the back (S02).
+XY05,,养雀笼,Yangque Long,"Yang Ch'iao Lung, Bird Cage",Xiyang Lou,european,,,Burnt 1860; ruin torn down about 1924 (S02 p.146),S02;S06;S56,A,5 (S06),,,,,,faced westward on the court behind Number Two (S02 p.147),"name_en: Malone. Copper engraving no. 6-7 per S02 (seen via Malone, picture worker holds the ID). 五间三进 (S06). Peacocks until Jiaqing, per Lu (S02). Oil painting by Castiglione on a wall (S06 lead)."
+XY06,,方外观,Fangwai Guan,"Fang Wai Kuan, A Look Abroad",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,3 (S06),,,2,重檐四坡 (S06),蓝色琉璃 (S06),过桥之后东行 路北为方外观 (S06),"name_en: Malone. Copper engraving no. 8 per S02 (seen via Malone, picture worker holds the ID). Circular stairs from the 2nd floor; carved marble bridge (S02 p.147-148). S06: 容妃 prayer use (lead)."
+XY07,,五竹亭,Wuzhu Ting,"Chu T'ing, Bamboo Pavilion",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,faced north toward the Fang Wai Kuan (S02 p.148),"name_en: Malone. Copper engraving no. 9 per S02 (seen via Malone, picture worker holds the ID). 5 Chinese-style pavilions linked by covered walks; pool and wall survive; pavilions gone (S02). Bamboo-clad (S06)."
+XY08,,海晏堂,Haiyan Tang,"Hai Yen T'ang, Hall of Peaceful Seas",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,11 front (S06),,,,庑殿顶 (S06),孔雀绿琉璃 (S06),方外观之西为海晏堂 (S06),"name_en: Malone. Copper engraving no. 10-13 per S02 (seen via Malone, picture worker holds the ID). Plans Castiglione 郎世宁, fountains Benoist 蒋友仁 (S02 pp.139-140); also Attiret 王致诚 (S42;S56). Largest of the group, held the pumps and reservoir (S02 pp.148-155). Dimensions in S06 are in zhang."
+XY08-01,XY08,蓄水池 (锡海),Xushui chi (Xi Hai),,Xiyang Lou,other,,,1860,S06;S02,B,,,,,,,后楼中央 (S06),"S06: 东西8.55丈, 南北1.85丈, 深4.9尺 (lead)."
+XY08-02,XY08,十二时辰水法,Shi'er shichen shuifa,,Xiyang Lou,european,,,1860,S02;S06,A,,,,,,,"West front pool, either side of the central pool (S02 pp.151-154)",Water clock with 12 seated figures by Benoist (S02). Factual record only: keep this out of any playful content (CLAUDE.md).
+XY09,,远瀛观,Yuanying Guan,"Yuan Ying Kuan, View of Distant Seas",Xiyang Lou,european,乾隆四十八年 1783 (S42 12613; printed there as 乾隆十四八年),,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S42,A,5 (S06),,,,庑殿顶 3-tier (S06),"五色琉璃, 鱼鳞金瓦 (S06)",西为海晏堂 东为线法山 前为大水法观水法 (S42),"name_en: Malone. Copper engraving no. 14 per S02 (seen via Malone, picture worker holds the ID). Later than 大水法 (S42). Excavated 2016: 3 phases, late-Qing use (S42). Gobelins tapestries 1767 (S02 p.160); S06 says Louis XVI: see conflicts. Grey brick with carved marble (S02 p.155)."
+XY10,,大水法,Da Shuifa,"Ta Shui Fa, the Great Fountains",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,远瀛观前平台之南 (S06),"name_en: Malone. Copper engraving no. 15 per S02 (seen via Malone, picture worker holds the ID). Tall pyramids and animal figures (S02 p.156). S06 10 hounds and a stag."
+XY11,,观水法,Guan Shuifa,"Kuan Shui Fa, View of the Fountains",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,大水法之南 坐南朝北 (S06),"name_en: Malone. Copper engraving no. 16 per S02 (seen via Malone, picture worker holds the ID). Throne with a screen of 5 carved marble panels (S02 pp.157-158). Panels moved: S06."
+XY12,,线法山,Xianfa Shan,"Hsien Fa Shan, Hsien Fa Hill",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,远瀛观东 (S42); 线法山门 triple gate (S02 p.159),"name_en: Malone. Copper engraving no. 17-18 per S02 (seen via Malone, picture worker holds the ID). Circular paths to a hilltop pavilion (S02)."
+XY12-01,XY12,线法山门,Xianfa Shan Men,,Xiyang Lou,gate,,,1860,S02,A,,,,,,,engraving 17 (S02 p.159),Triple gate like a triumphal arch.
+XY12-02,XY12,山顶亭,Shanding ting,,Xiyang Lou,pavilion,,,1860,S02;S06,A,,,,,,,hilltop (S02 p.159),S06 八角四券石亭.
+XY13,,螺蛳牌楼,Luosi Pailou,"Hsien Fa Shan Tung Men, East Gate to Hsien Fa Hill",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,山东为线法山东门 所谓螺丝牌楼 (S06),"name_en: Malone. Copper engraving no. 19 per S02 (seen via Malone, picture worker holds the ID). 3 arches with vine carving (S02 p.159)."
+XY14,,方河,Fang He,(Lake of the Hsien Fa picture),Xiyang Lou,other,,,n/a (water),S02;S06;S42,A,,,,,,,线法山之东为方河 (S06),"name_en: Malone. Copper engraving no. 20 per S02 (seen via Malone, picture worker holds the ID). Lake in the foreground of engraving 20. Malone gives no separate name; S42 方河."
+XY15,,线法墙,Xianfa Qiang,"Hu Tung Hsien Fa T'u, Hsien Fa Picture East of the Lake",Xiyang Lou,european,,,"Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218)",S02;S06;S56,A,,,,,,,线法山之东 方河 线法墙 (S06),"name_en: Malone. Copper engraving no. 20 per S02 (seen via Malone, picture worker holds the ID). Five walls each side like stage wings, painted town (S02 p.159). S06 阿克苏十景 (lead). Also 线法画 (S56)."
+QC01,,绮春园宫门,Qichun Yuan Gongmen,,Qichun Yuan,gate,"嘉庆十四年 1809, 新宫门 (S49 lead)",,survived 1860 (S06;S49); 同治 repairs; ruined later; rebuilt 1988 (S57),S49;S02;S06;S57,B,,,,,,,东南 宫廷区 (S06),"Malone p.97 photographs the gate: ""Rebuilt after 1860 by the Empress Dowager and renamed Wan Ch'un Yuan"". See conflicts."
+QC02,,迎晖殿,Yinghui Dian,,Qichun Yuan,audience hall,,,1860,S06,B,,,,,,,依次为新宫门 迎晖殿 中和堂 敷春堂 (S06),Ruin photo in S49.
+QC03,,中和堂,Zhonghe Tang,,Qichun Yuan,other,,,1860,S06;S49,B,,,,,,,迎晖殿之后 (S06),
+QC04,,敷春堂,Fuchun Tang,,Qichun Yuan,compound,嘉庆初年 (S43),道光元年 1821 大规模改建增饰; 戏台改盖成殿宇 (S43;S49),1860,S06;S43;S49,B,,,,,,,中和堂之后 (S06),"绮春园三十景 (Jiaqing poems, list in S06). Empress dowager quarters in Daoguang-Xianfeng (S43; S02 p.174)."
+QC04-01,QC04,后殿,Hou dian,,Qichun Yuan,other,,,1860,S06,B,,,,,,,(S06),
+QC04-02,QC04,问月楼,Wenyue Lou,,Qichun Yuan,tower,,,1860,S06,B,,,,,,,宫廷区 依次 ... 后殿 问月楼 (S06),"绮春园三十景 (Jiaqing poems, list in S06). "
+QC05,,清夏斋,Qingxia Zhai,,Qichun Yuan,other,,,1860,S06;S52,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). S06 also 清夏堂. 四序 with 敷春堂, 涵秋馆, 生冬室 (S43; S52)."
+QC06,,凤麟洲,Fenglin Zhou,,Qichun Yuan,compound,,,1860,S06;S42;S49,B,,,,,,,仙人承露台东侧 四面环水 (S42 11467),"宫廷区北 (S06). S42 survey A 区 50 x 26-48 m, B 区 24 x 22 m (modern survey extents)."
+QC07,,涵秋馆,Hanqiu Guan,,Qichun Yuan,compound,,,1860,S06;S42;S52,B,,,,,,,仙人承露台西侧 (S42 11446),四序之一. Survey 55-74 x 26-48 m (S42).
+QC08,,鉴碧亭,Jianbi Ting,,Qichun Yuan,pavilion,,,1860; rebuilt modern (S06;S49),S06;S49,B,,,,,,,宫廷区西 (S06),Single-arch stone bridge remains (S06).
+QC09,,庄严法界,Zhuangyan Fajie,,Qichun Yuan,temple,,,survived 1860 per the 1873 survey (S06;S49),S06;S47;S49,B,,,,,,,,Buddhist (S47). Position: plan readers.
+QC10,,仙人承露台,Xianren Chenglu Tai,,Qichun Yuan,other,,,modern 重制 (S49),S42;S49,B,,,,,,,涵秋馆东 凤麟洲西 (S42),Rixia silent; no pre-1860 text found. Present statue modern. Unverified for 1860.
+QC11,,正觉寺,Zhengjue Si,,Qichun Yuan,temple,乾隆三十八年 1773 (S49 lead),,"Outside the wall, escaped 1860 and 1900 (S49); survives in part; repaired 2002-11",S49;S42;S47;S06,B,,,,,,,绮春园正宫门之西 (S49),"Lama temple. 占地12660 m2, 建筑近3000 m2 (S49). Remaining: 山门, 文殊亭, 配殿. No fire loss: treat as standing in 1860."
+QC11-01,QC11,山门,Shanmen,,Qichun Yuan,gate,,,not burnt 1860 (S49),S49,B,,,,,,,,4-language plaque (S49).
+QC11-02,QC11,天王殿,Tianwang Dian,,Qichun Yuan,temple,,,not burnt 1860 (S49),S49,B,,,,,,,,
+QC11-03,QC11,三圣殿,Sansheng Dian,,Qichun Yuan,temple,,,not burnt 1860 (S49),S49,B,,,,,,,,
+QC11-04,QC11,文殊亭,Wenshu Ting,,Qichun Yuan,temple,,,not burnt 1860 (S49),S49,B,,,,,,,,八方重檐 (S49); 文殊 statue over 2 zhang.
+QC11-05,QC11,最上楼,Zuishang Lou,,Qichun Yuan,tower,,,not burnt 1860 (S49),S49,B,,,,,,,,后楼七间 (S49).
+QC12,,澄心堂,Chengxin Tang,,Qichun Yuan,compound,,,1860,S06;S49,B,,,,,,,西南部 (S06),
+QC13,,含晖楼,Hanhui Lou,,Qichun Yuan,tower,,,1860,S06;S49,B,,,,,,,西南部 (S06),"绮春园三十景 (Jiaqing poems, list in S06). From 含晖园 absorbed 1811 (S49)."
+QC14,,畅和堂,Changhe Tang,,Qichun Yuan,compound,,,1860,S06;S49,B,,,,,,,西南部 (S06),
+QC15,,绿满轩,Lüman Xuan,,Qichun Yuan,compound,,,survived 1860 (S49 lead),S06;S49,B,,,,,,,西南部 (S06),
+QC16,,湛清轩,Zhanqing Xuan,,Qichun Yuan,compound,,,survived 1860 (S49 lead),S06;S42;S49,B,,,,,,,西南部 (S06); 四宜书屋南 (S42 11559),S06 湛清斋. S44 has 湛静斋 for an 1840 death: probably another name; open.
+QC17,,春泽斋,Chunze Zhai,,Qichun Yuan,compound,,,1860,S06,B,,,,,,,中部 (S06),"绮春园三十景 (Jiaqing poems, list in S06). "
+QC18,,生冬室,Shengdong Shi,,Qichun Yuan,compound,乾隆中叶 (S43),,1860,S06;S43,B,7,,17.28,,,,中部 (S06),S43: 南向七间接前抱厦三间后抱厦五间; 通进深17.28; 暖戏台 inside.
+QC19,,四宜书屋 (绮春),Siyi Shuwu (Qichun),,Qichun Yuan,compound,,,1860,S06;S42,B,,,,,,,中部 (S06); 湛清轩北 (S42 11559),"绮春园三十景 (Jiaqing poems, list in S06). Not YM28."
+QC20,,展诗应律,Zhanshi Yinglü,,Qichun Yuan,compound,嘉庆六年 1801 已建成 (S43),,1860,S06;S43,B,5,,,,,,居绮春园后湖南岸 (S43),"南向正殿五间, 戏台 对面, 匾 庆乐升平; 扮戏房五间 (S43)."
+QC21,,卧云轩,Woyun Xuan,,Qichun Yuan,compound,,,1860,S06,B,,,,,,,中部 (S06),
+QC22,,惠济祠,Huiji Ci,,Qichun Yuan,temple,"嘉庆十八年动工 1813, 二十二年落成 1817 (S47)",,survived 1860 (S49 lead),S47;S49,B,,,,,,,,"Two temples side by side, 惠济祠 east (S47)."
+QC23,,河神庙,Heshen Miao,,Qichun Yuan,temple,1813-1817 (S47),,1860,S47,B,,,,,,,与惠济祠并列 居西 (S47),
+QC24,,龙王庙,Longwang Miao,,Qichun Yuan,temple,,,1860,S47,B,3,,,,,,延英论道景区中央 四面环水 (S47),"东向门殿一间, 正殿三间 (S47 from Yangshi Lei)."
+QC25,,延寿寺,Yanshou Si,,Qichun Yuan,temple,,,1860,S47,B,,,,,,,,Named only. Position: plan readers.
+QC26,,天心水面,Tianxin Shuimian,,Qichun Yuan,compound,,,1860,S42,B,,,,,,,鉴碧亭北部 四面环水 (S42 11480),Modern survey 43-86 x 12-81 m. Same name as the 得全阁 plaque in CC05: unrelated?
+QC27,,心镜轩,Xinjing Xuan,,Qichun Yuan,compound,,,1860,S42,B,,,,,,,绮春园东南部 (S42 11301),Survey 108-115 x 78 m.
+QC28,,延英论道,Yanying Lundao,,Qichun Yuan,compound,,,1860,S47,B,,,,,,,,Named as a scene area around QC24 (S47).
+QC29,,鉴德书屋,Jiande Shuwu,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC30,,翠合轩,Cuihe Xuan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC31,,凌虚阁,Lingxu Ge,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC32,,协德斋,Xiede Zhai,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC33,,澄光榭,Chengguang Xie,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC34,,我见室,Wojian Shi,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC35,,蔚藻堂,Weizao Tang,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC36,,霭芳圃,Aifang Pu,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC37,,镜绿亭,Jinglü Ting,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC38,,淙玉轩,Congyu Xuan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC39,,舒卉轩,Shuhui Xuan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC40,,竹林院,Zhulin Yuan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC41,,夕霏榭,Xifei Xie,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC42,,镜红馆,Jinghong Guan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC43,,喜雨山房,Xiyu Shanfang,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC44,,涵清馆,Hanqing Guan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC45,,华滋庭,Huazi Ting,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC46,,苔香室,Taixiang Shi,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC47,,虚明镜,Xuming Jing,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC48,,含淳堂,Hanchun Tang,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC49,,水心榭,Shuixin Xie,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC50,,茗柯精舍,Mingke Jingshe,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC51,,来薰室,Laixun Shi,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."
+QC52,,般若观,Bore Guan,,Qichun Yuan,scene,,,1860,S06,B,,,,,,,,"绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers."

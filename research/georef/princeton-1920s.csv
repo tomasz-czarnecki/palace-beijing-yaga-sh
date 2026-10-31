@@ -1,0 +1,160 @@
+id,plan_x,plan_y,lat,lon,datum,feature,kind,area,quality,use,note
+F01,6859,2825,40.0083495,116.2978614,WGS84 via Esri,蓬岛瑶台 main island NW corner,island,YM-fuhai,1,fit,
+F02,7121,2838,40.0084433,116.2984924,WGS84 via Esri,蓬岛瑶台 main island NE corner,island,YM-fuhai,1,fit,
+F03,7125,3100,40.0079588,116.2985749,WGS84 via Esri,蓬岛瑶台 main island SE corner,island,YM-fuhai,1,fit,
+F04,6860,3100,40.0078844,116.2979234,WGS84 via Esri,蓬岛瑶台 main island SW corner,island,YM-fuhai,1,fit,
+F05,5842,1868,40.0095076,116.2950121,WGS84 via Esri,福海 NW shore bend,shore,YM-fuhai,2,rejected,"misidentified: picked on the first coarse view, the real NW corner is F09"
+F06,5542,4094,40.0055500,116.2956545,WGS84 via Esri,福海 SW corner,shore,YM-fuhai,2,rejected,"superseded by F14: same feature, read again on a closer chip"
+F07,8005,4000,40.0063317,116.3012842,WGS84 via Esri,福海 SE corner at canal,shore,YM-fuhai,1,fit,
+F08,7942,1767,40.0105718,116.3001323,WGS84 via Esri,"福海 NE corner, inlet",shore,YM-fuhai,2,fit,
+H01,4770,3590,40.0059281,116.2935111,WGS84 via Esri,曲院风荷 lake north end,shore,YM-houhu,1,fit,
+H02,4780,4820,40.0036375,116.2938768,WGS84 via Esri,曲院风荷 lake south end,shore,YM-houhu,1,fit,
+H03,4780,4190,40.0047574,116.2937107,WGS84 via Esri,"曲院风荷 lake waist, bridge",shore,YM-houhu,1,fit,
+H04,4550,4570,40.0040500,116.2933621,WGS84 via Esri,曲院风荷 lower lake west shore,shore,YM-houhu,2,fit,
+H05,2810,3600,40.0053801,116.2888145,WGS84 via Esri,后湖 NW corner,shore,YM-houhu,2,rejected,"superseded by H13: same feature, read again on a closer chip"
+H06,3805,3600,40.0055122,116.2909895,WGS84 via Esri,后湖 NE corner,shore,YM-houhu,1,rejected,"superseded by H14: same feature, read again on a closer chip"
+H07,3750,4420,40.0041290,116.2913981,WGS84 via Esri,后湖 SE corner,shore,YM-houhu,2,rejected,"superseded by H17: same feature, read again on a closer chip"
+H08,2805,4430,40.0036596,116.2890338,WGS84 via Esri,后湖 SW corner,shore,YM-houhu,2,rejected,"superseded by H16: same feature, read again on a closer chip"
+H09,2970,5015,40.0027124,116.2895410,WGS84 via Esri,前湖 NW corner,shore,YM-houhu,2,fit,
+H10,3600,5015,40.0029033,116.2910268,WGS84 via Esri,前湖 NE corner,shore,YM-houhu,2,fit,
+H11,3545,5330,40.0022189,116.2911435,WGS84 via Esri,前湖 SE corner,shore,YM-houhu,2,fit,
+H12,3120,5330,40.0020769,116.2899137,WGS84 via Esri,前湖 SW corner,shore,YM-houhu,2,fit,
+W01,2010,3334,40.0056032,116.2867123,WGS84 via Esri,万方安和 卍 base centre,ruin,YM-west,1,fit,
+W02,2160,5330,40.0017921,116.2878215,WGS84 via Esri,"长春仙馆 ring canal, west",shore,YM-west,2,fit,
+W03,2775,5370,40.0019452,116.2894002,WGS84 via Esri,"长春仙馆 ring canal, east",shore,YM-west,2,fit,
+W04,2460,5045,40.0024209,116.2882031,WGS84 via Esri,"长春仙馆 ring canal, north",shore,YM-west,2,fit,
+W05,2460,5620,40.0014440,116.2886363,WGS84 via Esri,"长春仙馆 ring canal, south",shore,YM-west,2,fit,
+W06,791,3402,40.0050331,116.2838367,WGS84 via Esri,west canal and 山高水长 canal junction,junction,YM-west,2,rejected,"superseded by W19: first read on the coarse affine view, the junction is 140 px further south on the close chip"
+X01,8880,688,40.0122849,116.3022676,WGS84 via Esri,黄花阵 centre pavilion (rebuilt on its old site),ruin,XYL,2,rejected,"rejected by the brief's rule: 黄花阵 today is a modern rebuild, so it is not a surviving feature. Also moved by eye once during review"
+X02,8865,1520,40.0112335,116.3024345,WGS84 via Esri,谐奇趣 ruin centre,ruin,XYL,2,fit,
+X03,9645,1113,40.0117804,116.3043439,WGS84 via Esri,海晏堂 ruin west end,ruin,XYL,1,fit,
+X04,10261,1113,40.0119783,116.3058856,WGS84 via Esri,蓄水楼 east end,ruin,XYL,1,fit,
+X05,10576,1044,40.0122947,116.3065873,WGS84 via Esri,大水法 centre,ruin,XYL,1,fit,
+X06,11185,1121,40.0122647,116.3081184,WGS84 via Esri,线法山 mound centre,ruin,XYL,2,fit,
+X07,11577,1133,40.0121988,116.3092112,WGS84 via Esri,方河 west end,shore,XYL,1,fit,
+X08,12220,1133,40.0124170,116.3109124,WGS84 via Esri,方河 east end,shore,XYL,1,fit,
+X09,9385,985,40.0119044,116.3037894,WGS84 via Esri,方外观 ruin centre,ruin,XYL,2,fit,
+C01,9180,1769,40.0105142,116.3035126,WGS84 via Esri,长春园 NW lake shore bend,shore,CC-lakes,1,fit,
+C02,9467,2687,40.0089616,116.3042511,WGS84 via Esri,海岳开襟 round island centre,island,CC-lakes,1,fit,
+C03,10370,2797,40.0089104,116.3066919,WGS84 via Esri,含经堂 enclosure NW corner,ruin,CC-lakes,1,fit,
+C04,10808,2802,40.0090318,116.3077527,WGS84 via Esri,含经堂 enclosure NE corner,ruin,CC-lakes,1,fit,
+C05,10808,3445,40.0077998,116.3079625,WGS84 via Esri,含经堂 enclosure SE corner,ruin,CC-lakes,1,fit,
+C06,10370,3445,40.0076911,116.3069143,WGS84 via Esri,含经堂 enclosure SW corner,ruin,CC-lakes,1,fit,
+C07,10384,3732,40.0071745,116.3070196,WGS84 via Esri,含经堂 forecourt SW corner,ruin,CC-lakes,1,fit,
+C08,10767,3732,40.0073062,116.3080465,WGS84 via Esri,含经堂 forecourt SE corner,ruin,CC-lakes,1,fit,
+C09,11536,3281,40.0084500,116.3098172,WGS84 via Esri,玉玲珑馆 island north,island,CC-lakes,2,fit,
+C10,11413,3760,40.0074223,116.3096539,WGS84 via Esri,玉玲珑馆 island south,island,CC-lakes,2,fit,
+C11,11254,3514,40.0077969,116.3091161,WGS84 via Esri,玉玲珑馆 island west,island,CC-lakes,2,fit,
+C12,11686,3486,40.0079983,116.3102991,WGS84 via Esri,玉玲珑馆 island east,island,CC-lakes,2,fit,
+C13,10865,4088,40.0067945,116.3083756,WGS84 via Esri,south lake NW corner,shore,CC-lakes,1,fit,
+C14,10879,4348,40.0061489,116.3084509,WGS84 via Esri,south lake SW corner,shore,CC-lakes,2,fit,
+C15,11043,4937,40.0051047,116.3091348,WGS84 via Esri,长春园宫门 gate ruin,ruin,CC-lakes,1,fit,
+Q01,10034,5782,40.0032220,116.3069137,WGS84 via Esri,"凤麟洲 lake, long island north tip",island,QC,1,fit,
+Q02,10056,6370,40.0022613,116.3072763,WGS84 via Esri,"凤麟洲 lake, long island south end",island,QC,1,fit,
+Q03,10028,5549,40.0036074,116.3066462,WGS84 via Esri,"凤麟洲 lake, small square island centre",island,QC,1,fit,
+Q04,9782,5407,40.0037548,116.3060932,WGS84 via Esri,凤麟洲 main island north,island,QC,2,fit,
+Q05,9755,5645,40.0032318,116.3061032,WGS84 via Esri,凤麟洲 main island south,island,QC,2,fit,
+Q06,9648,5522,40.0034194,116.3058249,WGS84 via Esri,凤麟洲 main island west,island,QC,2,fit,
+Q07,9913,5522,40.0036735,116.3063837,WGS84 via Esri,凤麟洲 main island east,island,QC,2,fit,
+Q08,9850,5057,40.0047235,116.3061532,WGS84 via Esri,凤麟洲 lake north shore,shore,QC,2,fit,
+Q09,8712,4975,40.0045192,116.3031006,WGS84 via Esri,islet at north edge of Qichun,island,QC,1,fit,
+Q10,7650,4900,40.0045230,116.3005435,WGS84 via Esri,canal south of Fuhai outlet,junction,QC,2,fit,
+Q11,7946,6458,40.0016213,116.3018109,WGS84 via Esri,"canal crossing, north Qichun",junction,QC,2,fit,
+Q12,9028,7339,40.0000980,116.3046675,WGS84 via Esri,鉴碧亭 island centre,island,QC,1,fit,
+Q13,8330,7284,39.9998811,116.3028151,WGS84 via Esri,正觉寺 wall NW corner (the temple survived 1860),wall,QC,1,fit,
+Q14,8604,7284,39.9999716,116.3036750,WGS84 via Esri,正觉寺 wall NE corner,wall,QC,1,fit,
+Q15,8604,7886,39.9985732,116.3040353,WGS84 via Esri,正觉寺 wall SE corner,wall,QC,2,fit,
+Q16,8330,7886,39.9985268,116.3031264,WGS84 via Esri,正觉寺 wall SW corner,wall,QC,2,fit,
+Q17,9288,7599,39.9994149,116.3054927,WGS84 via Esri,鉴碧亭 lake SE shore bend,shore,QC,2,fit,
+Q18,8823,7804,39.9992010,116.3044486,WGS84 via Esri,鉴碧亭 lake south shore,shore,QC,2,rejected,"rejected: the plan has no shoreline at this point, the lake corner on Esri has no counterpart"
+Q19,7047,7818,39.9980964,116.2994614,WGS84 via Esri,west lake pinch by the bridge,shore,QC,2,fit,
+Q20,6445,7024,39.9999440,116.2977788,WGS84 via Esri,"north-west channel, west end",shore,QC,2,fit,
+Q21,7116,7038,39.9999954,116.2991812,WGS84 via Esri,"north-west channel, east end",shore,QC,2,fit,
+S01,4434,1592,40.0099566,116.2920506,WGS84 via Esri,舍卫城 wall NW corner,wall,YM-west,2,fit,
+S02,4830,1592,40.0101220,116.2931195,WGS84 via Esri,舍卫城 wall NE corner,wall,YM-west,2,fit,
+S03,4830,2153,40.0090898,116.2932061,WGS84 via Esri,舍卫城 wall SE corner,wall,YM-west,2,fit,
+P01,7867,1208,40.0116171,116.2999763,WGS84 via Esri,方壶胜境 west round pier,ruin,YM-fuhai,1,fit,
+P02,8229,1195,40.0117190,116.3008911,WGS84 via Esri,方壶胜境 east round pier,ruin,YM-fuhai,1,fit,
+P03,8045,1296,40.0114697,116.3004684,WGS84 via Esri,方壶胜境 south octagon pier,ruin,YM-fuhai,1,fit,
+F09,6004,1660,40.0101618,116.2955420,WGS84 via Esri,福海 NW corner,shore,YM-fuhai,2,fit,
+F10,6579,1660,40.0105171,116.2967091,WGS84 via Esri,"福海 north shore at channel, 望瀛洲",shore,YM-fuhai,2,fit,
+F11,7402,1605,40.0108565,116.2987262,WGS84 via Esri,福海 north shore bend,shore,YM-fuhai,2,fit,
+F12,7840,1756,40.0105087,116.2999271,WGS84 via Esri,福海 NE outlet,shore,YM-fuhai,1,fit,
+K01,5429,1195,40.0108193,116.2941319,WGS84 via Esri,廓然大公 lake north shore,shore,YM-fuhai,2,fit,
+K02,5361,1674,40.0098334,116.2938513,WGS84 via Esri,廓然大公 compound,ruin,YM-fuhai,2,rejected,"rejected: the white patch inside the pond on Esri is ice, not the hall, so the match was false"
+W07,1280,1951,40.0084291,116.2844085,WGS84 via Esri,汇芳书院 ring canal west,shore,YM-west,2,fit,
+W08,2092,1951,40.0086898,116.2864769,WGS84 via Esri,汇芳书院 ring canal east,shore,YM-west,2,fit,
+W09,1668,1692,40.0091201,116.2854512,WGS84 via Esri,汇芳书院 ring canal north,shore,YM-west,2,fit,
+W10,1786,2274,40.0079981,116.2861209,WGS84 via Esri,"汇芳书院 ring canal south, at junction",shore,YM-west,2,fit,
+W11,409,323,40.0106715,116.2817129,WGS84 via Esri,"garden NW corner, wall against road",wall,walls,2,rejected,"rejected: no surviving feature on the ground (roadside by the highway), and the plan position is not on the wall corner, which lies about 100 px to the north-west. The north-west corner is therefore unanchored"
+V01,3238,2806,40.0072213,116.2898493,WGS84 via Esri,"long pond north of 后湖, west tip",shore,YM-west,2,fit,
+V02,4141,2751,40.0072290,116.2915543,WGS84 via Esri,"long pond north of 后湖, east end",shore,YM-west,2,fit,
+V03,3060,2890,40.0071095,116.2891884,WGS84 via Esri,"canal ring NW of 后湖, centre",junction,YM-west,2,fit,
+V04,2208,1584,40.0094675,116.2869353,WGS84 via Esri,汇万总春 lake west shore,shore,YM-west,2,fit,
+V05,2542,1297,40.0100853,116.2878338,WGS84 via Esri,汇万总春 lake north shore,shore,YM-west,2,fit,
+V06,3089,1694,40.0094398,116.2889778,WGS84 via Esri,汇万总春 lake east shore,shore,YM-west,2,fit,
+V07,2651,2816,40.0068310,116.2879614,WGS84 via Esri,"pond south of 汇万总春, south end",shore,YM-west,2,fit,
+V08,1100,3330,40.0057665,116.2843143,WGS84 via Esri,"hooked pond by 山高水长, west tip",shore,YM-west,2,rejected,"superseded by V10: first read took the inner pond end, the surviving pond ends further north-east"
+V09,1666,3156,40.0061138,116.2857135,WGS84 via Esri,"hooked pond by 山高水长, east hook",shore,YM-west,2,rejected,"superseded by V12: same hook, read again on a closer chip"
+H13,2803,3597,40.0053525,116.2889210,WGS84 via Esri,"后湖 NW corner, closer reading",shore,YM-houhu,1,fit,
+H14,3847,3613,40.0054660,116.2911188,WGS84 via Esri,"后湖 NE corner at the channel, closer reading",shore,YM-houhu,1,fit,
+H15,2786,3992,40.0045105,116.2888194,WGS84 via Esri,后湖 west channel mouth,junction,YM-houhu,1,fit,
+H16,2820,4489,40.0036662,116.2891390,WGS84 via Esri,"后湖 SW corner, closer reading",shore,YM-houhu,2,fit,
+H17,3720,4489,40.0038086,116.2912982,WGS84 via Esri,"后湖 SE corner, closer reading",shore,YM-houhu,1,fit,
+H18,3224,4430,40.0038929,116.2902300,WGS84 via Esri,"后湖 south shore, bulge of 九洲清晏",shore,YM-houhu,2,fit,
+H19,3064,3622,40.0053487,116.2894122,WGS84 via Esri,"后湖 north shore, 上下天光 pier",shore,YM-houhu,1,fit,
+H20,3399,3593,40.0054903,116.2900153,WGS84 via Esri,"后湖 north shore, channel gap",junction,YM-houhu,2,fit,
+F13,6246,4178,40.0054268,116.2971220,WGS84 via Esri,"福海 south shore, canal crossing",junction,YM-fuhai,1,fit,
+F14,5556,4145,40.0055768,116.2956601,WGS84 via Esri,"福海 SW corner, closer reading",shore,YM-fuhai,1,fit,
+F15,5370,3400,40.0067615,116.2948452,WGS84 via Esri,"canal west of 福海, 安澜 crossing",junction,YM-fuhai,2,fit,
+F16,5261,4321,40.0048016,116.2948642,WGS84 via Esri,"canal SW of 福海, crossing",junction,YM-fuhai,2,fit,
+F17,7526,4184,40.0058806,116.3002594,WGS84 via Esri,"福海 south shore, bridge and south outlet",junction,YM-fuhai,1,fit,
+F18,8167,2022,40.0098892,116.3008544,WGS84 via Esri,"福海 NE shore, turn to the east shore",shore,YM-fuhai,2,fit,
+F19,8167,2796,40.0085962,116.3010987,WGS84 via Esri,"福海 east shore, channel mouth",junction,YM-fuhai,1,fit,
+W12,8537,1752,40.0105560,116.3018890,WGS84 via Esri,五孔闸 where the wall road between Yuanming and Changchun crosses the canal,wall,walls,2,fit,
+W13,8526,4637,40.0052028,116.3027133,WGS84 via Esri,"same wall road, at the south road",wall,walls,2,fit,
+W14,3400,5678,40.0014565,116.2907737,WGS84 via Esri,"south wall road, at 大宫门 axis",wall,walls,2,fit,
+W15,4990,5745,40.0017663,116.2946141,WGS84 via Esri,"south wall, south road gate",wall,walls,2,fit,
+W16,5358,5747,40.0018517,116.2954573,WGS84 via Esri,"south wall, east end corner",wall,walls,2,fit,
+W17,253,5722,40.0008308,116.2832869,WGS84 via Esri,"south-west corner of the garden, at the road",wall,walls,2,rejected,rejected: no surviving feature on the ground (modern highway interchange). The south-west corner is therefore unanchored
+W18,1500,5716,40.0010975,116.2862205,WGS84 via Esri,"south wall road, west part",wall,walls,2,fit,
+C16,12419,1608,40.0115584,116.3115879,WGS84 via Esri,canal mouth at east wall of Changchun,junction,walls,2,fit,
+CHK-YM03,3420,4650,40.002875,116.290536,"WGS84 via OSM (buildings.csv, hand-placed point)",九洲清晏,ruin,YM-houhu,2,check,independent check. compound centre; OSM point sits at its south edge
+CHK-YM05,4000,3950,40.005074,116.292024,"WGS84 via OSM (buildings.csv, hand-placed point)",天然图画,ruin,YM-houhu,2,check,independent check.
+CHK-YM06,3930,3350,40.006233,116.291433,"WGS84 via OSM (buildings.csv, hand-placed point)",碧桐书院,ruin,YM-houhu,2,check,independent check.
+CHK-YM07,3387,3307,40.005758,116.290433,"WGS84 via OSM (buildings.csv, hand-placed point)",慈云普护,ruin,YM-houhu,2,check,independent check.
+CHK-YM33,8160,3750,40.007126,116.301555,"WGS84 via OSM (buildings.csv, hand-placed point)",接秀山房,ruin,YM-fuhai,2,check,independent check. hall at the label
+CHK-YM34,8031,4178,40.005676,116.301238,"WGS84 via OSM (buildings.csv, hand-placed point)",别有洞天,ruin,YM-fuhai,2,check,independent check. hall at the label
+CHK-YM35,7672,4352,40.00578,116.300394,"WGS84 via OSM (buildings.csv, hand-placed point)",夹镜鸣琴,ruin,YM-fuhai,2,check,independent check. bridge pavilion at the label
+CHK-YM31,6061,1696,40.010443,116.295815,"WGS84 via OSM (buildings.csv, hand-placed point)",平湖秋月,ruin,YM-fuhai,2,check,independent check. hall at the label
+CHK-YM20,3467,2513,40.007786,116.290323,"WGS84 via OSM (buildings.csv, hand-placed point)",澹泊宁静,ruin,YM-west,2,check,independent check. 田字 hall at the label
+CHK-YM21,2992,2505,40.007104,116.289218,"WGS84 via OSM (buildings.csv, hand-placed point)",映水兰香,ruin,YM-west,2,check,"independent check. Malone no. 21; OSM point lands on the plan hall labelled 天神坛, so this may be an OSM error"
+CHK-YM23,2580,1620,40.009442,116.287647,"WGS84 via OSM (buildings.csv, hand-placed point)",濂溪乐处,ruin,YM-west,2,check,independent check.
+CHK-YM17,998,1288,40.008745,116.283694,"WGS84 via OSM (buildings.csv, hand-placed point)",鸿慈永祜,ruin,YM-west,2,check,"independent check. main hall 安佑宫; OSM point sits on the south gate line, on axis"
+CHK-YM15,1503,4251,40.003313,116.286398,"WGS84 via OSM (buildings.csv, hand-placed point)",山高水长,ruin,YM-west,2,check,independent check. at the label; large spread compound
+CHK-XY11,10576,1250,40.011836,116.306679,"WGS84 via OSM (buildings.csv, hand-placed point)",观水法,ruin,XYL,2,check,independent check. at 观水法 on the axis
+CHK-XY15,12299,1128,40.012182,116.309107,"WGS84 via OSM (buildings.csv, hand-placed point)",线法墙,ruin,XYL,2,rejected,"not a usable check: the OSM point for 线法画 lies west of 方河, while the plan and the layout put 线法墙 east of it. OSM error"
+CHK-XY05,9057,976,40.011539,116.301964,"WGS84 via OSM (buildings.csv, hand-placed point)",养雀笼,ruin,XYL,2,rejected,"not a usable check: no label read on the plan, and the OSM point lies west of 谐奇趣 while the layout puts 养雀笼 east of it"
+CHK-islet-NW,6750,2716,40.008414,116.297606,WGS84 via OSM,"蓬岛瑶台 north-west islet, polygon centroid",island,YM-fuhai,1,check,"independent check, not in the fit"
+CHK-islet-E,7224,3005,40.008131,116.298813,WGS84 via OSM,"蓬岛瑶台 east islet, polygon centroid",island,YM-fuhai,1,check,"independent check, not in the fit"
+CHK-canqiao,9130,6806,40.000912,116.304522,WGS84 via OSM,残桥 surviving bridge remains,ruin,QC,1,check,"independent check, not in the fit"
+V10,997,3136,40.0057610,116.2842370,WGS84 via Esri,"hooked pond by 山高水长, west tip, closer reading",shore,YM-west,2,fit,
+V11,1404,2965,40.0062279,116.2849306,WGS84 via Esri,hooked pond north shore,shore,YM-west,2,fit,
+V12,1613,3268,40.0058139,116.2856666,WGS84 via Esri,hooked pond east hook,shore,YM-west,2,fit,downgraded from 1 on full review: the plan line does not pass exactly under the point
+V13,1594,3363,40.0056512,116.2856645,WGS84 via Esri,canal meets the hook,junction,YM-west,2,fit,downgraded from 1 on full review: the plan line does not pass exactly under the point
+W19,800,3420,40.0050418,116.2838280,WGS84 via Esri,"west canal junction, closer reading",junction,YM-west,2,fit,downgraded from 1 on full review: the plan line does not pass exactly under the point
+FP-YM03,3420,4650,40.002875,116.290536,"WGS84 via OSM (buildings.csv, hand-placed point)","九洲清晏, first reading",ruin,YM-houhu,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM05,4000,3950,40.005074,116.292024,"WGS84 via OSM (buildings.csv, hand-placed point)","天然图画, first reading",ruin,YM-houhu,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM06,3930,3350,40.006233,116.291433,"WGS84 via OSM (buildings.csv, hand-placed point)","碧桐书院, first reading",ruin,YM-houhu,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM07,3400,3350,40.005758,116.290433,"WGS84 via OSM (buildings.csv, hand-placed point)","慈云普护, first reading",ruin,YM-houhu,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM36,8192,2662,40.009937,116.301043,"WGS84 via OSM (buildings.csv, hand-placed point)","涵虚朗鉴, first reading",ruin,YM-fuhai,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM33,8147,3732,40.007126,116.301555,"WGS84 via OSM (buildings.csv, hand-placed point)","接秀山房, first reading",ruin,YM-fuhai,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM34,8032,4174,40.005676,116.301238,"WGS84 via OSM (buildings.csv, hand-placed point)","别有洞天, first reading",ruin,YM-fuhai,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM35,7105,4331,40.00578,116.300394,"WGS84 via OSM (buildings.csv, hand-placed point)","夹镜鸣琴, first reading",ruin,YM-fuhai,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM31,7153,1495,40.010443,116.295815,"WGS84 via OSM (buildings.csv, hand-placed point)","平湖秋月, first reading",ruin,YM-fuhai,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM20,3465,2505,40.007786,116.290323,"WGS84 via OSM (buildings.csv, hand-placed point)","澹泊宁静, first reading",ruin,YM-west,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM21,2992,2505,40.007104,116.289218,"WGS84 via OSM (buildings.csv, hand-placed point)","映水兰香, first reading",ruin,YM-west,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM23,2580,1620,40.009442,116.287647,"WGS84 via OSM (buildings.csv, hand-placed point)","濂溪乐处, first reading",ruin,YM-west,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM17,998,1288,40.008745,116.283694,"WGS84 via OSM (buildings.csv, hand-placed point)","鸿慈永祜, first reading",ruin,YM-west,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+FP-YM15,1503,4251,40.003313,116.286398,"WGS84 via OSM (buildings.csv, hand-placed point)","山高水长, first reading",ruin,YM-west,2,check-first-pass,"first reading of the check, kept unedited. Some are misreadings of the plan (YM31, YM35), corrected in the CHK rows after seeing the errors"
+CHK-YM36,8192,2662,40.009937,116.301043,"WGS84 via OSM (buildings.csv, hand-placed point)",涵虚朗鉴,ruin,YM-fuhai,2,rejected,"dropped from the check after seeing its error (121.7 m): a long strip along the Fuhai east shore, read at the 雷峰影 label while the OSM point sits by 贻兰亭 further north, so one point cannot test it. Still counted in the first-pass figure"

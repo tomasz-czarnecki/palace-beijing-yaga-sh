@@ -1,0 +1,859 @@
+{
+ "unit": {
+  "chi_m": 0.32,
+  "source": "S105 (states 清代营造尺 1尺=320mm; the 丈尺册 conversions in S111, S113, S114 use the same value)",
+  "note": "Heights: eave_m and ridge_m are above ground; column_m is above the platform; eave_m = platform + column (box top); eave_tip_m = eave_m - 0.5 x overhang (roof edge at 五举); platform_edge_m = 下出, the platform beyond the eave column line. Run: scripts/rules.py in /opt/data/cache/scratch/palace_r1b_typology."
+ },
+ "plan_scale": {
+  "ground_px_per_m": 4.77,
+  "ground_scale": "4.77 px/m, about 1:1070, rotation 7.2 deg, locally 3.7-5.55 px/m (research/georef/princeton-1920s.json, 111 points); Malone's 1:1300 = 3.94 px/m does not hold for the ground",
+  "hall_frontage_px_per_m_median": 4.18,
+  "hall_frontage_range": [
+   3.79,
+   5.45
+  ],
+  "hall_depth_px_per_m_median": 3.31,
+  "hall_depth_range": [
+   2.34,
+   6.33
+  ],
+  "confidence": "B",
+  "use": "Position from the ground fit. A hall box measured on the plan: frontage = px/4.2, depth = px/3.3, then snap bays to the class. A stated size in by_name wins.",
+  "sources": "S01;S02;S03;S102;S104;S105;S107;S111"
+ },
+ "classes": {
+  "grand_hall": {
+   "zh": "七至九间正殿 (朝会大殿)",
+   "bays": 7,
+   "frontage_range_m": [
+    33,
+    40
+   ],
+   "bay_m": {
+    "central": 5.5,
+    "side": 4.7
+   },
+   "porch_m": 1.7,
+   "depth_m": [
+    15,
+    19
+   ],
+   "platform_m": 1.22,
+   "column_m": 5.12,
+   "eave_m": 6.34,
+   "eave_tip_m": 5.57,
+   "ridge_m": 12.38,
+   "overhang_m": 1.54,
+   "platform_edge_m": 1.23,
+   "roof": "卷棚歇山",
+   "tiles": "grey 布瓦, unless by_name says glazed",
+   "pitch_deg": 34.8,
+   "confidence": "B",
+   "sources": "S02;S106;S101;S119;S08",
+   "derivation": "正大光明殿 is the type: 7 bays + porch all round (S02 p.75, S01 reads the same), foundation 39.3 x 19.2 x 1.22 m (S02), eave column 16 chi = 5.12 m (S106). Depth col-to-col = 19.2 - 2 x 1.23. Bays split from the plan's bay lines; roof steps and 举 from the rule, so ridge is C. Arithmetic: inner 13.34 = 2x3x2.02 + top 1.21; rise = 1.70x0.5 + 2.02x0.6 + 2.02x0.75 + 2.02x0.9 = 5.40."
+  },
+  "main_hall": {
+   "zh": "五间殿 (卷棚)",
+   "bays": 5,
+   "frontage_range_m": [
+    17,
+    24
+   ],
+   "bay_m": {
+    "central": 4.16,
+    "side": 3.84
+   },
+   "porch_m": 1.6,
+   "depth_m": [
+    8,
+    12
+   ],
+   "platform_m": 0.7,
+   "column_m": 3.7,
+   "eave_m": 4.4,
+   "eave_tip_m": 3.85,
+   "ridge_m": 7.83,
+   "overhang_m": 1.11,
+   "platform_edge_m": 0.89,
+   "roof": "卷棚歇山 or 卷棚悬山",
+   "tiles": "grey 布瓦",
+   "pitch_deg": 33.4,
+   "confidence": "B",
+   "sources": "S111;S113;S112;S101;S100",
+   "derivation": "Bays 观澜堂 13/12 chi (S111). Column 3.70 from 万字房 3.68 (S113); rule 0.8 x 4.16 = 3.33, 观澜堂 has 4.32. Platform between 0.58 and 0.96. Three-roll halls: repeat the section, each roll 7.55 m deep (S111, 观澜堂). Depth is C. Arithmetic: inner 6.40 = 2x2x1.39 + top 0.83; rise = 1.60x0.5 + 1.39x0.65 + 1.39x0.85 = 2.89."
+  },
+  "side_hall": {
+   "zh": "三间配殿 / 朝房",
+   "bays": 3,
+   "frontage_range_m": [
+    10,
+    14
+   ],
+   "bay_m": {
+    "central": 3.84,
+    "side": 3.52
+   },
+   "porch_m": 1.28,
+   "depth_m": [
+    6,
+    8
+   ],
+   "platform_m": 0.54,
+   "column_m": 3.1,
+   "eave_m": 3.64,
+   "eave_tip_m": 3.18,
+   "ridge_m": 6.26,
+   "overhang_m": 0.93,
+   "platform_edge_m": 0.74,
+   "roof": "卷棚硬山 or 卷棚歇山",
+   "tiles": "grey 布瓦",
+   "pitch_deg": 33.1,
+   "confidence": "C",
+   "sources": "S101;S111;S112",
+   "derivation": "Column 3.10 and platform 0.54 taken from 松风阁 (S111), bay by the 0.8 rule (3.84 x 0.8 = 3.07). East and west 朝房 of 长春园 are five-bay grey 卷棚歇山 (S112). Arithmetic: inner 4.48 = 2x2x0.97 + top 0.58; rise = 1.28x0.5 + 0.97x0.65 + 0.97x0.85 = 2.10."
+  },
+  "small_house": {
+   "zh": "小式三间 (卷棚)",
+   "bays": 3,
+   "frontage_range_m": [
+    8,
+    12
+   ],
+   "bay_m": {
+    "central": 3.2,
+    "side": 2.88
+   },
+   "porch_m": 1.28,
+   "depth_m": [
+    5.5,
+    7
+   ],
+   "platform_m": 0.45,
+   "column_m": 2.75,
+   "eave_m": 3.2,
+   "eave_tip_m": 2.79,
+   "ridge_m": 5.34,
+   "overhang_m": 0.82,
+   "platform_edge_m": 0.66,
+   "roof": "卷棚硬山 or 卷棚悬山",
+   "tiles": "grey 布瓦",
+   "pitch_deg": 31.3,
+   "confidence": "B",
+   "sources": "S111;S114;S100;S101",
+   "derivation": "Bays 10/9 chi (藏密楼, S111); depth 12 chi + two 4-chi porches (惠如春, 松风阁, S111); column 2.75 (惠如春); 土地庙 column 8 chi on a 10 chi bay is the rule exactly (S114). 6-purlin rolled section, 五举 + 七举 (S101). Arithmetic: inner 3.84 = 2x1x1.48 + top 0.89; rise = 1.28x0.5 + 1.48x0.7 = 1.67."
+  },
+  "gallery": {
+   "zh": "游廊",
+   "bays": 1,
+   "frontage_range_m": [
+    3,
+    100
+   ],
+   "bay_m": {
+    "central": 2.88,
+    "side": 2.88
+   },
+   "porch_m": 0.0,
+   "depth_m": [
+    1.8,
+    2.6
+   ],
+   "platform_m": 0.3,
+   "column_m": 2.4,
+   "eave_m": 2.7,
+   "eave_tip_m": 2.34,
+   "ridge_m": 3.75,
+   "overhang_m": 0.72,
+   "platform_edge_m": 0.58,
+   "roof": "卷棚悬山",
+   "tiles": "grey 布瓦",
+   "pitch_deg": 35.0,
+   "confidence": "C",
+   "sources": "S120;S101;S01",
+   "derivation": "Bay 2.67 m is 728 m / 273 bays at 颐和园长廊 (S120, a comparable); 2.88 (9 chi) used. Width and column 2.4 are guesses; the plan draws galleries as one row of bays, so length comes from S01 and the bay is only the texture. Arithmetic: inner 2.24 = 2x1x0.86 + top 0.52; rise = 0.00x0.5 + 0.86x0.7 = 0.60."
+  },
+  "pavilion_square": {
+   "zh": "方亭",
+   "bays": 1,
+   "frontage_range_m": [
+    4.5,
+    8
+   ],
+   "bay_m": {
+    "central": 4.48,
+    "side": 4.48
+   },
+   "porch_m": 1.12,
+   "depth_m": [
+    4.5,
+    8
+   ],
+   "platform_m": 0.48,
+   "column_m": 3.2,
+   "eave_m": 3.68,
+   "eave_tip_m": 3.2,
+   "ridge_m": 6.59,
+   "overhang_m": 0.96,
+   "platform_edge_m": 0.77,
+   "roof": "攒尖 or 重檐攒尖",
+   "tiles": "grey by default; glazed in the formal groups",
+   "pitch_deg": 35.0,
+   "confidence": "B",
+   "sources": "S114;S105;S100;S01",
+   "derivation": "吕祖亭 single bay with surrounding porch, 21 chi = 6.72 m overall (S114). Stele pavilion platform 14 chi = 4.48 m at 文源阁 (S105). 方亭 has its own juan in the 1734 text (卷二十二, S100), rule numbers not read. Column is C. Arithmetic: inner 4.48 = 2x2x1.12; rise = 1.12x0.5 + 1.12x0.7 + 1.12x0.9 = 2.35."
+  },
+  "gate_hall": {
+   "zh": "门殿",
+   "bays": 5,
+   "frontage_range_m": [
+    15,
+    22
+   ],
+   "bay_m": {
+    "central": 4.48,
+    "side": 3.84
+   },
+   "porch_m": 0.0,
+   "depth_m": [
+    8,
+    11.5
+   ],
+   "platform_m": 0.77,
+   "column_m": 3.7,
+   "eave_m": 4.47,
+   "eave_tip_m": 3.91,
+   "ridge_m": 7.95,
+   "overhang_m": 1.11,
+   "platform_edge_m": 0.89,
+   "roof": "卷棚歇山",
+   "tiles": "grey 布瓦",
+   "pitch_deg": 36.9,
+   "confidence": "B",
+   "sources": "S102;S112;S01",
+   "derivation": "大宫门 5 bays, platform 21.57 x 11.33 x 0.77 m (S102); 长春园宫门 five bays, grey 卷棚歇山 (S112). Column and bays are C (rule). Arithmetic: inner 8.96 = 2x2x1.95 + top 1.17; rise = 0.00x0.5 + 1.95x0.65 + 1.95x0.85 = 2.92."
+  },
+  "temple_hall": {
+   "zh": "祀庙正殿 (重檐, 琉璃)",
+   "bays": 9,
+   "frontage_range_m": [
+    30,
+    44
+   ],
+   "bay_m": {
+    "central": 5.12,
+    "side": 4.48
+   },
+   "porch_m": 1.6,
+   "depth_m": [
+    14,
+    18
+   ],
+   "platform_m": 1.4,
+   "column_m": 5.6,
+   "eave_m": 7.0,
+   "eave_tip_m": 5.92,
+   "ridge_m": 13.32,
+   "overhang_m": 2.16,
+   "platform_edge_m": 1.73,
+   "roof": "重檐歇山",
+   "tiles": "yellow glazed; 舍卫城 and 佛楼 may differ",
+   "pitch_deg": 35.5,
+   "confidence": "C",
+   "sources": "S100;S101;S122;S06;S01",
+   "derivation": "Rule with doukou 2.5 cun = 0.08 m (S101 quoting 工程做法): central bay 7 x 11 x 0.08 = 6.16, next 5.28, then reduced to fit 安佑宫's plan (9 bays confirmed, 143.6 px = 34 m at 4.2 px/m). Column 70 doukou = 5.60 incl. plate and brackets. Ridge below is single-eave; double eave: 7.00 + 3.0 upper column (guess) + 4.91 + 0.61 = 15.5 m. Arithmetic: inner 12.80 = 2x3x2.13; rise = 1.60x0.5 + 2.13x0.65 + 2.13x0.75 + 2.13x0.9 = 5.71.",
+   "ridge_double_eave_m": 15.5,
+   "lower_eave_m": 7.0
+  },
+  "storeyed_hall": {
+   "zh": "二层楼",
+   "bays": 5,
+   "frontage_range_m": [
+    9,
+    23
+   ],
+   "bay_m": {
+    "central": 3.2,
+    "side": 2.88
+   },
+   "porch_m": 1.28,
+   "depth_m": [
+    3.5,
+    8
+   ],
+   "platform_m": 0.45,
+   "column_m": [
+    3.2,
+    2.3
+   ],
+   "mid_eave_m": 3.65,
+   "eave_m": 5.95,
+   "eave_tip_m": 5.47,
+   "ridge_m": 8.1,
+   "overhang_m": 0.96,
+   "platform_edge_m": 0.77,
+   "roof": "卷棚歇山 or 硬山",
+   "tiles": "grey by default",
+   "pitch_deg": 31.3,
+   "confidence": "B",
+   "sources": "S111;S103;S105",
+   "derivation": "藏密楼 lower column 3.20, upper 2.30, platform 0.32 (S111); 同乐园南楼 3.20 and 2.40, platform 0.42 (S103). Top: 0.45 + 3.20 + 2.30 = 5.95; rise 1.67 and allowance 0.47 as small_house = 8.09. 文源阁 reads two storeys outside, three inside (S105)."
+  },
+  "tower": {
+   "zh": "三层阁 (戏楼)",
+   "bays": 3,
+   "frontage_range_m": [
+    12,
+    17
+   ],
+   "bay_m": {
+    "central": 5,
+    "side": 4.5
+   },
+   "porch_m": 1.6,
+   "depth_m": [
+    12,
+    17
+   ],
+   "platform_m": 0.5,
+   "column_m": null,
+   "eave_m": null,
+   "eave_tip_m": null,
+   "ridge_m": 23.94,
+   "tiers_m": [
+    5.5,
+    11.5,
+    18
+   ],
+   "overhang_m": 1.5,
+   "platform_edge_m": 1.0,
+   "roof": "三重檐卷棚歇山",
+   "tiles": "green with yellow edge at the comparable 畅音阁; at 清音阁 unknown",
+   "pitch_deg": 32,
+   "confidence": "C",
+   "sources": "S103;S121;S01",
+   "derivation": "清音阁 is the only stated case: 3 storeys, 3 bays each face, ground to ridge 23.94 m (S103, B). Comparable 畅音阁 20.71 m (S121, a comparable). Footprint 64 x 54 px on S01 = about 14 x 13 m at the hall scale. Tier heights are guesses."
+  },
+  "pavilion_polygon": {
+   "zh": "六方 / 八方亭",
+   "bays": 1,
+   "frontage_range_m": [
+    5,
+    9
+   ],
+   "bay_m": {
+    "central": 3.2,
+    "side": 3.2
+   },
+   "porch_m": 0,
+   "depth_m": [
+    5,
+    9
+   ],
+   "platform_m": 0.5,
+   "column_m": 3.0,
+   "eave_m": 3.5,
+   "eave_tip_m": 3.05,
+   "ridge_m": 6.6,
+   "overhang_m": 0.9,
+   "platform_edge_m": 0.7,
+   "roof": "六方 or 八方攒尖; 重檐 on stele and shrine pavilions",
+   "tiles": "grey by default",
+   "pitch_deg": 35,
+   "confidence": "C",
+   "sources": "S01;S111;S122",
+   "derivation": "Forms: 揽翠亭 单檐六方 (S111), 月地云居 八方重檐 (S122). Size only from S01: an octagon near 九洲清晏 at plan (3760, 4445) is 33 px across = about 7.5 m. Heights copied from the square pavilion."
+  }
+ },
+ "other": {
+  "garden_wall": {
+   "zh": "虎皮石大墙",
+   "height_m": 2.8,
+   "thickness_m": 0.8,
+   "material": "虎皮石 (rubble with mortar joints)",
+   "double_wall_gap_m": 12.6,
+   "confidence": "B for height, C for thickness",
+   "sources": "S116;S117",
+   "derivation": "Height about 2.8 m and the 12.6 m gap between the double walls on W, N, E: S116. South either side of 大宫门 single. No thickness found: 0.8 m is a guess."
+  },
+  "spirit_wall": {
+   "zh": "大宫门大影壁",
+   "length_m": 41.6,
+   "thickness_m": 1.55,
+   "height_m": 4.6,
+   "confidence": "B",
+   "sources": "S102;S02",
+   "derivation": "41.6 m (S102). Malone measured 137 ft (41.8 m) long, over 5 ft thick, about 15 ft high (S02 p.69). Not drawn on S01."
+  },
+  "pailou": {
+   "zh": "牌楼",
+   "column_m": 5.12,
+   "confidence": "C",
+   "sources": "S122;S118;S123",
+   "derivation": "长春园牌楼门 column 5.12 m (S123). 安佑宫 three-bay glazed 火焰牌楼 and 8 m 华表 (S122). Three-bay, six-post form with two infill walls at 鸿慈永祜: S118."
+  },
+  "shop": {
+   "zh": "买卖街铺面",
+   "bay_m": 3.2,
+   "depth_m": 4.8,
+   "column_m": 2.56,
+   "confidence": "B",
+   "sources": "S115;S114",
+   "derivation": "含经堂 and 同乐园 shops about 3.20 x 4.80 m (S115). Column by the rule."
+  },
+  "bridge": {
+   "zh": "桥",
+   "confidence": "C",
+   "sources": "S01;S111",
+   "derivation": "Length and position from S01. Forms: 三孔 and 五孔 timber deck bridges, stone pier and brick arch later (S111). Deck width 3 m and height 1 m above water are guesses."
+  },
+  "paving": {
+   "zh": "甬路",
+   "width_m": 5,
+   "confidence": "C",
+   "sources": "S01;S104",
+   "derivation": "大宫门 axis road 23 px wide on S01 = about 5 m. Eaves drip courses of pebble mosaic (散水) and 40 cm floor tiles: S104."
+  }
+ },
+ "by_name": {
+  "正大光明殿": {
+   "parent": "YM01",
+   "bays": 7,
+   "depth_bays": 5,
+   "porch": "all round",
+   "frontage_m": 39.32,
+   "depth_m": 19.2,
+   "what": "foundation, measured by Malone",
+   "platform_m": 1.22,
+   "column_m": 5.12,
+   "column_base_top_dia_m": 0.84,
+   "roof": "卷棚歇山",
+   "tiles": "grey 布瓦",
+   "ridge_m": 12.4,
+   "confidence": "B",
+   "sources": "S02;S106;S119;S08",
+   "note": "Ridge from the rule, C. 1744 leaf: no terrace; 月台 12丈 x 4.63丈 x 0.8尺 = 38.40 x 14.82 x 0.26 m with four censers added 1775-1793 (S119). Plan: x 3230.6-3382, y 5415-5472.5."
+  },
+  "大宫门": {
+   "parent": "YM01",
+   "bays": 5,
+   "frontage_m": 21.57,
+   "depth_m": 11.33,
+   "what": "台基",
+   "platform_m": 0.77,
+   "forecourt_terrace": "月台 on S01 98 x 46 px",
+   "confidence": "B",
+   "sources": "S102",
+   "note": "Plan: x 3247.9-3346.4, y 5920.9-5947.4."
+  },
+  "观澜堂": {
+   "parent": "YM33",
+   "bays": 5,
+   "rolls": 3,
+   "bay_m": {
+    "central": 4.16,
+    "side": 3.84
+   },
+   "porch_m": 1.92,
+   "roll_depth_m": 7.55,
+   "frontage_m": 23.36,
+   "depth_m": 26.49,
+   "platform_m": 0.96,
+   "platform_edge_m": 1.12,
+   "column_m": 4.32,
+   "column_dia_m": 0.38,
+   "ceiling_m": 5.44,
+   "roof": "三卷勾连搭",
+   "confidence": "B",
+   "sources": "S111",
+   "note": "Built about 1817, so in the 1860 state. S111 quotes 《圆明园百景图志》. Plan: x 8107.9-8205.6, y 3682.9-3765.5."
+  },
+  "雷峰夕照殿": {
+   "parent": "YM36",
+   "bays": 3,
+   "frontage_m": 9.6,
+   "depth_m": 9.6,
+   "column_m": 2.91,
+   "confidence": "B",
+   "sources": "S111"
+  },
+  "惠如春": {
+   "parent": "YM36",
+   "bays": 2,
+   "bay_m": {
+    "central": 3.2,
+    "side": 3.2
+   },
+   "depth_core_m": 3.84,
+   "porch_m": 1.28,
+   "column_m": 2.75,
+   "confidence": "B",
+   "sources": "S111"
+  },
+  "藏密楼": {
+   "parent": "YM36 per S111; S111 notes 百景图志 puts it under YM31",
+   "bays": 3,
+   "storeys": 2,
+   "bay_m": {
+    "central": 3.2,
+    "side": 2.88
+   },
+   "column_m": [
+    3.2,
+    2.3
+   ],
+   "platform_m": 0.32,
+   "roof": "歇山",
+   "confidence": "B",
+   "sources": "S111",
+   "note": "S111 depth 2.56 + porch 0.96 does not fit the plan's 5 rows: x 7133-7202, y 1455-1533. Surveyed 1858."
+  },
+  "松风阁": {
+   "parent": "YM36 per S111; beside 藏密楼",
+   "bays": 5,
+   "storeys": 2,
+   "depth_core_m": 3.84,
+   "porch_m": 1.28,
+   "column_m": 3.1,
+   "platform_m": 0.54,
+   "platform_edge_m": 0.7,
+   "confidence": "B",
+   "sources": "S111"
+  },
+  "田字房": {
+   "parent": "YM20",
+   "rooms": 33,
+   "room_m": 4.48,
+   "court_m": 3.8,
+   "confidence": "B",
+   "sources": "S104;S01",
+   "note": "Excavated 2022. The Yangshi Lei drawing made wells larger than rooms, the excavation shows them smaller (S104); S01 repeats the drawing (43.5 px wells, 24.5 px rooms). Do not take its geometry from S01 alone. 33 rooms with a 3.8 m well does not fit a simple grid: open. Plan: x 3378-3552.5, y 2430-2593.5."
+  },
+  "万字房": {
+   "parent": "YM13",
+   "rooms": 33,
+   "room_m": 4.48,
+   "porch_m": 1.28,
+   "column_m": 3.68,
+   "platform_m": 0.58,
+   "platform_edge_m": 0.86,
+   "confidence": "C",
+   "sources": "S113;S01",
+   "note": "S113 gives the same 33 rooms of 4.48 m that S104 gives 田字房, and S01 draws these rooms at about 14 px against 24.5 px there, so the figures may be borrowed. Provisional. Plan: x 1932.5-2082, y 3274-3410.5."
+  },
+  "安佑宫": {
+   "parent": "YM17",
+   "bays": 9,
+   "frontage_m": 34,
+   "roof": "重檐歇山",
+   "tiles": "yellow glazed",
+   "column_m": 5.6,
+   "ridge_m": 15.5,
+   "confidence": "C",
+   "sources": "S122;S06;S01",
+   "note": "Form B (S122, S06, modelled on 景山寿皇殿). Plan 143.6 px = 34 m at 4.2 px/m. No stated size found. Plan: x 921.9-1065.5, y 1104-1173.5."
+  },
+  "文源阁": {
+   "parent": "YM41+ unassigned",
+   "bays": 6,
+   "bay_m": {
+    "central": 5.12,
+    "side": 4.0,
+    "west_narrow": 1.6
+   },
+   "depth_core_m": 7.68,
+   "porch_m": 3.52,
+   "frontage_m": 22.72,
+   "depth_m": 14.72,
+   "storeys": 2,
+   "roof": "disputed: 硬山 per S105, form unsettled",
+   "tiles": "black glazed, green edge (excavation confirms black)",
+   "confidence": "B",
+   "sources": "S105;S117;S01",
+   "note": "Plan shows the narrow west bay, x 3473.5-3597.4, y 1445.9-1502. Built 1775 on the site of 四达亭. 丈尺册 dates from the Guangxu reign (S105). S105 also says the plan is close to 文津阁 and 文溯阁, about 26 x 15 m: unresolved."
+  },
+  "文源阁碑亭": {
+   "parent": "YM41+ unassigned",
+   "platform_m_square": 4.48,
+   "roof": "重檐攒尖 or 盔顶, inferred by S105",
+   "confidence": "B",
+   "sources": "S105"
+  },
+  "清音阁": {
+   "parent": "同乐园, YM41+ unassigned",
+   "storeys": 3,
+   "bays": 3,
+   "ridge_m": 23.94,
+   "frontage_m": 14,
+   "depth_m": 13,
+   "confidence": "B for height, C for footprint",
+   "sources": "S103;S01",
+   "note": "Plan: x 4736-4800, y 2929-2983."
+  },
+  "同乐园正楼": {
+   "parent": "同乐园, YM41+ unassigned",
+   "bays": 5,
+   "storeys": 2,
+   "bay_m": {
+    "central": 3.2,
+    "side": 3.2
+   },
+   "depth_core_m": 5.12,
+   "porch_m": 1.28,
+   "platform_m": 0.35,
+   "platform_edge_m": 0.77,
+   "confidence": "B",
+   "sources": "S103"
+  },
+  "扮戏楼": {
+   "parent": "同乐园, YM41+ unassigned",
+   "bays": 5,
+   "storeys": 2,
+   "frontage_m": 22.2,
+   "depth_core_m": 6.4,
+   "porch_m": 1.6,
+   "confidence": "B",
+   "sources": "S103"
+  },
+  "同乐园南楼": {
+   "parent": "同乐园, YM41+ unassigned",
+   "bays": 9,
+   "storeys": 2,
+   "frontage_m": 32.0,
+   "depth_core_m": 5.92,
+   "column_m": [
+    3.2,
+    2.4
+   ],
+   "platform_m": 0.42,
+   "confidence": "B",
+   "sources": "S103"
+  },
+  "淳化轩戏台": {
+   "parent": "含经堂, CC unassigned",
+   "frontage_m": 16.0,
+   "depth_m": 16.0,
+   "column_m": 4.48,
+   "confidence": "B",
+   "sources": "S103"
+  },
+  "春雨轩土地庙": {
+   "parent": "YM unassigned",
+   "bays": 1,
+   "bay_m": {
+    "central": 3.2,
+    "side": 3.2
+   },
+   "depth_core_m": 3.36,
+   "porch_m": 1.12,
+   "column_m": 2.56,
+   "platform_m": 0.32,
+   "confidence": "B",
+   "sources": "S114"
+  },
+  "吕祖亭": {
+   "parent": "YM37",
+   "frontage_m": 6.72,
+   "depth_m": 6.72,
+   "confidence": "B",
+   "sources": "S114"
+  },
+  "澹怀堂": {
+   "parent": "CC unassigned",
+   "bays": 5,
+   "roof": "卷棚歇山, single 翘重昂 brackets",
+   "frontage_m": 30,
+   "confidence": "B for form, C for size",
+   "sources": "S112;S01",
+   "note": "S112 and the plan (5 bays, 125.6 px) against S06's 九楹: five used. Plan: x 10975-11100.6, y 4456-4556."
+  },
+  "长春园宫门": {
+   "parent": "CC unassigned",
+   "bays": 5,
+   "roof": "卷棚歇山",
+   "tiles": "grey",
+   "confidence": "B",
+   "sources": "S112"
+  },
+  "舍卫城南门": {
+   "parent": "YM41+ unassigned",
+   "frontage_m": 15.4,
+   "depth_m": 12.6,
+   "what": "墩台 (excavated, 1-1.25 m remain)",
+   "confidence": "B",
+   "sources": "S107"
+  },
+  "方壶胜境 (group)": {
+   "parent": "YM29",
+   "footprint_m": [
+    92.8,
+    92.5
+   ],
+   "what": "OSM ruins polygon of the terrace",
+   "tiles": "blue, yellow, green glazed, storeyed, marble terrace",
+   "confidence": "B",
+   "sources": "S03;S08"
+  }
+ },
+ "xiyang_lou": {
+  "XY01": {
+   "zh": "谐奇趣",
+   "floors": "three levels: ground 7 bays, second 7, top 3",
+   "wings": "9-bay curved corridors to two-storey octagonal music pavilions",
+   "cornice": "main, corridor and pavilion cornices at one level (2 cm difference, measured)",
+   "footprint_m": [
+    39.7,
+    38.6
+   ],
+   "box": "main 28 x 14 x 12 m + corridors 20 x 4 x 6 + octagons d 8 x 11",
+   "roof": "庑殿, glazed",
+   "confidence": "C",
+   "sources": "S108;S06;S03",
+   "note": "Forms B (S108). Footprint is an OSM ruins polygon, boxes inferred. S01 draws no main building here: a fountain figure at (8877, 1093), labelled nothing."
+  },
+  "XY02": {
+   "zh": "蓄水楼",
+   "box": "two-storey 10 x 8 x 9 m + one-storey north wing",
+   "confidence": "C",
+   "sources": "S02;S109;S01",
+   "note": "S02 p.143: small two-storey with north wing, one storey. S01 block about 44 x 97 px at (8703, 1087), identification inferred."
+  },
+  "XY03": {
+   "zh": "花园门",
+   "box": "8 x 3 x 6 m gate",
+   "confidence": "C",
+   "sources": "S02;S109;S01",
+   "note": "Southern gate of the maze, stone bridge inside (S109). 37 px on S01."
+  },
+  "XY04": {
+   "zh": "黄花阵 (万花阵)",
+   "wall_height_m": 1.2,
+   "wall_thickness_m": 0.6,
+   "wall_total_m": 1600,
+   "outer_m": [
+    73,
+    99
+   ],
+   "centre": "octagonal pavilion on a round stair base: ring d 20 m, pavilion d 10 m",
+   "north_building": "two-storey about 18 x 10 m",
+   "confidence": "B for walls, C for plan",
+   "sources": "S109;S02;S01;S06",
+   "note": "S109 walls. Stated areas conflict: 89 x 59 m (S06, uncited) and 15000 sq m (S109). Used S01: 350 x 470 px at 4.77 px/m, x 8710-9060, y 420-890. Today's pavilion is white marble from the 1980s rebuild; the original was timber with a glazed roof (S109). Modelling the walls in plan needs tracing."
+  },
+  "XY05": {
+   "zh": "养雀笼",
+   "box": "20 x 10 x 8 m, gateway form",
+   "confidence": "C",
+   "sources": "S02;S01",
+   "note": "Peacock cage; west front in engraving 6, torn down about 1924 (S02 captions after p.145). Size is a guess."
+  },
+  "XY06": {
+   "zh": "方外观",
+   "storeys": 2,
+   "bays": 3,
+   "box": "13 x 11 x 11 m with curved stairs either side",
+   "roof": "重檐四坡, blue glazed",
+   "footprint_m": [
+    44,
+    24.2
+   ],
+   "confidence": "C",
+   "sources": "S06;S03;S01",
+   "note": "Form B (S06). OSM polygon includes the terraces. Block 60 x 53 px on S01."
+  },
+  "XY07": {
+   "zh": "五竹亭",
+   "box": "five pavilions, 6 x 6 x 5 m, with galleries",
+   "confidence": "C",
+   "sources": "S06",
+   "note": "Bamboo-faced, S06. Size a guess."
+  },
+  "XY08": {
+   "zh": "海晏堂",
+   "storeys": 2,
+   "bays": "11 on the west front",
+   "complex_m": [
+    135.2,
+    54.5
+   ],
+   "tank": {
+    "zh": "锡海",
+    "length_m": 27.36,
+    "width_m": 5.72,
+    "depth_m": 1.44
+   },
+   "tank_block_box": "27 x 10 x 9 m, hip",
+   "core_remains_height_m": 7.2,
+   "brick_casing_m": 5,
+   "box": "west main block 19 x 44 x 13 m, tank block as above, east block 22 x 26 x 9 m",
+   "confidence": "B for tank, C for boxes",
+   "sources": "S109;S110;S03;S01",
+   "note": "Plan central strip 130 px = 4.75 px/m on the tank length, which fits the ground scale. Boxes scaled at 4.77 px/m from the plan: x 9801-10261."
+  },
+  "XY09": {
+   "zh": "远瀛观",
+   "bays": 5,
+   "form": "centre three bays set back, three storeys under a double-eave hip roof; ends two-tier clock-pavilion roofs",
+   "footprint_m": [
+    59.2,
+    51.0
+   ],
+   "box": "21 x 18 x 15 m, base 2 m",
+   "confidence": "C",
+   "sources": "S109;S03;S01",
+   "note": "Form B (S109). Plan x 10517-10615, y 780-865. OSM polygon includes the terrace."
+  },
+  "XY10": {
+   "zh": "大水法",
+   "pool_m": [
+    29,
+    19
+   ],
+   "towers": "two 13-tier square fountain towers, each in a pool",
+   "box": "niche wall 20 x 3 x 9 m",
+   "confidence": "C",
+   "sources": "S109;S06;S01",
+   "note": "Plan oval 137 x 92 px. Height a guess; ruins survive: check against S130-159 site work."
+  },
+  "XY11": {
+   "zh": "观水法",
+   "box": "throne platform 12 x 6 x 1 m + screen 15 x 1 x 5 m",
+   "confidence": "C",
+   "sources": "S01",
+   "note": "Guess."
+  },
+  "XY12": {
+   "zh": "线法山",
+   "hill_diameter_m": 38,
+   "hill_height_m": 8,
+   "pavilion": "small octagon on top",
+   "confidence": "C",
+   "sources": "S01",
+   "note": "Plan label 转马台, circle 182 px. Height a guess."
+  },
+  "XY13": {
+   "zh": "螺蛳牌楼",
+   "box": "8 x 1.5 x 7 m",
+   "confidence": "C",
+   "sources": "S01",
+   "note": "Plan label 螺蛳牌楼. Guess."
+  },
+  "XY14": {
+   "zh": "方河",
+   "water_m": [
+    149.2,
+    45.0
+   ],
+   "confidence": "B",
+   "sources": "S03;S01",
+   "note": "OSM polygon of today's water; S01 647 x 253 px is a little wider N-S."
+  },
+  "XY15": {
+   "zh": "线法墙",
+   "box": "seven pairs of screen walls, each 6 x 1 x 5 m",
+   "confidence": "C",
+   "sources": "S06;S01",
+   "note": "Plan label 线法画. Sizes a guess."
+  }
+ },
+ "_how_to_use": "Stated size in by_name or xiyang_lou wins; else S01 px / hall scale (frontage 4.18, depth 3.31 px/m); bay COUNT from S01; heights, roof and bay split from the class. scripts/build_r1.py applies this. by_name is keyed by Chinese name because hall ids came later."
+}

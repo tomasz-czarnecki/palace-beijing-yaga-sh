@@ -1,0 +1,3 @@
+[
+ {"id":"BR1","line":[5473,4272,5548,4333],"reason":"Cuts the south-west arm off Fuhai, about 95 px across, so the lake polygon ends at the corner and the arm (x about 5275-5525, y about 4320-4370) stays a canal region of its own. The drawing has no line here: this is a cut for the model, not a repair of the ink."}
+]

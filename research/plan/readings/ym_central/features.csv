@@ -1,0 +1,35 @@
+kind,id,name_on_plan,read,x1,y1,x2,y2,region_id,note
+bridge,YM03-22,南大桥,sure,2968,4962,2975,5040,,Label sure; strip from the island south shore to the 前湖 west bank
+bridge,YM03-21,如意桥,sure,3690,4890,3690,4960,,"Label sure; east of 前湖 at (3700,4960)"
+bridge,YM10-08,,likely,2522,3949,2522,3991,,碧澜桥: flared-end bridge between 杏花春馆 and 坦坦荡荡 (was B0713)
+bridge,YM12-11,,likely,2279,4995,2346,4995,,鸣玉溪桥: flared-end bridge on the north channel of 长春仙馆 (was B0951)
+bridge,YM03-23,,guess,2790,4478,2850,4495,,棕亭桥: channel crossing at the NW corner of 九洲清晏
+bridge,YM01-02,,likely,3286,5740,3329,5748,,"石桥 on the moon stream south of 出入贤良门 (was B1181). Text 驾石桥三: I see one trapezoid and gaps in the stream wall at about x 3225 and x 3370, not clear"
+bridge,,,likely,3720,4490,3757,4470,,To the octagon 来青亭 from the 九洲清晏 island
+bridge,,,likely,2424,4422,2424,4465,,"坦坦荡荡 to 茹古涵今, walled causeway ends"
+bridge,,,likely,2743,3934,2743,3990,,"杏花春馆 to 坦坦荡荡, east crossing"
+bridge,,,likely,3853,3620,3853,3663,,碧桐书院 to 天然图画
+bridge,,,likely,3857,4251,3857,4294,,天然图画 to 镂月开云
+bridge,,,likely,1790,4240,1836,4240,,West of 十字亭
+bridge,,,likely,1880,4240,1990,4232,,East of 十字亭
+gate,G02,出入贤良,sure,3307,5669,,,,Correction: gates.json x 3305 y 5755 is on the bridge; the gate row is at y 5669
+gate,G03,东水?门,likely,3948,5710,,,,"Label written along the wall; first char 东 (reads like 来), second like 水, third unread"
+gate,,西水?门,likely,2627,5715,,,,New. West twin of G03. Third char may be 意
+gate,,左门,sure,3195,5943,,,,West small gate beside 大宫门
+gate,,左门,likely,3393,5937,,,,East small gate; also reads 左门
+water_name,,后湖,sure,3310,3930,,,R0012,Written 後湖
+water_name,,前湖,sure,3296,5110,,,R0071,
+island_name,,鱼家寨,sure,4143,3279,,,,Wedge of land; no region caught
+hill_name,,,likely,3300,5335,,,,"寿山: two ridges, no label, no region caught; rect 380 x 100"
+hill,,,likely,3150,3320,,,,"Outlined hill mound of 上下天光 island, rough size 260 x 170, around B0613-B0615; contour line, may be a hill"
+hill,,,likely,4050,4730,,,,"Peony rock field of 镂月开云, about 300 x 200, R0781; rocks drawn all over, 牡丹台 of Malone p.79"
+water_fix,,,likely,,,,,R1029,"North-west pond cell of 坦坦荡荡: class land, should be water. Fish pond with kiosk 知鱼亭; plan draws four walled rectangles"
+water_fix,,,likely,,,,,R0827,"South-west pond cell of 坦坦荡荡: class court, should be water"
+water_fix,,,likely,,,,,R0854,"South-east pond cell of 坦坦荡荡: class land, should be water"
+water_fix,,,sure,,,,,R0228,"Court between 出入贤良门 and 大宫门: class outside, should be court. It is inside the main gate"
+water_fix,,,likely,,,,,R0192,"膳房 cell north of the wall line: class outside, should be court"
+water_fix,,,likely,,,,,R0403,"Cell east of 膳房: class outside, should be court"
+water_fix,,,likely,,,,,R0247,"清茶房 and 银库 cell: class outside, should be court"
+water_fix,,,likely,,,,,R0582,"Cell west of 清茶房: class outside, should be court"
+water_fix,,,likely,,,,,R0334,"南书房 cell: class outside, should be court"
+slip,SL1,,guess,3240,4550,3350,4870,,"Not supported. See notes: no paper edge; the paper in this court (median 196-198) falls inside the 191-200 range of other courts, and 后湖 reads 199; pale ghost labels occur on other islands too. Malone says a slip here: I cannot find one on this scan"

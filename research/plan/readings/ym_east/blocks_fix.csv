@@ -1,0 +1,58 @@
+block_id,action,x,y,w_px,h_px,angle_deg,note
+B0005,resize,7895,316,90,43,0,"Box ran across 3 buildings. West one kept; A-ym_east-003, -004 added."
+B0146,resize,7936,898,58,40,0,Box ran over tower + gallery + tower. NW tower kept; SW tower A-ym_east-007.
+B0682,resize,5503,3730,60,58,-90,Box was off the hall: drawing covers x 5475-5533.
+B0390,resize,8197,2240,50,32,-90,Box only part of the hall.
+B0539,resize,7075,2977,117,40,-90,East range of the main court.
+B0760,resize,7108,4274,68,14,0,Box covered the blank court. Hall is the thin row at its top.
+B0200,reject,,,,,,"Blank terrace south of 方壶胜境 hall, no bays."
+B0148,reject,,,,,,"Blank outline, no bays. Possibly a platform."
+B0327,reject,,,,,,"五孔闸 sluice G14, see features."
+B0199,reject,,,,,,"涌金桥 bridge, see features."
+B0762,reject,,,,,,"Covered bridge, see features."
+B0816,reject,,,,,,"Blank strip in 春和镇, possibly the gate passage."
+B0091,reject,,,,,,Blank court between B0089-90 and B0092.
+B0093,reject,,,,,,Blank walled yard.
+B0030,reject,,,,,,Blank rectangle beside B0029.
+B0400,reject,,,,,,Blank walled yard with a door on the south.
+B0198,merge:B0196,,,,,,Same dock row.
+B0043,merge:B0042,,,,,,Same 4-cell hall.
+A-ym_east-001,add,7012,2880,175,60,0,"蓬岛瑶台 main hall, north range of the court"
+A-ym_east-002,add,6981,3061,202,42,0,蓬岛瑶台 south range
+A-ym_east-003,add,8035,316,90,43,0,澄景堂
+A-ym_east-004,add,8150,316,120,43,0,清旷楼
+A-ym_east-005,add,8137,899,59,40,0,方壶胜境 NE tower
+A-ym_east-006,add,8137,1005,59,34,0,方壶胜境 SE tower
+A-ym_east-007,add,7936,1013,58,38,0,方壶胜境 SW tower
+A-ym_east-008,add,7865,1205,40,40,0,方壶胜境 west lake pavilion
+A-ym_east-009,add,8232,1195,40,40,0,方壶胜境 east lake pavilion
+A-ym_east-010,add,6715,4200,46,46,0,夹镜鸣琴 bridge pavilion
+A-ym_east-011,add,7115,4222,30,20,0,广育宫 gate
+A-ym_east-012,add,8048,4428,88,65,0,"Big hall, ?水澄?"
+A-ym_east-013,add,7974,4437,62,30,0,West wing of it
+A-ym_east-014,add,8121,4437,58,30,0,East wing of it
+A-ym_east-015,add,7728,4170,30,30,0,涵碧亭
+A-ym_east-016,add,7672,4370,45,100,0,秀清村 water gate tower
+A-ym_east-017,add,8196,2068,30,32,0,贻兰亭
+A-ym_east-018,add,8255,2110,25,35,0,Hall east of 贻兰亭
+A-ym_east-019,add,4405,2415,20,20,0,坐石临流 pavilion
+A-ym_east-020,add,5572,2530,22,22,0,山高先得月 pavilion
+A-ym_east-021,add,4510,5297,100,35,0,后天不老 hall
+A-ym_east-022,add,4768,2965,68,70,0,清音阁 stage
+A-ym_east-023,add,4399,3960,38,60,0,苏堤春晓
+A-ym_east-024,add,5325,688,100,95,0,课农轩 big hall
+A-ym_east-025,add,5183,680,40,40,0,观音庵
+A-ym_east-026,add,7020,360,60,30,0,关帝庙 main hall
+A-ym_east-027,add,8430,1678,40,22,0,龙王庙
+A-ym_east-028,add,5980,1565,34,34,0,Square hall west of 平湖秋月
+A-ym_east-029,add,5122,1230,24,24,0,Pavilion in a rock ring
+A-ym_east-030,add,5498,3645,44,20,0,Hall north of 澄虚榭
+A-ym_east-031,add,6097,1170,24,24,0,Polygon pavilion in 安澜园
+A-ym_east-032,add,5252,3295,75,50,0,"Two-part hall on the hill, YM30"
+A-ym_east-033,add,8128,3338,33,25,0,Hall north of B0629
+A-ym_east-034,add,7027,4305,40,40,0,Group west of 广育宫 court
+A-ym_east-035,add,8458,2490,180,18,-90,"Long row, storehouse area"
+A-ym_east-036,add,8435,2415,35,30,0,Square block beside it
+A-ym_east-037,add,8378,993,22,14,0,蕊珠宫 court gate
+A-ym_east-038,add,7605,955,18,18,0,"Pavilion at the end of the gallery, 三潭印月 lake"
+A-ym_east-040,add,7205,3028,16,16,0,瀛海仙山 pavilion

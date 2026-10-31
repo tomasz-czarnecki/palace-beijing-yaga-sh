@@ -1,0 +1,82 @@
+x,y,class,name_zh,confidence,note,seen_as
+6314,3488,water,福海 Fuhai,A,Labelled by Malone 30/32/33 round it; the big near-square lake; island group 蓬岛瑶台 inside; wash along the shore,R0002
+3059,4152,water,后湖 Houhu,A,Written on the plan: 後湖; nine islands round it,R0012
+3437,5111,water,前湖 Qianhu,A,Written on the plan: 前湖; south of 九洲清晏,R0071
+1877,3811,water,万方安和 lake,B,"万方安和 hall on its swastika plan stands in it; weak wash, big lake",R0032
+4765,3881,water,曲院风荷 lotus lakes,B,Paired oval lakes at Malone 39; strong wash,R0046
+4762,4542,water,曲院风荷 lotus lakes,B,Paired oval lakes at Malone 39; strong wash,R0048
+9358,2163,water,海岳开襟 lake,B,Green wash along the shore; 海岳开襟 round terrace stands in it,R0008
+10927,2163,water,,B,"Changchun lake: green wash along the shore, no halls",R0009
+10160,3206,water,,B,"Changchun lake: green wash along the shore, no halls",R0054
+9079,3773,water,,B,"Changchun lake: green wash along the shore, no halls",R0059
+9453,4239,water,,B,"Changchun lake: green wash along the shore, no halls",R0019
+11827,2292,water,,B,"Changchun lake: green wash along the shore, no halls",R0006
+11890,3131,water,,B,"Changchun lake: green wash along the shore, no halls",R0045
+11962,1130,water,方河 Fanghe,B,Rectangular pool at the east end of the Xiyang Lou strip,R0070
+8858,5271,water,,B,Qichun lake: pavilions stand in it (鉴碧亭 in R0024),R0007
+8967,7042,water,,B,Qichun lake: pavilions stand in it (鉴碧亭 in R0024),R0024
+7500,7122,water,,C,Holds an island with a hall; weak wash. Small lobes on it may be hills,R0015
+2092,1687,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0140
+1324,1618,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0150
+770,2344,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0085
+1488,1033,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0083
+1877,1429,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0097
+1736,5580,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0034
+731,5058,water,,C,"Band or ring between islands, crossed by bridges; paper stained, tint weak",R0047
+3905,1667,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0029
+3932,1159,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0033
+3215,531,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0088
+2869,1118,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0108
+4466,657,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0240
+3295,2442,field,稻田 rice field,A,Written on the plan: 稻田 rice field,R0202
+1055,3999,land,山高水长 Shangao Shuichang,B,Open ground at Malone 15; wash absent,R0011
+1449,548,land,,C,"No wash, no bridges across; by eye",R0013
+602,4202,land,,C,"No wash, no bridges across; by eye",R0014
+442,4140,land,,C,"No wash, no bridges across; by eye",R0039
+493,1047,land,,C,"No wash, no bridges across; by eye",R0041
+1466,4065,land,,C,"No wash, no bridges across; by eye",R0087
+1458,3800,land,,C,"No wash, no bridges across; by eye",R0264
+2065,4484,land,,C,"No wash, no bridges across; by eye",R0151
+2879,5326,land,,C,"No wash, no bridges across; by eye",R0189
+3192,5600,land,,C,"No wash, no bridges across; by eye",R0079
+1555,5240,land,,C,"No wash, no bridges across; by eye",R0129
+4980,2129,land,,C,"No wash, no bridges across; by eye",R0016
+4997,4113,land,,C,"No wash, no bridges across; by eye",R0091
+3940,572,land,,C,"No wash, no bridges across; by eye",R0105
+2710,436,land,,C,"No wash, no bridges across; by eye",R0052
+3042,733,land,,C,"No wash, no bridges across; by eye",R0190
+2901,1686,land,,C,"Dark paper, compound in the middle, lobed lines read as hills",R0043
+1007,1775,island,,C,Ringed by the washed band R0149; three pavilions,R0065
+8926,6744,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0125
+10054,6248,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0134
+10037,3814,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0137
+10682,4026,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0118
+10439,4135,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0304
+10155,3604,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0119
+10446,2658,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0277
+10853,2630,hill,,C,"Closed lobed outline inside land, no wash, no halls",R0343
+8608,1210,wall_strip,,C,Long narrow strip along the wall,R0025
+8577,3468,wall_strip,,C,Long narrow strip along the wall,R0112
+8599,4555,wall_strip,,C,Long narrow strip along the wall,R0124
+12193,5027,wall_strip,,C,Long narrow strip along the wall,R0286
+12465,4540,wall_strip,,C,Long narrow strip along the wall,R0184
+12479,1959,wall_strip,,C,Long narrow strip along the wall,R0199
+12607,1483,wall_strip,,C,Long narrow strip along the wall,R0195
+12566,1637,wall_strip,,C,Long narrow strip along the wall,R0281
+12518,3039,wall_strip,,C,Long narrow strip along the wall,R0287
+12511,3325,wall_strip,,C,Long narrow strip along the wall,R0219
+5337,4724,wall_strip,,C,Long narrow strip along the wall,R0198
+10418,6081,wall_strip,,C,Long narrow strip along the wall,R0069
+5612,4555,wall_strip,,C,Long narrow strip along the wall,R0351
+10177,5181,wall_strip,,C,Long narrow strip along the wall,R0110
+10232,5972,wall_strip,,C,Long narrow strip along the wall,R0155
+11621,479,outside,,B,"Outside the wall ring, blank paper or later fields",R0004
+12549,705,outside,,B,"Outside the wall ring, blank paper or later fields",R0049
+12733,189,outside,,B,"Outside the wall ring, blank paper or later fields",R0036
+12690,3869,outside,,B,"Outside the wall ring, blank paper or later fields",R0010
+6294,5298,outside,,B,"Outside the wall ring, blank paper or later fields",R0005
+7430,4894,outside,,B,"Outside the wall ring, blank paper or later fields",R0021
+10591,6286,outside,,B,"Outside the wall ring, blank paper or later fields",R0102
+10925,5637,outside,,B,"Outside the wall ring, blank paper or later fields",R0003
+4741,7472,outside,,B,"Outside the wall ring, blank paper or later fields",R0001
+3704,2558,field,稻田 rice field,A,Written on the plan: 稻田 rice field,by point

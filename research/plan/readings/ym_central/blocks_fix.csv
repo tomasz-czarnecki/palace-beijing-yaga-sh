@@ -1,0 +1,66 @@
+block_id,action,x,y,w_px,h_px,angle_deg,note
+B0564,reject,,,,,,court
+B0567,reject,,,,,,court
+B0592,reject,,,,,,court
+B0598,reject,,,,,,court
+B0618,reject,,,,,,court
+B0619,reject,,,,,,court
+B0622,reject,,,,,,court
+B0665,reject,,,,,,court between two rows
+B0675,reject,,,,,,court
+B0678,reject,,,,,,court
+B0700,reject,,,,,,court
+B0713,reject,,,,,,bridge 碧澜桥
+B0858,reject,,,,,,court with the 茂?? label
+B0871,reject,,,,,,court
+B0876,reject,,,,,,narrow court or wall stub
+B0927,reject,,,,,,court
+B0951,reject,,,,,,bridge with flared ends
+B0981,reject,,,,,,court
+B0983,reject,,,,,,court
+B0985,reject,,,,,,court
+B1006,reject,,,,,,court
+B1007,reject,,,,,,court
+B1009,reject,,,,,,court
+B1018,reject,,,,,,court
+B1050,reject,,,,,,court with the pale ?香? label
+B1181,reject,,,,,,"bridge and stream, not a hall"
+B0806,merge:B0807,,,,,,"same row, 七间殿"
+B0807,resize,3416,4532,120,31,0,7 bays x 3356-3476
+B0867,merge:B0868,,,,,,same hall
+B0869,merge:B0868,,,,,,same hall
+B0868,resize,3300,4678,112,36,0,"奉三无私殿, 7 bays"
+B0934,merge:B0935,,,,,,圆明园殿
+B0935,resize,3290,4890,92,37,0,5 bays
+B0902,merge:B0904,,,,,,前殿 one row
+B0904,resize,2938,4752,92,34,0,5 bays
+B0979,merge:B0980,,,,,,same hall
+B0980,resize,2272,5240,76,42,0,藤影花丛 hall
+B1016,merge:B1015,,,,,,林虚桂静
+B1015,resize,2344,5262,70,34,0,5 bays
+B1056,merge:B1057,,,,,,勤政殿
+B1057,resize,3692,5425,86,65,0,4 bays
+B1054,resize,3556,5394,87,29,0,"洞明堂, 5 cells"
+B0970,resize,3946,5079,178,32,0,"富春楼, whole row x 3857-4036"
+B1153,resize,3307,5669,94,25,0,"出入贤良门, 5 bays"
+B1152,merge:B1151,,,,,,one row
+B1151,resize,3170,5675,85,22,0,west flank of 出入贤良门
+B1154,resize,3433,5670,93,22,0,east flank of 出入贤良门
+B1247,merge:B1219,,,,,,same long row
+B1219,resize,3510,6115,285,36,-90,"row to y about 6258, about 20 bays, twin of B1217"
+A-ym_central-001,add,2520,4820,118,24,0,"south gate row of 茹古涵今, x 2461-2579; no box"
+A-ym_central-002,add,2938,4553,93,28,0,后殿 hall row; no box
+A-ym_central-003,add,3419,4655,34,33,0,square pavilion in the ring of rock in the court south of 七间殿; form unclear
+A-ym_central-004,add,3417,4719,38,22,0,gate south of that court
+A-ym_central-005,add,3894,4013,28,40,0,"天然图画, small two-part tower"
+A-ym_central-006,add,4292,3870,44,28,0,building at the bank near the scroll gap
+A-ym_central-007,add,3946,3461,86,28,0,6-bay south row of 碧桐书院; no box
+A-ym_central-008,add,3752,3312,52,46,0,multi-cell block in 碧桐书院 west; no box
+A-ym_central-009,add,3061,3624,29,17,0,"small 3-cell pier on the lake, 上下天光"
+A-ym_central-010,add,2764,3847,26,24,0,square pavilion near the 杏花春馆 label
+A-ym_central-011,add,2775,4482,28,20,0,"small pavilion on the channel lobe, may be the 棕亭 of 棕亭桥"
+A-ym_central-012,add,2550,5435,58,24,0,gate of 长春仙馆
+A-ym_central-013,add,2343,5408,72,16,0,raised row at the south end of 林虚桂静 court
+A-ym_central-014,add,2005,3338,26,85,0,swastika trunk north-south
+A-ym_central-015,add,2005,3340,148,22,0,swastika trunk east-west
+A-ym_central-016,add,1990,4615,48,24,0,middle row of the small island NEW-02; no box

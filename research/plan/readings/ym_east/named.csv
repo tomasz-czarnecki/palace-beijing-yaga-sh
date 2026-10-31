@@ -1,0 +1,139 @@
+id,parent_id,name_on_plan,read,block_ids,plan_x,plan_y,ncols,nrows,orientation_note,note
+YM25-01,YM25,(no label),likely,B0052,4774,646,6,5,S (四面为门),Text: 5 bays per side; plan grid 6x5. Hall identified by Malone 25.
+YM25-02,YM25,(no label),guess,B0078,4871,796,3,1,,东厢: 畅观轩 position only.
+YM25-03,YM25,(no label),guess,B0077,4678,830,3,1,,西南: 铺翠环流 position only.
+YM25-04,YM25,(no label),guess,B0111,4776,896,3,1,,南: 传妙 position only.
+YM25-05,YM25,(no label),guess,,5030,855,1,1,,"又南出山口: 多子亭. Hex outline by the rocks. rect=18,18,0"
+YM51-N01,YM51,课农轩,likely,A-ym_east-024,5325,688,3,3,S,"Label is between this hall and B0080. Taken as the hall to its north, the usual placement here."
+NEW-ym_east-01-N01,NEW-ym_east-01,观音庵,likely,A-ym_east-025,5183,680,1,1,S,"Round building on a mound with flanks B0059, B0060."
+YM49-03,YM49,若帆之阁,likely,B0040,5996,456,3,3,,"Label sits SE of it, nearest multi-storey-looking square hall."
+YM49-02,YM49,(no label),guess,B0017,6083,410,3,1,,"耕云堂, text order only."
+YM49-01,YM49,(no label),guess,B0019,6242,440,3,1,,"湛虚翠轩, text order only. Text puts 关帝庙 东数十武, while the plan has hundreds of px between them."
+YM49-04,NEW-ym_east-02,关帝庙,sure,A-ym_east-026,7020,360,3,1,S,"Label in the court. B0021, B0023 flank it."
+YM50-N01,YM50,三潭印月,sure,,7428,1030,,,,"Three small circles in the round lake R0856, about (7415,1017), (7440,1017), (7440,1045). rect=30,35,0"
+YM50-01,NEW-ym_east-03,天宇空明,likely,B0029,8066,419,2,1,S,Label south of this hall. B0044 is a small water pavilion at the shore south of the label.
+YM50-02,NEW-ym_east-03,澄景堂,sure,A-ym_east-003,8035,316,5,1,S,Label just south. Block B0005 ran across three buildings.
+YM50-03,NEW-ym_east-03,清旷楼,sure,A-ym_east-004,8150,316,6,1,S,First character blurred but text confirms: 堂东为清旷楼.
+YM50-04,NEW-ym_east-03,(no label),likely,B0005,7895,316,5,1,S,"华照楼, 西: west wing after B0005 is resized."
+YM28-01,YM28,(label 安澜园 south of it),likely,B0136,6163,990,5,1,S,"Text 五楹 on the 北岸: fits. B0120, also 5x1, is the alternative."
+YM28-04,YM28,(no label),guess,A-ym_east-031,6097,1170,1,1,,Polygon pavilion among rocks on the lake: 飞睇亭 candidate.
+YM28-11,NEW-ym_east-10,船坞,sure,B0168;B0169;B0194;B0195;B0170;B0171;B0196;B0197,6396,1079,14,1,,"Two groups, each 4 rows: text 东西船坞各二所."
+YM29-01,YM29,(scene label 方壶胜境),likely,B0174,8037,1142,5,1,S,"Text 上下各五楹, plan 5 bays. B0173, B0176 are the side towers, B0175 a link north."
+YM29-03,YM29,迎薰亭,sure,B0213,8047,1294,2,1,S,Label just south. Central lake pavilion. Name not in inventory.
+YM29-N01,YM29,(no label),likely,A-ym_east-008,7865,1205,1,1,S,West lake pavilion with stepped terrace.
+YM29-N02,YM29,(no label),likely,A-ym_east-009,8232,1195,1,1,S,East lake pavilion with stepped terrace.
+YM29-04,YM29,哕鸾殿,sure,B0147,8041,1010,5,1,S,Label just south.
+YM29-05,YM29,琼华楼,sure,B0125,8042,872,5,2,S,Label just south.
+YM29-06,YM29,蕊珠宫,sure,B0128,8388,874,4,1,S,Label south of the court gate A-ym_east-037. Bays may be 5 once drawn lines are counted.
+YM29-07,YM29,(no label),likely,,8460,1475,,,,"Slot dock south of 蕊珠宫, text 宫南船坞. rect=80,170,0"
+YM29-08,YM29,龙王庙,sure,A-ym_east-027,8430,1678,2,1,,Label just east.
+YM30-01,YM30,澄虚榭,sure,B0682,5503,3730,5,2,E,"Text 正宇三楹东向: faces E fits, plan shows 5 cells on the frontage, not 3. Small jetty pavilion at (5540,3725)."
+YM30-02,YM30,(no label),guess,B0703,5502,3807,3,2,,"含清晖, 南."
+YM30-03,YM30,(no label),guess,A-ym_east-030,5498,3645,3,1,,"涵妙识, 北."
+YM30-07,YM30,望瀛洲,sure,B0537,5482,2953,1,1,E,Label just east.
+YM30-08,YM30,深柳读书堂,sure,B0518,5296,2866,3,1,S,Label just south. Text says north of 望瀛洲; plan has it west of it.
+YM30-09,YM30,溪月松风,sure,B0448,5252,2630,3,2,S,Label just east.
+YM30-N01,YM30,延真院,sure,B0552;B0551,5410,3077,5,1,S,"Label by the south gate of a walled court. Two 5-bay halls; side halls B0553, B0575-578. Not in inventory."
+YM30-N02,YM30,溪山?画,likely,B0579,5543,3181,2,1,E,"Pavilion on a bridge in the lake. First character likely 溪, third blurred; faint later pencil beside it. Not in inventory."
+YM31-01,YM31,平湖秋月,sure,B0298,6053,1700,4,4,S,Text 正宇三楹; plan grid 4x4.
+YM31-02,YM31,(no label),guess,A-ym_east-028,5980,1565,2,2,,"流水音, 西."
+YM31-N01,YM31,松风梦月,sure,B0223,6201,1438,3,1,S,Label just east. Fourth character 月; third 梦 slightly cursive. Stands where the text puts 花屿兰皋 (东北出山口临河). Not in inventory.
+YM31-04,YM31,(no label),guess,B0238,6308,1538,3,1,,"两峰插云, 东南度桥."
+YM31-05,YM31,(no label),guess,B0239,6636,1526,2,1,,山水乐.
+YM31-06,YM31,君子轩,likely,B0240,7172,1494,3,4,S,"Label directly south of B0240, the only building here. Shares it with 藏密楼."
+YM31-07,YM31,藏密楼,likely,B0240,7172,1494,3,4,S,"Label touches the NE corner of B0240. S111: 南向三间歇山楼. North half has a round end at a rock-lined path. The block may hold both 轩 and 楼. OSM 藏密楼 maps far off at (7765,1626)."
+NEW-ym_east-09-N01,NEW-ym_east-09,松风阁,sure,B0265,7554,1598,5,1,S,Label just south. S111 five bays: fits.
+NEW-ym_east-09-N02,NEW-ym_east-09,(no label),guess,B0300,7744,1716,3,1,S,"翠云幄 candidate: S111 阁东三间南向殿, Xianfeng plaque list."
+YM32-02,YM32,蓬岛瑶台,likely,A-ym_east-001,7012,2880,7,2,S,Label in the court south of it. Text 正殿七楹: 7 fits; central 3 bays project south.
+YM32-01,YM32,(no label),likely,A-ym_east-002,6981,3061,9,1,S,"South range. Text 门三楹南向: gate is mid-range, steps at (6985,3098). Range is more than a gate."
+YM32-03,YM32,(no label),guess,B0539,7075,2977,6,1,W,"畅襟楼: east range, 殿前东. After resize."
+YM32-04,YM32,(no label),guess,B0538,6898,2960,4,1,E,"神洲三岛: west range, 殿前西."
+YM32-07,YM32,瀛海仙山,sure,A-ym_east-040,7205,3028,1,1,,"Label (7305,3120) on the east island, with rocks. Small square near the label; a semicircular outline stands at about (7220,2970)."
+YM32-08,YM32,值房,likely,B0456,6778,2708,3,1,S,"Label south of the north island reads 值房, a service use. Text: 北岛正宇三楹. Bay count fits."
+YM33-01,YM33,(no label),guess,B0646,8177,3518,2,2,W,接秀山房正宇 candidate. S111: the name no longer appears in Daoguang or Xianfeng records.
+YM33-08,YM33,观澜堂,sure,B0683,8156,3725,5,3,S,"Label just south in its walled court. S111: 三卷五间, built about 1817: plan 5x3 fits exactly."
+YM33-N01,YM33,(no label),likely,B0684,8232,3723,6,1,W,围房 east of 观澜堂. S111 gives 10 rooms; plan has 6 in this block.
+YM33-N02,YM33,(no label),guess,A-ym_east-033,8128,3338,2,2,W,"North hall, wall bay on the shore."
+YM34-01,YM34,别有洞天,sure,B0749,8038,4180,5,2,S,Label just south. Text 五楹: fits.
+YM34-02,YM34,(no label),guess,B0748,7955,4170,3,1,,"纳翠楼, 西."
+YM34-03,YM34,(no label),guess,B0747;B0746,7918,4236,3,1,,"水木清华之阁: 西南 and east of 时赏斋, by text."
+YM34-04,YM34,时赏斋,sure,B0745,7842,4192,2,1,S,"Label inside a walled court, this hall north of it. Text: 阁西稍北."
+YM34-05,YM34,秀清村,sure,A-ym_east-016,7672,4370,3,3,N,"Label just west of the gate tower, Malone: fortified gateway over the stream leading to Hsiu Ch'ing Ts'un. So the label may mark the gate, the village itself lying east."
+YM34-06,YM34,(same as 秀清村),likely,A-ym_east-016,7672,4370,3,3,N,"城关 水关: the same tower, spanning the stream. rect=45,100,0"
+YM34-07,YM34,(no label),guess,,8255,4395,,,,"石舫 candidate: small boat-like outline. rect=30,40,0"
+YM34-N01,YM34,涵碧亭,sure,A-ym_east-015,7728,4170,1,1,,Label just north. Not in inventory.
+YM34-N02,YM34,?水澄?,likely,A-ym_east-012,8048,4428,5,3,S,"Biggest hall of the south-east group, wings A-ym_east-013, A-ym_east-014. Label below reads across a pond: first character like 蔽, last like 华. Not 水木清华 as far as legible."
+YM34-N03,YM34,?漾楼,likely,B0763,8526,4286,5,1,E,"Label just east, along the wall."
+YM34-N04,YM34,竹??山斋,likely,B0783,8354,4441,3,1,S,"Label south. 竹, 山, 斋 clear, middle characters not. Block says 2x1, drawn 3 cells."
+YM35-01,YM35,夹镜鸣琴,sure,A-ym_east-010,6715,4200,3,3,N,Pavilion on a bridge; text 虹桥 ... 杰阁. Label is south of it.
+YM35-02,YM35,(no label),guess,A-ym_east-034,7027,4305,2,3,,"聚远楼 candidate; text puts it 南 of the bridge, where the plan shows no building at all. S111 confirms a 聚远楼 on the south shore."
+YM35-03,YM35,广育宫,sure,B0760,7108,4274,5,1,N,"Label north of the gate A-ym_east-011. Faces the lake, N. After resize."
+YM35-05,YM35,(no label),likely,B0778,7112,4377,3,1,N,"凝祥殿, 后: south of the main hall since the group faces N."
+YM35-06,YM35,南屏晚钟,sure,B0743,7368,4236,2,2,,Label just east.
+YM35-07,YM34,(no label),guess,B0744,7650,4218,5,1,S,"西山入画, 又东度桥: the bridge at (7540,4190). Falls in the YM34 polygon, kept with its text parent YM35."
+YM35-08,YM34,(no label),guess,B0726,7838,4102,5,1,S,山容水态 by text order.
+YM35-09,YM35,湖山在望,sure,B0741,5936,4176,3,1,S,Label just east.
+YM35-N01,YM35,一碧万顷,sure,B0742,6400,4222,1,1,,Label just east. Not in inventory.
+YM36-01,YM36,雷峰照,sure,B0457,8204,2668,3,2,W,"Three characters legible, 夕 absent or faint. Text 雷峰夕照; S111 三间 with 抱厦, W: fits."
+YM36-02,YM36,惠如春,sure,B0449,8170,2578,2,1,S,"S111 two bays, S: fits."
+YM36-03,YM36,(no label),guess,A-ym_east-018,8255,2110,2,3,,寻云榭 by text: 东北.
+YM36-04,YM36,贻兰亭,sure,A-ym_east-017,8196,2068,2,2,,"Plan 亭, text 庭, S111 贻兰庭 四方重檐亭. Label is west across the shore line."
+YM36-05,YM36,会心不远,sure,B0390,8197,2240,3,2,W,"S111 three bays, W: fits. After resize."
+YM36-06,YM36,(no label),guess,B0554,8137,3060,3,1,W,临众芳 by text order.
+YM36-07,YM36,云锦墅,sure,B0581,8193,3222,5,1,W,"Label just east. S111: five bays W, both overall plans label it so. Fits."
+YM36-N01,YM36,值房,sure,B0342;B0343,8127,1866,3,1,,"S111: 贻兰庭北边,倚山为值房院. Fits."
+YM36-N02,YM36,(no label),likely,B0344;B0345;B0368;B0402,8342,1929,12,1,,"Long rows on the hill: storehouses by S111 (明春门北边临山为库房区). 库房两座21间 in 1791; plan shows more. Also A-ym_east-035, A-ym_east-036."
+YM37-01,YM37,廓然大公,sure,B0257,5340,1632,7,2,S,Label south of it in the court. Text 七楹: fits.
+YM37-02,YM37,双鹤斋,sure,B0324,5339,1771,5,2,S,Label just south. Text: 前为双鹤斋.
+YM37-04,YM37,(no label),likely,B0258,5562,1576,3,1,,"绮吟堂, 东北. OSM point at (5681,1466)."
+YM37-06,YM37,(no label),guess,B0221,5486,1356,3,3,,峭蒨居 candidate.
+YM37-07,YM37,(no label),likely,B0193,5492,1218,3,1,S,天真可佳楼: 北垣门外有楼. Only hall north of the wall.
+YM37-09,YM37,(no label),guess,A-ym_east-029,5122,1230,1,1,,启秀亭: pavilion in a rock ring.
+YM37-11,YM37,(no label),guess,B0219,5146,1372,3,1,,芰荷深处: 西北 by the water.
+YM37-12,YM37,(no label),guess,B0236;B0237,5176,1464,2,1,,影山楼 candidate: outside the inner wall line.
+YM37-13,YM37,(no label),guess,B0256,5156,1589,3,1,,环秀山房: 双鹤斋西.
+NEW-ym_east-05-N01,NEW-ym_east-05,山高先得月,sure,A-ym_east-020,5572,2530,1,1,,Square pavilion just north of the label. Not in inventory.
+YM38-01,YM38,(no label),likely,A-ym_east-019,4405,2415,1,1,W,Text: 轩宇三楹西向; plan draws one square room. Stream and rocks round it.
+YM39-01,YM39,麴院风荷,sure,B0627,4770,3369,5,1,S,Label just south. First character 麴 as in the text. Text 五楹南向: fits.
+YM39-02,YM39,(no label),likely,B0626,4687,3424,3,1,S,"洛迦胜境, 其西佛楼: walled yard just west."
+YM39-03,YM39,(no label),likely,,4765,4180,,,,"九孔桥: plain causeway-like bar between the ovals, no arches drawn. rect=320,45,0"
+YM39-04,YM39,(no label),guess,,4620,4180,,,,"金鳌坊, west end of the bar; no 坊 drawn. rect=20,50,0"
+YM39-05,YM39,(no label),guess,,4915,4180,,,,"玉蝀坊, east end of the bar; no 坊 drawn. rect=20,50,0"
+YM39-06,YM39,四围佳丽,sure,B0843,4429,4551,3,1,,Label just east. Rocks round it.
+YM39-07,YM39,饮练长虹,sure,B0740,4992,4185,1,1,,Label just east.
+YM39-08,NEW-ym_east-11,春和镇,likely,B0775;B0776;B0777;B0815;B0817,5224,4425,3,1,,"Plan 春和镇, text 宁和镇. Text 设城关: row B0775, B0776, an X-marked square at (5275,4426), B0777 on the road; blank strip B0816 may be the gate passage."
+YM40-01,YM40,"(labels 乐道堂, 东所)",likely,B1028;B1067;B1093;B1033;B1070;B1096,4782,5274,5,1,S,"Text 四所 东西二街 南北一街: drawn as 2 columns of 2 courts each, east and west of a N-S lane at x 4930."
+YM40-N01,YM40,乐道堂,sure,B1067,4772,5368,4,1,S,"Label south of it, in the west column. First character 乐 in full form."
+YM40-N02,YM40,东所,sure,B1070,5010,5364,5,1,S,"Label south of it, in the east column."
+YM40-02,YM40,福元门,sure,,4930,5738,,,S,"G10. Text 福园门; plan 福元门. rect=44,20,0"
+YM40-03,YM40,前垂天贶,likely,B1091,4521,5550,5,1,S,"Label in the court between B1063 and B1091. Text: 前有, so taken as the south hall."
+YM40-04,YM40,(no label),likely,B1063,4522,5434,5,1,S,"中天景物, 中."
+YM40-05,YM40,(no label),guess,B1064;B1092,4596,5449,3,1,W,"斯文在兹, 东宇."
+YM40-06,YM40,后天不老,sure,A-ym_east-021,4510,5297,5,1,S,Label just south. Second island to the north: text 后.
+YM40-07,YM40,(no label),guess,B0999;B0998;B1000;B1035;B1036;B1072;B1073;B1074,5178,5168,6,1,,"如意馆 candidate: 8+ rows east of a lane at x 5130, Malone: adjacent to the four dwellings. No label and no slip seen, though a Malone footnote on p. 96 says the plan shows a later arrangement of it on pasted paper."
+YM42-06,YM42,?楼门,likely,B0937,5264,4858,5,3,E,"G17. First character like 未, 朱 or 来; text 东楼门 fits position (麴院 东南). A cursive 东 is possible but 东所 on the same plan is written clearly differently."
+YM42-08,YM42,(no label),likely,,8537,2670,,,E,"G15. S111: 雷峰夕照殿南折而东即为明春门. rect=24,40,0"
+YM42-10,YM42,蕊珠宫门,sure,,8520,935,,,E,"Label (8555,950) east of the wall. rect=14,30,0"
+YM42-12,YM42,大北门,likely,B0001,4962,328,5,2,N,G04. Text: 正北曰北楼门; plan: 大北门.
+YM43-02,YM43,五孔闸,sure,,8526,1752,,,E,"G14. Text: 五空出水闸在明春门北: fits, 明春门 being at y 2670. Block B0327 rejected as a building."
+YM43-03,YM43,(no label),guess,,8512,722,,,E,一空出水闸在蕊珠宫北: gap in the east wall line with water both sides.
+YM05-07,YM05,苏堤春晓,sure,A-ym_east-023,4399,3960,2,3,W,Label just east. A gallery runs west to the scroll gap at x 4305. Parent scene west of this box.
+YM44-01,YM44,(no label),likely,B0491;B0490,4772,2844,5,1,S,前后楼各五楹南向: fits two rows.
+YM44-02,YM44,(no label),likely,A-ym_east-022,4768,2965,1,1,N,清音阁: octagon-cornered square south of the label. Text faces N.
+YM44-03,YM44,(no label),likely,B0535,4768,3006,5,1,,"扮戏楼, 五间 south of the stage (S43): fits."
+YM44-05,YM44,(no label),guess,B0517,4930,2929,5,1,S,"永日堂, 东: east court."
+YM44-08,YM44,双桥,sure,,4612,2688,,,,"Label just west. Two-deck ladder drawing across the canal. rect=25,105,0"
+YM45-01,YM45,(no label),likely,,4618,2255,,,S,"坊楔: T-shaped outline in the road. rect=50,45,0"
+YM45-02,YM45,(label 舍卫城 below),likely,B0377,4612,2128,3,1,S,"多宝阁, 城南面: over the south gate."
+YM45-03,YM45,宫门,sure,B0365,4620,2014,2,1,S,Label south of it. Text: 山门.
+YM45-04,YM45,寿国寿民,sure,B0338,4610,1891,2,1,S,Label in the court south of it.
+YM45-05,YM45,仁慈殿,likely,B0319,4617,1802,3,1,S,"Label in the next court north, south of B0319; 仁 is small and offset. B0319 is the south arm of the cross."
+YM45-06,YM45,(no label),likely,B0296;B0295;B0320,4620,1708,3,2,S,普福宫: rest of the cross-plan group.
+YM45-07,YM45,最胜阁,sure,B0252,4624,1617,3,3,N,"Label just south, on the north wall."
+YM45-N01,YM45,三世佛殿,sure,B0337,4448,1854,2,1,E,"Label just east, small. Not in inventory."
+YM45-N02,YM45,??堂,likely,B0339,4732,1873,3,1,W,"Tiny label; 堂 clear, two characters in the other column not read. Not in inventory."
+YM27-01,YM27,西峰秀色,sure,B0206,4422,1277,3,1,W,Label just west. Text 临河西向: fits. Malone: faces west.
+YM27-04,YM27,含韵斋,sure,B0207,4522,1262,5,4,S,"Label just south, in a walled yard."
+YM27-05,YM27,一堂和气,sure,B0218,4694,1362,5,1,S,Label south.
+YM27-06,YM27,(no label),guess,B0211,4754,1297,4,1,,"自得轩, 东南."
+YM27-07,YM27,岚镜舫,sure,B0163,4630,1074,6,1,,Label just west. Long N-S range on the back wall; text 后垣东.

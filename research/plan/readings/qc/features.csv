@@ -1,0 +1,42 @@
+kind,id,name_on_plan,read,x1,y1,x2,y2,region_id,note
+slip,SL3,,,,,,,, No pasted slip seen in Qichun Yuan. See notes.md. Tint maps and 1x tiles show no cut paper edge in x 5300-11700 y 4500-9049.
+gate,G22,蒨园门,likely,9645,4727,,,,Correct G22: plan first char is 蒨 (艹+亻+青) not 绮. Gate of 茜园 on the Changchun side; not the Qichun name.
+gate,G18,秀清村门,likely,8055,4620,,,,G18 秀?村门: second char reads 清/倩. Same place as 秀清村 of YM34 (from north).
+gate,G23,西爽村宫门,sure,6065,6215,,,,"Label stands at (6065,6215) between B1235 and B1236. G23 point (5920,6182) is a hut on the west wall: check the gate point."
+gate,G25,大宫门,sure,9577,7737,,,,Full label 大宫门 confirmed.
+gate,N-qc-01,环翠门,likely,7137,6839,,,,"New. First char like 環. 值房 at (7172,6785)."
+gate,N-qc-02,松山门,likely,8272,6835,,,,New. Square gate on the wall crossing a stream. First char like 松.
+gate,N-qc-03,别有洞天,sure,7121,7385,,,,New. Gate on the wall by the bridge.
+gate,N-qc-04,宫门,likely,9585,7147,,,,"New. Inner gate north of 中和堂, label 宫内/宫门."
+gate,N-qc-05,(第二门),likely,9581,7595,,,,New. Inner gate north of 石桥.
+gate,N-qc-06,,guess,7091,8649,,,,"B1452 on the south wall, no label."
+bridge,B-qc-01,石桥,sure,9575,7640,9575,7672,,Named stone bridge on the palace axis over the curved moat; lead 5910f5 pictures a surviving 敷春堂 单孔残桥.
+bridge,B-qc-02,,likely,7155,7392,7220,7392,,Stone flared bridge from 别有洞天 gate to 澄心堂.
+bridge,B-qc-03,,likely,7040,7800,7040,7850,,"Flared bridge, link along the strip."
+bridge,B-qc-04,,likely,7675,7762,7730,7772,,Bridge from 澄心堂 island east.
+bridge,B-qc-05,,likely,8070,6606,8108,6606,,Square bridge at a five-way water junction.
+bridge,B-qc-06,,likely,7930,6460,8005,6460,,Flared stone bridge.
+bridge,B-qc-07,,likely,8245,6945,8270,6975,,Small square bridge.
+bridge,B-qc-08,,likely,7115,6980,7140,7015,,Bridge on the wall line.
+bridge,B-qc-09,,likely,7260,6030,7300,6030,,"Large square bridge or water gate, cross form."
+bridge,B-qc-10,,likely,8440,7080,8480,7150,,Was block B1328: long straight bridge across a neck of water.
+bridge,B-qc-11,,likely,9105,6807,9150,6807,,Flared bridge from the 天心水面 island.
+bridge,B-qc-12,,likely,8710,6590,8735,6590,,Flat bridge on the west of the 天心水面 island.
+bridge,B-qc-13,,likely,8912,5725,8940,5748,,Straight bridge from gallery land south.
+bridge,B-qc-14,,likely,9912,5588,9950,5595,,凤麟洲 to its east islet.
+bridge,B-qc-15,,likely,9965,6905,10070,6905,,Hatched line: covered or plank bridge to pavilion B1308.
+bridge,B-qc-16,,likely,8780,7893,8850,7893,,Was B1411 B1412: flared stone bridge south of 鉴碧亭 lake.
+bridge,B-qc-17,,likely,9142,8060,9142,8110,,Was B1436: on the road.
+bridge,B-qc-18,,likely,8306,8110,8306,8175,,Was B1435: on the road.
+bridge,B-qc-19,,likely,10053,8185,10053,8220,,Was B1438.
+bridge,B-qc-20,,likely,10068,8275,10068,8310,,Was B1441.
+bridge,B-qc-21,,likely,10394,7320,10394,7350,,Was B1352.
+bridge,B-qc-22,,likely,10550,7372,10550,7402,,Was B1362.
+bridge,B-qc-23,,likely,10565,7855,10565,7895,,Was B1420.
+bridge,B-qc-24,,likely,6757,7545,6757,7575,,Short link between the 绿满轩 and 畅和堂 islands.
+bridge,B-qc-25,,likely,11550,6960,11550,7040,,"Was B1325: on the road, Changchun side."
+water_fix,,,, , , , ,R0125,"Is island, not hill: the 天心水面 island, three hill outlines on it (S42 11480)."
+water_fix,,,, , , , ,R0447,"Is hill, not wall_strip: wavy outlined hill at (6800,8600) north of the south wall."
+water_fix,,,, , , , ,R0629,"Is land, not wall_strip: halls B1413 B1414 stand on it."
+water_fix,,,, , , , ,R0452,"Probably not wall_strip: strip at (10490,7600) bounded by a wavy line on one side. hill or land. Low confidence."
+island_name,,,guess, , , , ,R0125,"天心水面 island, by S42 text; no label on plan."

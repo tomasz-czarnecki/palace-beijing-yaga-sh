@@ -1,0 +1,54 @@
+block_id,action,x,y,w_px,h_px,angle_deg,note
+B0106,reject,,,,,,Double line between B0107 and B0105.
+B0392,reject,,,,,,"Box on an empty yard. The hall is west of it, see A-ym_west-001."
+B0453,reject,,,,,,Box on an empty yard north of B0469.
+B0282,reject,,,,,,"Bridges of the U-moat, not a hall (YM17-04)."
+B0283,reject,,,,,,"Bridge of the U-moat, not a hall (YM17-04)."
+B0313,reject,,,,,,"Wall lines north of B0330, no hall."
+B0284,merge:B0285,,,,,,水云居.
+B0286,merge:B0285,,,,,,水云居.
+B0288,merge:B0287,,,,,,慎修思永.
+B0289,merge:B0287,,,,,,慎修思永.
+B0249,merge:B0287,,,,,,慎修思永.
+B0250,merge:B0287,,,,,,慎修思永.
+B0290,merge:B0287,,,,,,慎修思永.
+B0356,merge:B0355,,,,,,涵虚朗鉴.
+B0420,merge:B0419,,,,,,后楼 centre bay; B0422 is the east half.
+B0287,resize,2580,1650,180,70,0,慎修思永 whole main hall.
+B0285,resize,2449,1734,53,63,0,水云居 whole block.
+B0248,resize,2420,1640,100,30,0,Gallery row west of 慎修思永.
+B0355,resize,2593,1993,80,42,0,
+B0188,resize,2231,1234,56,41,0,问津 full grid.
+B0216,resize,813,1460,60,27,-90,"朝房, west of pair; matches B0230 length."
+B0441,resize,987,2614,90,48,0,"三世佛殿, box was too deep."
+B0075,resize,2772,796,72,32,0,正宇 five bays.
+B0103,resize,2670,896,56,20,0,
+B0346,resize,1527,1982,90,30,0,West part of the long gallery only.
+B0347,resize,1623,1982,100,30,0,Middle part of the long gallery only.
+B0311,resize,1532,1832,65,16,0,
+B1001,resize,505,5314,56,27,0,自远轩 row.
+B0639,resize,1530,3514,66,17,0,
+A-ym_west-001,add,2106,2286,38,37,0,"Hall west of B0392, 武陵春色."
+A-ym_west-002,add,1724,1982,102,30,0,"East part of the long gallery, 日天琳宇."
+A-ym_west-003,add,1517,3593,17,76,0,West shed of 藏舟坞.
+A-ym_west-004,add,1477,3580,12,26,0,Small hut west of 藏舟坞.
+A-ym_west-005,add,925,2715,30,30,0,"Octagon, 月地云居 (tablet pavilion per Malone n.)."
+A-ym_west-006,add,1050,2715,30,30,0,"Octagon, pair of the last."
+A-ym_west-007,add,918,3240,30,30,0,Octagon south of the compound on the hill ground.
+A-ym_west-008,add,1060,3238,30,30,0,"Octagon, pair of the last."
+A-ym_west-009,add,985,3070,55,8,0,Bar south of the 山门.
+A-ym_west-010,add,920,2990,14,10,0,Side gate of 月地云居.
+A-ym_west-011,add,1050,2990,14,10,0,Side gate of 月地云居.
+A-ym_west-012,add,877,1507,30,13,0,"Side gate, outer wall of 安佑宫."
+A-ym_west-013,add,1100,1505,25,13,0,"Side gate, outer wall of 安佑宫."
+A-ym_west-015,add,1936,1255,28,25,0,Small hall east of 随安室.
+A-ym_west-016,add,1859,967,38,31,0,Small hall at the north tip of 眉月轩.
+A-ym_west-017,add,2867,1902,36,36,0,Cross-plan pavilion.
+A-ym_west-018,add,403,1990,18,36,0,Hut on the west wall ring.
+A-ym_west-019,add,397,3590,20,40,0,Hut on the west wall ring.
+A-ym_west-020,add,378,4280,14,42,0,Hut on the west wall ring.
+A-ym_west-021,add,377,4820,18,18,0,Hut on the west wall ring.
+A-ym_west-022,add,597,5430,16,175,0,"Long gallery, east arm, 藻园."
+A-ym_west-023,add,547,5430,16,190,0,"Long gallery, west arm, 藻园."
+A-ym_west-024,add,1525,5690,14,38,0,"Block east of 西南门, pair of B1149."
+A-ym_west-025,add,2300,1795,44,44,0,Cross-plan hall north of 朝日? label.

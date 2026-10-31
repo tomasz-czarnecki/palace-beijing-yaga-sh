@@ -1,0 +1,26 @@
+kind,id,name_on_plan,read,x1,y1,x2,y2,region_id,note
+gate,,大北门,sure,4930,320,,,,"G04 already; second outer gate at (4950,210) on the bridge north of it, unlabelled."
+gate,,,none,2595,695,,,,"Three small gate marks on the N-S fence at x 2597 through the northern strip: (2595,695), long (2595,750), (2595,800)."
+gate,,?水闸,likely,905,5720,,,,"South wall water inlet, not in gates.json. Label at (950,5750)."
+bridge,YM17-04,,likely,875,1692,1100,1692,,月河桥 group of five on the outer moat.
+bridge,YM17-07,,likely,965,1445,1035,1445,,"白玉石桥 on the inner moat, drawn as short bars."
+bridge,,,likely,585,1400,645,1400,,"West crossing of the 安佑宫 moat, wide causeway."
+bridge,,,likely,1315,1370,1350,1370,,East crossing of the 安佑宫 moat.
+bridge,,,likely,985,3060,985,3160,,"South of 月地云居, through the gap in the band."
+bridge,,,likely,990,3420,990,3480,,Further south on the same axis.
+bridge,,,likely,2280,1205,2300,1200,,Bridge by 断桥残雪 (逾溪桥).
+bridge,,,likely,2555,2175,2555,2200,,South of 花神庙.
+bridge,,,likely,3144,2455,3144,2485,,"Between the 多稼轩 yard and 观稼轩, 度河桥 stonework."
+bridge,,,likely,4190,2595,4190,2625,,South-east of 翠扶楼.
+bridge,,,likely,3348,665,3348,740,,"Gap in double lines, northern strip."
+water_name,,印月池,sure,3388,2083,,,,"Written on the plan, drawn as a narrow court. Text: pool."
+water_fix,,,likely,,,,,R0230,Should be water: the pool under the curved 眉月轩 (Malone p.88). Now land.
+water_fix,,,likely,,,,,R1204,Should be water: square pool in front of 文源阁 (Malone p.90). Now court.
+water_fix,,,likely,,,,,R1140,Should be water: pond by 武陵春色 with 池北轩 in the text. Now land.
+water_fix,,,likely,,,,,R0120,Should be land: holds the 田字 hall and fields. Now island.
+water_fix,,,likely,,,,,R0881,"Should be field: double-lined oval, text 其东临稻畦. Now hill."
+water_fix,,,guess,,,,,R0273,"Should be field: double-lined oval by 文源阁, drawn like the labelled fields; no label. Now water."
+water_fix,,,guess,,,,,R0284,"Should be field: double-lined oval, drawn like the labelled fields; no label. Now water."
+island_name,,鸿慈永祜 peninsula,likely,,,,,R0065,Malone p.84 little peninsula; holds the pailou and four pillars.
+hill,,,likely,550,360,,,,"Rock hill in the NW corner of 紫碧山房, about 300 x 120 px; Malone p.88 Cold Hill."
+hill,,,guess,1060,3250,,,,"South of 月地云居, hill ground with lobed outline, about 500 x 300 px. R0256."

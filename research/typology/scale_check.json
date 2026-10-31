@@ -1,0 +1,249 @@
+{
+ "ground": {
+  "px_per_m_x": 4.785,
+  "px_per_m_y": 4.764,
+  "rms_m": 17.9
+ },
+ "halls": [
+  {
+   "id": "YM01-01",
+   "name": "正大光明殿",
+   "axis": "F",
+   "px": 151.4,
+   "m": 39.32,
+   "what": "foundation 129 ft (Malone measured)",
+   "src": "S02 p.75",
+   "px_per_m": 3.85
+  },
+  {
+   "id": "YM01-01",
+   "name": "正大光明殿 月台",
+   "axis": "F",
+   "px": 151,
+   "m": 38.4,
+   "what": "月台 面宽12丈",
+   "src": "S119",
+   "px_per_m": 3.93
+  },
+  {
+   "id": "YM01-01",
+   "name": "正大光明殿",
+   "axis": "D",
+   "px": 57.5,
+   "m": 19.2,
+   "what": "foundation 63 ft",
+   "src": "S02 p.75",
+   "px_per_m": 2.99
+  },
+  {
+   "id": "YM01-01",
+   "name": "正大光明殿 月台",
+   "axis": "D",
+   "px": 74.5,
+   "m": 14.82,
+   "what": "月台 深4丈6尺3寸",
+   "src": "S119",
+   "px_per_m": 5.03
+  },
+  {
+   "id": "YM41-01",
+   "name": "大宫门",
+   "axis": "F",
+   "px": 98.5,
+   "m": 21.57,
+   "what": "台基通面宽",
+   "src": "S102",
+   "px_per_m": 4.57
+  },
+  {
+   "id": "YM41-01",
+   "name": "大宫门",
+   "axis": "D",
+   "px": 26.5,
+   "m": 11.33,
+   "what": "台基进深",
+   "src": "S102",
+   "px_per_m": 2.34
+  },
+  {
+   "id": "YM33-01",
+   "name": "观澜堂",
+   "axis": "F",
+   "px": 97.7,
+   "m": 23.36,
+   "what": "4.16+4x3.84+2x1.92 (columns)",
+   "src": "S111",
+   "px_per_m": 4.18
+  },
+  {
+   "id": "YM33-01",
+   "name": "观澜堂",
+   "axis": "D",
+   "px": 82.6,
+   "m": 26.49,
+   "what": "3x7.55+2x1.92 (columns)",
+   "src": "S111",
+   "px_per_m": 3.12
+  },
+  {
+   "id": "YM33-01",
+   "name": "观澜堂 central bay",
+   "axis": "B",
+   "px": 20.2,
+   "m": 4.16,
+   "what": "明间",
+   "src": "S111",
+   "px_per_m": 4.86
+  },
+  {
+   "id": "YM33-01",
+   "name": "观澜堂 side bays mean",
+   "axis": "B",
+   "px": 16.2,
+   "m": 3.84,
+   "what": "次间",
+   "src": "S111",
+   "px_per_m": 4.22
+  },
+  {
+   "id": "YM41-02",
+   "name": "文源阁",
+   "axis": "F",
+   "px": 123.8,
+   "m": 22.72,
+   "what": "5.12+4x4.0+1.6 (丈尺册)",
+   "src": "S105",
+   "px_per_m": 5.45
+  },
+  {
+   "id": "YM41-02",
+   "name": "文源阁",
+   "axis": "D",
+   "px": 56.1,
+   "m": 14.72,
+   "what": "7.68+2x3.52 (丈尺册)",
+   "src": "S105",
+   "px_per_m": 3.81
+  },
+  {
+   "id": "YM36-02",
+   "name": "藏密楼 3 bays",
+   "axis": "F",
+   "px": 42.6,
+   "m": 8.96,
+   "what": "3.20+2x2.88",
+   "src": "S111",
+   "px_per_m": 4.75
+  },
+  {
+   "id": "YM36-03",
+   "name": "松风阁",
+   "axis": "D",
+   "px": 40.5,
+   "m": 6.4,
+   "what": "3.84+2x1.28",
+   "src": "S111",
+   "px_per_m": 6.33
+  },
+  {
+   "id": "YM20-01",
+   "name": "田字房 room row",
+   "axis": "B",
+   "px": 24.5,
+   "m": 4.48,
+   "what": "room side (excavated)",
+   "src": "S104",
+   "px_per_m": 5.47
+  },
+  {
+   "id": "YM20-01",
+   "name": "田字房 well",
+   "axis": "B",
+   "px": 43.5,
+   "m": 3.8,
+   "what": "天井 side (excavated)",
+   "src": "S104",
+   "px_per_m": 11.45
+  },
+  {
+   "id": "YM13-01",
+   "name": "万字房 arm",
+   "axis": "D",
+   "px": 23.5,
+   "m": 7.04,
+   "what": "4.48+2x1.28",
+   "src": "S113",
+   "px_per_m": 3.34
+  },
+  {
+   "id": "YM41-03",
+   "name": "舍卫城 south gate 墩台",
+   "axis": "F",
+   "px": 58.3,
+   "m": 15.4,
+   "what": "墩台宽 (excavated)",
+   "src": "S107",
+   "px_per_m": 3.79
+  },
+  {
+   "id": "YM41-03",
+   "name": "舍卫城 south gate 墩台",
+   "axis": "D",
+   "px": 41.5,
+   "m": 12.6,
+   "what": "墩台进深 (excavated)",
+   "src": "S107",
+   "px_per_m": 3.29
+  },
+  {
+   "id": "XY08",
+   "name": "海晏堂 complex (rough)",
+   "axis": "F",
+   "px": 460,
+   "m": 135.2,
+   "what": "OSM ruins polygon",
+   "src": "S03",
+   "px_per_m": 3.4
+  },
+  {
+   "id": "XY08",
+   "name": "海晏堂 complex (rough)",
+   "axis": "D",
+   "px": 229,
+   "m": 54.5,
+   "what": "OSM ruins polygon",
+   "src": "S03",
+   "px_per_m": 4.2
+  },
+  {
+   "id": "XY08",
+   "name": "海晏堂 central strip = 蓄水楼 tank?",
+   "axis": "F",
+   "px": 130,
+   "m": 27.36,
+   "what": "锡海 E-W length",
+   "src": "S109",
+   "px_per_m": 4.75
+  },
+  {
+   "id": "XY04",
+   "name": "黄花阵 outer",
+   "axis": "F",
+   "px": 350,
+   "m": 59,
+   "what": "stated, unsourced",
+   "src": "S06",
+   "px_per_m": 5.93
+  },
+  {
+   "id": "XY04",
+   "name": "黄花阵 outer",
+   "axis": "D",
+   "px": 470,
+   "m": 89,
+   "what": "stated, unsourced",
+   "src": "S06",
+   "px_per_m": 5.28
+  }
+ ]
+}

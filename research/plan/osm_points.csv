@@ -1,0 +1,142 @@
+osm_id,name,lat,lon,kind,proposed_building_id,trust,note
+node-494772154,谐奇趣,40.0116,116.30237,scene,XY01,suspect,Point sits 42 m N of the ruin. Use way-584882151 instead
+way-584882151,,40.011225,116.302437,ruin,XY01,plausible,"Unnamed ruin polygon, 38 x 41 m bbox, 1167 m2 (run). Due S of the maze as on S01, fountain basin S of it visible in Esri"
+node-5546986125,花园门,40.011642,116.3028,scene,XY05,suspect,"Labelled 花园门, but S01 has 花园门 on the maze axis at 116.3023. This spot is a bright cleared rectangle about 27 x 46 m in Esri (by eye), between the maze axis and 方外观, where S01 draws 养雀笼 (S141: 1000 m2 cleared 2015). Labels appear swapped or displaced"
+node-5546986124,养雀笼,40.011539,116.301964,scene,XY02,suspect,"Labelled 养雀笼 but lies 24 m W of the maze axis; S01 has 养雀笼 E of the axis. Position is close to the long block S01 draws W of the axis, which fits 蓄水楼 XY02 (S06: against the W wall, 线法桥 to its S). C, check against the Xiyang Lou plan"
+node-3807947943,,40.012039,116.302309,gate,XY03,plausible,"Unnamed, entrance=main, at the maze S side. S01 puts 花园门 here, about 50 m S of the pavilion"
+node-8808690833,,40.012292,116.302271,ruin,XY04,plausible,"historic=milestone node inside the maze; maze today is a restored layout (S149 lists it; date not checked), centre about 40.01244,116.30224 read from imagery by eye"
+node-5546986122,方外观,40.011897,116.303739,scene,XY06,plausible,Inside the ruin polygon
+way-584882149,,40.011888,116.303756,ruin,XY06,plausible,"44 x 26 m bbox, 880 m2 (run)"
+node-494772256,蓄水楼,40.011896,116.305509,scene,XY08-xx,plausible,"NOT XY02. This is the east end of the 海晏堂 ruin: the 蓄水楼 of 海晏堂 (grid block on S01, excavated, S140). The 蓄水楼 of the plates is a different building further W"
+way-584882147,,40.011867,116.305109,ruin,XY08,plausible,"海晏堂 with its 蓄水楼, 136 x 60 m bbox, 5506 m2 (run). Includes both; OSM has no point named 海晏堂"
+node-5546986123,远瀛观,40.012392,116.306579,scene,XY09,plausible,Inside the ruin polygon
+node-269720154,大水法,40.012115,116.306635,scene,XY10,plausible,"Wikidata Q10936157 gives 40.01215,116.306586: 5 m away, likely not independent"
+way-584882143,,40.01226,116.306543,ruin,XY09,plausible,"远瀛观 with 大水法, 51 x 60 m bbox, 2351 m2 (run). S153: 800 m2 excavated 2016"
+node-494772254,观水法,40.011836,116.306679,scene,XY11,plausible,On the axis S of 大水法
+node-494772255,线法山,40.012114,116.30824,scene,XY12,plausible,Round mound visible in Esri; S01 same order. 6.3 m in GLO-30
+node-5546986121,线法画,40.012182,116.309107,scene,XY13,suspect,"Labelled 线法画, which S01 and the plates put E of 方河. This point is at the W end of 方河, where S01 draws 螺蛳牌楼. XY15 should be about 116.3113-116.3118, C"
+way-210646474,方河,40.012302,116.31006,water,XY14,plausible,"方河, restored; 148 x 60 m bbox, rot-rect 149 x 45 m, 6315 m2 (run). Rounded ends in OSM and Esri, S01 has squarer corners"
+node-494772146,残虹桥,40.011568,116.3102,ruin,,plausible,"残虹桥, modern name for a bridge remnant S of 方河"
+node-494772210,残拱桥,40.011885,116.310514,ruin,,plausible,"残拱桥, modern name for a bridge remnant S of 方河"
+node-288643686,泽兰堂,40.011,116.306417,ruin,CC? 泽兰堂,plausible,"On the 远瀛观 axis as on S01 (澤蘭堂). name:en ""Xiyang Lou"" is wrong"
+node-5590118930,维克多·雨果纪念碑,40.012025,116.30741,modern,,plausible,"维克多·雨果 monument, modern, not Qing"
+node-5590118929,,40.012445,116.308495,gate,,plausible,"Unnamed gate E of 线法山, modern"
+node-498529841,海岳开襟,40.008997,116.304296,scene,CC? 海岳开襟,plausible,"Island in the W lake, matches S01"
+node-5590293850,Former Bridge,40.008879,116.30315,ruin,,plausible,Former Bridge W of 海岳开襟
+node-11884854874,含经堂,40.008133,116.307304,scene,CC? 含经堂,plausible,Inside the excavated compound
+way-1352930657,,40.008364,116.307326,ruin,CC? 含经堂,plausible,"110 x 147 m bbox, 12552 m2 (run): N part of the 含经堂 compound. S143: site over 6万 m2, buildings over 3万 m2"
+way-1352930658,,40.007395,116.307485,ruin,CC? 含经堂,plausible,"88 x 62 m bbox, 4109 m2 (run): S court with 3 modern-looking domes in Esri, check"
+node-11884854875,玉玲珑馆,40.007865,116.309679,scene,CC? 玉玲珑馆,plausible,Island E of 含经堂
+node-11884854876,映清斋,40.00708,116.310587,scene,CC? 映清斋,plausible,
+node-11884854877,思永斋,40.007088,116.304538,scene,CC? 思永斋,plausible,SW island
+node-11884854870,澹怀堂,40.005678,116.308976,scene,CC? 澹怀堂,plausible,
+way-1352930660,,40.005758,116.308965,ruin,CC? 澹怀堂,plausible,"102 x 97 m bbox, 7481 m2 (run), clear rectangle in Esri"
+node-11884854871,长春园宫门,40.005065,116.309115,gate,CC? 长春园宫门,plausible,Rebuilt 2008 on the site (S136)
+way-1553389765,长春园宫门,40.005083,116.309111,gate,CC? 长春园宫门,plausible,"Rebuilt gate, 48 x 14 m bbox, 281 m2 (run). A modern reconstruction"
+node-11884854872,如园,40.005781,116.311476,scene,CC? 如园,plausible,"S140: 1.9万 m2, excavated 3800 m2"
+way-1553389766,,40.005418,116.311107,ruin,CC? 如园,plausible,"400 m2, part of 如园"
+way-1553389767,,40.005828,116.311835,ruin,CC? 如园,plausible,"600 m2, part of 如园"
+node-11884854873,鉴园,40.006503,116.312231,scene,CC? 鉴园,plausible,
+node-11884854869,茜园,40.005357,116.304403,scene,CC? 茜园,plausible,
+node-288644164,圆明园盛时全景,40.009772,116.309568,modern,,plausible,"圆明园盛时全景, modern exhibit"
+relation-2826272,,40.008759,116.303944,water,,plausible,"长春园 lake part, unnamed"
+relation-2826273,,40.008233,116.309487,water,,plausible,"长春园 lake part, unnamed"
+way-26345740,,40.010098,116.307129,water,,plausible,"长春园 N lake, 53387 m2 (run)"
+way-210646526,,40.007297,116.305853,water,,plausible,"长春园 lake, 45952 m2 (run)"
+way-210646534,,40.008779,116.311447,water,,plausible,"长春园 E lake, 74040 m2 (run)"
+way-210646535,,40.007961,116.309699,island,CC? 玉玲珑馆,plausible,9562 m2 islet
+node-5221565511,正大光明,40.001888,116.290517,scene,YM01,plausible,"S of 前湖, hall line with 大宫门 to S"
+node-5221565518,勤政亲贤,40.002553,116.292422,scene,YM02,plausible,
+node-5221565513,九洲清晏,40.002875,116.290536,scene,YM03,plausible,"Q18110377 三一八烈士公墓 (40.00309,116.29066) stands about 30 m away: modern cemetery on the island"
+node-5221566421,镂月开云,40.003777,116.291933,scene,YM04,plausible,"Around 后湖, order matches S01"
+node-494772338,天然图画,40.005074,116.292024,scene,YM05,plausible,"Around 后湖, order matches S01"
+node-494772546,碧桐书院,40.006233,116.291433,scene,YM06,plausible,"Around 后湖, order matches S01"
+node-5221565517,慈云普护,40.005758,116.290433,scene,YM07,plausible,"Around 后湖, order matches S01"
+node-5221565516,上下天光,40.005472,116.289457,scene,YM08,plausible,On the N shore of 后湖
+node-5221565515,杏花春馆,40.004703,116.288233,scene,YM09,plausible,"Around 后湖, order matches S01"
+node-5221565514,坦坦荡荡,40.004147,116.288276,scene,YM10,plausible,Modern pond outline around it follows the fish pool
+node-6189617744,茹古涵今,40.003229,116.288493,scene,YM11,plausible,
+node-5221566425,万方安和,40.005569,116.28669,scene,YM13,plausible,Swastika pond visible in Esri and OSM: strong anchor
+node-5221566426,武陵春色,40.006318,116.287379,scene,YM14,plausible,
+node-13860000002,恒春堂,40.007289,116.286632,scene,YM14-xx,plausible,"恒春堂 in 武陵春色 (S144), 110 m NNW of the YM14 point"
+node-5221566424,山高水长,40.003313,116.286398,scene,YM15,plausible,
+node-13859999905,山高水长石碑,40.001299,116.287383,modern,YM15,plausible,"Stele 200 m S of the YM15 point; near 藻园, check that it is in place"
+node-5221566429,月地云居,40.006055,116.284101,scene,YM16,plausible,
+node-5221566428,鸿慈永祜,40.008745,116.283694,scene,YM17,plausible,At the S end of the levelled ground; hall on S01 about 100-150 m N. S146: S half of the hills removed
+node-5221566433,汇芳书院,40.010257,116.285642,scene,YM18,plausible,
+node-5221566427,日光琳宇,40.00851,116.285565,scene,YM19,plausible,Name variant 日光琳宇 for 日天琳宇
+node-5546986118,淡泊宁静,40.007786,116.290323,scene,YM20,plausible,淡泊宁静 = 澹泊宁静. Excavated 2020-22 (S137-S139)
+node-6076062979,映水兰香,40.007104,116.289218,scene,YM21,plausible,
+node-5221566431,水流云在,40.009108,116.290194,scene,YM22?,suspect,"水流云在 is not a scene name; position fits 水木明瑟, W of 舍卫城 (visitbeijing). C. YM22 has no OSM point of its own"
+node-5221566430,濂溪乐处,40.009442,116.287647,scene,YM23,plausible,On the island inside the ring lake
+node-13892988511,Stone Boat,40.00876,116.288006,ruin,YM23-xx,plausible,Stone Boat on the S shore of the 濂溪乐处 lake
+node-5221566434,多稼如云,40.0108,116.289456,scene,YM24,plausible,"Today paddy (S135, 2026): striped plots in Esri at about 40.0107,116.2903"
+node-5221566435,北远山村,40.011536,116.28836,scene,YM26,plausible,
+node-6076062982,四宜书屋,40.012079,116.296572,scene,YM28,plausible,N of the lake
+node-13860000201,四宜书屋石碑,40.011505,116.295699,modern,YM28,plausible,"Stele for 四宜书屋, 110 m SSW of the YM28 point. A separate 四宜书屋 exists in 绮春园 (S155): do not mix"
+node-5546986120,方壶胜境,40.011746,116.300428,scene,YM29,plausible,Ruin polygon around it
+way-584882126,,40.011811,116.300429,ruin,YM29,plausible,"94 x 93 m bbox, 5063 m2 (run)"
+node-6076062980,澡身浴德,40.009043,116.294843,scene,YM30,plausible,W shore of 福海
+node-5546986119,平湖秋月,40.010443,116.295815,scene,YM31,plausible,N shore of 福海
+node-5221566437,蓬岛瑶台,40.008133,116.298273,scene,YM32,plausible,"Centre of 福海, three islets mapped"
+node-6076062983,接秀山房,40.007126,116.301555,scene,YM33,plausible,E shore
+node-5221566422,别有洞天,40.005676,116.301238,scene,YM34,plausible,SE corner
+node-13859999903,夹镜鸣琴,40.005384,116.298668,scene,YM35,plausible,S shore on the 福海 N-S axis (蓬岛瑶台 116.29827)
+node-5221566423,夹镜鸣琴,40.00578,116.300394,scene,YM35?,suspect,"Second 夹镜鸣琴 point, 150 m E of the axis: likely 广育宫, E of 夹镜鸣琴 (S144). Do not use for YM35"
+node-6076062981,涵虚朗鉴,40.009937,116.301043,scene,YM36,plausible,E shore
+node-5221566436,廓然大公,40.010186,116.294159,scene,YM37,plausible,"Ruin polygons way-584882171, 584882167 lie 60-90 m N"
+way-584882171,,40.010907,116.294099,ruin,YM37,plausible,"72 x 16 m bbox, 658 m2 (run)"
+way-584882167,,40.010662,116.294749,ruin,YM37,plausible,"13 x 32 m bbox, 274 m2 (run)"
+node-5221566432,坐石临流,40.008198,116.292136,scene,YM38,plausible,
+node-5221565520,曲院风荷,40.0048,116.293865,scene,YM39,plausible,Long lake E of 后湖
+node-5221565519,洞天深处,40.002775,116.294921,scene,YM40,plausible,
+node-13859991603,舍卫城,40.008777,116.292639,scene,YM4x 舍卫城,plausible,30 m S of the S end of the mapped rampart stubs
+way-1524245531,,40.009118,116.293199,wall,YM4x 舍卫城,plausible,"city_wall E rampart, earth remains visible in Esri"
+way-1524245532,,40.009998,116.292102,wall,YM4x 舍卫城,plausible,city_wall N rampart. Three stubs span 93 x 115 m (run). S side not mapped
+way-1524245533,,40.009693,116.292122,wall,YM4x 舍卫城,plausible,city_wall W rampart
+node-5590119330,含韵斋,40.010816,116.292319,scene,YM27?,suspect,"含韵斋, tagged information. 含韵轩 belongs to 西峰秀色 (S06). Clue for YM27, which has no point. C"
+node-5588940777,Stone,40.011061,116.292155,modern,,suspect,"""Stone"" at 40.01106,116.29216, undefined"
+node-5590119178,绮吟堂,40.010503,116.294795,scene,YM37-xx?,suspect,"绮吟堂 tagged information, near 廓然大公, not checked"
+node-11659714807,藏密楼,40.010792,116.299726,scene,,suspect,"藏密楼: name not checked against an inventory, on the N shore of 福海"
+node-11884854878,山高先得月,40.008437,116.294906,scene,,suspect,山高先得月 on the W shore: name not checked against an inventory
+node-13859991602,四时圆明,40.006,116.302688,modern,,plausible,"四时圆明, modern exhibit"
+relation-18108375,福海,40.008248,116.29899,water,,plausible,"福海: 282163 m2, bbox 681 x 720 m (run). Edited flat at 43.50 m in GLO-30"
+way-654980156,,40.008478,116.297546,island,YM32,plausible,"蓬岛瑶台 islet, 1224 m2"
+way-654980157,,40.008094,116.298221,island,YM32,plausible,"蓬岛瑶台 islet, 2821 m2"
+way-654980158,,40.008124,116.29884,island,YM32,plausible,"蓬岛瑶台 islet, 1108 m2"
+way-40724042,后湖,40.004579,116.290143,water,,plausible,"后湖: 37467 m2, bbox 228 x 211 m (run). Held water in 2005 (S146)"
+way-210654673,,40.002503,116.290484,water,,plausible,"前湖 between 正大光明 and 九洲清晏, unnamed in OSM"
+way-584742799,,40.009357,116.28795,water,YM23,plausible,"濂溪乐处 lake, 23252 m2"
+way-40724049,,40.00474,116.293809,water,YM39,plausible,"Lake E of 后湖, 18467 m2"
+relation-2826167,,40.001576,116.303329,water,,plausible,"绮春园 lakes, 150910 m2 (run)"
+relation-2826375,,40.005362,116.286661,water,YM13,plausible,万方安和 pond
+relation-2826376,,40.002307,116.28882,water,,plausible,"Ring pond S of 茹古涵今, likely 长春仙馆 YM12, C. YM12 has no point"
+node-11884854879,春泽斋,40.003291,116.302327,scene,QC? 春泽斋,plausible,
+node-11884854880,展诗应律,40.003152,116.303486,scene,QC? 展诗应律,plausible,S144: S shore of 绮春园 后湖
+node-11884854881,生冬室,40.002651,116.302127,scene,QC? 生冬室,plausible,
+node-11884854882,庄严法界,40.00221,116.303662,scene,QC? 庄严法界,plausible,
+node-11884854883,天心水面,40.001166,116.303924,scene,QC? 天心水面,plausible,"S155: 43-86 x 12-81 m, 5872 m2"
+node-11884854884,流散文物展示区,40.001078,116.303929,modern,,plausible,流散文物展示区
+way-210641985,凤麟洲,40.003448,116.30607,island,QC? 凤麟洲,plausible,2263 m2 (run). S155 survey A + B = 2135 m2: agrees within 6%
+way-210641894,最上楼,39.99977,116.303224,scene,QC? 正觉寺-最上楼,plausible,Rebuilt 2002-2011 (S136)
+way-210641895,三圣殿,39.999297,116.303333,scene,QC? 正觉寺-三圣殿,plausible,"Wikidata Q11123569 at 39.9993,116.30334: under 1 m. Rebuilt"
+way-210641898,文殊亭,39.999578,116.303282,modern,,plausible,"文殊亭, rebuilt"
+way-727045416,,39.999125,116.302983,wall,QC? 正觉寺,plausible,"452 m, enclosure rebuilt 2008 (S136)"
+way-210641897,鉴碧亭,40.000112,116.304658,scene,QC? 鉴碧亭,plausible,Shelter in the lake
+node-11659721274,残桥,40.000912,116.304522,ruin,,plausible,残桥
+way-584742849,涵秋馆,40.003169,116.304727,scene,QC? 涵秋馆,suspect,Name on a footway. S155 survey: 55-74 x 26-48 m
+node-288644606,,39.998857,116.305722,gate,,plausible,"绮春园南门 today, unnamed in OSM (S142 entrance); 绮春园宫门 rebuilt 1988 (S136) around 39.9994,116.3065, walls way-584742861, 584742862"
+node-6813701386,,39.998582,116.303495,gate,,plausible,正觉寺门 today (S142)
+node-1361503532,,40.000672,116.285533,gate,,plausible,"Near 藻园门 today (S142), unnamed, check"
+way-584742787,,40.010719,116.282062,wall,,plausible,"59 m at 40.0107: on the line of the third E-W wall S of 紫碧山房 (S136, S01)? check"
+way-1031907050,,40.004514,116.298399,wall,,suspect,"287 m at 40.0045, S of 福海: possibly the S wall of 圆明园 or a school fence, check against S01"
+way-1031907052,,40.003256,116.300805,wall,,suspect,137 m: 101 中学 fence? S136: 101 中学 sat on 470 m of wall
+way-1553389769,,40.004285,116.309052,wall,CC? 长春园宫门,plausible,"31 m, rebuilt"
+way-24827108,圆明园遗址公园,40.005025,116.294797,context,,plausible,"Park polygon: 318.3 ha, perimeter 10022 m (run). S136: outer wall 11170 m; S147: 331 ha; S146: 352.13 ha planned. No protected-area boundary in OSM"
+node-13403268064,七孔闸,40.010929,116.313533,context,,plausible,"七孔闸: outlet of the garden water (S146). Tagged historic=yes, place=neighbourhood, not the structure itself"
+node-13252142300,福缘门,40.002136,116.296146,context,,plausible,福缘门: village name after the gate
+way-84336744,近春园遗址,40.000291,116.313817,context,,plausible,近春园遗址 (Tsinghua). Q15914601. Not modelled
+node-9731863402,近春园遗物,40.000679,116.313517,context,,plausible,近春园遗物 (Tsinghua). Not modelled
+way-1369111544,清华园,40.001494,116.316578,context,,plausible,"清华园, part of the former 熙春园 (S144 note). Not modelled"
+way-659826161,工字厅,40.00173,116.316869,context,,plausible,工字厅 (Tsinghua). Not modelled
+relation-21716245,未名湖,39.993175,116.303254,context,,plausible,"未名湖 (Peking University), commonly tied to 淑春园: assumed, not checked. Q10328925. Not modelled"

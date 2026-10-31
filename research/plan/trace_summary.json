@@ -1,0 +1,27 @@
+{
+ "source": "S01",
+ "regions": 3079,
+ "regions_per_class": {
+  "court": 293,
+  "field": 7,
+  "hill": 50,
+  "island": 172,
+  "land": 1878,
+  "outside": 238,
+  "wall_strip": 79,
+  "water": 362
+ },
+ "area_px_per_class": {
+  "court": 1520973,
+  "field": 1019091,
+  "hill": 881815,
+  "island": 3297429,
+  "land": 27336292,
+  "outside": 40569724,
+  "wall_strip": 2326632,
+  "water": 25113839
+ },
+ "blocks": 1453,
+ "blocks_cells": 5762,
+ "blocks_single_cell": 185
+}

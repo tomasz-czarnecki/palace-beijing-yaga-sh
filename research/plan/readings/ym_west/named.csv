@@ -1,0 +1,122 @@
+id,parent_id,name_on_plan,read,block_ids,plan_x,plan_y,ncols,nrows,orientation_note,note
+YM48-01,YM48,横?堂,likely,B0032,628,515,3,1,S,"Label line 1 in south court: 横 written like 黄, second char unclear. Hall directly above the label. Text 横云堂 is 前宇."
+YM48-02,YM48,紫碧山房,sure,B0050,628,599,3,1,S,"Label line 2 in south court, directly above B0050. Label order may be reversed against the text, which calls the 前宇 横云堂."
+YM48-N01,YM48,乐?人和,sure,B0009,628,428,5,1,S,"Label in the court under B0009: 乐, then 者 or 在, 人, 和. Not in inventory. Rear apse line to the north."
+YM48-04,YM48,丰乐轩,likely,B0051,786,625,3,1,S,"Label at (775,690) is south of B0051 and east of the gate row; 东南 per text fits B0051."
+YM48-05,YM48,霁华楼,likely,,729,377,3,2,S,"Label outside the north wall at (735,312); hall inferred directly below it. rect=38,25,0"
+YM48-06,YM48,景晖楼,sure,B0034,872,480,3,1,E,Label on the hall itself.
+YM48-07,YM48,澄素楼,sure,B0031,508,504,3,1,S,Label below; hall stands in a walled pool yard west of the court.
+YM48-N02,YM48,含??,guess,B0049,538,605,2,1,,"Faint label at (495,630) beside this block."
+YM48-N03,YM48,宫门,sure,B0056,674,692,3,1,S,"Label 宫门 at (691,730) under the gate; wings B0055, B0057."
+YM52-N01,YM52,顺木天,sure,,2152,692,,,,"Octagon. rect=46,42,0"
+YM17-10,YM17,安佑宫,likely,B0157,994,1143,9,3,S,9 bays match text; Malone 40 pillars. Label not adjacent.
+YM17-06,YM17,安佑门,likely,B0217,988,1374,5,2,S,"Gate on inner wall, on a terrace."
+YM17-11,YM17,,likely,B0203;B0204,997,1290,5,2,E / W,"配殿 five bays each, matches text."
+YM17-12,YM17,,likely,,880,1212,,,,"碑亭, pair of octagons at (880,1212) and (1105,1212). rect=30,30,0"
+YM17-13,YM17,,guess,,857,1350,,,,"燎亭, pair of small squares just north of the inner wall (857,1350), (1133,1347). rect=14,14,0"
+YM17-08,YM17,,likely,,832,1392,,,,"井亭, pair of small squares between the walls (832,1392), (1150,1388); Malone: two covered wells between the walls. rect=14,14,0"
+YM17-09,YM17,,likely,B0216;B0230,992,1452,5,1,E / W,"朝房 five bays each, between the walls. B0216 box short, see blocks_fix."
+YM17-N01,YM17,,likely,B0229,997,1506,3,1,S,"Three middle gates of the outer wall (Malone p.85); side gates at (877,1507), (1100,1505)."
+YM17-03,YM17,,likely,,980,1613,,,,"三坊: bars (930,1558), (1037,1558), (980,1613), screen before the outer gates per Malone. rect=42,8,0 for the south one, 10,42,0 for the side ones"
+YM17-01,YM17,,likely,,970,2100,,,,"鸿慈永祜坊: bar in the centre of the four squares; Malone p.84-85 pailou in the amphitheatre. rect=60,10,0"
+YM17-02,YM17,,likely,,978,2100,,,,"石华表: four squares (912,2035), (1050,2033), (908,2167), (1048,2167), about 140 px apart. Text says 左右各一 (two), Malone and the plan show four. rect=12,10,0"
+YM17-05,YM17,,likely,B0310,1108,1795,3,1,W,致孚殿 3 bays west-facing per text; Malone: small building on the east of the path where sacrifices were prepared. Drawing here is wider than the box.
+YM17-04,YM17,,likely,,985,1692,,,,"月河桥: the bridges across the U-shaped moat at y 1692, B0282/B0283 are these (rejected as halls). Malone counts five."
+YM17-07,YM17,,likely,,985,1445,,,,白玉石桥: bars on the inner curved moat at y 1445.
+YM42-11,YM42,西北门,guess,,342,1327,,,,G06 on the west wall; text calls the west gate 随墙门. Mapping is my guess.
+YM18-N01,YM18,汇芳书院,sure,B0186,1734,1237,5,1,S,Front block; label directly south of it.
+YM18-01,YM18,,likely,B0160,1738,1128,5,2,S,内宇 five bays per text.
+YM18-02,YM18,,likely,B0133,1746,1008,6,1,S,"后为涵远斋. Box says 6, text gives no count."
+YM18-03,YM18,,likely,B0159,1644,1096,3,1,E,西垣内.
+YM18-04,YM18,,likely,,1815,1090,9,1,E,"东垣内: long N-S ladder of about 9 bays, drawn one bay deep. rect=205,18,-90"
+YM18-05,YM18,,likely,B0161,1894,1088,9,1,E,Curved hall on a pool; Malone p.88 wide curve on the edge of a pool.
+YM18-06,YM18,,likely,B0187,1877,1232,3,1,S,倬云楼南稍东.
+YM18-07,YM18,问津,sure,B0188,2228,1228,3,3,S,"Label directly below. Three bays match text. Box covers only the top row, see blocks_fix."
+YM18-08,YM18,断桥残雪,sure,,2328,1199,,,E,"Stone archway, bar. rect=25,8,-90"
+YM19-01,YM19,日天琳宇,sure,B0328,1508,1892,8,1,S,Faint label directly south; inventory: 日天琳宇 is 西前楼下之正宇. 8 bays on plan against 7 in text.
+YM19-02,YM19,,likely,B0311,1526,1833,5,1,S,"Rear row behind B0328 (west back). Plan about 5 bays, text 7."
+YM19-03,YM19,佛楼,likely,B0329,1616,1891,5,1,S,"Label 佛楼 directly south. Plan 5 bays, text 7."
+YM19-04,YM19,,likely,,1616,1832,5,1,S,"Rear row behind B0329. rect=72,16,0"
+YM19-06,YM19,,likely,B0369,1618,2092,4,1,,天桥: narrow N-S ladder running to the rockery; Malone: bridge running out to a high rockery.
+YM19-07,YM19,,likely,,1650,2131,,,,"灯亭: ring in the rockery, SE of the bridge. rect=20,18,0"
+YM19-08,YM19,,guess,,1510,2070,3,2,,"West block south of the long gallery. rect=60,50,0"
+YM19-09,YM19,,guess,,1436,2011,3,1,,"Small N-S block on the west. rect=38,18,-90"
+YM19-05,YM19,,guess,,1523,2028,3,1,,"穿堂: two short N-S links at x 1523 and 1621. rect=35,17,-90"
+YM19-N01,YM19,极乐世界,sure,,1560,2137,,,S,"Label at (1572,2100) above a small square among rocks. rect=16,14,0. Not in inventory."
+YM19-10,YM19,楞严坛,sure,,1724,2076,,,,"Octagon with the label beside it. rect=33,28,0"
+YM19-11,YM19,瑞应宫,sure,,1860,2122,,,S,"Label south of the gate. Gate rect=30,16,0"
+YM19-12,YM19,,likely,,1862,2047,5,2,S,"仁应殿: south hall of the east yard. rect=75,34,0"
+YM19-13,YM19,,likely,B0331,1864,1938,5,2,S,和感殿: middle hall. Drawn wider than the box says.
+YM19-14,YM19,,likely,B0314,1864,1830,9,1,S,晏安殿: rear hall. Plan about 9 bays.
+YM23-01,YM23,慎修思永,sure,B0287;B0288;B0289;B0249;B0250;B0290,2593,1665,9,2,S,"Label south of hall. About 9 bays along the main line match text. Detection fragmented, see blocks_fix."
+YM23-N01,YM23,知?堂,sure,B0232,2596,1526,7,3,S,"Label on the east side of the hall: 知, second char 过 likely, 堂. Not in inventory."
+YM23-N02,YM23,墨?亭,sure,B0231,2447,1496,2,2,,"Label at (2400,1535) by the pavilion (second char 光 likely). Linked to B0232 by a gallery. Not in inventory."
+YM23-N03,YM23,水云居,sure,B0284;B0285;B0286,2450,1737,3,3,E,"Label to the west; first char could be 不 at low res, reads 水. Not in inventory."
+YM23-06,YM23,?泉 / 积秀,likely,B0205,2896,1348,1,1,,"Two-column label at (2910,1380): right ?泉, left 积秀. Text 临(泉) fits. Far NW of the strip."
+YM23-05,NEW-ym_west-03,?云舒卷,likely,B0291,3134,1730,3,2,W,"Label beside hall (3105,1740); first char like 煙/燼, text has 云霞舒卷."
+YM23-N04,NEW-ym_west-03,?月,likely,,3062,1530,,,,"Hexagon pavilion, label to the west, 浔月 or 得月. rect=20,20,0"
+YM23-07,NEW-ym_west-02,花神庙,sure,B0379,2512,2168,4,1,S,Label south of this gate; temple name 汇万总春之庙 in text.
+YM23-08,NEW-ym_west-02,,likely,B0372,2519,2067,5,1,S,蕃育群芳: five bays match text. Rear of the walled court.
+YM23-12,NEW-ym_west-02,池水共心月同明,sure,B0352,2414,1997,3,2,S,Label in the court directly south of the hall.
+YM23-N05,NEW-ym_west-02,涵虚朗鉴,sure,B0355;B0356,2598,1996,4,2,S,"Label directly south, legible. Same four characters as Forty Scene YM36, which stands on Fuhai. Conflict, see notes. Not the YM36 scene."
+YM23-N06,NEW-ym_west-02,朝日?,sure,B0333,2296,1867,3,1,E,"Label at (2325,1860): third char 暉 or similar. Not in inventory. Hall assignment by adjacency."
+YM24-01,YM24,,likely,B0075,2774,798,5,1,S,"正宇 five bays match text; box short, see blocks_fix."
+YM24-02,YM24,芰荷香,sure,B0104,2761,918,4,1,S,Label in court north of it; text 前宇. Plan 4 bays.
+YM24-03,YM24,,likely,B0107,2853,850,4,1,S,湛绿: 正宇东稍南.
+YM25-01,YM25,,sure,B0052,4774,646,5,5,S,Five bays per side. Box 6x5 by detection; I count 5 each way against the text.
+YM25-02,YM25,,likely,B0078,4871,796,3,1,W,畅观轩: 东厢.
+YM25-03,YM25,,guess,B0077,4678,830,3,1,,铺翠环流: 西南.
+YM25-05,YM25,,guess,,5029,855,,,,"多子亭: small hexagon by the hills. rect=18,18,0"
+YM51-N01,YM51,课农轩,sure,,5322,695,5,4,S,"Big grid hall above the label; no block. rect=95,70,0"
+YM42-12,YM42,大北门,likely,B0001,4962,328,5,2,N,G04. Text says 北楼门 is 正北.
+YM20-01,YM20,?泊清静,sure,B0432,3466,2508,7,7,,"田 plan, four courts. About 7 bays each side, counted roughly."
+YM20-03,YM20,翠扶楼,sure,B0433;B0434,3990,2501,3,2,S,"Label directly south of B0433 and west of B0434, an L together. Text: 东门外."
+YM20-04,YM20,"??轩 (faint, middle maybe 稼)",likely,B0411,3084,2411,7,1,S,"Seven bays match 多稼轩南向七楹; faint three-char label in court north of it. West of 田字 hall across the field, as text 西门外别垣内."
+YM20-05,YM20,观?? (faint),likely,B0431,3147,2538,3,2,W,"观稼轩: faint label to the west at (3098,2530); hall stands on the 稻畦 oval, text 其东临稻畦."
+YM20-06,YM20,(faint two columns),guess,,3153,2346,,,,"怡情悦目 (后为): square pavilion north of B0431 with faint writing to the NE. rect=26,24,0"
+YM20-10,YM20,,guess,B0408,2991,2448,3,1,,水精域: 多稼轩西池南.
+YM20-11,YM20,,guess,B0407,2952,2392,2,1,E,静香屋: 西偏.
+YM20-15,YM20,,guess,B0409,2996,2358,3,1,S,互妙楼: 正北.
+YM21-03,YM21,印月池,sure,,3388,2083,,,,"Label in a long narrow court (3360-3420,1990-2140), inside YM22 polygon. See features water_name."
+YM21-04,YM21,,likely,B0361,3382,2027,3,2,S,知耕织: north of the 池 label.
+YM21-06,YM21,,guess,B0429,2960,2527,3,1,S,贵织山堂: small court on the islet SW. Faint.
+YM22-01,YM22,水木明瑟,sure,B0362,3624,1962,3,2,S,Label directly south.
+YM22-02,YM22,丰乐轩,sure,B0374,3286,2098,4,2,E,Label directly east.
+YM22-N01,YM22,,guess,,3635,2000,,,,"T-shaped mark in the channel beside the label; Malone: a hall over a narrow channel where the current turned a fan. Possibly this. rect=10,30,0"
+YM38-01,YM38,土石临流,sure,,4245,2345,3,1,W,"T-plan hall. Label to the SE. rect=35,22,0"
+YM46-01,YM46,文源阁,sure,B0233,3536,1478,5,1,S,Label directly south. I count 5 bays on the plan; text 上下各六楹.
+YM46-03,YM46,,likely,B0234,3628,1473,1,1,,碑亭: 阁东亭. Matches text.
+YM46-N01,YM46,,likely,,3540,1585,,,,"Hexagon on the square pool. rect=20,18,0"
+YM46-N02,YM46,,likely,B0292,3545,1719,3,1,S,South gate.
+YM46-04,YM46,柳浪?莺,likely,,3185,1340,,,,"House just outside; label to the east. Third char unclear. rect=35,16,0"
+YM14-09,YM14,桃花坞,sure,B0391,2134,2334,5,1,S,Label in the court south of this row.
+YM14-14,YM14,恒春堂,sure,B0442,2048,2612,5,2,N,Label to the west of the stage court. 5 bays match.
+YM14-15,YM14,,likely,,2048,2572,,,N,"壶中仙籁戏台: square stage inside the court north of 恒春堂, B0425-27 row beyond. rect=36,30,0"
+YM14-05,YM14,全?堂,sure,B0509,2110,2913,4,1,S,"Label at (2182,2880). Second char looks like 壁 or 璧."
+YM14-02,YM14,,guess,B0394;B0395,2268,2324,3,2,S,"壶中日月长: 池北轩, north of the pond."
+YM15-01,YM15,山高水长,sure,B0733,1564,4250,9,1,W,9 bays west-facing: matches text exactly.
+YM15-02,NEW-ym_west-08,十三所,sure,,1690,4940,,,,"Label to the east at (1765,5005). See compound note."
+YM53-N01,YM53,藏舟坞,sure,B0658,1550,3593,5,1,,"East shed, 5-6 bays. West shed has no box."
+YM53-N02,YM53,,likely,B0639,1524,3514,5,1,S,Head row at the north end of the slip; box short.
+YM16-01,YM16,,likely,B0526,987,2991,1,1,S,"山门 on the south wall; side gates at (920,2990), (1050,2990)."
+YM16-02,YM16,都罡殿,likely,B0466,988,2824,5,5,S,Label directly south; square hall 5x5 matches 前殿方式四面各五楹. Malone n.: large square hall. Plan name is not in the text.
+YM16-03,YM16,三世佛殿,sure,B0441,988,2614,5,2,S,"Label directly south. Malone: Buddha of Three Worlds. Box wrong, see blocks_fix."
+YM16-04,YM16,,likely,B0419;B0420;B0422,988,2498,7,1,S,"后楼 seven bays per text. Wings B0417, B0418, B0423, B0424."
+YM16-05,YM16,法源楼,likely,B0452,1287,2714,6,1,S,"Label at (1285,2930) south of the yard. 楼 taken as the rear row."
+YM16-06,YM16,,likely,B0469;B0470,1397,2778,3,1,S,静室: 又东.
+YM16-07,NEW-ym_west-01,刘?将军庙,sure,B0378,486,2154,3,1,S,Label to the east. Second char like 孟. 3 bays match.
+YM16-08,NEW-ym_west-01,,likely,,632,2283,,,,"魁星楼: ring on a clear site east of the shrine; Malone: round tower with the Liu Meng shrine near it. rect=76,76,0"
+YM47-N01,YM47,自远轩,sure,B1001,496,5340,4,1,S,"Label directly south of the row. Not in inventory. Box wrong, see blocks_fix."
+YM47-N02,YM47,?琴??,likely,,481,5415,,,,"Vertical label in the yard, no adjacent hall identified."
+YM47-02,YM47,贮清书屋,sure,B1075,492,5460,3,1,S,Label directly south.
+YM47-01,YM47,?家芳,likely,,510,5538,5,1,S,"Label ?家芳 directly south, not 旷然堂. But 5 bays and 堂后为贮清书屋 fit, so taken as the same hall under another plaque. rect=73,31,0"
+YM47-N03,YM47,?藻楼,sure,,583,5552,4,1,S,"Label directly south. Not in inventory. rect=59,22,0"
+YM47-03,YM47,???,guess,,675,5550,3,1,S,"Three faint chars south of hall, not 夕佳书屋, but position fits 东池上. rect=40,23,0"
+YM47-04,YM47,?澜榭,likely,B1077,740,5521,2,1,S,镜澜榭: label directly south. First char hard.
+YM47-05,YM47,,guess,B1078,818,5548,2,1,W,凝眺: 东南楼.
+YM47-06,YM47,怀新馆,sure,B1107,769,5638,6,1,S,Label directly south.
+YM47-07,YM47,湛碧轩,sure,,632,5476,3,1,S,"Label directly north of an L-plan; text 西北. rect=39,16,0"
+YM47-N04,YM47,??琴峡,likely,,672,5632,,,,"Octagon in rocks, label at (678,5665). rect=20,20,0"
+YM42-05,YM42,藻园门,sure,,472,5715,,,S,G07.
+YM42-03,YM42,西南门,sure,,1495,5705,,,S,"G08; flanked by B1149 and a block at (1525,5690)."
+YM43-01,YM43,?水闸,likely,,905,5720,,,,"进水闸: label at (950,5750); water enters through the south wall here. First char like 進/連. Text 西南为一空进水闸."

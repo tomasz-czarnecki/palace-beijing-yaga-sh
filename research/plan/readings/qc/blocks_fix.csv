@@ -1,0 +1,51 @@
+block_id,action,x,y,w_px,h_px,angle_deg,note
+B1145,resize,9157,5562,125,55,0,Box held two halls and a court. This = north hall. South hall is A-qc-001.
+A-qc-001,add,9155,5665,130,70,0,涵秋馆 south hall.
+B1205,resize,6825,5935,130,50,0,Box held two halls and a court. This = north hall. South hall is A-qc-002.
+A-qc-002,add,6825,6022,130,35,0,清夏斋 south hall.
+A-qc-003,add,9596,6775,92,80,0,"Largest hall of the palace block, 5×4; no box."
+A-qc-004,add,9765,6652,28,45,90,协?斋.
+A-qc-005,add,9418,6920,33,28,0,?玉轩.
+B1334,resize,9700,7149,180,18,0,Box ran over gate and east range. This = east range.
+A-qc-006,add,9585,7147,50,30,0,宫门 3 bays.
+A-qc-007,add,9531,7144,58,18,0,West range of the same line.
+B1349,merge:B1348,,,,,,Same hall as B1348.
+B1300,merge:B1309,,,,,,Porch line of the same hall.
+B1309,resize,6021,6952,108,55,0,招凉榭; box included a platform.
+B1199,merge:B1198,,,,,,Porch frame of 生冬室.
+B1198,resize,8212,5932,75,65,0,生冬室 with porch.
+B1293,merge:B1295,,,,,,Frame beside hall.
+B1297,merge:B1303,,,,,,Passage between 永春堂 and the large hall north.
+B1403,merge:B1404,,,,,,One 3-bay gate split in three.
+B1405,merge:B1404,,,,,,One 3-bay gate split in three.
+B1404,resize,6765,7942,55,25,0,Gate 3 bays.
+B1302,merge:B1313,,,,,,Same hall.
+B1104,merge:B1103,,,,,,Part of the 凤麟洲 north hall.
+B1338,reject,,,,,,"Empty walled plot, no bays."
+B1351,reject,,,,,,"Empty walled plot, no bays."
+B1328,reject,,,,,,Bridge (B-qc-10).
+B1411,reject,,,,,,Bridge (B-qc-16).
+B1412,reject,,,,,,Bridge (B-qc-16).
+B1435,reject,,,,,,Road bridge.
+B1436,reject,,,,,,Road bridge.
+B1438,reject,,,,,,Road bridge.
+B1441,reject,,,,,,Road bridge.
+B1352,reject,,,,,,Road bridge.
+B1362,reject,,,,,,Road bridge.
+B1420,reject,,,,,,Road bridge.
+B1325,reject,,,,,,Road bridge.
+B1190,reject,,,,,,Empty yard frame.
+B1194,reject,,,,,,Empty yard frame.
+B1209,reject,,,,,,Empty yard frame above B1210.
+B1266,reject,,,,,,Empty yard frame.
+B1322,reject,,,,,,Empty yard frame beside B1323.
+B1401,reject,,,,,,Empty yard frame beside B1402.
+B1165,reject,,,,,,Empty yard frame.
+A-qc-008,add,8011,5343,28,85,90,会心处.
+A-qc-009,add,7340,7655,25,85,90,?虹榭 wing.
+A-qc-010,add,7640,7655,40,95,90,待旭轩 wing.
+A-qc-011,add,8552,6270,43,30,0,Walled yard north hall (QC20 guess).
+A-qc-012,add,8553,6353,63,20,0,"Walled yard south hall, 5 bays (QC20 guess)."
+A-qc-013,add,8723,4997,45,17,0,"Small hall on an islet, no label."
+A-qc-014,add,6372,6042,55,50,0,Hall in the walled hill of 西爽村.
+B1259,resize,8468,6364,47,28,0,"3 bays × 2, box too small and rotated."

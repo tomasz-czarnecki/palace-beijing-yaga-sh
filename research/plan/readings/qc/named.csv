@@ -1,0 +1,98 @@
+id,parent_id,name_on_plan,read,block_ids,plan_x,plan_y,ncols,nrows,orientation_note,note
+QC01,,大宫门,sure,B1390,9577,7737,5,1,S,Main gate. G25.
+QC01-N01,QC01,(东西朝房),likely,B1415;B1416,9581,7911,5,1,E and W,"Two side halls in the forecourt, no label; function by position."
+QC01-N02,QC01,影壁,sure,,9570,8185,,,S,"rect=160,22,0. Screen wall closing the forecourt."
+QC02-N01,QC02,(第二门),likely,B1378,9581,7595,5,2,S,Unlabelled gate on the axis north of 石桥.
+QC02,,迎晖殿,sure,B1358,9581,7433,5,1,S,"Label south of the hall, under an open porch outline."
+QC02-N02,QC02,(东西配殿),likely,B1370;B1371,9583,7507,5,1,E and W,"Side halls, no label."
+QC03,,中和堂,sure,B1348;B1349,9590,7307,5,2,S,B1348 and B1349 are one hall: see blocks_fix.
+QC04-N01,QC04,集禧堂,sure,B1314,9590,7002,5,2,S,Not in the inventory. In the slot where S06 has 敷春堂.
+QC04-N02,QC04,永春堂,sure,B1303,9599,6892,5,3,S,Not in the inventory. Joined by a passage to the large hall north. Block says 4 cols: I count 5.
+QC04-01,QC04,(后殿),guess,A-qc-003,9596,6775,5,4,S,"rect=92,80,0. No label. The largest hall of the block, no box. Either this or 永春堂 could be 敷春堂 or 后殿."
+QC04-02,QC04,问月楼,sure,B1262,9599,6531,5,1,S,Label south of hall; yard behind it.
+QC04-N03,QC04,宫门,likely,A-qc-006,9585,7147,3,1,S,"rect=50,30,0. Label reads 宫内/宫门."
+QC04-N04,QC04,(东配殿),likely,B1282,9693,6714,3,2,E or S,Unlabelled.
+QC30,QC04,翠????,guess,B1299,9786,6811,2,2,,"Label x 9815, y 6775-6865. See compounds."
+QC32,QC04,协?斋,likely,A-qc-004,9765,6652,2,2,W,"rect=28,45,0. Rockwork around it. Label x 9733."
+QC36,QC04,?芳?,guess,B1298,9740,6762,3,1,S,"Label x 9705, y 6777-6865. Nearest hall assumed."
+QC35,,蔚藻堂,sure,B1281,9431,6675,3,1,S,
+QC35-N01,QC35,?黛亭,sure,B1273,9388,6609,1,2,S,"First char 点 or 默. Label directly below. Drawn as a small hall, not a pavilion shape."
+QC38,,?玉轩,likely,A-qc-005,9418,6920,3,1,S,"rect=33,28,0. See compounds."
+QC38-N01,QC38,(六方亭),sure,,9367,6960,1,1,,"rect=18,18,0. Hexagon drawn, no name of its own."
+QC39,,舒?轩,likely,B1302;B1313,9486,6950,3,1,W,Overlapping boxes: see blocks_fix.
+QC05,,清夏斋,sure,A-qc-002,6825,6022,7,2,S,South hall of the pair; see blocks_fix.
+QC05-N01,QC05,(北殿),likely,B1205,6825,5935,7,2,S,North hall of the pair; no label.
+QC06,,凤麟洲,sure,B1103,9743,5480,4,1,S,Label in the court south of the hall.
+QC06-N01,QC06,(东殿),likely,B1105,9874,5473,3,2,S,Unlabelled.
+QC06-N02,QC06,(南殿),likely,B1147,9760,5621,3,1,S,"Unlabelled, with steps to the water at (9755,5670)."
+QC07,,涵秋馆,sure,A-qc-001,9155,5665,5,3,S,South hall of the pair; label south of it. See blocks_fix.
+QC07-N01,QC07,(北殿),likely,B1145,9157,5562,5,2,S,North hall of the pair; small square feature in the court.
+QC08,,鉴碧亭,sure,B1346,9036,7333,3,3,all,"I count 3×3, block says 4×4."
+QC10,,(仙人承露台),likely,,9268,5615,1,1,,"rect=30,70,0. Stepped rectangular platform inside rockwork. No label."
+QC10-N01,QC10,(六方亭),sure,,9385,5490,1,1,,"rect=25,25,0. Hexagon behind a rock mound, dotted path from the west."
+QC11,,正觉寺,sure,,8480,7598,,,S,Compound label.
+QC11-01,QC11,(山门),likely,B1409,8475,7875,3,1,S,No label; south gate on the axis.
+QC11-02,QC11,(天王殿),likely,B1394,8477,7780,4,2,S,No label; next hall on the axis.
+QC11-03,QC11,(三圣殿),likely,B1376,8480,7598,7,4,S,No label. Label 正觉寺 south of it.
+QC11-04,QC11,(文殊亭),likely,,8468,7477,1,1,all,"rect=30,30,0. Octagon drawn, matches 八方重檐亭 in lead 5910f5."
+QC11-05,QC11,(最上楼),likely,B1356,8470,7368,7,1,S,Central 7 bays match 后楼七间 in lead 5910f5. Side parts = 顺山殿.
+QC12,,澄心堂,sure,B1385,7481,7677,6,3,S,"Hall with rear wing, on an axis of dotted paths."
+QC12-N01,QC12,?虹榭,likely,A-qc-009,7340,7655,1,5,E,"rect=25,85,90. First char like 蓄/普. West wing."
+QC12-N02,QC12,待旭轩,likely,A-qc-010,7640,7655,1,5,W,"rect=40,95,90. Middle char like 旭. Faint pencil 待 beside the label. East wing."
+QC12-N03,QC12,六间 ...,likely,,7770,7730,,,," rect=40,40,0. L-shaped open grid of about 3+3 cells, with a written note 六间 面均皮 进二丈 (chars read with doubt) at (7780,7820). A measurement note on the plan, not a name."
+QC13,,含晖楼,sure,B1256,6586,6402,7,1,S,Rectangular outline south of it (terrace?).
+QC13-N01,QC13,撒马道,likely,,6595,6615,,,,"Written across the open ground: first char 撒, second 马, third 道. A riding course, not a building. Feature row too."
+QC14,,畅和堂,sure,B1393,6765,7750,5,2,S,
+QC14-N01,QC14,澄霞宇,sure,B1402,6672,7853,3,2,E,West hall of the court.
+QC14-N02,QC14,南??,likely,B1383,6661,7667,4,1,E,"First char 南 or 闸, then two unread."
+QC14-N03,QC14,??亭,likely,B1422,6645,7970,1,1,,"First char like 春/森, second like 翠/晖."
+QC14-N04,QC14,松路??,likely,B1404,6765,7942,3,1,S,"Label south of a 3-bay gate, third char like 益, fourth unclear, faint pencil char below. May name the path."
+QC15,,绿满轩,sure,B1364,6679,7450,3,3,E,Label east of it.
+QC15-N01,QC15,?矩亭,likely,B1343,6706,7320,1,1,,First char with 艹. Rock beside it.
+QC15-N02,QC15,?镜涵室,likely,B1353,6782,7358,1,1,S,"Three chars clear, first like 饒/餞. Hall north of the label."
+QC17,,春泽斋,sure,B1138,8222,5614,5,3,S,Inside a square walled court with rock set pieces.
+QC18,,生冬室,sure,B1198,8212,5932,3,3,S,Hall 3 bays plus porch on the drawing. The inventory says 7. Long side galleries B1197 extend the row to about 9 cells.
+QC19,,四宜书屋,sure,B1212,7676,5969,3,1,S,Label in the court south of it.
+QC19-N01,QC19,(北殿),likely,B1193,7710,5883,9,1,S,Unlabelled.
+QC22,,?神天?,likely,B1442,6867,8377,5,2,S,See compounds.
+QC23,,河神庙,sure,B1444,6974,8413,3,1,S,Gate B1451.
+QC25,,延寿寺,sure,B1207,7071,5986,3,1,S,
+QC25-N01,QC25,(山门),likely,,7078,6098,3,1,S,"rect=37,22,0. Label south of it."
+QC26,,(天心水面),likely,B1260,8841,6409,4,2,S,
+QC27,,心镜轩,sure,B1372,10008,7527,3,1,S,
+QC31,,凌虚亭,likely,B1437,7043,8203,3,1,S,Second hall B1439.
+QC43,,喜雨山房,sure,B1136,7496,5593,5,3,S,
+NEW-qc-01,,松风?月,likely,B0957,8213,5012,3,1,S,
+NEW-qc-02,,?吟楼,likely,B0938,8476,4937,3,1,S,
+NEW-qc-02-N01,NEW-qc-02,值房,sure,,8585,4910,3,1,S,"rect=35,20,0. Label south of it."
+NEW-qc-03,,会心处,sure,A-qc-008,8011,5343,3,1,E,"rect=28,85,90."
+NEW-qc-04,,敞厅,likely,B0958,9190,4954,5,1,S,
+NEW-qc-05,,浩然亭,sure,B0959,9744,5014,1,1,all,
+NEW-qc-06,,招凉榭,sure,B1309,6021,6952,5,2,S,
+NEW-qc-07-N01,NEW-qc-07,排青?,likely,,6515,7065,2,2,S,"rect=30,20,0. Third char like 幌."
+NEW-qc-07-N02,NEW-qc-07,?松扉,likely,,6564,7162,3,1,W,"rect=28,45,90. First char like 護."
+NEW-qc-10,,别有洞天,sure,B1354,7121,7385,3,1,E,Gate on the bridge. Not YM34.
+NEW-qc-11,,七宝?,likely,B1449,6725,8451,5,1,S,
+NEW-qc-11-N01,NEW-qc-11,闸?房,likely,B1448,6616,8487,1,1,,"First char 闸/阑, second like 军/茶."
+NEW-qc-12,,点景房,sure,B1446;B1447;B1440,7439,8381,,,S,Three small halls.
+NEW-qc-15,,西住所,likely,B1283,9863,6742,9,1,S,South row; label below it.
+NEW-qc-16,,东住所,likely,B1288,10019,6746,9,1,S,South row; label below it.
+NEW-qc-18,,学圃,sure,B1332,9966,7116,3,2,E,Label east of it.
+NEW-qc-18-N01,NEW-qc-18,六方亭,sure,,10015,7190,1,1,,"rect=20,20,0. Hexagon. Label appears to describe it."
+NEW-qc-19-N01,NEW-qc-19,膳房,sure,B1336,9761,7190,5,1,S,Second hall B1335.
+NEW-qc-19-N02,NEW-qc-19,茶房,sure,B1337,9856,7186,5,1,S,
+NEW-qc-19-N03,NEW-qc-19,?房,likely,,9856,7255,5,1,S,"rect=80,20,0. First char 薬(药) or 蘇. South part of the same yard."
+NEW-qc-20,,点景房,sure,B1350,9994,7316,3,1,E,
+NEW-qc-21,,村庄房,likely,B1323,10265,6996,3,1,W,Middle char 庄 (written 庒?).
+NEW-qc-22,,??斋,likely,B1359;B1360;B1361,10300,7395,,,S,L-shaped.
+NEW-qc-23-N01,NEW-qc-23,四局,sure,B1424,10053,8019,15,1,S,
+NEW-qc-23-N02,NEW-qc-23,善房,sure,B1428,10304,7950,5,1,S,Label south in the yard.
+NEW-qc-23-N03,NEW-qc-23,茶房,sure,,10460,7945,5,1,S,"rect=60,30,0."
+NEW-qc-24-N01,NEW-qc-24,官厅,sure,,10700,8064,,,S,"rect=140,32,0. Label south of it."
+NEW-qc-N01,,船坞,sure,B0956,7642,5022,1,1,,"Boathouse, label at (7640,5110). Long narrow bay across the channel."
+NEW-qc-N02,,船坞,sure,,7895,5125,,,W,"rect=70,45,0. U-shaped open dock, no box. Label at (7840,5120)."
+NEW-qc-N03,,船坞,sure,,10540,8695,,,,"Label only, on blank paper south of the road, no shape beside it."
+NEW-qc-N04,,值房,sure,,7172,6785,2,2,S,"rect=35,20,0. Beside 环翠门, label at (7203,6805)."
+NEW-qc-N05,,?家木,likely,,9760,8100,,,,"Label inside the 大宫门 forecourt, first char with a 木 radical. Possibly a timber yard. No building drawn."
+NEW-qc-N06,,黄木厂,sure,,11405,8060,,,,"Yard label, east, outside the garden."
+NEW-qc-N07,,?旗房,likely,B1453,7009,8694,3,1,S,South of the wall. First char unread. Guard house by name.

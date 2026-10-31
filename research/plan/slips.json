@@ -1,0 +1,43 @@
+[
+ {
+  "id": "SL1",
+  "status": "candidate, not proven",
+  "where": "九洲清晏 island, central court behind 圆明园殿",
+  "polygon": [
+   [
+    3240,
+    4550
+   ],
+   [
+    3350,
+    4550
+   ],
+   [
+    3350,
+    4870
+   ],
+   [
+    3240,
+    4870
+   ]
+  ],
+  "evidence": "Malone (S02, caption of the map on p. 72) describes a slip showing the Emperor's apartments as altered, folded up over the Back Lake in his photograph. On this copy no slip is folded over 后湖 and no cut paper edge shows. Inside this court there are faint ghost characters, and the paper reads about 2.5-4.5 grey levels brighter (191.4 against 186.9 and 188.9) than two comparison courts on the same island. That fits a slip laid flat here, but the outline is only the court's ink frame.",
+  "source": "S01;S02"
+ },
+ {
+  "id": "SL2",
+  "status": "not seen",
+  "where": "Group 40 洞天深处, Ju I Kuan side (about x 4650-5230, y 5150-5700)",
+  "polygon": null,
+  "evidence": "Malone (S02, note to group 40, and App. II p. 232) says the map shows a later arrangement on a paper pasted over the old one. Enhanced crop at full size shows no paper edge on this copy.",
+  "source": "S01;S02"
+ },
+ {
+  "id": "SL3",
+  "status": "not checked to the end",
+  "where": "Qichun Yuan",
+  "polygon": null,
+  "evidence": "The task brief mentions a slip near Qichun. Malone p. 232 says only 'in more than one place'. I found no such edge in the tint maps. A long diagonal band from about (6200,4700) to (5300,6300) on the tint maps looks like a fold or repair of the paper; it was not examined at full zoom.",
+  "source": "S01;S02"
+ }
+]

@@ -1,0 +1,158 @@
+id,parent_id,name_on_plan,read,block_ids,plan_x,plan_y,ncols,nrows,orientation_note,note
+XY01,XY01,谐奇趣,sure,,8879,1485,,,S,"rect=126,41,0. Plain double-line rectangle x 8816-8942, y 1465-1506; bays not drawn (text 7 lower, 3 upper). Curved double stair x 8841-8916, y 1506-1550; round landing (8878,1562) r~15; fan stairs at x 8826-8865 and 8895-8932, y 1545-1577."
+XY01-01,XY01,八角奏乐亭 (west),likely,,8742,1600,,,,"rect=40,40,0. Octagon, end of the curved gallery. Gallery runs (8816,1490) (8760,1510) (8735,1560) (8735,1580), width ~15."
+XY01-N01,XY01,八角奏乐亭 (east; no label),likely,,9018,1602,,,,"rect=40,40,0. Octagon, end of east gallery (8942,1490) (9000,1510) (9025,1560) (9025,1580). Twin of XY01-01."
+XY01-02,XY01,海棠形喷水池,likely,,8879,1610,,,,"rect=126,61,0. Scalloped pool x 8816-8942, y 1579-1640 with double edge; neck south to the lake x 8860-8902."
+XY01-N02,XY01,(no label) north stair,likely,,8847,1406,,,N,"rect=44,40,0. One of two squares with hatched stairs north of the main block, tied to it by a wall (8845,1426)-(8845,1465). Engraving 2 shows a double stair flight down the north side; these two hatched squares probably draw it, set too far north."
+XY01-N03,XY01,(no label) north stair,likely,,8910,1408,,,N,"rect=44,42,0. East twin of XY01-N02."
+XY02,XY02,(no label),likely,B0179,8705,1085,5,1,E,Text 5 bays: agrees.
+XY03,XY03,(no label),likely,,8875,925,3,1,S,"rect=37,20,0. Engraving 4 shows its north side."
+XY04-01,XY04,(no label) centre pavilion,likely,,8880,688,,,S,"rect=36,36,0. Octagon inside a ring base of outer diameter ~100, with stair south at (8877,745). Malone: octagonal pavilion."
+XY04-N01,XY04,(no label) two-storey hall at the back of the maze,likely,B0048;B0047,8881,470,5,3,S,Malone: two-story building at the back overlooked the maze. B0047 is its south porch or stair.
+XY04-N02,NEW-cc_xyl-01,(no label) square pavilion on hill,guess,B0008,8883,303,1,1,,Inside a square wall ~40x40 px.
+NEW-cc_xyl-08-N01,NEW-cc_xyl-08,(no label) fountain figure south of the maze gate,guess,,8876,1094,,,,"rect=44,44,0. Octagon with six small marks around, in the court north of 谐奇趣: probably the north-side fountain of engraving 2. Outside the maze wall, ~290 px north of the stairs of 谐奇趣; the engraving shows the fountain close to the stairs."
+XY05,XY05,(no label),likely,,9068,1101,3,1,W,"rect=67,21,-90 for the N-S range x 9066-9087, y 1068-1135. Plus centre projection rect=55,23,0 at (9067,1103) (x 9040-9095, y 1092-1115). Text 5 bays; plan shows 3 parts."
+XY05-N01,XY05,(no label) small walled court north of 养雀笼,guess,B0149;B0150,9052,988,5,1,S,"Rooms N (5 bays), W and E (3 bays each) round a court x 9020-9085, y 959-1018, small gate in the south side at (9055,1015)."
+XY06,XY06,方外观,sure,B0152,9394,966,3,1,S,"3 bays: agrees with text. Hall x 9360-9427, y 952-980. South porch x 9375-9415, y 980-1015. Curved stairs W x 9335-9362, y 961-1009; E x 9429-9454, y 961-1005."
+XY06-N01,XY06,(no label) bow-tie figure,guess,,9469,1101,,,,"rect=77,46,0. Cross-shaped centre 30 px wide with two flaring wings. Off the 方外观 axis by 73 px. Could be a planted bed or pool. Not the 五竹亭 of engraving 9."
+XY07,XY07,(not drawn),guess,,9396,1240,5,1,N,"rect=150,30,0 inferred from engraving 9 (5 pavilions in a row; pool to row-width ratio). Nothing is drawn here on the plan. Keep C."
+XY08,XY08,海晏堂,sure,B0180;B0154,9860,1107,,,W,"Main front block, stepped outline x 9842-9885, y 992-1217. Centre room B0180. North wing B0154 (x 9808-9872, y 1008-1039), south wing mirror needs A-cc_xyl-001 at (9840,1192). H-shaped front hall x 9776-9831, y 1092-1128. Terrace x 9751-9772, y 1060-1155. Corridor east x 9876-9967, y 1085-1130. Text 11 bays on the front; bays not drawn."
+XY08-02,XY08,(no label) 十二时辰水法 pool,likely,,9695,1105,,,W,"rect=91,73,0. Lens-shaped pool x 9649-9740, y 1069-1142; horseshoe double stairs N (x 9660-9735, y 1005-1060) and S (x 9665-9720, y 1160-1215) with hatched treads to the terrace. Drawn on a slip."
+XY08-N01,XY08,西水?房,likely,,9998,1107,,,,"rect=64,123,0. Box x 9967-10031, y 1046-1169, label in the inner rectangle. Third char drawn like 章 or 車; 西水車房 (west waterwheel house) would fit the hydraulics, not certain."
+XY08-01,XY08,海晏堂,likely,,10090,1107,,,,"rect=128,91,0. Long rectangle x 10026-10154, y 1062-1153, with the label 海晏堂. Inner lines suggest a tank between two side corridors: probably the reservoir 锡海 (Malone: reservoir between the hydraulic machines). Label names the whole group."
+XY08-N02,XY08,"(no label) east block, north",likely,B0182,10217,1080,4,2,E,"East end block x 10154-10264, y 1051-1175 split by an E-W passage y 1101-1120. N-S strip x 10154-10168 on its west. May be the east hydraulic house and zig-zag stairs of engraving 12."
+XY08-N03,XY08,"(no label) east block, south",likely,B0181,10214,1147,4,3,E,See XY08-N02.
+XY09,XY09,远瀛观,sure,B0096,10562,823,5,4,S,"5 bays: agrees. South row left open (U-shaped bottom in the grid). Terrace x 10498-10622, y 765-945; stairs (hatched) x 10500-10532, y 946-982 and x 10596-10627, y 943-975."
+XY09-N01,XY09,(no label) north range west,guess,B0069,10467,735,5,2,S,"Unnamed range on the north wall behind 远瀛观, turning south at both ends."
+XY09-N02,XY09,(no label) north range centre,guess,B0070,10562,728,6,1,S,
+XY09-N03,XY09,(no label) north range east,guess,B0071;B0072,10658,736,4,2,S,
+XY10,XY10,(no label),likely,,10562,1046,,,S,"rect=139,100,0. Shell-shaped basin x 10493-10632, y 996-1096 with about 9 small figures and centre rect (10562,1037). Arc behind it x 10511-10611, y 968-989."
+XY10-N01,XY10,(no label) west pyramid fountain,likely,B0183,10416,1116,1,1,,"Round pool x 10371-10461, y 1071-1161 with a square base. B0183 is that base."
+XY10-N02,XY10,(no label) east pyramid fountain,likely,,10697,1117,1,1,,"rect=22,20,0 for the base. Round pool x 10654-10741, y 1076-1159."
+XY11,XY11,(no label),likely,,10555,1252,,,N,"rect=68,54,0. Arc screen x 10521-10589, y 1225-1279, opening north."
+XY12,XY12,转马台,sure,,11184,1121,,,,"Round hill, outer diameter ~195 (y 1021-1218), concentric broken ring paths."
+XY12-01,XY12,(no label) 线法山门,likely,,11057,1117,,,W,No gate drawn: a 65 px gap in the N-S wall x=11057 (wall ends at y 1085 and y 1150). Same gaps at x=10823 and x=11314.
+XY12-02,XY12,(no label) hilltop,likely,,11184,1121,1,1,,"rect=40,40,0. Innermost ring; pavilion not drawn as a building."
+XY13,XY13,螺蛳牌楼,sure,,11415,1125,,,,"rect=235,60,-90. N-S figure x 11381-11454, y 1008-1242: cloud-shaped ends and a lobed spine; the triple arch of engraving 19 is not drawn in plan."
+XY14,XY14,(no label),likely,,11890,1125,,,,Basin; see compound polygon.
+XY15,XY15,线法画,sure,,12310,1127,,,W,"6 staggered walls per side, each ~8x35 px, N-S. North set (x,y): 12259 1021; 12275 1025; 12298 1040; 12323 1053; 12348 1067; 12375 1084. South set: 12255 1250; 12276 1241; 12299 1228; 12322 1216; 12348 1198; 12375 1185. Malone says five each side."
+XY15-N01,XY15,(no label) north range,guess,B0155,12340,989,5,1,S,
+XY15-N02,XY15,(no label) south range,guess,B0215,12339,1288,5,1,N,
+CC08-02,CC08,(no label) 四面延楼,likely,A-cc_xyl-005;A-cc_xyl-006;A-cc_xyl-007,9620,1650,,,,"Square ring of rooms round court x 9576-9667, y 1609-1684. Ring outer x 9549-9688, y 1584-1716."
+CC08-03,CC08,(no label) 光明性海,guess,A-cc_xyl-003,9636,1526,,,,"North row x 9585-9688, y 1510-1542; '后殿' on position. A second row A-cc_xyl-004 stands between it and the ring."
+CC08-04,CC08,(no label) 琉璃方塔,guess,,9523,1551,,,,"rect=43,65,0 is the empty west court x 9501-9544, y 1519-1584: '其西别院'. No tower drawn inside it. Tall hall B0266 stands on its east side."
+CC09-01,CC09,(no label) 山门,guess,,10022,1612,4,1,S,"rect=45,14,0. South-most 4-bay row, x 10000-10045, y 1605-1619, small side gates at (9987,1600) and (10058,1600)."
+CC09-02,CC09,(no label) 澄光阁,guess,,10022,1584,5,1,S,"rect=65,19,0. 5-bay row x 9990-10055, y 1575-1594, on a long E-W band."
+CC09-03,CC09,(no label) 昙霏阁,guess,,10022,1496,,,S,"rect=40,11,0. Lower row inside the top hall; the plan has one row too few for 山门/澄光阁/昙霏阁/现大圆镜."
+CC09-04,CC09,(no label) 现大圆镜,likely,B0242,10022,1485,3,2,S,"Top hall x 9987-10058, y 1458-1512, on a platform x 9972-10072, y 1490-1536 with central stair x 10013-10037, y 1514-1545: '崇基上有殿'."
+CC10-04,CC10,泽兰堂,sure,B0224;B0214,10555,1375,5,2,S,"Hall in a walled court x 10480-10620, y 1330-1510. B0214 is its north porch or back stair row (x 10520-10600, y 1310-1335). Small east wing (10630,1360)."
+CC10-01,CC10,翠交轩,likely,B0303;B0302;B0304,10562,1681,3,1,S,"Label on the water south of the hill; hall on axis on the rockery, flanked by B0302 and B0304."
+CC10-03,CC10,(no label) 爱山楼,guess,B0245,10561,1490,5,1,S,"South range of the 泽兰堂 court, facing the rockery. Text: north of 翠交轩, south of 泽兰堂."
+CC10-N01,CC10,(no label) 城关,likely,,10348,1548,,,E,"rect=53,28,-90. Hatched block x 10334-10362, y 1522-1575 on the land strip between 宝相寺 and the hill: '由宝相寺度城關而东'."
+CC10-02,CC10,(no label) 熙春洞,guess,,10562,1720,,,,'轩下石室': no chamber drawn; placed in the rockery south of 翠交轩. Keep C.
+CC11-N01,CC11,(no label) 平畴交远风 hall,guess,B0226,11535,1356,9,1,S,
+CC11-01,CC11,(no label) 转湘帆,guess,,11450,1700,,,,"rect=30,30,0. Hexagon in rockery on the land lobe, south of B0226: 南为转湘帆. No label; outside the CC11 polygon, in NEW-cc_xyl-03."
+CC12-N01,CC12,華?馆,likely,B0274;B0273,11785,1575,6,1,S,Label in the court south of the 6-bay hall. Second char has 辶 and looks like 遂 or 滋. B0273 its west end room.
+CC12-01,CC12,琴清斋,sure,B0306;B0307,11793,1686,4,1,S,Label directly below.
+CC12-N02,CC12,?月亭,likely,,11783,1797,3,3,S,"rect=26,26,0. Square grid pavilion in a double wall x 11755-11810, y 1775-1840, stair south at (11783,1825). Label below it at (11785,1880), first char complicated (氵+?: looks like 濃)."
+CC12-N03,CC12,(no label) east range,guess,B0275;B0309;B0308,11863,1665,12,1,W,"Long N-S range. B0275+B0309+B0308 are one range x 11850-11876, y 1596-1760."
+CC12-N04,CC12,(no label) west range,guess,B0305,11704,1740,3,1,E,
+CC13-04,CC13,清閟阁,sure,B0246,11971,1480,7,1,S,"Label directly south of the 7-bay range, on what looks like a washed pool."
+CC13-10,CC13,探真书屋,likely,B0227,11872,1417,2,1,,"Label east of the hall, first char reads like 探 or 楳; court x 11850-11900, y 1395-1430, stepped wall to the south."
+CC13-09,CC13,小香幢,sure,,12090,1370,,,,"Label on a separate hill north of the group, no building drawn there; the 3-bay B0228 (12170,1434) may belong to it. Pavilion not located: rows at 12038-12060,1370-1450 are a strip."
+CC13-N01,CC13,(no label) hall in the west rockery,guess,B0276;B0277,11981,1612,3,1,S,B0277 is a plain terrace south of it. Possibly 纳景堂.
+CC13-N02,CC13,(no label) gate court,guess,B0278,12089,1586,2,1,,"Rect x 12065-12115, y 1555-1620 between the two rockeries."
+CC13-N03,CC13,(no label) hall in the east rockery,guess,B0247,12171,1547,3,1,S,
+CC13-N04,CC13,(no label) north range east garden,guess,B0228,12170,1434,3,1,S,
+CC07-01,CC07,流香渚,sure,B0458,8964,2694,2,2,,"Square hall on a terrace x 8923-9005, y 2650-2730; four porches with stairs. Rixia says 亭."
+CC06-N01,CC06,(no label) centre tower,likely,B0460,9472,2688,3,3,,Rixia: three-storey building on the round base.
+CC06-N02,CC06,(no label) north hall,likely,B0450,9478,2604,5,2,S,
+CC06-N03,CC06,(no label) south hall,likely,B0498,9478,2788,4,2,N,"Plan's width ~80, box too narrow."
+CC06-N04,CC06,(no label) west hall,likely,B0459,9360,2684,3,1,W,
+CC06-N05,CC06,(no label) east hall,likely,B0461,9583,2689,3,1,E,
+CC20,CC20,花神庙,sure,B0630,8816,3388,3,1,S,3 bays: agrees. Box too small; see blocks_fix.
+CC04-01,CC04,思永斋,sure,B0706,9472,3765,7,2,S,Label in the court south. Count about 7-8 bays; text 7.
+CC04-02,CC04,山色湖光共?,likely,B0649,9478,3472,5,2,S,"Label inside the octagon court x 9414-9533, y 3508-3646 (last character merged, looks like 楼). The 5-bay hall on the north shore is the '樓宇臨池'; a neck x 9458-9497, y 3490-3517 joins it to the octagon ring."
+CC04-03,CC04,佳处领其要,likely,B0666;B0667,9640,3575,,,,"Label 佳處領其要 in the walled east court x 9570-9705, y 3510-3635. Text says 小有天园 is the east side-court; the plan names it differently. B0666/667 are its west hall group."
+CC04-N01,CC04,?亭,likely,B0668,9717,3580,1,1,,"Pavilion on the east wall of the court. Label 樓亭? at (9760,3570), first of two chars looks like 樓."
+CC04-N02,CC04,迎月亭,sure,,9267,3580,,,,"rect=22,22,0. Hexagon with rock on the land west of the compound; label below."
+CC04-N03,CC04,静便趣,likely,B0711,9470,3893,4,2,S,"Label 靜便趣 (second char unclear) south of the south range, written over the bay R0019 at (9480,4020)."
+NEW-cc_xyl-09-N01,NEW-cc_xyl-09,?井,likely,,9847,3307,,,,"rect=50,32,50. Double lozenge figure of eight; label at (9887,3303), first char like 蒿 or 萬. Not in inventory; on the land north-east of 思永斋."
+CC02-12,CC02,得胜?,likely,B0451,10567,2617,3,1,S,Label below the hall reads 得勝槩 or similar (3rd char 木 base). S06: open hall outside the back gate. On a rockery.
+CC02-05,CC02,蕴真斋,sure,B0522,10557,2867,,,S,"Label in the court south of the cross-shaped hall x 10490-10630, y 2820-2910."
+CC02-04,CC02,淳化轩,sure,B0541;B0556,10573,3030,7,4,S,"Label in the court south of it. Hall x 10506-10640, y 2980-3080. B0541's box too tall; see fix. B0556 is its south porch."
+CC02-N01,CC02,静莲斋,sure,B0502,10448,2848,5,2,S,Label directly south.
+CC02-07,CC02,渊映斋,sure,B0557,10710,3101,4,1,S,Label directly south.
+CC02-13,CC02,樂奏?天,likely,,10707,2960,1,1,N,"rect=40,38,0. Square stage in the court x 10666-10760, y 2890-2979; label above it reads right to left, third char like 鈞 or 場."
+CC02-14,CC02,(no label) 神心妙达,guess,B0523,10704,2855,5,2,S,"North hall of the theatre court, facing the stage."
+CC02-10,CC02,三?轩,likely,,10470,3035,3,1,,"rect=62,47,0. Label written INSIDE the small hall x 10440-10502, y 3011-3058, second char looks like 有 (text 三友轩). Rockery north-west of it."
+CC02-N02,CC02,澄波夕照,sure,B0582,10346,3154,3,1,E,Label directly west. Not in inventory.
+CC02-15,CC02,(no label) 买卖街,likely,B0524;B0558;B0606;B0634,10800,3140,,,,"Long rows of small bays on the east strip outside the compound wall x=10760, y 2800-3430. S06: outside the east wall."
+CC02-N03,CC02,(no label) long north range,guess,B0464,10777,2743,12,1,S,"12 bays E-W, north of the compound."
+CC02-N04,CC02,(no label) east row of rooms,guess,B0525;B0559;B0607,10926,3100,,,,"Three isolated N-S rows at x~10926, y 2865-3285."
+CC14-01,CC14,正谊明道,sure,B0653;B0654,11413,3527,8,3,S,"Label south of the hall, right to left. About 8 bays on the plan vs 5 in the text. South gate range B0694."
+CC14-02,CC14,林光澹碧,sure,B0637,11426,3401,9,1,S,"Label south. Range x 11334-11484, y 3386-3416; count about 9 vs box 7."
+CC14-03,CC14,鹤安斋,sure,B0656,11554,3510,3,3,S,"Label south of the block, in the narrow court."
+CC14-04,CC14,(no label) 蹈和堂,guess,B0651,11298,3508,3,1,S,West side '西南为蹈和堂'; no label; B0694 is another candidate.
+CC14-N01,CC14,狎?亭,likely,B0608,11552,3318,1,1,,"Label in the big north-east court x 11490-11610, y 3325-3490; reads 狎鷗亭 (second char like 鷗). Only a pavilion at the north end fits 亭."
+CC14-N02,CC14,芥舟,likely,B0657;B0655,11632,3509,4,1,,Label directly east of the range. First char 艹 top: 芥 or 茶.
+CC14-N03,CC14,朝暉亭,likely,,11265,3625,1,1,,"rect=16,28,-90. Small rect x 11257-11273, y 3611-3639; label on the water west of it at (11225,3590)."
+CC15-01,CC15,(no label) 昭旷亭,guess,,11573,3940,3,1,,"rect=34,35,0. Small grid x 11556-11590, y 3921-3956 south of the 玉玲珑馆 bridge. Not labelled; 朝暉亭 is the only other 亭 near."
+CC15,CC15,映清斋,sure,B0728,11563,4061,,,S,"Narrow double-line rect x 11534-11592, y 4049-4072, no bays drawn."
+CC15-N01,CC15,(no label) north hall,guess,B0720,11518,3994,7,1,S,Court B0719 south of it.
+CC15-N02,CC15,(no label) south range,guess,B0752,11684,4157,5,1,,
+CC15-N03,CC15,(no label) end hall of curved way,guess,B0721,11739,4038,3,1,,Rotated ~50 deg.
+CC15-N04,CC15,(no label) east range,guess,B0729,11762,4099,3,1,,
+CC16-01,CC16,(no label) 鉴园正宇,likely,B0730,12281,4132,5,1,W,"Text 5 bays facing west: B0730 is 5 bays on the west side, x 12268-12291, y 4091-4173; label 鉴园 immediately west. Mirror range x 12338-12365 in A-cc_xyl-012."
+CC16-02,CC16,漱琼斋,sure,B0708,12290,3828,5,2,S,Label directly west.
+CC16-03,CC16,(no label) 师善堂,guess,A-cc_xyl-012,12352,4132,6,1,,'其东为师善堂'.
+CC16-04,CC16,船坞,sure,A-cc_xyl-021;A-cc_xyl-022;A-cc_xyl-023;A-cc_xyl-024,12389,4325,,,,"Label 船塢 between two long rows of rooms: west x 12365-12380, east x 12401-12413, y 4228-4422, open water between; two side rooms on the west, y 4284-4326 and y 4388-4422."
+CC16-N05,CC16,(no label) long shed east,guess,B0732,12428,4126,5,1,,N-S row east of the court.
+CC16-N01,CC16,(no label) north range,guess,B0731,12349,4063,6,1,S,
+CC16-N02,CC16,(no label) hall in the rock court,guess,B0722,12277,4016,5,1,S,"Semi-circular rock line north of it; gate at (12290,3910)."
+CC17,CC17,大东门,sure,B0585,12441,3187,7,1,E,7 bays: agrees. G19.
+CC17-01,CC17,(no label) 朝房 north,likely,B0560,12515,3092,3,1,,3 bays: agrees.
+CC17-N01,CC17,(no label) 朝房 south,likely,B0609,12518,3272,3,1,,3 bays: agrees. Box too short; see fix.
+CC17-02,CC17,(no label) 护河石桥,likely,,12576,3184,,,,Hourglass bridge; B0586 is it.
+CC02-03,CC02,含经堂,sure,B0605,10576,3254,9,2,S,"Label south, blue 2. About 9 bays on the plan vs 7 in text. Hall x 10494-10658, y 3223-3283."
+CC02-02,CC02,宫门,sure,B0650,10571,3462,5,1,S,"5 bays: agrees. Label south of its stair (x 10561-10587, y 3510-3534)."
+CC02-01,CC02,(no label) 琉璃坊楔,likely,B0669;A-cc_xyl-013;A-cc_xyl-014,10581,3734,,,,"Three small gates round the forecourt: east B0669 (10769,3588), west (10381,3588), south (10581,3734). Rixia: 建琉璃坊楔三."
+CC02-06,CC02,(no label) 霞翥楼,likely,B0633,10714,3357,9,1,,"East U-shaped range x 10660-10770, y 3266-3447. '含经堂東'."
+CC02-08,CC02,(no label) 梵香楼,likely,B0631,10409,3356,9,1,,"West U-shaped range, mirror. '堂西'."
+CC02-09,CC02,(no label) 涵光室,guess,B0632,10478,3359,5,1,,Inner range west of the hall.
+CC02-N05,CC02,(no label) inner range east,guess,A-cc_xyl-015,10673,3358,5,1,,Mirror of B0632.
+CC03-02,CC03,(no label) 朗润斋,guess,B0822,9589,4524,3,1,S,3 bays: agrees with the text; the only 3-bay hall at the head of a court. No label.
+CC03-03,CC03,(no label) 湛景楼,guess,B0823,9674,4457,3,1,,'其东'.
+CC03-04,CC03,(no label) 菱香沜,guess,B0824,9854,4538,5,2,,'又东'. Three linked pools just west of it.
+CC03-N01,CC03,(no label) north hall,guess,B0790;B0789,9570,4420,,,S,
+CC03-N02,CC03,(no label) long south range,guess,B0849,9729,4633,7,1,,"Along the south wall, on it."
+CC03-N03,CC03,(no label) north-east pavilion,guess,,9923,4446,3,2,,"rect=32,28,0; corridor runs south from it to B0824."
+CC01-04,CC01,澹怀堂,sure,B0825,11038,4517,5,3,S,"Label south. 5 cols x 3 rows on the plan vs 9 bays in the inventory. South porch x 11003-11070, y 4560-4610; stairs N (11038,4462) and S (11038,4628)."
+CC01-05,CC01,(no label) 众乐亭,likely,B0766,11045,4349,1,1,,"On the north wall of the court, with stairs N and S: '后为众乐亭'."
+CC01-01,CC01,长春园,sure,B0940,11035,4915,5,1,S,Label 长春园 south of it (G21). Box covers the east part only; see fix.
+CC01-N01,CC01,(no label) inner gate,likely,,11033,4794,,,S,"rect=57,17,0. Narrow gate in the cross wall with two small side gates at (10942,4790), (11130,4788)."
+CC01-N02,CC01,(no label) west side hall,likely,B0888,10894,4702,5,1,E,Inside the court; 5 bays. Candidate for 朝房 too.
+CC01-N03,CC01,(no label) east side hall,likely,B0889;B0890,11198,4701,5,1,W,As above.
+CC18-N01,CC18,延清堂,sure,B0894,12059,4662,5,3,,Label directly east of the hall. Not in the inventory: see notes.md (敦素堂 expected).
+CC01-02,CC01,(no label) 朝房,likely,B0974;B0975,11035,5067,6,1,,"Two N-S rows outside the gate south of the label 长春园, x~10909 and x~11162. Inner rows B0888/B0889 also have 5 bays; these outer ones fit 大宫门-type layout. B0974 and B0975 continue to y~5106, at box edge."
+CC01-06,CC01,(no label) 云容水态,likely,B0718,11050,3962,6,1,S,"On the axis of 众乐亭, north of the lake; 敞宇 by the water. 6 boxes vs text 5."
+CC01-07,CC01,(no label) 长桥,likely,,10860,4200,,,,"Long straight N-S causeway x 10847-10871, y 4075-4335, west of and a bit south of 云容水态, as Rixia says. See features."
+CC01-03,CC01,(no label) 影壁,guess,,11034,4900,,,,"No large screen drawn south of the gate within the box. Two L-shaped stubs at (10955,4905) and (11113,4902) flank the gate; two small squares at (11001,4977), (11069,4974) in the gate court. South of y 5100 not read."
+CC03-01,CC03,?园门,likely,,9645,4722,3,2,S,"rect=33,21,0 (G22). Label below it: first char is 艹 over 青-like shape, not 绮: read 蒨 or similar. It stands on the outer south wall of the area. Rixia's 蒨园门 faces west, so this may be a different gate."
+CC05,CC05,(no label) 得全阁,guess,B0786,8794,4396,7,1,E,7-bay N-S range on the west side.
+CC05-01,CC05,(no label) 宝云楼,guess,B0820,8854,4452,3,1,,South range.
+CC05-02,CC05,(no label) 远风楼,guess,B0764;B0765,8875,4339,5,1,,North range.
+CC13-14,CC13,(no label) 水门,guess,,12052,1672,,,,"rect=25,30,0. Half-round figure at the south edge of the wall, where the wall meets the lake."
+CC18-01,CC18,(no label) 门,guess,B0893,11848,4671,3,1,W,3 bays: agrees. On the E-W corridor; could as well be elsewhere.
+CC18-N02,CC18,(no label) south hall,guess,B0942,11748,4854,5,3,,Connected by stepped way B0925-B0924 to the north-west.
+CC18-N03,CC18,(no label) hall in oval rock court,guess,A-cc_xyl-018,11927,4790,3,1,,"Oval rock wall x 11860-12020, y 4720-4880."
+CC18-N04,CC18,(no label) east rock garden hall,guess,B0926,12275,4775,3,1,,
+CC18-N05,CC18,(no label) south shore range,guess,B0943,12062,4942,7,1,N,Court runs north to the wall stubs x 12020-12105.
+CC18-N06,CC18,(no label) north-west range,guess,B0891,11527,4667,6,1,,
+CC18-N07,CC18,(no label) pavilion,guess,,11795,4738,,,,"rect=25,25,0. Hexagon with rocks."
+CC18-N08,CC18,(no label) small hall in rocks,guess,B0892,11743,4701,2,1,,Round rock ring around it.
+CC15-N05,CC15,(no label; see Malone p.99),likely,B0721,11739,4038,3,1,NE,"Malone p.99: the only building not square with the compass, a small pavilion facing north-east on a little bay about 100 yards north of 如园. B0721 at 51 deg matches it."
+CC06-01,CC06,(no label) 枋楔,likely,,9476,2505,,,,"Rixia: one 枋楔 on each of the four sides. Plan shows four stone arms N (9476,2505), S (9476,2868), W (9295,2688), E (9655,2688), each with a stair; the 枋楔 themselves are not drawn."
+CC08-01,CC08,(no label) 山门,guess,,9505,1551,,,W,Text: faces west. Placed on the west side of the empty west court; not drawn.
+CC16-N03,CC16,(no label) shed north,guess,B0709,12417,3868,8,1,,"Same type as B0732, across a pool from B0708. Outside the polygon."
+CC21,CC21,,not_found,,,,,,,See compounds.csv.

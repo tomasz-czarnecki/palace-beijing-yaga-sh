@@ -1,0 +1,83 @@
+id,name_on_plan,read,plan_x,plan_y,polygon_px,malone_no,note
+QC01,大宫门,sure,9577,7737,9350 7715;9790 7715;9790 8195;9350 8195,,"Forecourt with 影壁 at the south end and two side halls B1415 B1416. Hall B1390 is the gate, label 大宫门 south of it on the axis."
+QC02,迎晖殿,sure,9581,7433,9435 7405;9730 7405;9730 7715;9435 7715,,Court from 迎晖殿 south to the second gate B1378 and 石桥. Wall x 9435-9730.
+QC03,中和堂,sure,9590,7307,9435 7275;9730 7275;9730 7405;9435 7405,,Hall on the north wall of the same court; label south of it.
+QC04,,likely,9596,6775,9483 6470;9798 6470;9798 7178;9488 7178;9488 6905;9460 6905;9460 6760;9483 6760,,"NO label 敷春堂 on the plan. S06 order 迎晖殿 中和堂 敷春堂 后殿 问月楼 puts it in this block, which the plan labels 集禧堂 永春堂 问月楼. Centre = largest hall, unlabelled. See notes.md."
+QC05,清夏斋,sure,6825,6022,6678 5865;7000 5865;7000 6255;6678 6255,,"Label in the outlined yard south of two large halls under B1205. Walled. Plan name is 斋, not the Tongzhi 清夏堂."
+QC06,凤麟洲,sure,9743,5480,9660 5430;9750 5405;9880 5410;9925 5480;9920 5570;9830 5640;9720 5655;9660 5610;9645 5520,,Island. East islet is NEW-qc-14.
+QC07,涵秋馆,sure,9155,5665,9080 5480;9140 5420;9250 5415;9250 5665;9300 5665;9300 5800;9290 6080;9260 6350;9190 6390;9130 6250;9110 6000;9090 5800;9060 5620,,Long island with hill strips to the south. S42 11446 says west of 仙人承露台: matches.
+QC08,鉴碧亭,sure,9036,7333,9164 7333;9127 7424;9036 7461;8945 7424;8908 7333;8945 7242;9036 7205;9127 7242,,"Round islet, rockwork at the cardinal points, square pavilion."
+QC09,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. Weak candidate only: walled court B1135 B1163, see NEW-qc-13. S49 lead says it survived 1860."
+QC10,,likely,9268,5615,9250 5415;9420 5430;9440 5530;9375 5640;9300 5665;9250 5665,,"No label. A rectangular stepped platform ringed with rockwork at (9268,5615), east of 涵秋馆 and west of 凤麟洲 as S42 says. Polygon = east tip of the island, with a rock mound and hexagonal pavilion at (9385,5490)."
+QC11,正觉寺,sure,8480,7598,8325 7285;8715 7285;8715 7895;8325 7895,,"Walled, own south gate B1409. The scroll gap x 8630-8670 cuts it. East strip x 8675-8710 holds a row of small halls (monks?). Label south of B1376."
+QC12,澄心堂,sure,7481,7677,7300 7320;7480 7300;7650 7325;7730 7400;7740 7540;7680 7770;7560 7860;7420 7860;7310 7810;7265 7650;7225 7470;7230 7370,,"Large island; rockwork ring around the main hall with wings 蓄虹榭, 待旭轩."
+QC13,含晖楼,sure,6586,6402,5820 6280;7030 6265;7040 6640;7020 6720;6950 6665;6780 6665;6720 6720;6700 6800;6600 6820;6480 6790;6420 6695;5825 6690,,Polygon = open ground north of lake R0053 with the hall row B1254-B1258; label 含晖楼 south of B1256. 撒马道 is written in the middle.
+QC14,畅和堂,sure,6765,7750,6600 7640;6700 7585;6830 7575;6915 7620;6935 7750;6935 8000;6880 8090;6760 8110;6640 8095;6565 8000;6560 7760,,"Island. Court with 畅和堂 N, 澄霞宇 W."
+QC15,绿满轩,sure,6679,7450,6600 7300;6660 7240;6800 7225;6900 7300;6915 7440;6870 7520;6760 7545;6640 7520;6595 7420,,"Island north of 畅和堂, bridge between."
+QC16,,guess,8039,7031,7905 7030;7960 6970;8080 6955;8190 7000;8180 7050;8100 7100;7990 7110;7920 7090,,"No label. S42 11559: 四宜书屋 south = 湛清轩 north bank. S42 11669: 正觉寺北湖 west = 湛清轩 east bank. This rock-set islet hall is the nearest fit. The other candidate is the strip with B1345 at (8202,7292)."
+QC17,春泽斋,sure,8222,5614,8060 5640;8150 5530;8300 5490;8500 5520;8530 5570;8530 5720;8440 5840;8300 5840;8130 5790;8070 5740,,Label on the lake south of the walled court with main hall B1138.
+QC18,生冬室,sure,8212,5932,7970 5855;8430 5855;8440 5975;8360 6010;8090 6000;7970 5930,,Hall with long side galleries; label south of it.
+QC19,四宜书屋,sure,7676,5969,7555 5860;7825 5860;7825 6240;7555 6240,,Walled block. Label inside the central court. Not the YM28 四宜书屋.
+QC20,,guess,8552,6350,8430 6195;8610 6195;8610 6380;8430 6380,,"No label. Walled yard with a hall north and a 5-bay hall south, opposite each other, as a hall and stage (S43: 正殿五间, 戏台对面). Only the bay count and the facing pair support it."
+QC21,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC22,?神天?,likely,6867,8377,6825 8350;6930 8350;6930 8510;6825 8510,,"Twin of 河神庙 in one walled court. First char like 电/宅 and last like 沿/殿, unread. S47 names 惠济祠 and 河神庙 as the pair, so this is 惠济祠 by elimination. S47 has 河神庙 west; on the plan 河神庙 is EAST of this one."
+QC23,河神庙,sure,6974,8413,6930 8350;7025 8350;7025 8510;6930 8510,,Label south of B1444. East half of the pair.
+QC24,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. S47: 四面环水, 东向门殿一间, 正殿三间. No drawn islet shows a one-bay east gate with a three-bay hall."
+QC25,延寿寺,sure,7071,5986,7000 5850;7230 5850;7230 6105;7000 6105,,"Walled temple, gate at (7078,6098), label south of it."
+QC26,,likely,8841,6409,8790 6400;8890 6380;8990 6410;9000 6470;9100 6440;9180 6520;9220 6620;9230 6820;9190 6860;9000 6880;8860 6840;8760 6700;8750 6560;8790 6480,,"No label. S42 11480: north of 鉴碧亭, 四面环水, hills NE, SW, SE. This island fits exactly and has three hill outlines in those corners. Only hall B1260, at its north tip."
+QC27,心镜轩,sure,10008,7527,10097 7570;10067 7642;9995 7672;9923 7642;9893 7570;9923 7498;9995 7468;10067 7498,,"Round island; hall B1372 N, B1380 W."
+QC28,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC29,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC30,翠????,guess,9786,6811,,,"Label of about five chars on the east gallery of the palace block, starting 翠. Not readable as 翠合轩 and longer than it. Inside QC04, position only."
+QC31,凌虚亭,likely,7043,8203,6975 8150;7090 8130;7205 8285;7100 8470;7040 8370;7000 8280,,"Plan says 亭, S06 says 阁. Lead 5910f5 also lists 凌虚亭. Rockwork at the north, two small halls."
+QC32,协?斋,likely,9765,6652,,,"Middle char could be 德 in cursive. Hall with rockwork at the NE of the palace block. Inside QC04, position only."
+QC33,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC34,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC35,蔚藻堂,sure,9431,6675,9235 6630;9345 6630;9345 6555;9483 6555;9483 6760;9460 6760;9460 6905;9310 6905;9310 6790;9235 6790,,West side of the palace block. Label south of B1281.
+QC36,?芳?,guess,9740,6762,,,"Plan reads like 彙芳 + a last char like 基/巷, not 圃. Could be another name. Inside QC04, position only."
+QC37,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC38,?玉轩,likely,9418,6920,9240 6905;9460 6905;9460 7100;9400 7190;9300 7100;9240 7020,,"First char 涼 or 淙; top stroke unclear. Hall at (9418,6920) north of the label; hexagonal pavilion left of the label."
+QC39,舒?轩,likely,9486,6950,9462 6905;9488 6905;9488 7175;9420 7175;9462 7100,,"Middle char reads 丹/冉, could be cursive 卉. Hall B1302/B1313 above the label."
+QC40,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC41,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC42,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC43,喜雨山房,sure,7496,5593,7400 5540;7480 5510;7620 5510;7650 5560;7640 5700;7710 5710;7690 5760;7500 5780;7400 5820;7390 5700,,Faint pencil 雨 beside the ink label.
+QC44,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC45,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC46,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC47,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. Note the plan has ?镜涵室 at 绿满轩, a different name."
+QC48,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC49,,guess,8225,6278,8130 6275;8180 6240;8290 6235;8320 6280;8280 6320;8180 6330,,"No label. Only a hall on a ring of rockwork in the water, with a hexagonal pavilion. Name is a pure guess from 水心."
+QC50,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC51,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+QC52,,not_found,,,,,"Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position."
+NEW-qc-01,松风?月,likely,8213,5012,8100 4950;8320 4950;8320 5030;8180 5090;8100 5090,,Third char like 蘿 (萝). Label south of walled hall B0957.
+NEW-qc-02,?吟楼,likely,8476,4937,8430 4890;8620 4890;8620 4975;8430 4975,,"First char like 跳/蹬 with a faint pencil 眺 beside it, last char written like 婁 as in 问月楼. 值房 at the east end."
+NEW-qc-03,会心处,sure,8011,5343,7970 5280;8060 5280;8060 5420;7970 5420,,Label east of a 3-bay hall with no box.
+NEW-qc-04,敞厅,likely,9190,4954,9090 4910;9260 4910;9260 5010;9090 5010,,"North shore of the big lake. Second char unclear. A descriptor, not a scene name."
+NEW-qc-05,浩然亭,sure,9744,5014,9570 4800;9780 4800;9875 4920;9870 5010;9770 5095;9590 5100;9480 5010;9475 4920,,Round island; square pavilion. Lead 5910f5 names 浩然亭 among rebuilt pavilions.
+NEW-qc-06,招凉榭,sure,6021,6952,5893 6865;6080 6860;6175 6920;6165 6985;6100 7060;5893 7065,,Lead 5910f5 lists 招凉榭.
+NEW-qc-07,护松扉 / 排青幌,likely,6564,7162,6410 7000;6620 7000;6620 7240;6410 7240,,Two labelled small halls in one group.
+NEW-qc-08,翰林花园,sure,6050,7680,5640 7380;6190 7370;6230 7430;6220 7870;6200 8130;6200 8530;5480 8530;5490 7795;5520 7760;5520 7480;5590 7440,,"Faint pencil 翰 beside the label. No buildings drawn at all. West of the double channel, so probably outside Qichun Yuan proper."
+NEW-qc-09,西爽村(宫门),likely,6574,6189,6130 5815;6675 5815;6675 6262;6020 6262;6020 6045;6080 6045;6080 5930;6130 5930,,Only the gate label names it. Lead 5910f5: 西爽村 of 成亲王 merged in Jiaqing 4. Walled garden with a walled hill in the centre.
+NEW-qc-10,别有洞天,sure,7121,7385,7040 7320;7110 7310;7150 7340;7110 7500;7090 7720;7060 7800;7020 7760;7010 7560;7030 7400,,"Label beside gate B1354 by the bridge to 澄心堂. NOT YM34 别有洞天, which is far north in Yuanming Yuan."
+NEW-qc-11,七宝?,likely,6725,8451,6680 8425;6775 8425;6775 8545;6680 8545,,"Last char like 撒/徽, not read. Label south of 5-bay hall B1449."
+NEW-qc-12,点景房,sure,7439,8381,7320 8330;7460 8345;7640 8380;7640 8410;7320 8410,,Label north; a row of three small halls joined by galleries on the shore.
+NEW-qc-13,,likely,7276,5627,7200 5600;7345 5600;7345 5775;7200 5775,,UNLABELLED walled court with long rows B1135 B1163 and a gate hall south. Name unknown.
+NEW-qc-14,,likely,10057,5573,9960 5530;10020 5480;10070 5480;10100 5550;10060 5630;9990 5640;9950 5590,,"UNLABELLED islet east of 凤麟洲, bridge from it. S42 11467 B区 (rectangular, 24×22 m) probably means this."
+NEW-qc-15,西住所,likely,9863,6650,9798 6465;9950 6465;9950 6790;9798 6790,,Label reads 西柱/住所; rows of plain halls. Attendants quarters by form.
+NEW-qc-16,东住所,likely,10015,6650,9950 6465;10170 6465;10170 6790;9950 6790,,Label reads 东佳/住所. Rows of plain halls.
+NEW-qc-17,,likely,9880,6950,9798 6790;9965 6850;9965 7040;9865 7040;9865 7175;9798 7178,,"UNLABELLED service courts east of the palace block; covered bridge from (9965,6905) to B1308."
+NEW-qc-18,学圃,sure,9966,7116,9880 7050;10085 7050;10080 7300;9980 7300;9960 7180;9880 7180,,"With 六方亭 (hexagon at 10015,7190)."
+NEW-qc-19,膳房 / 茶房 / ?房,sure,9810,7240,9735 7182;9950 7182;9955 7290;9900 7320;9735 7320,,Kitchen group. Third label 薬(药)房 or 苏房.
+NEW-qc-20,点景房,sure,9994,7316,9980 7300;10050 7300;10055 7365;9975 7365;9960 7335,,Second 点景房 on the plan. B1351 is an empty plot.
+NEW-qc-21,村庄房,likely,10265,6996,10190 6880;10335 6880;10335 7050;10190 7050,,Label reads 村庄房. Small hall with yard on a hill island.
+NEW-qc-22,??斋,likely,10300,7395,10250 7350;10400 7350;10400 7440;10280 7450;10240 7410,,Label chars like 諸/諧 + 徽/微 + 斋. L-shaped hall B1359 B1360 B1361.
+NEW-qc-23,四局 / 善房 / 茶房,sure,10055,7937,9920 7905;10530 7905;10530 8050;9920 8050,,Service block south of the garden wall.
+NEW-qc-24,地? / 官厅,likely,10700,7600,10625 7455;10775 7455;10775 8090;10625 8090,,"Three small walled yards, each with 地 + ditto mark or 池, and 官厅 south. Outside the east wall."
+NEW-qc-25,,likely,8552,5900,8530 5640;8640 5640;8640 6180;8450 6180;8450 5950;8530 5850,,UNLABELLED halls B1171 B1215 B1228 with a walled yard and pond. West side of the scroll gap.
+NEW-qc-26,,likely,8880,6095,8675 6060;8860 5985;8960 6020;9000 6110;8980 6200;8880 6235;8760 6200;8690 6180,,"UNLABELLED island: walled court with two 4-5 bay halls B1229 B1230, east wing, south gate."
+NEW-qc-27,,likely,8888,5622,8660 5600;8780 5530;8980 5540;9000 5610;8960 5720;8900 5760;8700 5790;8660 5790,,UNLABELLED long gallery chain B1142 B1143 B1144; bridges east to 涵秋馆 and across the scroll gap west to 春泽斋 side.
+NEW-qc-29,,likely,9400,7690,9320 7600;9434 7600;9434 7712;9348 7712;9348 7780;9320 7780,,UNLABELLED small halls west of the 石桥 court: B1377 B1388 B1389 B1396.
+NEW-qc-30,,likely,9741,7695,9733 7600;9830 7600;9830 7712;9733 7712,,UNLABELLED small halls east of the 石桥 court: B1379 B1391.
+NEW-qc-28,,likely,7536,5280,7300 5220;7400 5165;7560 5170;7660 5250;7790 5380;7800 5420;7600 5380;7490 5360;7350 5360;7290 5320,,UNLABELLED island with a yard and B1037 B1038 B1039. Two 船坞 nearby.

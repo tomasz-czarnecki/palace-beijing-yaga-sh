@@ -1,0 +1,3080 @@
+region_id,class,name_zh,confidence,note
+R0001,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0002,water,福海 Fuhai,A,manual: Labelled by Malone 30/32/33 round it; the big near-square lake; island group 蓬岛瑶台 inside; wash along the shore
+R0003,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0004,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0005,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0006,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0007,water,,B,manual: Qichun lake: pavilions stand in it (鉴碧亭 in R0024)
+R0008,water,海岳开襟 lake,B,manual: Green wash along the shore; 海岳开襟 round terrace stands in it
+R0009,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0010,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0011,land,山高水长 Shangao Shuichang,B,manual: Open ground at Malone 15; wash absent
+R0012,water,后湖 Houhu,A,manual: Written on the plan: 後湖; nine islands round it
+R0013,land,,C,"manual: No wash, no bridges across; by eye"
+R0014,land,,C,"manual: No wash, no bridges across; by eye"
+R0015,water,,C,manual: Holds an island with a hall; weak wash. Small lobes on it may be hills
+R0016,land,,C,"manual: No wash, no bridges across; by eye"
+R0017,water,,B,"auto: wash +3.0, no halls"
+R0018,land,,C,default
+R0019,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0020,outside,,C,inner point outside the wall rings
+R0021,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0022,outside,,C,inner point outside the wall rings
+R0023,land,,C,default
+R0024,water,,B,manual: Qichun lake: pavilions stand in it (鉴碧亭 in R0024)
+R0025,wall_strip,,C,manual: Long narrow strip along the wall
+R0026,outside,,C,inner point outside the wall rings
+R0027,land,,C,default
+R0028,water,,C,"auto: wash +1.8, no halls"
+R0029,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0030,land,,C,default
+R0031,outside,,C,inner point outside the wall rings
+R0032,water,万方安和 lake,B,"manual: 万方安和 hall on its swastika plan stands in it; weak wash, big lake"
+R0033,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0034,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0035,land,,C,default
+R0036,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0037,land,,C,default
+R0038,land,,C,default
+R0039,land,,C,"manual: No wash, no bridges across; by eye"
+R0040,outside,,C,inner point outside the wall rings
+R0041,land,,C,"manual: No wash, no bridges across; by eye"
+R0042,land,,C,default
+R0043,land,,C,"manual: Dark paper, compound in the middle, lobed lines read as hills"
+R0044,water,,B,"auto: wash +3.0, no halls"
+R0045,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0046,water,曲院风荷 lotus lakes,B,manual: Paired oval lakes at Malone 39; strong wash
+R0047,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0048,water,曲院风荷 lotus lakes,B,manual: Paired oval lakes at Malone 39; strong wash
+R0049,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0050,land,,C,default
+R0051,land,,C,default
+R0052,land,,C,"manual: No wash, no bridges across; by eye"
+R0053,water,,C,"auto: wash +1.5, no halls"
+R0054,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0055,land,,C,default
+R0056,land,,C,default
+R0057,land,,C,default
+R0058,land,,C,default
+R0059,water,,B,"manual: Changchun lake: green wash along the shore, no halls"
+R0060,land,,C,default
+R0061,outside,,C,inner point outside the wall rings
+R0062,land,,C,default
+R0063,island,,C,auto: 99% of the outline faces water
+R0064,water,,B,"auto: wash +2.5, no halls"
+R0065,island,,C,manual: Ringed by the washed band R0149; three pavilions
+R0066,water,,B,"auto: wash +3.2, no halls"
+R0067,outside,,C,inner point outside the wall rings
+R0068,land,,C,default
+R0069,wall_strip,,C,manual: Long narrow strip along the wall
+R0070,water,方河 Fanghe,B,manual: Rectangular pool at the east end of the Xiyang Lou strip
+R0071,water,前湖 Qianhu,A,manual: Written on the plan: 前湖; south of 九洲清晏
+R0072,outside,,C,inner point outside the wall rings
+R0073,water,,C,"auto: wash +1.5, no halls"
+R0074,water,,B,"auto: wash +3.1, no halls"
+R0075,land,,C,default
+R0076,land,,C,default
+R0077,water,,B,"auto: wash +4.1, no halls"
+R0078,land,,C,default
+R0079,land,,C,"manual: No wash, no bridges across; by eye"
+R0080,outside,,C,inner point outside the wall rings
+R0081,land,,C,default
+R0082,land,,C,default
+R0083,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0084,outside,,C,inner point outside the wall rings
+R0085,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0086,water,,C,"auto: wash +1.7, no halls"
+R0087,land,,C,"manual: No wash, no bridges across; by eye"
+R0088,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0089,water,,B,"auto: wash +2.9, no halls"
+R0090,land,,C,default
+R0091,land,,C,"manual: No wash, no bridges across; by eye"
+R0092,land,,C,default
+R0093,water,,C,"auto: wash +1.3, no halls"
+R0094,outside,,C,inner point outside the wall rings
+R0095,water,,B,"auto: wash +3.6, no halls"
+R0096,outside,,C,inner point outside the wall rings
+R0097,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0098,outside,,C,inner point outside the wall rings
+R0099,outside,,C,inner point outside the wall rings
+R0100,island,,C,auto: 65% of the outline faces water
+R0101,land,,C,default
+R0102,outside,,B,"manual: Outside the wall ring, blank paper or later fields"
+R0103,land,,C,default
+R0104,land,,C,default
+R0105,land,,C,"manual: No wash, no bridges across; by eye"
+R0106,land,,C,default
+R0107,water,,C,"auto: wash +1.2, no halls"
+R0108,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0109,island,,C,auto: 66% of the outline faces water
+R0110,wall_strip,,C,manual: Long narrow strip along the wall
+R0111,water,,B,"auto: wash +3.0, no halls"
+R0112,wall_strip,,C,manual: Long narrow strip along the wall
+R0113,outside,,C,inner point outside the wall rings
+R0114,land,,C,default
+R0115,land,,C,default
+R0116,land,,C,default
+R0117,land,,C,default
+R0118,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0119,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0120,island,,C,auto: 72% of the outline faces water
+R0121,water,,C,"auto: wash +1.6, no halls"
+R0122,land,,C,default
+R0123,land,,C,default
+R0124,wall_strip,,C,manual: Long narrow strip along the wall
+R0125,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0126,land,,C,default
+R0127,land,,C,default
+R0128,water,,C,"auto: wash +1.9, no halls"
+R0129,land,,C,"manual: No wash, no bridges across; by eye"
+R0130,island,,C,auto: 91% of the outline faces water
+R0131,land,,C,default
+R0132,land,,C,default
+R0133,land,,C,default
+R0134,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0135,land,,C,default
+R0136,island,,C,auto: 74% of the outline faces water
+R0137,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0138,water,,C,"auto: wash +1.4, no halls"
+R0139,land,,C,default
+R0140,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0141,land,,C,default
+R0142,land,,C,default
+R0143,water,,B,"auto: wash +2.0, no halls"
+R0144,water,,B,"auto: wash +3.6, no halls"
+R0145,water,,B,"auto: wash +2.5, no halls"
+R0146,land,,C,default
+R0147,land,,C,default
+R0148,island,,C,auto: 77% of the outline faces water
+R0149,water,,C,"auto: wash +1.6, no halls"
+R0150,water,,C,"manual: Band or ring between islands, crossed by bridges; paper stained, tint weak"
+R0151,land,,C,"manual: No wash, no bridges across; by eye"
+R0152,land,,C,default
+R0153,land,,C,default
+R0154,land,,C,default
+R0155,wall_strip,,C,manual: Long narrow strip along the wall
+R0156,water,,C,"auto: wash +1.5, no halls"
+R0157,land,,C,default
+R0158,water,,B,"auto: wash +2.9, no halls"
+R0159,land,,C,default
+R0160,island,,C,auto: 79% of the outline faces water
+R0161,land,,C,default
+R0162,island,,C,auto: 74% of the outline faces water
+R0163,water,,B,"auto: wash +3.7, no halls"
+R0164,land,,C,default
+R0165,water,,C,"auto: wash +1.7, no halls"
+R0166,land,,C,default
+R0167,water,,B,"auto: wash +2.2, no halls"
+R0168,water,,C,"auto: wash +1.5, no halls"
+R0169,land,,C,default
+R0170,land,,C,default
+R0171,land,,C,default
+R0172,land,,C,default
+R0173,land,,C,default
+R0174,land,,C,default
+R0175,land,,C,default
+R0176,outside,,C,inner point outside the wall rings
+R0177,water,,B,"auto: wash +2.5, no halls"
+R0178,land,,C,default
+R0179,land,,C,default
+R0180,water,,C,"auto: wash +1.2, no halls"
+R0181,water,,B,"auto: wash +2.3, no halls"
+R0182,water,,C,"auto: wash +1.2, no halls"
+R0183,water,,C,"auto: wash +1.3, no halls"
+R0184,wall_strip,,C,manual: Long narrow strip along the wall
+R0185,island,,C,auto: 71% of the outline faces water
+R0186,water,,B,"auto: wash +3.6, no halls"
+R0187,land,,C,default
+R0188,land,,C,default
+R0189,land,,C,"manual: No wash, no bridges across; by eye"
+R0190,land,,C,"manual: No wash, no bridges across; by eye"
+R0191,land,,C,default
+R0192,outside,,C,inner point outside the wall rings
+R0193,water,,B,"auto: wash +2.3, no halls"
+R0194,land,,C,default
+R0195,wall_strip,,C,manual: Long narrow strip along the wall
+R0196,land,,C,default
+R0197,water,,B,"auto: wash +3.5, no halls"
+R0198,wall_strip,,C,manual: Long narrow strip along the wall
+R0199,wall_strip,,C,manual: Long narrow strip along the wall
+R0200,land,,C,default
+R0201,land,,C,default
+R0202,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0203,island,,C,auto: 87% of the outline faces water
+R0204,island,,C,auto: 98% of the outline faces water
+R0205,land,,C,default
+R0206,land,,C,default
+R0207,land,,C,default
+R0208,land,,C,default
+R0209,outside,,C,inner point outside the wall rings
+R0210,water,,B,"auto: wash +3.6, no halls"
+R0211,land,,C,default
+R0212,land,,C,default
+R0213,land,,C,default
+R0214,water,,C,"auto: wash +1.6, no halls"
+R0215,land,,C,default
+R0216,land,,C,default
+R0217,island,,C,auto: 75% of the outline faces water
+R0218,land,,C,default
+R0219,wall_strip,,C,manual: Long narrow strip along the wall
+R0220,land,,C,default
+R0221,outside,,C,inner point outside the wall rings
+R0222,island,,C,auto: 86% of the outline faces water
+R0223,land,,C,default
+R0224,land,,C,default
+R0225,land,,C,default
+R0226,island,,C,auto: 70% of the outline faces water
+R0227,land,,C,default
+R0228,outside,,C,inner point outside the wall rings
+R0229,water,,B,"auto: wash +2.5, no halls"
+R0230,land,,C,default
+R0231,land,,C,default
+R0232,water,,B,"auto: wash +3.0, no halls"
+R0233,outside,,C,inner point outside the wall rings
+R0234,water,,C,"auto: wash +1.5, no halls"
+R0235,outside,,C,inner point outside the wall rings
+R0236,water,,B,"auto: wash +3.0, no halls"
+R0237,water,,B,"auto: wash +2.0, no halls"
+R0238,land,,C,default
+R0239,land,,C,default
+R0240,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0241,land,,C,default
+R0242,land,,C,default
+R0243,land,,C,default
+R0244,land,,C,default
+R0245,land,,C,default
+R0246,land,,C,default
+R0247,outside,,C,inner point outside the wall rings
+R0248,island,,C,auto: 95% of the outline faces water
+R0249,land,,C,default
+R0250,outside,,C,inner point outside the wall rings
+R0251,water,,C,"auto: wash +1.6, no halls"
+R0252,land,,C,default
+R0253,land,,C,default
+R0254,land,,C,default
+R0255,land,,C,default
+R0256,land,,C,default
+R0257,land,,C,default
+R0258,land,,C,default
+R0259,land,,C,default
+R0260,land,,C,default
+R0261,land,,C,default
+R0262,land,,C,default
+R0263,land,,C,default
+R0264,land,,C,"manual: No wash, no bridges across; by eye"
+R0265,water,,B,"auto: wash +2.3, no halls"
+R0266,water,,C,"auto: wash +1.4, no halls"
+R0267,water,,C,"auto: wash +1.4, no halls"
+R0268,land,,C,default
+R0269,water,,B,"auto: wash +3.2, no halls"
+R0270,outside,,C,inner point outside the wall rings
+R0271,land,,C,default
+R0272,land,,C,default
+R0273,water,,B,"auto: wash +2.2, no halls"
+R0274,island,,C,auto: 100% of the outline faces water
+R0275,land,,C,default
+R0276,island,,C,auto: 96% of the outline faces water
+R0277,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0278,land,,C,default
+R0279,land,,C,default
+R0280,land,,C,default
+R0281,wall_strip,,C,manual: Long narrow strip along the wall
+R0282,land,,C,default
+R0283,island,,C,auto: 75% of the outline faces water
+R0284,water,,C,"auto: wash +1.2, no halls"
+R0285,land,,C,default
+R0286,wall_strip,,C,manual: Long narrow strip along the wall
+R0287,wall_strip,,C,manual: Long narrow strip along the wall
+R0288,land,,C,default
+R0289,land,,C,default
+R0290,outside,,C,inner point outside the wall rings
+R0291,land,,C,default
+R0292,land,,C,default
+R0293,island,,C,auto: 76% of the outline faces water
+R0294,island,,C,auto: 85% of the outline faces water
+R0295,land,,C,default
+R0296,water,,C,"auto: wash +1.6, no halls"
+R0297,land,,C,default
+R0298,land,,C,default
+R0299,water,,C,"auto: wash +1.7, no halls"
+R0300,island,,C,auto: 80% of the outline faces water
+R0301,land,,C,default
+R0302,land,,C,default
+R0303,water,,C,"auto: wash +1.5, no halls"
+R0304,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0305,outside,,C,inner point outside the wall rings
+R0306,water,,C,"auto: wash +1.8, no halls"
+R0307,land,,C,default
+R0308,land,,C,default
+R0309,land,,C,default
+R0310,wall_strip,,C,auto: narrow strip along a wall
+R0311,land,,C,default
+R0312,island,,C,auto: 100% of the outline faces water
+R0313,island,,C,auto: 79% of the outline faces water
+R0314,water,,C,"auto: wash +1.4, no halls"
+R0315,land,,C,default
+R0316,land,,C,default
+R0317,land,,C,default
+R0318,water,,B,"auto: wash +2.3, no halls"
+R0319,land,,C,default
+R0320,island,,C,auto: 98% of the outline faces water
+R0321,land,,C,default
+R0322,land,,C,default
+R0323,land,,C,default
+R0324,land,,C,default
+R0325,land,,C,default
+R0326,land,,C,default
+R0327,land,,C,default
+R0328,water,,B,"auto: wash +3.5, no halls"
+R0329,land,,C,default
+R0330,island,,C,auto: 74% of the outline faces water
+R0331,land,,C,default
+R0332,land,,C,default
+R0333,water,,B,"auto: wash +2.2, no halls"
+R0334,outside,,C,inner point outside the wall rings
+R0335,outside,,C,inner point outside the wall rings
+R0336,land,,C,default
+R0337,outside,,C,inner point outside the wall rings
+R0338,land,,C,default
+R0339,land,,C,default
+R0340,water,,C,"auto: wash +1.3, no halls"
+R0341,land,,C,default
+R0342,land,,C,default
+R0343,hill,,C,"manual: Closed lobed outline inside land, no wash, no halls"
+R0344,island,,C,auto: 77% of the outline faces water
+R0345,wall_strip,,C,auto: narrow strip along a wall
+R0346,land,,C,default
+R0347,land,,C,default
+R0348,land,,C,default
+R0349,water,,B,"auto: wash +2.5, no halls"
+R0350,water,,B,"auto: wash +2.8, no halls"
+R0351,wall_strip,,C,manual: Long narrow strip along the wall
+R0352,outside,,C,inner point outside the wall rings
+R0353,island,,C,auto: 91% of the outline faces water
+R0354,island,,C,auto: 75% of the outline faces water
+R0355,land,,C,default
+R0356,land,,C,default
+R0357,water,,C,"auto: wash +1.3, no halls"
+R0358,wall_strip,,C,auto: narrow strip along a wall
+R0359,land,,C,default
+R0360,water,,C,"auto: wash +1.5, no halls"
+R0361,land,,C,default
+R0362,water,,C,"auto: wash +1.7, no halls"
+R0363,land,,C,default
+R0364,island,,C,auto: 79% of the outline faces water
+R0365,land,,C,default
+R0366,island,,C,auto: 69% of the outline faces water
+R0367,water,,C,"auto: wash +1.8, no halls"
+R0368,water,,B,"auto: wash +3.2, no halls"
+R0369,land,,C,default
+R0370,island,,C,auto: 81% of the outline faces water
+R0371,water,,C,"auto: wash +1.3, no halls"
+R0372,water,,C,"auto: wash +1.6, no halls"
+R0373,land,,C,default
+R0374,land,,C,default
+R0375,water,,B,"auto: wash +3.1, no halls"
+R0376,land,,C,default
+R0377,land,,C,default
+R0378,water,,B,"auto: wash +2.3, no halls"
+R0379,water,,C,"auto: wash +1.3, no halls"
+R0380,land,,C,default
+R0381,court,,C,auto: small rectangle beside halls
+R0382,island,,C,auto: 65% of the outline faces water
+R0383,land,,C,default
+R0384,land,,C,default
+R0385,water,,B,"auto: wash +2.3, no halls"
+R0386,land,,C,default
+R0387,land,,C,default
+R0388,island,,C,auto: 91% of the outline faces water
+R0389,land,,C,default
+R0390,court,,C,auto: small rectangle beside halls
+R0391,land,,C,default
+R0392,water,,B,"auto: wash +2.1, no halls"
+R0393,court,,C,auto: small rectangle beside halls
+R0394,outside,,C,inner point outside the wall rings
+R0395,land,,C,default
+R0396,water,,B,"auto: wash +2.3, no halls"
+R0397,land,,C,default
+R0398,court,,C,auto: small rectangle beside halls
+R0399,island,,C,auto: 76% of the outline faces water
+R0400,land,,C,default
+R0401,land,,C,default
+R0402,land,,C,default
+R0403,outside,,C,inner point outside the wall rings
+R0404,island,,C,auto: 79% of the outline faces water
+R0405,land,,C,default
+R0406,land,,C,default
+R0407,water,,C,"auto: wash +2.0, no halls"
+R0408,court,,C,auto: small rectangle beside halls
+R0409,land,,C,default
+R0410,land,,C,default
+R0411,outside,,C,inner point outside the wall rings
+R0412,wall_strip,,C,auto: narrow strip along a wall
+R0413,land,,C,default
+R0414,land,,C,default
+R0415,land,,C,default
+R0416,court,,C,auto: small rectangle beside halls
+R0417,land,,C,default
+R0418,land,,C,default
+R0419,water,,C,"auto: wash +1.4, no halls"
+R0420,land,,C,default
+R0421,land,,C,default
+R0422,island,,C,auto: 71% of the outline faces water
+R0423,land,,C,default
+R0424,land,,C,default
+R0425,land,,C,default
+R0426,water,,B,"auto: wash +2.5, no halls"
+R0427,land,,C,default
+R0428,land,,C,default
+R0429,outside,,C,inner point outside the wall rings
+R0430,land,,C,default
+R0431,land,,C,default
+R0432,land,,C,default
+R0433,water,,C,"auto: wash +1.3, no halls"
+R0434,land,,C,default
+R0435,water,,B,"auto: wash +2.7, no halls"
+R0436,land,,C,default
+R0437,water,,C,"auto: wash +1.7, no halls"
+R0438,land,,C,default
+R0439,land,,C,default
+R0440,land,,C,default
+R0441,land,,C,default
+R0442,island,,C,auto: 78% of the outline faces water
+R0443,land,,C,default
+R0444,wall_strip,,C,auto: narrow strip along a wall
+R0445,land,,C,default
+R0446,outside,,C,inner point outside the wall rings
+R0447,wall_strip,,C,auto: narrow strip along a wall
+R0448,land,,C,default
+R0449,land,,C,default
+R0450,land,,C,default
+R0451,water,,B,"auto: wash +2.3, no halls"
+R0452,wall_strip,,C,auto: narrow strip along a wall
+R0453,wall_strip,,C,auto: narrow strip along a wall
+R0454,land,,C,default
+R0455,land,,C,default
+R0456,land,,C,default
+R0457,land,,C,default
+R0458,water,,B,"auto: wash +2.5, no halls"
+R0459,land,,C,default
+R0460,outside,,C,inner point outside the wall rings
+R0461,land,,C,default
+R0462,land,,C,default
+R0463,wall_strip,,C,auto: narrow strip along a wall
+R0464,land,,C,default
+R0465,outside,,C,inner point outside the wall rings
+R0466,land,,C,default
+R0467,water,,B,"auto: wash +3.0, no halls"
+R0468,land,,C,default
+R0469,land,,C,default
+R0470,wall_strip,,C,auto: narrow strip along a wall
+R0471,water,,C,"auto: wash +1.4, no halls"
+R0472,island,,C,auto: 65% of the outline faces water
+R0473,water,,C,"auto: wash +1.8, no halls"
+R0474,water,,C,"auto: wash +1.4, no halls"
+R0475,water,,C,"auto: wash +1.7, no halls"
+R0476,island,,C,auto: 95% of the outline faces water
+R0477,wall_strip,,C,auto: narrow strip along a wall
+R0478,land,,C,default
+R0479,land,,C,default
+R0480,island,,C,auto: 65% of the outline faces water
+R0481,water,,B,"auto: wash +2.5, no halls"
+R0482,court,,C,auto: small rectangle beside halls
+R0483,land,,C,default
+R0484,water,,B,"auto: wash +2.0, no halls"
+R0485,outside,,C,inner point outside the wall rings
+R0486,court,,C,auto: small rectangle beside halls
+R0487,water,,C,"auto: wash +1.5, no halls"
+R0488,land,,C,default
+R0489,outside,,C,inner point outside the wall rings
+R0490,outside,,C,inner point outside the wall rings
+R0491,hill,,C,"auto: closed lobed outline inside R0212, no halls"
+R0492,land,,C,default
+R0493,land,,C,default
+R0494,land,,C,default
+R0495,island,,C,auto: 97% of the outline faces water
+R0496,land,,C,default
+R0497,wall_strip,,C,auto: narrow strip along a wall
+R0498,land,,C,default
+R0499,water,,B,"auto: wash +3.1, no halls"
+R0500,land,,C,default
+R0501,land,,C,default
+R0502,land,,C,default
+R0503,water,,B,"auto: wash -1.1, no halls"
+R0504,water,,C,"auto: wash +1.4, no halls"
+R0505,water,,C,"auto: wash +1.5, no halls"
+R0506,island,,C,auto: 66% of the outline faces water
+R0507,island,,C,auto: 80% of the outline faces water
+R0508,island,,C,auto: 97% of the outline faces water
+R0509,water,,B,"auto: wash +2.1, no halls"
+R0510,land,,C,default
+R0511,land,,C,default
+R0512,island,,C,auto: 83% of the outline faces water
+R0513,land,,C,default
+R0514,court,,C,auto: small rectangle beside halls
+R0515,land,,C,default
+R0516,land,,C,default
+R0517,island,,C,auto: 93% of the outline faces water
+R0518,land,,C,default
+R0519,land,,C,default
+R0520,land,,C,default
+R0521,land,,C,default
+R0522,outside,,C,inner point outside the wall rings
+R0523,land,,C,default
+R0524,land,,C,default
+R0525,land,,C,default
+R0526,land,,C,default
+R0527,island,,C,auto: 64% of the outline faces water
+R0528,outside,,C,inner point outside the wall rings
+R0529,wall_strip,,C,auto: narrow strip along a wall
+R0530,wall_strip,,C,auto: narrow strip along a wall
+R0531,water,,B,"auto: wash +2.5, no halls"
+R0532,land,,C,default
+R0533,land,,C,default
+R0534,island,,C,auto: 99% of the outline faces water
+R0535,land,,C,default
+R0536,land,,C,default
+R0537,land,,C,default
+R0538,land,,C,default
+R0539,water,,B,"auto: wash +2.0, no halls"
+R0540,land,,C,default
+R0541,outside,,C,inner point outside the wall rings
+R0542,land,,C,default
+R0543,island,,C,auto: 92% of the outline faces water
+R0544,island,,C,auto: 66% of the outline faces water
+R0545,land,,C,default
+R0546,court,,C,auto: small rectangle beside halls
+R0547,land,,C,default
+R0548,land,,C,default
+R0549,island,,C,auto: 97% of the outline faces water
+R0550,land,,C,default
+R0551,land,,C,default
+R0552,water,,C,"auto: wash +1.9, no halls"
+R0553,land,,C,default
+R0554,land,,C,default
+R0555,court,,C,auto: small rectangle beside halls
+R0556,wall_strip,,C,auto: narrow strip along a wall
+R0557,wall_strip,,C,auto: narrow strip along a wall
+R0558,wall_strip,,C,auto: narrow strip along a wall
+R0559,wall_strip,,C,auto: narrow strip along a wall
+R0560,island,,C,auto: 97% of the outline faces water
+R0561,wall_strip,,C,auto: narrow strip along a wall
+R0562,water,,C,"auto: wash +1.3, no halls"
+R0563,land,,C,default
+R0564,land,,C,default
+R0565,court,,C,auto: small rectangle beside halls
+R0566,court,,C,auto: small rectangle beside halls
+R0567,water,,C,"auto: wash +1.8, no halls"
+R0568,water,,B,"auto: wash +3.0, no halls"
+R0569,land,,C,default
+R0570,water,,B,"auto: wash +2.1, no halls"
+R0571,water,,B,"auto: wash +2.0, no halls"
+R0572,island,,C,auto: 91% of the outline faces water
+R0573,court,,C,auto: small rectangle beside halls
+R0574,land,,C,default
+R0575,land,,C,default
+R0576,outside,,C,inner point outside the wall rings
+R0577,wall_strip,,C,auto: narrow strip along a wall
+R0578,land,,C,default
+R0579,water,,C,"auto: wash +1.8, no halls"
+R0580,island,,C,auto: 81% of the outline faces water
+R0581,land,,C,default
+R0582,outside,,C,inner point outside the wall rings
+R0583,land,,C,default
+R0584,water,,B,"auto: wash +2.2, no halls"
+R0585,island,,C,auto: 73% of the outline faces water
+R0586,land,,C,default
+R0587,land,,C,default
+R0588,land,,C,default
+R0589,land,,C,default
+R0590,water,,B,"auto: wash +2.6, no halls"
+R0591,land,,C,default
+R0592,outside,,C,inner point outside the wall rings
+R0593,land,,C,default
+R0594,water,,C,"auto: wash +1.4, no halls"
+R0595,wall_strip,,C,auto: narrow strip along a wall
+R0596,island,,C,auto: 99% of the outline faces water
+R0597,wall_strip,,C,auto: narrow strip along a wall
+R0598,wall_strip,,C,auto: narrow strip along a wall
+R0599,land,,C,default
+R0600,land,,C,default
+R0601,water,,B,"auto: wash +2.3, no halls"
+R0602,land,,C,default
+R0603,land,,C,default
+R0604,water,,C,"auto: wash +1.7, no halls"
+R0605,land,,C,default
+R0606,island,,C,auto: 73% of the outline faces water
+R0607,land,,C,default
+R0608,water,,B,"auto: wash +2.1, no halls"
+R0609,land,,C,default
+R0610,water,,C,"auto: wash +1.6, no halls"
+R0611,land,,C,default
+R0612,water,,C,"auto: wash +1.5, no halls"
+R0613,land,,C,default
+R0614,land,,C,default
+R0615,hill,,C,"auto: closed lobed outline inside R0013, no halls"
+R0616,land,,C,default
+R0617,water,,C,"auto: wash +1.9, no halls"
+R0618,court,,C,auto: small rectangle beside halls
+R0619,land,,C,default
+R0620,wall_strip,,C,auto: narrow strip along a wall
+R0621,island,,C,auto: 95% of the outline faces water
+R0622,land,,C,default
+R0623,land,,C,default
+R0624,land,,C,default
+R0625,land,,C,default
+R0626,court,,C,auto: small rectangle beside halls
+R0627,water,,B,"auto: wash +3.5, no halls"
+R0628,land,,C,default
+R0629,wall_strip,,C,auto: narrow strip along a wall
+R0630,court,,C,auto: small rectangle beside halls
+R0631,land,,C,default
+R0632,wall_strip,,C,auto: narrow strip along a wall
+R0633,land,,C,default
+R0634,land,,C,default
+R0635,outside,,C,inner point outside the wall rings
+R0636,land,,C,default
+R0637,land,,C,default
+R0638,land,,C,default
+R0639,land,,C,default
+R0640,court,,C,auto: small rectangle beside halls
+R0641,land,,C,default
+R0642,land,,C,default
+R0643,water,,C,"auto: wash +1.7, no halls"
+R0644,land,,C,default
+R0645,island,,C,auto: 61% of the outline faces water
+R0646,wall_strip,,C,auto: narrow strip along a wall
+R0647,land,,C,default
+R0648,land,,C,default
+R0649,water,,C,"auto: wash +1.9, no halls"
+R0650,land,,C,default
+R0651,water,,B,"auto: wash +3.7, no halls"
+R0652,island,,C,auto: 76% of the outline faces water
+R0653,water,,C,"auto: wash +1.7, no halls"
+R0654,land,,C,default
+R0655,land,,C,default
+R0656,water,,B,"auto: wash +3.1, no halls"
+R0657,water,,B,"auto: wash +2.3, no halls"
+R0658,wall_strip,,C,auto: narrow strip along a wall
+R0659,land,,C,default
+R0660,wall_strip,,C,auto: narrow strip along a wall
+R0661,land,,C,default
+R0662,land,,C,default
+R0663,land,,C,default
+R0664,water,,C,"auto: wash +1.3, no halls"
+R0665,wall_strip,,C,auto: narrow strip along a wall
+R0666,land,,C,default
+R0667,island,,C,auto: 61% of the outline faces water
+R0668,land,,C,default
+R0669,island,,C,auto: 94% of the outline faces water
+R0670,land,,C,default
+R0671,hill,,C,"auto: closed lobed outline inside R0065, no halls"
+R0672,land,,C,default
+R0673,land,,C,default
+R0674,land,,C,default
+R0675,water,,C,"auto: wash +1.5, no halls"
+R0676,wall_strip,,C,auto: narrow strip along a wall
+R0677,island,,C,auto: 63% of the outline faces water
+R0678,wall_strip,,C,auto: narrow strip along a wall
+R0679,land,,C,default
+R0680,hill,,C,"auto: closed lobed outline inside R0050, no halls"
+R0681,outside,,C,inner point outside the wall rings
+R0682,land,,C,default
+R0683,outside,,C,inner point outside the wall rings
+R0684,land,,C,default
+R0685,water,,B,"auto: wash +2.5, no halls"
+R0686,outside,,C,inner point outside the wall rings
+R0687,land,,C,default
+R0688,water,,B,"auto: wash +2.1, no halls"
+R0689,land,,C,default
+R0690,land,,C,default
+R0691,land,,C,default
+R0692,outside,,C,inner point outside the wall rings
+R0693,land,,C,default
+R0694,land,,C,default
+R0695,land,,C,default
+R0696,land,,C,default
+R0697,wall_strip,,C,auto: narrow strip along a wall
+R0698,land,,C,default
+R0699,land,,C,default
+R0700,land,,C,default
+R0701,court,,C,auto: small rectangle beside halls
+R0702,land,,C,default
+R0703,land,,C,default
+R0704,land,,C,default
+R0705,water,,B,"auto: wash +3.0, no halls"
+R0706,land,,C,default
+R0707,island,,C,auto: 75% of the outline faces water
+R0708,water,,B,"auto: wash +2.7, no halls"
+R0709,land,,C,default
+R0710,land,,C,default
+R0711,outside,,C,inner point outside the wall rings
+R0712,court,,C,auto: small rectangle beside halls
+R0713,outside,,C,inner point outside the wall rings
+R0714,outside,,C,inner point outside the wall rings
+R0715,land,,C,default
+R0716,land,,C,default
+R0717,water,,B,"auto: wash +2.4, no halls"
+R0718,outside,,C,inner point outside the wall rings
+R0719,island,,C,auto: 80% of the outline faces water
+R0720,outside,,C,inner point outside the wall rings
+R0721,wall_strip,,C,auto: narrow strip along a wall
+R0722,land,,C,default
+R0723,land,,C,default
+R0724,water,,C,"auto: wash +1.7, no halls"
+R0725,land,,C,default
+R0726,land,,C,default
+R0727,land,,C,default
+R0728,hill,,C,"auto: closed lobed outline inside R0052, no halls"
+R0729,outside,,C,inner point outside the wall rings
+R0730,wall_strip,,C,auto: narrow strip along a wall
+R0731,land,,C,default
+R0732,land,,C,default
+R0733,land,,C,default
+R0734,land,,C,default
+R0735,land,,C,default
+R0736,land,,C,default
+R0737,water,,C,"auto: wash +1.6, no halls"
+R0738,field,稻田 rice field,A,manual: Written on the plan: 稻田 rice field
+R0739,island,,C,auto: 79% of the outline faces water
+R0740,water,,B,"auto: wash +5.5, no halls"
+R0741,water,,C,"auto: wash +1.2, no halls"
+R0742,land,,C,default
+R0743,land,,C,default
+R0744,land,,C,default
+R0745,water,,B,"auto: wash +2.2, no halls"
+R0746,wall_strip,,C,auto: narrow strip along a wall
+R0747,island,,C,auto: 91% of the outline faces water
+R0748,land,,C,default
+R0749,water,,B,"auto: wash +2.3, no halls"
+R0750,land,,C,default
+R0751,wall_strip,,C,auto: narrow strip along a wall
+R0752,land,,C,default
+R0753,land,,C,default
+R0754,hill,,C,"auto: closed lobed outline inside R0092, no halls"
+R0755,island,,C,auto: 96% of the outline faces water
+R0756,land,,C,default
+R0757,water,,C,"auto: wash +1.6, no halls"
+R0758,water,,B,"auto: wash +4.5, no halls"
+R0759,land,,C,default
+R0760,land,,C,default
+R0761,island,,C,auto: 61% of the outline faces water
+R0762,outside,,C,inner point outside the wall rings
+R0763,outside,,C,inner point outside the wall rings
+R0764,land,,C,default
+R0765,land,,C,default
+R0766,island,,C,auto: 92% of the outline faces water
+R0767,water,,B,"auto: wash -0.1, no halls"
+R0768,island,,C,auto: 83% of the outline faces water
+R0769,land,,C,default
+R0770,water,,C,"auto: wash +1.8, no halls"
+R0771,water,,B,"auto: wash +6.2, no halls"
+R0772,outside,,C,inner point outside the wall rings
+R0773,land,,C,default
+R0774,land,,C,default
+R0775,land,,C,default
+R0776,hill,,C,"auto: closed lobed outline inside R0030, no halls"
+R0777,land,,C,default
+R0778,land,,C,default
+R0779,land,,C,default
+R0780,land,,C,default
+R0781,land,,C,default
+R0782,water,,C,"auto: wash +1.6, no halls"
+R0783,land,,C,default
+R0784,water,,C,"auto: wash +1.6, no halls"
+R0785,land,,C,default
+R0786,island,,C,auto: 94% of the outline faces water
+R0787,land,,C,default
+R0788,land,,C,default
+R0789,land,,C,default
+R0790,water,,B,"auto: wash +2.0, no halls"
+R0791,land,,C,default
+R0792,water,,B,"auto: wash +2.7, no halls"
+R0793,land,,C,default
+R0794,outside,,C,inner point outside the wall rings
+R0795,land,,C,default
+R0796,land,,C,default
+R0797,land,,C,default
+R0798,outside,,C,inner point outside the wall rings
+R0799,court,,C,auto: small rectangle beside halls
+R0800,wall_strip,,C,auto: narrow strip along a wall
+R0801,water,,C,"auto: wash +1.3, no halls"
+R0802,water,,C,"auto: wash +2.0, no halls"
+R0803,land,,C,default
+R0804,water,,B,"auto: wash +2.5, no halls"
+R0805,land,,C,default
+R0806,wall_strip,,C,auto: narrow strip along a wall
+R0807,land,,C,default
+R0808,land,,C,default
+R0809,land,,C,default
+R0810,land,,C,default
+R0811,land,,C,default
+R0812,water,,B,"auto: wash +3.7, no halls"
+R0813,wall_strip,,C,auto: narrow strip along a wall
+R0814,land,,C,default
+R0815,land,,C,default
+R0816,island,,C,auto: 61% of the outline faces water
+R0817,land,,C,default
+R0818,land,,C,default
+R0819,outside,,C,inner point outside the wall rings
+R0820,land,,C,default
+R0821,land,,C,default
+R0822,hill,,C,"auto: closed lobed outline inside R0023, no halls"
+R0823,island,,C,auto: 99% of the outline faces water
+R0824,water,,B,"auto: wash +2.6, no halls"
+R0825,land,,C,default
+R0826,outside,,C,inner point outside the wall rings
+R0827,court,,C,auto: small rectangle beside halls
+R0828,island,,C,auto: 92% of the outline faces water
+R0829,court,,C,auto: small rectangle beside halls
+R0830,wall_strip,,C,auto: narrow strip along a wall
+R0831,court,,C,auto: small rectangle beside halls
+R0832,land,,C,default
+R0833,island,,C,auto: 90% of the outline faces water
+R0834,land,,C,default
+R0835,court,,C,auto: small rectangle beside halls
+R0836,land,,C,default
+R0837,land,,C,default
+R0838,land,,C,default
+R0839,wall_strip,,C,auto: narrow strip along a wall
+R0840,water,,C,"auto: wash +1.7, no halls"
+R0841,island,,C,auto: 96% of the outline faces water
+R0842,water,,B,"auto: wash +3.9, no halls"
+R0843,court,,C,auto: small rectangle beside halls
+R0844,land,,C,default
+R0845,land,,C,default
+R0846,court,,C,auto: small rectangle beside halls
+R0847,island,,C,auto: 67% of the outline faces water
+R0848,outside,,C,inner point outside the wall rings
+R0849,outside,,C,inner point outside the wall rings
+R0850,land,,C,default
+R0851,land,,C,default
+R0852,outside,,C,inner point outside the wall rings
+R0853,hill,,C,"auto: closed lobed outline inside R0141, no halls"
+R0854,land,,C,default
+R0855,outside,,C,inner point outside the wall rings
+R0856,water,,B,"auto: wash +3.3, no halls"
+R0857,land,,C,default
+R0858,land,,C,default
+R0859,wall_strip,,C,auto: narrow strip along a wall
+R0860,court,,C,auto: small rectangle beside halls
+R0861,land,,C,default
+R0862,land,,C,default
+R0863,wall_strip,,C,auto: narrow strip along a wall
+R0864,island,,C,auto: 100% of the outline faces water
+R0865,land,,C,default
+R0866,wall_strip,,C,auto: narrow strip along a wall
+R0867,land,,C,default
+R0868,land,,C,default
+R0869,land,,C,default
+R0870,water,,C,"auto: wash +1.7, no halls"
+R0871,land,,C,default
+R0872,land,,C,default
+R0873,land,,C,default
+R0874,water,,B,"auto: wash +2.6, no halls"
+R0875,land,,C,default
+R0876,court,,C,auto: small rectangle beside halls
+R0877,land,,C,default
+R0878,land,,C,default
+R0879,wall_strip,,C,auto: narrow strip along a wall
+R0880,wall_strip,,C,auto: narrow strip along a wall
+R0881,hill,,C,"auto: closed lobed outline inside R2597, no halls"
+R0882,land,,C,default
+R0883,land,,C,default
+R0884,water,,B,"auto: wash +2.2, no halls"
+R0885,water,,B,"auto: wash +2.8, no halls"
+R0886,land,,C,default
+R0887,land,,C,default
+R0888,land,,C,default
+R0889,land,,C,default
+R0890,land,,C,default
+R0891,land,,C,default
+R0892,land,,C,default
+R0893,hill,,C,"auto: closed lobed outline inside R0052, no halls"
+R0894,land,,C,default
+R0895,wall_strip,,C,auto: narrow strip along a wall
+R0896,wall_strip,,C,auto: narrow strip along a wall
+R0897,land,,C,default
+R0898,land,,C,default
+R0899,land,,C,default
+R0900,land,,C,default
+R0901,land,,C,default
+R0902,court,,C,auto: small rectangle beside halls
+R0903,land,,C,default
+R0904,land,,C,default
+R0905,wall_strip,,C,auto: narrow strip along a wall
+R0906,outside,,C,inner point outside the wall rings
+R0907,land,,C,default
+R0908,water,,B,"auto: wash +2.2, no halls"
+R0909,land,,C,default
+R0910,land,,C,default
+R0911,water,,C,"auto: wash +1.9, no halls"
+R0912,court,,C,auto: small rectangle beside halls
+R0913,wall_strip,,C,auto: narrow strip along a wall
+R0914,wall_strip,,C,auto: narrow strip along a wall
+R0915,island,,C,auto: 100% of the outline faces water
+R0916,court,,C,auto: small rectangle beside halls
+R0917,court,,C,auto: small rectangle beside halls
+R0918,outside,,C,inner point outside the wall rings
+R0919,water,,B,"auto: wash +3.0, no halls"
+R0920,wall_strip,,C,auto: narrow strip along a wall
+R0921,land,,C,default
+R0922,outside,,C,inner point outside the wall rings
+R0923,hill,,C,"auto: closed lobed outline inside R0075, no halls"
+R0924,outside,,C,inner point outside the wall rings
+R0925,land,,C,default
+R0926,court,,C,auto: small rectangle beside halls
+R0927,land,,C,default
+R0928,land,,C,default
+R0929,land,,C,default
+R0930,land,,C,default
+R0931,island,,C,auto: 82% of the outline faces water
+R0932,land,,C,default
+R0933,land,,C,default
+R0934,water,,C,"auto: wash +2.0, no halls"
+R0935,island,,C,auto: 65% of the outline faces water
+R0936,land,,C,default
+R0937,land,,C,default
+R0938,outside,,C,inner point outside the wall rings
+R0939,water,,C,"auto: wash +1.4, no halls"
+R0940,water,,C,"auto: wash +1.6, no halls"
+R0941,wall_strip,,C,auto: narrow strip along a wall
+R0942,court,,C,auto: small rectangle beside halls
+R0943,water,,C,"auto: wash +1.2, no halls"
+R0944,land,,C,default
+R0945,wall_strip,,C,auto: narrow strip along a wall
+R0946,court,,C,auto: small rectangle beside halls
+R0947,island,,C,auto: 96% of the outline faces water
+R0948,land,,C,default
+R0949,land,,C,default
+R0950,land,,C,default
+R0951,land,,C,default
+R0952,island,,C,auto: 60% of the outline faces water
+R0953,land,,C,default
+R0954,land,,C,default
+R0955,land,,C,default
+R0956,land,,C,default
+R0957,island,,C,auto: 84% of the outline faces water
+R0958,water,,B,"auto: wash +2.3, no halls"
+R0959,land,,C,default
+R0960,wall_strip,,C,auto: narrow strip along a wall
+R0961,land,,C,default
+R0962,outside,,C,inner point outside the wall rings
+R0963,land,,C,default
+R0964,land,,C,default
+R0965,land,,C,default
+R0966,land,,C,default
+R0967,land,,C,default
+R0968,land,,C,default
+R0969,land,,C,default
+R0970,outside,,C,inner point outside the wall rings
+R0971,water,,B,"auto: wash +2.5, no halls"
+R0972,outside,,C,inner point outside the wall rings
+R0973,land,,C,default
+R0974,outside,,C,inner point outside the wall rings
+R0975,land,,C,default
+R0976,water,,C,"auto: wash +1.8, no halls"
+R0977,water,,B,"auto: wash +4.5, no halls"
+R0978,land,,C,default
+R0979,land,,C,default
+R0980,land,,C,default
+R0981,land,,C,default
+R0982,land,,C,default
+R0983,outside,,C,inner point outside the wall rings
+R0984,land,,C,default
+R0985,wall_strip,,C,auto: narrow strip along a wall
+R0986,land,,C,default
+R0987,land,,C,default
+R0988,court,,C,auto: small rectangle beside halls
+R0989,water,,B,"auto: wash +2.3, no halls"
+R0990,land,,C,default
+R0991,island,,C,auto: 92% of the outline faces water
+R0992,land,,C,default
+R0993,land,,C,default
+R0994,water,,B,"auto: wash +2.8, no halls"
+R0995,island,,C,auto: 87% of the outline faces water
+R0996,land,,C,default
+R0997,land,,C,default
+R0998,court,,C,auto: small rectangle beside halls
+R0999,outside,,C,inner point outside the wall rings
+R1000,land,,C,default
+R1001,land,,C,default
+R1002,land,,C,default
+R1003,hill,,C,"auto: closed lobed outline inside R1050, no halls"
+R1004,land,,C,default
+R1005,court,,C,auto: small rectangle beside halls
+R1006,water,,B,"auto: wash +2.2, no halls"
+R1007,water,,B,"auto: wash +3.6, no halls"
+R1008,land,,C,default
+R1009,water,,B,"auto: wash +3.4, no halls"
+R1010,water,,B,"auto: wash +2.2, no halls"
+R1011,water,,B,"auto: wash +2.7, no halls"
+R1012,water,,C,"auto: wash +1.3, no halls"
+R1013,land,,C,default
+R1014,court,,C,auto: small rectangle beside halls
+R1015,land,,C,default
+R1016,land,,C,default
+R1017,land,,C,default
+R1018,land,,C,default
+R1019,island,,C,auto: 100% of the outline faces water
+R1020,island,,C,auto: 88% of the outline faces water
+R1021,outside,,C,inner point outside the wall rings
+R1022,water,,C,"auto: wash +1.7, no halls"
+R1023,land,,C,default
+R1024,land,,C,default
+R1025,land,,C,default
+R1026,land,,C,default
+R1027,land,,C,default
+R1028,water,,C,"auto: wash +1.4, no halls"
+R1029,land,,C,default
+R1030,land,,C,default
+R1031,wall_strip,,C,auto: narrow strip along a wall
+R1032,wall_strip,,C,auto: narrow strip along a wall
+R1033,land,,C,default
+R1034,water,,C,"auto: wash +1.9, no halls"
+R1035,outside,,C,inner point outside the wall rings
+R1036,court,,C,auto: small rectangle beside halls
+R1037,hill,,C,"auto: closed lobed outline inside R0356, no halls"
+R1038,land,,C,default
+R1039,land,,C,default
+R1040,land,,C,default
+R1041,land,,C,default
+R1042,land,,C,default
+R1043,land,,C,default
+R1044,court,,C,auto: small rectangle beside halls
+R1045,land,,C,default
+R1046,land,,C,default
+R1047,water,,B,"auto: wash -1.1, no halls"
+R1048,wall_strip,,C,auto: narrow strip along a wall
+R1049,outside,,C,inner point outside the wall rings
+R1050,land,,C,default
+R1051,land,,C,default
+R1052,wall_strip,,C,auto: narrow strip along a wall
+R1053,land,,C,default
+R1054,land,,C,default
+R1055,land,,C,default
+R1056,court,,C,auto: small rectangle beside halls
+R1057,water,,C,"auto: wash +1.2, no halls"
+R1058,land,,C,default
+R1059,island,,C,auto: 100% of the outline faces water
+R1060,island,,C,auto: 97% of the outline faces water
+R1061,outside,,C,inner point outside the wall rings
+R1062,land,,C,default
+R1063,water,,C,"auto: wash +1.4, no halls"
+R1064,water,,B,"auto: wash -1.1, no halls"
+R1065,water,,B,"auto: wash -4.9, no halls"
+R1066,land,,C,default
+R1067,outside,,C,inner point outside the wall rings
+R1068,hill,,C,"auto: closed lobed outline inside R0196, no halls"
+R1069,land,,C,default
+R1070,water,,B,"auto: wash +2.9, no halls"
+R1071,land,,C,default
+R1072,court,,C,auto: small rectangle beside halls
+R1073,land,,C,default
+R1074,land,,C,default
+R1075,water,,C,"auto: wash +1.5, no halls"
+R1076,water,,B,"auto: wash +2.1, no halls"
+R1077,land,,C,default
+R1078,outside,,C,inner point outside the wall rings
+R1079,water,,C,"auto: wash +1.2, no halls"
+R1080,island,,C,auto: 94% of the outline faces water
+R1081,land,,C,default
+R1082,land,,C,default
+R1083,land,,C,default
+R1084,land,,C,default
+R1085,land,,C,default
+R1086,water,,B,"auto: wash +2.3, no halls"
+R1087,land,,C,default
+R1088,water,,C,"auto: wash +1.3, no halls"
+R1089,land,,C,default
+R1090,land,,C,default
+R1091,land,,C,default
+R1092,land,,C,default
+R1093,outside,,C,inner point outside the wall rings
+R1094,wall_strip,,C,auto: narrow strip along a wall
+R1095,wall_strip,,C,auto: narrow strip along a wall
+R1096,water,,C,"auto: wash +1.2, no halls"
+R1097,land,,C,default
+R1098,land,,C,default
+R1099,outside,,C,inner point outside the wall rings
+R1100,land,,C,default
+R1101,wall_strip,,C,auto: narrow strip along a wall
+R1102,court,,C,auto: small rectangle beside halls
+R1103,water,,C,"auto: wash +1.3, no halls"
+R1104,land,,C,default
+R1105,water,,B,"auto: wash -1.9, no halls"
+R1106,land,,C,default
+R1107,island,,C,auto: 100% of the outline faces water
+R1108,island,,C,auto: 86% of the outline faces water
+R1109,outside,,C,inner point outside the wall rings
+R1110,land,,C,default
+R1111,land,,C,default
+R1112,water,,C,"auto: wash +1.4, no halls"
+R1113,court,,C,auto: small rectangle beside halls
+R1114,water,,B,"auto: wash -2.3, no halls"
+R1115,island,,C,auto: 76% of the outline faces water
+R1116,land,,C,default
+R1117,land,,C,default
+R1118,land,,C,default
+R1119,land,,C,default
+R1120,water,,C,"auto: wash +1.5, no halls"
+R1121,land,,C,default
+R1122,water,,B,"auto: wash +2.5, no halls"
+R1123,court,,C,auto: small rectangle beside halls
+R1124,land,,C,default
+R1125,land,,C,default
+R1126,island,,C,auto: 89% of the outline faces water
+R1127,land,,C,default
+R1128,land,,C,default
+R1129,water,,B,"auto: wash +2.6, no halls"
+R1130,land,,C,default
+R1131,land,,C,default
+R1132,island,,C,auto: 87% of the outline faces water
+R1133,outside,,C,inner point outside the wall rings
+R1134,island,,C,auto: 73% of the outline faces water
+R1135,outside,,C,inner point outside the wall rings
+R1136,land,,C,default
+R1137,land,,C,default
+R1138,water,,C,"auto: wash +1.3, no halls"
+R1139,land,,C,default
+R1140,land,,C,default
+R1141,land,,C,default
+R1142,land,,C,default
+R1143,water,,B,"auto: wash +2.5, no halls"
+R1144,land,,C,default
+R1145,water,,B,"auto: wash -2.7, no halls"
+R1146,land,,C,default
+R1147,land,,C,default
+R1148,land,,C,default
+R1149,outside,,C,inner point outside the wall rings
+R1150,land,,C,default
+R1151,land,,C,default
+R1152,land,,C,default
+R1153,island,,C,auto: 100% of the outline faces water
+R1154,land,,C,default
+R1155,land,,C,default
+R1156,outside,,C,inner point outside the wall rings
+R1157,land,,C,default
+R1158,court,,C,auto: small rectangle beside halls
+R1159,land,,C,default
+R1160,water,,C,"auto: wash +1.9, no halls"
+R1161,land,,C,default
+R1162,land,,C,default
+R1163,land,,C,default
+R1164,water,,B,"auto: wash +3.3, no halls"
+R1165,land,,C,default
+R1166,island,,C,auto: 73% of the outline faces water
+R1167,land,,C,default
+R1168,land,,C,default
+R1169,court,,C,auto: small rectangle beside halls
+R1170,land,,C,default
+R1171,land,,C,default
+R1172,land,,C,default
+R1173,land,,C,default
+R1174,land,,C,default
+R1175,land,,C,default
+R1176,land,,C,default
+R1177,water,,B,"auto: wash +3.2, no halls"
+R1178,land,,C,default
+R1179,land,,C,default
+R1180,land,,C,default
+R1181,water,,C,"auto: wash +1.3, no halls"
+R1182,land,,C,default
+R1183,court,,C,auto: small rectangle beside halls
+R1184,water,,C,"auto: wash +1.6, no halls"
+R1185,land,,C,default
+R1186,land,,C,default
+R1187,court,,C,auto: small rectangle beside halls
+R1188,land,,C,default
+R1189,water,,B,"auto: wash +3.0, no halls"
+R1190,land,,C,default
+R1191,land,,C,default
+R1192,water,,B,"auto: wash -1.7, no halls"
+R1193,land,,C,default
+R1194,land,,C,default
+R1195,island,,C,auto: 89% of the outline faces water
+R1196,land,,C,default
+R1197,land,,C,default
+R1198,land,,C,default
+R1199,island,,C,auto: 79% of the outline faces water
+R1200,land,,C,default
+R1201,outside,,C,inner point outside the wall rings
+R1202,land,,C,default
+R1203,court,,C,auto: small rectangle beside halls
+R1204,court,,C,auto: small rectangle beside halls
+R1205,outside,,C,inner point outside the wall rings
+R1206,land,,C,default
+R1207,island,,C,auto: 70% of the outline faces water
+R1208,court,,C,auto: small rectangle beside halls
+R1209,land,,C,default
+R1210,land,,C,default
+R1211,water,,C,"auto: wash +1.8, no halls"
+R1212,island,,C,auto: 95% of the outline faces water
+R1213,land,,C,default
+R1214,land,,C,default
+R1215,water,,C,"auto: wash +1.8, no halls"
+R1216,water,,B,"auto: wash -1.5, no halls"
+R1217,water,,C,"auto: wash +1.3, no halls"
+R1218,outside,,C,inner point outside the wall rings
+R1219,land,,C,default
+R1220,court,,C,auto: small rectangle beside halls
+R1221,land,,C,default
+R1222,land,,C,default
+R1223,land,,C,default
+R1224,land,,C,default
+R1225,land,,C,default
+R1226,water,,B,"auto: wash +2.1, no halls"
+R1227,water,,B,"auto: wash +2.9, no halls"
+R1228,land,,C,default
+R1229,land,,C,default
+R1230,land,,C,default
+R1231,land,,C,default
+R1232,water,,C,"auto: wash +1.6, no halls"
+R1233,court,,C,auto: small rectangle beside halls
+R1234,court,,C,auto: small rectangle beside halls
+R1235,court,,C,auto: small rectangle beside halls
+R1236,land,,C,default
+R1237,court,,C,auto: small rectangle beside halls
+R1238,hill,,C,"auto: closed lobed outline inside R0030, no halls"
+R1239,land,,C,default
+R1240,land,,C,default
+R1241,court,,C,auto: small rectangle beside halls
+R1242,land,,C,default
+R1243,land,,C,default
+R1244,water,,B,"auto: wash +3.7, no halls"
+R1245,land,,C,default
+R1246,land,,C,default
+R1247,court,,C,auto: small rectangle beside halls
+R1248,court,,C,auto: small rectangle beside halls
+R1249,land,,C,default
+R1250,land,,C,default
+R1251,land,,C,default
+R1252,outside,,C,inner point outside the wall rings
+R1253,court,,C,auto: small rectangle beside halls
+R1254,land,,C,default
+R1255,land,,C,default
+R1256,land,,C,default
+R1257,court,,C,auto: small rectangle beside halls
+R1258,water,,B,"auto: wash -4.5, no halls"
+R1259,land,,C,default
+R1260,water,,B,"auto: wash +2.0, no halls"
+R1261,land,,C,default
+R1262,outside,,C,inner point outside the wall rings
+R1263,outside,,C,inner point outside the wall rings
+R1264,hill,,C,"auto: closed lobed outline inside R0101, no halls"
+R1265,water,,C,"auto: wash +1.8, no halls"
+R1266,court,,C,auto: small rectangle beside halls
+R1267,island,,C,auto: 64% of the outline faces water
+R1268,land,,C,default
+R1269,land,,C,default
+R1270,land,,C,default
+R1271,island,,C,auto: 85% of the outline faces water
+R1272,land,,C,default
+R1273,land,,C,default
+R1274,land,,C,default
+R1275,land,,C,default
+R1276,court,,C,auto: small rectangle beside halls
+R1277,land,,C,default
+R1278,outside,,C,inner point outside the wall rings
+R1279,land,,C,default
+R1280,water,,B,"auto: wash -0.5, no halls"
+R1281,water,,B,"auto: wash +2.4, no halls"
+R1282,land,,C,default
+R1283,land,,C,default
+R1284,land,,C,default
+R1285,water,,C,"auto: wash +1.5, no halls"
+R1286,island,,C,auto: 95% of the outline faces water
+R1287,land,,C,default
+R1288,land,,C,default
+R1289,island,,C,auto: 64% of the outline faces water
+R1290,court,,C,auto: small rectangle beside halls
+R1291,land,,C,default
+R1292,land,,C,default
+R1293,land,,C,default
+R1294,land,,C,default
+R1295,land,,C,default
+R1296,land,,C,default
+R1297,court,,C,auto: small rectangle beside halls
+R1298,land,,C,default
+R1299,water,,B,"auto: wash +2.3, no halls"
+R1300,land,,C,default
+R1301,outside,,C,inner point outside the wall rings
+R1302,land,,C,default
+R1303,outside,,C,inner point outside the wall rings
+R1304,land,,C,default
+R1305,land,,C,default
+R1306,land,,C,default
+R1307,land,,C,default
+R1308,land,,C,default
+R1309,land,,C,default
+R1310,land,,C,default
+R1311,land,,C,default
+R1312,court,,C,auto: small rectangle beside halls
+R1313,water,,B,"auto: wash +2.7, no halls"
+R1314,land,,C,default
+R1315,court,,C,auto: small rectangle beside halls
+R1316,water,,C,"auto: wash +1.4, no halls"
+R1317,land,,C,default
+R1318,water,,B,"auto: wash -2.8, no halls"
+R1319,water,,B,"auto: wash +2.3, no halls"
+R1320,land,,C,default
+R1321,land,,C,default
+R1322,water,,C,"auto: wash +1.7, no halls"
+R1323,court,,C,auto: small rectangle beside halls
+R1324,land,,C,default
+R1325,land,,C,default
+R1326,land,,C,default
+R1327,outside,,C,inner point outside the wall rings
+R1328,court,,C,auto: small rectangle beside halls
+R1329,land,,C,default
+R1330,land,,C,default
+R1331,land,,C,default
+R1332,water,,B,"auto: wash +3.5, no halls"
+R1333,hill,,C,"auto: closed lobed outline inside R0667, no halls"
+R1334,land,,C,default
+R1335,land,,C,default
+R1336,land,,C,default
+R1337,water,,B,"auto: wash +2.0, no halls"
+R1338,land,,C,default
+R1339,court,,C,auto: small rectangle beside halls
+R1340,land,,C,default
+R1341,land,,C,default
+R1342,land,,C,default
+R1343,land,,C,default
+R1344,island,,C,auto: 100% of the outline faces water
+R1345,land,,C,default
+R1346,court,,C,auto: small rectangle beside halls
+R1347,outside,,C,inner point outside the wall rings
+R1348,court,,C,auto: small rectangle beside halls
+R1349,outside,,C,inner point outside the wall rings
+R1350,water,,C,"auto: wash +1.4, no halls"
+R1351,outside,,C,inner point outside the wall rings
+R1352,land,,C,default
+R1353,land,,C,default
+R1354,land,,C,default
+R1355,water,,C,"auto: wash +1.6, no halls"
+R1356,land,,C,default
+R1357,land,,C,default
+R1358,land,,C,default
+R1359,land,,C,default
+R1360,land,,C,default
+R1361,outside,,C,inner point outside the wall rings
+R1362,land,,C,default
+R1363,water,,C,"auto: wash +1.3, no halls"
+R1364,land,,C,default
+R1365,land,,C,default
+R1366,court,,C,auto: small rectangle beside halls
+R1367,water,,B,"auto: wash +3.6, no halls"
+R1368,hill,,C,"auto: closed lobed outline inside R0212, no halls"
+R1369,water,,B,"auto: wash +2.3, no halls"
+R1370,outside,,C,inner point outside the wall rings
+R1371,land,,C,default
+R1372,land,,C,default
+R1373,land,,C,default
+R1374,court,,C,auto: small rectangle beside halls
+R1375,water,,B,"auto: wash -1.4, no halls"
+R1376,land,,C,default
+R1377,court,,C,auto: small rectangle beside halls
+R1378,land,,C,default
+R1379,island,,C,auto: 87% of the outline faces water
+R1380,land,,C,default
+R1381,land,,C,default
+R1382,outside,,C,inner point outside the wall rings
+R1383,land,,C,default
+R1384,court,,C,auto: small rectangle beside halls
+R1385,land,,C,default
+R1386,land,,C,default
+R1387,court,,C,auto: small rectangle beside halls
+R1388,water,,C,"auto: wash +1.3, no halls"
+R1389,land,,C,default
+R1390,outside,,C,inner point outside the wall rings
+R1391,land,,C,default
+R1392,water,,B,"auto: wash +3.1, no halls"
+R1393,water,,B,"auto: wash +2.9, no halls"
+R1394,court,,C,auto: small rectangle beside halls
+R1395,island,,C,auto: 61% of the outline faces water
+R1396,court,,C,auto: small rectangle beside halls
+R1397,land,,C,default
+R1398,land,,C,default
+R1399,water,,B,"auto: wash -1.6, no halls"
+R1400,outside,,C,inner point outside the wall rings
+R1401,land,,C,default
+R1402,land,,C,default
+R1403,land,,C,default
+R1404,water,,B,"auto: wash +2.7, no halls"
+R1405,outside,,C,inner point outside the wall rings
+R1406,hill,,C,"auto: closed lobed outline inside R0637, no halls"
+R1407,land,,C,default
+R1408,land,,C,default
+R1409,land,,C,default
+R1410,court,,C,auto: small rectangle beside halls
+R1411,court,,C,auto: small rectangle beside halls
+R1412,land,,C,default
+R1413,water,,B,"auto: wash +2.9, no halls"
+R1414,court,,C,auto: small rectangle beside halls
+R1415,land,,C,default
+R1416,land,,C,default
+R1417,island,,C,auto: 100% of the outline faces water
+R1418,land,,C,default
+R1419,land,,C,default
+R1420,outside,,C,inner point outside the wall rings
+R1421,land,,C,default
+R1422,land,,C,default
+R1423,water,,B,"auto: wash -2.3, no halls"
+R1424,land,,C,default
+R1425,land,,C,default
+R1426,water,,B,"auto: wash +2.8, no halls"
+R1427,court,,C,auto: small rectangle beside halls
+R1428,court,,C,auto: small rectangle beside halls
+R1429,land,,C,default
+R1430,land,,C,default
+R1431,outside,,C,inner point outside the wall rings
+R1432,land,,C,default
+R1433,island,,C,auto: 83% of the outline faces water
+R1434,land,,C,default
+R1435,land,,C,default
+R1436,land,,C,default
+R1437,land,,C,default
+R1438,land,,C,default
+R1439,land,,C,default
+R1440,land,,C,default
+R1441,island,,C,auto: 95% of the outline faces water
+R1442,land,,C,default
+R1443,outside,,C,inner point outside the wall rings
+R1444,land,,C,default
+R1445,land,,C,default
+R1446,court,,C,auto: small rectangle beside halls
+R1447,land,,C,default
+R1448,land,,C,default
+R1449,land,,C,default
+R1450,land,,C,default
+R1451,water,,B,"auto: wash +3.3, no halls"
+R1452,water,,C,"auto: wash +1.9, no halls"
+R1453,outside,,C,inner point outside the wall rings
+R1454,water,,B,"auto: wash +3.3, no halls"
+R1455,land,,C,default
+R1456,land,,C,default
+R1457,land,,C,default
+R1458,court,,C,auto: small rectangle beside halls
+R1459,court,,C,auto: small rectangle beside halls
+R1460,land,,C,default
+R1461,water,,B,"auto: wash -2.5, no halls"
+R1462,outside,,C,inner point outside the wall rings
+R1463,land,,C,default
+R1464,outside,,C,inner point outside the wall rings
+R1465,island,,C,auto: 94% of the outline faces water
+R1466,land,,C,default
+R1467,water,,B,"auto: wash -2.0, no halls"
+R1468,land,,C,default
+R1469,land,,C,default
+R1470,land,,C,default
+R1471,land,,C,default
+R1472,island,,C,auto: 95% of the outline faces water
+R1473,land,,C,default
+R1474,land,,C,default
+R1475,court,,C,auto: small rectangle beside halls
+R1476,island,,C,auto: 77% of the outline faces water
+R1477,water,,C,"auto: wash +1.4, no halls"
+R1478,land,,C,default
+R1479,island,,C,auto: 100% of the outline faces water
+R1480,land,,C,default
+R1481,land,,C,default
+R1482,land,,C,default
+R1483,court,,C,auto: small rectangle beside halls
+R1484,island,,C,auto: 86% of the outline faces water
+R1485,hill,,C,"auto: closed lobed outline inside R0018, no halls"
+R1486,water,,C,"auto: wash +1.4, no halls"
+R1487,island,,C,auto: 100% of the outline faces water
+R1488,court,,C,auto: small rectangle beside halls
+R1489,hill,,C,"auto: closed lobed outline inside R1678, no halls"
+R1490,land,,C,default
+R1491,hill,,C,"auto: closed lobed outline inside R0170, no halls"
+R1492,island,,C,auto: 60% of the outline faces water
+R1493,outside,,C,inner point outside the wall rings
+R1494,court,,C,auto: small rectangle beside halls
+R1495,water,,B,"auto: wash +2.2, no halls"
+R1496,outside,,C,inner point outside the wall rings
+R1497,land,,C,default
+R1498,land,,C,default
+R1499,land,,C,default
+R1500,land,,C,default
+R1501,island,,C,auto: 91% of the outline faces water
+R1502,land,,C,default
+R1503,land,,C,default
+R1504,land,,C,default
+R1505,island,,C,auto: 94% of the outline faces water
+R1506,land,,C,default
+R1507,outside,,C,inner point outside the wall rings
+R1508,court,,C,auto: small rectangle beside halls
+R1509,land,,C,default
+R1510,land,,C,default
+R1511,water,,C,"auto: wash +1.9, no halls"
+R1512,land,,C,default
+R1513,court,,C,auto: small rectangle beside halls
+R1514,land,,C,default
+R1515,water,,B,"auto: wash +2.1, no halls"
+R1516,water,,C,"auto: wash +1.2, no halls"
+R1517,land,,C,default
+R1518,land,,C,default
+R1519,land,,C,default
+R1520,island,,C,auto: 72% of the outline faces water
+R1521,land,,C,default
+R1522,land,,C,default
+R1523,land,,C,default
+R1524,land,,C,default
+R1525,land,,C,default
+R1526,land,,C,default
+R1527,water,,B,"auto: wash +2.6, no halls"
+R1528,land,,C,default
+R1529,land,,C,default
+R1530,land,,C,default
+R1531,land,,C,default
+R1532,court,,C,auto: small rectangle beside halls
+R1533,land,,C,default
+R1534,hill,,C,"auto: closed lobed outline inside R0090, no halls"
+R1535,land,,C,default
+R1536,land,,C,default
+R1537,land,,C,default
+R1538,hill,,C,"auto: closed lobed outline inside R0090, no halls"
+R1539,land,,C,default
+R1540,court,,C,auto: small rectangle beside halls
+R1541,land,,C,default
+R1542,court,,C,auto: small rectangle beside halls
+R1543,land,,C,default
+R1544,land,,C,default
+R1545,water,,C,"auto: wash +1.5, no halls"
+R1546,water,,C,"auto: wash +1.6, no halls"
+R1547,land,,C,default
+R1548,court,,C,auto: small rectangle beside halls
+R1549,land,,C,default
+R1550,land,,C,default
+R1551,land,,C,default
+R1552,outside,,C,inner point outside the wall rings
+R1553,land,,C,default
+R1554,island,,C,auto: 89% of the outline faces water
+R1555,land,,C,default
+R1556,land,,C,default
+R1557,land,,C,default
+R1558,water,,B,"auto: wash +2.8, no halls"
+R1559,court,,C,auto: small rectangle beside halls
+R1560,island,,C,auto: 75% of the outline faces water
+R1561,island,,C,auto: 93% of the outline faces water
+R1562,land,,C,default
+R1563,land,,C,default
+R1564,land,,C,default
+R1565,land,,C,default
+R1566,land,,C,default
+R1567,island,,C,auto: 94% of the outline faces water
+R1568,land,,C,default
+R1569,outside,,C,inner point outside the wall rings
+R1570,outside,,C,inner point outside the wall rings
+R1571,land,,C,default
+R1572,court,,C,auto: small rectangle beside halls
+R1573,outside,,C,inner point outside the wall rings
+R1574,island,,C,auto: 100% of the outline faces water
+R1575,land,,C,default
+R1576,land,,C,default
+R1577,water,,C,"auto: wash +1.5, no halls"
+R1578,court,,C,auto: small rectangle beside halls
+R1579,land,,C,default
+R1580,land,,C,default
+R1581,land,,C,default
+R1582,land,,C,default
+R1583,island,,C,auto: 60% of the outline faces water
+R1584,land,,C,default
+R1585,island,,C,auto: 83% of the outline faces water
+R1586,water,,C,"auto: wash +1.2, no halls"
+R1587,water,,B,"auto: wash +2.0, no halls"
+R1588,land,,C,default
+R1589,outside,,C,inner point outside the wall rings
+R1590,outside,,C,inner point outside the wall rings
+R1591,land,,C,default
+R1592,land,,C,default
+R1593,hill,,C,"auto: closed lobed outline inside R1249, no halls"
+R1594,water,,C,"auto: wash +1.7, no halls"
+R1595,land,,C,default
+R1596,land,,C,default
+R1597,land,,C,default
+R1598,land,,C,default
+R1599,court,,C,auto: small rectangle beside halls
+R1600,land,,C,default
+R1601,water,,B,"auto: wash -1.1, no halls"
+R1602,land,,C,default
+R1603,water,,C,"auto: wash +1.5, no halls"
+R1604,water,,B,"auto: wash +5.2, no halls"
+R1605,land,,C,default
+R1606,land,,C,default
+R1607,land,,C,default
+R1608,land,,C,default
+R1609,land,,C,default
+R1610,land,,C,default
+R1611,outside,,C,inner point outside the wall rings
+R1612,court,,C,auto: small rectangle beside halls
+R1613,island,,C,auto: 75% of the outline faces water
+R1614,land,,C,default
+R1615,land,,C,default
+R1616,land,,C,default
+R1617,land,,C,default
+R1618,land,,C,default
+R1619,land,,C,default
+R1620,court,,C,auto: small rectangle beside halls
+R1621,island,,C,auto: 77% of the outline faces water
+R1622,land,,C,default
+R1623,water,,C,"auto: wash +1.7, no halls"
+R1624,land,,C,default
+R1625,water,,C,"auto: wash +1.7, no halls"
+R1626,island,,C,auto: 100% of the outline faces water
+R1627,land,,C,default
+R1628,court,,C,auto: small rectangle beside halls
+R1629,land,,C,default
+R1630,hill,,C,"auto: closed lobed outline inside R0050, no halls"
+R1631,land,,C,default
+R1632,water,,B,"auto: wash +2.9, no halls"
+R1633,court,,C,auto: small rectangle beside halls
+R1634,outside,,C,inner point outside the wall rings
+R1635,land,,C,default
+R1636,island,,C,auto: 83% of the outline faces water
+R1637,island,,C,auto: 87% of the outline faces water
+R1638,island,,C,auto: 70% of the outline faces water
+R1639,water,,B,"auto: wash +2.3, no halls"
+R1640,land,,C,default
+R1641,land,,C,default
+R1642,land,,C,default
+R1643,water,,B,"auto: wash +2.1, no halls"
+R1644,land,,C,default
+R1645,land,,C,default
+R1646,court,,C,auto: small rectangle beside halls
+R1647,land,,C,default
+R1648,water,,C,"auto: wash +1.9, no halls"
+R1649,land,,C,default
+R1650,outside,,C,inner point outside the wall rings
+R1651,water,,B,"auto: wash +3.7, no halls"
+R1652,court,,C,auto: small rectangle beside halls
+R1653,land,,C,default
+R1654,land,,C,default
+R1655,court,,C,auto: small rectangle beside halls
+R1656,land,,C,default
+R1657,land,,C,default
+R1658,court,,C,auto: small rectangle beside halls
+R1659,outside,,C,inner point outside the wall rings
+R1660,outside,,C,inner point outside the wall rings
+R1661,court,,C,auto: small rectangle beside halls
+R1662,outside,,C,inner point outside the wall rings
+R1663,land,,C,default
+R1664,outside,,C,inner point outside the wall rings
+R1665,land,,C,default
+R1666,water,,C,"auto: wash +1.3, no halls"
+R1667,land,,C,default
+R1668,outside,,C,inner point outside the wall rings
+R1669,land,,C,default
+R1670,land,,C,default
+R1671,land,,C,default
+R1672,outside,,C,inner point outside the wall rings
+R1673,water,,B,"auto: wash +2.2, no halls"
+R1674,land,,C,default
+R1675,island,,C,auto: 96% of the outline faces water
+R1676,land,,C,default
+R1677,land,,C,default
+R1678,land,,C,default
+R1679,land,,C,default
+R1680,land,,C,default
+R1681,land,,C,default
+R1682,court,,C,auto: small rectangle beside halls
+R1683,land,,C,default
+R1684,land,,C,default
+R1685,outside,,C,inner point outside the wall rings
+R1686,island,,C,auto: 97% of the outline faces water
+R1687,land,,C,default
+R1688,court,,C,auto: small rectangle beside halls
+R1689,court,,C,auto: small rectangle beside halls
+R1690,water,,B,"auto: wash +2.3, no halls"
+R1691,land,,C,default
+R1692,land,,C,default
+R1693,land,,C,default
+R1694,land,,C,default
+R1695,land,,C,default
+R1696,land,,C,default
+R1697,court,,C,auto: small rectangle beside halls
+R1698,land,,C,default
+R1699,water,,B,"auto: wash -1.5, no halls"
+R1700,land,,C,default
+R1701,water,,B,"auto: wash -0.9, no halls"
+R1702,outside,,C,inner point outside the wall rings
+R1703,land,,C,default
+R1704,hill,,C,"auto: closed lobed outline inside R0027, no halls"
+R1705,land,,C,default
+R1706,island,,C,auto: 87% of the outline faces water
+R1707,outside,,C,inner point outside the wall rings
+R1708,island,,C,auto: 100% of the outline faces water
+R1709,outside,,C,inner point outside the wall rings
+R1710,land,,C,default
+R1711,land,,C,default
+R1712,outside,,C,inner point outside the wall rings
+R1713,court,,C,auto: small rectangle beside halls
+R1714,land,,C,default
+R1715,island,,C,auto: 77% of the outline faces water
+R1716,land,,C,default
+R1717,court,,C,auto: small rectangle beside halls
+R1718,water,,B,"auto: wash -3.0, no halls"
+R1719,court,,C,auto: small rectangle beside halls
+R1720,water,,B,"auto: wash +2.1, no halls"
+R1721,land,,C,default
+R1722,court,,C,auto: small rectangle beside halls
+R1723,land,,C,default
+R1724,land,,C,default
+R1725,court,,C,auto: small rectangle beside halls
+R1726,water,,C,"auto: wash +1.7, no halls"
+R1727,land,,C,default
+R1728,outside,,C,inner point outside the wall rings
+R1729,land,,C,default
+R1730,court,,C,auto: small rectangle beside halls
+R1731,land,,C,default
+R1732,outside,,C,inner point outside the wall rings
+R1733,court,,C,auto: small rectangle beside halls
+R1734,outside,,C,inner point outside the wall rings
+R1735,outside,,C,inner point outside the wall rings
+R1736,outside,,C,inner point outside the wall rings
+R1737,island,,C,auto: 85% of the outline faces water
+R1738,land,,C,default
+R1739,court,,C,auto: small rectangle beside halls
+R1740,court,,C,auto: small rectangle beside halls
+R1741,hill,,C,"auto: closed lobed outline inside R0141, no halls"
+R1742,land,,C,default
+R1743,land,,C,default
+R1744,land,,C,default
+R1745,land,,C,default
+R1746,land,,C,default
+R1747,island,,C,auto: 88% of the outline faces water
+R1748,land,,C,default
+R1749,water,,B,"auto: wash +2.5, no halls"
+R1750,land,,C,default
+R1751,land,,C,default
+R1752,water,,C,"auto: wash +1.7, no halls"
+R1753,outside,,C,inner point outside the wall rings
+R1754,land,,C,default
+R1755,court,,C,auto: small rectangle beside halls
+R1756,water,,B,"auto: wash -0.9, no halls"
+R1757,land,,C,default
+R1758,land,,C,default
+R1759,land,,C,default
+R1760,court,,C,auto: small rectangle beside halls
+R1761,court,,C,auto: small rectangle beside halls
+R1762,island,,C,auto: 88% of the outline faces water
+R1763,land,,C,default
+R1764,outside,,C,inner point outside the wall rings
+R1765,land,,C,default
+R1766,land,,C,default
+R1767,land,,C,default
+R1768,land,,C,default
+R1769,land,,C,default
+R1770,land,,C,default
+R1771,court,,C,auto: small rectangle beside halls
+R1772,land,,C,default
+R1773,island,,C,auto: 97% of the outline faces water
+R1774,water,,C,"auto: wash +1.6, no halls"
+R1775,land,,C,default
+R1776,court,,C,auto: small rectangle beside halls
+R1777,water,,B,"auto: wash -1.5, no halls"
+R1778,outside,,C,inner point outside the wall rings
+R1779,outside,,C,inner point outside the wall rings
+R1780,island,,C,auto: 63% of the outline faces water
+R1781,land,,C,default
+R1782,court,,C,auto: small rectangle beside halls
+R1783,land,,C,default
+R1784,land,,C,default
+R1785,water,,C,"auto: wash +1.6, no halls"
+R1786,land,,C,default
+R1787,land,,C,default
+R1788,court,,C,auto: small rectangle beside halls
+R1789,land,,C,default
+R1790,hill,,C,"auto: closed lobed outline inside R0013, no halls"
+R1791,land,,C,default
+R1792,land,,C,default
+R1793,water,,C,"auto: wash +1.4, no halls"
+R1794,land,,C,default
+R1795,land,,C,default
+R1796,outside,,C,inner point outside the wall rings
+R1797,outside,,C,inner point outside the wall rings
+R1798,court,,C,auto: small rectangle beside halls
+R1799,island,,C,auto: 95% of the outline faces water
+R1800,land,,C,default
+R1801,land,,C,default
+R1802,land,,C,default
+R1803,court,,C,auto: small rectangle beside halls
+R1804,court,,C,auto: small rectangle beside halls
+R1805,land,,C,default
+R1806,land,,C,default
+R1807,land,,C,default
+R1808,land,,C,default
+R1809,hill,,C,"auto: closed lobed outline inside R0056, no halls"
+R1810,water,,B,"auto: wash -2.8, no halls"
+R1811,water,,C,"auto: wash +1.5, no halls"
+R1812,island,,C,auto: 68% of the outline faces water
+R1813,court,,C,auto: small rectangle beside halls
+R1814,land,,C,default
+R1815,land,,C,default
+R1816,land,,C,default
+R1817,court,,C,auto: small rectangle beside halls
+R1818,outside,,C,inner point outside the wall rings
+R1819,land,,C,default
+R1820,land,,C,default
+R1821,water,,B,"auto: wash +3.3, no halls"
+R1822,land,,C,default
+R1823,land,,C,default
+R1824,land,,C,default
+R1825,land,,C,default
+R1826,land,,C,default
+R1827,land,,C,default
+R1828,water,,B,"auto: wash -5.7, no halls"
+R1829,outside,,C,inner point outside the wall rings
+R1830,land,,C,default
+R1831,land,,C,default
+R1832,hill,,C,"auto: closed lobed outline inside R0200, no halls"
+R1833,court,,C,auto: small rectangle beside halls
+R1834,land,,C,default
+R1835,court,,C,auto: small rectangle beside halls
+R1836,island,,C,auto: 100% of the outline faces water
+R1837,water,,C,"auto: wash +1.5, no halls"
+R1838,water,,B,"auto: wash +2.9, no halls"
+R1839,land,,C,default
+R1840,water,,B,"auto: wash -1.3, no halls"
+R1841,water,,B,"auto: wash +2.2, no halls"
+R1842,water,,C,"auto: wash +1.7, no halls"
+R1843,land,,C,default
+R1844,land,,C,default
+R1845,land,,C,default
+R1846,land,,C,default
+R1847,land,,C,default
+R1848,land,,C,default
+R1849,island,,C,auto: 62% of the outline faces water
+R1850,water,,C,"auto: wash +1.9, no halls"
+R1851,land,,C,default
+R1852,hill,,C,"auto: closed lobed outline inside R0319, no halls"
+R1853,water,,B,"auto: wash +4.7, no halls"
+R1854,outside,,C,inner point outside the wall rings
+R1855,island,,C,auto: 75% of the outline faces water
+R1856,land,,C,default
+R1857,land,,C,default
+R1858,land,,C,default
+R1859,island,,C,auto: 81% of the outline faces water
+R1860,land,,C,default
+R1861,water,,C,"auto: wash +1.3, no halls"
+R1862,outside,,C,inner point outside the wall rings
+R1863,outside,,C,inner point outside the wall rings
+R1864,land,,C,default
+R1865,land,,C,default
+R1866,water,,C,"auto: wash +1.4, no halls"
+R1867,land,,C,default
+R1868,land,,C,default
+R1869,land,,C,default
+R1870,water,,C,"auto: wash +1.7, no halls"
+R1871,outside,,C,inner point outside the wall rings
+R1872,court,,C,auto: small rectangle beside halls
+R1873,land,,C,default
+R1874,water,,B,"auto: wash +2.4, no halls"
+R1875,outside,,C,inner point outside the wall rings
+R1876,outside,,C,inner point outside the wall rings
+R1877,court,,C,auto: small rectangle beside halls
+R1878,outside,,C,inner point outside the wall rings
+R1879,land,,C,default
+R1880,land,,C,default
+R1881,land,,C,default
+R1882,land,,C,default
+R1883,land,,C,default
+R1884,island,,C,auto: 100% of the outline faces water
+R1885,court,,C,auto: small rectangle beside halls
+R1886,outside,,C,inner point outside the wall rings
+R1887,land,,C,default
+R1888,land,,C,default
+R1889,land,,C,default
+R1890,land,,C,default
+R1891,water,,B,"auto: wash +3.7, no halls"
+R1892,court,,C,auto: small rectangle beside halls
+R1893,land,,C,default
+R1894,land,,C,default
+R1895,outside,,C,inner point outside the wall rings
+R1896,hill,,C,"auto: closed lobed outline inside R0018, no halls"
+R1897,hill,,C,"auto: closed lobed outline inside R0175, no halls"
+R1898,island,,C,auto: 96% of the outline faces water
+R1899,land,,C,default
+R1900,land,,C,default
+R1901,land,,C,default
+R1902,land,,C,default
+R1903,hill,,C,"auto: closed lobed outline inside R0075, no halls"
+R1904,land,,C,default
+R1905,hill,,C,"auto: closed lobed outline inside R0325, no halls"
+R1906,court,,C,auto: small rectangle beside halls
+R1907,land,,C,default
+R1908,land,,C,default
+R1909,land,,C,default
+R1910,court,,C,auto: small rectangle beside halls
+R1911,land,,C,default
+R1912,land,,C,default
+R1913,land,,C,default
+R1914,land,,C,default
+R1915,water,,B,"auto: wash +2.4, no halls"
+R1916,outside,,C,inner point outside the wall rings
+R1917,court,,C,auto: small rectangle beside halls
+R1918,land,,C,default
+R1919,water,,B,"auto: wash -1.8, no halls"
+R1920,court,,C,auto: small rectangle beside halls
+R1921,land,,C,default
+R1922,land,,C,default
+R1923,water,,B,"auto: wash -0.6, no halls"
+R1924,hill,,C,"auto: closed lobed outline inside R0409, no halls"
+R1925,court,,C,auto: small rectangle beside halls
+R1926,water,,B,"auto: wash +3.4, no halls"
+R1927,land,,C,default
+R1928,court,,C,auto: small rectangle beside halls
+R1929,land,,C,default
+R1930,water,,C,"auto: wash +1.2, no halls"
+R1931,land,,C,default
+R1932,land,,C,default
+R1933,land,,C,default
+R1934,land,,C,default
+R1935,land,,C,default
+R1936,land,,C,default
+R1937,water,,C,"auto: wash +1.3, no halls"
+R1938,land,,C,default
+R1939,land,,C,default
+R1940,land,,C,default
+R1941,land,,C,default
+R1942,land,,C,default
+R1943,water,,B,"auto: wash +2.5, no halls"
+R1944,land,,C,default
+R1945,land,,C,default
+R1946,court,,C,auto: small rectangle beside halls
+R1947,land,,C,default
+R1948,land,,C,default
+R1949,land,,C,default
+R1950,land,,C,default
+R1951,water,,B,"auto: wash -2.3, no halls"
+R1952,outside,,C,inner point outside the wall rings
+R1953,land,,C,default
+R1954,court,,C,auto: small rectangle beside halls
+R1955,land,,C,default
+R1956,outside,,C,inner point outside the wall rings
+R1957,land,,C,default
+R1958,court,,C,auto: small rectangle beside halls
+R1959,water,,C,"auto: wash +1.8, no halls"
+R1960,island,,C,auto: 62% of the outline faces water
+R1961,land,,C,default
+R1962,land,,C,default
+R1963,land,,C,default
+R1964,water,,C,"auto: wash +1.8, no halls"
+R1965,water,,C,"auto: wash +1.2, no halls"
+R1966,water,,B,"auto: wash -0.9, no halls"
+R1967,land,,C,default
+R1968,land,,C,default
+R1969,outside,,C,inner point outside the wall rings
+R1970,court,,C,auto: small rectangle beside halls
+R1971,water,,B,"auto: wash +3.5, no halls"
+R1972,water,,B,"auto: wash -1.5, no halls"
+R1973,land,,C,default
+R1974,land,,C,default
+R1975,land,,C,default
+R1976,water,,B,"auto: wash +2.2, no halls"
+R1977,outside,,C,inner point outside the wall rings
+R1978,hill,,C,"auto: closed lobed outline inside R0030, no halls"
+R1979,outside,,C,inner point outside the wall rings
+R1980,island,,C,auto: 100% of the outline faces water
+R1981,island,,C,auto: 100% of the outline faces water
+R1982,island,,C,auto: 90% of the outline faces water
+R1983,land,,C,default
+R1984,land,,C,default
+R1985,land,,C,default
+R1986,land,,C,default
+R1987,land,,C,default
+R1988,land,,C,default
+R1989,land,,C,default
+R1990,court,,C,auto: small rectangle beside halls
+R1991,land,,C,default
+R1992,outside,,C,inner point outside the wall rings
+R1993,land,,C,default
+R1994,court,,C,auto: small rectangle beside halls
+R1995,outside,,C,inner point outside the wall rings
+R1996,land,,C,default
+R1997,outside,,C,inner point outside the wall rings
+R1998,outside,,C,inner point outside the wall rings
+R1999,land,,C,default
+R2000,hill,,C,"auto: closed lobed outline inside R0050, no halls"
+R2001,island,,C,auto: 82% of the outline faces water
+R2002,land,,C,default
+R2003,land,,C,default
+R2004,hill,,C,"auto: closed lobed outline inside R0339, no halls"
+R2005,land,,C,default
+R2006,island,,C,auto: 69% of the outline faces water
+R2007,court,,C,auto: small rectangle beside halls
+R2008,land,,C,default
+R2009,court,,C,auto: small rectangle beside halls
+R2010,land,,C,default
+R2011,court,,C,auto: small rectangle beside halls
+R2012,island,,C,auto: 92% of the outline faces water
+R2013,court,,C,auto: small rectangle beside halls
+R2014,water,,B,"auto: wash +3.7, no halls"
+R2015,water,,B,"auto: wash -2.0, no halls"
+R2016,water,,B,"auto: wash +2.8, no halls"
+R2017,land,,C,default
+R2018,land,,C,default
+R2019,land,,C,default
+R2020,land,,C,default
+R2021,island,,C,auto: 68% of the outline faces water
+R2022,water,,B,"auto: wash +2.5, no halls"
+R2023,outside,,C,inner point outside the wall rings
+R2024,land,,C,default
+R2025,land,,C,default
+R2026,water,,B,"auto: wash -6.3, no halls"
+R2027,island,,C,auto: 100% of the outline faces water
+R2028,land,,C,default
+R2029,court,,C,auto: small rectangle beside halls
+R2030,court,,C,auto: small rectangle beside halls
+R2031,water,,C,"auto: wash +1.7, no halls"
+R2032,water,,C,"auto: wash +1.6, no halls"
+R2033,land,,C,default
+R2034,outside,,C,inner point outside the wall rings
+R2035,island,,C,auto: 67% of the outline faces water
+R2036,water,,C,"auto: wash +1.9, no halls"
+R2037,island,,C,auto: 87% of the outline faces water
+R2038,land,,C,default
+R2039,land,,C,default
+R2040,island,,C,auto: 88% of the outline faces water
+R2041,land,,C,default
+R2042,land,,C,default
+R2043,land,,C,default
+R2044,land,,C,default
+R2045,land,,C,default
+R2046,court,,C,auto: small rectangle beside halls
+R2047,court,,C,auto: small rectangle beside halls
+R2048,water,,C,"auto: wash +1.4, no halls"
+R2049,island,,C,auto: 100% of the outline faces water
+R2050,court,,C,auto: small rectangle beside halls
+R2051,land,,C,default
+R2052,land,,C,default
+R2053,land,,C,default
+R2054,land,,C,default
+R2055,land,,C,default
+R2056,court,,C,auto: small rectangle beside halls
+R2057,land,,C,default
+R2058,land,,C,default
+R2059,land,,C,default
+R2060,court,,C,auto: small rectangle beside halls
+R2061,land,,C,default
+R2062,court,,C,auto: small rectangle beside halls
+R2063,outside,,C,inner point outside the wall rings
+R2064,land,,C,default
+R2065,land,,C,default
+R2066,land,,C,default
+R2067,land,,C,default
+R2068,land,,C,default
+R2069,land,,C,default
+R2070,outside,,C,inner point outside the wall rings
+R2071,land,,C,default
+R2072,land,,C,default
+R2073,land,,C,default
+R2074,land,,C,default
+R2075,land,,C,default
+R2076,water,,C,"auto: wash +1.7, no halls"
+R2077,land,,C,default
+R2078,land,,C,default
+R2079,land,,C,default
+R2080,water,,C,"auto: wash +1.3, no halls"
+R2081,land,,C,default
+R2082,land,,C,default
+R2083,land,,C,default
+R2084,land,,C,default
+R2085,court,,C,auto: small rectangle beside halls
+R2086,land,,C,default
+R2087,land,,C,default
+R2088,land,,C,default
+R2089,water,,C,"auto: wash +1.9, no halls"
+R2090,outside,,C,inner point outside the wall rings
+R2091,court,,C,auto: small rectangle beside halls
+R2092,land,,C,default
+R2093,land,,C,default
+R2094,land,,C,default
+R2095,water,,C,"auto: wash +1.4, no halls"
+R2096,land,,C,default
+R2097,water,,C,"auto: wash +1.9, no halls"
+R2098,land,,C,default
+R2099,water,,B,"auto: wash +3.4, no halls"
+R2100,land,,C,default
+R2101,land,,C,default
+R2102,land,,C,default
+R2103,outside,,C,inner point outside the wall rings
+R2104,water,,C,"auto: wash +1.4, no halls"
+R2105,land,,C,default
+R2106,land,,C,default
+R2107,court,,C,auto: small rectangle beside halls
+R2108,water,,B,"auto: wash +2.2, no halls"
+R2109,water,,B,"auto: wash -1.5, no halls"
+R2110,court,,C,auto: small rectangle beside halls
+R2111,land,,C,default
+R2112,land,,C,default
+R2113,hill,,C,"auto: closed lobed outline inside R2236, no halls"
+R2114,island,,C,auto: 86% of the outline faces water
+R2115,land,,C,default
+R2116,land,,C,default
+R2117,land,,C,default
+R2118,court,,C,auto: small rectangle beside halls
+R2119,water,,C,"auto: wash +1.4, no halls"
+R2120,land,,C,default
+R2121,land,,C,default
+R2122,water,,B,"auto: wash +2.8, no halls"
+R2123,water,,C,"auto: wash +1.3, no halls"
+R2124,island,,C,auto: 100% of the outline faces water
+R2125,land,,C,default
+R2126,court,,C,auto: small rectangle beside halls
+R2127,water,,C,"auto: wash +2.0, no halls"
+R2128,land,,C,default
+R2129,land,,C,default
+R2130,outside,,C,inner point outside the wall rings
+R2131,land,,C,default
+R2132,outside,,C,inner point outside the wall rings
+R2133,outside,,C,inner point outside the wall rings
+R2134,land,,C,default
+R2135,land,,C,default
+R2136,land,,C,default
+R2137,land,,C,default
+R2138,land,,C,default
+R2139,land,,C,default
+R2140,land,,C,default
+R2141,land,,C,default
+R2142,court,,C,auto: small rectangle beside halls
+R2143,land,,C,default
+R2144,land,,C,default
+R2145,land,,C,default
+R2146,land,,C,default
+R2147,land,,C,default
+R2148,land,,C,default
+R2149,land,,C,default
+R2150,land,,C,default
+R2151,land,,C,default
+R2152,land,,C,default
+R2153,land,,C,default
+R2154,land,,C,default
+R2155,land,,C,default
+R2156,land,,C,default
+R2157,land,,C,default
+R2158,land,,C,default
+R2159,court,,C,auto: small rectangle beside halls
+R2160,land,,C,default
+R2161,land,,C,default
+R2162,land,,C,default
+R2163,land,,C,default
+R2164,court,,C,auto: small rectangle beside halls
+R2165,land,,C,default
+R2166,land,,C,default
+R2167,land,,C,default
+R2168,land,,C,default
+R2169,land,,C,default
+R2170,land,,C,default
+R2171,land,,C,default
+R2172,land,,C,default
+R2173,outside,,C,inner point outside the wall rings
+R2174,land,,C,default
+R2175,land,,C,default
+R2176,land,,C,default
+R2177,land,,C,default
+R2178,land,,C,default
+R2179,land,,C,default
+R2180,land,,C,default
+R2181,land,,C,default
+R2182,court,,C,auto: small rectangle beside halls
+R2183,land,,C,default
+R2184,land,,C,default
+R2185,land,,C,default
+R2186,land,,C,default
+R2187,land,,C,default
+R2188,land,,C,default
+R2189,land,,C,default
+R2190,land,,C,default
+R2191,land,,C,default
+R2192,court,,C,auto: small rectangle beside halls
+R2193,land,,C,default
+R2194,land,,C,default
+R2195,outside,,C,inner point outside the wall rings
+R2196,land,,C,default
+R2197,land,,C,default
+R2198,land,,C,default
+R2199,land,,C,default
+R2200,land,,C,default
+R2201,land,,C,default
+R2202,land,,C,default
+R2203,land,,C,default
+R2204,land,,C,default
+R2205,land,,C,default
+R2206,land,,C,default
+R2207,land,,C,default
+R2208,land,,C,default
+R2209,land,,C,default
+R2210,land,,C,default
+R2211,land,,C,default
+R2212,land,,C,default
+R2213,land,,C,default
+R2214,land,,C,default
+R2215,land,,C,default
+R2216,outside,,C,inner point outside the wall rings
+R2217,land,,C,default
+R2218,land,,C,default
+R2219,land,,C,default
+R2220,land,,C,default
+R2221,land,,C,default
+R2222,land,,C,default
+R2223,land,,C,default
+R2224,land,,C,default
+R2225,land,,C,default
+R2226,land,,C,default
+R2227,land,,C,default
+R2228,land,,C,default
+R2229,land,,C,default
+R2230,land,,C,default
+R2231,land,,C,default
+R2232,land,,C,default
+R2233,court,,C,auto: small rectangle beside halls
+R2234,land,,C,default
+R2235,land,,C,default
+R2236,land,,C,default
+R2237,land,,C,default
+R2238,land,,C,default
+R2239,land,,C,default
+R2240,land,,C,default
+R2241,land,,C,default
+R2242,court,,C,auto: small rectangle beside halls
+R2243,land,,C,default
+R2244,land,,C,default
+R2245,land,,C,default
+R2246,land,,C,default
+R2247,court,,C,auto: small rectangle beside halls
+R2248,land,,C,default
+R2249,court,,C,auto: small rectangle beside halls
+R2250,land,,C,default
+R2251,land,,C,default
+R2252,land,,C,default
+R2253,land,,C,default
+R2254,land,,C,default
+R2255,outside,,C,inner point outside the wall rings
+R2256,land,,C,default
+R2257,land,,C,default
+R2258,land,,C,default
+R2259,land,,C,default
+R2260,land,,C,default
+R2261,court,,C,auto: small rectangle beside halls
+R2262,land,,C,default
+R2263,land,,C,default
+R2264,land,,C,default
+R2265,land,,C,default
+R2266,land,,C,default
+R2267,land,,C,default
+R2268,court,,C,auto: small rectangle beside halls
+R2269,land,,C,default
+R2270,land,,C,default
+R2271,land,,C,default
+R2272,land,,C,default
+R2273,court,,C,auto: small rectangle beside halls
+R2274,land,,C,default
+R2275,land,,C,default
+R2276,land,,C,default
+R2277,land,,C,default
+R2278,land,,C,default
+R2279,land,,C,default
+R2280,land,,C,default
+R2281,court,,C,auto: small rectangle beside halls
+R2282,land,,C,default
+R2283,land,,C,default
+R2284,land,,C,default
+R2285,land,,C,default
+R2286,land,,C,default
+R2287,land,,C,default
+R2288,land,,C,default
+R2289,land,,C,default
+R2290,land,,C,default
+R2291,court,,C,auto: small rectangle beside halls
+R2292,land,,C,default
+R2293,land,,C,default
+R2294,land,,C,default
+R2295,land,,C,default
+R2296,land,,C,default
+R2297,outside,,C,inner point outside the wall rings
+R2298,court,,C,auto: small rectangle beside halls
+R2299,land,,C,default
+R2300,court,,C,auto: small rectangle beside halls
+R2301,outside,,C,inner point outside the wall rings
+R2302,land,,C,default
+R2303,land,,C,default
+R2304,land,,C,default
+R2305,land,,C,default
+R2306,court,,C,auto: small rectangle beside halls
+R2307,court,,C,auto: small rectangle beside halls
+R2308,land,,C,default
+R2309,land,,C,default
+R2310,court,,C,auto: small rectangle beside halls
+R2311,land,,C,default
+R2312,land,,C,default
+R2313,land,,C,default
+R2314,land,,C,default
+R2315,land,,C,default
+R2316,land,,C,default
+R2317,land,,C,default
+R2318,court,,C,auto: small rectangle beside halls
+R2319,court,,C,auto: small rectangle beside halls
+R2320,land,,C,default
+R2321,land,,C,default
+R2322,land,,C,default
+R2323,land,,C,default
+R2324,land,,C,default
+R2325,land,,C,default
+R2326,land,,C,default
+R2327,land,,C,default
+R2328,land,,C,default
+R2329,land,,C,default
+R2330,land,,C,default
+R2331,land,,C,default
+R2332,land,,C,default
+R2333,land,,C,default
+R2334,land,,C,default
+R2335,land,,C,default
+R2336,land,,C,default
+R2337,land,,C,default
+R2338,outside,,C,inner point outside the wall rings
+R2339,land,,C,default
+R2340,court,,C,auto: small rectangle beside halls
+R2341,land,,C,default
+R2342,court,,C,auto: small rectangle beside halls
+R2343,land,,C,default
+R2344,outside,,C,inner point outside the wall rings
+R2345,court,,C,auto: small rectangle beside halls
+R2346,land,,C,default
+R2347,land,,C,default
+R2348,land,,C,default
+R2349,land,,C,default
+R2350,land,,C,default
+R2351,outside,,C,inner point outside the wall rings
+R2352,land,,C,default
+R2353,land,,C,default
+R2354,land,,C,default
+R2355,land,,C,default
+R2356,land,,C,default
+R2357,land,,C,default
+R2358,land,,C,default
+R2359,land,,C,default
+R2360,land,,C,default
+R2361,land,,C,default
+R2362,land,,C,default
+R2363,land,,C,default
+R2364,land,,C,default
+R2365,court,,C,auto: small rectangle beside halls
+R2366,land,,C,default
+R2367,land,,C,default
+R2368,land,,C,default
+R2369,outside,,C,inner point outside the wall rings
+R2370,land,,C,default
+R2371,court,,C,auto: small rectangle beside halls
+R2372,land,,C,default
+R2373,land,,C,default
+R2374,land,,C,default
+R2375,land,,C,default
+R2376,land,,C,default
+R2377,land,,C,default
+R2378,court,,C,auto: small rectangle beside halls
+R2379,land,,C,default
+R2380,land,,C,default
+R2381,land,,C,default
+R2382,land,,C,default
+R2383,court,,C,auto: small rectangle beside halls
+R2384,land,,C,default
+R2385,land,,C,default
+R2386,land,,C,default
+R2387,land,,C,default
+R2388,court,,C,auto: small rectangle beside halls
+R2389,land,,C,default
+R2390,land,,C,default
+R2391,land,,C,default
+R2392,land,,C,default
+R2393,land,,C,default
+R2394,land,,C,default
+R2395,land,,C,default
+R2396,land,,C,default
+R2397,land,,C,default
+R2398,land,,C,default
+R2399,land,,C,default
+R2400,land,,C,default
+R2401,land,,C,default
+R2402,court,,C,auto: small rectangle beside halls
+R2403,land,,C,default
+R2404,land,,C,default
+R2405,court,,C,auto: small rectangle beside halls
+R2406,land,,C,default
+R2407,outside,,C,inner point outside the wall rings
+R2408,land,,C,default
+R2409,land,,C,default
+R2410,land,,C,default
+R2411,land,,C,default
+R2412,land,,C,default
+R2413,land,,C,default
+R2414,land,,C,default
+R2415,land,,C,default
+R2416,land,,C,default
+R2417,land,,C,default
+R2418,land,,C,default
+R2419,land,,C,default
+R2420,land,,C,default
+R2421,land,,C,default
+R2422,land,,C,default
+R2423,land,,C,default
+R2424,land,,C,default
+R2425,land,,C,default
+R2426,land,,C,default
+R2427,land,,C,default
+R2428,land,,C,default
+R2429,land,,C,default
+R2430,land,,C,default
+R2431,land,,C,default
+R2432,land,,C,default
+R2433,outside,,C,inner point outside the wall rings
+R2434,land,,C,default
+R2435,land,,C,default
+R2436,land,,C,default
+R2437,land,,C,default
+R2438,land,,C,default
+R2439,land,,C,default
+R2440,court,,C,auto: small rectangle beside halls
+R2441,outside,,C,inner point outside the wall rings
+R2442,outside,,C,inner point outside the wall rings
+R2443,land,,C,default
+R2444,land,,C,default
+R2445,land,,C,default
+R2446,land,,C,default
+R2447,land,,C,default
+R2448,land,,C,default
+R2449,land,,C,default
+R2450,land,,C,default
+R2451,land,,C,default
+R2452,court,,C,auto: small rectangle beside halls
+R2453,land,,C,default
+R2454,land,,C,default
+R2455,land,,C,default
+R2456,land,,C,default
+R2457,court,,C,auto: small rectangle beside halls
+R2458,land,,C,default
+R2459,land,,C,default
+R2460,land,,C,default
+R2461,land,,C,default
+R2462,land,,C,default
+R2463,court,,C,auto: small rectangle beside halls
+R2464,land,,C,default
+R2465,land,,C,default
+R2466,court,,C,auto: small rectangle beside halls
+R2467,land,,C,default
+R2468,land,,C,default
+R2469,land,,C,default
+R2470,land,,C,default
+R2471,land,,C,default
+R2472,land,,C,default
+R2473,court,,C,auto: small rectangle beside halls
+R2474,land,,C,default
+R2475,land,,C,default
+R2476,land,,C,default
+R2477,outside,,C,inner point outside the wall rings
+R2478,land,,C,default
+R2479,land,,C,default
+R2480,land,,C,default
+R2481,land,,C,default
+R2482,land,,C,default
+R2483,land,,C,default
+R2484,land,,C,default
+R2485,land,,C,default
+R2486,land,,C,default
+R2487,land,,C,default
+R2488,land,,C,default
+R2489,land,,C,default
+R2490,court,,C,auto: small rectangle beside halls
+R2491,land,,C,default
+R2492,outside,,C,inner point outside the wall rings
+R2493,land,,C,default
+R2494,land,,C,default
+R2495,land,,C,default
+R2496,land,,C,default
+R2497,outside,,C,inner point outside the wall rings
+R2498,land,,C,default
+R2499,court,,C,auto: small rectangle beside halls
+R2500,court,,C,auto: small rectangle beside halls
+R2501,land,,C,default
+R2502,land,,C,default
+R2503,court,,C,auto: small rectangle beside halls
+R2504,land,,C,default
+R2505,land,,C,default
+R2506,land,,C,default
+R2507,land,,C,default
+R2508,court,,C,auto: small rectangle beside halls
+R2509,land,,C,default
+R2510,land,,C,default
+R2511,land,,C,default
+R2512,land,,C,default
+R2513,land,,C,default
+R2514,land,,C,default
+R2515,land,,C,default
+R2516,court,,C,auto: small rectangle beside halls
+R2517,land,,C,default
+R2518,land,,C,default
+R2519,land,,C,default
+R2520,land,,C,default
+R2521,land,,C,default
+R2522,land,,C,default
+R2523,land,,C,default
+R2524,land,,C,default
+R2525,court,,C,auto: small rectangle beside halls
+R2526,land,,C,default
+R2527,land,,C,default
+R2528,land,,C,default
+R2529,court,,C,auto: small rectangle beside halls
+R2530,land,,C,default
+R2531,court,,C,auto: small rectangle beside halls
+R2532,land,,C,default
+R2533,land,,C,default
+R2534,court,,C,auto: small rectangle beside halls
+R2535,land,,C,default
+R2536,land,,C,default
+R2537,land,,C,default
+R2538,outside,,C,inner point outside the wall rings
+R2539,court,,C,auto: small rectangle beside halls
+R2540,land,,C,default
+R2541,land,,C,default
+R2542,land,,C,default
+R2543,land,,C,default
+R2544,land,,C,default
+R2545,land,,C,default
+R2546,land,,C,default
+R2547,land,,C,default
+R2548,land,,C,default
+R2549,land,,C,default
+R2550,land,,C,default
+R2551,land,,C,default
+R2552,court,,C,auto: small rectangle beside halls
+R2553,land,,C,default
+R2554,land,,C,default
+R2555,land,,C,default
+R2556,land,,C,default
+R2557,land,,C,default
+R2558,land,,C,default
+R2559,land,,C,default
+R2560,court,,C,auto: small rectangle beside halls
+R2561,land,,C,default
+R2562,land,,C,default
+R2563,land,,C,default
+R2564,land,,C,default
+R2565,court,,C,auto: small rectangle beside halls
+R2566,land,,C,default
+R2567,land,,C,default
+R2568,land,,C,default
+R2569,land,,C,default
+R2570,land,,C,default
+R2571,land,,C,default
+R2572,land,,C,default
+R2573,land,,C,default
+R2574,land,,C,default
+R2575,land,,C,default
+R2576,land,,C,default
+R2577,land,,C,default
+R2578,court,,C,auto: small rectangle beside halls
+R2579,land,,C,default
+R2580,land,,C,default
+R2581,land,,C,default
+R2582,court,,C,auto: small rectangle beside halls
+R2583,court,,C,auto: small rectangle beside halls
+R2584,land,,C,default
+R2585,land,,C,default
+R2586,land,,C,default
+R2587,court,,C,auto: small rectangle beside halls
+R2588,land,,C,default
+R2589,land,,C,default
+R2590,court,,C,auto: small rectangle beside halls
+R2591,land,,C,default
+R2592,land,,C,default
+R2593,land,,C,default
+R2594,land,,C,default
+R2595,land,,C,default
+R2596,land,,C,default
+R2597,land,,C,default
+R2598,land,,C,default
+R2599,land,,C,default
+R2600,outside,,C,inner point outside the wall rings
+R2601,court,,C,auto: small rectangle beside halls
+R2602,land,,C,default
+R2603,land,,C,default
+R2604,land,,C,default
+R2605,land,,C,default
+R2606,land,,C,default
+R2607,land,,C,default
+R2608,land,,C,default
+R2609,land,,C,default
+R2610,land,,C,default
+R2611,land,,C,default
+R2612,land,,C,default
+R2613,land,,C,default
+R2614,land,,C,default
+R2615,land,,C,default
+R2616,land,,C,default
+R2617,land,,C,default
+R2618,court,,C,auto: small rectangle beside halls
+R2619,land,,C,default
+R2620,land,,C,default
+R2621,land,,C,default
+R2622,land,,C,default
+R2623,land,,C,default
+R2624,land,,C,default
+R2625,land,,C,default
+R2626,land,,C,default
+R2627,land,,C,default
+R2628,land,,C,default
+R2629,land,,C,default
+R2630,land,,C,default
+R2631,court,,C,auto: small rectangle beside halls
+R2632,land,,C,default
+R2633,court,,C,auto: small rectangle beside halls
+R2634,land,,C,default
+R2635,land,,C,default
+R2636,land,,C,default
+R2637,land,,C,default
+R2638,land,,C,default
+R2639,land,,C,default
+R2640,land,,C,default
+R2641,court,,C,auto: small rectangle beside halls
+R2642,land,,C,default
+R2643,land,,C,default
+R2644,land,,C,default
+R2645,land,,C,default
+R2646,land,,C,default
+R2647,land,,C,default
+R2648,land,,C,default
+R2649,land,,C,default
+R2650,land,,C,default
+R2651,land,,C,default
+R2652,land,,C,default
+R2653,land,,C,default
+R2654,land,,C,default
+R2655,land,,C,default
+R2656,land,,C,default
+R2657,land,,C,default
+R2658,land,,C,default
+R2659,land,,C,default
+R2660,land,,C,default
+R2661,land,,C,default
+R2662,land,,C,default
+R2663,land,,C,default
+R2664,court,,C,auto: small rectangle beside halls
+R2665,land,,C,default
+R2666,outside,,C,inner point outside the wall rings
+R2667,land,,C,default
+R2668,land,,C,default
+R2669,land,,C,default
+R2670,outside,,C,inner point outside the wall rings
+R2671,land,,C,default
+R2672,land,,C,default
+R2673,land,,C,default
+R2674,outside,,C,inner point outside the wall rings
+R2675,land,,C,default
+R2676,court,,C,auto: small rectangle beside halls
+R2677,land,,C,default
+R2678,land,,C,default
+R2679,land,,C,default
+R2680,outside,,C,inner point outside the wall rings
+R2681,land,,C,default
+R2682,land,,C,default
+R2683,land,,C,default
+R2684,land,,C,default
+R2685,land,,C,default
+R2686,land,,C,default
+R2687,land,,C,default
+R2688,land,,C,default
+R2689,court,,C,auto: small rectangle beside halls
+R2690,land,,C,default
+R2691,land,,C,default
+R2692,land,,C,default
+R2693,land,,C,default
+R2694,land,,C,default
+R2695,land,,C,default
+R2696,land,,C,default
+R2697,land,,C,default
+R2698,land,,C,default
+R2699,land,,C,default
+R2700,land,,C,default
+R2701,court,,C,auto: small rectangle beside halls
+R2702,land,,C,default
+R2703,land,,C,default
+R2704,land,,C,default
+R2705,land,,C,default
+R2706,land,,C,default
+R2707,land,,C,default
+R2708,court,,C,auto: small rectangle beside halls
+R2709,land,,C,default
+R2710,land,,C,default
+R2711,land,,C,default
+R2712,land,,C,default
+R2713,land,,C,default
+R2714,land,,C,default
+R2715,land,,C,default
+R2716,land,,C,default
+R2717,land,,C,default
+R2718,outside,,C,inner point outside the wall rings
+R2719,land,,C,default
+R2720,land,,C,default
+R2721,court,,C,auto: small rectangle beside halls
+R2722,land,,C,default
+R2723,land,,C,default
+R2724,court,,C,auto: small rectangle beside halls
+R2725,land,,C,default
+R2726,land,,C,default
+R2727,land,,C,default
+R2728,court,,C,auto: small rectangle beside halls
+R2729,land,,C,default
+R2730,land,,C,default
+R2731,land,,C,default
+R2732,land,,C,default
+R2733,land,,C,default
+R2734,land,,C,default
+R2735,land,,C,default
+R2736,court,,C,auto: small rectangle beside halls
+R2737,land,,C,default
+R2738,land,,C,default
+R2739,land,,C,default
+R2740,land,,C,default
+R2741,court,,C,auto: small rectangle beside halls
+R2742,land,,C,default
+R2743,land,,C,default
+R2744,land,,C,default
+R2745,court,,C,auto: small rectangle beside halls
+R2746,outside,,C,inner point outside the wall rings
+R2747,land,,C,default
+R2748,court,,C,auto: small rectangle beside halls
+R2749,land,,C,default
+R2750,court,,C,auto: small rectangle beside halls
+R2751,land,,C,default
+R2752,land,,C,default
+R2753,land,,C,default
+R2754,land,,C,default
+R2755,land,,C,default
+R2756,land,,C,default
+R2757,land,,C,default
+R2758,land,,C,default
+R2759,land,,C,default
+R2760,outside,,C,inner point outside the wall rings
+R2761,land,,C,default
+R2762,land,,C,default
+R2763,land,,C,default
+R2764,land,,C,default
+R2765,land,,C,default
+R2766,court,,C,auto: small rectangle beside halls
+R2767,land,,C,default
+R2768,land,,C,default
+R2769,land,,C,default
+R2770,land,,C,default
+R2771,court,,C,auto: small rectangle beside halls
+R2772,land,,C,default
+R2773,land,,C,default
+R2774,land,,C,default
+R2775,land,,C,default
+R2776,land,,C,default
+R2777,land,,C,default
+R2778,land,,C,default
+R2779,land,,C,default
+R2780,land,,C,default
+R2781,land,,C,default
+R2782,land,,C,default
+R2783,land,,C,default
+R2784,land,,C,default
+R2785,land,,C,default
+R2786,outside,,C,inner point outside the wall rings
+R2787,court,,C,auto: small rectangle beside halls
+R2788,land,,C,default
+R2789,land,,C,default
+R2790,court,,C,auto: small rectangle beside halls
+R2791,land,,C,default
+R2792,court,,C,auto: small rectangle beside halls
+R2793,land,,C,default
+R2794,land,,C,default
+R2795,land,,C,default
+R2796,land,,C,default
+R2797,land,,C,default
+R2798,land,,C,default
+R2799,land,,C,default
+R2800,land,,C,default
+R2801,land,,C,default
+R2802,court,,C,auto: small rectangle beside halls
+R2803,land,,C,default
+R2804,land,,C,default
+R2805,court,,C,auto: small rectangle beside halls
+R2806,land,,C,default
+R2807,land,,C,default
+R2808,land,,C,default
+R2809,court,,C,auto: small rectangle beside halls
+R2810,land,,C,default
+R2811,land,,C,default
+R2812,land,,C,default
+R2813,land,,C,default
+R2814,land,,C,default
+R2815,land,,C,default
+R2816,land,,C,default
+R2817,court,,C,auto: small rectangle beside halls
+R2818,land,,C,default
+R2819,court,,C,auto: small rectangle beside halls
+R2820,outside,,C,inner point outside the wall rings
+R2821,land,,C,default
+R2822,land,,C,default
+R2823,land,,C,default
+R2824,land,,C,default
+R2825,land,,C,default
+R2826,land,,C,default
+R2827,land,,C,default
+R2828,outside,,C,inner point outside the wall rings
+R2829,land,,C,default
+R2830,land,,C,default
+R2831,land,,C,default
+R2832,land,,C,default
+R2833,land,,C,default
+R2834,land,,C,default
+R2835,land,,C,default
+R2836,land,,C,default
+R2837,land,,C,default
+R2838,land,,C,default
+R2839,land,,C,default
+R2840,land,,C,default
+R2841,land,,C,default
+R2842,land,,C,default
+R2843,land,,C,default
+R2844,court,,C,auto: small rectangle beside halls
+R2845,land,,C,default
+R2846,land,,C,default
+R2847,court,,C,auto: small rectangle beside halls
+R2848,court,,C,auto: small rectangle beside halls
+R2849,land,,C,default
+R2850,land,,C,default
+R2851,land,,C,default
+R2852,land,,C,default
+R2853,court,,C,auto: small rectangle beside halls
+R2854,land,,C,default
+R2855,court,,C,auto: small rectangle beside halls
+R2856,court,,C,auto: small rectangle beside halls
+R2857,land,,C,default
+R2858,land,,C,default
+R2859,outside,,C,inner point outside the wall rings
+R2860,land,,C,default
+R2861,court,,C,auto: small rectangle beside halls
+R2862,land,,C,default
+R2863,land,,C,default
+R2864,land,,C,default
+R2865,court,,C,auto: small rectangle beside halls
+R2866,land,,C,default
+R2867,land,,C,default
+R2868,land,,C,default
+R2869,land,,C,default
+R2870,land,,C,default
+R2871,land,,C,default
+R2872,land,,C,default
+R2873,land,,C,default
+R2874,land,,C,default
+R2875,land,,C,default
+R2876,land,,C,default
+R2877,land,,C,default
+R2878,land,,C,default
+R2879,court,,C,auto: small rectangle beside halls
+R2880,land,,C,default
+R2881,outside,,C,inner point outside the wall rings
+R2882,land,,C,default
+R2883,outside,,C,inner point outside the wall rings
+R2884,land,,C,default
+R2885,land,,C,default
+R2886,land,,C,default
+R2887,land,,C,default
+R2888,land,,C,default
+R2889,land,,C,default
+R2890,court,,C,auto: small rectangle beside halls
+R2891,land,,C,default
+R2892,outside,,C,inner point outside the wall rings
+R2893,land,,C,default
+R2894,court,,C,auto: small rectangle beside halls
+R2895,land,,C,default
+R2896,land,,C,default
+R2897,land,,C,default
+R2898,land,,C,default
+R2899,land,,C,default
+R2900,land,,C,default
+R2901,land,,C,default
+R2902,land,,C,default
+R2903,land,,C,default
+R2904,land,,C,default
+R2905,land,,C,default
+R2906,court,,C,auto: small rectangle beside halls
+R2907,court,,C,auto: small rectangle beside halls
+R2908,land,,C,default
+R2909,court,,C,auto: small rectangle beside halls
+R2910,land,,C,default
+R2911,court,,C,auto: small rectangle beside halls
+R2912,land,,C,default
+R2913,land,,C,default
+R2914,land,,C,default
+R2915,land,,C,default
+R2916,land,,C,default
+R2917,land,,C,default
+R2918,court,,C,auto: small rectangle beside halls
+R2919,land,,C,default
+R2920,land,,C,default
+R2921,court,,C,auto: small rectangle beside halls
+R2922,land,,C,default
+R2923,land,,C,default
+R2924,land,,C,default
+R2925,land,,C,default
+R2926,land,,C,default
+R2927,land,,C,default
+R2928,land,,C,default
+R2929,land,,C,default
+R2930,land,,C,default
+R2931,land,,C,default
+R2932,land,,C,default
+R2933,land,,C,default
+R2934,court,,C,auto: small rectangle beside halls
+R2935,outside,,C,inner point outside the wall rings
+R2936,land,,C,default
+R2937,land,,C,default
+R2938,outside,,C,inner point outside the wall rings
+R2939,outside,,C,inner point outside the wall rings
+R2940,land,,C,default
+R2941,land,,C,default
+R2942,land,,C,default
+R2943,court,,C,auto: small rectangle beside halls
+R2944,court,,C,auto: small rectangle beside halls
+R2945,land,,C,default
+R2946,land,,C,default
+R2947,land,,C,default
+R2948,land,,C,default
+R2949,land,,C,default
+R2950,land,,C,default
+R2951,land,,C,default
+R2952,land,,C,default
+R2953,court,,C,auto: small rectangle beside halls
+R2954,land,,C,default
+R2955,land,,C,default
+R2956,outside,,C,inner point outside the wall rings
+R2957,land,,C,default
+R2958,land,,C,default
+R2959,land,,C,default
+R2960,land,,C,default
+R2961,land,,C,default
+R2962,court,,C,auto: small rectangle beside halls
+R2963,land,,C,default
+R2964,land,,C,default
+R2965,land,,C,default
+R2966,land,,C,default
+R2967,land,,C,default
+R2968,land,,C,default
+R2969,land,,C,default
+R2970,court,,C,auto: small rectangle beside halls
+R2971,land,,C,default
+R2972,court,,C,auto: small rectangle beside halls
+R2973,land,,C,default
+R2974,land,,C,default
+R2975,land,,C,default
+R2976,land,,C,default
+R2977,outside,,C,inner point outside the wall rings
+R2978,land,,C,default
+R2979,land,,C,default
+R2980,land,,C,default
+R2981,land,,C,default
+R2982,land,,C,default
+R2983,court,,C,auto: small rectangle beside halls
+R2984,land,,C,default
+R2985,land,,C,default
+R2986,court,,C,auto: small rectangle beside halls
+R2987,land,,C,default
+R2988,land,,C,default
+R2989,land,,C,default
+R2990,land,,C,default
+R2991,land,,C,default
+R2992,land,,C,default
+R2993,land,,C,default
+R2994,land,,C,default
+R2995,land,,C,default
+R2996,land,,C,default
+R2997,land,,C,default
+R2998,land,,C,default
+R2999,land,,C,default
+R3000,court,,C,auto: small rectangle beside halls
+R3001,land,,C,default
+R3002,land,,C,default
+R3003,land,,C,default
+R3004,land,,C,default
+R3005,land,,C,default
+R3006,land,,C,default
+R3007,court,,C,auto: small rectangle beside halls
+R3008,land,,C,default
+R3009,land,,C,default
+R3010,land,,C,default
+R3011,land,,C,default
+R3012,land,,C,default
+R3013,land,,C,default
+R3014,land,,C,default
+R3015,court,,C,auto: small rectangle beside halls
+R3016,outside,,C,inner point outside the wall rings
+R3017,land,,C,default
+R3018,land,,C,default
+R3019,land,,C,default
+R3020,land,,C,default
+R3021,land,,C,default
+R3022,land,,C,default
+R3023,land,,C,default
+R3024,land,,C,default
+R3025,land,,C,default
+R3026,land,,C,default
+R3027,land,,C,default
+R3028,land,,C,default
+R3029,land,,C,default
+R3030,land,,C,default
+R3031,land,,C,default
+R3032,land,,C,default
+R3033,land,,C,default
+R3034,land,,C,default
+R3035,land,,C,default
+R3036,land,,C,default
+R3037,land,,C,default
+R3038,land,,C,default
+R3039,land,,C,default
+R3040,land,,C,default
+R3041,land,,C,default
+R3042,land,,C,default
+R3043,court,,C,auto: small rectangle beside halls
+R3044,land,,C,default
+R3045,court,,C,auto: small rectangle beside halls
+R3046,land,,C,default
+R3047,land,,C,default
+R3048,land,,C,default
+R3049,outside,,C,inner point outside the wall rings
+R3050,land,,C,default
+R3051,land,,C,default
+R3052,outside,,C,inner point outside the wall rings
+R3053,court,,C,auto: small rectangle beside halls
+R3054,land,,C,default
+R3055,land,,C,default
+R3056,land,,C,default
+R3057,court,,C,auto: small rectangle beside halls
+R3058,court,,C,auto: small rectangle beside halls
+R3059,land,,C,default
+R3060,outside,,C,inner point outside the wall rings
+R3061,outside,,C,inner point outside the wall rings
+R3062,outside,,C,inner point outside the wall rings
+R3063,land,,C,default
+R3064,land,,C,default
+R3065,outside,,C,inner point outside the wall rings
+R3066,court,,C,auto: small rectangle beside halls
+R3067,land,,C,default
+R3068,land,,C,default
+R3069,outside,,C,inner point outside the wall rings
+R3070,land,,C,default
+R3071,land,,C,default
+R3072,land,,C,default
+R3073,land,,C,default
+R3074,land,,C,default
+R3075,land,,C,default
+R3076,outside,,C,inner point outside the wall rings
+R3077,land,,C,default
+R3078,land,,C,default
+R3079,land,,C,default

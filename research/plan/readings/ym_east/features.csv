@@ -1,0 +1,30 @@
+kind,id,name_on_plan,read,x1,y1,x2,y2,region_id,note
+bridge,,双桥,sure,4612,2635,4612,2740,,Over the canal on the granite road; drawn as a ladder. Text: 双桥.
+bridge,,,likely,4605,4180,4925,4180,,"九孔桥 of 曲院风荷 (YM39-03); plain bar, no label."
+bridge,,夹镜鸣琴,sure,6650,4205,6783,4205,,"Pavilion bridge, south shore of 福海."
+bridge,,溪山?画,likely,5543,3125,5543,3225,,Bridge pavilion B0579 in the lake.
+bridge,,涌金桥,sure,7742,1140,7742,1198,,Block B0199. Label just east.
+bridge,,,likely,5185,1655,5240,1655,,"规月桥 of 廓然大公 candidate (YM37-03), by the gate line."
+bridge,,,sure,7950,4270,7990,4392,,Covered bridge B0762 at 别有洞天.
+bridge,,,sure,6800,2820,6860,2860,,蓬岛瑶台: main island to north island.
+bridge,,,sure,7110,3080,7140,3070,,蓬岛瑶台: main island to east island.
+bridge,,,likely,7880,1750,7940,1750,,Narrow opening between 福海 and the lake of 方壶胜境 (Malone).
+bridge,,,likely,6260,1345,6280,1345,,Between 安澜园 and 平湖秋月.
+bridge,,,likely,5835,1870,5880,1870,,Between 廓然大公 hill and 平湖秋月.
+bridge,,,likely,6480,1635,6545,1635,,North shore of 福海.
+bridge,,,likely,7520,4190,7560,4190,,"South-east shore, text: 又东度桥为西山入画."
+bridge,,,likely,8160,2775,8190,2790,,"South of 雷峰夕照. S111: 三孔板桥, later 石墩砖拱桥."
+bridge,,?澜渡,likely,5380,3370,5380,3420,,"Label (5380,3400) round a small walled gate piece between the two islands of YM30. First character like 宁 or 安. Probably text 度河桥."
+gate,G18,秀清村门,likely,8050,4620,,,,"Update to G18: second character cursive 清, text has 秀清村."
+gate,G17,?楼门,likely,5260,4855,,,,G17 is text 东楼门 by position; first character still unread.
+gate,G15,,likely,8537,2670,,,,G15 is 明春门 by S111.
+gate,,蕊珠宫门,sure,8520,935,,,,Not in gates.json. Label east of the wall. Text YM42-10.
+gate,,,guess,8512,722,,,,"Gap in the east wall, water both sides: 一空出水闸 (YM43-03)."
+gate,,,likely,5275,4426,,,,X-marked square on the road at 春和镇: the 城关 of text 宁和镇?
+gate,,,likely,7566,692,,,,"Tower B0067 on the wall line x 7540, over the water: water gate. No label."
+water_fix,,,sure,,,,,R0018,"Class land, should be water: lake of 方壶胜境 with the dock basins, pavilions stand in it; Malone. Connects to 福海 by the opening at (7910,1750)."
+water_fix,,,sure,,,,,R0055,"Class land, should be water: lake north of 方壶胜境, 天宇空明 on its north shore; Malone."
+water_fix,,,likely,,,,,R0432,"Class land, should be water: lake of 安澜园, polygon pavilion and rocks on its shore."
+water_fix,,,likely,,,,,R0338,"Class land, should be water: slot dock south of 蕊珠宫 (YM29-07) and its bay."
+water_name,,福海,sure,,,,,R0002,"Label (6990,3210)."
+water_name,,三潭印月,sure,,,,,R0856,"Label (7470,1030), round lake with 3 small circles."

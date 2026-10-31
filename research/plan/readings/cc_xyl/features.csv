@@ -1,0 +1,34 @@
+kind,id,name_on_plan,read,x1,y1,x2,y2,region_id,note
+slip,,,,9618,980,9760,1257,,"Pasted slip with the 海晏堂 west stairs and pool, drawn in a denser hand; edges visible."
+bridge,,,,9396,1020,9396,1050,,Gap in the curved moat strip south of 方外观: Malone's carved marble bridge.
+gate,,(no label),,8875,925,,,,"花园门, see XY03; not in gates.json."
+gate,,(no label),,9088,1103,,,,Passage through 养雀笼 in the N-S wall.
+gate,,(no label),,11057,1117,,,,"线法山门, wall gap."
+gate,,(no label),,10823,1120,,,,Wall gap west of 线法山.
+gate,,(no label),,11314,1120,,,,"Wall gap east of 线法山, towards 螺蛳牌楼."
+gate,,(no label),,10471,1279,,,,Small gate in south wall of 观水法 court.
+gate,,(no label),,10643,1279,,,,Small gate in south wall of 观水法 court.
+water_name,,(no label),,8700,975,,,,"Curved wash pool north of 蓄水楼, x 8682-8721, y 925-1025. Likely supply tank."
+hill,,(no label),,8883,303,,,,"Hill north of the maze, about 330 x 170 px."
+gate,,(no label),,10348,1548,,,,"城关 between 宝相寺 and 翠交轩: hatched block, see CC10-N01."
+bridge,,(no label),,9060,3330,9000,3330,,"Long straight causeway from the land to the west shore at (9000-9080,3330). Label ?幄 near its west end at (8994,3361)."
+bridge,,(no label),,9823,1890,9855,1980,,"Zig-zag bridge at the south-east of 法慧寺, into the land strip."
+bridge,,(no label),,12478,1590,12478,1695,,Wide hourglass bridge over the moat at gate G20.
+bridge,,(no label),,12681,1600,12681,1680,,Second hourglass bridge outside G20.
+gate,,五孔闸,sure,8688,1740,,,,"Label 五孔閘 with 3 diamond piers at x=8688, y 1695-1790. West outlet of the 谐奇趣 lake."
+water_name,,谐奇趣,sure,8880,1760,,,,Label written on the lake south of the building.
+water_name,,流香渚,sure,9070,2700,,,,"Label on the big lake east of the pavilion: pavilion name, not necessarily the lake."
+water_name,,静便趣,likely,9480,4020,,,R0019,Label on the bay south of 思永斋; names hall B0711 not the water.
+bridge,,(no label),,11408,3740,11416,3860,,Zig-zag bridge south from 玉玲珑馆; label beside it.
+gate,,(no label),,10381,3588,,,,West 坊楔 of the 含经堂 forecourt.
+gate,,(no label),,10581,3734,,,,South 坊楔.
+gate,,(no label),,10769,3588,,,,East 坊楔 (B0669).
+gate,,(no label),,11033,4794,,,,Inner gate of 澹怀堂.
+bridge,,(no label),,12576,3155,12576,3210,,护河石桥 at 大东门.
+bridge,长桥?,(no label),likely,10860,4075,10860,4335,,"Long straight N-S crossing, see CC01-07."
+gate,,?园门,likely,9645,4722,,,,G22 in gates.json reads 绮园门: at 4x zoom first char is 艹 over 青-like: not 绮. See CC03-01.
+water_name,,翠交轩,sure,10548,1990,,,R0009,Label on the water; names the hall on the hill to its north.
+water_name,,海岳开襟,sure,9470,2950,,,R0008,Label on the lake south of the terrace.
+water_name,,方河 (no label),,11890,1125,,,R0070,
+hill_name,,小香幢,sure,12090,1370,,,,Label on the closed land north of 清閟阁; region not looked up.
+slip,,,,9408,2990,,,,"Not a slip: grey pencil 嶽 next to the second char of the 海岳开襟 label at (9408,2990), a later correction in another hand. Coordinates x1,y1 = label."
