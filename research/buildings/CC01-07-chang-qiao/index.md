@@ -44,6 +44,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 澹怀堂: see CC01
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
 
 ## Open questions
 

@@ -51,11 +51,18 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 广育宫, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, sure): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 夹镜鸣琴 (no picture of this hall found): see YM35
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

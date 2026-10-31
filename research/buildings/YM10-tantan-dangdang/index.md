@@ -73,7 +73,7 @@ The Tank (Tranquil and Vast) · Yuanming Yuan
   ![P0377](../../photos/images/P0377.jpg)
 
 
-## Texts and drawings (32)
+## Texts and drawings (31)
 
 - **E1317** (poem, sure): 御製坦坦蕩蕩詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:3a-3b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製坦坦蕩蕩詩 鑿池為魚樂國池周舍下錦鱗數千頭喁唼撥刺于荇風藻雨間囘環泳游悠然自得詩云衆維魚矣我知魚樂我蒿目乎斯民 鑿池觀魚樂坦坦復蕩蕩泳游同一適奚必江湖想却笑䝉莊癡爾我辨是非有問如何答魚樂魚自知
@@ -156,10 +156,23 @@ The Tank (Tranquil and Vast) · Yuanming Yuan
   Plan of Banmu Yuan; shelf 024 is the Tantan Dangdang shelf, so the tie to that scene is an inference from the number. No image here; the site may ask a small payment for the full record.
 - **E1339** (archaeology, sure): 修复1860: 坦坦荡荡 绣墩, 思永斋 tiles. 2019 · news, 陈辉 · S334. https://news.ifeng.com/c/7ma60W4GZjB
   The restoration project for excavated sherds (about 100,000 pieces of porcelain) chose objects with known find spots: a blue-and-white porcelain stool from 坦坦荡荡 Tantan Dangdang, known locally as 金鱼池 the goldfish pond, and blue-and-white tiles from 思永斋 Siyong Zhai.
-- **E1340** (reconstruction, sure, search index only): 再现·圆明园——坦坦荡荡, 贺艳, 紫禁城 2012(10). 2012 · mhymy qklw 9571 · S341. https://www.mhymy.com/xsjl/qklw/9571.html
-  贺艳: west shore of 后湖, north of 茹古涵今, south of 杏花春馆, using the painted views of 1739 as a key source.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 坦坦荡荡. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0051** (3D model, sure): Laser scanning and virtual fitting of the 西洋楼 stones; 碧澜桥 repaired. 肖金亮, 郭黛姮 and team, 北京清华同衡规划设计研究院 建筑与城市遗产研究所. https://www.tsinghua.edu.cn/info/1182/46587.htm Research-only: link card.
+- **R0041** (paper figure, sure, search index only): 再现·圆明园——坦坦荡荡. 贺艳 (清华大学, as the extract states), 清华大学, 2012. https://www.mhymy.com/xsjl/qklw/9571.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T010** 濠濮间 Haopu Jian, 北海 Beihai. Comparable: same court, era or type, confidence C, standing: yes. Small enclosed pool, bridge and pavilion on a Zhuangzi theme Basis: S05 j.81 f.2b: 坦坦荡荡 is a pond for watching fish, with 知鱼亭; the poem turns on knowing the joy of fish. S422: 濠濮间, a small waterside pavilion with a winding bridge, shut off by rocks; S431 (snippet): 1759. The shared Zhuangzi reference to fish is my reading: S422 gives it for 知乐濠 at Xiangshan. https://zh.wikipedia.org/wiki/北海公园
+  - P0585: 濠濮间 1. https://commons.wikimedia.org/wiki/File:%E6%BF%A0%E6%BF%AE%E9%97%B4_1.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

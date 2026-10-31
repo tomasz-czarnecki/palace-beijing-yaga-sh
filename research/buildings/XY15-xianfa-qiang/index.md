@@ -60,6 +60,25 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 线法画. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0182** (paper figure, sure, search index only): The Qianlong Emperor's Western Vistas: Linear Perspective and Trompe l'Oeil Illusion in the European Palaces of the Yuanming Yuan. John R. Finlay, Bulletin de l'Ecole francaise d'Extreme-Orient, 2007. https://doi.org/10.3406/befeo.2007.6068 Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T097** 倦勤斋 通景画 及 小戏台 Juanqin Zhai trompe l'oeil theatre, Qianlong Garden, 宁寿宫花园 Forbidden City. Same design family, confidence B, standing: yes. How 线法 looked when it survives: painted wings, single vanishing point, an illusion of distance Basis: S412 p.38, pp.44-45: both are retirement-garden stages in the far corner of their gardens, perspective by the Jesuits or their Chinese students; Juanqin looks on a painted landscape. S412 p.43: Nian Xiyao's 视学 closely follows Pozzo. S415 p.101: Pozzo as Castiglione's master by his own words. https://mar.mcgill.ca/article/view/19/15
+- **T096** Pozzo, Gesù altar of St Ignatius Altar of St Ignatius, Il Gesù, Rome. Comparable: same court, era or type, confidence B, standing: yes. Panel count at XY15, rail pattern at XY06/XY08 Basis: S412 p.43: Pozzo's altar scheme in six painted panels and his treatise; six panels at our stage; Pozzo's book stood in the Jesuit library in Beijing. S415 p.120 uses the same altar's rail as a common source for balustrades here and in Vienna. https://mar.mcgill.ca/article/view/19/15
+  - P0677: Chapel S. Ignazio Gesu Rome. https://commons.wikimedia.org/wiki/File:Chapel_S._Ignazio_Gesu_Rome.jpg
+  - P0678: Altar St Ignatius Pozzo. https://commons.wikimedia.org/wiki/File:Altar_St_Ignatius_Pozzo.jpg
+- **T098** 阿拉里奥别墅 花园剧场 Open-air theatre, Villa Alario, Cernusco sul Naviglio, Italy. Comparable: same court, era or type, confidence B, standing: partly. Canal before a stage of wings Basis: S415 p.100: Droguet finds an analogy in Dal Re's 1743 print of canal and stage set; Rabreau: ours is otherwise «à aucune source connue». Malone (S02 p.159): walls set like the wings of a stage. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0679: Villa Alari seen from Naviglio Martesana, Cernusco sul Naviglio, Italy. https://commons.wikimedia.org/wiki/File:Villa_Alari_seen_from_Naviglio_Martesana,_Cernusco_sul_Naviglio,_Italy.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+
 ## Open questions
 
 - Q16: 海晏堂's east half and the plan's working names

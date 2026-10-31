@@ -122,11 +122,40 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 文源阁. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0154** (paper figure, likely): Fig. 12, More than 1500 3D rocks to simulate the piling up of artificial hills. Y. He, Y. H. Ma, X. R. Zhang, Tsinghua Heritage Institute for Digitization, 2017. https://isprs-archives.copernicus.org/articles/XLII-2-W5/335/2017/
+- **R0109** (paper figure, sure): Fig. 15, Virtual restoration model of the 玲峰 Lingfeng stone. Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Zhiguo Zhang, Xinchen Li, Cuiyu Ouyang, Ruipeng Lin, Ke Qin, China Agricultural University; Yuanmingyuan Management Office; others, 2025. https://www.nature.com/articles/s40494-025-01698-8#Fig15 Research-only: link card.
+- **R0110** (paper figure, sure): Fig. 13, Virtual restoration model after supplementing the overall form. Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Zhiguo Zhang, Xinchen Li, Cuiyu Ouyang, Ruipeng Lin, Ke Qin, China Agricultural University; Yuanmingyuan Management Office; others, 2025. https://www.nature.com/articles/s40494-025-01698-8#Fig13 Research-only: link card.
+- **R0266** (video, guess): 爆肝20亿 token，只想带你走进一次圆明园. 策殊丶, 2026. https://www.bilibili.com/video/BV1xQYc6AEao Research-only: link card.
+
+## Surviving comparable buildings, not this building (7)
+
+- **T054** 天一阁 Tianyi Ge (Pavilion of Heaven and One), 宁波 Ningbo, 浙江. Ours was copied from it, confidence A, standing: yes. A library of one row named from 天一生水, two storeys, pond before it (S422) Basis: S05 j.81 f.37b: Qianlong's poem on 文源阁, 乾隆四十一年, opens 「天一取阁式」, the pavilion form was taken from Tianyi Ge; his 文源阁记 on the same folio goes back to 天一之阁 too. https://github.com/kanripo/KR2k0036
+  - P0548: 天一阁. https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E4%B8%80%E9%98%81.jpg
+  - P0549: Ningbo Tianyige 2013.07.28 09-23-22. https://commons.wikimedia.org/wiki/File:Ningbo_Tianyige_2013.07.28_09-23-22.jpg
+- **T055** 文津阁 Wenjin Ge, 避暑山庄 Chengde Mountain Resort, 河北. Sister: built together, same design, confidence A, standing: yes. Closest surviving: one sister in an imperial garden: rockery before the pond, 月台, two-storey six-bay form Basis: S05 j.81 f.37b: same poem 「文津实先构」「此即肖文津」: Wenjin was built first and Wenyuan resembles it, down to the rock pile and the moon terrace 月台; only Wenjin has the Western hills in view. https://github.com/kanripo/KR2k0036
+  - P0550: 避暑山庄文津阁 1. https://commons.wikimedia.org/wiki/File:%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E6%96%87%E6%B4%A5%E9%98%81_1.jpg
+  - P0551: Wenjin Imperial Library. https://commons.wikimedia.org/wiki/File:Wenjin_Imperial_Library.JPG
+- **T056** 文渊阁 Wenyuan Ge (Forbidden City), 故宫 文华殿后 Forbidden City, Beijing. Sister: built together, same design, confidence B, standing: yes. The best-kept of the family: six bays, 明二暗三, black tile, green edge, 歇山 Basis: S05 j.81 f.37b (form from 天一阁); CCTV/news summary: the same order of 1773 sent officials to Ningbo to study 天一阁 and started 文渊阁, 文源阁, 文津阁 in that form (snippet: news.ifeng 8bvnT5M81bE). Roof: black tile with green edge; two storeys outside, three inside (chinawriter, snippet). https://www.chinawriter.com.cn/n1/2024/0327/c442005-40204166.html
+  - P0555: 文渊阁3. https://commons.wikimedia.org/wiki/File:%E6%96%87%E6%B8%8A%E9%98%813.JPG
+- **T057** 文溯阁 Wensu Ge, 沈阳故宫 Shenyang Imperial Palace. Sister: built together, same design, confidence B, standing: yes. Same family, outside the capital: six-bay library Basis: S05 j.81 f.37b form statement covers 文源阁 only; a search summary (chinawriter) gives 文溯阁 as one of the 北四阁 begun 乾隆四十一年 at 盛京 (Mukden). https://www.chinawriter.com.cn/n1/2024/1009/c442005-40334915.html
+  - P0552: 文溯阁06467. https://commons.wikimedia.org/wiki/File:%E6%96%87%E6%BA%AF%E9%98%8106467.jpg
+  - P0553: 沈阳故宫文溯阁2019. https://commons.wikimedia.org/wiki/File:%E6%B2%88%E9%98%B3%E6%95%85%E5%AE%AB%E6%96%87%E6%BA%AF%E9%98%812019.jpg
+  - P0554: 奉天図書館案内：文溯阁全景. https://commons.wikimedia.org/wiki/File:%E5%A5%89%E5%A4%A9%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%A1%88%E5%86%85%EF%BC%9A%E6%96%87%E6%BA%AF%E9%98%81%E5%85%A8%E6%99%AF.jpg
+- **T058** 文澜阁 Wenlan Ge, 孤山 杭州 Hangzhou. Sister: built together, same design, confidence B, standing: partly. Later rebuild in a Jiangnan garden setting Basis: Search summary (chinawriter): 南三阁; rebuilt in the Guangxu reign (1880s) after destruction, with added gate and rocks. Membership of the seven libraries is common to all sources. https://www.chinawriter.com.cn/n1/2025/1021/c442005-40586068.html
+  - P0556: 杭州文澜阁. https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E6%96%87%E6%BE%9C%E9%98%81_-_panoramio.jpg
+- **T060** 青芝岫 Qingzhi Xiu (rock), 乐寿堂 前 颐和园 Summer Palace. Comparable: same court, era or type, confidence A, standing: yes. Size and setting of a great rock set in a court Basis: S05 j.81 f.37b-38a: 乾隆四十年 玲峰歌: 玲峰, like 青芝岫 at 乐寿堂, is a rock from 大房山, and Qianlong prefers it. https://github.com/kanripo/KR2k0036
+  - P0629: 败家石. https://commons.wikimedia.org/wiki/File:%E8%B4%A5%E5%AE%B6%E7%9F%B3.JPG
+- **T059** 柳浪闻莺 Liulang Wenying, 西湖 杭州 Hangzhou. Comparable: same court, era or type, confidence B, standing: yes. An archway of 1763 near 文源阁 took its name from this West Lake scene (S418): a copy of a scene in the grounds, not of the library. Hangzhou's site is a modern park. Basis: S418: an archway of 1763 among willows near 文源阁, copying a West Lake scene; lintel found 1977 at Langrun Yuan, now north of the Haiyan Tang ruin; columns found 2012, by Honghu at PKU. https://fdcb.pku.edu.cn/yyww/wwxx/838214aae7ca4c1ba29e29031336d9c3.htm
+  - P0631: 杭州 柳浪闻莺 （闻莺阁 ）. https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E_%E6%9F%B3%E6%B5%AA%E9%97%BB%E8%8E%BA_%EF%BC%88%E9%97%BB%E8%8E%BA%E9%98%81_%EF%BC%89_-_panoramio.jpg
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

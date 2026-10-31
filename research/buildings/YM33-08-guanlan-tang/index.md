@@ -72,11 +72,19 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 观澜堂, 5x3 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0308** (paper figure, sure): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0309** (paper figure, sure): 《一幅样式雷圆明园全图的年代推断》: NLC plan 043-001 dated by the outlines of scenes. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xsdt/xsxl/794b73c241ef4fa79b8d6720f31bac13.htm Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 接秀山房 (no picture of this hall found): see YM33
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

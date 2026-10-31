@@ -174,6 +174,21 @@ Hsi Feng Hsiu Se (the Elegant Color of the Western Peaks) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 西峰秀色. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T023** 花港观鱼 Huagang Guanyu, 西湖 杭州 Hangzhou. Ours was copied from it, confidence B, standing: yes. Name only Basis: S434: built after the West Lake scene (tourist text). S05 j.82 f.7a: plaque by Qianlong at 西峰秀色. S416: Qianlong took the Ten Scenes to court gardens. https://www.visitbeijing.com.cn/article/47QkVhww6K6
+  - P0661: Huagang Guanyu. https://commons.wikimedia.org/wiki/File:Huagang_Guanyu.jpg
+  - P0662: Haoshangle Corridor in 2023. https://commons.wikimedia.org/wiki/File:Haoshangle_Corridor_in_2023.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 None that name it.

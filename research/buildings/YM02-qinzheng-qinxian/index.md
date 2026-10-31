@@ -78,7 +78,7 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
   ![P0509](../../photos/images/P0509.jpg)
 
 
-## Texts and drawings (53)
+## Texts and drawings (52)
 
 - **E1039** (poem, sure): 御製勤政親賢詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:17b-18a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製勤政親賢詩 正大光明殿之東為勤政殿日於此披省章奏召對臣工亭午始退座後屏風書無逸以自朂又東為保合太和秀石名葩庭軒明敞觀閣相交林徑四逹 庭訓昭雲日欽承切式刑勅幾宵豈暇籲俊刻靡寜一念徴䝉聖羣言辨渭涇乾乾終始志無逸近書屏
@@ -219,10 +219,30 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
   Survey sheet of the east study of the Qinzheng hall with measurements, March 1855, 350x349 mm, red and ink. No image here; the site may ask a small payment for the full record.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
-- **E1087** (reconstruction, sure, search index only): 再现·圆明园——勤政亲贤, 贺艳. 2011-12 · mhymy qklw 9476 · S341. https://www.mhymy.com/xsjl/qklw/9476.html
-  贺艳's essay on the emperors' office quarter east of 正大光明. 内额 勤政亲贤, outer plaque 勤政殿 by Yongzheng.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 勤政亲贤. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (5)
+
+Modern interpretation, not evidence.
+- **R0086** (render, likely): 勤政亲贤 (first image), image 751 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0087** (render, likely): 勤政亲贤 (second image), image 752 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0148** (physical model, likely): 样式雷烫样 Yangshi Lei card models of Yuanmingyuan: 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春, 恒春堂, 课农轩, 廓然大公, 勤政殿, 万方安和. 雷氏 Lei family holdings, shown in 故宫 exhibition 营缮之道 《单士元》, Tongzhi period for most, per the report. https://www.thepaper.cn/newsDetail_forward_2201516 Research-only: link card.
+- **R0042** (AR/VR, sure): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0036** (paper figure, sure, search index only): 再现·圆明园——勤政亲贤. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9476.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T005** 仁寿殿 (原 勤政殿) Renshou Dian, first named Qinzheng Dian, 颐和园 Summer Palace. Comparable: same court, era or type, confidence B, standing: rebuilt 1886. Audience hall in a garden, with side halls; roof and tile Basis: S422: built 1750 as 勤政殿, same name and same use; burned by the Anglo-French force 1860; rebuilt 1886 and renamed. S430 (snippet): 7 x 5 bays, gallery round, 卷棚歇山, grey tile. https://zh.wikipedia.org/wiki/颐和园
+  - P0572: 北京颐和园仁寿殿2023.6 (1). https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E9%A2%90%E5%92%8C%E5%9B%AD%E4%BB%81%E5%AF%BF%E6%AE%BF2023.6_(1).jpg
+  - P0573: Bundesarchiv Bild 137-022925, Sommerpalast in Peking. https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_137-022925,_Sommerpalast_in_Peking.jpg
+- **T004** 万壑松风 Wanhe Songfeng, 避暑山庄 Chengde. Comparable: same court, era or type, confidence C, standing: yes. Working rooms of a ruler set in a garden, small scale Basis: S422: finished 1708, the first group in the palace area; Kangxi often handled affairs here. Same role of a working hall by the water; no text pairs them. https://zh.wikipedia.org/wiki/承德避暑山庄及其周围寺庙
+- **T006** 勤政殿 (静宜园) Qinzheng Dian, Jingyi Yuan, 香山公园 Fragrant Hills, Beijing. Comparable: same court, era or type, confidence C, standing: partly. Layout idea: moon river and offices Basis: S422: built 1745, the emperor's audience place in the garden with main hall, side halls, offices and a moon river; destroyed; rebuilt 2002-03 at public cost. https://zh.wikipedia.org/wiki/香山公园
+  - P0686: 香山勤政殿. https://commons.wikimedia.org/wiki/File:%E9%A6%99%E5%B1%B1%E5%8B%A4%E6%94%BF%E6%AE%BF.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

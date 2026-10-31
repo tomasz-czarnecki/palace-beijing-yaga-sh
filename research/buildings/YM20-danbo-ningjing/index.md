@@ -194,6 +194,16 @@ The "Field" Character Building (Placid, Contented, Peaceful, Quiet) · Yuanming 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled ?泊清静 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0057** (render, sure): 澹泊宁静 (caption 谵泊宁静 in a gallery). posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0074** (video, likely): “机械臂展示圆明园数字化复原视频”, “圆明·交融” exhibition. 中央美术学院圆明园研究中心, 中央美术学院, 2024. https://news.bjd.com.cn/2024/12/03/10989999.shtml Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q20: Name variants

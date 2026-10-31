@@ -80,7 +80,7 @@ A Painting by Nature · Yuanming Yuan
   ![P0370](../../photos/images/P0370.jpg)
 
 
-## Texts and drawings (30)
+## Texts and drawings (29)
 
 - **E1221** (poem, sure): 御製天然圖畫詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:32b-33a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製天然圖畫詩 庭前修篁萬竿與雙桐相暎風枝露梢緑滿襟䄂西為髙樓折而南翼以重榭遠近勝概歴歴奔赴殆非荆關筆墨能到 我聞大塊有文章豈必天然無圖畫茅茨休矣古淳風於樂靈沼葩經載松棟連雲俯碧瀾下有修篁戞幽籟雙桐薈蔚矗烟梢朝陽疑有靈禽噦優游竹素夙有年峻宇雕牆古所戒詎無樂地資勝賞湖山矧可供清快巋然西峯列屏障眺吟底用勞行邁時掇芝蘭念秀英或撫松筠懐耿介和風萬物與同春甘雨三農共望嵗周阿苔篆緑䝉茸壓架花枝紅瑣碎徴歌命舞非吾事案頭書史閒披對以永朝夕怡心神忘筌是處羲皇界試問支公買山價可曽悟得湏彌芥
@@ -160,15 +160,33 @@ A Painting by Nature · Yuanming Yuan
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at p.227 (1 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E0529** (drawing, sure, search index only): 圆明园总平面图. 乾隆四十至四十二年绘, 改至道光十一年 (1775-1831) · 故宫博物院图书馆 样1704号 · S310. https://www.mhymy.com/dasl/ysltd/9380.html
   Large overall base plan of Yuanming Yuan, ink and light colour with pasted slips, 1761x1311 mm, drawn c. 1775-77 and altered until 1831, so its layers must be read apart; at Tianran Tuhua the pool is painted out in white. No image here; the site may ask a small payment for the full record.
-- **E1219** (reconstruction, sure, search index only): 镂月开云、天然图画复原视频 (中央美术学院). n.d. · mhymy fysp · S340. https://www.mhymy.com/szfy/fysp
-  The videos section includes a reconstruction by the Central Academy of Fine Arts' 圆明园 centre of these two scenes, and a 九洲 district one; a separate effort from Tsinghua's.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 天然图画. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (5)
+
+Modern interpretation, not evidence.
+- **R0313** (drawing, sure): 《圆明园四十景图·天然图画》复原图, printed as Fig. 2 in 圆明园研究 99期. 王裔婷 et al.. https://www.yuanmingyuanpark.cn/xs/ktsb/202609/t20260908_4827967.html Research-only: link card.
+- **R0053** (AR/VR, sure): “飞跃圆明园四十景”, MR glasses, 2026 服贸会 at Shougang. 中央美术学院 人工智能与数字文化遗产研究中心, 中央美术学院 Central Academy of Fine Arts, 2026. https://cn.chinadaily.com.cn/a/202609/14/WS6aa802efe4b09a165c78a00c.html Research-only: link card.
+- **R0312** (paper figure, sure): 圣皇被五福: landscape plan of 天然图画 YM05 reconstructed from the Forty Scenes leaf, 圆明园研究 99期. 王琳, 崔山, 中国农业大学园艺学院, 2026. https://www.yuanmingyuanpark.cn/xs/ktsb/202609/t20260908_4827967.html Research-only: link card.
+- **R0032** (video, sure, search index only): [央美]镂月开云、天然图画复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14820.html Research-only: link card.
+- **R0223** (video, guess): 人在画中游：央美团队UE5复原圆明园，重现万园之园的辉煌壮丽. 中央美术学院 CAFA team, as stated in the title, 中央美术学院 Central Academy of Fine Arts, 2024. https://www.bilibili.com/video/BV1EZ421t7eM Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T009** 苏堤 Su Causeway, West Lake, 西湖 杭州 Hangzhou. Ours was copied from it, confidence B, standing: yes. Bank with willows; never scale Basis: S416 (苏堤春晓 article): Qianlong copied West Lake here; about 200 m bank between lotus pond and stream, against about 3 km in Hangzhou; only the bank remains. S05 j.80 f.31b-32a: plaque 苏堤春晓 by Qianlong, across the river from 天然图画. https://www.sohu.com/a/454029446_660430
+  - P0655: Su Causeway, West Lake. https://commons.wikimedia.org/wiki/File:Su_Causeway,_West_Lake.jpg
+  - P0656: Su Causeway near West Lake, looking towards north 20120529 1. https://commons.wikimedia.org/wiki/File:Su_Causeway_near_West_Lake,_looking_towards_north_20120529_1.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 
 - Q1: Target state
 - Q26: Forms
+- Q57: What state a reconstruction shows
 
 <!-- generated:end -->
 

@@ -52,6 +52,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 正觉寺: see QC11
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+- Standing buildings comparable to a temple hall (not this building): see CLASS-temple_hall
 
 ## Open questions
 

@@ -40,6 +40,10 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 山高先得月. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 **Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 
 ## Open questions

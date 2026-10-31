@@ -1,12 +1,12 @@
-"""Everything that hangs off the picture catalog. research/photos/catalog.csv is the single source of truth.
+"""Everything that hangs off the picture catalogs. research/photos/catalog.csv and research/reconstructions/catalog.csv are the sources of truth.
 
   uv run python scripts/photos_catalog.py
 
 Writes:
-  site/reconstruction/photos/P####.jpg, _t.jpg   public: free pictures that show an object, at most 1000 px and 400 px. `crop` (fractions x0,y0,x1,y1) cuts the web copy: the album's bifolios show the painting, the research file keeps the whole leaf
+  site/reconstruction/photos/P####.jpg, R####.jpg, _t.jpg   public: free pictures and free reconstructions that show an object, at most 1000 px and 400 px. `crop` (fractions x0,y0,x1,y1) cuts the web copy: the album's bifolios show the painting, the research file keeps the whole leaf
   site/credits.html, research/image-credits/CREDITS.md   the credit of every public picture, between markers
 
-Refuses to run if a research-only picture sits in research/photos/images/ or site/, or if a public picture has no licence or attribution.
+Refuses to run if a research-only picture sits in research/photos/images/, research/reconstructions/images/ or site/, or if a public picture has no licence or attribution.
 """
 
 import csv
@@ -18,6 +18,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 FREE = ROOT / "research/photos/images"
+FREE_RECON = ROOT / "research/reconstructions/images"
 SITE_PHOTOS = ROOT / "site/reconstruction/photos"
 CREDITS_HTML = ROOT / "site/credits.html"
 CREDITS_MD = ROOT / "research/image-credits/CREDITS.md"
@@ -44,6 +45,15 @@ def public_rows():
         if r["file"] and r["shows"]:
             assert r["licence"] and r["attribution"], f"{r['photo_id']}: free without licence or attribution"
             out.append(r)
+    for r in csv.DictReader(open(ROOT / "research/reconstructions/catalog.csv", encoding="utf-8", newline="")):
+        rid = r["recon_id"]
+        if r["rights_class"] != "free":
+            assert not (FREE_RECON / f"{rid}.jpg").exists(), f"{rid}: research-only, yet in reconstructions/images"
+            assert not (SITE_PHOTOS / f"{rid}.jpg").exists(), f"{rid}: research-only, yet on the site"
+            continue
+        if r["local_copy"] and r["shows"]:
+            assert r["licence"] and r["attribution"], f"{rid}: free without licence or attribution"
+            out.append({"photo_id": rid, "file": r["local_copy"], "crop": "", "title": " ".join(x for x in (r["title"], f"by {r['author']}" if r["author"] else "") if x), "date": r["year"], "source_url": r["link"], "licence": r["licence"], "attribution": r["attribution"]})
     return out
 
 
@@ -66,7 +76,7 @@ def copies(rows):
         wanted |= {web.name, thumb.name}
         if web.exists() and thumb.exists() and web.stat().st_mtime >= src.stat().st_mtime and not r["crop"]:
             continue
-        if web.exists() and thumb.exists() and web.stat().st_mtime >= (ROOT / "research/photos/catalog.csv").stat().st_mtime:
+        if web.exists() and thumb.exists() and pid.startswith("P") and web.stat().st_mtime >= (ROOT / "research/photos/catalog.csv").stat().st_mtime:
             continue
         im = Image.open(src).convert("RGB")
         if r["crop"]:
@@ -90,7 +100,7 @@ def credits(rows):
         trs.append(f'            <tr id="{pid}"><td class="credit-thumb"><img src="reconstruction/photos/{pid}_t.jpg" loading="lazy" alt="" width="96"></td>'
                    f'<td>{esc(r["title"])}{", " + esc(r["date"]) if r["date"] else ""}. <a href="{esc(r["source_url"])}">Source</a></td>'
                    f'<td>{esc(clean_licence(r["licence"]))}</td><td>{esc(r["attribution"])}</td></tr>')
-    block = "\n".join([START, '        <div class="credits-block">', f"          <h2>Pictures in the 3D view ({len(rows)})</h2>", '          <p class="credit-note">Album leaves and other BnF items: Source gallica.bnf.fr / BnF, free for non-commercial use. Pictures on other holders\' pages are linked from the panel and are not copied here.</p>', '          <div class="credit-scroll">', '          <table class="credit-table">', '            <thead><tr><th scope="col">Image</th><th scope="col">Title, date, source</th><th scope="col">Licence</th><th scope="col">Credit</th></tr></thead>', "            <tbody>", *trs, "            </tbody>", "          </table>", "          </div>", "        </div>", END])
+    block = "\n".join([START, '        <div class="credits-block">', f"          <h2>Pictures in the 3D view ({len(rows)})</h2>", '          <p class="credit-note">Album leaves and other BnF items: Source gallica.bnf.fr / BnF, free for non-commercial use. Pictures on other holders\' pages are linked from the panel and are not copied here. Ids beginning with R are reconstructions by other people, shown as modern interpretations.</p>', '          <div class="credit-scroll">', '          <table class="credit-table">', '            <thead><tr><th scope="col">Image</th><th scope="col">Title, date, source</th><th scope="col">Licence</th><th scope="col">Credit</th></tr></thead>', "            <tbody>", *trs, "            </tbody>", "          </table>", "          </div>", "        </div>", END])
     text = CREDITS_HTML.read_text(encoding="utf-8")
     if START in text:
         text = re.sub(re.escape(START) + r".*?" + re.escape(END), lambda m: block, text, flags=re.S)

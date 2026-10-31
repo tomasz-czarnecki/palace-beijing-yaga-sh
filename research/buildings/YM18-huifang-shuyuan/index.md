@@ -40,7 +40,7 @@ The Library of Collected Fragrance · Yuanming Yuan
 - YM18-B0185
 - YM18-N01 汇芳书院
 
-## Pictures (5)
+## Pictures (6)
 
 - **P0018** (sure): 彚芳書院 Huifang shuyuan [Académie où se rassemblent les vertueux] (圓明園四十景, 第18景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E5%85%AB%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B9%85%E5%9B%BE%29%2C_%E5%BD%9A%E8%8A%B3%E6%9B%B8%E9%99%A2_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Huifang_shuyuan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083318.jpg
 
@@ -61,6 +61,10 @@ The Library of Collected Fragrance · Yuanming Yuan
 - **P0525** (sure): 彙芳書院 Huifang Shuyuan: 乾隆 Qianlong's preface and poem with the courtiers' commentary, 御製圓明園圖詠 1887 (poem 1744 (乾隆九年); this printing 1887). https://commons.wikimedia.org/wiki/File%3ANLC403-312001107375-14035_%E7%A6%A6%E5%88%B6%E5%9C%93%E6%98%8E%E5%9C%92%E5%9C%96%E8%A9%A0_%E5%8D%B7%E4%B8%80.pdf?page=88
 
   ![P0525](../../photos/images/P0525.jpg)
+
+- **P0714** (likely): 断桥残雪 (exhibition label); mount inscribed Yen-Ming-Yuan Nº 177 (1882, as said in the clip by 刘阳 Liu Yang (S650); S651 gives 1882 for Semalle). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0714](../../raw/photos/P0714.jpg)
 
 
 ## Texts and drawings (41)
@@ -178,6 +182,21 @@ The Library of Collected Fragrance · Yuanming Yuan
   Older record of a drawing of Huifang Shuyuan; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 汇芳书院. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, sure): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T018** 断桥 Duan Qiao (Broken Bridge), 西湖 杭州 Hangzhou. Ours was copied from it, confidence B, standing: yes. Stone bridge, stone pailou Basis: S416 (断桥残雪 article): a stone bridge over a dug channel, stones placed to answer 宝石山, and a stone pailou by Qianlong to the east. S05 j.81 f.26a: 石坊为断桥残雪. Search summary of a Peking University page: built 1763. S418: found 2012, same type as 柳浪闻莺. https://www.sohu.com/a/446201570_660430
+  - P0659: Broken Bridge (Hangzhou) 20250505. https://commons.wikimedia.org/wiki/File:Broken_Bridge_(Hangzhou)_20250505.jpg
+  - P0660: Duanqiao. https://commons.wikimedia.org/wiki/File:Duanqiao.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

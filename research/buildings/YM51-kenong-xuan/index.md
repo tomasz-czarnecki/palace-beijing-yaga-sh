@@ -73,15 +73,26 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 课农轩. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0002** (paper figure, likely): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. after 2024. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T063** 丰泽园 Fengze Yuan, 中南海 Zhongnanhai. Comparable: same court, era or type, confidence C, standing: yes. Function only Basis: S422: a hall for rehearsing the imperial ploughing under Yongzheng. Ours is named for teaching farming. No text pairs them. https://zh.wikipedia.org/wiki/中南海
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 
 - Q47: How much burned, and when
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

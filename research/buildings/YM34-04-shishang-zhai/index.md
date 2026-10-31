@@ -59,6 +59,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 别有洞天: see YM34
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
 ## Open questions
 

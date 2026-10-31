@@ -76,6 +76,8 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 澹怀堂: see CC01
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 ## Open questions
 

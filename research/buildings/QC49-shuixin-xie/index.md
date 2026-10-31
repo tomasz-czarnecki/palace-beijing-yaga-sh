@@ -62,6 +62,16 @@ Qichun Yuan
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Surviving comparable buildings, not this building (1)
+
+- **T102** 水心榭 Shuixin Xie, 避暑山庄 Chengde. Comparable: same court, era or type, confidence C, standing: yes. Pavilions over water; sluice form from general knowledge, not read Basis: Same name. S422 lists the Chengde 水心榭 as 三亭子, three pavilions. No text pairs them. https://zh.wikipedia.org/wiki/承德避暑山庄及其周围寺庙
+  - P0593: 避暑山庄水心榭 3. https://commons.wikimedia.org/wiki/File:%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E6%B0%B4%E5%BF%83%E6%A6%AD_3.jpg
+  - P0594: 亜東印画輯 07 048 "水心榭（熱河山莊苑）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_07_048_%22%E6%B0%B4%E5%BF%83%E6%A6%AD%EF%BC%88%E7%86%B1%E6%B2%B3%E5%B1%B1%E8%8E%8A%E8%8B%91%EF%BC%89%22.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q13: Weak identifications

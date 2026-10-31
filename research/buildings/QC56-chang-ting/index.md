@@ -46,6 +46,10 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 敞厅, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 **Searched and not found:** No text or drawing names it in 養吉齋叢錄 j18, modern studies of 绮春园, what search indexes show of the Yangshi Lei drawings; 日下旧闻考 does not cover this garden, and Jiaqing's 三十景 poems could not be reached (wishlist).
 
 ## Open questions

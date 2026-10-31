@@ -73,11 +73,16 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 中和堂, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0326** (drawing, guess, search index only): 绮春园寝宫区总平面图, Tsinghua-held plan of 道光三十年, covering 敷春堂 and aligned to 中和堂. . https://www.mhymy.com/dasl/ysltd/7521.html Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

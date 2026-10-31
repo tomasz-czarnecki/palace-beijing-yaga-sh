@@ -29,7 +29,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **1 ×:** screen: 15 × 1 m, eave 5 m, ridge 5 m
 - **Confidence:** C, all assumed
 
-## Pictures (8)
+## Pictures (10)
 
 - **P0056** (sure): 观水法正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十六 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-13.jpg
 
@@ -51,6 +51,10 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0194](../../photos/images/P0194.jpg)
 
+- **P0709** (likely): PORTE LOUIS XV AU PALAIS D'ÉTÉ (p. 377), Pl. XII (printed caption) (Plate in Favier, c. 1897 (Rijksmuseum, book); same negative as Child's Princes Porch, 1875-77 per the Commons text on P0194). https://id.rijksmuseum.nl/200721138
+
+  ![P0709](../../photos/images/P0709.jpg)
+
 - **P0323** (sure): Sirén: The Imperial Palaces of Peking pl. 216 (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/203253 Research-only: link card.
 - **P0343** (sure): Photos of Ruins of Old Summer Palace - 2019 - 12.jpg (2019-07-14 19:21:15 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Photos_of_Ruins_of_Old_Summer_Palace_-_2019_-_12.jpg
 
@@ -60,8 +64,12 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0344](../../photos/images/P0344.jpg)
 
+- **P0640** (sure): 圆明园观水法遗址图 (2019-08-04 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E8%A7%82%E6%B0%B4%E6%B3%95%E9%81%97%E5%9D%80%E5%9B%BE.jpg
 
-## Texts and drawings (8)
+  ![P0640](../../photos/images/P0640.jpg)
+
+
+## Texts and drawings (5)
 
 - **E0985** (description, sure): Plates XVI to XIX: 观水法, 线法山门, 线法山, 螺蛳牌楼. 1786-1803 · pp.184-185, Plates XVI-XIX · S258. https://archive.org/details/BIUSante_40644
   > Montagne factice sur laquelle il y a un Ting-tsé,
@@ -75,18 +83,33 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0984** (reconstruction, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 2025-05-21 · 京报网 · S351. https://news.bjd.com.cn/2025/05/21/11171051.shtml
-  The park and Peking University's School of Archaeology and Museology record the carved stones by 3D scan, photogrammetry and panorama, at 大水法, 观水法, 远瀛观, 海晏堂 and pieces now on the Peking University campus. This is the nearest thing found to a 'Peking University Digital Yuanmingyuan'. It says over 10 sites have been dug since the 1990s.
-- **E0936** (reconstruction, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. 2015 · open access paper · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
-  The Yuanmingyuan Digital Restoration Research Project of 2013 covered five of thirteen 西洋楼 scenes in its first two years: 谐奇趣, 海晏堂, 方外观, 蓄水楼, 观水法. The paper explains 谐奇趣's method: present-day survey with archival drawings and engravings.
-- **E0987** (reconstruction, sure, search index only): [清华]观水法; [清华]海晏堂. n.d. · mhymy szfy 13312 · S340. https://www.mhymy.com/szfy/13312.html
-  Link card to Tsinghua team renders of 观水法 Guan Shuifa. A sibling post covers 海晏堂, its page not seen.
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (8)
+
+Modern interpretation, not evidence.
+- **R0018** (physical model, sure): 20240112 Guanshuifa, Hengdian Yingshicheng. Hengdian World Studios (replica); Yumeto (photograph), Hengdian World Studios (per the Commons category). https://commons.wikimedia.org/wiki/File:20240112_Guanshuifa,_Hengdian_Yingshicheng.jpg
+- **R0094** (render, likely): 观水法, image 766 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0003** (3D model, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 圆明园管理处; 北京大学考古文博学院, 2025. https://news.bjd.com.cn/2025/05/21/11171051.shtml Research-only: link card.
+- **R0145** (drawing, sure): Plan de l'aire du buffet d'eau (Fig. 3 in S603), Jin Xun's drawing. 金勋 Jin Xun, Reproduced in Durand 1988, from Adam 1936, 1924 per S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0140** (drawing, sure): Fig. 5, Plan de l'aire du buffet d'eau (plan de restitution 1987). Antoine Durand, Mission Palais d'Ete, 1987 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0004** (paper figure, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/ Research-only: link card.
+- **R0025** (render, sure, search index only): [清华]观水法. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/13312.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T092** 潘菲利别墅 圆形剧场 Amphitheatre of the Villa Pamphili (Vigna Pamphile), Rome. Comparable: same court, era or type, confidence C, standing: partly. Garden theatre with a seat in front of water Basis: S415 p.93 fig.83-84 and p.109: Pérelle's print of the Vigne Pamphile is used for an analogy with curved marble walls here; figs 85-86 show the 观水法 throne beside it; Lancaster also lists Pamphili for 海晏堂 (p.83). https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0704: Gezicht op het amfitheater Villa Doria Pamphili, RP-P-1951-518-128. https://commons.wikimedia.org/wiki/File:Gezicht_op_het_amfitheater_Villa_Doria_Pamphili,_RP-P-1951-518-128.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+
 ## Open questions
 
-None that name it.
+- Q60: Captions and claims, old photographs (Round 5)
 
 <!-- generated:end -->
 

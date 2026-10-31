@@ -65,11 +65,18 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 圆明园殿, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0046** (video, likely): 三维立体视频 of the 圆明园四十景, including 九洲清晏. 数字圆明园 team, 郭黛姮; 贺艳 as main lead, as the report states; institution not named beyond the team, 2022. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

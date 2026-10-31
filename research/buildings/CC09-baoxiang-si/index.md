@@ -66,11 +66,15 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 宝相寺. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Surviving comparable buildings, not this building (1)
+
+- **T071** 宝相寺 (旭华之阁) Baoxiang Si, Xuhua zhi Ge, 香山 Fragrant Hills. Comparable: same court, era or type, confidence C, standing: partly. A name twin. Our 宝相寺 has 澄光阁, 昙霏阁, 现大圆镜 (S05 j.83 f.12a) Basis: Same name only. Search summary: 香山 宝相寺 is Qianlong's temple of 1761 after his visit to 五台山 殊像寺 (S426); a brick beamless hall, 旭华之阁, is what stands (ctrip). https://you.ctrip.com/sight/beijing1/2039032.html
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

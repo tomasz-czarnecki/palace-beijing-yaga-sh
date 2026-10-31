@@ -76,6 +76,21 @@ Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 三潭印月. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0002** (paper figure, likely): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. after 2024. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T062** 三潭印月 Santan Yinyue, 西湖 杭州 Hangzhou. Comparable: same court, era or type, confidence C, standing: yes. Three reflections; three small stone towers in Hangzhou: form not shown to be in ours Basis: S05 j.82 f.12b-13b: 方壶胜境 poem: 东为蕊珠宫, 西则三潭印月, 「曲渚寒蟾印有三」. A search summary says it is modelled on West Lake. No text says more. https://github.com/kanripo/KR2k0036
+  - P0600: 三潭印月 Three Ponds MirrorIng the Moon. https://commons.wikimedia.org/wiki/File:%E4%B8%89%E6%BD%AD%E5%8D%B0%E6%9C%88_Three_Ponds_MirrorIng_the_Moon_-_panoramio.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 None that name it.

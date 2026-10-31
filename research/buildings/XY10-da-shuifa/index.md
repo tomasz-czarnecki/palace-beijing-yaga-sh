@@ -16,6 +16,7 @@ Ta Shui Fa, the Great Fountains · Xiyang Lou
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01, S109, S201)
 - **Position:** 40.01222, 116.30658. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 20.0 × 3.0 m. typology xiyang_lou, C (S01)
+- **Lead on its size, from a modern study, not used in the model:** Water-buffet area 110 x 60 m, level drop 1.30 m at the banks, hedges about 2.50 m; composition of the rockwork and throne about 50 m long; twin basins 18 m in diameter, 62 m between centres (S603, p. 127). (confidence B)
 - **Where the text puts it:** 远瀛观前平台之南 (S06) (S02, S06, S56, S01, S109, S201) *(research copy, not public)*
 - **Note:** Copper engraving no. 15 per S02. Tall pyramids and animal figures (S02 p.156). S06 10 hounds and a stag. (S02, S06, S56, S01, S109, S201)
 - **Plan reader's note:** Shell-shaped basin with small figures + arc behind + two round pools with square bases (the two pyramid fountains of engraving 15). Identified by Malone/engraving. | plan: rect=139,100,0. Shell-shaped basin x 10493-10632, y 996-1096 with about 9 small figures and centre rect (10562,1037). Arc behind it x 10511-10611, y 968-989. (S01) *(research copy, not public)*
@@ -35,7 +36,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY10-N01
 - XY10-N02
 
-## Pictures (13)
+## Pictures (14)
 
 - **P0055** (sure): 大水法正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十五 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-12.jpg
 
@@ -79,12 +80,16 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0455](../../photos/images/P0455.jpg)
 
+- **P0641** (sure): 圆明园大水法遗址图 (2019-08-04 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E5%A4%A7%E6%B0%B4%E6%B3%95%E9%81%97%E5%9D%80%E5%9B%BE.jpg
+
+  ![P0641](../../photos/images/P0641.jpg)
+
 - **P0293** (guess): Fotografija Ruševine – panoramski pogled z vzhoda v Stari poletni palači (album: "Yüen-Ming-Yüen: Total-Ansicht vom Osten") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-panoramski-pogled-z-vzhoda-v-stari-poletni-palaci/
 
   ![P0293](../../photos/images/P0293.jpg)
 
 
-## Texts and drawings (12)
+## Texts and drawings (11)
 
 - **E0185** (poem, sure): 御製 題澤蘭堂. 1795 (御製詩五集) · KR4f0005_486:3a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_486.txt
   > 題澤蘭堂 書堂號澤蘭樸斵謝青丹芸帙堪永日藤窻避薄寒蕪情報韶意水法列竒觀（堂北為西洋水法處盖縁乾隆十八年西洋博爾都噶里雅國）（來京朝貢聞彼處以水法為竒觀因念中國地大物博水法不過工巧之一端遂命住京之西洋人郎世寧造）（為此法俾來使至此瞻仰前嵗□咭唎國使臣等至京朝貢亦令閲看深為歎服昨冬廣東督臣長麟撫臣朱）（珪奏荷蘭國使臣嘚□等以今嵗為朕御極六十年大慶懇請来京朝賀鑒其數萬里外慕化悃誠因允其請）（已即於臈月到京新正並與朝賀宴賞節間令於是處觀看水法使知朕所嘉者逺人嚮化之誠若其任土作）（貢則中國之大何竒不有初不以為貴也）洋使賀正至逺瀛合俾看
@@ -114,10 +119,42 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   养雀笼 Yangque Long: 1,000 m2 cleared in 2015, showing foundations that combine 三合土 lime concrete with brick and stone. 大水法 and 远瀛观 were next, about 2,000 m2 planned for 2016, with the stated aim of learning how imperial buildings were founded, which standing buildings cannot show.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0984** (reconstruction, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 2025-05-21 · 京报网 · S351. https://news.bjd.com.cn/2025/05/21/11171051.shtml
-  The park and Peking University's School of Archaeology and Museology record the carved stones by 3D scan, photogrammetry and panorama, at 大水法, 观水法, 远瀛观, 海晏堂 and pieces now on the Peking University campus. This is the nearest thing found to a 'Peking University Digital Yuanmingyuan'. It says over 10 sites have been dug since the 1990s.
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (12)
+
+Modern interpretation, not evidence.
+- **R0003** (3D model, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 圆明园管理处; 北京大学考古文博学院, 2025. https://news.bjd.com.cn/2025/05/21/11171051.shtml Research-only: link card.
+- **R0145** (drawing, sure): Plan de l'aire du buffet d'eau (Fig. 3 in S603), Jin Xun's drawing. 金勋 Jin Xun, Reproduced in Durand 1988, from Adam 1936, 1924 per S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0140** (drawing, sure): Fig. 5, Plan de l'aire du buffet d'eau (plan de restitution 1987). Antoine Durand, Mission Palais d'Ete, 1987 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0133** (physical model, likely): Maquette of the European garden (Xiyang Lou), with a new measured plan. Philippe Jonathan, Antoine Durand, French Foreign Ministry mission to Yuanmingyuan, 1983-85, 1987. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf Research-only: link card.
+- **R0300** (AR/VR, likely): 《梦回圆明园》 VR大空间. 圆明园管理处; technical supplier not named, 圆明园管理处 Yuanmingyuan Administration, 2025. https://m.bjnews.com.cn/detail/1758771462129689.html Research-only: link card.
+- **R0262** (game or community build, likely): 【建筑】重建圆明园！目前大水法已经完成，继续肝. 辰言星宇, 2024. https://www.bilibili.com/video/BV134421Q7R5 Research-only: link card.
+- **R0256** (game or community build, likely): 建筑接力 12th leg, 《圆明园》, Minecraft. Qiu Zekai, online name 邱小牛er Qiuxiaoniuer, 2025. https://global.chinadaily.com.cn/a/202512/17/WS6941f335a310d6866eb2efeb.html Research-only: link card.
+- **R0193** (3D model, guess): 大水法. islayu, 2024. https://sketchfab.com/3d-models/7167c907e0874c569314bedb155a6f10 Research-only: link card.
+- **R0231** (video, guess): 你还记得这里吗？. 熊猫雷尼, visit to 横店圆明新园, 横店集团 Hengdian, 2023. https://www.bilibili.com/video/BV1tC4y1f7Ti Research-only: link card.
+- **R0270** (video, guess): 圆明园复原-大水法. unknown; account bili_30370363215, 2025. https://www.bilibili.com/video/BV1VcQzYTEj1 Research-only: link card.
+- **R0266** (video, guess): 爆肝20亿 token，只想带你走进一次圆明园. 策殊丶, 2026. https://www.bilibili.com/video/BV1xQYc6AEao Research-only: link card.
+
+## Surviving comparable buildings, not this building (4)
+
+- **T090** 圣克卢大瀑布 Grande Cascade de Saint-Cloud, Saint-Cloud, France. Comparable: same court, era or type, confidence A, standing: yes. A comparison by the Jesuit builders, in print in the 1770s: scale and ambition of the water show, rising stages with vases and jets Basis: S415 p.22 quoting the Lettres édifiantes, and S02 pp.158-159 with vol. xxiv p.421 (cf. S257): the great water piece of the second European house would stand the parallel with those of Versailles and St Cloud. S415 p.81: the cascade still exists. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0651: Vues de Paris et de ses environs - H. Plaut photographe éditeur - btv1b84470114 (45 of 56). https://commons.wikimedia.org/wiki/File:Vues_de_Paris_et_de_ses_environs_-_H._Plaut_photographe_%C3%A9diteur_-_btv1b84470114_(45_of_56).jpg
+  - P0652: Atget - (Saint-Cloud) (La Grande Cascade), btv1b10519221g. https://commons.wikimedia.org/wiki/File:Atget_-_(Saint-Cloud)_(La_Grande_Cascade),_btv1b10519221g.jpeg
+- **T088** 凡尔赛 凯旋门树丛 水金字塔 Pyramid fountains, Bosquet de l'Arc de Triomphe (Versailles), Versailles, France. Comparable: same court, era or type, confidence B, standing: partly. The two tower or pyramid fountains flanking the basin Basis: S415 figs 99-100: water pyramids at 大水法 set against those shown by Pérelle in this grove; S02 pp.158-159 on pyramids; S415 p.22 for the letter. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0671: De triomfboog in de tuin van Versailles L'Arc de Triomph, dans un des bosquets des jardins de Versailles (titel op object), RP-P-1974-207. https://commons.wikimedia.org/wiki/File:De_triomfboog_in_de_tuin_van_Versailles_L%27Arc_de_Triomph,_dans_un_des_bosquets_des_jardins_de_Versailles_(titel_op_object),_RP-P-1974-207.jpg
+  - P0672: Versailles-Les Grandes Eaux Musicales-Bosque de l'Arc de Triomphe fused. https://commons.wikimedia.org/wiki/File:Versailles-Les_Grandes_Eaux_Musicales-Bosque_de_l%27Arc_de_Triomphe_fused.jpg
+- **T091** 特里亚农 水台 Buffet d'Eau, Grand Trianon, Versailles, France. Comparable: same court, era or type, confidence B, standing: yes. Tiered marble wall of water; shell ornament Basis: S415 p.22, quoting the Lettres édifiantes (t. XIII per Rabreau; S02 pp.158-159 cites vol. xxiv p.421, cf. S257): the great water piece «soutiendrait le parallèle» with those of Versailles and St Cloud, and from his throne the emperor sees two great water pyramids. S02: pyramids, carved pool edges, statues, shell ornament in both. S420: the Trianon Buffet d'Eau is by Hardouin-Mansart, 1702, «Italian-inspired», restoration begun 2022. https://archive.org/details/historyofpekings00malo
+  - P0673: Buffet d'eau après la restauration de 2021-2023 - vue générale 01. https://commons.wikimedia.org/wiki/File:Buffet_d%27eau_apr%C3%A8s_la_restauration_de_2021-2023_-_vue_g%C3%A9n%C3%A9rale_01.jpg
+  - P0674: Trianon Buffet d'eau. https://commons.wikimedia.org/wiki/File:Trianon_Buffet_d%27eau.JPG
+- **T089** 卡塞塔王宫 狄安娜喷泉 Fountain of Diana and Actaeon, Reggia di Caserta, Caserta, Italy. Comparable: same court, era or type, confidence C, standing: yes. Theme of a stag at bay in water Basis: S415 p.98: the hunt scene in the central basin (deer and hounds) is called analogous, without the myth, to a basin at Caserta; he notes the theme only. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0622: Royal Park of the Palace of Caserta - Diana. https://commons.wikimedia.org/wiki/File:Royal_Park_of_the_Palace_of_Caserta_-_Diana.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 

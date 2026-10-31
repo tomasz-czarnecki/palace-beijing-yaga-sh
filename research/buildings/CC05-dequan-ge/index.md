@@ -78,6 +78,10 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 得全阁, 7x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 - Q13: Weak identifications

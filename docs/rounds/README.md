@@ -14,7 +14,8 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r1b` | not recorded | 15:36–17:58 | 142 min | 72 | $80.16 | 11537d0 | done |
 | `palace_r2_map` | xhigh | 17:59–18:30 | 30 min | 81 | $9.42 | 33b3f29 | done |
 | `palace_r3_evidence` | not recorded | 19:12–20:55 | 103 min | 71 | $76.61 | 0bb4f81 | done |
-| `palace_r4_docs` | high | 20:56-21:08 (12 min) | exit 0 at 21:08Z | - | - | `4b44190` | this round |
+| `palace_r4_docs` | high | 20:56-21:08 (12 min) | exit 0 at 21:08Z | - | - | `4b44190` | done |
+| `palace_r5_refs` | not recorded | 21:45–23:26 | 101 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -111,3 +112,37 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - `research/README.md`: `scripts/georef.py` with no argument was said to write the overlay and images, and it only fits; six fields of `buildings.csv` had no row in the table; `research/evidence/facts.csv`, the control points, the readers' files, most layer properties and the panel JSON had no field list; six files in `research/plan/` were unlisted.
 
 **Not settled:** 万春园 (Round 1's flag), left as written; efforts of four rounds; the writing time of the rulebook.
+
+## palace_r5_refs
+
+**Delivered:** `research/twins/catalog.csv` (135 pairings), `research/reconstructions/catalog.csv` (326 rows, 25 free), 172 new pictures in `research/photos/catalog.csv` with the field `relation`, the column `size_lead` in `research/buildings.csv`, the panel's two new sections, CLASS pages, Q54–Q62, 15 wish rows, 151 sources.
+
+| Measured by `tools/check_evidence.py` | Before | After |
+|---|---|---|
+| Top level, of 314: free image of its own | 99 | 103 |
+| Top level: free image, own or inherited | 185 | 314 |
+| Top level: reconstruction of its own | 26 | 84 |
+| Top level: reconstruction, own or inherited | 237 | 314 |
+| Top level: twin or comparable photo of its own | 0 | 45 |
+| Top level: twin or comparable photo, own or inherited | 0 | 212 |
+| Halls, of 1510: free image, own or inherited | 1110 | 1510 |
+| Halls: reconstruction, own or inherited | 544 | 1510 |
+| Halls: twin or comparable photo, inherited | 0 | 1496 |
+
+**Timeline:** wave 1 of six topics 21:48–22:24; merge and panel to 22:35; wave 2 of three topics on the gaps 22:36–23:09; final merge, screenshots, docs to 23:26.
+
+**Checked:** all generators and `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_docs.py` pass; 24 of 24 quotes from 日下旧闻考 in the twin rows match the text on Kanripo, allowing variant characters (畧, 寕, 倣, 髙), checked by script; 43 of 44 sampled links of new rows answer, one timed out; no old cell of `research/buildings.csv` changed; panels of 九洲清晏 YM03, 文源阁 YM46, 狮子林 CC13, 海晏堂 XY08, 正大光明 YM01 and a plain hall viewed in public and private mode, with no console errors, broken images or requests to `/_local/` in public mode.
+
+**Decided by the coordinator, reasons in the files:** the Hengdian photographs free (Q55); zodiac head models, in games or chocolate or as scans, off the panels though on record; the 烫样 set apart as period, not modern; a hall inherits its garden's and class's rows folded; a lost twin stays in, under its own heading; 大三巴 dropped, being the worker's own pairing without a source; three relations reduced to `comparable`; ten ISPRS figures pulled from the PDFs with PyMuPDF in scratch, since the workers had no `pdfimages`, and opened by eye, on which one row was added.
+
+**Went wrong or left open:**
+- mhymy.com refused all inner pages, so about 90 [清华] entries are unlisted, and 60 rows are `snippet`.
+- `snippet` rows and video rows rest on search summaries and metadata: no video was watched. "Viewed" often means a page came through a fetch summary, and ties from thumbnails are `guess`.
+- A worker counted up Persée's page-image URLs to read Durand 1988, after a PDF request on another article got 403. The images are what the site's reader shows and that article's pictures are not masked, so the facts and research crops were kept, local only; a closer reading of "never work round a block" would drop them. Another followed a cookie redirect at nature.com, with no log-in or challenge; kept.
+- One mhymy `/feed` request was made before its `robots.txt`, which disallows it, was read, and one `--http1.1` probe. Disclosed by the worker.
+- 21 standing twins still have no picture, mostly in closed sites. 14 of the Forty Scenes have no twin at all: no source found states one.
+- Twin grades for pictures mostly rest on a file name and a look at a thumbnail.
+- Two workers' scripts overwrote each other in the shared scripts folder: name prefixes were added for wave 2.
+- `site/` grew from 106 MB to 138 MB, `research/photos/images/` from 161 MB to 202 MB.
+- Round 3's count of halls with evidence of their own falls from 573 to 570, as reconstructions left that catalogue; they appear as reconstructions now.
+

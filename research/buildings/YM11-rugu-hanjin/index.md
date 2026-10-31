@@ -126,6 +126,15 @@ Ju Ku Han Chin (Seize the Old; It Contains the Present) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 茹古涵今. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0031** (video, sure, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q9: Bay counts, plan against text

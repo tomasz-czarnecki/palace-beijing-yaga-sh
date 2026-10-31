@@ -33,9 +33,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 174.8° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0713** (likely): 鱼跃鸢飞 (exhibition label); mount inscribed Yen-Ming-Yuan (1882, as said in the clip by 刘阳 Liu Yang (S650); S651 gives 1882 for Semalle). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0713](../../raw/photos/P0713.jpg)
+
 
 ## Texts and drawings (2)
 
@@ -50,13 +53,13 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 鱼跃鸢飞 (no picture of this hall found): see YM25
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+- Evidence for the whole compound 鱼跃鸢飞: see YM25
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 ## Open questions
 
-None that name it.
+- Q54: Timber buildings standing in 1882 (Round 5)
 
 <!-- generated:end -->
 

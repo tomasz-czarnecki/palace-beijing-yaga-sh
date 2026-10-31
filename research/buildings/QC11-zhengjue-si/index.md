@@ -39,7 +39,7 @@ Qichun Yuan
 - QC11-B1387
 - QC11-B1395
 
-## Pictures (11)
+## Pictures (12)
 
 - **P0177** (sure): Zhengjue temple in Yuanmingyuan Park, a temple hall, 'three saints' (between 1918 and 1935 (Commons)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/10714275
 
@@ -82,8 +82,12 @@ Qichun Yuan
 
   ![P0495](../../photos/images/P0495.jpg)
 
+- **P0639** (sure): The rebuilt Wen Shu Pavillion of Zheng Jue Temple of Old Summer Palace (2009-08-29 (Commons)). https://commons.wikimedia.org/wiki/File:The_rebuilt_Wen_Shu_Pavillion_of_Zheng_Jue_Temple_of_Old_Summer_Palace.jpg
 
-## Texts and drawings (18)
+  ![P0639](../../photos/images/P0639.jpg)
+
+
+## Texts and drawings (16)
 
 - **E0451** (text, sure): 圆明园遗址的遗产价值与申遗构想: the buildings left after 1860, citing 刘敦桢 1933. post n.d. · ylfj, note 34: 刘敦桢, 同治重修圆明园史料, 营造学社汇刊 1933(2) · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/9a322b5384ab4c17af0dd577d4f96ca6.htm
   Lists 17 buildings left after the burning of 1860, after 刘敦桢: 紫碧山房, 顺木天, 鱼跃鸢飞, 课农轩, 藏舟坞, 慎修思永, 知过堂, 双鹤斋, 蓬岛瑶台, 魁星楼, 文昌阁, 林渊锦镜, 春雨轩; 海岳开襟; 庄严法界, 正觉寺 and a 大宫门 in 万春园. The paper's aim is to hold any new display to this 1860 state.
@@ -119,12 +123,28 @@ Qichun Yuan
   Survey of a lake north of 正觉寺 Zhengjue Si, bounded by the temple's north wall, the west shore of 鉴碧亭's lake and the east shore of 湛清轩. Results paywalled.
 - **E0688** (archaeology, sure, search index only): 《圆明园正觉寺天王殿考古发掘报告》. S315. https://www.mhymy.com/dasl/11258.html
   Excavation report on the gate hall of Zhengjue Si; title seen, text not read.
-- **E0689** (reconstruction, sure): 圆明园·正觉寺·文殊像复原设计研究; 文殊像复原研究报告; 文殊菩萨造像研究报告. 2020-07-29 · 圆明园官网 yjbg · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416666.html
-  Three park reports on the lost 文殊 statue of 正觉寺's 文殊亭: all its images are gone, and the reports try to recover the form from history and comparison, as a basis for a new statue.
-- **E0690** (reconstruction, sure, search index only): 《圆明园正觉寺建筑研究》. S314. https://www.mhymy.com/xsjl/10588.html
-  Study of Zhengjue Si combining surviving buildings, drawings and a village gazetteer to discuss its original state, built 1773.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 正觉寺. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0064** (render, sure): 圆明园·正觉寺·文殊像复原设计研究. posted by 圆明园管理处, posted 2020. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416686.html Research-only: link card.
+- **R0065** (render, sure): 圆明园正觉寺文殊像复原研究报告. posted by 圆明园管理处, posted 2020. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416671.html Research-only: link card.
+- **R0005** (paper figure, sure, search index only): 《圆明园正觉寺建筑研究》. . https://www.mhymy.com/xsjl/10588.html Research-only: link card.
+- **R0045** (video, guess): 18-minute digital restoration video shown in the main hall of 正觉寺. 郭黛姮 team, 清华大学建筑学院 (as the report states), 2017. https://www.tsinghua.edu.cn/info/1182/46145.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T100** 宝相阁 (殊像寺) Baoxiang Ge, Shuxiang Si, 承德 Chengde. Comparable: same court, era or type, confidence C, standing: yes. How a large lion-riding Manjusri fits a pavilion Basis: S425 (snippet): 正觉寺 文殊亭 held a Manjusri on a blue lion, three zhang high, seen in a 1920 photograph. Search summary: 宝相阁 holds an 11.6 m wooden Manjusri on a lion. https://www.visitbeijing.com.cn/article/4EPwqfDbPqp
+  - P0706: 亜東印画輯 07 082 "殊像寺の寶香閣（熱河省承德）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_07_082_%22%E6%AE%8A%E5%83%8F%E5%AF%BA%E3%81%AE%E5%AF%B6%E9%A6%99%E9%96%A3%EF%BC%88%E7%86%B1%E6%B2%B3%E7%9C%81%E6%89%BF%E5%BE%B7%EF%BC%89%22.jpg
+- **T101** 殊像寺 (承德) Shuxiang Si, Chengde, 承德 Chengde. Comparable: same court, era or type, confidence C, standing: yes. A court temple of Manjusri of the same years Basis: S424: 正觉寺 is the only surviving group, with a 文殊亭. S428 (snippet): Chengde's temple of 1774, after Wutai and the Xiangshan form, Qianlong says. Shared Manjusri cult; date of ours not confirmed by this search. https://news.sina.com.cn/c/2002-08-29/1734697305.html
+  - P0707: 亜細亜大観 10 119 "殊像寺 （熱河 承德）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E7%B4%B0%E4%BA%9C%E5%A4%A7%E8%A6%B3_10_119_%22%E6%AE%8A%E5%83%8F%E5%AF%BA_%EF%BC%88%E7%86%B1%E6%B2%B3_%E6%89%BF%E5%BE%B7%EF%BC%89%22.jpg
+  - P0708: 亜東印画輯 07 081 "森蔭の殊像寺（熱河省承德）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_07_081_%22%E6%A3%AE%E8%94%AD%E3%81%AE%E6%AE%8A%E5%83%8F%E5%AF%BA%EF%BC%88%E7%86%B1%E6%B2%B3%E7%9C%81%E6%89%BF%E5%BE%B7%EF%BC%89%22.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
 
 ## Open questions
 

@@ -73,11 +73,24 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 法慧寺. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0323** (drawing, sure, search index only): 《圆明园百景图志》: plan of 法慧寺 and NLC 《法慧寺琉璃塔立样图》, as cited. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/3b8162ad61724707be0e0f605c745331.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T069** 多宝琉璃塔 Duobao Glazed Pagoda, 颐和园 后山 花承阁 Summer Palace. Comparable: same court, era or type, confidence B, standing: yes. Glazed pagoda, tile colours; storey count Basis: S05 j.83 f.12a: 法慧寺 has a 琉璃方塔 in its west court. S421 (Sheila Bovell's note): a similar glazed pagoda with a round top once stood at 畅春园 written for Changchun in the old palace, not to be confused with this one. https://hpcbristol.net/visual/SB-s44
+  - P0669: Porcelain Pagoda (34769503). https://commons.wikimedia.org/wiki/File:Porcelain_Pagoda_(34769503).jpg
+  - P0670: Dubbo Glazed-Tile Pagoda on Wanshou Shan, Summer Palace, Beijing, 1874 WDL2113. https://commons.wikimedia.org/wiki/File:Dubbo_Glazed-Tile_Pagoda_on_Wanshou_Shan,_Summer_Palace,_Beijing,_1874_WDL2113.png
+- **T070** 玉峰塔 Yufeng Ta, Jingming Yuan, Yuquan Shan, Beijing. Comparable: same court, era or type, confidence C, standing: yes. pagoda on a hill Basis: No source pairs them; chosen for form only, as a building of the same court, decades or type. https://commons.wikimedia.org/wiki/File:%E7%8E%89%E5%B3%B0%E5%A1%94_-_Jade_Peak_Pagoda_(7844240672).jpg
+  - P0588: 玉峰塔 - Jade Peak Pagoda (7844240672). https://commons.wikimedia.org/wiki/File:%E7%8E%89%E5%B3%B0%E5%A1%94_-_Jade_Peak_Pagoda_(7844240672).jpg
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

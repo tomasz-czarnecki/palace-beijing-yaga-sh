@@ -113,7 +113,7 @@ The Palace School, the Princes' Residences, and Studios (the Depth of the Vault 
   ![P0547](../../photos/images/P0547.jpg)
 
 
-## Texts and drawings (22)
+## Texts and drawings (21)
 
 - **E2085** (poem, sure): 御製洞天深處詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:29a-29b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製洞天深處詩 縁溪而東徑曲折如蟻盤短椽陿室於奥為宜雜植卉木紛紅駭緑幽巖石厂别有天地非人間少南即前垂天貺皇考御題予兄弟舊時讀書舎也 幽蘭泛重阿喬柯幕憩榭牝壑既虛寂細瀑時淙㵼瑟瑟竹籟秋亭亭松月夜對此少淹留安知嵗月流願為君子儒不作逍遥遊
@@ -168,10 +168,17 @@ The Palace School, the Princes' Residences, and Studios (the Depth of the Vault 
   An older record of a drawing of Dongtian Shenchu; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
-- **E1178** (reconstruction, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. post 2024, on plans of Jiaqing to Daoguang · section 二 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
-  Sequence of works on Yangshi Lei plans: after 1828 清晖阁 became 湛静斋 with 穿堂殿 and 后殿; 1831 怡情书史 and its fish pond gave way to 慎德堂; 1836 the three axis halls were rebuilt and 同道堂 added; 1846 the four courts of 洞天深处 became two. This fits the labels 前殿, ?顺堂, 后殿 on S01 as the former 湛静斋 group.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 洞天深处. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0002** (paper figure, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. after 2024. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

@@ -3,7 +3,7 @@
 Evidence base for the 3D reconstruction of the Old Summer Palace (圆明园 Yuanmingyuan), target state just before October 1860.
 Rule: nothing goes into the model without a source.
 
-Field names here are checked against the real files by `tools/check_docs.py`. Counts are as of Round 3 (commit 0bb4f81); the checks and generators print the current ones.
+Field names here are checked against the real files by `tools/check_docs.py`. Counts are as of Round 5; the checks and generators print the current ones.
 
 ## Files
 
@@ -19,10 +19,13 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `typology/` | `halls.md`, `params.json` (defaults by hall class, each with a source and a confidence), `rules_out.json`, `scale_check.json` | hand and `scripts/typology_*.py` | yes |
 | `terrain/README.md` | what the DEM can and cannot tell | hand | yes |
 | `photos/` | the picture catalogue and free images, see `photos/README.md` | hand | yes |
-| `evidence/` | what is not an image, see below | hand | yes |
+| `evidence/` | what is not an image, see below; `evidence/coverage_before_r5.json` the coverage before Round 5, which `tools/check_evidence.py` compares with | hand | yes |
+| `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
+| `reconstructions/catalog.csv` | reconstructions by other people, see below | hand, from Round 5 | yes |
+| `reconstructions/images/` | free reconstructions, at most 1600 px and about 300 KB | by hand with the catalogue | yes |
 | `buildings/` | one page per row of `buildings.csv` and per gate; `buildings/README.md` the list | `scripts/building_pages.py`, except each page's `## Notes` | yes |
 | `image-credits/CREDITS.md` | the credit of every public picture | `scripts/photos_catalog.py`, between markers | yes |
-| `raw/` | downloaded originals and local builds | `plans/`, `dem/`, `osm/`, `photos/` (research-only), `buildings/`, `plancrops/` | **never** |
+| `raw/` | downloaded originals and local builds | `plans/`, `dem/`, `osm/`, `photos/` (research-only), `reconstructions/` (research-only copies), `buildings/`, `plancrops/` | **never** |
 | `overlays/` | `princeton-1920s.jpg` + `.json` (bounds for a Leaflet imageOverlay) | `scripts/georef.py overlay` | **never** |
 
 ### plan/
@@ -99,7 +102,7 @@ uv run python tools/check_evidence.py         # coverage; no empty evidence sect
 uv run python tools/check_docs.py             # these docs match the files
 ```
 
-Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json` and the two catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on.
+Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
 
 **Tested on 2026-10-31 (Round 4), in a scratch copy, in three batches, each compared with the repo:** `build_r1.py` through `building_pages.py` (without `render_r1.py`, `coverage_chart.py`, `plan_crops.py`); `typology_rules.py`, `typology_scale_check.py`, `georef.py`; `trace_plan.py --no-review`. They reproduce every committed file byte for byte. `trace_plan.py` took 45 s, each of the others at most 4 s. Not rerun: `fetch_osm.py` (today's OSM would differ), `clip_dem.py` and `mosaic_plan.py` (they write into `raw/`), `plan_crops.py`.
 
@@ -107,10 +110,13 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 
 | Id | What | Where it lives |
 |---|---|---|
-| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 264 ids, S382 the last. Some items have two ids; all stay valid | `sources.md` |
-| `Q1`, ... | an open question. Q1–Q53 | `questions.md` |
-| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0547 the last | `photos/catalog.csv` |
-| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2397 the last | `evidence/catalog.csv` |
+| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 415 ids, S686 the last; S400 and above are Round 5. Some items have two ids; all stay valid | `sources.md` |
+| `Q1`, ... | an open question. Q1–Q62 | `questions.md` |
+| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0719 the last | `photos/catalog.csv` |
+| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2397 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
+| `T001`, ... | a pairing of one of ours with a standing building. A twin named for two objects has two ids | `twins/catalog.csv` |
+| `R0001`, ... | a reconstruction by other people | `reconstructions/catalog.csv` |
+| `CLASS-grand_hall`, ... | a panel page of what speaks for a class of hall: a twin in the catalogue with `object_id` `CLASS:grand_hall` | `data/buildings/` | `evidence/catalog.csv` |
 | `YM01`–`YM40` | the Forty Scenes in album order | `buildings.csv` |
 | `YM41`–`YM55`, `CC01`–`CC21`, `QC01`–`QC52` | other compounds from the texts | `buildings.csv` |
 | `YM56`–`YM88`, `CC22`–`CC30`, `QC53`–`QC82` | compounds read on the plan only | `plan/new_ids.csv` |
@@ -170,15 +176,16 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 | `storeys`, `roof`, `roof_tiles` | only where a source states them; else from the class |
 | `rel_position` | quote from the texts giving the position |
 | `notes` | inventory notes, then `plan:` the reader's note |
+| `size_lead` | a dimension a reconstruction or a modern study states, with its citation, grade B, from `evidence/facts.csv`. Only a lead: never a size, a position or a source of the row. Most name no Yangshi Lei drawing; `basis` in `evidence/facts.csv` says which do |
 
 ## evidence/catalog.csv
 
-One row per text, poem, drawing or report. 2397 rows: 1734 free, 663 research-only; 2234 viewed, 163 snippet.
+One row per text, poem, drawing or report. 2365 rows: 1734 free, 631 research-only; 146 snippet. The 32 `reconstruction` rows moved to `reconstructions/catalog.csv` in Round 5, so the kind is no longer used here.
 
 | Field | Meaning |
 |---|---|
 | `evidence_id` | E + number |
-| `kind` | `text`, `poem`, `description`, `drawing` (Yangshi Lei), `plan`, `archaeology`, `reconstruction` |
+| `kind` | `text`, `poem`, `description`, `drawing` (Yangshi Lei), `plan`, `archaeology` |
 | `source_id` | S.. in `sources.md` |
 | `title`, `date`, `locator`, `link` | the date is the text's; the locator is juan and leaf (`j80:9a`), page, or catalogue number |
 | `rights_class` | `free`: Qing texts and other public domain, quoted. `research-only`: `excerpt_*` stay blank, the panel shows a card and a link |
@@ -188,21 +195,59 @@ One row per text, poem, drawing or report. 2397 rows: 1734 free, 663 research-on
 
 ## evidence/facts.csv
 
-What the evidence adds to a row of `buildings.csv`. 564 rows. Applied by `scripts/apply_facts.py`, whose docstring gives the rules for a field already filled and for raising a grade.
+What the evidence adds to a row of `buildings.csv`. 575 rows. Applied by `scripts/apply_facts.py`, whose docstring gives the rules for a field already filled and for raising a grade.
 
 | Field | Meaning |
 |---|---|
 | `id` | the row of `buildings.csv`, or a gate |
-| `field` | built, bays, changed, destroyed, name_en, roof, depth_m, frontage_m, storeys, roof_tiles |
+| `field` | built, bays, changed, destroyed, name_en, roof, depth_m, frontage_m, storeys, roof_tiles, size_lead |
 | `value` | what it adds. `built` values "by 1759 (first dated item)" are a latest date, not a building date |
 | `source_id`, `locator`, `basis` | where it comes from; `basis` is the quote or the reasoning |
 | `suggest_confidence` | A, B or C, as the finder proposes |
-| `decision` | `apply`; `name` (a label the plan leaves unread, settled by a text; Q38); `note` (kept in `notes`: it measures something else, or conflicts with what the row has); `gate` (for `layers/walls_1860`, waits for that layer's next build); `lead` (seen only in a search summary: not applied) |
+| `decision` | `apply`; `name` (a label the plan leaves unread, settled by a text; Q38); `note` (kept in `notes`: it measures something else, or conflicts with what the row has); `gate` (for `layers/walls_1860`, waits for that layer's next build); `lead` (seen only in a search summary: not applied); `size_lead` (stated in a reconstruction or a modern study: goes to the column `size_lead` and nowhere else) |
 | `reason` | why that decision |
 
 ## photos/catalog.csv
 
-547 rows, 471 free, 76 research-only, 450 on the site. Fields and rights: `photos/README.md`. Columns: `photo_id`, `title`, `date`, `date_from`, `date_to`, `kind`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `shows`, `why`, `also_shows`, `camera_lat`, `camera_lon`, `bearing`, `camera_note`, `file`, `width`, `height`, `notes`, `crop`.
+719 rows, 634 free, 85 research-only, 612 on the site; 153 of them show a twin. Fields and rights: `photos/README.md`. Columns: `photo_id`, `title`, `date`, `date_from`, `date_to`, `kind`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `shows`, `why`, `also_shows`, `camera_lat`, `camera_lon`, `bearing`, `camera_note`, `file`, `width`, `height`, `notes`, `crop`, `relation`.
+
+## twins/catalog.csv
+
+One row per pairing of one of ours with a standing or named building. 135 rows on 66 objects and classes: 13 `copy of`, 6 `sister`, 7 `same design family`, 3 `copied from ours`, 106 `comparable`; 15 A, 60 B, 60 C. **Never a source for a position or a size in `buildings.csv`.** A pairing with no source stays out, or is `comparable`, C, with the reason in `evidence_for_relation`.
+
+| Field | Meaning |
+|---|---|
+| `twin_id` | T + number |
+| `object_id` | ours: a building id, `GARDEN:XY`, or `CLASS:grand_hall` for a typology comparable |
+| `twin_name_zh`, `twin_name_en`, `twin_place` | the other building |
+| `relation` | read from our side: `copy of` (ours copied it), `copied from ours`, `sister` (built together, same design), `same design family`, `comparable` (same court, era or type) |
+| `evidence_for_relation` | the source and locator, with the sentence in our words; for a C, the reason |
+| `still_standing` | `yes`, `rebuilt 1886` and the like (say so: a rebuild, not the original), `partly`, `no`. A lost twin stays in, under its own heading in the panel |
+| `confidence` | of the relation: A a Qing text states it, B a later source, C our judgement |
+| `what_it_tells` | form, roof, bays, setting |
+| `notes`, `status` | working notes, not public; `viewed` or `snippet` |
+| `link`, `licence` | where the relation is stated; how that source may be reused. Required (`tools/check_evidence.py`) |
+
+## reconstructions/catalog.csv
+
+One row per image or work with its own link. 326 rows: 25 free, 23 of them on the site; 120 with a local copy. **Modern interpretation, not evidence; never a source for a position or a size.** Where one disagrees with the period evidence, the row goes in `questions.md` (Q56, Q57).
+
+| Field | Meaning |
+|---|---|
+| `recon_id` | R + number |
+| `evidence_id` | the E id or ids it had in the evidence catalogue, so no link breaks |
+| `source_id` | S.. in `sources.md` |
+| `author`, `institution`, `year`, `uploader` | as stated. `uploader` for a video site: who uploaded it and whether that is the author |
+| `kind` | render, aerial view, video, 3D model, physical model, painting, drawing, AR/VR, paper figure, game or community build |
+| `era` | `modern`, or `period` for the card models 烫样 of the repair of 1873–74, which the panel sets apart |
+| `title`, `link` | the holder's page |
+| `licence`, `attribution`, `rights_class` | licence as the holder states it; the credit to show; `free` or `research-only`. A CC licence on a paper counts for a figure only with no other credit on that figure |
+| `shows` | ties, as in `photos/catalog.csv`, with `GARDEN:ALL` etc. Blank = kept on record, off the panels: 22 rows, the zodiac head models and items not of this garden |
+| `method_stated`, `summary_en` | what the author says they built it from, in our words; else what it is |
+| `caveat` | one public line where it matters: 1744 not 1860, a replica, a scan of today's remains, made with AI, a community build |
+| `status` | `viewed`, or `snippet` if seen only in a search summary; the panel says so |
+| `local_copy`, `width`, `height` | `research/reconstructions/images/R####.jpg` if free; `research/raw/reconstructions/R####.jpg` if research-only, served on localhost only |
+| `notes` | working notes, not public |
 
 ## Layers
 
@@ -236,7 +281,7 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 
 ## The panel JSON
 
-`site/reconstruction/data/buildings/<ID>.json`, one per page: 1612 `hall`, 212 `compound`, 53 `gate`, 5 `garden`. Keys:
+`site/reconstruction/data/buildings/<ID>.json`, one per page: 1612 `hall`, 212 `compound`, 53 `gate`, 5 `garden`, 11 `class`. Keys:
 
 | Key | What |
 |---|---|
@@ -247,8 +292,10 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 | `notes_html` | the page's `## Notes`, above `%% private %%` |
 | `photos`, `photos_inside` | its own pictures; pictures tied to its halls (on a compound). A research-only one has `link_only: true` and no `image` or `thumb` |
 | `evidence` | its own texts and drawings; a research-only one has no excerpt |
+| `reconstructions` | by other people, shaped like a picture, with `era`, `caveat`, `status` added: a free one has `image` and `thumb`, a research-only one `link_only: true` and neither |
+| `twins` | `{id, name, place, relation, standing, confidence, tells, basis, link, status, photos}`, `photos` shaped as above |
 | `plan_ref` | the plan S01 as a link: `{text, link, source_id}` |
-| `fallback` | what speaks for the set of buildings: `[{kind, id, name, heading}]`, `kind` being compound, nearest (with `metres`) or garden. The panel fetches that page, so nothing is written twice |
+| `fallback` | what speaks for the set of buildings: `[{kind, id, name, heading}]`, `kind` being compound, nearest (with `metres`), garden or class. With `refs_only` it brings only that page's reconstructions and twins, folded. The panel fetches that page, so nothing is written twice |
 | `searched` | a line saying what was searched and not found; blank when it has its own picture and text |
 | `questions`, `sources` | `{id, title}`; the cited sources with licence and link |
 
@@ -259,16 +306,18 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 - one with text only, or no position, leans on the garden;
 - anything else leans on the nearest named compound, with the distance, and the garden.
 
-**In the panel,** in this order: own pictures, own texts and drawings, the plan as a link card (image only on localhost), what speaks for the set of buildings, and the `searched` line. Pictures with a `guess` tie are marked and sort last.
+A row also gets, with `refs_only`, its garden if the fallback does not already hold it, and for a hall its class (`refs_of()`). So a hall inherits its compound's reconstructions and twins under the compound's heading, the way it inherits the evidence.
 
-`research/raw/buildings/<ID>.json` has the same keys, with the plan readers' notes, plan pixels, the plan crop and research-only copies in them, for `tools/serve_local.py`. `scripts/building_pages.py` stops on any public key outside its lists (`PUBLIC_KEYS` and the three beside it).
+**In the panel,** in this order: own pictures, own texts and drawings, the plan as a link card (image only on localhost), the `searched` line; **Reconstructions by others**, labelled modern interpretation, not evidence, free images first; **Surviving comparable buildings, not this building**, with relation and source; then what speaks for the set of buildings. Pictures with a `guess` tie are marked and sort last.
+
+`research/raw/buildings/<ID>.json` has the same keys, with the plan readers' notes, plan pixels, the plan crop and research-only copies in them, for `tools/serve_local.py`. `scripts/building_pages.py` stops on any public key outside its lists (`PUBLIC_KEYS` and the four beside it).
 
 ## Public and private
 
 - **Public, with credit** ("Image courtesy of the Princeton University Art Museum"): geometry traced from S01, that is, every `*_1860` layer and the positions, in `site/reconstruction/data/` through `scripts/publish_layers.py`, which drops the readers' working fields. The museum's data treats S01 as not under copyright, and its pages say so (S01 in `sources.md`, Q6).
 - **Local for now:** the plan image and the overlay. The museum's terms would allow showing them, but they carry a non-commercial clause and Tomasz has not decided (Q6). So `research/raw/` and `research/overlays/` stay out of git and off the site; `tools/serve_local.py` serves the overlay on localhost under `/_local/`, as Küstrin does. It marks its answers with `X-Palace-Local`, so a page on a plain static server (the preview on :8790, a host) never asks for `/_local/`. `?public=1` shows what a visitor sees.
 - **Building pages:** `data/buildings/<ID>.json` holds names, garden, dates, sources, confidence, the note as facts with citations, the box, the evidence (free pictures with images, research-only ones as link cards; Qing texts quoted, modern work summarised). Only `raw/buildings/<ID>.json` has the plan readers' notes, plan pixels, the plan crop, research-only copies and any other quote.
-- **Pictures:** `photos/images/` holds free images only; research-only ones stay in `raw/photos/`. Web copies reach `site/reconstruction/photos/` only through `scripts/photos_catalog.py`, with their credits in `site/credits.html`. BnF album leaves need the credit "Source gallica.bnf.fr / BnF".
+- **Pictures:** `photos/images/` and `reconstructions/images/` hold free images only; research-only ones stay in `raw/photos/` and `raw/reconstructions/`. Web copies reach `site/reconstruction/photos/` only through `scripts/photos_catalog.py`, with their credits in `site/credits.html`. BnF album leaves need the credit "Source gallica.bnf.fr / BnF".
 - **`research/plan/inventory_texts.csv`** quotes 日下旧闻考 (public domain) and states facts from research-only articles; it is not published as a file. Facts go to the site with a citation only.
 - OSM data needs ODbL attribution. Esri tiles are never saved in the repo.
 - **Second lock:** `.gitignore` and `site/.vercelignore` leave overlays, `raw/` and any CSV out of the site even if copied there by hand.

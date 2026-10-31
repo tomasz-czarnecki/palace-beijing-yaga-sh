@@ -56,6 +56,15 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0314** (drawing, sure): Gartenplan der Xiyang Lou (西洋楼) in Peking. Maximilian Dörrbecker (Chumwa). https://commons.wikimedia.org/wiki/File:Gartenplan_der_Xiyang_Lou.png
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+
 ## Open questions
 
 - Q32: OSM errors

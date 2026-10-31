@@ -40,6 +40,7 @@ None of its own.
 
 - Evidence for the nearest named compound, 坐石临流, about 110 m away (no picture of this hall found): see YM38
 - Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this hall found): see GARDEN-YM
+- Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

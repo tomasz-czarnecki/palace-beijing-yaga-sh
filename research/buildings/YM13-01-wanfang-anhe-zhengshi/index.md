@@ -39,7 +39,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (13)
+## Texts and drawings (12)
 
 - **E1442** (poem, sure): 御製萬方安和九詠（有序）. 1764 (乾隆二十九年) · j81:10a-12a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆二十九年御製萬方安和九詠（有序）　圓明園西首於湖上築室作卍字形萬方安和其總名也為四十景之一迴廊面面各標勝概曲折向背輒復不同就四言標榜者得景凡九皆我皇考御筆也其二三言者尚不在此數夫室一區耳而為景不可勝計豈誠㸃綴之擅天巧哉於以見聖人之會心無窮又以見聖人之制度有節是予小子所當敬法也各成近體以誌遐思　肯構見於牆安和願萬方十三年宵旰千百載金湯卓爾吾由末瞠乎敢不蘉明堂設稽古左个在青陽（是額懸於卍字東南方為向陽正室即以此統名之右萬方安和）　向西旋轉北步近室之中東接函闗氣南來虞舜風迎人仰霽色愛物體淵衷夫子得於五温良象獨崇（右佳氣迎人）　四面近通廊中間正且方周旋皆中（去聲）矩鎮靜似持綱憶昔求安志於今豈敢忘要惟祈嵗稔民庶共平康（右四方寜静）　東向俯長溪溪煙入牖低氣蒸銀沆瀣界是碧玻瓈秋月蘆花渚春風栁線隄於何識常住翹首睇璇題（右碧溪一帶）　山峙水常流清音樂志投籟從風處峭響自石邊遒摶戛寜須藉宫商得概不崇情契仁知然豈忘先憂（右山水清音）　室中亦有樓仙榜揭神洲雲自棟梁寫風從忩户流簫曾聞子晉袖可挹浮邱那似劉家帝空勞海上舟（右神洲三島）　疏泉還叠石位置儼天然境與塵凡隔景供軒榭全崇高標嶺岫流動帶淪漣那數期牙奏心存解愠絃（右高山流水）　枕潄高人操因差轉得竒洗流耳雅合礪石齒偏宜易象占肥遯詩風詠樂飢渴賢别有託駒谷繾殷思（右枕流潄石）　武夷窮九曲方識洞天佳仿彿虹橋架依稀毛竹排益深斯致逺惟静與為諧欲會凝神抱緣澄出治懷（右洞天深處）
@@ -74,16 +74,23 @@ None of its own.
   The compiler dates it to early Yongzheng, as 万字房; it was Yongzheng's favourite residence and the place of Qianlong's Duanwu dinners for the dowager. 万方安和: 37 dated items, 1744-1824, of which 22 poems and 15 court records (Qianlong, Jiaqing, Daoguang); recurring themes: visits to the dowager, daily residence there, state papers. First dated 1744, last dated 1824.
 - **E1451** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 万方安和. 2020 edition · v2 p.117 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=120
   Of 1727, built in the water in the shape of a 卍, with named rooms on each arm (the note lists them all). 平安院 lies north-east by a bridge, and a large double-eaved cross-shaped pavilion on the south shore.
-- **E1458** (reconstruction, sure, search index only): Constructive analysis and digital 3D reconstruction of the Yuanmingyuan Ruins: Wanfanganhe Pavilion, Virtual Archaeology Review (Yan Chen). 2022 · polipapers article 16523 · S355. https://polipapers.upv.es/index.php/var/article/view/16523
-  Paper with a 3D reconstruction of 万方安和 Wanfang Anhe. Seen by search only: the link timed out and the RiuNet mirror is bot-checked.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 万方安和. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0289** (physical model, sure): 烫样, Model of the Hall of Universal Peace (万方安和) in Yuan Ming Yuan. 样式房 Imperial Architecture Studio, Yangshi Lei, 故宫博物院 Palace Museum, 1873-1874. https://www.hkpm.org.hk/en/exhibition/the-hong-kong-jockey-club-series-yuan-ming-yuan-art-and-culture-of-an-imperial-garden-palace Research-only: link card.
+- **R0112** (paper figure, likely): Fig. 5, Viewing angle and viewing distance of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig5 Research-only: link card.
+- **R0104** (paper figure, sure, search index only): Constructive analysis and digital 3D reconstruction of the Yuanmingyuan Ruins: Wanfanganhe Pavilion (Virtual Archaeology Review 13(27)). Yan Chen, Federico Luis del Blanco Garcia, 2022. https://polipapers.upv.es/index.php/var/article/view/16523 Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 万方安和 (no picture of this hall found): see YM13
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a small house (not this building): see CLASS-small_house
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

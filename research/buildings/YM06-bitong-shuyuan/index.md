@@ -108,6 +108,15 @@ Library of the Green Wu T'ung Trees · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 碧桐书院. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

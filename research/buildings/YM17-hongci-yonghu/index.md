@@ -152,9 +152,27 @@ The Ancestral Shrine (Vast Compassion and Eternal Blessing) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 鸿慈永祜 / 安佑宫. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0082** (render, likely): 鸿慈永诂 (first image), image 747 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0083** (render, likely): 鸿慈永诂 (second image), image 748 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T017** 寿皇殿 (景山) Shouhuang Dian, Jingshan, 景山 Jingshan, Beijing. Same design family, confidence A, standing: yes. 9-bay double-eave yellow hall, 重檐, ancestral court, 琉璃坊, 华表 Basis: S05 j.81 f.20b: 「安佑宫建自乾隆七年，皇上恭仿寿皇殿之制」, Anyou Gong copied the (old) Shouhuang Dian. The standing hall is NOT what was copied: see `notes`. S423 repeats the copy claim. S422: the earlier hall had three bays, then Qianlong rebuilt in 1749 at nine. https://github.com/kanripo/KR2k0036
+  - P0579: Peking verbotene Stadt-20071018-RM-162411. https://commons.wikimedia.org/wiki/File:Peking_verbotene_Stadt-20071018-RM-162411.jpg
+  - P0580: Shouhuang Hall, Jingshan Park, Xicheng District, Beijing (202602230934). https://commons.wikimedia.org/wiki/File:Shouhuang_Hall,_Jingshan_Park,_Xicheng_District,_Beijing_(202602230934).jpg
+- **T016** 太庙 Taimiao, Imperial Ancestral Temple, 故宫东 Beijing. Comparable: same court, era or type, confidence C, standing: yes. Nine-bay ancestral hall, ritual court Basis: S434 (tourist text) says 安佑宫 fully copies 太庙. S05 j.81 f.20b says 寿皇殿 instead, and a search summary says the 1749 寿皇殿 copied 太庙. Probably a slip between the two. https://www.visitbeijing.com.cn/article/47QkVhww6K6
+  - P0635: 北京太庙享殿2018. https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%A4%AA%E5%BA%99%E4%BA%AB%E6%AE%BF2018.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
-None that name it.
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

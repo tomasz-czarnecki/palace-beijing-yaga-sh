@@ -46,7 +46,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (12)
+## Texts and drawings (11)
 
 - **E0307** (text, sure): 日下舊聞考 映清斋、鉴园. 1780s (乾隆 敕撰) · j83:18a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 玉玲瓏館之南為昭曠亭亭東南為映清齋齋東為鑑園敞宇五楹西嚮北為潄瓊齋其東為師善堂（長春園册）臣等謹案鑑園之後有船塢
@@ -77,16 +77,19 @@ None of its own.
   Undated ink base plan of Yingqing Zhai, 207x203 mm. No image here; the site may ask a small payment for the full record.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
-- **E0310** (reconstruction, sure, search index only): [清华]映清斋. n.d. · mhymy szfy 13322 · S340. https://www.mhymy.com/szfy/13322.html
-  Link card to a Tsinghua team render of 映清斋 Yingqing Zhai; the page itself was not reachable today.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 映清斋, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0021** (render, sure, search index only): [清华]映清斋. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/13322.html Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

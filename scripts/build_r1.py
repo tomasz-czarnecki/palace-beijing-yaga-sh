@@ -451,7 +451,7 @@ def main() -> None:
         return "outside the walls"
 
     # -- rows --
-    F = "id,parent_id,name_zh,name_pinyin,name_en,name_on_plan,read,garden,type,hall_class,built,changed,destroyed,sources,confidence,pos_confidence,lat,lon,pos_source,plan_x,plan_y,footprint_id,bays,bays_plan,frontage_m,depth_m,size_source,orientation_deg,orientation_assumed,storeys,roof,roof_tiles,rel_position,notes".split(",")
+    F = "id,parent_id,name_zh,name_pinyin,name_en,name_on_plan,read,garden,type,hall_class,built,changed,destroyed,sources,confidence,pos_confidence,lat,lon,pos_source,plan_x,plan_y,footprint_id,bays,bays_plan,frontage_m,depth_m,size_source,orientation_deg,orientation_assumed,storeys,roof,roof_tiles,rel_position,notes,size_lead".split(",")
     out = []
     footprints = []
     fp_counter = 0

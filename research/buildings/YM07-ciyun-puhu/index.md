@@ -115,6 +115,17 @@ Island of Shrines (Merciful Clouds Universally Protecting) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 慈云普护. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0085** (render, likely): 紫云普护 (= 慈云普护), image 750 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0118** (drawing, sure): Abb. 18, 慈云普护 Ciyun Puhu (Szene 107), Lage und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0053** (AR/VR, sure): “飞跃圆明园四十景”, MR glasses, 2026 服贸会 at Shougang. 中央美术学院 人工智能与数字文化遗产研究中心, 中央美术学院 Central Academy of Fine Arts, 2026. https://cn.chinadaily.com.cn/a/202609/14/WS6aa802efe4b09a165c78a00c.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

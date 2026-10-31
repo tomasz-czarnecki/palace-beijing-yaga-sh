@@ -66,6 +66,15 @@ Qichun Yuan
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0076** (video, sure, search index only): 展诗应律视频. . https://www.mhymy.com/szfy/fysp Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q13: Weak identifications

@@ -14,6 +14,7 @@ Qichun Yuan
 - **Destroyed:** 1860 (S47, S337)
 - **Position:** Not placed: the name was not found on the plan.
 - **Bays:** 3 in the texts (S47, S337)
+- **Lead on its size, from a modern study, not used in the model:** 3 bays (S686, section 一). (confidence B)
 - **Note:** Named as a scene area around QC24 (S47). (S47, S337)
 - **Plan reader's note:** Unlabelled on S01. Read every label in x 5300-10600, y 4650-8700 on 1x tiles and zoomed crops; this name does not appear. Text gives no position. (S01) *(research copy, not public)*
 - **How it was read:** not_found (S01) *(research copy, not public)*
@@ -41,11 +42,16 @@ None of its own.
 - **E0800** (plan, sure): 从《春和园纪游诗》: 延英论道. post n.d. · NLC 样101-7 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/143ef8cac193488089ad8d164e2ec3d5.htm
   NLC plan 样101-7 labels only one building in the small garden west of 清夏斋: 延英论道, three bays, on the south shore of the east water. A sibling paper puts the earlier 西爽村 here.
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0311** (paper figure, sure): 从《春和园纪游诗》论绮春园的早期历史风貌: plan 样101-7 《清夏斋》 read as the early 春和园. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/143ef8cac193488089ad8d164e2ec3d5.htm Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this compound found): see GARDEN-QC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

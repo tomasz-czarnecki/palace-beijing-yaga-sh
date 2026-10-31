@@ -146,6 +146,21 @@ Changchun Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 思永斋. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0320** (drawing, sure): 张宝诚绘思永斋复原图. 张宝诚. https://blog.sina.com.cn/s/blog_6ff8be850100nobj.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T068** 小有天园 (汪氏) Xiaoyoutian Yuan of the Wang family, 南屏山 杭州 Hangzhou. Ours was copied from it, confidence A, standing: partly. Scale: a 袖珍 miniature on 10 笏 of ground, with painted West Lake walls; not a garden in size Basis: S05 j.83 f.9b-10b: 御制小有天园记: after the tour of 1757 he has a small plot east of 思永斋 built with piled rock like 慧日峰 and a tin cast hall like 壑庵, water falling as at 幽居洞. S400 (梁雪 2022): the copy has been confirmed by Qing records and is a tiny court with painted walls. https://github.com/kanripo/KR2k0036
+- **T067** 小有天 (颐和园 万寿山西麓) Xiaoyoutian group on Longevity Hill, 颐和园 Summer Palace, Beijing. Comparable: same court, era or type, confidence C, standing: partly. Standing group of the same court on a real slope: 延清赏楼, a pavilion, 穿堂殿; compare for how a small court was treated Basis: S400: built soon after the first southern tour, near in date to our copy; the author presents its link to Hangzhou as his own inference (推演), not a stated copy. https://www.aisixiang.com/data/133010.html
+  - P0648: 乾隆三十年乙酉（1765）御題南屏山小有天園詩. https://commons.wikimedia.org/wiki/File:%E4%B9%BE%E9%9A%86%E4%B8%89%E5%8D%81%E5%B9%B4%E4%B9%99%E9%85%89%EF%BC%881765%EF%BC%89%E5%BE%A1%E9%A1%8C%E5%8D%97%E5%B1%8F%E5%B1%B1%E5%B0%8F%E6%9C%89%E5%A4%A9%E5%9C%92%E8%A9%A9.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 - Q26: Forms

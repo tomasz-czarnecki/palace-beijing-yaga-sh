@@ -17,6 +17,7 @@ Yuan Ying Kuan, View of Distant Seas · Xiyang Lou
 - **Position:** 40.01263, 116.30653. S01 sure (S01 · confidence B)
 - **Bays:** 5 (S06) in the texts / 5x4 on the plan (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Size in the inventory:** 59.2 × 51.0 m. typology xiyang_lou, C (S01)
+- **Lead on its size, from a modern study, not used in the model:** Yuanying Guan: terrace about 35 x 31 m; building footprint 21 x 28 m; post grid known to about 50 cm (S603, pp. 131-132). (confidence B)
 - **Storeys:** 1 (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Roof:** 庑殿顶 3-tier (S06) (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Tiles:** 五色琉璃, 鱼鳞金瓦 (S06) (S02, S06, S42, S01, S109, S03, S258, S310)
@@ -40,7 +41,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY09-N02
 - XY09-N03
 
-## Pictures (21)
+## Pictures (23)
 
 - **P0054** (sure): 远瀛观正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十四 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-11.jpg
 
@@ -82,6 +83,14 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0292](../../photos/images/P0292.jpg)
 
+- **P0646** (likely): 圓明園址 (1), 図版 XII-54 (printed caption) (published 昭和16 (1941), NDL record; photographs undated). https://dl.ndl.go.jp/pid/1902723/1/59
+
+  ![P0646](../../photos/images/P0646.jpg)
+
+- **P0719** (likely): 圓明園の廢墟 (printed caption slip beside the photograph) (series 昭和10-17 (NDL); this number not dated in what I read). https://dl.ndl.go.jp/pid/1266050/1/9
+
+  ![P0719](../../photos/images/P0719.jpg)
+
 - **P0213** (sure): Sirén, Enligt text under Pl. 191a Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter gravyr av år 1786. (undated by holder; Sirén's second trip 1921-23 for this group). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198825 Research-only: link card.
 
   ![P0213](../../raw/photos/P0213.jpg)
@@ -112,7 +121,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **P0328** (guess): Arches and carved marble column from a ruined building at Yuan Ming Yuan (1933-1946 (HPC estimate)). https://hpcbristol.net/visual/Hv20-059 Research-only: link card.
 - **P0331** (guess): Carved marble column and capital from a ruined building at Yuan Ming Yuan (1933-1946 (HPC estimate)). https://hpcbristol.net/visual/Hv20-073 Research-only: link card.
 
-## Texts and drawings (31)
+## Texts and drawings (30)
 
 - **E0185** (poem, likely): 御製 題澤蘭堂. 1795 (御製詩五集) · KR4f0005_486:3a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_486.txt
   > 題澤蘭堂 書堂號澤蘭樸斵謝青丹芸帙堪永日藤窻避薄寒蕪情報韶意水法列竒觀（堂北為西洋水法處盖縁乾隆十八年西洋博爾都噶里雅國）（來京朝貢聞彼處以水法為竒觀因念中國地大物博水法不過工巧之一端遂命住京之西洋人郎世寧造）（為此法俾來使至此瞻仰前嵗□咭唎國使臣等至京朝貢亦令閲看深為歎服昨冬廣東督臣長麟撫臣朱）（珪奏荷蘭國使臣嘚□等以今嵗為朕御極六十年大慶懇請来京朝賀鑒其數萬里外慕化悃誠因允其請）（已即於臈月到京新正並與朝賀宴賞節間令於是處觀看水法使知朕所嘉者逺人嚮化之誠若其任土作）（貢則中國之大何竒不有初不以為貴也）洋使賀正至逺瀛合俾看
@@ -194,10 +203,25 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Three large campaigns since 1996 yielded over 50,000 finds. The campaign from 2012 dug 桃花洞, 大宫门, 养雀笼, the 海晏堂 water tower and 远瀛观. At 如园 Ru Yuan, the best-preserved of these sites and the first imitation of a Jiangnan garden dug here (19,000 m2 site, 2,800 m2 buildings, 3,800 m2 opened), diggers found 芝兰室, 云萝山馆, 听泉榭, 延清堂, 含碧楼, 挹霞亭, 观丰榭, 引胜轩, rockery, paths and shores, and burnt famille-rose floor tiles in 延清堂.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0984** (reconstruction, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 2025-05-21 · 京报网 · S351. https://news.bjd.com.cn/2025/05/21/11171051.shtml
-  The park and Peking University's School of Archaeology and Museology record the carved stones by 3D scan, photogrammetry and panorama, at 大水法, 观水法, 远瀛观, 海晏堂 and pieces now on the Peking University campus. This is the nearest thing found to a 'Peking University Digital Yuanmingyuan'. It says over 10 sites have been dug since the 1990s.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 远瀛观, 5x4 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (9)
+
+Modern interpretation, not evidence.
+- **R0314** (drawing, sure): Gartenplan der Xiyang Lou (西洋楼) in Peking. Maximilian Dörrbecker (Chumwa). https://commons.wikimedia.org/wiki/File:Gartenplan_der_Xiyang_Lou.png
+- **R0092** (render, likely): 远瀛观, image 762 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0003** (3D model, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 圆明园管理处; 北京大学考古文博学院, 2025. https://news.bjd.com.cn/2025/05/21/11171051.shtml Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0143** (drawing, sure): Fig. 16, Facade sud du Yuanyingguan (restitution 1986). Antoine Durand, Mission Palais d'Ete, 1986 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0140** (drawing, likely): Fig. 5, Plan de l'aire du buffet d'eau (plan de restitution 1987). Antoine Durand, Mission Palais d'Ete, 1987 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0123** (drawing, sure): Abb. 31, 远瀛观 Yuanying Guan (Szene 221), Lage und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0133** (physical model, likely): Maquette of the European garden (Xiyang Lou), with a new measured plan. Philippe Jonathan, Antoine Durand, French Foreign Ministry mission to Yuanmingyuan, 1983-85, 1987. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf Research-only: link card.
+- **R0134** (paper figure, likely): Le jardin a l'europeenne du Yuanming Yuan: Fig. 5 ruins of the Belvedere 1983, comparisons and plates, a book-length essay with 40+ figures. Daniel Rabreau, GHAMU, 2022. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 
@@ -205,6 +229,8 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - Q24: Xiyang Lou
 - Q48: Xiyang Lou
 - Q49: Captions overruled by form (old photographs)
+- Q56: Reconstructions against the period evidence
+- Q60: Captions and claims, old photographs (Round 5)
 
 <!-- generated:end -->
 

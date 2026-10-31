@@ -145,6 +145,16 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 凤麟洲, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0024** (render, sure, search index only): [清华]凤麟洲. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/13421.html Research-only: link card.
+- **R0266** (video, guess): 爆肝20亿 token，只想带你走进一次圆明园. 策殊丶, 2026. https://www.bilibili.com/video/BV1xQYc6AEao Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q12: 敷春堂

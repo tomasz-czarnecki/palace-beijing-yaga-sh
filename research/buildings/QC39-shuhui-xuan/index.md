@@ -57,6 +57,10 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 舒?轩 (? marks an unread character), 2x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q11: Qichun Yuan's thirty scenes

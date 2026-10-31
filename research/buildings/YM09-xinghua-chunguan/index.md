@@ -80,7 +80,7 @@ The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms) · Yu
   ![P0450](../../photos/images/P0450.jpg)
 
 
-## Texts and drawings (34)
+## Texts and drawings (32)
 
 - **E1285** (poem, sure): 御製杏花春館詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:1b-2a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製杏花春館詩 由山亭邐迤而入矮屋疎籬東西參錯環植文杏春深花發爛然如霞前闢小圃雜蒔蔬蓏識野田村落景象 霏香紅雪韻空庭肯讓寒梅占膽瓶最愛花光傳藝苑每乗月令驗農經為梁謾説仙人館載酒偏宜小隠亭夜半一犁春雨足朝來吟屐樹邊停
@@ -165,12 +165,19 @@ The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms) · Yu
   The Palace Museum 三园河道图 shows a three-bay open hall on the channel east of 杏花春馆, which the Guimet plan omits.
 - **E1308** (archaeology, sure): 杏花春馆 屏岩, 绿云酣: excavated. 2020 · section 三.2 · S41. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/8eef05885c3e4279ae0132f1a37a13c9.htm
   Excavation found the small city-gate 屏岩 at the top right of the album leaf, with its four corner stones in place and its road, and the hexagonal pavilion 绿云酣 half way up the hill with its rubble base and brick bench walls with post holes. Album leaf and ground agree.
-- **E0562** (reconstruction, likely): 《“再造”一个圆明园》, Tsinghua news. n.d. · 媒体清华 · S342. https://www.tsinghua.edu.cn/info/1182/39662.htm
-  郭黛姮's research from 2000 with students including 贺艳; the digital work from 2009 by 清城睿现. They traced remains by bicycle: steps at 上下天光, cave and rockery at 杏花春馆, timber piles at 濂溪乐处. A clear account of method, without pictures to take.
-- **E1309** (reconstruction, sure, search index only): 再现·圆明园——杏花春馆, 贺艳. 2012 · mhymy qklw 9548 · S341. https://www.mhymy.com/xsjl/qklw/9548.html
-  贺艳's reconstruction essay on the rustic 杏花春馆 Xinghua Chunguan, once the 菜圃. Not read in full.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 杏花春馆. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0009** (3D model, likely): 《“再造”一个圆明园》, Tsinghua news. 郭黛姮, 贺艳 and team, 清华大学; 清城睿现. https://www.tsinghua.edu.cn/info/1182/39662.htm Research-only: link card.
+- **R0031** (video, sure, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+- **R0040** (paper figure, sure, search index only): 再现·圆明园——杏花春馆. 贺艳 (清华大学, as the extract states), 清华大学, 2012. https://www.mhymy.com/xsjl/qklw/9548.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

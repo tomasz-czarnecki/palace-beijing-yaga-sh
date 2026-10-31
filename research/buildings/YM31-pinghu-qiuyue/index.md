@@ -176,6 +176,26 @@ Level Lake and Autumn Moon · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 平湖秋月. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0309** (paper figure, likely): 《一幅样式雷圆明园全图的年代推断》: NLC plan 043-001 dated by the outlines of scenes. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xsdt/xsxl/794b73c241ef4fa79b8d6720f31bac13.htm Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T028** 平湖秋月 Pinghu Qiuyue (Autumn Moon over the Calm Lake), 西湖 West Lake, 杭州. Comparable: same court, era or type, confidence A, standing: yes. Setting: a hall on the water facing a lake with a moon view Basis: S05 j.82 f.16a, poem of 乾隆九年: compares this lake to the 苏公堤 and ends 「此时谁不道钱塘」. https://github.com/kanripo/KR2k0036
+  - P0601: 西湖平湖秋月. https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B9%96%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88.JPG
+  - P0602: Autumn Moon Over the Calm Lake. https://commons.wikimedia.org/wiki/File:Autumn_Moon_Over_the_Calm_Lake.jpg
+- **T027** 双峰插云 Shuangfeng Chayun, 西湖 杭州 Hangzhou. Comparable: same court, era or type, confidence B, standing: partly. Name only: a view of two peaks Basis: S434: 平湖秋月 blends the West Lake 平湖秋月 and 双峰插云 (tourist text). S05 j.82 f.15b: 两峰插云 in this compound. https://www.visitbeijing.com.cn/article/47QkVhww6K6
+  - P0663: 宋 葉肖巖 西湖十景圖 兩峰插雲. https://commons.wikimedia.org/wiki/File:%E5%AE%8B_%E8%91%89%E8%82%96%E5%B7%96_%E8%A5%BF%E6%B9%96%E5%8D%81%E6%99%AF%E5%9C%96_%E5%85%A9%E5%B3%B0%E6%8F%92%E9%9B%B2.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q41: 藏密楼 YM31-07, 松风阁 YM81

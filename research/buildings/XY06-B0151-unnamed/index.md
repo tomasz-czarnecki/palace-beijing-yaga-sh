@@ -45,6 +45,8 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 方外观: see XY06
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+- Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

@@ -106,10 +106,26 @@ A Buddhist Temple (Sun Heaven Topaz Roof) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 日天琳宇 / 瑞应宫. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0023** (render, sure, search index only): [清华]日天琳宇. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/12998.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T020** 后佛楼 (雍和宫 东书院) Back Buddha Tower, east library court, Yonghe Gong, 雍和宫 Yonghe Gong, Beijing. Ours was copied from it, confidence A, standing: no. Paired two-storey buildings of 7 bays joined by galleries and bridges, a tower-shrine type Basis: S05 j.81 f.27b: 日天琳宇 「其规制皆仿雍和宫后佛楼式」. 王志伟 2017 (S403) calls the Yonghe tower a copy of ours instead; the Qing text wins, see question row. https://github.com/kanripo/KR2k0036
+- **T019** 万福阁 with 永康阁, 延绥阁 Wanfu Ge with its side towers, 雍和宫 Yonghe Gong, Beijing. Comparable: same court, era or type, confidence C, standing: yes. The form S05 describes for ours, seen in the same temple: towers with bridges Basis: S05 j.81 f.27b: ours copies the Yonghe 后佛楼, joined by bridges 天桥. S422 (雍和宫): 万福阁 3 storeys, 7 bays, double 歇山, with side towers joined by flying bridges: stands in the same temple. No text says it is related. https://zh.wikipedia.org/wiki/雍和宫
+  - P0687: Beijing 2009-0998. https://commons.wikimedia.org/wiki/File:Beijing_2009-0998.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state
 - Q18: Plan labels vs text names at 藻园, 月地云居, 日天琳宇 etc
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

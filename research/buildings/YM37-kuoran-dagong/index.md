@@ -75,11 +75,11 @@ The Porch of the Great Gentleman · Yuanming Yuan
 
   ![P0163](../../photos/images/P0163.jpg)
 
-- **P0164** (likely): 圓明園之龍月橋所有龍舟由橋穿過雅致之極 (print caption) (circa 1879 (Commons)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E4%B9%8B%E9%BE%8D%E6%9C%88%E6%A9%8B%E6%89%80%E6%9C%89%E9%BE%8D%E8%88%9F%E7%94%B1%E6%A9%8B%E7%A9%BF%E9%81%8E%E9%9B%85%E8%87%B4%E4%B9%8B%E6%A5%B5.jpg
+- **P0490** (likely): Guiyue Bridge in the Yuanmingyuan.jpg (). https://commons.wikimedia.org/wiki/File:Guiyue_Bridge_in_the_Yuanmingyuan.jpg Research-only: link card.
+- **P0164** (guess): 圓明園之龍月橋所有龍舟由橋穿過雅致之極 (print caption) (circa 1879 (Commons)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E4%B9%8B%E9%BE%8D%E6%9C%88%E6%A9%8B%E6%89%80%E6%9C%89%E9%BE%8D%E8%88%9F%E7%94%B1%E6%A9%8B%E7%A9%BF%E9%81%8E%E9%9B%85%E8%87%B4%E4%B9%8B%E6%A5%B5.jpg
 
   ![P0164](../../photos/images/P0164.jpg)
 
-- **P0490** (likely): Guiyue Bridge in the Yuanmingyuan.jpg (). https://commons.wikimedia.org/wiki/File:Guiyue_Bridge_in_the_Yuanmingyuan.jpg Research-only: link card.
 
 ## Texts and drawings (37)
 
@@ -186,6 +186,24 @@ The Porch of the Great Gentleman · Yuanming Yuan
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 廓然大公. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0292** (physical model, likely, search index only): 烫样, 廓然大公. 样式房 Yangshi Lei, 故宫博物院 Palace Museum. https://www.ihchina.cn/news_other_details/17719.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T036** 云林石室 (静寄山庄) Yunlin Stone Chamber, Jingji villa, 盘山 Panshan, 蓟县. Ours was copied from it, confidence B, standing: no. Nothing for form today Basis: S361 v3 p.67; S419: the rockwork of 廓然大公 copies the rocks of 云林石室 at the Panshan villa. S05 j.83 f.16b, own note: 盘山静寄山庄 has a 云林石室. https://www.visitbeijing.com.cn/article/47Qq6AgegcR
+- **T037** 寄畅园 Jichang Yuan, 惠山 无锡 Wuxi. Ours was copied from it, confidence B, standing: yes. Long pond, gallery, rocks; plan idea Basis: S361 v3 p.67, editors' note (E2035): Qianlong's rebuild of 廓然大公 copied 寄畅园, the rocks copying his Panshan villa. S419: rebuild from 乾隆十九年 (1754); Jiaqing's poem says the building long since imitated Huishan. S05 j.84 f.17a covers the same garden as model for 惠山园 only. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=70
+  - P0626: Slepping-on-cloud Hall, Jichang Garden. https://commons.wikimedia.org/wiki/File:Slepping-on-cloud_Hall,_Jichang_Garden.jpg
+  - P0627: 寄畅园. https://commons.wikimedia.org/wiki/File:%E5%AF%84%E7%95%85%E5%9B%AD.jpg
+- **T038** 谐趣园 (原 惠山园) Xiequ Yuan, first Huishan Yuan, 颐和园 Summer Palace. Sister: built together, same design, confidence A, standing: rebuilt 1886. Pond and galleries of the same model on northern ground; the closest standing court version Basis: S05 j.84 f.16b: 惠山园 「规制仿寄暢园」; f.17a: he took a picture home in 1751 and built it at the east foot of Wanshou Shan. Same model as ours per S361. https://github.com/kanripo/KR2k0036
+  - P0628: 颐和园谐趣园 - panoramio (1). https://commons.wikimedia.org/wiki/File:%E9%A2%90%E5%92%8C%E5%9B%AD%E8%B0%90%E8%B6%A3%E5%9B%AD_-_panoramio_(1).jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

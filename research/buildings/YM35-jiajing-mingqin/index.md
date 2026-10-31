@@ -104,6 +104,25 @@ Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) · Yuanming 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 夹镜鸣琴. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, sure): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0007** (3D model, likely): 北京旅游网: 108 scenes digitised. 数字圆明园 team. https://www.visitbeijing.com.cn/article/49Nly85Lvzb Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T033** 南屏晚钟 Nanping Wanzhong, 净慈寺 西湖 Hangzhou. Comparable: same court, era or type, confidence C, standing: partly. Name only: a bell by a lake hall Basis: S05 j.82 f.20a-b: hall east of 广育宫, plaque by Qianlong. S416 general. Assigned by the name; no text on this one. https://github.com/kanripo/KR2k0036
+  - P0691: Evening Bell Ringing at the Nanping Hill taken by Erwoxuan Photo Studio, 1911. https://commons.wikimedia.org/wiki/File:Evening_Bell_Ringing_at_the_Nanping_Hill_taken_by_Erwoxuan_Photo_Studio,_1911.jpg
+- **T034** 水心榭 Shuixin Xie, 避暑山庄 Chengde. Comparable: same court, era or type, confidence C, standing: yes. Pavilion rising from a bridge; sluice form from general knowledge, not read Basis: S05 j.82: 夹镜鸣琴 is a bridge with a pavilion on it. S422 for 水心榭. No text pairs them. https://zh.wikipedia.org/wiki/承德避暑山庄及其周围寺庙
+  - P0593: 避暑山庄水心榭 3. https://commons.wikimedia.org/wiki/File:%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E6%B0%B4%E5%BF%83%E6%A6%AD_3.jpg
+  - P0594: 亜東印画輯 07 048 "水心榭（熱河山莊苑）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_07_048_%22%E6%B0%B4%E5%BF%83%E6%A6%AD%EF%BC%88%E7%86%B1%E6%B2%B3%E5%B1%B1%E8%8E%8A%E8%8B%91%EF%BC%89%22.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 None that name it.

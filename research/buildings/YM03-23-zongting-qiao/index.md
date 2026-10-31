@@ -37,6 +37,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏: see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

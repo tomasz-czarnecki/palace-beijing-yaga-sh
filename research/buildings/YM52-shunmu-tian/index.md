@@ -26,9 +26,12 @@ Yuanming Yuan
 
 - YM52-N01 顺木天
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0712** (likely): 顺木天 (exhibition label); mount inscribed Yen-Ming-Yuan Nº 318 (1882, as said in the clip by 刘阳 Liu Yang (S650); S651 gives 1882 for Semalle). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0712](../../raw/photos/P0712.jpg)
+
 
 ## Texts and drawings (7)
 
@@ -54,13 +57,11 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this compound found): see GARDEN-YM
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 
-None that name it.
+- Q54: Timber buildings standing in 1882 (Round 5)
 
 <!-- generated:end -->
 

@@ -58,7 +58,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   ![P0301](../../photos/images/P0301.jpg)
 
 
-## Texts and drawings (9)
+## Texts and drawings (8)
 
 - **E0937** (description, sure): Plate III: 蓄水楼 Xushui Lou. 1786-1803 · pp.177-178, Plate III · S258. https://archive.org/details/BIUSante_40644
   > C'est un corps-de-logis composé d'un rez-de-chaussée, et d'un étage; celui-ci percé de cinq fenêtres, celui-là de quatre fenêtres et d'une porte.
@@ -80,10 +80,24 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Undated design and survey sketch with the perspective bridge, the water tower, the aviary and Xieqi Qu. No image here; the site may ask a small payment for the full record.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0936** (reconstruction, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. 2015 · open access paper · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
-  The Yuanmingyuan Digital Restoration Research Project of 2013 covered five of thirteen 西洋楼 scenes in its first two years: 谐奇趣, 海晏堂, 方外观, 蓄水楼, 观水法. The paper explains 谐奇趣's method: present-day survey with archival drawings and engravings.
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0050** (3D model, sure): 蓄水楼 water machinery of the 西洋楼. 贺艳 team with a scholar of the German Max Planck Society, 数字圆明园 team, as the report states, 2022 report. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0004** (paper figure, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/ Research-only: link card.
+- **R0138** (paper figure, sure): On the Construction of the Hydraulic Machinery in the European Palaces of Yuanmingyuan, AIJ 83(754). Shingei Katsu, University of Tokyo, 2018. https://www.jstage.jst.go.jp/article/aija/83/754/83_2409/_article Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T076** 马利机 Machine de Marly (lost), Marly, France. Comparable: same court, era or type, confidence C, standing: no. Idea of a water-raising machine Basis: Lancaster 1948 reported in S415 p.83, for the 蓄水楼 water machine; Rabreau lists the claim, and does not defend it. Versailles's château d'eau is listed there too. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 

@@ -126,6 +126,25 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 土石临流. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0301** (AR/VR, likely): 时光巴士, hydrogen XR bus with transparent screens. Jeff Smith and Steve Petersen, Chrono Craft, 圆明园管理处, 2024. https://arinsider.co/?p=25138 Research-only: link card.
+
+## Surviving comparable buildings, not this building (4)
+
+- **T039** 兰亭 Lan Ting (Orchid Pavilion), 绍兴 Shaoxing. Comparable: same court, era or type, confidence A, standing: yes. A literary reference; 流觞 water. Compare the 流觞亭 setting Basis: S05 j.82 f.26a poem of 乾隆九年: stone stream 「可以泛觞」, 「年年上巳寻欢处，便是当时晋永和」: refers to the gathering of 353. https://github.com/kanripo/KR2k0036
+  - P0581: Lanting, 2021-04-17 03. https://commons.wikimedia.org/wiki/File:Lanting,_2021-04-17_03.jpg
+  - P0582: Lanting, 2021-04-17 05. https://commons.wikimedia.org/wiki/File:Lanting,_2021-04-17_05.jpg
+  - P0664: 兰亭碑亭. https://commons.wikimedia.org/wiki/File:%E5%85%B0%E4%BA%AD%E7%A2%91%E4%BA%AD.jpg
+- **T040** 兰亭八柱 (八柱碑亭) Eight Pillars of the Orchid Pavilion, with stele pavilion, 中山公园 Zhongshan Park, Beijing. Comparable: same court, era or type, confidence B, standing: yes. Real form: octagonal pavilion on eight stone pillars with carved copies of Lanting calligraphy Basis: Not a copy. S409: the 兰亭 stele and its eight pillars reached 中央公园 in two stages, before 1917 and after 1941 (the article also names a 1925 purchase of 圆明园 stones). S408: a stone pavilion on eight pillars carrying Lanting copies. These are surviving parts of ours; no schema value says that, so `comparable`. https://www.chinanews.com/zhuanzhu/2000-10-23/257.html
+- **T041** 流水音 (淑清院流杯亭) Liushui Yin, 中南海 西苑 Zhongnanhai, Beijing. Comparable: same court, era or type, confidence B, standing: yes. Name shared with a hall at YM31; cup pavilion Basis: 郝黎, 清代西苑淑清院流杯亭考 (S410): Qianlong rebuilt and named this cup-floating pavilion; same 曲水流觞 tradition. Note our YM31 平湖秋月 also has a 流水音 (S05 j.82 f.15b). https://www.jgcm.ac.cn/jah/article/doi/10.12329/20969368.2025.02006
+- **T042** 禊赏亭 Xishang Ting (Pavilion of the Spring Purification), 宁寿宫花园 Qianlong Garden, Forbidden City. Comparable: same court, era or type, confidence B, standing: yes. Standing Qianlong 流杯 pavilion; roof, plan, channel Basis: Search summary (gmw 2026): 凸-plan pavilion with a carved white marble cup-channel 27 m long, bamboo patterned, evoking Lanting. Same emperor, same Lanting theme as ours; no source says one copied the other. https://m.gmw.cn/2026-10/06/content_1304572408.htm
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 None that name it.

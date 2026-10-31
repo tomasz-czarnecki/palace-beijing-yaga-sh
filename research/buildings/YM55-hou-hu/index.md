@@ -38,7 +38,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
   ![P0372](../../photos/images/P0372.jpg)
 
 
-## Texts and drawings (7)
+## Texts and drawings (6)
 
 - **E1129** (text, sure): 日下舊聞考 九洲清晏. 1780s (乾隆 敕撰) · j80:20b-23b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 正大光明後有湖亦稱前湖湖正北為圓明園殿五楹後為奉三無私殿七楹又後為九州清宴殿七楹東為天地一家春西為樂安和又西為清暉閣閣前為露香齋左為茹古堂為松雲樓右為涵徳書屋（圓明園冊）臣等謹按九州清宴額世宗御書四十景之一也前第一層殿恭懸聖祖御書圓明園額聨曰每對青山緑水㑹心處一邱一壑總自天恩浩蕩常從霽月光風悦目時一草一木莫非帝徳高深世宗藩邸時書聨曰恤小民之依所其無逸稽古人之徳彰厥有常皇上御書第二層為奉三無私殿内恭懸皇上御書聖祖仁皇帝聖訓曰天下之治亂休咎皆係人主之一身一心政令之設必當遠慮深謀以防後悔周詳籌度計及久長不可為近名邀利之舉不可用一已偏執之見採羣言以廣益合衆志以成城始為無偏無黨之道孝者百行之原不孝之人斷不可用義者萬事之本非義之事必不可為孝以立身義以制事無是二者雖君臣父子不能保也世宗憲皇帝聖訓曰敬天法祖勤政親賢愛民擇吏除暴安良勿過寛柔勿過嚴猛同氣至親實為一體誠心友愛休戚相闗時聞正言日行正事弗為小人所誘弗為邪説所惑聖祖所貽之宗室宜親國家所用之賢良宜保自然和氣致祥綿宗社萬年之慶額曰清虚靜泰聨曰澗泉無操琴泠然善也風竹有聲畫顧而樂之寳座聨曰所無逸而居動靜適徴仁智體有常以治照臨並叶清寜皇上御書九州清宴殿後額曰蔚然深秀聨曰紅篆爐烟看氣直緑苞庭竹愛心虛與樂安和清暉閣諸額皆御書清暉閣北壁懸圓明園全圖乾隆二年命畫院郎世寜唐岱孫祐沈源張萬邦丁觀鵬恭繪御題大觀二字並題聨曰稽古重圖書義存無逸三宗訓勤民咨稼穡事著豳風七月篇
@@ -58,10 +58,18 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - **E2371** (description, likely): Varin: behind the palace, and a European building with Gobelins. 1860 · p.240 · S245. https://archive.org/details/expditiondechin00paulgoog
   > Dans un de ces palais, bâti dans le style Louis XV, on voyait une série de chambres revêtues de tapis des Gobelins aux armes de France,
   Behind the palace a much larger lake with three buildings; then a maze of canals, lakes and hills with secondary palaces long abandoned and used as stores. The European one held Gobelins and portraits, in poor state. Building not named.
-- **E1179** (reconstruction, likely, search index only): 九洲景区俯瞰复原图. n.d. · mhymy szfy 2635 · S340. https://www.mhymy.com/szfy/2635.html
-  Link card to a bird's eye reconstruction of the nine-island district.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 后湖. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0026** (aerial view, likely, search index only): 九洲景区俯瞰复原图. . https://www.mhymy.com/szfy/2635.html Research-only: link card.
+- **R0031** (video, likely, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

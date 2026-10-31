@@ -40,6 +40,7 @@ None of its own.
 
 - Evidence for the nearest named compound, 得全阁, about 80 m away (no picture of this hall found): see CC05
 - Evidence for the whole garden, the three gardens (no picture of this hall found): see GARDEN-ALL
+- Standing buildings comparable to a side hall (not this building): see CLASS-side_hall
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

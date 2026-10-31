@@ -162,6 +162,29 @@ The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrac
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 蓬岛瑶台. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (5)
+
+Modern interpretation, not evidence.
+- **R0056** (render, likely): 蓬岛瑶台 (caption in a gallery). posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0089** (render, likely): 蓬岛瑶台 (second image), image 756 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0120** (drawing, sure): Abb. 22, 蓬岛瑶台 Pengdao Yaotai (Szene 146), Lage und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0053** (AR/VR, sure): “飞跃圆明园四十景”, MR glasses, 2026 服贸会 at Shougang. 中央美术学院 人工智能与数字文化遗产研究中心, 中央美术学院 Central Academy of Fine Arts, 2026. https://cn.chinadaily.com.cn/a/202609/14/WS6aa802efe4b09a165c78a00c.html Research-only: link card.
+- **R0180** (paper figure, likely, search index only): Multi-dimensional Element Graph Construction and Spatial Representation of Gardens in the Fuhai Area of Yuanmingyuan. Yuchao Cao, Nan Zhang, 风景园林 Landscape Architecture, 2025. https://doi.org/10.3724/j.fjyl.202407270414 Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T030** 琼华岛 (太液池 三岛) Qionghua Island, with Tuancheng and Xishan Tai, 北海 Beihai, Beijing. Comparable: same court, era or type, confidence B, standing: yes. Island palace on a lake idea Basis: S422: Beihai's three islands stand for 蓬莱, 瀛洲, 方丈. S05 j.82 f.17a: 蓬岛瑶台 is three islets on Fuhai 「仿李思训画意，为仙山楼阁之状」: ours follows a painting, not Beihai. https://zh.wikipedia.org/wiki/北海公园
+  - P0632: Beijing Beihai park Qionghua-Insel Weisse Pagode-20131229-RM-145650. https://commons.wikimedia.org/wiki/File:Beijing_Beihai_park_Qionghua-Insel_Weisse_Pagode-20131229-RM-145650.jpg
+- **T029** 南湖岛 / 团城岛 / 藻鉴堂岛 South Lake Island and sisters, 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. Same scheme by the same emperor, a decade later Basis: S422: Qingyi Yuan's three islands also figure the immortal mountains. https://zh.wikipedia.org/wiki/颐和园
+  - P0689: Hall of Embracing the Universe (20201222154651). https://commons.wikimedia.org/wiki/File:Hall_of_Embracing_the_Universe_(20201222154651).jpg
+  - P0690: South Lake Island and Thirteen-Arch Bridge from Tower of Buddhist Incense. https://commons.wikimedia.org/wiki/File:South_Lake_Island_and_Thirteen-Arch_Bridge_from_Tower_of_Buddhist_Incense.jpg
+- **T031** 避暑山庄 三十六景 , . Comparable: same court, era or type, confidence C, standing: yes. form only Basis: No source pairs them; chosen for form only. File name 避暑山庄小金山. https://commons.wikimedia.org/wiki/File:%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E5%B0%8F%E9%87%91%E5%B1%B1.jpg
+  - P0596: 避暑山庄小金山. https://commons.wikimedia.org/wiki/File:%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E5%B0%8F%E9%87%91%E5%B1%B1.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q9: Bay counts, plan against text

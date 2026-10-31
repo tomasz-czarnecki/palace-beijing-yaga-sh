@@ -90,7 +90,7 @@ The Main Audience Hall (Central Great Brilliant Bright) · Yuanming Yuan
   ![P0152](../../photos/images/P0152.jpg)
 
 
-## Texts and drawings (42)
+## Texts and drawings (41)
 
 - **E0995** (poem, sure): 御製正大光明殿詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:11a-11b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製正大光明殿詩 園南出入賢良門内為正衙不雕不繪得松軒茅殿意屋後峭石壁立玉筍嶙峋前庭虚敞四望牆外林木隂湛花時霏紅叠紫層暎無際 勝地同靈囿遺規繼暢春當年成不日奕代永居辰義府庭羅璧恩波水㵼銀草青思示儉山靜體依仁只可方衢室何湏道玉津經營懲峻宇出入引賢臣（出入賢良門扁額皇考御筆也）洞逹心常豁清凉境絶塵每移雲館蹕未費地官緡生意榮芳樹天機躍錦鱗肯堂彌厪念俯仰惕心頻
@@ -204,10 +204,32 @@ The Main Audience Hall (Central Great Brilliant Bright) · Yuanming Yuan
   Undated interior plan of the audience hall in ink, 520x210 mm, showing the throne canopy, splayed walls and bookcases. No image here; the site may ask a small payment for the full record.
 - **E1017** (archaeology, sure): 正大光明区域考古勘探报告. n.d. · mhymy 档案史料 12324, free part · S102. https://www.mhymy.com/dasl/12324.html
   Report's opening describes three successive courts from 大宫门 to 正大光明殿, 370 m north-south and 310 m east-west between the 如意门 gates, 114,700 m2 of site and 7,000 m2 of buildings, begun 1725. Gate hall of five bays on a base 21.57 x 11.33 m, 0.77 m high; screen wall 41.6 m long, 204.8 m south of the gate terrace.
-- **E1018** (reconstruction, sure, search index only): 再现·圆明园——正大光明, 贺艳, 紫禁城. 2011-12 · mhymy qklw 9456 · S341. https://www.mhymy.com/xsjl/qklw/9456.html
-  贺艳's reconstruction essay on the court district: built by Yongzheng in 1725 to rule from the garden. East it meets 勤政亲贤, north 寿山 and 前湖, west 长春仙馆.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 正大光明. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (6)
+
+Modern interpretation, not evidence.
+- **R0117** (drawing, sure): Abb. 16, 正大光明 Zhengda Guangming (Szene 101), Lageplan und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0286** (drawing, likely): 重现圆明园之正大光明. 星垂野阔大江流, 2024. https://www.bilibili.com/video/BV1j8qGYaERm Research-only: link card.
+- **R0042** (AR/VR, sure): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0301** (AR/VR, likely): 时光巴士, hydrogen XR bus with transparent screens. Jeff Smith and Steve Petersen, Chrono Craft, 圆明园管理处, 2024. https://arinsider.co/?p=25138 Research-only: link card.
+- **R0035** (paper figure, sure, search index only): 再现·圆明园——正大光明. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9456.html Research-only: link card.
+- **R0190** (game or community build, likely): 圆明园--正园（正大光明殿）. yyb666, 2023. https://sketchfab.com/3d-models/2a51f14ab24a474dbe072a1ae2f55774 Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T003** 澹泊敬诚殿 (楠木殿) Danbo Jingcheng Hall (Nanmu Hall), 避暑山庄 Chengde. Comparable: same court, era or type, confidence B, standing: yes. Seven bays, rolled ridge, same use, same reigns: the closest living audience hall Basis: S422: built 1710 (S430 says 1711), where the emperor gave audience and held the great rites, unpainted nanmu. S430 (tourist, snippet): 7 x 3 bays, single-eave 卷棚歇山, gallery all round; altered in nanmu 1754. S05 j.80 f.10a links the gardens. No text calls one a copy of the other. https://zh.wikipedia.org/wiki/承德避暑山庄及其周围寺庙
+  - P0567: 承德避暑山庄澹泊敬诚殿2025.11. https://commons.wikimedia.org/wiki/File:%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E6%BE%B9%E6%B3%8A%E6%95%AC%E8%AF%9A%E6%AE%BF2025.11.jpg
+  - P0568: Palace Dan Bo Jing Cheng 20120803. https://commons.wikimedia.org/wiki/File:Palace_Dan_Bo_Jing_Cheng_20120803.jpg
+- **T001** 保和殿 Hall of Preserving Harmony, Forbidden City, Beijing. Comparable: same court, era or type, confidence C, standing: yes. grand hall on a terrace Basis: No source pairs them; chosen for form only, as a building of the same court, decades or type. https://commons.wikimedia.org/wiki/File:2015-01-10_Hall_of_Preserving_Harmony_(Forbidden_City).jpg
+  - P0570: 2015-01-10 Hall of Preserving Harmony (Forbidden City). https://commons.wikimedia.org/wiki/File:2015-01-10_Hall_of_Preserving_Harmony_(Forbidden_City).jpg
+- **T002** 太和殿 Taihe Dian, 故宫 Forbidden City. Comparable: same court, era or type, confidence C, standing: yes. Contrast only: what the garden hall refused: double eave and yellow tile Basis: No source pairs them. Reason: the audience hall of the Forbidden City, against which the plainness of ours can be read (S08, S06 on grey tile and rolled ridges). https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_(20241127120000).jpg
+  - P0569: Hall of Supreme Harmony (20241127120000). https://commons.wikimedia.org/wiki/File:Hall_of_Supreme_Harmony_(20241127120000).jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

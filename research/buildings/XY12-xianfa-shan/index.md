@@ -30,7 +30,7 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 - XY12-01 线法山门
 - XY12-02 山顶亭
 
-## Pictures (6)
+## Pictures (7)
 
 - **P0057** (sure): 线法山门正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-14.jpg
 
@@ -53,6 +53,10 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
   ![P0362](../../photos/images/P0362.jpg)
 
 - **P0306** (guess): Sirén: Illustrated: 272:206 (Imperial Palaces pl. 206) (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199343 Research-only: link card.
+- **P0717** (guess): 线法门 (spoken in the clip: 这张照片是最新发现的一张线法门的照片) (not stated; shown as newly found (S650)). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0717](../../raw/photos/P0717.jpg)
+
 
 ## Texts and drawings (7)
 
@@ -76,9 +80,28 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 转马台. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0133** (physical model, likely): Maquette of the European garden (Xiyang Lou), with a new measured plan. Philippe Jonathan, Antoine Durand, French Foreign Ministry mission to Yuanmingyuan, 1983-85, 1987. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf Research-only: link card.
+- **R0182** (paper figure, likely, search index only): The Qianlong Emperor's Western Vistas: Linear Perspective and Trompe l'Oeil Illusion in the European Palaces of the Yuanming Yuan. John R. Finlay, Bulletin de l'Ecole francaise d'Extreme-Orient, 2007. https://doi.org/10.3406/befeo.2007.6068 Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T094** 美第奇别墅 帕尔纳索斯丘 Mound of the Villa Medici, Rome. Comparable: same court, era or type, confidence B, standing: yes. Round planted mound with a spiral or ring path and a top pavilion Basis: S415 p.100, quoting Droguet: the wood with a planted hill in 线法山 follows the type of the cypress-ringed mausoleo in the Villa Medici garden, as printed by Falda 1683. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0675: Giovanni Battista Falda, View of Villa Medici at Rome. https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Falda,_View_of_Villa_Medici_at_Rome.jpg
+- **T093** 线法山 / 线法桥 sources: Picolomini villa, Frascati Villa Piccolomini, Frascati, Frascati, Italy. Comparable: same court, era or type, confidence C, standing: yes. Nothing to build from. Kept so nobody repeats it Basis: Lancaster 1948 reported in S415 p.83, for 线法桥; Rabreau rejects most of the list (p.82). The fountain before the maze «goût de Frascati» is Beurdeley's: S415 p.81 asks why. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0705: Giardino e Ninfeo Villa Lancellotti a Frascati. https://commons.wikimedia.org/wiki/File:Giardino_e_Ninfeo_Villa_Lancellotti_a_Frascati.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+
 ## Open questions
 
 - Q16: 海晏堂's east half and the plan's working names
+- Q60: Captions and claims, old photographs (Round 5)
 
 <!-- generated:end -->
 

@@ -9,11 +9,11 @@ Every picture we know of that shows the gardens before or after 1860, with where
 | `catalog.csv` | one row per picture (`P0001`...) | yes | no |
 | `images/P####.jpg` | **free** images: at most 2000 px up to P0230, at most 1600 px and about 300 KB from then | yes | smaller copies are |
 | `../../site/reconstruction/photos/P####.jpg`, `_t.jpg` | free pictures that show an object, 1000 px and 400 px | yes | yes |
-| `../raw/photos/P####.jpg` | **research-only** images, at most 1200 px, local use only | **no** | **never** |
+| `../raw/photos/P####.jpg` | **research-only** images, at most 1200 px or the size of a video frame, local use only | **no** | **never** |
 
 ## Numbering
 
-P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang Lou plates (P(40+n) = plate n), P0061–P0100 the 1745 woodcuts, P0101–P0140 the Bertin gouaches, P0141+ other prints, drawings and the photographs. Round 3 from P0231, in the order of its hunts: Qing pictures (with the 1887 lithograph, picture and text page per scene), old photographs, today's photographs.
+P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang Lou plates (P(40+n) = plate n), P0061–P0100 the 1745 woodcuts, P0101–P0140 the Bertin gouaches, P0141+ other prints, drawings and the photographs. Round 3 from P0231, in the order of its hunts: Qing pictures (with the 1887 lithograph, picture and text page per scene), old photographs, today's photographs. Round 5 from P0548: twins first, in the order of the hunt, with the new old photographs among them.
 
 ## catalog.csv
 
@@ -25,6 +25,7 @@ P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang
 - `camera_lat`, `camera_lon`, `bearing`, `camera_note`: blank where nobody could argue one.
 - `file`, `width`, `height`, `notes`.
 - `crop`: fractions `x0,y0,x1,y1` the web copy is cut to. The album's bifolios show the painting on the site, the file keeps the whole leaf.
+- `relation`: `self`, or `twin:T001;T007` for a picture of another building (`../twins/catalog.csv`). For a twin, `shows` names ours that it speaks for, `CLASS:grand_hall` included, and the grade says how sure it is that the picture shows the named twin, never that it shows ours. The panel keeps it apart, under "Surviving comparable buildings, not this building".
 - `camera_lat` etc. are estimates by eye from form and footprints for old photographs, or a Commons GPS tag: `camera_note` says which.
 
 Dates are never invented: blank means nobody has stated one.
@@ -53,4 +54,6 @@ Dates are never invented: blank means nobody has stated one.
 | 海晏堂 XY08 | P0050 west, P0051 north, P0052 east, P0053 south |
 | 大水法 XY10 | P0055; setting P0056; ruin: Sirén 003718, 003719 (research-only) |
 
-**Largest gap:** there is almost no pre-1860 picture of anything outside the Forty Scenes and the Xiyang Lou. Changchun and Qichun rest on the plan, on texts, on later ruin photographs and on the site today.
+**Largest gap:** there is almost no pre-1860 picture of anything outside the Forty Scenes and the Xiyang Lou. Changchun and Qichun rest on the plan, on texts, on later ruin photographs and on the site today. What stands in for it: surviving twins (153 pictures, Round 5). The timber halls that survived 1860 and stood in 1882 are known only from a news clip's frames (P0711–P0717, Q54).
+
+**Sweep of Round 5:** only six new free ruin photographs of this garden came of nine collections, one of them not yet tied: Favier c. 1897 (P0645, P0709, the plates at the Rijksmuseum), 支那文化史蹟 1941 and 亜細亜大観 (P0646, P0710, P0719, NDL), and 清国戦地写真集録 1894 (P0718, NDL). Most prints captioned Yuen Ming Yuan before 1900 show other gardens (Q60).

@@ -38,7 +38,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (14)
+## Texts and drawings (13)
 
 - **E1272** (text, sure): 日下舊聞考 上下天光. 1780s (乾隆 敕撰) · j80:37a-37b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 慈雲普䕶之西臨湖有樓上下各三楹為上下天光左右各有六方亭後為平安院（圓明園冊）臣等謹按上下天光四十景之一也額為皇上御書聨曰雲水澄鮮一㡧波光開罨畫煙嵐杳藹四圍山色浸分奩亦御書右六方亭額曰飲和及平安院額皆世宗御書左六方亭額曰竒賞皇上御書
@@ -73,16 +73,21 @@ None of its own.
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
 - **E1280** (archaeology, sure): 上下天光区域考古勘探报告. n.d. · mhymy 档案史料 12739, free part · S152. https://www.mhymy.com/dasl/12739.html
   The report's opening gives 10,500 m2 of site and 1,600 m2 of buildings. Early Yongzheng had only the two-storey tower and a timber bridge pavilion; under Daoguang the upper floor was closed in and a square pavilion, a service court and an open hall were added. Tower and terrace 29.97 x 18.69 m, upper bays 8.64 m wide.
-- **E1281** (reconstruction, sure, search index only): 再现·圆明园——上下天光, 贺艳, 紫禁城 2012(2). 2012 · mhymy qklw 9505 · S341. https://www.mhymy.com/xsjl/qklw/9505.html
-  贺艳: a two-storey waterside pavilion, one of nine lake islands, in Daoguang also called 涵月楼 or 烟雨楼.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 上下天光, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0039** (paper figure, sure, search index only): 再现·圆明园——上下天光. 贺艳 (清华大学, as the extract states), 清华大学, 2012. https://www.mhymy.com/xsjl/qklw/9505.html Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 上下天光 (no picture of this hall found): see YM08
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a storeyed hall (not this building): see CLASS-storeyed_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

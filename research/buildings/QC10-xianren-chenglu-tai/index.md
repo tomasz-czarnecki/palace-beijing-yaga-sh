@@ -58,6 +58,14 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Surviving comparable buildings, not this building (1)
+
+- **T099** 铜仙承露盘 Bronze Immortal holding a dew plate, 琼华岛 北海 Beihai. Comparable: same court, era or type, confidence B, standing: yes. Form of the figure and plinth Basis: Search summary: the plate on Qionghua Island stands among its immortal-island features. S409: bases of the 仙人承露台 from Yuanming Yuan were among stones bought in 1925 for 中央公园. https://news.bjd.com.cn/2025/12/17/11470368.shtml
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 None that name it.

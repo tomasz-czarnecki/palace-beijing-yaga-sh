@@ -42,6 +42,8 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 四宜书屋 (绮春) (no picture of this hall found): see QC19
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

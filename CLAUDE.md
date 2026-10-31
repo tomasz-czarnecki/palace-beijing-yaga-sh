@@ -15,7 +15,7 @@ The complex is three gardens: Yuanming Yuan 圆明园, Changchun Yuan 长春园 
 
 ## Status
 
-Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2 done: the 2D dev map and every building as a box in a 3D preview (`site/reconstruction/`), one page per building. Round 3 done: pictures, drawings and texts for every object, shown in the panel (`research/evidence/`, `research/photos/`, `tools/check_evidence.py`). Round 4 done: this rulebook, `research/README.md`, `docs/`. Next: detailed models; settle Q36 first, because S01 at 九洲清晏 carries names of 1873. Homepage: a simple page (EN, zh draft) that leads to the 3D view.
+Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2 done: the 2D dev map and every building as a box in a 3D preview (`site/reconstruction/`), one page per building. Round 3 done: pictures, drawings and texts for every object, shown in the panel (`research/evidence/`, `research/photos/`, `tools/check_evidence.py`). Round 4 done: this rulebook, `research/README.md`, `docs/`. Round 5 done: surviving twins and comparables, more old photographs, reconstructions by other people, all in the panel (`research/twins/`, `research/reconstructions/`). Next: detailed models; settle Q36 first, because S01 at 九洲清晏 carries names of 1873. Homepage: a simple page (EN, zh draft) that leads to the 3D view.
 
 Decided:
 - **Target state:** the gardens just before the destruction of October 1860 (Xianfeng reign). Earlier evidence (the Forty Scenes album of 1744, the Xiyang Lou engravings of the 1780s) counts for that state wherever nothing later contradicts it. Q1 in `research/questions.md` tracks this.
@@ -68,7 +68,8 @@ All evidence lives in `research/` (conventions in `research/README.md`).
 - **Working map:** `site/reconstruction/index.html` + `app.js`, Leaflet vendored. A development preview (`noindex`), reached only from the small DEV MAP button in the 3D view. Run with the `site` entry in `.claude/launch.json` (`tools/serve_local.py`, port 8796): on localhost it also offers the plan S01 under `/_local/`; `?public=1` shows what a visitor sees. The preview on :8790 has no overlay.
 - **Boxes:** `scripts/boxes1860.py` writes `data/halls_1860.geojson`, one feature per box. `basis` says what it stands on; `assumed: true` is a guess, C. Ground: `scripts/ground1860.py`, levels from today's ground, not a survey of 1860. Q34, Q35.
 - **3D view:** `site/reconstruction/3d.html`, `3d.js`, `halls3d.js`, `panel3d.js`, three.js vendored, the way in. A preview: it does not decide the final engine. URL: `?b=<ID>` opens that page and frames its object, `?shot=1` hides the panels and animates nothing, `?conf=1` colours by confidence.
-- **Evidence:** pictures in `research/photos/catalog.csv` (web copies in `site/reconstruction/photos/`, by `scripts/photos_catalog.py`), texts, drawings and reports in `research/evidence/catalog.csv`, facts for the rows in `research/evidence/facts.csv` (`scripts/apply_facts.py`). `tools/check_evidence.py` counts coverage and fails on an empty panel or a research-only image on the site.
+- **Others' work:** `research/twins/catalog.csv` (T..: standing buildings that are copies, sisters, models or comparables, with the relation's source and grade) and `research/reconstructions/catalog.csv` (R..: author, institution, year, method). **Never a source for a position or a size.** A dimension one states goes only in the column `size_lead` of `research/buildings.csv`, through `research/evidence/facts.csv`, grade B. Disagreements go in `research/questions.md`. In the panel they stand after the period evidence and before the set of buildings, labelled modern interpretation, not evidence, and not this building.
+- **Evidence:** pictures in `research/photos/catalog.csv` (web copies in `site/reconstruction/photos/`, by `scripts/photos_catalog.py`), texts, drawings and reports in `research/evidence/catalog.csv`, facts for the rows in `research/evidence/facts.csv` (`scripts/apply_facts.py`). `tools/check_evidence.py` counts coverage, before and after Round 5, and fails on an empty panel, a research-only image on the site, or an R or T row with no link or licence.
 - **Building pages:** `research/buildings/<ID>-<slug>/index.md`, one per row of `buildings.csv` and per gate; list in `research/buildings/README.md`. `scripts/building_pages.py` writes the block between the markers, `data/buildings/<ID>.json` (public; `GARDEN-*.json` what speaks for a garden) and `research/raw/buildings/<ID>.json` (local, with the plan readers' notes, the plan crop and research-only copies). **To edit:** write under `## Notes`, then run the script; it never touches that part. Notes go on the public site, except what stands below a line holding only `%% private %%`. `tools/check_pages.py` proves every clickable object has a page.
 - **Detailed models:** later, `models/<ID>-<slug>/summary.json`, see `models/README.md`. No model and no publishing step exist yet.
 
@@ -84,7 +85,7 @@ Run from the repo root with `uv run python <script>`. Fields, inputs and outputs
 6. **Public data:** `scripts/publish_layers.py`, `scripts/ground1860.py`, `scripts/boxes1860.py`, `scripts/photos_catalog.py`, `tools/plan_crops.py` (local only), `scripts/building_pages.py`.
 7. **Checks:** `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_docs.py`. Each exits non-zero on a failure.
 
-`scripts/scene1860.py` is imported, not run. After a change to `buildings.csv`, `layers/`, `typology/params.json` or a catalogue, rerun step 6 and step 7; they take seconds. Never edit generated rows: `buildings.csv` comes from `scripts/build_r1.py` plus `research/evidence/facts.csv`. `research/photos/catalog.csv` and `research/evidence/catalog.csv` are edited by hand.
+`scripts/scene1860.py` is imported, not run. After a change to `buildings.csv`, `layers/`, `typology/params.json` or a catalogue, rerun step 6 and step 7; they take seconds. Never edit generated rows: `buildings.csv` comes from `scripts/build_r1.py` plus `research/evidence/facts.csv`. `research/photos/catalog.csv`, `research/evidence/catalog.csv`, `research/twins/catalog.csv` and `research/reconstructions/catalog.csv` are edited by hand.
 
 ## Public and private
 
@@ -93,11 +94,11 @@ Run from the repo root with `uv run python <script>`. Fields, inputs and outputs
 | `site/` | yes | yes, only this folder is served |
 | Geometry traced from S01 (`*_1860`), with credit | yes | yes (Q6) |
 | The plan S01 as an image, `research/overlays/`, `research/raw/` | no | never (localhost only, `/_local/`) |
-| Free pictures | `research/photos/images/` | smaller copies, through `scripts/photos_catalog.py` only |
-| Research-only pictures and texts | no copy; `research/raw/photos/` locally | link card only |
+| Free pictures and reconstructions | `research/photos/images/`, `research/reconstructions/images/` | smaller copies, through `scripts/photos_catalog.py` only |
+| Research-only pictures, reconstructions and texts | no copy; `research/raw/photos/`, `research/raw/reconstructions/` locally | link card only; on localhost the local copy, marked |
 | `research/` otherwise, `scripts/`, `tools/`, `docs/`, `models/`, this file | yes | no |
 
-Rights calls still waiting for Tomasz: Q6 (plan image), Q50 (Malone quotes, Sirén, Skušek, pre-1900 photographs).
+Rights calls still waiting for Tomasz: Q6 (plan image), Q50 (Malone quotes, Sirén, Skušek, pre-1900 photographs), Q55 (the Hengdian photographs, CC BY figures of the Tsinghua teams, Licence Ouverte postcards).
 
 ## Ports and processes
 
@@ -105,7 +106,7 @@ Rights calls still waiting for Tomasz: Q6 (plan image), Q50 (Malone quotes, Sir�
 |---|---|
 | 8790 | preview of `site/`, `/opt/data/scripts/palace_preview_server.py`, forwarded by Tomasz. No overlay. Never for workers |
 | 8796 | `tools/serve_local.py`, the `site` entry in `.claude/launch.json`: with `/_local/`; `--public` turns it off |
-| own port | anything else a worker starts; stop it before ending the turn. Rounds used 8797 and 8800–8809 |
+| own port | anything else a worker starts; stop it before ending the turn. Rounds used 8797, 8800–8809 and 8810–8819 |
 
 Markers and chains live outside the repo: `/opt/data/scripts/rounds_palace/<name>.done`, `/opt/data/scripts/palace_r*_chain*.sh`. Logs: `/opt/data/cache/scratch/<name>.jsonl`, `<name>_progress.md`. Scratch may be cleared, so nothing of value stays only there.
 
@@ -134,7 +135,7 @@ site/                     the public website, the only thing a host serves (Root
   index.html, zh/, credits.html, styles.css, main.js, assets/
   reconstruction/         index.html (2D dev map, Leaflet), 3d.html (three.js preview, the way in), data/ (public layers, buildings/ = panel pages), generated/ (ground, walls and bridges), photos/ (free pictures), vendor/
 research/                 README.md, sources.md, questions.md, wishlist.md, buildings.csv, buildings/ (one page per building), layers/ (GeoJSON working copies),
-                          plan/ (what was read off S01), georef/ (control points), photos/ (catalog.csv), evidence/ (catalog.csv, facts.csv), typology/, terrain/, image-credits/CREDITS.md, raw/ and overlays/ (gitignored)
+                          plan/ (what was read off S01), georef/ (control points), photos/ (catalog.csv), evidence/ (catalog.csv, facts.csv), twins/ (catalog.csv), reconstructions/ (catalog.csv, images/), typology/, terrain/, image-credits/CREDITS.md, raw/ and overlays/ (gitignored)
 scripts/                  the Python pipeline (uv, pyproject.toml); writes into research/ and site/reconstruction/data/
 tools/                    serve_local.py (local preview with the private layers under /_local/), plan_crops.py, check_pages.py, check_evidence.py, check_docs.py
 docs/                     METHOD.md (the playbook), rounds/ (briefs and what each round did); never public

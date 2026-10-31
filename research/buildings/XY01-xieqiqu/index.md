@@ -17,6 +17,7 @@ Hsieh Ch'i Ch'u, Harmonious Strange and Pleasant · Xiyang Lou
 - **Position:** 40.01123, 116.30244. S01 sure (S01 · confidence B)
 - **Bays:** 7 lower, 3 upper (S06) in the texts (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Size in the inventory:** 39.7 × 38.6 m. typology xiyang_lou, C (S01)
+- **Lead on its size, from a modern study, not used in the model:** Northern staircase: Yangshi Lei plan measurements differ from those on site; plan carries over 120 dimensions; ground-floor cornice of main building, corridor and music pavilion level to within 2 cm (site components added up) (S108, sections 2.2.1, 2.2.3, Fig 8, Fig 10). First Xiyang Lou strip, 谐奇趣 to 黄花阵: 320 x 85 m north-south (S603, p. 123). (confidence B)
 - **Storeys:** 3 (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Roof:** 庑殿顶 (S06) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Tiles:** 红色圆光琉璃瓦, 蓝琉璃脊 (S06) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
@@ -44,7 +45,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY01-N02
 - XY01-N03
 
-## Pictures (32)
+## Pictures (34)
 
 - **P0041** (sure): 谐奇趣南面 (圆明园铜版画册 / 西洋楼铜版画, plate 一 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-17.jpg
 
@@ -83,6 +84,14 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0189](../../photos/images/P0189.jpg)
 
+- **P0645** (sure): CHATEAU EUROPÉEN AU PALAIS D'ÉTÉ (p. 377), Pl. XII (printed caption) (c. 1892 - in or before 1897 (Rijksmuseum, leaf date); book c. 1897). https://id.rijksmuseum.nl/200721138
+
+  ![P0645](../../photos/images/P0645.jpg)
+
+- **P0718** (sure): (二十一) 是レハ圓明園中ニアル西洋式ノ堂ナルガ曩時英佛同盟軍ノ燒毀ヲ被ムリタル跡ナリ (printed list of plates, frame 5; plate numbered 21) (published 明治27年12月 (1894), colophon and NDL; photograph undated). https://dl.ndl.go.jp/pid/773672/1/26
+
+  ![P0718](../../photos/images/P0718.jpg)
+
 - **P0172** (likely): Yüan-ming-yüan. Der alte Sommerpalast, von den Verbündeten 1860 zerstört. Ⅰ 2 (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AY%C3%BCan-ming-y%C3%BCan._Der_alte_Sommerpalast%2C_von_den_Verb%C3%BCndeten_1860_zerst%C3%B6rt._%E2%85%A0_2.jpg
 
   ![P0172](../../photos/images/P0172.jpg)
@@ -107,7 +116,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0305](../../photos/images/P0305.jpg)
 
-- **P0191** (likely): Ruins of Yuanming Yuan, Summer Palace, Peking, NA01-76 (between 1877 and 1890 (Commons)). https://hpcbristol.net/visual/NA01-76 Research-only: link card.
+- **P0191** (sure): Ruins of Yuanming Yuan, Summer Palace, Peking, NA01-76 (between 1877 and 1890 (Commons)). https://hpcbristol.net/visual/NA01-76 Research-only: link card.
 
   ![P0191](../../raw/photos/P0191.jpg)
 
@@ -162,7 +171,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
 Of its halls: P0174 (XY01-N01).
 
-## Texts and drawings (17)
+## Texts and drawings (16)
 
 - **E0171** (text, sure): 日下舊聞考 法慧寺、宝相寺、谐奇趣. 1780s (乾隆 敕撰) · j83:12a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 海嶽開襟東北為諧竒趣東為法慧寺山門西嚮内為四面延樓後殿為光明性海其西别院有琉璃方塔法慧寺東為寳相寺山門南嚮内為澄光閣後為曇霏閣又後崇基上有殿為現大圓鏡（長春園册）臣等謹案法慧寺山門額曰普香界現大圓鏡殿内額曰香臺華鬘
@@ -206,10 +215,31 @@ Of its halls: P0174 (XY01-N01).
   Undated design and survey sketch with the perspective bridge, the water tower, the aviary and Xieqi Qu. No image here; the site may ask a small payment for the full record.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0936** (reconstruction, sure): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. 2015 · open access paper · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
-  The Yuanmingyuan Digital Restoration Research Project of 2013 covered five of thirteen 西洋楼 scenes in its first two years: 谐奇趣, 海晏堂, 方外观, 蓄水楼, 观水法. The paper explains 谐奇趣's method: present-day survey with archival drawings and engravings.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 谐奇趣. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (10)
+
+Modern interpretation, not evidence.
+- **R0016** (physical model, sure): 20240112 Xieqiqu, Hengdian Yingshicheng. Hengdian World Studios (replica); Yumeto (photograph), Hengdian World Studios (per the Commons category). https://commons.wikimedia.org/wiki/File:20240112_Xieqiqu,_Hengdian_Yingshicheng.jpg
+- **R0097** (paper figure, sure): Fig. 13, Accuracy assessment for the Digital Restoration of Xieqiqu (model coded by evidence level A-D). M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company Limited, Beijing, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
+- **R0098** (paper figure, sure): Fig. 12, element at site, point cloud, retopology, low-poly model. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company Limited, Beijing, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
+- **R0099** (paper figure, likely): Fig. 14, Virtual Yuanmingyuan app, mobile guide, holographic display, circular-screen centre. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company Limited, Beijing, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
+- **R0051** (3D model, likely): Laser scanning and virtual fitting of the 西洋楼 stones; 碧澜桥 repaired. 肖金亮, 郭黛姮 and team, 北京清华同衡规划设计研究院 建筑与城市遗产研究所. https://www.tsinghua.edu.cn/info/1182/46587.htm Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0042** (AR/VR, likely): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0004** (paper figure, sure): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/ Research-only: link card.
+- **R0152** (paper figure, sure): Fig. 9, Decorative components from the balustrade at the third level of the main building of 谐奇趣; Fig. 10 Experiment of the RGB channel. Y. He, Y. H. Ma, X. R. Zhang, Tsinghua Heritage Institute for Digitization, 2017. https://isprs-archives.copernicus.org/articles/XLII-2-W5/335/2017/ Research-only: link card.
+- **R0239** (physical model, guess): Old Summer Palace Scale Model / 圆明园 / 圓明園. China Travel Guide / 中国旅游指南. https://www.youtube.com/watch?v=rxuXndVT10E Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T075** 特里亚农瓷宫; 拉托纳喷泉 Trianon de Porcelaine (lost) and Latona Fountain, Versailles, France. Comparable: same court, era or type, confidence C, standing: partly. Tiled roofs in a European pleasure house (Porcelain Trianon), fountain with figures (Latona) Basis: Lancaster 1948 reported in S415 p.83: Trianon de Porcelaine and Latona fountain for 谐奇趣. Rabreau rejects most of Lancaster's list (p.82). S415 p.81 on Beurdeley and p.22 on the letters: «soutiendrait le parallèle». https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0617: Bassin de Latone le 2 septembre 2015 - 06. https://commons.wikimedia.org/wiki/File:Bassin_de_Latone_le_2_septembre_2015_-_06.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 
@@ -218,6 +248,7 @@ Of its halls: P0174 (XY01-N01).
 - Q32: OSM errors
 - Q35: Xiyang Lou massing (Round 2)
 - Q49: Captions overruled by form (old photographs)
+- Q56: Reconstructions against the period evidence
 
 <!-- generated:end -->
 

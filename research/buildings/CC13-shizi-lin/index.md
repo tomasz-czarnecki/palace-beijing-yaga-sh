@@ -73,7 +73,7 @@ Lion Grove (Malone p.98) · Changchun Yuan
   ![P0442](../../photos/images/P0442.jpg)
 
 
-## Texts and drawings (68)
+## Texts and drawings (67)
 
 - **E0203** (poem, sure): 御製獅子林八景詩. 1772 (乾隆三十七年) · j83:13b-15b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆三十七年御製獅子林八景詩　獅子林之名頼倪迂圖卷以傳此間竹石邱壑皆肖其景為之冠以舊名志數典也最憶倪家獅子林渉園黄氏幻為今（吳中獅子林故址雖存已屢易為黄氏渉園丁丑南巡曽訪其勝因郵倪卷證之壬午乙酉復再至前後並有詩題卷中）因教規冩閶城趣為（去聲）便尋常御苑臨不可移來惟古樹遄由飛去是遐心峯之池影都無二呼出艱逄懶瓚吟（右獅子林）　跨水為小橋垂虹宛在片雲帆影何必更羡呉江　駕溪宛若虹其下可舟通設使幔亭張（去聲）吾當問順風（右虹橋）獅林以石勝相傳為瓚自位置者兹令吳下髙手堆塑小景曲折盡肖驛此展拓成林奚啻武賁之於中郎妙手吳中堆塑能絶勝道子冩嘉陵一邱一壑都神肖憶我春廵展歩曾（右假山）　鏡水冩形遇以無心而景自為納斯堂所得迨乎近之　花木四時趣風雲朝暮情一堂無意納萬景自為呈色是空中色聲皆静裏聲摐然聲色表五字亦因成（右納景堂）　臨曲池面假山景清境閟雲林小閣何不可作如是觀　武夷一曲中清閟小閣置近臨活水澄平挹假山翠遐想創作圖自詡荆關意王䝉那夢見因公宜寳弆（叶倪以上三句櫽括瓚自識語）豈期屬黄氏又復御園至今古實一瞬蘇燕非二地當年閣中人未必首肯遂（右清閟閣）　紫藤引架垂隂縵縈可十數武於石橋宛轉尤宜　石橋既曲折藤架復邐迤春時都作花步障垂茸紫瑣月多風流蘸波鮮塵滓施松援覺艱附木平可喜載咏頍弁章庶幾見君子（右藤架）　循巖陟磴詩人比之丹梯此雖叠石而成亦自覺風雲可生足底　房山石似洞庭刻削一例岭嵤拾級試登磴道丹臺咫尺通靈（右磴道）　峯頂一笠清曠絶塵元鎮畫徃徃如是印證故在不即離間　雖是假山亦有峯㠎嶫吸哦轉饒趣歴艱涉頂得稍平四柱小亭翼然據一步一竒極變幻眼底神情乃畢露俗手石工那得窺粉本倪迂精絶處（右占峯亭）
@@ -272,10 +272,30 @@ Lion Grove (Malone p.98) · Changchun Yuan
   Two gardens: 丛芳榭 of 1747 (five-bay hall on the lake, 琴清斋 behind, 漾月 and 集虚 pavilions), and from 1772 the Suzhou copy to its north-east. It lists the sixteen scenes, and says Qianlong's copy of Ni Zan's painting was kept in 清閟阁. Partly rebuilt 1828.
 - **E0165** (description, sure, search index only): 海岳开襟; 映清斋; 蒨园; 鉴园; 狮子林 (search-index text). n.d. · mhymy dasl 2278, tag 361, others · S340. https://www.mhymy.com/dasl/2278.html
   海岳开襟: lake islet about 90 m across, about 1,000 m2 of buildings, by 1747, repaired 1778 and 1791; a totem park stood here 1995-2007. 映清斋: added 1766 as a new palace of 玉玲珑馆. 蒨园: 6,600 m2, 2,300 m2 of buildings, 1752. 鉴园: repaired 1810. 狮子林: west part with 丛芳榭 by 1747, the east in imitation of Suzhou finished 1772.
-- **E0224** (reconstruction, sure, search index only): 狮子林视频. n.d. · mhymy fysp 10213 · S340. https://www.mhymy.com/szfy/fysp/10213.html
-  Link card to a reconstruction video of 狮子林 Shizi Lin.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 清閟阁 / 探真书屋 / 小香幢. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0122** (drawing, sure): Abb. 28, 狮子林 Shizi Lin (Szene 216), Lageplan und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0028** (video, sure, search index only): 狮子林视频. . https://www.mhymy.com/szfy/fysp/10213.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T073** 狮子林 Shizi Lin (Lion Grove), 苏州 Suzhou. Ours was copied from it, confidence A, standing: yes. rockery plan, winding ways, pool, 16 named scenes Basis: S05 j.83 f.13b-14a: 乾隆三十七年 poems 「此间竹石邱壑皆肖其景」 after the Ni Zan scroll; 「吴下高手堆塑小景，曲折尽肖」: rock pile modelled by Suzhou masters from the Suzhou garden, then enlarged here. f.16a: the rocks can match the Suzhou garden but not fully the scroll; f.17a: 「假山虽肖吴中」. S411 agrees. https://github.com/kanripo/KR2k0036
+- **T072** 文园狮子林 Wenyuan Shizilin (Lion Grove in the Literary Garden), 避暑山庄 东南隅 Chengde Mountain Resort. Sister: built together, same design, confidence B, standing: partly. The other imperial copy of the same garden; closest court comparison for rockery Basis: S401 abstract: 1771 at Changchun Yuan, then 1774 at Chengde, both after the same visit to Suzhou of 1757; same ruler, same model, three years apart. https://tdr.lib.ntu.edu.tw/handle/123456789/96963
+  - P0557: Lion Grove Garden Suzhou November 2017 009. https://commons.wikimedia.org/wiki/File:Lion_Grove_Garden_Suzhou_November_2017_009.jpg
+  - P0558: Lion Grove Garden Suzhou November 2017 012. https://commons.wikimedia.org/wiki/File:Lion_Grove_Garden_Suzhou_November_2017_012.jpg
+  - P0559: Lion Grove Garden Suzhou November 2017 001. https://commons.wikimedia.org/wiki/File:Lion_Grove_Garden_Suzhou_November_2017_001.jpg
+  - P0560: Chengde Mountain Resort 4. https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_4.jpg
+  - P0561: Chengde Mountain Resort 5. https://commons.wikimedia.org/wiki/File:Chengde_Mountain_Resort_5.jpg
+  - P0649: Jardin de la Forêt du Lion à Suzhou (16997597428). https://commons.wikimedia.org/wiki/File:Jardin_de_la_For%C3%AAt_du_Lion_%C3%A0_Suzhou_(16997597428).jpg
+  - P0650: Lion garden 9 lion peak. https://commons.wikimedia.org/wiki/File:Lion_garden_9_lion_peak.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
 
 ## Open questions
 

@@ -107,6 +107,15 @@ Changchun Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 澹怀堂. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0321** (physical model, sure): 复原模型 and 平面图 of the 澹怀堂 compound, displayed at the ruin before the 牌楼门. . https://blog.sina.com.cn/s/blog_88741e0d0102w60j.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 - Q9: Bay counts, plan against text

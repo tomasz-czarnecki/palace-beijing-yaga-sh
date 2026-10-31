@@ -33,7 +33,7 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
 - YM08-04 平安院
 - YM08-AC009
 
-## Pictures (7)
+## Pictures (8)
 
 - **P0008** (sure): 上下天光 Shangxia tianguang [Clarté céleste en haut et ici-bas] (圓明園四十景, 第8景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%85%AB%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%85%AB%E5%B9%85%E5%9B%BE%29%2C_%E4%B8%8A%E4%B8%8B%E5%A4%A9%E5%85%89_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Shangxia_tianguang_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083602.jpg
 
@@ -63,8 +63,12 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
 
   ![P0449](../../photos/images/P0449.jpg)
 
+- **P0642** (sure): 上下天光遗址 (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E4%B8%8B%E5%A4%A9%E5%85%89%E9%81%97%E5%9D%80_-_panoramio.jpg
 
-## Texts and drawings (19)
+  ![P0642](../../photos/images/P0642.jpg)
+
+
+## Texts and drawings (17)
 
 - **E1268** (poem, sure): 御製上下天光詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:37b-38a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製上下天光詩 垂虹駕湖蜿蜒百尺修欄夾翼中為廣亭縠紋倒影滉瀁楣檻間凌空俯瞰一碧萬頃不啻胸吞雲夢 上下天水一色水天上下相連河伯夙朝玉闕渾忘望若昔年
@@ -108,12 +112,23 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 - **E1280** (archaeology, sure): 上下天光区域考古勘探报告. n.d. · mhymy 档案史料 12739, free part · S152. https://www.mhymy.com/dasl/12739.html
   The report's opening gives 10,500 m2 of site and 1,600 m2 of buildings. Early Yongzheng had only the two-storey tower and a timber bridge pavilion; under Daoguang the upper floor was closed in and a square pavilion, a service court and an open hall were added. Tower and terrace 29.97 x 18.69 m, upper bays 8.64 m wide.
-- **E0562** (reconstruction, likely): 《“再造”一个圆明园》, Tsinghua news. n.d. · 媒体清华 · S342. https://www.tsinghua.edu.cn/info/1182/39662.htm
-  郭黛姮's research from 2000 with students including 贺艳; the digital work from 2009 by 清城睿现. They traced remains by bicycle: steps at 上下天光, cave and rockery at 杏花春馆, timber piles at 濂溪乐处. A clear account of method, without pictures to take.
-- **E1281** (reconstruction, sure, search index only): 再现·圆明园——上下天光, 贺艳, 紫禁城 2012(2). 2012 · mhymy qklw 9505 · S341. https://www.mhymy.com/xsjl/qklw/9505.html
-  贺艳: a two-storey waterside pavilion, one of nine lake islands, in Daoguang also called 涵月楼 or 烟雨楼.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 上下天光. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (7)
+
+Modern interpretation, not evidence.
+- **R0048** (3D model, sure): 上下天光 reconstruction: 如意桥 railing and the two pavilions. 贺艳 and team, 数字圆明园 team, as the report states, 2022 report. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0009** (3D model, likely): 《“再造”一个圆明园》, Tsinghua news. 郭黛姮, 贺艳 and team, 清华大学; 清城睿现. https://www.tsinghua.edu.cn/info/1182/39662.htm Research-only: link card.
+- **R0114** (drawing, sure): Abb. 7-10, 上下天光 Shangxia Tianguang (Szene 108) on a Lei drawing of 1827, the Lei map, Gong Wu Ju map, He map. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0148** (physical model, likely): 样式雷烫样 Yangshi Lei card models of Yuanmingyuan: 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春, 恒春堂, 课农轩, 廓然大公, 勤政殿, 万方安和. 雷氏 Lei family holdings, shown in 故宫 exhibition 营缮之道 《单士元》, Tongzhi period for most, per the report. https://www.thepaper.cn/newsDetail_forward_2201516 Research-only: link card.
+- **R0031** (video, sure, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+- **R0039** (paper figure, sure, search index only): 再现·圆明园——上下天光. 贺艳 (清华大学, as the extract states), 清华大学, 2012. https://www.mhymy.com/xsjl/qklw/9505.html Research-only: link card.
+- **R0192** (game or community build, likely): 中园--上下天光. yyb666, 2023. https://sketchfab.com/3d-models/7d0bedbdef96434fa3c068c395a1f9e3 Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 
@@ -121,6 +136,7 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
 - Q9: Bay counts, plan against text
 - Q17: Halls in the texts and not on the plan
 - Q51: Reading the Yangshi Lei records
+- Q56: Reconstructions against the period evidence
 
 <!-- generated:end -->
 

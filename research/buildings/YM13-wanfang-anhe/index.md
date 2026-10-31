@@ -15,6 +15,7 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
 - **Built:** 雍正初年 (S42;S43); before 1744; Yongzheng lived here (poem note); 1727 (S05, S02, S08, S42, S43, S01, S361)
 - **Destroyed:** 1860; a 十字亭 on the 1873 survival list (S06) (S05, S02, S08, S42, S43, S01, S361)
 - **Position:** 40.00567, 116.28670. S01 sure (S01 · confidence B)
+- **Lead on its size, from a modern study, not used in the model:** Rockery by digital model, as surviving: straight length about 20.997 m, width about 7.395 m, height about 2.604 m (S594, Results, overall scale). (confidence B)
 - **Note:** Plaques in parts of the 卍: 正室 南面 etc. Poem 1764 lists nine four-character parts [j81:10b-12a]. S06: 33 bays. Theatre in the west arm by 1727 (S43). (S05, S02, S08, S42, S43, S01, S361)
 - **Plan reader's note:** Blue 13 at (1930,3440). Swastika building stands in the lake R0032; polygon takes it plus the north land lobe with B0561. 十字亭 at the south end of the lake (1857,4242) lies outside (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -69,7 +70,7 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
   ![P0381](../../photos/images/P0381.jpg)
 
 
-## Texts and drawings (31)
+## Texts and drawings (28)
 
 - **E1441** (poem, sure): 御製萬方安和詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:9b-10a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製萬方安和詩 水心架搆形作卍字畧彴相通遙望彼岸竒花纈若綺繡每高秋月夜沆瀣澄空圓靈在鏡此百尺地寜非佛胸涌出寳光耶 作室軒而豁當年志若何（是地冬燠夏爽四序皆宜亦皇考所喜居也）萬方歸覆冒一意願安和觸景懷承器瞻題仰偃波九年遺澤在四海尚謳歌
@@ -145,14 +146,35 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
   Presentation plan of the Wanfang Anhe scene, Qianlong-Jiaqing period, 33 halls on a swastika plan per the printed volume's preface (S13). No image here; the site may ask a small payment for the full record.
 - **E1457** (drawing, sure, search index only): 圆明园万方安和殿 烫样. 同治年间 · 故宫博物院 · S326. https://m.thepaper.cn/detail/31695388
   Paper model of the Wanfang Anhe hall made for Tongzhi's repair project, for the emperor and Empress Dowager Cixi to review, so after the target state; also shown at the Hong Kong Palace Museum in 2024.
-- **E0946** (reconstruction, sure): 【圆明园】系列02 圆明园复原图欣赏, yaffin. c. 2011 · blog gallery · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100siah.html
-  A gallery of modern reconstruction images, source of each not given. A pointer, never to be reused.
-- **E1459** (reconstruction, sure): 万字房的“前世”与“重生”, 梦回圆明园. 2023 rev. · mhymy xsjl 14213 · S113. https://www.mhymy.com/xsjl/14213.html
-  Article on 万方安和's history and its modern restoration study; earlier fetch used for measures.
-- **E1458** (reconstruction, sure, search index only): Constructive analysis and digital 3D reconstruction of the Yuanmingyuan Ruins: Wanfanganhe Pavilion, Virtual Archaeology Review (Yan Chen). 2022 · polipapers article 16523 · S355. https://polipapers.upv.es/index.php/var/article/view/16523
-  Paper with a 3D reconstruction of 万方安和 Wanfang Anhe. Seen by search only: the link timed out and the RiuNet mirror is bot-checked.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 万方安和. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (14)
+
+Modern interpretation, not evidence.
+- **R0105** (paper figure, sure): Fig. 3, Live photos and panoramic images of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig3
+- **R0106** (paper figure, sure): Fig. 4, connection points, triangular mesh model, point-cloud slice of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig4
+- **R0107** (paper figure, sure): Fig. 6, Region division of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig6
+- **R0111** (paper figure, sure): Fig. 8, Hierarchical division of Region B of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig8
+- **R0088** (render, likely): 万方安和, image 753 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0049** (3D model, sure): Early student 3D model of 万方安和. students of 郭黛姮, 清华大学建筑学院, after 2000. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0289** (physical model, sure): 烫样, Model of the Hall of Universal Peace (万方安和) in Yuan Ming Yuan. 样式房 Imperial Architecture Studio, Yangshi Lei, 故宫博物院 Palace Museum, 1873-1874. https://www.hkpm.org.hk/en/exhibition/the-hong-kong-jockey-club-series-yuan-ming-yuan-art-and-culture-of-an-imperial-garden-palace Research-only: link card.
+- **R0148** (physical model, likely): 样式雷烫样 Yangshi Lei card models of Yuanmingyuan: 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春, 恒春堂, 课农轩, 廓然大公, 勤政殿, 万方安和. 雷氏 Lei family holdings, shown in 故宫 exhibition 营缮之道 《单士元》, Tongzhi period for most, per the report. https://www.thepaper.cn/newsDetail_forward_2201516 Research-only: link card.
+- **R0186** (paper figure, sure): 【圆明园】系列02 圆明园复原图欣赏. yaffin (blog name), 新浪博客, c. 2011. https://blog.sina.com.cn/s/blog_65fec3ab0100siah.html Research-only: link card.
+- **R0001** (paper figure, sure): 万字房的“前世”与“重生”, 梦回圆明园. 梦回圆明园, 2023 rev.. https://www.mhymy.com/xsjl/14213.html Research-only: link card.
+- **R0108** (paper figure, sure): Fig. 12, viewing line and position, Beihai reference, ornamental effect at Wanfang Anhe. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig12 Research-only: link card.
+- **R0112** (paper figure, sure): Fig. 5, Viewing angle and viewing distance of Wanfang Anhe Rockery. Xinchen Li, Xiaoxiao He, Yuqing Xiao, Shizhen Jia, Ke Qin, China Agricultural University, 2024. https://www.nature.com/articles/s40494-024-01213-5#Fig5 Research-only: link card.
+- **R0034** (video, sure, search index only): [央美]万方安和复原视频. 吴晓敏, 陈东, per mhymy xsjl 14213 as summarised in a search extract, 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14188.html Research-only: link card.
+- **R0104** (paper figure, sure, search index only): Constructive analysis and digital 3D reconstruction of the Yuanmingyuan Ruins: Wanfanganhe Pavilion (Virtual Archaeology Review 13(27)). Yan Chen, Federico Luis del Blanco Garcia, 2022. https://polipapers.upv.es/index.php/var/article/view/16523 Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T012** 万字廊 (淑清院) Wanzi Lang, Shuqing Yuan, 中南海 Zhongnanhai. Comparable: same court, era or type, confidence C, standing: partly. Swastika plan as a gallery only Basis: S422: 万字廊 listed in the Qianlong garden; 1949 changes noted; S05 j.81 f.10a on ours: a building like 卍 on water. https://zh.wikipedia.org/wiki/中南海
+- **T013** 碧螺亭 Biluo Ting, 宁寿宫花园 故宫. Comparable: same court, era or type, confidence C, standing: yes. Roof on an odd plan, not 卍 Basis: S422: plum-blossom plan on five columns, double eave, 1772: another Qianlong shape-plan. https://zh.wikipedia.org/wiki/宁寿宫花园
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

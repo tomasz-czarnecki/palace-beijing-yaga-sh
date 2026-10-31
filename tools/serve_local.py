@@ -3,7 +3,7 @@
   uv run python tools/serve_local.py [--port 8796] [--public]
 
 /reconstruction/3d serves 3d.html and /reconstruction/ redirects to /reconstruction. /_local/ is not a folder of site/: it exposes research/layers (working copies of the layers),
-research/overlays (the georeferenced plan S01), research/raw/photos (research-only copies) and research/raw/buildings (the full building pages) to the map and the 3D view. --public turns
+research/overlays (the georeferenced plan S01), research/raw/photos and research/raw/reconstructions (research-only copies) and research/raw/buildings (the full building pages) to the map and the 3D view. --public turns
 /_local/ off, which is what a visitor gets. Pages find out whether /_local/ is there from the X-Palace-Local header on any answer, so on a plain static server (the preview on :8790, a host) they never ask for it. Binds to 127.0.0.1 only. Sends no-cache headers.
 """
 
@@ -18,6 +18,7 @@ LOCAL = {
     "/_local/layers/": ROOT / "research/layers",
     "/_local/overlays/": ROOT / "research/overlays",  # the plan S01, georeferenced; never public
     "/_local/photos/": ROOT / "research/raw/photos",  # research-only copies; never public
+    "/_local/reconstructions/": ROOT / "research/raw/reconstructions",  # research copies of other people's reconstructions; never public
     "/_local/buildings/": ROOT / "research/raw/buildings",  # full building pages; never public
     "/_local/plancrops/": ROOT / "research/raw/plancrops",  # the plan S01 round each object; never public
 }

@@ -196,6 +196,25 @@ Ssu I Shu Wu (the Library of the Four Delights) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 安澜园. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T024** 安澜园 (陈氏隅园) Anlan Yuan (Chen family Yu Yuan), 海宁 盐官 Haining, 浙江. Ours was copied from it, confidence A, standing: partly. Plan of a lake garden; loft 烟月清真楼 as the Chen 竹堂月阁 Basis: S05 j.82 f.8b-9a: 「略仿海宁陈氏安澜园之意」; 御制安澜园记: Qianlong brought a picture back from the tour of 壬午 (1762) and with a slight rearrangement round 四宜书屋 it matched the Chen garden 「曲折如一无二」; the ten poems (f.10b-12a) name the Chen library tower and bamboo hall. https://github.com/kanripo/KR2k0036
+  - P0565: Anlan Garden 01 2015-06. https://commons.wikimedia.org/wiki/File:Anlan_Garden_01_2015-06.JPG
+  - P0566: Anlan Garden in 1770. https://commons.wikimedia.org/wiki/File:Anlan_Garden_in_1770.jpg
+- **T025** 画舫斋 Huafang Zhai, 北海 Beihai. Comparable: same court, era or type, confidence C, standing: yes. House named as a boat; pool within galleries Basis: S05 j.82 f.11b: 绿帷舫: gallery on the water, 「何必真舫」. S422: 画舫斋 is a hall named as a boat with a square pool ringed by galleries. Both are house-boats on dry ground. https://zh.wikipedia.org/wiki/北海公园
+  - P0633: 北京北海公园画舫斋2023.4 (1). https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%E7%94%BB%E8%88%AB%E6%96%8B2023.4_(1).jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

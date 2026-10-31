@@ -117,6 +117,24 @@ Ch'u Yuan Feng Ho (Yeast Courtyard, Wind, and Lotus) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 麴院风荷. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T044** 苏堤 Su Causeway, West Lake, 西湖 杭州 Hangzhou. Ours was copied from it, confidence B, standing: yes. Bank and nine-arched bridge as a long rainbow Basis: S417: 曲院风荷 pool, 400 x 150 m, is an epitome of West Lake and its west bank imitates the Su Causeway; largest of the garden's ten. S05 j.82 f.26b-27a says only that the scenery is alike (see other row). https://www.visitbeijing.com.cn/article/47QroOXaID5
+  - P0655: Su Causeway, West Lake. https://commons.wikimedia.org/wiki/File:Su_Causeway,_West_Lake.jpg
+  - P0656: Su Causeway near West Lake, looking towards north 20120529 1. https://commons.wikimedia.org/wiki/File:Su_Causeway_near_West_Lake,_looking_towards_north_20120529_1.jpg
+- **T043** 曲院风荷 Quyuan Fenghe (Winery Courtyard, Lotus in the Breeze), 西湖 West Lake, 杭州. Comparable: same court, era or type, confidence A, standing: yes. Scenery: lotus and bridge. Not a building copy Basis: S05 j.82 f.26b-27a, 乾隆九年 poem: 西湖 麴院 was a Song winery full of lotus; 「此处…风景相似故以其名名之」: named for like scenery. https://github.com/kanripo/KR2k0036
+  - P0603: 西湖十景-曲院风荷. https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B9%96%E5%8D%81%E6%99%AF-%E6%9B%B2%E9%99%A2%E9%A3%8E%E8%8D%B7.jpg
+  - P0604: Lotus in the Breeze at the Winding Courtyard 0. https://commons.wikimedia.org/wiki/File:Lotus_in_the_Breeze_at_the_Winding_Courtyard_0.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

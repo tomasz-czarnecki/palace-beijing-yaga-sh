@@ -43,11 +43,17 @@ None of its own.
 - **E1176** (archaeology, sure): 九洲清晏区域考古勘探报告. n.d. · mhymy 档案史料 12600, free part · S151. https://www.mhymy.com/dasl/12600.html
   Survey report's opening: the island site measures 220 x 120 m (printed area 25,000 m2), with 8,600 m2 of buildings, 656 bays of halls and galleries in middle, east and west routes, not symmetrical. The earliest hall, 清晖阁 Qinghui Ge, is given as 1707, and building went on into Daoguang. The survey results themselves sit behind a paywall.
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0291** (physical model, likely): 烫样, 天地一家春. 样式房 Yangshi Lei, held not stated in the page read, 1874. https://www.thepaper.cn/newsDetail_forward_30767629 Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

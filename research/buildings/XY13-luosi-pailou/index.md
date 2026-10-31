@@ -32,13 +32,14 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 85.9° from north
 - **Confidence:** C, assumed
 
-## Pictures (2)
+## Pictures (3)
 
 - **P0059** (sure): 线法山东门 (圆明园铜版画册 / 西洋楼铜版画, plate 十九 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-16.jpg
 
   ![P0059](../../photos/images/P0059.jpg)
 
 - **P0225** (likely): Moore negatives of the European palaces, Royal BC Museum MS-3171 (13 negatives, 12 views, c.1875 to early 1880s) (perhaps c.1875; early 1880s (visualisingchina.net)). https://search-bcarchives.royalbcmuseum.bc.ca/c-f-moore-fonds Research-only: link card.
+- **P0315** (guess): Sirén: The Imperial Palaces of Peking pl. 208 (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199637 Research-only: link card.
 
 ## Texts and drawings (3)
 
@@ -52,6 +53,20 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Lead: the maze gate 花园门 is shaped like a Western clock case with two brass doors; the maze 89 x 59 m, walls about 1.2 m high and over 1,600 m long; the hill 线法山 has a gate each side, the east one called 螺蛳牌楼. Check against the engravings.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 螺蛳牌楼. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T095** 欧洲凯旋门 European triumphal arch (type), . Comparable: same court, era or type, confidence B, standing: partly. Three-arch screen Basis: S02 p.159 calls 线法山门 a triple gateway resembling a European triumphal arch, and 螺蛳牌楼 XY13 a gate of three arches. S415 fig.20 shows the Arc de Triomphe grove at Versailles. https://archive.org/details/historyofpekings00malo
+  - P0676: Porte Saint-Denis. https://commons.wikimedia.org/wiki/File:Porte_Saint-Denis_-_panoramio.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 

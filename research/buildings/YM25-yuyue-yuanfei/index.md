@@ -40,7 +40,7 @@ Yu Yueh Yo Fei (Fishes Leap and Birds Fly) · Yuanming Yuan
 - YM25-B0114
 - YM25-B0115
 
-## Pictures (5)
+## Pictures (6)
 
 - **P0025** (sure): 魚躍鳶飛 Yuyue yuanfei [Frétillent les poissons, volent les milans] (圓明園四十景, 第25景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%BA%94%E6%99%AF_%28%E4%B8%8B%E5%86%8C%2C_%E7%AC%AC%E4%BA%94%E5%B9%85%E5%9B%BE%29%2C_%E9%AD%9A%E8%BA%8D%E9%B3%B6%E9%A3%9B_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Yuyue_yuanfei_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008339v.jpg
 
@@ -61,6 +61,10 @@ Yu Yueh Yo Fei (Fishes Leap and Birds Fly) · Yuanming Yuan
 - **P0532** (sure): 魚躍鳶飛 Yuyue Yuanfei: 乾隆 Qianlong's preface and poem with the courtiers' commentary, 御製圓明園圖詠 1887 (poem 1744 (乾隆九年); this printing 1887). https://commons.wikimedia.org/wiki/File%3ANLC403-312001107375-14034_%E7%A6%A6%E5%88%B6%E5%9C%93%E6%98%8E%E5%9C%92%E5%9C%96%E8%A9%A0_%E5%8D%B7%E4%BA%8C.pdf?page=17
 
   ![P0532](../../photos/images/P0532.jpg)
+
+- **P0713** (likely): 鱼跃鸢飞 (exhibition label); mount inscribed Yen-Ming-Yuan (1882, as said in the clip by 刘阳 Liu Yang (S650); S651 gives 1882 for Semalle). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0713](../../raw/photos/P0713.jpg)
 
 
 ## Texts and drawings (14)
@@ -103,11 +107,21 @@ Yu Yueh Yo Fei (Fishes Leap and Birds Fly) · Yuanming Yuan
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0090** (render, likely): 鱼跃鸢飞, image 757 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q9: Bay counts, plan against text
 - Q20: Name variants
 - Q47: How much burned, and when
+- Q54: Timber buildings standing in 1882 (Round 5)
 
 <!-- generated:end -->
 

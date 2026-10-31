@@ -67,13 +67,13 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
 
 ## Pictures (3)
 
-- **P0197** (likely): Shewi City Gate ruins (舍卫城 gate, file name) (1920 (Commons description)). https://commons.wikimedia.org/wiki/File%3AShewi_City_Gate_ruins_in_the_Yuanmingyuan.jpg
-
-  ![P0197](../../photos/images/P0197.jpg)
-
 - **P0209** (sure): Sirén, Enligt text under Pl. 188 Kinas trädgårdar Vol. I: Yuanmingyuan. Sheweicheng. Stadsgatan, infattad av butiksbyggnader, ledande upp mot en port i bakgrunden. Målning av Tang Dai (T’ang (undated by holder; Sirén's second trip 1921-23 for this group). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198820 Research-only: link card.
 
   ![P0209](../../raw/photos/P0209.jpg)
+
+- **P0197** (likely): Shewi City Gate ruins (舍卫城 gate, file name) (1920 (Commons description)). https://commons.wikimedia.org/wiki/File%3AShewi_City_Gate_ruins_in_the_Yuanmingyuan.jpg
+
+  ![P0197](../../photos/images/P0197.jpg)
 
 - **P0198** (likely): Shewi City ruins (舍卫城, file name) (not stated). https://commons.wikimedia.org/wiki/File%3AShewi_City_ruins_of_the_Yuanmingyuan.jpg Research-only: link card.
 
@@ -152,10 +152,36 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 舍卫城. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0007** (3D model, likely): 北京旅游网: 108 scenes digitised. 数字圆明园 team. https://www.visitbeijing.com.cn/article/49Nly85Lvzb Research-only: link card.
+- **R0324** (paper figure, sure): 舍卫城 south gate, first dig phase 2019, press report of the plan against Yangshi Lei drawings. 北京市文物研究所, 2020. https://news.qq.com/rain/a/20200108A0M0Q400 Research-only: link card.
+- **R0308** (paper figure, sure): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T051** 宿云檐 (贝阙) Suyun Yan (Bei Que), 颐和园 Summer Palace. Comparable: same court, era or type, confidence B, standing: yes. Gate tower over a passage holding Guandi Basis: S05 j.82 f.28a: 舍卫城 南门 多宝阁 祀关帝, Guandi over the gate. S422: 贝阙, a garden gate tower of Qianlong's time with a silver Guandi on top. https://zh.wikipedia.org/wiki/颐和园
+  - P0665: Su Yun Yan of Summer Palace. https://commons.wikimedia.org/wiki/File:Su_Yun_Yan_of_Summer_Palace.jpg
+  - P0666: Gate Tower of Cloud-Retaining Eaves, Summer Palace, Beijing. https://commons.wikimedia.org/wiki/File:Gate_Tower_of_Cloud-Retaining_Eaves,_Summer_Palace,_Beijing.jpg
+- **T052** 文昌阁 (颐和园) Wenchang Ge, Summer Palace, 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. Masonry town gate with a tower on it, as the 墩台 of ours (15.4 m wide, S107) Basis: S422: a city-gate type building; the Qingyi Yuan east-south gate with a three-storey tower, reduced to two at the rebuild. https://zh.wikipedia.org/wiki/颐和园
+  - P0694: Belvedere of the God of Literature, Summer Palace, Beijing, 6–18 October, 1860. https://commons.wikimedia.org/wiki/File:Belvedere_of_the_God_of_Literature,_Summer_Palace,_Beijing,_6%E2%80%9318_October,_1860.jpg
+  - P0695: 2014.08.27.142230 Wenchang Ge (Wenchang Tower) Summer Palace Beijing. https://commons.wikimedia.org/wiki/File:2014.08.27.142230_Wenchang_Ge_(Wenchang_Tower)_Summer_Palace_Beijing.jpg
+- **T053** 须弥灵境 with 苏州街 Sumeru temple above Suzhou Street, 颐和园 后山 Summer Palace. Comparable: same court, era or type, confidence C, standing: partly. Sequence: a play street leading to a sacred precinct Basis: No text pairs them. S05 j.82 f.27b-28a: ours runs shop street, double bridge, temple-town. S422 and search: the Summer Palace also joins a court shop street and a temple on one axis. https://zh.wikipedia.org/wiki/颐和园
+  - P0577: Suzhou Street in the Summer Palace (20240706121715). https://commons.wikimedia.org/wiki/File:Suzhou_Street_in_the_Summer_Palace_(20240706121715).jpg
+  - P0578: Peking Sommerpalast Suzhou Street-20071020-RM-111208. https://commons.wikimedia.org/wiki/File:Peking_Sommerpalast_Suzhou_Street-20071020-RM-111208.jpg
+  - P0591: 2014.08.27.124619 Sumeru Lingjing Summer Palace Beijing. https://commons.wikimedia.org/wiki/File:2014.08.27.124619_Sumeru_Lingjing_Summer_Palace_Beijing.jpg
+  - P0592: Gfp-beijing-summer-garden-palace-temple-building. https://commons.wikimedia.org/wiki/File:Gfp-beijing-summer-garden-palace-temple-building.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q45: Halls in the texts with no row
 - Q52: Smaller conflicts
+- Q56: Reconstructions against the period evidence
 
 <!-- generated:end -->
 

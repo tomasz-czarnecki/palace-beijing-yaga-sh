@@ -220,6 +220,15 @@ Peach Blossom Cave (Spring Colors at Wu Ling) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 桃花洞. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0116** (drawing, sure): Abb. 13, 武陵春色 Wuling Chunse (Szene 117), Lageplan und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

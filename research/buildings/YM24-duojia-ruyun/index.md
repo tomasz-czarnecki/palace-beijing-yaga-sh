@@ -101,6 +101,20 @@ To Chia Ju Yun (Crops Bountiful as the Clouds) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 芰荷香. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, sure): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T022** 耕织图 Gengzhi Tu, 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. Farm scene in a palace Basis: S422 (耕织图, 颐和园): Qianlong named a rural part of Qingyi Yuan after the Song album; rural scenes at YM24, YM21, YM26 per S05 j.82 f.4ff. https://zh.wikipedia.org/wiki/颐和园
+  - P0688: Binfeng Bridge in Summer Palace 2022. https://commons.wikimedia.org/wiki/File:Binfeng_Bridge_in_Summer_Palace_2022.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

@@ -2,15 +2,15 @@
 
   uv run python scripts/building_pages.py        (after boxes1860.py)
 
-Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson. Writes:
+Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/reconstructions/catalog.csv, research/twins/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson. Writes:
   research/buildings/<ID>-<slug>/index.md        every row of buildings.csv and every gate. The block between the markers is rewritten; `## Notes` below it is hand-written and never touched
   research/buildings/README.md                   the list of all of them
-  site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, the box, the evidence. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted). GARDEN-YM.json etc. hold what speaks for a whole garden
+  site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, the box, the evidence. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted). GARDEN-YM.json etc. hold what speaks for a whole garden, CLASS-grand_hall.json etc. the comparables for a class of hall
   research/raw/buildings/<ID>.json               local only (gitignored): the full version, with the plan readers' notes, for tools/serve_local.py
 
 Notes go on the public site, except what stands below a line holding only `%% private %%`.
 
-Evidence on a page, in this order: its own pictures, its own texts and drawings, the plan S01 as a link, then what speaks for a set of buildings (the compound, or the nearest compound and the garden) by reference, so the panel fetches it from that page and nothing is written twice; last, a line saying what was searched and not found. A research-only picture or drawing is a link card, never an image or a copied text (asserted).
+Evidence on a page, in this order: its own pictures, its own texts and drawings, the plan S01 as a link, a line saying what was searched and not found; then reconstructions by other people (modern interpretation, not evidence), surviving comparable buildings (not this building), and last what speaks for a set of buildings (the compound, or the nearest compound and the garden) by reference, so the panel fetches it from that page and nothing is written twice. A hall inherits its compound's reconstructions and comparables the same way; every page also refers to its garden and, for a hall, to its class, with `refs_only` set. A research-only picture, drawing or reconstruction is a link card, never an image or a copied text (asserted).
 """
 
 import csv
@@ -33,15 +33,19 @@ END = "<!-- generated:end -->"
 NOTES_HINT = "<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->"
 PRIVATE_LINE = "%% private %%"
 # What may stand in a public file. Anything else stops the script.
-PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "plan_ref", "fallback", "searched", "questions", "sources"}
+PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources"}
 PUBLIC_FACT_KEYS = {"label", "value", "sources", "confidence"}
 PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "group", "conf", "why", "licence", "attribution", "also_shows", "camera_note", "image", "thumb", "link_only", "of"}
+PUBLIC_RECON_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "era", "conf", "why", "caveat", "status", "licence", "attribution", "image", "thumb", "link_only"}
+PUBLIC_TWIN_KEYS = {"id", "name", "place", "relation", "standing", "confidence", "tells", "basis", "link", "status", "photos"}
 PUBLIC_EVIDENCE_KEYS = {"id", "kind", "source_id", "title", "date", "locator", "link", "rights_class", "status", "conf", "excerpt_zh", "excerpt_other", "summary"}
 GARDENS = {"Yuanming Yuan": "YM", "Changchun Yuan": "CC", "Xiyang Lou": "XY", "Qichun Yuan": "QC"}
+CLASS_NAME = {"grand_hall": "a grand hall", "main_hall": "a main hall", "side_hall": "a side hall", "small_house": "a small house", "gallery": "a gallery", "pavilion_square": "a square pavilion", "pavilion_polygon": "a polygonal pavilion", "gate_hall": "a gate hall", "temple_hall": "a temple hall", "storeyed_hall": "a storeyed hall", "tower": "a tower"}
+RELATION_WORD = {"copy of": "Ours was copied from it", "copied from ours": "It was copied from ours", "sister": "Sister: built together, same design", "same design family": "Same design family", "comparable": "Comparable: same court, era or type"}
 GARDEN_NAME = {"YM": "圆明园 Yuanming Yuan", "CC": "长春园 Changchun Yuan", "XY": "西洋楼 Xiyang Lou", "QC": "绮春园 Qichun Yuan", "ALL": "the three gardens"}
 ALSO_GARDEN = {"西洋楼": "XY", "西洋楼 set": "XY", "圆明园": "YM", "general plan": "ALL", "GARDEN:YM": "YM", "GARDEN:CC": "CC", "GARDEN:XY": "XY", "GARDEN:QC": "QC", "GARDEN:ALL": "ALL"}
 NOT_GARDEN = {f"P{n:04d}" for n in (*range(155, 161), 153, 154, 281, 282, 283, 278, 286)}  # the debated Twelve Months (Q43), the scenes of October 1860: kept in the catalog, not repeated on every plain hall
-SEARCHED_PICTURES = "the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons"
+SEARCHED_PICTURES = "the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons"
 SEARCHED_TEXTS = {
     "YM": "日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
     "XY": "日下旧闻考 j83, the Qianlong poems on Kanripo, Delatour 1803, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
@@ -163,9 +167,13 @@ class Book:
         for r in self.rows.values():
             if r["parent_id"]:
                 self.children.setdefault(r["parent_id"], []).append(r["id"])
-        self.photos, self.evidence = {}, {}
+        self.photos, self.evidence, self.recons, self.twins, self.twin_photos = {}, {}, {}, {}, {}
         for p in rd("research/photos/catalog.csv"):
             if not p["source_url"].startswith("http"):
+                continue
+            if p["relation"].startswith("twin:"):  # shows another building: it stands beside its pairing, never among the pictures of ours
+                for tid in split_ids(p["relation"][5:]):
+                    self.twin_photos.setdefault(tid, []).append(p)
                 continue
             for item in split_ids(p["shows"]):
                 pid, conf = item.split(":")
@@ -178,6 +186,13 @@ class Book:
                 bits = item.split(":")
                 pid, conf = (f"GARDEN-{bits[1]}", bits[2] if len(bits) > 2 else "likely") if bits[0] == "GARDEN" else (bits[0], bits[1])
                 self.evidence.setdefault(pid, []).append((e, conf))
+        for r in rd("research/reconstructions/catalog.csv"):
+            for item in split_ids(r["shows"]):
+                bits = item.split(":")
+                pid, conf = (f"GARDEN-{bits[1]}", bits[2]) if bits[0] == "GARDEN" else (bits[0], bits[1])
+                self.recons.setdefault(pid, []).append((r, conf))
+        for t in rd("research/twins/catalog.csv"):
+            self.twins.setdefault(t["object_id"].replace(":", "-"), []).append(t)
         self.tops = [r for r in self.rows.values() if not r["parent_id"] and not r["id"].startswith("Z-") and r["lat"]]
         self.gate_garden = {g: self.nearest(*reversed(f["geometry"]["coordinates"]), [])[0]["garden"] for g, f in self.gates.items()}
 
@@ -294,6 +309,8 @@ def row_facts(r):
         out.append(fact("Bays", " / ".join(x for x in (f"{r['bays']} in the texts" if r["bays"] else "", f"{r['bays_plan']} on the plan" if r["bays_plan"] else "") if x), src))
     if r["frontage_m"] and r["depth_m"]:
         out.append(fact("Size in the inventory", f"{r['frontage_m']} × {r['depth_m']} m. {re.sub(r'stated: research/typology/params.json by_name.*', 'stated in a source', r['size_source'])}", "S01"))
+    if r["size_lead"]:
+        out.append(fact("Lead on its size, from a modern study, not used in the model", r["size_lead"], "", "B"))
     if r["storeys"]:
         out.append(fact("Storeys", r["storeys"], src))
     if r["roof"]:
@@ -365,6 +382,24 @@ def photo_entry(p, conf, public, of=None):
     return out
 
 
+def recon_entry(r, conf, public):
+    """Shaped like a picture, so the panel draws it the same way."""
+    rid = r["recon_id"]
+    out = {"id": rid, "title": r["title"], "date": r["year"], "creator": r["author"], "archive": r["institution"], "source_url": r["link"], "kind": r["kind"], "era": r["era"], "conf": conf, "why": r["method_stated"] or r["summary_en"], "caveat": r["caveat"], "status": r["status"], "licence": r["licence"], "attribution": r["attribution"]}
+    if r["rights_class"] == "free" and r["local_copy"]:
+        out["image"], out["thumb"] = f"photos/{rid}.jpg", f"photos/{rid}_t.jpg"
+    elif r["rights_class"] != "free":
+        out["link_only"] = True
+        if not public and r["local_copy"]:  # the research copy, on the research machine only
+            out["image"] = out["thumb"] = f"/_local/reconstructions/{rid}.jpg"
+    return out
+
+
+def twin_entry(book, t, public):
+    name = " ".join(x for x in (t["twin_name_zh"], t["twin_name_en"]) if x)
+    return {"id": t["twin_id"], "name": name, "place": t["twin_place"], "relation": RELATION_WORD[t["relation"]], "standing": t["still_standing"], "confidence": t["confidence"], "tells": t["what_it_tells"], "basis": t["evidence_for_relation"], "link": t["link"], "status": t["status"], "photos": [photo_entry(p, split_ids(p["shows"])[0].rsplit(":", 1)[1], public) for p in book.twin_photos.get(t["twin_id"], [])]}
+
+
 def evidence_entry(e, conf):
     return {"id": e["evidence_id"], "kind": e["kind"], "source_id": e["source_id"], "title": e["title"], "date": e["date"], "locator": e["locator"], "link": e["link"], "rights_class": e["rights_class"], "status": e["status"], "conf": conf, "excerpt_zh": e["excerpt_zh"], "excerpt_other": e["excerpt_other"], "summary": e["summary_en"]}
 
@@ -376,6 +411,23 @@ CONF_ORDER = {"sure": 0, "likely": 1, "guess": 2}
 
 def sort_photos(items):
     return sorted(items, key=lambda x: (CONF_ORDER[x[1]] > 1, GROUP_ORDER[era_group(x[0])], x[0]["rights_class"] != "free", CONF_ORDER[x[1]], x[0]["photo_id"]))
+
+
+RECON_KIND_ORDER = {"render": 0, "aerial view": 0, "3D model": 1, "drawing": 2, "physical model": 3, "video": 4, "AR/VR": 4, "paper figure": 5, "painting": 6, "game or community build": 9}
+
+
+def sort_recons(items):
+    # images and firm ties first, a search-index entry after a page read, community builds and AI-made last
+    def year(text):
+        m = re.search(r"\b(1[0-9]{3}|20[0-9]{2})\b", text or "")
+        return int(m[1]) if m else 9999
+    return sorted(items, key=lambda x: (CONF_ORDER[x[1]] > 1, x[0]["caveat"].startswith(("Made with AI", "A community")), not (x[0]["rights_class"] == "free" and x[0]["local_copy"]), x[0]["status"] != "viewed", RECON_KIND_ORDER.get(x[0]["kind"], 7), year(x[0]["year"]), x[0]["recon_id"]))
+
+
+def sort_twins(items):
+    # a stated relation first, then by grade; one with a picture before one without
+    rel = {"copy of": 0, "copied from ours": 1, "sister": 1, "same design family": 2, "comparable": 3}
+    return sorted(items, key=lambda t: (rel[t["relation"]], t["confidence"], t["twin_id"]))
 
 
 def sort_evidence(items):
@@ -430,6 +482,20 @@ def fallback_of(book, pid, kind):
         return [garden]
     near, metres = book.nearest(float(r["lat"]), float(r["lon"]), [pid])
     return [{"kind": "nearest", "id": near["id"], "name": book.short(near["id"]), "metres": round(metres, -1)}, garden]
+
+
+def refs_of(book, pid, kind, fallback):
+    """Where else its reconstructions and comparables come from: the garden, unless the fallback has it already, and the class of hall."""
+    out = []
+    if pid in book.gates:
+        return out
+    r = book.rows[pid]
+    tag = GARDENS.get(r["garden"], "ALL")
+    if not any(f["kind"] == "garden" for f in fallback):
+        out.append({"kind": "garden", "id": f"GARDEN-{tag}", "name": GARDEN_NAME[tag], "refs_only": True})
+    if kind != "compound" and r["hall_class"] in CLASS_NAME:
+        out.append({"kind": "class", "id": f"CLASS-{r['hall_class']}", "name": CLASS_NAME[r["hall_class"]], "refs_only": True})
+    return out
 
 
 def searched_line(book, pid, kind, photos, evidence):
@@ -489,10 +555,11 @@ def build(book, pid):
                 seen.add(p["photo_id"])
                 inside.append((p, conf, c))
     has_box = bool(boxes) or (kind == "compound" and pid in book.by_parent)
+    fallback = fallback_of(book, pid, kind)
     return {
         "id": pid, "kind": kind, "title": book.name(pid), "subtitle": sub, "parent": parent, "children": children, "position": position,
         "object": {"kind": "boxes", "count": len(boxes) or len(book.by_parent.get(pid, []))} if has_box else None,
-        "model": model, "facts": facts, "photos_rows": photos, "inside_rows": inside, "evidence": evidence, "plan_ref": plan_ref(book, pid), "fallback": fallback_of(book, pid, kind),
+        "model": model, "facts": facts, "photos_rows": photos, "inside_rows": inside, "evidence": evidence, "recon_rows": sort_recons(book.recons.get(pid, [])), "twin_rows": sort_twins(book.twins.get(pid, [])), "plan_ref": plan_ref(book, pid), "fallback": fallback + refs_of(book, pid, kind, fallback),
         "searched": searched_line(book, pid, kind, photos, evidence), "questions": questions_of(book, pid, names), "cited": cited,
     }
 
@@ -505,7 +572,15 @@ def build_garden(book, tag):
     poems = sort_evidence([x for x in rows if x[0]["kind"] == "poem"])[:GARDEN_POEMS]  # this page is fetched for every plain hall: a sample, the rest stay in the catalog
     evidence = [evidence_entry(e, c) for e, c in sort_evidence([x for x in rows if x[0]["kind"] != "poem"] + poems)]
     cited = [s for e in evidence for s in split_ids(e["source_id"])] + [s for p, _ in photos for s in split_ids(p["source_id"])]
-    return {"id": pid, "kind": "garden", "title": GARDEN_NAME[tag], "subtitle": "", "parent": None, "children": [], "position": None, "object": None, "model": None, "facts": [], "photos_rows": photos, "inside_rows": [], "evidence": evidence, "plan_ref": None, "fallback": [], "searched": "", "questions": [], "cited": cited}
+    recons = sort_recons(book.recons.get(pid, []) + (book.recons.get("GARDEN-ALL", []) if tag != "ALL" else []))
+    twins = sort_twins(book.twins.get(pid, []) + (book.twins.get("GARDEN-ALL", []) if tag != "ALL" else []))
+    return {"id": pid, "kind": "garden", "title": GARDEN_NAME[tag], "subtitle": "", "parent": None, "children": [], "position": None, "object": None, "model": None, "facts": [], "photos_rows": photos, "inside_rows": [], "evidence": evidence, "recon_rows": recons, "twin_rows": twins, "plan_ref": None, "fallback": [], "searched": "", "questions": [], "cited": cited}
+
+
+def build_class(book, cls):
+    """Standing buildings comparable to a class of hall: a typology reference, fetched by every hall of that class."""
+    pid = f"CLASS-{cls}"
+    return {"id": pid, "kind": "class", "title": f"Comparable buildings for {CLASS_NAME[cls]}", "subtitle": "", "parent": None, "children": [], "position": None, "object": None, "model": None, "facts": [], "photos_rows": [], "inside_rows": [], "evidence": [], "recon_rows": [], "twin_rows": sort_twins(book.twins.get(pid, [])), "plan_ref": None, "fallback": [], "searched": "", "questions": [], "cited": []}
 
 
 def read_notes(path):
@@ -528,7 +603,7 @@ def notes_html(hand, public):
     return md.render(body.strip()).strip() if body.strip() else ""
 
 
-def page_markdown(page):
+def page_markdown(page, book_twin_photos=lambda tid: []):
     pid = page["id"]
     lines = [START, "", f"# {pid}: {page['title']}", ""]
     if page["subtitle"]:
@@ -573,6 +648,15 @@ def page_markdown(page):
         lines.append("None of its own.")
     if page["plan_ref"]:
         lines += ["", f"**On the plan:** {page['plan_ref']['text']} {page['plan_ref']['link']}"]
+    lines += ["", f"## Reconstructions by others ({len(page['recon_rows'])})", "", "Modern interpretation, not evidence."] if page["recon_rows"] else []
+    for r, conf in page["recon_rows"]:
+        who = ", ".join(x for x in (r["author"], r["institution"], r["year"]) if x)
+        rights = "" if r["rights_class"] == "free" else " Research-only: link card."
+        lines.append(f"- **{r['recon_id']}** ({r['kind']}, {conf}{', search index only' if r['status'] != 'viewed' else ''}): {r['title']}. {who}. {r['link']}{rights}")
+    lines += ["", f"## Surviving comparable buildings, not this building ({len(page['twin_rows'])})", ""] if page["twin_rows"] else []
+    for t in page["twin_rows"]:
+        lines.append(f"- **{t['twin_id']}** {t['twin_name_zh']} {t['twin_name_en']}, {t['twin_place']}. {RELATION_WORD[t['relation']]}, confidence {t['confidence']}, standing: {t['still_standing']}. {t['what_it_tells']} Basis: {t['evidence_for_relation']} {t['link']}")
+        lines += [f"  - {p['photo_id']}: {p['title']}. {p['source_url']}" for p in book_twin_photos(t["twin_id"])]
     if page["fallback"]:
         lines += ["", "## Evidence for the set of buildings", ""]
         for f in page["fallback"]:
@@ -586,6 +670,10 @@ def page_markdown(page):
 
 
 def fallback_heading(f, page):
+    if f["kind"] == "class":
+        return f"Standing buildings comparable to {f['name']} (not this building)"
+    if f.get("refs_only"):
+        return f"Reconstructions and comparables for the whole garden, {f['name']}"
     bare = not page["photos_rows"]
     what = "picture of this hall" if page["kind"] == "hall" else "picture of this compound" if page["kind"] == "compound" else "picture of this gate"
     if f["kind"] == "compound":
@@ -598,6 +686,8 @@ def fallback_heading(f, page):
 def panel_page(book, page, hand, public):
     out = {k: page[k] for k in ("id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "questions", "evidence", "searched")}
     out["photos"] = [photo_entry(p, c, public) for p, c in page["photos_rows"]]
+    out["reconstructions"] = [recon_entry(r, c, public) for r, c in page["recon_rows"]]
+    out["twins"] = [twin_entry(book, t, public) for t in page["twin_rows"]]
     out["photos_inside"] = [photo_entry(p, c, public, of=[o, book.short(o)]) for p, c, o in page["inside_rows"]]
     out["plan_ref"] = dict(page["plan_ref"]) if page["plan_ref"] else None
     if not public and out["plan_ref"] and (LOCAL_CROPS / f"{page['id']}.jpg").exists():
@@ -607,7 +697,9 @@ def panel_page(book, page, hand, public):
     out["facts"] = [f for f in page["facts"] if not f.get("private")] if public else page["facts"]
     used = set(page["cited"])
     used |= {s for f in out["facts"] for s in split_ids(f["sources"])}
-    used |= {s for s in re.findall(r"\bS\d+\b", json.dumps(out["model"], ensure_ascii=False) + out["notes_html"]) if s in book.sources}
+    used |= {s for s in re.findall(r"\bS\d+\b", json.dumps(out["model"], ensure_ascii=False) + out["notes_html"] + " ".join(t["basis"] for t in out["twins"])) if s in book.sources}
+    if page["kind"] not in ("garden", "class"):  # those two are fetched for every plain hall: the rows carry their own links
+        used |= {s for r, _ in page["recon_rows"] for s in split_ids(r["source_id"]) if s in book.sources}
     out["sources"] = sources_of(book, used)
     if public:
         assert_public(out)
@@ -622,6 +714,13 @@ def assert_public(page):
     for p in page["photos"] + page.get("photos_inside", []):
         assert set(p) <= PUBLIC_PHOTO_KEYS and p["source_url"].startswith("http"), (pid, p["id"], set(p) - PUBLIC_PHOTO_KEYS)
         assert not (p.get("link_only") and (p.get("image") or p.get("thumb"))), (pid, p["id"], "a research-only picture with an image")
+    for r in page.get("reconstructions", []):
+        assert set(r) <= PUBLIC_RECON_KEYS and r["source_url"].startswith("http"), (pid, r["id"], set(r) - PUBLIC_RECON_KEYS)
+        assert not (r.get("link_only") and (r.get("image") or r.get("thumb"))), (pid, r["id"], "a research-only reconstruction with an image")
+    for t in page.get("twins", []):
+        assert set(t) <= PUBLIC_TWIN_KEYS and t["link"].startswith("http"), (pid, t["id"], set(t) - PUBLIC_TWIN_KEYS)
+        for p in t["photos"]:
+            assert set(p) <= PUBLIC_PHOTO_KEYS and not (p.get("link_only") and (p.get("image") or p.get("thumb"))), (pid, t["id"], p["id"])
     for e in page.get("evidence", []):
         assert set(e) <= PUBLIC_EVIDENCE_KEYS, (pid, e["id"])
         assert e["rights_class"] == "free" or not (e["excerpt_zh"] or e["excerpt_other"]), (pid, e["id"], "copied text from a research-only source")
@@ -655,7 +754,7 @@ def write_folder(book, pid, page, folders):
         old.rename(wanted)
     path = wanted / "index.md"
     hand = read_notes(path)
-    write_if_changed(path, page_markdown(page) + "\n" + hand)
+    write_if_changed(path, page_markdown(page, lambda tid: book.twin_photos.get(tid, [])) + "\n" + hand)
     return hand, wanted.name
 
 
@@ -677,6 +776,11 @@ def main():
         written.add(pid)
     for tag in GARDEN_NAME:
         page = build_garden(book, tag)
+        write_if_changed(PUBLIC_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", True), ensure_ascii=False, separators=(",", ":")))
+        write_if_changed(LOCAL_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", False), ensure_ascii=False, separators=(",", ":")))
+        written.add(page["id"])
+    for cls in CLASS_NAME:
+        page = build_class(book, cls)
         write_if_changed(PUBLIC_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", True), ensure_ascii=False, separators=(",", ":")))
         write_if_changed(LOCAL_OUT / f"{page['id']}.json", json.dumps(panel_page(book, page, "", False), ensure_ascii=False, separators=(",", ":")))
         written.add(page["id"])

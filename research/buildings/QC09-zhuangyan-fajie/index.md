@@ -49,6 +49,15 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - **E0771** (description, sure): 老北京的记忆(78): 绮春园展诗应律与庄严法界, quoting 百景图志. blog · post 78 · S339. https://blog.sina.com.cn/s/blog_88741e0d0102w3l2.html
   展诗应律 Zhanshi Yinglü, by 1801, a five-bay theatre hall facing a stage for the dowager, first used so in 1823; island farmland in the 1950s, then a stable. 庄严法界 Zhuangyan Fajie, a small temple, also labelled 慈慧禅林, survived 1860 under guard and was destroyed in 1900; site cleared 1992.
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0311** (paper figure, guess): 从《春和园纪游诗》论绮春园的早期历史风貌: plan 样101-7 《清夏斋》 read as the early 春和园. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/143ef8cac193488089ad8d164e2ec3d5.htm Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q11: Qichun Yuan's thirty scenes

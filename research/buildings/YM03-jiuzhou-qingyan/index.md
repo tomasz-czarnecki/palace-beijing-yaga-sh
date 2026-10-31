@@ -17,6 +17,7 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 - **Changed:** 1765 四景 added (S05); 1831 慎德堂, 乐安和/怡情书史 removed (S41; S43); 1836 fire on the central axis, 3 halls rebuilt (S41; S54); 1837 同道堂 (S43); 1855 theatre (S43); Fire on 丙申九月二十六日 (1836). 圓明園殿, 奉三無私 and 九洲清晏 rebuilt to the old form, finished 道光十七年 (1837); 1836 fire; three halls rebuilt by 1837 (S05, S02, S08, S41, S42, S43, S01, S208, S360)
 - **Destroyed:** 1860 (S05, S02, S08, S41, S42, S43, S01, S208, S360)
 - **Position:** 40.00369, 116.29029. S01 sure (S01 · confidence B)
+- **Lead on its size, from a modern study, not used in the model:** island about 234 m E-W, 116 m N-S, about 21600 sq m (S341, 再现·圆明园——九洲清晏, search extract, mhymy qklw 9484 or 9486). (confidence B)
 - **Note:** S42: 东西长220 m, 南北宽120 m, 占地25000 m2, 建筑面积8600 m2, 殿宇游廊656间. Rixia spells 九州清宴. Plan readers: the 1860 state of the west road is the Daoguang one. Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S42, S43, S01, S208, S360)
 - **Plan reader's note:** Identified by 圆明园殿 label, 前湖 and 后湖 labels. plan_x,y = presumed 九洲清晏殿 B0805 (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -157,7 +158,7 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 
 Of its halls: P0280 (YM03-11).
 
-## Texts and drawings (107)
+## Texts and drawings (104)
 
 - **E1091** (poem, sure): 御製九州清宴詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:23b-24a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製九州清宴詩 正大光明直北為㡬餘游息之所棼橑紛接鱗瓦參差前臨巨湖渟浤演漾周圍支汊縱横旁逹諸勝仿彿潯陽九𣲖騶衍謂禆海周環為九州者九大瀛海環其外兹境信若造物施設耶 昔我皇考宅是廣居旰食宵衣左圖右書園林游觀以適幾餘豈繄廊廟泉石是娱所志維何煌煌御書九州清宴皇心乃舒肯構孰責繼序在余業業兢兢奉此遺模一念之間敬肆攸殊作狂作聖繫彼斯湏謂天可畏屋漏與俱謂民可畏敢欺其愚六膳八珍牣乎御㕑念彼溝壑曷其飽諸水榭山亭天然畫圖瞻彼茅簷痌瘝切膚慎終如始前聖之謨嗚呼小子母渝厥初
@@ -432,14 +433,34 @@ Of its halls: P0280 (YM03-11).
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 - **E1176** (archaeology, sure): 九洲清晏区域考古勘探报告. n.d. · mhymy 档案史料 12600, free part · S151. https://www.mhymy.com/dasl/12600.html
   Survey report's opening: the island site measures 220 x 120 m (printed area 25,000 m2), with 8,600 m2 of buildings, 656 bays of halls and galleries in middle, east and west routes, not symmetrical. The earliest hall, 清晖阁 Qinghui Ge, is given as 1707, and building went on into Daoguang. The survey results themselves sit behind a paywall.
-- **E1178** (reconstruction, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. post 2024, on plans of Jiaqing to Daoguang · section 二 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
-  Sequence of works on Yangshi Lei plans: after 1828 清晖阁 became 湛静斋 with 穿堂殿 and 后殿; 1831 怡情书史 and its fish pond gave way to 慎德堂; 1836 the three axis halls were rebuilt and 同道堂 added; 1846 the four courts of 洞天深处 became two. This fits the labels 前殿, ?顺堂, 后殿 on S01 as the former 湛静斋 group.
-- **E1177** (reconstruction, sure, search index only): 再现·圆明园——九洲清晏 (中, 下), 贺艳, 紫禁城 2011(11) etc.. 2011 · mhymy qklw 9484, 9486 · S341. https://www.mhymy.com/xsjl/qklw/9484.html
-  贺艳's essays on the imperial residence island, north of 寿山 on the garden's axis; timber bridges lead NE to 镂月开云 and NW to 茹古涵今. See also part 下 at qklw/9486.html.
-- **E1179** (reconstruction, sure, search index only): 九洲景区俯瞰复原图. n.d. · mhymy szfy 2635 · S340. https://www.mhymy.com/szfy/2635.html
-  Link card to a bird's eye reconstruction of the nine-island district.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 圆明园殿. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (13)
+
+Modern interpretation, not evidence.
+- **R0291** (physical model, likely): 烫样, 天地一家春. 样式房 Yangshi Lei, held not stated in the page read, 1874. https://www.thepaper.cn/newsDetail_forward_30767629 Research-only: link card.
+- **R0148** (physical model, likely): 样式雷烫样 Yangshi Lei card models of Yuanmingyuan: 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春, 恒春堂, 课农轩, 廓然大公, 勤政殿, 万方安和. 雷氏 Lei family holdings, shown in 故宫 exhibition 营缮之道 《单士元》, Tongzhi period for most, per the report. https://www.thepaper.cn/newsDetail_forward_2201516 Research-only: link card.
+- **R0042** (AR/VR, sure): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0046** (video, sure): 三维立体视频 of the 圆明园四十景, including 九洲清晏. 数字圆明园 team, 郭黛姮; 贺艳 as main lead, as the report states; institution not named beyond the team, 2022. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0053** (AR/VR, sure): “飞跃圆明园四十景”, MR glasses, 2026 服贸会 at Shougang. 中央美术学院 人工智能与数字文化遗产研究中心, 中央美术学院 Central Academy of Fine Arts, 2026. https://cn.chinadaily.com.cn/a/202609/14/WS6aa802efe4b09a165c78a00c.html Research-only: link card.
+- **R0002** (paper figure, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. after 2024. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm Research-only: link card.
+- **R0026** (aerial view, sure, search index only): 九洲景区俯瞰复原图. . https://www.mhymy.com/szfy/2635.html Research-only: link card.
+- **R0290** (physical model, sure, search index only): 烫样, 九洲清晏殿. 样式房 Yangshi Lei, 故宫博物院 Palace Museum, Tongzhi. https://m.thepaper.cn/detail/31695388 Research-only: link card.
+- **R0031** (video, sure, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+- **R0037** (paper figure, sure, search index only): 再现·圆明园——九洲清晏（中）. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9484.html Research-only: link card.
+- **R0038** (paper figure, sure, search index only): 再现·圆明园——九洲清晏（下）. 贺艳 (清华大学, as the extract states), 清华大学, 2012. https://www.mhymy.com/xsjl/qklw/9486.html Research-only: link card.
+- **R0070** (paper figure, sure, search index only): 《故宫博物院藏九洲清晏殿烫样解读》, 故宫博物院院刊 2019(9). 蒋哲, 刘畅 (清华大学建筑学院, per search extract), 清华大学建筑学院, 2019. https://www.mhymy.com/xsjl/qklw/11204.html Research-only: link card.
+- **R0058** (render, guess): 九州清晏 (caption in a gallery). posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T007** 烟波致爽殿 Yanbo Zhishuang Hall, 避暑山庄 Chengde. Comparable: same court, era or type, confidence B, standing: yes. Plan of a private imperial residence hall, with side courts Basis: S422 (烟波致爽殿): emperor's residence, 1710 or 1711, 7 bays with two throne rooms and two Buddhist rooms, 歇山 roof, side courts for consorts; S05 j.80 f.10a links the gardens. Xianfeng died here in 1861, after leaving Yuanming Yuan in 1860. https://zh.wikipedia.org/wiki/烟波致爽殿
+  - P0571: 承德避暑山庄烟波致爽殿2025.11 (1). https://commons.wikimedia.org/wiki/File:%E6%89%BF%E5%BE%B7%E9%81%BF%E6%9A%91%E5%B1%B1%E5%BA%84%E7%83%9F%E6%B3%A2%E8%87%B4%E7%88%BD%E6%AE%BF2025.11_(1).jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

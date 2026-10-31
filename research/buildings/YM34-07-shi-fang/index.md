@@ -47,6 +47,8 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 别有洞天: see YM34
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a small house (not this building): see CLASS-small_house
 
 **Searched and not found:** No text or drawing names it in 日下旧闻考 j80-82, the Qianlong poems on Kanripo, 養吉齋叢錄, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 

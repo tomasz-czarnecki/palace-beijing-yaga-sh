@@ -42,6 +42,7 @@ None of its own.
 
 - Evidence for the whole compound  (no picture of this hall found): see YM57
 - Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this hall found): see GARDEN-YM
+- Standing buildings comparable to a side hall (not this building): see CLASS-side_hall
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

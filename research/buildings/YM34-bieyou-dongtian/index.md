@@ -170,6 +170,21 @@ Pieh Yu Tung T'ien (There Is Another Cave of Heaven) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 别有洞天. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0084** (render, likely): 别有洞天, image 749 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T032** 清晏舫 Qingyan Fang (Marble Boat), 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. Stone hull, half in water. Never the cabin Basis: S05 inventory: 石舫 at 别有洞天; S422: stone boat of Qianlong with a Chinese cabin, burned 1860, rebuilt under Guangxu with a Western-looking cabin. https://zh.wikipedia.org/wiki/颐和园
+  - P0624: Shifang in the Summer Palace. https://commons.wikimedia.org/wiki/File:Shifang_in_the_Summer_Palace.jpg
+  - P0625: Bundesarchiv Bild 137-022923, Sommerpalast in Peking. https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_137-022923,_Sommerpalast_in_Peking.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

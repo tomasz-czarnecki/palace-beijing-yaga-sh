@@ -295,6 +295,21 @@ The Long Spring Lodge of the Immortal · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 长春仙馆. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0308** (paper figure, sure): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T011** 松鹤斋 Songhe Zhai, 避暑山庄 Chengde. Comparable: same court, era or type, confidence B, standing: yes. Residence of a dowager in the garden: seven court depth Basis: S05 j.81 f.5a-b: 长春仙馆 was Qianlong's early home; on feasts his mother was brought to stay here. S422: 松鹤斋, seven courts, 1749, built for the empress dowager. https://github.com/kanripo/KR2k0036
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q9: Bay counts, plan against text

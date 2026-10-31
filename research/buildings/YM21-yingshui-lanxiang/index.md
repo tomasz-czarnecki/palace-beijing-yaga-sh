@@ -117,6 +117,15 @@ Ying Shui Lan Hsiang (Reflections on the Water and the Fragrance of Iris) · Yua
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0119** (drawing, sure): Abb. 20, 映水兰香 Yingshui Lanxiang (Szene 131), Lage und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q13: Weak identifications

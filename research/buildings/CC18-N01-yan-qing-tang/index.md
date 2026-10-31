@@ -18,6 +18,7 @@ Changchun Yuan
 - **Position:** 40.00590, 116.31166. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x3 on the plan (S01, S362)
 - **Size in the inventory:** 22.848 × 25.7 m. stated: S362, sections 2, 4 (S01)
+- **Lead on its size, from a modern study, not used in the model:** 5 x 3 bays with surrounding gallery; overall width 22.848 m; base 25.344 x 22.464 m, 1 m high (S362, sections 3-4). (confidence B)
 - **Tiles:** grey (S01, S362)
 - **Note:** bays: 5 x 3 with gallery round; first row of the middle bay without inner columns (S362, sections 2, 4). depth_m: 19.968 (S362, sections 2, 4). three linked rolls, hip-gable, no bracket sets (S362, sections 2, 4). (S01, S362)
 - **Plan reader's note:** Label directly east of the hall. Not in the inventory: see notes.md (敦素堂 expected). (S01) *(research copy, not public)*
@@ -39,7 +40,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (11)
+## Texts and drawings (9)
 
 - **E0374** (poem, sure): 延清堂. 嘉庆十七年 (1812) · v4 p.83, under 如园; source ref 5-142 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=86
   > 旧室新营境不迁，高堂虚敞面晴川。松篁雅籁窗间送，山水清晖座右延。九仞含青石结秀，千丝蘸绿柳垂烟。云楣题额会心远，巩固金瓯亿万年。
@@ -64,18 +65,25 @@ None of its own.
   Floor bricks of 延清堂 reddened and cracked through, and paths and hills reddened, point to a long fire, which the author links to 1860. A patterned tile floor survives in the west end bay of the second row. Tile finds were grey; seven scraps of yellow and blue glaze are unexplained.
 - **E0363** (archaeology, sure): 揭秘圆明园考古, 华西都市报 via 中证网. 2017-07-10 · news, 张中华 and 张利芳 · S140. https://cs.com.cn/ssgs/gssc/201707/t20170710_5365575.html
   Three large campaigns since 1996 yielded over 50,000 finds. The campaign from 2012 dug 桃花洞, 大宫门, 养雀笼, the 海晏堂 water tower and 远瀛观. At 如园 Ru Yuan, the best-preserved of these sites and the first imitation of a Jiangnan garden dug here (19,000 m2 site, 2,800 m2 buildings, 3,800 m2 opened), diggers found 芝兰室, 云萝山馆, 听泉榭, 延清堂, 含碧楼, 挹霞亭, 观丰榭, 引胜轩, rockery, paths and shores, and burnt famille-rose floor tiles in 延清堂.
-- **E0365** (reconstruction, sure): 如园延清堂建筑复原研究. 2024 · sections 3-4 · S362. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html
-  A measured reconstruction from the dig: base 25.344 x 22.464 m, five bays by three with a gallery round, 50 column-base stones, a south terrace 19.68 x 7.968 m, north terrace and landing. Roof reconstructed as three linked rolls, hip-gable, no bracket sets, grey tile. Ruler taken as 32 cm.
-- **E0364** (reconstruction, sure, search index only): 如园延清堂建筑复原研究. 2024-03-28 · 圆明园官网 yjbg · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html
-  The park's own architectural reconstruction study of 延清堂 in 如园. Listed; the host stopped answering before the page could be read.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 延清堂, 5x3 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (5)
+
+Modern interpretation, not evidence.
+- **R0059** (drawing, sure): 如园延清堂正立面复原图 (图16). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0060** (drawing, sure): 延清堂内部空间使用功能及线路 (图19), redrawn on a 样式雷 plan. 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0080** (drawing, sure): 如园延清堂平面复原图 (图9). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0081** (drawing, sure): 如园延清堂剖面复原图 (图15). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0015** (paper figure, sure): 如园延清堂建筑复原研究. 周秋彤, 北京大学考古文博学院; 圆明园管理处 posted it, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 如园 (no picture of this hall found): see CC18
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

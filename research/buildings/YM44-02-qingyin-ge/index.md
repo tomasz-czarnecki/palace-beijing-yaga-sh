@@ -16,6 +16,7 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S43, S01, S103, S202)
 - **Position:** 40.00724, 116.29323. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 14 × 13 m. stated in a source (S01)
+- **Lead on its size, from a modern study, not used in the model:** three-storey stage, 23.94 m from stage floor to ridge (S312, section 1.1). (confidence B)
 - **Storeys:** 3 (S05, S43, S01, S103, S202)
 - **Note:** S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼. Stage about 十丈 deep and wide, as printed, not converted; three tiers (S202, 卷十三, line 938). (S05, S43, S01, S103, S202)
 - **Plan reader's note:** 清音阁: octagon-cornered square south of the label. Text faces N. (S01) *(research copy, not public)*
@@ -54,8 +55,10 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 同乐园 (no picture of this hall found): see YM44
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a storeyed hall (not this building): see CLASS-storeyed_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

@@ -52,6 +52,8 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 海晏堂: see XY08
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 **Searched and not found:** No text or drawing names it in 日下旧闻考 j83, the Qianlong poems on Kanripo, Delatour 1803, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings.
 

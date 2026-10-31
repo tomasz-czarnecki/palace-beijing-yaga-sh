@@ -99,6 +99,17 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 鉴碧亭, 4x4 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0303** (paper figure, sure): Fig. 4, rehabilitation of "Jian bi" Pavilion 鉴碧亭. Xiaoqi J., Tsinghua Heritage Institute For Digitization, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/351/2015/
+- **R0124** (drawing, sure): Abb. 34, 鉴碧亭 Jianbi Ting (Szene 308), Lage und Grundriss; Abb. 35, today's rebuilding. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0022** (render, sure, search index only): [清华]鉴碧亭. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/13405.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+
 ## Open questions
 
 - Q8: Known errors of S01

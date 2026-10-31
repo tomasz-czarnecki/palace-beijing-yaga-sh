@@ -2,7 +2,7 @@
 
   uv run python scripts/apply_facts.py
 
-Only `apply`, `name` and `note` rows touch the csv; a `lead` was seen in a search summary and waits until someone reads it; `gate` rows belong to layers/walls_1860 and wait for that layer's next build. An empty field takes the value. A field already filled keeps what it has: `built`, `changed` and `destroyed` take the new value after it, any other goes to the note, so the conflict stays visible. Each applied row adds its source to `sources`. Confidence rises from C to B with any applied fact; from B to A only on a dated Qing text (S05, S200, S201, S207, S208, S210) that names the thing itself.
+Only `apply`, `name`, `note` and `size_lead` rows touch the csv; a `size_lead` is a dimension stated in a reconstruction or a modern study, kept in its own column `size_lead` with its citation, and never a size of the row, a source of the row or a reason to raise a grade; a `lead` was seen in a search summary and waits until someone reads it; `gate` rows belong to layers/walls_1860 and wait for that layer's next build. An empty field takes the value. A field already filled keeps what it has: `built`, `changed` and `destroyed` take the new value after it, any other goes to the note, so the conflict stays visible. Each applied row adds its source to `sources`. Confidence rises from C to B with any applied fact; from B to A only on a dated Qing text (S05, S200, S201, S207, S208, S210) that names the thing itself.
 """
 
 import csv
@@ -36,7 +36,7 @@ def main():
         reader = csv.DictReader(f)
         fields, rows = reader.fieldnames, list(reader)
     by_id = {r["id"]: r for r in rows}
-    done = {"filled": 0, "appended": 0, "noted": 0, "named": 0, "raised": 0, "already": 0, "lead": 0}
+    done = {"filled": 0, "appended": 0, "noted": 0, "named": 0, "raised": 0, "already": 0, "lead": 0, "size_lead": 0}
     for fact in csv.DictReader(open(ROOT / "research/evidence/facts.csv", encoding="utf-8", newline="")):
         if fact["decision"] in ("lead", "gate"):
             done["lead"] += 1
@@ -44,6 +44,11 @@ def main():
         row = by_id[fact["id"]]
         field, value = fact["field"], fact["value"]
         tag = f"{value} ({fact['source_id']}{', ' + fact['locator'] if fact['locator'] else ''})."
+        if fact["decision"] == "size_lead":
+            if tag not in row["size_lead"]:
+                row["size_lead"] = f"{row['size_lead']} {tag}".strip()
+                done["size_lead"] += 1
+            continue
         if fact["decision"] == "name":
             zh, py = reading(value)
             if row["name_zh"] != zh:

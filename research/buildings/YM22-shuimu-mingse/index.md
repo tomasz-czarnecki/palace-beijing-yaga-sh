@@ -92,10 +92,26 @@ Shui Mu Ming Se (A Stream and Trees and a Bright Lute) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 水木明瑟. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0309** (paper figure, likely): 《一幅样式雷圆明园全图的年代推断》: NLC plan 043-001 dated by the outlines of scenes. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xsdt/xsxl/794b73c241ef4fa79b8d6720f31bac13.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T021** 水竹居 Shuizhu Ju, 扬州 Yangzhou. Ours was copied from it, confidence C, standing: no. Nothing yet Basis: S434 (tourist text): 水木明瑟 is modelled on 扬州 水竹居. Doubtful: S05 j.81 f.35a has Qianlong's poem on this hall in 乾隆九年 (1744), seven years before his first southern tour (S400: 1751), and it gives another reason for the place: 泰西水法 driving fans. https://www.visitbeijing.com.cn/article/47QkVhww6K6
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state
 - Q39: 丰乐轩 YM22-02
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

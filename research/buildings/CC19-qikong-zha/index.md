@@ -38,6 +38,10 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 None that name it.

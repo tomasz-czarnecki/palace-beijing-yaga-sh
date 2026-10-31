@@ -95,9 +95,18 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 **On the plan:** Drawn on the plan of the gardens (S01) with no label, 5x2 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0046** (video, likely): 三维立体视频 of the 圆明园四十景, including 九洲清晏. 数字圆明园 team, 郭黛姮; 贺艳 as main lead, as the report states; institution not named beyond the team, 2022. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0290** (physical model, sure, search index only): 烫样, 九洲清晏殿. 样式房 Yangshi Lei, 故宫博物院 Palace Museum, Tongzhi. https://m.thepaper.cn/detail/31695388 Research-only: link card.
+- **R0070** (paper figure, sure, search index only): 《故宫博物院藏九洲清晏殿烫样解读》, 故宫博物院院刊 2019(9). 蒋哲, 刘畅 (清华大学建筑学院, per search extract), 清华大学建筑学院, 2019. https://www.mhymy.com/xsjl/qklw/11204.html Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏: see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 ## Open questions
 

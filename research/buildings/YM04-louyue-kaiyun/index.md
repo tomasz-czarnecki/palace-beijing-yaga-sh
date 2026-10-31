@@ -66,7 +66,7 @@ The Peony Terrace (Engraved Moon and Open Clouds) · Yuanming Yuan
   ![P0369](../../photos/images/P0369.jpg)
 
 
-## Texts and drawings (28)
+## Texts and drawings (27)
 
 - **E1195** (poem, sure): 御製鏤月開雲詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:30a-30b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製鏤月開雲詩 殿以香楠為材覆二色瓦煥若金碧前植牡丹數百本後列古松青青環以雜蘤名葩當暮春婉娩首夏清和最宜嘯咏 雲霞罨綺疏檀麝散琳除最可娱幾暇惟應對雨餘（牡丹四月始盛而京師率值望雨時朕幸圓明園屈指已七年而花時宴賞者祗一次耳）殿春饒富貴陸地有芙蕖名漏疑刪孔詞雄想賦舒徘徊供嘯咏俯仰騐居諸猶憶垂髫日承恩此最初（予十二嵗時此地皇考以花時㳟請扈侍皇祖幸是園於降㫖許孫臣右左云）
@@ -142,16 +142,33 @@ The Peony Terrace (Engraved Moon and Open Clouds) · Yuanming Yuan
   永春亭: 4 dated items, 1790-1795, of which 4 poems (Qianlong); recurring themes: the view. First dated 1790, last dated 1795.
 - **E1218** (description, sure, search index only): 镂月开云 scene card. n.d. · mhymy jqjs 3853 · S340. https://www.mhymy.com/ymss/jqjs/3853.html
   East shore of 后湖, a garden in hills and water, 108 x 95 m, 10,000 m2. Begun late Kangxi and called 牡丹台 for its peonies.
-- **E1219** (reconstruction, sure, search index only): 镂月开云、天然图画复原视频 (中央美术学院). n.d. · mhymy fysp · S340. https://www.mhymy.com/szfy/fysp
-  The videos section includes a reconstruction by the Central Academy of Fine Arts' 圆明园 centre of these two scenes, and a 九洲 district one; a separate effort from Tsinghua's.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled ?云楼 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0115** (drawing, sure): Abb. 11, 镂月开云 Louyue Kaiyun (Szene 104), Lageplan und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0223** (video, likely): 人在画中游：央美团队UE5复原圆明园，重现万园之园的辉煌壮丽. 中央美术学院 CAFA team, as stated in the title, 中央美术学院 Central Academy of Fine Arts, 2024. https://www.bilibili.com/video/BV1EZ421t7eM Research-only: link card.
+- **R0032** (video, sure, search index only): [央美]镂月开云、天然图画复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14820.html Research-only: link card.
+- **R0058** (render, guess): 九州清晏 (caption in a gallery). posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T008** 澹泊敬诚殿 (楠木) Danbo Jingcheng Hall, for its nanmu, 避暑山庄 Chengde. Comparable: same court, era or type, confidence B, standing: yes. Unpainted scented nanmu; ours differs in two-coloured tile Basis: S05 j.80 f.30a: poem on 镂月开云: 「殿以香楠为材，覆二色瓦」. S422: Chengde's hall is also of plain nanmu. https://github.com/kanripo/KR2k0036
+  - P0653: 金丝楠木殿 1. https://commons.wikimedia.org/wiki/File:%E9%87%91%E4%B8%9D%E6%A5%A0%E6%9C%A8%E6%AE%BF_1.jpg
+  - P0654: 金丝楠木殿 2. https://commons.wikimedia.org/wiki/File:%E9%87%91%E4%B8%9D%E6%A5%A0%E6%9C%A8%E6%AE%BF_2.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 
 - Q13: Weak identifications
 - Q41: 藏密楼 YM31-07, 松风阁 YM81
 - Q45: Halls in the texts with no row
+- Q57: What state a reconstruction shows
 
 <!-- generated:end -->
 

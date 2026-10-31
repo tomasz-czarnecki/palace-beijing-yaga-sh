@@ -48,6 +48,10 @@ Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 大北门. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 None that name it.

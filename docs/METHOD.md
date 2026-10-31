@@ -2,7 +2,7 @@
 
 The playbook drawn from this project, the Old Summer Palace before 1860, and its sister Küstrin c. 1913 (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh`). Follow it for any town, palace or fortress. The result is a public website with a walkable 3D view in which every object opens a page showing its evidence.
 
-**How to read the figures.** All times are UTC on 2026-10-31, from `docs/rounds/README.md`, the git log and the progress logs. Times per worker come from the modified time of its notes file, so they are approximate. Counts are as of commit 0bb4f81.
+**How to read the figures.** All times are UTC on 2026-10-31, from `docs/rounds/README.md`, the git log and the progress logs. Times per worker come from the modified time of its notes file, so they are approximate. Counts are as of commit 0bb4f81, except phase 11 and what cites Round 5.
 
 **The whole run:** six hours by the clock, from the rulebook at 15:04 to the commit of Round 3 at 20:56, and about $178 as reported by the rounds' result rows. It took one failed run. It went this fast because Küstrin already gave the structure; expect longer without a template.
 
@@ -20,6 +20,7 @@ The playbook drawn from this project, the Old Summer Palace before 1860, and its
 | 8 | Boxes in 3D | layers, typology, DEM levels | `3d.html`, `3d.js`, `halls3d.js`, `data/halls_1860.geojson`, `generated/` | `scripts/scene1860.py`, `scripts/ground1860.py`, `scripts/boxes1860.py` | 3 min for the view after that |
 | 9 | Building pages | rows, boxes | `research/buildings/`, `data/buildings/`, `panel3d.js` | `scripts/building_pages.py`, `tools/check_pages.py` | 9 min |
 | 10 | Evidence hunt | every object as a list | `research/photos/catalog.csv`, `research/evidence/` | `scripts/photos_catalog.py`, `scripts/apply_facts.py`, `tools/check_evidence.py` | 102 min |
+| 11 | Twins and others' reconstructions | every object, its evidence | `research/twins/`, `research/reconstructions/` | `scripts/building_pages.py`, `tools/check_evidence.py`, `tools/serve_local.py` | 101 min |
 
 Phases 3 to 6 ran together as one round, 142 min. Phases 7 to 9 ran as one round, 30 min. Next come detailed models, which here have not started (`models/README.md`).
 
@@ -102,6 +103,16 @@ Goal: **no empty panel.** Breadth first, then depth on the famous objects.
 
 Say what was searched. A hall with nothing of its own shows "Evidence for the whole compound ..." and a line of what was searched and not found.
 
+### 11. Twins and other people's reconstructions
+
+The owner's reaction to phase 10 will be "most of those places are just sketches". For a lost site that is true, and two things can still put real images on the panels: **what still stands that is like it,** and **what others have built.** Both are kept apart from the evidence on screen and in the data, and neither ever sets a position or a size.
+
+1. **Twins.** Hunt the **stated relation first**: Qing texts name their models (`S05`: 文源阁 「天一取阁式」, 如园 「略仿瞻园」, 安佑宫 「恭仿寿皇殿之制」). A worker reads the texts and writes pairings; another, the only one on Commons, finds pictures from the same list as it grows. Grade the relation A, B or C; a pairing with no source is `comparable`, C, with its reason. Add **a comparable per class of hall** in a page of its own, so every plain hall reaches a standing building. Say when a twin is a rebuild.
+2. **Reconstructions.** Author, institution, year, method as stated, on every row. Note **what state each shows**: here some aim at 1744, and the card models of 1873–74 are period objects, not modern ones. Free images come mainly from **open-access papers**: read the licence on the paper, take only figures with no other credit, open every one.
+3. **Keep a record of what stays off the panel.** Here 22 rows: models of the zodiac heads, items of another garden.
+4. **Panel order:** period evidence, reconstructions (labelled modern interpretation, not evidence), comparables (labelled not this building), the set of buildings. Compounds' rows reach halls by the same fallback; garden and class come folded.
+5. **Measure before and after,** with a file fixed before the round (`research/evidence/coverage_before_r5.json`).
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:
@@ -125,7 +136,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 
 **Facts apart from rows.** A fact goes in `research/evidence/facts.csv` with its source, quote and a `decision`: `apply`, `name`, `note`, `gate` or `lead`. A script applies it, so a conflict stays visible rather than being overwritten, and a `lead` waits for someone to read it.
 
-**The panel JSON.** `site/reconstruction/data/buildings/<ID>.json`; its keys are in `research/README.md`. Order on screen: own pictures, own texts and drawings, the plan as a link, what speaks for the set of buildings, what was searched.
+**The panel JSON.** `site/reconstruction/data/buildings/<ID>.json`; its keys are in `research/README.md`. Order on screen: own pictures, own texts and drawings, the plan as a link, what was searched, reconstructions by others, surviving comparables, what speaks for the set of buildings.
 
 **Parent fallback ("set of buildings").** Most buildings of a lost site have no picture of their own: here 937 of 1510 halls show only the plan and their compound's evidence. So a page holds a reference, not a copy: `fallback` = `[{kind, id, name}]`, `kind` being compound, nearest (with the distance) or garden. The panel fetches that page, so nothing is written twice, and the heading says plainly that this is evidence for the compound. `GARDEN-*.json` holds what speaks for a garden.
 
@@ -137,7 +148,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 |---|---|---|---|
 | Free | public domain, CC0, CC BY, CC BY-SA, licence checked on the holder's page; PD-Art of pre-1900 two-dimensional works on Commons | yes | yes, credited |
 | Free with a condition | BnF / Gallica: non-commercial, credit "Source gallica.bnf.fr / BnF" | yes | yes, so the project stays non-commercial |
-| Research-only | everything else, and every NC or ND licence | no copy, `research/raw/` at most | a link card: title, date, holder, what it shows, "View at ..." |
+| Research-only | everything else, and every NC or ND licence | no copy, `research/raw/` at most | a link card: title, date, holder, what it shows, "View at ..."; on localhost the local copy, marked |
 | Tiles | Esri, Google and others | never | dev-map basemap only |
 | Traced geometry | our tracing of a plan with no copyright on it, credited | yes | yes |
 
@@ -167,6 +178,11 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 | OSM and imagery | S03, S160 | the anchors of the georeference; hints for names, with errors (Q32) |
 | DEM | S04 | base levels only |
 | Wikipedia | S06, S07 | leads and a first timeline; B at best |
+| Open-access papers | S108, S590–S594, S605, S606 | the free reconstructions: 17 of the 23 on the site, some by the Tsinghua team itself under CC BY |
+| Qing texts, read for models | S05 | 14 of the 15 relations at grade A |
+| Commons, patiently | S440, S640 | 153 twin pictures, at about 15 calls between 429s |
+| A modern monograph that weighs the claims | S415, Rabreau 2022 | what about the European models holds, which is little |
+| Old photo collections at holders | S460, S465, S654 | five free ruin plates and much correction; most captions are wrong (Q60) |
 
 **How to search:**
 - **In the site's language as much as in English,** then the languages of those who were there: French and English eyewitnesses here. The best material was never in English.
@@ -181,7 +197,8 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - ctext.org has a security check; Kanripo's GitHub text served instead.
 - Gallica's licence page refuses automated access.
 - Commons and Wikisource rate-limit at about 9–14 requests a minute on a shared address: 187 name searches did not run, so "no picture found" there is not proof.
-- A session's web search budget ended at 200 searches, at 19:45 in Round 3. Keep some back for the last wave.
+- A session's web search budget ended at 200 searches, at 19:45 in Round 3. Keep some back for the last wave. Round 5 gave each worker a share and stayed within it, at about 170.
+- Round 5: Duke, Harvard's API, Gallica's SRU, the Library of Congress, Getty, and most of mhymy.com. Q62 has the full list; `research/wishlist.md` says who could open them by hand.
 
 **The wishlist is a deliverable.** What, what it would replace, where it is held, how to ask (`research/wishlist.md`).
 
@@ -232,6 +249,8 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **A worker overruns.** The pictures worker ran about 100 minutes against a 30–45 minute scope. Give a deadline by the clock (`date -u`), and turn what's missing into a wish row.
 - **Rules broken under pressure.** One worker ran `git checkout` twice despite "no git writes"; others wrote shared files; one fetched tiles too fast. Say so in the final message; those reports are in `docs/rounds/README.md`.
 - **Late shared facts.** The plan's scale was corrected after wave 1, so the correction was added to the common brief before wave 2. Keep that brief a living file.
+- **Workers in one scripts folder.** Two overwrote each other's contact-sheet script. Fix: a prefix per worker.
+- **Workers' "can't".** The brief said skip without `pdfimages`, so ten free rows came back with no image. A small library in scratch fixed it in minutes. Check what a worker skipped before accepting it.
 - **Valuable tools left in scratch.** Round 3's merge scripts sat outside the repo. Catalogues are the truth, so a rebuild doesn't need them, but they can't be rerun from a clone. Copy what's reusable into `tools/`, as was done with the font subsetter (`tools/font_subset.py`).
 
 **Reading evidence:**
@@ -242,11 +261,14 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Wrong people, wrong place.** Beato's photographs of 1860 show Qingyi Yuan, not this garden. Prints credited to Piry, Child or Ohlmer may be by C. F. Moore. Skušek's album names are unreliable (Q49).
 - **Same thing twice.** Parallel workers gave one item two source ids, and two names can be one place (QC40 = QC25). Keep ids; note the identity.
 - **Snippets posing as sources.** Mark them `snippet`, hold their facts as `lead`, and let the panel say so.
+- **A caption's place name.** Before 1900, "Yuen Ming Yuen" and "Summer Palace" name other gardens too: Favier, Thomson and Beato at the holders themselves. Check form, always.
+- **Viral claims.** "Photographs of the garden before the fire" come with no holder and no picture named. Test them, write down the test, and leave them out.
+- **A twin's chain of repeats.** 海晏堂 follows the Trianon comes from one book of 1971 and fills the web. Find a work that weighs the claim.
 - **Confidence inflation.** "On a source" here means position and footprint; heights and roofs still come from the typology. Say that where the number is quoted.
 
 **Building it:**
 - **Stated sizes not reaching boxes,** because a row's name differed from the key: 文源阁, 大宫门, 雷峰夕照. Print what didn't bind.
-- **Workers' shorthand in public text.** Clean notes by rule and view real panels.
+- **Workers' shorthand in public text.** Clean notes by rule and view real panels. File names as titles, and the same work tied twice at two grades, showed up only in screenshots.
 - **Boxes fighting the plan.** At full hall scale 315 pairs overlap. Reduce towards the drawn size first, then move at most 2 m, and report what is left (Q34).
 - **Views that look wrong:** the outer plain hid the water, land colours skipped colour conversion, labels too small, wall tops through low roofs. Only viewing screenshots catches these.
 - **Generators that must be idempotent.** `scripts/building_pages.py` writes only if changed, and `tools/check_pages.py` runs it twice and compares.
@@ -292,6 +314,7 @@ echo "exit $? at $(date -u +%H:%MZ)" > "$R/next.done"
 - [ ] Typology with a source per number.
 - [ ] Dev map, then boxes, then pages. View the screenshots.
 - [ ] Evidence wave by kind, panel, measure gaps, wave on the gaps, verify quotes by script.
+- [ ] Twins by stated relation, typology comparables, reconstructions by others with their period and method; before and after counted.
 - [ ] `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_docs.py` pass.
 - [ ] Rebuild in a scratch copy: every committed file comes out the same.
 - [ ] Wishlist and rights questions written for the owner.

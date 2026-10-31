@@ -47,7 +47,7 @@ Lien Hsi Lo Ch'u (the Happy Place of Falling Streams) · Yuanming Yuan
 - YM23-N02 墨?亭
 - YM23-N03 水云居
 
-## Pictures (5)
+## Pictures (6)
 
 - **P0023** (sure): 濂溪樂處 Lianxi lechu [Où Lianxi éprouve de la joie] (圓明園四十景, 第23景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E6%99%AF_%28%E4%B8%8B%E5%86%8C%2C_%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E6%BF%82%E6%BA%AA%E6%A8%82%E8%99%95_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Lianxi_lechu_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008337z.jpg
 
@@ -69,8 +69,12 @@ Lien Hsi Lo Ch'u (the Happy Place of Falling Streams) · Yuanming Yuan
 
   ![P0530](../../photos/images/P0530.jpg)
 
+- **P0711** (likely): 濂溪乐处知过堂 (exhibition label); mount inscribed Yen-Ming-Yuan Nº 128 (1882, as said in the clip by 刘阳 Liu Yang (S650); S651 gives 1882 for Semalle). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
 
-## Texts and drawings (38)
+  ![P0711](../../raw/photos/P0711.jpg)
+
+
+## Texts and drawings (37)
 
 - **E1690** (poem, sure): 御製濓溪樂處詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:1b-2a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製濓溪樂處詩 苑中菡萏甚多此處特盛小殿數楹流水周環於其下每月涼暑夕風爽秋初淨緑紛紅動香不已想西湖十里野水蒼茫無此端嚴清麗也左右前後皆君子洵可永日 水軒俯澄泓天光涵數頃爛漫六月春摇曳玻瓈影香風湖面來炎夏方秋冷時披濓溪書樂處惟自省君子斯我師何須求玉井
@@ -172,10 +176,18 @@ Lien Hsi Lo Ch'u (the Happy Place of Falling Streams) · Yuanming Yuan
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.300-320 (21 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
-- **E0562** (reconstruction, likely): 《“再造”一个圆明园》, Tsinghua news. n.d. · 媒体清华 · S342. https://www.tsinghua.edu.cn/info/1182/39662.htm
-  郭黛姮's research from 2000 with students including 贺艳; the digital work from 2009 by 清城睿现. They traced remains by bicycle: steps at 上下天光, cave and rockery at 杏花春馆, timber piles at 濂溪乐处. A clear account of method, without pictures to take.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 慎修思永 / 知?堂 / 水云居 (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0009** (3D model, likely): 《“再造”一个圆明园》, Tsinghua news. 郭黛姮, 贺艳 and team, 清华大学; 清城睿现. https://www.tsinghua.edu.cn/info/1182/39662.htm Research-only: link card.
+- **R0174** (drawing, sure, search index only): 濂溪乐处 Lianxi Lechu, plan of the late Qianlong period with an electronic model. 《圆明园研究》 no. 89, the park's research newsletter, 2025. https://www.yuanmingyuanpark.cn/xs/ktsb/202508/t20250801_4781033.html Research-only: link card.
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

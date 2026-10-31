@@ -53,7 +53,7 @@ The Great Palace Gate (Malone p.68) · Yuanming Yuan
   ![P0217](../../raw/photos/P0217.jpg)
 
 
-## Texts and drawings (31)
+## Texts and drawings (30)
 
 - **E0999** (text, sure): 日下舊聞考 正大光明. 1780s (乾隆 敕撰) · j80:7b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 大宫門前輦道東西皆有湖是為前湖（圓明園冊）臣等謹按前湖西岸有石刻御製前湖詩
@@ -137,10 +137,25 @@ The Great Palace Gate (Malone p.68) · Yuanming Yuan
   Report's opening describes three successive courts from 大宫门 to 正大光明殿, 370 m north-south and 310 m east-west between the 如意门 gates, 114,700 m2 of site and 7,000 m2 of buildings, begun 1725. Gate hall of five bays on a base 21.57 x 11.33 m, 0.77 m high; screen wall 41.6 m long, 204.8 m south of the gate terrace.
 - **E2121** (archaeology, sure, search index only): 圆明园遗址公园大宫门区域考古发掘简报, 北京市文物研究所, 12 pp.. n.d. · mhymy 档案史料 12331, title only · S154. https://www.mhymy.com/dasl/12331.html
   Listed brief report on the 大宫门 dig; only the title and author are readable here. Marked as a wish.
-- **E1018** (reconstruction, sure, search index only): 再现·圆明园——正大光明, 贺艳, 紫禁城. 2011-12 · mhymy qklw 9456 · S341. https://www.mhymy.com/xsjl/qklw/9456.html
-  贺艳's reconstruction essay on the court district: built by Yongzheng in 1725 to rule from the garden. East it meets 勤政亲贤, north 寿山 and 前湖, west 长春仙馆.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 圆明园大宫门. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0102** (paper figure, likely): Fig. 5, Restoration plan of Yuanmingyuan palace gate. Xiaoqi J., Tsinghua Heritage Institute For Digitization, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/351/2015/
+- **R0063** (drawing, likely): 圆明园宫门前区域全盛时期图 (图前-1), 《圆明园大宫门区历史文脉调查研究》. 圆明园考古遗址公园管理处; 北京勺海堂文化科技有限责任公司, as the report states, 2017; posted 2020. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/t20200803_4417131.html Research-only: link card.
+- **R0035** (paper figure, sure, search index only): 再现·圆明园——正大光明. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9456.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T045** 东宫门 (颐和园, 原大宫门) East Palace Gate, Summer Palace, 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. The lead gate of an imperial garden, with front court Basis: Search summary: 东宫门 was called 大宫门 in the older naming; S422 at 仁寿殿: court behind the gate. No text pairs the gates. https://zh.wikipedia.org/wiki/颐和园
+  - P0692: Beijing (November 2016) - 775. https://commons.wikimedia.org/wiki/File:Beijing_(November_2016)_-_775.jpg
+  - P0693: Entrance to Summer Palace Beijing (20996629959). https://commons.wikimedia.org/wiki/File:Entrance_to_Summer_Palace_Beijing_(20996629959).jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

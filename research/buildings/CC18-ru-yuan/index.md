@@ -51,7 +51,7 @@ Ju Yuan, Garden of Likeness (Malone p.98) · Changchun Yuan
 
 None of its own.
 
-## Texts and drawings (42)
+## Texts and drawings (40)
 
 - **E0342** (poem, sure): 御製如園詩. 1770 (乾隆三十五年) · j83:18b-19a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆三十五年御製如園詩　南北臨衢各築垣過來複道便如園有泉有竹清幽致曰室曰齋淳樸敦境冩中山遥古蹟（江寕藩司署中瞻園即明中山王徐逹西園之舊是園規制略倣之）石移西嶺近雲根邇方小得心懐暢景對南薰畧可論
@@ -165,18 +165,32 @@ None of its own.
   如园 gave over a thousand objects, among them a stone with a Jiaqing inscription, 金砖 floor bricks, famille-rose tiles, jade and gourd moulds, and fixed the places of several of the 如园十景 ten views.
 - **E0363** (archaeology, sure): 揭秘圆明园考古, 华西都市报 via 中证网. 2017-07-10 · news, 张中华 and 张利芳 · S140. https://cs.com.cn/ssgs/gssc/201707/t20170710_5365575.html
   Three large campaigns since 1996 yielded over 50,000 finds. The campaign from 2012 dug 桃花洞, 大宫门, 养雀笼, the 海晏堂 water tower and 远瀛观. At 如园 Ru Yuan, the best-preserved of these sites and the first imitation of a Jiangnan garden dug here (19,000 m2 site, 2,800 m2 buildings, 3,800 m2 opened), diggers found 芝兰室, 云萝山馆, 听泉榭, 延清堂, 含碧楼, 挹霞亭, 观丰榭, 引胜轩, rockery, paths and shores, and burnt famille-rose floor tiles in 延清堂.
-- **E0365** (reconstruction, sure): 如园延清堂建筑复原研究. 2024 · sections 3-4 · S362. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html
-  A measured reconstruction from the dig: base 25.344 x 22.464 m, five bays by three with a gallery round, 50 column-base stones, a south terrace 19.68 x 7.968 m, north terrace and landing. Roof reconstructed as three linked rolls, hip-gable, no bracket sets, grey tile. Ruler taken as 32 cm.
-- **E0364** (reconstruction, sure, search index only): 如园延清堂建筑复原研究. 2024-03-28 · 圆明园官网 yjbg · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html
-  The park's own architectural reconstruction study of 延清堂 in 如园. Listed; the host stopped answering before the page could be read.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 如园. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (7)
+
+Modern interpretation, not evidence.
+- **R0059** (drawing, sure): 如园延清堂正立面复原图 (图16). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0060** (drawing, sure): 延清堂内部空间使用功能及线路 (图19), redrawn on a 样式雷 plan. 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0080** (drawing, sure): 如园延清堂平面复原图 (图9). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0081** (drawing, sure): 如园延清堂剖面复原图 (图15). 周秋彤 (北京大学考古文博学院), 北京大学考古文博学院; posted by 圆明园管理处, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0074** (video, likely): “机械臂展示圆明园数字化复原视频”, “圆明·交融” exhibition. 中央美术学院圆明园研究中心, 中央美术学院, 2024. https://news.bjd.com.cn/2024/12/03/10989999.shtml Research-only: link card.
+- **R0015** (paper figure, sure): 如园延清堂建筑复原研究. 周秋彤, 北京大学考古文博学院; 圆明园管理处 posted it, 2024. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html Research-only: link card.
+- **R0075** (render, sure, search index only): 如园 digital reconstruction, first shown 2020. 中央美院团队, 中央美术学院, 2020. https://www.mhymy.com/xsjl/14213.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T074** 瞻园 Zhan Yuan (Garden of Looking Upward), 南京 Nanjing. Ours was copied from it, confidence A, standing: yes. A court of rock and water in a broad sense only. Not a plan Basis: S05 j.83 f.18b: 乾隆三十五年 如园 poem, own note 「江宁藩司署中瞻园即明中山王徐达西园之旧，是园规制略仿之」. https://github.com/kanripo/KR2k0036
+  - P0562: 瞻园静妙堂2023.8. https://commons.wikimedia.org/wiki/File:%E7%9E%BB%E5%9B%AD%E9%9D%99%E5%A6%99%E5%A0%822023.8.jpg
+  - P0563: Zhan Yuan Garden 2018. https://commons.wikimedia.org/wiki/File:Zhan_Yuan_Garden_2018.jpg
+  - P0564: 南京瞻园假山 - panoramio (1). https://commons.wikimedia.org/wiki/File:%E5%8D%97%E4%BA%AC%E7%9E%BB%E5%9B%AD%E5%81%87%E5%B1%B1_-_panoramio_(1).jpg
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

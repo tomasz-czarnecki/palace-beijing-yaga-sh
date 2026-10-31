@@ -27,7 +27,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (15)
+## Texts and drawings (14)
 
 - **E1094** (poem, sure): 御製題清暉閣四景. 1765 (乾隆三十年) · j80:24a-25a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆三十年御製題清暉閣四景　閣前喬松已燬石壁獨存突兀横亘致不惬觀山以樹為儀新松長成復需嵗月乃因高就低㸃綴為樓齋若干間取其小無取其大取其樸無取其麗坐閣中頗似展倪黄横披小卷也　閣對横陳石壁修因高新築兩層樓隔牆延得松雲意（閣前松遭燬牆外者猶存喬柯此樓近之因以命名）小許居然勝一籌（右松雲樓）　假山有真樹秋露零瀼瀼高下綴枝葉沆瀣凝珠光寜湏詡其甘訝可裛其香玲瓏石竅間然疑即上皇硬黄待揮毫却愧米襄陽（右露香齋）　書屋剛容方丈寛慎修勤浴敢圖安其楶斧藻猶慙若漫擬東京八殿看（右涵徳書屋）　巖堂何所貯所貯惟縹緗雖非鄴侯多開卷益有方詎祗資詠吟將以騐幾康獲心在古人茹豈因柔剛（右茹古堂）
@@ -67,14 +67,18 @@ None of its own.
   A lost full map of the garden was hung in 清晖阁 in 九洲清晏 according to a secondary article (search snippet only). Already in the project timeline from S02; the hanging place is the new point, unverified here.
 - **E1176** (archaeology, sure): 九洲清晏区域考古勘探报告. n.d. · mhymy 档案史料 12600, free part · S151. https://www.mhymy.com/dasl/12600.html
   Survey report's opening: the island site measures 220 x 120 m (printed area 25,000 m2), with 8,600 m2 of buildings, 656 bays of halls and galleries in middle, east and west routes, not symmetrical. The earliest hall, 清晖阁 Qinghui Ge, is given as 1707, and building went on into Daoguang. The survey results themselves sit behind a paywall.
-- **E1178** (reconstruction, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. post 2024, on plans of Jiaqing to Daoguang · section 二 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
-  Sequence of works on Yangshi Lei plans: after 1828 清晖阁 became 湛静斋 with 穿堂殿 and 后殿; 1831 怡情书史 and its fish pond gave way to 慎德堂; 1836 the three axis halls were rebuilt and 同道堂 added; 1846 the four courts of 洞天深处 became two. This fits the labels 前殿, ?顺堂, 后殿 on S01 as the former 湛静斋 group.
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0002** (paper figure, sure): 三幅样式雷圆明园河道全图辨析: west road of 九洲清晏 after 1828. after 2024. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

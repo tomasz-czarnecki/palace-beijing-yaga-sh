@@ -96,7 +96,7 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
   ![P0384](../../photos/images/P0384.jpg)
 
 
-## Texts and drawings (20)
+## Texts and drawings (19)
 
 - **E1842** (poem, sure): 御製方壺勝境詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:13a-13b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製方壺勝境詩 海上三神山舟到風輒引去徒妄語耳要知金銀為宫闕亦何異人寰即境即仙自在我室何事逺求此方壺所為寓名也東為蕊珠宫西則三潭印月淨渌空明又闢一勝境矣 飛觀圖雲鏡水涵拏空松栢與天參高岡翽羽鳴應六曲渚寒蟾印有三魯匠營心非美事齊人搤掔只虛談爭如茅土仙人宅十二金堂比不慙
@@ -146,10 +146,26 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
   Says the 方壶胜境 leaf also shows its neighbours: 蕊珠宫 east, the three small stone pagodas and pavilions of 三潭印月 west, 天宇空明 north, two timber bridges south. So one leaf can witness several objects.
 - **E1877** (plan, likely): 三幅样式雷圆明园河道全图辨析: earth moved. 2024 · NLC 043, changes between plans, item 9 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   One listed change between plans: the hill at 澡身浴德 was removed and earth was added beside 藏舟坞, south-east of 方壶胜境, and east of 三潭印月, spoil from dredging being the usual source. Useful for the hills layer on the east shore.
-- **E0562** (reconstruction, likely): 《“再造”一个圆明园》, Tsinghua news. n.d. · 媒体清华 · S342. https://www.tsinghua.edu.cn/info/1182/39662.htm
-  郭黛姮's research from 2000 with students including 贺艳; the digital work from 2009 by 清城睿现. They traced remains by bicycle: steps at 上下天光, cave and rockery at 杏花春馆, timber piles at 濂溪乐处. A clear account of method, without pictures to take.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 方壶胜境. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (5)
+
+Modern interpretation, not evidence.
+- **R0095** (render, likely): 方壶胜境, image 768 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0009** (3D model, likely): 《“再造”一个圆明园》, Tsinghua news. 郭黛姮, 贺艳 and team, 清华大学; 清城睿现. https://www.tsinghua.edu.cn/info/1182/39662.htm Research-only: link card.
+- **R0121** (drawing, sure): Abb. 25, 方壶胜境 Fanghu Shengjing (Szene 141), Lageplan und Grundriss. Shuang Zhang, TU Berlin, 2004. https://doi.org/10.14279/depositonce-566 Research-only: link card.
+- **R0054** (video, likely): 人文清华讲坛 lecture 20 Oct 2020 with 3D renders of 方壶胜境, 西洋楼 and 海晏堂. 人文清华 (poster); 郭黛姮 team (maker), 清华大学, 2020. https://www.thepaper.cn/newsDetail_forward_9648060 Research-only: link card.
+- **R0180** (paper figure, likely, search index only): Multi-dimensional Element Graph Construction and Spatial Representation of Gardens in the Fuhai Area of Yuanmingyuan. Yuchao Cao, Nan Zhang, 风景园林 Landscape Architecture, 2025. https://doi.org/10.3724/j.fjyl.202407270414 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T026** 排云殿 佛香阁 建筑群 Paiyun Dian and Foxiang Ge group, 颐和园 Summer Palace. Comparable: same court, era or type, confidence C, standing: rebuilt 1886. Glazed halls climbing from water to a tower Basis: No text pairs them. Reason: 方壶胜境 rises from a lake on a terrace, glazed (S08, S122, S05 j.82 f.12b), as this group does (S422). https://zh.wikipedia.org/wiki/颐和园
+  - P0612: 排云殿. https://commons.wikimedia.org/wiki/File:%E6%8E%92%E4%BA%91%E6%AE%BF.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 

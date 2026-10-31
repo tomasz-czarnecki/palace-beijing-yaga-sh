@@ -130,6 +130,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 九洲清晏: see YM03
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a grand hall (not this building): see CLASS-grand_hall
 
 ## Open questions
 

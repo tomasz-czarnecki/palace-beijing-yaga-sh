@@ -42,6 +42,7 @@ None of its own.
 
 - Evidence for the whole compound 东住所 (no picture of this hall found): see QC68
 - Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this hall found): see GARDEN-QC
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.
 

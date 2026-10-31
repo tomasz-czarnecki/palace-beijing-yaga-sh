@@ -69,6 +69,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 澹怀堂: see CC01
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+- Standing buildings comparable to a gate hall (not this building): see CLASS-gate_hall
 
 ## Open questions
 

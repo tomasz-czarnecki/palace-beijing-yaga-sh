@@ -1,13 +1,15 @@
 // The building panel of the 3D view: one scrolling column of what we know about what was clicked. Classic script, loaded before 3d.js; defines the global createBuildingPanel.
 // Data: data/buildings/<ID>.json (scripts/building_pages.py). On the research machine (local = true) it reads /_local/buildings/<ID>.json, the full copy, and falls back to the public file.
 // `notes_html` was rendered at build time with raw HTML escaped; every other string is set as text.
-// Evidence comes first, because it is what a click is for: the object's own pictures, its own texts and drawings, the plan as a link, then what speaks for its set of buildings (`fallback`), fetched from that page. A research-only picture is a `link_only` entry: title, date, holder and a link, never an image. The research copy on localhost may carry a local image for it, marked as such.
+// Evidence comes first, because it is what a click is for: the object's own pictures, its own texts and drawings, the plan as a link; then reconstructions by other people (modern interpretation, not evidence), surviving comparable buildings (not this building), then what speaks for its set of buildings (`fallback`), fetched from that page. A research-only picture or reconstruction is a `link_only` entry: title, date, holder and a link, never an image. The research copy on localhost may carry a local image for it, marked as such.
 function createBuildingPanel({ local, onClose, onOpen }) {
   const root = document.getElementById("bpanel");
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };
   const cache = {};
   const GROUPS = [["stood", "Made while it stood"], ["later", "Later prints and copies"], ["ruins", "Photographs of the ruins"], ["today", "Today"]];
-  const KIND = { poem: "Poem", text: "Text", description: "Description", drawing: "Drawing", plan: "Plan", archaeology: "Archaeology", reconstruction: "Reconstruction" };
+  const KIND = { poem: "Poem", text: "Text", description: "Description", drawing: "Drawing", plan: "Plan", archaeology: "Archaeology" };
+  const NOT_EVIDENCE = "Modern interpretation, not evidence. Each author's own reading of the sources; nothing here sets a position or a size in our model.";
+  const NOT_THIS = "These buildings stand elsewhere. They show what the lost building may have looked like, not the building itself.";
   const COPY = "research copy, not public";
   let shown = null; // guards the fallback, fetched after the panel opens
 
@@ -75,12 +77,14 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     const card = el("div", "ph-link");
     card.append(el("div", "ph-title", photo.title));
     card.append(el("div", "ph-meta", [photo.date, photo.creator].filter(Boolean).join(" · ")));
-    if (photo.why) {
+    if (photo.why || photo.era) {
       const d = el("div", "ph-shows");
-      d.append(conf(photo), document.createTextNode(" " + photo.why));
+      d.append(conf(photo), document.createTextNode(" " + (photo.why || "")));
       card.append(d);
     }
     card.append(el("div", "ph-meta", photo.archive));
+    if (photo.caveat) card.append(el("div", "ph-caveat", photo.caveat));
+    if (photo.status && photo.status !== "viewed") card.append(el("span", "ev-index", "seen in a search index only"));
     if (photo.image) {
       const img = el("img", "ph-local");
       img.src = photo.image;
@@ -109,8 +113,11 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     const of = photo.of ? `${photo.of[1] || photo.of[0]}: ` : "";
     cap.append(el("div", "ph-title", of + photo.title));
     const meta = el("div", "ph-meta");
-    meta.append(conf(photo), document.createTextNode(` ${photo.date || ""}`));
-    cap.append(meta, el("div", "ph-credit", photo.attribution));
+    if (!photo.twin || photo.conf !== "sure") meta.append(conf(photo));
+    meta.append(document.createTextNode(` ${photo.date || ""}`));
+    cap.append(meta);
+    if (photo.caveat) cap.append(el("div", "ph-caveat", photo.caveat));
+    cap.append(el("div", "ph-credit", photo.attribution));
     fig.append(cap);
     return fig;
   }
@@ -167,7 +174,6 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       ["Drawings and plans", (e) => e.kind === "drawing" || e.kind === "plan"],
       ["Archaeology", (e) => e.kind === "archaeology"],
       ["Later studies", (e) => e.kind === "description" && e.rights_class !== "free"],
-      ["Modern reconstructions, link only", (e) => e.kind === "reconstruction"],
     ];
     for (const [title, test] of parts) {
       const rows = list.filter(test);
@@ -197,9 +203,74 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     return card;
   }
 
+  // Folds what is long: rows after the first few wait in a <details> until it opens.
+  function foldedList(rows, into, draw, shownFirst = 5) {
+    rows.slice(0, shownFirst).forEach((r) => into.append(draw(r)));
+    if (rows.length > shownFirst) {
+      const d = el("details", "ev-more");
+      d.append(el("summary", "", `${rows.length - shownFirst} more`));
+      d.addEventListener("toggle", () => { if (d.open && d.children.length === 1) rows.slice(shownFirst).forEach((r) => d.append(draw(r))); });
+      into.append(d);
+    }
+  }
+
+  // Reconstructions by others. Free images large enough to read; everything else a card with author, institution and year. The repair models of 1873-74 are not modern, and stand apart.
+  function reconBlock(list, into) {
+    into.append(el("p", "bp-warn", NOT_EVIDENCE));
+    const modern = list.filter((r) => r.era !== "period"), period = list.filter((r) => r.era === "period");
+    const images = modern.filter((r) => r.image && !r.link_only);
+    if (images.length) {
+      const grid = el("div", "ph-grid");
+      images.slice(0, 8).forEach((r) => grid.append(tile(r, images, false)));
+      into.append(grid);
+    }
+    foldedList(modern.filter((r) => !(r.image && !r.link_only)), into, linkCard);
+    if (period.length) {
+      into.append(el("h4", "", `Card models of the repair of 1873–74, later than 1860 (${period.length})`));
+      period.forEach((r) => into.append(linkCard(r)));
+    }
+  }
+
+  function twinCard(t) {
+    const card = el("div", "tw");
+    card.append(el("div", "tw-name", t.name));
+    card.append(el("div", "ph-meta", [t.place, t.standing === "no" ? "lost" : t.standing === "yes" ? "" : t.standing === "partly" ? "partly standing" : `${t.standing}, not the original`].filter(Boolean).join(" · ")));
+    const rel = el("div", "tw-rel");
+    rel.append(el("b", "", t.relation), el("span", `conf-grade`, ` confidence ${t.confidence}`));
+    if (t.status !== "viewed") rel.append(el("span", "ev-index", "seen in a search index only"));
+    card.append(rel);
+    t.photos.forEach((p) => { p.twin = t.name; });
+    const shown = t.photos.filter((p) => p.image && !p.link_only);
+    if (shown.length) {
+      const grid = el("div", "ph-grid");
+      shown.forEach((p) => grid.append(tile(p, shown, false)));
+      card.append(grid);
+    }
+    t.photos.filter((p) => p.link_only).forEach((p) => card.append(linkCard(p)));
+    if (t.tells) card.append(el("p", "ev-sum", t.tells));
+    if (t.basis) {
+      const d = el("details", "tw-basis");
+      d.append(el("summary", "", "Why this pairing"), el("p", "ev-sum", t.basis));
+      card.append(d);
+    }
+    if (t.link) card.append(outLink(t.link, "Source"));
+    return card;
+  }
+
+  function twinBlock(list, into) {
+    into.append(el("p", "bp-warn", NOT_THIS));
+    const standing = list.filter((t) => t.standing !== "no"), lost = list.filter((t) => t.standing === "no");
+    foldedList(standing, into, twinCard);
+    if (lost.length) {
+      into.append(el("h4", "", `Named as its model or copy, and now lost (${lost.length})`));
+      lost.forEach((t) => into.append(twinCard(t)));
+    }
+  }
+
   // What speaks for the set of buildings: fetched from that page, so nothing is written twice.
   function addFallback(page, slot) {
     for (const f of page.fallback || []) {
+      if (f.refs_only) { addRefs(page, f, slot); continue; }
       const s = section(f.heading);
       s.className = "bp-fallback";
       const hold = el("p", "bp-line", "Loading…");
@@ -210,6 +281,14 @@ function createBuildingPanel({ local, onClose, onOpen }) {
         hold.remove();
         pictureBlock(other.photos || [], s, f.kind !== "garden");
         evidenceBlock(other.evidence || [], s);
+        if (other.reconstructions && other.reconstructions.length) {
+          s.append(el("h4", "", `Reconstructions by others (${other.reconstructions.length})`));
+          reconBlock(other.reconstructions, s);
+        }
+        if (other.twins && other.twins.length) {
+          s.append(el("h4", "", `Surviving comparable buildings, not this building (${other.twins.length})`));
+          twinBlock(other.twins, s);
+        }
         if (f.kind !== "garden") {
           const ul = el("ul", "bp-links");
           linkTo([f.id, f.name], ul);
@@ -217,6 +296,23 @@ function createBuildingPanel({ local, onClose, onOpen }) {
         }
       }).catch(() => { hold.textContent = "This evidence could not be loaded."; });
     }
+  }
+
+  // Only the reconstructions and comparables of the garden or the class of hall, folded: they speak for many objects and for this one least.
+  function addRefs(page, f, slot) {
+    const d = el("details", "bp-refs");
+    slot.append(d);
+    load(f.id).then((other) => {
+      if (shown !== page.id) return;
+      const recons = other.reconstructions || [], twins = other.twins || [];
+      if (!recons.length && !twins.length) { d.remove(); return; }
+      d.append(el("summary", "", `${f.heading} (${recons.length + twins.length})`));
+      d.addEventListener("toggle", () => {
+        if (!d.open || d.children.length > 1) return;
+        if (recons.length) { d.append(el("h4", "", `Reconstructions by others (${recons.length})`)); reconBlock(recons, d); }
+        if (twins.length) { d.append(el("h4", "", `Comparable buildings (${twins.length})`)); twinBlock(twins, d); }
+      });
+    }).catch(() => d.remove());
   }
 
   function show(page) {
@@ -261,6 +357,16 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       body.append(ev);
     }
     if (page.searched) body.append(el("p", "bp-searched", page.searched));
+    if (page.reconstructions && page.reconstructions.length) {
+      const s = section(`Reconstructions by others (${page.reconstructions.length})`);
+      reconBlock(page.reconstructions, s);
+      body.append(s);
+    }
+    if (page.twins && page.twins.length) {
+      const s = section(`Surviving comparable buildings, not this building (${page.twins.length})`);
+      twinBlock(page.twins, s);
+      body.append(s);
+    }
     if (page.fallback && page.fallback.length) {
       const slot = el("div", "bp-fallbacks");
       body.append(slot);
@@ -355,8 +461,11 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     row("Date", photo.date);
     row("By", photo.creator);
     row("Holder", photo.archive);
+    if (photo.era) row("Kind", photo.era === "period" ? "A card model of the repair of 1873–74" : "A modern interpretation, not evidence");
+    if (photo.twin) row("Not this building", `It shows ${photo.twin}, a comparable building that stands elsewhere.`);
     row("Identification", photo.of ? `${photo.of[1] || ""} ${photo.of[0]}: ${photo.conf}` : photo.conf);
-    row("Why", photo.why);
+    row(photo.era ? "As its author states" : "Why", photo.why);
+    row("Note", photo.caveat);
     row("Also shows", photo.also_shows);
     row("Camera", photo.camera_note);
     row("Rights", photo.licence);

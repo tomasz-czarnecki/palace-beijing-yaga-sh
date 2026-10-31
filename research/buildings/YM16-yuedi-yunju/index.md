@@ -123,6 +123,20 @@ Yueh Ti Yun Chu (Dwelling of the Moon, Earth, and Clouds) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 三世佛殿 / 都罡殿 / 法源楼. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0301** (AR/VR, likely): 时光巴士, hydrogen XR bus with transparent screens. Jeff Smith and Steve Petersen, Chrono Craft, 圆明园管理处, 2024. https://arinsider.co/?p=25138 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T015** 小西天 (极乐世界殿) Xiaoxi Tian, Jile Shijie Hall, 北海 Beihai. Comparable: same court, era or type, confidence C, standing: yes. Square-plan Buddhist hall of the court Basis: S05 j.81 f.18b: 月地云居 has a 前殿 「方式，四面各五楹」, square. Search summary (blog): 小西天 has a square hall under a pyramid roof, glazed gates on four sides. https://blog.udn.com/JulianCWang/127561911
+  - P0636: 小西天 1. https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E8%A5%BF%E5%A4%A9_1.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

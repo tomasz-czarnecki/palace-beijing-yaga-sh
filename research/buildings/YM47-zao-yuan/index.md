@@ -246,6 +246,21 @@ Ts'ao Yuan, Garden of Aquatic Grasses (Malone p.81) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 藻园. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0301** (AR/VR, likely): 时光巴士, hydrogen XR bus with transparent screens. Jeff Smith and Steve Petersen, Chrono Craft, 圆明园管理处, 2024. https://arinsider.co/?p=25138 Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T061** 静心斋 (镜清斋) Jingxin Zhai, first Jingqing Zhai, 北海 Beihai. Comparable: same court, era or type, confidence B, standing: yes. Small walled garden: hall, pond, rocks, gallery, on the court's own scale Basis: S431 (snippet): 1756, a Qianlong garden within a garden, one of few kept complete. Ours is a small court garden of the same sort (S05, S02 p.81). No text pairs them. https://news.bjd.com.cn/2025/01/15/11037523.shtml
+  - P0583: 北京北海公园静心斋2023.3 (1). https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E5%8C%97%E6%B5%B7%E5%85%AC%E5%9B%AD%E9%9D%99%E5%BF%83%E6%96%8B2023.3_(1).jpg
+  - P0584: 静心斋. https://commons.wikimedia.org/wiki/File:%E9%9D%99%E5%BF%83%E6%96%8B.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q1: Target state

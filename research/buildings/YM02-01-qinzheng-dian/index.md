@@ -38,7 +38,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (14)
+## Texts and drawings (13)
 
 - **E1039** (poem, sure): 御製勤政親賢詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:17b-18a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製勤政親賢詩 正大光明殿之東為勤政殿日於此披省章奏召對臣工亭午始退座後屏風書無逸以自朂又東為保合太和秀石名葩庭軒明敞觀閣相交林徑四逹 庭訓昭雲日欽承切式刑勅幾宵豈暇籲俊刻靡寜一念徴䝉聖羣言辨渭涇乾乾終始志無逸近書屏
@@ -77,16 +77,21 @@ None of its own.
   The working hall. Yongzheng's 为君难 plaque hung here with Qianlong's colophon (poems and notes of 1759, 1785, 1801), and a note of 1823 explains the name. 勤政殿: 8 dated items, 1759-1829, of which 7 poems and 1 court records (Qianlong, Jiaqing, Daoguang); recurring themes: state papers. First dated 1759, last dated 1829.
 - **E1084** (drawing, sure, search index only): 勤政殿平面图 (图名: 踏勘勤政殿东书房尺寸底). 咸丰五年 (1855) 三月 · 国家图书馆善本部 样002-3号 · S310. https://www.mhymy.com/dasl/ysltd/11009.html
   Survey sheet of the east study of the Qinzheng hall with measurements, March 1855, 350x349 mm, red and ink. No image here; the site may ask a small payment for the full record.
-- **E1087** (reconstruction, sure, search index only): 再现·圆明园——勤政亲贤, 贺艳. 2011-12 · mhymy qklw 9476 · S341. https://www.mhymy.com/xsjl/qklw/9476.html
-  贺艳's essay on the emperors' office quarter east of 正大光明. 内额 勤政亲贤, outer plaque 勤政殿 by Yongzheng.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 勤政殿, 8x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0036** (paper figure, sure, search index only): 再现·圆明园——勤政亲贤. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9476.html Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 勤政亲贤 (no picture of this hall found): see YM02
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

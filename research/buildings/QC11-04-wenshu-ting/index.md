@@ -40,20 +40,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   ![P0430](../../photos/images/P0430.jpg)
 
 
-## Texts and drawings (3)
+## Texts and drawings (2)
 
 - **E0681** (description, sure): 正觉寺: plan, halls and furnishing. reprint 2021; 《圆明园研究》第5期 · section 四 · S221. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/lswh/f8d06436b9d444f98d64cdd88753acef.htm
   Faces south, five halls on the axis: gate of three bays with Qianlong's four-language plaque, bell and drum towers, five-bay 天王殿, seven-bay 三圣殿 on a stone terrace, 文殊亭, seven-bay 最上楼; a monks' yard of 8 buildings and 22 bays on the east. The only temple in the three gardens run by lamas. Furnishing comes mostly from 金勋's unpublished 成府村志.
 - **E0683** (description, sure): 藏传佛教与圆明园正觉寺. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/lswh/f8d06436b9d444f98d64cdd88753acef.htm
   正觉寺 Zhengjue Si, built 1773-74 as a Tibetan Buddhist temple with a 达喇嘛 and 40 lamas sent from 宝谛寺. Walks through its halls with 金勋's account of the five colours of Buddhas in 最上楼.
-- **E0689** (reconstruction, sure): 圆明园·正觉寺·文殊像复原设计研究; 文殊像复原研究报告; 文殊菩萨造像研究报告. 2020-07-29 · 圆明园官网 yjbg · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416666.html
-  Three park reports on the lost 文殊 statue of 正觉寺's 文殊亭: all its images are gone, and the reports try to recover the form from history and comparison, as a basis for a new statue.
 
 **On the plan:** Drawn on the plan of the gardens (S01) with no label, 1x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 正觉寺: see QC11
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+- Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
 ## Open questions
 

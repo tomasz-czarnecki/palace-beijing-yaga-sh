@@ -139,11 +139,21 @@ None of its own.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 蒨园门 on the south gate. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0322** (physical model, likely): 新建的长春园茜园桥亭. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/mysj/ad923db1a7fd4b769de8fb958972737f.htm Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T066** 青莲朵 Qinglian Duo (stone), 中国园林博物馆 Beijing. Comparable: same court, era or type, confidence B, standing: yes. Actual shape and size of a set stone Basis: S05 j.83 f.7b: 重摹梅石碑 beside 青莲朵: the 德寿宫 plum stone came north, its old stele stayed. S409: moved to 中央公园 1925; to the 园林博物馆 2013. Not a twin: a surviving piece of ours. https://github.com/kanripo/KR2k0036
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

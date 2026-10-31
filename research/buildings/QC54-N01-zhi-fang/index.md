@@ -44,8 +44,10 @@ None of its own.
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 眺吟楼 (no picture of this hall found): see QC54
+- Reconstructions and comparables for the whole garden, 绮春园 Qichun Yuan: see GARDEN-QC
+- Standing buildings comparable to a small house (not this building): see CLASS-small_house
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons. No text or drawing names it in 養吉齋叢錄 j18, modern studies of 绮春园, what search indexes show of the Yangshi Lei drawings; 日下旧闻考 does not cover this garden, and Jiaqing's 三十景 poems could not be reached (wishlist).
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons. No text or drawing names it in 養吉齋叢錄 j18, modern studies of 绮春园, what search indexes show of the Yangshi Lei drawings; 日下旧闻考 does not cover this garden, and Jiaqing's 三十景 poems could not be reached (wishlist).
 
 ## Open questions
 

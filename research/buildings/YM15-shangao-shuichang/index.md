@@ -144,6 +144,22 @@ The Drill Field (Hills High and Waters Long) · Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 山高水长. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0031** (video, sure, search index only): [央美]九洲区域复原视频. 中央美术学院圆明园研究中心 (央美 tag; the page names it, per search extract). https://www.mhymy.com/szfy/fysp/14948.html Research-only: link card.
+- **R0062** (paper figure, guess): 圆明园蒙古包形制考. posted by 圆明园管理处, posted 2020. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200730_4416789.html Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T014** 万树园 Wanshu Yuan (Garden of Ten Thousand Trees), 避暑山庄 Chengde. Comparable: same court, era or type, confidence B, standing: partly. A flat open field for receiving outer princes; tents; fireworks. Not a building form Basis: S05 j.81 f.18a: 山高水长 「为外藩朝正锡宴，陈鱼龙角觝之所」, for feasts to outer princes and shows. Search summary (exhibition text): at 万树园 the emperor received Mongol princes and envoys in tents; Castiglione and others painted it. https://github.com/kanripo/KR2k0036
+  - P0657: 亜東印画輯 07 044 "萬樹園（熱河山莊苑）". https://commons.wikimedia.org/wiki/File:%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_07_044_%22%E8%90%AC%E6%A8%B9%E5%9C%92%EF%BC%88%E7%86%B1%E6%B2%B3%E5%B1%B1%E8%8E%8A%E8%8B%91%EF%BC%89%22.jpg
+  - P0658: 萬樹園賜宴圖. https://commons.wikimedia.org/wiki/File:%E8%90%AC%E6%A8%B9%E5%9C%92%E8%B3%9C%E5%AE%B4%E5%9C%96.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q8: Known errors of S01

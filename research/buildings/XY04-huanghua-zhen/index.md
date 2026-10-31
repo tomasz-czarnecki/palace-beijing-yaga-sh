@@ -62,7 +62,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   ![P0507](../../photos/images/P0507.jpg)
 
 
-## Texts and drawings (10)
+## Texts and drawings (9)
 
 - **E0943** (description, sure): Plate V: 黄花阵 Huanghua Zhen, the maze. 1786-1803 · pp.178-179, Plate V · S258. https://archive.org/details/BIUSante_40644
   > A-peu-près au centre du labyrinthe s'élève un édifice octogone établi sur un soubassement circulaire.
@@ -85,16 +85,36 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Plan of the Huanghua Zhen maze; date not seen in the extract. No image here; the site may ask a small payment for the full record.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0946** (reconstruction, sure): 【圆明园】系列02 圆明园复原图欣赏, yaffin. c. 2011 · blog gallery · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100siah.html
-  A gallery of modern reconstruction images, source of each not given. A pointer, never to be reused.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 黄花灯. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (4)
+
+Modern interpretation, not evidence.
+- **R0096** (render, likely): 万花阵 (= 黄花阵), image 769 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0186** (paper figure, sure): 【圆明园】系列02 圆明园复原图欣赏. yaffin (blog name), 新浪博客, c. 2011. https://blog.sina.com.cn/s/blog_65fec3ab0100siah.html Research-only: link card.
+- **R0181** (paper figure, sure, search index only): Significacion semiotica del diseno del jardin el Laberinto, paradigma del Yuanming Yuan. Manuel V. Castilla, Estudios de Asia y Africa, 2018. https://doi.org/10.24201/eaa.v53i2.2404 Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T077** 凡尔赛迷宫 Labyrinthe de Versailles, Versailles, France. Comparable: same court, era or type, confidence B, standing: no. Plan idea only Basis: S414; S415 p.83 lists Lancaster's claim. S415 pp.98-99 (Droguet p.24): masonry walls here are a novelty with only distant forebears, e.g. the Cretan labyrinth printed by Fischer von Erlach. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+- **T078** 汉普顿宫迷宫 Hampton Court Maze, Hampton Court, London. Comparable: same court, era or type, confidence B, standing: yes. Plan type: paths and a central lookout Basis: S414 (PDF p.6): the engraving allows comparison with the mazes at Versailles (Le Nôtre) and Hampton Court; those are of trees, ours has flowers and, S415 p.99, brick walls. MIT essay S405: a kin of 17th c. European mazes. S423: built after a European maze. https://battle-of-qurman.com.cn/literature/VictoriaSiu-Orientations-1988.pdf
+  - P0618: Hampton Court hedge maze. https://commons.wikimedia.org/wiki/File:Hampton_Court_hedge_maze.jpg
+- **T079** 马西诺城堡 迷宫观景亭 Belvedere, Castello di Masino, Caravino, Italy. Comparable: same court, era or type, confidence C, standing: yes. Small stone lookout set in a labyrinth Basis: S415 p.99: a belvedere placed like the central 中央亭 of our maze is found at Masino, as a rarity. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0696: Castello di Masino - Torre dei venti. https://commons.wikimedia.org/wiki/File:Castello_di_Masino_-_Torre_dei_venti.jpg
+  - P0697: Caravino Castello di Masino Torre dei Venti Esterno 1. https://commons.wikimedia.org/wiki/File:Caravino_Castello_di_Masino_Torre_dei_Venti_Esterno_1.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 
 - Q8: Known errors of S01
 - Q16: 海晏堂's east half and the plan's working names
 - Q20: Name variants
+- Q58: Plans and their dates, from Round 5
 
 <!-- generated:end -->
 

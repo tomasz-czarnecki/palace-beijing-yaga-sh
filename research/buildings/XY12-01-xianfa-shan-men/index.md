@@ -30,11 +30,16 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **Faces:** 83.5° from north
 - **Confidence:** C, assumed
 
-## Pictures (1)
+## Pictures (3)
 
 - **P0057** (sure): 线法山门正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-14.jpg
 
   ![P0057](../../photos/images/P0057.jpg)
+
+- **P0315** (guess): Sirén: The Imperial Palaces of Peking pl. 208 (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199637 Research-only: link card.
+- **P0717** (guess): 线法门 (spoken in the clip: 这张照片是最新发现的一张线法门的照片) (not stated; shown as newly found (S650)). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
+
+  ![P0717](../../raw/photos/P0717.jpg)
 
 
 ## Texts and drawings (2)
@@ -51,6 +56,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 线法山: see XY12
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 

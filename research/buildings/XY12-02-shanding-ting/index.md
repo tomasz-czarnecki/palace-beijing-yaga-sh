@@ -53,6 +53,8 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 线法山: see XY12
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
+- Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
 ## Open questions
 

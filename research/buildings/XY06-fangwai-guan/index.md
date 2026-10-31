@@ -16,6 +16,7 @@ Fang Wai Kuan, A Look Abroad · Xiyang Lou
 - **Position:** 40.01207, 116.30374. S01 sure (S01 · confidence B)
 - **Bays:** 3 (S06) in the texts / 3x2 on the plan (S02, S06, S56, S01, S03, S258)
 - **Size in the inventory:** 44 × 24.2 m. typology xiyang_lou, C (S01)
+- **Lead on its size, from a modern study, not used in the model:** Fangwai Guan without side stairs: L 14 m, width 7 m, height 13 m (S603, p. 129). (confidence B)
 - **Storeys:** 2 (S02, S06, S56, S01, S03, S258)
 - **Roof:** 重檐四坡 (S06) (S02, S06, S56, S01, S03, S258)
 - **Tiles:** 蓝色琉璃 (S06) (S02, S06, S56, S01, S03, S258)
@@ -82,7 +83,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   ![P0356](../../photos/images/P0356.jpg)
 
 
-## Texts and drawings (6)
+## Texts and drawings (5)
 
 - **E0951** (description, sure): Plate VIII: 方外观 Fangwai Guan. 1786-1803 · pp.180-181, Plate VIII · S258. https://archive.org/details/BIUSante_40644
   > Sous cet avant-corps est pratiqué un souterrain, dans lequel on pénètre par une porte, accompagnée à droite et à gauche d'une espèce d'œil de bœuf grillé;
@@ -96,15 +97,40 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0936** (reconstruction, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. 2015 · open access paper · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
-  The Yuanmingyuan Digital Restoration Research Project of 2013 covered five of thirteen 西洋楼 scenes in its first two years: 谐奇趣, 海晏堂, 方外观, 蓄水楼, 观水法. The paper explains 谐奇趣's method: present-day survey with archival drawings and engravings.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 方外观, 3x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (7)
+
+Modern interpretation, not evidence.
+- **R0093** (render, likely): 方外观, image 765 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0144** (drawing, sure): Plan de l'aire du belvedere (Fig. 2 in S603), Jin Xun's drawing. 金勋 Jin Xun, Reproduced in Durand 1988, from Adam 1936, 1924 per S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0141** (drawing, sure): Fig. 9, Plan du belvedere (plan de restitution 1984). Antoine Durand, Mission Palais d'Ete, 1984 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0142** (drawing, sure): Fig. 12, Facade sud du belvedere (restitution 1984). Antoine Durand, Mission Palais d'Ete, 1984 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0042** (AR/VR, likely): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0004** (paper figure, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/ Research-only: link card.
+
+## Surviving comparable buildings, not this building (3)
+
+- **T080** Fontainebleau, escalier du Fer-à-Cheval Horseshoe Stair, Fontainebleau, Fontainebleau, France. Comparable: same court, era or type, confidence C, standing: yes. Nothing: recorded so nobody repeats it Basis: Beurdeley 1971, reported and rejected by S415 p.81: he says the two stairs differ in form and in how they reach the building. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0698: Fontainebleau escalier. https://commons.wikimedia.org/wiki/File:Fontainebleau_escalier.JPG
+  - P0699: Château de Fontainebleau 2011 (110). https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Fontainebleau_2011_(110).JPG
+- **T081** Sant'Andrea al Quirinale Sant'Andrea al Quirinale (Bernini), Rome. Comparable: same court, era or type, confidence C, standing: yes. Curved stairs only, at most Basis: S413 p.6, citing Elman 2003 p.246: the design of 方外观 is called reminiscent of this Jesuit novitiate church. No evidence offered beyond the likeness. https://journals.usj.edu.mo/index.php/mrijournal/article/download/75/84/222
+  - P0700: Sant'Andrea al Quirinale September 2015-1. https://commons.wikimedia.org/wiki/File:Sant%27Andrea_al_Quirinale_September_2015-1.jpg
+- **T082** 米拉贝尔宫 楼梯 Mirabell Palace, staircase balustrade, Salzburg. Comparable: same court, era or type, confidence C, standing: yes. Stone rail pattern at XY06 Basis: Lancaster 1948 reported in S415 p.83 for the 方外观 stair rail; S415 p.120 moves the same rail pattern back to Pozzo's Gesù rail, with a Hildebrandt parallel. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0701: Salzburg Schloss Mirabell Engelsstiege 01. https://commons.wikimedia.org/wiki/File:Salzburg_Schloss_Mirabell_Engelsstiege_01.jpg
+  - P0702: Salzburg Schloss Mirabell Engelsstiege 03. https://commons.wikimedia.org/wiki/File:Salzburg_Schloss_Mirabell_Engelsstiege_03.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 
 - Q9: Bay counts, plan against text
 - Q49: Captions overruled by form (old photographs)
+- Q56: Reconstructions against the period evidence
 
 <!-- generated:end -->
 

@@ -143,10 +143,33 @@ Yuanming Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 同乐园. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0148** (physical model, likely): 样式雷烫样 Yangshi Lei card models of Yuanmingyuan: 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春, 恒春堂, 课农轩, 廓然大公, 勤政殿, 万方安和. 雷氏 Lei family holdings, shown in 故宫 exhibition 营缮之道 《单士元》, Tongzhi period for most, per the report. https://www.thepaper.cn/newsDetail_forward_2201516 Research-only: link card.
+
+## Surviving comparable buildings, not this building (5)
+
+- **T046** 德和园大戏楼 Dehe Yuan Grand Theatre, 颐和园 Summer Palace. Same design family, confidence B, standing: rebuilt 1886. Three-storey stage, two-storey dressing building behind, facing a viewing hall: the full arrangement, and the only one where the viewing hall survives Basis: S404 names it among the 5; search summary (visitbeijing): built for Cixi's 60th birthday, 21 m, three storeys, modelled on 畅音阁, with 7 天井. https://www.stdaily.com/web/gdxw/2024-08/09/content_1969930.html
+  - P0574: Summer Palace, Beijing, The Roofs of the Garden of Virtue and Harmony (15585952743). https://commons.wikimedia.org/wiki/File:Summer_Palace,_Beijing,_The_Roofs_of_the_Garden_of_Virtue_and_Harmony_(15585952743).jpg
+- **T047** 清音阁 (避暑山庄) Qingyin Ge, Chengde, 避暑山庄 Chengde. Same design family, confidence B, standing: no. Lost, but the statement matters: our stage had a rolled ridge and grey tile, unlike 畅音阁 Basis: S404 names it among the 5 stages; S422 (暢音閣): burned 1945. S422 (颐和园): 德和园 has the structure of the 同乐园 清音阁 and the Chengde 清音阁, unlike 畅音阁 in having a rolled ridge and grey tile. https://zh.wikipedia.org/wiki/暢音閣
+- **T048** 畅音阁 Changyin Ge, 宁寿宫 故宫 Forbidden City. Same design family, confidence B, standing: yes. Three stages 福台, 禄台, 寿台, 天井 and 地井, three eaves, tall square plan: what 清音阁 at 同乐园 looked like Basis: S404: 5 three-storey Qing court stages: 同乐园, 德和园, 寿安宫, 畅音阁, 清音阁 (承德). 畅音阁 1772-76, 20.71 m, floor 685.94 m²; standing and intact. Present form after a Jiaqing alteration (search summary). https://www.stdaily.com/web/gdxw/2024-08/09/content_1969930.html
+  - P0575: Pavilion of Pleasant Sounds stage 2010 April. https://commons.wikimedia.org/wiki/File:Pavilion_of_Pleasant_Sounds_stage_2010_April.jpg
+  - P0576: Changyinge，the palace museum，bejing. https://commons.wikimedia.org/wiki/File:Changyinge%EF%BC%8Cthe_palace_museum%EF%BC%8Cbejing.jpg
+- **T050** 阅是楼 Yueshi Lou, 宁寿宫 故宫 Forbidden City. Same design family, confidence B, standing: yes. Viewing hall facing a stage: distance, height, how the emperor sat Basis: S422 (暢音閣): the viewing building facing 畅音阁, 1772. Same pair of stage and viewing hall as our 清音阁 facing 同乐园看戏楼 (S05 j.82 f.27a-b). https://zh.wikipedia.org/wiki/暢音閣
+- **T049** 苏州街 (买卖街) Suzhou Street (Maimai Jie), 颐和园 后湖 Summer Palace. Comparable: same court, era or type, confidence B, standing: partly. A court shop-street: shop fronts, signs, width of a lane. Rebuilt in 1990 Basis: Search summary (visitbeijing): the shop street was built under Qianlong after Jiangnan water towns, burned by the Anglo-French force in 1860 and rebuilt on the site in 1990; 60-70 shops, about 270-300 m. Same court idea as our 南北长街 (买卖街) at 同乐园 (S05 j.82 f.27a-28a). https://www.visitbeijing.com.cn/article/4Dn2Zq8jTbN
+  - P0577: Suzhou Street in the Summer Palace (20240706121715). https://commons.wikimedia.org/wiki/File:Suzhou_Street_in_the_Summer_Palace_(20240706121715).jpg
+  - P0578: Peking Sommerpalast Suzhou Street-20071020-RM-111208. https://commons.wikimedia.org/wiki/File:Peking_Sommerpalast_Suzhou_Street-20071020-RM-111208.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+
 ## Open questions
 
 - Q51: Reading the Yangshi Lei records
 - Q52: Smaller conflicts
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

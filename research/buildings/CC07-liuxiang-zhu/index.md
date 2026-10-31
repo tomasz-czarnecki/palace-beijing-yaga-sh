@@ -52,6 +52,15 @@ Changchun Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 流香渚. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0100** (paper figure, sure): Figs 2 and 3, previous and current 3D model of 流香渚 Liuxiang Zhu pavilion. Jindan C., Junsong Z., Jiujun Z., Beijing Re-Yuanmingyuan Company Limited, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/131/2015/
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 None that name it.

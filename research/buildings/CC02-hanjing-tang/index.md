@@ -338,6 +338,27 @@ Changchun Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 含经堂. https://artmuseum.princeton.edu/collections/objects/138657
 
+## Reconstructions by others (6)
+
+Modern interpretation, not evidence.
+- **R0316** (render, sure): 图8 含经堂模型, in 王文涛, 故宫学刊 2015. 2015 or before. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf Research-only: link card.
+- **R0319** (drawing, likely): 复原图 of 含经堂, shown on the site board as reported in a blog. . https://blog.sina.com.cn/s/blog_41345d5c0102v2gz.html Research-only: link card.
+- **R0042** (AR/VR, sure): “再现圆明园” 数字导览系统: 12 scenes, 40 planned. 郭黛姮 team; 孙慧皎 (清城睿现) on the technical side, 清华大学; 清华控股 清城睿现数字科技研究院; 圆明园管理处, 2014. https://www.tsinghua.edu.cn/info/1182/39112.htm Research-only: link card.
+- **R0317** (paper figure, sure): 紫禁城宁寿宫区与长春园含经堂区建筑关系探讨. 王文涛, 2015. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf#page=4 Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+- **R0318** (drawing, sure, search index only): 北京圆明园含经堂遗址2001~2002年度发掘简报, 考古 2004(2) 41-65; and the later dig report 《圆明园长春园含经堂遗址发掘报告》. 靳枫毅, 王继红, 王策 et al., 2004. https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_cass_nssd_9325303 Research-only: link card.
+
+## Surviving comparable buildings, not this building (2)
+
+- **T064** 遂初堂 / 宁寿宫花园 Suichu Tang, Ningshou Gong garden, 故宫 Forbidden City. Comparable: same court, era or type, confidence B, standing: yes. Two retirement plans of one man: a yellow-tile city version against a garden one Basis: S05 j.83 f.6a-b: poem on 淳化轩: if the reign reaches sixty years he will hand over and live here, 「颐居倘得遂初愿」. S412 p.45 and search: Ningshou Gong is his other retirement residence, with a hall named 遂初堂 (S422, 1772). https://github.com/kanripo/KR2k0036
+  - P0667: 乾隆花园. https://commons.wikimedia.org/wiki/File:%E4%B9%BE%E9%9A%86%E8%8A%B1%E5%9B%AD.jpg
+  - P0668: The Emperor's Garden (6230798776). https://commons.wikimedia.org/wiki/File:The_Emperor%27s_Garden_(6230798776).jpg
+- **T065** 阅古楼 Yuegu Lou, 琼华岛 北海 Beihai. Comparable: same court, era or type, confidence B, standing: yes. A building whose walls are a stone library: how the stones sat Basis: S05 j.83 f.6a-6b: 淳化轩 is built for the re-cut Chunhua stones, set in the wall of a gallery. S422: 阅古楼, two storeys, half-moon plan, 25 bays, with 495 stones of 三希堂法帖 in the walls. https://zh.wikipedia.org/wiki/北海公园
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 长春园 Changchun Yuan: see GARDEN-CC
+
 ## Open questions
 
 - Q9: Bay counts, plan against text

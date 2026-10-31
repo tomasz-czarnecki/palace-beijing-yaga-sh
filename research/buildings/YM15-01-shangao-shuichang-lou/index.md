@@ -85,6 +85,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 山高水长: see YM15
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a storeyed hall (not this building): see CLASS-storeyed_hall
 
 ## Open questions
 

@@ -17,6 +17,7 @@ Hai Yen T'ang, Hall of Peaceful Seas · Xiyang Lou
 - **Position:** 40.01188, 116.30490. S01 sure (S01 · confidence B)
 - **Bays:** 11 front (S06) in the texts / 1x3 on the plan (S02, S06, S56, S01, S109, S110, S03, S210)
 - **Size in the inventory:** 19.0 × 44.0 m. typology xiyang_lou, B for tank, C for boxes (S01)
+- **Lead on its size, from a modern study, not used in the model:** East-west strip of the second phase: 770 x 60 m, seven landscapes, built 1756-59 per the author (S603, p. 123). (confidence B)
 - **Roof:** 庑殿顶 (S06) (S02, S06, S56, S01, S109, S110, S03, S210)
 - **Tiles:** 孔雀绿琉璃 (S06) (S02, S06, S56, S01, S109, S110, S03, S210)
 - **Where the text puts it:** 方外观之西为海晏堂 (S06) (S02, S06, S56, S01, S109, S110, S03, S210) *(research copy, not public)*
@@ -45,7 +46,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY08-N02
 - XY08-N03
 
-## Pictures (25)
+## Pictures (26)
 
 - **P0050** (sure): 海晏堂西面 (圆明园铜版画册 / 西洋楼铜版画, plate 十 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-8.jpg
 
@@ -94,6 +95,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **P0225** (likely): Moore negatives of the European palaces, Royal BC Museum MS-3171 (13 negatives, 12 views, c.1875 to early 1880s) (perhaps c.1875; early 1880s (visualisingchina.net)). https://search-bcarchives.royalbcmuseum.bc.ca/c-f-moore-fonds Research-only: link card.
 - **P0309** (likely): Sirén: Yuanmingyuan (Old summer palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199631 Research-only: link card.
 - **P0324** (likely): Sirén: Påsikt i Osvald Siréns arkivmaterial, 110798-110855 ("box 129"). (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/203256 Research-only: link card.
+- **P0647** (likely): 北京西直門外圓明園海晏堂廢墟 (figure list, OCR) (published 昭和12 (1937), NDL). https://dl.ndl.go.jp/pid/1919133 Research-only: link card.
 - **P0349** (sure): Xunshuilou ruins in Yuanmingyuan.jpg (2014-03-31 15:48:48 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Xunshuilou_ruins_in_Yuanmingyuan.jpg
 
   ![P0349](../../photos/images/P0349.jpg)
@@ -127,7 +129,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   ![P0440](../../photos/images/P0440.jpg)
 
 
-## Texts and drawings (16)
+## Texts and drawings (13)
 
 - **E0955** (description, sure): Plate X: 海晏堂 Haiyan Tang, west, and the water clock. 1786-1803 · pp.181-182, Plate X · S258. https://archive.org/details/BIUSante_40644
   > Sur deux des côtés du triangle, sont placés douze animaux de différentes espèces, six de chaque côté.
@@ -161,14 +163,57 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Three large campaigns since 1996 yielded over 50,000 finds. The campaign from 2012 dug 桃花洞, 大宫门, 养雀笼, the 海晏堂 water tower and 远瀛观. At 如园 Ru Yuan, the best-preserved of these sites and the first imitation of a Jiangnan garden dug here (19,000 m2 site, 2,800 m2 buildings, 3,800 m2 opened), diggers found 芝兰室, 云萝山馆, 听泉榭, 延清堂, 含碧楼, 挹霞亭, 观丰榭, 引胜轩, rockery, paths and shores, and burnt famille-rose floor tiles in 延清堂.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
-- **E0984** (reconstruction, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 2025-05-21 · 京报网 · S351. https://news.bjd.com.cn/2025/05/21/11171051.shtml
-  The park and Peking University's School of Archaeology and Museology record the carved stones by 3D scan, photogrammetry and panorama, at 大水法, 观水法, 远瀛观, 海晏堂 and pieces now on the Peking University campus. This is the nearest thing found to a 'Peking University Digital Yuanmingyuan'. It says over 10 sites have been dug since the 1990s.
-- **E0936** (reconstruction, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. 2015 · open access paper · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
-  The Yuanmingyuan Digital Restoration Research Project of 2013 covered five of thirteen 西洋楼 scenes in its first two years: 谐奇趣, 海晏堂, 方外观, 蓄水楼, 观水法. The paper explains 谐奇趣's method: present-day survey with archival drawings and engravings.
-- **E0987** (reconstruction, likely, search index only): [清华]观水法; [清华]海晏堂. n.d. · mhymy szfy 13312 · S340. https://www.mhymy.com/szfy/13312.html
-  Link card to Tsinghua team renders of 观水法 Guan Shuifa. A sibling post covers 海晏堂, its page not seen.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 海晏堂, 1x3 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (25)
+
+Modern interpretation, not evidence.
+- **R0017** (physical model, sure): 20240112 Haiyan Tang, Hengdian Yingshicheng. Hengdian World Studios (replica); Yumeto (photograph), Hengdian World Studios (per the Commons category). https://commons.wikimedia.org/wiki/File:20240112_Haiyan_Tang,_Hengdian_Yingshicheng.jpg
+- **R0103** (paper figure, sure): Fig. 3, The Restored Map of Haiyan Hall. Yanqiu L., Jinliang X., Hai Q., Tsinghua Heritage Institution For Digitization, 2015. https://isprs-archives.copernicus.org/articles/XL-5-W7/465/2015/
+- **R0149** (paper figure, sure): Fig. 6, Virtual assembly of Haiyantang. Y. He, Y. H. Ma, X. R. Zhang, Tsinghua Heritage Institute for Digitization, 2017. https://isprs-archives.copernicus.org/articles/XLII-2-W5/335/2017/
+- **R0091** (render, likely): 海晏堂, image 759 in a gallery. posted 2019. https://www.thepaper.cn/newsDetail_forward_3323921 Research-only: link card.
+- **R0071** (render, sure): 海晏堂数字复原 (caption): line reconstruction over a photograph of the ruin. 郭黛姮 team, per the article, 清华大学; posted by 人文清华, 2020. https://www.thepaper.cn/newsDetail_forward_9648060 Research-only: link card.
+- **R0177** (render, sure): Reconstruction of the Old Summer Palace, Beijing: 海晏堂 Haiyan Tang, from 'Asian Royalty: 6 Ruined Castles Across Asia Reconstructed'. Budget Direct Travel Insurance; uploaded by Arienne King, World History Encyclopedia, 2021. https://www.worldhistory.org/image/13717/reconstruction-of-the-old-summer-palace-beijing/ Research-only: link card.
+- **R0003** (3D model, sure): 3D技术复现“万园之园”: 北京大学 stone scanning. 圆明园管理处; 北京大学考古文博学院, 2025. https://news.bjd.com.cn/2025/05/21/11171051.shtml Research-only: link card.
+- **R0051** (3D model, likely): Laser scanning and virtual fitting of the 西洋楼 stones; 碧澜桥 repaired. 肖金亮, 郭黛姮 and team, 北京清华同衡规划设计研究院 建筑与城市遗产研究所. https://www.tsinghua.edu.cn/info/1182/46587.htm Research-only: link card.
+- **R0139** (drawing, sure): Fig. 4, Plan d'ensemble (plan de restitution 1985). Antoine Durand, Mission Palais d'Ete, under Michele Pirazzoli-t'Serstevens, 1985 (published 1988). https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240 Research-only: link card.
+- **R0047** (AR/VR, sure): 海晏堂 digital reconstruction, immersive exhibition with wall-size film. 数字圆明园 team, 郭黛姮, 贺艳, as the report states, 2020 exhibition; 2022 report. https://www.tsinghua.edu.cn/info/1182/97060.htm Research-only: link card.
+- **R0054** (video, sure): 人文清华讲坛 lecture 20 Oct 2020 with 3D renders of 方壶胜境, 西洋楼 and 海晏堂. 人文清华 (poster); 郭黛姮 team (maker), 清华大学, 2020. https://www.thepaper.cn/newsDetail_forward_9648060 Research-only: link card.
+- **R0269** (video, likely): 【圆明园】长春园西洋楼复原全景. 玖柒-楽記, as uploader, 2020. https://www.bilibili.com/video/BV1Ma4y1W7Qz Research-only: link card.
+- **R0273** (video, likely): 圆明园复原影像. unknown; reposted from Weibo, 2021. https://www.bilibili.com/video/BV1264y1U7gc Research-only: link card.
+- **R0074** (video, likely): “机械臂展示圆明园数字化复原视频”, “圆明·交融” exhibition. 中央美术学院圆明园研究中心, 中央美术学院, 2024. https://news.bjd.com.cn/2024/12/03/10989999.shtml Research-only: link card.
+- **R0241** (AR/VR, sure): Back to Haiyantang 重返海晏堂. Indra and Harry Banga Gallery, 香港城市大学 City University of Hong Kong, as the channel; maker unread. https://www.youtube.com/watch?v=ziaCLwyrIaY Research-only: link card.
+- **R0004** (paper figure, likely): Digital restoration research and 3D model of Xieqiqu, ISPRS Annals II-5/W3. M. Gao, W. Piao, J. Guo, Re-Yuanmingyuan Company, 2015. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/ Research-only: link card.
+- **R0151** (paper figure, sure): Fig. 7, Comparison of the digital model and the historical photograph from the same perspective (海晏堂 column). Y. He, Y. H. Ma, X. R. Zhang, Tsinghua Heritage Institute for Digitization, 2017. https://isprs-archives.copernicus.org/articles/XLII-2-W5/335/2017/ Research-only: link card.
+- **R0138** (paper figure, likely): On the Construction of the Hydraulic Machinery in the European Palaces of Yuanmingyuan, AIJ 83(754). Shingei Katsu, University of Tokyo, 2018. https://www.jstage.jst.go.jp/article/aija/83/754/83_2409/_article Research-only: link card.
+- **R0025** (render, likely, search index only): [清华]观水法. 清华大学建筑学院 郭黛姮 team (site tag "[清华]"), 清华大学 (as tagged "[清华]" on mhymy; the site does not state more in what was seen). https://www.mhymy.com/szfy/13312.html Research-only: link card.
+- **R0052** (AR/VR, likely): Exhibition at the Shougang Industrial Park, 5G, AR and AI. 杨思, team member and curator; 郭黛姮 team, 清华大学建筑学院, 2020. https://global.chinadaily.com.cn/a/202007/22/WS5f1797dca31083481725b368.html Research-only: link card.
+- **R0189** (3D model, guess): 圆明园. ArtLab, 2017. https://sketchfab.com/3d-models/b1c7097452f245a6a9f8f7401b81d640 Research-only: link card.
+- **R0298** (AR/VR, guess): 圆明·交融——圆明园研究成果展, digital restoration section. 中央美术学院圆明园研究中心; 北京交通大学圆明园研究院, 圆明园管理处, 2024. https://www.cssn.cn/ysx/ysx_ysqs/202412/t20241226_5827292.shtml Research-only: link card.
+- **R0270** (video, guess): 圆明园复原-大水法. unknown; account bili_30370363215, 2025. https://www.bilibili.com/video/BV1VcQzYTEj1 Research-only: link card.
+- **R0233** (video, guess): Digital rebirth of Beijing's Old Summer Palace. South China Morning Post, SCMP. https://www.youtube.com/watch?v=LKn6uTkfOhA Research-only: link card.
+- **R0266** (video, guess): 爆肝20亿 token，只想带你走进一次圆明园. 策殊丶, 2026. https://www.bilibili.com/video/BV1xQYc6AEao Research-only: link card.
+
+## Surviving comparable buildings, not this building (5)
+
+- **T085** 居仁堂 (原 海晏堂, 中南海) Juren Tang, first called Haiyan Tang, 中南海 Zhongnanhai, Beijing. It was copied from ours, confidence C, standing: no. Late Qing memory of the name only; not the form of ours Basis: S422 (中南海): a late Qing European-style building made after the Yuanmingyuan 海晏堂, first called 海晏堂, used to receive women guests and foreign diplomats, renamed 居仁堂 under Yuan Shikai. https://zh.wikipedia.org/wiki/中南海
+  - P0644: Internal photo of Jurentang (Haiyantang). https://commons.wikimedia.org/wiki/File:Internal_photo_of_Jurentang_(Haiyantang).jpg
+- **T086** 恭王府 西洋门 Western Gate of Prince Gong's Mansion, 恭王府花园 Beijing. It was copied from ours, confidence C, standing: yes. Late Qing Beijing idea of Xiyang Lou stone carving: arch, pilasters, scrolls Basis: S427 (visitbeijing 2018): built by 奕訢 Prince Gong; 「外形看酷像圆明园里的大法海」, it looks very like the 大法海. A search summary adds it was built to that form. 大法海 read as 大水法 (assumed). https://www.visitbeijing.com.cn/article/47Qp3gnTAEU
+  - P0703: Gate in Prince Gong's mansion (2611514827). https://commons.wikimedia.org/wiki/File:Gate_in_Prince_Gong%27s_mansion_(2611514827).jpg
+- **T084** 圣克卢大瀑布 Grande Cascade de Saint-Cloud, Saint-Cloud, France. Comparable: same court, era or type, confidence B, standing: yes. Fountains climbing a stair; pool, steps, single jets Basis: S02 pp.158-159 (Lettres édifiantes xxiv p.421, cf. S257) and S415 p.22 quoting the same letter: the Jesuits themselves compared the fountains of this second European house and the water clock with the buffets d'eaux of Versailles and St Cloud. S415 p.112: rising basin and steps with single jets, in Pérelle's print, against the stair and fountains of the west front. S415 p.81: the cascade still exists, the château does not. https://archive.org/details/historyofpekings00malo
+  - P0651: Vues de Paris et de ses environs - H. Plaut photographe éditeur - btv1b84470114 (45 of 56). https://commons.wikimedia.org/wiki/File:Vues_de_Paris_et_de_ses_environs_-_H._Plaut_photographe_%C3%A9diteur_-_btv1b84470114_(45_of_56).jpg
+  - P0652: Atget - (Saint-Cloud) (La Grande Cascade), btv1b10519221g. https://commons.wikimedia.org/wiki/File:Atget_-_(Saint-Cloud)_(La_Grande_Cascade),_btv1b10519221g.jpeg
+- **T087** 法尔内塞宫 卡普拉罗拉; 兰特别墅; 埃斯特别墅 Palazzina at Caprarola, Villa Lante, Villa d'Este, Lazio, Italy. Comparable: same court, era or type, confidence B, standing: yes. Water chain idea, stair with water Basis: S415 p.98: Droguet (Histoire de l'art 1994) sets the water clock's bronze animals in the Renaissance tradition of hydraulic automata and the catena d'acqua at these villas. S415 p.83: Lancaster 1948 cites a Caprarola stair for 海晏堂, listed by Rabreau as doubtful. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0619: Water Organ Fountain in Villa d'Este (Tivoli, Lazio). https://commons.wikimedia.org/wiki/File:Water_Organ_Fountain_in_Villa_d%27Este_(Tivoli,_Lazio).jpg
+  - P0620: Bagnaia Villa Lante 04. https://commons.wikimedia.org/wiki/File:Bagnaia_Villa_Lante_04.JPG
+  - P0621: Stairway and fountain in the Garden of the Caryatids - Villa Farnese - Caprarola, Italy - DSC02312. https://commons.wikimedia.org/wiki/File:Stairway_and_fountain_in_the_Garden_of_the_Caryatids_-_Villa_Farnese_-_Caprarola,_Italy_-_DSC02312.jpg
+- **T083** Grand Trianon Grand Trianon, Versailles, France. Comparable: same court, era or type, confidence C, standing: yes. Low wide wing, colour contrast, at most Basis: Beurdeley 1971 p.68, reported by S415 p.81: 海晏堂 is said to draw on Trianon and the Versailles court of honour; Rabreau: the grounds for this would be sought in vain. S407 (Wikipedia): the Grand Trianon as inspiration of the whole group, unsourced there. S413 p.8 repeats the court of honour. https://www.ghamu.org/wp-content/uploads/2022/09/Rabreau-YMY-2022.pdf
+  - P0616: Gezicht op het Grand Trianon in de tuin van Versailles Le Grand Trianon, vue extérieure prise du parc (titel op object) Imperial Residences (serietitel), RP-F-F05343. https://commons.wikimedia.org/wiki/File:Gezicht_op_het_Grand_Trianon_in_de_tuin_van_Versailles_Le_Grand_Trianon,_vue_ext%C3%A9rieure_prise_du_parc_(titel_op_object)_Imperial_Residences_(serietitel),_RP-F-F05343.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 西洋楼 Xiyang Lou: see GARDEN-XY
 
 ## Open questions
 
@@ -176,6 +221,8 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - Q4: The pasted slips
 - Q16: 海晏堂's east half and the plan's working names
 - Q32: OSM errors
+- Q56: Reconstructions against the period evidence
+- Q59: Twin claims to hold loosely
 
 <!-- generated:end -->
 

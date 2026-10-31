@@ -32,11 +32,17 @@ None of its own.
 - **E0508** (description, likely): 圆明园历史桥梁形制研究. 2020-07-29 · 圆明园官网 yjbg t20200729_4416663 · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200729_4416663.html
   Park study of the forms of the garden's historic bridges, from archives and digs, intended to guide new bridges. Abstract on the page, the full text is an attached PDF.
 
+## Reconstructions by others (1)
+
+Modern interpretation, not evidence.
+- **R0051** (3D model, sure): Laser scanning and virtual fitting of the 西洋楼 stones; 碧澜桥 repaired. 肖金亮, 郭黛姮 and team, 北京清华同衡规划设计研究院 建筑与城市遗产研究所. https://www.tsinghua.edu.cn/info/1182/46587.htm Research-only: link card.
+
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 坦坦荡荡 (no picture of this hall found): see YM10
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum and Historical Photographs of China; today's photographs on Commons.
+**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

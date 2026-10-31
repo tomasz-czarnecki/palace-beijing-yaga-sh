@@ -45,7 +45,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
   ![P0363](../../photos/images/P0363.jpg)
 
 
-## Texts and drawings (35)
+## Texts and drawings (34)
 
 - **E1000** (text, sure): 日下舊聞考 正大光明. 1780s (乾隆 敕撰) · j80:9a-11a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 大宫門内為出入賢良門五楹門左右為直房前跨石橋度橋東西朝房各五楹西南為茶膳房再西為繙書房東南為清茶房為軍機處（圓明園冊）臣等謹按出入賢良門額世宗御書是為二宫門凡武職侍衛引見御此門較射左右直房為各部院臣工入直之所東西設兩罩門各衙門奏事由東罩門逓進茶膳房太監人等由西罩門出入門前河形如月中駕石橋三其水自西來東注如意門閘口㑹東園各河而出出入賢良門内為正大光明殿七楹東西配殿各五楹後為壽山殿東為洞明堂（圓明園冊）臣等謹按圓明園四十景中世宗御題四字額者凡十有四正大光明殿其一也餘如牡丹臺今為鏤月開雲蓬萊洲今為蓬島瑶臺乃乾隆九年皇上恭依避暑山莊三十六景四字題額之例更鍚嘉名用昭畫一敬就各條下加按並恭載御製四十景詩至附近各景詩已載御製詩全集者兹不備録又按正大光明殿内聨曰心天之心而宵衣旰食樂民之樂以和性怡情為世宗御書又聨曰遹求寜觀成無逺弗届以對時育物有那其居為皇上御書東壁懸御書周書無逸篇西壁懸豳風圖東為洞明堂世宗御書額
@@ -144,14 +144,20 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
   Undated interior plan of the audience hall in ink, 520x210 mm, showing the throne canopy, splayed walls and bookcases. No image here; the site may ask a small payment for the full record.
 - **E1017** (archaeology, sure): 正大光明区域考古勘探报告. n.d. · mhymy 档案史料 12324, free part · S102. https://www.mhymy.com/dasl/12324.html
   Report's opening describes three successive courts from 大宫门 to 正大光明殿, 370 m north-south and 310 m east-west between the 如意门 gates, 114,700 m2 of site and 7,000 m2 of buildings, begun 1725. Gate hall of five bays on a base 21.57 x 11.33 m, 0.77 m high; screen wall 41.6 m long, 204.8 m south of the gate terrace.
-- **E1018** (reconstruction, sure, search index only): 再现·圆明园——正大光明, 贺艳, 紫禁城. 2011-12 · mhymy qklw 9456 · S341. https://www.mhymy.com/xsjl/qklw/9456.html
-  贺艳's reconstruction essay on the court district: built by Yongzheng in 1725 to rule from the garden. East it meets 勤政亲贤, north 寿山 and 前湖, west 长春仙馆.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 正大光明, 7x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (2)
+
+Modern interpretation, not evidence.
+- **R0286** (drawing, likely): 重现圆明园之正大光明. 星垂野阔大江流, 2024. https://www.bilibili.com/video/BV1j8qGYaERm Research-only: link card.
+- **R0035** (paper figure, sure, search index only): 再现·圆明园——正大光明. 贺艳 (清华大学, as the extract states), 清华大学, 2011. https://www.mhymy.com/xsjl/qklw/9456.html Research-only: link card.
 
 ## Evidence for the set of buildings
 
 - Evidence for the whole compound 正大光明: see YM01
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
+- Standing buildings comparable to a grand hall (not this building): see CLASS-grand_hall
 
 ## Open questions
 

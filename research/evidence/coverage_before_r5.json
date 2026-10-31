@@ -1,0 +1,24 @@
+{
+ "measured_at": "5fbd637, before Round 5",
+ "note": "reconstruction = a row of kind reconstruction in the evidence catalogue; inherited = own or through the page fallback as it stood",
+ "counts": {
+  "top": {
+   "objects": 314,
+   "free_image_own": 99,
+   "free_image_inherited": 185,
+   "reconstruction_own": 26,
+   "reconstruction_inherited": 237,
+   "twin_photo_own": 0,
+   "twin_photo_inherited": 0
+  },
+  "halls": {
+   "objects": 1510,
+   "free_image_own": 49,
+   "free_image_inherited": 1110,
+   "reconstruction_own": 13,
+   "reconstruction_inherited": 544,
+   "twin_photo_own": 0,
+   "twin_photo_inherited": 0
+  }
+ }
+}

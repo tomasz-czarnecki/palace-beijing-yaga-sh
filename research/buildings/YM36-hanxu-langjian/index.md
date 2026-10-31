@@ -42,7 +42,7 @@ Vast Empty Clear Mirror · Yuanming Yuan
 - YM36-N01 值房
 - YM36-N02
 
-## Pictures (6)
+## Pictures (7)
 
 - **P0036** (sure): 涵虛朗鑑 Hanxu langjian [S'imprégner du vide, réfléchir la clarté] (圓明園四十景, 第36景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AD%E6%99%AF_%28%E4%B8%8B%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E5%85%AD%E5%B9%85%E5%9B%BE%29%2C_%E6%B6%B5%E8%99%9B%E6%9C%97%E9%91%91_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Hanxu_langjian_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083513.jpg
 
@@ -67,6 +67,10 @@ Vast Empty Clear Mirror · Yuanming Yuan
 - **P0392** (sure): 涵虚朗鉴 遗址 - panoramio.jpg (Taken on 27 May 2011 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E6%B6%B5%E8%99%9A%E6%9C%97%E9%89%B4_%E9%81%97%E5%9D%80_-_panoramio.jpg
 
   ![P0392](../../photos/images/P0392.jpg)
+
+- **P0643** (sure): 涵虚揽鉴 - Evening Glow on Lake - 2012.12 (Taken on 21 December 2012 (Commons)). https://commons.wikimedia.org/wiki/File:%E6%B6%B5%E8%99%9A%E6%8F%BD%E9%89%B4_-_Evening_Glow_on_Lake_-_2012.12_-_panoramio.jpg
+
+  ![P0643](../../photos/images/P0643.jpg)
 
 
 ## Texts and drawings (20)
@@ -126,6 +130,22 @@ Vast Empty Clear Mirror · Yuanming Yuan
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.442-445 (4 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 涵虚朗鉴 ; 雷峰夕照. https://artmuseum.princeton.edu/collections/objects/138657
+
+## Reconstructions by others (3)
+
+Modern interpretation, not evidence.
+- **R0073** (3D model, likely): 《圆明园四十景数字化复原及应用》. 圆明园管理处 with 中央美院, 圆明园管理处; 中央美术学院, 2025. https://news.bjd.com.cn/2026/10/16/11997513.shtml Research-only: link card.
+- **R0308** (paper figure, likely): 《圆明园新证》: reading of Palace Museum plan No. 1704, stripped of its later paste-ups to the Qianlong layout of about 1779. . http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm Research-only: link card.
+- **R0310** (paper figure, likely): 《“样式雷”图与圆明园》: survey of about 1700 Yangshi Lei plans, naming scenes changed after 1744. assumed: the author of 《圆明园变迁史探微》. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/7c89633b1d0247b7bd91da2ff25c61f8.htm Research-only: link card.
+
+## Surviving comparable buildings, not this building (1)
+
+- **T035** 雷峰塔 Leifeng Ta, 西湖 杭州 Hangzhou. Comparable: same court, era or type, confidence C, standing: partly. Name only: a west-facing evening view, no pagoda Basis: S05 j.82 f.21a: 涵虚朗鉴 is the main hall of 雷峰夕照. No pagoda here on S01 or in the text: the name is of the view. https://github.com/kanripo/KR2k0036
+  - P0630: Leifeng Pagoda 雷峰塔. https://commons.wikimedia.org/wiki/File:Leifeng_Pagoda_%E9%9B%B7%E5%B3%B0%E5%A1%94_-_panoramio.jpg
+
+## Evidence for the set of buildings
+
+- Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 
 ## Open questions
 
