@@ -2,44 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <base href="/reconstruction/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Map and 3D view in progress · 圆明园 Yuanmingyuan</title>
-  <meta name="description" content="The map and the 3D view of the Yuanmingyuan reconstruction are in progress.">
+  <title>2D map (dev) · 圆明园 Yuanmingyuan</title>
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Working map of the Old Summer Palace (圆明园 Yuanmingyuan) before October 1860: walls, water, islands, hills, bridges, compounds and halls, each layer with its source.">
   <link rel="icon" href="../favicon.ico" sizes="32x32">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="recon.css">
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { position: fixed; top: 48px; right: 0; bottom: 0; left: 0; background: #e8e4d8; }
+    .leaflet-control-layers { max-height: calc(100vh - 90px); overflow-y: auto; font: 12px/1.45 'Geist', system-ui, sans-serif; }
+  </style>
 </head>
 <body>
-  <div class="yaga-bar">
-    <div class="yaga-bar-inner">
-      <a class="yaga-bar-link" href="https://www.yaga.sh">
-        <svg class="yaga-bar-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 4L6 8l4 4"/></svg>
-        <img class="yaga-bar-mark" src="../assets/yaga-mark-dark.webp" width="128" height="128" alt="">
-        <span>Back to <strong>yaga.sh</strong></span>
-      </a>
-    </div>
-  </div>
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a href="../" class="brand">
-        <img class="brand-mark" src="../assets/mark.svg" width="28" height="28" alt="">
-        <span class="brand-name"><span lang="zh-Hans">圆明园</span> Yuanmingyuan</span>
-      </a>
-    </div>
+  <header class="recon-header">
+    <a class="brand" href="../"><img src="../assets/mark.svg" width="24" height="24" alt=""><span lang="zh-Hans">圆明园</span><span>Yuanmingyuan</span></a>
+    <nav aria-label="Reconstruction">
+      <a href="../">Homepage</a>
+      <a href="3d.html">3D view</a>
+      <a class="dev-link" href="index.html" aria-current="page">Dev map</a>
+    </nav>
   </header>
-
-  <main>
-    <section class="placeholder">
-      <div class="band-inner">
-        <div class="eyebrow"><span class="eyebrow-bar"></span>Reconstruction</div>
-        <h1>Map and 3D view <span class="accent">in progress.</span></h1>
-        <p class="lead" lang="zh-Hans">地图和三维视图正在制作中。</p>
-        <div class="actions">
-          <a href="../" class="btn btn-dark">Back to the homepage</a>
-        </div>
-      </div>
-    </section>
-  </main>
+  <div id="map"></div>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

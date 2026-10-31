@@ -1,0 +1,46 @@
+<!-- generated:start (scripts/building_pages.py): do not edit between these markers -->
+
+# QC69: Hall without a name on the plan
+
+Qichun Yuan
+
+**3D object:** 8 boxes. Open it: `/reconstruction/3d.html?b=QC69`
+
+## What we know
+
+- **Garden:** Qichun Yuan (S01)
+- **Type:** compound (S01 · confidence B)
+- **Destroyed:** 1860 (S01)
+- **Position:** 40.00102, 116.30692. S01 likely (S01 · confidence B)
+- **Plan reader's note:** UNLABELLED service courts east of the palace block; covered bridge from (9965,6905) to B1308. (S01) *(research copy, not public)*
+- **How it was read:** likely (S01) *(research copy, not public)*
+- **Plan pixels:** 9880, 6950 (S01) *(research copy, not public)*
+
+## Our model now
+
+8 boxes stand in this compound, 8 on blocks drawn on the plan, 0 assumed. Its halls are listed below.
+
+## Inside it (8)
+
+- QC69-B1305
+- QC69-B1306
+- QC69-B1307
+- QC69-B1318
+- QC69-B1319
+- QC69-B1320
+- QC69-B1321
+- QC69-B1331
+
+## Pictures (0)
+
+None in the catalog yet.
+
+## Open questions
+
+None that name it.
+
+<!-- generated:end -->
+
+## Notes
+
+<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->

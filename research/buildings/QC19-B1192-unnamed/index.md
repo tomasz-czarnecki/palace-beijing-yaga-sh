@@ -1,0 +1,43 @@
+<!-- generated:start (scripts/building_pages.py): do not edit between these markers -->
+
+# QC19-B1192: Hall without a name on the plan
+
+Qichun Yuan
+
+**3D object:** 1 box. Open it: `/reconstruction/3d.html?b=QC19-B1192`
+
+**Part of:** QC19 四宜书屋 (绮春)
+
+## What we know
+
+- **Garden:** Qichun Yuan (S01)
+- **Type:** hall (S01 · confidence B)
+- **Destroyed:** 1860 (S01)
+- **Position:** 40.00258, 116.30066. S01 block, unnamed (S01 · confidence B)
+- **Bays:** 2 in the texts / 2x1 on the plan (S01)
+- **Size in the inventory:** 8.9 × 7.6 m. S01 plan px / hall scale (S01)
+- **Plan pixels:** 7608, 5882 (S01) *(research copy, not public)*
+
+## Our model now
+
+A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+
+- **Box:** 8.9 × 7.6 m, small house
+- **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.8 m above the ground
+- **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
+- **Faces:** 177.4° from north
+- **Confidence:** B
+
+## Pictures (0)
+
+None in the catalog yet.
+
+## Open questions
+
+None that name it.
+
+<!-- generated:end -->
+
+## Notes
+
+<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->

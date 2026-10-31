@@ -9,7 +9,7 @@ The complex is three gardens: Yuanming Yuan 圆明园, Changchun Yuan 长春园 
 
 ## Status
 
-Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2: the 2D dev map and the buildings as boxes in a 3D preview. Homepage: a simple placeholder.
+Started 2026-10-31. Round 1 done: base plan S01 georeferenced, `research/buildings.csv` and `research/layers/*_1860` built, rebuild order in `research/README.md`, open points in `research/questions.md`. Round 2 done: the 2D dev map and every building as a box in a 3D preview (`site/reconstruction/`), one page per building. Next: detailed models and the pictures. Homepage: a simple placeholder that leads to the 3D view.
 
 Decided:
 - **Target state:** the gardens just before the destruction of October 1860 (Xianfeng reign). Earlier evidence (the Forty Scenes album of 1744, the Xiyang Lou engravings of the 1780s) counts for that state wherever nothing later contradicts it. Q1 in `research/questions.md` tracks this.
@@ -54,6 +54,15 @@ Decided:
 - **Source status:** found → viewed → downloaded (copy in `research/raw/`); also to-request (offline, must be ordered) and blocked (site refused automated access).
 - **Numbers come from runs.** Every figure (areas, widths, heights, RMS) comes from a script run on the repo data.
 - Online sources only for now; books and archive items are recorded as to-request.
+
+## Research
+
+All evidence lives in `research/` (conventions in `research/README.md`).
+- **Working map:** `site/reconstruction/index.html` + `app.js`, Leaflet vendored. A development preview (`noindex`), reached only from the small DEV MAP button in the 3D view. Run with the `site` entry in `.claude/launch.json` (`tools/serve_local.py`, port 8796): on localhost it also offers the plan S01 under `/_local/`; `?public=1` shows what a visitor sees. The preview on :8790 has no overlay.
+- **Boxes:** `scripts/boxes1860.py` writes `data/halls_1860.geojson`, one feature per box. `basis` says what it stands on; `assumed: true` is a guess, C. Ground: `scripts/ground1860.py`, levels from today's ground, not a survey of 1860. Q34, Q35.
+- **3D view:** `site/reconstruction/3d.html`, `3d.js`, `halls3d.js`, `panel3d.js`, three.js vendored, the way in. A preview: it does not decide the final engine. URL: `?b=<ID>` opens that page and frames its object, `?shot=1` hides the panels and animates nothing, `?conf=1` colours by confidence.
+- **Building pages:** `research/buildings/<ID>-<slug>/index.md`, one per row of `buildings.csv` and per gate; list in `research/buildings/README.md`. `scripts/building_pages.py` writes the block between the markers, `data/buildings/<ID>.json` (public) and `research/raw/buildings/<ID>.json` (local, with the plan readers' notes). **To edit:** write under `## Notes`, then run the script; it never touches that part. Notes go on the public site, except what stands below a line holding only `%% private %%`. `tools/check_pages.py` proves every clickable object has a page.
+- **Detailed models:** later, `models/<ID>-<slug>/summary.json`, see `models/README.md`.
 
 ## Copyright
 

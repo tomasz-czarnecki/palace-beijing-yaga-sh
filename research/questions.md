@@ -50,6 +50,9 @@ Close a question by moving it to "Resolved" with the answer and the source.
 - **Q18. Plan labels vs text names at 藻园, 月地云居, 日天琳宇 etc.** See `plan/readings/ym_west/notes.md`. 藏密楼 and 君子轩 share one block; 关帝庙 is far from where the text puts it.
 - **Q19. Blocks.** 1560 boxes. Detection: precision about 0.92, recall about 0.85 on three test crops, by eye, before readers fixed what they saw. Spot check of the readers: 12 random `sure` named rows viewed on the plan, label and hall agree on all 12 (seed 1860). "Unnamed" rows may hide named halls; rows of service rooms (如意馆, docks, 买卖街) are schematic.
 
+- **Q34. How the boxes were fitted (Round 2).** Sized by the hall scale, boxes come out larger than the blocks as drawn, and 315 pairs overlap at that size. **Decision:** a box comes down towards its drawn size only as far as a neighbour or water needs; pairs still overlapping are moved apart by at most 2 m each. Run: see the output of `scripts/boxes1860.py`. A block with over half of it inside another takes no box of its own (12, listed in the run). Boxes left over water are flagged `over_water` and stand on a base down to the water: on piers, or the water layer is wrong there (Q30). Same water level everywhere, 43.5 m, because the lakes connect and today's levels aren't those of 1860: differences of 1-2 m between lakes are lost.
+- **Q35. Xiyang Lou massing (Round 2).** Sizes from `params.json`, placed by hand. Guesses inside the guess: 谐奇趣's curved corridors as straight runs; 五竹亭 in a row (Q15); maze as outer wall and two rings, its plan not traced; 线法墙 six per side as on S01 (Q16). Replace all of them with the 1786 engravings (P0041-60).
+
 ### Conflicts between written sources
 
 Keep the first of each unless noted.

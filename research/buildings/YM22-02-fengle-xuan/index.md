@@ -1,0 +1,47 @@
+<!-- generated:start (scripts/building_pages.py): do not edit between these markers -->
+
+# YM22-02: 丰乐轩 Fengle Xuan
+
+Yuanming Yuan
+
+**3D object:** 1 box. Open it: `/reconstruction/3d.html?b=YM22-02`
+
+**Part of:** YM22 水木明瑟
+
+## What we know
+
+- **Name:** 丰乐轩 Fengle Xuan (S42, S01 · confidence B)
+- **Garden:** Yuanming Yuan (S42, S01)
+- **Type:** other (S42, S01 · confidence B)
+- **Destroyed:** 1860 (S42, S01)
+- **Position:** 40.00863, 116.28956. S01 sure (S01 · confidence B)
+- **Bays:** 4x1 on the plan (S42, S01)
+- **Size in the inventory:** 21.3 × 9.7 m. S01 plan px / hall scale (S01)
+- **Where the text puts it:** (S42) (S42, S01) *(research copy, not public)*
+- **Plan reader's note:** Label directly east. (S01) *(research copy, not public)*
+- **How it was read:** sure (S01) *(research copy, not public)*
+- **Plan pixels:** 3286, 2098 (S01) *(research copy, not public)*
+
+## Our model now
+
+A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+
+- **Box:** 21.3 × 9.7 m, main hall
+- **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.73 m above the ground
+- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
+- **Faces:** 84.3° from north
+- **Confidence:** B
+
+## Pictures (0)
+
+None in the catalog yet.
+
+## Open questions
+
+None that name it.
+
+<!-- generated:end -->
+
+## Notes
+
+<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->

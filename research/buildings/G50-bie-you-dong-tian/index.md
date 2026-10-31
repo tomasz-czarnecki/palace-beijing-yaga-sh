@@ -1,0 +1,33 @@
+<!-- generated:start (scripts/building_pages.py): do not edit between these markers -->
+
+# G50: 别有洞天 Bie You Dong Tian
+
+Gate in the garden walls
+
+**3D object:** none yet.
+
+## What we know
+
+- **Name:** 别有洞天 Bie You Dong Tian (S01 · confidence B)
+- **Type:** gate in the walls (S01 · confidence B)
+- **Note:** New. Gate on the wall by the bridge. (S01)
+- **How it was read:** sure (S01) *(research copy, not public)*
+
+## Our model now
+
+No box of its own: the hall drawn at this point stands for the gate in the 3D view.
+
+## Pictures (0)
+
+None in the catalog yet.
+
+## Open questions
+
+- Q1: Target state
+- Q9: Bay counts, plan against text
+
+<!-- generated:end -->
+
+## Notes
+
+<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->

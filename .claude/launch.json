@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "/opt/data/.local/bin/uv",
+      "runtimeArgs": ["run", "python", "tools/serve_local.py", "--port", "8796"],
+      "port": 8796
+    }
+  ]
+}
