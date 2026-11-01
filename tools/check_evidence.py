@@ -2,11 +2,12 @@
 
   uv run python tools/check_evidence.py
 
-Reads what the panel reads: site/reconstruction/data/buildings/<ID>.json. "Own" counts what is tied to the object itself; "inherited" counts its own or what reaches it through `fallback` (compound, garden, class of hall). A plan reference is evidence too, and is counted apart, because it is the weakest kind. "Before" comes from research/evidence/coverage_before_r5.json, measured at commit 5fbd637.
+Reads what the panel reads: site/reconstruction/data/buildings/<ID>.json. "Own" counts what is tied to the object itself; "inherited" counts its own or what reaches it through `fallback` (compound, garden, class of hall). A plan reference is evidence too, and is counted apart, because it is the weakest kind. "Before" comes from research/evidence/coverage_before_r5.json, measured at commit 5fbd637. The Xiyang Lou section counts pictures per building and per side against research/evidence/coverage_before_r6.json (commit 3fa83a0), and dimension figures by method; it fails on a main building with no dossier or no dimension sheet, a picture in research/xiyanglou/views.csv missing from the catalogue, a figure with no method or source, or a picture on the public page that is research-only.
 """
 
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -53,6 +54,52 @@ def coverage(ids):
             n[f"{key}_inherited"] += test(page) or any(test(x) for x in others)
         n["twin_row_own"] += bool(page.get("twins"))
     return n
+
+
+def xiyang_lou(catalog, problems):
+    """Pictures per main building and side, before and after; figures by method."""
+    xy = ROOT / "research/xiyanglou"
+    before = json.load(open(ROOT / "research/evidence/coverage_before_r6.json", encoding="utf-8"))
+    views = list(csv.DictReader(open(xy / "views.csv", encoding="utf-8", newline="")))
+    dims = list(csv.DictReader(open(xy / "dimensions.csv", encoding="utf-8", newline="")))
+    known = {r["photo_id"]: r for r in catalog}
+    for v in views:
+        if v["photo_id"] not in known:
+            problems.append(f"views.csv: {v['photo_id']} is not in the catalogue")
+    for d in dims:
+        if d["method"] not in tuple("abcde") or not d["source_id"]:
+            problems.append(f"dimensions.csv: {d['id']} {d['part']} {d['what']}: no method or no source")
+    print("Xiyang Lou, pictures per building, before -> now (free now); sides S N E W, other, today:")
+    total = {}
+    for bid in sorted(before["pictures"]):
+        old = before["pictures"][bid]
+        mine = {r["photo_id"]: r for r in catalog if r["relation"] == "self" and any(x.split(":")[0].split("-")[0] == bid for x in r["shows"].split(";") if x)}
+        tied = [v for v in views if v["id"].split("-")[0] == bid]
+        n = lambda test: len({v["photo_id"] for v in tied if test(v)})
+        sides = [n(lambda v, s=s: v["side"] == s and v["state"] != "today") for s in "SNEW"]
+        other = n(lambda v: v["side"] not in tuple("SNEW") and v["state"] != "today")
+        today = n(lambda v: v["state"] == "today")
+        figs = [d for d in dims if d["id"].split("-")[0] == bid]
+        by = {m: sum(d["method"] == m for d in figs) for m in "abcde"}
+        print(f"  {bid}: {old['pictures']} -> {len(mine)} ({sum(r['rights_class'] == 'free' for r in mine.values())}); S {sides[0]} N {sides[1]} E {sides[2]} W {sides[3]} other {other} today {today}; figures a {by['a']} b {by['b']} c {by['c']} d {by['d']} e {by['e']}")
+        for m, k in by.items():
+            total[m] = total.get(m, 0) + k
+        if not list(xy.glob(f"{bid}-*/README.md")) or not list(xy.glob(f"{bid}-*/dimensions.json")):
+            problems.append(f"{bid}: no dossier or no dimension sheet")
+        if not figs:
+            problems.append(f"{bid}: no dimension figure")
+    print(f"Xiyang Lou: pictures tied to a side {before['tied_to_a_side']} -> {len(views)}; figures with a method {before['figures_with_method']} -> {len(dims)}, on a building {total}, for the whole strip {sum(d['id'] == 'GARDEN:XY' for d in dims)}")
+    bad = {r["photo_id"] for r in catalog if r["rights_class"] != "free"}
+    for page in (SITE / "xiyanglou/index.html", SITE / "zh/xiyanglou/index.html"):
+        if not page.exists():
+            problems.append(f"{page}: missing")
+            continue
+        text = page.read_text(encoding="utf-8")
+        for pid in set(re.findall(r"reconstruction/photos/(P[0-9]{4})", text)) & bad:
+            problems.append(f"{page.name}: {pid} is research-only and shows an image")
+        for word in ("research/raw", "/_local/", "/opt/"):
+            if word in text:
+                problems.append(f"{page}: {word}")
 
 
 def main():
@@ -185,6 +232,7 @@ def main():
         who[r["kind"]] = who.get(r["kind"], 0) + 1
     print(f"Reconstructions: {len(recons)}, free {sum(r['rights_class'] == 'free' for r in recons)}, {shown_recon} on the site, with a local copy {sum(bool(r['local_copy']) for r in recons)}, kept off the panels {sum(not r['shows'] for r in recons)}; by kind {dict(sorted(who.items()))}.")
     print(f"Twins: {len(twins)} pairings on {len({t['object_id'] for t in twins})} objects or classes; with a picture {len({tid for r in catalog if r['relation'].startswith('twin:') for tid in r['relation'][5:].split(';')})}; pictures {sum(r['relation'].startswith('twin:') for r in catalog)}.")
+    xiyang_lou(catalog, problems)
     for p in problems[:40]:
         print("FAIL", p)
     if len(problems) > 40:

@@ -778,7 +778,7 @@
    "tank": {
     "zh": "锡海",
     "length_m": 27.36,
-    "width_m": 5.72,
+    "width_m": 5.92,
     "depth_m": 1.44
    },
    "tank_block_box": "27 x 10 x 9 m, hip",
@@ -823,12 +823,12 @@
   },
   "XY12": {
    "zh": "线法山",
-   "hill_diameter_m": 38,
+   "hill_diameter_m": 42,
    "hill_height_m": 8,
    "pavilion": "small octagon on top",
    "confidence": "C",
    "sources": "S01",
-   "note": "Plan label 转马台, circle 182 px. Height a guess."
+   "note": "Plan label 转马台, outer ring 191-197 px at local scale = 42 m (Round 6; 38 m read at 4.77 px/m before). Height 8 m in S310, 7.4 m on plate 18."
   },
   "XY13": {
    "zh": "螺蛳牌楼",
@@ -855,5 +855,6 @@
    "note": "Plan label 线法画. Sizes a guess."
   }
  },
+ "_xiyang_lou_round6": "For the Xiyang Lou this block now only seeds the rows: research/xiyanglou/boxes.csv holds the massing, research/xiyanglou/dimensions.csv every figure, and evidence/facts.csv `correct` rows replace the sizes (Round 6).",
  "_how_to_use": "Stated size in by_name or xiyang_lou wins; else S01 px / hall scale (frontage 4.18, depth 3.31 px/m); bay COUNT from S01; heights, roof and bay split from the class. scripts/build_r1.py applies this. by_name is keyed by Chinese name because hall ids came later."
 }

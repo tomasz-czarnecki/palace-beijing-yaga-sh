@@ -2,7 +2,7 @@
 // Each box keeps its range in the mesh and an oriented box for picking, so a click tests a few thousand rectangles, not every triangle. A selected box is recoloured in place.
 // Local frame: s along the frontage, q towards the front, y up. The feature's ring is front-left, front-right, back-right, back-left.
 const HALL_COLOURS = {
-  platform: 0xb9b2a3, wall: 0xc2a98a, wallAssumed: 0xe7e0d3, stone: 0xd8d3c4, europeanWall: 0xe2ddcf, underside: 0x6e685e, water: 0x6f9fb0,
+  platform: 0xb9b2a3, wall: 0xc2a98a, wallAssumed: 0xe7e0d3, stone: 0xd8d3c4, europeanWall: 0xe2ddcf, underside: 0x6e685e, water: 0x6f9fb0, court: 0x9aa87a,
   // Colours chosen for the view: grey tile is the rule with named exceptions (typology section 5); the shades are not read from a source.
   tile: { grey: 0x5f6469, yellow: 0xd6a31c, blue: 0x3e6fa6, green: 0x3f8f6a, mixed: 0x3d8d92, black: 0x2b2d31, slate: 0x56626c, glazed: 0x4b86a3, stone: 0xbfb9aa },
   conf: { A: 0x2f8f4e, B: 0xd9a441, C: 0xc4513a },
@@ -116,6 +116,11 @@ function buildHalls({ fc, toXZ, datum }) {
     if (p.shape === "terrace") {
       prism(hf, hd, foot, base + p.eave_m, HALL_COLOURS.stone);
       lid(hf, hd, base + p.eave_m, HALL_COLOURS.stone);
+    } else if (p.shape === "court") { // a sunken lawn or paving, drawn at ground level
+      prism(hf, hd, foot, base + p.eave_m, HALL_COLOURS.court);
+      lid(hf, hd, base + p.eave_m, HALL_COLOURS.court);
+    } else if (p.shape === "basin") { // a round basin
+      octagon(Math.min(hf, hd), foot, base + p.eave_m, base + p.eave_m, HALL_COLOURS.stone, HALL_COLOURS.water);
     } else if (p.shape === "wall") {
       prism(hf, hd, foot, eave, HALL_COLOURS.stone);
       lid(hf, hd, eave, HALL_COLOURS.stone);
@@ -280,7 +285,7 @@ function buildHalls({ fc, toXZ, datum }) {
   const cells = new Map(), CELL = 40;
   const key = (i, j) => i * 100003 + j;
   for (const b of info) {
-    if (b.props.shape === "terrace") continue;
+    if (b.props.shape === "terrace" || b.props.shape === "court") continue;
     const r = Math.hypot(b.hf, b.hd);
     for (let i = Math.floor((b.cx - r) / CELL); i <= Math.floor((b.cx + r) / CELL); i++) for (let j = Math.floor((b.cz - r) / CELL); j <= Math.floor((b.cz + r) / CELL); j++) {
       const k = key(i, j);

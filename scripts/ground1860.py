@@ -33,7 +33,7 @@ PADDY_DROP_M = 0.25  # 稻田 below the land, C
 HILL_SLOPE_LIMIT = 0.8  # height at most this x half-width + 0.5 m: hills_1860 estimates run high on small outlines (research/terrain/README.md "mostly snapped to a residual peak")
 BRIDGE_WALK_M = 6  # walkable width burned into the raster: wider than the 3 m deck (params.json other.bridge) so a 5 m cell can't miss it
 BANK_BELOW_M = 0.3  # the bank goes this far under the water
-XY12 = {"lat": 40.012211, "lon": 116.308173, "d": 38, "h": 8}  # 线法山 mound, params.json xiyang_lou XY12 (plan circle 182 px, height a guess, C); position from buildings.csv
+XY12 = {"lat": 40.012211, "lon": 116.308173, "d": 42, "h": 8}  # 线法山 mound, params.json xiyang_lou XY12: the plan's outer ring at local scale, 42 m; 8 m in S310 (search extract), plate 18 7.4 m; C. Position from buildings.csv
 
 
 def xz_geom(geom):

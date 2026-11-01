@@ -16,6 +16,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r3_evidence` | not recorded | 19:12–20:55 | 103 min | 71 | $76.61 | 0bb4f81 | done |
 | `palace_r4_docs` | high | 20:56-21:08 (12 min) | exit 0 at 21:08Z | - | - | `4b44190` | done |
 | `palace_r5_refs` | not recorded | 21:45–23:26 | 101 min | - | see its result row | see the git log | done |
+| `palace_r6_xiyanglou` | not recorded | 2026-11-01, from 00:58 | see its log | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -146,3 +147,18 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - `site/` grew from 106 MB to 138 MB, `research/photos/images/` from 161 MB to 202 MB.
 - Round 3's count of halls with evidence of their own falls from 573 to 570, as reconstructions left that catalogue; they appear as reconstructions now.
 
+## palace_r6_xiyanglou
+
+**Asked:** Tomasz, on a screenshot of the strip as plain boxes: "I think this part is the most important, because it's the existing one and the most famous. Can you try to find more references about this?" and, for the result, "and add to page".
+
+**Delivered:** `research/xiyanglou/`, a dossier and a dimension sheet for XY01-XY15; `views.csv`, `dimensions.csv`, `boxes.csv`, `parts.csv`, `materials.csv`, `fragments.csv`, `rephoto.csv`, `impressions.csv`; the plates at 2400 px; boxes from those sheets; the panel's pictures by side, a Dimensions block; `site/xiyanglou/` and a zh draft, linked from the homepage and each XY panel. Common brief: `common/palace_r6_subagents.md`; merge: `common/palace_r6_merge.py`, `common/palace_r6_boxes_seed.py`, `common/palace_r6_facts_seed.py`, records.
+
+**Checked:** `tools/check_pages.py`, `tools/check_evidence.py` (a new XY section, against `research/evidence/coverage_before_r6.json`), `tools/check_docs.py`. A worker checked the page's text against its sources: 195 checks, 155 held, 33 changed, 7 not verifiable; all 33 applied. Screenshots in `screenshots/r6/`, opened.
+
+**Went wrong or left open:**
+- The brief's own claims failed three times: Malone measures no foundations in those pages; the Bergen pieces reached the park in 2023, not Peking University in 2014; S600 shows no Archimedes screw.
+- A perspective worker's first table held pixels from reads that never came back; it withdrew it itself and redid all 20 plates.
+- Commons' host rate-limited twice; the workers slept it out. One worker's loops sent a few more requests after a 429 and a 403 before stopping. Workers went over budgets: 53 searches against 45; 27 imagery tiles, not "a handful", all deleted.
+- Most plates' scales rest on plan widths, and only XY06, XY09, XY10 and XY11 on a survey. Figures of method a: 29 of 453.
+- The walls and footprints layers stay on the plan while the boxes moved to the ruin (Q64).
+- No native reader for the zh page.

@@ -13,27 +13,31 @@ Kuan Shui Fa, View of the Fountains · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S56, S01)
 - **Type:** european (S02, S06, S56, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01)
-- **Position:** 40.01183, 116.30663. S01 likely (S01 · confidence B)
-- **Size in the inventory:** 12.0 × 6.0 m. typology xiyang_lou, C (S01)
+- **Position:** 40.01184, 116.30668. S850;S01, moved in Round 6: On OSM's point (S01 · confidence B)
+- **Size in the inventory:** 14.5 × 11.5 m. stated: S01;S03;S603, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** 大水法之南 坐南朝北 (S06) (S02, S06, S56, S01) *(research copy, not public)*
-- **Note:** Copper engraving no. 16 per S02. Throne with a screen of 5 carved marble panels (S02 pp.157-158). Panels moved: S06. (S02, S06, S56, S01)
+- **Note:** Copper engraving no. 16 per S02. Throne with a screen of 5 carved marble panels (S02 pp.157-158). Panels moved: S06. Round 6 replaced frontage 12.0 m. Round 6 replaced depth 6.0 m. (S02, S06, S56, S01)
 - **Plan reader's note:** Arc-shaped screen at the south end of the axis, opening north. Matches 观水法 screen. No label of its own (远瀛观 label sits next to it). | plan: rect=68,54,0. Arc screen x 10521-10589, y 1225-1279, opening north. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 10555, 1252 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** throne platform: 12 × 6 m, eave 1 m, ridge 1 m
-- **1 ×:** screen: 15 × 1 m, eave 5 m, ridge 5 m
+- **1 ×:** throne platform: 14.5 × 11.5 m, eave 1.3 m, ridge 1.3 m
+- **1 ×:** screen of five marble panels: 14.46 × 1 m, eave 5.1 m, ridge 5.1 m
 - **Confidence:** C, all assumed
 
-## Pictures (10)
+## Pictures (16)
 
 - **P0056** (sure): 观水法正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十六 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-13.jpg
 
   ![P0056](../../photos/images/P0056.jpg)
+
+- **P0779** (sure): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
 
 - **P0294** (sure): Fotografija Ruševine rimskih plošč v Stari poletni palači (album: "Yüen-Ming-Yüen: Römische Tafeln") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-rimskih-plosc-v-stari-poletni-palaci/
 
@@ -43,6 +47,14 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0300](../../photos/images/P0300.jpg)
 
+- **P0709** (sure): PORTE LOUIS XV AU PALAIS D'ÉTÉ (p. 377), Pl. XII (printed caption) (Plate in Favier, c. 1897 (Rijksmuseum, book); same negative as Child's Princes Porch, 1875-77 per the Commons text on P0194). https://id.rijksmuseum.nl/200721138
+
+  ![P0709](../../photos/images/P0709.jpg)
+
+- **P0777** (sure): 觀水法正面 (第十四圖) (1873 (S770; dated by S89); Teng Gu says only that Ohlmer took them 1867-1879, about sixty years before). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0777](../../photos/images/P0777.jpg)
+
 - **P0193** (likely): 19th century photograph of the Princes Porch (1870s (Commons)). https://commons.wikimedia.org/wiki/File%3AThomas_Child_Princes_Porch.jpg
 
   ![P0193](../../photos/images/P0193.jpg)
@@ -51,11 +63,11 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0194](../../photos/images/P0194.jpg)
 
-- **P0709** (likely): PORTE LOUIS XV AU PALAIS D'ÉTÉ (p. 377), Pl. XII (printed caption) (Plate in Favier, c. 1897 (Rijksmuseum, book); same negative as Child's Princes Porch, 1875-77 per the Commons text on P0194). https://id.rijksmuseum.nl/200721138
-
-  ![P0709](../../photos/images/P0709.jpg)
-
 - **P0323** (sure): Sirén: The Imperial Palaces of Peking pl. 216 (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/203253 Research-only: link card.
+- **P0724** (sure): Guanshuifa (S770 caption), Ohlmer negative L (1873 (S770; dated by S89)). https://visualizingcultures.mit.edu/garden_perfect_brightness_03/ymy303/e503.htm Research-only: link card.
+
+  ![P0724](../../raw/photos/P0724.jpg)
+
 - **P0343** (sure): Photos of Ruins of Old Summer Palace - 2019 - 12.jpg (2019-07-14 19:21:15 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Photos_of_Ruins_of_Old_Summer_Palace_-_2019_-_12.jpg
 
   ![P0343](../../photos/images/P0343.jpg)
@@ -68,8 +80,20 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0640](../../photos/images/P0640.jpg)
 
+- **P0764** (sure): Guanfa ruins (2014-03-31 15:56:45 (Commons)). https://commons.wikimedia.org/wiki/File:Guanfa_ruins.jpg
 
-## Texts and drawings (5)
+  ![P0764](../../photos/images/P0764.jpg)
+
+- **P0765** (sure): Ruins of Guan Shuifa 20130323 (2013-03-23 14:17:57 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Guan_Shuifa_20130323.jpg
+
+  ![P0765](../../photos/images/P0765.jpg)
+
+- **P0766** (sure): Yuanmingyuan (9865248366) (2007-06-23 10:57 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_(9865248366).jpg
+
+  ![P0766](../../photos/images/P0766.jpg)
+
+
+## Texts and drawings (7)
 
 - **E0985** (description, sure): Plates XVI to XIX: 观水法, 线法山门, 线法山, 螺蛳牌楼. 1786-1803 · pp.184-185, Plates XVI-XIX · S258. https://archive.org/details/BIUSante_40644
   > Montagne factice sur laquelle il y a un Ting-tsé,
@@ -81,6 +105,10 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   The editors walk the strip from west to east with completion dates and plaques: 谐奇趣 1751, 养雀笼 1759, then the fountains and the perspective walls, with their mechanical details. They put the whole at about 2% of the gardens.
 - **E0544** (drawing, sure, search index only): 西洋楼水法图. 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/7643.html
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
+- **E2440** (plan, sure): Teng Gu's preface on the photographs and plan. 1932-07 (preface), 1933 (book) · pp.3-5 of the preface, djvu pages 5-7 · S871. https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+  Teng Gu says the photographs and the plan belonged to Ernst Boerschmann and were taken and drawn by Ohlmer, a customs official in Tianjin who lived in Beijing 1867-1879 and whose collection went to the Hildesheim museum. He argues they are earlier than those in Favier's Péking (1897), Combaz 1909, Perzynski 1920 and Münsterberg 1912, naming pages he compared. Fig. 13 is a recent photograph by Zhou Zuanwu; fig. 15 is copied from Favier p.264.
+- **E2419** (plan, sure): Three plans by Antoine Durand: 1984 from Jin Xun at 1/500 inside Adam's 1/10000; 1985 from a survey of the whole site; 1987 fountain area from 128 surveyed points with a manual survey of all surface parts. 1984-87 · pp.125-129, Figs 4, 5, 9, 12, 16 · S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240
+  The only published method statement for an on-site survey of the whole strip. Only excavation could fix the east fence of the gardens and the east edge of the basin. The west edge of the 线法山 gate and the ramp fix the geometry. See R0139-R0143. Plans without a printed scale in the copy I read.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
 
@@ -110,6 +138,9 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q60: Captions and claims, old photographs (Round 5)
+- Q64: The plan's scale and turn in this strip (Round 6)
+- Q65: How far the plates can be trusted for size (Round 6)
+- Q71: 观水法 on the axis (Round 6)
 
 <!-- generated:end -->
 

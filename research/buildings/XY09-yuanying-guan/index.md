@@ -14,26 +14,26 @@ Yuan Ying Kuan, View of Distant Seas · Xiyang Lou
 - **Type:** european (S02, S06, S42, S01, S109, S03, S258, S310 · confidence A)
 - **Built:** 乾隆四十八年 1783 (S42 12613; printed there as 乾隆十四八年) (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S42, S01, S109, S03, S258, S310)
-- **Position:** 40.01263, 116.30653. S01 sure (S01 · confidence B)
+- **Position:** 40.01240, 116.30658. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
 - **Bays:** 5 (S06) in the texts / 5x4 on the plan (S02, S06, S42, S01, S109, S03, S258, S310)
-- **Size in the inventory:** 59.2 × 51.0 m. typology xiyang_lou, C (S01)
+- **Size in the inventory:** 28.0 × 21.0 m. stated: S603;S850;S71, research/xiyanglou/boxes.csv (S01)
 - **Lead on its size, from a modern study, not used in the model:** Yuanying Guan: terrace about 35 x 31 m; building footprint 21 x 28 m; post grid known to about 50 cm (S603, pp. 131-132). (confidence B)
 - **Storeys:** 1 (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Roof:** 庑殿顶 3-tier (S06) (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Tiles:** 五色琉璃, 鱼鳞金瓦 (S06) (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Where the text puts it:** 西为海晏堂 东为线法山 前为大水法观水法 (S42) (S02, S06, S42, S01, S109, S03, S258, S310) *(research copy, not public)*
-- **Note:** Copper engraving no. 14 per S02. Later than 大水法 (S42). Excavated 2016: 3 phases, late-Qing use (S42). Gobelins tapestries 1767 (S02 p.160); S06 says Louis XVI. Grey brick with carved marble (S02 p.155). Hall for the Gobelins tapestries sent in 1767; 70 pieds long, new in 1786, full of machines (S258, pp.165, 183). bays: 17 rooms in all on an inverted 凹 plan, with a 3-bay central hall; buildings.csv has 5 (S06) (S310, ysltd/12443 (list card on /special/yslt; 排架 not seen)). (S02, S06, S42, S01, S109, S03, S258, S310)
+- **Note:** Copper engraving no. 14 per S02. Later than 大水法 (S42). Excavated 2016: 3 phases, late-Qing use (S42). Gobelins tapestries 1767 (S02 p.160); S06 says Louis XVI. Grey brick with carved marble (S02 p.155). Hall for the Gobelins tapestries sent in 1767; 70 pieds long, new in 1786, full of machines (S258, pp.165, 183). bays: 17 rooms in all on an inverted 凹 plan, with a 3-bay central hall; buildings.csv has 5 (S06) (S310, ysltd/12443 (list card on /special/yslt; 排架 not seen)). Round 6 replaced frontage 59.2 m. Round 6 replaced depth 51.0 m. (S02, S06, S42, S01, S109, S03, S258, S310)
 - **Plan reader's note:** Label written well south of the hall, at (10529,1180), beside the axis. The hall B0096 stands on a terrace projecting north of the strip's wall line, as Malone says. | plan: 5 bays: agrees. South row left open (U-shaped bottom in the grid). Terrace x 10498-10622, y 765-945; stairs (hatched) x 10500-10532, y 946-982 and x 10596-10627, y 943-975. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 10562, 823 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** terrace (OSM ruin polygon, S03): 59.2 × 51 m, eave 2 m, ridge 2 m
-- **1 ×:** three-storey centre, double-eave hip roof (S109): 21 × 18 m, eave 12 m, ridge 15 m
-- **Confidence:** C, all assumed
+- **1 ×:** terrace: 31 × 35 m, eave 2 m, ridge 2 m
+- **1 ×:** hall, five roofs, on the terrace: 28 × 21 m, eave 9.7 m, ridge 14.6 m
+- **Confidence:** B
 
 ## Inside it (3)
 
@@ -41,11 +41,19 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY09-N02
 - XY09-N03
 
-## Pictures (23)
+## Pictures (37)
 
 - **P0054** (sure): 远瀛观正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十四 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-11.jpg
 
   ![P0054](../../photos/images/P0054.jpg)
+
+- **P0779** (sure): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
+
+- **P0179** (sure): Ruinerna efter Östporten till Xianfa-kullen i det gamla sommarpalatset (000611, F.2603) (1920 (holder); 1900-1920 (Commons)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/195708
+
+  ![P0179](../../photos/images/P0179.jpg)
 
 - **P0183** (sure): South side of 远瀛观 ruin, the clock gate front (between 1872 and 1873 (Commons); 1873 (hpchina blog)). https://commons.wikimedia.org/wiki/File%3ASouth_Side_of_Yuanyingguan%2C_Ernst_Ohlmer%2C_1870s.jpg
 
@@ -55,51 +63,79 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0190](../../photos/images/P0190.jpg)
 
-- **P0169** (likely): Hauptgebäude im Renaissancestil (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AHauptgeb%C3%A4ude_im_Renaissancestil.jpg
-
-  ![P0169](../../photos/images/P0169.jpg)
-
-- **P0179** (likely): Ruinerna efter Östporten till Xianfa-kullen i det gamla sommarpalatset (000611, F.2603) (1920 (holder); 1900-1920 (Commons)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/195708
-
-  ![P0179](../../photos/images/P0179.jpg)
-
-- **P0214** (likely): Enligt text under Pl. 191b Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198826
+- **P0214** (sure): Enligt text under Pl. 191b Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198826
 
   ![P0214](../../photos/images/P0214.jpg)
 
-- **P0216** (likely): Enligt text under Pl. 192b Kinas trädgårdar Vol. I: Yuanmingyuan. Dashuifa ”De Stora Springvattnen”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198828
+- **P0216** (sure): Enligt text under Pl. 192b Kinas trädgårdar Vol. I: Yuanmingyuan. Dashuifa ”De Stora Springvattnen”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198828
 
   ![P0216](../../photos/images/P0216.jpg)
 
-- **P0290** (likely): Fotografija Detajl ruševine vzhodnih vrat h gori Xianfa v Stari poletni palači (album: "Yüen-Ming-Yüen: Detail von Nr. 336") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-detajl-rusevine-vzhodnih-vrat-h-gori-xianfa-v-stari-poletni-palaci/
+- **P0290** (sure): Fotografija Detajl ruševine vzhodnih vrat h gori Xianfa v Stari poletni palači (album: "Yüen-Ming-Yüen: Detail von Nr. 336") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-detajl-rusevine-vzhodnih-vrat-h-gori-xianfa-v-stari-poletni-palaci/
 
   ![P0290](../../photos/images/P0290.jpg)
 
-- **P0291** (likely): Fotografija Ruševine vzhodnih vrat h gori Xianfa v Stari poletni palači (album: "Yüen-Ming-Yüen: Nr. 334 gegenwärtig") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-vzhodnih-vrat-h-gori-xianfa-v-stari-poletni-palaci/
+- **P0291** (sure): Fotografija Ruševine vzhodnih vrat h gori Xianfa v Stari poletni palači (album: "Yüen-Ming-Yüen: Nr. 334 gegenwärtig") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-vzhodnih-vrat-h-gori-xianfa-v-stari-poletni-palaci/
 
   ![P0291](../../photos/images/P0291.jpg)
+
+- **P0646** (sure): 圓明園址 (1), 図版 XII-54 (printed caption) (published 昭和16 (1941), NDL record; photographs undated). https://dl.ndl.go.jp/pid/1902723/1/59
+
+  ![P0646](../../photos/images/P0646.jpg)
+
+- **P0719** (sure): 圓明園の廢墟 (printed caption slip beside the photograph) (series 昭和10-17 (NDL); this number not dated in what I read). https://dl.ndl.go.jp/pid/1266050/1/9
+
+  ![P0719](../../photos/images/P0719.jpg)
+
+- **P0758** (sure): 远瀛观遗址 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%80%9B%E8%A7%82%E9%81%97%E5%9D%80_-_panoramio.jpg
+
+  ![P0758](../../photos/images/P0758.jpg)
+
+- **P0761** (sure): 大水法遗址 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%B0%B4%E6%B3%95%E9%81%97%E5%9D%80_-_panoramio.jpg
+
+  ![P0761](../../photos/images/P0761.jpg)
+
+- **P0771** (sure): THE REMAINS OF THE YUEN MING YUEN SUMMER PALACE, AFTER SIXTY-SIX YEARS, The Vanished Empire (1926, printed in Putnam Weale, The Vanished Empire (Commons)). https://commons.wikimedia.org/wiki/File:THE_REMAINS_OF_THE_YUEN_MING_YUEN_SUMMER_PALACE,_AFTER_SIXTY-_SIX_YEARS_The_Vanished_Empire.png
+
+  ![P0771](../../photos/images/P0771.jpg)
+
+- **P0772** (sure): Von Chinas Göttern; Reisen in China, Tafel 7, Yüan ming yüan (1900-1920 (Commons)). https://commons.wikimedia.org/wiki/File:Von_Chinas_G%C3%B6ttern;_Reisen_in_China-Tafel_7,_Y%C3%BCan_ming_y%C3%BCan,_000611(F.2603-bearb).jpg
+
+  ![P0772](../../photos/images/P0772.jpg)
+
+- **P0169** (likely): Hauptgebäude im Renaissancestil (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AHauptgeb%C3%A4ude_im_Renaissancestil.jpg
+
+  ![P0169](../../photos/images/P0169.jpg)
 
 - **P0292** (likely): Fotografija Ruševine paviljona Dashuifa v Stari poletni palači (album: "Yüen-Ming-Yüen: Thron-Halle") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-paviljona-dashuifa-v-stari-poletni-palaci/
 
   ![P0292](../../photos/images/P0292.jpg)
 
-- **P0646** (likely): 圓明園址 (1), 図版 XII-54 (printed caption) (published 昭和16 (1941), NDL record; photographs undated). https://dl.ndl.go.jp/pid/1902723/1/59
+- **P0293** (likely): Fotografija Ruševine – panoramski pogled z vzhoda v Stari poletni palači (album: "Yüen-Ming-Yüen: Total-Ansicht vom Osten") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-panoramski-pogled-z-vzhoda-v-stari-poletni-palaci/
 
-  ![P0646](../../photos/images/P0646.jpg)
+  ![P0293](../../photos/images/P0293.jpg)
 
-- **P0719** (likely): 圓明園の廢墟 (printed caption slip beside the photograph) (series 昭和10-17 (NDL); this number not dated in what I read). https://dl.ndl.go.jp/pid/1266050/1/9
+- **P0776** (likely): 大水法正面 (第十二圖) (1873 (S770; dated by S89); Teng Gu says only that Ohlmer took them 1867-1879, about sixty years before). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
 
-  ![P0719](../../photos/images/P0719.jpg)
+  ![P0776](../../photos/images/P0776.jpg)
+
+- **P0199** (sure): 圓明園遺址, from Peking the Beautiful (between 1922 and 1927 (Commons)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E9%81%BA%E5%9D%80.jpg Research-only: link card.
+
+  ![P0199](../../raw/photos/P0199.jpg)
 
 - **P0213** (sure): Sirén, Enligt text under Pl. 191a Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter gravyr av år 1786. (undated by holder; Sirén's second trip 1921-23 for this group). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198825 Research-only: link card.
 
   ![P0213](../../raw/photos/P0213.jpg)
 
-- **P0199** (likely): 圓明園遺址, from Peking the Beautiful (between 1922 and 1927 (Commons)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E9%81%BA%E5%9D%80.jpg Research-only: link card.
-
-  ![P0199](../../raw/photos/P0199.jpg)
-
 - **P0310** (likely): Sirén: Yuanmingyuan (Old summer palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199632 Research-only: link card.
+- **P0723** (likely): Dashuifa (Great Fountain) (S770 caption), Ohlmer negative K (1873 (S770; dated by S89)). https://visualizingcultures.mit.edu/garden_perfect_brightness_03/ymy303/e503.htm Research-only: link card.
+
+  ![P0723](../../raw/photos/P0723.jpg)
+
+- **P0778** (likely): 晚近之大水法 (第十三圖) ('near today', a few years before the preface of July 1932, sent from Beiping by 周纘武 (Teng Gu)). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu Research-only: link card.
+
+  ![P0778](../../raw/photos/P0778.jpg)
+
 - **P0338** (sure): Yuanmingyuan Ruins of Dashuifa and Yuanyingguan 20120715.jpg (2012-07-15 12:57:04 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Ruins_of_Dashuifa_and_Yuanyingguan_20120715.jpg
 
   ![P0338](../../photos/images/P0338.jpg)
@@ -116,16 +152,42 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0342](../../photos/images/P0342.jpg)
 
+- **P0755** (sure): Ruins of Yuanyingguan 20130201 (2013-02-01 17:27:42 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Yuanyingguan_20130201.JPG
+
+  ![P0755](../../photos/images/P0755.jpg)
+
+- **P0756** (sure): Ruins of Yuanyingguan01 20130126 (2013-01-26 13:24:38 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Yuanyingguan01_20130126.JPG
+
+  ![P0756](../../photos/images/P0756.jpg)
+
+- **P0757** (sure): Yuanmingyuan (9865214586) (2007-06-23 11:00 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_(9865214586).jpg
+
+  ![P0757](../../photos/images/P0757.jpg)
+
+- **P0780** (sure): 远瀛观 standing columns from the north side (2007-06-23 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_(9865480493).jpg
+
+  ![P0780](../../photos/images/P0780.jpg)
+
+- **P0760** (likely): Dashuifa, Old Summer Palace (2021-02-17 17:03:02 (Commons)). https://commons.wikimedia.org/wiki/File:Dashuifa,_Old_Summer_Palace.jpg
+
+  ![P0760](../../photos/images/P0760.jpg)
+
 - **P0312** (guess): Sirén: Yuanmingyuan (Old summer palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199634 Research-only: link card.
 - **P0313** (guess): Sirén: Yuanmingyuan (Old summer palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199635 Research-only: link card.
 - **P0328** (guess): Arches and carved marble column from a ruined building at Yuan Ming Yuan (1933-1946 (HPC estimate)). https://hpcbristol.net/visual/Hv20-059 Research-only: link card.
 - **P0331** (guess): Carved marble column and capital from a ruined building at Yuan Ming Yuan (1933-1946 (HPC estimate)). https://hpcbristol.net/visual/Hv20-073 Research-only: link card.
 
-## Texts and drawings (30)
+## Texts and drawings (35)
 
 - **E0185** (poem, likely): 御製 題澤蘭堂. 1795 (御製詩五集) · KR4f0005_486:3a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_486.txt
   > 題澤蘭堂 書堂號澤蘭樸斵謝青丹芸帙堪永日藤窻避薄寒蕪情報韶意水法列竒觀（堂北為西洋水法處盖縁乾隆十八年西洋博爾都噶里雅國）（來京朝貢聞彼處以水法為竒觀因念中國地大物博水法不過工巧之一端遂命住京之西洋人郎世寧造）（為此法俾來使至此瞻仰前嵗□咭唎國使臣等至京朝貢亦令閲看深為歎服昨冬廣東督臣長麟撫臣朱）（珪奏荷蘭國使臣嘚□等以今嵗為朕御極六十年大慶懇請来京朝賀鑒其數萬里外慕化悃誠因允其請）（已即於臈月到京新正並與朝賀宴賞節間令於是處觀看水法使知朕所嘉者逺人嚮化之誠若其任土作）（貢則中國之大何竒不有初不以為貴也）洋使賀正至逺瀛合俾看
   The one imperial statement found on the European water works. Qianlong's note says the 西洋水法 stands north of 澤蘭堂; after a Portuguese embassy of 乾隆十八年 (1753) he had 郎世寧 Castiglione build it to show envoys; British envoys saw it in the 1790s, and the Dutch envoys at New Year 1795 were to see it. He adds that what he values is their coming, not their marvels.
+- **E2429** (text, likely): Lucy: a 'Palais Louis XV' on about 8 October 1860. 1860 (published 1861) · letter of 8 October; IA OCR line 4098, page not fixed · S247. https://archive.org/details/souvenirsdevoya00lucygoog
+  > Nous dénichons aussi un Palais Louis XV. Il y avait là le matin encore les tapisseries des Gobelins, représentant la toilette chinoise, l'arrivée des Européens en Chine, etc., etc., présent du roi Louis XV à l'Empereur ... mais elles ont été mises en sûreté !! Plus loin, c'est une collection de portraits des beautés de la cour de Louis XV, avec les noms au bas. Crevés hélas !
+  Witness of 1860: the French enter a European-style building, with Gobelins tapestries (the man names the wrong Chinese emperor) and pictures of court ladies with their names. Tapestries gone by the afternoon. Agrees with the plate XIV note and with S245.
+- **E2430** (text, likely): Varin: chambers of Gobelins and portraits in a Louis XV palace, 1860. 1860 (1862 edition per S245) · IA OCR line 9748; S02 p.184 quotes it · S245. https://archive.org/details/expditiondechin00paulgoog
+  > Dans un de ces palais, bâti dans le style Louis XV, on voyait une série de chambres revêtues de tapis des Gobelins aux armes de France, et aux murs desquelles étaient suspendus des portraits en pied de beautés de la cour de France, avec leurs noms au bas.
+  Varin: secondary palaces, long abandoned and turned into stores. Tapestries and paintings 'delabrés, crevés': already in poor state. This is the same room as Lucy's. The two French witnesses tell us the building was a store with contents in October 1860, not an inhabited palace.
 - **E0964** (poem, sure): 远瀛观. 嘉庆三年 (1798) · v4 p.123, under 西洋楼; source ref 1-386 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=126
   > 楼式仿西洋，圣皇声教彰。远瀛咸向化，绝域尽来王。可识天威畅，同霑惠泽长。大清超万古，继序凛无遑。
   Poem 远瀛观 by the Jiaqing Emperor, 1798, filed by the editors under 西洋楼.
@@ -183,6 +245,8 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **E0488** (description, likely): French presents seen in a European building, October 1860. 1934 · p.184 · S02. https://archive.org/details/historyofpekings00malo
   > In one of the palaces built in the style of Louis XV, there were seen a series of chambers hung with Gobelin tapestries marked with the arms of France,
   Varin pp.240-44: Gobelins with the arms of France and full-length portraits of court ladies, dilapidated from years of neglect. Building not named; 远瀛观 by S258 p.183.
+- **E2421** (description, likely): Written then-and-now captions on Morrison photographs. 2026-08-06 · article, captions 1-9 · S775. https://www.163.com/dy/article/L3KN3VCD05527FJF.html
+  Compares about nine 1930s photographs with today in words, not with new pictures. Claims the single-arch gate remnant on the south of 海晏堂 stood in the Republican years and has now collapsed, and the two arch frames at 远瀛观 have mostly fallen. Unverified user writing.
 - **E0525** (description, likely): 清代御苑胜境——圆明园西洋楼二十景图创作理路探赜. post n.d. · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/549967f93aa3432880765881e768a3b7.htm
   On the 20 copper plates: how the Chinese artist 伊兰泰 Yi Lantai, long thought a Westerner, emerged from the archives after 1980, and what the plates' composition aims at. Gives 1783 and 远瀛观 as the end of building.
 - **E0977** (description, sure): 圆明园百景史事分景汇编: 远瀛观. 1798-1823 · from p.295, under 远瀛观 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=295
@@ -195,6 +259,10 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   Undated ground plan of Yuanying Guan; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
 - **E0980** (drawing, sure, search index only): 远瀛观装修平面图. 不详 · 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/12043.html
   Undated plan of Yuanying Guan's fittings; the extract shows no shelf number. No image here; the site may ask a small payment for the full record.
+- **E2440** (plan, sure): Teng Gu's preface on the photographs and plan. 1932-07 (preface), 1933 (book) · pp.3-5 of the preface, djvu pages 5-7 · S871. https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+  Teng Gu says the photographs and the plan belonged to Ernst Boerschmann and were taken and drawn by Ohlmer, a customs official in Tianjin who lived in Beijing 1867-1879 and whose collection went to the Hildesheim museum. He argues they are earlier than those in Favier's Péking (1897), Combaz 1909, Perzynski 1920 and Münsterberg 1912, naming pages he compared. Fig. 13 is a recent photograph by Zhou Zuanwu; fig. 15 is copied from Favier p.264.
+- **E2419** (plan, sure): Three plans by Antoine Durand: 1984 from Jin Xun at 1/500 inside Adam's 1/10000; 1985 from a survey of the whole site; 1987 fountain area from 128 surveyed points with a manual survey of all surface parts. 1984-87 · pp.125-129, Figs 4, 5, 9, 12, 16 · S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240
+  The only published method statement for an on-site survey of the whole strip. Only excavation could fix the east fence of the gardens and the east edge of the basin. The west edge of the 线法山 gate and the ramp fix the geometry. See R0139-R0143. Plans without a printed scale in the copy I read.
 - **E0950** (archaeology, sure): 圆明园遗址考古今年推进至大水法, 浙江在线. 2016-06-12 · news, 金和天 · S141. https://china.zjol.com.cn/gnxw/201606/t20160612_1619014.shtml
   养雀笼 Yangque Long: 1,000 m2 cleared in 2015, showing foundations that combine 三合土 lime concrete with brick and stone. 大水法 and 远瀛观 were next, about 2,000 m2 planned for 2016, with the stated aim of learning how imperial buildings were founded, which standing buildings cannot show.
 - **E0981** (archaeology, sure): 远瀛观遗址考古发掘简报, 北京市文物研究所. dug 2016-06 to 12 · mhymy 档案史料 12613, abstract · S153. https://www.mhymy.com/dasl/12613.html
@@ -231,6 +299,8 @@ Modern interpretation, not evidence.
 - Q49: Captions overruled by form (old photographs)
 - Q56: Reconstructions against the period evidence
 - Q60: Captions and claims, old photographs (Round 5)
+- Q64: The plan's scale and turn in this strip (Round 6)
+- Q67: 远瀛观 (Round 6)
 
 <!-- generated:end -->
 

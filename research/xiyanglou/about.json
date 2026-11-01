@@ -1,0 +1,263 @@
+{
+  "_": "Hand-written text of the dossiers and the public page, EN and a zh draft. Every sentence stands on the sources named in `sources`; what is only a snippet or a claim says so. scripts/xiyanglou_dossiers.py and scripts/xiyanglou_page.py read this file. `en` is Malone's English (S02), as in the column name_en of buildings.csv.",
+  "XY01": {
+    "slug": "xieqiqu",
+    "zh": "谐奇趣",
+    "pinyin": "Xieqiqu",
+    "en": "Harmonious Strange and Pleasant",
+    "plates": [
+      1,
+      2
+    ],
+    "what_en": "The first of the European buildings; work on the west strip began in 1747 (S603 p.123; S817; S310). Three storeys in the middle, 7, 7 and 3 bays, with curved one-level galleries of 9 bays running to two octagonal music pavilions of two storeys (S108, S02 p.141). A round double stair came down from the second floor to a scalloped pool with fountains on the south; the north front faced a paved court with clipped trees and a basin (S02 pp.141-143, S258 pp.173-177). Castiglione drew the European houses and Benoist the water, says Delatour on the Jesuits' letters (S258); no source names them building by building.",
+    "what_zh": "西洋楼最早的建筑；西段工程始于乾隆十二年（1747）（S603 第123页；S817；S310）。主楼三层，七、七、三开间，九开间弧形游廊通向两座两层八角奏乐亭（S108；S02 第141页）。南面有环形双跑石阶自二层下至海棠形喷水池；北面朝向铺装庭院，院中有修剪的树木和水池（S02 第141-143页；S258 第173-177页）。德拉图尔据传教士书信称：欧式建筑由郎世宁设计，水法由蒋友仁主持（S258）；但没有史料逐栋说明。",
+    "after_en": "Burned in October 1860, with the stone and brick left standing. In 1873 Ohlmer photographed it from the south, east and north with all three storeys up. Malone's plate is captioned \"after Further Destruction in 1900 and since\". By the Skušek album's photograph (P0172, P0301) only a pier and columns remain. The north basin went to 翠花胡同 in the 1920s and came back in 1985-87; carvings left for 地安门西大街 in the 1970s, and part returned in July 2006 (S817, S814).",
+    "after_zh": "1860年10月被焚，砖石结构尚存。1873年奥尔末从南、东、北三面拍摄时，三层皆在。马隆图注称其“1900年及之后”进一步被毁。后来的照片（P0172，P0301）中只余石墩和石柱。北面水池1920年代被移至翠花胡同，1985至1987年归回；部分石刻1970年代被运往地安门西大街，2006年7月部分归还（S817，S814）。",
+    "survives_en": "The base of the stair, stacked marble blocks and a few columns on site; 800 stone components were counted in the survey published in 2015 (S108). A stone's place today is not evidence for its place in 1860: many were re-laid in the 1980s without being put back exactly (S821).",
+    "survives_zh": "遗址上有石阶基座、叠放的汉白玉石块和数根石柱；2015年发表的调查共计800件石构件（S108）。石块今日的位置不能证明其1860年的位置：1980年代的归安并未都放回原处（S821）。",
+    "sources": "S02;S42;S108;S258;S817;S814;S821"
+  },
+  "XY02": {
+    "slug": "xushui-lou",
+    "zh": "蓄水楼",
+    "pinyin": "Xushui Lou",
+    "en": "Building for Gathering the Waters",
+    "plates": [
+      3
+    ],
+    "what_en": "The water works of 谐奇趣: a small two-storey block of 5 bays with a one-storey wing to the north, 3 bays in a search extract, facing east on the court north of 谐奇趣 (S02 p.143, S258 p.177; S310). The description Delatour prints, by his friend Père Avril, titles the plate \"Château-d'eau, or Machine du Val-Saint-Pierre\". Water came by culvert from the north sluice, was lifted by a mule-turned wheel and pump to a tin-lined tank upstairs, and ran by copper pipe to the fountains (S600; S310 from a search extract). The wheel failed in 1763 and windlasses replaced it; in 1795 the disused machines were ordered reused as metal and timber (S600).",
+    "what_zh": "谐奇趣的水法设施：两层五开间小楼，北接一层翼房（搜索摘要称三开间），面东朝向谐奇趣北面的庭院（S02 第143页；S258 第177页；S310）。德拉图尔书中其友阿夫里尔神父的图说称此图为“水塔，或圣皮埃尔谷机器”。水由暗渠自北闸引来，以骡力水轮和水泵提升至楼上锡衬水槽，再经铜管通往各喷泉（S600；S310 据搜索摘要）。1763年水轮损坏，改用辘轳；1795年下令将废弃机械改作铜料木料（S600）。",
+    "after_en": "No dated event of its loss was found. Sirén photographed the ruin in 1922 (P0176). The press calls another building 蓄水楼 too, the tank block of 海晏堂: dates must not be carried from one to the other.",
+    "after_zh": "未见其毁坏的具体年代。喜仁龙1922年拍摄过其废墟（P0176）。报刊也把海晏堂的锡海水楼称作“蓄水楼”，两者的年代不可混用。",
+    "survives_en": "Nothing located in our sources; its place is known only from the plan, to about 15 m.",
+    "survives_zh": "我们的资料中未见现存遗迹；位置仅据地盘图（S01），误差约15米。",
+    "sources": "S02;S258;S600;S310"
+  },
+  "XY03": {
+    "slug": "huayuan-men",
+    "zh": "花园门",
+    "pinyin": "Huayuan Men",
+    "en": "Flower Garden Gate",
+    "plates": [
+      4
+    ],
+    "what_en": "The south gate of the maze: an arch with two columns and an entablature, two crouching lions on cippi, and a panelled wall carried on a small bridge (S258 p.178). Malone's description of the wall: grey brick cut smooth, with a large pattern in pink and deep cream (S02 pp.143-144). Plate 4 shows its north side, from inside the maze garden.",
+    "what_zh": "万花阵南门：石拱门，两柱一额枋，两侧石座上有蹲狮，镶板墙架于小桥之上（S258 第178页）。马隆称墙为灰砖磨光，饰粉红与深米色大花纹（S02 第143-144页）。第四图是其北面，从花园内望。",
+    "after_en": "Ohlmer photographed the south side in 1873 with people sitting by it (P0184), the only view of that face we found. It carries a pierced fan-light in the arch. Its later fate is not stated in our sources.",
+    "after_zh": "1873年奥尔末拍摄过南面，旁有人坐（P0184），是我们所见唯一的南面影像，拱内有镂空花窗。其后的情况我们的资料未载。",
+    "survives_en": "No arch stands in any modern picture we have seen. Two finial piers stand on the axis (P0736 and later rows); whether they are old is unknown.",
+    "survives_zh": "今日照片中未见拱门，轴线上存两座带顶饰的石墩，是否原物不明。",
+    "sources": "S258;S02;S310"
+  },
+  "XY04": {
+    "slug": "huanghua-zhen",
+    "zh": "黄花阵",
+    "pinyin": "Huanghua Zhen",
+    "en": "Flower Garden, a maze",
+    "plates": [
+      5
+    ],
+    "what_en": "A walled labyrinth. The plates call it 花园, the memorials and drawings 黄阵 or 黄花灯, and from the Guangxu reign it is 万花阵 (S310). Carved brick walls about shoulder high, topped with little pines (S02 p.145): 1.2 m high, 0.6 m thick, about 1600 m in all, the block 88.64 × 58.56 m (S310; figures fall on whole Qing feet, so probably from an archive, but no page says so). At the centre a round stair base and an octagonal pavilion; at the north a two-storey hall overlooks it. In 1793 sods were laid on the walls by order, and in 1795 a tile-topped pavilion by the storerooms north of the maze was taken down (S310).",
+    "what_zh": "带围墙的迷宫。铜版画称“花园”，奏折与图档称“黄阵”或“黄花灯”，光绪时称“万花阵”（S310）。雕花砖墙约齐肩高，上植小松（S02 第145页）：高1.2米，厚0.6米，总长约1600米，方阵88.64×58.56米（S310；数字均合整营造尺，或出自档案，但未见明言）。中央有圆形石阶基座和八角亭，北端二层楼俯瞰全阵。1793年奉旨于墙顶铺草坯，1795年拆除阵北库房处的瓦头亭（S310）。",
+    "after_en": "The walls were lost after 1860, dates not found. The park rebuilt the maze in 1987-88 (S847); a search extract gives 1987 and 1989, moulded bricks because hand carving could not be repeated, and a redesigned centre pavilion (S310).",
+    "after_zh": "围墙在1860年后损毁，具体年代未详。公园于1987至1988年整修万花阵（S847）；搜索摘要称1987和1989年，砖为模压烧制，中心亭重新设计（S310）。",
+    "survives_en": "What stands is the rebuilding: useful for size and plan, not a survival. Today's outline measures 57 × 89 m, which fits S310. Nothing we read says whether it follows the old footing (Q66).",
+    "survives_zh": "现存者为重建物，可作尺度和平面参考，并非遗存。今日轮廓约57×89米，与S310相合。是否沿用旧基尚无资料说明（Q66）。",
+    "sources": "S02;S310;S847;S06"
+  },
+  "XY05": {
+    "slug": "yangque-long",
+    "zh": "养雀笼",
+    "pinyin": "Yangque Long",
+    "en": "Bird Cage",
+    "plates": [
+      6,
+      7
+    ],
+    "what_en": "A gate between the court behind 谐奇趣 and the east garden, with birds kept in the side rooms: peacocks until the Jiaqing reign, according to the old caretaker Lu (S02 p.147). From the west it read almost as a Chinese five-roof archway, from the east as a European arch of three bays, with carved marble fountains either side of the door (S02 p.147; S310 from a search extract, which also gives 1759). The description Delatour prints, by his friend Père Avril, compares its capitals and niches with Borromini (S258 p.180); that is his comparison, not a documented model (Q59).",
+    "what_zh": "位于谐奇趣后院与东园之间的门楼，侧室养鸟，据老园户Lu称孔雀养至嘉庆时（S02 第147页）。西面近似中式五顶牌楼，东面则为三开间欧式拱门，门两侧有雕花大理石喷泉（S02 第147页；S310 据搜索摘要，并称建于1759年）。德拉图尔书中其友阿夫里尔神父的图说，将其柱头与壁龛比作波洛米尼（S258 第180页），只是他的比较，并无图样依据（Q59）。",
+    "after_en": "Child and Sirén photographed the east gate (P0192, P0175). Malone prints it being pulled down about 1924 (S02 p.146). Four piers from its west gate went to a unit at 田村山南路 in the 1970s and returned in 2013 (S817). A dig of 2015 cleared about 1,000 m² (S141); a search extract adds the store court and copper fountain pipes (S310).",
+    "after_zh": "蔡尔德和喜仁龙拍摄过东门（P0192，P0175）。马隆书中有约1924年正在拆除的照片（S02 第146页）。西门四座石墩1970年代被运往田村山南路某单位，2013年归还（S817）。2015年发掘清理约1000平方米（S141）；搜索摘要称发现库院及铜质供水管（S310）。",
+    "survives_en": "Half-round stones, carved blocks and two tall piers on site (P0352, 2013). The gate itself is gone.",
+    "survives_zh": "地面存半圆形石件和石雕块，另有两座高石墩（P0352，2013年）。门楼本身已毁。",
+    "sources": "S02;S258;S310;S817;S141"
+  },
+  "XY06": {
+    "slug": "fangwai-guan",
+    "zh": "方外观",
+    "pinyin": "Fangwai Guan",
+    "en": "A Look Abroad",
+    "plates": [
+      8
+    ],
+    "what_en": "A small two-storey building of 3 bays, facing south, known early as 水法三间楼 (S310 from a search extract). Durand's survey gives 14 × 7 × 13 m without its stairs (S603), though he adds that the roof rests on the plate alone. Curved stairs came down from the second floor at both sides; a bridge over the moat had carved marble scroll balustrades (S02 pp.147-148). Under the terrace there was a low room with a door and two grilled ovals (S258).",
+    "what_zh": "两层三开间小楼，坐北朝南，早期称“水法三间楼”（S310 据搜索摘要）。杜朗调查：不计石阶长14米、宽7米、高13米（S603），但屋顶仅据铜版画。两侧弧形石阶自二层而下；护城河上桥有雕花大理石卷草栏杆（S02 第147-148页）。平台下有低室，一门两圆窗（S258）。",
+    "after_en": "It kept a Chinese-style roof after 1860, on the photographs of the 1870s and about 1880 (S838), and it is probably the unnamed pavilion with violet and green tiles of a witness in 1876 (S828; the tie is our inference). Cleared by the park's staff from 1976 on (S820, S847).",
+    "after_zh": "1860年后仍保留中式屋顶，见1870年代及约1880年的照片（S838），很可能就是1876年目击者所记紫绿琉璃瓦的那座楼（S828；此属我们的推断）。1976年起由园方工作人员清理（S820，S847）。",
+    "survives_en": "The stone frame of the doors and piers, and pieces of the stairs. Brick cores are gone.",
+    "survives_zh": "存门框石柱和石阶残件，砖芯已无。",
+    "sources": "S603;S02;S258;S838;S828;S820;S310"
+  },
+  "XY07": {
+    "slug": "wuzhu-ting",
+    "zh": "五竹亭",
+    "pinyin": "Wuzhu Ting",
+    "en": "Bamboo Pavilions",
+    "plates": [
+      9
+    ],
+    "what_en": "Five pavilions faced with bamboo, open all round, in a half circle joined by bamboo galleries, looking north towards 方外观 and its fountains (S258 p.181, S02 p.148). Plate 9 shows them as a U open to the viewer; a search extract gives 18 gallery bays in all (S310). The plan S01 does not draw them, only their beds and pool (Q15).",
+    "what_zh": "五座竹饰亭，四面开敞，呈半圆排列，以竹廊相连，北向方外观及喷泉（S258 第181页；S02 第148页）。第九图呈U形，开口朝向观者；搜索摘要称廊共十八间（S310）。地盘图（S01）未绘亭子，只绘花池和水池（Q15）。",
+    "after_en": "Bamboo and timber, so probably burned in 1860, though no source says so. In Malone's time only two lotus pools, a fountain and the wall behind were left: \"All traces of the pavilion itself have disappeared\" (S02 p.149).",
+    "after_zh": "竹木结构，很可能毁于1860年之火，但未见明载。马隆时仅存两座莲池、一处喷泉和后墙：“亭子本身已荡然无存”（S02 第149页）。",
+    "survives_en": "No trace located today, and we found no photograph of the pavilions: plate 9 is the only view we have.",
+    "survives_zh": "今日未见遗迹，我们亦未找到亭子的照片：第九图是目前所见唯一图像。",
+    "sources": "S258;S02;S310"
+  },
+  "XY08": {
+    "slug": "haiyan-tang",
+    "zh": "海晏堂",
+    "pinyin": "Haiyan Tang",
+    "en": "Hall of Peaceful Seas",
+    "plates": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "what_en": "The largest of the group. Basically finished by 1759 as 水法殿十一间楼; the board 海晏堂 hung only from 1781 (S310). It faced west with 11 bays on two levels, and two great stairs curved down to the pool, where cast copper animal heads on seated stone figures, six each side, spouted water: the water clock of the twelve hours (S02 p.153, S258 p.182, S823). Behind it an H-shaped block held Benoist's machines and the reservoir 锡海 of 27.36 × 5.92 × 1.44 m (S109; S06 for the width; depth S600) between two raised waterwheel houses, with zig-zag stairs at the east end; side fronts of 13 bays make a run of about 105 m (S02 p.155, S593, S604 through S415). In 1786 Bourgeois says that men carried water to fill \"the immense basin of the château d'eau\" before the emperor's visits, the machine having worn out (S258 p.166); he names no building, and this may or may not be this tank. In 1795 the disused machines were ordered reused as metal and timber (S600).",
+    "what_zh": "西洋楼中最大。乾隆二十四年（1759）基本建成，时称“水法殿十一间楼”，四十六年（1781）始悬“海晏堂”匾（S310）。主楼面西，上下十一开间；两侧弧形大石阶下至水池，池旁左右各六尊坐像，石身铜首（精炼红铜），喷水，即十二时辰水法（S02 第153页；S258）。其后为工字形水楼，两座水车房之间为锡海（27.36×5.92×1.44米；S109，水深据S600），东端有折行石阶；南北立面十三开间，全长约105米（S02 第155页；S593；S604 转引自S415）。1786年晁俊秀称机器已坏，皇帝游幸前靠人力挑水注满“水塔的大池”（S258 第166页）；未指明何楼，未必即此处锡海。1795年下令将废弃机械改作铜料木料（S600）。",
+    "after_en": "Burned in October 1860. In 1873 Ohlmer photographed the west and north fronts still up to the parapet. The brick casing of the reservoir block, up to 5 m thick, was stripped over time and the block collapsed in the 1940s, leaving the rammed earth core (S593, S110). A dig of about 2015 found the waterwheel rooms and drains; 800 m² in a search extract (S310). The core was conserved about 2016-17 (S110, S821). Seven of the twelve heads are held in China today: ox, tiger, monkey and boar at the Poly Art Museum, horse at the park since 2020, rat and hare at the National Museum since 2013. The whereabouts of dragon, snake, goat, rooster and dog are unknown (S817, S822); one reprint repeats an unconfirmed report of the dragon head in Taiwan (S823). Which heads are held where: S822, S823, S815.",
+    "after_zh": "1860年10月被焚。1873年奥尔末拍摄时西、北立面仍至女儿墙。水楼砖壁厚达5米，逐渐被拆走，1940年代倒塌，露出夯土芯（S593，S110）。约2015年发掘发现水车房和排水设施，摘要称800平方米（S310）；约2016至2017年加固夯土（S110，S821）。十二兽首今有七件在中国：牛、虎、猴、猪藏保利艺术博物馆，马首2020年起归圆明园，鼠、兔2013年起藏中国国家博物馆。龙、蛇、羊、鸡、狗首下落不明（S817，S822）；另有转载称龙首在台湾，未经证实（S823）。各首藏处见S822、S823、S815。",
+    "survives_en": "The stone stair walls and blocks of the west front, the pool's edge and the shell fountain's stones, and the earth core of the reservoir, 6.3-7.2 m high, the largest structure left in the ruins.",
+    "survives_zh": "存西立面石阶墙与石块、水池边缘及贝壳喷泉石，以及高6.3至7.2米的锡海夯土芯，为遗址中最大的现存结构。",
+    "sources": "S310;S02;S258;S593;S600;S415;S110;S821;S822;S823;S815"
+  },
+  "XY09": {
+    "slug": "yuanying-guan",
+    "zh": "远瀛观",
+    "pinyin": "Yuanying Guan",
+    "en": "View of Distant Seas",
+    "plates": [
+      14
+    ],
+    "what_en": "The hall built for tapestries from France. Bourgeois calls them Gobelins, sent by the French court in 1767 (S258 pp.165, 183); Durand says six Beauvais tapestries after Boucher, offered by the missionaries (S603 p.123). Grey brick with carved white marble, two carved pillars before the door, five roofs, on a terrace set north of the park's wall line above the Great Fountains (S02 pp.155-156, S603). Durand's survey: terrace 35 × about 31 m, hall 21 × 28 m from the post grid, order not stated (S603). Dated 1783 in the archives (S42); a copper nozzle made for it in 1782 fits (S600), and Durand prefers 1768 from the Jesuits (S603): Q24. Bourgeois in 1786 has the new hall, 70 feet long, so full of machines one could hardly pass (S258).",
+    "what_zh": "为安放法国挂毯而建的大殿。晁俊秀称为法国宫廷1767年所赠戈布兰挂毯（S258 第165、183页）；杜朗则称是传教士进呈的六幅博韦挂毯，据布歇画稿（S603 第123页）。灰砖墙饰白大理石雕，门前两根雕花石柱，五座屋顶，立于大水法之北、园墙线外伸的高台上（S02 第155-156页；S603）。杜朗调查：台约35×31米，殿据柱网21×28米，未注明方向（S603）。档案记为1783年（S42）；1782年为其制铜水嘴，与之相合（S600）；杜朗据传教士记载倾向1768年（S603）：见Q24。1786年晁俊秀称新殿长七十尺，满置机器，几难通行（S258）。",
+    "after_en": "One French account, Varin's of 1862, has chambers lined with Gobelins bearing the arms of France in one palace \"dans le style Louis XV\"; the building is not named (S245). Burned that month. Malone prints the ruin in 1924 (p.156) and, undated, the two pillars with one fallen (p.154). By the 1980s the east, west and north edges of the base had collapsed (S603). A dig in 2016, 800 m², found the hall, stores, three phases of building and many glazed fittings (S153); a project announced in May 2018 was to strengthen the foundations of the standing stones by late September (S841).",
+    "after_zh": "法国人瓦兰1862年记载，某座“路易十五式”宫殿中有饰法国纹章的戈布兰挂毯，未指明何殿（S245）。同月被焚。马隆书中有1924年废墟照片（第156页），另有未注年代的双柱照片，一柱已倒（第154页）。至1980年代，台基东、西、北缘坍塌（S603）。2016年发掘800平方米，发现大殿、库房、三期建筑痕迹及大量琉璃构件（S153）；2018年5月公布的工程拟于当年9月底前加固立石基础（S841）。",
+    "survives_en": "The carved columns, the image most people have of the whole garden, with arches gone and the terrace partly collapsed.",
+    "survives_zh": "现存雕花石柱，是圆明园最广为人知的形象；拱券已无，台基部分坍塌。",
+    "sources": "S258;S02;S603;S42;S600;S245;S153;S841"
+  },
+  "XY10": {
+    "slug": "da-shuifa",
+    "zh": "大水法",
+    "pinyin": "Da Shuifa",
+    "en": "The Great Fountains",
+    "plates": [
+      15
+    ],
+    "what_en": "The fountain set before 远瀛观. A huge stone niche with a lion-head cascade, seven steps of water, an oval basin where hounds spout at a stag, and two pyramid towers in quatrefoil basins (S258 pp.183-184; S603 p.127; S310 from a search extract). Durand's survey found the whole area to be 110 × 60 m, sunk 1.30 m below the gardens, against 90 m drawn by Jin Xun, with quatrefoil basins 18 m across and 62 m apart (S603). Finished with 海晏堂 by 1759 (S310, extract).",
+    "what_zh": "远瀛观前的喷泉群。巨大的石壁龛，狮头瀑布，七级水帘，椭圆形水池中猎犬喷水射鹿，两侧四叶形水池中各立一座塔形水法（S258 第183-184页；S603 第127页；S310 据搜索摘要）。杜朗调查：整个区域110×60米，低于园地1.30米（金勋图作90米），四叶形水池直径18米，相距62米（S603）。约1759年与海晏堂同时建成（S310，摘要）。",
+    "after_en": "After the sack the bricks were recovered from the buildings, and only the great marble blocks stayed, which is why this is the best-kept of the scenes (S603). A pair of stone fish, identified from photographs of the 1920s, was taken in the mid-1930s and returned to the park's exhibition hall in 2006-07 (S817, S815). Cleared in 1978-83 (S847); a dig was to reach it in 2016 (S141).",
+    "after_zh": "劫后砖料被取走，只余巨大的大理石块，因此保存最好（S603）。一对石鱼（据1920年代照片认定）1930年代中期被取走，2006至2007年归回园内展览馆（S817，S815）。1978至1983年清理（S847）；2016年考古拟推进至此（S141）。",
+    "survives_en": "The arch of the niche, the basin stones and the two tower bases. Which stones are in place is not settled (S821).",
+    "survives_zh": "现存壁龛石拱、水池石块和两座塔基。哪些石块在原位尚无定论（S821）。",
+    "sources": "S258;S603;S310;S817;S815;S847;S141;S821"
+  },
+  "XY11": {
+    "slug": "guan-shuifa",
+    "zh": "观水法",
+    "pinyin": "Guan Shuifa",
+    "en": "View of the Fountains",
+    "plates": [
+      16
+    ],
+    "what_en": "The emperor's seat, facing north across the Great Fountains: a throne with a canopy and a brick screen holding five marble panels of European arms (swords, armour, flags, drums, cannon), with clipped hedges and two gateways right and left (S02 pp.157-158). The plate draws the panels at a pitch that makes the screen about 8.4 m wide; on the ground it is about 14.4 m (P0343, S01).",
+    "what_zh": "皇帝观赏大水法的宝座，面北：华盖宝座后为砖屏，嵌五块欧式兵器（刀、甲、旗、鼓、炮）大理石浮雕，左右有修剪的绿篱和两座门（S02 第157-158页）。铜版画中石屏仅约8.4米宽，实际约14.4米（P0343，S01）。",
+    "after_en": "About 1910 eunuchs tried to sell the screens; 载涛 took them and the two obelisks to 朗润园, which is now within Peking University (S817; for marbles in 载涛's garden, S02 p.218). The park brought them back in 1977, the first dispersed stones to return (S310, S817).",
+    "after_zh": "约1910年太监欲将石屏变卖，载涛将其与两座方塔移至朗润园（今在北京大学）（S817；载涛园中石刻见S02 第218页）。1977年圆明园管理处运回，是最早归回原址的流散文物（S310，S817）。",
+    "survives_en": "Five panels and two obelisks standing, set up in 1977 by the park: a re-erection, so their place is not independent evidence. The brick backing is gone. The platform under the throne survives without its balustrades (S603 p.129; P0343).",
+    "survives_zh": "现存五块石屏和两座方塔，为1977年园方重立，位置不能单独作为证据；砖屏已无。宝座平台尚存，栏杆已失（S603 第129页；P0343）。",
+    "sources": "S02;S817;S310;S70;S01"
+  },
+  "XY12": {
+    "slug": "xianfa-shan",
+    "zh": "线法山",
+    "pinyin": "Xianfa Shan",
+    "en": "Hsien Fa Hill, of the line method",
+    "plates": [
+      17,
+      18
+    ],
+    "what_en": "A round artificial hill, about 8 m high (S310, extract; plate 18 reads 7.4 m), with intersecting circular paths up to a pavilion on top, and a triple gate like a triumphal arch at the west (S02 p.159). The plan labels it 转马台, \"horse-turning terrace\"; the caretaker Lu said the emperor rode up on horseback (S02 p.159). 线法 means line method, probably the Jesuits' perspective.",
+    "what_zh": "圆形人工土山，高约8米（S310 摘要；第十八图约7.4米），有交错环路通向山顶亭子，西面有凯旋门式三孔门（S02 第159页）。地盘图（S01）标为“转马台”；老园户Lu说皇帝骑马上山（S02 第159页）。“线法”即线条透视法，当来自传教士。",
+    "after_en": "Base sites were cleared in 1978-83 (S847). No secure ruin photograph of the gate has been found.",
+    "after_zh": "1978至1983年清理基址（S847）。三孔门尚未发现可靠的废墟照片。",
+    "survives_en": "The mound and a base. The pavilion and gate are gone.",
+    "survives_zh": "存土山及基址，亭子和门已无。",
+    "sources": "S02;S01;S310;S847"
+  },
+  "XY13": {
+    "slug": "luosi-pailou",
+    "zh": "螺蛳牌楼",
+    "pinyin": "Luosi Pailou",
+    "en": "East Gate to Hsien Fa Hill",
+    "plates": [
+      19
+    ],
+    "what_en": "The east gate of 线法山: three arches, with the side passages leading through side rooms, and vine ornament carved even over the faces of the pillars (S02 p.159). Plate 19 looks east through it to the water and painted hills beyond. The width is not settled: 22.9 m on the plate, 34-49 m for what the plan draws, with no other check (Q16).",
+    "what_zh": "线法山东门：三孔拱门，两侧通道穿过耳房，柱面满雕藤蔓（S02 第159页）。第十九图向东透过拱门望见水面和画中群山。宽度未定：铜版画22.9米，地盘图（S01）所绘34至49米，并无其他核对（Q16）。",
+    "after_en": "It stands in Moore's photograph of the 1870s-80s (S838 Fig.6). Ohlmer and Child did not photograph it. Its later fate was not found.",
+    "after_zh": "穆尔1870至1880年代的照片中仍存（S838 图6）；奥尔末、蔡尔德未曾拍摄。其后情况未详。",
+    "survives_en": "Nothing located in our sources, and no modern photograph within 100 m on Commons by geotag.",
+    "survives_zh": "我们的资料中未见现存遗迹，维基共享资源按地理标签查100米内亦无今日照片。",
+    "sources": "S02;S838;S01"
+  },
+  "XY14": {
+    "slug": "fang-he",
+    "zh": "方河",
+    "pinyin": "Fang He",
+    "en": "Lake of the Hsien Fa picture",
+    "plates": [
+      20
+    ],
+    "what_en": "A rectangular lake that cut the park off from the perspective walls beyond, so that the painted town was seen across water (S258 p.185, S02 p.159). 145.9 × 51.9 m on the plan.",
+    "what_zh": "长方形水面，将园区与对岸的线法墙隔开，使画中城镇隔水相望（S258 第185页；S02 第159页）。地盘图上145.9×51.9米。",
+    "after_en": "The water was lost and restored. The Changchun lakes were re-dug in 1992-94 (S847); whether this one was among them is not stated. Today's water is 149.2 × 45.0 m (OSM).",
+    "after_zh": "水面曾湮废后恢复。长春园诸湖1992至1994年重挖（S847），是否包括此处未见明言。今日水面149.2×45.0米（OSM）。",
+    "survives_en": "Water on the old site, its north bank about 7 m inside the plan's. The south banks coincide.",
+    "survives_zh": "原址有水，北岸较地盘图内收约7米，南岸相合。",
+    "sources": "S258;S02;S01;S03;S847"
+  },
+  "XY15": {
+    "slug": "xianfa-qiang",
+    "zh": "线法墙",
+    "pinyin": "Xianfa Qiang",
+    "en": "Hsien Fa Picture East of the Lake",
+    "plates": [
+      20
+    ],
+    "what_en": "An outdoor stage: pairs of walls set like wings, narrowing towards a back wall, with a European town painted across them, to be seen from the far side of 方河 (S02 pp.159-160). The plan calls it 线法画. The number of walls is not settled: five a side (S02), six a side on the plan, seven a side in S361, 11 in all on a Lei plan (S310, extract), about 5 on plate 20 (Q16). The paintings' medium is not settled either: \"partly modeled and partly painted on walls\" in Malone, hung pictures in S361; \"oil on brick\" has no source (material row).",
+    "what_zh": "露天舞台：成对的墙如侧幕排列，向后墙收窄，墙上绘欧洲城镇，隔方河观赏（S02 第159-160页）。地盘图称“线法画”。墙数未定：每侧五（S02），地盘图每侧六，S361称七道，雷氏图共十一（S310，摘要），第二十图约五（Q16）。画的材质亦未定：马隆称“部分塑造，部分绘于墙上”，S361称墙面悬挂西洋画；“砖上油画”之说并无出处。",
+    "after_en": "Malone's photograph still shows walls like wings. Later dates were not found.",
+    "after_zh": "马隆照片中尚有侧幕般的墙。其后年代未详。",
+    "survives_en": "Nothing to read on the ground: the place is a car park on today's imagery (S850).",
+    "survives_zh": "地面已无可辨遗迹；今日影像中为停车场（S850）。",
+    "sources": "S02;S01;S310;S361;S850"
+  },
+  "_overview": {
+    "title_en": "The European palaces",
+    "title_zh": "西洋楼",
+    "lead_en": "西洋楼 Xiyang Lou, the European palaces, stood in a T-shaped strip along the north edge of 长春园 Changchun Yuan: a west arm of about 320 × 85 m and an east strip of about 770 × 100 m (S604 through S415; 770 × 60 m in S603). The same source states 8.2 ha, though its rectangles make about 10 ha. They were built from 1747 to 1783 by the Qing court with Jesuit designers and Chinese craftsmen, as a place of fountains and curiosities, not as a residence. On 6-8 October 1860 French and British troops took the gardens, which were looted (S02 pp.179-183). On 18-19 October British troops, on Elgin's order, burned them; the French refused to join (S02 pp.187-189). The stone and brick of these buildings stood after the fire, and were pulled down, sold and carted off over the following century; their ruins are the part of the garden most people know.",
+    "lead_zh": "西洋楼位于长春园北缘的T形地带：西段约320×85米，东段约770×100米（S604 转引自S415；S603 作770×60米）。同一来源称8.2公顷，但两矩形合计约10公顷。清廷于1747至1783年间由传教士设计、中国工匠营建，用作喷泉和奇观之所，并非居所。1860年10月6至8日，英法联军攻占圆明园并大肆劫掠（S02 第179-183页）。10月18至19日，英军奉额尔金之命焚毁圆明园，法军拒绝参与（S02 第187-189页）。西洋楼的砖石在火后仍立，此后一个世纪间陆续被拆、被卖、被运走；其遗址是圆明园中最为人知的部分。",
+    "how_en": "Every building below shows the engraving of the 1780s, the ruin photographs where they exist, the two side by side where a later photograph repeats an earlier view, and a table of what is known of its size, with how each figure was obtained. Method a is a published survey, b a measurement on the ruin or the plan, c a reading of the engraving by perspective, d an estimate from a photograph with a known object in it, e typology or a figure with no survey behind it.",
+    "how_zh": "下面每座建筑都列出1780年代铜版画、现存的废墟照片、同一视角的新旧对比，以及尺寸表，并说明每个数字如何得来。方法a为已发表的测绘，b为在遗址或地盘图上量取，c为按透视读铜版画，d为从含已知物体的照片估算，e为类型推定或无测绘依据的数字。",
+    "plates_en": "The twenty plates were under way by 1781, when 伊兰泰 Yi Lantai was drafting them; the first drawings went to the engravers in 1782 and all twenty were presented in 1786 (palace workshop records, transcribed in S873). Bourgeois, writing in 1786, says the emperor asked for them three years earlier and that two or three pupils of Castiglione drew them (S258 pp.170-171). They show the state of the 1780s, drawn for display: where they can be checked against the ground they squeeze widths, the octagons of 谐奇趣 to about 60%, the screen of 观水法 likewise, both with a margin of about 15 points.",
+    "plates_zh": "二十幅铜版画至迟1781年已起稿（伊兰泰），1782年首批图稿交付刻版，1786年二十块全部告成（内府档案，见S873）。晁俊秀1786年信称三年前皇帝命绘，由郎世宁两三名弟子绘制（S258 第170-171页）。所示为1780年代状态，但属陈设之作：与实地可核对者，宽度均有压缩，谐奇趣八角亭和观水法石屏均压至约60%，误差约15个百分点。",
+    "water_en": "The water came by sluice from the north and was raised by machine at two places, 蓄水楼 at the west and 海晏堂 further east; which fountains each fed is our reading of the layout. Machines after Belidor's Val Saint Pierre, with wheels turned by mules or men, stood from 1747, and new machinery was added in 1757. The wheel at 蓄水楼 failed in 1763 and windlasses took over. In 1795 the disused machines were ordered reused as metal and timber; Shingei infers that the pipes and tanks stayed, as pipes were repaired the year before (S600). So the often-repeated story that the fountains stopped when Benoist died in 1774 does not hold: by 1786 Bourgeois describes men filling the great basin for the emperor's visits (S258 p.166).",
+    "water_zh": "水由北闸引入，在两处以机械提升：西部的蓄水楼和东部的海晏堂；各供何处喷泉系我们据布局的理解。仿贝利多尔圣皮埃尔谷式的水车，由骡或人力带动，1747年起使用，1757年又添新机械。蓄水楼水轮1763年损坏，改用辘轳。1795年下令将废弃机械改作铜料木料；Shingei据前一年仍修铜管，推断水管和水池尚存（S600）。所以“1774年蒋友仁去世后喷泉即停”的说法不确：1786年晁俊秀记载，皇帝游幸前由人力灌满大池（S258 第166页）。",
+    "survive_en": "On the ground today: the columns of 远瀛观, the niche of 大水法, the screens of 观水法 (re-erected in 1977), the stair blocks and earth core of 海晏堂, the stones of 方外观 and 谐奇趣, the mound of 线法山, and the maze as rebuilt in 1987-88. Much was cleared and re-laid from 1976 on, and not always in the original place (S821).",
+    "survive_zh": "今日地面现存：远瀛观石柱、大水法壁龛、观水法石屏（1977年重立）、海晏堂石阶石块和夯土芯、方外观和谐奇趣石件、线法山土丘，以及1987至1988年整修的万花阵。1976年以来大量清理归安，未必都回到原位（S821）。"
+  }
+}

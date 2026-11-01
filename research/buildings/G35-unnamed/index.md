@@ -4,7 +4,7 @@
 
 Gate in the garden walls
 
-**3D object:** none yet.
+**3D object:** 1 box. Open it: `/reconstruction/3d.html?b=G35`
 
 ## What we know
 
@@ -14,7 +14,14 @@ Gate in the garden walls
 
 ## Our model now
 
-No box of its own: the hall drawn at this point stands for the gate in the 3D view.
+Assumed: a gate on the walls layer with no hall drawn at its point, so a small default box stands there. Confidence C.
+
+- **Box:** 8 × 4 m, gate hall
+- **Part:** gate on the walls layer, no hall drawn at this point: a small default box
+- **Heights:** platform 0.77 m, eave 4.47 m, ridge 6.38 m above the ground
+- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
+- **Faces:** 175° from north
+- **Confidence:** C, assumed
 
 ## Pictures (0)
 

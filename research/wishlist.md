@@ -4,6 +4,17 @@ What would replace the biggest guesses. Most valuable first.
 
 | What | Replaces | Where held | How |
 |---|---|---|---|
+| 样式雷 谐奇趣 sheet no. 985 with over 120 dimensions (S108, S310), 东水车房 样094-4, 线法墙地样, 黄花阵地基图样 样337-146 | The first absolute sizes for 谐奇趣; the first modelling target's biggest guesses (Q72) | 《国家图书馆藏样式雷图档·圆明园卷》 初编 and 续编; 故宫博物院图书馆 for 985, 986 | Library, or S108's authors |
+| Pirazzoli-t'Serstevens 1987 (S604), her Rapport Mission Palais d'Eté 1986-87, Durand's plans at scale; Adam 1936 (S37) with 金勋's twelve plans and elevations of 1924 | Every c-figure on 海晏堂 and 谐奇趣; 远瀛观's order (Q67); 105 m (Q70) | Editions Recherche sur les Civilisations; CCA library; Lazarist press, Peking 1936 | Library request |
+| 西洋楼区域考古勘探报告 (S149), 远瀛观遗址考古发掘简报 (S153) in full, and the digs of 2015-16 at 海晏堂 and 养雀笼 | Plan positions of 蓄水楼, 养雀笼 (±15 m), the terrace of 远瀛观, risers and treads on the stairs | mhymy paid or mini-program; 北京市考古研究院 | By hand |
+| A tape on site: one door, one column base, one riser each at 谐奇趣, 海晏堂, 远瀛观, 花园门 | The module behind every plate reading (Q65, Q68) | Site | Visit; 1 hour |
+| S871 fig.1, Ohlmer's plan, at the 6236 px DjVu master: dashed lines fan out from points and may be his sight lines | Camera positions of the 1873 negatives | Commons file in S871 | Needs a DjVu decoder on the machine |
+| Decision on CC BY-NC for the Rylands set (S700) | 2400 px master of all 20 plates, and the unfinished watercolour of plate 1 (Q69, Q77) | Manchester Digital Collections | Tomasz |
+| The coloured sketch of plate 1 sent to Delatour, 1786-87 (S258 p.171) | The only period colour for a Xiyang Lou front | Unknown: Delatour's papers, Institut de France? | A letter to a specialist |
+| 活计档 for 水法 and 线法画: 《清宫内务府造办处档案总汇》; 《圓明園: 清代檔案史料》 上 pp.132-133, 362-363, 下 pp.1212-1219, 1637-1639 | Dated orders, painters, the medium of 线法画 (Q69) | Library or purchase | Library |
+| Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
+| Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Lists of XY stone in Beijing: 《燕京大学校刊》, 张恩荫's or 刘阳's lists, the 三山五园 database of 中央美院 (S843); British Museum and Penn tile records | The list of moved pieces; PKU, 颐和园, 北海, 恭王府 were not checked piece by piece | PKU library, CAFA, holders | By hand |
 | S15 《实测圆明园长春园万春园遗址形势图》, 1:2,000, surveyed Dec 1933, printed Nov 1936 | Our largest gap: water, hills and foundations in metric form; independent check of S01, especially the western plain | 圆明园管理处, National Library of China | Ask 圆明园管理处 for a scan, or find it in print. Beware: it shows some Tongzhi sites never built (S14) |
 | S10–S13 Yangshi Lei general plans, 《国家图书馆藏样式雷图档·圆明园卷初编》 and 续编 (ISBN 978-7-5013-5718-5) | Grade A positions; the state of each compound by date | National Library of China; libraries that own the set | A library visit (Harvard-Yenching, Princeton East Asian), or an NLC reproduction request |
 | S01 identity: tracing or original, and where the other one is | Grade of the whole plan (Q2) | Princeton University Art Museum, Asian Art; Bonhams 2016 lot (sale 23416?); Nicholas Grindley LLC | Write to the curator |

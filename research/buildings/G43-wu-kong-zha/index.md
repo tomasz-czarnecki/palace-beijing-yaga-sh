@@ -46,7 +46,7 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Open questions
 
-None that name it.
+- Q74: Two buildings called 蓄水楼 (Round 6)
 
 <!-- generated:end -->
 

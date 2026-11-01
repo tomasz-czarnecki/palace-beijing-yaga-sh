@@ -1,0 +1,21 @@
+plate,photo_id,id,lat,lon,bearing,dist_m,err_m,basis
+1,P0041,XY01,40.010515,116.302541,354,69,14,"D=69 m with f=1250; octagon then fits the plan. Over the water south of the pool, as the foreground shows. Eye 6.2 m. Key plan only. Anchor: footprints box or row."
+2,P0042,XY01,40.011649,116.30238,174,43,10,D=43 m from the rubble spacing; the ring pavement gives 42 m. In the court north of the fountain. Eye 4.6 m. Key plan only. Anchor: footprints box or row.
+3,P0043,XY02,40.011852,116.302313,264,31,12,D=f/s with f=1250 px of plates 1-2. Court east of the range. Key plan only. Anchor: footprints box or row.
+4,P0044,XY03,40.012343,116.302264,174,30,12,"D=f/s with f=1250 px of plates 1-2. North of the gate, past the bridge. Key plan only. Anchor: footprints box or row."
+5,P0045,XY04,40.01138,116.302394,354,76,30,"Ground plane: 76 m south of the near wall, 48 m up. An imagined place; nothing stood there. Key plan only. Anchor: footprints box or row."
+6,P0046,XY05,40.011662,116.302444,84,31,12,D=f/s with f=1250 px of plates 1-2. West of the gate on the axis. Key plan only. Anchor: footprints box or row.
+7,P0047,XY05,40.011727,116.303217,264,24,10,"D=f/s with f=1250 px of plates 1-2. On the bridge east of the gate, as drawn. Key plan only. Anchor: footprints box or row."
+8,P0048,XY06,40.011586,116.303757,355,33,12,D=f/s with f=1250 px of plates 1-2. South of the hall. Key plan only. Anchor: footprints box or row.
+9,P0049,XY07,40.011978,116.303754,174,47,20,"D=f/s with f=1250 px of plates 1-2. North of the beds, looking south: plate order beds, pool, back pavilion fits the plan with the viewer north. XY07 row is itself inferred (Q15). As computed this falls on 方外观 itself, which cannot be: the row, the assumed eye height or f is off by 15 m or more, so use the bearing, not the point. Key plan only. Anchor: footprints box or row."
+10,P0050,XY08,40.011756,116.30425,82,43,15,D=f/s with f=1250 px of plates 1-2. West of the basin. Key plan only. Anchor: footprints box or row.
+11,P0051,XY08,40.012386,116.305194,172,51,18,D=f/s with f=1250 px of plates 1-2. Scale is my own tie. North of the garden with the two small pools. Key plan only. Anchor: footprints box or row.
+12,P0052,XY08-N02,40.01197,116.306217,262,24,10,D=f/s with f=1250 px of plates 1-2. East of the stairs on the axis. Key plan only. Anchor: footprints box or row.
+13,P0053,XY08,40.011352,116.30539,352,51,18,Mirror of plate 11. Key plan only. Anchor: footprints box or row.
+14,P0054,XY09,40.011954,116.306653,352,39,14,"D=f/s with f=1250 px of plates 1-2. Over the 大水法 niche, eye about 11 m above the floor: no such stand existed. Key plan only. Anchor: footprints box or row."
+15,P0055,XY10,40.011637,116.306701,352,62,22,"D=f/s with f=1250 px of plates 1-2. South of the 观水法 screen by this figure (throne 42 m from the niche, footprints): a raised, imagined eye. Key plan only. Anchor: footprints box or row."
+16,P0056,XY11,40.012036,116.306645,172,17,8,"D=f/s with f=1250 px of plates 1-2. North of the steps, eye about 3.1 m. Key plan only. Anchor: footprints box or row."
+17,P0057,XY12-01,40.012162,116.307519,83,27,10,D=f/s with f=1250 px of plates 1-2. West of the gate on the axis. Key plan only. Anchor: footprints box or row.
+18,P0058,XY12-02,40.012158,116.307645,83,45,18,"D=f/s with f=1250 px of plates 1-2. Falls just west of the gate, near plate 17. Key plan only. Anchor: footprints box or row."
+19,P0059,XY13,40.012197,116.308341,83,36,15,"D=f/s with f=1250 px of plates 1-2. West of the arches, looking east through them to the water. Key plan only. Anchor: footprints box or row."
+20,P0060,XY15,40.012318,116.310574,83,58,20,D=f/s with f=1250 px of plates 1-2. Over the east end of 方河; nothing stood there. Stage-set depth. Key plan only. Anchor: footprints box or row.

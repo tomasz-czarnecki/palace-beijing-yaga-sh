@@ -2,7 +2,7 @@
 
 The playbook drawn from this project, the Old Summer Palace before 1860, and its sister Küstrin c. 1913 (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh`). Follow it for any town, palace or fortress. The result is a public website with a walkable 3D view in which every object opens a page showing its evidence.
 
-**How to read the figures.** All times are UTC on 2026-10-31, from `docs/rounds/README.md`, the git log and the progress logs. Times per worker come from the modified time of its notes file, so they are approximate. Counts are as of commit 0bb4f81, except phase 11 and what cites Round 5.
+**How to read the figures.** All times are UTC on 2026-10-31, from `docs/rounds/README.md`, the git log and the progress logs. Times per worker come from the modified time of its notes file, so they are approximate. Counts are as of commit 0bb4f81, except phase 11 and what cites Round 5, and phase 12, Round 6 on 2026-11-01.
 
 **The whole run:** six hours by the clock, from the rulebook at 15:04 to the commit of Round 3 at 20:56, and about $178 as reported by the rounds' result rows. It took one failed run. It went this fast because Küstrin already gave the structure; expect longer without a template.
 
@@ -21,8 +21,9 @@ The playbook drawn from this project, the Old Summer Palace before 1860, and its
 | 9 | Building pages | rows, boxes | `research/buildings/`, `data/buildings/`, `panel3d.js` | `scripts/building_pages.py`, `tools/check_pages.py` | 9 min |
 | 10 | Evidence hunt | every object as a list | `research/photos/catalog.csv`, `research/evidence/` | `scripts/photos_catalog.py`, `scripts/apply_facts.py`, `tools/check_evidence.py` | 102 min |
 | 11 | Twins and others' reconstructions | every object, its evidence | `research/twins/`, `research/reconstructions/` | `scripts/building_pages.py`, `tools/check_evidence.py`, `tools/serve_local.py` | 101 min |
+| 12 | A deep dive, ready for models | the famous part, its pictures | `research/xiyanglou/`, `site/xiyanglou/` | `scripts/xiyanglou_dossiers.py`, `scripts/xiyanglou_page.py`, `scripts/boxes1860.py` | see the rounds' log |
 
-Phases 3 to 6 ran together as one round, 142 min. Phases 7 to 9 ran as one round, 30 min. Next come detailed models, which here have not started (`models/README.md`).
+Phases 3 to 6 ran together as one round, 142 min. Phases 7 to 9 ran as one round, 30 min. Next come detailed models, which here have not started (`models/README.md`); phase 12 picks what to model first and gives it its numbers.
 
 ## The phases
 
@@ -113,6 +114,20 @@ The owner's reaction to phase 10 will be "most of those places are just sketches
 4. **Panel order:** period evidence, reconstructions (labelled modern interpretation, not evidence), comparables (labelled not this building), the set of buildings. Compounds' rows reach halls by the same fallback; garden and class come folded.
 5. **Measure before and after,** with a file fixed before the round (`research/evidence/coverage_before_r5.json`).
 
+### 12. A deep dive: dossiers and dimension sheets
+
+Breadth leaves the famous part as thin as the rest. Before modelling, take the part people know, here the ruins of the Xiyang Lou, and go through it building by building.
+
+1. **Fan out by topic again,** in the site's language too: every impression of the key plates; surveys, drawings and archaeology; ruin photographs and rephotography; fragments, period texts and materials; pictures' sides; perspective; footprints. Seven workers, then a wave on the gaps.
+2. **A dimension sheet, with a method per figure.** a a published survey; b measured on the plan or the ruin, by script; c read from an engraving by perspective; d a photograph with a known object; e typology, or a figure with no survey behind it. Keep every reading, also the ones that disagree: the disagreement is a finding. A tourist page is e, whatever it says.
+3. **Perspective reading of engravings,** by worker with a script: overlay a numbered grid on crops and read pixels on a displayed crop, never from memory; find the horizon and vanishing points; note whether the façade plane is frontal; take a scale from a width measured on the ground; test the focal length on a plate that has something measured on it, and say that it is carried to the rest as an assumption. Give the error: at least ±10% unless two plates agree. Where a plate can be tested, here it squeezed widths to about 60%, so heights hold better than widths.
+4. **Measure footprints on what is there,** by script, and test the plan's scale against what has a surveyed size. Here it held at ratio 1 in this strip, against what the method said elsewhere.
+5. **Fix the inventory from the evidence,** with facts: name a part, merge it, retire it, never renumber. `correct` rows keep the old figure in the note, and a generated row stays generated.
+6. **Side per picture.** Each picture states which face it shows and how well it serves a modeller (`views.csv`). The panel and the page group by it. Then the gaps show as missing sides.
+7. **Then and now.** Only pairs where both were opened. Say exact, close or rough.
+8. **A public page from the dossiers,** generated, so it stays in step, with a key plan drawn from your own layers.
+9. **Verify before it goes public.** A worker with no part in writing the text checks each sentence against the source cited, and marks it held, changed or not verifiable. Here 195 checks gave 33 changes: a throne platform called lost that stands, a gate called rebuilt that nobody has seen, one side of a dispute given as fact, a search extract stated as a dig report. Do this after any prose written from workers' notes.
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:
@@ -183,6 +198,8 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 | Commons, patiently | S440, S640 | 153 twin pictures, at about 15 calls between 429s |
 | A modern monograph that weighs the claims | S415, Rabreau 2022 | what about the European models holds, which is little |
 | Old photo collections at holders | S460, S465, S654 | five free ruin plates and much correction; most captions are wrong (Q60) |
+| The first book on a subject, reprinted on Commons | S871, Teng Gu 1933 | free copies of the five Ohlmer negatives no holder would give free |
+| A dense modern article, read as page images | S603 Durand, S600 Shingei | the only stated survey of the strip, and the dated story of the water machines |
 
 **How to search:**
 - **In the site's language as much as in English,** then the languages of those who were there: French and English eyewitnesses here. The best material was never in English.
@@ -200,6 +217,8 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - A session's web search budget ended at 200 searches, at 19:45 in Round 3. Keep some back for the last wave. Round 5 gave each worker a share and stayed within it, at about 170.
 - Round 5: Duke, Harvard's API, Gallica's SRU, the Library of Congress, Getty, and most of mhymy.com. Q62 has the full list; `research/wishlist.md` says who could open them by hand.
 
+- Round 6: Duke, Gallica's SRU, Smithsonian, the Library of Congress, Harvard, Yale, Manchester's LUNA, the British Museum, NYPL's item pages and most of mhymy.com, by bot check or refused connection; Commons' image host answered 429 with Retry-After 600 twice. Public IIIF manifests and Manchester Digital Collections answered where the portals did not. Fetch at 1280 px, one every 6 s.
+
 **The wishlist is a deliverable.** What, what it would replace, where it is held, how to ask (`research/wishlist.md`).
 
 ## What was specific to China
@@ -209,7 +228,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Reign dates.** Some records convert them wrongly (Q51): use the reign date as stated.
 - **Name variants.** One place has several written forms and plaques moved (Q20). Keep them in the row and don't merge on spelling alone.
 - **The topic is a national wound.** State who, when and what. No sensational or cute framing, and the twelve zodiac heads stay out of any playful content. The Küstrin speech bubble and sway were removed from the homepage for this reason. Keep looting and burning apart, as the sources do; the first draft of this rulebook blurred them.
-- **Chinese fonts** are large. The site uses subsets of the characters in use, and a new character falls back to a system font until the subset is rebuilt.
+- **Chinese fonts** are large. The site uses subsets of the characters in use, and a new character falls back to a system font until the subset is rebuilt. A long Chinese page gets a subset of its own with a `unicode-range`, in a stylesheet only it loads, so the homepage stays light.
 - **No native reader yet.** The `zh/` page is a draft.
 
 ## From Küstrin: what carried over and what differed
@@ -266,6 +285,11 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **A twin's chain of repeats.** 海晏堂 follows the Trianon comes from one book of 1971 and fills the web. Find a work that weighs the claim.
 - **Confidence inflation.** "On a source" here means position and footprint; heights and roofs still come from the typology. Say that where the number is quoted.
 
+- **A worker's reads that never came back.** One perspective worker's image reads returned "media removed: request limit", and its first script held pixel values anyway. It caught this, withdrew the table and re-read all 20 plates on displayed grids. Ask workers to check that a read came back before using it.
+- **A brief's own errors.** The brief said Malone measured foundations, the Bergen columns went to Peking University in 2014, and a paper shows an Archimedes screw. None held. Tell workers that the brief can be wrong, and read their corrections first.
+- **The whole-site polygon taken as a building.** The box of 远瀛观 took an OSM outline that also holds the niche of 大水法; its row stood 27 m off. Test each outline against its neighbours before it becomes a size.
+- **A stone's place is not evidence.** Ruins are re-laid: here from 1976 on, and not always in the original place (S821). State who moved what, and when.
+
 **Building it:**
 - **Stated sizes not reaching boxes,** because a row's name differed from the key: 文源阁, 大宫门, 雷峰夕照. Print what didn't bind.
 - **Workers' shorthand in public text.** Clean notes by rule and view real panels. File names as titles, and the same work tied twice at two grades, showed up only in screenshots.
@@ -273,7 +297,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Views that look wrong:** the outer plain hid the water, land colours skipped colour conversion, labels too small, wall tops through low roofs. Only viewing screenshots catches these.
 - **Generators that must be idempotent.** `scripts/building_pages.py` writes only if changed, and `tools/check_pages.py` runs it twice and compares.
 - **Clean URLs break relative links.** With `trailingSlash: false`, `/reconstruction` has no slash: links need to work on both.
-- **Size.** `site/` is 106 MB, `research/photos/images/` 161 MB, `.git` 267 MB. Round 3 cut new images to 1600 px and about 300 KB. Check the host's limits before setting one up.
+- **Size.** At Round 3 `site/` was 106 MB, `research/photos/images/` 161 MB, `.git` 267 MB; after Round 6 `site/` is about 150 MB and `research/photos/images/` about 240 MB. Round 3 cut new images to 1600 px and about 300 KB. Check the host's limits before setting one up.
 - **Docs that drift.** `tools/check_docs.py` compares field names and paths with the files. Round 4 found `research/README.md` claiming `scripts/georef.py` alone writes the overlay, and `CLAUDE.md` listing screenshot scripts that aren't there.
 
 ## Running it as rounds

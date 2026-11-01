@@ -14,24 +14,24 @@ Hua Yuan, Flower Garden, a maze · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S42, S01)
 - **Type:** european (S02, S06, S42, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S42, S01)
-- **Position:** 40.01260, 116.30240. S01 sure (S01 · confidence B)
-- **Size in the inventory:** 89 × 59 m.  (S01)
+- **Position:** 40.01246, 116.30224. S850;S01, moved in Round 6: Rebuilt maze, measured (S01 · confidence B)
+- **Size in the inventory:** 58.56 × 88.64 m. stated: S310;S850;S109, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** 广场之北为黄花阵 (S06) (S02, S06, S42, S01) *(research copy, not public)*
-- **Note:** Copper engraving no. 5 per S02. Engraving calls it 花园. Also 万花阵 (S06; S42). S06 89 x 59 m; walls 1.2 m high. S06 wall length 16 km looks wrong, check on plan. Rebuilt in modern times (S06). (S02, S06, S42, S01)
+- **Note:** Copper engraving no. 5 per S02. Engraving calls it 花园. Also 万花阵 (S06; S42). S06 89 x 59 m; walls 1.2 m high. S06 wall length 16 km looks wrong, check on plan. Rebuilt in modern times (S06). Round 6 replaced frontage 89 m. Round 6 replaced depth 59 m. (S02, S06, S42, S01)
 - **Plan reader's note:** Label reads 黄花燈 (黄花灯), the common old name of the maze 黄花阵; written south of the gate at (8879,993). Walled maze drawn with hedge lines. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8880, 688 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 73 × 0.6 m, eave 1.2 m, ridge 1.2 m
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 99 × 0.6 m, eave 1.2 m, ridge 1.2 m
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 51 × 0.6 m, eave 1.2 m, ridge 1.2 m
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 77 × 0.6 m, eave 1.2 m, ridge 1.2 m
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 29 × 0.6 m, eave 1.2 m, ridge 1.2 m
-- **2 ×:** maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it: 55 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 58.56 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 88.64 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 42.56 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 62.32 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 26.56 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 46.32 × 0.6 m, eave 1.2 m, ridge 1.2 m
 - **Confidence:** C, all assumed
 
 ## Inside it (2)
@@ -39,11 +39,19 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY04-01 中央亭
 - XY04-N01
 
-## Pictures (5)
+## Pictures (12)
 
 - **P0045** (sure): 花园正面 (圆明园铜版画册 / 西洋楼铜版画, plate 五 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-3.jpg
 
   ![P0045](../../photos/images/P0045.jpg)
+
+- **P0779** (sure): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
+
+- **P0733** (sure): 20020511082234 - 萬花陣 ( (Commons)). https://commons.wikimedia.org/wiki/File:20020511082234_-_%E8%90%AC%E8%8A%B1%E9%99%A3.jpg
+
+  ![P0733](../../photos/images/P0733.jpg)
 
 - **P0350** (sure): 迷宫中心的八角石亭 - panoramio.jpg (Taken on 27 May 2011 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E8%BF%B7%E5%AE%AB%E4%B8%AD%E5%BF%83%E7%9A%84%E5%85%AB%E8%A7%92%E7%9F%B3%E4%BA%AD_-_panoramio.jpg
 
@@ -57,12 +65,34 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0506](../../photos/images/P0506.jpg)
 
+- **P0734** (sure): Huanghuazhen (2005-04-23 (Commons)). https://commons.wikimedia.org/wiki/File:Huanghuazhen.jpg
+
+  ![P0734](../../photos/images/P0734.jpg)
+
+- **P0735** (sure): Huanghuazhen 2008 (2008-08-09 15:20:07 (Commons)). https://commons.wikimedia.org/wiki/File:Huanghuazhen_2008.jpg
+
+  ![P0735](../../photos/images/P0735.jpg)
+
+- **P0736** (sure): 圆明园西洋楼黄花阵 01 (2013-09-27 14:19:41 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E8%A5%BF%E6%B4%8B%E6%A5%BC%E9%BB%84%E8%8A%B1%E9%98%B5_01.JPG
+
+  ![P0736](../../photos/images/P0736.jpg)
+
+- **P0739** (sure): Xiyanglou Labyrinth 20130126 (2013-01-26 14:05:48 (Commons)). https://commons.wikimedia.org/wiki/File:Xiyanglou_Labyrinth_20130126.JPG
+
+  ![P0739](../../photos/images/P0739.jpg)
+
+- **P0783** (sure): Ball-finial pier north of 花园门 with the 黄花阵 pavilion (2012-11-06 (Commons)). https://commons.wikimedia.org/wiki/File:Beijing_2012_(8208664159).jpg
+
+  ![P0783](../../photos/images/P0783.jpg)
+
 - **P0507** (likely): Beijing 2012 (8208665925).jpg (2012-11-06 14:57 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Beijing_2012_(8208665925).jpg
 
   ![P0507](../../photos/images/P0507.jpg)
 
 
-## Texts and drawings (9)
+Of its halls: P0737 (XY04-01), P0738 (XY04-01).
+
+## Texts and drawings (10)
 
 - **E0943** (description, sure): Plate V: 黄花阵 Huanghua Zhen, the maze. 1786-1803 · pp.178-179, Plate V · S258. https://archive.org/details/BIUSante_40644
   > A-peu-près au centre du labyrinthe s'élève un édifice octogone établi sur un soubassement circulaire.
@@ -79,6 +109,8 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   The editors walk the strip from west to east with completion dates and plaques: 谐奇趣 1751, 养雀笼 1759, then the fountains and the perspective walls, with their mechanical details. They put the whole at about 2% of the gardens.
 - **E2137** (description, likely, search index only): 圆明园水利文物遗迹研究. n.d. · mhymy xsjl 6277, search-index text · S349. https://www.mhymy.com/xsjl/6277.html
   Inventory of water works: the 藻园 one-arch inlet, main source, now buried under the wall and undug; 黄花阵 inlet with good piers; 鉴碧亭 sluice, abandoned 2007; 狮子林 七孔闸, chief outlet, buried in the 2000s behind a new weir with only a stub showing; west water tower fed from a three-arch inlet.
+- **E2411** (drawing, sure): 黄花阵地基图样 (黄花阵平面图), 彩墨+黄签, 呈样. 不详 · 国家图书馆善本部 样337-146号 · S310. https://www.mhymy.com/dasl/ysltd/7939.html
+  A coloured presentation drawing with yellow slips of the maze. The page's free text gives block and wall figures in metres. Same item as E0945; now viewed and fuller.
 - **E0544** (drawing, sure, search index only): 西洋楼水法图. 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/7643.html
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
 - **E0945** (drawing, sure, search index only): 黄花阵平面图. 国家图书馆善本部 样337-146号 · S310. https://www.mhymy.com/dasl/ysltd/7939.html
@@ -115,6 +147,7 @@ Modern interpretation, not evidence.
 - Q16: 海晏堂's east half and the plan's working names
 - Q20: Name variants
 - Q58: Plans and their dates, from Round 5
+- Q66: 黄花阵: does the rebuilt maze keep the old line? (Round 6)
 
 <!-- generated:end -->
 

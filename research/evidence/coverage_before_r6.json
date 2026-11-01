@@ -1,0 +1,113 @@
+{
+ "_": "Round 6 baseline, from the picture catalogue at commit 3fa83a0. No picture was tied to a side, and no dimension figure carried a method, so those were zero. tools/check_evidence.py compares with it.",
+ "commit": "3fa83a0",
+ "pictures": {
+  "XY01": {
+   "pictures": 35,
+   "free": 28,
+   "engravings": 4,
+   "photos": 31,
+   "old_photos": 20
+  },
+  "XY02": {
+   "pictures": 5,
+   "free": 5,
+   "engravings": 2,
+   "photos": 3,
+   "old_photos": 3
+  },
+  "XY03": {
+   "pictures": 4,
+   "free": 2,
+   "engravings": 1,
+   "photos": 3,
+   "old_photos": 3
+  },
+  "XY04": {
+   "pictures": 5,
+   "free": 5,
+   "engravings": 1,
+   "photos": 4,
+   "old_photos": 0
+  },
+  "XY05": {
+   "pictures": 11,
+   "free": 9,
+   "engravings": 2,
+   "photos": 9,
+   "old_photos": 7
+  },
+  "XY06": {
+   "pictures": 11,
+   "free": 8,
+   "engravings": 1,
+   "photos": 10,
+   "old_photos": 7
+  },
+  "XY07": {
+   "pictures": 1,
+   "free": 1,
+   "engravings": 1,
+   "photos": 0,
+   "old_photos": 0
+  },
+  "XY08": {
+   "pictures": 26,
+   "free": 16,
+   "engravings": 6,
+   "photos": 20,
+   "old_photos": 12
+  },
+  "XY09": {
+   "pictures": 23,
+   "free": 16,
+   "engravings": 1,
+   "photos": 22,
+   "old_photos": 18
+  },
+  "XY10": {
+   "pictures": 14,
+   "free": 11,
+   "engravings": 2,
+   "photos": 12,
+   "old_photos": 7
+  },
+  "XY11": {
+   "pictures": 10,
+   "free": 9,
+   "engravings": 1,
+   "photos": 9,
+   "old_photos": 6
+  },
+  "XY12": {
+   "pictures": 8,
+   "free": 5,
+   "engravings": 3,
+   "photos": 5,
+   "old_photos": 2
+  },
+  "XY13": {
+   "pictures": 3,
+   "free": 1,
+   "engravings": 1,
+   "photos": 2,
+   "old_photos": 2
+  },
+  "XY14": {
+   "pictures": 3,
+   "free": 3,
+   "engravings": 1,
+   "photos": 2,
+   "old_photos": 1
+  },
+  "XY15": {
+   "pictures": 1,
+   "free": 1,
+   "engravings": 1,
+   "photos": 0,
+   "old_photos": 0
+  }
+ },
+ "tied_to_a_side": 0,
+ "figures_with_method": 0
+}

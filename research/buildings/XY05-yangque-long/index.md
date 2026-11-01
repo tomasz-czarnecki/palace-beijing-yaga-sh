@@ -13,24 +13,24 @@ Yang Ch'iao Lung, Bird Cage · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S56, S01, S258)
 - **Type:** european (S02, S06, S56, S01, S258 · confidence A)
 - **Destroyed:** Burnt 1860; ruin torn down about 1924 (S02 p.146) (S02, S06, S56, S01, S258)
-- **Position:** 40.01182, 116.30297. S01 likely (S01 · confidence B)
+- **Position:** 40.01170, 116.30288. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
 - **Bays:** 5 (S06) in the texts / 3x1 on the plan (S02, S06, S56, S01, S258)
-- **Size in the inventory:** 20.0 × 10.0 m. typology xiyang_lou, C (S01)
+- **Size in the inventory:** 13.9 × 11.6 m. stated: S01;S850;S71;S02, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** faced westward on the court behind Number Two (S02 p.147) (S02, S06, S56, S01, S258) *(research copy, not public)*
-- **Note:** Copper engraving no. 6-7 per S02. 五间三进 (S06). Peacocks until Jiaqing, per Lu (S02). Oil painting by Castiglione on a wall (S06 lead). Pond before the west front with a model European ship, as if foundering, per plate VI (S258, p.179). (S02, S06, S56, S01, S258)
+- **Note:** Copper engraving no. 6-7 per S02. 五间三进 (S06). Peacocks until Jiaqing, per Lu (S02). Oil painting by Castiglione on a wall (S06 lead). Pond before the west front with a model European ship, as if foundering, per plate VI (S258, p.179). Round 6 replaced frontage 20.0 m. Round 6 replaced depth 10.0 m. (S02, S06, S56, S01, S258)
 - **Plan reader's note:** Stepped 3-part block astride the N-S wall at x=9088, with 8 small topiary marks to its west: matches Malone: faced west on the court, path led through it to the east. Not boxed. | plan: rect=67,21,-90 for the N-S range x 9066-9087, y 1068-1135. Plus centre projection rect=55,23,0 at (9067,1103) (x 9040-9095, y 1092-1115). Text 5 bays; plan shows 3 parts. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9068, 1101 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **Box:** 20 × 10 m, european
-- **Part:** gate-like block
-- **Heights:** platform 0.5 m, eave 6 m, ridge 8 m above the ground
+- **Box:** 13.9 × 11.6 m, european
+- **Part:** gate block, three gates to the west, a European arch to the east
+- **Heights:** platform 0.5 m, eave 6.2 m, ridge 8.5 m above the ground
 - **Roof:** hip 庑殿, glazed tile
-- **Faces:** 272° from north
+- **Faces:** 263.8° from north
 - **Confidence:** C, assumed
 
 ## Inside it (2)
@@ -38,7 +38,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY05-AX002
 - XY05-N01 small walled court north of 养雀笼
 
-## Pictures (11)
+## Pictures (12)
 
 - **P0046** (sure): 养雀笼西面 (圆明园铜版画册 / 西洋楼铜版画, plate 六 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-4.jpg
 
@@ -47,6 +47,10 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **P0047** (sure): 养雀笼东面 (圆明园铜版画册 / 西洋楼铜版画, plate 七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-5.jpg
 
   ![P0047](../../photos/images/P0047.jpg)
+
+- **P0779** (likely): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
 
 - **P0168** (sure): Europäisches Thor in Yüanmingyüan (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AEurop%C3%A4isches_Thor_in_Y%C3%BCanmingy%C3%BCan.jpg
 
@@ -64,10 +68,6 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0192](../../photos/images/P0192.jpg)
 
-- **P0174** (likely): Gezicht op de ruïnes van een deel van het Zomerpaleis, Gezicht op een water bij Peking, Gezicht op de weg naar het Zomerpaleis en Gezicht op een deel van het Zomerpaleis (ca. 1892, in or before 1897 (Commons, Rijksmuseum)). https://commons.wikimedia.org/wiki/File%3AGezicht_op_de_ru%C3%AFnes_van_een_deel_van_het_Zomerpaleis%2C_Gezicht_op_een_water_bij_Peking%2C_Gezicht_op_de_weg_naar_het_Zomerpaleis_en_Gezicht_op_een_deel_van_het_Zomerpaleis%2C_RP-F-2001-7-1126-26.jpg
-
-  ![P0174](../../photos/images/P0174.jpg)
-
 - **P0210** (sure): Sirén, Enligt text under Pl. 189a Kinas trädgårdar  Vol. I: Yuanmingyuan. Yangqiaolong, ”Rum för uppfödande av fåglar”, d. v. s. volièren. Bild efter gravyr av år 1786. (undated by holder; Sirén's second trip 1921-23 for this group). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198821 Research-only: link card.
 
   ![P0210](../../raw/photos/P0210.jpg)
@@ -76,6 +76,10 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **P0352** (sure): Ruins of Yangquelong 20130126.JPG (2013-01-26 13:58:24 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Ruins_of_Yangquelong_20130126.JPG
 
   ![P0352](../../photos/images/P0352.jpg)
+
+- **P0740** (sure): Yangquelong (2005-04-23 (Commons)). https://commons.wikimedia.org/wiki/File:Yangquelong.jpg
+
+  ![P0740](../../photos/images/P0740.jpg)
 
 - **P0353** (likely): Yangquelong 2008-1.jpg (2008-08-09 15:54:16 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Yangquelong_2008-1.jpg
 
@@ -121,6 +125,7 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q32: OSM errors
+- Q64: The plan's scale and turn in this strip (Round 6)
 
 <!-- generated:end -->
 

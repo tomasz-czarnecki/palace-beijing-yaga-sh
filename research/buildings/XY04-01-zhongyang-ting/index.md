@@ -14,27 +14,55 @@ Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S01)
 - **Type:** pavilion (S02, S06, S01 · confidence B)
 - **Destroyed:** 1860 (S02, S06, S01)
-- **Position:** 40.01260, 116.30240. S01 likely (S01 · confidence B)
-- **Size in the inventory:** 8.6 × 10.9 m. S01 plan px / hall scale (S01)
+- **Position:** 40.01235, 116.30227. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
+- **Size in the inventory:** 7.7 × 7.7 m. stated: S71;S109, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** center ... octagonal pavilion (S02 p.145) (S02, S06, S01) *(research copy, not public)*
-- **Note:** Old caretaker Lu: mechanical birds (hearsay). 2-storey building at the back (S02). (S02, S06, S01)
+- **Note:** Old caretaker Lu: mechanical birds (hearsay). 2-storey building at the back (S02). Round 6 replaced frontage 8.6 m. Round 6 replaced depth 10.9 m. (S02, S06, S01)
 - **Plan reader's note:** rect=36,36,0. Octagon inside a ring base of outer diameter ~100, with stair south at (8877,745). Malone: octagonal pavilion. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8880, 688 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** round stair base: 20 × 20 m, eave 1 m, ridge 1 m
-- **1 ×:** central pavilion, timber with a glazed roof (S109): 10 × 10 m, eave 3.5 m, ridge 7 m
+- **1 ×:** round stair base: 21 × 21 m, eave 1 m, ridge 1 m
+- **1 ×:** central pavilion, timber with a glazed roof: 7.7 × 7.7 m, eave 3.5 m, ridge 7 m
 - **Confidence:** C, all assumed
 
-## Pictures (1)
+## Pictures (8)
 
 - **P0045** (sure): 花园正面 (圆明园铜版画册 / 西洋楼铜版画, plate 五 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-3.jpg
 
   ![P0045](../../photos/images/P0045.jpg)
+
+- **P0733** (sure): 20020511082234 - 萬花陣 ( (Commons)). https://commons.wikimedia.org/wiki/File:20020511082234_-_%E8%90%AC%E8%8A%B1%E9%99%A3.jpg
+
+  ![P0733](../../photos/images/P0733.jpg)
+
+- **P0734** (sure): Huanghuazhen (2005-04-23 (Commons)). https://commons.wikimedia.org/wiki/File:Huanghuazhen.jpg
+
+  ![P0734](../../photos/images/P0734.jpg)
+
+- **P0736** (sure): 圆明园西洋楼黄花阵 01 (2013-09-27 14:19:41 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E8%A5%BF%E6%B4%8B%E6%A5%BC%E9%BB%84%E8%8A%B1%E9%98%B5_01.JPG
+
+  ![P0736](../../photos/images/P0736.jpg)
+
+- **P0737** (sure): 圆明园西洋楼黄花阵 02 (2013-09-27 14:23:01 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E8%A5%BF%E6%B4%8B%E6%A5%BC%E9%BB%84%E8%8A%B1%E9%98%B5_02.JPG
+
+  ![P0737](../../photos/images/P0737.jpg)
+
+- **P0738** (sure): 圆明园西洋楼黄花阵 04 (2013-09-27 14:23:36 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E8%A5%BF%E6%B4%8B%E6%A5%BC%E9%BB%84%E8%8A%B1%E9%98%B5_04.JPG
+
+  ![P0738](../../photos/images/P0738.jpg)
+
+- **P0739** (sure): Xiyanglou Labyrinth 20130126 (2013-01-26 14:05:48 (Commons)). https://commons.wikimedia.org/wiki/File:Xiyanglou_Labyrinth_20130126.JPG
+
+  ![P0739](../../photos/images/P0739.jpg)
+
+- **P0783** (sure): Ball-finial pier north of 花园门 with the 黄花阵 pavilion (2012-11-06 (Commons)). https://commons.wikimedia.org/wiki/File:Beijing_2012_(8208664159).jpg
+
+  ![P0783](../../photos/images/P0783.jpg)
 
 
 ## Texts and drawings (2)

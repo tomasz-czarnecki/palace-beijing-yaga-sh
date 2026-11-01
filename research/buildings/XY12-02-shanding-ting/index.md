@@ -16,19 +16,19 @@ Xiyang Lou
 - **Destroyed:** 1860 (S02, S06, S01)
 - **Position:** 40.01221, 116.30817. S01 likely (S01 · confidence B)
 - **Bays:** 1x1 on the plan (S02, S06, S01)
-- **Size in the inventory:** 9.6 × 12.1 m. S01 plan px / hall scale (S01)
+- **Size in the inventory:** 6.9 × 6.9 m. stated: S01;S71, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** hilltop (S02 p.159) (S02, S06, S01) *(research copy, not public)*
-- **Note:** S06 八角四券石亭. (S02, S06, S01)
+- **Note:** S06 八角四券石亭. Round 6 replaced frontage 9.6 m. Round 6 replaced depth 12.1 m. (S02, S06, S01)
 - **Plan reader's note:** rect=40,40,0. Innermost ring; pavilion not drawn as a building. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 11184, 1121 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **Box:** 7.5 × 7.5 m, european, octagon
-- **Part:** small octagon on top
+- **Box:** 6.9 × 6.9 m, european, octagon
+- **Part:** hilltop pavilion
 - **Faces:** 173.5° from north
 - **Confidence:** C, assumed
 

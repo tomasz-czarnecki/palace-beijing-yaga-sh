@@ -4,7 +4,7 @@
 
 Ta Shui Fa, the Great Fountains · Xiyang Lou
 
-**3D object:** 2 boxes. Open it: `/reconstruction/3d.html?b=XY10`
+**3D object:** 3 boxes. Open it: `/reconstruction/3d.html?b=XY10`
 
 ## What we know
 
@@ -14,38 +14,47 @@ Ta Shui Fa, the Great Fountains · Xiyang Lou
 - **Type:** european (S02, S06, S56, S01, S109, S201 · confidence A)
 - **Built:** After the Portuguese embassy of 乾隆十八年 (1753), per Qianlong's note, built by 郎世寧 Castiglione (S02, S06, S56, S01, S109, S201)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01, S109, S201)
-- **Position:** 40.01222, 116.30658. S01 likely (S01 · confidence B)
-- **Size in the inventory:** 20.0 × 3.0 m. typology xiyang_lou, C (S01)
+- **Position:** 40.01221, 116.30660. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
+- **Size in the inventory:** 21.2 × 4.4 m. stated: S01;S850;S71, research/xiyanglou/boxes.csv (S01)
 - **Lead on its size, from a modern study, not used in the model:** Water-buffet area 110 x 60 m, level drop 1.30 m at the banks, hedges about 2.50 m; composition of the rockwork and throne about 50 m long; twin basins 18 m in diameter, 62 m between centres (S603, p. 127). (confidence B)
 - **Where the text puts it:** 远瀛观前平台之南 (S06) (S02, S06, S56, S01, S109, S201) *(research copy, not public)*
-- **Note:** Copper engraving no. 15 per S02. Tall pyramids and animal figures (S02 p.156). S06 10 hounds and a stag. (S02, S06, S56, S01, S109, S201)
+- **Note:** Copper engraving no. 15 per S02. Tall pyramids and animal figures (S02 p.156). S06 10 hounds and a stag. Round 6 replaced frontage 20.0 m. Round 6 replaced depth 3.0 m. (S02, S06, S56, S01, S109, S201)
 - **Plan reader's note:** Shell-shaped basin with small figures + arc behind + two round pools with square bases (the two pyramid fountains of engraving 15). Identified by Malone/engraving. | plan: rect=139,100,0. Shell-shaped basin x 10493-10632, y 996-1096 with about 9 small figures and centre rect (10562,1037). Arc behind it x 10511-10611, y 968-989. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 10562, 1046 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** pool: 29 × 19 m, eave 0.5 m, ridge 0.5 m
-- **1 ×:** niche wall: 20 × 3 m, eave 9 m, ridge 9 m
-- **Confidence:** C, all assumed
+- **1 ×:** sunken fountain area, 1.30 m below the gardens (not cut into the ground here): 110 × 60 m, eave 0.3 m, ridge 0.3 m
+- **1 ×:** shell pool: 29 × 19 m, eave 0.5 m, ridge 0.5 m
+- **1 ×:** niche building: 21.2 × 4.4 m, eave 14.3 m, ridge 14.3 m
+- **Confidence:** B and C, some assumed
 
 ## Inside it (2)
 
 - XY10-N01
 - XY10-N02
 
-## Pictures (14)
+## Pictures (25)
 
 - **P0055** (sure): 大水法正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十五 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-12.jpg
 
   ![P0055](../../photos/images/P0055.jpg)
 
 - **P0222** (sure): Xiyang Lou plates, Getty set: The European Pavilions at the Garden of Perfect Clarity (1783-1786 (Getty)). https://www.getty.edu/art/exhibitions/china_paper/ Research-only: link card.
+- **P0779** (sure): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
+
 - **P0169** (sure): Hauptgebäude im Renaissancestil (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AHauptgeb%C3%A4ude_im_Renaissancestil.jpg
 
   ![P0169](../../photos/images/P0169.jpg)
+
+- **P0214** (sure): Enligt text under Pl. 191b Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198826
+
+  ![P0214](../../photos/images/P0214.jpg)
 
 - **P0288** (sure): Ruins of Yuanmingyuan, Old Summer Palace (undated by holder (Sirén set, 1921-23 per the other prints)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199686
 
@@ -55,15 +64,35 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0292](../../photos/images/P0292.jpg)
 
-- **P0214** (likely): Enligt text under Pl. 191b Kinas trädgårdar Vol. I: Yuanmingyuan. Yuanyingguan, ”Utblick över Fjärran Vatten”. Bild efter fotografi 1922. (1922 (holder caption)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198826
+- **P0761** (sure): 大水法遗址 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%B0%B4%E6%B3%95%E9%81%97%E5%9D%80_-_panoramio.jpg
 
-  ![P0214](../../photos/images/P0214.jpg)
+  ![P0761](../../photos/images/P0761.jpg)
+
+- **P0776** (sure): 大水法正面 (第十二圖) (1873 (S770; dated by S89); Teng Gu says only that Ohlmer took them 1867-1879, about sixty years before). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0776](../../photos/images/P0776.jpg)
+
+- **P0293** (likely): Fotografija Ruševine – panoramski pogled z vzhoda v Stari poletni palači (album: "Yüen-Ming-Yüen: Total-Ansicht vom Osten") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-panoramski-pogled-z-vzhoda-v-stari-poletni-palaci/
+
+  ![P0293](../../photos/images/P0293.jpg)
+
+- **P0758** (likely): 远瀛观遗址 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E8%BF%9C%E7%80%9B%E8%A7%82%E9%81%97%E5%9D%80_-_panoramio.jpg
+
+  ![P0758](../../photos/images/P0758.jpg)
 
 - **P0215** (sure): Sirén, Enligt text under Pl. 192a Kinas trädgårdar Vol. I: Yuanmingyuan. Dashuifa ”De Stora Springvattnen”. Bild efter gravyr år 1786. (undated by holder; Sirén's second trip 1921-23 for this group). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/198827 Research-only: link card.
 
   ![P0215](../../raw/photos/P0215.jpg)
 
 - **P0310** (sure): Sirén: Yuanmingyuan (Old summer palace): Ruins. (undated; Sirén 1921-23). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199632 Research-only: link card.
+- **P0723** (sure): Dashuifa (Great Fountain) (S770 caption), Ohlmer negative K (1873 (S770; dated by S89)). https://visualizingcultures.mit.edu/garden_perfect_brightness_03/ymy303/e503.htm Research-only: link card.
+
+  ![P0723](../../raw/photos/P0723.jpg)
+
+- **P0778** (sure): 晚近之大水法 (第十三圖) ('near today', a few years before the preface of July 1932, sent from Beiping by 周纘武 (Teng Gu)). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu Research-only: link card.
+
+  ![P0778](../../raw/photos/P0778.jpg)
+
 - **P0338** (sure): Yuanmingyuan Ruins of Dashuifa and Yuanyingguan 20120715.jpg (2012-07-15 12:57:04 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Ruins_of_Dashuifa_and_Yuanyingguan_20120715.jpg
 
   ![P0338](../../photos/images/P0338.jpg)
@@ -84,16 +113,34 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0641](../../photos/images/P0641.jpg)
 
-- **P0293** (guess): Fotografija Ruševine – panoramski pogled z vzhoda v Stari poletni palači (album: "Yüen-Ming-Yüen: Total-Ansicht vom Osten") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-panoramski-pogled-z-vzhoda-v-stari-poletni-palaci/
+- **P0759** (sure): Dashuifa ruins (2014-03-31 15:55:46 (Commons)). https://commons.wikimedia.org/wiki/File:Dashuifa_ruins.jpg
 
-  ![P0293](../../photos/images/P0293.jpg)
+  ![P0759](../../photos/images/P0759.jpg)
+
+- **P0760** (sure): Dashuifa, Old Summer Palace (2021-02-17 17:03:02 (Commons)). https://commons.wikimedia.org/wiki/File:Dashuifa,_Old_Summer_Palace.jpg
+
+  ![P0760](../../photos/images/P0760.jpg)
+
+- **P0762** (sure): Yuanmingyuan (9865225085) (2007-06-23 10:59 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_(9865225085).jpg
+
+  ![P0762](../../photos/images/P0762.jpg)
+
+- **P0763** (sure): Yuanmingyuan Ruins of Dashuifa (20240708) (2024-07-08 10:00:12 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Ruins_of_Dashuifa_(20240708).jpg
+
+  ![P0763](../../photos/images/P0763.jpg)
+
+- **P0780** (likely): 远瀛观 standing columns from the north side (2007-06-23 (Commons)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_(9865480493).jpg
+
+  ![P0780](../../photos/images/P0780.jpg)
 
 
-## Texts and drawings (11)
+## Texts and drawings (16)
 
 - **E0185** (poem, sure): 御製 題澤蘭堂. 1795 (御製詩五集) · KR4f0005_486:3a · S201. https://github.com/kanripo/KR4f0005/blob/master/KR4f0005_486.txt
   > 題澤蘭堂 書堂號澤蘭樸斵謝青丹芸帙堪永日藤窻避薄寒蕪情報韶意水法列竒觀（堂北為西洋水法處盖縁乾隆十八年西洋博爾都噶里雅國）（來京朝貢聞彼處以水法為竒觀因念中國地大物博水法不過工巧之一端遂命住京之西洋人郎世寧造）（為此法俾來使至此瞻仰前嵗□咭唎國使臣等至京朝貢亦令閲看深為歎服昨冬廣東督臣長麟撫臣朱）（珪奏荷蘭國使臣嘚□等以今嵗為朕御極六十年大慶懇請来京朝賀鑒其數萬里外慕化悃誠因允其請）（已即於臈月到京新正並與朝賀宴賞節間令於是處觀看水法使知朕所嘉者逺人嚮化之誠若其任土作）（貢則中國之大何竒不有初不以為貴也）洋使賀正至逺瀛合俾看
   The one imperial statement found on the European water works. Qianlong's note says the 西洋水法 stands north of 澤蘭堂; after a Portuguese embassy of 乾隆十八年 (1753) he had 郎世寧 Castiglione build it to show envoys; British envoys saw it in the 1790s, and the Dutch envoys at New Year 1795 were to see it. He adds that what he values is their coming, not their marvels.
+- **E2433** (text, sure): Test of the claim that the fountains stopped when Benoist died in 1774. 2018 on archives of 1763-1795 · p.2414; with S258 pp.165-169, S02 p.154, E0928, E0929, E0965, E0185 · S600. https://www.jstage.jst.go.jp/article/aija/83/754/83_2409/_article
+  Result: the common form of the claim is wrong in two ways. (1) The machines failed before Benoist died: the wheel broke in 1763 and windlasses replaced it. (2) The fountains did not stop: reports of 1786 and 1789 have men filling the reservoir a day or two before a visit so that the water could play for the emperor (Bourgeois); wicker buckets from the river (Amiot); pipes repaired 1794, Dutch envoys meant to see the 水法 in early 1795 (E0185); machines scrapped 1795, but 嘉庆's poems of 1796-98 still mention water sent by machine: poetry, weak. Holding: after 1763 or so the fountains ran on occasion with stored water, carried by labour.
 - **E0965** (poem, likely): 远瀛观: 嘉庆三年 poem of the Jiaqing Emperor. 嘉庆三年 (1798), date from the compilation · p.295 item (1), under 远瀛观 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=295
   > 引机运水石池注，溅玉喷珠万斛雄。敬识圣皇声教广，流沙西海尽同风。
   Jiaqing, 1798: machine-raised water fills a stone basin, with jets of spray: a dated witness that the fountains worked.
@@ -103,16 +150,24 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - **E0983** (description, sure): Engraving 15: 大水法 Da Shuifa. 1934 · pp.156-157 · S02. https://archive.org/details/historyofpekings00malo
   > On the right and left stood excessively tall pyramidal fountains surrounded by numerous small jets.
   Two tall pyramids with small jets; a pool in the middle where jets played on animals, birds and fish, before the carved terrace of 远瀛观. Plate p.156: ruins in 1924.
+- **E2409** (description, sure): Detail gain, 3 plates against the catalogue thumbs. crops cmp08, cmp12, cmp15, cmp01 in palace_r6_tmp_plates · S71;S73;S700. 
+  Same regions at 900 px. Plate 8 (P0048): window lattice, shading hatch and baluster ornament resolve, thumb showed them as texture. Plate 12 (P0052): door panel pattern and urn outlines clear. Plate 15 (P0055): water drops and fountain tiers separate, thumb mashes them. Original is 2.6 times wider than the thumb. Plate 1 Chester Beatty against Palace Museum: 2.7 times wider again and far darker: roof tile, hatch and capitals sharp.
 - **E0460** (description, guess): Notice on Benoist: the first fountain. 1775 · p.414 · S257. https://archive.org/details/lettresdifiantes24jesu_0
   > La machine hydraulique & le premier jet-d'eau ne furent finis qu'à la fin de l'automne.
   French text behind S02 p.139. Autumn of 1747 or just after. Which building is not stated.
 - **E0491** (description, guess): Xiyang Lou: origin, 1747. 1934 · pp.139-140 · S02. https://archive.org/details/historyofpekings00malo
   > The hydraulic machine and the first fountain were finished at the end of autumn.
   From the 1775 life of Benoist in Lettres édifiantes vol. xxiv: Qianlong saw a picture of a fountain in 1747, Benoist made a model, and the emperor resolved to build a European palace. Castiglione drew the plans with Benoist; Benoist designed the fountains and the "water castles" and trained the workmen. He worked on fountains for about twelve years. Which fountain came first is not stated.
+- **E2421** (description, likely): Written then-and-now captions on Morrison photographs. 2026-08-06 · article, captions 1-9 · S775. https://www.163.com/dy/article/L3KN3VCD05527FJF.html
+  Compares about nine 1930s photographs with today in words, not with new pictures. Claims the single-arch gate remnant on the south of 海晏堂 stood in the Republican years and has now collapsed, and the two arch frames at 远瀛观 have mostly fallen. Unverified user writing.
 - **E0507** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 西洋楼. 2020 edition · v4 p.120 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=123
   The editors walk the strip from west to east with completion dates and plaques: 谐奇趣 1751, 养雀笼 1759, then the fountains and the perspective walls, with their mechanical details. They put the whole at about 2% of the gardens.
 - **E0544** (drawing, sure, search index only): 西洋楼水法图. 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/7643.html
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
+- **E2440** (plan, sure): Teng Gu's preface on the photographs and plan. 1932-07 (preface), 1933 (book) · pp.3-5 of the preface, djvu pages 5-7 · S871. https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+  Teng Gu says the photographs and the plan belonged to Ernst Boerschmann and were taken and drawn by Ohlmer, a customs official in Tianjin who lived in Beijing 1867-1879 and whose collection went to the Hildesheim museum. He argues they are earlier than those in Favier's Péking (1897), Combaz 1909, Perzynski 1920 and Münsterberg 1912, naming pages he compared. Fig. 13 is a recent photograph by Zhou Zuanwu; fig. 15 is copied from Favier p.264.
+- **E2419** (plan, sure): Three plans by Antoine Durand: 1984 from Jin Xun at 1/500 inside Adam's 1/10000; 1985 from a survey of the whole site; 1987 fountain area from 128 surveyed points with a manual survey of all surface parts. 1984-87 · pp.125-129, Figs 4, 5, 9, 12, 16 · S603. https://www.persee.fr/doc/arasi_0004-3958_1988_num_43_1_1240
+  The only published method statement for an on-site survey of the whole strip. Only excavation could fix the east fence of the gardens and the east edge of the basin. The west edge of the 线法山 gate and the ramp fix the geometry. See R0139-R0143. Plans without a printed scale in the copy I read.
 - **E1086** (plan, likely, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
 - **E0950** (archaeology, sure): 圆明园遗址考古今年推进至大水法, 浙江在线. 2016-06-12 · news, 金和天 · S141. https://china.zjol.com.cn/gnxw/201606/t20160612_1619014.shtml

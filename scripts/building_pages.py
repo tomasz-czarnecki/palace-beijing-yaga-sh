@@ -2,7 +2,7 @@
 
   uv run python scripts/building_pages.py        (after boxes1860.py)
 
-Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/reconstructions/catalog.csv, research/twins/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson. Writes:
+Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/reconstructions/catalog.csv, research/twins/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson, research/xiyanglou/views.csv and research/xiyanglou/<ID>-<slug>/dimensions.json (Xiyang Lou objects only: pictures by side, the Dimensions block, the link to the dossier). Writes:
   research/buildings/<ID>-<slug>/index.md        every row of buildings.csv and every gate. The block between the markers is rewritten; `## Notes` below it is hand-written and never touched
   research/buildings/README.md                   the list of all of them
   site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, the box, the evidence. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted). GARDEN-YM.json etc. hold what speaks for a whole garden, CLASS-grand_hall.json etc. the comparables for a class of hall
@@ -33,9 +33,10 @@ END = "<!-- generated:end -->"
 NOTES_HINT = "<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->"
 PRIVATE_LINE = "%% private %%"
 # What may stand in a public file. Anything else stops the script.
-PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources"}
+PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources", "dimensions", "dossier"}
+PUBLIC_DIMENSION_KEYS = {"id", "part", "what", "label", "value", "err", "unit", "method", "confidence", "source", "locator", "snippet", "key"}
 PUBLIC_FACT_KEYS = {"label", "value", "sources", "confidence"}
-PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "group", "conf", "why", "licence", "attribution", "also_shows", "camera_note", "image", "thumb", "link_only", "of"}
+PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "group", "conf", "why", "licence", "attribution", "also_shows", "camera_note", "image", "thumb", "link_only", "of", "side_group", "visible", "reliability"}
 PUBLIC_RECON_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "era", "conf", "why", "caveat", "status", "licence", "attribution", "image", "thumb", "link_only"}
 PUBLIC_TWIN_KEYS = {"id", "name", "place", "relation", "standing", "confidence", "tells", "basis", "link", "status", "photos"}
 PUBLIC_EVIDENCE_KEYS = {"id", "kind", "source_id", "title", "date", "locator", "link", "rights_class", "status", "conf", "excerpt_zh", "excerpt_other", "summary"}
@@ -62,13 +63,25 @@ md = MarkdownIt("commonmark", {"html": False}).disable("image")  # raw HTML come
 BASIS_LINE = {
     "plan": "A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.",
     "stated": "A plain box at a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated.",
-    "xiyang": "Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.",
+    "xiyang": "Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.",
     "layout": "Assumed: the plan shows this compound's place and no single hall, so a few boxes are laid out from the typology. Confidence C.",
     "default": "Assumed: a position is known and no block is drawn, so a small default box stands there. Confidence C.",
     "gate": "Assumed: a gate on the walls layer with no hall drawn at its point, so a small default box stands there. Confidence C.",
 }
+XY = ROOT / "research/xiyanglou"
+XY_SIDE = {"S": "South façade", "N": "North façade", "E": "East façade", "W": "West façade", "roof": "Roof and fountains", "fountain": "Roof and fountains", "aerial": "Plans and views from above", "detail": "Details and fragments", "fragment": "Details and fragments"}
+XY_FRONT = {"XY02": "E", "XY05": "W", "XY08": "W", "XY12": "W", "XY13": "W", "XY15": "W", "XY07": "N", "XY11": "N", "XY03": "N"}  # the side of the first plate comes first
 ROOF_WORD = {"hip_gable": "hip-and-gable 歇山", "hip": "hip 庑殿", "gable": "gable 硬山 or 悬山", "pyramid": "pyramid 攒尖"}
-SHAPE_WORD = {"terrace": "terrace", "wall": "wall", "pool": "pool", "octagon": "octagon"}
+SHAPE_WORD = {"terrace": "terrace", "wall": "wall", "pool": "pool", "octagon": "octagon", "court": "sunken court", "basin": "round basin"}
+
+
+def xy_group(view):
+    """Which heading a Xiyang Lou picture stands under in the panel."""
+    if not view:
+        return "Other pictures"
+    if view["state"] == "today":
+        return "Ruins today"
+    return XY_SIDE.get(view["side"], "Other pictures")
 
 
 def era_group(p):
@@ -193,6 +206,11 @@ class Book:
                 self.recons.setdefault(pid, []).append((r, conf))
         for t in rd("research/twins/catalog.csv"):
             self.twins.setdefault(t["object_id"].replace(":", "-"), []).append(t)
+        self.xy_views = {(v["photo_id"], v["id"]): v for v in rd("research/xiyanglou/views.csv")}
+        self.xy_sheets = {}
+        for sheet in XY.glob("XY*/dimensions.json"):
+            data = json.load(open(sheet, encoding="utf-8"))
+            self.xy_sheets[data["id"]] = data
         self.tops = [r for r in self.rows.values() if not r["parent_id"] and not r["id"].startswith("Z-") and r["lat"]]
         self.gate_garden = {g: self.nearest(*reversed(f["geometry"]["coordinates"]), [])[0]["garden"] for g, f in self.gates.items()}
 
@@ -685,7 +703,7 @@ def fallback_heading(f, page):
 
 def panel_page(book, page, hand, public):
     out = {k: page[k] for k in ("id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "questions", "evidence", "searched")}
-    out["photos"] = [photo_entry(p, c, public) for p, c in page["photos_rows"]]
+    out["photos"] = xy_photos(book, page, public) if page["id"].startswith("XY") else [photo_entry(p, c, public) for p, c in page["photos_rows"]]
     out["reconstructions"] = [recon_entry(r, c, public) for r, c in page["recon_rows"]]
     out["twins"] = [twin_entry(book, t, public) for t in page["twin_rows"]]
     out["photos_inside"] = [photo_entry(p, c, public, of=[o, book.short(o)]) for p, c, o in page["inside_rows"]]
@@ -701,14 +719,53 @@ def panel_page(book, page, hand, public):
     if page["kind"] not in ("garden", "class"):  # those two are fetched for every plain hall: the rows carry their own links
         used |= {s for r, _ in page["recon_rows"] for s in split_ids(r["source_id"]) if s in book.sources}
     out["sources"] = sources_of(book, used)
+    xy_extras(book, page, out)
     if public:
         assert_public(out)
     return out
 
 
+def xy_view(book, photo_id, pid):
+    return book.xy_views.get((photo_id, pid)) or book.xy_views.get((photo_id, pid.split("-")[0]))
+
+
+def xy_photos(book, page, public):
+    """Pictures by side: the front's first, the other sides, roof and fountains, details, then the ruins today. Inside each heading the engraving first."""
+    pid, top = page["id"], page["id"].split("-")[0]
+    front = XY_SIDE[XY_FRONT.get(top, "S")]
+    rank = {"South façade": 1, "North façade": 2, "East façade": 3, "West façade": 4, "Roof and fountains": 5, "Plans and views from above": 6, "Details and fragments": 7, "Other pictures": 8, "Ruins today": 9, front: 0}
+    out = []
+    for p, conf in page["photos_rows"]:
+        view = xy_view(book, p["photo_id"], pid)
+        entry = photo_entry(p, conf, public)
+        entry["side_group"] = xy_group(view)
+        if view:
+            entry["visible"], entry["reliability"] = view["visible_part"], view["reliability"]
+        out.append(entry)
+    state = {"high": 0, "medium": 1, "low": 2}
+    out.sort(key=lambda e: (rank[e["side_group"]], e["conf"] == "guess", e["kind"] != "engraving", state.get(e.get("reliability"), 3), e["id"]))
+    return out
+
+
+def xy_extras(book, page, out):
+    """A Xiyang Lou page: its figures, and the way to the dossier."""
+    pid = page["id"]
+    if pid == "GARDEN-XY":
+        out["dossier"] = {"href": "../xiyanglou/", "label": "Read the full Xiyang Lou dossier"}
+    if not pid.startswith("XY"):
+        return
+    top = pid.split("-")[0]
+    out["dossier"] = {"href": f"../xiyanglou/#{top}", "label": "Read the full Xiyang Lou dossier"}
+    sheet = book.xy_sheets.get(top)
+    if sheet:
+        out["dimensions"] = sheet["figures"] if pid == top else [d for d in sheet["figures"] if d["id"] == pid]
+
+
 def assert_public(page):
     pid = page["id"]
     assert set(page) <= PUBLIC_KEYS, (pid, set(page) - PUBLIC_KEYS)
+    for d in page.get("dimensions", []):
+        assert set(d) == PUBLIC_DIMENSION_KEYS, (pid, d)
     for f in page["facts"]:
         assert set(f) == PUBLIC_FACT_KEYS, (pid, f)
     for p in page["photos"] + page.get("photos_inside", []):

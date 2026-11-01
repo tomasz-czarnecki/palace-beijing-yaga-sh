@@ -1,0 +1,311 @@
+photo_id,id,side,visible_part,state,reliability,camera_lat,camera_lon,bearing,camera_note,note
+P0041,XY01,S,"whole south composition: main block with central curved stair, both colonnades, both octagons, basin; title 谐奇趣南面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0042,XY01,N,"whole north front, double stair, north fountain, clipped trees; title 谐奇趣北面",1780s,high,,,175,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0165,XY01,E,"upper storey of the east end: parapet, two piers, door gap, two cartouches; arch at lower left",ruin,high,40.01123,116.303,270,"Catalogue: Frontal on the narrow east end, as P0188. +-15 m.","Same face as P0188, closer."
+P0172,XY01,S,"after collapse: central brick pier, free columns, stair rubble, base of the terrace across water",ruin,medium,40.01005,116.30244,0,"Catalogue: From the south shore of the 谐奇趣 pond, as P0186. +-30 m.",Sharp; the facade is gone.
+P0174,XY01,E,"bottom-right plate, printed MAISON EUROPÉENNE: east end, door gap, cartouches, balustraded parapet",ruin,medium,,,270,"Bottom-right plate, as P0188.",Book halftone. See correction: this is not XY05.
+P0185,XY01,S,"east colonnade, inner face, arches and balustrade; pier with relief in front",ruin,high,,,,,
+P0186,XY01,S,"谐奇趣 panorama, lake in front overgrown",ruin,high,,,,,"Ohlmer negative B of 12 in S770 (ohlmer_1873_b), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0187,XY01,S,"谐奇趣 Xieqiqu, south façade",ruin,high,,,,,"Ohlmer negative A of 12 in S770 (ohlmer_1873_a), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0188,XY01,E,"谐奇趣, eastern side of the main building",ruin,high,,,,,"Ohlmer negative D of 12 in S770 (ohlmer_1873_d), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0189,XY01,N,"谐奇趣, north façade",ruin,high,,,,,"Ohlmer negative E of 12 in S770 (ohlmer_1873_e), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0191,XY01,S,"south front and east end, as P0187, slightly further; printed SOUTH EAST VIEW, PRINCIPAL PALACE",ruin,high,,,,,Printed title confirms the side.
+P0200,XY01,S,"central part after collapse: two free Ionic columns, door stubs and brick arch, brick pier, carved plinth of the stair",ruin,high,,,,,Research-only look. Best for the south base as built.
+P0222,XY01,,"Getty set of all 20 plates, link only",1780s,low,,,,,No file. Sides as P0041-P0060.
+P0223,XY01,S,"same as P0041: plate 1, sharpest impression, master 13154 px on Commons",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,Use this rather than P0041 for measuring.
+P0224,XY01,,"V&A prints, set, link only, not viewed",1780s,low,,,,,No file. Sides as P0041-P0060.
+P0297,XY01,N,"brick pier seen broad with arch, columns to its right, stone box and long base",ruin,low,,,,"Catalogue: seen across the pond; no pond in the frame, not carried over.",Pier broad needs a view from east or west; columns right of it need a camera north of the east-west line. Which end is not settled.
+P0298,XY01,S,"panorama across the pond: round basin on the axis, ruin and pier behind, column clusters left and right",ruin,low,40.0100,116.3024,0,"Round basin of plate 1 on the axis mid-frame and column clusters both sides: about the axis from the south shore, as P0186. +-40 m. Replaces catalogue bearing 60.","Album says von Westen; that fits the western end of the strip, not a camera due west. See correction."
+P0301,XY01,S,"whole ruin across reeds, brick pier at right",ruin,medium,40.0108,116.30265,345,"Catalogue: XY02 at left and 谐奇趣 ruin at right, from the reed pond south of XY01. +-40 m.",Distant.
+P0302,XY01,E,"from the east, high on rubble: brick pier with arch, columns left, carved stone panel and fallen columns in front",ruin,medium,40.01115,116.30295,300,"Pier broad and XY02 at right: from the east-south-east, on rubble of the east octagon. Assumed. +-30 m.",Album 552; holder's 养雀笼 is wrong by form.
+P0311,XY01,S,free columns and brick pier,ruin,low,,,,,No file: from catalogue note only.
+P0316,XY01,detail,"brick pier and columns, another side",ruin,low,,,,,No file: from catalogue note only.
+P0317,XY01,detail,brick arch and columns,ruin,low,,,,,No file: from catalogue note only.
+P0345,XY01,S,"central curved stair, one free column with its capital, a second behind, fallen capital at right",today,medium,,,,,Stair form of plate 1; no caption for the side.
+P0347,XY01,detail,"inside the main block, between walls, looking east",today,medium,,,85,Caption 由西向东.,Caption 由西向东拍摄.
+P0348,XY01,fountain,"north fountain: lobed basin in a round paved ring, ruin behind",today,medium,,,,,Caption north of Xieqiqu; round ring as on plate 2.
+P0441,XY01,detail,"stepped masonry of the east part, curved wall, pier; fallen block in front",today,medium,,,,,Caption says east part; which face not settled.
+P0475,XY01,fountain,"same lobed basin, close: carved rim and central block",today,medium,40.011576,116.302042,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",
+P0476,XY01,fragment,carved panel broken in two among blocks,today,low,40.011297,116.302428,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",Tied by GPS tag only.
+P0477,XY01,fragment,carved pedestal block with scrolls,today,low,40.011256,116.302643,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",Tied by GPS tag only.
+P0478,XY01,fragment,"stone lion in pieces, on stepped blocks",today,medium,40.011237,116.302466,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",Caption names 谐奇趣.
+P0480,XY01,fragment,long carved trough with scalloped band,today,low,40.011173,116.302589,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",Tied by GPS tag only.
+P0645,XY01,N,"north front on the axis, door, central arch, two upper blocks, two trees obstruct",ruin,medium,40.0115,116.30244,180,"Catalogue: Looking south on the north axis, door centred. Position taken from P0189, same axis; assumed, this view stands somewhat nearer the basin.",Printed CHATEAU EUROPÉEN.
+P0718,XY01,S,"main block at left and east octagon at right, across reeds",ruin,low,,,,,Faded print.
+P0725,XY01,S,"whole ruin across the frozen pool, a pier and column stump in front",today,medium,40.01098,116.30225,25,Estimated from the pool shore and the angle on the ruin; +-20 m.,
+P0726,XY01,S,"east wing: base, column stumps, wall and hill behind",today,medium,,,,,
+P0727,XY01,detail,west part: niche with stacked blocks at centre,today,medium,,,,,
+P0728,XY01,S,stones and reflection across the water,today,medium,40.010935,116.302530,347,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0729,XY01,fragment,fallen Ionic-type capital,today,medium,40.011194,116.302788,,"GPS tag on the Commons file (Panoramio), by the east wing; close-up, no bearing",
+P0730,XY01,detail,"two standing piers with carving, steps at foot",today,medium,,,,,
+P0731,XY01,S,"column on curved steps, field of blocks",today,medium,,,,,
+P0732,XY01,S,"curved stair ramp with balustrade, cf. the stair in Ohlmer A (P0187)",today,low,,,,,
+P0779,XY01,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0041,XY01-01,S,"west octagon, whole, at left, with stair of the west colonnade end",1780s,high,,,,,"Looks north, so left is west."
+P0042,XY01-01,N,"west octagon, upper parts, small, at right behind the terrace",1780s,medium,,,,,
+P0188,XY01-01,E,"west octagon, far and small",ruin,low,,,,,
+P0301,XY01-01,S,"column clusters at left, read as the west octagon",ruin,low,,,,,
+P0346,XY01-01,E,"west octagon remains: columns, base and steps, a stone wall behind",today,medium,,,,,Caption names 西侧八角楼厅. East side argued: the wall behind reads as the west edge; not stated.
+P0041,XY01-02,fountain,"haitang basin with ducks, sheep and jets before the stair; round basin in the water on the axis",1780s,high,,,,,
+P0345,XY01-02,fountain,paved area below the stair; no basin rim readable,today,low,,,,,
+P0041,XY01-N01,S,"east octagon, whole, at right",1780s,high,,,,,
+P0042,XY01-N01,N,"east octagon, upper parts, small, at left behind the terrace",1780s,medium,,,,,
+P0172,XY01-N01,S,column clusters of the east octagon at right edge,ruin,low,,,,,
+P0174,XY01-N01,E,"top-left plate, printed PAVILLON EUROPÉEN: octagon, ground storey columns, framed panel, upper storey with cartouches",ruin,medium,,,,,Which of the two octagons is not settled by form; XY01-N01 follows P0185.
+P0185,XY01-N01,S,谐奇趣 Music Pavilion,ruin,high,,,,,"Ohlmer negative C of 12 in S770 (ohlmer_1873_c), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0305,XY01-N01,S,ground storey: three clusters of Ionic columns round a brick core,ruin,medium,,,,,Album 554; holder's 养雀笼 is wrong by form. Masonry at left taken as the colonnade.
+P0718,XY01-N01,S,"east octagon, upper and lower storey, faded",ruin,low,,,,,
+P0726,XY01-N01,S,"east wing: base, column stumps, wall and hill behind",today,medium,,,,,
+P0042,XY01-N02,N,west double-stair landing block of the north front,1780s,medium,,,,,"Looks south, so right is west."
+P0189,XY01-N02,N,west stair block,ruin,medium,,,,,
+P0042,XY01-N03,N,east double-stair landing block of the north front,1780s,medium,,,,,
+P0189,XY01-N03,N,east stair block,ruin,medium,,,,,
+P0041,XY02,S,"roof only, hipped, seen behind the west colonnade",1780s,low,,,,,Reading by position: XY02 stands north-west of XY01.
+P0043,XY02,E,"whole east face: two-storey block with hipped roof, lower north wing at right; title 蓄水楼东面",1780s,high,,,265,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0044,XY02,N,"upper storey and hipped roof above the wall, at right",1780s,medium,,,,,"Looks south, so right is west: XY02 stands there."
+P0176,XY02,E,"east face: two-storey block at left, lower wing at right, windows, door",ruin,high,40.01187,116.30247,270,"Catalogue: Frontal on the long east face of XY02, plate P0043; about 30 m. +-15 m.",
+P0298,XY02,S,"two-storey block above the ruin, left of the pier",ruin,low,,,,,
+P0301,XY02,S,"block with two upper windows behind, left of centre",ruin,low,,,,,
+P0302,XY02,E,small block on the horizon at far right,ruin,low,,,,,
+P0779,XY02,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0785,XY02,S,"two stripped masonry blocks, loose stone, retaining wall behind",today,low,40.011455,116.302003,,Commons GPS; bearing unknown.,
+P0041,XY02-01,S,"left edge: arcaded water structure with balustrade and a tall ornate gate tower, cropped by the plate edge",1780s,low,,,,,Guess that this is the 线法桥 and its gate; nothing printed names it.
+P0044,XY03,N,whole north face of the gate and the panelled wall; title 花园门北面,1780s,high,,,175,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0184,XY03,S,south face of 花园门 with arch; two finial piers and domed maze pavilion seen through the arch,ruin,high,40.01205,116.30245,358,"Estimated: south of the gate XY03 (40.012157) on the axis; the domed pavilion through the arch, enlarged, proves camera south looking north. +-8 m.","S770 calls this the north façade; form decides against it. Plate 4 (P0044) is the other face, so this is the only view of the south face."
+P0318,XY03,detail,long wall with framed scroll panels,ruin,low,,,,,No file. Tie guess.
+P0319,XY03,detail,the same wall from the other end,ruin,low,,,,,No file. Tie guess.
+P0736,XY03,S,"two finial piers on the gate axis, pavilion on axis behind",today,medium,40.0123,116.30243,358,Estimated: on the XY03-XY04-01 axis just north of the site of the gate; +-15 m.,
+P0779,XY03,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0783,XY03,detail,"one ball-finial pier with relief, maze walls, pavilion on axis; the gate itself is not in frame",today,medium,40.012086,116.30222,355,Commons GPS; bearing from the pavilion ahead.,
+P0045,XY04,S,"bird's-eye of the whole maze from the south, entrance piers and bridge in front; title 花园正面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,"Oblique from above, so plan proportions must be unprojected."
+P0350,XY04,S,entrance pier and top of a maze wall,today,medium,,,,,REBUILT.
+P0507,XY04,detail,"maze path between two carved brick walls, a wall section, people's shadow",today,medium,40.012485,116.302398,,"Catalogue: GPS tag from Commons metadata, datum not stated; a Panoramio tag may be a place tag, not the camera.",REBUILT. Good for wall height.
+P0733,XY04,S,"rebuilt central pavilion on its ring base, 2002",today,high,,,,,
+P0734,XY04,S,maze walls in rows with the pavilion behind,today,high,,,,,
+P0735,XY04,detail,maze walls with cut brick facing,today,high,,,,,
+P0736,XY04,S,"two finial piers on the gate axis, pavilion on axis behind",today,medium,40.0123,116.30243,358,Estimated: on the XY03-XY04-01 axis just north of the site of the gate; +-15 m.,
+P0739,XY04,S,pavilion and maze wall in winter,today,high,,,,,
+P0779,XY04,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0783,XY04,detail,"one ball-finial pier with relief, maze walls, pavilion on axis; the gate itself is not in frame",today,medium,40.012086,116.30222,355,Commons GPS; bearing from the pavilion ahead.,
+P0045,XY04-01,S,central domed pavilion on its stepped base,1780s,high,,,,,
+P0350,XY04-01,S,"domed pavilion with base rail, entrance pier and ball finial at left",today,medium,40.01211,116.302342,,Catalogue: Commons GPS tag,REBUILT.
+P0351,XY04-01,S,pavilion above several wall lines,today,medium,40.011972,116.302281,,Catalogue: Commons GPS tag,"REBUILT. Side from the tag south of the maze, which may be a place tag."
+P0506,XY04-01,S,"axial view from the entrance side: pavilion on the maze walls, flagstones in front",today,medium,,,355,Axial on the maze from the south.,REBUILT: use for size only with care.
+P0733,XY04-01,S,"rebuilt central pavilion on its ring base, 2002",today,high,,,,,
+P0734,XY04-01,S,maze walls in rows with the pavilion behind,today,high,,,,,
+P0736,XY04-01,S,"two finial piers on the gate axis, pavilion on axis behind",today,medium,40.0123,116.30243,358,Estimated: on the XY03-XY04-01 axis just north of the site of the gate; +-15 m.,
+P0737,XY04-01,S,pavilion and carved parapet,today,high,,,,,
+P0738,XY04-01,detail,rebuilt Corinthian-type capital and spandrel,today,high,,,,,
+P0739,XY04-01,S,pavilion and maze wall in winter,today,high,,,,,
+P0783,XY04-01,detail,"one ball-finial pier with relief, maze walls, pavilion on axis; the gate itself is not in frame",today,medium,40.012086,116.30222,355,Commons GPS; bearing from the pavilion ahead.,
+P0045,XY04-N01,S,"roof and top of a building behind the pavilion, mostly hidden",1780s,low,,,,,
+P0046,XY05,W,"whole west face: central door, two statues, side arcades; north wing at left; title 养雀笼西面",1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0047,XY05,E,"whole east face: arch, two niches, curved balustrade, flanking wall; title 养雀笼东面",1780s,high,,,265,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0168,XY05,E,"arch and two niches, fallen stones in front, upper parts collapsed",ruin,high,40.01182,116.30325,270,"Catalogue: Frontal on the east gate of XY05, about 25 m. +-10 m.",
+P0175,XY05,E,"whole, frontal, axial path, wall to the left, view through the arch",ruin,high,40.01182,116.30325,270,"Catalogue: Frontal on the east gate of XY05, path on the axis, about 25 m. +-10 m.",
+P0178,XY05,E,"whole, from a little left, wall to the left, fallen lintel in front",ruin,medium,40.01182,116.30325,270,"Catalogue: Frontal on the east gate of XY05, about 25 m. +-10 m.",
+P0192,XY05,E,"central arch, two niches with urns, curved parapet: upper ornament sharp, base cut",ruin,high,40.01182,116.30318,270,"Catalogue: Frontal on the east face of XY05, matches plate P0047; about 15 m east of the footprint. +-5 m.",
+P0210,XY05,E,"Sirén's photograph of plate 7, title visible",1780s,medium,,,,,Copy of P0047: use P0047.
+P0225,XY05,E,"J-00423 Yangquelong east, per blog, not seen",ruin,low,,,,,No file. Ask Royal BC Museum for high resolution.
+P0352,XY05,W,"blocks on the footprint, arch segment, stele-like pier at right",today,medium,,,85,Caption says west side.,Caption 残迹 (西面).
+P0353,XY05,fragment,semi-domed niche head with scalloped band,today,low,,,,,Single block; the caption is all that ties it.
+P0740,XY05,fragment,"half-round shell fragments and blocks on the ground, a pier at left; 2005",today,medium,,,,Gate not identified as east or west.,
+P0779,XY05,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0046,XY05-N01,W,low hall with Chinese roof and round windows at left,1780s,medium,,,,,"Looks east, so left is north; tie to the plan row by position only."
+P0048,XY06,S,"whole south front, oval windows, curved stairs both sides; title 方外观正面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,正面 is the south: plate 9 of 五竹亭 and XY06 standing north of it.
+P0211,XY06,S,Sirén's photograph of plate 8,1780s,medium,,,,,Copy of P0048: use P0048.
+P0212,XY06,S,"from the south-west: west curved stair nearest at left, oval window, upper piers; small arched bridge at lower right",ruin,high,40.01188,116.3035,45,"Catalogue: West stair nearest at left, door and oval window beyond: from the south-west, about 30 m. +-15 m. The far pier at right fits XY08 to the east-south-east.",Best for the curve of the stair.
+P0220,XY06,S,"frontal: basement panels, two oval windows, door gap, two tall piers, right stair stub; arched stone in front",ruin,high,40.01173,116.30374,0,"Catalogue: Frontal on the south front, about 35 m. +-15 m.",Sirén 004574.
+P0225,XY06,,"J-00443 Fangwaiguan, per blog, not seen",ruin,low,,,,,No file.
+P0295,XY06,S,"oblique from the south-east: east stair stub in the rubble at right, upper piers",ruin,medium,40.01188,116.30393,320,"Catalogue: Holder: side view. Rubble of the stair nearest at right, so from the south-east, about 25 m. +-15 m.",Album 539: its side view. Gloss 谐奇趣 is wrong (Q49).
+P0296,XY06,S,"frontal: one oval, door, piers at both sides",ruin,medium,40.01182,116.30374,0,"Catalogue: Frontal on the south front, about 25 m. +-10 m.",Album 536; its 谐奇趣 gloss is wrong (Q49).
+P0304,XY06,S,"frontal: both ovals, west stair stub, right pier",ruin,medium,40.01173,116.30374,0,"Catalogue: Frontal on the south front, about 35 m. +-15 m.",Album gloss 谐奇趣 is wrong (Q49).
+P0354,XY06,S,"from the south: remaining piers, low walls, curved stone rim in front",today,medium,,,355,From the south.,
+P0355,XY06,S,"on the axis, from the steps, piers either side of the walk",today,high,,,355,On the axis; caption says south-facing.,Caption says the house faced south.
+P0356,XY06,fragment,loose block with a carved scroll spray,today,low,,,,,Caption is all that ties it.
+P0720,XY06,S,"south-west corner with the double stair and balustrade, upper storey, tiled roof still on",ruin,high,40.01190,116.30355,35,"Estimated: the stair and SW corner of XY06 (40.012069, 116.303737) seen obliquely from the south-west, about 25 m. +-15 m.",
+P0741,XY06,S,"base with stair remains, piers, from the south-west",today,medium,40.01188,116.30355,35,Estimated against XY06; +-20 m.,
+P0742,XY06,S,"piers close to, fallen carved blocks in front",today,high,,,,,
+P0743,XY06,S,"base, ramps and piers from the south",today,high,40.0119,116.30372,357,Estimated on the axis from the ramps; +-15 m.,
+P0744,XY06,S,"piers from the south-east, people on the base",today,medium,40.011789,116.304142,312,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0746,XY06,fragment,carved stone blocks,today,medium,40.011892,116.303807,,"GPS tag on the Commons file (Panoramio), 20 m south of XY06; close-up, no bearing",
+P0773,XY06,S,"south-west corner with the double stair and balustrade, upper storey, tiled roof still on",ruin,high,40.01190,116.30355,35,"From P0720: stair and SW corner seen obliquely from the south-west, about 25 m, +-15 m. Estimated.",
+P0779,XY06,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0784,XY06,N,"curved stone kerb and open ground in front, 方外观 piers beyond; nothing identifiable of the pavilions",today,low,40.011725,116.303895,0,"Commons GPS; bearing assumed north, since XY06 lies north of the point.",
+P0048,XY06-B0151,S,"kiosk with tiered round roof at left, partly cut by the plate edge",1780s,low,,,,,Tie by position only.
+P0048,XY06-N01,S,foreground: pair of curved scroll balustrades flanking the axial walk,1780s,high,,,,,"The plan row's cross-shaped centre with two flaring wings, about 28 m south of XY06, fits these."
+P0212,XY06-N01,S,"arched bridge with rail at lower right, read as part of the flaring bridges",ruin,low,,,,,
+P0745,XY06-N01,detail,pillar in a round base with a stone slab path; the uploader says octagonal pavilion outside 方外观,today,low,,,,,
+P0049,XY07,N,"whole north side: five linked pavilions, round basin and two planted basins; title 竹亭北面",1780s,high,,,175,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0745,XY07,detail,pillar in a round base with a stone slab path; the uploader says octagonal pavilion outside 方外观,today,low,,,,,
+P0779,XY07,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0784,XY07,N,"curved stone kerb and open ground in front, 方外观 piers beyond; nothing identifiable of the pavilions",today,low,40.011725,116.303895,0,"Commons GPS; bearing assumed north, since XY06 lies north of the point.",
+P0050,XY08,W,whole west front with both zigzag stairs; end pavilions; title 海晏堂西面,1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0051,XY08,N,"long north front, full elevation; west block raking at right; east stair at left; title 海晏堂北面",1780s,high,,,175,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,"Elevation is the mirror of plate 13 bay for bay, so a ruin photo of the long front cannot be sided by bays alone."
+P0052,XY08,E,"whole east end: zigzag stairs, central door, upper block; title 海晏堂东面",1780s,high,,,265,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0053,XY08,S,"long south front, full elevation; west block raking at left; title 海晏堂南面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0149,XY08,W,"west front, redrawn after plate 10 with added jets and figures; printed 正面",1780s,low,,,,,Wood engraving of 1864 after the album: no independent evidence.
+P0170,XY08,N,"east stair at left, long north front at right, arched door, tank walls above",ruin,high,40.01225,116.3052,225,"Catalogue: East stair at left, long front at right: only from the north-east. About 30 m. +-20 m.",Only photo of the junction east stair and long front.
+P0218,XY08,S,"long south front receding left: three arched doors, windows, far dormer; stripped brick of the east end at right",ruin,high,40.0115,116.30585,300,Along the south front from the south-east. Assumed from the side argument. +-20 m.,"Side argued: sunlit, with a seated man's shadow falling right; near end low brick, not the tall west block. See correction."
+P0219,XY08,S,"long south front, near part, arched door and bricked windows, cartouches, dormer behind",ruin,high,40.01158,116.3056,290,"As P0218, closer to the front. Assumed. +-20 m.","Same front as P0218, closer. Overcast, so the side rests on P0218."
+P0225,XY08,,"J-00413 Haiyantang, per blog, not seen",ruin,low,,,,,No file.
+P0293,XY08,E,left of centre: stair block with low dark walls,ruin,low,,,,,By position south of the axis looking west.
+P0299,XY08,S,"from the south-east: long south face at left, stair blocks at right, tank top above",ruin,high,40.01135,116.3056,315,"Catalogue: Long south face at left, east stair at right: only from the south-east. About 80 m. +-30 m.",Whole mass in one view; tall pier far left unrelated.
+P0303,XY08,W,"shell basin, zigzag stair wall, pedestal, buried rubble; upper block far",ruin,medium,40.01182,116.30425,85,"Catalogue: From the west, on the axis of the fountain, pedestal at right. About 25 m. +-10 m.",
+P0307,XY08,W,"shell, zigzag stair, pedestal",ruin,low,40.01185,116.30415,90,"Catalogue: On the axis of the west front, from beyond the pool; pedestal at right. About 35 m. +-15 m.",No file: catalogue says same view as S280 RF0956.
+P0309,XY08,W,"central stair and balustrades, oblique from the south-west",ruin,low,40.01165,116.30445,50,"Catalogue: Oblique on the stair, from the south-west, about 30 m. +-15 m.",No file.
+P0324,XY08,S,long front with arched door,ruin,low,,,,,No file. Follows P0219 by catalogue note.
+P0330,XY08,E,title names the ruin with Xiang Hills behind,ruin,low,,,,,"No file. Hills lie west, so the camera looks west; the rest is unread."
+P0349,XY08,E,two plain stone piers and a low side stub,today,medium,,,,,
+P0357,XY08,W,"three carved piers on the terrace of the central door, curved pool edge in front",today,high,,,85,Caption 正面; axis of the west front.,Caption 正面.
+P0360,XY08,E,two carved door piers at the east end,today,high,,,,,
+P0439,XY08,W,carved piers above and behind the stair,today,medium,,,,,
+P0440,XY08,detail,"inside the long range, wall stubs left and right, block stacks, looking north",today,medium,,,355,Caption 由南向北.,Caption 由南向北拍摄.
+P0647,XY08,detail,figure not seen; list says 海晏堂廢墟,ruin,low,,,,,No file. Side unknown.
+P0721,XY08,W,"whole west front on axis, shell fountain at centre, zodiac figures gone",ruin,high,40.01187,116.30420,84,"Estimated: on the east-west axis of XY08, west of the pool XY08-02 (40.011847, 116.304497), about 25-40 m from the pool. +-20 m.",
+P0722,XY08,N,north-west corner of the main building and the long pilastered wall at right,ruin,medium,,,,Not estimated: S770 says the rooms at the north-west corner of the main building; the wall at right needs a check against plate P0051 at larger size.,
+P0747,XY08,W,"west terrace with shell, pool base in front",today,high,40.011838,116.304356,85,GPS tag on the Commons file (Flickr); bearing computed from the tag to the object,
+P0748,XY08,detail,stacked block pile in the main-building area,today,medium,40.011821,116.304893,73,GPS tag on the Commons file (Flickr); bearing computed from the tag to the object,
+P0750,XY08,W,"tank core seen from the west, flanking stones",today,high,40.011872,116.304917,79,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0751,XY08,W,"west front remains with shell, grass over the pool",today,high,40.01184,116.3043,84,Estimated on the axis; +-15 m.,
+P0752,XY08,W,two carved piers on the base behind a hedge,today,high,,,,,
+P0753,XY08,fountain,"the great shell, close to",today,high,,,,File GPS shared by several shots of the set and not reliable (see question); not used,
+P0754,XY08,fragment,carved balustrade parts lying on the ground,today,medium,40.011917,116.305888,,"GPS tag on the Commons file (Panoramio), east end of XY08; close-up, no bearing",
+P0774,XY08,W,"whole west front on axis, shell fountain at centre, zodiac figures gone",ruin,high,40.01187,116.30420,84,"From P0721: on the east-west axis, west of the pool, 25-40 m from it, +-20 m. Estimated.",
+P0775,XY08,N,"north-west corner of the main building and the long pilastered wall at right, big bare tree in front",ruin,medium,,,,"Not estimated: as P0722, the wall at right still needs a check against plate P0051.",
+P0779,XY08,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0781,XY08,E,"ground east of the tank, kerbed channel leading to it, tank mass at right; fence and hedges",today,medium,40.011849,116.305948,250,"Commons GPS; bearing estimated from the sun, +-30 degrees.",
+P0782,XY08,W,"brick and rubble core in courses, plaster gone, stone stubs and fence in front",today,high,40.011941,116.305203,85,"Commons GPS, bearing estimated from the frontal view, +-20 degrees.",
+P0051,XY08-01,roof,"two raised roofed parts above the long range, read as the tank housing",1780s,low,,,,,
+P0053,XY08-01,roof,"two raised roofed parts above the long range, read as the tank housing",1780s,low,,,,,
+P0170,XY08-01,roof,brick tank walls and pedimented top above the range,ruin,medium,,,,,
+P0299,XY08-01,roof,tank walls and two corner stubs above,ruin,medium,,,,,
+P0349,XY08-01,E,"layered tank core with two plain piers in front, close",today,high,,,265,As P0360.,"Same axis as P0360, nearer: plain piers inside its carved pair. Side follows P0360. Its file name Xunshuilou is not XY02."
+P0359,XY08-01,E,"tank core at right, the carved piers of P0360 at left, long court",today,medium,40.012,116.305956,,Catalogue: Commons GPS tag,"Piers left of the core need a camera north of the east axis, looking west-south-west; the Commons tag lies north too. Not stated in the caption."
+P0360,XY08-01,E,"rammed-earth tank core between two carved piers, on the east axis",today,high,,,265,Caption 东面.,Caption 东面.
+P0438,XY08-01,detail,"whole tank core in winter, ground of the fenced area in front",today,medium,,,,,"Side not settled; the long mass suggests the south or north, against P0360."
+P0749,XY08-01,S,rammed-earth tank core with its courses,today,high,,,,,
+P0750,XY08-01,W,"tank core seen from the west, flanking stones",today,high,40.011872,116.304917,79,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0781,XY08-01,E,"ground east of the tank, kerbed channel leading to it, tank mass at right; fence and hedges",today,medium,40.011849,116.305948,250,"Commons GPS; bearing estimated from the sun, +-30 degrees.",
+P0782,XY08-01,W,"brick and rubble core in courses, plaster gone, stone stubs and fence in front",today,high,40.011941,116.305203,85,"Commons GPS, bearing estimated from the frontal view, +-20 degrees.",
+P0050,XY08-02,fountain,"pool, shell, 12 seated figures on the stair walls, two great pedestals",1780s,high,,,,,
+P0149,XY08-02,fountain,"pool and stair figures, redrawn",1780s,low,,,,,
+P0303,XY08-02,fountain,shell basin and stair walls,ruin,medium,,,,,
+P0307,XY08-02,fountain,pool and shell,ruin,low,,,,,No file.
+P0309,XY08-02,fountain,stair and balustrades,ruin,low,,,,,No file.
+P0322,XY08-02,fountain,frontal on the scallop between stair walls,ruin,low,40.01185,116.30438,90,"Catalogue: Frontal on the shell, from inside the pool, about 12 m. +-6 m.",No file.
+P0358,XY08-02,fountain,"great carved shell with pier, bronze rail behind",today,high,,,,,Caption 喷水池 贝壳.
+P0439,XY08-02,fountain,"stair wall bases with carved panels, plinth blocks, upper piers behind",today,medium,40.011818,116.304392,85,"Commons GPS, may be a place tag; bearing argued from the stair ahead.",Caption is where the heads stood; the exact plinth is not proven.
+P0721,XY08-02,W,"whole west front on axis, shell fountain at centre, zodiac figures gone",ruin,high,40.01187,116.30420,84,"Estimated: on the east-west axis of XY08, west of the pool XY08-02 (40.011847, 116.304497), about 25-40 m from the pool. +-20 m.",
+P0747,XY08-02,W,"west terrace with shell, pool base in front",today,high,40.011838,116.304356,85,GPS tag on the Commons file (Flickr); bearing computed from the tag to the object,
+P0751,XY08-02,W,"west front remains with shell, grass over the pool",today,high,40.01184,116.3043,84,Estimated on the axis; +-15 m.,
+P0753,XY08-02,fountain,"the great shell, close to",today,high,,,,File GPS shared by several shots of the set and not reliable (see question); not used,
+P0774,XY08-02,W,"whole west front on axis, shell fountain at centre, zodiac figures gone",ruin,high,40.01187,116.30420,84,"From P0721: on the east-west axis, west of the pool, 25-40 m from it, +-20 m. Estimated.",
+P0052,XY08-N02,E,"north flight of the east stair, at right",1780s,medium,,,,,"Looks west, so right is north."
+P0170,XY08-N02,N,"north flight of the east stair, from above and behind",ruin,medium,,,,,
+P0754,XY08-N02,fragment,carved balustrade parts lying on the ground,today,medium,40.011917,116.305888,,"GPS tag on the Commons file (Panoramio), east end of XY08; close-up, no bearing",
+P0052,XY08-N03,E,"south flight of the east stair, at left",1780s,medium,,,,,
+P0299,XY08-N03,E,south flight and stair block,ruin,medium,,,,,
+P0054,XY09,S,"whole south front with clock gate, two turrets, terrace, curved balustrade; title 远瀛观正面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0169,XY09,S,"arches and brick walls far left, oblique",ruin,medium,,,,,
+P0179,XY09,S,"western carved column, high entablature, west arch left, central arch right",ruin,high,40.0124,116.30655,345,"Catalogue: South front of XY09, western carved column, central arch at right. About 15 m. +-10 m.",Holder's east gate of Xianfa hill overruled by form (Q49).
+P0183,XY09,S,"远瀛观 Yuanying Guan, southern side",ruin,high,,,,,"Ohlmer negative J of 12 in S770 (ohlmer_1873_j), same view checked by eye against the VC thumbnail or caption. Holder per S771: Qin Feng 秦风 since May 2010, Hildesheim in the 1930s; the catalogue row says Hildesheim only."
+P0190,XY09,S,"close on the central door between both carved columns; entablatures, door through to the rear",ruin,high,40.01243,116.30653,0,"Catalogue: Close and frontal on the central door of XY09, both carved columns symmetric; about 12 m from the south front. +-5 m.",Best on column ornament.
+P0199,XY09,S,"carved column, central arch, oblique, rubble in front",ruin,medium,,,,,Commons Dashuifa overruled by form.
+P0213,XY09,S,"Sirén's photograph of plate 14, title visible",1780s,medium,,,,,Copy of P0054: use P0054.
+P0214,XY09,S,arches and carved column behind at right,ruin,medium,,,,,
+P0216,XY09,S,"same front, further, wider, brick behind at left",ruin,medium,40.0124,116.30655,345,"Catalogue: Looks along the south front of XY09 at the western carved column, large central arch at right, side door at left; about 15 m. +-10 m.",Sirén 003719. Caption 大水法 overruled by form.
+P0225,XY09,S,"J-00463 clock gate, per blog, not seen",ruin,low,,,,,No file.
+P0290,XY09,detail,"carved column and capital, arch at right, drum on the ground",ruin,medium,,,340,"Catalogue: Close detail of the same column as RF0935, seen from the south-south-east. Position not argued.",Album says detail of no. 336.
+P0291,XY09,S,"same front from further right, carved column, two arches",ruin,medium,40.0124,116.30655,345,"Catalogue: Same view as Sirén 003719. South front of XY09, western carved column, central arch at right. About 15 m. +-10 m.","Album pairs it with plate 19; the side doors of P0059 are square, so not XY13."
+P0292,XY09,S,"walls and columns behind, left",ruin,low,,,,,
+P0293,XY09,E,same distant group,ruin,low,,,,,
+P0310,XY09,S,"behind, by catalogue",ruin,low,,,,,No file.
+P0312,XY09,detail,shell niche and pilaster with drops,ruin,low,,,,,No file.
+P0313,XY09,detail,same niche,ruin,low,,,,,No file.
+P0328,XY09,detail,"arches and carved column, by title",ruin,low,,,,,"No file, image not opened."
+P0331,XY09,detail,"carved column and capital, by title",ruin,low,,,,,"No file, image not opened."
+P0338,XY09,S,"columns at right, distant",today,medium,,,,,
+P0339,XY09,S,columns centred behind,today,high,,,,,Stands on nearly one line: gives the axis.
+P0340,XY09,S,columns behind the arch,today,medium,,,,,
+P0341,XY09,S,"four remaining columns, carved one at centre",today,medium,,,,,
+P0342,XY09,S,"same group from the south-west, tall plain pier at left",today,medium,40.012069,116.306435,,Catalogue: Commons GPS tag,"GPS 40.012069, 116.306435."
+P0641,XY09,S,"columns just visible, left",today,low,,,,,
+P0646,XY09,S,"carved column and arch, plate crop",ruin,medium,,,,,
+P0719,XY09,S,"carved column with high entablature, two arches, brick core",ruin,medium,,,,,
+P0723,XY09,S,"central niche with shell crest, right side wall; 远瀛观 clock gate above and behind",ruin,high,40.01190,116.30655,355,"Estimated: on the XY10-XY09 axis, south of the basin, about 35 m from the niche (40.012217, 116.306584). +-15 m.",
+P0755,XY09,S,columns on the rubble of the terrace,today,high,,,,,
+P0756,XY09,S,rose column and standing columns close to,today,high,,,,,
+P0757,XY09,S,columns with the great lintel on the central one,today,high,40.012443,116.306526,0,"GPS tag on the Commons file, shared by several shots: coarse; bearing computed from the tag to the object",
+P0758,XY09,S,"columns from below, rubble bank in front",today,high,40.012131,116.306323,17,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0760,XY09,S,"low view across the blocks, 远瀛观 columns beyond",today,high,,,,,
+P0761,XY09,S,"niche, flanks and 远瀛观 columns from the 观水法 side",today,high,40.011786,116.306521,6,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0771,XY09,S,"carved columns and the arch beside them, seen close",ruin,low,,,,,
+P0772,XY09,S,"one carved column, both flanking arches, entablature, sharp",ruin,high,,,,,
+P0776,XY09,S,"central niche with shell crest, right side wall; 远瀛观 clock gate above and behind",ruin,high,40.01190,116.30655,355,"From P0723: on the XY10-XY09 axis, south of the basin, about 35 m from the niche, +-15 m. Estimated.",
+P0778,XY09,S,"niche with broken crest and flanking piers in a field of rubble, clear of trees; columns of 远瀛观 behind left",ruin,high,,,,,
+P0779,XY09,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0780,XY09,N,"columns and capitals from behind, 大水法 niche small at far left",today,medium,40.012443,116.306526,,"Commons GPS, a cluster tag on the terrace, read as approximate; side argued from the niche behind.",
+P0055,XY10,S,"whole composition: central niche and scroll buttresses, two towers, water, 2 topiary fountains; title 大水法正面",1780s,high,,,355,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,Trees close the view behind the niche: XY09 not drawn.
+P0169,XY10,S,"from the south-west: scroll buttresses, central niche at right, fallen blocks",ruin,high,40.01198,116.3063,40,Catalogue: XY09 stands due north of XY10 and appears to the left of it: only from the south-west. About 30 m. +-20 m.,XY09 at left needs that camera.
+P0214,XY10,S,"from the south-east: centre with scrolls and niche near at left, great buttress",ruin,high,40.01205,116.3069,315,"Catalogue: XY09 stands due north of XY10, and appears to the right of it: only possible from the south-east. About 30 m. +-20 m.",Sirén 003717. Caption 远瀛观 overruled: see correction.
+P0215,XY10,S,Sirén's photograph of plate 15,1780s,medium,,,,,Copy of P0055: use P0055.
+P0288,XY10,S,"from the east along the south face: niche, buttress and piers at right",ruin,high,40.01213,116.307,285,"Catalogue: Looks west along the south face, near end at right, Western Hills direction on the horizon at left: from the east. About 35 m. +-20 m.",Depth of the niche and the projection of the buttress.
+P0292,XY10,S,"frontal, reeds in the dry basin; niche and scrolls",ruin,medium,40.01195,116.3066,355,"Catalogue: Frontal from the south, between XY11 and XY10, XY09 just left of the niche behind. +-15 m.",Distant.
+P0293,XY10,E,centre: distant group of 大水法 and 远瀛观 columns,ruin,low,40.01234,116.3105,270,"Catalogue: Album says from the east; on the line of XY14 and XY15, with XY10 straight ahead. Position along the line +-100 m.",Panorama. Album says from the east.
+P0310,XY10,S,"frontal, reeds",ruin,low,40.01195,116.3066,355,"Catalogue: As RF0937: frontal from the south, reeds in the basin. +-15 m.",No file.
+P0338,XY10,S,"from the south-east, distant, with its low base and pool blocks",today,medium,,,330,XY10 left of XY09: only from the south-east.,
+P0339,XY10,S,"frontal, closer: centre and stepped water bowls",today,high,,,355,XY09 almost straight behind XY10.,
+P0340,XY10,S,"frontal, low sun, whole centre with base",today,high,40.012019,116.306633,355,Commons GPS; bearing from the frontal view.,GPS on the file.
+P0455,XY10,S,"frontal, close: niche, scrolls, stepped water blocks",today,high,,,355,Frontal on the niche.,
+P0641,XY10,S,"frontal: niche, buttresses, stepped basin blocks",today,high,40.012007,116.306605,355,Commons GPS; bearing from the frontal view.,GPS on the file.
+P0723,XY10,S,"central niche with shell crest, right side wall; 远瀛观 clock gate above and behind",ruin,high,40.01190,116.30655,355,"Estimated: on the XY10-XY09 axis, south of the basin, about 35 m from the niche (40.012217, 116.306584). +-15 m.",
+P0758,XY10,S,"columns from below, rubble bank in front",today,high,40.012131,116.306323,17,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0759,XY10,S,"niche and flanks on the axis, field of blocks",today,high,40.0119,116.30655,355,Estimated on the axis; +-20 m.,
+P0760,XY10,S,"low view across the blocks, 远瀛观 columns beyond",today,high,,,,,
+P0761,XY10,S,"niche, flanks and 远瀛观 columns from the 观水法 side",today,high,40.011786,116.306521,6,GPS tag on the Commons file (Panoramio); bearing computed from the tag to the object,
+P0762,XY10,N,"the niche from the north, its back; plaza and people seen through it",today,medium,40.012443,116.306526,169,"GPS tag on the Commons file, shared by several shots: coarse; bearing computed from the tag to the object",
+P0763,XY10,S,front after planting; side wings,today,high,40.012000,116.306700,338,"GPS tag on the Commons file (rounded to 40.0120, 116.3067): coarse; bearing computed from the tag to the object",
+P0776,XY10,S,"central niche with shell crest, right side wall; 远瀛观 clock gate above and behind",ruin,high,40.01190,116.30655,355,"From P0723: on the XY10-XY09 axis, south of the basin, about 35 m from the niche, +-15 m. Estimated.",
+P0778,XY10,S,"niche with broken crest and flanking piers in a field of rubble, clear of trees; columns of 远瀛观 behind left",ruin,high,,,,,
+P0779,XY10,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0780,XY10,N,"columns and capitals from behind, 大水法 niche small at far left",today,medium,40.012443,116.306526,,"Commons GPS, a cluster tag on the terrace, read as approximate; side argued from the niche behind.",
+P0055,XY10-N01,S,"west tower fountain in its round pool, at left",1780s,high,,,,,
+P0055,XY10-N02,S,"east tower fountain in its round pool, at right",1780s,high,,,,,
+P0056,XY11,N,"whole north face: screen of five panels, throne platform, stairs, obelisks, two side gates; title 观水法正面",1780s,high,,,175,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,"Looks south. 正面 is the north face, toward 大水法."
+P0193,XY11,detail,"whole side gate on its steps: arch, carved piers, shell-topped roof",ruin,high,,,,,"Child, Princes Porch. Which gate, east or west, and which face, not settled; cornice differs from plate 16, so tie stays likely (Q60)."
+P0194,XY11,detail,same negative as P0193,ruin,high,,,,,Use P0193.
+P0294,XY11,N,"oblique from the north-west: panels, stub of the wall end, rubble",ruin,medium,40.01195,116.3065,130,"Catalogue: North face of the screen seen obliquely, near (west) end at right: from the north-west, about 15 m. +-8 m.",
+P0300,XY11,N,"frontal, five carved panels and the four plain slabs between",ruin,high,40.01192,116.30663,180,"Catalogue: Frontal on the north face, about 12 m. +-5 m.",
+P0323,XY11,N,"frontal, five panels",ruin,low,40.01192,116.30663,180,"Catalogue: Frontal on the north face, about 12 m. +-5 m.",No file.
+P0343,XY11,N,"near frontal, slightly from the west",today,high,,,170,Near frontal.,
+P0344,XY11,N,"from the north-west, stairs in front, panels, base",today,high,,,140,Near end at right: from the north-west.,Best for the curved stairs.
+P0640,XY11,N,"near frontal: five panels, base with reliefs, round platform",today,high,40.011869,116.306646,175,Commons GPS; bearing from the frontal view.,GPS on the file.
+P0709,XY11,detail,"same negative as P0193, Favier halftone",ruin,low,,,,,Use P0193.
+P0724,XY11,N,"concave five-panel screen, steps at its foot, seen from the north-east at the left of the frame",ruin,high,40.01197,116.30680,215,"Estimated: the near end of the screen is at the left of the frame, so the camera stands north-east of XY11 (40.011825, 116.306627) looking south-west, about 25 m. +-15 m.",
+P0764,XY11,N,screen on axis with curved steps and platform,today,high,40.0119,116.30662,178,"Estimated on the axis, frontal; +-10 m.",
+P0765,XY11,N,"screen from the north-west, curved steps",today,high,40.0119,116.3065,155,Estimated from the angle on the screen; +-15 m.,
+P0766,XY11,N,"screen with both side piers, wall behind",today,high,,,,"File GPS is about 100 m from the screen, at 海晏堂: wrong, not used",
+P0777,XY11,N,"concave five-panel screen, steps at its foot, trophy pier at right in the grass",ruin,high,40.01197,116.30680,215,"From P0724: near end of the screen at the left of the frame, camera north-east of XY11 looking south-west, about 25 m, +-15 m. Estimated.",
+P0779,XY11,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0058,XY12,W,"whole hill from the west: lower wall, planted slopes, axial ramp; title 线法山正面",1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0306,XY12,detail,round brick drum with a carved top among rock,ruin,low,,,,,No file. Hill-top base is a guess.
+P0361,XY12,detail,"grass mound, trees, hedge",today,low,,,,,Caption names the hill only; side not stated.
+P0362,XY12,W,axial walk to the mound through evergreens,today,medium,,,85,Caption 西侧.,Caption 线法山西侧.
+P0767,XY12,detail,path up the mound between two carved block fragments,today,medium,,,,,
+P0779,XY12,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0057,XY12-01,W,whole west face of the triple gate and curved walls; title 线法山门正面,1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,
+P0717,XY12-01,detail,"row of pilastered frames, entablature blocks, column drums on the right",ruin,low,,,,,Clip frame. Spoken name 线法门 only; the central arch of plate 17 is not visible. May not be this gate.
+P0768,XY12-01,S,arch and piers,ruin,low,,,,,
+P0058,XY12-02,W,"hilltop pavilion, small and distant",1780s,medium,,,,,
+P0059,XY13,W,"whole west face: arch, two square-headed doors, two towers, trophies; title 线法山东门",1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,"The side is argued: water and far hills show through the arch, and those lie east, so the plate looks east."
+P0225,XY13,,"J-00426 Xianfashan east gate, per blog, not seen",ruin,low,,,,,"No file. Only ruin photo of XY13 known so far, if true."
+P0315,XY13,detail,view through a stone arch along a road,ruin,low,,,,,No file. Arch not identified; XY12-01 equally open.
+P0779,XY13,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0060,XY14,W,"near basin: stone edge, water and central steps",1780s,high,,,,,
+P0293,XY14,detail,flat ground in front; no water to be seen,ruin,low,,,,,Tie doubtful: see correction. Panelled walls left and right are not identified.
+P0458,XY14,detail,"pond with modern jets, bank, trees",today,low,,,,,Side not stated. Jets are modern.
+P0779,XY14,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0060,XY15,W,"painted perspective walls both sides of the lake, far hills; title 湖东线法画",1780s,high,,,85,Bearing from the printed title and the strip grid 83-85 deg; no camera position argued.,"Painted scenes, not buildings."
+P0779,XY15,aerial,"whole strip from 谐奇趣 and 黄花阵 in the west to 方河 and 线法墙 in the east; thin dashed lines fan from points, which may be sight lines (not verified)",ruin,medium,,,,"A plan, no camera.",
+P0786,XY15,S,paved entrance plaza and ticket gates; nothing of the screens,today,low,40.012169,116.31125,,Commons GPS; XY15 row itself carries plan error of 10-20 m.,

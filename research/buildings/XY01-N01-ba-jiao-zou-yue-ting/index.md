@@ -2,7 +2,7 @@
 
 # XY01-N01: 八角奏乐亭 Ba Jiao Zou Yue Ting
 
-Xiyang Lou
+east octagonal music pavilion · Xiyang Lou
 
 **3D object:** 2 boxes. Open it: `/reconstruction/3d.html?b=XY01-N01`
 
@@ -10,25 +10,27 @@ Xiyang Lou
 
 ## What we know
 
-- **Name:** 八角奏乐亭 Ba Jiao Zou Yue Ting (S01 · confidence B)
-- **Garden:** Xiyang Lou (S01)
-- **Type:** pavilion (S01 · confidence B)
-- **Destroyed:** 1860 (S01)
-- **Position:** 40.01101, 116.30282. S01 likely (S01 · confidence B)
-- **Size in the inventory:** 9.6 × 12.1 m. S01 plan px / hall scale (S01)
+- **Name:** 八角奏乐亭 Ba Jiao Zou Yue Ting (S01, S108 · confidence B)
+- **English:** east octagonal music pavilion (S01, S108)
+- **Garden:** Xiyang Lou (S01, S108)
+- **Type:** pavilion (S01, S108 · confidence B)
+- **Destroyed:** 1860 (S01, S108)
+- **Position:** 40.01101, 116.30282. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
+- **Size in the inventory:** 8.7 × 8.7 m. stated: S01;S850;S71, research/xiyanglou/boxes.csv (S01)
+- **Note:** Round 6 replaced frontage 9.6 m. Round 6 replaced depth 12.1 m. (S01, S108)
 - **Plan reader's note:** rect=40,40,0. Octagon, end of east gallery (8942,1490) (9000,1510) (9025,1560) (9025,1580). Twin of XY01-01. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8963, 1539 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** octagonal music pavilion, two storeys: 8 × 8 m, eave 8 m, ridge 11 m
-- **1 ×:** corridor (9 bays, curved; a straight run here): 34.57 × 4 m, eave 5 m, ridge 6 m
+- **1 ×:** octagonal music pavilion, two storeys: 8.7 × 8.7 m, eave 9.3 m, ridge 12.5 m
+- **1 ×:** corridor, 9 bays, curved on the plates; a straight run here: 47.9 × 4 m, eave 8.8 m, ridge 9.6 m
 - **Confidence:** C, all assumed
 
-## Pictures (5)
+## Pictures (7)
 
 - **P0041** (sure): 谐奇趣南面 (圆明园铜版画册 / 西洋楼铜版画, plate 一 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-17.jpg
 
@@ -42,13 +44,21 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0185](../../photos/images/P0185.jpg)
 
+- **P0172** (likely): Yüan-ming-yüan. Der alte Sommerpalast, von den Verbündeten 1860 zerstört. Ⅰ 2 (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AY%C3%BCan-ming-y%C3%BCan._Der_alte_Sommerpalast%2C_von_den_Verb%C3%BCndeten_1860_zerst%C3%B6rt._%E2%85%A0_2.jpg
+
+  ![P0172](../../photos/images/P0172.jpg)
+
 - **P0174** (likely): Gezicht op de ruïnes van een deel van het Zomerpaleis, Gezicht op een water bij Peking, Gezicht op de weg naar het Zomerpaleis en Gezicht op een deel van het Zomerpaleis (ca. 1892, in or before 1897 (Commons, Rijksmuseum)). https://commons.wikimedia.org/wiki/File%3AGezicht_op_de_ru%C3%AFnes_van_een_deel_van_het_Zomerpaleis%2C_Gezicht_op_een_water_bij_Peking%2C_Gezicht_op_de_weg_naar_het_Zomerpaleis_en_Gezicht_op_een_deel_van_het_Zomerpaleis%2C_RP-F-2001-7-1126-26.jpg
 
   ![P0174](../../photos/images/P0174.jpg)
 
-- **P0305** (guess): Fotografija Ruševine knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen der Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-knjiznice-v-stari-poletni-palaci-2/
+- **P0305** (likely): Fotografija Ruševine knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen der Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-knjiznice-v-stari-poletni-palaci-2/
 
   ![P0305](../../photos/images/P0305.jpg)
+
+- **P0726** (likely): Ruins of Xieqiqu East Wing 20130126 (2013-01-26 14:29:22 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Xieqiqu_East_Wing_20130126.JPG
+
+  ![P0726](../../photos/images/P0726.jpg)
 
 
 ## Texts and drawings (0)

@@ -36,7 +36,7 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the nearest named compound, 黄花阵, about 80 m away (no picture of this compound found): see XY04
+- Evidence for the nearest named compound, 船坞, about 100 m away (no picture of this compound found): see YM85
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.

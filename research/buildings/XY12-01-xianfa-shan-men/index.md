@@ -15,26 +15,31 @@ Xiyang Lou
 - **Type:** gate (S02, S01 · confidence A)
 - **Destroyed:** 1860 (S02, S01)
 - **Position:** 40.01219, 116.30785. S01 likely (S01 · confidence B)
+- **Size in the inventory:** 13.6 × 2.0 m. stated: S01;S71, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** engraving 17 (S02 p.159) (S02, S01) *(research copy, not public)*
-- **Note:** Triple gate like a triumphal arch. (S02, S01)
+- **Note:** Triple gate like a triumphal arch. Round 6 replaced frontage none m. Round 6 replaced depth none m. (S02, S01)
 - **Plan reader's note:** No gate drawn: a 65 px gap in the N-S wall x=11057 (wall ends at y 1085 and y 1150). Same gaps at x=10823 and x=11314. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 11057, 1117 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **Box:** 10 × 2 m, european, wall
-- **Part:** triple gate like a triumphal arch; size a guess
-- **Faces:** 83.5° from north
+- **Box:** 13.6 × 2 m, european, wall
+- **Part:** triple gate
+- **Faces:** 262.6° from north
 - **Confidence:** C, assumed
 
-## Pictures (3)
+## Pictures (4)
 
 - **P0057** (sure): 线法山门正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-14.jpg
 
   ![P0057](../../photos/images/P0057.jpg)
+
+- **P0768** (guess): Peking Gates [Yuanmingyuan?] (c. mid- to late-1920s (holder)). http://hdl.handle.net/1885/43371
+
+  ![P0768](../../photos/images/P0768.jpg)
 
 - **P0315** (guess): Sirén: The Imperial Palaces of Peking pl. 208 (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199637 Research-only: link card.
 - **P0717** (guess): 线法门 (spoken in the clip: 这张照片是最新发现的一张线法门的照片) (not stated; shown as newly found (S650)). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.

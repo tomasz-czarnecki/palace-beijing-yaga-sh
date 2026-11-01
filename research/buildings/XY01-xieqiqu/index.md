@@ -14,27 +14,27 @@ Hsieh Ch'i Ch'u, Harmonious Strange and Pleasant · Xiyang Lou
 - **Type:** european (S05, S02, S06, S42, S54, S56, S01, S108, S03 · confidence A)
 - **Built:** 乾隆十二年 1747 起 (S02 p.139; S42); 乾隆十六年秋 1751 完成 (S54 lead) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
-- **Position:** 40.01123, 116.30244. S01 sure (S01 · confidence B)
+- **Position:** 40.01120, 116.30244. S850;S01, moved in Round 6: on the ruin, research/xiyanglou/boxes.csv (S01 · confidence B)
 - **Bays:** 7 lower, 3 upper (S06) in the texts (S05, S02, S06, S42, S54, S56, S01, S108, S03)
-- **Size in the inventory:** 39.7 × 38.6 m. typology xiyang_lou, C (S01)
+- **Size in the inventory:** 27.2 × 14.0 m. stated: S01;S850;S108;S71, research/xiyanglou/boxes.csv (S01)
 - **Lead on its size, from a modern study, not used in the model:** Northern staircase: Yangshi Lei plan measurements differ from those on site; plan carries over 120 dimensions; ground-floor cornice of main building, corridor and music pavilion level to within 2 cm (site components added up) (S108, sections 2.2.1, 2.2.3, Fig 8, Fig 10). First Xiyang Lou strip, 谐奇趣 to 黄花阵: 320 x 85 m north-south (S603, p. 123). (confidence B)
 - **Storeys:** 3 (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Roof:** 庑殿顶 (S06) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Tiles:** 红色圆光琉璃瓦, 蓝琉璃脊 (S06) (S05, S02, S06, S42, S54, S56, S01, S108, S03)
-- **Note:** Copper engraving no. 1-2 per S02. Plans Castiglione 郎世宁, fountains Benoist 蒋友仁 (S02 pp.139-140); also Attiret 王致诚 (S42;S56). Malone p.141: 3-storey centre, curved galleries to 2 two-storey towers SE and SW; S06 两层. Only XY building named in S05. Photos of ruins 1860+, 1900+ S02 p.142. (S05, S02, S06, S42, S54, S56, S01, S108, S03)
+- **Note:** Copper engraving no. 1-2 per S02. Plans Castiglione 郎世宁, fountains Benoist 蒋友仁 (S02 pp.139-140); also Attiret 王致诚 (S42;S56). Malone p.141: 3-storey centre, curved galleries to 2 two-storey towers SE and SW; S06 两层. Only XY building named in S05. Photos of ruins 1860+, 1900+ S02 p.142. Round 6 replaced frontage 39.7 m. Round 6 replaced depth 38.6 m. (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Plan reader's note:** Label 谐奇趣 written on the lake south of the building. Main block + curved galleries to two octagon towers + pool, as engraving 1. | plan: rect=126,41,0. Plain double-line rectangle x 8816-8942, y 1465-1506; bays not drawn (text 7 lower, 3 upper). Curved double stair x 8841-8916, y 1506-1550; round landing (8878,1562) r~15; fan stairs at x 8826-8865 and 8895-8932, y 1545-1577. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8824, 1422 (S01) *(research copy, not public)*
 
 ## Our model now
 
-Simple massing of a European palace, assumed: sizes from the texts and the ruin polygons, position from the plan or the ruin. Not a reading of the 1786 engravings yet.
+Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **Box:** 28 × 14 m, european
+- **Box:** 27.2 × 14 m, european
 - **Part:** main block, three levels
-- **Heights:** platform 1 m, eave 12 m, ridge 15 m above the ground
+- **Heights:** platform 1 m, eave 15.1 m, ridge 18.3 m above the ground
 - **Roof:** hip 庑殿, glazed tile
-- **Faces:** 175.1° from north
+- **Faces:** 173.8° from north
 - **Confidence:** C, assumed
 
 ## Inside it (5)
@@ -45,7 +45,7 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 - XY01-N02
 - XY01-N03
 
-## Pictures (34)
+## Pictures (43)
 
 - **P0041** (sure): 谐奇趣南面 (圆明园铜版画册 / 西洋楼铜版画, plate 一 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-17.jpg
 
@@ -60,9 +60,21 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
   ![P0223](../../photos/images/P0223.jpg)
 
 - **P0222** (sure): Xiyang Lou plates, Getty set: The European Pavilions at the Garden of Perfect Clarity (1783-1786 (Getty)). https://www.getty.edu/art/exhibitions/china_paper/ Research-only: link card.
+- **P0779** (sure): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+
+  ![P0779](../../photos/images/P0779.jpg)
+
 - **P0165** (sure): Childe, Thomas: Ruinen von Yüan-ming Yüan, altes Sommerschloss nordwestlich Peking (between 1877 and 1878 (Commons, from zeno.org)). https://commons.wikimedia.org/wiki/File%3AChilde%2C_Thomas_-_Ruinen_von_Y%C3%BCan-ming_Y%C3%BCan%2C_altes_Sommerschloss_nordwestlich_von_Peking_%28Zeno_Fotografie%29.jpg
 
   ![P0165](../../photos/images/P0165.jpg)
+
+- **P0172** (sure): Yüan-ming-yüan. Der alte Sommerpalast, von den Verbündeten 1860 zerstört. Ⅰ 2 (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AY%C3%BCan-ming-y%C3%BCan._Der_alte_Sommerpalast%2C_von_den_Verb%C3%BCndeten_1860_zerst%C3%B6rt._%E2%85%A0_2.jpg
+
+  ![P0172](../../photos/images/P0172.jpg)
+
+- **P0174** (sure): Gezicht op de ruïnes van een deel van het Zomerpaleis, Gezicht op een water bij Peking, Gezicht op de weg naar het Zomerpaleis en Gezicht op een deel van het Zomerpaleis (ca. 1892, in or before 1897 (Commons, Rijksmuseum)). https://commons.wikimedia.org/wiki/File%3AGezicht_op_de_ru%C3%AFnes_van_een_deel_van_het_Zomerpaleis%2C_Gezicht_op_een_water_bij_Peking%2C_Gezicht_op_de_weg_naar_het_Zomerpaleis_en_Gezicht_op_een_deel_van_het_Zomerpaleis%2C_RP-F-2001-7-1126-26.jpg
+
+  ![P0174](../../photos/images/P0174.jpg)
 
 - **P0185** (sure): 谐奇趣 east wing, colonnade and music pavilion (between 1872 and 1873 (Commons); 1873 (hpchina blog)). https://commons.wikimedia.org/wiki/File%3AXieqiqu_East_Wing_Ruins.jpg
 
@@ -84,6 +96,14 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0189](../../photos/images/P0189.jpg)
 
+- **P0298** (sure): Fotografija Ruševine Stare poletne palače (album: "Yüen-Ming-Yüen: Total-Ansicht von Westem") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-stare-poletne-palace/
+
+  ![P0298](../../photos/images/P0298.jpg)
+
+- **P0301** (sure): Fotografija Ruševine gledališča in knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen des Theaters und Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-gledalisca-in-knjiznice-v-stari-poletni-palaci/
+
+  ![P0301](../../photos/images/P0301.jpg)
+
 - **P0645** (sure): CHATEAU EUROPÉEN AU PALAIS D'ÉTÉ (p. 377), Pl. XII (printed caption) (c. 1892 - in or before 1897 (Rijksmuseum, leaf date); book c. 1897). https://id.rijksmuseum.nl/200721138
 
   ![P0645](../../photos/images/P0645.jpg)
@@ -92,35 +112,27 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0718](../../photos/images/P0718.jpg)
 
-- **P0172** (likely): Yüan-ming-yüan. Der alte Sommerpalast, von den Verbündeten 1860 zerstört. Ⅰ 2 (before or in 1902 (Commons)). https://commons.wikimedia.org/wiki/File%3AY%C3%BCan-ming-y%C3%BCan._Der_alte_Sommerpalast%2C_von_den_Verb%C3%BCndeten_1860_zerst%C3%B6rt._%E2%85%A0_2.jpg
+- **P0728** (sure): 谐奇趣 残垣断壁 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E8%B0%90%E5%A5%87%E8%B6%A3_%E6%AE%8B%E5%9E%A3%E6%96%AD%E5%A3%81_-_panoramio.jpg
 
-  ![P0172](../../photos/images/P0172.jpg)
+  ![P0728](../../photos/images/P0728.jpg)
 
 - **P0297** (likely): Fotografija Ruševine gledališča v Stari poletni palači (album: "Yüen-Ming-Yüen: Theater") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-gledalisca-v-stari-poletni-palaci/
 
   ![P0297](../../photos/images/P0297.jpg)
 
-- **P0298** (likely): Fotografija Ruševine Stare poletne palače (album: "Yüen-Ming-Yüen: Total-Ansicht von Westem") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-stare-poletne-palace/
-
-  ![P0298](../../photos/images/P0298.jpg)
-
-- **P0301** (likely): Fotografija Ruševine gledališča in knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen des Theaters und Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-gledalisca-in-knjiznice-v-stari-poletni-palaci/
-
-  ![P0301](../../photos/images/P0301.jpg)
-
 - **P0302** (likely): Fotografija Ruševine knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen der Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-knjiznice-v-stari-poletni-palaci/
 
   ![P0302](../../photos/images/P0302.jpg)
 
-- **P0305** (likely): Fotografija Ruševine knjižnice v Stari poletni palači (album: "Yüen-Ming-Yüen: Ruinen der Bibliothek") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-knjiznice-v-stari-poletni-palaci-2/
+- **P0729** (likely): 制作精美的石雕部件 - panoramio (Taken on 27 May 2011 (Commons)). https://commons.wikimedia.org/wiki/File:%E5%88%B6%E4%BD%9C%E7%B2%BE%E7%BE%8E%E7%9A%84%E7%9F%B3%E9%9B%95%E9%83%A8%E4%BB%B6_-_panoramio.jpg
 
-  ![P0305](../../photos/images/P0305.jpg)
+  ![P0729](../../photos/images/P0729.jpg)
 
 - **P0191** (sure): Ruins of Yuanming Yuan, Summer Palace, Peking, NA01-76 (between 1877 and 1890 (Commons)). https://hpcbristol.net/visual/NA01-76 Research-only: link card.
 
   ![P0191](../../raw/photos/P0191.jpg)
 
-- **P0200** (likely): 圓明園の廢墟（北京郊外）, 亜東印画輯 vol. 2, 163 (not stated (1920s series)). https://commons.wikimedia.org/wiki/File%3A%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_02_163_%22%E5%9C%93%E6%98%8E%E5%9C%92%E3%81%AE%E5%BB%A2%E5%A2%9F%EF%BC%88%E5%8C%97%E4%BA%AC%E9%83%8A%E5%A4%96%EF%BC%89%22.jpg Research-only: link card.
+- **P0200** (sure): 圓明園の廢墟（北京郊外）, 亜東印画輯 vol. 2, 163 (not stated (1920s series)). https://commons.wikimedia.org/wiki/File%3A%E4%BA%9C%E6%9D%B1%E5%8D%B0%E7%94%BB%E8%BC%AF_02_163_%22%E5%9C%93%E6%98%8E%E5%9C%92%E3%81%AE%E5%BB%A2%E5%A2%9F%EF%BC%88%E5%8C%97%E4%BA%AC%E9%83%8A%E5%A4%96%EF%BC%89%22.jpg Research-only: link card.
 
   ![P0200](../../raw/photos/P0200.jpg)
 
@@ -148,6 +160,26 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0441](../../photos/images/P0441.jpg)
 
+- **P0725** (sure): Ruins of Xieqiqu 20130126 (2013-01-26 15:08:00 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Xieqiqu_20130126.JPG
+
+  ![P0725](../../photos/images/P0725.jpg)
+
+- **P0726** (sure): Ruins of Xieqiqu East Wing 20130126 (2013-01-26 14:29:22 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Xieqiqu_East_Wing_20130126.JPG
+
+  ![P0726](../../photos/images/P0726.jpg)
+
+- **P0727** (sure): Ruins of Xieqiqu West Part 20130421 (2013-04-21 17:30:37 (Commons)). https://commons.wikimedia.org/wiki/File:Ruins_of_Xieqiqu_West_Part_20130421.JPG
+
+  ![P0727](../../photos/images/P0727.jpg)
+
+- **P0730** (sure): Xieqiqu 2008 (2008-08-09 15:52:46 (Commons)). https://commons.wikimedia.org/wiki/File:Xieqiqu_2008.jpg
+
+  ![P0730](../../photos/images/P0730.jpg)
+
+- **P0731** (sure): Xieqiqu (2005-04-23 (Commons)). https://commons.wikimedia.org/wiki/File:Xieqiqu.jpg
+
+  ![P0731](../../photos/images/P0731.jpg)
+
 - **P0475** (likely): 雕刻精美的喷水池 - panoramio.jpg (Taken on 27 May 2011 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E9%9B%95%E5%88%BB%E7%B2%BE%E7%BE%8E%E7%9A%84%E5%96%B7%E6%B0%B4%E6%B1%A0_-_panoramio.jpg
 
   ![P0475](../../photos/images/P0475.jpg)
@@ -164,18 +196,28 @@ Simple massing of a European palace, assumed: sizes from the texts and the ruin 
 
   ![P0478](../../photos/images/P0478.jpg)
 
+- **P0732** (likely): VM Yuanmingyuan Changchunyuan 4456 (2009-07-03 (Commons)). https://commons.wikimedia.org/wiki/File:VM_Yuanmingyuan_Changchunyuan_4456.jpg
+
+  ![P0732](../../photos/images/P0732.jpg)
+
 - **P0480** (guess): 制作精美的石雕水槽 - panoramio.jpg (Taken on 27 May 2011 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%88%B6%E4%BD%9C%E7%B2%BE%E7%BE%8E%E7%9A%84%E7%9F%B3%E9%9B%95%E6%B0%B4%E6%A7%BD_-_panoramio.jpg
 
   ![P0480](../../photos/images/P0480.jpg)
 
 
-Of its halls: P0174 (XY01-N01).
+Of its halls: P0305 (XY01-N01).
 
-## Texts and drawings (16)
+## Texts and drawings (26)
 
 - **E0171** (text, sure): 日下舊聞考 法慧寺、宝相寺、谐奇趣. 1780s (乾隆 敕撰) · j83:12a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 海嶽開襟東北為諧竒趣東為法慧寺山門西嚮内為四面延樓後殿為光明性海其西别院有琉璃方塔法慧寺東為寳相寺山門南嚮内為澄光閣後為曇霏閣又後崇基上有殿為現大圓鏡（長春園册）臣等謹案法慧寺山門額曰普香界現大圓鏡殿内額曰香臺華鬘
   The only line in 日下舊聞考 on the European palaces: 諧竒趣 north-east of 海嶽開襟. Then 法慧寺 with a west-facing gate, 四面延樓, 光明性海 and a glazed square pagoda; 寳相寺 with a south-facing gate, 澄光閣, 曇霏閣 and 現大圓鏡 on a raised base.
+- **E2399** (text, sure): Bourgeois on his set and on the colouring; Delatour on its arrival. letter of October 1786; book 1803 · pp.170-172 · S258. https://archive.org/details/BIUSante_40644
+  > l'autre avoit commencé à mettre en couleur la première planche, mais il tomba malade et n'acheva pas. J'ai mis son esquisse, toute imparfaite qu'elle est, dans la caisse
+  Two pupils of Castiglione got Bourgeois a set: one drew the general plan and positions of the buildings, the other began colouring the first plate. Delatour says the sending reached him at the end of 1787 and had certainly left Peking from 1785, against the holder's 'probably 1786'. E0462 has the first part of this passage; this adds the colouring.
+- **E2400** (text, sure): Delatour's plates I, II, II suite. 1803 · pp.173-177 · S258. https://archive.org/details/BIUSante_40644
+  > Planche II. Suite. Elle représente le même palais esquissé pour les couleurs, mais il n'y en a qu'une petite partie sur la gauche dont l'enluminure soit assez terminée pour qu'on puisse distinguer les objets.
+  Delatour's I is the sheet printed 二 (north, dolphin fountain); his II is the sheet printed 一 (south, double stair with the throne niche, pool, hemicycle galleries to octagonal pavilions, three-arch bridge). His own hand on the Rylands sheets says the same.
 - **E0929** (poem, sure): 谐奇趣. 嘉庆三年 (1798) · v4 p.122, under 西洋楼; source ref 1-385 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=125
   > 运水由楼顶，发机务审详。周流虽尽妙，渗漏亦须防。波浪千层叠，珠玑万斛量。纡回伏脉远，灌注溯源长。浩浩终归壑，涓涓始滥觞。观澜奇趣会，至理即包藏。
   Poem 谐奇趣 by the Jiaqing Emperor, 1798, filed by the editors under 西洋楼.
@@ -200,6 +242,8 @@ Of its halls: P0174 (XY01-N01).
 - **E0933** (description, sure): Engraving 2: 谐奇趣 Xieqiqu, north front. 1934 · p.143 · S02. https://archive.org/details/historyofpekings00malo
   > The north front of the Hsieh Ch'i Ch'u faced on a fantastically paved courtyard containing conventionally trimmed trees.
   North front on a patterned paved court with clipped trees. Plates p.142-143 show the ruin after 1860 (from Favier) and after further damage in 1900 and later.
+- **E2409** (description, sure): Detail gain, 3 plates against the catalogue thumbs. crops cmp08, cmp12, cmp15, cmp01 in palace_r6_tmp_plates · S71;S73;S700. 
+  Same regions at 900 px. Plate 8 (P0048): window lattice, shading hatch and baluster ornament resolve, thumb showed them as texture. Plate 12 (P0052): door panel pattern and urn outlines clear. Plate 15 (P0055): water drops and fountain tiers separate, thumb mashes them. Original is 2.6 times wider than the thumb. Plate 1 Chester Beatty against Palace Museum: 2.7 times wider again and far darker: roof tile, hatch and capitals sharp.
 - **E1526** (description, guess): Van Braam, Dutch embassy, January-February 1795. 1934 · pp.167-170 · S02. https://archive.org/details/historyofpekings00malo
   > They are very numerous, of small dimensions, neatly furnished in the Chinese taste, and containing a few books and some very valuable curiosities. Three only of these apartments can boast of European time-pieces.
   Audience in a Tartar tent on the open space at the Drill Field; sled rides along frozen canals; goldfish of 15 inches and more; the emperor's rooms as quoted. They were not allowed to see the European buildings, and had seen twenty drawings of them in Canton. Told of a garden 300 li round with 36 residences; Malone calls this exaggerated.
@@ -207,14 +251,28 @@ Of its halls: P0174 (XY01-N01).
   A blogger's table of what was then visible. These scenes have building remains that have been cleared and tidied. Dated about 2011, so digs since then are not reflected.
 - **E0507** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 西洋楼. 2020 edition · v4 p.120 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=123
   The editors walk the strip from west to east with completion dates and plaques: 谐奇趣 1751, 养雀笼 1759, then the fountains and the perspective walls, with their mechanical details. They put the whole at about 2% of the gardens.
+- **E2432** (description, sure, search index only): Ohlmer on 谐奇趣's colours, from his 1873 visit. 1898, on a visit of 1873 · p.32, cited in Thiriez p.92, as quoted in S838 · S837. https://visualisingchina.net/blog/2022/05/15/charles-frederick-moores-photographs-of-the-ruins-of-the-european-style-palaces-%E8%A5%BF%E6%B4%8B%E6%A5%BC-at-yuanmingyaun-%E5%9C%86%E6%98%8E%E5%9B%AD/
+  A collector of Chinese ceramics who had photographed the ruin: the ornament had all colours of the rainbow, standing out against a white marble ground, reflected in the pool to the south. So the colour of 谐奇趣 was in strong coloured ornament on white marble, not on coloured walls. Excerpt left blank since the translation is modern: fetch the German.
+- **E2423** (description, likely, search index only): Moore print of 谐奇趣 south across the pool, caption "Etat 1879 d'après Moore", Tessier & Sarrou, Paris, 17 Dec 2018, lot 2. state of 1879 by the caption · blog fig. 8; lot link https://www.tessier-sarrou.com/lot/93063/9677632 · S91. https://www.tessier-sarrou.com/lot/93063/9677632
+  The blog orders the south views of 谐奇趣: Ohlmer first, then Moore, then Child. Auction lot not opened.
+- **E2410** (drawing, sure): 谐奇趣 floor plan, Yangshi Lei drawing 985 (Fig. 10). 1744-1751 as printed in S108 · S108 p.78, Fig.10; 'Yangshi Lei drawing 985, National Library of China, Yangshi Lei Archive' · S108. https://isprs-annals.copernicus.org/articles/II-5-W3/75/2015/
+  The most annotated Lei plan known to the authors: over 120 dimensions where most carry up to 20. Its measures for the north stair differ from what they found on site, and traces of change suggest a working draft. They cross-check every Lei figure on the ground. Same sheet seen with shelf no. 样986 at 故宫 in S310 (E0935): see question.
 - **E0544** (drawing, sure, search index only): 西洋楼水法图. 国家图书馆善本部 none shown · S310. https://www.mhymy.com/dasl/ysltd/7643.html
   Plan of the Xiyang Lou waterworks across its dozen sites; the record shows no shelf number. No image here; the site may ask a small payment for the full record.
 - **E0934** (drawing, sure, search index only): 谐奇趣总平面图. 不详 · 国家图书馆善本部 样077-1号 · S310. https://www.mhymy.com/dasl/ysltd/12522.html
   Undated base plan of Xieqi Qu. No image here; the site may ask a small payment for the full record.
 - **E0935** (drawing, sure, search index only): 谐奇趣样式雷图. 不详 · 故宫博物院图书馆 样986号 · S310. https://www.mhymy.com/dasl/344.html
   Undated design and survey sketch with the perspective bridge, the water tower, the aviary and Xieqi Qu. No image here; the site may ask a small payment for the full record.
+- **E2412** (drawing, sure, search index only): 谐奇趣平面图, 墨线 底样. 不详 · 故宫博物院图书馆 样985号 · S310. https://www.mhymy.com/dasl/ysltd/7603.html
+  Ink base plan of 谐奇趣 and its fountains. No. 985 at the Palace Museum library per S310; this is the number S108 cites as the sheet with over 120 dimensions, placing it at the National Library. No figures from it are public.
+- **E2417** (drawing, sure, search index only): 谐奇趣样式雷图 (样986), 朱墨 底样, 设计与踏勘草图. 不详 · 故宫博物院图书馆 样986号 · S310. https://www.mhymy.com/dasl/344.html
+  Update to E0935: red lines mark three supply pipes from 蓄水楼 to 谐奇趣's pools; on the right, field notes of a two-storey elevation, a fountain, and a five-arch sluice elevation. Useful for the pipe run and the 线法桥 sluice.
+- **E2440** (plan, sure): Teng Gu's preface on the photographs and plan. 1932-07 (preface), 1933 (book) · pp.3-5 of the preface, djvu pages 5-7 · S871. https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
+  Teng Gu says the photographs and the plan belonged to Ernst Boerschmann and were taken and drawn by Ohlmer, a customs official in Tianjin who lived in Beijing 1867-1879 and whose collection went to the Hildesheim museum. He argues they are earlier than those in Favier's Péking (1897), Combaz 1909, Perzynski 1920 and Münsterberg 1912, naming pages he compared. Fig. 13 is a recent photograph by Zhou Zuanwu; fig. 15 is copied from Favier p.264.
 - **E0554** (archaeology, sure): 西洋楼区域考古勘探报告. n.d. · mhymy 档案史料 12205, free part · S149. https://www.mhymy.com/dasl/12205.html
   Report's opening: the strip runs 860 m east-west, up to 300 m wide in the west and 65 m at its narrowest, about 70,000 m2, built 1747-1783. A central axis divides it into about five sections, each with its own north-south axis, thirteen units from 谐奇趣 to 线法墙. Survey results are paywalled.
+- **E2438** (archaeology, likely): Copper pipe dug up near 谐奇趣; red line on a 样式房 plan as water route. reported 2020, dig about 2018 · lecture of 郭黛姮 as reported · S848. https://www.thepaper.cn/newsDetail_forward_9648060
+  A Forbidden City 样式房 plan of 谐奇趣 has red lines, which she reads as water routes. Ground-penetrating radar found pipes, and a dig found a well-kept copper pipe. Schlimme's Benoist letter names a hydraulic-machine book whose figure matches the central axle visible through a half-open window on a plate. Independent backing for S600's Belidor.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 谐奇趣. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -246,9 +304,14 @@ Modern interpretation, not evidence.
 - Q8: Known errors of S01
 - Q26: Forms
 - Q32: OSM errors
-- Q35: Xiyang Lou massing (Round 2)
+- Q35: Xiyang Lou massing (Round 2; replaced in Round 6 by `research/xiyanglou/boxes.csv`, each box with its source; still straight runs for curved galleries, and the maze's plan not traced)
 - Q49: Captions overruled by form (old photographs)
 - Q56: Reconstructions against the period evidence
+- Q63: The strip's length (Round 6)
+- Q64: The plan's scale and turn in this strip (Round 6)
+- Q69: Colours of the 1780s state (Round 6)
+- Q72: 谐奇趣 (Round 6)
+- Q75: Fragments and their wording (Round 6)
 
 <!-- generated:end -->
 

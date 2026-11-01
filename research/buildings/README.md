@@ -532,46 +532,46 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [XY01-01](XY01-01-bajiao-zouyue-ting/index.md) | 八角奏乐亭 Bajiao Zouyue Ting | Xiyang Lou | 2 | yes |
 | [XY01-02](XY01-02-haitangxing-penshui-chi/index.md) | 海棠形喷水池 Haitangxing penshui chi | Xiyang Lou | 1 | yes |
 | [XY01-N01](XY01-N01-ba-jiao-zou-yue-ting/index.md) | 八角奏乐亭 Ba Jiao Zou Yue Ting | Xiyang Lou | 2 | yes |
-| [XY01-N02](XY01-N02-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY01-N03](XY01-N03-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY01-N02](XY01-N02-north-stairs-west-flight/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY01-N03](XY01-N03-north-stairs-east-flight/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
 | [XY02](XY02-xushui-lou/index.md) | 蓄水楼 Xushui Lou | Xiyang Lou | 2 | yes |
 | [XY02-01](XY02-01-xianfa-qiao/index.md) | 线法桥 Xianfa Qiao | Xiyang Lou | 0 |  |
 | [XY03](XY03-huayuan-men/index.md) | 花园门 Huayuan Men | Xiyang Lou | 1 | yes |
 | [XY04](XY04-huanghua-zhen/index.md) | 黄花阵 Huanghua Zhen | Xiyang Lou | 12 | yes |
 | [XY04-01](XY04-01-zhongyang-ting/index.md) | 中央亭 Zhongyang ting | Xiyang Lou | 2 | yes |
-| [XY04-N01](XY04-N01-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY04-N02](XY04-N02-unnamed/index.md) | Hall without a name on the plan | Changchun Yuan | 1 |  |
+| [XY04-N01](XY04-N01-two-storey-hall-at-the-back-of-the-maze/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY04-N02](XY04-N02-square-pavilion-on-the-hill-north-of-the-maz/index.md) | Hall without a name on the plan | Changchun Yuan | 1 |  |
 | [XY05](XY05-yangque-long/index.md) | 养雀笼 Yangque Long | Xiyang Lou | 1 | yes |
-| [XY05-AX002](XY05-AX002-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY05-N01](XY05-N01-unnamed/index.md) | small walled court north of 养雀笼 | Xiyang Lou | 2 | yes |
+| [XY05-AX002](XY05-AX002-west-range-of-that-court/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
+| [XY05-N01](XY05-N01-walled-court-north-of/index.md) | small walled court north of 养雀笼 | Xiyang Lou | 2 | yes |
 | [XY06](XY06-fangwai-guan/index.md) | 方外观 Fangwai Guan | Xiyang Lou | 2 | yes |
-| [XY06-B0151](XY06-B0151-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY06-N01](XY06-N01-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY06-B0151](XY06-B0151-small-two-bay-building-with-a-rock-or-pond-f/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY06-N01](XY06-N01-bow-tie-figure-east-of-the-axis/index.md) | Hall without a name on the plan | Xiyang Lou | 0 |  |
 | [XY07](XY07-wuzhu-ting/index.md) | 五竹亭 Wuzhu Ting | Xiyang Lou | 9 | yes |
-| [XY07-B0201](XY07-B0201-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY08](XY08-haiyan-tang/index.md) | 海晏堂 Haiyan Tang | Xiyang Lou | 1 | yes |
+| [XY07-B0201](XY07-B0201-mirror-of-xy06-b0151-south/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY08](XY08-haiyan-tang/index.md) | 海晏堂 Haiyan Tang | Xiyang Lou | 2 | yes |
 | [XY08-01](XY08-01-xushui-chi-xi-hai/index.md) | 蓄水池 (锡海) Xushui chi (Xi Hai) | Xiyang Lou | 1 | yes |
 | [XY08-02](XY08-02-shi-er-shichen-shuifa/index.md) | 十二时辰水法 Shi'er shichen shuifa | Xiyang Lou | 1 | yes |
-| [XY08-AX001](XY08-AX001-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY08-N01](XY08-N01-unnamed/index.md) | 西水?房 | Xiyang Lou | 1 | yes |
-| [XY08-N02](XY08-N02-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY08-N03](XY08-N03-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY09](XY09-yuanying-guan/index.md) | 远瀛观 Yuanying Guan | Xiyang Lou | 2 | yes |
-| [XY09-N01](XY09-N01-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY09-N02](XY09-N02-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY09-N03](XY09-N03-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
-| [XY10](XY10-da-shuifa/index.md) | 大水法 Da Shuifa | Xiyang Lou | 2 | yes |
-| [XY10-N01](XY10-N01-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY10-N02](XY10-N02-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY08-AX001](XY08-AX001-south-wing-of-the-west-block/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
+| [XY08-N01](XY08-N01-xi-shuiche-fang/index.md) | 西水车房 Xi Shuiche Fang | Xiyang Lou | 1 | yes |
+| [XY08-N02](XY08-N02-east-block-with-the-zig-zag-stairs-the-east/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY08-N03](XY08-N03-same-block-south-part/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY09](XY09-yuanying-guan/index.md) | 远瀛观 Yuanying Guan | Xiyang Lou | 2 |  |
+| [XY09-N01](XY09-N01-north-range-behind-west-part/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY09-N02](XY09-N02-north-range-centre/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY09-N03](XY09-N03-north-range-east-part/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
+| [XY10](XY10-da-shuifa/index.md) | 大水法 Da Shuifa | Xiyang Lou | 3 | yes |
+| [XY10-N01](XY10-N01-west-pyramid-fountain/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
+| [XY10-N02](XY10-N02-east-pyramid-fountain/index.md) | Hall without a name on the plan | Xiyang Lou | 2 | yes |
 | [XY11](XY11-guan-shuifa/index.md) | 观水法 Guan Shuifa | Xiyang Lou | 2 | yes |
 | [XY12](XY12-xianfa-shan/index.md) | 线法山 Xianfa Shan | Xiyang Lou | 0 |  |
 | [XY12-01](XY12-01-xianfa-shan-men/index.md) | 线法山门 Xianfa Shan Men | Xiyang Lou | 1 | yes |
 | [XY12-02](XY12-02-shanding-ting/index.md) | 山顶亭 Shanding ting | Xiyang Lou | 1 | yes |
 | [XY13](XY13-luosi-pailou/index.md) | 螺蛳牌楼 Luosi Pailou | Xiyang Lou | 1 | yes |
 | [XY14](XY14-fang-he/index.md) | 方河 Fang He | Xiyang Lou | 0 |  |
-| [XY15](XY15-xianfa-qiang/index.md) | 线法墙 Xianfa Qiang | Xiyang Lou | 12 | yes |
-| [XY15-N01](XY15-N01-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
-| [XY15-N02](XY15-N02-unnamed/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY15](XY15-xianfa-qiang/index.md) | 线法墙 Xianfa Qiang | Xiyang Lou | 13 | yes |
+| [XY15-N01](XY15-N01-north-range-of/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
+| [XY15-N02](XY15-N02-south-range-of/index.md) | Hall without a name on the plan | Xiyang Lou | 1 | yes |
 | [YM01](YM01-zhengda-guangming/index.md) | 正大光明 Zhengda Guangming | Yuanming Yuan | 0 |  |
 | [YM01-01](YM01-01-churu-xianliang-men/index.md) | 出入贤良门 Churu Xianliang Men | Yuanming Yuan | 1 |  |
 | [YM01-02](YM01-02-churu-xianliang-men-qian-shiqiao/index.md) | 出入贤良门前石桥 Churu Xianliang Men qian shiqiao | Yuanming Yuan | 0 |  |
@@ -1862,13 +1862,13 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [G32](G32-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
 | [G33](G33-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G34](G34-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
-| [G35](G35-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
-| [G36](G36-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
+| [G35](G35-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
+| [G36](G36-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
 | [G37](G37-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
-| [G38](G38-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
+| [G38](G38-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G39](G39-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
-| [G40](G40-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
-| [G41](G41-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
+| [G40](G40-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
+| [G41](G41-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G42](G42-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G43](G43-wu-kong-zha/index.md) | 五孔闸 Wu Kong Zha | walls | 1 | yes |
 | [G44](G44-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |

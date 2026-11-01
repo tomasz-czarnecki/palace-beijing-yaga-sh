@@ -76,6 +76,7 @@ function createBuildingPanel({ local, onClose, onOpen }) {
   function linkCard(photo) {
     const card = el("div", "ph-link");
     card.append(el("div", "ph-title", photo.title));
+    if (photo.side_group) card.append(el("div", "ph-shows", [photo.side_group, photo.visible].filter(Boolean).join(": ")));
     card.append(el("div", "ph-meta", [photo.date, photo.creator].filter(Boolean).join(" · ")));
     if (photo.why || photo.era) {
       const d = el("div", "ph-shows");
@@ -112,6 +113,7 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     const cap = el("figcaption");
     const of = photo.of ? `${photo.of[1] || photo.of[0]}: ` : "";
     cap.append(el("div", "ph-title", of + photo.title));
+    if (photo.visible) cap.append(el("div", "ph-shows", photo.visible));
     const meta = el("div", "ph-meta");
     if (!photo.twin || photo.conf !== "sure") meta.append(conf(photo));
     meta.append(document.createTextNode(` ${photo.date || ""}`));
@@ -122,12 +124,14 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     return fig;
   }
 
-  // Pictures under the period they were made in. The first one with an image stands large. Link cards close the block.
+  // Pictures under the period they were made in; on the Xiyang Lou, under the side of the building they show (`side_group`). The first one with an image stands large. Link cards close the block.
   function pictureBlock(photos, into, first = true) {
     const withImage = photos.filter((p) => p.image && !p.link_only);
     let big = first ? withImage[0] : null;
-    for (const [key, title] of GROUPS) {
-      const list = withImage.filter((p) => p.group === key);
+    const bySide = withImage.some((p) => p.side_group);
+    const groups = bySide ? [...new Set(withImage.map((p) => p.side_group))].map((g) => [g, g]) : GROUPS;
+    for (const [key, title] of groups) {
+      const list = withImage.filter((p) => (bySide ? p.side_group : p.group) === key);
       if (!list.length) continue;
       if (withImage.length > 1) into.append(el("h4", "", `${title} (${list.length})`));
       const grid = el("div", "ph-grid");
@@ -267,6 +271,41 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     }
   }
 
+  // A Xiyang Lou object: every figure known of its size, with how it was got. Parts lead the list by key figures; the rest folds.
+  const METHOD = { a: "a survey", b: "b ruin or plan", c: "c engraving", d: "d photograph", e: "e typology or unsurveyed" };
+  function dimensionBlock(rows, into) {
+    into.append(el("p", "bp-line", "How each was got: a, a published survey or measured drawing; b, measured on the plan or the ruin; c, read from the engraving by perspective; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it."));
+    const draw = (rowsNow) => {
+      const t = el("table", "dim");
+      const head = el("tr");
+      for (const h of ["Part", "What", "Size", "How", "Grade", "Source"]) head.append(el("th", "", h));
+      t.append(head);
+      for (const d of rowsNow) {
+        const tr = el("tr");
+        const size = `${d.value} ${d.unit}` + (d.err ? ` ± ${d.err}` : "");
+        const src = [d.source.replaceAll(";", ", "), d.locator].filter(Boolean).join(", ");
+        tr.append(el("td", "", d.part), el("td", "", d.label), el("td", "num", size), el("td", "", METHOD[d.method] || d.method), el("td", "", d.confidence), el("td", "src", d.snippet ? `${src}, search extract` : src));
+        t.append(tr);
+      }
+      return t;
+    };
+    const keys = rows.filter((d) => d.key), rest = rows.filter((d) => !d.key);
+    if (keys.length) into.append(draw(keys));
+    if (rest.length) {
+      const d = el("details", "ev-more");
+      d.append(el("summary", "", keys.length ? `${rest.length} more figures` : `${rest.length} figures`));
+      d.addEventListener("toggle", () => { if (d.open && d.children.length === 1) d.append(draw(rest)); });
+      into.append(d);
+    }
+  }
+
+  function dossierLink(page, into) {
+    if (!page.dossier) return;
+    const a = el("a", "bp-dossier", page.dossier.label);
+    a.href = page.dossier.href;
+    into.append(a);
+  }
+
   // What speaks for the set of buildings: fetched from that page, so nothing is written twice.
   function addFallback(page, slot) {
     for (const f of page.fallback || []) {
@@ -281,6 +320,10 @@ function createBuildingPanel({ local, onClose, onOpen }) {
         hold.remove();
         pictureBlock(other.photos || [], s, f.kind !== "garden");
         evidenceBlock(other.evidence || [], s);
+        if (other.dimensions && other.dimensions.length) {
+          s.append(el("h4", "", `Dimensions of the whole building (${other.dimensions.length})`));
+          dimensionBlock(other.dimensions, s);
+        }
         if (other.reconstructions && other.reconstructions.length) {
           s.append(el("h4", "", `Reconstructions by others (${other.reconstructions.length})`));
           reconBlock(other.reconstructions, s);
@@ -336,6 +379,7 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       body.append(s);
     }
     shown = page.id;
+    dossierLink(page, body);
     const own = page.photos || [];
     if (own.length) {
       const ph = section(`Pictures of it (${own.length})`);
@@ -357,6 +401,11 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       body.append(ev);
     }
     if (page.searched) body.append(el("p", "bp-searched", page.searched));
+    if (page.dimensions && page.dimensions.length) {
+      const s = section(`Dimensions (${page.dimensions.length})`);
+      dimensionBlock(page.dimensions, s);
+      body.append(s);
+    }
     if (page.reconstructions && page.reconstructions.length) {
       const s = section(`Reconstructions by others (${page.reconstructions.length})`);
       reconBlock(page.reconstructions, s);
@@ -463,6 +512,9 @@ function createBuildingPanel({ local, onClose, onOpen }) {
     row("Holder", photo.archive);
     if (photo.era) row("Kind", photo.era === "period" ? "A card model of the repair of 1873–74" : "A modern interpretation, not evidence");
     if (photo.twin) row("Not this building", `It shows ${photo.twin}, a comparable building that stands elsewhere.`);
+    row("Side", photo.side_group);
+    row("Shows", photo.visible);
+    row("For a modeller", photo.reliability);
     row("Identification", photo.of ? `${photo.of[1] || ""} ${photo.of[0]}: ${photo.conf}` : photo.conf);
     row(photo.era ? "As its author states" : "Why", photo.why);
     row("Note", photo.caveat);

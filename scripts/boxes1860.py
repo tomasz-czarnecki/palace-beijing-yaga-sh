@@ -7,7 +7,7 @@ One feature per box. Position, frontage and depth come from research/layers/foot
 basis, on each feature:
   plan     a block drawn on S01; frontage and depth = drawn px / hall scale, reduced to the drawn size where neighbours or water need it (`fit`); heights by class
   stated   a size stated in a source (params.json by_name)
-  xiyang   Xiyang Lou massing from params.json xiyang_lou: every part assumed, C
+  xiyang   Xiyang Lou massing from research/xiyanglou/boxes.csv, each with its source; assumed unless a survey gives its footprint
   layout   a compound with no single hall: boxes laid out from the typology: assumed, C
   default  a row with a position and no block drawn: a small default box: assumed, C
   gate     a gate on the walls layer with no hall there: a small default box: assumed, C
@@ -72,7 +72,7 @@ GRID = Grid()
 BY_NAME_ALIAS = {"文源阁阁": "文源阁", "大宫门门殿": "大宫门", "雷峰夕照": "雷峰夕照殿"}  # the hall's row in buildings.csv and its key in by_name
 GLAZE = {"yellow": ("黄", "金黄"), "blue": ("蓝",), "green": ("孔雀", "绿"), "mixed": ("五色", "二色", "红色", "waves"), "slate": ("石板",), "glazed": ("琉璃", "glazed"), "grey": ("灰",)}
 
-# Xiyang Lou: params.json xiyang_lou, all C. (name of part, building_id, frontage, depth, platform, eave, ridge, roof, extras). Frontage is across the facing direction.
+# Xiyang Lou: research/xiyanglou/boxes.csv. Frontage is across the facing direction.
 EUROPEAN_DEFAULT = {"platform": 0.8, "eave": 7.0, "ridge": 9.5}  # rows of the strip with no massing in params.json: guess, C
 XY_SOURCES = {"XY01": "S108;S06;S03", "XY02": "S02;S109;S01", "XY03": "S02;S109;S01", "XY04": "S109;S02;S01;S06", "XY05": "S02;S01", "XY06": "S06;S03;S01", "XY07": "S06", "XY08": "S109;S110;S03;S01", "XY09": "S109;S03;S01", "XY10": "S109;S06;S01", "XY11": "S01", "XY12": "S01", "XY13": "S01", "XY15": "S06;S01"}
 ROW = {}
@@ -136,108 +136,25 @@ def xy_box(num, bid, x, z, deg, f, d, platform, eave, ridge, roof="hip", tiles="
                platform=platform, eave=eave, ridge=ridge, roof=roof, tiles=tiles, part=part, rolled=rolled, double=double, shape=shape_, stand=stand, european=True, over_water=over_water)
 
 
+def xy_rows(path):
+    return list(csv.DictReader(open(ROOT / "research/xiyanglou" / path, encoding="utf-8", newline="")))
+
+
 def xiyang_lou():
-    """The strip's massing. Numbers from params.json xiyang_lou unless the comment says otherwise; positions from buildings.csv. Every part: assumed, C."""
-    out, n = [], [0]
-
-    def add(bid, x, z, deg, f, d, *a, **k):
-        n[0] += 1
-        out.append(xy_box(n[0], bid, x, z, deg, f, d, *a, **k))
-
-    # 谐奇趣 XY01: main 28 x 14 x 12, corridors, octagons d 8 x 11, pool at the south. Ridge = eave + 3, a guess.
-    x, z = row_xz("XY01")
-    add("XY01", x, z, 175.1, 28, 14, 1.0, 12, 15, part="main block, three levels")
-    ox1, oz1 = row_xz("XY01-01")
-    ox2, oz2 = row_xz("XY01-N01")
-    for bid, ox, oz, side in (("XY01-01", ox1, oz1, -1), ("XY01-N01", ox2, oz2, 1)):
-        add(bid, ox, oz, 175.1, 8, 8, 0.5, 8, 11, roof="pyramid", part="octagonal music pavilion, two storeys", shape_="octagon")
-        # The curved corridor as one straight run from the main block's corner to the pavilion, 4 m wide, 6 m high.
-        cx, cz = offset(x, z, 175.1, -5, -side * 12)
-        ang = math.degrees(math.atan2(oz - cz, ox - cx))
-        length = math.hypot(ox - cx, oz - cz) - 3
-        add(bid, (cx + ox) / 2, (cz + oz) / 2, (ang + 90) % 360, max(length, 6), 4, 0.3, 5, 6, roof="hip", part="corridor (9 bays, curved; a straight run here)")
-    px, pz = row_xz("XY01-02")
-    add("XY01-02", px, pz, 174.8, 30, 18, 0.5, 0.5, 0.5, part="fountain pool", shape_="pool")
-    # 蓄水楼 XY02: 10 x 8 x 9 + north wing, one storey.
-    x, z = row_xz("XY02")
-    add("XY02", x, z, 91.8, 10, 8, 0.5, 6.5, 9, part="reservoir house, two storeys")
-    wx, wz = offset(x, z, 91.8, 0, -9)
-    add("XY02", wx, wz, 91.8, 8, 6, 0.3, 3.5, 5, part="north wing, one storey (size a guess)")
-    # 花园门 XY03: 8 x 3 x 6.
-    x, z = row_xz("XY03")
-    add("XY03", x, z, 174.8, 8, 3, 0.3, 4.5, 6, part="south gate of the maze")
-    # 黄花阵 XY04: outer 73 x 99, walls 1.2 x 0.6; ring d 20, pavilion d 10. The maze's plan is not traced: outer wall and two rings stand for it.
-    x, z = row_xz("XY04-01")
-    deg = 174.6
-    cx, cz = offset(x, z, deg, -5, 0)
-    for inset in (0, 11, 22):
-        w, h = 73 - 2 * inset, 99 - 2 * inset
-        for (a, c, ff, dd, dg) in ((h / 2, 0, w, 0.6, deg), (-h / 2, 0, w, 0.6, deg), (0, -w / 2, h, 0.6, deg + 90), (0, w / 2, h, 0.6, deg + 90)):
-            mx, mz = offset(cx, cz, deg, a, c)
-            add("XY04", mx, mz, dg, ff, dd, 0.0, 1.2, 1.2, part="maze wall, 1.2 x 0.6 m (S109); the plan of the maze is not traced: outer wall and two rings stand for it", shape_="wall")
-    add("XY04-01", x, z, deg, 20, 20, 0.0, 1.0, 1.0, part="round stair base", shape_="octagon")
-    add("XY04-01", x, z, deg, 10, 10, 0.2, 3.5, 7, roof="pyramid", part="central pavilion, timber with a glazed roof (S109)", shape_="octagon", stand=1.0)
-    x, z = row_xz("XY04-N01")
-    add("XY04-N01", x, z, 174.6, 18, 10, 0.5, 6.5, 9, part="north building, two storeys")
-    # 养雀笼 XY05: 20 x 10 x 8, gateway.
-    x, z = row_xz("XY05")
-    add("XY05", x, z, 272.0, 20, 10, 0.5, 6, 8, part="gate-like block")
-    # 方外观 XY06: 13 x 11 x 11 on the terrace of the ruin polygon 44 x 24 (terrace height a guess).
-    x, z = row_xz("XY06")
-    add("XY06", x, z, 174.4, 44, 24.2, 0, 1.0, 1.0, part="terrace and stairs (OSM ruin polygon, S03)", shape_="terrace")
-    add("XY06", x, z, 174.4, 13, 11, 0.2, 8, 11, tiles="blue", part="two storeys, 3 bays, double eaves, blue glaze (S06)", double=True, stand=1.0)
-    # 五竹亭 XY07: five pavilions 6 x 6 x 5 with galleries. Not drawn on S01 (Q15); a row is a guess.
-    x, z = row_xz("XY07")
-    for k in range(-2, 3):
-        mx, mz = offset(x, z, 174.1, 0, k * 11)
-        add("XY07", mx, mz, 174.1, 6, 6, 0.3, 3.5, 5, roof="pyramid", part="pavilion (Q15: not drawn on the plan; five in a row is a guess)")
-        if k < 2:
-            gx, gz = offset(x, z, 174.1, 0, (k + 0.5) * 11)
-            add("XY07", gx, gz, 174.1, 5, 2.4, 0.2, 2.6, 3.2, roof="gable", part="gallery")
-    # 海晏堂 XY08: west block 19 x 44 x 13 facing west, tank block 27 x 10 x 9, east block in rows; pool on the west.
-    x, z = row_xz("XY08")
-    add("XY08", x, z, 262.6, 44, 19, 1.0, 10, 13, part="west block, two storeys, 11 bays on the west front (S109)")
-    x, z = row_xz("XY08-01")
-    add("XY08-01", x, z, 174.0, 27.36, 10, 0.5, 7, 9, part="锡海 tank block; tank 27.36 x 5.72 x 1.44 m (S109, B), block C")
-    x, z = row_xz("XY08-02")
-    add("XY08-02", x, z, 264.2, 27.5, 17.5, 0.5, 0.5, 0.5, part="pool of the twelve hours", shape_="pool")
-    # 远瀛观 XY09: 21 x 18 x 15 on a base of 2 m; the ruin polygon 59 x 51 taken as its terrace.
-    x, z = row_xz("XY09")
-    add("XY09", x, z, 174.7, 59.2, 51.0, 0, 2.0, 2.0, part="terrace (OSM ruin polygon, S03)", shape_="terrace")
-    add("XY09", x, z, 174.7, 21, 18, 0.2, 12, 15, part="three-storey centre, double-eave hip roof (S109)", double=True, stand=2.0)
-    # 大水法 XY10: pool 29 x 19, niche wall 20 x 3 x 9 to the north, two 13-tier towers (height a guess).
-    x, z = row_xz("XY10")
-    add("XY10", x, z, 173.9, 29, 19, 0.5, 0.5, 0.5, part="pool", shape_="pool")
-    nx_, nz_ = offset(x, z, 173.9, -11, 0)
-    add("XY10", nx_, nz_, 173.9, 20, 3, 0.5, 9, 9, part="niche wall", shape_="wall", tiles="stone")
-    for bid in ("XY10-N01", "XY10-N02"):
-        x, z = row_xz(bid)
-        add(bid, x, z, 173.9, 5.3, 6, 0.3, 1.0, 9, roof="pyramid", part="13-tier fountain tower in its pool (S109, S06)", tiles="stone", over_water=True)
-    # 观水法 XY11: platform 12 x 6 x 1 + screen 15 x 1 x 5, facing north to the fountain.
-    x, z = row_xz("XY11")
-    add("XY11", x, z, 353.5, 12, 6, 0, 1.0, 1.0, part="throne platform", shape_="terrace")
-    sx_, sz_ = offset(x, z, 353.5, -4, 0)
-    add("XY11", sx_, sz_, 353.5, 15, 1, 0, 5, 5, part="screen", shape_="wall", tiles="stone")
-    # 线法山 XY12: the mound is in the ground (ground1860.py); pavilion on top, gate below.
-    x, z = row_xz("XY12-02")
-    add("XY12-02", x, z, 173.5, 7.5, 7.5, 0.3, 3.5, 6.6, roof="pyramid", part="small octagon on top", shape_="octagon")
-    x, z = row_xz("XY12-01")
-    add("XY12-01", x, z, 83.5, 10, 2, 0.2, 6, 6, part="triple gate like a triumphal arch; size a guess", shape_="wall", tiles="stone")
-    # 螺蛳牌楼 XY13: 8 x 1.5 x 7.
-    x, z = row_xz("XY13")
-    add("XY13", x, z, 85.9, 8, 1.5, 0.2, 6, 7, roof="gable", part="arch")
-    # 线法墙 XY15: paired screens 6 x 1 x 5. S01 draws 6 per side (Q16); the plan's stagger read by eye.
-    x, z = row_xz("XY15")
-    for k in range(6):
-        along = -24 + k * 9.6
-        off = 25 - k * 3.6
-        for side in (-1, 1):
-            mx, mz = offset(x, z, 85.0, along, side * off)
-            add("XY15", mx, mz, 85.0 - side * 18, 6, 1, 0.0, 5, 5, part="screen for perspective paintings (S06); six per side as on S01 (Q16)", shape_="wall", tiles="stone")
+    """The strip's massing, from research/xiyanglou/boxes.csv: one row per box, each with its source and reason. research/xiyanglou/dimensions.csv holds every figure read; a row states what the box takes of them."""
+    out = []
+    for n, r in enumerate(xy_rows("boxes.csv"), 1):
+        x, z = to_xz(float(r["lon"]), float(r["lat"]))
+        b = xy_box(n, r["building_id"], x, z, float(r["orientation_deg"]), float(r["frontage_m"]), float(r["depth_m"]), float(r["platform_m"]), float(r["eave_m"]), float(r["ridge_m"]), roof=r["roof"], tiles=r["tiles"], part=r["part"], double=r["double"] == "yes", shape_=r["shape"] or None, stand=float(r["stand_m"] or 0), over_water=r["over_water"] == "yes")
+        b.conf, b.src, b.assumed = r["confidence"], r["sources"], r["assumed"] == "yes"
+        out.append(b)
     return out
 
 
-XY_REPLACED = {"XY01", "XY01-01", "XY01-N01", "XY01-02", "XY02", "XY03", "XY04-01", "XY04-N01", "XY05", "XY06", "XY07", "XY08", "XY08-01", "XY08-02", "XY09", "XY10", "XY10-N01", "XY10-N02", "XY11", "XY12-01", "XY12-02", "XY13", "XY15"}
+XY_PARTS = xy_rows("parts.csv")
+XY_MERGED = {r["id"]: r["action"].split(":")[1] for r in XY_PARTS if r["action"].startswith("merge:")}  # rows that are part of another's box: its page, no box of their own
+XY_RETIRED = {r["id"] for r in XY_PARTS if r["action"] == "retire"}  # not a building: row and page stay, no box
+XY_REPLACED = {r["building_id"] for r in xy_rows("boxes.csv")} | set(XY_MERGED) | XY_RETIRED
 
 
 def footprint_boxes():
@@ -633,6 +550,8 @@ def main():
 
     feats = [feature(b) for b in boxes]
     shared = dict(attached)  # rows whose box stands for them, for the pages
+    for row_id, target in XY_MERGED.items():
+        shared[row_id] = next(b.id for b in boxes if b.bid == target)
     by_id = {b.id: b for b in boxes}
     fc = {
         "type": "FeatureCollection",

@@ -49,6 +49,17 @@ def main():
                 row["size_lead"] = f"{row['size_lead']} {tag}".strip()
                 done["size_lead"] += 1
             continue
+        if fact["decision"] == "correct":  # a figure of ours shown wrong: replaced, with the old one kept in the note
+            if row[field] != value:
+                old = row[field]
+                row[field] = value
+                if field in ("frontage_m", "depth_m"):
+                    row["size_source"] = f"stated: {fact['source_id']}, {fact['locator']}"
+                    add_note(row, f"Round 6 replaced {field.removesuffix('_m')} {old or 'none'} m.")
+                elif field in ("lat", "lon"):
+                    row["pos_source"] = f"{fact['source_id']}, moved in Round 6: {fact['locator']}"
+                done["corrected"] = done.get("corrected", 0) + 1
+            continue
         if fact["decision"] == "name":
             zh, py = reading(value)
             if row["name_zh"] != zh:

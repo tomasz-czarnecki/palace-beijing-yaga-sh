@@ -7,13 +7,13 @@ Every picture we know of that shows the gardens before or after 1860, with where
 | Path | What | In git? | Public? |
 |---|---|---|---|
 | `catalog.csv` | one row per picture (`P0001`...) | yes | no |
-| `images/P####.jpg` | **free** images: at most 2000 px up to P0230, at most 1600 px and about 300 KB from then | yes | smaller copies are |
+| `images/P####.jpg` | **free** images: at most 2000 px up to P0230, at most 1600 px and about 300 KB from then; the plates P0041-P0060 and P0223 at 2400 px, full size in `../raw/plates/` | yes | smaller copies are |
 | `../../site/reconstruction/photos/P####.jpg`, `_t.jpg` | free pictures that show an object, 1000 px and 400 px | yes | yes |
 | `../raw/photos/P####.jpg` | **research-only** images, at most 1200 px or the size of a video frame, local use only | **no** | **never** |
 
 ## Numbering
 
-P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang Lou plates (P(40+n) = plate n), P0061–P0100 the 1745 woodcuts, P0101–P0140 the Bertin gouaches, P0141+ other prints, drawings and the photographs. Round 3 from P0231, in the order of its hunts: Qing pictures (with the 1887 lithograph, picture and text page per scene), old photographs, today's photographs. Round 5 from P0548: twins first, in the order of the hunt, with the new old photographs among them.
+P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang Lou plates (P(40+n) = plate n), P0061–P0100 the 1745 woodcuts, P0101–P0140 the Bertin gouaches, P0141+ other prints, drawings and the photographs. Round 3 from P0231, in the order of its hunts: Qing pictures (with the 1887 lithograph, picture and text page per scene), old photographs, today's photographs. Round 5 from P0548: twins first, in the order of the hunt, with the new old photographs among them. Round 6 from P0720: the Xiyang Lou, in the order of its hunts; P0041-P0060 and P0223 replaced by larger copies of the same files.
 
 ## catalog.csv
 
@@ -27,6 +27,8 @@ P0001–P0040 the Forty Scenes album (P00NN = YMNN), P0041–P0060 the 20 Xiyang
 - `crop`: fractions `x0,y0,x1,y1` the web copy is cut to. The album's bifolios show the painting on the site, the file keeps the whole leaf.
 - `relation`: `self`, or `twin:T001;T007` for a picture of another building (`../twins/catalog.csv`). For a twin, `shows` names ours that it speaks for, `CLASS:grand_hall` included, and the grade says how sure it is that the picture shows the named twin, never that it shows ours. The panel keeps it apart, under "Surviving comparable buildings, not this building".
 - `camera_lat` etc. are estimates by eye from form and footprints for old photographs, or a Commons GPS tag: `camera_note` says which.
+
+The side of a Xiyang Lou picture stands in `../xiyanglou/views.csv`.
 
 Dates are never invented: blank means nobody has stated one.
 

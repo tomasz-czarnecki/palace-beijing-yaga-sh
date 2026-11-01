@@ -15,8 +15,9 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 - **Type:** european (S02, S06, S56, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01)
 - **Position:** 40.01221, 116.30817. S01 sure (S01 · confidence B)
+- **Size in the inventory:** 41.7 × 41.7 m. stated: S01, plan's outer ring, local scale (S01)
 - **Where the text puts it:** 远瀛观东 (S42); 线法山门 triple gate (S02 p.159) (S02, S06, S56, S01) *(research copy, not public)*
-- **Note:** Copper engraving no. 17-18 per S02. Circular paths to a hilltop pavilion (S02). (S02, S06, S56, S01)
+- **Note:** Copper engraving no. 17-18 per S02. Circular paths to a hilltop pavilion (S02). Round 6 replaced frontage none m. Round 6 replaced depth none m. (S02, S06, S56, S01)
 - **Plan reader's note:** Label reads 轉馬台 (转马台), the plan's name for 线法山: concentric spiral paths on a round hill; Malone: emperor rode up on horseback. West wall gap at (11057,1117) is the gate. | plan: Round hill, outer diameter ~195 (y 1021-1218), concentric broken ring paths. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 11184, 1121 (S01) *(research copy, not public)*
@@ -30,7 +31,7 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 - XY12-01 线法山门
 - XY12-02 山顶亭
 
-## Pictures (7)
+## Pictures (8)
 
 - **P0057** (sure): 线法山门正面 (圆明园铜版画册 / 西洋楼铜版画, plate 十七 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-14.jpg
 
@@ -40,9 +41,9 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 
   ![P0058](../../photos/images/P0058.jpg)
 
-- **P0059** (likely): 线法山东门 (圆明园铜版画册 / 西洋楼铜版画, plate 十九 of 二十; title and number printed on the plate) (1786 (Commons); Palace Museum: 清). https://commons.wikimedia.org/wiki/File%3A%E5%9C%86%E6%98%8E%E5%9B%AD%E9%93%9C%E7%89%88%E7%94%BB%E5%86%8C-16.jpg
+- **P0779** (likely): 圓明園東長春園平面圖 (第一圖), plan of the Xiyang Lou strip (drawn by Ohlmer, 1867-1879, per Teng Gu's preface; from Börschmann's collection). https://commons.wikimedia.org/wiki/File:CADAL11102995_%E5%9C%93%E6%98%8E%E5%9C%93%E6%AD%90%E5%BC%8F%E5%AE%AE%E6%AE%BF%E6%AE%98%E8%B7%A1.djvu
 
-  ![P0059](../../photos/images/P0059.jpg)
+  ![P0779](../../photos/images/P0779.jpg)
 
 - **P0361** (sure): Xianfashan 20130323.jpg (2013-03-23 14:07:20 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Xianfashan_20130323.jpg
 
@@ -52,11 +53,17 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 
   ![P0362](../../photos/images/P0362.jpg)
 
+- **P0767** (sure): Xianfashan (2005-04-23 (Commons)). https://commons.wikimedia.org/wiki/File:Xianfashan.jpg
+
+  ![P0767](../../photos/images/P0767.jpg)
+
 - **P0306** (guess): Sirén: Illustrated: 272:206 (Imperial Palaces pl. 206) (1922 (holder)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/199343 Research-only: link card.
 - **P0717** (guess): 线法门 (spoken in the clip: 这张照片是最新发现的一张线法门的照片) (not stated; shown as newly found (S650)). https://commons.wikimedia.org/wiki/File:2021-02-24_圆明园中西建筑如何过渡_未彻底损毁前珍贵影像公布.webm Research-only: link card.
 
   ![P0717](../../raw/photos/P0717.jpg)
 
+
+Of its halls: P0768 (XY12-01).
 
 ## Texts and drawings (7)
 
@@ -102,6 +109,7 @@ Modern interpretation, not evidence.
 
 - Q16: 海晏堂's east half and the plan's working names
 - Q60: Captions and claims, old photographs (Round 5)
+- Q73: The east end (Round 6)
 
 <!-- generated:end -->
 

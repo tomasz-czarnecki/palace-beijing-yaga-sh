@@ -22,10 +22,11 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `evidence/` | what is not an image, see below; `evidence/coverage_before_r5.json` the coverage before Round 5, which `tools/check_evidence.py` compares with | hand | yes |
 | `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
 | `reconstructions/catalog.csv` | reconstructions by other people, see below | hand, from Round 5 | yes |
+| `xiyanglou/` | Round 6, the European palaces in depth: one dossier per main building, the sheets they draw on. See below | hand; `scripts/xiyanglou_dossiers.py` | yes |
 | `reconstructions/images/` | free reconstructions, at most 1600 px and about 300 KB | by hand with the catalogue | yes |
 | `buildings/` | one page per row of `buildings.csv` and per gate; `buildings/README.md` the list | `scripts/building_pages.py`, except each page's `## Notes` | yes |
 | `image-credits/CREDITS.md` | the credit of every public picture | `scripts/photos_catalog.py`, between markers | yes |
-| `raw/` | downloaded originals and local builds | `plans/`, `dem/`, `osm/`, `photos/` (research-only), `reconstructions/` (research-only copies), `buildings/`, `plancrops/` | **never** |
+| `raw/` | downloaded originals and local builds | `plans/`, `dem/`, `osm/`, `photos/` (research-only), `reconstructions/` (research-only copies), `buildings/`, `plancrops/`, `plates/` (the 20 plates at full size) | **never** |
 | `overlays/` | `princeton-1920s.jpg` + `.json` (bounds for a Leaflet imageOverlay) | `scripts/georef.py overlay` | **never** |
 
 ### plan/
@@ -96,13 +97,15 @@ uv run python scripts/ground1860.py           # site/reconstruction/generated/: 
 uv run python scripts/boxes1860.py            # data/halls_1860.geojson, generated/structures.json (walls, bridges); prints its checks
 uv run python scripts/photos_catalog.py       # site/reconstruction/photos/, credits (from photos/catalog.csv)
 uv run python tools/plan_crops.py             # raw/plancrops/<ID>.jpg, local only; needs the mosaic
+uv run python scripts/xiyanglou_dossiers.py   # research/xiyanglou/<ID>-<slug>/README.md, dimensions.json, the tables of research/xiyanglou/README.md
 uv run python scripts/building_pages.py       # research/buildings/, data/buildings/<ID>.json, raw/buildings/<ID>.json
+uv run python scripts/xiyanglou_page.py       # site/xiyanglou/index.html, site/zh/xiyanglou/index.html, site/xiyanglou/keyplan.svg
 uv run python tools/check_pages.py            # every clickable object has a page; public copy clean; generator idempotent
 uv run python tools/check_evidence.py         # coverage; no empty evidence section; no research-only image on the site
 uv run python tools/check_docs.py             # these docs match the files
 ```
 
-Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
+Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json`, `xiyanglou/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
 
 **Tested on 2026-10-31 (Round 4), in a scratch copy, in three batches, each compared with the repo:** `build_r1.py` through `building_pages.py` (without `render_r1.py`, `coverage_chart.py`, `plan_crops.py`); `typology_rules.py`, `typology_scale_check.py`, `georef.py`; `trace_plan.py --no-review`. They reproduce every committed file byte for byte. `trace_plan.py` took 45 s, each of the others at most 4 s. Not rerun: `fetch_osm.py` (today's OSM would differ), `clip_dem.py` and `mosaic_plan.py` (they write into `raw/`), `plan_crops.py`.
 
@@ -110,10 +113,10 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 
 | Id | What | Where it lives |
 |---|---|---|
-| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 415 ids, S686 the last; S400 and above are Round 5. Some items have two ids; all stay valid | `sources.md` |
-| `Q1`, ... | an open question. Q1–Q62 | `questions.md` |
-| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0719 the last | `photos/catalog.csv` |
-| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2397 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
+| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 415 ids, S873 the last; S400 and above are Round 5, S700 and above Round 6 (blocks at the head of its section in `sources.md`). Some items have two ids; all stay valid | `sources.md` |
+| `Q1`, ... | an open question. Q1–Q77 | `questions.md` |
+| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0786 the last | `photos/catalog.csv` |
+| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2440 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
 | `T001`, ... | a pairing of one of ours with a standing building. A twin named for two objects has two ids | `twins/catalog.csv` |
 | `R0001`, ... | a reconstruction by other people | `reconstructions/catalog.csv` |
 | `CLASS-grand_hall`, ... | a panel page of what speaks for a class of hall: a twin in the catalogue with `object_id` `CLASS:grand_hall` | `data/buildings/` | `evidence/catalog.csv` |
@@ -200,16 +203,35 @@ What the evidence adds to a row of `buildings.csv`. 575 rows. Applied by `script
 | Field | Meaning |
 |---|---|
 | `id` | the row of `buildings.csv`, or a gate |
-| `field` | built, bays, changed, destroyed, name_en, roof, depth_m, frontage_m, storeys, roof_tiles, size_lead |
+| `field` | built, bays, changed, destroyed, name_en, name_zh, roof, depth_m, frontage_m, lat, lon, storeys, roof_tiles, size_lead |
 | `value` | what it adds. `built` values "by 1759 (first dated item)" are a latest date, not a building date |
 | `source_id`, `locator`, `basis` | where it comes from; `basis` is the quote or the reasoning |
 | `suggest_confidence` | A, B or C, as the finder proposes |
-| `decision` | `apply`; `name` (a label the plan leaves unread, settled by a text; Q38); `note` (kept in `notes`: it measures something else, or conflicts with what the row has); `gate` (for `layers/walls_1860`, waits for that layer's next build); `lead` (seen only in a search summary: not applied); `size_lead` (stated in a reconstruction or a modern study: goes to the column `size_lead` and nowhere else) |
+| `decision` | `apply`; `name` (a label the plan leaves unread, settled by a text; Q38); `correct` (a figure of ours shown wrong, replaced, the old one kept in `notes`: frontage_m, depth_m, lat, lon; Round 6); `note` (kept in `notes`: it measures something else, or conflicts with what the row has); `gate` (for `layers/walls_1860`, waits for that layer's next build); `lead` (seen only in a search summary: not applied); `size_lead` (stated in a reconstruction or a modern study: goes to the column `size_lead` and nowhere else) |
 | `reason` | why that decision |
 
 ## photos/catalog.csv
 
 719 rows, 634 free, 85 research-only, 612 on the site; 153 of them show a twin. Fields and rights: `photos/README.md`. Columns: `photo_id`, `title`, `date`, `date_from`, `date_to`, `kind`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `shows`, `why`, `also_shows`, `camera_lat`, `camera_lon`, `bearing`, `camera_note`, `file`, `width`, `height`, `notes`, `crop`, `relation`.
+
+## xiyanglou/
+
+The European palaces, Round 6. Overview: `xiyanglou/README.md`. `<ID>-<slug>/README.md` is a dossier, written by `scripts/xiyanglou_dossiers.py`, with a hand-written `## Notes` below the markers; `<ID>-<slug>/dimensions.json` is its sheet: `by_method`, `figures` (`id`, `part`, `what`, `label`, `value`, `err`, `unit`, `method`, `confidence`, `source`, `locator`, `snippet`, `key`), `model` (what the boxes take). The csv files are hand-edited from Round 6 on; `docs/rounds/common/palace_r6_merge.py` shows how they were first made.
+
+| File | Fields |
+|---|---|
+| `about.json` | text by building, EN and a zh draft: `slug`, `zh`, `pinyin`, `en` (Malone's), `plates`, `what_en`, `after_en`, `survives_en`, `what_zh`, `after_zh`, `survives_zh`, `sources`; `_overview` for the page's lead. Checked sentence by sentence against the sources in Round 6 |
+| `views.csv` | one row per picture and object: `photo_id`, `id`, `side` (S, N, E, W, roof, fountain, aerial, detail, fragment), `visible_part`, `state` (1780s, ruin, today, moved), `reliability` (high, medium, low: for a modeller), `camera_lat`, `camera_lon`, `bearing`, `camera_note`, `note` |
+| `dimensions.csv` | every figure: `id`, `part`, `what`, `value_m` (or as `other:` says: area, volume), `err_m`, `method` (a published survey or measured drawing; b measured on the plan or ruin footprint; c read from an engraving by perspective; d a ruin photo with a known object; e typology, or a figure with no survey behind it), `confidence`, `source_id`, `locator`, `basis`, `status` (viewed, snippet, run) |
+| `boxes.csv` | one row per 3D box: `building_id`, `part`, `lat`, `lon`, `orientation_deg`, `frontage_m`, `depth_m`, `platform_m`, `eave_m`, `ridge_m`, `roof`, `tiles`, `shape`, `double`, `stand_m`, `over_water`, `confidence`, `assumed`, `sources`, `basis`. First made by `docs/rounds/common/palace_r6_boxes_seed.py` |
+| `parts.csv` | the unnamed rows, identified: `id`, `name_zh`, `name_pinyin`, `name_en`, `what`, `basis`, `source_id`, `confidence`, `action` (name, `merge:<row>`, retire, keep) |
+| `materials.csv` | `id`, `part`, `what`, `colour`, `source_id`, `locator`, `quote_or_basis`, `confidence`, `status` |
+| `fragments.csv` | `id`, `what`, `material`, `from_where_stated`, `now_at`, `now_place_zh`, `moved`, `status_today`, `source_id`, `locator`, `link`, `confidence`, `web_status`, `note`. Claims that do not hold are kept, and say so |
+| `facts.csv` | as found, by building: `id`, `field` (built, changed, designer, function, name_en, roof, bays, after1860), `value`, `source_id`, `locator`, `quote_or_basis`, `suggest_confidence`, `status` |
+| `rephoto.csv` | `id`, `old`, `new`, `same_view` (exact, close, rough), `what_changed`, `note` |
+| `best.csv` | the top views for modellers: `id`, `rank`, `photo_id`, `why` |
+| `impressions.csv` | every impression of the plates found: `plate`, `title`, `date`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `width`, `height`, `notes`. P0041-P0060 stay the panel's plates |
+| `viewpoints.csv` | where each plate was drawn from, estimated: `plate`, `photo_id`, `id`, `lat`, `lon`, `bearing`, `dist_m`, `err_m`, `basis` |
 
 ## twins/catalog.csv
 
@@ -271,9 +293,9 @@ Only on the site:
 Constants with their sources stand at the top of `scripts/boxes1860.py` and `scripts/ground1860.py`, levels in `scripts/scene1860.py`.
 
 - **`halls_1860`** (1636): one feature per box, `basis` says what it stands on: `plan` (a block drawn on S01; 1500), `stated` (a size in a source; 9), `xiyang` (79), `layout` (11), `default` (14), `gate` (23) (these four `assumed: true`, C). Size comes down from the hall scale towards the drawn size where a neighbour or water needs it (`fit`), and may move a little (`moved_m`). Q34.
-- **Its other properties:** `assumed`, `id`, `building_id`, `parent_id`, `name`, `garden`, `hall_class`, `frontage_m`, `depth_m`, `orientation_deg`, `sources`, `confidence`; `platform_m`, `eave_m`, `ridge_m`, `mid_eave_m`, `tiers_m` (storeyed roofs); `roof` (gable, hip_gable, pyramid, hip), `rolled`, `double`, `rolls`, `tiles`; `ground_m`, `foot_m`, in metres on the datum; `over_water` (13); `also` (other rows this box stands for); `shape` (wall, octagon, pool, terrace), `european`, `part` (what a guessed part is), `stand` (a base height). The file also has `shared_rows`: rows sharing another row's box.
+- **Its other properties:** `assumed`, `id`, `building_id`, `parent_id`, `name`, `garden`, `hall_class`, `frontage_m`, `depth_m`, `orientation_deg`, `sources`, `confidence`; `platform_m`, `eave_m`, `ridge_m`, `mid_eave_m`, `tiers_m` (storeyed roofs); `roof` (gable, hip_gable, pyramid, hip), `rolled`, `double`, `rolls`, `tiles`; `ground_m`, `foot_m`, in metres on the datum; `over_water` (13); `also` (other rows this box stands for); `shape` (wall, octagon, pool, terrace; court and basin on the Xiyang Lou), `european`, `part` (what a guessed part is), `stand` (a base height). The file also has `shared_rows`: rows sharing another row's box.
 - **Heights and roofs:** `typology/params.json` by `hall_class`; a stated hall in `by_name` wins. A hall deeper than 1.5 x its class's depth takes parallel rolls (`rolls`).
-- **Xiyang Lou:** massing from `params.json` `xiyang_lou`, placed by hand in `xiyang_lou()` from the rows' positions; not from the footprints, which the plan draws schematically. Q35.
+- **Xiyang Lou:** massing from `xiyanglou/boxes.csv`, each box with its position, size, sources and reason: on the ruin where one can be read, at the plan's ground scale, with heights from the plates (Q64, Q65). `assumed` is off where a survey gives the footprint. Rows that a part merges into share the target's box (`shared_rows`), and a retired row has none (`xiyanglou/parts.csv`). The layers `footprints_1860` and `walls_1860` stay on the plan.
 - **No box:** rows with no position, labelled plots, the 寿山 ridge, water, docks, sluices (reasons in `boxes1860.py`).
 - **Ground:** flat base land 45 m and one water level 43.5 m (EGM2008), from `terrain/README.md`; islands +0.8 m, hills as mounds from `hills_1860`, 线法山 from `params.json`. No DEM cell is used as a height: it holds today's trees and fill. Land is cut exactly to `water_1860`, with a bank down to the water. Q34.
 - **Generated files:** `generated/ground.json` (frame, levels, offsets), `ground.bin` (positions and indices per part), `ground_grid.i16` (5 m raster for walk mode and `boxes1860.py`), `structures.json` (`wall`, `bridges`).
@@ -298,6 +320,7 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 | `fallback` | what speaks for the set of buildings: `[{kind, id, name, heading}]`, `kind` being compound, nearest (with `metres`), garden or class. With `refs_only` it brings only that page's reconstructions and twins, folded. The panel fetches that page, so nothing is written twice |
 | `searched` | a line saying what was searched and not found; blank when it has its own picture and text |
 | `questions`, `sources` | `{id, title}`; the cited sources with licence and link |
+| `dimensions`, `dossier` | Xiyang Lou only: the figures of `dimensions.json` (a building has all of them, a part its own); the link to its section of the public page |
 
 **Parent fallback,** `fallback_of()` in `scripts/building_pages.py`:
 - a hall leans on its compound, and on the garden too if the compound has no picture or text;
@@ -307,6 +330,8 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 - anything else leans on the nearest named compound, with the distance, and the garden.
 
 A row also gets, with `refs_only`, its garden if the fallback does not already hold it, and for a hall its class (`refs_of()`). So a hall inherits its compound's reconstructions and twins under the compound's heading, the way it inherits the evidence.
+
+**On the Xiyang Lou** a picture also has `side_group`, `visible` and `reliability`, and the panel heads its pictures by side, the front first, with "Ruins today" last, instead of by period. The Dimensions block follows the plan's link. A part's fallback brings its building's figures. Other gardens' pages have none of these keys.
 
 **In the panel,** in this order: own pictures, own texts and drawings, the plan as a link card (image only on localhost), the `searched` line; **Reconstructions by others**, labelled modern interpretation, not evidence, free images first; **Surviving comparable buildings, not this building**, with relation and source; then what speaks for the set of buildings. Pictures with a `guess` tie are marked and sort last.
 
