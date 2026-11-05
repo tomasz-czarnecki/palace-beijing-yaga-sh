@@ -13,7 +13,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01221, 116.30059. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.01219, 116.30059. S01 block, unnamed (S01 · confidence B)
 - **Size in the inventory:** 14.1 × 12.1 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 8137, 899 (S01) *(research copy, not public)*
 

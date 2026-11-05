@@ -14,7 +14,7 @@ Qichun Yuan
 - **Built:** 嘉庆初年 (S43); 1801 (S06, S43, S49, S01, S220, S224, S361, S310)
 - **Changed:** 道光元年 1821 大规模改建增饰; 戏台改盖成殿宇 (S43;S49); 同治十二年 1873 renamed 天地一家春 (never finished; S220); S224: renamed 永春堂 under Daoguang for the dowager. But S220 (1852) and an 1838 drawing title still use 敷春堂, and the 1873 edict renames 敷春堂; 1821 stage made into a hall; 1873 renamed 天地一家春 in the unfinished repair; 敷春堂 front hall: 响堂炕 (heated bed-platform) added 道光十八年正月 (1838), 地炕 in the west end bay 咸丰五年九月 (1855); the Empress Dowager 孝和 lived here 1823-1849 (S06, S43, S49, S01, S220, S224, S361, S310)
 - **Destroyed:** some buildings outlasted 1860; lost around 1900 (S06, S43, S49, S01, S220, S224, S361, S310)
-- **Position:** 40.00130, 116.30611. S01 likely (S01 · confidence B)
+- **Position:** 40.00133, 116.30612. S01 likely (S01 · confidence B)
 - **Bays:** 5, 工字 plan in the texts (S06, S43, S49, S01, S220, S224, S361, S310)
 - **Where the text puts it:** 中和堂之后 (S06) (S06, S43, S49, S01, S220, S224, S361, S310) *(research copy, not public)*
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Empress dowager quarters in Daoguang-Xianfeng (S43; S02 p.174). (S06, S43, S49, S01, S220, S224, S361, S310)

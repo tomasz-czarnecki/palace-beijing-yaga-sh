@@ -14,7 +14,7 @@ west range of that court · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01201, 116.30284. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.01195, 116.30285. S01 block, unnamed (S01 · confidence B)
 - **Size in the inventory:** 9.6 × 3.6 m. S01 plan px / hall scale (S01)
 - **Note:** Part of XY05-N01: Same object as XY05-N01: its west range, a block the plan-to-row step cut out of the court. (S01, Round 6). (S01)
 - **Plan pixels:** 9027, 998 (S01) *(research copy, not public)*
@@ -23,8 +23,8 @@ west range of that court · Xiyang Lou
 
 Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 13.62 × 5.4 m, eave 7 m, ridge 9.5 m
-- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.73 × 8.7 m, eave 7 m, ridge 9.5 m
+- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 13.58 × 5.4 m, eave 7 m, ridge 9.5 m
+- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.72 × 8.55 m, eave 7 m, ridge 9.5 m
 - **Confidence:** C, all assumed
 
 ## Pictures (0)

@@ -11,7 +11,7 @@ outside the walls
 - **Garden:** outside the walls (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99967, 116.28846. S01 block, unnamed (S01 · confidence B)
+- **Position:** 39.99967, 116.28847. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 12.2 × 6.9 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 2342, 6502 (S01) *(research copy, not public)*
@@ -23,7 +23,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 12.2 × 6.9 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.22 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 176.7° from north
+- **Faces:** 176.6° from north
 - **Confidence:** B
 
 ## Pictures (0)

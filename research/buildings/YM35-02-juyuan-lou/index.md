@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** tower (S05, S01 · confidence C)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00551, 116.29900. S01 guess (S01 · confidence C)
+- **Position:** 40.00552, 116.29899. S01 guess (S01 · confidence C)
 - **Plan reader's note:** 聚远楼 candidate; text puts it 南 of the bridge, where the plan shows no building at all. S111 confirms a 聚远楼 on the south shore. | no box: the plan shows a labelled plot, hill or dock here, not a hall (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 7027, 4305 (S01) *(research copy, not public)*

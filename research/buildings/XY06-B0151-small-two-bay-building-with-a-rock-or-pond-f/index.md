@@ -14,7 +14,7 @@ small two-bay building with a rock or pond form, in the garden east of 养雀笼
 - **Garden:** Xiyang Lou (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01208, 116.30308. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.01202, 116.30309. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S01)
 - **Size in the inventory:** 7.4 × 6.9 m. S01 plan px / hall scale (S01)
 - **Note:** Building drawn, 6.4 x 4.9 m at ground scale, at the north-west corner of 方外观's garden against the wall x=9088; a kidney-shaped form beside it. No plate shows it clearly; not 方外观's. Its mirror is XY07-B0201. (S01, Round 6). (S01)
@@ -28,7 +28,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Part:** a block drawn on the plan in the Xiyang Lou strip; heights a guess
 - **Heights:** platform 0.8 m, eave 7 m, ridge 9.5 m above the ground
 - **Roof:** hip 庑殿, glazed tile
-- **Faces:** 174.5° from north
+- **Faces:** 174.6° from north
 - **Confidence:** C, assumed
 
 ## Pictures (1)
@@ -54,7 +54,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q64: The plan's scale and turn in this strip (Round 6)
 
 <!-- generated:end -->
 

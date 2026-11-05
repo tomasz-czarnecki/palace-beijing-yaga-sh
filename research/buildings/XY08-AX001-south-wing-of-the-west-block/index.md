@@ -14,7 +14,7 @@ south wing of the west block · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01172, 116.30487. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.01169, 116.30488. S01 block, unnamed (S01 · confidence B)
 - **Size in the inventory:** 15.3 × 9.4 m. S01 plan px / hall scale (S01)
 - **Note:** Part of XY08: Mirror of plan block B0154, the north wing, in the stepped outline of the west block (the reader's A-cc_xyl-001 at (9840,1192)). The box generator's west block already covers it. (S01, Round 6). (S01)
 - **Plan pixels:** 9840, 1192 (S01) *(research copy, not public)*

@@ -12,7 +12,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S06, S01)
 - **Type:** other (S05, S06, S01 · confidence B)
 - **Destroyed:** stood until the 1960s (S06) (S05, S06, S01)
-- **Position:** 40.01153, 116.31173. S01 guess (S01 · confidence C)
+- **Position:** 40.01154, 116.31171. S01 guess (S01 · confidence C)
 - **Note:** East water exit, also j80:7b. Pulled down 1950s-60s (S06). (S05, S06, S01)
 - **Plan reader's note:** No 七孔闸 label on the plan. Best candidate: hourglass structure with 5 spans at G20, on the east edge where water passes east towards the fields ('又东出七空閘灌溉稻田'). Count is 5, text 7. Other candidate: neck at (12192,4995) on the south moat. Keep C. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*

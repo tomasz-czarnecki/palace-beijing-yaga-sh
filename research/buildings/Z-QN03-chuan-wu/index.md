@@ -12,7 +12,7 @@ outside the walls
 - **Garden:** outside the walls (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99757, 116.30918. S01 sure (S01 · confidence B)
+- **Position:** 39.99750, 116.30925. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label only, on blank paper south of the road, no shape beside it. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 10540, 8695 (S01) *(research copy, not public)*

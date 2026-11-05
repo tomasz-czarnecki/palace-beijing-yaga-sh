@@ -27,7 +27,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 4.8 × 6 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 5.91 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 177.3° from north
+- **Faces:** 177.2° from north
 - **Confidence:** B
 
 ## Pictures (0)

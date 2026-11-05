@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** other (S05, S06, S01, S360, S361, S940 · confidence B)
 - **Built:** by 1747 (first dated item) (S05, S06, S01, S360, S361, S940)
 - **Destroyed:** 1860 (S05, S06, S01, S360, S361, S940)
-- **Position:** 40.00812, 116.30734. S01 sure (S01 · confidence B)
+- **Position:** 40.00814, 116.30734. S01 sure (S01 · confidence B)
 - **Bays:** 7 in the texts / 10x1 on the plan (S05, S06, S01, S360, S361, S940)
 - **Size in the inventory:** 39.7 × 17.2 m. S01 plan px / hall scale (S01)
 - **Roof:** 重檐歇山 (double-eave hip-and-gable), 7 bays (S05, S06, S01, S360, S361, S940)
@@ -29,11 +29,11 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 36.15 × 12.23 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.69 m above the ground
+- **Box:** 36.21 × 12.5 m, grand hall
+- **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.78 m above the ground
 - **Roof:** hip-and-gable 歇山, double eaves 重檐, grey tile
-- **Faces:** 171.9° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.2 m
+- **Faces:** 172.3° from north
+- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.3 m
 - **Confidence:** B
 
 ## Pictures (0)

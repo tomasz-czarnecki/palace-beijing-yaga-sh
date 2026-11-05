@@ -12,7 +12,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01, S111)
 - **Type:** compound (S01, S111 · confidence B)
 - **Destroyed:** 1860 (S01, S111)
-- **Position:** 40.01082, 116.29918. S01 sure (S01 · confidence B)
+- **Position:** 40.01083, 116.29918. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts (S01, S111)
 - **Plan reader's note:** Label (7550,1660). S111: 松风阁 is the five-bay hall east of 藏密楼, absent from 日下旧闻考. 翠云幄 candidate included. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

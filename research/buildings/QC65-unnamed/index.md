@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00298, 116.29981. S01 likely (S01 · confidence B)
+- **Position:** 40.00301, 116.29979. S01 likely (S01 · confidence B)
 - **Plan reader's note:** UNLABELLED walled court with long rows B1135 B1163 and a gate hall south. Name unknown. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 7276, 5627 (S01) *(research copy, not public)*

@@ -13,7 +13,7 @@ Hsien Fa Shan Tung Men, East Gate to Hsien Fa Hill · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S56, S01)
 - **Type:** european (S02, S06, S56, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01)
-- **Position:** 40.01224, 116.30878. S01 sure (S01 · confidence B)
+- **Position:** 40.01223, 116.30878. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 22.9 × 3.0 m. stated: S01;S71, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** 山东为线法山东门 所谓螺丝牌楼 (S06) (S02, S06, S56, S01) *(research copy, not public)*
 - **Note:** Copper engraving no. 19 per S02. 3 arches with vine carving (S02 p.159). Round 6 replaced frontage 8.0 m. Round 6 replaced depth 1.5 m. (S02, S06, S56, S01)

@@ -15,7 +15,7 @@ Changchun Yuan
 - **Built:** 乾隆十八年 1753 poems [j83:7b]; 1752 (S05, S06, S01, S361)
 - **Changed:** c. 1808 south-east rebuilt, 碧静堂 (S05, S06, S01, S361)
 - **Destroyed:** 1860 (S05, S06, S01, S361)
-- **Position:** 40.00547, 116.30545. S01 likely (S01 · confidence B)
+- **Position:** 40.00551, 116.30546. S01 likely (S01 · confidence B)
 - **Note:** S06 and most modern texts write 茜园. Malone p.98 one of the three pretty gardens. (S05, S06, S01, S361)
 - **Plan reader's note:** Blue 3 at (9670,4570). No hall labelled. 3 linked pools and a long winding wall. Identified by Malone 3 and by the gate label ?园门 (first char reads like 蒨) at (9640,4760). (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

@@ -16,7 +16,7 @@ Yuanming Yuan
 - **Type:** other (S05, S01, S360, S361 · confidence B)
 - **Built:** by 1755 (first dated item) (S05, S01, S360, S361)
 - **Destroyed:** 1860 (S05, S01, S360, S361)
-- **Position:** 40.01010, 116.29411. S01 sure (S01 · confidence B)
+- **Position:** 40.01012, 116.29412. S01 sure (S01 · confidence B)
 - **Bays:** 7 in the texts / 7x2 on the plan (S05, S01, S360, S361)
 - **Size in the inventory:** 25.8 × 15.4 m. S01 plan px / hall scale (S01)
 - **Note:** S06 calls the 7-bay main hall 双鹤斋; 1755 poem: 廓然大公扁即在後室 [j82:24a]. bays: 7, with 5-bay annex (S361, v3 p.67). (S05, S01, S360, S361)
@@ -31,7 +31,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 25.8 × 15.4 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 9.54 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.5° from north
+- **Faces:** 173.7° from north
 - **Confidence:** B
 
 ## Pictures (1)

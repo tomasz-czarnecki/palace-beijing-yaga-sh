@@ -4,6 +4,9 @@ What would replace the biggest guesses. Most valuable first.
 
 | What | Replaces | Where held | How |
 |---|---|---|---|
+| A scan of the 1933 survey 《实测圆明园长春园万春园遗址形势图》 (S15, 1:2,000) | The placement where today's ground has nothing left: the western plain, the NW fields, the walls (Q186, Q189); control and check points by the hundred, read on a survey made before the 1960s-70s digging | NLC; the copy given to the park by 康睦 | Library request; the park's office |
+| A walk along the north and west walls of Yuanming Yuan and the west side of Changchun Yuan with a phone GPS: where the rebuilt wall's footing shows old brick, and which of the plan's three lines it follows | Q186 (17-53 m on the north wall), Q187 (Changchun's west part 12-23 m east) | Site | Visit; 2 hours |
+| A reader on Changchun Yuan's west channels and bridge abutments, at z19, with the 谐奇趣 ruins as a tie | Q187: the region's one systematic error | Esri imagery, our crop tool `tools/georef_crops.py` | A worker, 30 min |
 | 样式雷 谐奇趣 sheet no. 985 with over 120 dimensions (S108, S310), 东水车房 样094-4, 线法墙地样, 黄花阵地基图样 样337-146 | The first absolute sizes for 谐奇趣; the first modelling target's biggest guesses (Q72) | 《国家图书馆藏样式雷图档·圆明园卷》 初编 and 续编; 故宫博物院图书馆 for 985, 986 | Library, or S108's authors |
 | Pirazzoli-t'Serstevens 1987 (S604), her Rapport Mission Palais d'Eté 1986-87, Durand's plans at scale; Adam 1936 (S37) with 金勋's twelve plans and elevations of 1924 | Every c-figure on 海晏堂 and 谐奇趣; 远瀛观's order (Q67); 105 m (Q70) | Editions Recherche sur les Civilisations; CCA library; Lazarist press, Peking 1936 | Library request |
 | 西洋楼区域考古勘探报告 (S149), 远瀛观遗址考古发掘简报 (S153) in full, and the digs of 2015-16 at 海晏堂 and 养雀笼 | Plan positions of 蓄水楼, 养雀笼 (±15 m), the terrace of 远瀛观, risers and treads on the stairs | mhymy paid or mini-program; 北京市考古研究院 | By hand |

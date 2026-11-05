@@ -132,9 +132,9 @@ Machine-readable: `dimensions.json`. Figures by method: a 1, b 3, c 0, d 0, e 0.
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | YM54 | the sea 福海 | Diameter | 1950 m | 1000 | a | C | S911 | p.16 | lieue de Paris about 3.9 km | près d'une demi-lieue de diamètre en tous sens: about half a league = c. 1.9 km; far more than the plan's c. 500-600 m (see question row), so an exaggeration | viewed |
-| YM54 | the lake 福海 | Extent, long side | 579 m | 10 | b | B | S01 | layers/water_1860 W0001, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | the water traced from S01, islands included in the rectangle | run |
-| YM54 | the lake 福海 | Extent, short side | 573 m | 10 | b | B | S01 | layers/water_1860 W0001, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | the water traced from S01, islands included in the rectangle | run |
-| YM54 | the lake 福海 | Lake area | 257900 m² | 20600 | b | B | S01 | layers/water_1860 W0001, UTM 50N, polygon area | UTM 50N | the water traced from S01, islands left out | run |
+| YM54 | the lake 福海 | Extent, long side | 580 m | 10 | b | B | S01 | layers/water_1860 W0001, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | the water traced from S01, islands included in the rectangle | run |
+| YM54 | the lake 福海 | Extent, short side | 572 m | 10 | b | B | S01 | layers/water_1860 W0001, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | the water traced from S01, islands included in the rectangle | run |
+| YM54 | the lake 福海 | Lake area | 258300 m² | 20700 | b | B | S01 | layers/water_1860 W0001, UTM 50N, polygon area | UTM 50N | the water traced from S01, islands left out | run |
 
 ## Gaps and wishlist
 

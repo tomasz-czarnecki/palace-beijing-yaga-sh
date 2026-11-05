@@ -45,6 +45,7 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Open questions
 
+- Q64: The plan's scale and turn in this strip (Round 6)
 - Q74: Two buildings called 蓄水楼 (Round 6)
 
 <!-- generated:end -->

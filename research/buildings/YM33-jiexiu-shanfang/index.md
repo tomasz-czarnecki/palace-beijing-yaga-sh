@@ -16,7 +16,7 @@ The House Which Meets the Beauty of the Hills · Yuanming Yuan
 - **Built:** 雍正时期 (S51); 1731 (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Changed:** 观鱼跃 replaced by 观澜堂 c. 1817 (S51); differs on plans (S41); Under Jiaqing a small court modelled on Yangzhou's 九峰园 was rebuilt as 观澜堂, then the largest three-roll hall in the gardens (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Destroyed:** 1860 (S05, S02, S08, S41, S51, S01, S361, S945)
-- **Position:** 40.00687, 116.30149. S01 sure (S01 · confidence B)
+- **Position:** 40.00688, 116.30150. S01 sure (S01 · confidence B)
 - **Note:** Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Plan reader's note:** Plan names only 观澜堂; no 接秀山房 label. Malone 33 at (8020,3560). S111: after about 1817 the scene was in fact called 观澜堂. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

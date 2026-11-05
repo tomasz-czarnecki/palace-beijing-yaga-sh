@@ -15,7 +15,7 @@ Changchun Yuan
 - **Type:** other (S05, S01, S940 · confidence B)
 - **Changed:** moved north 1770 for 淳化轩 [j83:5b] (S05, S01, S940)
 - **Destroyed:** 1860 (S05, S01, S940)
-- **Position:** 40.00883, 116.30716. S01 sure (S01 · confidence B)
+- **Position:** 40.00885, 116.30716. S01 sure (S01 · confidence B)
 - **Bays:** 7 bays with front and back 抱厦 porches in the texts / 8x3 on the plan (S05, S01, S940)
 - **Size in the inventory:** 34.7 × 26.9 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label in the court south of the cross-shaped hall x 10490-10630, y 2820-2910. (S01) *(research copy, not public)*
@@ -26,10 +26,10 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 31.52 × 18.66 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.97 m above the ground
+- **Box:** 31.57 × 18.81 m, grand hall
+- **Heights:** platform 1.22 m, eave 6.34 m, ridge 13.02 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.3° from north
+- **Faces:** 172.4° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.4 m
 - **Confidence:** B
 

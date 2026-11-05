@@ -25,7 +25,7 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** side hall: 10.76 × 7.41 m, eave 3.64 m, ridge 6.41 m
+- **1 ×:** side hall: 10.78 × 7.36 m, eave 3.64 m, ridge 6.4 m
 - **1 ×:** small house: 32.1 × 6.3 m, eave 3.2 m, ridge 5.36 m
 - **Confidence:** B
 

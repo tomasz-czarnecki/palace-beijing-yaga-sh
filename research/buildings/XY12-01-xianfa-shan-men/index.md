@@ -14,7 +14,7 @@ Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S01)
 - **Type:** gate (S02, S01 · confidence A)
 - **Destroyed:** 1860 (S02, S01)
-- **Position:** 40.01219, 116.30785. S01 likely (S01 · confidence B)
+- **Position:** 40.01217, 116.30786. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 13.6 × 2.0 m. stated: S01;S71, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** engraving 17 (S02 p.159) (S02, S01) *(research copy, not public)*
 - **Note:** Triple gate like a triumphal arch. Round 6 replaced frontage none m. Round 6 replaced depth none m. (S02, S01)

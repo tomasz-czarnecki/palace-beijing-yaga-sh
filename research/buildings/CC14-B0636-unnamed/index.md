@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00808, 116.30925. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.00807, 116.30925. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S01)
 - **Size in the inventory:** 9.6 × 6.0 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 11306, 3395 (S01) *(research copy, not public)*

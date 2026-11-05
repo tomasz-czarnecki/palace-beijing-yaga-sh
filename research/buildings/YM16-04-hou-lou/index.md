@@ -27,7 +27,7 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** storeyed hall: 24.49 × 9.7 m, eave 5.95 m, ridge 9.17 m
+- **1 ×:** storeyed hall: 24.48 × 9.7 m, eave 5.95 m, ridge 9.17 m
 - **1 ×:** storeyed hall: 22.08 × 9.91 m, eave 5.95 m, ridge 9.17 m
 - **Confidence:** B
 

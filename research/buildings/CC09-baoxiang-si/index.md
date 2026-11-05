@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** temple (S05, S47, S01, S361 · confidence B)
 - **Built:** 1747 (S05, S47, S01, S361)
 - **Destroyed:** 1860 (S05, S47, S01, S361)
-- **Position:** 40.01123, 116.30539. S01 sure (S01 · confidence B)
+- **Position:** 40.01122, 116.30540. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label on the east. Temple rises north to a hall on a platform. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 10022, 1485 (S01) *(research copy, not public)*

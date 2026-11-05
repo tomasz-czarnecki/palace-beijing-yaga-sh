@@ -14,7 +14,7 @@ Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S01)
 - **Type:** pavilion (S02, S06, S01 · confidence A)
 - **Destroyed:** 1860 (S02, S06, S01)
-- **Position:** 40.01221, 116.30817. S01 likely (S01 · confidence B)
+- **Position:** 40.01219, 116.30818. S01 likely (S01 · confidence B)
 - **Bays:** 1x1 on the plan (S02, S06, S01)
 - **Size in the inventory:** 6.9 × 6.9 m. stated: S01;S71, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** hilltop (S02 p.159) (S02, S06, S01) *(research copy, not public)*

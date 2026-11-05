@@ -14,7 +14,7 @@ Qichun Yuan
 - **Built:** 乾隆三十八年 1773 (S49 lead) (S49, S42, S47, S06, S01, S220, S221, S228)
 - **Changed:** Later a villa, Tsinghua housing and factories; 三圣殿 lost; repaired and rebuilt 2002-2011 (S49, S42, S47, S06, S01, S220, S221, S228)
 - **Destroyed:** Outside the wall, escaped 1860 and 1900 (S49); survives in part; repaired 2002-11 (S49, S42, S47, S06, S01, S220, S221, S228)
-- **Position:** 39.99924, 116.30340. S01 sure (S01 · confidence B)
+- **Position:** 39.99923, 116.30342. S01 sure (S01 · confidence B)
 - **Where the text puts it:** 绮春园正宫门之西 (S49) (S49, S42, S47, S06, S01, S220, S221, S228) *(research copy, not public)*
 - **Note:** Lama temple. 占地12660 m2, 建筑近3000 m2 (S49). Remaining: 山门, 文殊亭, 配殿. No fire loss: treat as standing in 1860. (S49, S42, S47, S06, S01, S220, S221, S228)
 - **Plan reader's note:** Walled, own south gate B1409. The scroll gap x 8630-8670 cuts it. East strip x 8675-8710 holds a row of small halls (monks?). Label south of B1376. | plan: Compound label. (S01) *(research copy, not public)*
@@ -150,6 +150,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
+- Q7: Accuracy of the georeference, honestly
 - Q8: Known errors of S01
 - Q52: Smaller conflicts
 - Q123: Commons File:1963-05_1963年_北京正觉寺金刚宝塔.jpg (人民画报, PD) came up for 正觉寺
@@ -159,6 +160,7 @@ Modern interpretation, not evidence.
 - Q153: Brief
 - Q177: QC11
 - Q178: QC11
+- Q190: Check points whose reading was doubted after writing, kept as written
 
 <!-- generated:end -->
 

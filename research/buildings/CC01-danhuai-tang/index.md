@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S44, S01 · confidence B)
 - **Built:** 乾隆十二年 1747 宫门 (S44); poem 1749 [j83:3b] (S05, S44, S01)
 - **Destroyed:** 1860 (S05, S44, S01)
-- **Position:** 40.00592, 116.30896. S01 sure (S01 · confidence B)
+- **Position:** 40.00594, 116.30896. S01 sure (S01 · confidence B)
 - **Note:** S44: 宫门区 南起影壁 北至众乐亭 220 x 95 m, 2.1万 m2, 建筑面积2650 m2. Also 勤政殿 (S44). S49 spells 淡怀堂. (S05, S44, S01)
 - **Plan reader's note:** Label south of the hall, faded blue 1 at (11105,4670). South gate 长春园 (G21). 云容水态 (B0718) and 长桥 lie outside, north across the water. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -120,6 +120,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
+- Q7: Accuracy of the georeference, honestly
 - Q9: Bay counts, plan against text
 - Q14: A label names which hall?
 - Q20: Name variants

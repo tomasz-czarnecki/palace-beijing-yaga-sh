@@ -12,7 +12,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01335, 116.30119. S01 likely (S01 · confidence B)
+- **Position:** 40.01329, 116.30119. S01 likely (S01 · confidence B)
 - **Plan reader's note:** G05. Rooms B0006, B0007 along the wall. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8430, 285 (S01) *(research copy, not public)*

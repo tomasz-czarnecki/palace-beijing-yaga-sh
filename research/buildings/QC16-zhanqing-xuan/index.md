@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S06, S42, S49, S01, S220, S361 · confidence B)
 - **Built:** 嘉庆十九年 1814 (S06, S42, S49, S01, S220, S361)
 - **Destroyed:** survived 1860 (S49 lead) (S06, S42, S49, S01, S220, S361)
-- **Position:** 40.00033, 116.30199. S01 guess (S01 · confidence C)
+- **Position:** 40.00035, 116.30198. S01 guess (S01 · confidence C)
 - **Bays:** 3, open hall in the texts (S06, S42, S49, S01, S220, S361)
 - **Where the text puts it:** 西南部 (S06); 四宜书屋南 (S42 11559) (S06, S42, S49, S01, S220, S361) *(research copy, not public)*
 - **Note:** S06 湛清斋. S44 has 湛静斋 for an 1840 death: probably another name; open. (S06, S42, S49, S01, S220, S361)

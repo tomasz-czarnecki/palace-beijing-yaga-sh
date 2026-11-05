@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** temple (S05, S02, S47, S01, S361 · confidence B)
 - **Built:** 1747 (S05, S02, S47, S01, S361)
 - **Destroyed:** 1860 (S05, S02, S47, S01, S361)
-- **Position:** 40.01082, 116.30447. S01 sure (S01 · confidence B)
+- **Position:** 40.01081, 116.30447. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label south of the ring court. Square ring of bays = 四面延楼. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 9620, 1660 (S01) *(research copy, not public)*

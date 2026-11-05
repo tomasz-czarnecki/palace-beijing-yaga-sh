@@ -78,7 +78,7 @@
    "part": "water inside the scene's outline",
    "what": "water_area",
    "label": "Water inside the outline",
-   "value": 22980.0,
+   "value": 23000.0,
    "err": 2300.0,
    "unit": "m²",
    "method": "b",

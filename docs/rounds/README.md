@@ -18,6 +18,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r5_refs` | not recorded | 21:45–23:26 | 101 min | - | see its result row | see the git log | done |
 | `palace_r6_xiyanglou` | not recorded | 2026-11-01, from 00:58 | see its log | - | see its result row | see the git log | done |
 | `palace_r7_scenes` | not recorded | 2026-11-05, from 16:19 | see its log | - | see its result row | see the git log | done |
+| `palace_r8_georef` | not recorded | 2026-11-05, from 17:57 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -182,4 +183,23 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - No free modern photograph found for eight wave 1 scenes; no new old photograph of any scene outside the Xiyang Lou.
 - Typology proposals (Q182-Q185) are not applied. No native reader for the zh pages.
 - The brief's 日下旧闻考 j80-87 holds Changchun Yuan in j83 only; j84 is 清漪园.
+
+## palace_r8_georef
+
+**Asked:** make the map more accurate: a blind, fixed check set first; a piecewise fit region by region against the previous fit and a plain affine; walls and gates from the new fit, reconciled with today's; fix Q64 (walls through the maze and 谐奇趣) and Q71 (the 大水法 court); water and islands against today's shores; boxes rerun; an accuracy layer on the dev map; `tools/check_georef.py`.
+
+**Delivered:** `research/georef/check_points.json`, 22 blind check points frozen by hash, with `readings_r8/` (the readers' lines and notes); `control_r8.csv` (9 read by eye, 7 used) and `control_shapes.csv` (12 Xiyang Lou ruins of Round 6, 7 lakes; the rebuilt maze, interpolated rows and a re-dug pond left out with the reason); `princeton-1920s.json` (the fit in use) beside `princeton-1920s.previous.json` (Round 1, rebuilt byte for byte); `check_baseline.json`, `shift_r8.json`, `shores_r8.json`; `research/layers/georef_error.geojson` and the dev map's "Placement accuracy" toggle; `scripts/georef_readings.py`, `scripts/control_derived.py`, the Round 8 part of `scripts/georef.py`; `tools/check_georef.py`, `tools/georef_crops.py`, `tools/georef_shift.py`, `tools/shore_check.py`, `tools/wall_check.py`; the wall rule and the hill trim in `scripts/build_r1.py`, the sunken court in `scripts/ground1860.py`; Q7, Q31, Q64, Q71 updated, Q186-Q190, three wishes. Readers' brief: `common/palace_r8_readers.md`.
+
+**Timeline** (the progress log): reading, the mosaic refetched from the museum (`research/raw/` held only `buildings/`) and the pipeline rerun with no diff, 17:57-18:04; before screenshots 18:04; five readers 18:12-18:47 and a sixth for Qichun from 18:25, while the coordinator wrote the fit, the checks and the court; wave 2 with the changed rule 18:47-18:57; frozen 18:59; fit 19:01; walls and Q64 by 19:08; the derived controls made independent of the fit and the chain checked for idempotence by 19:11; screenshots and docs to the end.
+
+**Accuracy, on the frozen check set** (median / 90% / max in metres, n): all, previous 19.8 / 38.4 / 45.9, affine 22.0 / 51.4 / 64.0, fit in use 19.7 / 38.7 / 46.3 (22). YM west 21.9 / 35.7 / 39.1 (2), YM east 18.9 / 22.0 / 22.8 (3), both kept on the Round 1 fit; Fuhai 15.5 to 15.1 (2); Changchun 20.7 to 20.5 (9); Xiyang Lou 7.7 to 7.8 (1); Qichun 21.3 to 21.2 (5). Foundations in place 2-8 m, re-dug shores and channel mouths 14-46 m.
+
+**Checked:** `tools/check_georef.py`, `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_docs.py` pass; `scripts/building_pages.py` run twice; the placement chain run twice gives the same files. Screenshots before and after in `screenshots/r8/` from one page load each (Tomasz's Xiyang Lou camera, the 大水法 court, 福海, 九洲清晏, the western plain) and the dev map with the accuracy layer, opened.
+
+**Went wrong or left open:**
+- The six readers ran in the background, the Agent tool's default, as in Round 7; the coordinator kept its turn open until all had returned, twice.
+- The first rule (60 m from any Round 1 fit point) left 19 check points: Round 1 had used most sharp features that survive. It became 30 m before any error was computed; four regions still have three points or fewer, the Xiyang Lou one.
+- The new fit gains nothing that matters: under 0.4 m in any region, worse in YM west and east, which keep Round 1's. The placement is limited by what survives on the ground, not by the transform.
+- The first lake derivation read the water layer, which follows the fit, so the chain was not a fixed point; it reads the tracing in plan pixels now. It also skipped lakes OSM keeps as relations (福海 among them); none of those passes the agreement rule.
+- Not done: the outer walls of Yuanming Yuan stay where Round 1 traced them although today's rebuilt north wall lies 17-53 m outside (Q186); Changchun's west part reads 12-23 m east (Q187); no DEM-derived shore or hill top was used (GLO-30's 30 m cells hold trees and fill); the Forty Scenes leaves and the 1933 plan were not used as control (no metric position; no scan).
 

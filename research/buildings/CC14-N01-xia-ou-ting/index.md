@@ -15,7 +15,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01, S201)
 - **Type:** pavilion (S01, S201 · confidence B)
 - **Destroyed:** 1860 (S01, S201)
-- **Position:** 40.00829, 116.30986. S01 likely (S01 · confidence B)
+- **Position:** 40.00827, 116.30986. S01 likely (S01 · confidence B)
 - **Bays:** 1 in the texts / 1x1 on the plan (S01, S201)
 - **Size in the inventory:** 5.3 × 6.3 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label in the big north-east court x 11490-11610, y 3325-3490; reads 狎鷗亭 (second char like 鷗). Only a pavilion at the north end fits 亭. (S01) *(research copy, not public)*

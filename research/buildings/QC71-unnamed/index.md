@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00041, 116.30682. S01 sure (S01 · confidence B)
+- **Position:** 40.00043, 116.30681. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Kitchen group. Third label 薬(药)房 or 苏房. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 9810, 7240 (S01) *(research copy, not public)*

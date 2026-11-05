@@ -30,7 +30,6 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
 - **Faces:** 175° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 4.5 m
-- **Water:** stands partly over the water layer: on piers or on a bank too thin for the layer to show
 - **Confidence:** C, assumed
 
 ## Pictures (1)

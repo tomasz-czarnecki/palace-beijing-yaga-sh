@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S44, S06, S01)
 - **Type:** other (S44, S06, S01 · confidence C)
 - **Destroyed:** 1860 (S44, S06, S01)
-- **Position:** 40.00518, 116.30910. S01 guess (S01 · confidence C)
+- **Position:** 40.00522, 116.30909. S01 guess (S01 · confidence C)
 - **Where the text puts it:** 宫门前大影壁 (S44) (S44, S06, S01) *(research copy, not public)*
 - **Plan reader's note:** No large screen drawn south of the gate within the box. Two L-shaped stubs at (10955,4905) and (11113,4902) flank the gate; two small squares at (11001,4977), (11069,4974) in the gate court. South of y 5100 not read. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*

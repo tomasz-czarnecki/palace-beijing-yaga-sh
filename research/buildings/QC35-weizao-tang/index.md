@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S06, S01, S361)
 - **Type:** scene (S06, S01, S361 · confidence B)
 - **Destroyed:** 1860 (S06, S01, S361)
-- **Position:** 40.00145, 116.30564. S01 sure (S01 · confidence B)
+- **Position:** 40.00147, 116.30565. S01 sure (S01 · confidence B)
 - **Bays:** 3, on a high terrace in the texts / 3x1 on the plan (S06, S01, S361)
 - **Size in the inventory:** 13.4 × 6.3 m. S01 plan px / hall scale (S01)
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. (S06, S01, S361)
@@ -27,7 +27,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 13.4 × 6.3 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.7° from north
+- **Faces:** 175° from north
 - **Confidence:** B
 
 ## Inside it (8)

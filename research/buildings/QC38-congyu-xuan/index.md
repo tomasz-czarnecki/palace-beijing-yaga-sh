@@ -13,7 +13,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S06, S01)
 - **Type:** scene (S06, S01 · confidence B)
 - **Destroyed:** 1860 (S06, S01)
-- **Position:** 40.00097, 116.30567. S01 likely (S01 · confidence B)
+- **Position:** 40.00100, 116.30567. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 7.9 × 8.5 m. S01 plan px / hall scale (S01)
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. (S06, S01)
 - **Plan reader's note:** First char 涼 or 淙; top stroke unclear. Hall at (9418,6920) north of the label; hexagonal pavilion left of the label. | plan: rect=33,28,0. See compounds. (S01) *(research copy, not public)*
@@ -27,7 +27,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 7.9 × 8.5 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 6.11 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 174.3° from north
+- **Faces:** 175.7° from north
 - **Confidence:** B
 
 ## Inside it (4)

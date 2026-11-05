@@ -17,7 +17,7 @@ Changchun Yuan
 - **Built:** 1747 (S05, S06, S44, S01, S112, S361)
 - **Changed:** 1769 and 1791 repairs (S05, S06, S44, S01, S112, S361)
 - **Destroyed:** 1860 (S05, S06, S44, S01, S112, S361)
-- **Position:** 40.00592, 116.30896. S01 sure (S01 · confidence B)
+- **Position:** 40.00594, 116.30896. S01 sure (S01 · confidence B)
 - **Bays:** 9 in the texts / 5x3 on the plan (S05, S06, S44, S01, S112, S361)
 - **Size in the inventory:** 30 × 25.7 m. stated in a source (S01)
 - **Roof:** 卷棚歇山 (S06) (S05, S06, S44, S01, S112, S361)
@@ -33,7 +33,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **Box:** 30 × 25.7 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.34 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 3 parallel rolls 勾连搭, grey tile
-- **Faces:** 172.1° from north
+- **Faces:** 172° from north
 - **Confidence:** B
 
 ## Pictures (2)

@@ -30,7 +30,7 @@
    "part": "the scene's outline on the plan",
    "what": "extent_short",
    "label": "Extent, short side",
-   "value": 41.0,
+   "value": 40.0,
    "err": 10.0,
    "unit": "m",
    "method": "b",

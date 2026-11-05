@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01, S111)
 - **Type:** tower (S01, S111 · confidence B)
 - **Destroyed:** 1860 (S01, S111)
-- **Position:** 40.01082, 116.29918. S01 sure (S01 · confidence B)
+- **Position:** 40.01083, 116.29918. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x1 on the plan (S01, S111)
 - **Size in the inventory:** 17.5 × 3.84 m. stated: S111, section 涵虚朗鉴 (S01)
 - **Plan reader's note:** Label just south. S111 five bays: fits. (S01) *(research copy, not public)*

@@ -23,7 +23,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 25.1 × 6.9 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.56 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 174.7° from north
+- **Faces:** 174.8° from north
 - **Confidence:** B
 
 ## Pictures (0)
@@ -38,7 +38,7 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the nearest named compound, 同乐园, about 120 m away (no picture of this hall found): see YM44
+- Evidence for the nearest named compound, 同乐园, about 110 m away (no picture of this hall found): see YM44
 - Evidence for the whole garden, 圆明园 Yuanming Yuan (no picture of this hall found): see GARDEN-YM
 - Standing buildings comparable to a small house (not this building): see CLASS-small_house
 

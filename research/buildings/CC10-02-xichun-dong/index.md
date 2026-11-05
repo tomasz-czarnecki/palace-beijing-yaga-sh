@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence C)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01095, 116.30679. S01 guess (S01 · confidence C)
+- **Position:** 40.01095, 116.30680. S01 guess (S01 · confidence C)
 - **Plan reader's note:** '轩下石室': no chamber drawn; placed in the rockery south of 翠交轩. Keep C. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 10562, 1720 (S01) *(research copy, not public)*

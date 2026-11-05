@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 - **1 ×:** small house: 11.32 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **1 ×:** main hall: 19.9 × 6.9 m, eave 4.4 m, ridge 6.77 m
-- **1 ×:** pavilion square: 7.28 × 7.23 m, eave 3.68 m, ridge 7.05 m
+- **1 ×:** pavilion square: 7.29 × 7.23 m, eave 3.68 m, ridge 7.05 m
 - **1 ×:** small house: 20.1 × 6.6 m, eave 3.2 m, ridge 5.46 m
 - **1 ×:** main hall: 17.5 × 6 m, eave 4.4 m, ridge 6.46 m
 - **1 ×:** pavilion square: 6.9 × 6 m, eave 3.68 m, ridge 6.47 m

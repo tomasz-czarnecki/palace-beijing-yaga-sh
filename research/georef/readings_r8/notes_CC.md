@@ -1,0 +1,48 @@
+- K-CC-01 bridge at SW corner of 海岳开襟 lake, channel mouth west of 思永斋 (likely)
+- skipped: double-rhombus pavilion at SE corner of 海岳开襟 lake (plan 9815,3307): today's curved structure there does not match the pavilion form
+- K-CC-02 NW corner of the north lake (likely)
+- north-central lake (CC-nc): east shore strip and finger peninsula on the plan do not match today's shore clearly; no point taken there for now
+- skipped: 鉴园 compound (plan 12313,3977): no foundation readable on Esri z19 under the trees
+- skipped: 映清斋 island SE corner (plan ~11935,4170): plan shows a wide smooth curve with several concentric lines, today's corner is squared; forms differ
+- 如园 foundations (CC-ruz): displayed platforms today, but the match of hall to platform is not certain (spacing differs); left for a later look
+- skipped: 茜园 gourd pond (plan ~9713,4491): today's small enclosed pond by the shore may be its top bulb, but size and shape not sure
+- K-CC-03 SW tip of peninsula at NW corner of 海岳开襟 lake (likely)
+- skipped: NE peninsula tip by the east wall (plan ~12236,2533): today's z19 shows only tree crowns, shore not readable
+- skipped: SW corner of the north lake / rockery strip north of 含经堂 (plan ~9986,2613): plan shows rockery and small ponds, today a path strip; forms do not match
+- skipped: SE corner of the garden wall (plan ~12475,5000): today's corner follows the modern road curve (r about 40 m, moat ditch), the plan corner is tight (r about 15 m on the outer line); no wall line visible inside
+- K-CC-04 south mouth of channel east of 思永斋 (likely)
+- K-CC-05 south end of narrow channel at SE corner of the north lake (likely; surroundings changed)
+- skipped: 如园 halls (CC-ruw): the big displayed platform today may be 延清堂 with its west wing, but the SW platform does not sit where the plan's west hall is (about 20 m off in form); hall-to-platform identity not certain
+- K-CC-06 SW end of the diagonal causeway at the south end of the channel west of 思永斋 (likely)
+- skipped: rockery strip and ponds between the 海岳开襟 lake and the 含经堂 west lake (CC-w1z): plan forms (rockery islets, small ponds) not seen today
+- skipped: 大东门 east gate (plan ~12485,3189): nothing of the gate or its outer bridge visible today (trees, road)
+- CHECK SET CLOSED at 6 points (K-CC-01..06) at 18:30 UTC. Reason: in CC most of the plan's small forms (rockery islets, inner ponds, the corner curves of the wall) do not match today's re-dug shores closely enough for a sure identity; the east and SE (鉴园, 如园, 大东门, SE wall corner, 映清斋 SE) were tried and skipped for that reason. The check set is thin in the east and south-east.
+- not used: SW corner of Changchun Yuan wall, old fit point W13 is 7 m away
+- skipped: 映清斋 island inner channel (CC-yqi): the plan's long curved inner channel and today's U-shaped bay differ in orientation; identity not sure
+- C8-CC-01 apex of the 翠交轩 promontory, north lake north shore (likely)
+- C8-CC-02 NE corner of the north lake, rounded turn (likely)
+- skipped: north tip of the long strip between the 海岳开襟 lake and the north lake (img 116.30478,40.01050; plan ~9750,1960): good hook form on both, but exactly 60 m from K-CC-02, too close for a control
+- skipped again: NE corner of 思永斋 island and the double-rhombus pavilion (CC-sine): today's boat-shaped frame in the water does not match the plan pavilion; the plan's two shore lines there are ambiguous
+- skipped: junction of the Changchun south wall with a N-S wall line (plan ~10376,4644): today only a service road and a faint path there, not proven to stand on the wall
+- C8-CC-03 茜园 projecting shore section, NW corner (likely)
+- skipped: east wall of Changchun Yuan and its NE water gate (CC-ne2): today a tree strip and path beside the road, no wall line readable; the plan's narrow N-S pond inside the wall does not match today's wider inlet
+- skipped: 宝相寺 / 法慧寺 foundations (CC-bxs): under trees today, nothing readable
+- C8-CC-04 琴清斋 jetty platform centre, NE lake north shore (sure)
+- skipped: south lake peninsula south of 含经堂 (CC-pen): today's SW-pointing peninsula is larger and sharper than the plan's broad lobe; identity not sure
+- skipped: 思永斋 island SW corner (CC-sisw): the plan has a lagoon inside the island's west side and a corner on its south shore; today the lagoon is gone and the south shore is a straight diagonal
+- not taken: north tip of the long strip (hook form good on both) lies 59.9 m from K-CC-02, under the 60 m rule
+- END 18:42 UTC: check 6 (K-CC-01..06), control 4 (C8-CC-01..04). Doubts: K-CC-01 sits on a modern footbridge over the old channel mouth; K-CC-05's channel is kept but the inlet north of it is land today; C8-CC-01 and C8-CC-02 are points on smooth curves (a few metres along the shore). Gaps left: east wall, SE corner, 如园, 鉴园, 映清斋 — no feature there could be matched with certainty.
+- WAVE 2 started 18:48 UTC (check points need 30 m from old fit, 60 m from any check point). Skipped-only-for-distance features: strip tip is 59.9 m from K-CC-02 (check-to-check rule still 60 m, still out); SW wall corner 7 m from W13 (still out).
+- K-CC-07 (wave 2) 淳化轩 hall platform centre in 含经堂 (likely)
+- skipped (wave 2): 海岳开襟 island landings: today's island is larger and not round, its tips do not sit where the plan's four landings are; not sharp
+- skipped again (wave 2): 如园 (CC-ru2): today's big platform is 37 x 35 m against 22 x 34 m for 延清堂 on the plan and does not project into the lake as drawn; the white square to its SW may be a shed; identity not sure
+- skipped (wave 2): 玉玲珑馆 island SE corner (CC-ylse): plan shore and today's water edge differ in form
+- K-CC-08 (wave 2) 澹怀堂 hall platform centre (likely; width differs about 5 m)
+- skipped again (wave 2): 延清堂 of 如园 (CC-sez2): the displayed platform and the building SW of it do not keep the plan's spacing; identity not sure
+- K-CC-09 (wave 2) 玉玲珑馆 island NW corner (likely)
+- skipped again (wave 2): 映清斋 (CC-yq2): the plan's winding double-line channel round the compound is not seen today (one large wooded island)
+- not taken (wave 2): NE corner of the 澹怀堂 compound on the lake (form fits) is under 60 m from K-CC-08; south-lake north shore below 映清斋 does not match in length
+- skipped (wave 2): 流香渚 west shore of the 海岳开襟 lake (CC-lxz): today a straight wooded bank, the plan's ponds and pavilion are gone
+- skipped (wave 2): loop in the east lake west of 鉴园 (CC-fin): today's ring is a path loop, the plan's winding double-line stream does not match it
+- WAVE 2 END 18:56 UTC: 3 more check points (K-CC-07 淳化轩 platform, K-CC-08 澹怀堂 platform, K-CC-09 玉玲珑馆 island NW corner); no new control (the wall gaps still unreadable). Totals: check 9, control 4. Controls C8-CC-01..04 stay over 60 m from every check point.
+- skipped (wave 2, after the end line): 鉴园 / 漱琼斋 (CC-jy2): the plan's compound projects west into the lake; today the east shore is straight and wooded, no platform visible. Stopped at 18:57 UTC; totals unchanged (check 9, control 4).

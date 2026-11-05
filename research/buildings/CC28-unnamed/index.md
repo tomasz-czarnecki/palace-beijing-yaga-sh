@@ -12,7 +12,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01184, 116.30249. S01 likely (S01 · confidence B)
+- **Position:** 40.01179, 116.30250. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Open court between the maze gate and the north front, with the fountain figure. Malone: fantastically paved courtyard. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8876, 1094 (S01) *(research copy, not public)*

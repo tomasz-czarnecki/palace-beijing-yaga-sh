@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01059, 116.30175. S01 sure (S01 · confidence B)
+- **Position:** 40.01056, 116.30176. S01 sure (S01 · confidence B)
 - **Plan reader's note:** G14. Text: 五空出水闸在明春门北: fits, 明春门 being at y 2670. Block B0327 rejected as a building. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8526, 1752 (S01) *(research copy, not public)*

@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** tower (S05, S01 · confidence C)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00579, 116.30342. S01 guess (S01 · confidence C)
+- **Position:** 40.00581, 116.30343. S01 guess (S01 · confidence C)
 - **Bays:** 3x1 on the plan (S05, S01)
 - **Size in the inventory:** 9.6 × 6.9 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** North range. (S01) *(research copy, not public)*

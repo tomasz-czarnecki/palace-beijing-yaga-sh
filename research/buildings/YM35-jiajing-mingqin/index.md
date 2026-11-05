@@ -15,7 +15,7 @@ Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) · Yuanming 
 - **Built:** 雍正朝 (S43); Yongzheng (S05, S02, S08, S43, S01, S361, S310)
 - **Changed:** c. 道光十年 (1830): the natural-rock south shore of 福海 replaced by dressed-stone revetment, 463.36 m long, 2.24 m high above the base slab (one 浆板, four courses of large blocks, one cap course); three pavilions in the east rebuilt at the same time (S05, S02, S08, S43, S01, S361, S310)
 - **Destroyed:** 1860 (S05, S02, S08, S43, S01, S361, S310)
-- **Position:** 40.00563, 116.29822. S01 sure (S01 · confidence B)
+- **Position:** 40.00563, 116.29821. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label (6710,4290), Malone 35 at (6775,4085). South shore of Fuhai from 湖山在望 to 南屏晚钟. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 6715, 4200 (S01) *(research copy, not public)*

@@ -178,7 +178,9 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
+- Q7: Accuracy of the georeference, honestly
 - Q45: Halls in the texts with no row
+- Q189: The western plain stays unanchored
 
 <!-- generated:end -->
 

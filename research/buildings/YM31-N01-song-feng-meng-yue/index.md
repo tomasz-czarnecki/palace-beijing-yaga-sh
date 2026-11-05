@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01073, 116.29591. S01 sure (S01 · confidence B)
+- **Position:** 40.01075, 116.29591. S01 sure (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 11.0 × 6.9 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label just east. Fourth character 月; third 梦 slightly cursive. Stands where the text puts 花屿兰皋 (东北出山口临河). Not in inventory. (S01) *(research copy, not public)*

@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S01, S42, S224 · confidence B)
 - **Changed:** Reading 东所 supported, see QC67; S224 also says 东南隅四所 housed consorts under Daoguang (S01, S42, S224)
 - **Destroyed:** 1860 (S01, S42, S224)
-- **Position:** 40.00165, 116.30719. S01 likely (S01 · confidence B)
+- **Position:** 40.00169, 116.30722. S01 likely (S01 · confidence B)
 - **Bays:** 9x1 on the plan (S01, S42, S224)
 - **Size in the inventory:** 32.1 × 6.0 m. S01 plan px / hall scale (S01)
 - **Note:** plan: Label reads 东佳/住所. Rows of plain halls. (S01, S42, S224)
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 32.1 × 6 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.25 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.8° from north
+- **Faces:** 174.9° from north
 - **Confidence:** B
 
 ## Inside it (7)

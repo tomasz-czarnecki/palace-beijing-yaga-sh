@@ -42,7 +42,7 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 
 ## Open questions
 
-None that name it.
+- Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 
 <!-- generated:end -->
 

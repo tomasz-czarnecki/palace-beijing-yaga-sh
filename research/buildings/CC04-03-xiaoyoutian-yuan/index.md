@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** other (S05, S02, S01 · confidence B)
 - **Built:** 乾隆二十三年 1758 record 去嵗丁丑 [j83:9b] (S05, S02, S01)
 - **Destroyed:** 1860 (S05, S02, S01)
-- **Position:** 40.00733, 116.30507. S01 likely (S01 · confidence B)
+- **Position:** 40.00737, 116.30509. S01 likely (S01 · confidence B)
 - **Bays:** 2x3 on the plan (S05, S02, S01)
 - **Size in the inventory:** 12.7 × 14.8 m. S01 plan px / hall scale (S01)
 - **Note:** After 汪氏 garden, West Lake (S02 p.98). (S05, S02, S01)
@@ -28,8 +28,8 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** side hall: 11.44 × 10.97 m, eave 3.64 m, ridge 7.57 m
-- **1 ×:** small house: 9.53 × 8.65 m, eave 3.2 m, ridge 6.16 m
+- **1 ×:** side hall: 11.34 × 10.57 m, eave 3.64 m, ridge 7.57 m
+- **1 ×:** small house: 9.43 × 8.34 m, eave 3.2 m, ridge 6.06 m
 - **Confidence:** B
 
 ## Pictures (1)

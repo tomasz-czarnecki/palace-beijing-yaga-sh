@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** gate (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00463, 116.29486. S01 likely (S01 · confidence B)
+- **Position:** 40.00463, 116.29487. S01 likely (S01 · confidence B)
 - **Bays:** 2x1 on the plan (S05, S01)
 - **Size in the inventory:** 7.9 × 5.4 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Plan 春和镇, text 宁和镇. Text 设城关: row B0775, B0776, an X-marked square at (5275,4426), B0777 on the road; blank strip B0816 may be the gate passage. (S01) *(research copy, not public)*
@@ -26,8 +26,8 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** gate hall: 6.91 × 5.4 m, eave 4.47 m, ridge 6.4 m
-- **1 ×:** gate hall: 6.07 × 5.32 m, eave 4.47 m, ridge 6.38 m
+- **1 ×:** gate hall: 6.94 × 5.4 m, eave 4.47 m, ridge 6.4 m
+- **1 ×:** gate hall: 6.1 × 5.38 m, eave 4.47 m, ridge 6.39 m
 - **1 ×:** gate hall: 9.1 × 6.3 m, eave 4.47 m, ridge 6.72 m
 - **1 ×:** gate hall: 8.1 × 5.4 m, eave 4.47 m, ridge 6.4 m
 - **1 ×:** gate hall: 6.9 × 6 m, eave 4.47 m, ridge 6.61 m

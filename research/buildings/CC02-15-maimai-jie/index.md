@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S06, S01, S115, S940)
 - **Type:** other (S06, S01, S115, S940 · confidence B)
 - **Destroyed:** 1860 (S06, S01, S115, S940)
-- **Position:** 40.00839, 116.30787. S01 likely (S01 · confidence B)
+- **Position:** 40.00841, 116.30787. S01 likely (S01 · confidence B)
 - **Bays:** 40, in 9 units as dug (Yangshi Lei: 10 buildings) in the texts / 13x1 on the plan (S06, S01, S115, S940)
 - **Size in the inventory:** 51.0 × 6.3 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 东墙外 (S06) (S06, S01, S115, S940) *(research copy, not public)*
@@ -27,10 +27,10 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** small house: 46.91 × 5.28 m, eave 3.2 m, ridge 5.01 m
-- **1 ×:** small house: 36.29 × 5.69 m, eave 3.2 m, ridge 5.15 m
-- **1 ×:** small house: 19.37 × 5.32 m, eave 3.2 m, ridge 5.02 m
-- **1 ×:** small house: 28.22 × 5.9 m, eave 3.2 m, ridge 5.22 m
+- **1 ×:** small house: 45.84 × 5.61 m, eave 3.2 m, ridge 5.12 m
+- **1 ×:** small house: 35.34 × 5.89 m, eave 3.2 m, ridge 5.22 m
+- **1 ×:** small house: 18.93 × 5.37 m, eave 3.2 m, ridge 5.04 m
+- **1 ×:** small house: 27.72 × 5.98 m, eave 3.2 m, ridge 5.25 m
 - **Confidence:** B
 
 ## Pictures (1)

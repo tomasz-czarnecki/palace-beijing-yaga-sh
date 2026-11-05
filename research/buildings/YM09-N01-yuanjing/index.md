@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 6.7 × 8.5 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 6.11 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.8° from north
+- **Faces:** 173° from north
 - **Confidence:** B
 
 ## Pictures (0)

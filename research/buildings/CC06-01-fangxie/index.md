@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** gate (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00927, 116.30430. S01 likely (S01 · confidence B)
+- **Position:** 40.00928, 116.30433. S01 likely (S01 · confidence B)
 - **Note:** 4 pailou. (S05, S01)
 - **Plan reader's note:** Rixia: one 枋楔 on each of the four sides. Plan shows four stone arms N (9476,2505), S (9476,2868), W (9295,2688), E (9655,2688), each with a stair; the 枋楔 themselves are not drawn. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

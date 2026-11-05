@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Type:** tower (S05, S01, S111 · confidence B)
 - **Built:** early Qianlong, named 1758 (S05, S01, S111)
 - **Destroyed:** 1860 (S05, S01, S111)
-- **Position:** 40.01095, 116.29819. S01 likely (S01 · confidence B)
+- **Position:** 40.01096, 116.29819. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts (S05, S01, S111)
 - **Plan reader's note:** Label touches the NE corner of B0240. S111: 南向三间歇山楼. North half has a round end at a rock-lined path. The block may hold both 轩 and 楼. OSM 藏密楼 maps far off at (7765,1626). [shares block B0240 with YM31-06] (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

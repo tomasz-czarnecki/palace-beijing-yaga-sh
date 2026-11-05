@@ -11,7 +11,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01253, 116.29796. S01 guess (S01 · confidence C)
+- **Position:** 40.01252, 116.29796. S01 guess (S01 · confidence C)
 - **Plan reader's note:** Islets in lake R0089 region: T-shaped hall about (7015,598), hall B0053 and a square on an islet. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 7120, 630 (S01) *(research copy, not public)*

@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00159, 116.29812. S01 likely (S01 · confidence B)
+- **Position:** 40.00164, 116.29809. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Only the gate label names it. Lead 5910f5: 西爽村 of 成亲王 merged in Jiaqing 4. Walled garden with a walled hill in the centre. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 6574, 6189 (S01) *(research copy, not public)*

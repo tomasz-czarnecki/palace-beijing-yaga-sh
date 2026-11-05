@@ -873,7 +873,52 @@ def water_layers(comp, bname, hill_rects) -> None:
         n += 1
         nm = clean_name(r["name_on_plan"])
         hills.append(hill_props([ring], {"id": f"H{n:04d}", "region_id": "", "kind": "hill", "name_zh": nm, "name_pinyin": pinyin(nm), "area_m2": round(area_m2(ring)), "sources": "S01", "confidence": "C", "note": "outline approximated from reader's size: " + r["note"]}, tx, texts))
-    write_layer("hills_1860", hills)
+    write_layer("hills_1860", clear_of_courts(hills))
+
+
+COURT_CLEAR_M = 5.0  # Q71: a hill read on the plan (C) gives way to a surveyed sunken court (research/xiyanglou/boxes.csv, shape court; S603)
+
+
+def clear_of_courts(hills: list[dict]) -> list[dict]:
+    """Trim the hills off the surveyed sunken courts of the Xiyang Lou (大水法's fountain area): a survey beats a C reading. A hill left with nothing is dropped."""
+    from shapely.geometry import shape as shp
+    from shapely.ops import transform as stf
+
+    to_ll = Transformer.from_crs(32650, 4326, always_xy=True)
+    courts = []
+    with open(Path("research/xiyanglou/boxes.csv"), encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            if r["shape"] != "court":
+                continue
+            e, n = UTM.transform(float(r["lon"]), float(r["lat"]))
+            t = math.radians(float(r["orientation_deg"]))
+            fe, fn = math.sin(t), math.cos(t)  # facing
+            ae, an = math.cos(t), -math.sin(t)  # across
+            hf, hd = float(r["frontage_m"]) / 2, float(r["depth_m"]) / 2
+            courts.append(Polygon([(e + sa * ae * hf + sb * fe * hd, n + sa * an * hf + sb * fn * hd) for sa, sb in ((-1, -1), (1, -1), (1, 1), (-1, 1))]).buffer(COURT_CLEAR_M))
+    if not courts:
+        return hills
+    clear = unary_union(courts)
+    out, trimmed, dropped = [], [], []
+    for h in hills:
+        g = stf(lambda x, y: UTM.transform(x, y), shp(h["geometry"]))
+        if not g.intersects(clear):
+            out.append(h)
+            continue
+        rest = g.difference(clear)
+        if rest.is_empty or rest.area < 50:
+            dropped.append(h["properties"]["id"])
+            continue
+        if rest.geom_type != "Polygon":
+            rest = max(rest.geoms, key=lambda q: q.area)
+        ring = [[round(a, 7), round(b, 7)] for a, b in (to_ll.transform(x, y) for x, y in rest.exterior.coords)]
+        h["geometry"] = {"type": "Polygon", "coordinates": [ring]}
+        h["properties"]["area_m2"] = round(rest.area)
+        h["properties"]["note"] = (h["properties"].get("note", "") + " Trimmed clear of the surveyed sunken court of 大水法 (S603), Q71.").strip()
+        trimmed.append(h["properties"]["id"])
+        out.append(h)
+    print(f"hills trimmed clear of the surveyed sunken courts: {trimmed}; dropped, nothing left: {dropped}")
+    return out
 
 
 def hill_props(rings, p, tx, texts) -> dict:
@@ -890,11 +935,88 @@ def hill_props(rings, p, tx, texts) -> dict:
     return poly_feature(rings, p)
 
 
+# Q64 (Round 8). Changchun Yuan's west wall north of plan y about 2700 lies in the middle scroll's seam (x 8635-8660); the
+# traced line at x 8690 was placed there by eye and runs through the plan's own maze hedge and 谐奇趣's west pavilion, and
+# through their ruins. The ruins win: north of plan y 1900 the line moves west, square to itself, until every Xiyang Lou
+# box (research/xiyanglou/boxes.csv, placed on the ruins in Round 6) stands at least WALL_CLEAR_M east of it; between
+# y 1900 and 2400 it returns to the traced line. Gates on that run (the sluice 五孔闸, G43) move with it. The shift is
+# printed, and recorded in research/questions.md (Q64).
+WALL_CLEAR_M = 3.0
+WALL_SEAM_RUN = {"W02": {"x": 8690.0, "top_y": 100.0, "full_below_y": 1900.0, "taper_to_y": 2400.0}}
+WALL_RUN_GATE_PX = 40  # a gate this near the moved run (about 8 m) moves with it
+WALL_MOVED = {}
+
+
+def xy_box_polygons_utm() -> list:
+    out = []
+    with open(Path("research/xiyanglou/boxes.csv"), encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            e, n = UTM.transform(float(r["lon"]), float(r["lat"]))
+            t = math.radians(float(r["orientation_deg"]))
+            fe, fn = math.sin(t), math.cos(t)
+            ae, an = math.cos(t), -math.sin(t)
+            hf, hd = float(r["frontage_m"]) / 2, float(r["depth_m"]) / 2
+            out.append((r["building_id"], [(e + sa * ae * hf + sb * fe * hd, n + sa * an * hf + sb * fn * hd) for sa, sb in ((-1, -1), (1, -1), (1, 1), (-1, 1))]))
+    return out
+
+
+def wall_clear_of_ruins(w: dict):
+    """The wall's points in UTM, with the seam run moved off the Xiyang Lou ruins (Q64); and what was moved, for the log."""
+    rule = WALL_SEAM_RUN.get(w["id"])
+    pts = [list(map(float, p)) for p in w["points"]]
+    if rule:
+        # Insert the taper's two vertices on the traced run, just before its last point (the ring closes at the top corner).
+        k = max(i for i, p in enumerate(pts) if abs(p[0] - rule["x"]) < 1 and abs(p[1] - rule["top_y"]) < 1)
+        pts = pts[:k] + [[rule["x"], rule["taper_to_y"]], [rule["x"], rule["full_below_y"]]] + pts[k:]
+    e, n = georef.plan_to_utm(np.array([p[0] for p in pts]), np.array([p[1] for p in pts]))
+    e, n = np.asarray(e, float), np.asarray(n, float)
+    moved = None
+    if rule:
+        top = [i for i, p in enumerate(pts) if abs(p[0] - rule["x"]) < 1 and abs(p[1] - rule["top_y"]) < 1]
+        low = next(i for i, p in enumerate(pts) if abs(p[1] - rule["full_below_y"]) < 1 and abs(p[0] - rule["x"]) < 1)
+        a, b = np.array([e[low], n[low]]), np.array([e[top[0]], n[top[0]]])
+        d = (b - a) / np.linalg.norm(b - a)
+        west = np.array([-d[1], d[0]]) if -d[1] < 0 else np.array([d[1], -d[0]])  # square to the run, pointing west
+        need = 0.0
+        hit = set()
+        for bid, poly in xy_box_polygons_utm():
+            for q in poly:
+                q = np.asarray(q)
+                along = (q - a) @ d
+                if -5 <= along <= np.linalg.norm(b - a) + 5:
+                    s = (q - a) @ west  # metres west of the traced run
+                    if s + WALL_CLEAR_M > need:
+                        need = s + WALL_CLEAR_M
+                    if s > -WALL_CLEAR_M:
+                        hit.add(bid)
+        if need > 0:
+            for i in top + [low]:
+                e[i], n[i] = e[i] + need * west[0], n[i] + need * west[1]
+            moved = {"wall": w["id"], "shift_m": round(float(need), 1), "boxes_cleared": sorted(hit)}
+            WALL_MOVED[w["id"]] = (rule, need * west)
+    return e, n, moved
+
+
+def gate_on_moved_run(x: float, y: float):
+    """The shift (east, north metres) of a gate that stands on a moved wall run, else None."""
+    for rule, vec in WALL_MOVED.values():
+        if abs(x - rule["x"]) <= WALL_RUN_GATE_PX and rule["top_y"] - WALL_RUN_GATE_PX <= y <= rule["taper_to_y"]:
+            t = 1.0 if y <= rule["full_below_y"] else (rule["taper_to_y"] - y) / (rule["taper_to_y"] - rule["full_below_y"])
+            return vec * t
+    return None
+
+
 def lines_layers(walls, named, live, bname) -> None:
     out = []
+    to_ll = Transformer.from_crs(32650, 4326, always_xy=True)
     for w in walls:
-        lon, lat = georef.plan_to_wgs84(np.array([p[0] for p in w["points"]], float), np.array([p[1] for p in w["points"]], float))
-        out.append({"type": "Feature", "properties": {"id": w["id"], "kind": w["kind"], "garden": w["garden"], "sources": "S01", "confidence": "B", "note": "read by eye, 10-20 px off the ink, Qichun 20-40 px; research/plan/walls.json"}, "geometry": {"type": "LineString", "coordinates": [[round(float(u), 7), round(float(v), 7)] for u, v in zip(lon, lat)]}})
+        e, n, moved = wall_clear_of_ruins(w)
+        lon, lat = to_ll.transform(e, n)
+        note = "read by eye, 10-20 px off the ink, Qichun 20-40 px; research/plan/walls.json"
+        if moved:
+            note += f". North of the plan's y 1700 the west side is moved {moved['shift_m']} m west, off the Xiyang Lou ruins of {', '.join(moved['boxes_cleared'])}: the plan's line there lies in a scroll seam (Q64)"
+            print("wall moved off the Xiyang Lou ruins:", moved)
+        out.append({"type": "Feature", "properties": {"id": w["id"], "kind": w["kind"], "garden": w["garden"], "sources": "S01" + (";S850" if moved else ""), "confidence": "B", "note": note}, "geometry": {"type": "LineString", "coordinates": [[round(float(u), 7), round(float(v), 7)] for u, v in zip(lon, lat)]}})
     gates = json.loads((PLAN / "gates.json").read_text(encoding="utf-8"))
     gates = gates if isinstance(gates, list) else gates["gates"]
     for g in gates:
@@ -909,6 +1031,12 @@ def lines_layers(walls, named, live, bname) -> None:
                     extra.append({"id": f"G{len(gates) + len(extra) + 1:02d}", "label": clean_name(r["name_on_plan"]), "x": x, "y": y, "orientation_deg": None, "note": r["note"], "read": r["read"] or "none", "source": "S01"})
     for g in gates + extra:
         lon, lat = to_wgs(g["x"], g["y"])
+        shift = gate_on_moved_run(g["x"], g["y"])
+        if shift is not None:
+            ge, gn = UTM.transform(lon, lat)
+            lon, lat = to_ll.transform(ge + shift[0], gn + shift[1])
+            g["note"] = (g.get("note", "") + f" Moved {np.hypot(*shift):.1f} m west with its wall run, off the Xiyang Lou ruins (Q64).").strip()
+            print("gate moved with its wall run:", g["id"], round(float(np.hypot(*shift)), 1), "m")
         nm = g.get("label", "")
         out.append({"type": "Feature", "properties": {"id": g["id"], "kind": "gate", "name_zh": nm, "name_pinyin": pinyin(nm), "read": g.get("read", ""), "sources": "S01", "confidence": "B" if g.get("read") in ("sure", "likely") else "C", "note": g.get("note", "")}, "geometry": {"type": "Point", "coordinates": [round(lon, 7), round(lat, 7)]}})
     write_layer("walls_1860", out)

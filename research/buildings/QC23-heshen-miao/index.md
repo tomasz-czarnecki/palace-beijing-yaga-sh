@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** temple (S47, S01, S220, S361 · confidence B)
 - **Built:** 1813-1817 (S47); begun 1813, finished 嘉庆二十二年七月 1817 (S47, S01, S220, S361)
 - **Destroyed:** S220 says it escaped the fire of 1860 (with 正觉寺, 惠济祠); survived 1860; lost around 1900 (S47, S01, S220, S361)
-- **Position:** 39.99693, 116.29956. S01 sure (S01 · confidence B)
+- **Position:** 39.99683, 116.29957. S01 sure (S01 · confidence B)
 - **Bays:** 3x1 on the plan (S47, S01, S220, S361)
 - **Size in the inventory:** 9.3 × 7.3 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 与惠济祠并列 居西 (S47) (S47, S01, S220, S361) *(research copy, not public)*
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 9.3 × 7.3 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.7 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 171.5° from north
+- **Faces:** 170.1° from north
 - **Confidence:** B
 
 ## Inside it (2)

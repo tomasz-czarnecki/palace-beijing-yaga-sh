@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01184, 116.30249. S01 guess (S01 · confidence C)
+- **Position:** 40.01179, 116.30250. S01 guess (S01 · confidence C)
 - **Size in the inventory:** 10.5 × 13.3 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** rect=44,44,0. Octagon with six small marks around, in the court north of 谐奇趣: probably the north-side fountain of engraving 2. Outside the maze wall, ~290 px north of the stairs of 谐奇趣; the engraving shows the fountain close to the stairs. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
@@ -26,7 +26,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 10.5 × 13.3 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.13 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 174.9° from north
+- **Faces:** 174.8° from north
 - **Confidence:** C
 
 ## Pictures (0)

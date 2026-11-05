@@ -215,6 +215,7 @@ Modern interpretation, not evidence.
 
 - Q48: Xiyang Lou
 - Q49: Captions overruled by form (old photographs)
+- Q71: 观水法 on the axis (Round 6)
 
 <!-- generated:end -->
 

@@ -20,7 +20,7 @@ east octagonal music pavilion · Xiyang Lou
 - **Note:** Round 6 replaced frontage 9.6 m. Round 6 replaced depth 12.1 m. (S01, S108)
 - **Plan reader's note:** rect=40,40,0. Octagon, end of east gallery (8942,1490) (9000,1510) (9025,1560) (9025,1580). Twin of XY01-01. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
-- **Plan pixels:** 8963, 1539 (S01) *(research copy, not public)*
+- **Plan pixels:** 8962, 1512 (S01) *(research copy, not public)*
 
 ## Our model now
 

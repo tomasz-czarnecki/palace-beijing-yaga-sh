@@ -30,7 +30,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **Box:** 22.2 × 10.6 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 9.17 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.9° from north
+- **Faces:** 172.8° from north
 - **Confidence:** B
 
 ## Pictures (0)

@@ -14,7 +14,7 @@ north range, east part · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01281, 116.30669. S01 guess (S01 · confidence C)
+- **Position:** 40.01274, 116.30671. S01 guess (S01 · confidence C)
 - **Bays:** 4 in the texts / 2x2 on the plan (S01)
 - **Size in the inventory:** 7.4 × 10.3 m. S01 plan px / hall scale (S01)
 - **Note:** As XY09-N01, mirror. Plan B0071, B0072 drawn as one group. (S01, Round 6). (S01)

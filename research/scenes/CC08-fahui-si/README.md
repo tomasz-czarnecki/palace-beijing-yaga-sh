@@ -118,8 +118,8 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 3, c 0, d 0, e 1.
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | CC08 | the scene's outline on the plan | Area | 1700 m² | 200 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| CC08 | the scene's outline on the plan | Extent, long side | 48 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| CC08 | the scene's outline on the plan | Extent, short side | 42 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| CC08 | the scene's outline on the plan | Extent, long side | 46 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| CC08 | the scene's outline on the plan | Extent, short side | 43 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | CC08-04 | glazed pagoda | Ridge height | 23.55 m | 1 | e | C | S361 | v3 p.350 editors' note |  | 23.55 m stated in the editors' note (E0174), no basis given on disk; possibly from the NLC 立样 (R0323), not seen | viewed |
 
 ## Gaps and wishlist

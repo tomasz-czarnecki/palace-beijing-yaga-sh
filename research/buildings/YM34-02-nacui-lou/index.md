@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Type:** tower (S05, S01, S111 · confidence B)
 - **Built:** 1751 (S05, S01, S111)
 - **Destroyed:** 1860 (S05, S01, S111)
-- **Position:** 40.00599, 116.30119. S01 guess (S01 · confidence C)
+- **Position:** 40.00600, 116.30119. S01 guess (S01 · confidence C)
 - **Bays:** 3 in the texts / 3x1 on the plan (S05, S01, S111)
 - **Size in the inventory:** 10.0 × 7.3 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 纳翠楼, 西. (S01) *(research copy, not public)*
@@ -26,10 +26,10 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 9.08 × 5.2 m, storeyed hall
-- **Heights:** platform 0.45 m, eave 5.95 m, ridge 7.89 m above the ground
+- **Box:** 9.05 × 5.1 m, storeyed hall
+- **Heights:** platform 0.45 m, eave 5.95 m, ridge 7.86 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 85.4° from north
+- **Faces:** 85° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.5 m
 - **Confidence:** C
 

@@ -15,7 +15,7 @@ Changchun Yuan
 - **Type:** other (S01, S362 · confidence B)
 - **Built:** 1811 rebuilt on new foundations; before that 深宁堂, 1767 (S01, S362)
 - **Destroyed:** 1860 (S01, S362)
-- **Position:** 40.00590, 116.31166. S01 sure (S01 · confidence B)
+- **Position:** 40.00591, 116.31165. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x3 on the plan (S01, S362)
 - **Size in the inventory:** 22.848 × 19.968 m. stated: S362, sections 2, 4 (S01)
 - **Lead on its size, from a modern study, not used in the model:** 5 x 3 bays with surrounding gallery; overall width 22.848 m; base 25.344 x 22.464 m, 1 m high (S362, sections 3-4). (confidence B)
@@ -29,10 +29,10 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 19.88 × 22.23 m, main hall
-- **Heights:** platform 0.7 m, eave 4.4 m, ridge 8.21 m above the ground
+- **Box:** 19.85 × 22.16 m, main hall
+- **Heights:** platform 0.7 m, eave 4.4 m, ridge 8.2 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 171.8° from north
+- **Faces:** 171.5° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.5 m
 - **Confidence:** B
 

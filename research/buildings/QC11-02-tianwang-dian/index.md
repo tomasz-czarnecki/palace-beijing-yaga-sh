@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S49, S01, S221, S228)
 - **Type:** temple (S49, S01, S221, S228 · confidence B)
 - **Destroyed:** not burnt 1860 (S49) (S49, S01, S221, S228)
-- **Position:** 39.99883, 116.30346. S01 likely (S01 · confidence B)
+- **Position:** 39.99880, 116.30351. S01 likely (S01 · confidence B)
 - **Bays:** 5 in the texts / 4x2 on the plan (S49, S01, S221, S228)
 - **Size in the inventory:** 14.8 × 8.5 m. S01 plan px / hall scale (S01)
 - **Note:** after1860: survived 1860 and 1900; wholly or partly destroyed in the 20th century; rebuilt 2009-11 (S228, section 长期被占损毁严重 and 专家论证绘图复原). (S49, S01, S221, S228)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 14.8 × 8.5 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.82 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.7° from north
+- **Faces:** 171° from north
 - **Confidence:** B
 
 ## Pictures (1)

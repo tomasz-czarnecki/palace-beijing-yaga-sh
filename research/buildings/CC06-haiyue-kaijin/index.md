@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S02, S06, S01, S337, S361 · confidence B)
 - **Built:** by 1759 poem [j83:11a-b]; 1747 (S05, S02, S06, S01, S337, S361)
 - **Destroyed:** 1860; on the 1873 survival list (S06); survived 1860; later loss; survived 1860; lost around 1900 (S05, S02, S06, S01, S337, S361)
-- **Position:** 40.00894, 116.30433. S01 sure (S01 · confidence B)
+- **Position:** 40.00895, 116.30438. S01 sure (S01 · confidence B)
 - **Storeys:** 3 (S05, S02, S06, S01, S337, S361)
 - **Note:** Round terrace, boat access only (S02 p.98). 下層 海嶽開襟, 南簷 青瑶嶼, 上 乘六龍. Blog S48 diameter near 100 m (lead). (S05, S02, S06, S01, S337, S361)
 - **Plan reader's note:** Label 海?開襟 with pencil 嶽 next to the second char, blue 5. Round terrace, outer radius ~155 px, four arms. (S01) *(research copy, not public)*
@@ -145,6 +145,7 @@ Modern interpretation, not evidence.
 - Q47: How much burned, and when
 - Q145: CC06 海岳开襟
 - Q152: yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which
+- Q187: Changchun Yuan's west part reads 12-23 m too far east
 
 <!-- generated:end -->
 

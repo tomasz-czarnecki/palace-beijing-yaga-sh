@@ -13,7 +13,7 @@ Yuanming Yuan
 - **Type:** compound (S01, S360, S361 · confidence B)
 - **Built:** by 1796 (first dated item); 1740 (S01, S360, S361)
 - **Destroyed:** 1860 (S01, S360, S361)
-- **Position:** 40.01308, 116.30030. S01 sure (S01 · confidence B)
+- **Position:** 40.01304, 116.30031. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts (S01, S360, S361)
 - **Plan reader's note:** Labels 天宇空明, 澄景堂, 清旷楼. Inventory YM50-01..04. North shore of the lake R0055, as Malone says: another palace across the lake to the north. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

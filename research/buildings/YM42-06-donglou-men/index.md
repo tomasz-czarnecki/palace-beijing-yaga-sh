@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 14.4 × 28.4 m, gate hall
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 7.85 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 3 parallel rolls 勾连搭, grey tile
-- **Faces:** 76.2° from north
+- **Faces:** 76.3° from north
 - **Confidence:** B
 
 ## Pictures (0)

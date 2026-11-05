@@ -174,6 +174,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - Q118: YM33 接秀山房
 - Q137: YM36
 - Q141: Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG)
+- Q188: 福海's traced shore sits about 10 m south of today's
 
 <!-- generated:end -->
 

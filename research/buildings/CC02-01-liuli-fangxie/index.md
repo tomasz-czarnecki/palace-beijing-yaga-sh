@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** gate (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00725, 116.30753. S01 likely (S01 · confidence B)
+- **Position:** 40.00727, 116.30752. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 12.0 × 4.5 m. S01 plan px / hall scale (S01)
 - **Tiles:** 琉璃 glazed (S05, S01)
 - **Plan reader's note:** Three small gates round the forecourt: east B0669 (10769,3588), west (10381,3588), south (10581,3734). Rixia: 建琉璃坊楔三. (S01) *(research copy, not public)*

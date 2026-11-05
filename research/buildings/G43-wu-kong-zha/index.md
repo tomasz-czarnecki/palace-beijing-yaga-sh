@@ -10,7 +10,7 @@ Gate in the garden walls
 
 - **Name:** 五孔闸 Wu Kong Zha (S01 · confidence B)
 - **Type:** gate in the walls (S01 · confidence B)
-- **Note:** Label 五孔閘 with 3 diamond piers at x=8688, y 1695-1790. West outlet of the 谐奇趣 lake. (S01)
+- **Note:** Label 五孔閘 with 3 diamond piers at x=8688, y 1695-1790. West outlet of the 谐奇趣 lake. Moved 15.2 m west with its wall run, off the Xiyang Lou ruins (Q64). (S01)
 - **How it was read:** sure (S01) *(research copy, not public)*
 
 ## Our model now
@@ -21,8 +21,7 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 - **Part:** gate on the walls layer, no hall drawn at this point: a small default box
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 6.38 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 84° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 4.5 m
+- **Faces:** 85° from north
 - **Confidence:** C, assumed
 
 ## Pictures (1)
@@ -46,6 +45,7 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 
 ## Open questions
 
+- Q64: The plan's scale and turn in this strip (Round 6)
 - Q74: Two buildings called 蓄水楼 (Round 6)
 
 <!-- generated:end -->

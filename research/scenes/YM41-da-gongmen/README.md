@@ -176,7 +176,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 5, b 3, c 0, d 0, e 0.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| YM41 | the scene's outline on the plan | Area | 32400 m² | 3200 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| YM41 | the scene's outline on the plan | Area | 32500 m² | 3200 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM41 | the scene's outline on the plan | Extent, long side | 344 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM41 | the scene's outline on the plan | Extent, short side | 121 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM41-01 | 大宫门 gate hall platform 台基 | Platform height | 0.77 m | 0.02 | a | B | S102 | mhymy 12324; E1017 | metres as printed | base 21.57 x 11.33 m, 0.77 m high (E1017; the 21.57 and 11.33 are already in facts.csv) | viewed |

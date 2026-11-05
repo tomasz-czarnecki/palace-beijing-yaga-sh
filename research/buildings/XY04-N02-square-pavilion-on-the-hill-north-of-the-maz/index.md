@@ -14,7 +14,7 @@ square pavilion on the hill north of the maze · Changchun Yuan
 - **Garden:** Changchun Yuan (S01, S604)
 - **Type:** other (S01, S604 · confidence C)
 - **Destroyed:** 1860 (S01, S604)
-- **Position:** 40.01333, 116.30231. S01 guess (S01 · confidence C)
+- **Position:** 40.01325, 116.30232. S01 guess (S01 · confidence C)
 - **Bays:** 1 in the texts / 1x1 on the plan (S01, S604)
 - **Size in the inventory:** 6.2 × 7.3 m. S01 plan px / hall scale (S01)
 - **Note:** Stands outside the maze wall, on the hill in a square wall ~8 m, in the west arm of the T (S604's 320 m reaches it). Hill survives as today's pine mound. Plate 5 shows only trees and hill behind the hall. Its parent CC22 is right; XY04 is not. The id misleads: note, never renumber. (S01;S604, Round 6). (S01, S604)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 6.2 × 7.3 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 6.57 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 89.6° from north
+- **Faces:** 90.6° from north
 - **Confidence:** C
 
 ## Pictures (0)

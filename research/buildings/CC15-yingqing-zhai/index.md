@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S48, S01, S201, S361 · confidence A)
 - **Built:** 1766 (S05, S48, S01, S201, S361)
 - **Destroyed:** 1860 (S05, S48, S01, S201, S361)
-- **Position:** 40.00692, 116.31016. S01 sure (S01 · confidence B)
+- **Position:** 40.00691, 116.31015. S01 sure (S01 · confidence B)
 - **Bays:** 9, fan-shaped in the texts / 1x1 on the plan (S05, S48, S01, S201, S361)
 - **Size in the inventory:** 13.9 × 6.6 m. S01 plan px / hall scale (S01)
 - **Note:** Form, as no csv field fits: a bow-shaped gallery with a fan-shaped study at its centre, water on three sides, eight windows (poems 1772, 1776) (S201, KR4f0005_282:4b; 317:9b). (S05, S48, S01, S201, S361)
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 13.9 × 6.6 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.11 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.1° from north
+- **Faces:** 172° from north
 - **Confidence:** B
 
 ## Inside it (8)

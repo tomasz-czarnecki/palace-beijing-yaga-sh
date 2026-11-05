@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99990, 116.30927. S01 likely (S01 · confidence B)
+- **Position:** 39.99990, 116.30930. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Three small walled yards, each with 地 + ditto mark or 池, and 官厅 south. Outside the east wall. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 10700, 7600 (S01) *(research copy, not public)*

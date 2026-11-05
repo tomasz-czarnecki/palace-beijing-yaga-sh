@@ -8,9 +8,12 @@ Reads research/layers (water, fields, islands, hills, bridges, walls). Writes si
   ground_grid.i16    5 m raster, cm above the datum, -32768 where water stands (bridges count as land): walk mode, boxes1860.py
 
 Not a survey of 1860. Levels are constants in scene1860.py. No height comes from the DEM cell by cell: research/terrain/README.md says it can't tell (trees, modern fill).
+A surveyed sunken court (research/xiyanglou/boxes.csv, shape court: 大水法's fountain area) is cut out of the land with a bank and a floor below it, and no mound reaches into it (Q71).
 """
 
+import csv
 import json
+import math
 import sys
 from pathlib import Path
 
@@ -21,7 +24,7 @@ from shapely.geometry import LineString, MultiPolygon, Point, Polygon, box, shap
 from shapely.ops import unary_union
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from scene1860 import DATUM_M, GENERATED, GROUND_M, WATER_M, layer, lonlat_affine, params, to_lonlat, to_xz  # noqa: E402
+from scene1860 import DATUM_M, GENERATED, GROUND_M, ROOT, WATER_M, layer, lonlat_affine, params, to_lonlat, to_xz  # noqa: E402
 
 MARGIN_M = 320  # land modelled round the walls
 CELL_M = 15  # land mesh
@@ -33,6 +36,8 @@ PADDY_DROP_M = 0.25  # 稻田 below the land, C
 HILL_SLOPE_LIMIT = 0.8  # height at most this x half-width + 0.5 m: hills_1860 estimates run high on small outlines (research/terrain/README.md "mostly snapped to a residual peak")
 BRIDGE_WALK_M = 6  # walkable width burned into the raster: wider than the 3 m deck (params.json other.bridge) so a 5 m cell can't miss it
 BANK_BELOW_M = 0.3  # the bank goes this far under the water
+COURT_DROP_M = 1.30  # 大水法's sunken fountain area: "1.30 m below the gardens" (S603, survey; research/xiyanglou/boxes.csv XY10). Q71
+COURT_HILL_CLEAR_M = 5.0  # no mound within this of a surveyed court: the hills_1860 mound there is a C reading of the plan, the court a survey (Q71)
 XY12 = {"lat": 40.012211, "lon": 116.308173, "d": 42, "h": 8}  # 线法山 mound, params.json xiyang_lou XY12: the plan's outer ring at local scale, 42 m; 8 m in S310 (search extract), plate 18 7.4 m; C. Position from buildings.csv
 
 
@@ -91,7 +96,24 @@ def mask_of(poly, xs, zs):
     return out
 
 
+def courts():
+    """Surveyed sunken courts, as (building id, polygon in scene metres), from research/xiyanglou/boxes.csv rows with shape court."""
+    out = []
+    for r in csv.DictReader(open(ROOT / "research/xiyanglou/boxes.csv", encoding="utf-8", newline="")):
+        if r["shape"] != "court":
+            continue
+        cx, cz = to_xz(float(r["lon"]), float(r["lat"]))
+        t = math.radians(float(r["orientation_deg"]))
+        fx, fz = math.sin(t), -math.cos(t)  # the facing direction; z runs south
+        ax, az = math.cos(t), math.sin(t)  # across it, the frontage
+        hf, hd = float(r["frontage_m"]) / 2, float(r["depth_m"]) / 2
+        out.append((r["building_id"], Polygon([(float(cx) + sa * ax * hf + sb * fx * hd, float(cz) + sa * az * hf + sb * fz * hd) for sa, sb in ((-1, -1), (1, -1), (1, 1), (-1, 1))])))
+    return out
+
+
 def main():
+    court_polys = courts()
+    court_all = unary_union([c for _, c in court_polys]) if court_polys else Polygon()
     water_all = [xz_geom(shape(f["geometry"])).buffer(0) for f in layer("water_1860")]
     fields_all = [xz_geom(shape(f["geometry"])).buffer(0) for f in layer("fields_1860")]
     wall_lines = [xz_geom(shape(f["geometry"])) for f in layer("walls_1860") if f["geometry"]["type"] == "LineString"]
@@ -101,7 +123,8 @@ def main():
     domain = box(x0, z0, x1, z1)
     water = unary_union(water_all).intersection(domain).simplify(SIMPLIFY_M).buffer(0)
     paddy = unary_union(fields_all).intersection(domain).simplify(SIMPLIFY_M).buffer(0).difference(water).buffer(0)
-    holes = unary_union([water, paddy]).buffer(0)
+    court = court_all.intersection(domain).difference(water).buffer(0)
+    holes = unary_union([water, paddy, court]).buffer(0)
 
     # Inside the wall rings: a tone of the land's colour, so the gardens read from far off.
     garden = unary_union([Polygon(xz_geom(shape(f["geometry"])).coords).buffer(0) for f in layer("walls_1860") if f["properties"]["kind"] == "outer_wall"])
@@ -119,8 +142,14 @@ def main():
                 rise = np.maximum(rise, ISLAND_RISE_M * smooth(d / ISLAND_RISE_OVER_M))
     capped = 0
     mounds = []
+    clear = court_all.buffer(COURT_HILL_CLEAR_M)
+    trimmed = []
     for f in layer("hills_1860"):
-        for p in polys(xz_geom(shape(f["geometry"])).buffer(0)):
+        g0 = xz_geom(shape(f["geometry"])).buffer(0)
+        if g0.intersects(clear):
+            trimmed.append(f["properties"]["id"])
+            g0 = g0.difference(clear)
+        for p in polys(g0):
             mounds.append((p, f["properties"]["height_est_m"]))
     cx, cz = to_xz(XY12["lon"], XY12["lat"])
     mounds.append((Point(cx, cz).buffer(XY12["d"] / 2, 32), XY12["h"]))
@@ -139,6 +168,7 @@ def main():
 
     g = h + GROUND_M - DATUM_M  # y of the land surface
     lookup = lambda x, z: float(ndimage.map_coordinates(g, [[(z - z0) / GRID_M], [(x - x0) / GRID_M]], order=1, mode="nearest")[0])
+    court_y = GROUND_M - DATUM_M - COURT_DROP_M
 
     # Land mesh: grid cells, cut only where the water or paddy crosses them.
     nx, nz = int((x1 - x0) / CELL_M), int((z1 - z0) / CELL_M)
@@ -182,6 +212,11 @@ def main():
         bank_pos += [(ax, y_land[a], az), (bx, y_land[b], bz), (bx, -BANK_BELOW_M, bz), (ax, -BANK_BELOW_M, az)]
         bank_idx += [k, k + 1, k + 2, k, k + 2, k + 3]  # DoubleSide in the view: which way a bank faces is not worked out here
 
+    # The courts' floors: their own vertices, so the bank round them stands as a step.
+    court_mesh = Mesh()
+    for p in polys(court):
+        court_mesh.cdt(p)
+
     water_mesh = Mesh()
     for p in polys(water):
         water_mesh.cdt(p)
@@ -201,9 +236,19 @@ def main():
     for k in range(3):
         rgb[:, k] = (outside_c[k] * (1 - inside) + inside_c[k] * inside) * (1 - t_hill) + hill_c[k] * t_hill + noise
     rgb = np.clip(rgb, 0, 255).astype(np.uint8)
+    land_xyz = [(p[0], y, p[1]) for p, y in zip(pos, y_land)]
+    land_idx = list(land.idx)
+    if court_mesh.pos:
+        base = len(land_xyz)
+        land_xyz += [(p[0], court_y, p[1]) for p in court_mesh.pos]
+        land_idx += [i + base for i in court_mesh.idx]
+        rgb = np.vstack([rgb, np.tile(inside_c.astype(np.uint8), (len(court_mesh.pos), 1))])
 
     # The raster for walking and for the boxes: water marked, bridges walkable.
-    grid = np.round(g * 100).astype(np.int16)
+    g_grid = g.copy()
+    for p in polys(court):
+        g_grid[mask_of(p, xs, zs)] = court_y
+    grid = np.round(g_grid * 100).astype(np.int16)
     grid_water = np.zeros_like(grid, bool)
     for p in polys(water):
         grid_water |= mask_of(p, xs, zs)
@@ -230,7 +275,7 @@ def main():
 
     out = {"buf": [], "n": 0}
     parts_meta = {
-        "land": pack(out, [(p[0], y, p[1]) for p, y in zip(pos, y_land)], land.idx, rgb),
+        "land": pack(out, land_xyz, land_idx, rgb),
         "bank": pack(out, bank_pos, bank_idx),
         "water": pack(out, [(p[0], 0.0, p[1]) for p in water_mesh.pos], water_mesh.idx),
         "paddy": pack(out, [(p[0], GROUND_M - DATUM_M - PADDY_DROP_M, p[1]) for p in paddy_mesh.pos], paddy_mesh.idx),
@@ -254,6 +299,7 @@ def main():
         worst = max(worst, abs(x - ax), abs(z - az))
     print(f"domain {x1 - x0:.0f} x {z1 - z0:.0f} m; water {water.area / 1e4:.1f} ha (layer {sum(w.area for w in water_all) / 1e4:.1f}), paddy {paddy.area / 1e4:.1f} ha")
     print(f"land {len(pos)} verts, {len(land.idx) // 3} tris; bank {len(bank_idx) // 3}; water {len(water_mesh.pos)} verts, {len(water_mesh.idx) // 3} tris; paddy {len(paddy_mesh.idx) // 3}; ground.bin {out['n'] / 1e6:.2f} MB")
+    print(f"courts sunk {COURT_DROP_M} m: {[i for i, _ in court_polys]}, {court.area:.0f} m²; mounds trimmed clear of them: {trimmed}")
     print(f"{len(mounds)} mounds, {capped} capped by the slope limit; highest {g.max() - (GROUND_M - DATUM_M):.1f} m above base land; browser's lon/lat fit worst {worst:.3f} m at the corners")
 
 

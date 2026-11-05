@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence C)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00554, 116.30526. S01 guess (S01 · confidence C)
+- **Position:** 40.00558, 116.30526. S01 guess (S01 · confidence C)
 - **Bays:** 3 in the texts / 3x1 on the plan (S05, S01)
 - **Size in the inventory:** 13.6 × 6.9 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 3 bays: agrees with the text; the only 3-bay hall at the head of a court. No label. (S01) *(research copy, not public)*

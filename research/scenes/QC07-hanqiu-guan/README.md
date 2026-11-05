@@ -108,8 +108,8 @@ Machine-readable: `dimensions.json`. Figures by method: a 1, b 4, c 0, d 0, e 0.
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | QC07 | survey area west of 仙人承露台 | Island, long side | 74 m | 10 | a | B | S155 | mhymy dasl/11446 free part |  | survey 2007: about 55-74 by 26-48 m, 2586 m2 (E0664); the larger figure taken | viewed |
-| QC07 | the scene's outline on the plan | Area | 7600 m² | 800 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC07 | the scene's outline on the plan | Extent, long side | 202 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC07 | the scene's outline on the plan | Area | 7400 m² | 700 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC07 | the scene's outline on the plan | Extent, long side | 197 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | QC07 | the scene's outline on the plan | Extent, short side | 51 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | QC07 | water inside the scene's outline | Water inside the outline | 140 m² | 10 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 

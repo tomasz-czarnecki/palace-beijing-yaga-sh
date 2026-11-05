@@ -15,7 +15,7 @@ Lion Grove (Malone p.98) · Changchun Yuan
 - **Type:** compound (S05, S02, S48, S01, S361 · confidence B)
 - **Built:** 乾隆三十七年 1772 [j83:13b] (S05, S02, S48, S01, S361)
 - **Destroyed:** 1860 (S05, S02, S48, S01, S361)
-- **Position:** 40.01147, 116.31042. S01 sure (S01 · confidence B)
+- **Position:** 40.01148, 116.31040. S01 sure (S01 · confidence B)
 - **Note:** After 苏州 黄氏涉园. 16 scenes in 2 sets of poems. Listed in Rixia order. (S05, S02, S48, S01, S361)
 - **Plan reader's note:** Malone's blue 6 at (12115,1645). Inventory names read on the plan: 清閟阁, 探真书屋, 小香幢. Rockery around B0276/B0277 and a second rockery garden east of B0278. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Type:** residence (S51, S06, S52, S01, S111, S337, S361, S360 · confidence B)
 - **Built:** 嘉庆二十二年 1817 前后, replacing 观鱼跃 (S51); late Jiaqing, by 1817-1819; 1819 (date of first poem); 接秀山房's rebuild (S51, S06, S52, S01, S111, S337, S361, S360)
 - **Destroyed:** survived 1860; lost around 1900 (S51, S06, S52, S01, S111, S337, S361, S360)
-- **Position:** 40.00687, 116.30149. S01 sure (S01 · confidence B)
+- **Position:** 40.00688, 116.30150. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x3 on the plan (S51, S06, S52, S01, S111, S337, S361, S360)
 - **Size in the inventory:** 23.36 × 26.49 m. stated in a source (S01)
 - **Where the text puts it:** 接秀山房殿以南 (S51) (S51, S06, S52, S01, S111, S337, S361, S360) *(research copy, not public)*
@@ -31,7 +31,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **Box:** 23.36 × 26.49 m, main hall
 - **Heights:** platform 0.96 m, eave 5.28 m, ridge 8.31 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 3 parallel rolls 勾连搭, grey tile
-- **Faces:** 170.2° from north
+- **Faces:** 170.4° from north
 - **Confidence:** B
 
 ## Pictures (0)

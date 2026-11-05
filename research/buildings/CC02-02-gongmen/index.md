@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01, S940)
 - **Type:** gate (S05, S01, S940 · confidence B)
 - **Destroyed:** 1860 (S05, S01, S940)
-- **Position:** 40.00773, 116.30740. S01 sure (S01 · confidence B)
+- **Position:** 40.00776, 116.30740. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x1 on the plan (S05, S01, S940)
 - **Size in the inventory:** 19.1 × 7.6 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 5 bays: agrees. Label south of its stair (x 10561-10587, y 3510-3534). (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 19.1 × 7.6 m, gate hall
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 7.18 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 171.7° from north
+- **Faces:** 172.2° from north
 - **Confidence:** B
 
 ## Pictures (1)
@@ -65,6 +65,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - Q125: Geotagged Commons coverage is thin
 - Q150: QC01
 - Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
+- Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 
 <!-- generated:end -->
 

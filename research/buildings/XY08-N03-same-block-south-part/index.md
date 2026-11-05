@@ -14,7 +14,7 @@ same block, south part · Xiyang Lou
 - **Garden:** Xiyang Lou (S01, S02)
 - **Type:** other (S01, S02 · confidence B)
 - **Destroyed:** 1860 (S01, S02)
-- **Position:** 40.01191, 116.30576. S01 likely (S01 · confidence B)
+- **Position:** 40.01188, 116.30578. S01 likely (S01 · confidence B)
 - **Bays:** 4 in the texts / 3x4 on the plan (S01, S02)
 - **Size in the inventory:** 13.2 × 28.4 m. S01 plan px / hall scale (S01)
 - **Note:** Part of XY08-N02: South half of the block in XY08-N02, split only by the passage. (S01;S02, Round 6). (S01, S02)

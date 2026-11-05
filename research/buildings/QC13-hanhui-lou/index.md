@@ -14,7 +14,7 @@ Qichun Yuan
 - **Built:** by 1812 (first dated item) (S06, S49, S01, S210, S223, S224, S360, S361)
 - **Changed:** Used for Lantern Festival banquets under Daoguang and on the 1856 route; 聯暉樓 (Prince Cheng, 西爽村) > 含光樓 (in the Thirty Scenes, 1805) > 含晖楼; S224 adds that Jiaqing moved the tower after 1811; 1811: 联辉楼 moved here from 西爽村, called 含辉楼 (S06, S49, S01, S210, S223, S224, S360, S361)
 - **Destroyed:** 1860 (S06, S49, S01, S210, S223, S224, S360, S361)
-- **Position:** 40.00117, 116.29814. S01 sure (S01 · confidence B)
+- **Position:** 40.00121, 116.29809. S01 sure (S01 · confidence B)
 - **Bays:** 7 on two storeys in the texts / 7x1 on the plan (S06, S49, S01, S210, S223, S224, S360, S361)
 - **Size in the inventory:** 33.0 × 12.7 m. S01 plan px / hall scale (S01)
 - **Storeys:** 2 (S06, S49, S01, S210, S223, S224, S360, S361)
@@ -28,10 +28,10 @@ Qichun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 30.74 × 12.7 m, storeyed hall
+- **Box:** 29.26 × 12.7 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 9.17 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 181.5° from north
+- **Faces:** 182.6° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 

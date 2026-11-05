@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S48, S01, S361, S310)
 - **Type:** other (S05, S48, S01, S361, S310 · confidence B)
 - **Destroyed:** 1860 (S05, S48, S01, S361, S310)
-- **Position:** 40.00787, 116.30958. S01 sure (S01 · confidence B)
+- **Position:** 40.00785, 116.30957. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 9x2 on the plan (S05, S48, S01, S361, S310)
 - **Size in the inventory:** 27.2 × 18.24 m. stated: S310, mhymy ysltd 5247 (玉玲珑馆平面图, NLC 样070-1), 丈尺 as quoted (S01)
 - **Note:** S48: 七开间 前有抱厦五间 (lead). bays: 7 (S361, v4 p.1). (S05, S48, S01, S361, S310)
@@ -26,10 +26,10 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 33.07 × 22.5 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 14.33 m above the ground
+- **Box:** 32.46 × 21.16 m, grand hall
+- **Heights:** platform 1.22 m, eave 6.34 m, ridge 13.86 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 172° from north
+- **Faces:** 172.1° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 

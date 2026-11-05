@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S48, S01, S361 · confidence B)
 - **Built:** by 1755 poem [j83:17b]; 1747; added to c. 1764 (S05, S48, S01, S361)
 - **Destroyed:** 1860 (S05, S48, S01, S361)
-- **Position:** 40.00787, 116.30958. S01 sure (S01 · confidence B)
+- **Position:** 40.00785, 116.30957. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label 玉玲瓏館 at (11380,3800) beside the zig-zag bridge, blue 7. Labels inside: 林光澹碧, 正谊明道, 鹤安斋, 狎?亭; 芥舟 and 朝暉亭 at the edge. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 11413, 3527 (S01) *(research copy, not public)*

@@ -14,10 +14,10 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01, S361)
 - **Type:** tower (S05, S01, S361 · confidence B)
 - **Destroyed:** 1860 (S05, S01, S361)
-- **Position:** 40.00797, 116.30773. S01 likely (S01 · confidence B)
+- **Position:** 40.00799, 116.30773. S01 likely (S01 · confidence B)
 - **Bays:** 9x4 on the plan (S05, S01, S361)
 - **Size in the inventory:** 41.4 × 34.4 m. S01 plan px / hall scale (S01)
-- **Note:** 内額 味腴書屋. inner plaque 味腴书室; held the 四库全书荟要 (S361, v3 p.244). Round 7 turned the front from 82.0° (S05 j83:4b). (S05, S01, S361)
+- **Note:** 内額 味腴書屋. inner plaque 味腴书室; held the 四库全书荟要 (S361, v3 p.244). Round 7 turned the front from 83.5° (S05 j83:4b). (S05, S01, S361)
 - **Plan reader's note:** East U-shaped range x 10660-10770, y 3266-3447. '含经堂東'. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 10714, 3357 (S01) *(research copy, not public)*
@@ -26,11 +26,11 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 35.64 × 24.94 m, storeyed hall
+- **Box:** 35.34 × 25.73 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 9.17 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 82° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.2 m
+- **Faces:** 83.5° from north
+- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.3 m
 - **Confidence:** B
 
 ## Pictures (0)

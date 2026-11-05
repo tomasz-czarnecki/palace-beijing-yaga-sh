@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01102, 116.30678. S01 likely (S01 · confidence B)
+- **Position:** 40.01102, 116.30679. S01 likely (S01 · confidence B)
 - **Bays:** 3x1 on the plan (S05, S01)
 - **Size in the inventory:** 11.0 × 5.7 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label on the water south of the hill; hall on axis on the rockery, flanked by B0302 and B0304. (S01) *(research copy, not public)*

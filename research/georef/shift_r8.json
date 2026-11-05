@@ -1,0 +1,264 @@
+{
+ "against": "HEAD",
+ "boxes": {
+  "n": 1634,
+  "median_m": 0.1,
+  "p90_m": 4.4,
+  "max_m": 18.1,
+  "over_3_m": 309,
+  "over_5_m": 110,
+  "over_10_m": 15,
+  "only_before": [
+   "GB35"
+  ],
+  "only_after": []
+ },
+ "boxes_by_basis": {
+  "default": {
+   "n": 14,
+   "median_m": 0.0,
+   "p90_m": 1.2,
+   "max_m": 3.1,
+   "over_3_m": 1,
+   "over_5_m": 0,
+   "over_10_m": 0
+  },
+  "gate": {
+   "n": 21,
+   "median_m": 1.9,
+   "p90_m": 6.3,
+   "max_m": 18.1,
+   "over_3_m": 7,
+   "over_5_m": 4,
+   "over_10_m": 1
+  },
+  "layout": {
+   "n": 11,
+   "median_m": 0.1,
+   "p90_m": 2.0,
+   "max_m": 2.0,
+   "over_3_m": 0,
+   "over_5_m": 0,
+   "over_10_m": 0
+  },
+  "plan": {
+   "n": 1500,
+   "median_m": 0.1,
+   "p90_m": 4.4,
+   "max_m": 12.7,
+   "over_3_m": 293,
+   "over_5_m": 98,
+   "over_10_m": 14
+  },
+  "stated": {
+   "n": 9,
+   "median_m": 0.0,
+   "p90_m": 1.2,
+   "max_m": 1.8,
+   "over_3_m": 0,
+   "over_5_m": 0,
+   "over_10_m": 0
+  },
+  "xiyang": {
+   "n": 79,
+   "median_m": 0.0,
+   "p90_m": 1.1,
+   "max_m": 8.5,
+   "over_3_m": 8,
+   "over_5_m": 8,
+   "over_10_m": 0
+  }
+ },
+ "boxes_by_garden": {
+  "": {
+   "n": 21,
+   "median_m": 1.9,
+   "p90_m": 6.3,
+   "max_m": 18.1,
+   "over_3_m": 7,
+   "over_5_m": 4,
+   "over_10_m": 1
+  },
+  "Changchun Yuan": {
+   "n": 199,
+   "median_m": 1.9,
+   "p90_m": 4.4,
+   "max_m": 8.5,
+   "over_3_m": 58,
+   "over_5_m": 9,
+   "over_10_m": 0
+  },
+  "Qichun Yuan": {
+   "n": 297,
+   "median_m": 3.9,
+   "p90_m": 6.5,
+   "max_m": 12.5,
+   "over_3_m": 209,
+   "over_5_m": 82,
+   "over_10_m": 13
+  },
+  "Xiyang Lou": {
+   "n": 79,
+   "median_m": 0.0,
+   "p90_m": 1.1,
+   "max_m": 8.5,
+   "over_3_m": 8,
+   "over_5_m": 8,
+   "over_10_m": 0
+  },
+  "Yuanming Yuan": {
+   "n": 1023,
+   "median_m": 0.0,
+   "p90_m": 1.0,
+   "max_m": 6.7,
+   "over_3_m": 22,
+   "over_5_m": 4,
+   "over_10_m": 0
+  },
+  "outside the walls": {
+   "n": 15,
+   "median_m": 0.4,
+   "p90_m": 5.8,
+   "max_m": 12.7,
+   "over_3_m": 5,
+   "over_5_m": 3,
+   "over_10_m": 1
+  }
+ },
+ "boxes_largest": [
+  [
+   "GB43",
+   18.1
+  ],
+  [
+   "F0634",
+   12.7
+  ],
+  [
+   "F1560",
+   12.5
+  ],
+  [
+   "F1559",
+   11.5
+  ],
+  [
+   "F1558",
+   11.2
+  ],
+  [
+   "F0418",
+   10.9
+  ],
+  [
+   "F1557",
+   10.8
+  ],
+  [
+   "F0439",
+   10.8
+  ],
+  [
+   "F0440",
+   10.7
+  ],
+  [
+   "F0438",
+   10.7
+  ]
+ ],
+ "rows": {
+  "n": 1652,
+  "median_m": 0.1,
+  "p90_m": 4.5,
+  "max_m": 12.7,
+  "over_3_m": 325,
+  "over_5_m": 116,
+  "over_10_m": 12
+ },
+ "layers": {
+  "walls_1860": {
+   "wall_vertices": {
+    "n": 58,
+    "median_m": 1.7,
+    "p90_m": 5.8,
+    "max_m": 12.7,
+    "over_3_m": 15,
+    "over_5_m": 9,
+    "over_10_m": 2
+   },
+   "gates": {
+    "n": 53,
+    "median_m": 2.2,
+    "p90_m": 6.7,
+    "max_m": 15.4,
+    "over_3_m": 17,
+    "over_5_m": 8,
+    "over_10_m": 2
+   }
+  },
+  "water_1860": {
+   "n": 363,
+   "median_m": 0.3,
+   "p90_m": 5.4,
+   "max_m": 11.9,
+   "over_3_m": 71,
+   "over_5_m": 42,
+   "over_10_m": 3
+  },
+  "islands_1860": {
+   "n": 62,
+   "median_m": 0.3,
+   "p90_m": 5.2,
+   "max_m": 10.8,
+   "over_3_m": 13,
+   "over_5_m": 7,
+   "over_10_m": 1
+  },
+  "hills_1860": {
+   "n": 54,
+   "median_m": 1.0,
+   "p90_m": 5.5,
+   "max_m": 11.5,
+   "over_3_m": 18,
+   "over_5_m": 9,
+   "over_10_m": 1
+  },
+  "bridges_1860": {
+   "n": 73,
+   "median_m": 0.8,
+   "p90_m": 6.2,
+   "max_m": 8.8,
+   "over_3_m": 20,
+   "over_5_m": 13,
+   "over_10_m": 0
+  },
+  "scenes_1860": {
+   "n": 188,
+   "median_m": 1.4,
+   "p90_m": 5.8,
+   "max_m": 11.0,
+   "over_3_m": 55,
+   "over_5_m": 27,
+   "over_10_m": 5
+  },
+  "footprints_1860": {
+   "n": 1560,
+   "median_m": 0.2,
+   "p90_m": 4.6,
+   "max_m": 12.7,
+   "over_3_m": 323,
+   "over_5_m": 116,
+   "over_10_m": 14
+  },
+  "fields_1860": {
+   "n": 10,
+   "median_m": 0.0,
+   "p90_m": 0.0,
+   "max_m": 0.0,
+   "over_3_m": 0,
+   "over_5_m": 0,
+   "over_10_m": 0
+  }
+ }
+}

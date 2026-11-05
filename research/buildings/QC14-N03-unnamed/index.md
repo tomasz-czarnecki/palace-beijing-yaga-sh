@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** pavilion (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99779, 116.29854. S01 likely (S01 · confidence B)
+- **Position:** 39.99773, 116.29852. S01 likely (S01 · confidence B)
 - **Bays:** 1 in the texts / 1x1 on the plan (S01)
 - **Size in the inventory:** 6.0 × 7.6 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** First char like 春/森, second like 翠/晖. (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 6 × 7.6 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 6.47 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 172.6° from north
+- **Faces:** 171.4° from north
 - **Confidence:** B
 
 ## Pictures (0)

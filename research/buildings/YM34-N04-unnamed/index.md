@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01, S201)
 - **Type:** other (S01, S201 · confidence B)
 - **Destroyed:** 1860 (S01, S201)
-- **Position:** 40.00553, 116.30220. S01 likely (S01 · confidence B)
+- **Position:** 40.00554, 116.30220. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts / 2x1 on the plan (S01, S201)
 - **Size in the inventory:** 8.1 × 6.0 m. S01 plan px / hall scale (S01)
 - **Note:** 竹密山斋 Zhumi Shanzhai (plan label read 竹??山斋) (S201, KR4f0005_187:13a; S381). (S01, S201)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 8.1 × 6 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.25 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 175° from north
+- **Faces:** 175.7° from north
 - **Confidence:** B
 
 ## Pictures (0)

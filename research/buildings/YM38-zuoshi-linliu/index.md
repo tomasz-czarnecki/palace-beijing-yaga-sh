@@ -15,7 +15,7 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 - **Type:** scene (S05, S02, S08, S41, S01, S361, S310 · confidence A)
 - **Changed:** Lanting pavilion with stone pillars and a carved stone screen standing by 1796; mid-Qianlong: 坐石临流 rebuilt as an eight-sided double-eaved pavilion 八方重檐亭, with a six-sided thatched pavilion, a square bamboo-style pavilion, a two-bay thatched house and a stone throne-bed and screen (S05, S02, S08, S41, S01, S361, S310)
 - **Destroyed:** 1860 (S05, S02, S08, S41, S01, S361, S310)
-- **Position:** 40.00833, 116.29184. S01 sure (S01 · confidence B)
+- **Position:** 40.00833, 116.29183. S01 sure (S01 · confidence B)
 - **Note:** Album leaf also shows 同乐园 (YM44) and 舍卫城 (YM45) (S41; S02 p.94). Hall list is only this pavilion; the rest are YM44, YM45. (S05, S02, S08, S41, S01, S361, S310)
 - **Plan reader's note:** Label at (4288,2400). Polygon stops at the scroll gap x~4305; more drawing continues east of the gap (not read). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

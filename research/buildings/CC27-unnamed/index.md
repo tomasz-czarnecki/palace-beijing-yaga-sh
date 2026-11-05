@@ -11,7 +11,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00543, 116.30634. S01 guess (S01 · confidence C)
+- **Position:** 40.00548, 116.30634. S01 guess (S01 · confidence C)
 - **Plan reader's note:** B0850 and a 3x2 hall on the wall at (9934,4641). (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 10000, 4630 (S01) *(research copy, not public)*

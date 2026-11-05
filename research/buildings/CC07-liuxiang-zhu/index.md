@@ -12,7 +12,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** compound (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00886, 116.30307. S01 sure (S01 · confidence B)
+- **Position:** 40.00886, 116.30311. S01 sure (S01 · confidence B)
 - **Note:** 西循山逕行即逹圓明園之明春門 [j83:12a] (S05, S01)
 - **Plan reader's note:** Label on the water to the east at (9070,2700). Square terrace with stairs on all four sides. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

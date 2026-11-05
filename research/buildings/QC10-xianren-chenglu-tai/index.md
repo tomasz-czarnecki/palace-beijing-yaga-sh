@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** other (S42, S49, S01, S227 · confidence B)
 - **Changed:** Round carved stone 须弥座 moved to 中山公园, still there; bronze figure lost; 1989 black stone copy on the terrace (S42, S49, S01, S227)
 - **Destroyed:** modern 重制 (S49) (S42, S49, S01, S227)
-- **Position:** 40.00335, 116.30483. S01 likely (S01 · confidence B)
+- **Position:** 40.00330, 116.30484. S01 likely (S01 · confidence B)
 - **Bays:** 1x1 on the plan (S42, S49, S01, S227)
 - **Size in the inventory:** 16.7 × 9.1 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 涵秋馆东 凤麟洲西 (S42) (S42, S49, S01, S227) *(research copy, not public)*
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 16.7 × 9.1 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.52 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 87.6° from north
+- **Faces:** 89° from north
 - **Confidence:** B
 
 ## Inside it (1)

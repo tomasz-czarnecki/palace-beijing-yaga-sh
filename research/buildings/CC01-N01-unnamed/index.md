@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00539, 116.30905. S01 likely (S01 · confidence B)
+- **Position:** 40.00542, 116.30904. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 13.6 × 5.1 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** rect=57,17,0. Narrow gate in the cross wall with two small side gates at (10942,4790), (11130,4788). (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

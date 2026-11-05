@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S06, S43, S01, S220, S339, S361 · confidence B)
 - **Built:** 嘉庆六年 1801 已建成 (S43); by 嘉庆六年 1801; by 1801 (S06, S43, S01, S220, S339, S361)
 - **Destroyed:** 1860 (S06, S43, S01, S220, S339, S361)
-- **Position:** 40.00188, 116.30322. S01 guess (S01 · confidence C)
+- **Position:** 40.00190, 116.30325. S01 guess (S01 · confidence C)
 - **Bays:** 5 in the texts (S06, S43, S01, S220, S339, S361)
 - **Where the text puts it:** 居绮春园后湖南岸 (S43) (S06, S43, S01, S220, S339, S361) *(research copy, not public)*
 - **Note:** 南向正殿五间, 戏台 对面, 匾 庆乐升平; 扮戏房五间 (S43). bays: main hall 5, south-facing (S43, section 3.2). bays: 5, galleried, with a stage south (S361, v4 p.259). (S06, S43, S01, S220, S339, S361)

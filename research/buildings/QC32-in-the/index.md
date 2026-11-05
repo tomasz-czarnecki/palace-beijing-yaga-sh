@@ -15,7 +15,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S06, S01, S223, S361)
 - **Type:** scene (S06, S01, S223, S361 · confidence B)
 - **Destroyed:** 1860 (S06, S01, S223, S361)
-- **Position:** 40.00158, 116.30653. S01 likely (S01 · confidence B)
+- **Position:** 40.00161, 116.30655. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 6.7 × 13.6 m. S01 plan px / hall scale (S01)
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. 協性齋 Xiexing Zhai, not 协德斋 (S223, 卷十八 leaf 4). (S06, S01, S223, S361)
 - **Plan reader's note:** Middle char could be 德 in cursive. Hall with rockwork at the NE of the palace block. Inside QC04, position only. | plan: rect=28,45,0. Rockwork around it. Label x 9733. (S01) *(research copy, not public)*
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 6.7 × 13.6 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.19 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 263.1° from north
+- **Faces:** 262.3° from north
 - **Confidence:** B
 
 ## Pictures (0)

@@ -16,7 +16,7 @@ Changchun Yuan
 - **Built:** 1814 改建 (S43); 1814 rebuilt as viewing hall (S43, S48, S01, S940)
 - **Changed:** Built under Qianlong as 神心妙达殿; in mid-Jiaqing made a five-bay theatre-viewing hall with a front porch facing the 乐奏钧天 two-storey stage (S43, S48, S01, S940)
 - **Destroyed:** 1860 (S43, S48, S01, S940)
-- **Position:** 40.00889, 116.30752. S01 guess (S01 · confidence C)
+- **Position:** 40.00890, 116.30753. S01 guess (S01 · confidence C)
 - **Bays:** 5x2 on the plan (S43, S48, S01, S940)
 - **Size in the inventory:** 21.3 × 18.4 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 淳化轩东侧 (S43) (S43, S48, S01, S940) *(research copy, not public)*
@@ -32,7 +32,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 21.3 × 18.4 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.56 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 172.2° from north
+- **Faces:** 172.4° from north
 - **Confidence:** C
 
 ## Pictures (0)

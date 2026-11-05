@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S01, S361 · confidence B)
 - **Built:** 1747 (S05, S01, S361)
 - **Destroyed:** 1860 (S05, S01, S361)
-- **Position:** 40.00568, 116.30338. S01 guess (S01 · confidence C)
+- **Position:** 40.00570, 116.30338. S01 guess (S01 · confidence C)
 - **Bays:** 7x1 on the plan (S05, S01, S361)
 - **Size in the inventory:** 31.8 × 6.0 m. S01 plan px / hall scale (S01)
 - **Note:** 額曰天心水面 [j83:11a]. S48 merges it with the middle floor of 海岳开襟. towers, main hall double-eaved (S361, v3 p.340). (S05, S01, S361)
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 31.8 × 6 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 8.19 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 86.8° from north
+- **Faces:** 86.3° from north
 - **Confidence:** C
 
 ## Inside it (3)

@@ -11,7 +11,7 @@ outside the walls
 - **Garden:** outside the walls (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00291, 116.30949. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.00296, 116.30950. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S01)
 - **Size in the inventory:** 7.7 × 7.6 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 10992, 6100 (S01) *(research copy, not public)*
@@ -38,7 +38,7 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the nearest named compound, 如园, about 310 m away (no picture of this hall found): see CC18
+- Evidence for the nearest named compound, 如园, about 300 m away (no picture of this hall found): see CC18
 - Evidence for the whole garden, the three gardens (no picture of this hall found): see GARDEN-ALL
 - Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 

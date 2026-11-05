@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S02, S41, S01)
 - **Type:** bridge (S05, S02, S41, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S02, S41, S01)
-- **Position:** 40.00563, 116.29822. S01 sure (S01 · confidence B)
+- **Position:** 40.00563, 116.29821. S01 sure (S01 · confidence B)
 - **Note:** Bridge with a pavilion; water falls from the hill behind (S02 p.94). (S05, S02, S41, S01)
 - **Plan reader's note:** Pavilion on a bridge; text 虹桥 ... 杰阁. Label is south of it. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

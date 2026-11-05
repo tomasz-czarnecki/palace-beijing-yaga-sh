@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01, S201, S381)
 - **Type:** tower (S01, S201, S381 · confidence B)
 - **Destroyed:** 1860 (S01, S201, S381)
-- **Position:** 40.00585, 116.30257. S01 likely (S01 · confidence B)
+- **Position:** 40.00586, 116.30258. S01 likely (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x1 on the plan (S01, S201, S381)
 - **Size in the inventory:** 20.8 × 7.3 m. S01 plan px / hall scale (S01)
 - **Note:** 延藻楼 Yanzao Lou (plan label read ?漾楼) (S201, KR4f0005_187:13a; S381). (S01, S201, S381)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 20.8 × 7.3 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 8.68 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 86.7° from north
+- **Faces:** 86.2° from north
 - **Confidence:** B
 
 ## Pictures (0)

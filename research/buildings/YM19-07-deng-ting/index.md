@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** pavilion (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00817, 116.28553. S01 likely (S01 · confidence B)
+- **Position:** 40.00817, 116.28552. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 4.8 × 5.4 m. S01 plan px / hall scale (S01)
 - **Roof:** 重檐八方 double-eave octagon (S05, S01)
 - **Plan reader's note:** 灯亭: ring in the rockery, SE of the bridge. rect=20,18,0 (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 4.8 × 5.4 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 5.91 m above the ground
 - **Roof:** pyramid 攒尖, double eaves 重檐, grey tile
-- **Faces:** 175.8° from north
+- **Faces:** 175.9° from north
 - **Confidence:** B
 
 ## Pictures (0)

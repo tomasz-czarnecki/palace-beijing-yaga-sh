@@ -14,7 +14,7 @@ Changchun Yuan
 - **Built:** 1746; 泽兰堂 added 1759 (S05, S48, S01, S201, S361, S310)
 - **Changed:** The 西洋水法 stands north of 澤蘭堂; a dated 1795 statement fixing this relation; 1835: 理性居 and its corridors removed, railings fitted (S05, S48, S01, S201, S361, S310)
 - **Destroyed:** 1860 (S05, S48, S01, S201, S361, S310)
-- **Position:** 40.01159, 116.30666. S01 sure (S01 · confidence B)
+- **Position:** 40.01158, 116.30668. S01 sure (S01 · confidence B)
 - **Note:** S48: on the central N axis, 占地1万 m2 (lead). (S05, S48, S01, S201, S361, S310)
 - **Plan reader's note:** Label 澤蘭堂 east of the hall. Includes the rockery south of it and 翠交轩 (label 翠交轩 far south, written on the water at (10548,1990)). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

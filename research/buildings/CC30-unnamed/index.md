@@ -11,7 +11,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00953, 116.30301. S01 guess (S01 · confidence C)
+- **Position:** 40.00952, 116.30303. S01 guess (S01 · confidence C)
 - **Plan reader's note:** B0403. Near a small hexagon pavilion (8951,2939) further south on another islet. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 8974, 2328 (S01) *(research copy, not public)*

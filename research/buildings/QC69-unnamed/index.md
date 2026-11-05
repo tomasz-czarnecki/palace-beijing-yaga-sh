@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00102, 116.30692. S01 likely (S01 · confidence B)
+- **Position:** 40.00106, 116.30693. S01 likely (S01 · confidence B)
 - **Plan reader's note:** UNLABELLED service courts east of the palace block; covered bridge from (9965,6905) to B1308. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9880, 6950 (S01) *(research copy, not public)*

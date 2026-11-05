@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00689, 116.31069. S01 guess (S01 · confidence C)
+- **Position:** 40.00688, 116.31068. S01 guess (S01 · confidence C)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 9.8 × 6.3 m. S01 plan px / hall scale (S01)
 - **How it was read:** guess (S01) *(research copy, not public)*

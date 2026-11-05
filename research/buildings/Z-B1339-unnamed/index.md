@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00065, 116.30778. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.00068, 116.30779. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 9.1 × 6.0 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 10178, 7169 (S01) *(research copy, not public)*
@@ -23,7 +23,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 9.1 × 6 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.25 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 83.6° from north
+- **Faces:** 83.3° from north
 - **Confidence:** B
 
 ## Pictures (0)
@@ -38,7 +38,7 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the nearest named compound, 心镜轩, about 90 m away (no picture of this hall found): see QC27
+- Evidence for the nearest named compound, 心镜轩, about 100 m away (no picture of this hall found): see QC27
 - Evidence for the whole garden, 绮春园 Qichun Yuan (no picture of this hall found): see GARDEN-QC
 - Standing buildings comparable to a small house (not this building): see CLASS-small_house
 

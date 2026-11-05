@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00330, 116.30385. S01 likely (S01 · confidence B)
+- **Position:** 40.00328, 116.30385. S01 likely (S01 · confidence B)
 - **Plan reader's note:** UNLABELLED long gallery chain B1142 B1143 B1144; bridges east to 涵秋馆 and across the scroll gap west to 春泽斋 side. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8888, 5622 (S01) *(research copy, not public)*

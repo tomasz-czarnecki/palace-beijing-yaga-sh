@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01, S361)
 - **Type:** other (S05, S01, S361 · confidence B)
 - **Destroyed:** 1860 (S05, S01, S361)
-- **Position:** 40.00695, 116.31204. S01 likely (S01 · confidence B)
+- **Position:** 40.00694, 116.31203. S01 likely (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x1 on the plan (S05, S01, S361)
 - **Size in the inventory:** 19.9 × 6.3 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Text 5 bays facing west: B0730 is 5 bays on the west side, x 12268-12291, y 4091-4173; label 鉴园 immediately west. Mirror range x 12338-12365 in A-cc_xyl-012. (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 19.9 × 6.3 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 6.56 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 264.2° from north
+- **Faces:** 264° from north
 - **Confidence:** B
 
 ## Pictures (0)

@@ -62,7 +62,7 @@
    "part": "the scene's outline on the plan",
    "what": "area",
    "label": "Area",
-   "value": 32400.0,
+   "value": 32500.0,
    "err": 3200.0,
    "unit": "m²",
    "method": "b",

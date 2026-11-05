@@ -22,10 +22,10 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 22.09 × 6.51 m, small house
-- **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.43 m above the ground
+- **Box:** 22.09 × 6.43 m, small house
+- **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.4 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.8° from north
+- **Faces:** 173.6° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 4.6 m
 - **Water:** stands partly over the water layer: on piers or on a bank too thin for the layer to show
 - **Confidence:** B

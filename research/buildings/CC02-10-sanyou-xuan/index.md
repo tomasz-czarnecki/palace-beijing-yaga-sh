@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** other (S48, S01, S940 · confidence B)
 - **Built:** 1770-72 (S48); 1770 (乾隆三十五年) (S48, S01, S940)
 - **Destroyed:** 1860 (S48, S01, S940)
-- **Position:** 40.00850, 116.30700. S01 likely (S01 · confidence B)
+- **Position:** 40.00852, 116.30700. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x1 on the plan (S48, S01, S940)
 - **Size in the inventory:** 11.1 × 7.2 m. stated: S940, p.364 (PDF p.12) (S01)
 - **Where the text puts it:** (S48) (S48, S01, S940) *(research copy, not public)*
@@ -28,10 +28,10 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 14.54 × 13.35 m, side hall
+- **Box:** 14.54 × 13.34 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.14 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 172.2° from north
+- **Faces:** 172.4° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 

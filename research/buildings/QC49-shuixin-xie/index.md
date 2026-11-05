@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S06, S01, S361)
 - **Type:** scene (S06, S01, S361 · confidence B)
 - **Destroyed:** 1860 (S06, S01, S361)
-- **Position:** 40.00196, 116.30235. S01 guess (S01 · confidence C)
+- **Position:** 40.00199, 116.30240. S01 guess (S01 · confidence C)
 - **Bays:** 3, open hall, galleried in the texts (S06, S01, S361)
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Position not in text. Plan readers. (S06, S01, S361)
 - **Plan reader's note:** No label. Only a hall on a ring of rockwork in the water, with a hexagonal pavilion. Name is a pure guess from 水心. (S01) *(research copy, not public)*

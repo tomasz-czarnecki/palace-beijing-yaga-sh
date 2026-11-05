@@ -1862,7 +1862,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [G32](G32-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
 | [G33](G33-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G34](G34-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
-| [G35](G35-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
+| [G35](G35-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G36](G36-unnamed/index.md) | Gate without a name read on the plan | walls | 1 | yes |
 | [G37](G37-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |
 | [G38](G38-unnamed/index.md) | Gate without a name read on the plan | walls | 0 |  |

@@ -11,7 +11,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00893, 116.29435. S01 guess (S01 · confidence C)
+- **Position:** 40.00893, 116.29436. S01 guess (S01 · confidence C)
 - **Plan reader's note:** Unlabelled group B0389, B0399, B0401 on the hill between 廓然大公 and 溪月松风. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 5364, 2260 (S01) *(research copy, not public)*

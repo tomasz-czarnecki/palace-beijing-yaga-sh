@@ -91,6 +91,9 @@ def main():
     for name in ("walls_1860", "water_1860", "islands_1860", "hills_1860", "bridges_1860", "scenes_1860", "footprints_1860", "fields_1860"):
         sizes[name] = write(name, layer_1860(name), S01_CREDIT)
     sizes["osm_today"] = write("osm_today", osm_today(), OSM_CREDIT)
+    # Round 8: expected error of a position, from the blind check set (research/georef/). Our readings of S01 and of today's imagery, coordinates only.
+    if (LAYERS / "georef_error.geojson").exists():
+        sizes["georef_error"] = write("georef_error", layer_1860("georef_error"), S01_CREDIT + "; check points read on Esri World Imagery (coordinates only), research/georef/check_points.json")
     rows = list(csv.DictReader(open(ROOT / "research/buildings.csv", encoding="utf-8", newline="")))
     sizes["buildings_1860"] = write("buildings_1860", building_points(rows), S01_CREDIT + "; names from the texts, research/sources.md")
     labs = labels(rows)

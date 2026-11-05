@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** theatre (S43, S48, S01, S144 · confidence B)
 - **Built:** 嘉庆十九年 1814 (S43) (S43, S48, S01, S144)
 - **Destroyed:** 1860 (S43, S48, S01, S144)
-- **Position:** 40.00870, 116.30757. S01 likely (S01 · confidence B)
+- **Position:** 40.00871, 116.30757. S01 likely (S01 · confidence B)
 - **Bays:** 1x1 on the plan (S43, S48, S01, S144)
 - **Size in the inventory:** 16 × 16 m. text (see notes) (S01)
 - **Roof:** 重檐 double (S43) (S43, S48, S01, S144)
@@ -30,11 +30,11 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 8.72 × 7.91 m, small house
+- **Box:** 8.74 × 7.93 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.91 m above the ground
 - **Roof:** gable 硬山 or 悬山, double eaves 重檐, grey tile
-- **Faces:** 352.2° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
+- **Faces:** 352.4° from north
+- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.1 m
 - **Confidence:** B
 
 ## Pictures (1)

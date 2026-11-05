@@ -15,7 +15,7 @@ walled court north of 养雀笼 · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01207, 116.30290. S01 guess (S01 · confidence C)
+- **Position:** 40.01201, 116.30291. S01 guess (S01 · confidence C)
 - **Bays:** 5 in the texts / 1x1 on the plan (S01)
 - **Size in the inventory:** 15.6 × 5.4 m. S01 plan px / hall scale (S01)
 - **Note:** Service or keeping court; rooms N, W and E round a yard, gate on the south. The Chinese-roofed hall with windows at the left of plate 6 stands in this place: seen from the west. Not named by a text. (S01, Round 6). (S01)
@@ -27,8 +27,8 @@ walled court north of 养雀笼 · Xiyang Lou
 
 Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 13.62 × 5.4 m, eave 7 m, ridge 9.5 m
-- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.73 × 8.7 m, eave 7 m, ridge 9.5 m
+- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 13.58 × 5.4 m, eave 7 m, ridge 9.5 m
+- **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.72 × 8.55 m, eave 7 m, ridge 9.5 m
 - **Confidence:** C, all assumed
 
 ## Pictures (1)
@@ -54,7 +54,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q64: The plan's scale and turn in this strip (Round 6)
 
 <!-- generated:end -->
 

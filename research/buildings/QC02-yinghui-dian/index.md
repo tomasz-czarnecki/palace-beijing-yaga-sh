@@ -14,7 +14,7 @@ Qichun Yuan
 - **Built:** 1809 as 勤政殿 (S06, S01, S224, S223, S361)
 - **Changed:** 勤政殿 under Jiaqing, renamed 迎晖殿 under Daoguang (S06, S01, S224, S223, S361)
 - **Destroyed:** 1860 (S06, S01, S224, S223, S361)
-- **Position:** 39.99995, 116.30626. S01 sure (S01 · confidence B)
+- **Position:** 39.99995, 116.30625. S01 sure (S01 · confidence B)
 - **Bays:** 5x1 on the plan (S06, S01, S224, S223, S361)
 - **Size in the inventory:** 25.6 × 13.0 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 依次为新宫门 迎晖殿 中和堂 敷春堂 (S06) (S06, S01, S224, S223, S361) *(research copy, not public)*
@@ -30,7 +30,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 25.6 × 13 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 8.86 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.9° from north
+- **Faces:** 173.7° from north
 - **Confidence:** B
 
 ## Inside it (3)

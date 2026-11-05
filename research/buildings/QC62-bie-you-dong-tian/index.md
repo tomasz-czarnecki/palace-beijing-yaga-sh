@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99923, 116.29953. S01 sure (S01 · confidence B)
+- **Position:** 39.99920, 116.29945. S01 sure (S01 · confidence B)
 - **Bays:** 3x1 on the plan (S01)
 - **Size in the inventory:** 11.7 × 8.2 m. S01 plan px / hall scale (S01)
 - **Note:** plan: Label beside gate B1354 by the bridge to 澄心堂. NOT YM34 别有洞天, which is far north in Yuanming Yuan. (S01)
@@ -27,7 +27,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 11.7 × 8.2 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 6.01 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 81.4° from north
+- **Faces:** 82.1° from north
 - **Confidence:** B
 
 ## Pictures (0)

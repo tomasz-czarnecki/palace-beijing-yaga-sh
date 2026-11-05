@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01, S201)
 - **Type:** pavilion (S01, S201 · confidence B)
 - **Destroyed:** 1860 (S01, S201)
-- **Position:** 40.00392, 116.29137. S01 likely (S01 · confidence B)
+- **Position:** 40.00392, 116.29136. S01 likely (S01 · confidence B)
 - **Bays:** 1 in the texts / 1x1 on the plan (S01, S201)
 - **Size in the inventory:** 5.7 × 7.3 m. S01 plan px / hall scale (S01)
 - **Note:** 永春亭 Yongchun Ting (plan label read 来青亭) (S201, KR4f0005_486:2a). (S01, S201)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 5.7 × 7.3 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 6.33 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 172.3° from north
+- **Faces:** 172.4° from north
 - **Confidence:** B
 
 ## Pictures (1)

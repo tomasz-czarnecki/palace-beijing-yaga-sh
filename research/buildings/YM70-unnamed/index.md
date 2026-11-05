@@ -11,7 +11,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00670, 116.28568. S01 guess (S01 · confidence C)
+- **Position:** 40.00671, 116.28568. S01 guess (S01 · confidence C)
 - **Plan reader's note:** Group of small halls between 月地云居 and 万方安和; polygon stops near my box edge, drawing continues east of x 1700. No label found. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 1660, 2810 (S01) *(research copy, not public)*

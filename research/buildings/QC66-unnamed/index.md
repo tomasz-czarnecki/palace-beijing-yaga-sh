@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00360, 116.30683. S01 likely (S01 · confidence B)
+- **Position:** 40.00360, 116.30681. S01 likely (S01 · confidence B)
 - **Plan reader's note:** UNLABELLED islet east of 凤麟洲, bridge from it. S42 11467 B区 (rectangular, 24×22 m) probably means this. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 10057, 5573 (S01) *(research copy, not public)*

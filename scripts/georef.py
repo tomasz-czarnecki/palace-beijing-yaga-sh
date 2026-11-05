@@ -1,8 +1,12 @@
 """Georeference the Princeton plan (S01) on today's landscape.
 
-Reads the control points in research/georef/princeton-1920s.csv, fits several transforms in UTM 50N
-(EPSG:32650), compares them by leave-one-out RMS and stores the chosen one in
-research/georef/princeton-1920s.json. All figures in that file come from a run of this script.
+Round 8 (the fit in use): reads the control points of Round 1 (research/georef/princeton-1920s.csv) and of
+Round 8 (research/georef/control_r8.csv), fits in UTM 50N (EPSG:32650) a plain affine and thin-plate splines
+with a smoothness limit set per garden region by leave-one-out, scores them on the frozen blind check set
+(research/georef/check_points.json, never edited after it was frozen) against the Round 1 fit, keeps the Round 1
+fit in any region where the new one does worse on the check set, and stores the result in
+research/georef/princeton-1920s.json. The Round 1 fit stays beside it as princeton-1920s.previous.json. All
+figures in both files come from runs of this script.
 
 Import (numpy and pyproj only):
 
@@ -12,12 +16,16 @@ Import (numpy and pyproj only):
 
 Commands:
 
-    python scripts/georef.py fit        compare transforms, write the JSON
+    python scripts/georef.py fit        Round 8: compare transforms, score them on the check set, write the JSON
+    python scripts/georef.py previous   rebuild the Round 1 fit from princeton-1920s.csv alone (princeton-1920s.previous.json)
+    python scripts/georef.py freeze     hash the check set once, before any fit sees it (refuses to run twice)
+    python scripts/georef.py accuracy   research/layers/georef_error.geojson: expected error by region and grid cell, from the check set
     python scripts/georef.py overlay    warp the mosaic to research/overlays/princeton-1920s.jpg + .json
-    python scripts/georef.py images     screenshots/r1/georef_overlay.jpg and georef_residuals.png
+    python scripts/georef.py images     screenshots/r8/georef_residuals.png (no plan image, public-safe) and georef_overlay.jpg (local)
 """
 
 import csv
+import hashlib
 import json
 import sys
 from datetime import date
@@ -28,11 +36,19 @@ from pyproj import Transformer
 
 ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = ROOT / "research/georef/princeton-1920s.csv"
+CONTROL_R8 = ROOT / "research/georef/control_r8.csv"
+CONTROL_SHAPES = ROOT / "research/georef/control_shapes.csv"
+CHECK_PATH = ROOT / "research/georef/check_points.json"
 JSON_PATH = ROOT / "research/georef/princeton-1920s.json"
+PREVIOUS_PATH = ROOT / "research/georef/princeton-1920s.previous.json"
+ERROR_LAYER = ROOT / "research/layers/georef_error.geojson"
+WALLS_PLAN = ROOT / "research/plan/walls.json"
 MOSAIC = ROOT / "research/raw/plans/princeton_mosaic.jpg"
 OVERLAY = ROOT / "research/overlays/princeton-1920s.jpg"
 OSM = ROOT / "research/layers/osm_today.geojson"
-SHOTS = ROOT / "screenshots/r1"
+SHOTS = ROOT / "screenshots/r8"
+PREVIOUS_DATE = "2026-10-31"  # the Round 1 fit; fixed so a rebuild gives the same file
+FIT_DATE = "2026-11-05"  # Round 8
 
 _TO_UTM = Transformer.from_crs(4326, 32650, always_xy=True)
 _TO_LL = Transformer.from_crs(32650, 4326, always_xy=True)
@@ -92,12 +108,13 @@ class Fit:
             w = np.array(p["weights"])
             a = np.array(p["affine"])
             e, n = np.empty_like(x), np.empty_like(x)
-            for s in range(0, len(x), 200000):
-                xs, ys = x[s : s + 200000], y[s : s + 200000]
+            step = max(1000, 4_000_000 // max(1, len(cen)))  # about 32 MB of kernel at a time
+            for s in range(0, len(x), step):
+                xs, ys = x[s : s + step], y[s : s + step]
                 k = _tps_kernel((xs[:, None] - cen[:, 0]) ** 2 + (ys[:, None] - cen[:, 1]) ** 2)
                 g = np.c_[np.ones_like(xs), xs, ys]
-                e[s : s + 200000] = k @ w[:, 0] + g @ a[:, 0]
-                n[s : s + 200000] = k @ w[:, 1] + g @ a[:, 1]
+                e[s : s + step] = k @ w[:, 0] + g @ a[:, 0]
+                n[s : s + step] = k @ w[:, 1] + g @ a[:, 1]
         else:
             raise ValueError(self.kind)
         return (e * UNIT_M + self.e0).reshape(shape), (n * UNIT_M + self.n0).reshape(shape)
@@ -391,7 +408,8 @@ def _spec_label(spec):
     return spec["name"]
 
 
-def run_fit():
+def run_fit_previous(out_path=PREVIOUS_PATH):
+    """The Round 1 fit, rebuilt from princeton-1920s.csv alone; kept beside the Round 8 fit as `previous`."""
     rows = read_points()
     used = [r for r in rows if r["use"] == "fit"]
     comparison, best = [], None
@@ -438,7 +456,7 @@ def run_fit():
         "mosaic": "research/raw/plans/princeton_mosaic.jpg",
         "pixel_frame": "plan_x, plan_y: pixels on the mosaic, origin top-left",
         "datum": "control points WGS84 (EPSG:4326); fitted in UTM 50N (EPSG:32650)",
-        "date": date.today().isoformat(),
+        "date": PREVIOUS_DATE,
         "n_points": len(used),
         "n_by_area": {a: sum(r["area"] == a for r in used) for a in AREAS},
         "global_scale": affine_summary(used),
@@ -467,7 +485,7 @@ def run_fit():
             for r, a1, b1 in zip(used, res, loo)
         ],
     }
-    JSON_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
     print(f"{'transform':28s} {'rms':>7s} {'LOO':>7s} {'LOOmed':>7s}  LOO per area")
     for c in comparison:
         pa = " ".join(f"{k}:{v['loo_rms_m']:.0f}" for k, v in c["per_area"].items())
@@ -477,6 +495,436 @@ def run_fit():
         ic = out["independent_check"]
         print("check kept:", ic["n"], ic["rms_m"], "rms", ic["median_m"], "median | shapes", ic["on_shapes"], "| labels", ic["on_osm_labels"], "| first pass", ic["first_pass"]["n"], ic["first_pass"]["rms_m"], ic["first_pass"]["median_m"])
     return out
+
+
+# --------------------------------------------------------------- Round 8: regions, check set, piecewise fit
+
+# The six regions the accuracy is reported by, as rules on plan pixels (the plan's own frame, so a rule never moves
+# with the fit). Lines: x 2800 west of the nine islands; x 5300 west of 福海's west shore scenes; x 8640 the wall
+# between Yuanming Yuan and Changchun Yuan (the middle scroll's seam is there too); y 1150 the Xiyang Lou strip's
+# south edge; y 4600-4650 and 4950 the walls between Qichun Yuan and the two others (plan/walls.json W02, W03).
+REGIONS = ("YM-west", "YM-east", "YM-fuhai", "CC", "XYL", "QC")
+REGION_NAMES = {"YM-west": "Yuan Ming Yuan, west", "YM-east": "Yuan Ming Yuan, east and the nine islands", "YM-fuhai": "福海 Fuhai and its shores", "CC": "Changchun Yuan", "XYL": "The Xiyang Lou strip", "QC": "Qichun Yuan"}
+REGION_NOTES = {
+    "YM-west": "Yuan Ming Yuan west of the nine islands: the plain of 山高水长, 安佑宫, the west wall. The plan is schematic here (Q8) and many ponds were dug or filled after 1950.",
+    "YM-east": "Yuan Ming Yuan from the nine islands round 后湖 to 福海's west shore scenes: 前湖, the 正大光明 axis, 舍卫城.",
+    "YM-fuhai": "福海 and its shore scenes, up to the wall with Changchun Yuan.",
+    "CC": "Changchun Yuan without the Xiyang Lou strip: its lakes, 含经堂, the south and east walls.",
+    "XYL": "The Xiyang Lou strip on Changchun Yuan's north edge; ruins read on today's imagery.",
+    "QC": "Qichun Yuan; its lakes were re-dug in modern times.",
+}
+EXCLUDE_M = 60.0  # a control point this close to a check point on the ground stays out of every fit (check_points.json "rule")
+LAM_GRID = (0.03, 0.1, 0.3, 1.0, 3.0, 10.0)  # TPS smoothing, in the normalised units of fit(); Round 1 chose 1.0
+Q2_WEIGHT = 0.5  # quality 2 points count half, as in Round 1
+PIN_STEP_PX = 240.0  # spacing of the points that hold a region to the previous fit (about 50 m)
+PIN_LAM = 0.03
+
+
+def region_of(x, y):
+    """Region code of plan pixels, by the rules above."""
+    x, y = np.atleast_1d(np.asarray(x, float)), np.atleast_1d(np.asarray(y, float))
+    out = np.empty(x.shape, object)
+    east = x >= 8640
+    cc_bottom = np.where(x < 10350, 4650.0, 4950.0)
+    out[east & (y < 1150)] = "XYL"
+    out[east & (y >= 1150) & (y < cc_bottom)] = "CC"
+    out[east & (y >= cc_bottom)] = "QC"
+    west = ~east
+    qc = west & (x >= 5200) & (y >= 4600)
+    out[qc] = "QC"
+    rest = west & ~qc
+    out[rest & (x >= 5300)] = "YM-fuhai"
+    out[rest & (x >= 2800) & (x < 5300)] = "YM-east"
+    out[rest & (x < 2800)] = "YM-west"
+    return out
+
+
+def region_polygons():
+    """The regions as plan-pixel polygons, clipped to the wall rings with a margin of about 60 m."""
+    from shapely.geometry import Polygon, box
+    from shapely.ops import unary_union
+
+    W, H = 12955, 9049
+    rules = {
+        "XYL": [box(8640, 0, W, 1150)],
+        "CC": [box(8640, 1150, 10350, 4650), box(10350, 1150, W, 4950)],
+        "QC": [box(8640, 4650, 10350, H), box(10350, 4950, W, H), box(5200, 4600, 8640, H)],
+        "YM-fuhai": [box(5300, 0, 8640, 4600)],
+        "YM-east": [box(2800, 0, 5300, 4600), box(2800, 4600, 5200, H)],
+        "YM-west": [box(0, 0, 2800, H)],
+    }
+    rings = json.loads(WALLS_PLAN.read_text(encoding="utf8"))
+    garden = unary_union([Polygon(w["points"]).buffer(0) for w in rings if w["kind"] == "outer_wall"]).buffer(300)
+    return {k: unary_union(v).intersection(garden) for k, v in rules.items()}
+
+
+def _sha(points):
+    canon = json.dumps(points, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(canon.encode("utf8")).hexdigest()
+
+
+def read_check():
+    """The frozen check set; stops if its points no longer match the hash written when it was frozen."""
+    d = json.loads(CHECK_PATH.read_text(encoding="utf8"))
+    if d.get("sha256") != _sha(d["points"]):
+        raise SystemExit("check_points.json: the points no longer match the frozen hash. The check set is never edited; annotate in 'annotations' instead.")
+    return d
+
+
+def run_freeze():
+    d = json.loads(CHECK_PATH.read_text(encoding="utf8"))
+    if d.get("sha256"):
+        raise SystemExit("already frozen: " + d["sha256"])
+    d["sha256"] = _sha(d["points"])
+    d["frozen"] = FIT_DATE
+    CHECK_PATH.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
+    print("frozen", len(d["points"]), "points", d["sha256"])
+
+
+def read_control():
+    """Round 1 and Round 8 control points with use=fit (read by eye: control_r8.csv; derived by script: control_shapes.csv).
+    A Round 8 point within EXCLUDE_M of a check point is left out, whatever its file says."""
+    rows = [dict(r, round="r1") for r in read_points() if r["use"] == "fit"]
+    excluded = []
+    chk = read_check()["points"] if CHECK_PATH.exists() else []
+    ce, cn = _TO_UTM.transform(np.array([p["lon"] for p in chk], float), np.array([p["lat"] for p in chk], float))
+    ce, cn = np.atleast_1d(ce), np.atleast_1d(cn)
+    for path in (CONTROL_R8, CONTROL_SHAPES):
+        if not path.exists():
+            continue
+        for r in read_points(path):
+            e, n = _TO_UTM.transform(r["lon"], r["lat"])
+            d = np.hypot(ce - e, cn - n) if len(chk) else np.array([np.inf])
+            if r["use"] != "fit" or d.min() < EXCLUDE_M:
+                why = r.get("note") or r["use"]
+                if d.min() < EXCLUDE_M:
+                    why = f"{d.min():.0f} m from check point {chk[int(d.argmin())]['id']}"
+                excluded.append({"id": r["id"], "feature": r["feature"], "reason": why})
+                continue
+            rows.append(dict(r, round="r8"))
+    for r in rows:
+        r["region"] = str(region_of(r["plan_x"], r["plan_y"])[0])
+    return rows, excluded
+
+
+def _tps(x, y, e, n, lam_pt, qw):
+    return fit("tps", x, y, e, n, 1.0, qw / lam_pt)
+
+
+def _loo(x, y, e, n, lam_pt, qw, idx=None):
+    """Leave-one-out residuals (model minus point, metres) of the TPS, for the points in idx (all by default)."""
+    idx = np.arange(len(x)) if idx is None else idx
+    out = np.full((len(x), 2), np.nan)
+    for i in idx:
+        keep = np.arange(len(x)) != i
+        pe, pn = _tps(x[keep], y[keep], e[keep], n[keep], lam_pt[keep], qw[keep])(x[i:i + 1], y[i:i + 1])
+        out[i] = pe[0] - e[i], pn[0] - n[i]
+    return out
+
+
+def _loo_affine(x, y, e, n, qw):
+    out = np.empty((len(x), 2))
+    for i in range(len(x)):
+        keep = np.arange(len(x)) != i
+        pe, pn = fit("affine", x[keep], y[keep], e[keep], n[keep], 0.0, qw[keep])(x[i:i + 1], y[i:i + 1])
+        out[i] = pe[0] - e[i], pn[0] - n[i]
+    return out
+
+
+def _stats(d):
+    d = np.asarray([v for v in d if np.isfinite(v)], float)
+    if not len(d):
+        return {"n": 0, "median_m": None, "p90_m": None, "max_m": None}
+    return {"n": int(len(d)), "median_m": round(float(np.median(d)), 1), "p90_m": round(float(np.percentile(d, 90)), 1), "max_m": round(float(d.max()), 1)}
+
+
+def check_errors(model, points):
+    """Model minus check point, metres, per point; model maps plan pixels to UTM."""
+    x = np.array([p["plan_x"] for p in points], float)
+    y = np.array([p["plan_y"] for p in points], float)
+    e, n = _TO_UTM.transform(np.array([p["lon"] for p in points], float), np.array([p["lat"] for p in points], float))
+    pe, pn = model(x, y)
+    reg = region_of(x, y)
+    return [
+        {"id": p["id"], "region": str(r), "kind": p["kind"], "dE_m": round(float(a), 1), "dN_m": round(float(b), 1), "dist_m": round(float(np.hypot(a, b)), 1)}
+        for p, r, a, b in zip(points, reg, pe - np.asarray(e), pn - np.asarray(n))
+    ]
+
+
+def check_summary(errs):
+    out = {"all": _stats([c["dist_m"] for c in errs])}
+    for rg in REGIONS:
+        out[rg] = _stats([c["dist_m"] for c in errs if c["region"] == rg])
+    return out
+
+
+def _model_of(path):
+    d = json.loads(Path(path).read_text(encoding="utf8"))["transform"]
+    return Panels([Fit.from_dict(f) for f in d["fits"]]) if d["type"] == "panels" else Fit.from_dict(d["fit"])
+
+
+def run_fit():
+    rows, excluded = read_control()
+    x, y, e, n = _arrays(rows)
+    qw = np.array([1.0 if r["quality"] == 1 else Q2_WEIGHT for r in rows])
+    reg = np.array([r["region"] for r in rows])
+    comparison = []
+
+    def summarise(name, res, loo, extra=None):
+        d = np.hypot(loo[:, 0], loo[:, 1])
+        item = {"name": name, "rms_m": round(_rms(res[:, 0], res[:, 1]), 1), "loo_rms_m": round(_rms(loo[:, 0], loo[:, 1]), 1), "loo_median_m": round(float(np.median(d)), 1), "per_region": {}}
+        for rg in REGIONS:
+            m = reg == rg
+            if m.any():
+                item["per_region"][rg] = {"n": int(m.sum()), "loo_rms_m": round(_rms(loo[m, 0], loo[m, 1]), 1), "loo_median_m": round(float(np.median(d[m])), 1)}
+        item.update(extra or {})
+        comparison.append(item)
+        return item
+
+    # 1. A plain global affine on every control point.
+    aff = fit("affine", x, y, e, n, 0.0, qw)
+    pe, pn = aff(x, y)
+    summarise("affine, all control points", np.c_[pe - e, pn - n], _loo_affine(x, y, e, n, qw))
+
+    # 2. One smoothing for the whole plan, by leave-one-out.
+    best_global = None
+    for lam in LAM_GRID:
+        lam_pt = np.full(len(x), lam)
+        loo = _loo(x, y, e, n, lam_pt, qw)
+        m = _tps(x, y, e, n, lam_pt, qw)
+        pe, pn = m(x, y)
+        item = summarise(f"tps lam={lam:g}, all control points", np.c_[pe - e, pn - n], loo, {"lam": lam})
+        if best_global is None or item["loo_rms_m"] < best_global[0]:
+            best_global = (item["loo_rms_m"], lam)
+
+    # 3. The smoothness limit per region: one pass over the regions, each set by the leave-one-out of its own points.
+    lam_by_region = {rg: best_global[1] for rg in REGIONS}
+    for rg in REGIONS:
+        idx = np.where(reg == rg)[0]
+        if len(idx) < 4:
+            continue
+        scores = []
+        for lam in LAM_GRID:
+            trial = dict(lam_by_region, **{rg: lam})
+            lam_pt = np.array([trial[r] for r in reg])
+            loo = _loo(x, y, e, n, lam_pt, qw, idx)
+            scores.append((round(_rms(loo[idx, 0], loo[idx, 1]), 2), -lam, lam))
+        lam_by_region[rg] = min(scores)[2]  # ties go to the smoother
+    lam_pt = np.array([lam_by_region[r] for r in reg])
+    new = _tps(x, y, e, n, lam_pt, qw)
+    pe, pn = new(x, y)
+    new_loo = _loo(x, y, e, n, lam_pt, qw)
+    new_item = summarise("tps, smoothing per region", np.c_[pe - e, pn - n], new_loo, {"lam_by_region": lam_by_region})
+
+    # 4. Score on the frozen check set: the previous fit, the affine, the new fit.
+    check = read_check()
+    pts = check["points"]
+    previous = _model_of(PREVIOUS_PATH)
+    by_model = {}
+    for name, model in (("previous", previous), ("affine", aff), ("new", new)):
+        by_model[name] = check_summary(check_errors(model, pts))
+
+    # 5. The brief's rule: where the new fit does worse than the previous on the check set (median), keep the previous there.
+    decisions, pinned = {}, []
+    for rg in REGIONS:
+        a, b = by_model["new"][rg]["median_m"], by_model["previous"][rg]["median_m"]
+        if a is not None and b is not None and a > b:
+            decisions[rg] = f"previous: the new fit's check median {a} m is worse than the previous {b} m"
+            pinned.append(rg)
+        else:
+            decisions[rg] = f"new: check median {a} m against the previous {b} m"
+    final, final_name = new, "tps, smoothing per region"
+    fx, fy, fe, fn, flam, fqw = x, y, e, n, lam_pt, qw
+    if pinned:
+        from shapely.geometry import Point
+
+        polys = region_polygons()
+        keep = ~np.isin(reg, pinned)
+        gx, gy = [], []
+        for rg in pinned:
+            p = polys[rg]
+            x0, y0, x1, y1 = p.bounds
+            for xx in np.arange(x0 + PIN_STEP_PX / 2, x1, PIN_STEP_PX):
+                for yy in np.arange(y0 + PIN_STEP_PX / 2, y1, PIN_STEP_PX):
+                    if p.contains(Point(xx, yy)):
+                        gx.append(xx)
+                        gy.append(yy)
+        gx, gy = np.array(gx), np.array(gy)
+        ge, gn = previous(gx, gy)
+        fx, fy = np.r_[x[keep], gx], np.r_[y[keep], gy]
+        fe, fn = np.r_[e[keep], ge], np.r_[n[keep], gn]
+        flam = np.r_[lam_pt[keep], np.full(len(gx), PIN_LAM)]
+        fqw = np.r_[qw[keep], np.ones(len(gx))]
+        final = _tps(fx, fy, fe, fn, flam, fqw)
+        final_name = f"tps, smoothing per region; held to the previous fit in {', '.join(pinned)}"
+    final_errs = check_errors(final, pts)
+    by_model["final"] = check_summary(final_errs)
+
+    tr = {"type": "single", "fit": final.to_dict(), "name": final_name}
+    a = fit("affine", x, y, e, n)
+    lin = np.array([a.params["coef_e"][1:3], a.params["coef_n"][1:3]]) * UNIT_M / UNIT_PX
+    lin = lin @ np.diag([1.0, -1.0])
+    tr["inverse_step"] = np.linalg.inv(lin).tolist()
+    blk = _block_cv_r8(x, y, e, n, lam_pt, qw, reg)
+    verdict = {}
+    for rg in REGIONS:
+        s = by_model["final"][rg]
+        base = max(s["median_m"] or 0, new_item["per_region"].get(rg, {}).get("loo_median_m") or 0)
+        verdict[rg] = {
+            "check": s,
+            "loo_median_m": new_item["per_region"].get(rg, {}).get("loo_median_m"),
+            "block_cv_median_m": blk["per_region_median_m"].get(rg),
+            "typical_m": int(np.ceil(base / 5.0) * 5) if base else None,
+            "worst_m": s["max_m"],
+            "fit": "previous" if rg in pinned else "new",
+            "note": REGION_NOTES[rg],
+        }
+    out = {
+        "plan": "S01",
+        "source": "Plan of the Yuanmingyuan Imperial Garden-Palace, Princeton University Art Museum 2022-27 a-c",
+        "mosaic": "research/raw/plans/princeton_mosaic.jpg",
+        "pixel_frame": "plan_x, plan_y: pixels on the mosaic, origin top-left",
+        "datum": "control and check points WGS84 (EPSG:4326); fitted in UTM 50N (EPSG:32650)",
+        "date": FIT_DATE,
+        "method": "Thin-plate spline on the control points of Round 1 and Round 8, with its smoothing set per region by leave-one-out; scored on the blind check set frozen before any fit (check_points.json); in a region where it does worse than the Round 1 fit there, a grid of points every 50 m taken from the Round 1 fit holds the spline to it.",
+        "n_points": len(rows),
+        "n_by_round": {"r1": int(sum(r["round"] == "r1" for r in rows)), "r8": int(sum(r["round"] == "r8" for r in rows))},
+        "n_by_region": {rg: int((reg == rg).sum()) for rg in REGIONS},
+        "excluded_near_check": excluded,
+        "global_scale": affine_summary(rows),
+        "transform": tr,
+        "chosen": new_item,
+        "comparison": comparison,
+        "check": {"file": "research/georef/check_points.json", "sha256": check["sha256"], "n": len(pts), "by_model": by_model, "points": final_errs},
+        "decisions": decisions,
+        "previous": {"file": "research/georef/princeton-1920s.previous.json", "name": json.loads(PREVIOUS_PATH.read_text(encoding="utf8"))["transform"]["name"]},
+        "block_cross_validation": blk,
+        "per_region_verdict": verdict,
+        "residuals": [
+            {"id": r["id"], "round": r["round"], "region": r["region"], "kind": r["kind"], "quality": r["quality"], "dE_m": round(float(a1[0]), 1), "dN_m": round(float(a1[1]), 1), "loo_dE_m": round(float(b1[0]), 1), "loo_dN_m": round(float(b1[1]), 1), "loo_m": round(float(np.hypot(*b1)), 1)}
+            for r, a1, b1 in zip(rows, np.c_[pe - e, pn - n], new_loo)
+        ],
+    }
+    JSON_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
+    print(f"{'transform':40s} {'rms':>6s} {'LOO':>6s} {'LOOmed':>6s}  LOO median per region")
+    for c in comparison:
+        pr = " ".join(f"{k}:{v['loo_median_m']:.0f}" for k, v in c["per_region"].items())
+        print(f"{c['name']:40s} {c['rms_m']:6.1f} {c['loo_rms_m']:6.1f} {c['loo_median_m']:6.1f}  {pr}")
+    print("smoothing per region:", lam_by_region, "| excluded near a check point:", len(excluded))
+    print(f"\ncheck set ({len(pts)} points), distance in m: median / p90 / max (n)")
+    for rg in ("all",) + REGIONS:
+        print(f"{rg:9s} " + "  ".join(f"{k}: {s[rg]['median_m']}/{s[rg]['p90_m']}/{s[rg]['max_m']} ({s[rg]['n']})" for k, s in by_model.items()))
+    for rg, dsc in decisions.items():
+        print(rg, "->", dsc)
+    return out
+
+
+ACCURACY_CELL_M = 200.0
+ACCURACY_IDW_K = 4
+
+
+def run_accuracy():
+    """research/layers/georef_error.geojson: how far a position read off the plan may stand from where it stood, from the check set.
+
+    Three kinds of feature: `region` (the six regions, with the check set's median, 90th percentile and maximum under the
+    fit in use and under the previous one), `cell` (a 200 m grid: the inverse-distance mean of the errors at the four nearest
+    check points of the same region; an estimate between points, not a measurement) and `check_point` (each check point,
+    with its error under both fits). Derived from our own readings of the plan S01 and of today's imagery (coordinates only),
+    so it is public like the other traced layers.
+    """
+    from shapely.geometry import Point, box, mapping
+
+    d = json.loads(JSON_PATH.read_text(encoding="utf8"))
+    pts = read_check()["points"]
+    errs = {c["id"]: c for c in check_errors(_model_of(JSON_PATH), pts)}
+    prev = {c["id"]: c for c in check_errors(_model_of(PREVIOUS_PATH), pts)}
+    polys = region_polygons()
+    feats = []
+
+    def to_ll(poly):
+        def ring(coords):
+            c = np.asarray(coords)
+            dense = []
+            for a, b in zip(c[:-1], c[1:]):
+                k = max(1, int(np.hypot(*(b - a)) // 100))
+                dense += [a + (b - a) * t for t in np.arange(k) / k]
+            dense.append(c[-1])
+            dense = np.asarray(dense)
+            lon, lat = plan_to_wgs84(dense[:, 0], dense[:, 1])
+            return [[round(float(a), 7), round(float(b), 7)] for a, b in zip(lon, lat)]
+
+        geoms = [poly] if poly.geom_type == "Polygon" else list(poly.geoms)
+        out = [[ring(g.exterior.coords)] + [ring(h.coords) for h in g.interiors] for g in geoms]
+        return {"type": "MultiPolygon", "coordinates": out}
+
+    by = d["check"]["by_model"]
+    for rg in REGIONS:
+        s, p = by["final"][rg], by["previous"][rg]
+        v = d["per_region_verdict"][rg]
+        feats.append({"type": "Feature", "geometry": to_ll(polys[rg]), "properties": {
+            "id": f"GE-{rg}", "kind": "region", "region": rg, "name": f"Placement accuracy: {REGION_NAMES[rg]}", "n_check": s["n"],
+            "median_m": s["median_m"], "p90_m": s["p90_m"], "max_m": s["max_m"],
+            "previous_median_m": p["median_m"], "previous_p90_m": p["p90_m"], "previous_max_m": p["max_m"],
+            "fit": v["fit"], "typical_m": v["typical_m"],
+            "sources": "S01;S160;S03", "confidence": "B",
+            "note": REGION_NOTES[rg] + " Figures: distance between where the fit puts a check point read on the plan and where it is today, metres.",
+        }})
+    # The grid: inverse-distance mean of the four nearest check points in the same region.
+    cx = np.array([p["plan_x"] for p in pts], float)
+    cy = np.array([p["plan_y"] for p in pts], float)
+    ce, cn = _TO_UTM.transform(np.array([p["lon"] for p in pts], float), np.array([p["lat"] for p in pts], float))
+    ce, cn = np.asarray(ce), np.asarray(cn)
+    creg = region_of(cx, cy)
+    cdist = np.array([errs[p["id"]]["dist_m"] for p in pts])
+    allp = [g for g in polys.values()]
+    x0 = min(g.bounds[0] for g in allp); y0 = min(g.bounds[1] for g in allp)
+    x1 = max(g.bounds[2] for g in allp); y1 = max(g.bounds[3] for g in allp)
+    corners_e, corners_n = plan_to_utm(np.array([x0, x1, x0, x1]), np.array([y0, y0, y1, y1]))
+    k = 0
+    for ee in np.arange(np.floor(corners_e.min() / ACCURACY_CELL_M) * ACCURACY_CELL_M, corners_e.max(), ACCURACY_CELL_M):
+        for nn in np.arange(np.floor(corners_n.min() / ACCURACY_CELL_M) * ACCURACY_CELL_M, corners_n.max(), ACCURACY_CELL_M):
+            me, mn = ee + ACCURACY_CELL_M / 2, nn + ACCURACY_CELL_M / 2
+            px, py = utm_to_plan(np.array([me]), np.array([mn]))
+            rg = str(region_of(px, py)[0])
+            if not polys[rg].contains(Point(float(px[0]), float(py[0]))):
+                continue
+            m = creg == rg
+            if not m.any():
+                continue
+            dd = np.hypot(ce[m] - me, cn[m] - mn)
+            order = np.argsort(dd)[:ACCURACY_IDW_K]
+            w = 1.0 / np.maximum(dd[order], 25.0) ** 2
+            est = float((w * cdist[m][order]).sum() / w.sum())
+            lon, lat = _TO_LL.transform(np.array([ee, ee + ACCURACY_CELL_M, ee + ACCURACY_CELL_M, ee, ee]), np.array([nn, nn, nn + ACCURACY_CELL_M, nn + ACCURACY_CELL_M, nn]))
+            k += 1
+            feats.append({"type": "Feature", "geometry": {"type": "Polygon", "coordinates": [[[round(float(a), 7), round(float(b), 7)] for a, b in zip(lon, lat)]]}, "properties": {
+                "id": f"GE-{k:04d}", "kind": "cell", "region": rg, "name": f"Placement accuracy, a 200 m cell in {REGION_NAMES[rg]}", "expected_m": round(est, 1),
+                "nearest_check_m": round(float(dd[order[0]]), 0), "sources": "S01;S160;S03", "confidence": "C",
+                "note": f"Estimate between check points: inverse-distance mean of the {len(order)} nearest in {rg}.",
+            }})
+    for p in pts:
+        a, b = errs[p["id"]], prev[p["id"]]
+        feats.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [p["lon"], p["lat"]]}, "properties": {
+            "id": p["id"], "kind": "check_point", "region": a["region"], "name": f"Check point {p['id']}", "feature": p["feature"], "point_kind": p["kind"],
+            "dist_m": a["dist_m"], "dE_m": a["dE_m"], "dN_m": a["dN_m"], "previous_dist_m": b["dist_m"],
+            "sources": p.get("sources", "S01;S160"), "confidence": "B", "note": "A blind check point: never in a fit. Error = fit minus today's position.",
+        }})
+    ERROR_LAYER.write_text(json.dumps({"type": "FeatureCollection", "name": "georef_error", "features": feats}, ensure_ascii=False) + "\n", encoding="utf8")
+    print(f"georef_error: {len(REGIONS)} regions, {k} cells, {len(pts)} check points")
+
+
+def _block_cv_r8(x, y, e, n, lam_pt, qw, reg, block_px=1500.0):
+    """Hold out whole squares of the plan (about 300 m): the error far from any control point."""
+    blocks = (x // block_px).astype(int) * 1000 + (y // block_px).astype(int)
+    out = np.full((len(x), 2), np.nan)
+    for b in np.unique(blocks):
+        m = blocks == b
+        if (~m).sum() < 10:
+            continue
+        pe, pn = _tps(x[~m], y[~m], e[~m], n[~m], lam_pt[~m], qw[~m])(x[m], y[m])
+        out[m] = np.c_[pe - e[m], pn - n[m]]
+    d = np.hypot(out[:, 0], out[:, 1])
+    return {"block_px": block_px, "median_m": round(float(np.nanmedian(d)), 1), "per_region_median_m": {rg: round(float(np.nanmedian(d[reg == rg])), 1) for rg in REGIONS if (reg == rg).any()}}
 
 
 # --------------------------------------------------------------- importable mapping
@@ -501,7 +949,7 @@ def plan_to_utm(xs, ys):
     return _load()[0](np.asarray(xs, float), np.asarray(ys, float))
 
 
-def utm_to_plan(es, ns, iterations=8):
+def utm_to_plan(es, ns, iterations=12):
     """Exact inverse of plan_to_utm by fixed-point steps on the global linear part."""
     model, step = _load()
     es, ns = np.asarray(es, float), np.asarray(ns, float)
@@ -637,31 +1085,28 @@ COLORS = {"water": (0, 90, 255), "waterway": (0, 170, 230), "wall": (225, 20, 20
 
 
 def run_images():
+    """screenshots/r8/georef_residuals.png: the check set's errors under the previous fit (grey) and the fit in use (coloured), the control points, today's OSM. No plan image: safe to show. With the local overlay, also georef_overlay.jpg."""
     from PIL import Image, ImageDraw, ImageFont
 
     Image.MAX_IMAGE_PIXELS = None
     SHOTS.mkdir(parents=True, exist_ok=True)
-    meta = json.loads(OVERLAY.with_suffix(".json").read_text())
-    (south, west), (north, east) = meta["bounds_leaflet"]
-    im = Image.open(OVERLAY).convert("RGB")
-    scale = 3000 / max(im.size)
-    im = im.resize((int(im.width * scale), int(im.height * scale)), Image.BILINEAR)
-    white = Image.new("RGB", im.size, "white")
-    im = Image.blend(white, im, 0.5)
-    d = ImageDraw.Draw(im)
+    if OVERLAY.exists():
+        meta = json.loads(OVERLAY.with_suffix(".json").read_text())
+        (south, west), (north, east) = meta["bounds_leaflet"]
+        im = Image.open(OVERLAY).convert("RGB")
+        scale = 3000 / max(im.size)
+        im = Image.blend(Image.new("RGB", (int(im.width * scale), int(im.height * scale)), "white"), im.resize((int(im.width * scale), int(im.height * scale)), Image.BILINEAR), 0.5)
+        d = ImageDraw.Draw(im)
+        for k, q in _osm_lines():
+            d.line(list(zip((q[:, 0] - west) / (east - west) * im.width, (north - q[:, 1]) / (north - south) * im.height)), fill=COLORS[k], width=2)
+        im.save(SHOTS / "georef_overlay.jpg", quality=85)
 
-    def to_px(q):
-        return list(zip((q[:, 0] - west) / (east - west) * im.width, (north - q[:, 1]) / (north - south) * im.height))
-
-    for k, q in _osm_lines():
-        d.line(to_px(q), fill=COLORS[k], width=2)
-    im.save(SHOTS / "georef_overlay.jpg", quality=85)
-
-    # Residual map: OSM and points only, no plan, safe to show.
     data = json.loads(JSON_PATH.read_text(encoding="utf8"))
-    rows = {r["id"]: r for r in read_points()}
-    lo0, lo1, la0, la1 = 116.2815, 116.3175, 39.9935, 40.0170
-    w = 2400
+    pts = {p["id"]: p for p in read_check()["points"]}
+    prev = {c["id"]: c for c in check_errors(_model_of(PREVIOUS_PATH), list(pts.values()))}
+    rows, _ = read_control()
+    lo0, lo1, la0, la1 = 116.2800, 116.3150, 39.9950, 40.0150
+    w = 2600
     h = int(w * (la1 - la0) / (lo1 - lo0) / np.cos(np.radians(40.005)))
     c = Image.new("RGB", (w, h), "white")
     d = ImageDraw.Draw(c)
@@ -674,35 +1119,44 @@ def run_images():
         return (lon - lo0) / (lo1 - lo0) * w, (la1 - lat) / (la1 - la0) * h
 
     for k, q in _osm_lines():
-        col = tuple(int(v * 0.45 + 255 * 0.55) for v in COLORS[k])
+        col = tuple(int(v * 0.4 + 255 * 0.6) for v in COLORS[k])
         d.line([P(a, b) for a, b in q], fill=col, width=1)
-    m_per_img_px = (lo1 - lo0) * 111320 * np.cos(np.radians(40.005)) / w
+    polys = region_polygons()
+    for rg, poly in polys.items():
+        geoms = [poly] if poly.geom_type == "Polygon" else list(poly.geoms)
+        for g in geoms:
+            q = np.asarray(g.exterior.coords)
+            lon, lat = plan_to_wgs84(q[:, 0], q[:, 1])
+            d.line([P(a, b) for a, b in zip(lon, lat)], fill=(60, 60, 60), width=2)
+        cxy = poly.representative_point()
+        lon, lat = plan_to_wgs84(np.array([cxy.x]), np.array([cxy.y]))
+        s = data["check"]["by_model"]["final"][rg]
+        d.text(P(lon[0], lat[0]), f"{rg}: median {s['median_m']} m, p90 {s['p90_m']}, max {s['max_m']} (n={s['n']})", fill=(0, 0, 0), font=font)
+    m_per_px = (lo1 - lo0) * 111320 * np.cos(np.radians(40.005)) / w
     exag = 3
-    for r in data["residuals"]:
-        src = rows[r["id"]]
-        px, py = P(src["lon"], src["lat"])
-        dx, dy = r["loo_dE_m"] / m_per_img_px * exag, -r["loo_dN_m"] / m_per_img_px * exag
-        col = (200, 0, 0) if r["loo_m"] > 40 else (230, 120, 0) if r["loo_m"] > 20 else (0, 130, 0)
-        d.line([px, py, px + dx, py + dy], fill=col, width=2)
-        d.ellipse([px - 4, py - 4, px + 4, py + 4], fill=col)
-        d.text((px + 5, py + 4), r["id"], fill=(30, 30, 30), font=font)
-    for p in data["independent_check"]["points"]:
-        src = rows[p["id"]]
-        px, py = P(src["lon"], src["lat"])
-        dx, dy = p["dE_m"] / m_per_img_px * exag, -p["dN_m"] / m_per_img_px * exag
-        d.line([px, py, px + dx, py + dy], fill=(120, 0, 200), width=2)
-        d.rectangle([px - 4, py - 4, px + 4, py + 4], outline=(120, 0, 200), width=2)
-        d.text((px + 5, py + 4), p["id"], fill=(120, 0, 200), font=font)
-    d.rectangle([10, 10, 980, 120], fill="white", outline="black")
-    d.text((20, 16), f"S01 georeferencing: {data['transform']['name']}, {data['n_points']} points. Leave-one-out residuals x{exag} (arrow scale). OSM (ODbL) background.", fill="black", font=font)
-    d.text((20, 40), "Dot colours: green under 20 m, orange 20-40 m, red over 40 m. Purple squares: independent check points (not in the fit).", fill="black", font=font)
-    d.text((20, 64), f"Overall: RMS {data['chosen']['rms_m']} m, leave-one-out RMS {data['chosen']['loo_rms_m']} m, median {data['chosen']['loo_median_m']} m.", fill="black", font=font)
-    ic = data["independent_check"]
-    d.text((20, 88), f"Check points, not blind: kept {ic['n']}, median {ic['median_m']} m; first reading {ic['first_pass']['n']}, median {ic['first_pass']['median_m']} m. © OpenStreetMap contributors", fill="black", font=font)
+    for r in rows:
+        px, py = P(r["lon"], r["lat"])
+        col = (0, 140, 0) if r["round"] == "r1" else (0, 90, 220)
+        d.ellipse([px - 3, py - 3, px + 3, py + 3], fill=col)
+    for c_ in data["check"]["points"]:
+        p = pts[c_["id"]]
+        px, py = P(p["lon"], p["lat"])
+        b = prev[c_["id"]]
+        d.line([px, py, px + b["dE_m"] / m_per_px * exag, py - b["dN_m"] / m_per_px * exag], fill=(150, 150, 150), width=3)
+        col = (0, 150, 0) if c_["dist_m"] < 10 else (230, 140, 0) if c_["dist_m"] < 25 else (200, 0, 0)
+        d.line([px, py, px + c_["dE_m"] / m_per_px * exag, py - c_["dN_m"] / m_per_px * exag], fill=col, width=3)
+        d.rectangle([px - 5, py - 5, px + 5, py + 5], outline=(120, 0, 200), width=2)
+        d.text((px + 6, py + 4), c_["id"], fill=(120, 0, 200), font=font)
+    d.rectangle([10, 10, 1250, 112], fill="white", outline="black")
+    d.text((20, 16), f"S01 placement, Round 8: {data['transform']['name']}. {data['n_points']} control points (green Round 1, blue Round 8).", fill="black", font=font)
+    d.text((20, 40), f"Purple squares: the {len(pts)} blind check points, never in a fit. Arrows x{exag}: grey the previous fit's error, coloured the fit in use (green under 10 m, orange 10-25, red over 25).", fill="black", font=font)
+    a = data["check"]["by_model"]
+    d.text((20, 64), f"Check set, all: previous median {a['previous']['all']['median_m']} m, p90 {a['previous']['all']['p90_m']} m; in use median {a['final']['all']['median_m']} m, p90 {a['final']['all']['p90_m']} m, max {a['final']['all']['max_m']} m.", fill="black", font=font)
+    d.text((20, 88), "Background: OpenStreetMap contributors (ODbL). No plan image.", fill="black", font=font)
     c.save(SHOTS / "georef_residuals.png")
     print("images written")
 
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "fit"
-    {"fit": run_fit, "overlay": run_overlay, "images": run_images}[cmd]()
+    {"fit": run_fit, "previous": run_fit_previous, "freeze": run_freeze, "accuracy": run_accuracy, "overlay": run_overlay, "images": run_images}[cmd]()

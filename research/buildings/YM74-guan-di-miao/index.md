@@ -12,7 +12,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01300, 116.29768. S01 sure (S01 · confidence B)
+- **Position:** 40.01299, 116.29768. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label (7030,420) in its court. Inventory YM49-04. Polygon includes B0002-4 and B0024-27 to the east. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 7020, 360 (S01) *(research copy, not public)*

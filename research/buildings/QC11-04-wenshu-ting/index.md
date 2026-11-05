@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S49, S01, S221, S228)
 - **Type:** temple (S49, S01, S221, S228 · confidence B)
 - **Destroyed:** not burnt 1860 (S49) (S49, S01, S221, S228)
-- **Position:** 39.99950, 116.30332. S01 likely (S01 · confidence B)
+- **Position:** 39.99950, 116.30333. S01 likely (S01 · confidence B)
 - **Bays:** 1x1 on the plan (S49, S01, S221, S228)
 - **Size in the inventory:** 7.2 × 9.1 m. S01 plan px / hall scale (S01)
 - **Note:** 八方重檐 (S49); 文殊 statue over 2 zhang. octagonal; double eaves in Qianlong's time, single eaves on the survivor (S221) (S221, section 四). after1860: survived to the restoration; repaired in phase 1 (2003) (S228, section 长期被占损毁严重). (S49, S01, S221, S228)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 7.2 × 9.1 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 7.03 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 172.9° from north
+- **Faces:** 171.6° from north
 - **Confidence:** B
 
 ## Pictures (3)

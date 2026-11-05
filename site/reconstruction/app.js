@@ -32,6 +32,13 @@ const line = (color) => `<span class="sw line" style="border-color:${color}"></s
 const fill = (color, edge) => `<span class="sw" style="background:${color};border-color:${edge || color}"></span>`;
 const dot = (color) => `<span class="sw dot" style="background:${color}"></span>`;
 const kindOf = (p) => ({ outer_wall: "garden wall", separating_wall: "wall between gardens" }[p.kind] || p.kind);
+// Placement accuracy (Round 8): how far a position taken from the plan may stand from where it stood, in metres, from the blind check set.
+const errColour = (m) => (m == null ? "#9ca3af" : m < 5 ? "#15803d" : m < 10 ? "#65a30d" : m < 20 ? "#eab308" : m < 40 ? "#ea580c" : "#b91c1c");
+const errScale = `<span class="sw" style="background:linear-gradient(90deg,#15803d,#65a30d,#eab308,#ea580c,#b91c1c)"></span>`;
+const errText = (p) => p.kind === "region"
+  ? `<div class="pop-tag">${esc(p.region)} · check set: median ${esc(p.median_m)} m, 90% within ${esc(p.p90_m)} m, worst ${esc(p.max_m)} m (${esc(p.n_check)} points)</div><div class="pop-tag">previous fit: median ${esc(p.previous_median_m)} m, 90% ${esc(p.previous_p90_m)} m, worst ${esc(p.previous_max_m)} m · fit in use here: ${esc(p.fit)}</div>`
+  : p.kind === "cell" ? `<div class="pop-tag">expected about ${esc(p.expected_m)} m (estimate between check points; nearest ${esc(p.nearest_check_m)} m away)</div>`
+  : `<div class="pop-sub">${esc(p.feature)}</div><div class="pop-tag">check point (${esc(p.point_kind)}), never in a fit: off by ${esc(p.dist_m)} m (east ${esc(p.dE_m)}, north ${esc(p.dN_m)}); previous fit ${esc(p.previous_dist_m)} m</div>`;
 
 // [file, name, swatch, Leaflet options, on by default, extra lines for the popup]. Added in this order, so the small things lie on top.
 const LAYERS = [
@@ -39,6 +46,11 @@ const LAYERS = [
     style: (f) => ({ color: f.properties.kind === "water" ? "#60a5fa" : f.properties.kind === "ruin" ? "#7c3aed" : "#a78bfa", weight: 1, fillOpacity: 0.12 }),
     pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 3, color: "#7c3aed", weight: 1, fillOpacity: 0.7 }),
   }, false, (p) => `<div class="pop-sub">${esc(p["name:en"] || "")} today's state</div>`],
+  ["georef_error", "Placement accuracy: expected error of a position, from the blind check set (green under 5 m, red over 40 m)", errScale, {
+    style: (f) => f.properties.kind === "region" ? { color: "#111827", weight: 2, dashArray: "6 4", fill: false } : { color: errColour(f.properties.expected_m), weight: 0, fillColor: errColour(f.properties.expected_m), fillOpacity: 0.45 },
+    // Check points as small squares in the marker pane, above the canvas layers, so walls and gates never hide them.
+    pointToLayer: (f, ll) => L.marker(ll, { icon: L.divIcon({ className: "", iconSize: [12, 12], html: `<div style="width:10px;height:10px;border:1px solid #111827;background:${errColour(f.properties.dist_m)}"></div>` }) }),
+  }, false, errText],
   ["fields_1860", "Rice fields 稻田", fill("#d9e2a0", "#7c8f33"), { style: () => ({ color: "#7c8f33", weight: 1, fillColor: "#d9e2a0", fillOpacity: 0.7 }) }, true],
   ["scenes_1860", "Scenes and compounds (outline drawn by the reader, not a source)", fill("#fde68a55", "#b45309"), { style: () => ({ color: "#b45309", weight: 1, dashArray: "4 3", fillColor: "#fde68a", fillOpacity: 0.12 }) }, true, (p) => `<div class="pop-tag">${p.area_m2 ? p.area_m2.toLocaleString("en") + " m²" : ""}${p.malone_no ? " · Malone no. " + esc(p.malone_no) : ""}</div>`],
   ["islands_1860", "Islands", fill("#c9d7a4", "#6b7f3a"), { style: () => ({ color: "#6b7f3a", weight: 1, fillColor: "#c9d7a4", fillOpacity: 0.45 }) }, true, (p) => `<div class="pop-tag">${p.area_m2 ? p.area_m2.toLocaleString("en") + " m²" : ""}</div>`],

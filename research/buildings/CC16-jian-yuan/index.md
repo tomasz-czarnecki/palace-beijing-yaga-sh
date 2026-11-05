@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S02, S48, S01, S361 · confidence B)
 - **Built:** 乾隆三十二年 1767 (S48, lead) (S05, S02, S48, S01, S361)
 - **Destroyed:** 1860 (S05, S02, S48, S01, S361)
-- **Position:** 40.00695, 116.31204. S01 sure (S01 · confidence B)
+- **Position:** 40.00694, 116.31203. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Labels 鑑園 (12230,4100) and 潄瓊齋 (12215,3880). Court group + rock court + north hall B0708 + 船坞 on the south. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 12281, 4132 (S01) *(research copy, not public)*

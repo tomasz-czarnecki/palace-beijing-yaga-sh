@@ -170,6 +170,7 @@ Modern interpretation, not evidence.
 - Q119: Digs
 - Q125: Geotagged Commons coverage is thin
 - Q129: The brief says the album views are roughly from the south
+- Q189: The western plain stays unanchored
 
 <!-- generated:end -->
 

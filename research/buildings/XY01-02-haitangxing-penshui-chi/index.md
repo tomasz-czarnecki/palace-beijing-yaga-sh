@@ -21,7 +21,7 @@ scalloped fountain pool, south · Xiyang Lou
 - **Note:** Bronze ducks 18, sheep 4 and a stone fish (S06); fish now at 未名湖. Round 6 replaced frontage 30.1 m. Round 6 replaced depth 18.4 m. (S06, S02, S01, S850)
 - **Plan reader's note:** rect=126,61,0. Scalloped pool x 8816-8942, y 1579-1640 with double edge; neck south to the lake x 8860-8902. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
-- **Plan pixels:** 8824, 1547 (S01) *(research copy, not public)*
+- **Plan pixels:** 8823, 1520 (S01) *(research copy, not public)*
 
 ## Our model now
 

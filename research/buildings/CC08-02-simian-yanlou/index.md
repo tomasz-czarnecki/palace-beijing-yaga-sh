@@ -14,9 +14,9 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** temple (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01084, 116.30447. S01 likely (S01 · confidence B)
+- **Position:** 40.01083, 116.30446. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 26.3 × 7.3 m. S01 plan px / hall scale (S01)
-- **Note:** Round 7 turned the front from 85.6° (S05 j83:12a). (S05, S01)
+- **Note:** Round 7 turned the front from 85.0° (S05 j83:12a). (S05, S01)
 - **Plan reader's note:** Square ring of rooms round court x 9576-9667, y 1609-1684. Ring outer x 9549-9688, y 1584-1716. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9620, 1650 (S01) *(research copy, not public)*
@@ -25,9 +25,9 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** storeyed hall: 22.35 × 5.53 m, eave 5.95 m, ridge 8.02 m
-- **1 ×:** storeyed hall: 29.04 × 6.55 m, eave 5.95 m, ridge 8.4 m
-- **1 ×:** storeyed hall: 22.31 × 4.36 m, eave 5.95 m, ridge 7.58 m
+- **1 ×:** storeyed hall: 21.77 × 5.38 m, eave 5.95 m, ridge 7.96 m
+- **1 ×:** storeyed hall: 29.43 × 6.27 m, eave 5.95 m, ridge 8.3 m
+- **1 ×:** storeyed hall: 21.79 × 4.23 m, eave 5.95 m, ridge 7.53 m
 - **Confidence:** B
 
 ## Pictures (0)

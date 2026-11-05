@@ -14,7 +14,7 @@ The Porch of the Great Gentleman · Yuanming Yuan
 - **Type:** scene (S05, S02, S08, S06, S01, S361 · confidence A)
 - **Changed:** by 1755: 八景 named (雙鶴齋 once 深栁讀書堂) (S05, S02, S08, S06, S01, S361)
 - **Destroyed:** 1860; on the 1873 survival list (S06); survived 1860; lost around 1900 (S05, S02, S08, S06, S01, S361)
-- **Position:** 40.01010, 116.29411. S01 sure (S01 · confidence B)
+- **Position:** 40.01012, 116.29412. S01 sure (S01 · confidence B)
 - **Note:** after1860: survived 1860, lost around 1900 (editors of S361) (S361, editors' note (E2035)). (S05, S02, S08, S06, S01, S361)
 - **Plan reader's note:** Label (5340,1710) in the court, Malone 37 at (5430,1715). Hill and lake group, 双鹤斋 in front. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

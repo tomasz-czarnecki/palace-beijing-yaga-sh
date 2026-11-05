@@ -17,7 +17,7 @@ Yuanming Yuan
 - **Built:** 雍正三年 1725 (S02 p.76) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Changed:** Plain under Yongzheng; columns painted red and capitals with dragons before the end of Qianlong (S02 p.76); Used for the palace re-examination 1844-50 and from 1814 for clansmen; dated later use (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Destroyed:** 19 October 1860, last of the buildings; the troops had quartered in it (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
-- **Position:** 40.00193, 116.29051. S01 sure (S01 · confidence B)
+- **Position:** 40.00193, 116.29052. S01 sure (S01 · confidence B)
 - **Bays:** 7 in the texts / 7x1 on the plan (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Size in the inventory:** 39.32 × 19.2 m. stated in a source (S01)
 - **Roof:** 卷棚歇山 (S06) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)

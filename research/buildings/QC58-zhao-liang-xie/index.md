@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S01, S220, S361 · confidence B)
 - **Built:** 嘉庆十八年 1813 (S01, S220, S361)
 - **Destroyed:** 1860 (S01, S220, S361)
-- **Position:** 39.99980, 116.29686. S01 sure (S01 · confidence B)
+- **Position:** 39.99985, 116.29684. S01 sure (S01 · confidence B)
 - **Bays:** 5, open hall on an islet in the texts / 12x4 on the plan (S01, S220, S361)
 - **Size in the inventory:** 25.8 × 18.0 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Lead 5910f5 lists 招凉榭. (S01) *(research copy, not public)*

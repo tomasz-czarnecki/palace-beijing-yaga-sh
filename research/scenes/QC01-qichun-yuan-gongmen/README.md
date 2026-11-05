@@ -116,9 +116,9 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 3, c 0, d 0, e 1.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| QC01 | the scene's outline on the plan | Area | 11600 m² | 1200 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC01 | the scene's outline on the plan | Extent, long side | 118 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC01 | the scene's outline on the plan | Extent, short side | 101 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC01 | the scene's outline on the plan | Area | 12000 m² | 1200 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC01 | the scene's outline on the plan | Extent, long side | 120 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC01 | the scene's outline on the plan | Extent, short side | 102 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | QC01 | gate quarter | Court width | 200 m | 20 | e | C | S227 | t20110105_231486 |  | about 200 by 120 m from the screen wall to the hill behind 中和堂 (E0568, park page, search summary) | snippet |
 
 ## Gaps and wishlist

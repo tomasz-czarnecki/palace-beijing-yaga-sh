@@ -11,7 +11,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01333, 116.30231. S01 guess (S01 · confidence C)
+- **Position:** 40.01325, 116.30232. S01 guess (S01 · confidence C)
 - **Plan reader's note:** Hilly enclosure north of the maze with one square pavilion in a square wall (B0008). Not in inventory. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 8883, 303 (S01) *(research copy, not public)*
@@ -36,7 +36,7 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the nearest named compound, 船坞, about 100 m away (no picture of this compound found): see YM85
+- Evidence for the nearest named compound, 黄花阵, about 90 m away (no picture of this compound found): see XY04
 - Evidence for the whole garden, 长春园 Changchun Yuan (no picture of this compound found): see GARDEN-CC
 
 **Searched and not found:** This block has no name on the plan or in the texts, so no source can be searched for it by name.

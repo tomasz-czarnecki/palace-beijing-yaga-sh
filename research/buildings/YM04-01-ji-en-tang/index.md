@@ -29,8 +29,8 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 39.08 × 16.46 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.19 m above the ground
+- **Box:** 39.08 × 16.44 m, grand hall
+- **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.18 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, mixed tile
 - **Faces:** 172.5° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.2 m

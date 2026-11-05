@@ -218,7 +218,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 2, b 7, c 0, d 0, e 0.
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | YM32 | island palace | Rooms | 0 m | 0 | a | C | S911 | p.16 |  | plus de cent chambres ou sallons. Il a quatre faces: more than a hundred rooms, four fronts; a count, not a length (value_m 0) | viewed |
 | YM32 | rock island under the palace | Island height above water | 1.95 m | 1 | a | C | S911 | pp.16-17 | toise de Paris 1.949 m | à une toise ou environ au-dessus de la surface de l'eau: about one toise = 1.95 m; an eyewitness estimate of 1743 | viewed |
-| YM32 | island I020 (蓬岛瑶台) | Island area | 4300 m² | 400 | b | B | S01 | layers/islands_1860, UTM 50N, polygon area | UTM 50N | land enclosed by the water traced from S01 | run |
+| YM32 | island I020 (蓬岛瑶台) | Island area | 4400 m² | 400 | b | B | S01 | layers/islands_1860, UTM 50N, polygon area | UTM 50N | land enclosed by the water traced from S01 | run |
 | YM32 | island I020 (蓬岛瑶台) | Island, short side | 60 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
 | YM32 | island I020 (蓬岛瑶台) | Island, long side | 97 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
 | YM32 | the scene's outline on the plan | Area | 6400 m² | 600 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |

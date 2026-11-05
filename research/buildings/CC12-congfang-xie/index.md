@@ -15,7 +15,7 @@ Changchun Yuan
 - **Built:** 1747 (S48); poem 1759 [j83:13a] (S05, S48, S01, S361)
 - **Changed:** 1828 partly rebuilt (S05, S48, S01, S361)
 - **Destroyed:** 1860 (S05, S48, S01, S361)
-- **Position:** 40.01137, 116.30991. S01 likely (S01 · confidence B)
+- **Position:** 40.01138, 116.30990. S01 likely (S01 · confidence B)
 - **Plan reader's note:** No label 丛芳榭 found. Labels here: 華?館 in the middle court, 琴清斋 under B0306/B0307, ?月亭 on the south pavilion. Group fits '丛芳榭...后为琴清斋' and lies directly west of 狮子林. Text's 丛芳榭 might be the south pavilion (see notes). (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 11785, 1640 (S01) *(research copy, not public)*

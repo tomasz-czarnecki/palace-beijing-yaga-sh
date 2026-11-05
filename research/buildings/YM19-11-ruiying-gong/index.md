@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** temple (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00826, 116.28606. S01 sure (S01 · confidence B)
+- **Position:** 40.00825, 116.28606. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 7.2 × 4.8 m. S01 plan px / hall scale (S01)
 - **Note:** 龍神 [j81:28b]; front 仁應殿, middle 和感殿, rear 晏安殿. (S05, S01)
 - **Plan reader's note:** Label south of the gate. Gate rect=30,16,0 (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 7.2 × 4.8 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 4.84 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 176° from north
+- **Faces:** 176.2° from north
 - **Confidence:** B
 
 ## Pictures (0)

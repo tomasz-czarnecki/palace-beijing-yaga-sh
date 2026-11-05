@@ -23,7 +23,7 @@ west octagonal music pavilion · Xiyang Lou
 - **Note:** Malone: 2-storey towers. Round 6 replaced frontage 9.6 m. Round 6 replaced depth 12.1 m. (S06, S02, S01, S108)
 - **Plan reader's note:** rect=40,40,0. Octagon, end of the curved gallery. Gallery runs (8816,1490) (8760,1510) (8735,1560) (8735,1580), width ~15. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
-- **Plan pixels:** 8687, 1537 (S01) *(research copy, not public)*
+- **Plan pixels:** 8686, 1510 (S01) *(research copy, not public)*
 
 ## Our model now
 

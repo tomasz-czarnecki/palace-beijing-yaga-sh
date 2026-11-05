@@ -13,7 +13,7 @@ Yuanming Yuan
 - **Type:** compound (S05, S43, S01, S337, S361 · confidence B)
 - **Built:** 1764 (S05, S43, S01, S337, S361)
 - **Destroyed:** 1860 (S05, S43, S01, S337, S361)
-- **Position:** 40.01252, 116.29528. S01 sure (S01 · confidence B)
+- **Position:** 40.01252, 116.29529. S01 sure (S01 · confidence B)
 - **Note:** S43: inside 大北门 east side, small garden. Not in the album as a leaf. (S05, S43, S01, S337, S361)
 - **Plan reader's note:** Label (6020,540). 关帝庙 of the same text passage is separate: NEW-ym_east-02. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

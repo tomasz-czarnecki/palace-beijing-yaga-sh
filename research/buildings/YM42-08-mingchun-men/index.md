@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** gate (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00886, 116.30200. S01 likely (S01 · confidence B)
+- **Position:** 40.00886, 116.30201. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 9.6 × 7.3 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** G15. S111: 雷峰夕照殿南折而东即为明春门. rect=24,40,0 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

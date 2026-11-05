@@ -14,7 +14,7 @@ Changchun Yuan
 - **Built:** 乾隆十二年 1747 基本建成 (S43;S48); by c. 1747: first 含經堂 poem at the end of the first collection; by 1749 (poem 乾隆十四年) (S05, S43, S48, S01, S201, S361)
 - **Changed:** 1770-72 淳化轩 etc added (S43; S48; j83:5b, 6b); 1780 四库荟要 to 霞翥楼 (S48); 1814 theatre (S43;S48); 1770 rebuilt; 1814 stage east of 淳化轩 (S05, S43, S48, S01, S201, S361)
 - **Destroyed:** 1860 (S05, S43, S48, S01, S201, S361)
-- **Position:** 40.00812, 116.30734. S01 sure (S01 · confidence B)
+- **Position:** 40.00814, 116.30734. S01 sure (S01 · confidence B)
 - **Note:** Largest group of Changchun (S43). Malone p.98 No.2 almost as large as the private apartments. (S05, S43, S48, S01, S201, S361)
 - **Plan reader's note:** Blue 2. Labels read: 含经堂, 宫门, 淳化轩, 蕴真斋, 静莲斋, 渊映斋, 三?轩, 樂奏?天, 得胜?, 澄波夕照. Polygon includes the north outlier 得胜? and the east rows. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

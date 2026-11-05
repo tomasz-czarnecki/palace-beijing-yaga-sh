@@ -11,7 +11,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** compound (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01228, 116.29930. S01 guess (S01 · confidence C)
+- **Position:** 40.01227, 116.29930. S01 guess (S01 · confidence C)
 - **Plan reader's note:** Unlabelled yard B0093-95, B0123-124 on the wall at x 7540. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 7640, 830 (S01) *(research copy, not public)*

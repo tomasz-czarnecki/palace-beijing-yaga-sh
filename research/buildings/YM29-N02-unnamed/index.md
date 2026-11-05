@@ -13,7 +13,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01167, 116.30089. S01 likely (S01 · confidence B)
+- **Position:** 40.01165, 116.30089. S01 likely (S01 · confidence B)
 - **Bays:** 1 in the texts (S01)
 - **Size in the inventory:** 9.6 × 12.1 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** East lake pavilion with stepped terrace. (S01) *(research copy, not public)*

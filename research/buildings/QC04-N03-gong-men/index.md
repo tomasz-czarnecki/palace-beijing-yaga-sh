@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** gate (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00055, 116.30619. S01 likely (S01 · confidence B)
+- **Position:** 40.00057, 116.30617. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts (S01)
 - **Size in the inventory:** 12.0 × 9.1 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** rect=50,30,0. Label reads 宫内/宫门. (S01) *(research copy, not public)*
@@ -25,10 +25,10 @@ Qichun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 11.58 × 7.05 m, gate hall
-- **Heights:** platform 0.77 m, eave 4.47 m, ridge 6.99 m above the ground
+- **Box:** 11.78 × 7.34 m, gate hall
+- **Heights:** platform 0.77 m, eave 4.47 m, ridge 7.09 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 174.3° from north
+- **Faces:** 175.2° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
@@ -61,6 +61,7 @@ None of its own.
 - Q125: Geotagged Commons coverage is thin
 - Q150: QC01
 - Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
+- Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 
 <!-- generated:end -->
 

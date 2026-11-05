@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S01)
 - **Type:** bridge (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00876, 116.31248. S01 likely (S01 · confidence B)
+- **Position:** 40.00875, 116.31246. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Hourglass bridge; B0586 is it. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 12576, 3184 (S01) *(research copy, not public)*

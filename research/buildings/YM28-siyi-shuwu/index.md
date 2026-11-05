@@ -15,7 +15,7 @@ Ssu I Shu Wu (the Library of the Four Delights) · Yuanming Yuan
 - **Type:** scene (S05, S02, S08, S01 · confidence A)
 - **Changed:** Remodelled after Haining 隅园 (安澜园) c. 1762-64 [j82:9a; poems 1764] (S05, S02, S08, S01)
 - **Destroyed:** 1860 (S05, S02, S08, S01)
-- **Position:** 40.01156, 116.29574. S01 sure (S01 · confidence B)
+- **Position:** 40.01157, 116.29575. S01 sure (S01 · confidence B)
 - **Note:** After 1762 also 安瀾園. Not to be confused with QC 四宜书屋. Album shows the pre-安澜园 state. (S05, S02, S08, S01)
 - **Plan reader's note:** Label 安澜园 (6190,1060), not 四宜书屋; the text says 四宜书屋 is the main hall of 安澜园. Malone 28 at (6150,1205). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

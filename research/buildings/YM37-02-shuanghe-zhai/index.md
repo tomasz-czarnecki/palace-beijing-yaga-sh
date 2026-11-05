@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S06, S01, S203, S337)
 - **Type:** other (S05, S06, S01, S203, S337 · confidence B)
 - **Destroyed:** 雙鶴齋 and its surroundings still stood in 1871; survived 1860; lost 1900 per S340 (S05, S06, S01, S203, S337)
-- **Position:** 40.00984, 116.29415. S01 sure (S01 · confidence B)
+- **Position:** 40.00986, 116.29416. S01 sure (S01 · confidence B)
 - **Bays:** 5x2 on the plan (S05, S06, S01, S203, S337)
 - **Size in the inventory:** 20.1 × 17.5 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label just south. Text: 前为双鹤斋. (S01) *(research copy, not public)*
@@ -25,10 +25,10 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 18.24 × 15.54 m, main hall
+- **Box:** 18.3 × 15.82 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 9.54 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.5° from north
+- **Faces:** 173.8° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 

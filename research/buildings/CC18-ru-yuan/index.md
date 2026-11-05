@@ -15,7 +15,7 @@ Ju Yuan, Garden of Likeness (Malone p.98) · Changchun Yuan
 - **Built:** poem 乾隆三十五年 1770 [j83:18b]; 1767 (S05, S02, S48, S01, S361)
 - **Changed:** 1811 major repair, plaques changed (S05, S02, S48, S01, S361)
 - **Destroyed:** 1860 (S05, S02, S48, S01, S361)
-- **Position:** 40.00560, 116.31026. S01 sure (S01 · confidence B)
+- **Position:** 40.00561, 116.31025. S01 sure (S01 · confidence B)
 - **Note:** After 瞻园 Nanjing [j83:18b]. S06 also 茹园. S48 adds 清瑶榭, 含碧楼, 惟绿轩, 延清亭, 含翠轩 (lead). (S05, S02, S48, S01, S361)
 - **Plan reader's note:** Label 如園 at the west end (11470,4750) and blue 8. Main hall labelled 延清堂, not 敦素堂 as in Rixia. See notes.md. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

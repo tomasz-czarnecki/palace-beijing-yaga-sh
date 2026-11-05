@@ -22,10 +22,10 @@ Qichun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 17.82 × 7 m, main hall
-- **Heights:** platform 0.7 m, eave 4.4 m, ridge 6.8 m above the ground
+- **Box:** 17.59 × 7.13 m, main hall
+- **Heights:** platform 0.7 m, eave 4.4 m, ridge 6.85 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.8° from north
+- **Faces:** 171.8° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 

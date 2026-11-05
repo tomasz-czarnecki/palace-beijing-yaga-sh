@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00700, 116.31060. S01 likely (S01 · confidence B)
+- **Position:** 40.00699, 116.31060. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts (S01)
 - **Plan reader's note:** Malone p.99: the only building not square with the compass, a small pavilion facing north-east on a little bay about 100 yards north of 如园. B0721 at 51 deg matches it. [shares block B0721 with CC15-N03] (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

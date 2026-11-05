@@ -12,7 +12,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00786, 116.30550. S01 likely (S01 · confidence B)
+- **Position:** 40.00790, 116.30552. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Figure-of-eight lozenge, label beside it. Not in inventory. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9847, 3307 (S01) *(research copy, not public)*

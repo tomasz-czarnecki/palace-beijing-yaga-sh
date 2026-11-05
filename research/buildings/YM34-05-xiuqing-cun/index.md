@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S02, S01)
 - **Type:** other (S05, S02, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S02, S01)
-- **Position:** 40.00555, 116.30057. S01 sure (S01 · confidence B)
+- **Position:** 40.00555, 116.30056. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 23.9 × 13.6 m. S01 plan px / hall scale (S01)
 - **Note:** Old name of the scene; Malone p.94 lake with houses behind a gateway over the stream. (S05, S02, S01)
 - **Plan reader's note:** Label just west of the gate tower, Malone: fortified gateway over the stream leading to Hsiu Ch'ing Ts'un. So the label may mark the gate, the village itself lying east. (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 23.9 × 13.6 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 9.06 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 263.8° from north
+- **Faces:** 263.6° from north
 - **Confidence:** B
 
 ## Pictures (0)

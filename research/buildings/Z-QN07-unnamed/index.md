@@ -12,7 +12,7 @@ outside the walls
 - **Garden:** outside the walls (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99635, 116.29977. S01 likely (S01 · confidence B)
+- **Position:** 39.99624, 116.29981. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 11.5 × 6.0 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** South of the wall. First char unread. Guard house by name. (S01) *(research copy, not public)*
@@ -26,7 +26,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 11.5 × 6 m, small house
 - **Heights:** platform 0.45 m, eave 3.2 m, ridge 5.25 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 171.5° from north
+- **Faces:** 170.3° from north
 - **Confidence:** B
 
 ## Pictures (0)

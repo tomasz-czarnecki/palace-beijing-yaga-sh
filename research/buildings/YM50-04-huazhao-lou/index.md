@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** tower (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01325, 116.29985. S01 likely (S01 · confidence B)
+- **Position:** 40.01322, 116.29986. S01 likely (S01 · confidence B)
 - **Bays:** 20x1 on the plan (S05, S01)
 - **Size in the inventory:** 21.5 × 13.0 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 华照楼, 西: west wing after B0005 is resized. (S01) *(research copy, not public)*

@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99956, 116.29811. S01 likely (S01 · confidence B)
+- **Position:** 39.99959, 116.29805. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Two labelled small halls in one group. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 6564, 7162 (S01) *(research copy, not public)*

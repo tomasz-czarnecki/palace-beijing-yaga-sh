@@ -14,7 +14,7 @@ bow-tie figure east of the 方外观 axis · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01182, 116.30395. S01 guess (S01 · confidence C)
+- **Position:** 40.01178, 116.30396. S01 guess (S01 · confidence C)
 - **Size in the inventory:** 18.4 × 13.9 m. S01 plan px / hall scale (S01)
 - **Note:** Retired in Round 6, no box: Not a building. A figure with a narrow centre and two flaring ends, 16 x 10 m as drawn, in the garden south of the moat, 15 m off the axis. Plates 8 and 9 show parterres with scrollwork and no building here; plate 8 lower right has one such bed. Nothing clear on the ruin at the row, which is on the moat's bank. (S01, Round 6). (S01)
 - **Plan reader's note:** rect=77,46,0. Cross-shaped centre 30 px wide with two flaring wings. Off the 方外观 axis by 73 px. Could be a planted bed or pool. Not the 五竹亭 of engraving 9. (S01) *(research copy, not public)*

@@ -19,7 +19,7 @@ north stairs, west flight · Xiyang Lou
 - **Note:** Part of XY01: Not a building: plan's hatched square with stair treads north of the block, tied to it by a wall. Plate 2 shows a double stair on the north side, and S108 a 3-bay porch at the back. (S01;S108, Round 6). (S01, S108)
 - **Plan reader's note:** rect=44,40,0. One of two squares with hatched stairs north of the main block, tied to it by a wall (8845,1426)-(8845,1465). Engraving 2 shows a double stair flight down the north side; these two hatched squares probably draw it, set too far north. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
-- **Plan pixels:** 8792, 1343 (S01) *(research copy, not public)*
+- **Plan pixels:** 8791, 1316 (S01) *(research copy, not public)*
 
 ## Our model now
 

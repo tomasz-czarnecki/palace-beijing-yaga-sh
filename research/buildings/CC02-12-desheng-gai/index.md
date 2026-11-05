@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** other (S06, S01 · confidence B)
 - **Built:** 乾隆二十四年 1759 (S06) (S06, S01)
 - **Destroyed:** 1860 (S06, S01)
-- **Position:** 40.00929, 116.30710. S01 likely (S01 · confidence B)
+- **Position:** 40.00930, 116.30710. S01 likely (S01 · confidence B)
 - **Bays:** 3x1 on the plan (S06, S01)
 - **Size in the inventory:** 12.2 × 6.3 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 出后门 敞厅 (S06) (S06, S01) *(research copy, not public)*
@@ -31,7 +31,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 12.2 × 6.3 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 172.3° from north
+- **Faces:** 172.6° from north
 - **Confidence:** B
 
 ## Pictures (1)

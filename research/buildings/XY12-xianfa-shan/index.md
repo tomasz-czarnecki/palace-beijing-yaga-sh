@@ -14,7 +14,7 @@ Hsien Fa Shan, Hsien Fa Hill · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S56, S01)
 - **Type:** european (S02, S06, S56, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01)
-- **Position:** 40.01221, 116.30817. S01 sure (S01 · confidence B)
+- **Position:** 40.01219, 116.30818. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 41.7 × 41.7 m. stated: S01, plan's outer ring, local scale (S01)
 - **Where the text puts it:** 远瀛观东 (S42); 线法山门 triple gate (S02 p.159) (S02, S06, S56, S01) *(research copy, not public)*
 - **Note:** Copper engraving no. 17-18 per S02. Circular paths to a hilltop pavilion (S02). Round 6 replaced frontage none m. Round 6 replaced depth none m. (S02, S06, S56, S01)

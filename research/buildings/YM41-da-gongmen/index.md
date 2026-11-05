@@ -170,6 +170,7 @@ Modern interpretation, not evidence.
 - Q116: YM41 大宫门 and YM17 安佑宫
 - Q125: Geotagged Commons coverage is thin
 - Q150: QC01
+- Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 
 <!-- generated:end -->
 

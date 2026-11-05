@@ -13,7 +13,7 @@ The playbook drawn from this project, the Old Summer Palace before 1860, and its
 | 1 | Rulebook | the brief, a sister project | `CLAUDE.md`, `.gitignore` | none | not recorded; committed 15:04 |
 | 2 | Homepage | rulebook, sister site, one free image | `site/` with credits and placeholder | none | 8 min |
 | 3 | Research | rulebook | `research/sources.md`, `questions.md`, `wishlist.md`, notes | `scripts/fetch_osm.py`, `scripts/clip_dem.py` | 25–32 min per worker, pictures 102 min |
-| 4 | Georeferencing | base plan, today's map, imagery | `research/plan/`, `research/georef/` | `scripts/mosaic_plan.py`, `scripts/trace_plan.py`, `scripts/georef.py` | tracing 31 min, control points 37 min |
+| 4 | Georeferencing | base plan, today's map, imagery | `research/plan/`, `research/georef/` | `scripts/mosaic_plan.py`, `scripts/trace_plan.py`, `scripts/georef.py`; Round 8: `scripts/georef_readings.py`, `scripts/control_derived.py`, `tools/georef_crops.py`, `tools/check_georef.py` | tracing 31 min, control points 37 min; Round 8 about 1 h 30 min: blind check set and control by six readers in two waves (18:12-18:57), fit, walls, docs |
 | 5 | Inventory | texts, plan, control points | `research/buildings.csv`, `research/layers/` | `scripts/build_r1.py` | texts 25 min, plan readers 19 min, merge 10 min |
 | 6 | Typology | building rules, stated sizes | `research/typology/params.json` | `scripts/typology_rules.py`, `scripts/typology_scale_check.py` | 30 min |
 | 7 | Dev map | the layers | `site/reconstruction/index.html`, `app.js`, public layers | `scripts/publish_layers.py`, `tools/serve_local.py` | 11 min, shared with phase 8's data |
@@ -56,12 +56,17 @@ Before launching, write a skeleton of every deliverable. Give the workers a shar
 
 ### 4. Georeferencing
 
-1. Stitch scans into **one pixel grid** and never change it: all plan coordinates refer to it (`research/georef/princeton-mosaic.json`).
+1. Stitch scans into **one pixel grid** and never change it: all plan coordinates refer to it (`research/georef/princeton-mosaic.json`). Keep the stitch reproducible from the holder's server: here `research/raw/` was cleared between rounds, the four IIIF images were fetched again and `scripts/mosaic_plan.py` gave the same grid.
 2. Trace the plan by script, with manual inputs as small files that give a reason for each entry (`research/plan/*_manual.*`). Keep it deterministic: rerunning here gives identical files.
-3. Pick control points on **what survives unchanged**: shores, ruins, islands. Record the datum per point. Here 159 points: 59 shore, 51 ruin, 20 island, 15 wall, 14 junction.
+3. Pick control points on **what survives unchanged**: shores, ruins, islands. Record the datum per point. Round 1: 159 points, 111 in the fit (59 shore, 51 ruin, 20 island, 15 wall, 14 junction among all).
 4. Compare transforms by leave-one-out RMS, in a metric projection. Here thin-plate spline, 16.5 m, beat similarity at 33.6 m, affine at 28.7 m and polynomial at 22.0 m.
-5. Hold out independent check points **and write them down before looking at errors**. Report by area what the plan reads to, not one number: here ±10 m to ±75 m (`per_area_verdict`).
-6. Measure the plan's scale; don't trust the stated one. Here 1:1070 against a stated 1:1300, and buildings are drawn at another scale from the ground.
+5. **A blind check set, fixed before any fit** (Round 8, `research/georef/check_points.json`). Readers who never see a prediction or an error find each feature by its form on two crops, today's imagery and the plan, the plan crop's centre shifted at random so it gives no hint (`tools/georef_crops.py`); they read on zoomed crops with labelled grids, skip on doubt and never edit a written point. Keep check points apart from the fit points (here 30 m; 60 m between check points) and keep every new control point 60 m from any check point, or off the same pool or platform. Freeze the set by hash (`scripts/georef.py freeze`) and let a checker fail on any edit or on a region getting worse (`tools/check_georef.py`). Round 1 edited its check set after seeing errors: its median went from 52 m to 31 m; Round 8's blind set gives 19.8 m for the same fit.
+6. **Expect a thin check set where the site is well used.** Round 1's fit already held most sharp features that survive, so six readers found 19 points at 60 m from them and 22 at 30 m (a rule changed before any error was computed, and written down). Four of six regions have three points or fewer: report n beside every figure, and say what the figure can't tell.
+7. **Piecewise, region by region, with the previous fit as the fallback.** A thin-plate spline whose smoothing is set per region by leave-one-out on the control points; scored on the check set against the previous fit and a plain affine; where it does worse in a region, a grid of points every 50 m from the previous fit holds it there (`scripts/georef.py`). Keep the previous fit in the repo and rebuildable (`princeton-1920s.previous.json`, `georef.py previous`). Here the new fit won nowhere by more than 0.4 m and lost in YM west and east, which keep Round 1's: the plan cannot be placed better than the surviving ground allows.
+8. **Control points derived by script** (`scripts/control_derived.py`): a lake that keeps its outline gives its centre, and a large one each quarter, by the shift that lays the traced shore on today's; only where the shores agree (median under 6 m after the shift, 60% within 10 m, the traced water 0.7-1.4 times today's) and leaving out the shore near any check point. Map through the previous fit only, so the file does not depend on the fit it feeds and the chain is a fixed point. Exclude what a reader saw re-dug, rebuilt (the maze) or placed by interpolation.
+9. Report by area what the plan reads to, not one number, **and by kind**: here foundations in place read 2-8 m off, shores and channel mouths at re-dug places 14-46 m. Publish it as a layer (`research/layers/georef_error.geojson`, the dev map's "Placement accuracy").
+10. Measure the plan's scale; don't trust the stated one. Here 1:1070 against a stated 1:1300, and buildings are drawn at another scale from the ground.
+11. **Walls: measure them against today's line before moving them.** Here the south wall agreed with the rebuilt wall to 4-5 m, the north wall stood 17-53 m inside it, and the plan draws three parallel lines there (Q186): left as traced, with the doubt written down. Where a wall runs through ruins in place and the plan's line there is a guess (a scroll seam), the ruins win: move the run, say by how much, and move its gates with it (Q64).
 
 ### 5. Inventory
 
@@ -148,8 +153,12 @@ Once the famous part has its dossiers, everything else still shows its compound'
 **Hand-offs are plain files,** each step reading the last one's output:
 
 ```
-plan/*, inventory_texts.csv, typology/params.json, georef/*.json
+georef/readings_r8/ -> georef_readings.py -> check_points.json (frozen), control_r8.csv
+plan/regions.json, layers/osm_today, buildings.csv + facts -> control_derived.py -> control_shapes.csv
+princeton-1920s.csv, control_*.csv, check_points.json, princeton-1920s.previous.json -> georef.py fit -> princeton-1920s.json
+plan/*, inventory_texts.csv, typology/params.json, georef/*.json, xiyanglou/boxes.csv (courts, walls off the ruins)
   -> build_r1.py -> buildings.csv, layers/*_1860.geojson
+check_points.json, princeton-1920s.json -> georef.py accuracy -> layers/georef_error.geojson
 evidence/facts.csv -> apply_facts.py -> buildings.csv
 layers/ -> publish_layers.py -> site data
 layers/ -> ground1860.py -> generated/
@@ -289,7 +298,10 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Valuable tools left in scratch.** Round 3's merge scripts sat outside the repo. Catalogues are the truth, so a rebuild doesn't need them, but they can't be rerun from a clone. Copy what's reusable into `tools/`, as was done with the font subsetter (`tools/font_subset.py`).
 
 **Reading evidence:**
-- **A check that isn't blind.** The georeference worker edited its check set after seeing errors: first pass median 52 m, kept set 31 m. Both stay in the JSON, and Q7 says it plainly. Fix the check set first.
+- **A check that isn't blind.** The georeference worker edited its check set after seeing errors: first pass median 52 m, kept set 31 m. Both stay in the JSON, and Q7 says it plainly. Fix the check set first. Round 8 did: blind readers, a hash, a checker; it gave 19.8 m for the same fit.
+- **A rule that leaves the readers nothing.** 60 m from any fit point left 19 check points over 335 ha; the rule went to 30 m before any error was computed, and both fits hold every old point, so the comparison stays even. Decide such a change before scoring, and record it.
+- **A generator that reads its own output.** The first lake derivation read the water layer, which follows the fit in use, so a rerun after the refit moved its points 0.3 m. Read the tracing in plan pixels and map through a fixed fit.
+- **OSM keeps big lakes as relations.** 福海 and four other lakes are relations of ways, which a polygon filter skips: close them before comparing shores.
 - **The stated scale was wrong** (1:1300 against 1:1070), and buildings are drawn at another scale again. Measure; never size a building from a global px/m.
 - **Things that look like what they aren't.** Labelled 稻田 rice fields look like ponds. Read labels before classing regions.
 - **Dating the base plan by feel.** See Q36. Test plan labels against dated decrees early.
@@ -352,7 +364,7 @@ echo "exit $? at $(date -u +%H:%MZ)" > "$R/next.done"
 - [ ] Homepage, one checked image, credits.
 - [ ] Find and date the base plan. Test its labels against dated texts now.
 - [ ] Research fan-out, foreground, with skeletons, deadlines, S-id blocks, a common brief.
-- [ ] Mosaic, trace, control points, a check set fixed in advance, accuracy per area.
+- [ ] Mosaic, trace, control points, a check set fixed in advance by blind readers and frozen by hash (`tools/check_georef.py`), accuracy per area and per kind, as a layer.
 - [ ] Text inventory, plan readers, merge script, random spot check.
 - [ ] Typology with a source per number.
 - [ ] Dev map, then boxes, then pages. View the screenshots.

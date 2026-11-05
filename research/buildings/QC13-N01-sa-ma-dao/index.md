@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00073, 116.29815. S01 likely (S01 · confidence B)
+- **Position:** 40.00078, 116.29810. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Written across the open ground: first char 撒, second 马, third 道. A riding course, not a building. Feature row too. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 6595, 6615 (S01) *(research copy, not public)*

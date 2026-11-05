@@ -14,7 +14,7 @@ Qichun Yuan
 - **Built:** by 1805 (first dated item) (S06, S52, S01, S220, S360, S361)
 - **Changed:** 同治十二年 1873 renamed 清夏堂; 1874 上梁 only (S220); 1850-1860 residence of 如皇贵太妃; plaque 凤麟洲 until 1804, then 清夏斋; 1870s repair planned, not done (S06, S52, S01, S220, S360, S361)
 - **Destroyed:** 1860 (S06, S52, S01, S220, S360, S361)
-- **Position:** 40.00203, 116.29872. S01 sure (S01 · confidence B)
+- **Position:** 40.00207, 116.29869. S01 sure (S01 · confidence B)
 - **Bays:** 7, 工字 with 3-bay link in the texts (S06, S52, S01, S220, S360, S361)
 - **Size in the inventory:** 31.1 × 10.6 m. S01 plan px / hall scale (S01)
 - **Note:** 绮春园三十景 (Jiaqing poems, list in S06). S06 also 清夏堂. 四序 with 敷春堂, 涵秋馆, 生冬室 (S43; S52). (S06, S52, S01, S220, S360, S361)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 31.1 × 10.6 m, grand hall
 - **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.11 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 181.1° from north
+- **Faces:** 182° from north
 - **Confidence:** B
 
 ## Inside it (7)

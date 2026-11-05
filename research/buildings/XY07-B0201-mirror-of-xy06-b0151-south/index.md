@@ -14,7 +14,7 @@ mirror of XY06-B0151, south · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01155, 116.30315. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.01150, 116.30315. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S01)
 - **Size in the inventory:** 6.7 × 6.6 m. S01 plan px / hall scale (S01)
 - **Note:** Same form at the south-west corner of the same garden, plan (9124,1246). Not part of 五竹亭: 56 m west of XY07's axis and against the same wall as XY06-B0151. Its parent XY07 is a nearest-neighbour tie. (S01, Round 6). (S01)
@@ -28,7 +28,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Part:** a block drawn on the plan in the Xiyang Lou strip; heights a guess
 - **Heights:** platform 0.8 m, eave 7 m, ridge 9.5 m above the ground
 - **Roof:** hip 庑殿, glazed tile
-- **Faces:** 174.4° from north
+- **Faces:** 174.6° from north
 - **Confidence:** C, assumed
 
 ## Pictures (0)
@@ -51,7 +51,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q64: The plan's scale and turn in this strip (Round 6)
 
 <!-- generated:end -->
 

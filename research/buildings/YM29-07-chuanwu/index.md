@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01113, 116.30153. S01 likely (S01 · confidence B)
+- **Position:** 40.01110, 116.30153. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Slot dock south of 蕊珠宫, text 宫南船坞. rect=80,170,0 | no box: the plan shows a labelled plot, hill or dock here, not a hall (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8460, 1475 (S01) *(research copy, not public)*

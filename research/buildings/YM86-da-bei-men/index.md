@@ -54,7 +54,7 @@ Yuanming Yuan
 
 ## Open questions
 
-None that name it.
+- Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 
 <!-- generated:end -->
 

@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S42, S01, S220, S361 · confidence B)
 - **Changed:** Outer plaque 玩鹤亭, facing a square pool on the south (S42, S01, S220, S361)
 - **Destroyed:** 1860 (S42, S01, S220, S361)
-- **Position:** 40.00182, 116.30399. S01 likely (S01 · confidence B)
+- **Position:** 40.00184, 116.30402. S01 likely (S01 · confidence B)
 - **Bays:** 5, with three-bay annexes front and back in the texts / 4x2 on the plan (S42, S01, S220, S361)
 - **Size in the inventory:** 13.6 × 10.0 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 鉴碧亭北部 四面环水 (S42 11480) (S42, S01, S220, S361) *(research copy, not public)*
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 13.6 × 10 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 7.38 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.7° from north
+- **Faces:** 174.2° from north
 - **Confidence:** B
 
 ## Pictures (2)

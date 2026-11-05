@@ -181,10 +181,10 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 4, c 0, d 0, e 1.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| QC11 | the scene's outline on the plan | Area | 14000 m² | 1400 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC11 | the scene's outline on the plan | Extent, long side | 155 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC11 | the scene's outline on the plan | Extent, short side | 92 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC11 | water inside the scene's outline | Water inside the outline | 600 m² | 60 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| QC11 | the scene's outline on the plan | Area | 14700 m² | 1500 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC11 | the scene's outline on the plan | Extent, long side | 159 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC11 | the scene's outline on the plan | Extent, short side | 94 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| QC11 | water inside the scene's outline | Water inside the outline | 610 m² | 60 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 | QC11 | temple site | Site area m2 | 14300 m | 0 | e | B | S228 | article |  | 14,300 m2 site, 3,649 m2 of buildings (E0679), park figures in the press, no survey cited; area in m2 | viewed |
 
 ## Gaps and wishlist

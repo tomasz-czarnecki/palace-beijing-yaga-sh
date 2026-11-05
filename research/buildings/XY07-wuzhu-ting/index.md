@@ -13,7 +13,7 @@ Chu T'ing, Bamboo Pavilion · Xiyang Lou
 - **Garden:** Xiyang Lou (S02, S06, S56, S01)
 - **Type:** european (S02, S06, S56, S01 · confidence A)
 - **Destroyed:** Looted and burnt 1860; stone ruins stayed, further damage 1900 and after (S02 pp.142,218) (S02, S06, S56, S01)
-- **Position:** 40.01156, 116.30381. S01 guess (S01 · confidence C)
+- **Position:** 40.01152, 116.30382. S01 guess (S01 · confidence C)
 - **Bays:** 5x1 on the plan (S02, S06, S56, S01)
 - **Size in the inventory:** 7.0 × 7.0 m. stated: S71;S258;S02, research/xiyanglou/boxes.csv (S01)
 - **Where the text puts it:** faced north toward the Fang Wai Kuan (S02 p.148) (S02, S06, S56, S01) *(research copy, not public)*

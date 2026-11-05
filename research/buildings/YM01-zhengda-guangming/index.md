@@ -14,7 +14,7 @@ The Main Audience Hall (Central Great Brilliant Bright) · Yuanming Yuan
 - **Type:** scene (S05, S02, S08, S42, S01 · confidence A)
 - **Built:** 雍正三年 1725 (S02 p.76, S42 正大光明区域) (S05, S02, S08, S42, S01)
 - **Destroyed:** 1860 (S05, S02, S08, S42, S01)
-- **Position:** 40.00193, 116.29051. S01 sure (S01 · confidence B)
+- **Position:** 40.00193, 116.29052. S01 sure (S01 · confidence B)
 - **Note:** Scene spans 大宫门 (YM41), 二宫门, 正大光明殿, 寿山. S42: 南起大影壁北至寿山 纵长370 m, 东西宽310 m, 建筑面积7000 m2. (S05, S02, S08, S42, S01)
 - **Plan reader's note:** Label under B1053. Polygon = main court, 寿山 ridges, forecourt with 配殿 and the moon stream; the outbuilding yards 清茶房 and 膳房 fall in YM41 polygon (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*

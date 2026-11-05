@@ -12,7 +12,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99826, 116.29704. S01 sure (S01 · confidence B)
+- **Position:** 39.99825, 116.29703. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Faint pencil 翰 beside the label. No buildings drawn at all. West of the double channel, so probably outside Qichun Yuan proper. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 6050, 7680 (S01) *(research copy, not public)*

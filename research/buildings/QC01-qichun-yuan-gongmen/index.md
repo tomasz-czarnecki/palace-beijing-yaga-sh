@@ -14,7 +14,7 @@ Qichun Yuan
 - **Type:** gate (S49, S02, S06, S57, S01, S220 · confidence B)
 - **Built:** 嘉庆十四年 1809, 新宫门 (S49 lead); 嘉庆十四年 1809 (with 勤政殿 = QC02's predecessor name, to be checked) (S49, S02, S06, S57, S01, S220)
 - **Destroyed:** survived 1860 (S06;S49); 同治 repairs; ruined later; rebuilt 1988 (S57) (S49, S02, S06, S57, S01, S220)
-- **Position:** 39.99930, 116.30635. S01 sure (S01 · confidence B)
+- **Position:** 39.99927, 116.30635. S01 sure (S01 · confidence B)
 - **Bays:** 5x1 on the plan (S49, S02, S06, S57, S01, S220)
 - **Size in the inventory:** 21.3 × 8.8 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 东南 宫廷区 (S06) (S49, S02, S06, S57, S01, S220) *(research copy, not public)*
@@ -30,7 +30,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 21.3 × 8.8 m, gate hall
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 7.61 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.4° from north
+- **Faces:** 172.2° from north
 - **Confidence:** B
 
 ## Inside it (2)

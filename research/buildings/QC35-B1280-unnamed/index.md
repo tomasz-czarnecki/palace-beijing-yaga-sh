@@ -13,7 +13,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** hall (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00139, 116.30542. S01 block, unnamed (S01 · confidence B)
+- **Position:** 40.00142, 116.30543. S01 block, unnamed (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S01)
 - **Size in the inventory:** 6.5 × 5.1 m. S01 plan px / hall scale (S01)
 - **Plan pixels:** 9350, 6696 (S01) *(research copy, not public)*

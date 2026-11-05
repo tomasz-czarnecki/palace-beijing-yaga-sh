@@ -20,7 +20,7 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 - **Part:** gate on the walls layer, no hall drawn at this point: a small default box
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 6.38 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 118.6° from north
+- **Faces:** 119° from north
 - **Confidence:** C, assumed
 
 ## Pictures (0)

@@ -11,7 +11,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01)
 - **Type:** compound (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00374, 116.30040. S01 likely (S01 · confidence B)
+- **Position:** 40.00376, 116.30038. S01 likely (S01 · confidence B)
 - **Plan reader's note:** UNLABELLED island with a yard and B1037 B1038 B1039. Two 船坞 nearby. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 7536, 5280 (S01) *(research copy, not public)*

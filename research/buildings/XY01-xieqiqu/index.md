@@ -24,7 +24,7 @@ Hsieh Ch'i Ch'u, Harmonious Strange and Pleasant · Xiyang Lou
 - **Note:** Copper engraving no. 1-2 per S02. Plans Castiglione 郎世宁, fountains Benoist 蒋友仁 (S02 pp.139-140); also Attiret 王致诚 (S42;S56). Malone p.141: 3-storey centre, curved galleries to 2 two-storey towers SE and SW; S06 两层. Only XY building named in S05. Photos of ruins 1860+, 1900+ S02 p.142. Round 6 replaced frontage 39.7 m. Round 6 replaced depth 38.6 m. (S05, S02, S06, S42, S54, S56, S01, S108, S03)
 - **Plan reader's note:** Label 谐奇趣 written on the lake south of the building. Main block + curved galleries to two octagon towers + pool, as engraving 1. | plan: rect=126,41,0. Plain double-line rectangle x 8816-8942, y 1465-1506; bays not drawn (text 7 lower, 3 upper). Curved double stair x 8841-8916, y 1506-1550; round landing (8878,1562) r~15; fan stairs at x 8826-8865 and 8895-8932, y 1545-1577. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
-- **Plan pixels:** 8824, 1422 (S01) *(research copy, not public)*
+- **Plan pixels:** 8823, 1395 (S01) *(research copy, not public)*
 
 ## Our model now
 
@@ -312,6 +312,7 @@ Modern interpretation, not evidence.
 - Q69: Colours of the 1780s state (Round 6)
 - Q72: 谐奇趣 (Round 6)
 - Q75: Fragments and their wording (Round 6)
+- Q187: Changchun Yuan's west part reads 12-23 m too far east
 
 <!-- generated:end -->
 

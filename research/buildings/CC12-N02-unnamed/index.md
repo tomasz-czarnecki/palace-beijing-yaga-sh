@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** pavilion (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01109, 116.30996. S01 likely (S01 · confidence B)
+- **Position:** 40.01109, 116.30995. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x3 on the plan (S01)
 - **Size in the inventory:** 6.2 × 7.9 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** rect=26,26,0. Square grid pavilion in a double wall x 11755-11810, y 1775-1840, stair south at (11783,1825). Label below it at (11785,1880), first char complicated (氵+?: looks like 濃). (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 6.2 × 7.9 m, pavilion square
 - **Heights:** platform 0.48 m, eave 3.68 m, ridge 6.57 m above the ground
 - **Roof:** pyramid 攒尖, grey tile
-- **Faces:** 172.7° from north
+- **Faces:** 172.8° from north
 - **Confidence:** B
 
 ## Pictures (0)

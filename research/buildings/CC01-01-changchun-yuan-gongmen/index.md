@@ -16,7 +16,7 @@ Changchun Yuan
 - **Type:** gate (S05, S44, S57, S01, S112 · confidence B)
 - **Built:** 1747 (S44) (S05, S44, S57, S01, S112)
 - **Destroyed:** 1860 (S05, S44, S57, S01, S112)
-- **Position:** 40.00516, 116.30910. S01 sure (S01 · confidence B)
+- **Position:** 40.00519, 116.30910. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 3x1 on the plan (S05, S44, S57, S01, S112)
 - **Size in the inventory:** 16.7 × 9.4 m. S01 plan px / hall scale (S01)
 - **Roof:** 卷棚歇山 (S05, S44, S57, S01, S112)

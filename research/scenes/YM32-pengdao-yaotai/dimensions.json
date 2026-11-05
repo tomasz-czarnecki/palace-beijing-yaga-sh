@@ -126,7 +126,7 @@
    "part": "island I020 (蓬岛瑶台)",
    "what": "island_area",
    "label": "Island area",
-   "value": 4300.0,
+   "value": 4400.0,
    "err": 400.0,
    "unit": "m²",
    "method": "b",

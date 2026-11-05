@@ -1,0 +1,48 @@
+{
+ "sha256": "cfbdaa3eda825feb228fa3d20b36ecbda7cc0cedf1b2ba8bb02e89a03ca79737",
+ "fit": "tps, smoothing per region; held to the previous fit in YM-west, YM-east",
+ "by_region": {
+  "all": {
+   "n": 22,
+   "median_m": 19.7,
+   "p90_m": 38.7,
+   "max_m": 46.3
+  },
+  "YM-west": {
+   "n": 2,
+   "median_m": 21.9,
+   "p90_m": 35.7,
+   "max_m": 39.1
+  },
+  "YM-east": {
+   "n": 3,
+   "median_m": 18.9,
+   "p90_m": 22.0,
+   "max_m": 22.8
+  },
+  "YM-fuhai": {
+   "n": 2,
+   "median_m": 15.1,
+   "p90_m": 25.9,
+   "max_m": 28.6
+  },
+  "CC": {
+   "n": 9,
+   "median_m": 20.5,
+   "p90_m": 36.7,
+   "max_m": 44.5
+  },
+  "XYL": {
+   "n": 1,
+   "median_m": 7.8,
+   "p90_m": 7.8,
+   "max_m": 7.8
+  },
+  "QC": {
+   "n": 5,
+   "median_m": 21.2,
+   "p90_m": 38.9,
+   "max_m": 46.3
+  }
+ }
+}

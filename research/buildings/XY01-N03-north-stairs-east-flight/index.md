@@ -14,12 +14,12 @@ north stairs, east flight · Xiyang Lou
 - **Garden:** Xiyang Lou (S01, S108)
 - **Type:** other (S01, S108 · confidence B)
 - **Destroyed:** 1860 (S01, S108)
-- **Position:** 40.01138, 116.30250. S01 likely (S01 · confidence B)
+- **Position:** 40.01137, 116.30250. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 10.5 × 12.7 m. S01 plan px / hall scale (S01)
 - **Note:** Part of XY01: East twin of XY01-N02. (S01;S108, Round 6). (S01, S108)
 - **Plan reader's note:** rect=44,42,0. East twin of XY01-N02. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
-- **Plan pixels:** 8855, 1345 (S01) *(research copy, not public)*
+- **Plan pixels:** 8854, 1318 (S01) *(research copy, not public)*
 
 ## Our model now
 

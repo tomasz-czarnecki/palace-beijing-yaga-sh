@@ -14,7 +14,7 @@ north range behind 远瀛观, west part · Xiyang Lou
 - **Garden:** Xiyang Lou (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01277, 116.30627. S01 guess (S01 · confidence C)
+- **Position:** 40.01269, 116.30630. S01 guess (S01 · confidence C)
 - **Bays:** 5 in the texts / 5x2 on the plan (S01)
 - **Size in the inventory:** 17.5 × 11.5 m. S01 plan px / hall scale (S01)
 - **Note:** Not 远瀛观's wings: those are inside B0096's 5 bays (two end pavilions with clock roofs on plate 14). A low service range on the north wall, 40 m behind the hall on the plan, turning south at the end. No plate shows it. Under today's tree row and path north of the fence; the excavation of 2016 is not known to me to have reached it. (S01, Round 6). (S01)
@@ -30,7 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Part:** a block drawn on the plan in the Xiyang Lou strip; heights a guess
 - **Heights:** platform 0.8 m, eave 7 m, ridge 9.5 m above the ground
 - **Roof:** hip 庑殿, glazed tile
-- **Faces:** 174.8° from north
+- **Faces:** 174.7° from north
 - **Confidence:** C, assumed
 
 ## Pictures (0)
@@ -53,7 +53,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q64: The plan's scale and turn in this strip (Round 6)
 
 <!-- generated:end -->
 

@@ -14,7 +14,7 @@ Qichun Yuan
 - **Garden:** Qichun Yuan (S01, S361)
 - **Type:** other (S01, S361 · confidence B)
 - **Destroyed:** 1860 (S01, S361)
-- **Position:** 39.99805, 116.29856. S01 sure (S01 · confidence B)
+- **Position:** 39.99800, 116.29853. S01 sure (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x2 on the plan (S01, S361)
 - **Size in the inventory:** 13.2 × 15.7 m. S01 plan px / hall scale (S01)
 - **Note:** bays: 3 in two rolls (S361, v4 p.324). (S01, S361)
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 13.2 × 15.7 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.58 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 82.9° from north
+- **Faces:** 84.6° from north
 - **Confidence:** B
 
 ## Pictures (0)

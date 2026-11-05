@@ -14,7 +14,7 @@
    "part": "the scene's outline on the plan",
    "what": "extent_long",
    "label": "Extent, long side",
-   "value": 37.0,
+   "value": 36.0,
    "err": 10.0,
    "unit": "m",
    "method": "b",

@@ -14,7 +14,7 @@ Level Lake and Autumn Moon · Yuanming Yuan
 - **Type:** scene (S05, S02, S08, S01, S360 · confidence A)
 - **Changed:** 1810 part rebuilt, new plaque 镜远洲 (S05, S02, S08, S01, S360)
 - **Destroyed:** 1860 (S05, S02, S08, S01, S360)
-- **Position:** 40.01019, 116.29565. S01 sure (S01 · confidence B)
+- **Position:** 40.01021, 116.29566. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label (6120,1710), Malone 31 at (5995,1800). Polygon runs along the north shore to 藏密楼 because the text lists 山水乐, 君子轩, 藏密楼 under it. S111 files 藏密楼 under 涵虚朗鉴 instead. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 6053, 1700 (S01) *(research copy, not public)*

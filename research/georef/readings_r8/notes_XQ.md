@@ -1,0 +1,26 @@
+- 18:16 K-XY-01 方河 centre, likely (south side in shadow)
+- 18:18 K-QC-01 正觉寺 main hall centre, likely (roof lean). Octagon 文殊亭 itself skipped: 47 m from old fit Q13.
+- 18:20 K-QC-02 绮春园宫门 centre, likely. Note: the round dark disk in the lake at 116.30505,39.99965 is NOT 鉴碧亭 (that is the square pavilion with an east bridge, old fit Q12).
+- 18:20 QC south-west (QC-sw): channels and islands much changed (modern buildings on the island east of the channel); old fit Q19-Q21 already sit on the readable channel features; nothing else certain, skipped.
+- 18:20 XY 观水法 / 海晏堂 main hall: under tree cover on Esri z18/z19 (XY-gsf, XY-hyt); the visible ruins (大水法 arch, 远瀛观 platform, 海晏堂 W stair) are all within 60 m of old fit X03-X05; skipped for checks.
+- 18:21 XY east end (XY-ne): 线法墙 and the strip's NE wall corner are under a parking lot and trees today; skipped.
+- 18:21 XY 谐奇趣 north (XY-xq): a ring ~12 m on the ground 42 m N of the ruin has no certain counterpart on the plan (the hexagon pavilion is ~80 m N of the hall); skipped.
+- 18:22 QC 涵秋馆 (QC-hq): island shapes differ from the plan (white tent and plaza over the north end); 凤麟洲 lake shores held by old fit Q01-Q08; skipped.
+- 18:22 QC north-west corner / 福缘门 (QC-fy): covered today by a large teal ground cover and school buildings; skipped.
+- 18:22 QC centre (QC-ct, QC-n1, QC-c1): 春泽斋, 生冬室, 展诗应律 ruins under trees; small ponds today do not take the plan's island forms; skipped.
+- 18:22 XY 海晏堂 east block (蓄水楼/工字楼) west end (XY-tk): shadow and water, no sharp corner; skipped.
+- 18:23 XY check set stops at 1: every visible ruin in the strip (谐奇趣, 方外观, 海晏堂 W stair, 远瀛观 platform corners ~50 m from X05, 大水法, 线法山) is within 60 m of old fit X02-X09; the rest is under trees, a road (north wall) or a parking lot (east end). QC check set stops at 2 for the reasons above (west under school/teal cover, centre under trees, re-dug lakes off-form).
+- 18:24 XY 远瀛观 platform: the excavated outline today (63 m wide, rounded NW corner) does not match the plan's inner court (56 m, square corners) or outer path (73 m) with certainty; not used.
+- 18:24 XY 谐奇趣 (XY-xqz): main platform visible but octagon pavilions and wing ends not clear on Esri z19; not used.
+- 18:25 XY 海晏堂 west front (XY-hw): one arc of the double stair visible, the pool and the other stair in shadow; not certain, not used.
+- 18:26 C8-XY-01 方河 NW corner (control), likely. 方河 SW corner skipped: south side in tree shadow on z19.
+- 18:26 C8-XY-02 方河 NE corner (control), likely. SE corner skipped (shadow). The dark band along the pool's south side is shadowed ice: the pool's south edge is at its foot, which would move K-XY-01 about 1.5 m south (noted, K-XY-01 kept as written).
+- 18:27 XY 方外观 (XY-fwg): small ruin right at old fit X09 (its centre); corners would add little, not used. QC control gaps: west part under the 101 school and a teal ground cover, south/west walls not visible on their old line (south road and buildings), 正觉寺 corners already held by Q13-Q16 and its halls within 60 m of K-QC-01; no QC control written.
+- 18:28 QC 涵秋馆 island tip / 凤麟洲 lake west shore (QC-hq2): today's land joins the plan's oval island to the 涵秋馆 ground; shore form not certain; skipped. Two round pale disks under water in the 鉴碧亭 and 凤麟洲 lakes are modern, not plan features.
+- 18:28 DONE. Written: check 3 (K-XY-01, K-QC-01, K-QC-02), control 2 (C8-XY-01, C8-XY-02). All 'likely'. Asked for 8+10 checks and 8+10 controls: not reachable without guessing, reasons above.
+- 18:49 Wave 2: 谐奇趣 octagon pavilions re-tried on a fresh z19 crop (XY-xq2, enlarged): rubble at both wing ends but no octagon form; skipped. 谐奇趣 platform corners and 方外观, 海晏堂 W stair corners are under 30 m from X02/X09/X03.
+- 18:50 Wave 2: 观水法 (XY-gsz, z19): curved forms in shadow and water, no platform corner; skipped.
+- 18:50 Wave 2: 远瀛观 excavated rectangle (XY-yyg, XY-yy2): 63 x 44 m with a rounded NW corner and arcs to its south; plan court 56 x 48 m with square corners. The outline may be the modern edge of the excavation, not the court wall; identity of its corners is more than 'some doubt'; skipped.
+- 18:50 Wave 2: 线法山 west gate opening (XY-xfm): under forest today; skipped.
+- 18:51 Wave 2: 海晏堂 main building NE/SE corners (XY-hmb, z19): tree shadow and rubble, no corner; skipped. The ground ring 42 m N of 谐奇趣 and the hexagon pavilion S of the maze: ring not on the plan, hexagon not visible today; skipped.
+- 18:51 Wave 2 DONE: no XY check point added. Every candidate the relaxed rule opens is either still under 30 m from X02/X03/X05/X09, or unreadable (trees, shadow), or of doubtful identity (远瀛观 excavation outline). Totals unchanged: check 3, control 2.

@@ -13,7 +13,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.00894, 116.30433. S01 likely (S01 · confidence B)
+- **Position:** 40.00895, 116.30438. S01 likely (S01 · confidence B)
 - **Bays:** 3 in the texts / 3x3 on the plan (S01)
 - **Size in the inventory:** 13.4 × 15.7 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Rixia: three-storey building on the round base. (S01) *(research copy, not public)*
@@ -27,7 +27,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 13.4 × 15.7 m, side hall
 - **Heights:** platform 0.54 m, eave 3.64 m, ridge 6.58 m above the ground
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 173.5° from north
+- **Faces:** 173.1° from north
 - **Confidence:** B
 
 ## Pictures (0)

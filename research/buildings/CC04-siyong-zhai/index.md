@@ -13,7 +13,7 @@ Changchun Yuan
 - **Type:** compound (S05, S43, S01, S201, S361 · confidence A)
 - **Built:** 乾隆十二年 1747 基本建成 (S43); by 1758; had stood 'over twenty years' by 1785; 小有天園 court: after 丁丑 1757 (記) (S05, S43, S01, S201, S361)
 - **Destroyed:** 1860 (S05, S43, S01, S201, S361)
-- **Position:** 40.00695, 116.30471. S01 sure (S01 · confidence B)
+- **Position:** 40.00699, 116.30473. S01 sure (S01 · confidence B)
 - **Note:** Malone p.98 Numbers Four, Five, Seven are palace groups on islands. (S05, S43, S01, S201, S361)
 - **Plan reader's note:** Label in the court south of the hall B0706, blue 4. Labels read: 思永斋, 山色湖光共?, 佳处领其要, 迎月亭, 静便趣; ?亭 at the east. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -165,6 +165,7 @@ Modern interpretation, not evidence.
 
 - Q26: Forms
 - Q119: Digs
+- Q187: Changchun Yuan's west part reads 12-23 m too far east
 
 <!-- generated:end -->
 

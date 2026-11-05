@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01147, 116.29628. S01 sure (S01 · confidence B)
+- **Position:** 40.01148, 116.29629. S01 sure (S01 · confidence B)
 - **Bays:** 11x1 on the plan (S05, S01)
 - **Size in the inventory:** 37.6 × 6.6 m. S01 plan px / hall scale (S01)
 - **Note:** Boat houses, 2+2. S02 p.92 near 福海. (S05, S01)
@@ -27,11 +27,11 @@ Yuanming Yuan
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
 - **1 ×:** small house: 37.6 × 6.6 m, eave 3.2 m, ridge 5.46 m
-- **1 ×:** small house: 45.17 × 6 m, eave 3.2 m, ridge 5.25 m
+- **1 ×:** small house: 45.14 × 6 m, eave 3.2 m, ridge 5.25 m
 - **1 ×:** small house: 45.41 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **1 ×:** small house: 47.1 × 7.3 m, eave 3.2 m, ridge 5.7 m
-- **1 ×:** small house: 40.11 × 6.6 m, eave 3.2 m, ridge 5.46 m
-- **1 ×:** small house: 42.74 × 6.3 m, eave 3.2 m, ridge 5.36 m
+- **1 ×:** small house: 40.01 × 6.6 m, eave 3.2 m, ridge 5.46 m
+- **1 ×:** small house: 42.66 × 6.3 m, eave 3.2 m, ridge 5.36 m
 - **1 ×:** small house: 47.4 × 7.6 m, eave 3.2 m, ridge 5.8 m
 - **1 ×:** small house: 50.7 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **Confidence:** B

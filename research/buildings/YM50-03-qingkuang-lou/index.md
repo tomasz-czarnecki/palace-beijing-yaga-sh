@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** tower (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.01328, 116.30049. S01 sure (S01 · confidence B)
+- **Position:** 40.01323, 116.30050. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 28.7 × 13.0 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** First character blurred but text confirms: 堂东为清旷楼. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -24,7 +24,7 @@ Yuanming Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **Box:** 28.1 × 12.41 m, storeyed hall
+- **Box:** 28.1 × 12.5 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 9.17 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 175.1° from north

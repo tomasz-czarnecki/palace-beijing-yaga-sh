@@ -94,7 +94,7 @@
    "part": "island I010 (坦坦荡荡)",
    "what": "island_area",
    "label": "Island area",
-   "value": 10500.0,
+   "value": 10600.0,
    "err": 1100.0,
    "unit": "m²",
    "method": "b",

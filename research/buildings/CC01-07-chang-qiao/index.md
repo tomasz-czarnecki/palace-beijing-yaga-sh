@@ -14,7 +14,7 @@ Changchun Yuan
 - **Garden:** Changchun Yuan (S05, S44, S06, S49, S01)
 - **Type:** bridge (S05, S44, S06, S49, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S44, S06, S49, S01)
-- **Position:** 40.00648, 116.30839. S01 likely (S01 · confidence B)
+- **Position:** 40.00649, 116.30839. S01 likely (S01 · confidence B)
 - **Note:** 13-span 板桥 (S44) vs 10 (S06; S49 40 m). (S05, S44, S06, S49, S01)
 - **Plan reader's note:** Long straight N-S causeway x 10847-10871, y 4075-4335, west of and a bit south of 云容水态, as Rixia says. See features. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*

@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Type:** other (S05, S01, S360 · confidence B)
 - **Built:** by 1759 (first dated item) (S05, S01, S360)
 - **Destroyed:** 1860 (S05, S01, S360)
-- **Position:** 40.01095, 116.29819. S01 likely (S01 · confidence B)
+- **Position:** 40.01096, 116.29819. S01 likely (S01 · confidence B)
 - **Bays:** 4x3 on the plan (S05, S01, S360)
 - **Size in the inventory:** 15.1 × 21.1 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label directly south of B0240, the only building here. Shares it with 藏密楼. (S01) *(research copy, not public)*

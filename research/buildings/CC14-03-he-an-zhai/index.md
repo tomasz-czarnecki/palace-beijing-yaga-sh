@@ -15,7 +15,7 @@ Changchun Yuan
 - **Type:** other (S05, S01, S360, S361 · confidence B)
 - **Built:** by 1760 (first dated item) (S05, S01, S360, S361)
 - **Destroyed:** 1860 (S05, S01, S360, S361)
-- **Position:** 40.00794, 116.30994. S01 sure (S01 · confidence B)
+- **Position:** 40.00792, 116.30993. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 3x3 on the plan (S05, S01, S360, S361)
 - **Size in the inventory:** 10.8 × 20.8 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Label south of the block, in the narrow court. (S01) *(research copy, not public)*

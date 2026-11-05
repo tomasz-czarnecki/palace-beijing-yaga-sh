@@ -16,7 +16,7 @@ Changchun Yuan
 - **Built:** 乾隆三十五年 1770 (S43; j83:6a) (S05, S43, S48, S01, S212, S337, S361, S940)
 - **Changed:** Side galleries of 12 bays each, each with 6 stones of the 淳化閣帖 (S05, S43, S48, S01, S212, S337, S361, S940)
 - **Destroyed:** 1860 (S05, S43, S48, S01, S212, S337, S361, S940)
-- **Position:** 40.00853, 116.30725. S01 sure (S01 · confidence B)
+- **Position:** 40.00855, 116.30726. S01 sure (S01 · confidence B)
 - **Bays:** 7 in the texts / 4x7 on the plan (S05, S43, S48, S01, S212, S337, S361, S940)
 - **Size in the inventory:** 32.1 × 30.2 m. S01 plan px / hall scale (S01)
 - **Note:** Text has 淳化閣 in the description, 淳化軒 in the commentary and record: use 淳化轩. Corridors hold the re-cut 閣帖 stones, 144 (S48). bays: 7 bays, 3 bays deep; 卷棚歇山 with glazed tiles (S940, p.360, p.361). (S05, S43, S48, S01, S212, S337, S361, S940)
@@ -28,8 +28,8 @@ Changchun Yuan
 
 A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
 
-- **1 ×:** grand hall: 29.17 × 21.01 m, eave 6.34 m, ridge 13.81 m
-- **1 ×:** side hall: 13.12 × 6.95 m, eave 3.64 m, ridge 6.24 m
+- **1 ×:** grand hall: 29.21 × 21.04 m, eave 6.34 m, ridge 13.82 m
+- **1 ×:** side hall: 13.13 × 6.98 m, eave 3.64 m, ridge 6.25 m
 - **Confidence:** B
 
 ## Pictures (1)
@@ -121,6 +121,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Open questions
 
+- Q7: Accuracy of the georeference, honestly
 - Q20: Name variants
 - Q151: CC02-04 淳化轩 roof
 - Q156: Twin lead for the coordinator

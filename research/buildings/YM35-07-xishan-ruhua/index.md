@@ -14,7 +14,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01)
 - **Type:** other (S05, S01 · confidence C)
 - **Destroyed:** 1860 (S05, S01)
-- **Position:** 40.00584, 116.30048. S01 guess (S01 · confidence C)
+- **Position:** 40.00585, 116.30047. S01 guess (S01 · confidence C)
 - **Bays:** 5x1 on the plan (S05, S01)
 - **Size in the inventory:** 18.4 × 8.8 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 西山入画, 又东度桥: the bridge at (7540,4190). Falls in the YM34 polygon, kept with its text parent YM35. (S01) *(research copy, not public)*
@@ -28,7 +28,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 18.4 × 8.8 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.42 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 173.7° from north
+- **Faces:** 174.3° from north
 - **Confidence:** C
 
 ## Pictures (0)

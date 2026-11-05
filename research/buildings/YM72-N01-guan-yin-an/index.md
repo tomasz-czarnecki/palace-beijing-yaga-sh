@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Type:** temple (S01, S47 · confidence B)
 - **Built:** 雍正十一年 1733 (S01, S47)
 - **Destroyed:** 1860 (S01, S47)
-- **Position:** 40.01187, 116.29352. S01 likely (S01 · confidence B)
+- **Position:** 40.01188, 116.29352. S01 likely (S01 · confidence B)
 - **Bays:** 1 in the texts (S01, S47)
 - **Size in the inventory:** 9.6 × 12.1 m. S01 plan px / hall scale (S01)
 - **Note:** Octagonal, pyramid roof, one-bay porch on the south with a hanging-gable roof (S47, p.113). (S01, S47)

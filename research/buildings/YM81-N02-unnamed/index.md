@@ -13,7 +13,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S01)
 - **Type:** other (S01 · confidence C)
 - **Destroyed:** 1860 (S01)
-- **Position:** 40.01061, 116.29969. S01 guess (S01 · confidence C)
+- **Position:** 40.01062, 116.29969. S01 guess (S01 · confidence C)
 - **Bays:** 3 in the texts / 3x1 on the plan (S01)
 - **Size in the inventory:** 9.3 × 5.7 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** 翠云幄 candidate: S111 阁东三间南向殿, Xianfeng plaque list. (S01) *(research copy, not public)*

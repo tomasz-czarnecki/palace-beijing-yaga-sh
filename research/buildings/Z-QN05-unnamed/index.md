@@ -12,7 +12,7 @@ outside the walls
 - **Garden:** outside the walls (S01)
 - **Type:** other (S01 · confidence B)
 - **Destroyed:** 1860 (S01)
-- **Position:** 39.99858, 116.30696. S01 likely (S01 · confidence B)
+- **Position:** 39.99853, 116.30699. S01 likely (S01 · confidence B)
 - **Plan reader's note:** Label inside the 大宫门 forecourt, first char with a 木 radical. Possibly a timber yard. No building drawn. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9760, 8100 (S01) *(research copy, not public)*

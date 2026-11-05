@@ -14,7 +14,7 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
 - **Type:** scene (S05, S02, S08, S06, S01, S361 · confidence A)
 - **Built:** 乾隆五年 1740 (S02 p.93); 乾隆三年 1738 per S06; under way in 1740 (乾隆五年) (S05, S02, S08, S06, S01, S361)
 - **Destroyed:** 1860; masonry pulled down later (S02 p.218) (S05, S02, S08, S06, S01, S361)
-- **Position:** 40.01175, 116.30038. S01 sure (S01 · confidence B)
+- **Position:** 40.01174, 116.30038. S01 sure (S01 · confidence B)
 - **Bays:** three halls of 5 on two floors, with 3-bay side towers in the texts (S05, S02, S08, S06, S01, S361)
 - **Note:** Malone: 12 buildings of golden glazed tile, terraces, 3 pavilions over water. S06: 2000+ Buddhist images. (S05, S02, S08, S06, S01, S361)
 - **Plan reader's note:** Label (8170,1290); Malone 29 at (7965,1380). Polygon takes in the terrace, 3 lake pavilions, 蕊珠宫, slot dock and 龙王庙, and part of the lake. (S01) *(research copy, not public)*

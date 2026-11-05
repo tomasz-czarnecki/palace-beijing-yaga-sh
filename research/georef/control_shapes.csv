@@ -1,0 +1,32 @@
+id,plan_x,plan_y,lat,lon,datum,feature,kind,area,quality,use,note
+X8-XY01,8823,1395,40.011198,116.302444,WGS84 via Esri (Round 6 ruin reading),谐奇趣: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY01-01,8686,1510,40.010961,116.302098,WGS84 via Esri (Round 6 ruin reading),八角奏乐亭: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY01-02,8823,1520,40.01097,116.302468,WGS84 via Esri (Round 6 ruin reading),海棠形喷水池: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY01-N01,8962,1512,40.011007,116.302819,WGS84 via Esri (Round 6 ruin reading),八角奏乐亭: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY02,8705,1085,40.011819,116.301918,WGS84 via Esri (Round 6 ruin reading),蓄水楼: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"plan position with an interpolated offset, no ruin (Q64)"
+X8-XY03,8875,925,40.012055,116.302305,WGS84 via Esri (Round 6 ruin reading),花园门: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,the gate of today's rebuilt maze (Q66)
+X8-XY04,8880,688,40.012455,116.302242,WGS84 via Esri (Round 6 ruin reading),黄花阵: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,today's rebuilt maze; whether it keeps the old line is open (Q66)
+X8-XY04-01,8880,688,40.012352,116.302273,WGS84 via Esri (Round 6 ruin reading),中央亭: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,today's rebuilt maze (Q66)
+X8-XY04-N01,8882,472,40.012777,116.302162,WGS84 via Esri (Round 6 ruin reading),XY04-N01: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,today's rebuilt maze (Q66)
+X8-XY05,9068,1101,40.011698,116.302875,WGS84 via Esri (Round 6 ruin reading),养雀笼: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"plan position, err 15 m: pulled down about 1924, no ruin (Q64)"
+X8-XY06,9394,966,40.011917,116.303722,WGS84 via Esri (Round 6 ruin reading),方外观: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY08,9860,1107,40.011827,116.304884,WGS84 via Esri (Round 6 ruin reading),海晏堂: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY08-01,10090,1107,40.01188,116.305503,WGS84 via Esri (Round 6 ruin reading),蓄水池 (锡海): the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY08-02,9695,1105,40.011812,116.304567,WGS84 via Esri (Round 6 ruin reading),十二时辰水法: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY08-N01,9998,1107,40.011869,116.305292,WGS84 via Esri (Round 6 ruin reading),西水车房: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"placed from the plan beside 海晏堂, not read on a ruin"
+X8-XY08-N02,10218,1080,40.011924,116.305803,WGS84 via Esri (Round 6 ruin reading),XY08-N02: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"placed from the plan beside 海晏堂, not read on a ruin"
+X8-XY09,10562,823,40.012397,116.306577,WGS84 via Esri (Round 6 ruin reading),远瀛观: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY10,10562,1046,40.012207,116.306603,WGS84 via Esri (Round 6 ruin reading),大水法: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY10-N01,10419,1117,40.012028,116.306251,WGS84 via Esri (Round 6 ruin reading),XY10-N01: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY10-N02,10697,1117,40.012065,116.306991,WGS84 via Esri (Round 6 ruin reading),XY10-N02: the plan's block against the ruin (Round 6),ruin,XYL,2,fit,
+X8-XY11,10555,1252,40.011836,116.306679,WGS84 via Esri (Round 6 ruin reading),观水法: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"on OSM's point, err 15 m, under trees (Q71)"
+X8-XY15-N01,12340,990,40.012663,116.311201,WGS84 via Esri (Round 6 ruin reading),XY15-N01: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"moved with 方河, not read on a ruin"
+X8-XY15-N02,12339,1288,40.012107,116.311291,WGS84 via Esri (Round 6 ruin reading),XY15-N02: the plan's block against the ruin (Round 6),ruin,XYL,2,excluded,"moved with 方河, not read on a ruin"
+S8-26345740-centre,10663.1,2185.8,40.0101079,116.3072013,WGS84 via OSM (lake outline),"lake osm-way-26345740, centre of today's shore laid on the traced one",shore,CC,2,fit,"area ratio 1.10; shift 0.6 m, median 3.7 m after it, 87% of the shore within 10 m"
+S8-26345740-NE,11133.9,1862.1,40.0108224,116.3083029,WGS84 via OSM (lake outline),"lake osm-way-26345740, NE of today's shore laid on the traced one",shore,CC,2,fit,"area ratio 1.10; shift 1.6 m, median 2.3 m after it, 85% of the shore within 10 m"
+S8-26345740-SW,10188.9,2493.0,40.0094264,116.3060493,WGS84 via OSM (lake outline),"lake osm-way-26345740, SW of today's shore laid on the traced one",shore,CC,2,fit,"area ratio 1.10; shift 4.3 m, median 3.8 m after it, 100% of the shore within 10 m"
+S8-26345740-SE,10997.5,2564.1,40.0094727,116.308187,WGS84 via OSM (lake outline),"lake osm-way-26345740, SE of today's shore laid on the traced one",shore,CC,2,fit,"area ratio 1.10; shift 4.0 m, median 3.1 m after it, 100% of the shore within 10 m"
+S8-40724042-centre,3300.4,4027.3,40.0045867,116.2901457,WGS84 via OSM (lake outline),"后湖 osm-way-40724042, centre of today's shore laid on the traced one",shore,YM-east,2,fit,"area ratio 1.10; shift 4.1 m, median 2.6 m after it, 98% of the shore within 10 m"
+S8-210654673-centre,3338.5,5110.8,40.0024686,116.2905142,WGS84 via OSM (lake outline),"lake osm-way-210654673, centre of today's shore laid on the traced one",shore,YM-east,2,fit,"area ratio 1.24; shift 12.5 m, median 2.4 m after it, 99% of the shore within 10 m"
+S8-1352930631-centre,1354.9,3094.8,40.0059972,116.2850066,WGS84 via OSM (lake outline),"lake osm-way-1352930631, centre of today's shore laid on the traced one",shore,YM-west,2,fit,"area ratio 1.26; shift 0.6 m, median 3.7 m after it, 98% of the shore within 10 m"
+S8-2826273-centre,11405.3,3393.6,40.0081145,116.3095146,WGS84 via OSM (lake outline),"lake osm-relation-2826273, centre of today's shore laid on the traced one",shore,CC,2,excluded,"area ratio 1.10; shift 0.8 m, median 3.0 m after it, 95% of the shore within 10 m; 38 m from a check point"

@@ -13,7 +13,7 @@ Qichun Yuan
 - **Type:** compound (S06, S49, S01, S220, S361 · confidence B)
 - **Built:** 嘉庆十九年 1814; 1815 rebuilt (S06, S49, S01, S220, S361)
 - **Destroyed:** 1860 (S06, S49, S01, S220, S361)
-- **Position:** 39.99869, 116.30061. S01 sure (S01 · confidence B)
+- **Position:** 39.99864, 116.30057. S01 sure (S01 · confidence B)
 - **Bays:** 5 in two rolls, 3-bay annex in the texts / 6x3 on the plan (S06, S49, S01, S220, S361)
 - **Size in the inventory:** 27.8 × 33.2 m. S01 plan px / hall scale (S01)
 - **Where the text puts it:** 西南部 (S06) (S06, S49, S01, S220, S361) *(research copy, not public)*
@@ -29,7 +29,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Box:** 27.8 × 33.2 m, grand hall
 - **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.24 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, 2 parallel rolls 勾连搭, grey tile
-- **Faces:** 173° from north
+- **Faces:** 171.4° from north
 - **Confidence:** B
 
 ## Inside it (7)
