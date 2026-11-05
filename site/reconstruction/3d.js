@@ -2,6 +2,7 @@
 // Data: generated/ground.json + ground.bin (scripts/ground1860.py), generated/structures.json and data/halls_1860.geojson (scripts/boxes1860.py), data/buildings/<ID>.json (scripts/building_pages.py), data/labels_1860.json.
 // World axes: x = east, z = south, y = height above the water, metres. Halls are one merged mesh (halls3d.js); a click tests rectangles, not triangles.
 // URL: ?b=<ID> (opens that page and frames its object) &cam=x,y,z,tx,ty,tz &halls=0 &walls=0 &labels=0 &conf=1 &vx=2 &shot=1 (hides the panels, nothing animates, no labels) &public=1 (localhost: no research copy of the pages).
+// Round 10: the ground (ground3d.js): hills, banks, beds, one level per water body; &contours=1 draws contour lines; &conf=1 also tints the ground; &assumed=0 also flattens the generated hills.
 // Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
@@ -101,39 +102,9 @@ function glideTo(pos, tgt, off, ms = 700) {
   requestAnimationFrame(step);
 }
 
-const state = { halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0" };
+const state = { halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1" };
 const meshes = {};
 let walking = false, touring = null;
-
-// Ground, from the binary parts of ground1860.py.
-function partGeometry(buf, part, withRgb) {
-  const g = new THREE.BufferGeometry();
-  g.setAttribute("position", new THREE.BufferAttribute(new Float32Array(buf, part.pos, part.verts * 3), 3));
-  g.setIndex(new THREE.BufferAttribute(new Uint32Array(buf, part.idx, part.indices), 1));
-  if (withRgb) {
-    // Vertex colours are not colour-managed: the file's sRGB goes to linear here, as the hex colours of the materials do on their own.
-    const toLinear = new Float32Array(256).map((_, i) => { const f = i / 255; return f <= 0.04045 ? f / 12.92 : ((f + 0.055) / 1.055) ** 2.4; });
-    const raw = new Uint8Array(buf, part.rgb, part.verts * 3), rgb = new Float32Array(raw.length);
-    for (let i = 0; i < raw.length; i++) rgb[i] = toLinear[raw[i]];
-    g.setAttribute("color", new THREE.BufferAttribute(rgb, 3));
-  }
-  g.computeVertexNormals();
-  return g;
-}
-function buildGround(meta, buf) {
-  const group = new THREE.Group();
-  const lam = (o) => new THREE.MeshLambertMaterial(o);
-  group.add(new THREE.Mesh(partGeometry(buf, meta.parts.land, true), lam({ vertexColors: true })));
-  group.add(new THREE.Mesh(partGeometry(buf, meta.parts.bank, false), lam({ color: 0x8b8474, side: THREE.DoubleSide })));
-  group.add(new THREE.Mesh(partGeometry(buf, meta.parts.water, false), lam({ color: 0x6f9fb0 })));
-  group.add(new THREE.Mesh(partGeometry(buf, meta.parts.paddy, false), lam({ color: 0xa8b98a })));
-  // The plain past the modelled land: a ring round it, a hair lower so the seam never fights. Same colour as the land outside the walls.
-  const base = meta.ground_m - meta.datum_m - 0.05, [x0, z0, x1, z1] = meta.domain, FAR = 45000;
-  for (const [ax, az, bx, bz] of [[-FAR, -FAR, FAR, z0], [-FAR, z1, FAR, FAR], [-FAR, z0, x0, z1], [x1, z0, FAR, z1]]) {
-    group.add(new THREE.Mesh(new THREE.PlaneGeometry(bx - ax, bz - az).rotateX(-Math.PI / 2).translate((ax + bx) / 2, base, (az + bz) / 2), lam({ color: 0xaaa47c })));
-  }
-  return group;
-}
 
 // Walls as thin solids, bridges as decks. One mesh each. Bridges with a row in buildings.csv are clickable through `bridgeBoxes`.
 function buildStructures(data) {
@@ -207,10 +178,11 @@ function labelSprite(text, sub, rank) {
 
 async function main() {
   const local = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) && !params.get("public") && (await fetch(location.href, { method: "HEAD" }).then((r) => r.headers.get("X-Palace-Local") === "1").catch(() => false));
-  const [meta, buf, gridBuf, fc, structures, labelData, pathFc, landingFc, routeFc] = await Promise.all([
+  const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc] = await Promise.all([
     fetch("generated/ground.json").then((r) => r.json()),
     fetch("generated/ground.bin").then((r) => r.arrayBuffer()),
     fetch("generated/ground_grid.i16").then((r) => r.arrayBuffer()),
+    fetch("generated/ground_level.u8").then((r) => r.arrayBuffer()),
     fetch("data/halls_1860.geojson").then((r) => r.json()),
     fetch("generated/structures.json").then((r) => r.json()),
     fetch("data/labels_1860.json").then((r) => r.json()),
@@ -220,19 +192,13 @@ async function main() {
   ]);
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
-  const grid = new Int16Array(gridBuf), G = meta.grid;
-  const groundAt = (x, z) => {
-    const i = Math.round((x - G.x0) / G.step_m), j = Math.round((z - G.z0) / G.step_m);
-    if (i < 0 || j < 0 || i >= G.width || j >= G.height) return meta.ground_m - meta.datum_m;
-    const v = grid[j * G.width + i];
-    return v === G.no_land ? null : v / 100;
-  };
-
-  world.add(buildGround(meta, buf));
+  const ground = buildGround({ meta, buf, gridBuf, levelBuf });
+  const { groundAt, waterLevelAt } = ground;
+  world.add(ground.group);
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m });
-  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, base: meta.ground_m - meta.datum_m });
+  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, waterLevelAt, base: meta.ground_m - meta.datum_m });
   for (const g of Object.values(ways.groups)) world.add(g);
   meshes.halls = halls.mesh;
   world.add(meshes.halls);
@@ -245,12 +211,16 @@ async function main() {
     return s;
   });
 
+  let groundAssumed = true;
   function apply() {
     meshes.halls.visible = state.halls;
     meshes.structures.visible = state.walls;
     ways.groups.sure.visible = ways.groups.boat.visible = state.paths;
     ways.groups.assumed.visible = state.paths && state.assumed;
     ways.setConfMode(state.conf);
+    ground.setConf(state.conf);
+    if (groundAssumed !== state.assumed) { groundAssumed = state.assumed; ground.setAssumed(state.assumed); }
+    ground.setContours(state.contours);
     document.getElementById("legend-paths").hidden = !state.paths;
     world.scale.y = state.vx;
     world.updateMatrixWorld(true);
@@ -259,7 +229,7 @@ async function main() {
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
   }
-  for (const key of ["halls", "walls", "labels", "conf", "paths", "assumed"]) {
+  for (const key of ["halls", "walls", "labels", "conf", "paths", "assumed", "contours"]) {
     const box = document.getElementById(key);
     box.checked = state[key];
     box.onchange = (e) => { state[key] = e.target.checked; apply(); };
@@ -463,7 +433,7 @@ async function main() {
     const t = (s - R.cum[i]) / (R.cum[i + 1] - R.cum[i] || 1);
     return [R.pts[i][0] + (R.pts[i + 1][0] - R.pts[i][0]) * t, R.pts[i][1] + (R.pts[i + 1][1] - R.pts[i][1]) * t];
   };
-  const eyeAt = (T, x, z) => (T.boat ? BOAT_EYE : (groundAt(x, z) ?? meta.ground_m - meta.datum_m) + EYE);
+  const eyeAt = (T, x, z) => (T.boat ? (waterLevelAt(x, z) ?? 0) + BOAT_EYE : (groundAt(x, z) ?? meta.ground_m - meta.datum_m) + EYE);
   const placeTour = (T) => {
     const [x, z] = pointAt(T.R, T.s);
     let ax = 0, az = 0;
@@ -617,7 +587,7 @@ async function main() {
   document.getElementById("loading").hidden = true;
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  window.viewer = { state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

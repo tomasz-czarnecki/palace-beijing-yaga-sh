@@ -347,6 +347,7 @@ No measured footprint of 含经堂, 淳化轩 or 蕴真斋 is on disk: they are 
 - **Q171. CC02.** CC02: S672 and S940 are the same paper (王文涛, 故宫学刊 2015, the same dpm.org.cn PDF). Merge the ids; the verified texts cite S940. (verify_b worker, Round 7)
 - **Q172. CC02-15 买卖街.** CC02-15 买卖街: width of the shop street base disagrees: S941 (OCR of the 紫禁城 page) reads 东西宽约63米, E2156 (S115) gives about 6.3 m; both cite the dig brief S143. 40 bays in a row 135.65 m long fit 6.3 m better. Check the brief or the PDF image of S941 before any box. (verify_b worker, Round 7)
 - **Q173. CC02-04 淳化轩.** CC02-04 淳化轩: S940 gives 卷棚歇山 (p.360) and 琉璃歇山 (p.361) for the same hall; only S361 (E0057) calls 含经堂 glazed. Tile finds in S990 should settle both. (verify_b worker, Round 7)
+- **Q196. The width of a paved way 甬道 is not known anywhere.** No text and no published dig gives one; the drawn roads are 4-5 m (S01 at 大宫门 and 绮春园宫门); every other width is typology (`WIDTH` in `scripts/paths1860.py`). The digs of 含经堂 (S143, S990), 长春园宫门 (S316) and 大宫门 (S993) would.
 
 ### Wishlist rows that name it
 
@@ -359,6 +360,7 @@ No measured footprint of 含经堂, 淳化轩 or 蕴真斋 is on disk: they are 
 | The Qing source of the note that 乐寿堂 copies 淳化轩 (quoted in S672 p.362, footnote 3 not read) | the guessed form of CC02-04 | S672 footnote 3 cites 章乃炜《清宫述闻》初续编合编本 p.698 (紫禁城出版社 2009; compiled 1930s from Qing records), which should name the Qing record it quotes | read 清宫述闻 p.698 and trace the quoted record (probably 国朝宫史续编) |
 | S143 full text (考古 2004(2):41-65) and S990 (2006 report), chapter 3 | the widths of the shop street, the footprints of 含经堂, 淳化轩, 蕴真斋, and the roof tiles | a library holding 考古 2004 and the 文物出版社 2006 report | order a scan of the brief; borrow the report |
 | Old photographs (1900-1940) of the Chinese scenes outside the Xiyang Lou: 正觉寺, 舍卫城, 文源阁 and 石玲峰, 福海 and its islands, 大宫门, 绮春园宫门, 含经堂, in Sidney Gamble (Duke), Hedda Morrison (Harvard-Yenching) and C. F. Moore (Royal BC Museum) | Round 7 found no new old photograph of any Yuanming Yuan scene outside the Xiyang Lou; every candidate on Commons was catalogued already | repository.duke.edu/dc/gamble; hollis.harvard.edu; Royal BC Museum MS-3171 | A person in a browser: the three refuse automated access (Q33, Q62); not tried again this round, as the brief asked |
+| Round 9: the 大宫门 report S993 read by eye in a browser, and the path chapters of S990 (含经堂) and S316 (长春园宫门) | The first measured widths of a 御路 and a 甬道 (Q196), replacing every typology width | the park's site; the books in a library | open the PDF in a browser; a library visit |
 
 <!-- generated:end -->
 

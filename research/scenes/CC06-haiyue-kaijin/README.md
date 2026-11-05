@@ -161,6 +161,7 @@ The state of 1860 is uncertain: three storeys in S05 (1780s) against one storey 
 - **Q47. How much burned, and when.** Main account stands (Q28). Fires before 18 October: S02 p.183 after Favier, S245 p.245 on 8–9 October, S247. S203 and S214 say local robbers lit the first fires; the edicts (S207) and S215 say foreign troops. Keep these apart: show what each text says. Survivors: S361 lists 惠济祠, 河神庙,
 - **Q145. CC06 海岳开襟.** CC06 海岳开襟: S05 j83:11a (1780s) has a three-storey tower; S991 says the group was reduced under Jiaqing-Daoguang and that Semallé's photograph of c.1882 shows a one-storey pyramidal hall. Which stood in October 1860? Jiaqing poems of 1797-1816 still climb a 楼 (E0152, E0162). Find the reduction in th
 - **Q152. yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which.** yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which includes Robert de Semallé's 1882 set). Fetch it later to look for Semallé's 海岳开襟 and any 1882 view of 正觉寺 or 法慧寺. (w34 worker,
+- **Q187. Changchun Yuan's west part reads 12-23 m too far east.** Five check points on the channels west of 思永斋 and 海岳开襟 (K-CC-01, 03, 04, 05, 06) all come out east (and some north) of today's, under both fits; the 谐奇趣 ruins stand about 15 m west of where the plan's wall line put them (Q64). Changchun's smoothing (λ 10,
 
 ### Wishlist rows that name it
 

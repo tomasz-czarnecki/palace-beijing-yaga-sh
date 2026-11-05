@@ -229,6 +229,7 @@ Not written yet.
 - **Q169. YM44 what_en says nothing of 1860.** YM44 what_en says nothing of 1860; no source in this dossier states the fate of 同乐园 in October 1860. The page should say so or cite one. (verify_a worker, Round 7)
 - **Q170. YM44 card model.** YM44 card model: E2158 (S328) says the NMC 同乐园 烫样 was made for Tongzhi's repair, the photos/plans question row and S922 say it has no stated date. Settle before the model is used. (verify_a worker, Round 7)
 - **Q184. Typology, 清音阁 YM44-02.** Typology, 清音阁 YM44-02: the row's class is storeyed_hall, but its Yangshi Lei figures (S310, mhymy 7297: ridge 23.94 m, middle storey 14.53 m square, platform 0.96 m, bays 5.50 and 4.51 m) are those of the tower class, whose ridge default is the same 23.94 m. Proposal: a by_name entry fo
+- **Q191. The water layer lacks some ponds and inlets the plan and the leaves show.** The inlet before 方壶胜境 (the leaf P0029 and S01 draw its terraces standing in water) is land in `water_1860`, so the boat legs YMF-043 and YMF-044 cross dry land and the 福海 tour skips the inlet (R9-001); 17 landings stand more than 1 m fr
 
 ### Wishlist rows that name it
 
@@ -237,6 +238,7 @@ Not written yet.
 | 国朝宫史续编 (1806, 庆桂 et al.), the 圆明园 juan of its 宫殿/苑囿 part: the Jiaqing-era list of halls and plaques for 九洲清晏, 正大光明, 勤政亲贤, 福海 and 同乐园 | S05 (1780s) as the latest full hall list; changes between 1780 and 1806 are unseen | zh.wikisource has only 卷一-卷六十二 at 25% (https://zh.wikisource.org/wiki/國朝宮史續編); the 苑囿 juan are later; ctext.org is bot-checked | a scan on archive.org or the 故宫珍本丛刊 reprint; to-request if no scan |
 | Free modern photos of 文源阁 YM46 (the 2024 dig and the 石玲峰 base), 舍卫城 YM45, 同乐园 YM44, 山高水长 YM15, 澹泊宁静 YM20, 勤政亲贤 YM02, 大宫门 YM41, 武陵春色 YM14 | no picture of the present ground for these scenes | the site, or Commons uploads after 2024 | Ask Tomasz or a visitor to photograph each site with a person in frame, geotagged, and upload CC BY-SA; or the park office's own release |
 | Free modern photos of 万方安和 YM13 (the swastika platform in the water, beyond P0381), 蓬岛瑶台 YM32 from the 福海 shore, 同乐园 YM44, 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 勤政亲贤 YM02, 大宫门 YM41, 武陵春色 YM14 | the empty or single-picture 'today' slots of these scenes | Flickr (needs an API key: Openverse indexes only part of it), Panoramio archive on Commons (exhausted by two workers), the park's own photo pages (rights unclear) | Flickr API search with license=4,5,9,10 and bbox around each scene; or a site visit |
+| Round 9: a tracing pass on the waters the layer lacks or closes (方壶胜境's inlet, 同乐园's north water, the YM82 dock basin, the necks of Q192) | Boat routes over land, 17 landings off the shore, three causeways in water (Q191, Q192) | S01, our crop tool | a reader with `docs/rounds/common/palace_r9_tools/crop.py`, then `scripts/build_r1.py` |
 
 <!-- generated:end -->
 

@@ -202,6 +202,7 @@ The leaf P0004 shows the front hall with a green-glazed roof edged in dark blue,
 - **Q45. Halls in the texts with no row.** 如园 CC18: 芝兰室, 云萝山馆, 听泉榭, 含碧楼, 挹霞亭, 观丰榭, 引胜轩 (S140). S360 names 无倦斋 (YM02), 万象涵春, 长春书屋, 池上居, 画禅室, 养正书屋 (YM03), 碧澜亭 (YM10), 得树亭 (YM09), 养素书屋 (YM04), 鸣玉溪, 春好轩 (YM12), 湛清华轩, 溜琴亭, 履吉斋, 晴望楼 (YM47), 纳翠轩, 翼翠亭 (YM48), 湛然室, 悦霁亭 (YM45), 水晶域 (YM20), 夏隐亭, 镜远洲 (YM31), 得趣书屋 (YM28), 活画舫 (YM34),
 - **Q57. What state a reconstruction shows.** Ours is 1860. 中央美术学院's Forty Scenes (S553, 2025) aims at about 1744; Tsinghua models four periods including 咸丰, and a render on the web seldom says which (S505); the card models 烫样 are of the repair of 1873–74 (`era` = period) and read back to 1860 only with a Yangshi Lei dra
 - **Q133. YM04-01.** YM04-01: S05 j80:26a makes 纪恩堂 the main hall of 镂月开云, but S01 labels it "?云楼" (a 楼, i.e. storeyed?) on a 9x2-cell footprint. Is the plan label 镂云楼 / a later two-storey rebuild, or a misreading? Check the plan crop. (w2 worker, Round 7)
+- **Q193. Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks.** 日下旧闻考 j80:9a says 驾石桥三; the leaf P0001 (checked at full size) and S01 draw one, BR006, and gaps in the stream wall either side. Candidates not on `bridges_1860`: a strip on the west of 长春仙馆 (2135-2160 x 5145-5165 px), a neck at its sou
 
 ### Wishlist rows that name it
 

@@ -236,6 +236,7 @@ Only 延清堂 has a published measured reconstruction (S362, R0015, R0080, R008
 |---|---|---|---|
 | Own photographs at the park: 文源阁 and 石玲峰, 舍卫城, 七孔闸, 如园, 鉴园; also 中山公园 for the 须弥座 of 仙人承露台 | Free modern pictures for compounds with none | On site | A visit, released CC BY-SA |
 | 嘉庆 重修如园记 full text and the 如园十景 list with the dug positions | the Qianlong names on CC18 rows, the place of each hall | S361 v4 p.106 (E0355); 圆明园管理处 dig report of 2012-17 (not published on disk) | read S361 v4 p.106; ask for the 如园 dig report |
+| Round 9: a Yangshi Lei ground plan that draws 甬道 and 码头 (如园地盘全样 样385-0015, 长春园全图准底, the Guimet plan) | Court axes graded C because S01 draws no paving | NLC, Guimet | as for the other Yangshi Lei rows |
 
 <!-- generated:end -->
 

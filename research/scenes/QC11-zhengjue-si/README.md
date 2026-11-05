@@ -193,6 +193,7 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 
 ### Open questions that name it
 
+- **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q52. Smaller conflicts.** 正觉寺: 乾隆三十八年 is 1773, S221 prints 1774. 文源阁: S133 east/north-east vs north-west, black glazed (dig) vs black with green edge (S105). 藻园: 190 × 125 m the garden (S340), 105 × 95 m the buildings by the dock (S156). 福海: "half a mile a side" (S02), "near five miles round" (S157), 一百頃 (poem of 176
 - **Q123. Commons File:1963-05_1963年_北京正觉寺金刚宝塔.jpg (人民画报, PD) came up for 正觉寺.** Commons File:1963-05_1963年_北京正觉寺金刚宝塔.jpg (人民画报, PD) came up for 正觉寺: it shows the 金刚宝座塔 of 真觉寺 (五塔寺) in Beijing, not 正觉寺 QC11 in 绮春园. Not tied; a caution for anyone searching by name. (photos worker, Round 7)
 - **Q149. QC11 正觉寺.** QC11 正觉寺: the brief asks 'open since 2012?'. S228 (chinanews 2011-07-07, E0679) has the trial opening on 6 July 2011, after work begun in 2002. Use 2011. (w34 worker, Round 7)
@@ -201,6 +202,7 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 - **Q153. Brief.** Brief: 'S05 日下旧闻考 j83-j84 for Changchun'. Kanripo KR2k0036_084 is 清漪园 (卷八十四 國朝苑囿 清漪園); Changchun Yuan is j83 alone, and neither juan has any text on 绮春园 or 正觉寺 (checked 2026-11-05). Qichun evidence rests on S220-S229, S360, S361. (w34 worker, Round 7)
 - **Q177. QC11.** QC11: S228 says the rebuild of 2009-11 used a Yangshi Lei ground plan (样式雷地盘看样图) of 正觉寺; no such drawing is in the evidence catalogue. Worth a search on the NLC/mhymy lists. S228 also names neither the bell and drum towers in the repair lists: old or rebuilt? (verify_b worker, Round 7)
 - **Q178. QC11.** QC11: E0683 gives a 达喇嘛 and 40 lamas from 宝谛寺; S228 says 建成后由两名喇嘛住持 (two lamas presided). Not a conflict as such (heads vs community), but check E0683's source before the page gives the number 40. (verify_b worker, Round 7)
+- **Q190. Check points whose reading was doubted after writing, kept as written** (the rule): K-FH-01 (the plan draws two lines 9 m apart round the lobe; the outer read), K-XY-01 (the pool's south edge in shadow, perhaps 1.5 m), K-QC-01 and K-QC-02 (read on leaning roofs, 2-4 m), K-QB-01 (the island today is larger and l
 
 ### Wishlist rows that name it
 

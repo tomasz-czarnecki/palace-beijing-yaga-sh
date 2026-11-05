@@ -17,7 +17,7 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `plan/` | everything read off the base plan S01, in plan pixels | see below | yes |
 | `georef/` | how the plan is tied to the ground | see below | yes |
 | `typology/` | `halls.md`, `params.json` (defaults by hall class, each with a source and a confidence), `rules_out.json`, `scale_check.json` | hand and `scripts/typology_*.py` | yes |
-| `terrain/README.md` | what the DEM can and cannot tell | hand | yes |
+| `terrain/` | Round 10, the ground: `terrain/README.md` (what is measured, read and typology, the error by region, what the DEM can and cannot tell), `terrain/readings.csv` (the workers' rows) and the files below | hand (the README, the readings); `scripts/terrain_dem.py`, `scripts/hills1860.py`, `scripts/ground1860.py`, `tools/check_ground.py` | yes |
 | `photos/` | the picture catalogue and free images, see `photos/README.md` | hand | yes |
 | `evidence/` | what is not an image, see below; `evidence/coverage_before_r5.json` the coverage before Round 5, which `tools/check_evidence.py` compares with | hand | yes |
 | `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
@@ -89,6 +89,7 @@ Columns:
 ```
 uv run python scripts/fetch_osm.py            # research/raw/osm, layers/osm_today (network)
 uv run python scripts/clip_dem.py             # research/raw/dem/site_glo30.npz (needs the tiles in raw/dem)
+uv run python scripts/terrain_dem.py          # terrain/plain.json, terrain/glo30_rise.npz: the plain, today's rises (needs raw/dem)
 uv run python scripts/mosaic_plan.py          # raw/plans/princeton_mosaic.jpg, georef/princeton-mosaic.json
 uv run python scripts/trace_plan.py           # plan/regions.json, blocks.csv, walls.json, gates.json, ... (needs scipy)
 uv run python scripts/georef.py previous      # georef/princeton-1920s.previous.json: the Round 1 fit, from princeton-1920s.csv alone
@@ -104,8 +105,9 @@ uv run python scripts/apply_facts.py          # buildings.csv: what evidence/fac
 uv run python scripts/render_r1.py            # screenshots/r1/layers_public.png, public-safe
 uv run python scripts/coverage_chart.py       # screenshots/r1/coverage.png
 uv run python scripts/georef.py accuracy      # layers/georef_error.geojson: expected error by region and 200 m cell, from the check set
+uv run python scripts/hills1860.py            # layers/hills_1860 (heights; the free land's hills), terrain/hills_heights.csv, terrain/rockeries.csv; reads the last run's boxes and ways
 uv run python scripts/publish_layers.py       # site/reconstruction/data/: the public layers, buildings_1860, labels_1860, georef_error
-uv run python scripts/ground1860.py           # site/reconstruction/generated/: ground.json, ground.bin, ground_grid.i16
+uv run python scripts/ground1860.py           # site/reconstruction/generated/: ground.json, ground.bin, ground_grid.i16, ground_level.u8; terrain/water_levels.csv, ground_report.json (imports the box layout of boxes1860.py)
 uv run python scripts/boxes1860.py            # data/halls_1860.geojson, generated/structures.json (walls, bridges); prints its checks
 uv run python scripts/paths1860.py            # layers/paths_1860, landings_1860, routes_1860 and their copies in data/; paths/bridge_ends.csv, dangling.csv, unreached.csv; prints its checks
 uv run python tools/osm_paths.py              # paths/osm_judged.csv: today's park paths judged, never evidence
@@ -121,9 +123,12 @@ uv run python tools/check_evidence.py         # coverage; no empty evidence sect
 uv run python tools/check_docs.py             # these docs match the files
 uv run python tools/check_georef.py           # the frozen check set against the fit in use, by region; the rows follow the fit
 uv run python tools/check_paths.py            # the ways: counts, joint gaps, crossings, bridge approaches, routes
+uv run python tools/check_ground.py           # the ground: hills by method, one level per body, every object's gap and joint; --before <dir> measures an older export
 ```
 
-Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `paths/`, `typology/params.json`, `xiyanglou/`, `scenes/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
+Everything from `hills1860.py` down needs only `buildings.csv`, `layers/`, `paths/`, `terrain/readings.csv`, `terrain/plain.json`, `terrain/glo30_rise.npz`, `typology/params.json`, `xiyanglou/`, `scenes/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
+
+**Round 10:** `hills1860.py` and `ground1860.py` read the box and way positions of the last run (`site/reconstruction/data/halls_1860.geojson`, `layers/paths_1860`, `boxes1860.layout()`); positions never depend on the ground, so the chain is a fixed point: `hills1860.py` through `paths1860.py` run a second time change nothing.
 
 **Round 8:** the placement chain (`georef_readings.py`, `control_derived.py`, `georef.py fit`, `build_r1.py`, `apply_facts.py`, `georef.py accuracy`, `publish_layers.py`, `ground1860.py`, `boxes1860.py`) run a second time gives the same files, and `georef.py previous` rebuilds the Round 1 fit byte for byte. The mosaic was refetched from the museum's IIIF server (`research/raw/` had been cleared) and `mosaic_plan.py` rebuilt the same stitch (`georef/princeton-mosaic.json` unchanged).
 
@@ -329,6 +334,21 @@ One row per image or work with its own link. 326 rows: 25 free, 23 of them on th
 | `local_copy`, `width`, `height` | `research/reconstructions/images/R####.jpg` if free; `research/raw/reconstructions/R####.jpg` if research-only, served on localhost only |
 | `notes` | working notes, not public |
 
+## terrain/
+
+The ground of 1860, Round 10. Overview, what is measured, read and typology, the error by region: `terrain/README.md`.
+
+| File | Fields |
+|---|---|
+| `terrain/readings.csv` | hand-edited from Round 10 on: `id` (R10-###), `worker`, `kind` (hill_height, hill_position, hill_profile, bank, rockery, water_level, water_depth, water_fall, sluice, survey, none_found), `ref` (a hill id), `scene_id`, `name_zh`, `where`, `lat`, `lon`, `value_m`, `value_text` (the source's words; for a bank its kind: stone_quay, rock_faced, earth_slope, mixed), `conversion`, `method` (survey, dem, painting, text, typology, dig), `error_m`, `state_date` (1744, 1860, a later year, today), `sources`, `source_title`, `source_url`, `page`, `grade`, `verified` (verified, snippet, unknown), `note` |
+| `terrain/hills_heights.csv` | `id`, `basis`, `group`, `scene_id`, `area_m2`, `height_est_m`, `error_m`, `method`, `height_method`, `sources`, `confidence`, `assumed`, `readings`, `dem_note` |
+| `terrain/rockeries.csv` | `reading`, `scene_id`, `where`, `what`, `sources`, `grade`, `state_date` |
+| `terrain/water_levels.csv` | `body`, `water_ids`, `names`, `area_m2`, `level_m_egm2008`, `depth_m`, `method`, `sources`, `confidence` |
+| `terrain/plain.json` | `a`, `bx`, `bz` (y = a + bx x/1000 + bz z/1000, EGM2008), `fall_m_per_km`, `falls_towards_deg`, `fit_cells`, `rms_m`, `lakes_today`, `lakes_fall_today` |
+| `terrain/glo30_rise.npz` | `rise_dm` (int16, -32768 water today), `north`, `west`, `step`: today's height above the local low ground |
+| `terrain/ground_report.json` | `bodies`, `levels_m`, `shore_m` by kind, `shore_grade_A_m`, `hills_modelled` (each hill's modelled peak), `pads`, `mesh`, `bridge_joints`, `highest_m` |
+| `terrain/ground_check.json` | what `tools/check_ground.py` measured: `hills`, `water`, `boxes`, `bridges`, `ways`, `walls`, `landings` |
+
 ## Layers
 
 Every feature carries `id`, names where known (`name_zh`, `name_pinyin`), `sources`, `confidence`, `note`. Working copies in `layers/`; `scripts/publish_layers.py` copies them to `site/reconstruction/data/` without the working fields `block`, `source_kind`, `drawn_m`, `ncols`, `nrows` of the footprints, `region_id` and `height_method`.
@@ -336,7 +356,7 @@ Every feature carries `id`, names where known (`name_zh`, `name_pinyin`), `sourc
 - `footprints_1860` (1560): one rectangle per box, as drawn on the plan and warped. **Use its centre with `orientation_deg`, `frontage_m`, `depth_m`, `hall_class`,** not its outline: halls are drawn smaller than the ground scale, so the true size is larger than the outline. `building_id` links to the row, `parent_id` to the compound. Also `orientation_assumed`, `block`, `source_kind`, `drawn_m`, `ncols`, `nrows`.
 - `scenes_1860` (188): one polygon per compound, drawn by the readers round its island or court. `garden`, `name_en`, `name_on_plan`, `read`, `malone_no`, `area_m2`. Not a boundary known from a source.
 - `water_1860` (363): `kind` lake, pond or canal; holes are islands. `region_id`, `area_m2`. The polygons come to 116 ha in UTM 50N; `area_m2` sums to 118 ha. `islands_1860` (62): land enclosed by the water layer closed by 45 px (about 9 m), plus Malone's nine islands from their scene polygons; `scene_ids`.
-- `hills_1860` (54): `kind`, `height_est_m`, `height_method`; all C. Undercounts: Q29. A hill gives way to a surveyed sunken court of the Xiyang Lou (`scripts/build_r1.py`, `clear_of_courts`): H0015, wholly inside 大水法's court, is dropped (Q71); ids are not renumbered.
+- `hills_1860` (472, Round 10): `kind`, `area_m2`, `height_est_m` (the height above the ground round it), `height_method` (the method and what it read: surveyed, dem, painting, text, typology), `error_m`, `sources`, `confidence`, `assumed`, `basis` (plan: the 54 outlines of S01; free_land: H2001 on, generated, assumed), `group` (the piece of land a hill belongs to: one mound per group), `scene_id`, `readings` (rows of `terrain/readings.csv`), `dem_note` (what GLO-30 shows where it gave no height). Written by `scripts/build_r1.py` (the plan's outlines) and then `scripts/hills1860.py` (heights, free land). Undercounts on the plan: Q29, Q199. A hill gives way to a surveyed sunken court of the Xiyang Lou (`scripts/build_r1.py`, `clear_of_courts`): H0015, wholly inside 大水法's court, is dropped (Q71); ids are not renumbered.
 - `bridges_1860` (73): lines between the two ends; `building_id`, `read`. The drawn width is not recorded.
 - `walls_1860` (58): `garden`, `read`; `kind` outer_wall, separating_wall (lines) and gate (53 points). Read by eye, 10–20 px off the ink, Qichun 20–40 px. Since Round 8 the west side of Changchun Yuan north of the plan's y 1900, which lies in a scroll seam, stands 15.2 m west of the traced line, off the Xiyang Lou ruins, with the sluice G43 (Q64; `WALL_SEAM_RUN` in `scripts/build_r1.py`). How the walls meet today's park outline: `tools/wall_check.py`, Q31, Q186.
 - `fields_1860` (10): the labelled 稻田 rice fields; `kind`, `region_id`, `area_m2`.
@@ -359,8 +379,8 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 - **Heights and roofs:** `typology/params.json` by `hall_class`; a stated hall in `by_name` wins. A hall deeper than 1.5 x its class's depth takes parallel rolls (`rolls`).
 - **Xiyang Lou:** massing from `xiyanglou/boxes.csv`, each box with its position, size, sources and reason: on the ruin where one can be read, at the plan's ground scale, with heights from the plates (Q64, Q65). `assumed` is off where a survey gives the footprint. Rows that a part merges into share the target's box (`shared_rows`), and a retired row has none (`xiyanglou/parts.csv`). The layers `footprints_1860` and `walls_1860` stay on the plan.
 - **No box:** rows with no position, labelled plots, the 寿山 ridge, water, docks, sluices (reasons in `boxes1860.py`).
-- **Ground:** flat base land 45 m and one water level 43.5 m (EGM2008), from `terrain/README.md`; islands +0.8 m, hills as mounds from `hills_1860`, 线法山 from `params.json`. A surveyed sunken court (`xiyanglou/boxes.csv`, shape court: 大水法's fountain area, S603) is cut out of the land with a bank and a floor 1.30 m down, and no mound reaches within 5 m of it (Q71). No DEM cell is used as a height: it holds today's trees and fill. Land is cut exactly to `water_1860`, with a bank down to the water. Q34.
-- **Generated files:** `generated/ground.json` (frame, levels, offsets), `ground.bin` (positions and indices per part), `ground_grid.i16` (5 m raster for walk mode and `boxes1860.py`), `structures.json` (`wall`, `bridges`).
+- **Ground (Round 10, `scripts/ground1860.py`, `terrain/README.md`):** the plain from the DEM as a plane (`terrain/plain.json`); 189 water bodies, each at one level 1.5 m under the plain along its shore, the land pulled to that near the water; beds 1.5-2.3 m down; earth, stone and rock banks (`terrain/readings.csv` and two rules); the hills of `hills_1860`, one smooth mound per `group`, the peak at most 0.45 x its half-width + 0.3 m; pads under the boxes of one compound, blended out over 6 m; 大水法's sunken court 1.30 m down (S603, Q71); paddy 0.25 m down. A 2.5 m design raster; a quadtree mesh of 20, 10 and 5 m cells, 2:1 balanced, cut exactly to the water. The surface the view walks on is that mesh rasterised. A box on uneven ground stands on its highest land. Q34.
+- **Generated files:** `generated/ground.json` (frame, plain, `bodies` with level and depth, `bridges` with their decks, `codes`, offsets of the chunked parts; positions int16: x and z in decimetres from the domain's corner, y in centimetres; indices uint16), `ground.bin` (land with `code` and `hill` bytes and `yalt` without the assumed hills, skirt, bed, water, paddy, court), `ground_grid.i16` (2.5 m lattice over walls, boxes and ways: the land mesh in cm; water -20000 + the bed; bridge decks as land), `ground_level.u8` (10 m cells: 1 + the water body), `structures.json` (`wall` in stepped courses, `bridges` from `ground.json`).
 - **Bridges, Round 9:** BR006 and BR047 had been read along their decks; their spans now cross the stream and the moat (`plan/readings/ym_central/features.csv`, `cc_xyl/features.csv`), ids unchanged.
 - **Walls:** `walls_1860` with height 2.8 m and thickness 0.8 m (`params.json`). A wall stops at a hall standing in its line (53 boxes), and opens 6 m at a gate with no hall. A gate point within 14 m of a wall line counts as in it.
 

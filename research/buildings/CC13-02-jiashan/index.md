@@ -57,7 +57,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q29: Hills
 
 <!-- generated:end -->
 

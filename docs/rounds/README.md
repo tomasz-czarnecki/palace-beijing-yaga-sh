@@ -20,6 +20,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r7_scenes` | not recorded | 2026-11-05, from 16:19 | see its log | - | see its result row | see the git log | done |
 | `palace_r8_georef` | not recorded | 2026-11-05, from 17:57 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r9_paths` | not recorded | 2026-11-05, from 19:22 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r10_ground` | not recorded | 2026-11-05, from 20:34 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -221,4 +222,56 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - First stills: the overviews too high to show a path, the Xiyang Lou still inside a hall the route walks through; redone.
 - The remains worker ran four searches on mhymy.com before reading its robots.txt, which disallows them; it stopped, deleted the results and used only an allowed article page.
 - The network is mostly C: links outnumber traced lines. No Qing text tells how the emperor crossed the 前湖 (R1 takes 如意桥, our choice); no dig gives a path width; the water layer lacks some ponds and closes some necks, so 17 landings stand off the shore and the 福海 tour skips 方壶胜境's inlet (Q191, Q192); 64 halls (most in the closed courts of 含经堂 and the 长春园 gate) no link could reach; the candidate missing bridges were not confirmed (Q193).
+
+## palace_r10_ground
+
+**Asked:** the ground was nearly flat, and the 54 hills had only a provisional rule height (sqrt(area)/8, not empty as the brief said). Build hill heights by a ladder of methods; water at one level per body, beds and banks; flat pads under the halls; drape every object and measure the gaps before and after; a confidence tint and contour lines in the view; generated files under 8 MB; `tools/check_ground.py`.
+
+**Delivered:**
+- **Terrain:** `research/terrain/`: the README (what is measured, read and typology; the error by region), `research/terrain/readings.csv` (475 rows from five workers), `research/terrain/plain.json`, `research/terrain/glo30_rise.npz`, `research/terrain/hills_heights.csv`, `research/terrain/rockeries.csv`, `research/terrain/water_levels.csv`, `research/terrain/ground_report.json`, `research/terrain/ground_check.json`.
+- **Scripts:** `scripts/terrain_dem.py` and `scripts/hills1860.py`; `scripts/ground1860.py` rewritten; in `scripts/boxes1860.py` a `layout()` function, the feet over water, stepped walls and decks taken from the ground; in `scripts/scene1860.py` the ground frame and the new `Grid`.
+- **Hills:** `layers/hills_1860` now holds 472 hills: the 54 outlines of S01 and 418 pieces of free land, assumed.
+- **View and check:** `site/reconstruction/ground3d.js`; the toggles `contours`, `conf` and `assumed` act on the ground; `tools/check_ground.py`.
+- **Records:** S1000-S1016, Q197-Q203, five wishes. The merge `common/palace_r10_merge.py` and the region table `common/palace_r10_regions.py` are records, not pipeline steps.
+
+**Numbers** (`tools/check_ground.py`, before = the commit of Round 9 measured with the same script):
+- **Hills:** 54 to 472. By method: rule 45 and GLO-30 9 before; now surveyed 1, dem 122, painting 96, text 1, typology 252. All C but 线法山 (B).
+- **Water:** one level before; now 189 bodies at 41.99-44.82 m, no water triangle across two levels.
+- **Boxes:**
+  - floating 95 (median 1.30 m) to 1 (0.09 m);
+  - buried past the platform 49 (up to 5.35 m) to 1 (0.22 m);
+  - gap over 0.3 m 137 (113 of them A or B) to 0.
+- **Bridges:** deck ends against the ground max 0.38 m before and after, none over 0.5 m.
+- **Ways:**
+  - strip points with no land under them 180 to 23 of 9772;
+  - ends against a deck or a box (between its foot and its platform's top) 8 over 0.5 m (5 A or B) to 2 (no A or B);
+- **Walls:** courses hanging 61 (1.30 m) to 0.
+- **Files:** generated files 5.7 MB to 7.28 MB.
+
+**Timeline** (the progress log):
+- 20:34-20:43: reading, the DEM refetched, plan crops viewed. S01 draws no earth hills.
+- 20:43-21:05: five workers in the foreground (hills surveyed, hills in texts, water, album in two halves).
+- 21:05-21:48: the DEM step, the hills, the ground, the view, the check.
+- To the end: the screenshots and the docs.
+
+**Checked:**
+- `tools/check_ground.py`, `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_georef.py`, `tools/check_paths.py` and `tools/check_docs.py` pass.
+- `scripts/building_pages.py` run twice. The chain `hills1860.py` through `paths1860.py` run a second time changes nothing.
+- No box moved: 0 of 1634 rings changed. `paths_1860` is unchanged.
+- Screenshots in `screenshots/r10/`, before and after from one page load each, opened. The before page lacked its fonts (only `site/reconstruction` was exported).
+
+**Went wrong or left open:**
+- A first mesh of 2.5 m cells came to 24 MB. A 5 m floor, int16 positions, uint16 chunks and a 20 m bed took it to 5.35 MB.
+- A new per-vertex byte added after the last run blotched the plain in the first screenshot.
+- The bed sat above the water in narrow canals.
+- The water's offset hid the boat lines.
+- Deck ends inside the water polygon floated 1.4 m.
+- All fixed and re-shot.
+- **Still weak:**
+  - The generated hills are a pattern, not places (Q199).
+  - The album's heights are scaled to Attiret by a run (Q198).
+  - The water's fall follows the DEM against S05 (Q197).
+  - The mesh departs from the design raster by up to 4.3 m in the 10 m shore cells. The view drapes on the mesh, so nothing floats, but hills there are flattened.
+  - 南大桥 and others whose lines run over land in the water layer lie flush (Q191).
+  - Plan rockeries (the hatched clumps) are not traced.
 

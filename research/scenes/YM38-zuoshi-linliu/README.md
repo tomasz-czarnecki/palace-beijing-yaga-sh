@@ -210,6 +210,8 @@ No own sheet on mhymy. 样043-1 shows the eight-sided pavilion at 坐石临流, 
 - **Q99. Wolseley (S240), M'Ghee (S242), Loch (S244).** Wolseley (S240), M'Ghee (S242), Loch (S244): their pages on the garden are already catalogued (E0472-E0480, E1028-E1038, E2104-E2123). I found no further passage in them tying a hall of YM15, YM20, YM13, YM09, YM14, YM31, YM39, YM38 or YM33 by name; the 1860 account
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
+- **Q192. Land necks the plan draws lie under the traced water.** 万方安和's east neck (YMW-026, 11.9 m in water), the neck north of 绮春园's island (QC-090), the approach to BR023 at 坐石临流 (YMW-044, 52 m): the water layer was closed over narrow land. Listed in `research/paths/exceptions.csv`; the water layer should be reopened 
+- **Q193. Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks.** 日下旧闻考 j80:9a says 驾石桥三; the leaf P0001 (checked at full size) and S01 draw one, BR006, and gaps in the stream wall either side. Candidates not on `bridges_1860`: a strip on the west of 长春仙馆 (2135-2160 x 5145-5165 px), a neck at its sou
 
 ### Wishlist rows that name it
 

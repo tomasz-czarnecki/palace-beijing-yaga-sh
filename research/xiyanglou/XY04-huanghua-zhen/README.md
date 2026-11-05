@@ -176,6 +176,7 @@ What stands is the rebuilding: useful for size and plan, not a survival. Today's
 - **Q20. Name variants.** 九洲清晏 / 九州清晏 / 九州清宴; 蒨园 (S05) / 茜园 (S06); 麴院风荷 (S05) / 曲院风荷; 如园 (S05) / 茹园 (S06); 澹怀堂 / 淡怀堂; 黄花阵 / 万花阵 / 花园 / 黄花灯; 涵远斋 / 涵远楼; 含韵斋 / 含韵轩; 鱼跃鸢飞 / 鱼跃莺飞; 清夏斋 / 清夏堂; 湛清轩 / 湛清斋 / 湛静斋; 凌虚阁 (S06) / 凌虚亭 (S49, S01); 淳化轩 / 淳化閣. 澹泊宁静: S01's third character looks like 清.
 - **Q58. Plans and their dates, from Round 5.** S597 (Zhang 2004) says the Jin Xun plan of 1933 was first shown abroad in Malone 1934, p.231 and the plate at p.99: if so, a modern reconstruction drawing sits among Malone's plates; label it (Q4). The Lei map at the Palace Museum, 三园地盘河道全图, 275 × 215 cm, is dated Tongzhi b
 - **Q66. 黄花阵: does the rebuilt maze keep the old line? (Round 6)** Today's rebuilt outline measures 57 x 89 m, which fits S310's 58.56 x 88.64 m (27 丈 7 尺 by 18 丈 3 尺) and is the 89 x 59 of S06. The plan's hedge lines read 73 x 99 m, and sit 21-30 m NE of it. Boxes follow the rebuild. S109's 15000 m² fits neither; S310 r
+- **Q195. Where the traced ways stop short.** Six A or B ends meet nothing within 40 m (`research/paths/exceptions.csv`): roads that run on beyond what was traced (石路, 马道, the road south of the garden), the west dike of 福海, a neck at 上下天光. The maze 黄花阵: the boxes' maze walls stand for the plan, so the way through it is n
 
 ## Wishlist
 

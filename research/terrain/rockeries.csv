@@ -1,0 +1,90 @@
+reading,scene_id,where,what,sources,grade,state_date
+R10-035,YM01,directly behind (north of) the audience hall 正大光明殿,屋後峭石壁立玉筍嶙峋,S05,B,1744
+R10-037,YM02,"court of 保合太和, east of 勤政殿",秀石名葩庭軒明敞,S05,B,1744
+R10-038,YM03,"in front of 清暉閣 (west side of the 九洲清晏 island), facing the pavilion",閣前喬松已燬石壁獨存突兀横亘 / 閣對横陳石壁,S05,B,1765 (乾隆三十年 題清暉閣四景)
+R10-040,YM06,west of the main hall of 碧桐書院,其西巖石上為雲岑亭,S05,B,1780s
+R10-041,YM09,beside the main hall 杏花春館,館旁峰石上刋御製杏花春館詩,S05,B,1780s
+R10-043,YM12,in the court of 長春仙館,庭徑有梧有石堪供小憩,S05,B,1744
+R10-044,YM13,north face of the 卍 hall (room 高山流水),疏泉還叠石位置儼天然,S05,B,"1764 (萬方安和 eight-room verses, cf. TX-057)"
+R10-045,YM14,"north of the main court, reached from 萬方安和 over a bridge east then a little north",萬方安和後度橋折而東稍北石洞之南為武陵春色 / 武陵春色石洞内額曰壺中天,S05,B,1780s
+R10-052,YM48,"east side of 紫碧山房, in a rock cave",山房東巖洞中為石帆室,S05,B,1780s
+R10-053,YM18,"east side, beside the crescent-shaped study",東偏學月牙形搆小齋數椽旁列虚亭竒石負土爭出穴洞谽谺翠蔓䝉絡可攀捫而上,S05,B,1744
+R10-054,YM20,outside 多稼軒: a rockery with a bamboo pavilion on top,出多稼軒假山嶙峋嶻嶭尺寸千里盤石磴而上縳竹為亭名曰寸碧,S05,B,1759 (乾隆二十四年 多稼軒十景詩)
+R10-061,YM28,just inside the gate of 安瀾園 (四宜書屋),入園門樸室三間背倚峯屏右臨池鏡,S05,B,1764 (乾隆二十九年 安瀾園十詠)
+R10-062,YM28,"west, a little south of 烟月清真樓 (j82:8b)",房築假山上而逺納西山秀色,S05,B,1764
+R10-070,YM35,beside the bridge-pavilion over the water,畫欄倒影旁厓懸瀑水衝激石罅琤琮自鳴,S05,B,1744
+R10-072,YM37,"north of 採芝徑, a rock cave on the way west to 峭蒨居",又北徑巖洞而西為峭蒨居 / 竒石㟏岈迴互徑出其中,S05,B,"1780s; 1755 (八景, cf. TX-055)"
+R10-073,YM37,"west of 披雲徑, on a summit; 韻石淙 a little south-west",山巔笠亭孤標秀出左顧飛瀑右挹雲林 / 詭石蒼松,S05,B,1755
+R10-076,YM38,in a narrow ravine,仄澗中潨泉奔滙竒石峭列為坻為碕為嶼為奥,S05,B,1744
+R10-078,YM40,along the stream going east,縁溪而東徑曲折如蟻盤 ... 幽巖石厂别有天地,S05,B,1744
+R10-079,YM46,in front of (south of) the pavilion,閣前石為玲峯,S05,B,1780s (built 1774)
+R10-080,YM46,round the pavilion (after 文津閣 at Chengde),詭石堆竒岫,S05,B,1776 (乾隆四十一年 文源閣詩)
+R10-082,CC03,"inside the gate of 蒨園, west of 朗潤齋",朗潤齋西有石立於園門内為青蓮朶,S05,B,1780s
+R10-083,CC03,"south-east of the hall, between the hill and the pond",齋東南山池間為標勝亭 / 笠亭據假山亦足云標勝,S05,B,1780s; 1753 (乾隆十八年 蒨園八景)
+R10-084,CC04,"east of 思永齋, in a court about ten 笏 square",命匠氏叠石成峯 ... 激水作瀑 ... 石笋峭蒨,S05,B,after 1751 (御製小有天園記; the West Lake original was named on the 辛未 1751 tour; the 記 is undated in S05)
+R10-086,CC09;CC10,"below 翠交軒, east then south of 寶相寺 beyond the city gate",由寳相寺度城關而東迤南為翠交軒軒下石室為熙春洞北為愛山樓,S05,B,1780s
+R10-087,CC13,east of 叢芳榭: the whole rockery garden,獅林以石勝 ... 兹令吳下髙手堆塑小景曲折盡肖,S05,B,1772 (乾隆三十七年 獅子林八景詩)
+R10-088,CC13,in the 獅子林 rockery,循巖陟磴 ... 此雖叠石而成 ... 拾級試登磴道,S05,B,1772
+R10-090,CC13,facing the rockery across a winding pond,臨曲池面假山,S05,B,1772
+R10-091,CC14,in the court,湖石三四峯,S05,B,1755 (乾隆二十年 玉玲瓏館詩)
+R10-094,CC18,in the garden,石移西嶺近雲根,S05,B,1770 (乾隆三十五年 如園詩)
+R10-102,,"at the buildings, garden-wide","On y monte, non par des degrés de pierre façonnés avec art, mais par des rochers / not by regular Stone Steps, but by a rough Sort of Rock-work",S911,B,1743
+R10-104,,"along the walks from valley to valley, garden-wide","des zig-zags ... ornés de petits pavillons, de petites grottes",S911,B,1743
+R10-106,YM01,"behind the audience hall, among the mounds","some rustic-looking stone benches, or well arranged piles of rockery",S240,B,Oct 1860
+R10-108,YM01,"directly behind the grand hall, before the pond","Behind the grand hall was rockery, and in rear of that again a large pond",S241,B,7 Oct 1860
+R10-109,,"in the park behind the chief buildings, place not named","a sloping path would carry you into the heart of a mysterious cavern artificially formed of rockery, and leading out on to a grotto in the bosom of another lake",S241,B,Oct 1860
+R10-110,YM01,directly behind the Hall of Audience: a passage runs east-west between the hall's back wall and the rockery,"Behind this hall was a passage leading to the right and left, one side of it being formed by the wall of the Hall of Audience, the other by a large rockery",S242,B,Oct 1860
+R10-114,,unplaced,"Voici les grottes: elles sont profondes, contournées ... d'autres une cascade de cristal qui tombe d'un bassin supérieur",S246,B,Oct 1860 (written 1886)
+R10-116,CC14,in the compound,假山堆作玉玲珑，群玉中间有路通,S361,B,1766 (乾隆三十一年)
+R10-117,CC15,in front of the hall,面前罗假山，山上植真树,S361,B,1772 (乾隆三十七年)
+R10-118,CC18,just inside the west-facing gate of 如園,园门西向 ... 入门不数武，即翠微亭。周环假山，萦青繚翠,S361,B,1811 (嘉庆十六年 repair)
+R10-119,CC18,"north of the storeyed building 含碧樓, over a plank bridge",楼北度板桥，大石岩雄踞一园，卓立千仞。石磴盘纡，峰回路仄，登其巅，坐清瑶榭 ... 下有洞，可四达,S361,B,1811
+R10-125,QC07,in the court of the main hall (north part of the island); a raised tank outside the east wall,大殿前后有廊，中间为叠石喷泉，殿之东墙外有高台为池，蓄水以供,S361,B,Jiaqing (built early Jiaqing)
+R10-129,QC05,round the hall and its pond,高柳千丝苔坂挂，流泉几叠石矶鸣 / 环阶碧沼飞泉漱 ... 诡石奇峰苍藓积,S361,B,Jiaqing; second poem under the heading 道光朝 道光三年 (1823) in S361
+R10-131,,"綺春園 (one of the thirty scenes), from the window",层叠石峰开牗见，清泠泉磴隔林听,S361,B,1805 (嘉庆十年 三十景)
+R10-136,YM37,"廓然大公 (雙鶴齋), the rockery round the compound",叠石亦模盘山静寄山庄云林石室,S361,B,Qianlong rebuilding
+R10-137,YM37,廓然大公: a pavilion 四面雲山 ringed by rockery,御园亭额同，数尺叠石栈。四面皆假山,S361,B,1803 (嘉庆八年)
+R10-140,YM47,"藻園, south of 湛清華軒",湛清华轩之南，叠石丛中有一八方亭，名曰“响琴峡”,S361,B,Qianlong to Xianfeng
+R10-141,CC02,"含經堂: a court with a rockery, the building 待月樓 on its west",庭中耸假山，有楼筑其西 / 前虽列假山，凹处楼高倍,S361,B,1770 (乾隆三十五年); 1771
+R10-142,CC06,海嶽開襟 (the round island),假山数仞出林表，清波百顷回栏绕,S361,B,1809 (嘉庆十四年)
+R10-143,CC12,"叢芳榭 (獅子林 group), west side",西边土岗叠石中有六方亭一座，名曰“集虚”,S361,B,Qianlong to Xianfeng
+R10-156,,south-east corner of the west island of 凤麟洲 (绮春园),西岛东南隅叠石为原存旧物,S1007,B,surviving
+R10-179,YM13,west shore of 万方安和,下层由水面向上0.731米 ... 上层为0.731米到1.873米处，与道路相邻; 主体叠石部分南侧比北侧低0.563米; 踏步石与水面的高差约为0.224米,S944,B,as repaired after 2003; Qing record 乾隆三十一年 (1766) 拆堆万方安和西边响水石山
+R10-216,YM01,"directly north of 正大光明殿, the full width of the hall and beyond to the east","tallest rock peak 115 px (top y530, foot ~y645 hidden) / hall ridge 73 px; about ten upright blue-grey rock peaks 峰石",S08,C,1744
+R10-221,YM02,"north shore, just north-west of the rear (north) court: a rock pile at the water with a red-railed wooden stair or terrace climbing it","rock and stair ~45 px (top y540, foot y585) / hall ridge 52 px",S08,C,1744
+R10-233,YM04,in the court in front of (south of) the glazed front hall and along the court wall: single upright rocks among the peony beds,"several upright blue-grey rocks 峰石, the tallest about half the hall's eave height",S08,A,1744
+R10-238,YM05,"the pond south of the halls: single upright rocks at the foot of the two-storey hall's stair (west), on the pond's north and west shores, and one on the south shore",upright rocks 峰石 about 15-25 px high / hall ridge 86 px,S08,C,1744
+R10-246,YM06,"east of the courts, on the east flank of the north-east hill","a cluster of tall upright blue rock peaks, about 60-90 px high",S08,A,1744
+R10-251,YM07,"the island's north shore, west of the clock tower: a single tall rock peak",upright rock about 50 px high beside the three-storey clock tower,S08,A,1744
+R10-263,YM09,near the summit north-east of the village: tall upright rock peaks beside the pines and the summit gate,three or four tall blue-grey rock peaks,S08,A,1744
+R10-271,YM10,"south-east of the front hall, on the front shore: two groups of upright rock peaks",rocks ~25 px high / hall ridge 63 px,S08,C,1744
+R10-276,YM11,"the far (north) shore, north-east: a single tall upright rock peak; and the front shore by the red bridge (south-east): upright blue rocks","single peaks, 30-45 px high",S08,A,1744
+R10-282,YM12,"the front court, south-west: a single tall upright rock; and a low rock pile on the far shore by the arched bridge with a pavilion (north-east)",upright rock ~35 px; rock pile ~15 px,S08,A,1744
+R10-290,YM13,"single upright rock peaks along the shores: north shore behind the hall, the north-east shore at the foot of the peak, the west and south-west shores among the willows",upright rocks ~25-45 px / hall ridge 42 px,S08,C,1744
+R10-296,YM14,"along the stream at the east bend, and tall upright rocks at the lower left (south-west) foreground",rock groups 20-40 px high,S08,A,1744
+R10-319,YM18,"the east hill's north-west face, over the pond","exposed rock cliffs in brown and green, layered",S08,A,1744
+R10-326,YM19,between the gate court and the east road: a mound of piled blue-grey rock,"rock mound ~40 px wide, ~25 px high",S08,A,1744
+R10-340,YM21,"beside the main hall group, at its front centre-right",rockwork with upright grey-blue stones against the hall front,S08,C,1744
+R10-341,YM21,"in the middle ground behind the main hall, by the small hall at the far left of the far group",a single tall upright peak stone 峰石,S08,C,1744
+R10-347,YM22,by the small pavilion at picture-left and along the bridge at front left,several tall upright blue-grey stones and a low rock pile by the bridge,S08,C,1744
+R10-356,YM23,"west shore of the lake, opposite the island's west side",rock piles with several upright peak stones at the water,S08,C,1744
+R10-357,YM23,"far right (north-east) shore, by the small pavilion",a cluster of tall upright rocks,S08,C,1744
+R10-363,YM24,"the pond's north shore, west of the small pavilion",a tall upright stone and a low rock group,S08,C,1744
+R10-364,YM24,"by the small hall at picture-left (west), at the stream crossing",upright stones by the bridge,S08,C,1744
+R10-370,YM25,"east of the pavilion, at the head of the bridge over the stream",a small group of upright rocks,S08,C,1744
+R10-376,YM26,none seen,no rockery or peak stone visible,S08,C,1744
+R10-380,YM27,"north-west of the halls, at the foot of the back hill across the stream","a tall rock mountain of blue-grey upright peaks with a waterfall pouring into a pool, the leaf's centrepiece",S08,C,1744
+R10-390,YM28,"north of the main hall, among the pines",a few tall upright blue rocks among the pine grove,S08,C,1744
+R10-398,YM29,on the east face of the hill west of the terraces,several tall upright blue rocks among pines,S08,C,1744
+R10-404,YM30,on the shore below the stone-based pavilion,a pavilion on a high terrace of polygonal rubble stone (虎皮石 pattern) with a stone stair,S08,C,1744
+R10-405,YM30,"two points on the shore: below the shore hill, and at the far halls",low groups of upright rocks at the waterline,S08,C,1744
+R10-413,YM31,east of the arched bridge,"a pavilion on a high stone terrace with a stair, and low rocks at the shore",S08,C,1744
+R10-418,YM32,the east end of the eastern islet,tall upright blue-grey peak stones,S08,C,1744
+R10-419,YM32,"along the main island's south shore, both sides of the landing stair",low rock piles,S08,C,1744
+R10-425,YM33,by the small bridge at the south end,a few upright rocks at the bridge end,S08,C,1744
+R10-446,YM36,none clear,no rockery or peak stone seen,S08,C,1744
+R10-453,YM37,"on the top of the north hill, round the pavilion","tall upright peak stones beside the pavilion, rocks on the east slope",S08,C,1744
+R10-459,YM38,beside the two-tier pavilion at the foot of the humps (north-west of the halls),"a tall upright rock beside the pavilion, rocks on the humps",S08,C,1744
+R10-467,YM39,at the west end of the nine-arch bridge and by the front hall's stair,small groups of rocks,S08,C,1744
+R10-472,YM40,none seen,no rockery or peak stone seen,S08,C,1744
+R10-473,YM35,"the west face of the temple hill, above the water east of the bridge pavilion","a steep cliff 厓 with a pale vertical band down its face, probably the hanging waterfall 懸瀑 the preface names",S08,C,1744

@@ -240,6 +240,7 @@ Not written yet.
 - **Q175. YM29.** YM29: Malone (S02 p.93) says "twelve buildings roofed with golden glazed tile", but this reads the poem's 十二金堂 (E1842); P0029 shows yellow, blue, green and purple-brown roofs. Take roof colours from the leaf, not Malone. Also 鹿夀靈臺 (S05 j82:12b) against 麐舞灵台 in the 1740 plaque list on S310 rec. 8298: whi
 - **Q176. YM29.** YM29: no text on disk names 方壶胜境 in the burning of October 1860; Malone p.218 has its masonry ruins pulled down under 王怀庆. A source on its state after 1860 (Tongzhi survey, early photographs) is still needed before the page says which parts burned. (verify_b worker, Round 7)
 - **Q181. YM17 and YM29.** YM17 and YM29: E1561 gives the 华表 as about 20 ft (6.1 m), S980 about 8 m overall; and the S943 page says the qilin went from the garden to Peking University in 1925 in one place and via 载涛 and 朗润园 in another. (verify_b worker, Round 7)
+- **Q191. The water layer lacks some ponds and inlets the plan and the leaves show.** The inlet before 方壶胜境 (the leaf P0029 and S01 draw its terraces standing in water) is land in `water_1860`, so the boat legs YMF-043 and YMF-044 cross dry land and the 福海 tour skips the inlet (R9-001); 17 landings stand more than 1 m fr
 
 ### Wishlist rows that name it
 
@@ -247,6 +248,7 @@ Not written yet.
 |---|---|---|---|
 | 圆明园则例 (Yuan Ming Yuan Tse Li) vol. ii p.33, the record of 佛城 and 方壶胜境 being built in 1740, and any 则例 entries giving 丈尺 for 舍卫城's wall and gate | the 1740 date seen only through Malone p.94 n.45; no wall height or gate size from a Qing text | 国家图书馆 or 故宫博物院 (圆明园内工则例) | to-request; check whether a published 则例 volume (清代匠作则例) covers it |
 | 样042-2 方壶胜境北路 (道光后期) and the 铜龙、凤立样 sheet | box sizes from S01 and typology (C) with Qing 丈尺 (A) | NLC; 初编 pp.419-433 | library visit or purchase of 初编/续编; mhymy full records need payment or the WeChat mini-program (not allowed for workers) |
+| Round 9: a tracing pass on the waters the layer lacks or closes (方壶胜境's inlet, 同乐园's north water, the YM82 dock basin, the necks of Q192) | Boat routes over land, 17 landings off the shore, three causeways in water (Q191, Q192) | S01, our crop tool | a reader with `docs/rounds/common/palace_r9_tools/crop.py`, then `scripts/build_r1.py` |
 
 <!-- generated:end -->
 

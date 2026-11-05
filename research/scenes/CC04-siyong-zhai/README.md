@@ -172,6 +172,7 @@ Not written yet.
 
 - **Q26. Forms.** 安佑宫 pillars: two (S05 j81:20a), four (S02 p.85, S01), a pair at each of two pailou (S06). 山高水长 九楹 (S05) / two-storey 五楹 (S06). 慈云普护楼 三楹 / 三层. 思永斋 七楹 / 工字殿十七楹. 长桥 13 / 10 spans. 谐奇趣 3 / 2 storeys. 出入贤良门 bridges three (S05) / one (S02). 得全阁 separate (S05) / middle floor (S48). 深柳读书堂 two places or one (S05
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
+- **Q187. Changchun Yuan's west part reads 12-23 m too far east.** Five check points on the channels west of 思永斋 and 海岳开襟 (K-CC-01, 03, 04, 05, 06) all come out east (and some north) of today's, under both fits; the 谐奇趣 ruins stand about 15 m west of where the plan's wall line put them (Q64). Changchun's smoothing (λ 10,
 
 ### Wishlist rows that name it
 

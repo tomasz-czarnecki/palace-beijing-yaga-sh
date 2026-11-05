@@ -130,6 +130,7 @@ Not written yet.
 - **Q25. Other dates.** 方壶胜境 1740 (S02) / 1738 (S06). 慎德堂 1830 (S54, S50) / 1831 (S41, S43). 安佑宫 stele 庚午, likely misprint for 庚申 (S05 j81:23b). 清晖阁 demolished early Daoguang (S55) / listed (S42). 长春园宫门 reopened 2009 (S136) / 2016 (S142). 绮春园宫门 survived 1860 (S06, S49) / rebuilt after (S02 p.97).
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
 - **Q150. QC01.** QC01: S220 (E0680) has Qichun Yuan burned on 18 October 1860 except 正觉寺, 惠济祠 and 河神庙; S356 (E0497) and E0451 (after 刘敦桢) list a 大宫门 in 万春园 among the survivors, and Malone (E0492) shows a gate rebuilt after 1860. Was the gate burned in 1860 and rebuilt by 1873, or did it survive? Decides whether QC01 sto
+- **Q196. The width of a paved way 甬道 is not known anywhere.** No text and no published dig gives one; the drawn roads are 4-5 m (S01 at 大宫门 and 绮春园宫门); every other width is typology (`WIDTH` in `scripts/paths1860.py`). The digs of 含经堂 (S143, S990), 长春园宫门 (S316) and 大宫门 (S993) would.
 
 ### Wishlist rows that name it
 

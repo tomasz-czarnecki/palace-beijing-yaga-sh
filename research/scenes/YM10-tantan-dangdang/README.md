@@ -217,7 +217,9 @@ The 2003 excavation report (pool size, depth, footing plan) not reached; the bri
 
 ### Open questions that name it
 
+- **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q45. Halls in the texts with no row.** 如园 CC18: 芝兰室, 云萝山馆, 听泉榭, 含碧楼, 挹霞亭, 观丰榭, 引胜轩 (S140). S360 names 无倦斋 (YM02), 万象涵春, 长春书屋, 池上居, 画禅室, 养正书屋 (YM03), 碧澜亭 (YM10), 得树亭 (YM09), 养素书屋 (YM04), 鸣玉溪, 春好轩 (YM12), 湛清华轩, 溜琴亭, 履吉斋, 晴望楼 (YM47), 纳翠轩, 翼翠亭 (YM48), 湛然室, 悦霁亭 (YM45), 水晶域 (YM20), 夏隐亭, 镜远洲 (YM31), 得趣书屋 (YM28), 活画舫 (YM34),
+- **Q189. The western plain stays unanchored.** No reader found a feature on the plain of 山高水长, in the NW fields, on the west wall or at the SW corner that keeps its form: today's pond there has straight modern banks and another width, the wall line lies under the road. The check points there are two (4.6 m at 坦坦荡荡, 39.1
 
 ### Wishlist rows that name it
 

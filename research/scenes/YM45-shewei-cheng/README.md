@@ -206,6 +206,7 @@ No drawing of 舍卫城 found on the mhymy list or by search. Only typology and 
 
 ### Open questions that name it
 
+- **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q45. Halls in the texts with no row.** 如园 CC18: 芝兰室, 云萝山馆, 听泉榭, 含碧楼, 挹霞亭, 观丰榭, 引胜轩 (S140). S360 names 无倦斋 (YM02), 万象涵春, 长春书屋, 池上居, 画禅室, 养正书屋 (YM03), 碧澜亭 (YM10), 得树亭 (YM09), 养素书屋 (YM04), 鸣玉溪, 春好轩 (YM12), 湛清华轩, 溜琴亭, 履吉斋, 晴望楼 (YM47), 纳翠轩, 翼翠亭 (YM48), 湛然室, 悦霁亭 (YM45), 水晶域 (YM20), 夏隐亭, 镜远洲 (YM31), 得趣书屋 (YM28), 活画舫 (YM34),
 - **Q52. Smaller conflicts.** 正觉寺: 乾隆三十八年 is 1773, S221 prints 1774. 文源阁: S133 east/north-east vs north-west, black glazed (dig) vs black with green edge (S105). 藻园: 190 × 125 m the garden (S340), 105 × 95 m the buildings by the dock (S156). 福海: "half a mile a side" (S02), "near five miles round" (S157), 一百頃 (poem of 176
 - **Q56. Reconstructions against the period evidence.** None of these changes a row; all are for the detailed models. 上下天光 YM08: the album reads as asymmetrical, while the dig found two identical symmetrical foundations and a 乾隆 archive says two hexagonal pavilions (S505, S152): for 1860 the album may be out of date. Xiy

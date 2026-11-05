@@ -61,6 +61,8 @@ LAYOUT_COMPOUNDS = {"YM64", "YM65", "YM66", "CC24", "QC60"}  # scene polygon, no
 LAYOUT_SPACING_M = 8  # between the main hall and its side halls. Guess, C
 WALL_CLIP_M = 0.6  # a wall stops this short of a hall standing in its line
 RESAMPLE_M = 15
+WALL_STEP_M = 0.5  # a wall course is split while the ground under it varies by more than this (Round 10)
+WALL_MIN_M = 2.5
 BRIDGE_WIDTH_M = 3.0  # params.json other.bridge: guess, C
 BRIDGE_HUMP_M = 0.8  # deck above the bank at mid span. Guess, C (params.json: 1 m above water)
 
@@ -68,7 +70,15 @@ P = params()
 CLASSES = P["classes"]
 BY_NAME = P["by_name"]
 WALL = P["other"]["garden_wall"]  # height 2.8 m (S116, B), thickness 0.8 m (guess, C)
-GRID = Grid()
+GRID = None  # the ground, loaded on first use (ground1860.py imports layout() before any ground exists)
+OVER_WATER_DECK_M = 0.8  # a box wholly over water stands on a base this above the water: guess, C (the album: pavilions over the water on stone bases)
+
+
+def grid():
+    global GRID
+    if GRID is None:
+        GRID = Grid()
+    return GRID
 BY_NAME_ALIAS = {"文源阁阁": "文源阁", "大宫门门殿": "大宫门", "雷峰夕照": "雷峰夕照殿"}  # the hall's row in buildings.csv and its key in by_name
 GLAZE = {"yellow": ("黄", "金黄"), "blue": ("蓝",), "green": ("孔雀", "绿"), "mixed": ("五色", "二色", "红色", "waves"), "slate": ("石板",), "glazed": ("琉璃", "glazed"), "grey": ("灰",)}
 
@@ -446,8 +456,18 @@ def feature(b):
     r = ROW.get(b.bid)
     f, d = b.size()
     corners = list(b.poly().exterior.coords)[:4]
-    grounds = [GRID.at(x, z) for x, z in corners]
-    g = GRID.at(b.cx, b.cz)
+    G = grid()
+    samples = corners + [((a[0] + c[0]) / 2, (a[1] + c[1]) / 2) for a, c in zip(corners, corners[1:] + corners[:1])] + [(b.cx, b.cz)]
+    grounds = [G.at(x, z) for x, z in samples]  # the land, or the bed under water: the foot reaches the lowest
+    land = [G.land_at(x, z) for x, z in samples]
+    land = [v for v, (x, z) in zip(land, samples) if v is not None and not G.is_water(x, z)]
+    if not G.is_water(b.cx, b.cz):
+        g = G.at(b.cx, b.cz)
+    elif land:
+        g = max(land)
+    else:
+        lev = G.level_at(b.cx, b.cz)
+        g = (lev if lev is not None else 0.0) + OVER_WATER_DECK_M
     e = b.extra
     if "eave" in e:
         platform, eave, ridge, mid, rolls, tiers = e["platform"], e["eave"], e["ridge"], None, 1, None
@@ -456,7 +476,11 @@ def feature(b):
         platform, eave, ridge, mid, rolls, tiers = heights(b, r, f, d)
         form, rolled, double, tiles = roof_of(b, r)
     over = b.over_water or e.get("over_water", False)
-    foot = (0.0 - SINK_M) if over else min(grounds + [g]) - SINK_M
+    # On ground that is not flat under it (a pad's edge, a shore cell of the mesh) the platform stands on its highest land: nothing is buried past the platform.
+    top_part = eave if e.get("shape") in ("terrace", "wall", "pool", "basin") else platform
+    if land and not e.get("stand") and e.get("shape") != "court":
+        g = max(g, max(land) - top_part)
+    foot = min(grounds + [g]) - SINK_M
     lon, lat = to_lonlat(np.array([c[0] for c in corners]), np.array([c[1] for c in corners]))
     ring = [[round(float(a), 7), round(float(q), 7)] for a, q in zip(lon, lat)]
     ring.append(ring[0])
@@ -489,11 +513,33 @@ def feature(b):
 
 
 def wall_segments(wall_lines, boxes, gaps):
-    """Wall lines minus what stands in them, resampled so the top follows the ground."""
+    """Wall lines minus what stands in them, in stepped courses: a piece is split until the ground under it varies by at most WALL_STEP_M, and stands from below its lowest ground (the bed where it crosses water) to the wall's height over its highest land."""
+    G = grid()
     cut = unary_union([b.poly().buffer(WALL_CLIP_M) for b in boxes if b.extra.get("shape") not in ("wall",)] + [g.buffer(GATE_GAP_M / 2) for g in gaps])
     segs = []
     kept = 0.0
     cut_len = 0.0
+
+    def course(ax, az, bx, bz, depth=0):
+        L = math.hypot(bx - ax, bz - az)
+        n = max(2, int(math.ceil(L / 1.25)) + 1)
+        ts = np.linspace(0, 1, n)
+        px, pz = ax + (bx - ax) * ts, az + (bz - az) * ts
+        y = [G.at(x, z) for x, z in zip(px, pz)]
+        landy = [G.land_at(x, z) for x, z in zip(px, pz)]
+        landy = [v for v in landy if v is not None]
+        if (max(y) - min(y) > WALL_STEP_M) and L > 2 * WALL_MIN_M and depth < 6:
+            mx, mz = (ax + bx) / 2, (az + bz) / 2
+            course(ax, az, mx, mz, depth + 1)
+            course(mx, mz, bx, bz, depth + 1)
+            return
+        if landy:
+            top = max(landy) + WALL["height_m"]
+        else:
+            lev = G.level_at((ax + bx) / 2, (az + bz) / 2)
+            top = (lev if lev is not None else 0.0) + WALL["height_m"]
+        segs.append([round(ax, 2), round(az, 2), round(bx, 2), round(bz, 2), round(min(y) - 0.2, 2), round(top, 2)])
+
     for line in wall_lines:
         rest = line.difference(cut)
         cut_len += line.length - rest.length
@@ -502,8 +548,6 @@ def wall_segments(wall_lines, boxes, gaps):
             if piece.is_empty:
                 continue
             kept += piece.length
-            n = max(1, int(piece.length / RESAMPLE_M))
-            pts = [piece.interpolate(i / n, normalized=True) for i in range(n + 1)]
             # Keep the corners: resample each straight run.
             coords = list(piece.coords)
             pts = []
@@ -512,25 +556,30 @@ def wall_segments(wall_lines, boxes, gaps):
                 pts += [(ax + (bx - ax) * i / m, az + (bz - az) * i / m) for i in range(m)]
             pts.append(coords[-1])
             for (ax, az), (bx, bz) in zip(pts, pts[1:]):
-                ga, gb = GRID.at(ax, az), GRID.at(bx, bz)
-                segs.append([round(ax, 2), round(az, 2), round(bx, 2), round(bz, 2), round(min(ga, gb) - 0.2 if GRID.at((ax + bx) / 2, (az + bz) / 2) > 0.5 else -0.2, 2), round(max(ga, gb) + WALL["height_m"], 2)])
+                course(ax, az, bx, bz)
     return segs, kept, cut_len
 
 
 def bridges_3d():
-    out = []
-    for f in layer("bridges_1860"):
-        p = f["properties"]
-        line = shapely.transform(shape(f["geometry"]), lambda c: np.column_stack(to_xz(c[:, 0], c[:, 1])))
-        n = max(2, min(8, int(line.length / 6)))
-        pts = []
-        for i in range(n + 1):
-            q = line.interpolate(i / n, normalized=True)
-            hump = BRIDGE_HUMP_M * math.sin(math.pi * i / n)
-            pts.append([round(q.x, 2), round(GRID.at(q.x, q.y) + hump + 0.1, 2), round(q.y, 2)])
-        bid = p.get("building_id") or ""
-        out.append({"id": p["id"], "building_id": bid, "name": p.get("name_zh", ""), "width_m": BRIDGE_WIDTH_M, "pts": pts})
-    return out
+    """The decks ground1860.py laid from land end to land end (generated/ground.json)."""
+    return [dict(b, width_m=BRIDGE_WIDTH_M) for b in grid().bridges]
+
+
+def layout():
+    """The boxes, placed and fitted: what main() writes, before any height. Positions do not depend on the ground."""
+    rows_all = rows()
+    water = unary_union([shapely.transform(shape(f["geometry"]), lambda c: np.column_stack(to_xz(c[:, 0], c[:, 1]))).buffer(0) for f in layer("water_1860")]).buffer(0)
+    wall_lines = [shapely.transform(shape(f["geometry"]), lambda c: np.column_stack(to_xz(c[:, 0], c[:, 1]))) for f in layer("walls_1860") if f["geometry"]["type"] == "LineString"]
+    walls_union = unary_union(wall_lines)
+    boxes = footprint_boxes() + xiyang_lou()
+    defaults, attached = default_boxes(boxes, rows_all)
+    boxes += defaults
+    layouts, skipped = layout_boxes(water)
+    boxes += layouts
+    gates, gaps, gates_on_wall = gate_boxes(boxes, walls_union)
+    boxes += gates
+    boxes, log = fit_boxes(boxes, water)
+    return boxes
 
 
 def main():

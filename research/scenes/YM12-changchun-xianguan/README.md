@@ -244,6 +244,7 @@ No dig found (search for a 长春仙馆 excavation gave nothing). Which hall bor
 - **Q45. Halls in the texts with no row.** 如园 CC18: 芝兰室, 云萝山馆, 听泉榭, 含碧楼, 挹霞亭, 观丰榭, 引胜轩 (S140). S360 names 无倦斋 (YM02), 万象涵春, 长春书屋, 池上居, 画禅室, 养正书屋 (YM03), 碧澜亭 (YM10), 得树亭 (YM09), 养素书屋 (YM04), 鸣玉溪, 春好轩 (YM12), 湛清华轩, 溜琴亭, 履吉斋, 晴望楼 (YM47), 纳翠轩, 翼翠亭 (YM48), 湛然室, 悦霁亭 (YM45), 水晶域 (YM20), 夏隐亭, 镜远洲 (YM31), 得趣书屋 (YM28), 活画舫 (YM34),
 - **Q129. The brief says the album views are roughly from the south.** The brief says the album views are roughly from the south. Most are, but several leaves look from the south-west (YM30 P0030, YM33 P0033, YM36 P0036, YM16 P0016) or south-east (YM12 P0012, YM37 P0037); YM15 P0015 shows the 楼 end-on from its south gabl
 - **Q134. YM12.** YM12: S05 j81:5a puts 长春仙馆 on a five-bay main hall; S01 writes 藤影花丛 on that five-bay hall (YM12-02) and 长春仙馆 on a seven-bay row (YM12-N01). Either the plaque moved after 1796 or the reading of the plan is off. Check the plan crop and S360's Jiaqing notes. (w2 worker, Round 7)
+- **Q193. Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks.** 日下旧闻考 j80:9a says 驾石桥三; the leaf P0001 (checked at full size) and S01 draw one, BR006, and gaps in the stream wall either side. Candidates not on `bridges_1860`: a strip on the west of 长春仙馆 (2135-2160 x 5145-5165 px), a neck at its sou
 
 ### Wishlist rows that name it
 

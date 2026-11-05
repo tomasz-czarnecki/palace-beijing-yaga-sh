@@ -1,0 +1,70 @@
+{
+ "what": "the plain as a plane through the DEM's low envelope (20th percentile in 7 x 7 cells), open ground inside the walls and 200 m round, more than 12 m from today's water; EGM2008. Today's surface: trees lifted, modern fill kept (research/terrain/README.md)",
+ "sources": "S04;S159;S03",
+ "y_m": "a + bx * x_km + bz * z_km (scene frame: x east, z south, km from the origin of scene1860.py)",
+ "a": 45.176,
+ "bx": -0.7107,
+ "bz": 1.0511,
+ "fall_m_per_km": 1.269,
+ "falls_towards_deg": 34.1,
+ "fit_cells": 7395,
+ "rms_m": 0.93,
+ "at_origin_m": 45.18,
+ "lakes_today": [
+  {
+   "id": "W0002",
+   "name_zh": "",
+   "cells": 74,
+   "median_m": 41.62,
+   "p10_m": 40.97,
+   "p90_m": 42.91,
+   "x": 1138,
+   "z": -431
+  },
+  {
+   "id": "W0005",
+   "name_zh": "",
+   "cells": 64,
+   "median_m": 41.33,
+   "p10_m": 40.79,
+   "p90_m": 42.21,
+   "x": 868,
+   "z": -613
+  },
+  {
+   "id": "W0006",
+   "name_zh": "后湖",
+   "cells": 50,
+   "median_m": 42.38,
+   "p10_m": 41.62,
+   "p90_m": 43.29,
+   "x": -594,
+   "z": -10
+  },
+  {
+   "id": "W0008",
+   "name_zh": "",
+   "cells": 10,
+   "median_m": 42.25,
+   "p10_m": 41.01,
+   "p90_m": 42.97,
+   "x": -716,
+   "z": -269
+  },
+  {
+   "id": "W0009",
+   "name_zh": "",
+   "cells": 28,
+   "median_m": 41.68,
+   "p10_m": 41.06,
+   "p90_m": 43.37,
+   "x": 764,
+   "z": -174
+  }
+ ],
+ "lakes_fall_today": {
+  "per_km": 0.8,
+  "towards_deg": 26,
+  "n": 5
+ }
+}

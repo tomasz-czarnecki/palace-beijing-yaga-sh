@@ -151,6 +151,9 @@ Not written yet.
 - **Q118. YM33 接秀山房.** YM33 接秀山房: S945 (section 1) places 接秀山房 and its 观澜堂 'in 绮春园', but our YM33 stands in Yuanming Yuan on the east shore of 福海 (S01, S05). Likely the authors' slip; keep YM33 where it is and check S05 j81 for the Jiaqing 观澜堂. (digs worker, Round 7)
 - **Q137. YM36.** YM36: the album leaf P0036 writes 結宇福海之東 (east), the Kanripo/WYG 日下旧闻考 copy of the same preface writes 福海之西 (S05 j82:21b-22a), and S05's note says the plaque was moved from 澄虚榭 in the west to 雷峰夕照 in the east. The brief's 'moved shore' holds only before 1744: the leaf and S361's date 1738 (E2018) put th
 - **Q141. Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG).** Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG): YM36 P0036 福海之東 vs S05 福海之西; YM16 P0016 紅墻 vs S05 紅橋. Before quoting S05 prefaces on public pages, check each against its leaf. (w2 worker, Ro
+- **Q188. 福海's traced shore sits about 10 m south of today's.** The best shift laying the traced shore on today's is 10.1 m (east -3.6, north -9.5), and 56% of today's shore lies within 10 m of the traced (`georef/shores_r8.json`). Round 1's 21 points on its corners and islands hold the fit; the shore between them does n
+- **Q191. The water layer lacks some ponds and inlets the plan and the leaves show.** The inlet before 方壶胜境 (the leaf P0029 and S01 draw its terraces standing in water) is land in `water_1860`, so the boat legs YMF-043 and YMF-044 cross dry land and the 福海 tour skips the inlet (R9-001); 17 landings stand more than 1 m fr
+- **Q195. Where the traced ways stop short.** Six A or B ends meet nothing within 40 m (`research/paths/exceptions.csv`): roads that run on beyond what was traced (石路, 马道, the road south of the garden), the west dike of 福海, a neck at 上下天光. The maze 黄花阵: the boxes' maze walls stand for the plan, so the way through it is n
 
 ### Wishlist rows that name it
 

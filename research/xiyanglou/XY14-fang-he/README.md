@@ -111,6 +111,7 @@ Water on the old site, its north bank about 7 m inside the plan's. The south ban
 
 ## Open questions
 
+- **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q32. OSM errors.** 线法画 (west of 方河), 养雀笼, possibly 映水兰香; 蓄水楼 point at 116.3055 is 海晏堂's reservoir, not XY02; 谐奇趣's point is 23 m from the ruin. Used only as a hint. Positions come from S01 for all but rows noted `S03`.
 
 ## Wishlist

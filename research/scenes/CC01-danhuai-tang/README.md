@@ -141,6 +141,7 @@ Not written yet.
 
 ### Open questions that name it
 
+- **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q9. Bay counts, plan against text.** They agree at 廓然大公, 蓬岛瑶台, 别有洞天, 观澜堂, 宫门, 远瀛观, 方外观. They differ: 澹怀堂 5 (plan, excavation via S112) vs 9 (S06); 含经堂 about 9 vs 7 (S05) vs 5 (S06); 正谊明道 about 8 vs 5 (S05) vs 7 (S48); 长春仙馆 7 vs 5; 茹古涵今 6 vs 5; 九洲清晏殿 5 vs 7; 勤政殿 4 vs 5; 上下天光 9 cells vs 3; 保合太和 9×3 vs 3; 鱼跃鸢飞 6×5 vs 5;
 - **Q14. A label names which hall?** The readers found a working rule: a label in a court names the hall north of it (同顺堂, 含经堂, 澹怀堂 ...). Where halls stand on both sides it is an assumption. Applies to many `likely` rows.
 - **Q20. Name variants.** 九洲清晏 / 九州清晏 / 九州清宴; 蒨园 (S05) / 茜园 (S06); 麴院风荷 (S05) / 曲院风荷; 如园 (S05) / 茹园 (S06); 澹怀堂 / 淡怀堂; 黄花阵 / 万花阵 / 花园 / 黄花灯; 涵远斋 / 涵远楼; 含韵斋 / 含韵轩; 鱼跃鸢飞 / 鱼跃莺飞; 清夏斋 / 清夏堂; 湛清轩 / 湛清斋 / 湛静斋; 凌虚阁 (S06) / 凌虚亭 (S49, S01); 淳化轩 / 淳化閣. 澹泊宁静: S01's third character looks like 清.

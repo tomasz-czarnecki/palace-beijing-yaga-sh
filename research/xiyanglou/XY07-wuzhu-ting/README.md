@@ -120,6 +120,7 @@ No trace located today, and we found no photograph of the pavilions: plate 9 is 
 - **Q15. 五竹亭 (XY07) is not drawn.** Round 6: plate 9 reads as a U of five open to the north, so the row of Round 2 is gone; its depth is a guess. S01 has only its beds and pool as in plate 9, at (9360–9424,1173–1201). XY07 is placed there, C. Gone before the drawing, or skipped? No date for its loss; don't read it as gon
 - **Q35. Xiyang Lou massing (Round 2; replaced in Round 6 by `research/xiyanglou/boxes.csv`, each box with its source; still straight runs for curved galleries, and the maze's plan not traced).** Sizes from `params.json`, placed by hand. Guesses inside the guess: 谐奇趣's curved corridors as straight runs; 五竹亭 in a row (Q15
 - **Q48. Xiyang Lou.** Round 6 closes three points: on the Rylands set the sheet printed 二 is marked Planche I and the one printed 一 Planche II, in a French hand, so the swap is on the sheets; plate 15's centre is a stag and hounds, as S258 says; plate 9 shows five pavilions on walks in a concave line. Delatour's plates 
+- **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 
 ## Wishlist
 

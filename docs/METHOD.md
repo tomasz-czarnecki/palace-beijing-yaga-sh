@@ -160,6 +160,19 @@ Boxes on a plain are not yet a place you can walk. Round 9 drew the circulation 
 7. **Today's paths are a hint, never evidence:** judge them by script against the old water and halls (on fill, modern; on a shore, a dike or a traced way, plausible) and keep them out of the layer.
 8. **Fix the layers you lean on when they are wrong,** in their inputs: two bridges had been read along their decks, not across the water; ids stay.
 
+### 15. The ground: hills, water levels, banks, and everything draped on it
+
+Boxes on a flat plane next to water read wrong at once. Round 10 shaped the ground (`research/terrain/README.md`):
+1. **Find out first what the base plan draws.** S01 draws halls, shores and rockeries 假山 as black hatched clumps, but no earth hills: a hill reading of the plan could never be enough. Look at three crops before planning a reading pass.
+2. **Ask each kind of source for heights, and expect few.** Five workers, in the foreground, about 25 minutes: surveys and data, the Qing texts, the water, and the album in two halves. One published hill height came back (the park's 8 m for 线法山). The texts give positions ("殿後為山") and no figure. The album gives where the hills stand and what each shore is, but paints hills three to five times too tall against its own halls. Use a painting for ranking and sides, and scale it to an eyewitness range (Attiret's 6.5-19.5 m) by a run, not by eye.
+3. **A ladder per object:** surveyed, today's DEM, painting, text, typology, the first that gives a figure. Each hill keeps its method, its error and the readings it used (`research/terrain/hills_heights.csv`). A 30 m surface model is not a hill survey: only a rise over 4 m on two cells counts, minus 2 m for trees, and the result is C.
+4. **Generate what the sources say exists but nobody drew,** marked `assumed`, on the land nothing else needs (free land: away from halls, ways, bridges, walls, landings, fields and shores). Make it switchable (`assumed=0` flattens it and gives it level ground's colour). Here that was 111 ha against 5 ha drawn: say so plainly.
+5. **Water at one level per body,** a body being the polygons that touch. The level comes from the plain along its own shore. The land is pulled to a freeboard near the water and left on the plain far from it. A text that disagrees with the DEM on the fall (S05: high north-west; the DEM: falls north-east) goes to the questions.
+6. **Banks by kind:** an earth slope by default, stone where a hall or a landing meets the water, and a leaf or text for a scene and side. An earth bank's bed starts just under the water, with no skirt. Stone and rock get a face down to the bed.
+7. **Pads, not tilted boxes:** the boxes of one compound share one level, blended out. A box on ground that is still not flat stands on its highest land.
+8. **The surface that is walked and draped is the drawn mesh itself,** rasterised. Every check measures against what the view shows: boxes (floating, buried past the platform), ways (strip points, ends against decks and platforms), bridges (deck ends), walls (stepped courses), landings. Measure the old state with the same script (`--before`).
+9. **Size:** a quadtree mesh (20, 10 and 5 m cells, 2:1 balanced, cut cells never coarser than their neighbours) with int16 positions and uint16 indices in chunks took 24 MB down to 5.4 MB. The walk raster covers only where anything stands.
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:
@@ -308,6 +321,13 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Workers in one scripts folder.** Two overwrote each other's contact-sheet script. Fix: a prefix per worker.
 - **Workers' "can't".** The brief said skip without `pdfimages`, so ten free rows came back with no image. A small library in scratch fixed it in minutes. Check what a worker skipped before accepting it.
 - **Valuable tools left in scratch.** Round 3's merge scripts sat outside the repo. Catalogues are the truth, so a rebuild doesn't need them, but they can't be rerun from a clone. Copy what's reusable into `tools/`, as was done with the font subsetter (`tools/font_subset.py`).
+
+**Building the ground (Round 10):**
+- **A new per-vertex attribute added after the last run** made the browser read the position bytes as hill shades: a blotched plain. Rerun the generator after changing what it writes, before the first screenshot.
+- **A bed that meets an earth bank at the land's height** stands above the water in narrow canals, where its mesh has only shore points: light streaks. Start the bed just under the water.
+- **The water's polygon offset** hid boat lines 0.25 m above it. Draw them after the water and higher.
+- **Deck ends inside the water polygon** (the line stops short of the bank) took a guessed level and floated 1.4 m. They take the nearest land's height there now.
+- **A pad on a hilltop is wider than the hill's top:** with the blend it flattens about 20 m round 线法山's pavilion. Acceptable at this scale; say so.
 
 **Reading evidence:**
 - **A check that isn't blind.** The georeference worker edited its check set after seeing errors: first pass median 52 m, kept set 31 m. Both stay in the JSON, and Q7 says it plainly. Fix the check set first. Round 8 did: blind readers, a hash, a checker; it gave 19.8 m for the same fit.

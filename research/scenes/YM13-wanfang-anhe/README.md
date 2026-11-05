@@ -256,6 +256,7 @@ Not written yet.
 - **Q117. YM13 万方安和 响水.** YM13 万方安和 响水: S944 finds the cascade as restored after 2003 (9.7 x 6.8 m, compact, at a bend of today's N-S road) smaller and more inward than on the Yangshi Lei drawing, where the rocks spread further north and south along the west shore, and the 1744 leaf shows three falls with standing rocks 
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
 - **Q166. YM13.** YM13: survives_en, recons_en, best_en and gaps_en are empty, so the page has no ruin, modelling or gaps text. Not checked here whether any dig or survey of the 卍 base exists; the coordinator should fill or hide those blocks. (verify_a worker, Round 7)
+- **Q192. Land necks the plan draws lie under the traced water.** 万方安和's east neck (YMW-026, 11.9 m in water), the neck north of 绮春园's island (QC-090), the approach to BR023 at 坐石临流 (YMW-044, 52 m): the water layer was closed over narrow land. Listed in `research/paths/exceptions.csv`; the water layer should be reopened 
 
 ### Wishlist rows that name it
 

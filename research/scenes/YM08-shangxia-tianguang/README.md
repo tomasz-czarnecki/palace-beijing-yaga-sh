@@ -188,6 +188,7 @@ Bridge length is only the poetic 百尺 (about 32 m); the Daoguang-era layout of
 - **Q51. Reading the Yangshi Lei records.** 159 evidence rows were seen only as search summaries and carry that mark in the panel, and 45 facts wait as `lead`. Some records convert reign years wrongly (ysltd/5107, 8065, 9879, 10529, 5071): use the reign date. Tongzhi sheets (故1299, 样016-15-8, 样1203, the 烫样 of 万方安和, 九洲清晏殿
 - **Q56. Reconstructions against the period evidence.** None of these changes a row; all are for the detailed models. 上下天光 YM08: the album reads as asymmetrical, while the dig found two identical symmetrical foundations and a 乾隆 archive says two hexagonal pavilions (S505, S152): for 1860 the album may be out of date. Xiy
 - **Q139. YM08-02/03.** YM08-02/03: S05 j80:37a says both side pavilions are hexagonal (左右各有六方亭); on the leaf P0008 the right one is hexagonal but the left one looks square or rectangular. Check a better scan or a later plan. (w2 worker, Round 7)
+- **Q195. Where the traced ways stop short.** Six A or B ends meet nothing within 40 m (`research/paths/exceptions.csv`): roads that run on beyond what was traced (石路, 马道, the road south of the garden), the west dike of 福海, a neck at 上下天光. The maze 黄花阵: the boxes' maze walls stand for the plan, so the way through it is n
 
 ### Wishlist rows that name it
 

@@ -204,6 +204,8 @@ The 1831 tower plan 样018-4-1 and the Qianlong tent layout 样018-1 are both op
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
 - **Q129. The brief says the album views are roughly from the south.** The brief says the album views are roughly from the south. Most are, but several leaves look from the south-west (YM30 P0030, YM33 P0033, YM36 P0036, YM16 P0016) or south-east (YM12 P0012, YM37 P0037); YM15 P0015 shows the 楼 end-on from its south gabl
+- **Q189. The western plain stays unanchored.** No reader found a feature on the plain of 山高水长, in the NW fields, on the west wall or at the SW corner that keeps its form: today's pond there has straight modern banks and another width, the wall line lies under the road. The check points there are two (4.6 m at 坦坦荡荡, 39.1
+- **Q194. How did the emperor cross the 前湖 from 九洲清晏?** No Qing text says. The plan leads from 如意桥 straight to 勤政殿, where the daily audience was held (route R1 takes it); 南大桥 on the west and a boat from the landing before 圆明园殿 (YMC-023) are the other readings; the 1860 witnesses saw the lake "bridged at each end" (S242) 
 
 ### Wishlist rows that name it
 

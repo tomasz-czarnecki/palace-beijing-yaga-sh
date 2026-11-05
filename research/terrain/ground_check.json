@@ -1,0 +1,63 @@
+{
+ "state": "now",
+ "hills": {
+  "n": 472,
+  "area_ha": 115.6,
+  "method": {
+   "dem": 122,
+   "typology": 252,
+   "painting": 96,
+   "surveyed": 1,
+   "text": 1
+  },
+  "confidence": {
+   "C": 471,
+   "B": 1
+  },
+  "basis": {
+   "plan": 54,
+   "free_land": 418
+  },
+  "no_height": 0
+ },
+ "water": {
+  "bodies": 189,
+  "tris_two_levels": 0
+ },
+ "boxes": {
+  "n": 1634,
+  "floating": 1,
+  "float_max_m": 0.09,
+  "buried": 1,
+  "buried_max_m": 0.22,
+  "gap_over_0.3": 0,
+  "gap_over_0.3_AB": 0,
+  "in_water_unflagged": 0
+ },
+ "bridges": {
+  "n": 73,
+  "joint_max_m": 0.38,
+  "joint_over_0.5": 0,
+  "ends_over_water": 0
+ },
+ "ways": {
+  "points": 9772,
+  "no_land": 23,
+  "ends": 1498,
+  "end_max_m": 1.7,
+  "ends_over_0.5": 2,
+  "ends_over_0.5_AB": 0
+ },
+ "walls": {
+  "courses": 1137,
+  "hanging": 0,
+  "hang_max_m": 0,
+  "low": 19,
+  "low_max_m": 0.04
+ },
+ "landings": {
+  "n": 68,
+  "step_max_m": 0.05,
+  "over_0.5": 0
+ }
+}

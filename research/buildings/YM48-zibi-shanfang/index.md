@@ -242,6 +242,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
+- Q29: Hills
 - Q39: 丰乐轩 YM22-02
 - Q45: Halls in the texts with no row
 - Q47: How much burned, and when

@@ -8,7 +8,7 @@ const PATH_COLOURS = {
   conf: { A: 0x2f8f4e, B: 0xd9a441, C: 0xc4513a },
 };
 
-function buildPaths({ paths, landings, toXZ, groundAt, base }) {
+function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base }) {
   const LIFT = 0.07, STEP_M = 4;
   const groups = { sure: new THREE.Group(), assumed: new THREE.Group(), boat: new THREE.Group() };
   const yAt = (x, z) => { const g = groundAt(x, z); return (g === null ? base : g) + LIFT; };
@@ -37,7 +37,11 @@ function buildPaths({ paths, landings, toXZ, groundAt, base }) {
     const p = f.properties;
     const xz = f.geometry.coordinates.map(toXZ);
     if (p.kind === "boat_route") {
-      for (let i = 0; i < xz.length - 1; i++) boatPts.push(new THREE.Vector3(xz[i][0], 0.25, xz[i][1]), new THREE.Vector3(xz[i + 1][0], 0.25, xz[i + 1][1]));
+      for (let i = 0; i < xz.length - 1; i++) {
+        // Round 10: 0.5 m above the level of the water under each end, drawn after the water
+        const ya = (waterLevelAt(xz[i][0], xz[i][1]) ?? 0) + 0.5, yb = (waterLevelAt(xz[i + 1][0], xz[i + 1][1]) ?? 0) + 0.5;
+        boatPts.push(new THREE.Vector3(xz[i][0], ya, xz[i][1]), new THREE.Vector3(xz[i + 1][0], yb, xz[i + 1][1]));
+      }
       continue;
     }
     const b = p.assumed ? buf.assumed : buf.sure;
@@ -96,13 +100,15 @@ function buildPaths({ paths, landings, toXZ, groundAt, base }) {
     if (p.facing_deg === null || p.facing_deg === undefined) continue;
     const r = (p.facing_deg * Math.PI) / 180, ux = Math.sin(r), uz = -Math.cos(r);
     const [w, d] = p.kind === "dock" ? [4, 6] : [3, 2.5];
-    const top = yAt(x, z) - LIFT + 0.05;
+    // Round 10: on the bank at its point, and at least 0.4 m above the water it serves
+    const lev = waterLevelAt(x, z), top = Math.max(yAt(x, z) - LIFT + 0.05, lev === null ? -Infinity : lev + 0.4);
     box(plat, x + ux * d / 2, top - 0.6, z + uz * d / 2, d, 1.3, w, ux, uz);
   }
   groups.sure.add(solid(plat, PATH_COLOURS.landing));
   const bg = new THREE.BufferGeometry().setFromPoints(boatPts);
   const boat = new THREE.LineSegments(bg, new THREE.LineDashedMaterial({ color: PATH_COLOURS.boat, dashSize: 6, gapSize: 4 }));
   boat.computeLineDistances();
+  boat.renderOrder = 3;
   groups.boat.add(boat);
   const setConfMode = (on) => {
     for (const m of [meshes.sure, meshes.assumed]) {
