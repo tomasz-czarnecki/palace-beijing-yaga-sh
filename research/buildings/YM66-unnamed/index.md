@@ -23,6 +23,7 @@ Assumed: the plan shows this compound's place and no single hall, so a few boxes
 
 - **1 ×:** main hall: laid out from the typology, no hall drawn here: 20.5 × 10 m, eave 4.4 m, ridge 7.83 m
 - **2 ×:** side hall: laid out from the typology, no hall drawn here: 12 × 7 m, eave 3.64 m, ridge 6.26 m
+- **Drawn:** by the hall kit; 3 of 3 drawn from the typology of their hall class, not from a picture of these halls
 - **Confidence:** C, all assumed
 
 ## Pictures (0)

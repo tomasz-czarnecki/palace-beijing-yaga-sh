@@ -30,6 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Box:** 26 × 13 m, european, pool
 - **Part:** scalloped fountain pool
 - **Faces:** 173.8° from north
+- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
 - **Confidence:** C, assumed
 
 ## Pictures (2)

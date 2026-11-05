@@ -138,4 +138,5 @@ What would replace the biggest guesses. Most valuable first.
 | Round 10: the Yangshi Lei plan of 1784 drawn over a 10-丈 levelling grid (S1010, NLC) | The first levels of 1860's ground and water, A | 国家图书馆 | as for the other Yangshi Lei rows |
 | Round 10: the 2017 dig report of 紫碧山房 (北京市文物研究所) and the 2005 Tsinghua impact report on the lake lining | The height of the garden's high point; the beds and water levels kept | 北京市文物研究所; 清华大学 | ask by mail; the impact report was public in 2005 (S1004) |
 | Round 10: the album leaves at full size (about 24000 px on Commons) for the module readings | Every painting height (Q198) | Wikimedia Commons, BnF | a reader, two hours, the same rows as `research/terrain/readings.csv` |
-
+| Round 11: the forty leaves at full size, read hall by hall for column and beam colour, window type and ridge (rolled or sharp) | The kit's colours and the share of 硬山 and 悬山 (Q204, Q206) | Wikimedia Commons, BnF | a reader, three hours, a row per hall in `research/scenes/halls.csv` |
+| Round 11: Yangshi Lei elevations 立样 of ordinary halls (装修 drawings) | Door and window patterns of 1860, glass or paper (Q205) | 国家图书馆, 故宫博物院 | as for the other Yangshi Lei rows |

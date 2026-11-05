@@ -27,13 +27,14 @@ Changchun Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **Box:** 36.21 × 12.5 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.78 m above the ground
+- **Heights:** platform 0.59 m, eave 4.76 m, ridge 9.18 m above the ground
 - **Roof:** hip-and-gable 歇山, double eaves 重檐, grey tile
 - **Faces:** 172.3° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.3 m
+- **Drawn:** by the hall kit: 7 bays, the middle widest, a porch all round, steps on the back, front, 歇山 hip-and-gable, double eaves 重檐, grey tile, bracket sets 斗拱 as a painted band. From its own figures and readings where the dossier gives them (roof read: buildings.csv B), the rest from the typology of its hall class.
 - **Confidence:** B
 
 ## Pictures (0)

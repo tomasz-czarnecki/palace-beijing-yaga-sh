@@ -29,6 +29,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** reservoir house, two storeys, 5 bays: 12.8 × 6.6 m, eave 7.3 m, ridge 10.1 m
 - **1 ×:** north wing, one storey, 3 bays: 7.3 × 6.6 m, eave 4.1 m, ridge 5.8 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Inside it (1)

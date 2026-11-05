@@ -29,12 +29,13 @@ Yuanming Yuan
 
 ## Our model now
 
-A plain box at a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated.
+At a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated; its form drawn by the hall kit.
 
 - **Box:** 22.72 × 14.72 m, storeyed hall
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 9.17 m above the ground
 - **Roof:** gable 硬山 or 悬山, black tile
 - **Faces:** 176.3° from north
+- **Drawn:** by the hall kit: 6 bays, the middle widest, a porch front and back, steps on the back, front, 硬山 flush gable, black tile, a painted beam under the eave. From its own figures and readings where the dossier gives them (bays: central 5.12 m, side 4.0 m, a B, S105; roof read: buildings.csv B), the rest from the typology of its hall class.
 - **Confidence:** B
 
 ## Pictures (0)

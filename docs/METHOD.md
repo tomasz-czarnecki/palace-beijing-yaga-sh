@@ -173,6 +173,18 @@ Boxes on a flat plane next to water read wrong at once. Round 10 shaped the grou
 8. **The surface that is walked and draped is the drawn mesh itself,** rasterised. Every check measures against what the view shows: boxes (floating, buried past the platform), ways (strip points, ends against decks and platforms), bridges (deck ends), walls (stepped courses), landings. Measure the old state with the same script (`--before`).
 9. **Size:** a quadtree mesh (20, 10 and 5 m cells, 2:1 balanced, cut cells never coarser than their neighbours) with int16 positions and uint16 indices in chunks took 24 MB down to 5.4 MB. The walk raster covers only where anything stands.
 
+### 16. The kit: every building drawn from its numbers
+
+Boxes say where and how big. A kit says what kind of building. Round 11 (`research/kit/README.md`):
+1. **Numbers in a generator, shapes in the browser.** `scripts/kit1860.py` writes every hall's bays, porches, steps, roof class, tiles and band, and where each comes from (`src`, `fig`). `kit3d.js` turns them into geometry and adds no number of its own. So the check and the panel can read what is drawn, and a better source changes one row, not the code.
+2. **The kit draws inside the box and never moves it.** The platform is the footprint, the columns stand its edge inside, the roof reaches the overhang beyond, the heights are the box's. Measure it: track every vertex's distance outside the footprint, by part (body, roof, steps). A probe that only samples the ground must not count.
+3. **Fix the typology before you draw it.** A class default taken from the grandest hall (正大光明殿's 5.12 m column) makes the whole class too tall. Re-read the defaults against the measured halls of the class (medians, by a run) before the kit makes them visible.
+4. **A hall's own figure wins, and says so.** Dossier figures by method (survey, ruin or plan, painting, photograph) set the box; a roof or tile read for that hall on the album sets its roof. Everything else is the class's, flagged `assumed`, and the panel says "drawn from the typology of its hall class, not from a picture of this hall".
+5. **Every side gets detail.** Rear façades get windows and sometimes a door. Gables get brick and a panel (硬山) or windows. Steps go where the ways of the paths round arrive, not only at the front. A side over water gets none.
+6. **Nothing below the roof pokes through it.** A band 0.2 m outside the column line at the eave's height shows as a stripe along every roof. Cap every band, beam and wall top at the roof's own profile there.
+7. **Cost: levels of detail by tile, built lazily.** A near level for 1634 halls at 740 triangles each is 1.7 M triangles, and with float colours and normals about 0.9 GB. Build the far level (76 triangles a hall) at load, and a tile's near level only when the camera comes near. Drop far ones beyond a cap. Store colours as bytes, and let the material shade flat (no normals). Measure frame time and triangles before and after in one session (`tools/check_kit.py --browser`); software WebGL varies by a quarter between runs.
+8. **`assumed=0` shows what is sourced.** Hide the boxes with no block. Draw a hall whose form is only its class's as its plain box. Keep the kit where the hall's own figures drive it.
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:
@@ -311,6 +323,12 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 | Grade A means | seen on a source of 1900–1914 | a source made while the gardens stood; S01 held at B |
 
 ## Pitfalls and fixes
+
+**The kit (Round 11):**
+- **A coloured band at the eave poked through every roof as a red stripe.** The bracket band stood 0.26 m outside the column line at the eave's height, where the roof is already lower. Fix: every band is capped at the roof's profile above it.
+- **Ground probes counted as geometry.** The steps' ground samples went through the same transform that measures how far a hall reaches beyond its box, so every hall seemed 0.3 m too wide. Fix: a probe flag.
+- **Shore steps hung in the air.** A flight's foot was read on the land-only ground, and its blocks stopped there over a sloping bank. Fix: sample the flight's four corners; skip it if any is water; reach down to the lowest.
+- **4.8 M triangles in memory at load.** Every tile's near level was built at once. Fix: lazy near tiles, byte colours, no normals: 0.67 M at the overview.
 
 **Running the agents:**
 - **A research round launched its subagents in the background, ended its turn "waiting", and print mode killed them after 10 minutes.** It exited 0 with almost nothing delivered ($9, 17 min). Fix: foreground subagents only, several Agent calls in one message; `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` in the chain; and chains gated on deliverables, not on the exit code alone.

@@ -30,6 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **1 ×:** sunken fountain area, 1.30 m below the gardens (not cut into the ground here): 110 × 60 m, eave 0.3 m, ridge 0.3 m
 - **1 ×:** shell pool: 29 × 19 m, eave 0.5 m, ridge 0.5 m
 - **1 ×:** niche building: 21.2 × 4.4 m, eave 14.3 m, ridge 14.3 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** B and C, some assumed
 
 ## Inside it (2)

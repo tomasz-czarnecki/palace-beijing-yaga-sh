@@ -30,7 +30,19 @@ def make(name,bay_c,bay_s,n,porch,depth,H,plat,ju,rolled=True,over=None,lower=No
     C[name]=dict(bays=n,bay_central=bay_c,bay_side=bay_s,porch=porch,frontage=front,depth=depth,column=H,platform=plat,overhang=o,lower_out=round(.8*o,2),dia=dia,eave=eave,eave_tip=tip,rise=r['rise'],ridge=ridge,pitch=r['pitch'],arith=r['arith'])
 J5=[.5,.7]; J7=[.5,.65,.85]; JB=[.5,.65,.75,.9]; J6=[.5,.6,.75,.9]
 #   name,        bay_c,bay_s,n, porch, depth,  H,   plat, ju
-make('grand_hall',5.50,4.70,7,1.70,16.74,5.12,1.22,J6)
+make('grand_hall_r1',5.50,4.70,7,1.70,16.74,5.12,1.22,J6)  # Round 1: 正大光明殿 as the type
+# Round 11 (Q182, Q183): the class from its measured halls (research/scenes/dimensions.csv, method a), 正大光明殿 keeping its own figures through by_name.
+import csv, statistics
+DIMS=list(csv.DictReader(open('research/scenes/dimensions.csv',encoding='utf-8')))
+def fig(bid,what): return [float(r['value_m']) for r in DIMS if r['id']==bid and r['what']==what and r['method']=='a']
+GH=['YM03-11','YM02-08','YM23-01','YM20-01']  # 慎德堂, 保合太和殿, 慎修思永, 田字殿: the measured residential and office halls of the class
+cols=[fig(b,'column_h')[0] for b in GH if fig(b,'column_h')]
+plats=[fig(b,'platform_h')[0] for b in GH if fig(b,'platform_h')]
+H11=round(statistics.median(cols),2); P11=round(statistics.median(plats),2)
+print('grand_hall Round 11: columns',cols,'median',H11,'; platforms',plats,'median',P11)
+zb=[fig('YM01-08',w) for w in ('bay_width','other:secondary_bay_width','other:end_bay_width')]
+print('正大光明殿 bays (NLC 样001-4 slip via S310): central, next, end',zb)
+make('grand_hall',round(zb[0][0],2),round(zb[1][0],2),7,1.70,16.74,H11,P11,J6)
 make('main_hall', 4.16,3.84,5,1.60, 9.60,3.70,0.70,J7)
 make('main_hall_3roll_note',4.16,3.84,5,1.92,8.00,4.32,0.96,J7)
 make('side_hall', 3.84,3.52,3,1.28, 7.04,3.10,0.54,J7)

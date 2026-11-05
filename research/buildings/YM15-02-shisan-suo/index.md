@@ -30,6 +30,7 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 - **Roof:** gable 硬山 or 悬山, rolled ridge 卷棚, grey tile
 - **Faces:** 175° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 4.5 m
+- **Drawn:** by the hall kit: 3 bays, the middle widest, a porch front, steps on the front, 硬山 flush gable with a rolled ridge 卷棚, grey tile, a painted beam under the eave. From its own figures and readings where the dossier gives them (roof read: halls.csv S08 C; tiles read: halls.csv S08 C), the rest from the typology of its hall class.
 - **Confidence:** C, assumed
 
 ## Pictures (1)

@@ -1,0 +1,278 @@
+{
+ "counts": {
+  "boxes": 1634,
+  "kit_entries": 1634,
+  "hall_kit": 1555,
+  "stone_kit": 79,
+  "shapes_left_as_boxes": 0,
+  "by_kind": {
+   "gate": 56,
+   "hall": 1209,
+   "pavilion": 277,
+   "tower": 2,
+   "pailou": 8,
+   "gallery": 3,
+   "stone": 37,
+   "stoneshape": 42
+  },
+  "roof_class": {
+   "xs 卷棚": 408,
+   "ys 卷棚": 589,
+   "xs": 2,
+   "xu 卷棚": 267,
+   "cj": 270,
+   "xu": 1,
+   "xs 重檐": 7,
+   "cj 重檐": 8,
+   "xs 卷棚 重檐": 1,
+   "ys": 1,
+   "ys 重檐": 1
+  },
+  "roof_class_stone": {
+   "wd": 63,
+   "cj": 11,
+   "ys": 5
+  },
+  "tiles": {
+   "grey": 1530,
+   "yellow": 8,
+   "glazed": 7,
+   "slate": 1,
+   "purple": 1,
+   "blue": 7,
+   "green": 41,
+   "black": 1,
+   "ochre": 6,
+   "stone": 32
+  },
+  "tile_edges": {
+   "green": 2,
+   "blue": 1,
+   "yellow": 1,
+   "purple": 38,
+   "red": 6
+  },
+  "form_from": {
+   "dossier": 154,
+   "class": 1476,
+   "stated": 4
+  },
+  "assumed_form": 1555,
+  "assumed_box": 119,
+  "form_grade": {
+   "A": 40,
+   "C": 1559,
+   "B": 35
+  },
+  "steps_sides": {
+   "2": 721,
+   "1": 777,
+   "4": 7,
+   "3": 43,
+   "0": 7
+  },
+  "balustrades": 41,
+  "bracket_band": 101,
+  "porches": {
+   "front": 964,
+   "back": 330,
+   "all_round": 37
+  },
+  "courts_ha": 17.3,
+  "court_triangles": 58582
+ },
+ "drawn": {
+  "halls_drawn": 1634,
+  "of": 1634,
+  "near_triangles_median": 740.0,
+  "far_triangles_median": 76.0
+ },
+ "beyond_box_m": {
+  "body_or_roof": {
+   "n": 1634,
+   "median": 0.19,
+   "p90": 0.22,
+   "max": 0.66
+  },
+  "steps": {
+   "n": 1634,
+   "median": 0.6,
+   "p90": 1.11,
+   "max": 2.16
+  },
+  "hall_kit_over_overhang": 0
+ },
+ "joints": {
+  "step_flights": 2385,
+  "step_foot_to_ground_m": {
+   "n": 2385,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 0.01
+  },
+  "way_ends_at_a_box_side": 1351,
+  "of_them_A_or_B": 342,
+  "at_a_pool_wall_court_or_terrace_hall": 11,
+  "met_by_a_flight_within_m": 1.5,
+  "met": 1333,
+  "gap_way_end_to_flight_m": {
+   "n": 1333,
+   "median": 0.0,
+   "p90": 0.0,
+   "max": 0.1
+  },
+  "drop_platform_top_to_way_m": {
+   "n": 1351,
+   "median": 0.41,
+   "p90": 0.63,
+   "max": 2.13
+  },
+  "drop_left_where_no_flight_m": {
+   "n": 7,
+   "median": 0.01,
+   "p90": 0.13,
+   "max": 0.14
+  },
+  "no_flight_where_entered": [
+   [
+    "F1012",
+    "front",
+    "AB",
+    -0.02
+   ],
+   [
+    "F0591",
+    "back",
+    "AB",
+    -0.02
+   ],
+   [
+    "XY13-M56",
+    "front",
+    "AB",
+    0.13
+   ],
+   [
+    "XY13-M56",
+    "back",
+    "AB",
+    0.14
+   ],
+   [
+    "F1001",
+    "front",
+    "C",
+    -0.05
+   ],
+   [
+    "F0584",
+    "back",
+    "C",
+    0.01
+   ],
+   [
+    "F0740",
+    "front",
+    "C",
+    0.04
+   ]
+  ]
+ },
+ "cost": {
+  "browser": {
+   "measured_utc": "2026-11-05 23:00"
+  },
+  "after": {
+   "overview_kit": {
+    "frame_ms_median": 392,
+    "frame_ms_min": 336.6,
+    "frame_ms_max": 416.2,
+    "drawn_triangles": 575338,
+    "draw_calls": 287,
+    "triangles_in_memory": 666438
+   },
+   "court_kit": {
+    "frame_ms_median": 245.9,
+    "frame_ms_min": 233.9,
+    "frame_ms_max": 261.8,
+    "drawn_triangles": 548127,
+    "draw_calls": 57,
+    "triangles_in_memory": 1167262
+   },
+   "hall_kit": {
+    "frame_ms_median": 320.7,
+    "frame_ms_min": 277.9,
+    "frame_ms_max": 368.6,
+    "drawn_triangles": 585762,
+    "draw_calls": 108,
+    "triangles_in_memory": 1314984
+   },
+   "overview_boxes": {
+    "frame_ms_median": 270,
+    "frame_ms_min": 175.8,
+    "frame_ms_max": 309.7,
+    "drawn_triangles": 458134,
+    "draw_calls": 24,
+    "triangles_in_memory": 1314984
+   },
+   "court_boxes": {
+    "frame_ms_median": 152.8,
+    "frame_ms_min": 143.2,
+    "frame_ms_max": 165.2,
+    "drawn_triangles": 457974,
+    "draw_calls": 23,
+    "triangles_in_memory": 1314984
+   },
+   "hall_boxes": {
+    "frame_ms_median": 197.1,
+    "frame_ms_min": 134,
+    "frame_ms_max": 217.9,
+    "drawn_triangles": 457974,
+    "draw_calls": 23,
+    "triangles_in_memory": 1314984
+   }
+  },
+  "after_load_s": 0.869,
+  "before": {
+   "overview_boxes": {
+    "frame_ms_median": 291.5,
+    "frame_ms_min": 279.4,
+    "frame_ms_max": 337.8,
+    "drawn_triangles": 458048,
+    "draw_calls": 22,
+    "triangles_in_memory": 458048
+   },
+   "court_boxes": {
+    "frame_ms_median": 179.5,
+    "frame_ms_min": 165.8,
+    "frame_ms_max": 208.2,
+    "drawn_triangles": 457888,
+    "draw_calls": 21,
+    "triangles_in_memory": 458048
+   },
+   "hall_boxes": {
+    "frame_ms_median": 236.1,
+    "frame_ms_min": 174.1,
+    "frame_ms_max": 257.5,
+    "drawn_triangles": 457888,
+    "draw_calls": 21,
+    "triangles_in_memory": 458048
+   }
+  },
+  "before_load_s": 0.764,
+  "near_triangles_if_all_built": 1684133,
+  "far_triangles": 149722,
+  "court_triangles": 58582,
+  "lod_m": 420,
+  "tile_m": 180,
+  "tiles": 124
+ },
+ "files_mb": {
+  "kit_1860.json": 0.586,
+  "courts.bin": 1.054,
+  "kit3d.js": 0.045,
+  "stonekit3d.js": 0.022,
+  "total": 1.71
+ },
+ "fails": []
+}

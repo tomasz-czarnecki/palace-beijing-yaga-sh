@@ -28,6 +28,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** octagonal music pavilion, two storeys: 8.7 × 8.7 m, eave 9.3 m, ridge 12.5 m
 - **1 ×:** corridor, 9 bays, curved on the plates; a straight run here: 47.9 × 4 m, eave 8.8 m, ridge 9.6 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Pictures (7)

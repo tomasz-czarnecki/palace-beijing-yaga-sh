@@ -26,13 +26,14 @@ Yuanming Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **Box:** 22.43 × 25.2 m, main hall
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.28 m above the ground
 - **Roof:** hip-and-gable 歇山, double eaves 重檐, 3 parallel rolls 勾连搭, grey tile
 - **Faces:** 174° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
+- **Drawn:** by the hall kit: 5 bays, the middle widest, a porch front and back, steps on the front, 歇山 hip-and-gable, double eaves 重檐, grey tile, a painted beam under the eave. From its own figures and readings where the dossier gives them (roof read: buildings.csv B), the rest from the typology of its hall class.
 - **Confidence:** B
 
 ## Pictures (1)

@@ -32,6 +32,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 62.32 × 0.6 m, eave 1.2 m, ridge 1.2 m
 - **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 26.56 × 0.6 m, eave 1.2 m, ridge 1.2 m
 - **2 ×:** maze wall, 1.2 x 0.6 m; outer wall and two rings stand for the plan, not traced: 46.32 × 0.6 m, eave 1.2 m, ridge 1.2 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Inside it (2)

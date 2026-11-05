@@ -3,6 +3,7 @@
 // World axes: x = east, z = south, y = height above the water, metres. Halls are one merged mesh (halls3d.js); a click tests rectangles, not triangles.
 // URL: ?b=<ID> (opens that page and frames its object) &cam=x,y,z,tx,ty,tz &halls=0 &walls=0 &labels=0 &conf=1 &vx=2 &shot=1 (hides the panels, nothing animates, no labels) &public=1 (localhost: no research copy of the pages).
 // Round 10: the ground (ground3d.js): hills, banks, beds, one level per water body; &contours=1 draws contour lines; &conf=1 also tints the ground; &assumed=0 also flattens the generated hills.
+// Round 11: the hall kit (kit3d.js, stonekit3d.js, data/kit_1860.json): every hall drawn from its numbers, courts paved between the halls; &kit=0 returns to the plain boxes; &assumed=0 also hides the boxes with no block on the plan, the courts, and draws a hall whose form is only its class's as its plain box.
 // Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
@@ -50,9 +51,12 @@ function updateLabels() {
     l.visible = on && (l.userData.rank === 1 ? d > 700 : d < 1400);
   }
 }
+let kitUpdate = null, kitFrame = 0;
 function render() {
   fitNearPlane();
   updateLabels();
+  // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all.
+  if (kitUpdate && kitUpdate(camera, shot ? 1e9 : 4) && !kitFrame) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
   renderer.render(scene, camera);
 }
 controls.addEventListener("change", render);
@@ -102,7 +106,7 @@ function glideTo(pos, tgt, off, ms = 700) {
   requestAnimationFrame(step);
 }
 
-const state = { halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1" };
+const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1" };
 const meshes = {};
 let walking = false, touring = null;
 
@@ -178,7 +182,7 @@ function labelSprite(text, sub, rank) {
 
 async function main() {
   const local = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) && !params.get("public") && (await fetch(location.href, { method: "HEAD" }).then((r) => r.headers.get("X-Palace-Local") === "1").catch(() => false));
-  const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc] = await Promise.all([
+  const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc, kitSpec] = await Promise.all([
     fetch("generated/ground.json").then((r) => r.json()),
     fetch("generated/ground.bin").then((r) => r.arrayBuffer()),
     fetch("generated/ground_grid.i16").then((r) => r.arrayBuffer()),
@@ -189,6 +193,7 @@ async function main() {
     fetch("data/paths_1860.geojson").then((r) => r.json()),
     fetch("data/landings_1860.geojson").then((r) => r.json()),
     fetch("data/routes_1860.geojson").then((r) => r.json()),
+    fetch("data/kit_1860.json").then((r) => r.json()),
   ]);
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
@@ -197,9 +202,13 @@ async function main() {
   world.add(ground.group);
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
-  const halls = buildHalls({ fc, toXZ, datum: meta.datum_m });
+  const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
   const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, waterLevelAt, base: meta.ground_m - meta.datum_m });
   for (const g of Object.values(ways.groups)) world.add(g);
+  const kit = buildKit({ spec: kitSpec, halls, datum: meta.datum_m, groundAt, toXZ, paths: pathFc });
+  await kit.courtsReady;
+  halls.mesh.add(kit.group);
+  kitUpdate = kit.update;
   meshes.halls = halls.mesh;
   world.add(meshes.halls);
   labels = labelData.map((l) => {
@@ -217,6 +226,9 @@ async function main() {
     meshes.structures.visible = state.walls;
     ways.groups.sure.visible = ways.groups.boat.visible = state.paths;
     ways.groups.assumed.visible = state.paths && state.assumed;
+    ways.groups.gallery.visible = state.paths && !state.kit;
+    halls.setView({ kitOn: state.kit, assumed: state.assumed });
+    kit.setView({ kitOn: state.kit, assumed: state.assumed, paths: state.paths, conf: state.conf });
     ways.setConfMode(state.conf);
     ground.setConf(state.conf);
     if (groundAssumed !== state.assumed) { groundAssumed = state.assumed; ground.setAssumed(state.assumed); }
@@ -229,7 +241,7 @@ async function main() {
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
   }
-  for (const key of ["halls", "walls", "labels", "conf", "paths", "assumed", "contours"]) {
+  for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours"]) {
     const box = document.getElementById(key);
     box.checked = state[key];
     box.onchange = (e) => { state[key] = e.target.checked; apply(); };
@@ -349,6 +361,7 @@ async function main() {
   const applyWalkCamera = () => {
     const dir = new THREE.Vector3(Math.sin(yaw) * Math.cos(pitch), Math.sin(pitch), -Math.cos(yaw) * Math.cos(pitch));
     camera.lookAt(camera.position.clone().add(dir));
+    if (kitUpdate) kitUpdate(camera, 2);
     renderer.render(scene, camera);
   };
   const walkStep = (now) => {
@@ -445,6 +458,7 @@ async function main() {
     T.yaw = Math.atan2(tx - x, -(tz - z));
     camera.position.set(x, y * state.vx, z);
     camera.lookAt(new THREE.Vector3(tx, ty * state.vx, tz));
+    if (kitUpdate) kitUpdate(camera, shot ? 1e9 : 2);
     renderer.render(scene, camera);
   };
   const atStop = (T, st) => {
@@ -587,7 +601,7 @@ async function main() {
   document.getElementById("loading").hidden = true;
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  window.viewer = { kit, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

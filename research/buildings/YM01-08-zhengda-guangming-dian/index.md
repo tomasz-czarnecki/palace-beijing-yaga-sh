@@ -29,12 +29,13 @@ Yuanming Yuan
 
 ## Our model now
 
-A plain box at a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated.
+At a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated; its form drawn by the hall kit.
 
 - **Box:** 39.32 × 19.2 m, grand hall
 - **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.4 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 174.8° from north
+- **Drawn:** by the hall kit: 7 bays, the middle widest, a porch all round, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. From its own figures and readings where the dossier gives them (bays: central 5.168 m, side 4.832 m, end 4.32 m, a A, S310; porch: 1.92 m, a A, S310; roof read: buildings.csv B), the rest from the typology of its hall class.
 - **Confidence:** B
 
 ## Pictures (3)
@@ -180,6 +181,7 @@ Modern interpretation, not evidence.
 - Q46: 正大光明殿 YM01-08
 - Q81: YM01-08
 - Q182: Typology, grand_hall heights
+- Q183: Typology, grand_hall bays
 
 <!-- generated:end -->
 

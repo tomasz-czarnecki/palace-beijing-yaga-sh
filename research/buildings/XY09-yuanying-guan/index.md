@@ -33,6 +33,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** terrace: 31 × 35 m, eave 2 m, ridge 2 m
 - **1 ×:** hall, five roofs, on the terrace: 28 × 21 m, eave 9.7 m, ridge 14.6 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** B
 
 ## Inside it (3)

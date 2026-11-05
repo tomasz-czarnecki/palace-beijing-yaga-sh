@@ -30,27 +30,28 @@
     40
    ],
    "bay_m": {
-    "central": 5.5,
-    "side": 4.7
+    "central": 5.17,
+    "side": 4.83,
+    "end": 4.32
    },
    "porch_m": 1.7,
    "depth_m": [
     15,
     19
    ],
-   "platform_m": 1.22,
-   "column_m": 5.12,
-   "eave_m": 6.34,
-   "eave_tip_m": 5.57,
-   "ridge_m": 12.38,
-   "overhang_m": 1.54,
-   "platform_edge_m": 1.23,
+   "platform_m": 0.59,
+   "column_m": 4.17,
+   "eave_m": 4.76,
+   "eave_tip_m": 4.13,
+   "ridge_m": 10.77,
+   "overhang_m": 1.25,
+   "platform_edge_m": 1.0,
    "roof": "卷棚歇山",
    "tiles": "grey 布瓦, unless by_name says glazed",
    "pitch_deg": 34.8,
    "confidence": "B",
-   "sources": "S02;S106;S101;S119;S08",
-   "derivation": "正大光明殿 is the type: 7 bays + porch all round (S02 p.75, S01 reads the same), foundation 39.3 x 19.2 x 1.22 m (S02), eave column 16 chi = 5.12 m (S106). Depth col-to-col = 19.2 - 2 x 1.23. Bays split from the plan's bay lines; roof steps and 举 from the rule, so ridge is C. Arithmetic: inner 13.34 = 2x3x2.02 + top 1.21; rise = 1.70x0.5 + 2.02x0.6 + 2.02x0.75 + 2.02x0.9 = 5.40."
+   "sources": "S02;S106;S101;S119;S08;S310;S137;S139",
+   "derivation": "Round 11 (Q182, Q183): column and platform are the medians of the class's measured halls, not of the audience hall: columns 慎德堂 YM03-11 4.35, 保合太和殿 YM02-08 4.48, 慎修思永 YM23-01 4.0, 田字殿 YM20-01 3.68 (median 4.17); platforms 0.59, 0.96, 0.55 (median 0.59) (S310 Yangshi Lei figures as transcribed, S137, S139; research/scenes/dimensions.csv, method a). Bays 5.17 / 4.83 / 4.32 m: the yellow slip of NLC 样001-4 for 正大光明殿, 明间 1.615丈, 次间 1.51丈, 梢间 1.35丈 (S310). 正大光明殿 keeps its own column 5.12 m and platform 1.22 m through by_name. Roof steps and 举 from the rule, so ridge is C: rise 5.40 as before; ridge = 0.59 + 4.17 + 5.40 + 0.36 + 0.25 = 10.77 (scripts/typology_rules.py). Round 1 values were column 5.12, platform 1.22, bays 5.50 / 4.70, ridge 12.38: those of 正大光明殿 alone."
   },
   "main_hall": {
    "zh": "五间殿 (卷棚)",
@@ -583,11 +584,23 @@
    "storeys": 3,
    "bays": 3,
    "ridge_m": 23.94,
-   "frontage_m": 14,
-   "depth_m": 13,
-   "confidence": "B for height, C for footprint",
-   "sources": "S103;S01",
-   "note": "Plan: x 4736-4800, y 2929-2983."
+   "frontage_m": 14.52,
+   "depth_m": 14.52,
+   "confidence": "B for height, bays, platform and columns; C for the tier heights between them",
+   "sources": "S310;S103;S01",
+   "note": "Round 11 (Q184): the tower's figures from the Yangshi Lei drawing as transcribed on mhymy 7297 (S310): lower bays 5.50 and 4.51 m, 3 x 3 bays square (14.52 m, which matches the 中层檐内通见方 14.53 m), platform 0.96 m, 下出 1.12 m, columns 4.42, 3.71 and 2.72 m by storey, ridge 23.94 m (S103 gives the same). The plan's block read 14 x 13 m (C) before. 养吉斋丛录's 'about ten 丈' (32 m, S202) may count the whole stage court: still open. Plan: x 4736-4800, y 2929-2983.",
+   "bay_m": {
+    "central": 5.5,
+    "side": 4.51
+   },
+   "platform_m": 0.96,
+   "platform_edge_m": 1.12,
+   "column_m": [
+    4.42,
+    3.71,
+    2.72
+   ],
+   "roof": "三重檐卷棚歇山"
   },
   "同乐园正楼": {
    "parent": "同乐园, YM41+ unassigned",

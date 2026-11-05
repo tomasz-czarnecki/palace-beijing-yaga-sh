@@ -30,6 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Box:** 6.9 × 6.9 m, european, octagon
 - **Part:** hilltop pavilion
 - **Faces:** 173.5° from north
+- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
 - **Confidence:** C, assumed
 
 ## Pictures (1)

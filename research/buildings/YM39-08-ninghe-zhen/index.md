@@ -24,13 +24,14 @@ Yuanming Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **1 ×:** gate hall: 6.94 × 5.4 m, eave 4.47 m, ridge 6.4 m
 - **1 ×:** gate hall: 6.1 × 5.38 m, eave 4.47 m, ridge 6.39 m
 - **1 ×:** gate hall: 9.1 × 6.3 m, eave 4.47 m, ridge 6.72 m
 - **1 ×:** gate hall: 8.1 × 5.4 m, eave 4.47 m, ridge 6.4 m
 - **1 ×:** gate hall: 6.9 × 6 m, eave 4.47 m, ridge 6.61 m
+- **Drawn:** by the hall kit; 0 of 5 drawn from the typology of their hall class, not from a picture of these halls
 - **Confidence:** B
 
 ## Pictures (1)

@@ -1,0 +1,90 @@
+{
+ "spec_hash": "5ad03615274adbd57a03aba073c8e184",
+ "measured_utc": "2026-11-05 23:00",
+ "after": {
+  "url": "http://127.0.0.1:8873/reconstruction/3d.html?shot=1",
+  "load_s": 0.869,
+  "views": {
+   "overview_kit": {
+    "frame_ms_median": 392,
+    "frame_ms_min": 336.6,
+    "frame_ms_max": 416.2,
+    "drawn_triangles": 575338,
+    "draw_calls": 287,
+    "triangles_in_memory": 666438
+   },
+   "court_kit": {
+    "frame_ms_median": 245.9,
+    "frame_ms_min": 233.9,
+    "frame_ms_max": 261.8,
+    "drawn_triangles": 548127,
+    "draw_calls": 57,
+    "triangles_in_memory": 1167262
+   },
+   "hall_kit": {
+    "frame_ms_median": 320.7,
+    "frame_ms_min": 277.9,
+    "frame_ms_max": 368.6,
+    "drawn_triangles": 585762,
+    "draw_calls": 108,
+    "triangles_in_memory": 1314984
+   },
+   "overview_boxes": {
+    "frame_ms_median": 270,
+    "frame_ms_min": 175.8,
+    "frame_ms_max": 309.7,
+    "drawn_triangles": 458134,
+    "draw_calls": 24,
+    "triangles_in_memory": 1314984
+   },
+   "court_boxes": {
+    "frame_ms_median": 152.8,
+    "frame_ms_min": 143.2,
+    "frame_ms_max": 165.2,
+    "drawn_triangles": 457974,
+    "draw_calls": 23,
+    "triangles_in_memory": 1314984
+   },
+   "hall_boxes": {
+    "frame_ms_median": 197.1,
+    "frame_ms_min": 134,
+    "frame_ms_max": 217.9,
+    "drawn_triangles": 457974,
+    "draw_calls": 23,
+    "triangles_in_memory": 1314984
+   }
+  },
+  "errors": []
+ },
+ "before": {
+  "url": "http://127.0.0.1:8871/reconstruction/3d.html?shot=1",
+  "load_s": 0.764,
+  "views": {
+   "overview_boxes": {
+    "frame_ms_median": 291.5,
+    "frame_ms_min": 279.4,
+    "frame_ms_max": 337.8,
+    "drawn_triangles": 458048,
+    "draw_calls": 22,
+    "triangles_in_memory": 458048
+   },
+   "court_boxes": {
+    "frame_ms_median": 179.5,
+    "frame_ms_min": 165.8,
+    "frame_ms_max": 208.2,
+    "drawn_triangles": 457888,
+    "draw_calls": 21,
+    "triangles_in_memory": 458048
+   },
+   "hall_boxes": {
+    "frame_ms_median": 236.1,
+    "frame_ms_min": 174.1,
+    "frame_ms_max": 257.5,
+    "drawn_triangles": 457888,
+    "draw_calls": 21,
+    "triangles_in_memory": 458048
+   }
+  },
+  "errors": []
+ }
+}

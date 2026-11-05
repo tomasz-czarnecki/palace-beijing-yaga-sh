@@ -128,7 +128,7 @@ Measured figures (methods a and d) on a hall with a class, against `research/typ
 | Class | Figures | Within | Outside | Outside: row, what, value against default |
 |---|---|---|---|---|
 | gate_hall | 2 | 1 | 1 | YM45-03 山门 platform_h 1.25 vs 0.77 |
-| grand_hall | 18 | 5 | 13 | YM03-11 慎德堂 column_h 4.35 vs 5.12; YM03-11 慎德堂 platform_h 0.59 vs 1.22; YM03-11 慎德堂 frontage 23.36 vs [33, 40]; YM03-11 慎德堂 depth 26.49 vs [15, 19]; YM02-08 保合太和殿 frontage 32 vs [33, 40]; YM02-08 保合太和殿 depth 11.52 vs [15, 19] |
+| grand_hall | 18 | 12 | 6 | YM03-11 慎德堂 frontage 23.36 vs [33, 40]; YM03-11 慎德堂 depth 26.49 vs [15, 19]; YM02-08 保合太和殿 frontage 32 vs [33, 40]; YM02-08 保合太和殿 depth 11.52 vs [15, 19]; YM23-01 慎修思永 platform_h 0.96 vs 0.59; CC14-01 正谊明道 frontage 27.2 vs [33, 40] |
 | main_hall | 10 | 4 | 6 | YM03-01 圆明园殿 depth 7.04 vs [8, 12]; CC02-13 乐奏钧天戏台 frontage 16 vs [17, 24]; CC02-13 乐奏钧天戏台 depth 16 vs [8, 12]; CC18-N01 延清堂 platform_h 1 vs 0.7; CC18-N01 延清堂 platform_h 1 vs 0.7; CC18-N01 延清堂 depth 19.968 vs [8, 12] |
 | pavilion_square | 3 | 0 | 3 | YM20-11 静香屋 frontage 3.2 vs [4.5, 8]; YM17-02 石华表 height_ridge 8 vs 6.59; YM17-02 石华表 platform_h 1.24 vs 0.48 |
 | side_hall | 4 | 4 | 0 |  |

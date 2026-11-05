@@ -53,7 +53,7 @@ Heights above ground. Eave = platform + column (box top). The roof edge sits 0.5
 
 | Class | Bays | Frontage m | Bay m, central / side | Depth m | Platform m | Eave m | Ridge m | Roof | Pitch | Conf. |
 |---|---|---|---|---|---|---|---|---|---|---|
-| grand_hall 七至九间正殿 | 7 | 33-40 | 5.50 / 4.70 | 15-19 | 1.22 | 6.34 | 12.38 | 卷棚歇山, grey | 34.8 | B |
+| grand_hall 七至九间正殿 | 7 | 33-40 | 5.17 / 4.83 / 4.32 (Round 11) | 15-19 | 0.59 (Round 11) | 4.76 | 10.77 | 卷棚歇山, grey | 34.8 | B |
 | main_hall 五间殿 | 5 | 17-24 | 4.16 / 3.84 | 8-12 | 0.70 | 4.40 | 7.83 | 卷棚歇山 or 悬山, grey | 33.4 | B |
 | side_hall 三间配殿 | 3 | 10-14 | 3.84 / 3.52 | 6-8 | 0.54 | 3.64 | 6.26 | 卷棚硬山 or 歇山, grey | 33.1 | C |
 | small_house 小式三间 | 3 | 8-12 | 3.20 / 2.88 | 5.5-7 | 0.45 | 3.20 | 5.34 | 卷棚硬山 or 悬山, grey | 31.3 | B |
@@ -65,7 +65,7 @@ Heights above ground. Eave = platform + column (box top). The roof edge sits 0.5
 | temple_hall 祀庙正殿 | 9 | 30-44 | 5.12 / 4.48 | 14-18 | 1.40 | 7.00 | 15.5 double eave | 重檐歇山, yellow | 35.5 | C |
 | tower 三层阁 | 3 | 12-17 | 5 / 4.5 | 12-17 | 0.50 | tiers | 23.94 | 三重檐 | 32 | C |
 
-B applies to frontage, bays and platform where a named hall gives them. **Every ridge height is rule-derived, so C**, except 清音阁 23.94 m (S103). A three-roll hall (三卷, 勾连搭) repeats the main_hall section, each roll 7.55 m deep (观澜堂, S111).
+B applies to frontage, bays and platform where a named hall gives them. **Every ridge height is rule-derived, so C**, except 清音阁 23.94 m (S103). Round 11 changed the grand_hall row (Q182, Q183): section 10. A three-roll hall (三卷, 勾连搭) repeats the main_hall section, each roll 7.55 m deep (观澜堂, S111).
 
 ## 4. The Qing rules
 
@@ -232,3 +232,29 @@ Text from web pages is research-only unless stated. Nothing here copies images.
 | S129 | 郭黛姮, 《〈圆明园内工则例〉评述》, in a volume on 清代则例 (contents list only) | n.d. | book | found | https://pre.iudicium.de/assets/content/programm/isbn-978-3-89129-405-5/iudicium-9783891294055-inhalt-moll-murata-chinese-handicraft-regulations.pdf | 内工则例 lead |
 
 S124 is unused. S02, S01, S03, S06 and S08 are the reserved IDs. The Forty Scenes leaves were read from Wikimedia Commons copies of S08 ("Hall of Rectitude and Honor.jpg", "Beautiful Scene of the Square Pot.jpg").
+
+## 10. Round 11: the class defaults re-read, and the hall kit
+
+**Applied, each against its evidence in `research/scenes/dimensions.csv` (method a):**
+- **Q182, grand_hall column and platform.** The Round 1 values (column 5.12 m, platform 1.22 m) were those of 正大光明殿, the audience hall. The class's other measured halls are lower. Columns: 慎德堂 YM03-11 4.35 m, 保合太和殿 YM02-08 4.48 m (S310). Platforms: 慎修思永 YM23-01 column 4.0 m and platform 0.96 m (S310); 慎德堂's platform 0.59 m (S310); 田字殿 YM20-01 column 3.68 m and platform 0.55 m (S139, S137). The class now takes the medians, run by `scripts/typology_rules.py`: **column 4.17 m, platform 0.59 m**, eave 4.76 m, ridge 10.77 m (rule, C). 正大光明殿 keeps 5.12 and 1.22 m in `by_name`.
+- **Q183, grand_hall bays.** The yellow slip of NLC 样001-4 for 正大光明殿 gives 明间 1.615 丈, 次间 1.51 丈 and 梢间 1.35 丈 (S310): **5.17 / 4.83 / 4.32 m**. The class was drawn from that hall as its type, so its own drawing replaces the plan-read split 5.50 / 4.70.
+- **Q184, 清音阁.** `by_name` takes the Yangshi Lei figures as transcribed on mhymy 7297 (S310): bays 5.50 and 4.51 m, 3 x 3 bays, 14.52 m square (it matches the 中层檐内通见方 of 14.53 m), platform 0.96 m, 下出 1.12 m, columns 4.42, 3.71 and 2.72 m, ridge 23.94 m. `boxes1860.py` puts the three eaves at 5.38, 12.18 and 18.0 m: the top roof keeps the tower class's rise, and the two floor zones share what is left (C).
+
+**Left open:** Q185, 安佑宫's 华表. Its block is absorbed into the 牌坊's. The form is known, the places of the four columns are not.
+
+**Also from Round 11:**
+- A hall with its own figures in a dossier takes them over the class: column, platform, ridge (`figures` on the box). Method a or b wins over `by_name` too; c or d only over the class.
+- A roof form or tile colour read on the album for that hall (`research/scenes/halls.csv`, Round 7) wins over the class when the reading names one form (`roof_src`, `tiles_src`, `tile_edge`, `sides`). 39 boxes took a roof reading and 38 a tile reading.
+
+**The kit's defaults** (`scripts/kit1860.py`; overview in `research/kit/README.md`):
+
+| Item | Default | Source or reason |
+|---|---|---|
+| 举架 by class, eave to ridge | grand 五 / 六 / 七五 / 九; temple and tower 五 / 六五 / 七五 / 九; main, side, gate 五 / 六五 / 八五; small house, storeyed hall, gallery 五 / 七; pavilions 五 / 七 / 九 | S101, section 4; the roof's profile |
+| Bracket sets 斗拱 as a band | grand_hall, temple_hall, gate_hall, tower | S101 (大式); S112 (澹怀堂, 长春园宫门) |
+| Back porch 后廊 | the hall's own figure, else by seed: small house 70 %, main 80 %, grand and temple 100 %, side 30 %, storeyed 60 % | S111 (惠如春, 松风阁: two porches); the shares are C |
+| Porch all round 周围廊 | grand_hall, temple_hall over 12 m | S02 (正大光明殿) |
+| Steps 踏跺 | 0.15 m rise, tread at most 0.3 m, the flight no longer than the overhang | C |
+| Balustrade | grand and temple halls, any platform of 0.95 m or more | C |
+| Unread gable on a small house | 硬山 60 %, 悬山 40 % by seed | params.json "卷棚硬山 or 悬山"; Q206 |
+| Colours | lacquer red-brown, brick grey, panes dark, the eave band blue-green | chosen for the view; Q204, Q205 |

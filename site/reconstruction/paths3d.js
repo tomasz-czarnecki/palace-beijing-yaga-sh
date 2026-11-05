@@ -10,7 +10,7 @@ const PATH_COLOURS = {
 
 function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base }) {
   const LIFT = 0.07, STEP_M = 4;
-  const groups = { sure: new THREE.Group(), assumed: new THREE.Group(), boat: new THREE.Group() };
+  const groups = { sure: new THREE.Group(), assumed: new THREE.Group(), boat: new THREE.Group(), gallery: new THREE.Group() }; // Round 11: the galleries' posts and roofs on their own, so the hall kit can stand in for them
   const yAt = (x, z) => { const g = groundAt(x, z); return (g === null ? base : g) + LIFT; };
   const c = new THREE.Color();
   // One geometry per group, two colour sets: by kind and by confidence.
@@ -92,7 +92,7 @@ function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base }) {
     g.computeVertexNormals();
     return new THREE.Mesh(g, new THREE.MeshLambertMaterial({ color: hex }));
   };
-  groups.sure.add(solid(posts, PATH_COLOURS.post), solid(roofs, PATH_COLOURS.roof));
+  groups.gallery.add(solid(posts, PATH_COLOURS.post), solid(roofs, PATH_COLOURS.roof));
   // landings: a platform 3 m along the shore and 2.5 m out over the water, top at the bank (a dock: 4 x 6 m)
   const plat = [];
   for (const f of landings.features) {

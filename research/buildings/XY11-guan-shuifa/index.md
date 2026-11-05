@@ -27,6 +27,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** throne platform: 14.5 × 11.5 m, eave 1.3 m, ridge 1.3 m
 - **1 ×:** screen of five marble panels: 14.46 × 1 m, eave 5.1 m, ridge 5.1 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Pictures (16)

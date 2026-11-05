@@ -1,5 +1,5 @@
 {
- "grand_hall": {
+ "grand_hall_r1": {
   "bays": 7,
   "bay_central": 5.5,
   "bay_side": 4.7,
@@ -15,6 +15,25 @@
   "eave_tip": 5.57,
   "rise": 5.4,
   "ridge": 12.38,
+  "pitch": 34.8,
+  "arith": "inner 13.34 = 2x3x2.02 + top 1.21; rise = 1.70x0.5 + 2.02x0.6 + 2.02x0.75 + 2.02x0.9 = 5.40"
+ },
+ "grand_hall": {
+  "bays": 7,
+  "bay_central": 5.17,
+  "bay_side": 4.83,
+  "porch": 1.7,
+  "frontage": 37.55,
+  "depth": 16.74,
+  "column": 4.17,
+  "platform": 0.59,
+  "overhang": 1.25,
+  "lower_out": 1.0,
+  "dia": 0.36,
+  "eave": 4.76,
+  "eave_tip": 4.13,
+  "rise": 5.4,
+  "ridge": 10.77,
   "pitch": 34.8,
   "arith": "inner 13.34 = 2x3x2.02 + top 1.21; rise = 1.70x0.5 + 2.02x0.6 + 2.02x0.75 + 2.02x0.9 = 5.40"
  },

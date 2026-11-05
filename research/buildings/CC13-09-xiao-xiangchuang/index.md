@@ -27,6 +27,7 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 - **Heights:** platform 0.45 m, eave 5.95 m, ridge 8.57 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 175° from north
+- **Drawn:** by the hall kit: 3 bays, the middle widest, a porch front, steps on the front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, a painted beam under the eave. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
 - **Confidence:** C, assumed
 
 ## Pictures (0)

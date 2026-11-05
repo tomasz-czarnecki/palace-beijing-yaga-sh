@@ -35,6 +35,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Heights:** platform 1 m, eave 15.1 m, ridge 18.3 m above the ground
 - **Roof:** hip 庑殿, glazed tile
 - **Faces:** 173.8° from north
+- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
 - **Confidence:** C, assumed
 
 ## Inside it (5)
@@ -313,6 +314,7 @@ Modern interpretation, not evidence.
 - Q72: 谐奇趣 (Round 6)
 - Q75: Fragments and their wording (Round 6)
 - Q187: Changchun Yuan's west part reads 12-23 m too far east
+- Q207: Each European front as the plates draw it
 
 <!-- generated:end -->
 

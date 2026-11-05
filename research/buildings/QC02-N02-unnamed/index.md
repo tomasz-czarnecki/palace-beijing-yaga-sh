@@ -22,10 +22,11 @@ Qichun Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **1 ×:** main hall: 18.4 × 9.1 m, eave 4.4 m, ridge 7.52 m
 - **1 ×:** main hall: 17.9 × 10 m, eave 4.4 m, ridge 7.83 m
+- **Drawn:** by the hall kit; 2 of 2 drawn from the typology of their hall class, not from a picture of these halls
 - **Confidence:** B
 
 ## Pictures (0)

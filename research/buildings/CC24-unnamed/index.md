@@ -25,6 +25,7 @@ Assumed: the plan shows this compound's place and no single hall, so a few boxes
 - **Heights:** platform 0.7 m, eave 4.4 m, ridge 7.83 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 175° from north
+- **Drawn:** by the hall kit: 5 bays, the middle widest, a porch front and back, steps on the front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, a painted beam under the eave. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
 - **Confidence:** C, assumed
 
 ## Pictures (0)

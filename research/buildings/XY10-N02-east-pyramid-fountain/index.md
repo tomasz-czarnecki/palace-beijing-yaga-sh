@@ -28,6 +28,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** round basin, quatrefoil on S603's plan: 18 × 18 m, eave 0.5 m, ridge 0.5 m
 - **1 ×:** pyramid fountain tower: 4.6 × 4.2 m, eave 5 m, ridge 21.2 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** B and C, some assumed
 
 ## Pictures (1)

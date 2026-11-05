@@ -10,28 +10,30 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 清音阁 Qingyin Ge (S05, S43, S01, S103, S202, S310 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S43, S01, S103, S202, S310)
-- **Type:** theatre (S05, S43, S01, S103, S202, S310 · confidence B)
-- **Changed:** 1838 (道光十八年): a plan to cut the stage to two storeys, 3.60 m lower, was opposed by officials and a eunuch on feng-shui grounds; the outcome is in the locked part of the page (S05, S43, S01, S103, S202, S310)
-- **Destroyed:** 1860 (S05, S43, S01, S103, S202, S310)
+- **Name:** 清音阁 Qingyin Ge (S05, S43, S01, S310, S103, S202 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S43, S01, S310, S103, S202)
+- **Type:** theatre (S05, S43, S01, S310, S103, S202 · confidence B)
+- **Changed:** 1838 (道光十八年): a plan to cut the stage to two storeys, 3.60 m lower, was opposed by officials and a eunuch on feng-shui grounds; the outcome is in the locked part of the page (S05, S43, S01, S310, S103, S202)
+- **Destroyed:** 1860 (S05, S43, S01, S310, S103, S202)
 - **Position:** 40.00724, 116.29323. S01 likely (S01 · confidence B)
-- **Size in the inventory:** 14 × 13 m. stated in a source (S01)
+- **Size in the inventory:** 14.52 × 14.52 m. stated in a source (S01)
 - **Lead on its size, from a modern study, not used in the model:** three-storey stage, 23.94 m from stage floor to ridge (S312, section 1.1). (confidence B)
-- **Storeys:** 3 (S05, S43, S01, S103, S202, S310)
-- **Note:** S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼. Stage about 十丈 deep and wide, as printed, not converted; three tiers (S202, 卷十三, line 938). orientation: faces north (坐南朝北), towards the viewing hall 同乐园看戏楼 YM44-01 (S310, mhymy ysltd 7297). frontage_m: 32 (S202, 卷十三, line 938 of the corpus file (E2148)). (S05, S43, S01, S103, S202, S310)
+- **Storeys:** 3 (S05, S43, S01, S310, S103, S202)
+- **Note:** S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼. Stage about 十丈 deep and wide, as printed, not converted; three tiers (S202, 卷十三, line 938). orientation: faces north (坐南朝北), towards the viewing hall 同乐园看戏楼 YM44-01 (S310, mhymy ysltd 7297). frontage_m: 32 (S202, 卷十三, line 938 of the corpus file (E2148)). (S05, S43, S01, S310, S103, S202)
 - **Plan reader's note:** 清音阁: octagon-cornered square south of the label. Text faces N. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 4768, 2965 (S01) *(research copy, not public)*
 
 ## Our model now
 
-A plain box at a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated.
+At a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated; its form drawn by the hall kit.
 
-- **Box:** 14 × 13 m, storeyed hall
-- **Heights:** platform 0.5 m, eave 18 m, ridge 23.94 m above the ground
+- **Box:** 14.52 × 14.52 m, storeyed hall
+- **Heights:** platform 0.96 m, eave 18 m, ridge 23.94 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 353.2° from north
+- **Own figures:** platform 0.96 m (a, B, S310); column 4.42 m (a, B, S310); ridge 23.94 m (a, B, S310)
+- **Drawn:** by the hall kit: 3 bays, the middle widest, a porch front and back, steps on the front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, a painted beam under the eave. From its own figures and readings where the dossier gives them (platform: 0.96 m, a B, S310; column: 4.42 m, a B, S310; ridge: 23.94 m, a B, S310; platform edge 下出: 1.12 m, a B, S310; bays: central 4.51 m, side 4.51 m, a B, S310), the rest from the typology of its hall class.
 - **Confidence:** B
 
 ## Pictures (0)

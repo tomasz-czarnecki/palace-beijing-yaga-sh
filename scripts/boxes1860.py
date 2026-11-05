@@ -26,7 +26,7 @@ from shapely.geometry import LineString, MultiLineString, Point, Polygon, shape
 from shapely.ops import unary_union
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from scene1860 import DATUM_M, GENERATED, GROUND_M, ROOT, SITE_DATA, WATER_M, Grid, layer, params, to_lonlat, to_xz  # noqa: E402
+from scene1860 import DATUM_M, GENERATED, GROUND_M, ROOT, SITE_DATA, WATER_M, Grid, figures, layer, params, to_lonlat, to_xz  # noqa: E402
 
 # Roof by hall class. Grey rolled ridges are the rule, with named exceptions: S06, S08 (two album leaves viewed), S112; research/typology/halls.md section 5.
 ROOF_BY_CLASS = {
@@ -70,6 +70,7 @@ P = params()
 CLASSES = P["classes"]
 BY_NAME = P["by_name"]
 WALL = P["other"]["garden_wall"]  # height 2.8 m (S116, B), thickness 0.8 m (guess, C)
+FIG = figures()  # Round 11: the dossiers' figures by building id: a column, a platform or a ridge stated for this hall wins over the class (method a or b also over by_name)
 GRID = None  # the ground, loaded on first use (ground1860.py imports layout() before any ground exists)
 OVER_WATER_DECK_M = 0.8  # a box wholly over water stands on a base this above the water: guess, C (the album: pavilions over the water on stone bases)
 
@@ -383,10 +384,51 @@ def fit_boxes(boxes, water):
     return boxes, log
 
 
+HALLS_READ = {r["id"]: r for r in csv.DictReader(open(ROOT / "research/scenes/halls.csv", encoding="utf-8", newline=""))}  # Round 7: each hall as a source states it (the 1744 leaves, the texts)
+TILE_WORDS = [("purple", ("purple", "紫")), ("yellow", ("yellow", "黄")), ("green", ("green", "绿", "孔雀")), ("blue", ("blue", "蓝")), ("black", ("black", "黑")), ("grey", ("grey", "灰"))]
+
+
+def read_roof(text):
+    """Round 11: a roof form read in research/scenes/halls.csv, only where the reading is one form: (form, rolled or None, double, sides) or None."""
+    t = text.lower()
+    if not t or " or " in t or "cannot tell" in t or "uncertain" in t:
+        return None
+    forms = [f for f, keys in (("hip", ("庑殿",)), ("hip_gable", ("歇山",)), ("pyramid", ("攒尖", "pyramid", "六方", "八方", "六角", "八角", "octagonal pavilion", "hexagonal pavilion")), ("gable", ("gable", "硬山", "悬山"))) if any(k in t for k in keys)]
+    if "歇山" in t and "gable" in forms and ("hip-gable" in t or "歇山-like" in t):
+        forms.remove("gable")
+    double = "重檐" in t or "double eaves" in t or t.startswith("double")
+    if len(forms) != 1:
+        return (None, None, True, None) if double and not forms else None
+    rolled = True if ("卷棚" in t or "rolled" in t) else None
+    sides = 6 if any(k in t for k in ("六方", "六角", "hexagonal")) else 8 if any(k in t for k in ("八方", "八角", "octagonal")) else None
+    return forms[0], rolled, double, sides
+
+
+def read_tiles(text):
+    """Round 11: a tile colour read in research/scenes/halls.csv: (field, edge 剪边) codes or None. A reading with 'uncertain' or a '?' is skipped."""
+    t = text.lower()
+    if not t or "uncertain" in t or "?" in t:
+        return None
+
+    def first(seg):
+        hits = [(seg.find(k), c) for c, keys in TILE_WORDS for k in keys if k in seg]
+        return min(hits)[1] if hits else None
+
+    segs = re.split(r",|;| with ", t)
+    edge_seg = next((x for x in segs if any(w in x for w in ("edge", "trim", "edging", "剪边"))), None)
+    edge = first(edge_seg) if edge_seg else None
+    field = first(" ".join(x for x in segs if x is not edge_seg))
+    if field is None and ("glazed" in t or "琉璃" in t):
+        field = "glazed"
+    return (field, edge if edge != field else None) if field else None
+
+
 def roof_of(b, r):
+    """form, rolled, double, tiles, extra: the class's roof, a roof stated in buildings.csv, a reading of the hall in research/scenes/halls.csv (Round 11), by_name. extra holds sides (6, 8), tile_edge and roof_src."""
     cls = b.cls
     form, rolled, double = ROOF_BY_CLASS.get(cls, ("hip_gable", True, False))
     tiles = "grey"
+    extra = {"roof_src": "class"}
     text = (r.get("roof") or "") if r else ""
     if "庑殿" in text:
         form = "hip"
@@ -398,32 +440,76 @@ def roof_of(b, r):
         form = "pyramid"
     if text:
         rolled = "卷棚" in text
+        extra["roof_src"] = "buildings.csv"
+        if "悬山" in text or "硬山" in text:
+            extra["gable_kind"] = "xuanshan" if "悬山" in text else "yingshan"
     if "重檐" in text:
         double = True
+    read = HALLS_READ.get(b.bid)
+    if read and not text:
+        got = read_roof(read["roof"])
+        if got and got[0] is None:
+            double = True
+            extra["roof_src"] = f"halls.csv {read['source_id']} {read['confidence']}"
+        elif got:
+            read_form, rd, dbl, sides = got
+            # a single bay pavilion stays a pavilion: a leaf's 歇山 on a 1-bay box is read as its crown
+            if not (read_form != "pyramid" and cls == "pavilion_square"):
+                form = read_form
+                if rd is not None:
+                    rolled = rd
+                elif form in ("pyramid", "hip"):
+                    rolled = False
+                double = double or dbl
+                if sides:
+                    extra["sides"] = sides
+                if "悬山" in read["roof"] or "硬山" in read["roof"]:
+                    extra["gable_kind"] = "xuanshan" if "悬山" in read["roof"] else "yingshan"
+                extra["roof_src"] = f"halls.csv {read['source_id']} {read['confidence']}"
     t = (r.get("roof_tiles") or "") if r else ""
     for code, keys in GLAZE.items():
         if any(k in t for k in keys):
             tiles = code
             break
+    if read and not t:
+        got = read_tiles(read["tiles"])
+        if got:
+            tiles = got[0]
+            if got[1]:
+                extra["tile_edge"] = got[1]
+            extra["tiles_src"] = f"halls.csv {read['source_id']} {read['confidence']}"
     name = label(r) if r else ""
     named = BY_NAME.get(BY_NAME_ALIAS.get(name, name), {})
     if "yellow" in named.get("tiles", ""):
         tiles = "yellow"
     elif "black" in named.get("tiles", ""):
         tiles = "black"
-    if (b.parent or "") == "YM29" and cls not in ("small_house", "side_hall", "gallery"):
+        if "green edge" in named.get("tiles", ""):
+            extra["tile_edge"] = "green"
+    if (b.parent or "") == "YM29" and cls not in ("small_house", "side_hall", "gallery") and "tiles_src" not in extra:
         tiles = "mixed"  # 方壶胜境: blue, yellow, green glazed halls, and a grey-roofed side court in the same leaf (S08, viewed)
-    return form, rolled, double, tiles
+    return form, rolled, double, tiles, extra
 
 
 def heights(b, r, f, d):
-    """platform, eave, ridge, mid_eave, rolls from the class, or from a stated hall in by_name."""
+    """platform, eave, ridge, mid_eave, rolls, tiers, used: from the class, or from a stated hall in by_name, or from the hall's own figures in its dossier (Round 11).
+    A figure of method a or b wins over by_name; one of method c or d only over the class. `used` names the figures taken: {kind: [value, method, grade, source]}."""
     c = CLASSES.get(b.cls) or CLASSES["small_house"]
     name = label(r) if r else ""
     named = BY_NAME.get(BY_NAME_ALIAS.get(name, name), {})
-    platform = named.get("platform_m", c["platform_m"])
-    column = named.get("column_m")
-    eave = c["eave_m"]
+    fig = FIG.get(b.bid, {})
+    used = {}
+
+    def pick(what, named_key, default):
+        x = fig.get(what)
+        if x and (x["method"] in "ab" or named_key not in named):
+            used[what] = [x["value"], x["method"], x["confidence"], x["source"]]
+            return x["value"]
+        return named.get(named_key, default)
+
+    platform = pick("platform_h", "platform_m", c["platform_m"])
+    column = pick("column_h", "column_m", None)
+    eave = c["eave_m"] - c["platform_m"] + platform
     if isinstance(column, (int, float)):
         eave = platform + column
     mid = c.get("mid_eave_m")
@@ -431,8 +517,17 @@ def heights(b, r, f, d):
     tiers = None
     if storeys >= 3 or (named.get("storeys") == 3):
         t = CLASSES["tower"]
-        platform, ridge, tiers, mid = t["platform_m"], named.get("ridge_m", t["ridge_m"]), t["tiers_m"], None
-        return platform, tiers[-1], ridge, None, 1, tiers
+        ridge = pick("height_ridge", "ridge_m", t["ridge_m"])
+        cols = named.get("column_m")
+        if isinstance(cols, list) and len(cols) == 3:
+            # Three storeys with their columns stated (清音阁, Q184): the top roof keeps the class's rise (C), the two floor zones between the storeys share what is left (C).
+            top_rise = t["ridge_m"] - t["tiers_m"][-1]
+            t1 = platform + cols[0]
+            zone = (ridge - top_rise - t1 - cols[1] - cols[2]) / 2
+            tiers = [round(t1, 2), round(t1 + zone + cols[1], 2), round(t1 + 2 * zone + cols[1] + cols[2], 2)]
+        else:
+            platform, tiers = t["platform_m"], t["tiers_m"]
+        return platform, tiers[-1], ridge, None, 1, tiers, used
     if (storeys == 2 or named.get("storeys") == 2) and mid is None:
         t = CLASSES["storeyed_hall"]
         platform, eave, mid = t["platform_m"], t["eave_m"], t["mid_eave_m"]
@@ -446,10 +541,10 @@ def heights(b, r, f, d):
     rise = (c["ridge_m"] - c["eave_m"]) * min(max((d / rolls) / ((lo + hi) / 2), RISE_CLAMP[0]), RISE_CLAMP[1])
     if b.cls == "pavilion_square":
         rise = (c["ridge_m"] - c["eave_m"]) * min(max(min(f, d) / ((lo + hi) / 2), RISE_CLAMP[0]), RISE_CLAMP[1])
-    ridge = named.get("ridge_m", eave + rise)
-    if b.cls == "temple_hall" and "ridge_m" not in named:
+    ridge = pick("height_ridge", "ridge_m", eave + rise)
+    if b.cls == "temple_hall" and "ridge_m" not in named and "height_ridge" not in used:
         ridge = c.get("ridge_double_eave_m", ridge)
-    return platform, eave, ridge, mid, rolls, tiers
+    return platform, eave, ridge, mid, rolls, tiers, used
 
 
 def feature(b):
@@ -470,11 +565,11 @@ def feature(b):
         g = (lev if lev is not None else 0.0) + OVER_WATER_DECK_M
     e = b.extra
     if "eave" in e:
-        platform, eave, ridge, mid, rolls, tiers = e["platform"], e["eave"], e["ridge"], None, 1, None
-        form, rolled, double, tiles = e.get("roof", "hip"), e.get("rolled", False), e.get("double", False), e.get("tiles", "glazed")
+        platform, eave, ridge, mid, rolls, tiers, used = e["platform"], e["eave"], e["ridge"], None, 1, None, {}
+        form, rolled, double, tiles, roof_extra = e.get("roof", "hip"), e.get("rolled", False), e.get("double", False), e.get("tiles", "glazed"), {}
     else:
-        platform, eave, ridge, mid, rolls, tiers = heights(b, r, f, d)
-        form, rolled, double, tiles = roof_of(b, r)
+        platform, eave, ridge, mid, rolls, tiers, used = heights(b, r, f, d)
+        form, rolled, double, tiles, roof_extra = roof_of(b, r)
     over = b.over_water or e.get("over_water", False)
     # On ground that is not flat under it (a pad's edge, a shore cell of the mesh) the platform stands on its highest land: nothing is buried past the platform.
     top_part = eave if e.get("shape") in ("terrace", "wall", "pool", "basin") else platform
@@ -498,6 +593,9 @@ def feature(b):
         props["mid_eave_m"] = round(mid, 2)
     if tiers:
         props["tiers_m"] = tiers
+    if used:
+        props["figures"] = used
+    props.update({k: v for k, v in roof_extra.items() if k != "roof_src" or v != "class"})
     if b.t < 1:
         props["fit"] = round(b.t, 1)
     if b.shift > 0:

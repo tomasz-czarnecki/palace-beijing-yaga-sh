@@ -5,7 +5,7 @@
   <base href="/reconstruction/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>3D view · 圆明园 Yuanmingyuan before 1860</title>
-  <meta name="description" content="The three gardens of the Old Summer Palace (圆明园 Yuanmingyuan) before October 1860, at real scale: walls, water, islands and hills, and every hall on the Qing plan as a simple box.">
+  <meta name="description" content="The three gardens of the Old Summer Palace (圆明园 Yuanmingyuan) before October 1860, at real scale: walls, water, islands and hills, and every hall on the Qing plan drawn from its numbers.">
   <link rel="icon" href="../favicon.ico" sizes="32x32">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -140,10 +140,11 @@
   </header>
   <div id="panel">
     <h1><span lang="zh-Hans">圆明园</span> before October 1860</h1>
-    <label><input type="checkbox" id="halls" checked> Halls (boxes)</label>
+    <label><input type="checkbox" id="halls" checked> Halls</label>
+    <label><input type="checkbox" id="kit" checked> Hall kit: forms from the typology (off: plain boxes)</label>
     <label><input type="checkbox" id="walls" checked> Walls and bridges</label>
     <label><input type="checkbox" id="paths" checked> Paths, galleries and landings</label>
-    <label><input type="checkbox" id="assumed" checked> Assumed paths and hills (C)</label>
+    <label><input type="checkbox" id="assumed" checked> Assumed (C): halls with no block, courts, forms from the class, paths, hills</label>
     <label><input type="checkbox" id="labels" checked> Names</label>
     <label><input type="checkbox" id="conf"> Colour by confidence</label>
     <label><input type="checkbox" id="contours"> Contour lines (1 m)</label>
@@ -152,15 +153,17 @@
     <select id="route" aria-label="Walk a route"><option value="">Walk a route…</option></select>
     <div id="legend">
       <div id="legend-plain">
-        <div><span style="background:#c2a98a"></span><span style="background:#5f6469"></span>a hall on the plan: box, grey roof</div>
-        <div><span style="background:#e7e0d3"></span>assumed: a box with no hall drawn</div>
-        <div><span style="background:#e2ddcf"></span><span style="background:#4b86a3"></span>Xiyang Lou massing, from survey, plan and plates</div>
-        <div><span style="background:#d6a31c"></span><span style="background:#3e6fa6"></span><span style="background:#3d8d92"></span><span style="background:#2b2d31"></span>glazed roofs where a source says so</div>
+        <div><span style="background:#8a2f22"></span><span style="background:#5f6469"></span>a hall on the plan, drawn by the kit from its hall class: red-brown lacquer, grey tile (the rule)</div>
+        <div><span style="background:#2e6a6c"></span>the eave band: bracket sets on the large halls, a painted beam on the small</div>
+        <div><span style="background:#e2dbcf"></span><span style="background:#b98b7c"></span>assumed: a hall with no block on the plan, paler</div>
+        <div><span style="background:#b9b2a2"></span>paved courts between the halls (assumed, C)</div>
+        <div><span style="background:#ebe7dd"></span><span style="background:#9c968d"></span>Xiyang Lou: the stone kit, white marble frame, grey brick, glazed roofs</div>
+        <div><span style="background:#d6a31c"></span><span style="background:#3e6fa6"></span><span style="background:#3f8f6a"></span><span style="background:#6a4763"></span><span style="background:#2b2d31"></span>glazed roofs where a source says so</div>
       </div>
       <div id="legend-conf" hidden>
         <div><span style="background:#2f8f4e"></span>A</div>
         <div><span style="background:#d9a441"></span>B: a block on the plan S01, until Q2 is settled</div>
-        <div><span style="background:#c4513a"></span>C: a guess</div>
+        <div><span style="background:#c4513a"></span>C: a guess. The kit's roofs and openings take the grade of their form: C where it is the class's</div>
         <div><span style="background:#cdc8b6"></span>ground: level, the plain from today's 30 m DEM (C) <span style="background:#d9a441;margin-left:8px"></span><span style="background:#c4513a"></span>hills by the grade of their height</div>
         <div><span style="background:#d8bfae"></span>assumed hill: no hill drawn, free land where the 1744 album rings the scenes with hills <span style="background:#96928a;margin-left:8px"></span>stone bank</div>
       </div>
@@ -172,7 +175,7 @@
       </div>
       <div><span style="background:#6f9fb0"></span>water <span style="background:#899862;margin-left:8px"></span>land <span style="background:#567446;margin-left:8px"></span>hills</div>
     </div>
-    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, ground from today's 30 m DEM, the 1744 album and typology: most hills are guesses (C), the pale ones generated where the plan draws none. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height.</div>
+    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, and the halls are drawn by a kit from their hall class unless a source gives their own figures, ground from today's 30 m DEM, the 1744 album and typology: most hills are guesses (C), the pale ones generated where the plan draws none. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height.</div>
   </div>
   <aside id="bpanel" aria-label="Building" hidden></aside>
   <div id="lightbox" role="dialog" aria-label="Picture" hidden>
@@ -190,6 +193,8 @@
   <script src="vendor/three.bundle.js"></script>
   <script src="ground3d.js"></script>
   <script src="halls3d.js"></script>
+  <script src="stonekit3d.js"></script>
+  <script src="kit3d.js"></script>
   <script src="paths3d.js"></script>
   <script src="panel3d.js"></script>
   <script src="3d.js"></script>

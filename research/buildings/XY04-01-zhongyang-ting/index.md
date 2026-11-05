@@ -28,6 +28,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** round stair base: 21 × 21 m, eave 1 m, ridge 1 m
 - **1 ×:** central pavilion, timber with a glazed roof: 7.7 × 7.7 m, eave 3.5 m, ridge 7 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Pictures (8)

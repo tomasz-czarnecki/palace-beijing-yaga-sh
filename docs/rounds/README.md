@@ -21,6 +21,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r8_georef` | not recorded | 2026-11-05, from 17:57 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r9_paths` | not recorded | 2026-11-05, from 19:22 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r10_ground` | not recorded | 2026-11-05, from 20:34 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r11_kit` | not recorded | 2026-11-05, from 21:53 | about 1 h 35 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -274,4 +275,55 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
   - The mesh departs from the design raster by up to 4.3 m in the 10 m shore cells. The view drapes on the mesh, so nothing floats, but hills there are flattened.
   - 南大桥 and others whose lines run over land in the water layer lie flush (Q191).
   - Plan rockeries (the hatched clumps) are not traced.
+
+## palace_r11_kit
+
+**Asked:** draw every hall from its data instead of a plain box, so that no place stands empty: a Qing hall kit (platform, steps, columns, doors and windows, roofs by class with 起翘 and the 举架 profile, a bracket band, galleries, courts, seeded variation, a lower level of detail far off), a stone kit for the Xiyang Lou, the hall's own figures where a dossier gives them, `kit=0` and `assumed=0`; re-read Q182-Q185; `tools/check_kit.py`; screenshots before and after.
+
+**Delivered:**
+- **The numbers:** `scripts/kit1860.py` writes `site/reconstruction/data/kit_1860.json` (one entry per box: bays, porches, steps, roof class, tiles, band, where the form comes from) and `generated/courts.bin` (17.3 ha of courts, 58,582 triangles).
+- **The kits:** `site/reconstruction/kit3d.js` (the hall kit, the courts, the galleries of Round 9) and `site/reconstruction/stonekit3d.js` (the Xiyang Lou), in 124 tiles of 180 m with a far level built at load and a near level built only within 420 m of the camera. `halls3d.js` keeps the boxes, picking, selection and the confidence tint, now over several meshes with byte colours and flat shading. `3d.js` and `3d.html` add the switch `kit` and the legend. `paths3d.js` puts its gallery roofs in their own group, hidden when the kit is on.
+- **The data:** `scripts/boxes1860.py` takes a hall's own figures from its dossier (`figures()` in `scripts/scene1860.py`; 37 boxes changed height) and a roof or tile read for the hall in `research/scenes/halls.csv` (39 roofs, 38 tiles; `roof_src`, `tiles_src`, `tile_edge`, `sides`, `gable_kind`).
+- **Typology:**
+  - Q182 and Q183 applied: grand_hall column 5.12 to 4.17 m, platform 1.22 to 0.59 m, the medians of its measured halls by `scripts/typology_rules.py`; bays 5.17 / 4.83 / 4.32 m from 正大光明殿's slip.
+  - Q184 applied: 清音阁 from its drawing, 14.52 m square, platform 0.96 m, three column heights, its eaves at 5.38, 12.18 and 18.0 m.
+  - Q185 left open: the 华表's block is absorbed into the 牌坊's, and no positions are read for the four columns.
+  - `scripts/build_r1.py` and `apply_facts.py` rerun: only the row and footprint of 清音阁 changed.
+- **Panel:** the model block's "Drawn" row says how the kit draws the box. A class hall's says "drawn from the typology of its hall class, not from a picture of this hall (assumed, C)". An "Own figures" row lists a dossier's figures (`scripts/building_pages.py`).
+- **Check:** `tools/check_kit.py` (`--browser`, `--before-url`) writes `research/kit/kit_check.json`, `research/kit/kit_browser.json` and `research/kit/kit_report.json`; the overview is `research/kit/README.md`.
+- **Records:** Q204-Q208, two wishes, `research/typology/halls.md` section 10, `docs/METHOD.md` phase 16 and the kit's pitfalls.
+
+**Numbers** (`tools/check_kit.py`; before = the commit of Round 10 served from an export, measured in the same session, software WebGL, 1400 x 900):
+- **Drawn:** 1634 of 1634 boxes, 1555 by the hall kit and 79 by the stone kit.
+  - Form from the class 1476, a dossier 154, a stated size 4, a model 0.
+  - Roofs: 歇山 418, 硬山 596, 悬山 268, 攒尖 289, 庑殿 63; 卷棚 on 1265.
+  - Tiles: grey 1530, glazed 71, slate 1, stone 32.
+  - Courts 17.3 ha.
+- **Inside the box:** body or roof beyond the footprint median 0.19 m, max 0.66 m, none beyond its overhang; steps at most the overhang (max 2.16 m on a temple hall).
+- **Joints:**
+  - Before, no hall had steps: the 1351 way ends at a box side dropped 0.41 m median, up to 2.13 m, to the platform's top.
+  - Now 2385 flights stand on the ground (feet within 0.01 m), and 1333 of those ends meet a flight within 1.5 m (gap median 0, max 0.1 m).
+  - 11 ends are at a pool, a wall, a court or a hall on a terrace; 7 meet a side within 0.14 m of the platform's top.
+- **Cost:**
+  - Overview: before 325 ms and 458 k triangles drawn; after, with the kit, 325 ms, 575 k drawn, 666 k in memory.
+  - 同乐园 from 150 m: before 165 ms; after 272 ms, 548 k drawn.
+  - One hall from 40 m: before 174 ms; after 280 ms, 586 k drawn, 1.31 M in memory.
+  - All near levels together would be 1.68 M triangles; far levels 150 k.
+- **Files:** kit_1860.json 0.59 MB, courts.bin 1.05 MB, the two scripts 0.07 MB: 1.71 MB.
+
+**Checked:** `tools/check_kit.py`, `check_pages.py`, `check_evidence.py`, `check_docs.py`, `check_georef.py`, `check_paths.py` and `check_ground.py` pass. Step 6 run twice changes nothing. Screenshots in `screenshots/r11/`, before and after from one page load each, opened. Console clean.
+
+**Went wrong or left open:**
+- The first near level, built for every tile at load, held 4.8 M triangles (about 0.9 GB with float colours and normals). Lazy tiles, lighter openings (faces, not boxes), byte colours and flat shading took it to 0.67-1.3 M.
+- The bracket band poked through every roof as a red stripe. Bands are now capped at the roof's profile.
+- Shore steps hung over the banks, and ground probes counted as geometry in the footprint measure. Both fixed.
+- One `pkill -f` matched its own shell and killed the command. Use `pkill -f "[s]erve_local..."`.
+- **Still weak:**
+  - 1476 forms are the class's.
+  - Colours, windows and doors are not read from any picture of this garden (Q204, Q205).
+  - The 硬山 / 悬山 split is seeded (Q206).
+  - The stone kit gives every European front the same vocabulary (Q207).
+  - The courts are a closing of the halls, not the compound walls (Q208).
+  - Round 9's galleries draw a Chinese gallery in front of 谐奇趣.
+  - In software WebGL a close view costs about 1.6x the old frame time.
 

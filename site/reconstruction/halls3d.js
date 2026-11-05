@@ -1,21 +1,56 @@
-// The boxes of the gardens: every feature of data/halls_1860.geojson (scripts/boxes1860.py) as a platform, a wall box and a simple roof, all merged into one mesh. Classic script, loaded before 3d.js; defines the global buildHalls.
-// Each box keeps its range in the mesh and an oriented box for picking, so a click tests a few thousand rectangles, not every triangle. A selected box is recoloured in place.
+// The boxes of the gardens: every feature of data/halls_1860.geojson (scripts/boxes1860.py) as a platform, a wall box and a simple roof, merged into a few meshes. Classic script, loaded before kit3d.js and 3d.js; defines HALL_COLOURS, HallBuffer and buildHalls.
+// Each box keeps its ranges in the meshes and an oriented box for picking, so a click tests a few thousand rectangles, not every triangle. A selected box is recoloured in place, in the boxes and in the kit's meshes alike (Round 11: the kit adds its ranges to the same entries).
 // Local frame: s along the frontage, q towards the front, y up. The feature's ring is front-left, front-right, back-right, back-left.
+// Round 11: the plain boxes sit in groups by what is assumed: pA the box itself (no block on the plan), pK a box on the plan whose kit form is the class's, pS a box whose kit form has a source, pX/pXA shapes the kit leaves as they are. setView() shows the boxes or the kit (kit3d.js) by the switches kit and assumed.
 const HALL_COLOURS = {
   platform: 0xb9b2a3, wall: 0xc2a98a, wallAssumed: 0xe7e0d3, stone: 0xd8d3c4, europeanWall: 0xe2ddcf, underside: 0x6e685e, water: 0x6f9fb0, court: 0x9aa87a,
   // Colours chosen for the view: grey tile is the rule with named exceptions (typology section 5); the shades are not read from a source.
-  tile: { grey: 0x5f6469, yellow: 0xd6a31c, blue: 0x3e6fa6, green: 0x3f8f6a, mixed: 0x3d8d92, black: 0x2b2d31, slate: 0x56626c, glazed: 0x4b86a3, stone: 0xbfb9aa },
+  tile: { grey: 0x5f6469, yellow: 0xd6a31c, blue: 0x3e6fa6, green: 0x3f8f6a, mixed: 0x3d8d92, black: 0x2b2d31, slate: 0x56626c, glazed: 0x4b86a3, stone: 0xbfb9aa, purple: 0x6a4763, ochre: 0xc9953a, red: 0xb4532f },
   conf: { A: 0x2f8f4e, B: 0xd9a441, C: 0xc4513a },
   selected: 0xffcf3a,
 };
 
-function buildHalls({ fc, toXZ, datum }) {
-  const pos = [], col = [], info = [];
-  const c = new THREE.Color();
-  let rgb = [1, 1, 1];
-  const setColour = (hex) => { c.setHex(hex); rgb = [c.r, c.g, c.b]; };
-  const tri = (a, b, d) => { pos.push(a[0], a[1], a[2], b[0], b[1], b[2], d[0], d[1], d[2]); col.push(...rgb, ...rgb, ...rgb); };
-  const quad = (a, b, d, e) => { tri(a, b, d); tri(a, d, e); };
+// A growing triangle soup with two colour sets: the view's colours and the confidence tint, a byte per channel. Ranges of it belong to boxes. No normals: the material shades flat from the screen's derivatives, which also keeps the memory down (Round 11).
+class HallBuffer {
+  constructor(key) { this.key = key; this.pos = []; this.col = []; this.cf = []; this.rgb = [255, 255, 255]; this.crgb = [255, 255, 255]; this._c = new THREE.Color(); }
+  // hex: the view's colour; grade: A, B or C; dark: the confidence tint darker (roofs)
+  set(hex, grade, dark) {
+    const c = this._c;
+    c.setHex(hex); this.rgb = [Math.round(c.r * 255), Math.round(c.g * 255), Math.round(c.b * 255)];
+    c.setHex(HALL_COLOURS.conf[grade] ?? HALL_COLOURS.conf.C);
+    const k = dark ? 0.55 : 1;
+    this.crgb = [Math.round(c.r * k * 255), Math.round(c.g * k * 255), Math.round(c.b * k * 255)];
+  }
+  tri(a, b, d) {
+    this.pos.push(a[0], a[1], a[2], b[0], b[1], b[2], d[0], d[1], d[2]);
+    const [r, g, bl] = this.rgb, [cr, cg, cb] = this.crgb;
+    this.col.push(r, g, bl, r, g, bl, r, g, bl);
+    this.cf.push(cr, cg, cb, cr, cg, cb, cr, cg, cb);
+  }
+  quad(a, b, d, e) { this.tri(a, b, d); this.tri(a, d, e); }
+  get count() { return this.pos ? this.pos.length / 3 : this.n; }
+  finish() {
+    const g = new THREE.BufferGeometry();
+    g.setAttribute("position", new THREE.BufferAttribute(new Float32Array(this.pos), 3));
+    this.n = this.pos.length / 3;
+    this.plain = new Uint8Array(this.col);
+    this.colours = this.plain.slice();
+    this.conf = new Uint8Array(this.cf);
+    g.setAttribute("color", new THREE.BufferAttribute(this.colours, 3, true));
+    this.attr = g.getAttribute("color");
+    this.pos = this.col = this.cf = null;
+    this.mesh = new THREE.Mesh(g, HallBuffer.material || (HallBuffer.material = new THREE.MeshLambertMaterial({ vertexColors: true, side: THREE.DoubleSide, flatShading: true })));
+    this.mesh.userData.group = this.key;
+    return this.mesh;
+  }
+  dispose() { if (this.mesh) { this.mesh.geometry.dispose(); this.mesh.removeFromParent(); } this.plain = this.colours = this.conf = null; this.dead = true; }
+}
+
+function buildHalls({ fc, toXZ, datum, kit }) {
+  const info = [], buffers = [];
+  const groups = {};
+  const buf = (key) => { if (!groups[key]) { groups[key] = new HallBuffer(key); buffers.push(groups[key]); } return groups[key]; };
+  const KIT_SHAPES = new Set(["shape"]);
 
   for (const f of fc.features) {
     const p = f.properties;
@@ -25,14 +60,22 @@ function buildHalls({ fc, toXZ, datum }) {
     const u = [(ring[1][0] - ring[0][0]) / uLen, (ring[1][1] - ring[0][1]) / uLen], a = [(ring[1][0] - ring[2][0]) / aLen, (ring[1][1] - ring[2][1]) / aLen];
     const hf = uLen / 2, hd = aLen / 2;
     const at = (s, y, q) => [cx + u[0] * s + a[0] * q, y, cz + u[1] * s + a[1] * q];
-    const start = pos.length / 3;
     const base = p.ground_m - datum + (p.stand || 0), foot = (p.stand ? p.ground_m - datum : p.foot_m - datum), top = base + p.ridge_m;
+    const spec = kit && kit.halls[p.id];
+    const byKit = Boolean(spec) && !KIT_SHAPES.has(spec.k) && spec.src !== "model";
+    const key = !byKit ? (p.assumed ? "pXA" : "pX") : p.assumed ? "pA" : spec.a ? "pK" : "pS";
+    const B = buf(key);
+    const start = B.count;
     const minSide = Math.min(hf, hd) * 2;
     // Platform edge and eave overhang, close to params.json by class: 下出 about 0.08 of the depth, 上出 about 0.1.
     const edge = Math.min(Math.max(minSide * 0.08, 0.15), 1.25), over = Math.min(Math.max(minSide * 0.1, 0.25), 1.6);
     const wallHex = p.european ? HALL_COLOURS.europeanWall : p.assumed ? HALL_COLOURS.wallAssumed : HALL_COLOURS.wall;
     const tileHex = HALL_COLOURS.tile[p.tiles] ?? HALL_COLOURS.tile.grey;
-    const entry = { id: p.id, bid: p.building_id, parent: p.parent_id, props: p, start, cx, cz, u, a, hf, hd, y0: foot, y1: top, wallHex, tileHex };
+    const entry = { id: p.id, bid: p.building_id, parent: p.parent_id, props: p, spec, cx, cz, u, a, hf, hd, y0: foot, y1: top, base, foot, wallHex, tileHex, plainKey: key, ranges: [], hidden: false };
+    const g = p.confidence;
+    const setColour = (hex, dark) => B.set(hex, g, dark || hex === tileHex);
+    const tri = (x, y, z) => B.tri(x, y, z);
+    const quad = (x, y, z, w) => B.quad(x, y, z, w);
 
     // Sides of a rectangle, in order, outward.
     const prism = (s, q, y0, y1, hex) => {
@@ -44,7 +87,7 @@ function buildHalls({ fc, toXZ, datum }) {
       }
     };
     const lid = (s, q, y, hex) => { setColour(hex); quad(at(-s, y, q), at(s, y, q), at(s, y, -q), at(-s, y, -q)); };
-    const under = (s, q, y) => { setColour(HALL_COLOURS.underside); quad(at(-s, y, -q), at(s, y, -q), at(s, y, q), at(-s, y, q)); };
+    const under = (s, q, y) => { setColour(HALL_COLOURS.underside, true); quad(at(-s, y, -q), at(s, y, -q), at(s, y, q), at(-s, y, q)); };
 
     // A roof over a rectangle: the ridge runs along the longer side. `swap` turns the axes so the code below always thinks ridge = along x, half-length hx; half-width hz.
     const roof = (hs, hq, y0, y1, form, rolled, hex) => {
@@ -214,57 +257,53 @@ function buildHalls({ fc, toXZ, datum }) {
         roof(rs, rq, tip, ridge, form, Boolean(p.rolled), tileHex);
       }
     }
-    entry.count = pos.length / 3 - start;
+    entry.ranges.push({ buf: B, start, count: B.count - start });
     info.push(entry);
   }
 
-  const g = new THREE.BufferGeometry();
-  g.setAttribute("position", new THREE.BufferAttribute(new Float32Array(pos), 3));
-  const colours = new Float32Array(col);
-  g.setAttribute("color", new THREE.BufferAttribute(colours, 3));
-  g.computeVertexNormals();
-  const mesh = new THREE.Mesh(g, new THREE.MeshLambertMaterial({ vertexColors: true, side: THREE.DoubleSide }));
-  const plain = colours.slice();
-  const attr = g.getAttribute("color");
+  const mesh = new THREE.Group();
+  const plainMeshes = {};
+  for (const B of buffers.slice()) { plainMeshes[B.key] = B.finish(); mesh.add(plainMeshes[B.key]); }
 
-  const paint = (b, fn) => {
-    for (let i = b.start; i < b.start + b.count; i++) fn(i);
-  };
+  const paint = (b, fn) => { for (const r of b.ranges) if (!r.buf.dead) for (let i = r.start; i < r.start + r.count; i++) fn(r.buf, i); };
   let confMode = false;
-  // Colours in confidence mode: the same tile and wall shading by channel ratio would hide the roof, so walls and roofs take the grade's colour, the roof darker.
+  // Colours in confidence mode: each part carries its own tint (HallBuffer.set): the box's grade on platform and walls, the form's on the kit's roofs and openings.
   const recolour = () => {
-    if (!confMode) colours.set(plain);
-    else {
-      for (const b of info) {
-        c.setHex(HALL_COLOURS.conf[b.props.confidence] ?? HALL_COLOURS.conf.C);
-        paint(b, (i) => {
-          const k = plain[3 * i] + plain[3 * i + 1] + plain[3 * i + 2] < 1.2 ? 0.55 : 1;
-          colours[3 * i] = c.r * k; colours[3 * i + 1] = c.g * k; colours[3 * i + 2] = c.b * k;
-        });
-      }
-    }
-    attr.needsUpdate = true;
+    for (const B of buffers) { B.colours.set(confMode ? B.conf : B.plain); B.attr.needsUpdate = true; }
   };
+  const live = () => { for (let i = buffers.length - 1; i >= 0; i--) if (buffers[i].dead) buffers.splice(i, 1); };
   let selected = [];
+  const c = new THREE.Color();
   const select = (list) => {
     recolour();
     selected = list;
     c.setHex(HALL_COLOURS.selected);
     for (const b of list) {
-      paint(b, (i) => {
-        const k = plain[3 * i] + plain[3 * i + 1] + plain[3 * i + 2] < 1.2 ? 0.7 : 1;
-        colours[3 * i] = c.r * k; colours[3 * i + 1] = c.g * k; colours[3 * i + 2] = c.b * k;
+      paint(b, (B, i) => {
+        const k = B.plain[3 * i] + B.plain[3 * i + 1] + B.plain[3 * i + 2] < 306 ? 0.7 : 1;
+        B.colours[3 * i] = 255 * c.r * k; B.colours[3 * i + 1] = 255 * c.g * k; B.colours[3 * i + 2] = 255 * c.b * k;
       });
     }
-    attr.needsUpdate = true;
+    for (const B of buffers) B.attr.needsUpdate = true;
   };
   const setConfMode = (on) => { confMode = on; select(selected); };
+  // The kit's buffers join after it has drawn (kit3d.js): their ranges are already on the entries.
+  const addBuffers = (list) => { live(); buffers.push(...list); };
+  const repaint = () => { live(); select(selected); };
+
+  // Which meshes show: the plain boxes, or the kit; and the assumed ones or not. `kitOn` is false when there is no kit.
+  const setView = ({ kitOn, assumed }) => {
+    const show = { pX: true, pXA: assumed, pA: !kitOn && assumed, pK: !kitOn || !assumed, pS: !kitOn };
+    for (const [k, m] of Object.entries(plainMeshes)) m.visible = show[k];
+    for (const b of info) b.hidden = b.props.assumed && !assumed;
+  };
 
   // Nearest box along a ray, or null.
   const pick = (ray) => {
     const o = ray.origin, d = ray.direction;
     let best = null, bestT = Infinity;
     for (const b of info) {
+      if (b.hidden) continue;
       const px = o.x - b.cx, pz = o.z - b.cz;
       const os = px * b.u[0] + pz * b.u[1], oq = px * b.a[0] + pz * b.a[1];
       const ds = d.x * b.u[0] + d.z * b.u[1], dq = d.x * b.a[0] + d.z * b.a[1];
@@ -295,10 +334,11 @@ function buildHalls({ fc, toXZ, datum }) {
   }
   const blocked = (x, z, radius = 0.5) => {
     for (const b of cells.get(key(Math.floor(x / CELL), Math.floor(z / CELL))) || []) {
+      if (b.hidden) continue;
       const px = x - b.cx, pz = z - b.cz;
       if (Math.abs(px * b.u[0] + pz * b.u[1]) < b.hf + radius && Math.abs(px * b.a[0] + pz * b.a[1]) < b.hd + radius) return true;
     }
     return false;
   };
-  return { mesh, info, select, setConfMode, pick, blocked };
+  return { mesh, info, select, setConfMode, pick, blocked, setView, addBuffers, repaint, plainMeshes };
 }

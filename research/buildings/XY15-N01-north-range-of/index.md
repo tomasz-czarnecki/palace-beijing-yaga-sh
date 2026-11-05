@@ -30,6 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **Heights:** platform 0.8 m, eave 7 m, ridge 9.5 m above the ground
 - **Roof:** hip 庑殿, glazed tile
 - **Faces:** 172.6° from north
+- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
 - **Confidence:** C, assumed
 
 ## Pictures (0)

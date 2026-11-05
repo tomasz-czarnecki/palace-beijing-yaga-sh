@@ -37,6 +37,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **1 ×:** painted screen N5: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
 - **1 ×:** painted screen S5: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
 - **More:** 3 other kinds of box
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Inside it (2)

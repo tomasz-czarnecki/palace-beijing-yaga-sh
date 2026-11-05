@@ -30,6 +30,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 - **2 ×:** pavilion, double eaves, bamboo-faced: 6.8 × 6.8 m, eave 7.4 m, ridge 12.3 m
 - **2 ×:** gallery, 18 bays in all, curved on the plate; straight here: 11.3 × 2.4 m, eave 2.6 m, ridge 3.2 m
 - **2 ×:** gallery, 18 bays in all, curved on the plate; straight here: 5.3 × 2.4 m, eave 2.6 m, ridge 3.2 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Inside it (1)

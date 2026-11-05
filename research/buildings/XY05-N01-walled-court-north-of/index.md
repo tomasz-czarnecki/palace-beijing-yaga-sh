@@ -29,6 +29,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 13.58 × 5.4 m, eave 7 m, ridge 9.5 m
 - **1 ×:** a block drawn on the plan in the Xiyang Lou strip; heights a guess: 2.72 × 8.55 m, eave 7 m, ridge 9.5 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Pictures (1)

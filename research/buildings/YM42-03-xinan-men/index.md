@@ -28,6 +28,7 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 175° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.5 m
+- **Drawn:** by the hall kit: 2 bays, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
 - **Confidence:** C, assumed
 
 ## Pictures (0)

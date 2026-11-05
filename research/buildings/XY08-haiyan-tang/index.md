@@ -33,6 +33,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** west block, two storeys, 11 bays on the west front: 47.2 × 22.7 m, eave 13.2 m, ridge 15.7 m
 - **1 ×:** link to the west machine house: 19 × 9.4 m, eave 9 m, ridge 10.8 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** C, all assumed
 
 ## Inside it (6)

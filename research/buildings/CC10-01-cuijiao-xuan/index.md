@@ -23,11 +23,12 @@ Changchun Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **1 ×:** small house: 11 × 5.7 m, eave 3.2 m, ridge 5.15 m
 - **1 ×:** side hall: 12.7 × 10 m, eave 3.64 m, ridge 7.38 m
 - **1 ×:** small house: 10 × 6.3 m, eave 3.2 m, ridge 5.36 m
+- **Drawn:** by the hall kit; 3 of 3 drawn from the typology of their hall class, not from a picture of these halls
 - **Confidence:** B
 
 ## Pictures (0)

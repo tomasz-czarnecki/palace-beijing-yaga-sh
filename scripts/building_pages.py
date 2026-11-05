@@ -64,8 +64,8 @@ ID_RE = re.compile(r"^((?:YM|CC|XY|QC)\d+(?:-[A-Z]*\d+)?|Z-[A-Z]*\d+|G\d+)-")
 md = MarkdownIt("commonmark", {"html": False}).disable("image")  # raw HTML comes out escaped
 
 BASIS_LINE = {
-    "plan": "A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.",
-    "stated": "A plain box at a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated.",
+    "plan": "On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.",
+    "stated": "At a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated; its form drawn by the hall kit.",
     "xiyang": "Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.",
     "layout": "Assumed: the plan shows this compound's place and no single hall, so a few boxes are laid out from the typology. Confidence C.",
     "default": "Assumed: a position is known and no block is drawn, so a small default box stands there. Confidence C.",
@@ -75,6 +75,8 @@ XY = ROOT / "research/xiyanglou"
 SCENES = ROOT / "research/scenes"
 XY_SIDE = {"S": "South façade", "N": "North façade", "E": "East façade", "W": "West façade", "roof": "Roof and fountains", "fountain": "Roof and fountains", "aerial": "Plans and views from above", "detail": "Details and fragments", "fragment": "Details and fragments"}
 XY_FRONT = {"XY02": "E", "XY05": "W", "XY08": "W", "XY12": "W", "XY13": "W", "XY15": "W", "XY07": "N", "XY11": "N", "XY03": "N"}  # the side of the first plate comes first
+KIT_ROOF = {"wd": "庑殿 hip", "xs": "歇山 hip-and-gable", "ys": "硬山 flush gable", "xu": "悬山 overhanging gable", "cj": "攒尖 pyramid"}
+KIT_CLASS_LINE = "drawn from the typology of its hall class, not from a picture of this hall"
 ROOF_WORD = {"hip_gable": "hip-and-gable 歇山", "hip": "hip 庑殿", "gable": "gable 硬山 or 悬山", "pyramid": "pyramid 攒尖"}
 SHAPE_WORD = {"terrace": "terrace", "wall": "wall", "pool": "pool", "octagon": "octagon", "court": "sunken court", "basin": "round basin"}
 
@@ -169,6 +171,7 @@ class Book:
         self.gates = {f["properties"]["id"]: f for f in json.load(open(ROOT / "research/layers/walls_1860.geojson", encoding="utf-8"))["features"] if f["geometry"]["type"] == "Point"}
         fc = json.load(open(SITE_DATA / "halls_1860.geojson", encoding="utf-8"))
         self.boxes, self.by_parent = {}, {}
+        self.kit = json.load(open(SITE_DATA / "kit_1860.json", encoding="utf-8"))["halls"]  # Round 11: how the kit draws each box (scripts/kit1860.py)
         for f in fc["features"]:
             p = f["properties"]
             self.boxes.setdefault(p["building_id"], []).append(p)
@@ -256,8 +259,29 @@ class Book:
         return slug(r["name_pinyin"] or r["name_en"])
 
 
-def box_rows(boxes):
+def kit_row(k):
+    """Round 11: how the hall kit or the stone kit draws this box, and where its form comes from."""
+    if not k or k["k"] == "shape":
+        return None
+    if k["k"] in ("stone", "stoneshape"):
+        return ["Drawn", "by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model"]
+    n = len(k["b"])
+    porch = ["all round"] if k.get("ps") else [w for w, key in (("front", "pf"), ("back", "pb")) if k.get(key)]
+    bits = [f"{n} bay{'s' if n > 1 else ''}" + (", the middle widest" if n > 2 else ""), (f"a porch {' and '.join(porch)}" if porch else ""), f"steps on the {', '.join(k['st'])}" if k.get("st") else "",
+            KIT_ROOF[k["rf"]] + (" with a rolled ridge 卷棚" if k.get("rl") else "") + (", double eaves 重檐" if k.get("db") else "") + f", {k['t']} tile", "bracket sets 斗拱 as a painted band" if k.get("bd") == "br" else "a painted beam under the eave"]
+    if k["src"] == "class":
+        how = KIT_CLASS_LINE + " (assumed, C)"
+    elif k["src"] == "dossier":
+        word = {"platform_h": "platform", "column_h": "column", "height_ridge": "ridge", "edge": "platform edge 下出", "porch": "porch", "bays": "bays", "roof": "roof read", "tiles": "tiles read", "stair": "stairs", "bay_width": "bay"}
+        how = "from its own figures and readings where the dossier gives them (" + "; ".join(f"{word.get(a, a)}: {b}" for a, b in k.get("fig", {}).items()) + "), the rest from the typology of its hall class"
+    else:
+        how = "from the size a source states, the rest from the typology of its hall class"
+    return ["Drawn", "by the hall kit: " + ", ".join(x for x in bits if x) + ". " + how[0].upper() + how[1:] + "."]
+
+
+def box_rows(boxes, kit=None):
     rows = []
+    kit = kit or {}
     if len(boxes) == 1:
         b = boxes[0]
         rows.append(["Box", f"{b['frontage_m']:g} × {b['depth_m']:g} m, {b['hall_class'].replace('_', ' ')}" + (f", {SHAPE_WORD[b['shape']]}" if b.get("shape") else "")])
@@ -275,6 +299,11 @@ def box_rows(boxes):
             rows.append(["Fit", f"moved {b['moved_m']:g} m, to stand clear of its neighbours or the water"])
         if b.get("over_water"):
             rows.append(["Water", "stands partly over the water layer: on piers or on a bank too thin for the layer to show"])
+        if b.get("figures"):
+            rows.append(["Own figures", "; ".join(f"{w.replace('_h', '').replace('height_', '')} {v[0]:g} m ({v[1]}, {v[2]}, {v[3]})" for w, v in b["figures"].items())])
+        kr = kit_row(kit.get(b["id"]))
+        if kr:
+            rows.append(kr)
         rows.append(["Confidence", f"{b['confidence']}{', assumed' if b['assumed'] else ''}"])
     else:
         counted = {}
@@ -285,6 +314,11 @@ def box_rows(boxes):
             rows.append([f"{n} ×" if n > 1 else "1 ×", f"{part}: {f:g} × {d:g} m, eave {eave:g} m, ridge {ridge:g} m"])
         if len(counted) > 10:
             rows.append(["More", f"{len(counted) - 10} other kinds of box"])
+        ks = [kit.get(b["id"]) for b in boxes if kit.get(b["id"]) and kit[b["id"]]["k"] != "shape"]
+        if ks:
+            stone = all(k["k"] in ("stone", "stoneshape") for k in ks)
+            cls = sum(k["src"] == "class" for k in ks)
+            rows.append(["Drawn", "by the stone kit, the kit's reading of the plates, C, not a detailed model" if stone else f"by the hall kit; {cls} of {len(ks)} {KIT_CLASS_LINE.replace('its hall class', 'their hall class').replace('this hall', 'these halls')}"])
         rows.append(["Confidence", " and ".join(sorted({b["confidence"] for b in boxes})) + (", all assumed" if all(b["assumed"] for b in boxes) else ", some assumed" if any(b["assumed"] for b in boxes) else "")])
     return rows
 
@@ -300,7 +334,7 @@ def model_of(book, pid, kind):
         return {"line": "No box of its own: the hall drawn at this point stands for the gate in the 3D view.", "rows": []}
     if not boxes:
         return {"line": "No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.", "rows": []}
-    return {"line": BASIS_LINE[boxes[0]["basis"]], "rows": box_rows(boxes)}
+    return {"line": BASIS_LINE[boxes[0]["basis"]], "rows": box_rows(boxes, book.kit)}
 
 
 def clean_note(text):

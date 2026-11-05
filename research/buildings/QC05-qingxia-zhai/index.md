@@ -24,12 +24,13 @@ Qichun Yuan
 
 ## Our model now
 
-A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
 
 - **Box:** 31.1 × 10.6 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.11 m above the ground
+- **Heights:** platform 0.59 m, eave 4.76 m, ridge 8.51 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
 - **Faces:** 182° from north
+- **Drawn:** by the hall kit: 7 bays, the middle widest, a porch all round, steps on the back, front, left, right, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
 - **Confidence:** B
 
 ## Inside it (7)

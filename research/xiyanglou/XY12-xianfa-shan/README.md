@@ -151,6 +151,7 @@ The mound and a base. The pavilion and gate are gone.
 
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Round 10: the 1933 survey map (S15) read for its 地形测量: contours or spot heights, and the hills it draws | Every hill outline and height of `hills_1860` but 线法山 (Q29, Q199) | S15: NLC, the park (康睦's gift), two other copies | ask the park for a scan or a photograph of the sheet's legend and one hill |
 
 <!-- generated:end -->
 

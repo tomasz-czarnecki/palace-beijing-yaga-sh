@@ -89,6 +89,27 @@ def params():
     return json.load(open(PARAMS, encoding="utf-8"))
 
 
+FIGURE_RANK = {"a": 0, "b": 1, "c": 2, "d": 3}  # method: a survey or a Qing drawing, b ruin or plan, c painting or engraving, d photograph. e (typology, unsurveyed) never beats the class
+GRADE_RANK = {"A": 0, "B": 1, "C": 2}
+
+
+def figures():
+    """Round 11: the best figure of each kind per building id, from the dossiers (research/scenes/*/dimensions.json, research/xiyanglou/*/dimensions.json):
+    {id: {what: {value, method, confidence, source, part}}}, by method, then grade, then error. Figures of method e are left out."""
+    out = {}
+    for path in sorted((ROOT / "research").glob("*/*/dimensions.json")):
+        if path.parent.parent.name not in ("scenes", "xiyanglou"):
+            continue
+        for f in json.load(open(path, encoding="utf-8"))["figures"]:
+            if f["method"] not in FIGURE_RANK or f.get("unit", "m") != "m" or not isinstance(f.get("value"), (int, float)):
+                continue
+            key = (FIGURE_RANK[f["method"]], GRADE_RANK.get(f["confidence"], 3), f.get("err") or 0)
+            have = out.setdefault(f["id"], {}).get(f["what"])
+            if have is None or key < have["_key"]:
+                out[f["id"]][f["what"]] = {"value": f["value"], "method": f["method"], "confidence": f["confidence"], "source": f["source"], "part": f["part"], "_key": key}
+    return out
+
+
 class Grid:
     """The 2.5 m lattice ground1860.py writes (site/reconstruction/generated/ground.json + ground_grid.i16): the land mesh rasterised, cm above DATUM_M;
     water cells hold WATER_BASE + the bed in cm; bridge decks count as land. ground_level.u8: the water body of each 10 m cell (ground.json bodies)."""

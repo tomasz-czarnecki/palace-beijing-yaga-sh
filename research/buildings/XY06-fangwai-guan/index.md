@@ -32,6 +32,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 - **1 ×:** hall, porch and curved stairs, as the plan draws them: 24.6 × 13.3 m, eave 1 m, ridge 1 m
 - **1 ×:** hall, two storeys, 3 bays, double eaves: 14 × 7 m, eave 8.9 m, ridge 13 m
+- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** B and C, some assumed
 
 ## Inside it (2)
@@ -180,6 +181,7 @@ Modern interpretation, not evidence.
 - Q56: Reconstructions against the period evidence
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q69: Colours of the 1780s state (Round 6)
+- Q207: Each European front as the plates draw it
 
 <!-- generated:end -->
 

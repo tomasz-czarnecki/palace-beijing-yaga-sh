@@ -201,12 +201,15 @@ Not written yet.
 - **Q39. 丰乐轩 YM22-02.** S01 labels it in 水木明瑟; S05 j81:25a, poems of 1761 and 1767 (S201), S360 p.200 and S337 put it in 紫碧山房 (YM48-04), 647 m away (run). Two plaques, a wrong parent, or a name moved on the plan?
 - **Q45. Halls in the texts with no row.** 如园 CC18: 芝兰室, 云萝山馆, 听泉榭, 含碧楼, 挹霞亭, 观丰榭, 引胜轩 (S140). S360 names 无倦斋 (YM02), 万象涵春, 长春书屋, 池上居, 画禅室, 养正书屋 (YM03), 碧澜亭 (YM10), 得树亭 (YM09), 养素书屋 (YM04), 鸣玉溪, 春好轩 (YM12), 湛清华轩, 溜琴亭, 履吉斋, 晴望楼 (YM47), 纳翠轩, 翼翠亭 (YM48), 湛然室, 悦霁亭 (YM45), 水晶域 (YM20), 夏隐亭, 镜远洲 (YM31), 得趣书屋 (YM28), 活画舫 (YM34),
 - **Q47. How much burned, and when.** Main account stands (Q28). Fires before 18 October: S02 p.183 after Favier, S245 p.245 on 8–9 October, S247. S203 and S214 say local robbers lit the first fires; the edicts (S207) and S215 say foreign troops. Keep these apart: show what each text says. Survivors: S361 lists 惠济祠, 河神庙,
+- **Q29. Hills.** Many hills on S01 are hatched rock, not outlines, so `hills_1860` (55) undercounts. "Over 250 hills, tallest about 15 m" has no source; do not cite it. Attiret gives 20–60 ft (S157). Heights are C. Better: the 1933 and 1963 surveys. **Round 10:** S01 draws rockeries 假山 as black hatched clumps and no ear
 - **Q138. E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y.** E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (YM05-08 文昌阁, YM16-08 魁星楼, YM23 慎修思永 and 知过堂, YM25, YM37-02 双鹤斋, YM47 藏舟坞?, YM48 紫碧山房/顺木天, YM51 课农轩). The 1860 model is unaffected
 - **Q142. No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th.** No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among the Forty Scenes, or later). Their form must come from S05, S360, the 1887 图咏 if it covers them, Yangshi Lei drawings and digs (S1
 
 ### Wishlist rows that name it
 
-None; see `research/wishlist.md`.
+| What | Replaces | Where held | How |
+|---|---|---|---|
+| Round 10: the 2017 dig report of 紫碧山房 (北京市文物研究所) and the 2005 Tsinghua impact report on the lake lining | The height of the garden's high point; the beds and water levels kept | 北京市文物研究所; 清华大学 | ask by mail; the impact report was public in 2005 (S1004) |
 
 <!-- generated:end -->
 

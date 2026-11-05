@@ -28,7 +28,7 @@ From `research/buildings.csv`, with what the sources state in `research/scenes/h
 |---|---|---|---|---|---|---|---|---|---|---|
 | YM44 | 同乐园 Tongle Yuan | 同乐园 | compound |  |  |  |  |  |  | A |
 | YM44-01 | 同乐园看戏楼 Tongle Yuan kanxi lou |  | theatre | 5 (S05) | 16 × 5.12 (text (see notes)) | S (S05) | 2 (S05) |  |  | B |
-| YM44-02 | 清音阁 Qingyin Ge |  | theatre | 3 each side (square) (S310) | 14 × 13 (stated) | N (S05) | 3 (S05) |  |  | B |
+| YM44-02 | 清音阁 Qingyin Ge |  | theatre | 3 each side (square) (S310) | 14.52 × 14.52 (stated) | N (S05) | 3 (S05) |  |  | B |
 | YM44-03 | 扮戏楼 Banxi lou |  | theatre | 5 | 22.2 × 6.4 (stated) | S (assumed) |  |  |  | B |
 | YM44-04 | 东西转角配楼 Dongxi zhuanjiao peilou |  | other | 14 each |  |  |  |  |  | B |
 | YM44-05 | 永日堂 Yongri Tang |  | temple | plan 5x1 | 19.6 × 7.3 (plan) | S | 1 (S05) |  |  | B |
