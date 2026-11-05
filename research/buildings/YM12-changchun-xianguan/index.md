@@ -317,6 +317,7 @@ Modern interpretation, not evidence.
 - Q45: Halls in the texts with no row
 - Q129: The brief says the album views are roughly from the south
 - Q134: YM12
+- Q193: Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks
 
 <!-- generated:end -->
 

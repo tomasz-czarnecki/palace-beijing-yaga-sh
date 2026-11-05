@@ -170,6 +170,7 @@ Modern interpretation, not evidence.
 - Q45: Halls in the texts with no row
 - Q57: What state a reconstruction shows
 - Q133: YM04-01
+- Q193: Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks
 
 <!-- generated:end -->
 

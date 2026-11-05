@@ -53,6 +53,7 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 - Q125: Geotagged Commons coverage is thin
 - Q150: QC01
 - Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
+- Q196: The width of a paved way 甬道 is not known anywhere
 
 <!-- generated:end -->
 

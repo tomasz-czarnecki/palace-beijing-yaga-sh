@@ -2,7 +2,7 @@
 // Data: data/buildings/<ID>.json (scripts/building_pages.py). On the research machine (local = true) it reads /_local/buildings/<ID>.json, the full copy, and falls back to the public file.
 // `notes_html` was rendered at build time with raw HTML escaped; every other string is set as text.
 // Evidence comes first, because it is what a click is for: the object's own pictures, its own texts and drawings, the plan as a link; then reconstructions by other people (modern interpretation, not evidence), surviving comparable buildings (not this building), then what speaks for its set of buildings (`fallback`), fetched from that page. A research-only picture or reconstruction is a `link_only` entry: title, date, holder and a link, never an image. The research copy on localhost may carry a local image for it, marked as such.
-function createBuildingPanel({ local, onClose, onOpen }) {
+function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
   const root = document.getElementById("bpanel");
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };
   const cache = {};
@@ -20,6 +20,38 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       cache[id].catch(() => delete cache[id]);
     }
     return cache[id];
+  }
+
+  // Round 9: the ways that reach it (research/layers/paths_1860, landings_1860) and the routes that pass it (routes_1860).
+  function waysBlock(ways, body) {
+    const reached = ways.reached || [], routes = ways.routes || [];
+    const s = section(`Ways${reached.length ? ` (${reached.length})` : ""}`);
+    if (reached.length) {
+      s.append(el("h4", "", "Reached from"));
+      const ul = el("ul", "facts");
+      for (const w of reached) {
+        const li = el("li");
+        li.append(el("span", "", `${w.label[0].toUpperCase()}${w.label.slice(1)}${w.kind === "landing" || w.kind === "dock" ? " on" : ","} ${w.other}${w.length_m ? `, ${Math.round(w.length_m)} m` : ""}`));
+        li.append(el("span", "tag", `${w.id} · ${w.confidence}${w.assumed ? " · assumed, so that it can be reached" : ""} · ${w.sources}`));
+        ul.append(li);
+      }
+      s.append(ul);
+      if (reached.some((w) => w.assumed)) s.append(el("p", "bp-line", "Assumed (C) ways are guesses: no source draws them. They are drawn in a paler tint and can be switched off."));
+    }
+    if (routes.length) {
+      s.append(el("h4", "", "On the route"));
+      const ul = el("ul", "bp-links");
+      for (const r of routes) {
+        const li = el("li");
+        const b = el("button", "bp-link", `${r.name}${r.stop ? " (a stop)" : ""}`);
+        b.type = "button";
+        b.onclick = () => onRoute && onRoute(r.id);
+        li.append(b, el("span", "tag", `${r.id} · ${r.confidence} · ${r.sources}`));
+        ul.append(li);
+      }
+      s.append(ul);
+    }
+    body.append(s);
   }
 
   function section(title) {
@@ -414,6 +446,7 @@ function createBuildingPanel({ local, onClose, onOpen }) {
       dimensionBlock(page.dimensions, s);
       body.append(s);
     }
+    if (page.ways) waysBlock(page.ways, body);
     if (page.reconstructions && page.reconstructions.length) {
       const s = section(`Reconstructions by others (${page.reconstructions.length})`);
       reconBlock(page.reconstructions, s);

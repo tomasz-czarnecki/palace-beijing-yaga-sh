@@ -75,6 +75,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 ## Open questions
 
 - Q25: Other dates
+- Q196: The width of a paved way 甬道 is not known anywhere
 
 <!-- generated:end -->
 

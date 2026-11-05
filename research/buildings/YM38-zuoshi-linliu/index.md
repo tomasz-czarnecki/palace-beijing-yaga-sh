@@ -154,6 +154,8 @@ Modern interpretation, not evidence.
 - Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
 - Q119: Digs
 - Q125: Geotagged Commons coverage is thin
+- Q192: Land necks the plan draws lie under the traced water
+- Q193: Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks
 
 <!-- generated:end -->
 

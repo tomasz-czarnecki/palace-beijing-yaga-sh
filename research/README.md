@@ -23,6 +23,7 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
 | `reconstructions/catalog.csv` | reconstructions by other people, see below | hand, from Round 5 | yes |
 | `xiyanglou/` | Round 6, the European palaces in depth: one dossier per main building, the sheets they draw on. See below | hand; `scripts/xiyanglou_dossiers.py` | yes |
+| `paths/` | Round 9, the ways of 1860: the readers' traces, the sources read, grades, routes, exceptions. See below | hand; `scripts/paths1860.py`, `tools/osm_paths.py` | yes |
 | `scenes/` | Round 7, every other scene and compound: one dossier each, the sheets they draw on, the typology check. See below | hand; `scripts/scenes_dossiers.py` | yes |
 | `reconstructions/images/` | free reconstructions, at most 1600 px and about 300 KB | by hand with the catalogue | yes |
 | `buildings/` | one page per row of `buildings.csv` and per gate; `buildings/README.md` the list | `scripts/building_pages.py`, except each page's `## Notes` | yes |
@@ -106,6 +107,8 @@ uv run python scripts/georef.py accuracy      # layers/georef_error.geojson: exp
 uv run python scripts/publish_layers.py       # site/reconstruction/data/: the public layers, buildings_1860, labels_1860, georef_error
 uv run python scripts/ground1860.py           # site/reconstruction/generated/: ground.json, ground.bin, ground_grid.i16
 uv run python scripts/boxes1860.py            # data/halls_1860.geojson, generated/structures.json (walls, bridges); prints its checks
+uv run python scripts/paths1860.py            # layers/paths_1860, landings_1860, routes_1860 and their copies in data/; paths/bridge_ends.csv, dangling.csv, unreached.csv; prints its checks
+uv run python tools/osm_paths.py              # paths/osm_judged.csv: today's park paths judged, never evidence
 uv run python scripts/photos_catalog.py       # site/reconstruction/photos/, credits (from photos/catalog.csv)
 uv run python tools/plan_crops.py             # raw/plancrops/<ID>.jpg, local only; needs the mosaic
 uv run python scripts/xiyanglou_dossiers.py   # research/xiyanglou/<ID>-<slug>/README.md, dimensions.json, the tables of research/xiyanglou/README.md
@@ -117,9 +120,10 @@ uv run python tools/check_pages.py            # every clickable object has a pag
 uv run python tools/check_evidence.py         # coverage; no empty evidence section; no research-only image on the site
 uv run python tools/check_docs.py             # these docs match the files
 uv run python tools/check_georef.py           # the frozen check set against the fit in use, by region; the rows follow the fit
+uv run python tools/check_paths.py            # the ways: counts, joint gaps, crossings, bridge approaches, routes
 ```
 
-Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json`, `xiyanglou/`, `scenes/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
+Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `paths/`, `typology/params.json`, `xiyanglou/`, `scenes/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
 
 **Round 8:** the placement chain (`georef_readings.py`, `control_derived.py`, `georef.py fit`, `build_r1.py`, `apply_facts.py`, `georef.py accuracy`, `publish_layers.py`, `ground1860.py`, `boxes1860.py`) run a second time gives the same files, and `georef.py previous` rebuilds the Round 1 fit byte for byte. The mosaic was refetched from the museum's IIIF server (`research/raw/` had been cleared) and `mosaic_plan.py` rebuilt the same stitch (`georef/princeton-mosaic.json` unchanged).
 
@@ -129,8 +133,8 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 
 | Id | What | Where it lives |
 |---|---|---|
-| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 501 ids, S991 the last; S400 and above are Round 5, S700 and above Round 6, S900 and above Round 7 (blocks at the head of its section in `sources.md`). Some items have two ids; all stay valid | `sources.md` |
-| `Q1`, ... | an open question. Q1–Q190; Q78–Q185 found in Round 7, Q186–Q190 in Round 8 | `questions.md` |
+| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 503 ids, S993 the last; S400 and above are Round 5, S700 and above Round 6, S900 and above Round 7 (blocks at the head of its section in `sources.md`). Some items have two ids; all stay valid | `sources.md` |
+| `Q1`, ... | an open question. Q1–Q196; Q78–Q185 found in Round 7, Q186–Q190 in Round 8, Q191–Q196 in Round 9 | `questions.md` |
 | `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0822 the last | `photos/catalog.csv` |
 | `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2497 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
 | `T001`, ... | a pairing of one of ours with a standing building. A twin named for two objects has two ids | `twins/catalog.csv` |
@@ -146,6 +150,10 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 | `YM03-AE012` | an unnamed block a reader added; second letter is the reader's area: C, W, E, X, Q (50) | `buildings.csv` |
 | `Z-B1234`, `Z-AW004`, `Z-QN03` | a block, an added block or a named place in no compound (102, with no `parent_id`) | `buildings.csv` |
 | `G01`–`G53` | a gate | `layers/walls_1860`, `plan/gates.json` |
+| `YMC-001`, `YMW-`, `YMF-`, `CCX-`, `QC-`, `R9-001` | a traced way, landing or dock: the reader's region and number (Round 9); the id of its line in `paths_1860` or its point in `landings_1860` | `paths/traces.csv` |
+| `RC-YM01-01`, `BA-BR002-1`, `DL-YMC-082-2`, `RL-R3-01` | a C line added by `scripts/paths1860.py`: a link inside a compound, a bridge approach, a link at a dangling end, a link a route needed | `layers/paths_1860` |
+| `R1`–`R4` | a route | `paths/routes.csv`, `layers/routes_1860` |
+| `TX-001`, `AL-001`, `RM-001` | a row of the texts, the album and the remains read in Round 9 | `paths/` |
 | `GARDEN-YM`, `-CC`, `-XY`, `-QC`, `-ALL` | what speaks for a whole garden; in `shows` as `GARDEN:YM` | `data/buildings/` |
 | `F0123` | a footprint; `XY01-M03` a Xiyang Lou part, `L002` a laid-out box, `D001` a default box, `GB02` a gate box | `footprints_1860`, `halls_1860` |
 | `W01`, `W0001`, `I001`, `H0001`, `BR001`, `FD0001` | layer features: wall, water, island, hill, bridge, field | `layers/` |
@@ -265,6 +273,24 @@ Every scene and compound outside the Xiyang Lou, Round 7: 81 dossiers, wave 1 th
 | `checks.csv` | the check of the public pages' text before they went up, sentence by sentence, by workers who did not write it: `id`, `field`, `sentence`, `verdict` (held, changed, not verifiable), `source`, `note`, `fix`. 275 sentences: 154 held, 116 changed, 5 not verifiable |
 | `parts.csv` | unnamed rows identified, as in `xiyanglou/parts.csv`: `id`, `name_zh`, `name_pinyin`, `name_en`, `what`, `basis`, `source_id`, `confidence`, `action` (name, `merge:<row>`, retire, keep); read by `scripts/boxes1860.py` |
 
+## paths/
+
+The ways of 1860, Round 9. Overview, findings by source and method: `paths/README.md`. The sheets are hand-edited from Round 9 on; `docs/rounds/common/palace_r9_merge.py` shows how they were first made.
+
+| File | Fields |
+|---|---|
+| `traces.csv` | `key`, `region` (ymc, ymw, ymf, ccx, qc, r9), `scene`, `kind` (as in `paths_1860`, plus `landing`, `dock`), `name_zh`, `from_id`, `to_id` (a row, a gate G.., a bridge BR.., another key), `points_px` (`x y;x y`, plan pixels on the mosaic), `in_box_row` (a gallery whose bay row is a box of its own), `water` (a landing's water), `drawn_on_s01` (what on the plan shows it), `confidence` (the reader's: B drawn, C inferred), `leaf` (album keys that show it: A), `evidence`, `width_m` (only a drawn width), `sources`, `note` |
+| `album.csv` | `key`, `scene`, `photo_id`, `kind`, `from_name`, `to_name`, `from_id`, `to_id`, `what_is_shown`, `where_in_leaf`, `reading` (high, medium, low), `note` |
+| `texts.csv` | `key`, `topic` (route, gallery, boat, landing, dock, dike, road, steps, term, ceremony), `scene_ids`, `what`, `from_name`, `to_name`, `source_id`, `locator`, `quote_zh`, `summary_en`, `width_m`, `confidence`, `status` (verified, assumed, unknown), `link` |
+| `remains.csv` | `key`, `topic` (dig, survey, qing_plan, plan_1933, term), `scene_ids`, `what`, `where`, `lat`, `lon`, `year`, `by`, `source_id`, `locator`, `summary_en`, `width_m`, `confidence`, `status`, `link` |
+| `grades.csv` | `key`, `confidence` (blank: kept), `basis` (dig, text), `sources` (added to the line's), `note` |
+| `routes.csv` | `id`, `name_en`, `name_zh`, `mode` (walk, boat), `waypoints` (rows with a box, gates, bridges, landings or keys, in order), `stops`, `sources`, `confidence`, `note` |
+| `exceptions.csv` | `key`, `check` (joint, cross), `reason`: an A or B line `tools/check_paths.py` lets pass |
+| `bridge_ends.csv` | `bridge`, `end` (1, 2), `approach` (the lines that meet it), `reason` (why none) |
+| `dangling.csv` | `path`, `end`, `reason`: a traced end no link could join |
+| `unreached.csv` | `scene`, `box`, `reason`: a hall no link could reach |
+| `osm_judged.csv` | `osm_id`, `highway`, `name`, `length_m`, `over_water`, `through_box`, `near_way`, `on_shore` (shares of its length), `class` (modern, old_alignment_plausible, undecided) |
+
 ## twins/catalog.csv
 
 One row per pairing of one of ours with a standing or named building. 135 rows on 66 objects and classes: 13 `copy of`, 6 `sister`, 7 `same design family`, 3 `copied from ours`, 106 `comparable`; 15 A, 60 B, 60 C. **Never a source for a position or a size in `buildings.csv`.** A pairing with no source stays out, or is `comparable`, C, with the reason in `evidence_for_relation`.
@@ -315,6 +341,9 @@ Every feature carries `id`, names where known (`name_zh`, `name_pinyin`), `sourc
 - `walls_1860` (58): `garden`, `read`; `kind` outer_wall, separating_wall (lines) and gate (53 points). Read by eye, 10–20 px off the ink, Qichun 20–40 px. Since Round 8 the west side of Changchun Yuan north of the plan's y 1900, which lies in a scroll seam, stands 15.2 m west of the traced line, off the Xiyang Lou ruins, with the sluice G43 (Q64; `WALL_SEAM_RUN` in `scripts/build_r1.py`). How the walls meet today's park outline: `tools/wall_check.py`, Q31, Q186.
 - `fields_1860` (10): the labelled 稻田 rice fields; `kind`, `region_id`, `area_m2`.
 - `osm_today` (6004 here, 2507 on the site): today's park, ODbL. Keeps OSM's tags.
+- `paths_1860` (Round 9, `scripts/paths1860.py`): one LineString per way. `id`, `kind` (paved_way 甬道, gallery 游廊, mountain_gallery 爬山廊, causeway, dike 堤, bridge_approach, steps, courtyard_path, imperial_road, service_path, boat_route), `name_zh`, `scene`, `width_m`, `width_source` (drawn on S01, or typology), `surface` (typology unless a dig is cited), `from_id`, `to_id` (as traced), `from_at`, `to_at` (what the end met: `F0123:front` a box's door, `through` a box walked through, `bridge`, `gate`, `landing`, `path`, `free: ...` the nearest thing when the id was missing or misread), `gap_before_m` (the two ends' distances before snapping), `sources`, `confidence`, `pos_confidence` (B traced on S01, C made here), `assumed` (C), `basis` (s01, leaf, dig, typology, reach), `leaf` (the pictures that show it), `in_box` (a box it may run inside), `drawn` (what the plan shows), `rerouted_m` (how far the reroute strays from the trace), `blocked_before_m`, `blocked_m` (length across a box, wall or water before and after), `length_m`, `note`.
+- `landings_1860` (Round 9): one Point per landing or dock, on the shore 0.3 m inside the land. `id`, `kind` (landing, dock), `name_zh`, `scene`, `serves` (the rows), `water`, `water_id`, `facing_deg` (towards the water), `gap_before_m` (moved to the shore), `sources`, `confidence`, `pos_confidence`, `assumed`, `basis`, `leaf`, `drawn`, `note`.
+- `routes_1860` (Round 9): one LineString per route. `id`, `name_en`, `name_zh`, `mode` (walk, boat), `path_ids` (the lines and bridges in order), `via` (the boxes walked through), `stops` (`id`, `name`, `along_m`, `off_m`), `length_m`, `sources`, `confidence`, `note`.
 - `georef_error` (Round 8, `scripts/georef.py accuracy`): how far a position taken from the plan may stand from where it stood, from the blind check set. `kind` `region` (the six regions: `region`, `name`, `n_check`, `median_m`, `p90_m`, `max_m`, `previous_median_m`, `previous_p90_m`, `previous_max_m`, `fit` new or previous, `typical_m`), `cell` (a 200 m grid: `expected_m`, the inverse-distance mean of the four nearest check points of the same region, an estimate between points; `nearest_check_m`) and `check_point` (`feature`, `point_kind`, `dist_m`, `dE_m`, `dN_m`, `previous_dist_m`). Public: our readings of S01 and of today's imagery, coordinates only. The dev map's toggle "Placement accuracy".
 
 Only on the site:
@@ -332,6 +361,7 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 - **No box:** rows with no position, labelled plots, the 寿山 ridge, water, docks, sluices (reasons in `boxes1860.py`).
 - **Ground:** flat base land 45 m and one water level 43.5 m (EGM2008), from `terrain/README.md`; islands +0.8 m, hills as mounds from `hills_1860`, 线法山 from `params.json`. A surveyed sunken court (`xiyanglou/boxes.csv`, shape court: 大水法's fountain area, S603) is cut out of the land with a bank and a floor 1.30 m down, and no mound reaches within 5 m of it (Q71). No DEM cell is used as a height: it holds today's trees and fill. Land is cut exactly to `water_1860`, with a bank down to the water. Q34.
 - **Generated files:** `generated/ground.json` (frame, levels, offsets), `ground.bin` (positions and indices per part), `ground_grid.i16` (5 m raster for walk mode and `boxes1860.py`), `structures.json` (`wall`, `bridges`).
+- **Bridges, Round 9:** BR006 and BR047 had been read along their decks; their spans now cross the stream and the moat (`plan/readings/ym_central/features.csv`, `cc_xyl/features.csv`), ids unchanged.
 - **Walls:** `walls_1860` with height 2.8 m and thickness 0.8 m (`params.json`). A wall stops at a hall standing in its line (53 boxes), and opens 6 m at a gate with no hall. A gate point within 14 m of a wall line counts as in it.
 
 ## The panel JSON
@@ -354,6 +384,7 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 | `searched` | a line saying what was searched and not found; blank when it has its own picture and text |
 | `questions`, `sources` | `{id, title}`; the cited sources with licence and link |
 | `dimensions`, `dossier` | Xiyang Lou: the figures of `dimensions.json` (a building has all of them, a part its own); the link to its section of the public page. A scene with a dossier (Round 7): the scene has all its figures, a hall only its own (it sees the scene's under its fallback); `dossier` links to the scene's page if it has one, else to its summary on the hub `scenes/#<ID>`; `GARDEN-YM`, `-CC`, `-QC`, `-ALL` link to the hub. A scene's figures also carry `scale` |
+| `ways` | Round 9: `reached` (the lines, landings and docks that touch it, a compound those of its halls, at most 40: `id`, `kind`, `label`, `other` (what the other end meets), `confidence`, `assumed`, `sources`, `length_m`) and `routes` (`id`, `name`, `confidence`, `sources`, `stop`: a stop of the route). The panel's Ways section, "Reached from" and "On the route", with a button that walks the route |
 
 **Parent fallback,** `fallback_of()` in `scripts/building_pages.py`:
 - a hall leans on its compound, and on the garden too if the compound has no picture or text;

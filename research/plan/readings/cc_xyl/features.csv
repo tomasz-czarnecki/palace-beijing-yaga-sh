@@ -24,7 +24,7 @@ gate,,(no label),,10381,3588,,,,West 坊楔 of the 含经堂 forecourt.
 gate,,(no label),,10581,3734,,,,South 坊楔.
 gate,,(no label),,10769,3588,,,,East 坊楔 (B0669).
 gate,,(no label),,11033,4794,,,,Inner gate of 澹怀堂.
-bridge,,(no label),,12576,3155,12576,3210,,护河石桥 at 大东门.
+bridge,,(no label),,12548,3184,12605,3184,,"护河石桥 at 大东门. Round 9: the span runs E-W across the N-S moat, flared ends at x 12545 and 12607 (reader ccx, checked on a crop); first read along the deck, 12576,3155-12576,3210"
 bridge,长桥?,(no label),likely,10860,4075,10860,4335,,"Long straight N-S crossing, see CC01-07."
 gate,,?园门,likely,9645,4722,,,,G22 in gates.json reads 绮园门: at 4x zoom first char is 艹 over 青-like: not 绮. See CC03-01.
 water_name,,翠交轩,sure,10548,1990,,,R0009,Label on the water; names the hall on the hill to its north.

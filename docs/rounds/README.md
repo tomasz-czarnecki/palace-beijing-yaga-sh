@@ -19,6 +19,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r6_xiyanglou` | not recorded | 2026-11-01, from 00:58 | see its log | - | see its result row | see the git log | done |
 | `palace_r7_scenes` | not recorded | 2026-11-05, from 16:19 | see its log | - | see its result row | see the git log | done |
 | `palace_r8_georef` | not recorded | 2026-11-05, from 17:57 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r9_paths` | not recorded | 2026-11-05, from 19:22 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -202,4 +203,22 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - The new fit gains nothing that matters: under 0.4 m in any region, worse in YM west and east, which keep Round 1's. The placement is limited by what survives on the ground, not by the transform.
 - The first lake derivation read the water layer, which follows the fit, so the chain was not a fixed point; it reads the tracing in plan pixels now. It also skipped lakes OSM keeps as relations (福海 among them); none of those passes the agreement rule.
 - Not done: the outer walls of Yuanming Yuan stay where Round 1 traced them although today's rebuilt north wall lies 17-53 m outside (Q186); Changchun's west part reads 12-23 m east (Q187); no DEM-derived shore or hill top was used (GLO-30's 30 m cells hold trees and fill); the Forty Scenes leaves and the 1933 plan were not used as control (no metric position; no scan).
+
+## palace_r9_paths
+
+**Asked:** Tomasz: "Do we have any information about roads and walking paths?" Only bridges, gates, water and today's OSM paths. Build the 1860 walkways, courtyard paths, causeways, dikes, galleries, landings and boat routes, and walk routes in the 3D view.
+
+**Delivered:** `research/paths/` (the findings by source in its README; `traces.csv`, `album.csv`, `texts.csv`, `remains.csv`, `grades.csv`, `routes.csv`, `exceptions.csv`; generated `bridge_ends.csv`, `dangling.csv`, `unreached.csv`, `osm_judged.csv`); `research/layers/paths_1860`, `landings_1860`, `routes_1860` and their public copies; `scripts/paths1860.py`, `tools/check_paths.py`, `tools/osm_paths.py`; `site/reconstruction/paths3d.js` (strips, galleries on posts, landings, dashed boat lines), the toggles `paths` and `assumed`, the route menu and walker in `3d.js`, the Ways section in the panel (`ways` in the panel JSON); BR006 and BR047 corrected; S992, S993; Q191-Q196; four wishes. Common brief: `common/palace_r9_subagents.md`; the workers' notes `common/palace_r9_notes/`; the readers' tools `common/palace_r9_tools/`; merge `common/palace_r9_merge.py`. Records, not pipeline steps.
+
+**Numbers** (`tools/check_paths.py`): 1348 lines, 34.1 km. 527 traced (18.8 km) in 137 scenes; 62 bridge approaches and 759 links added for reach, all C. A 85 (2.4 km; 75 from a 1744 leaf or a plate, 10 from a dig), B 175 (6.3 km), C 1088 (25.4 km). 85 landings and docks. Ends before snapping: median 2.4 m, 90% 11.4 m, worst 25.5 m; after: every A or B end within 0.5 m of what it meets but six, written down. 66 of 73 bridges reached at both ends. Routes: R1 the emperor's way 528 m, R2 the processional way 211 m, R3 the Xiyang Lou axis 826 m, R4 the boat tour of 福海 2.5 km.
+
+**Timeline** (the progress log): reading and the readers' crop tool 19:22-19:27; eight workers in the foreground 19:27-19:49 (five plan readers by region, texts, the album and plates, digs and Qing plans); generator, routes, panel and 3D to 20:15; checks, bridges, screenshots and docs to the end.
+
+**Checked:** `tools/check_paths.py`, `tools/check_pages.py`, `tools/check_evidence.py`, `tools/check_georef.py`, `tools/check_docs.py` pass; `scripts/building_pages.py` and `scripts/paths1860.py` run twice, the second changing nothing; `scripts/build_r1.py` after the bridge fix changed only `bridges_1860` (`buildings.csv` byte for byte). Screenshots in `screenshots/r9/`, from one page load with `?shot=1` (and one normal load for the panel and the menu), opened; console clean, no `/_local/` request.
+
+**Went wrong or left open:**
+- The walker first failed to load: a second `const SPEED` in `3d.js`; caught by the first screenshot run.
+- First stills: the overviews too high to show a path, the Xiyang Lou still inside a hall the route walks through; redone.
+- The remains worker ran four searches on mhymy.com before reading its robots.txt, which disallows them; it stopped, deleted the results and used only an allowed article page.
+- The network is mostly C: links outnumber traced lines. No Qing text tells how the emperor crossed the 前湖 (R1 takes 如意桥, our choice); no dig gives a path width; the water layer lacks some ponds and closes some necks, so 17 landings stand off the shore and the 福海 tour skips 方壶胜境's inlet (Q191, Q192); 64 halls (most in the closed courts of 含经堂 and the 长春园 gate) no link could reach; the candidate missing bridges were not confirmed (Q193).
 

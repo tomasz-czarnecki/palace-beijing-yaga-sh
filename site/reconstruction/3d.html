@@ -113,6 +113,7 @@
     #back[hidden], #walk-exit[hidden] { display: none; }
     #walk-tip { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); z-index: 800; padding: 4px 10px; border-radius: 3px; background: #17130Fd9; color: #F5EEE2; font-size: 12px; pointer-events: none; }
     #walk-tip[hidden] { display: none; }
+    #route { display: block; width: 100%; margin: 4px 0 2px; padding: 4px 2px; border: 1px solid #17130F; border-radius: 3px; background: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; }
     #walk { display: block; width: 100%; margin: 6px 0 2px; padding: 5px 0; border: 1px solid #17130F; border-radius: 3px; background: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; cursor: pointer; }
     #hover { position: fixed; z-index: 950; max-width: 300px; padding: 2px 7px; border-radius: 3px; background: #17130Fe6; color: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; pointer-events: none; }
     #hover[hidden] { display: none; }
@@ -125,7 +126,7 @@
       #panel { max-width: 210px; }
       #note, #legend { display: none; }
     }
-    body.shot #panel, body.shot #bpanel, body.shot #back, body.shot #walk-tip, body.shot #loading { display: none !important; }
+    body.shot #panel, body.shot #bpanel, body.shot #back, body.shot #walk-tip, body.shot #walk-exit, body.shot #loading { display: none !important; }
   </style>
 </head>
 <body>
@@ -141,10 +142,13 @@
     <h1><span lang="zh-Hans">圆明园</span> before October 1860</h1>
     <label><input type="checkbox" id="halls" checked> Halls (boxes)</label>
     <label><input type="checkbox" id="walls" checked> Walls and bridges</label>
+    <label><input type="checkbox" id="paths" checked> Paths, galleries and landings</label>
+    <label><input type="checkbox" id="assumed" checked> Assumed paths (C)</label>
     <label><input type="checkbox" id="labels" checked> Names</label>
     <label><input type="checkbox" id="conf"> Colour by confidence</label>
     <label><input type="checkbox" id="vx"> Vertical scale 2×</label>
     <button id="walk" type="button">Walk from the view's centre</button>
+    <select id="route" aria-label="Walk a route"><option value="">Walk a route…</option></select>
     <div id="legend">
       <div id="legend-plain">
         <div><span style="background:#c2a98a"></span><span style="background:#5f6469"></span>a hall on the plan: box, grey roof</div>
@@ -157,9 +161,15 @@
         <div><span style="background:#d9a441"></span>B: a block on the plan S01, until Q2 is settled</div>
         <div><span style="background:#c4513a"></span>C: a guess</div>
       </div>
+      <div id="legend-paths">
+        <div><span style="background:#d8ccb0"></span><span style="background:#b8ab90"></span>paths of 1860: traced on the plan, or drawn on the 1744 leaves</div>
+        <div><span style="background:#d8bfae"></span>assumed path (C): added only so that a hall can be reached</div>
+        <div><span style="background:#8a3b2a"></span><span style="background:#5f6469"></span>covered gallery 游廊, a simple roof on posts <span style="background:#d3cab6;margin-left:8px"></span>landing</div>
+        <div><span style="background:#24566e"></span>boat route on the water (dashed)</div>
+      </div>
       <div><span style="background:#6f9fb0"></span>water <span style="background:#899862;margin-left:8px"></span>land <span style="background:#567446;margin-left:8px"></span>hills</div>
     </div>
-    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, levels from today's ground. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know.</div>
+    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, levels from today's ground. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height.</div>
   </div>
   <aside id="bpanel" aria-label="Building" hidden></aside>
   <div id="lightbox" role="dialog" aria-label="Picture" hidden>
@@ -176,6 +186,7 @@
   <div id="loading" role="status">Building the gardens…</div>
   <script src="vendor/three.bundle.js"></script>
   <script src="halls3d.js"></script>
+  <script src="paths3d.js"></script>
   <script src="panel3d.js"></script>
   <script src="3d.js"></script>
 </body>

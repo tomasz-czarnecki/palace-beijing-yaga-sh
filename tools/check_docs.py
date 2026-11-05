@@ -17,7 +17,7 @@ README = ROOT / "research/README.md"
 PHOTOS_README = ROOT / "research/photos/README.md"
 DOCS = [ROOT / "CLAUDE.md", README, PHOTOS_README, ROOT / "docs/METHOD.md", ROOT / "docs/rounds/README.md"]
 # Where a backticked relative path may start from.
-BASES = [ROOT, ROOT / "research", ROOT / "research/xiyanglou", ROOT / "research/xiyanglou/XY01-xieqiqu", ROOT / "research/scenes", ROOT / "research/scenes/YM03-jiuzhou-qingyan", ROOT / "research/plan", ROOT / "research/plan/readings/ym_west", ROOT / "research/photos", ROOT / "research/evidence", ROOT / "research/twins", ROOT / "research/reconstructions", ROOT / "research/georef", ROOT / "research/typology", ROOT / "site", ROOT / "site/reconstruction", ROOT / "site/reconstruction/data", ROOT / "site/reconstruction/generated", ROOT / "docs", ROOT / "docs/rounds", ROOT / "scripts", ROOT / "tools"]
+BASES = [ROOT, ROOT / "research", ROOT / "research/xiyanglou", ROOT / "research/xiyanglou/XY01-xieqiqu", ROOT / "research/scenes", ROOT / "research/scenes/YM03-jiuzhou-qingyan", ROOT / "research/plan", ROOT / "research/plan/readings/ym_west", ROOT / "research/plan/readings", ROOT / "research/paths", ROOT / "research/photos", ROOT / "research/evidence", ROOT / "research/twins", ROOT / "research/reconstructions", ROOT / "research/georef", ROOT / "research/typology", ROOT / "site", ROOT / "site/reconstruction", ROOT / "site/reconstruction/data", ROOT / "site/reconstruction/generated", ROOT / "docs", ROOT / "docs/rounds", ROOT / "scripts", ROOT / "tools"]
 PATH_RE = re.compile(r"`([^`\s]+)`")
 LOOKS_LIKE_PATH = re.compile(r"^[\w./-]+(\.(py|csv|json|geojson|md|html|js|css|i16|bin|lock|toml)|/)$")
 # Names of files in another project, gone from this one, or meant as a pattern.

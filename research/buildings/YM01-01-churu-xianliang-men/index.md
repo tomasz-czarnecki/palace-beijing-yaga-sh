@@ -89,6 +89,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - Q87: YM01-02
 - Q130: YM01
 - Q164: YM01-02 bridge before 出入贤良门
+- Q193: Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks
 
 <!-- generated:end -->
 

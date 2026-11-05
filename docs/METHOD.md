@@ -148,6 +148,18 @@ Once the famous part has its dossiers, everything else still shows its compound'
 8. **Public pages only for the best documented,** by a stated score and two rules a reader would expect (at least one free picture, enough text), and a hub listing every dossier so each panel can link to its summary.
 9. **Check every sentence before it goes public,** by workers who did not write it, and keep the checks (`research/scenes/checks.csv`). Here 275 sentences: 154 held, 116 changed, 5 not verifiable. The same workers then wrote the zh drafts from the corrected text.
 
+### 14. The ways: roads, paths, galleries, landings and boat routes
+
+Boxes on a plain are not yet a place you can walk. Round 9 drew the circulation of 1860 (`research/paths/README.md`):
+1. **Ask each kind of source the same question, how did one get from here to there,** each its own worker: the plan read region by region (what it draws: galleries as narrow bay rows, steps, dikes as land strips, a few labelled roads; courts and their axes, but no paving across them), the period paintings read for circulation (paved ways, galleries, steps, landings, moored boats, how each scene is reached), the texts (routes "from X to Y", boat trips, ceremonies, terms), the digs (landings, steps, aprons; no published path width).
+2. **Readers trace in plan pixels with the ids they join,** not in metres: the coordinator puts every line through the georeference in use and snaps the ends, so a later refit moves the ways with everything else. A crop tool with absolute pixel labels and the ids drawn (`docs/rounds/common/palace_r9_tools/crop.py`) made that quick: five readers traced 611 lines in 20 minutes.
+3. **Snap, measure, never hide a gap.** Each end to a door (a side mid-point of its box, the least detour), a gate, a bridge end, a landing or another line; the gap before and after is in the layer and the check fails above 0.5 m for an A or B line. A line through a box or water is rerouted on a fine grid near its trace, and what cannot be is written in `exceptions.csv` with the reason: here land necks under the traced water, stairs inside the Xiyang Lou terrace boxes, roads running beyond the trace.
+4. **Grade by what draws it:** A for a period picture or a dig, B for the base plan or a text, C for inference. Raise traces by a mechanical match to the leaves (same scene, kind, an end in common), not by eye.
+5. **Add only what makes a hall reachable,** marked `assumed`, in its own mesh and tint, so it can be switched off. Here the links outnumber the traced lines: say so, and show the view without them.
+6. **Routes are waypoints, not drawings:** the shortest way through the network between halls a source names, with the stops. Where the network falls apart, one marked link, and the route's note says what is our choice (here: the bridge the emperor crossed).
+7. **Today's paths are a hint, never evidence:** judge them by script against the old water and halls (on fill, modern; on a shore, a dike or a traced way, plausible) and keep them out of the layer.
+8. **Fix the layers you lean on when they are wrong,** in their inputs: two bridges had been read along their decks, not across the water; ids stay.
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:

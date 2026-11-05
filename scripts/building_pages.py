@@ -33,7 +33,10 @@ END = "<!-- generated:end -->"
 NOTES_HINT = "<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->"
 PRIVATE_LINE = "%% private %%"
 # What may stand in a public file. Anything else stops the script.
-PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources", "dimensions", "dossier"}
+PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources", "dimensions", "dossier", "ways"}
+PUBLIC_WAY_KEYS = {"id", "kind", "label", "other", "confidence", "assumed", "sources", "length_m"}
+PUBLIC_ROUTE_KEYS = {"id", "name", "confidence", "sources", "stop"}
+WAY_LABEL = {"imperial_road": "imperial road", "paved_way": "paved way 甬道", "courtyard_path": "court path", "service_path": "service path", "gallery": "covered gallery 游廊", "mountain_gallery": "climbing gallery 爬山廊", "causeway": "causeway", "dike": "dike 堤", "bridge_approach": "bridge approach", "steps": "steps 踏跺", "boat_route": "boat route", "landing": "landing 码头", "dock": "boat dock 船坞"}
 PUBLIC_DIMENSION_KEYS = {"id", "part", "what", "label", "value", "err", "unit", "method", "confidence", "source", "locator", "snippet", "key"}
 PUBLIC_FACT_KEYS = {"label", "value", "sources", "confidence"}
 PUBLIC_PHOTO_KEYS = {"id", "title", "date", "creator", "archive", "source_url", "kind", "group", "conf", "why", "licence", "attribution", "also_shows", "camera_note", "image", "thumb", "link_only", "of", "side_group", "visible", "reliability"}
@@ -177,6 +180,8 @@ class Book:
             self.boxes.setdefault(row_id, []).extend(self.boxes.get(target, []))
         self.questions = load_questions()
         self.sources = load_sources()
+        self.box_row = {p["id"]: p["building_id"] for f in fc["features"] for p in [f["properties"]]}
+        self.ways, self.routes_at = load_ways(self.box_row, self.rows)
         self.children = {}
         for r in self.rows.values():
             if r["parent_id"]:
@@ -725,6 +730,10 @@ def panel_page(book, page, hand, public):
     used |= {s for s in re.findall(r"\bS\d+\b", json.dumps(out["model"], ensure_ascii=False) + out["notes_html"] + " ".join(t["basis"] for t in out["twins"])) if s in book.sources}
     if page["kind"] not in ("garden", "class"):  # those two are fetched for every plain hall: the rows carry their own links
         used |= {s for r, _ in page["recon_rows"] for s in split_ids(r["source_id"]) if s in book.sources}
+    ways = ways_of(book, page)
+    if ways:
+        out["ways"] = ways
+        used |= {s for w in ways.get("reached", []) + ways.get("routes", []) for s in split_ids(w["sources"]) if s in book.sources}
     out["sources"] = sources_of(book, used)
     xy_extras(book, page, out)
     if public:
@@ -779,9 +788,102 @@ def xy_extras(book, page, out):
         out["dimensions"] = sheet["figures"] if pid == top else [d for d in sheet["figures"] if d["id"] == pid]
 
 
+def load_ways(box_row, rows):
+    """Round 9: research/layers/paths_1860, landings_1860 and routes_1860 by the rows, gates and bridges they touch."""
+    ways, routes_at = {}, {}
+    names = {}
+    for name in ("paths_1860", "landings_1860", "bridges_1860", "walls_1860"):
+        f = ROOT / "research/layers" / f"{name}.geojson"
+        if f.exists():
+            for x in json.load(open(f, encoding="utf-8"))["features"]:
+                q = x["properties"]
+                names[q["id"]] = q.get("name_zh") or WAY_LABEL.get(q.get("kind", ""), "") or q["id"]
+    bridge_row = {}
+    f = ROOT / "research/layers/bridges_1860.geojson"
+    for x in json.load(open(f, encoding="utf-8"))["features"]:
+        if x["properties"].get("building_id"):
+            bridge_row[x["properties"]["id"]] = x["properties"]["building_id"]
+
+    def touched(ident, at):
+        out = set()
+        for v in (ident or "", (at or "").split(":")[0]):
+            v = v.strip()
+            if not v:
+                continue
+            if v in box_row:
+                out.add(box_row[v])
+            elif v in bridge_row:
+                out |= {v, bridge_row[v]}
+            elif v in rows or v.startswith("G"):
+                out.add(v)
+        return out
+
+    def label(ident):
+        if not ident:
+            return "another way"
+        if ident in rows:
+            r = rows[ident]
+            return r["name_zh"] or r["name_on_plan"] or ident
+        return names.get(ident, ident)
+
+    f = ROOT / "research/layers/paths_1860.geojson"
+    if not f.exists():
+        return ways, routes_at
+    for x in json.load(open(f, encoding="utf-8"))["features"]:
+        q = x["properties"]
+        ends = [(q["from_id"], q["from_at"]), (q["to_id"], q["to_at"])]
+        for i, (ident, at) in enumerate(ends):
+            other = ends[1 - i]
+            for row in touched(ident, at):
+                ways.setdefault(row, []).append({"id": q["id"], "kind": q["kind"], "label": WAY_LABEL[q["kind"]], "other": label(other[0] or box_row.get((other[1] or "").split(":")[0], "")),
+                                                 "confidence": q["confidence"], "assumed": q["assumed"], "sources": q["sources"], "length_m": q["length_m"]})
+    for x in json.load(open(ROOT / "research/layers/landings_1860.geojson", encoding="utf-8"))["features"]:
+        q = x["properties"]
+        for row in split_ids(q["serves"]):
+            if row in rows:
+                ways.setdefault(row, []).append({"id": q["id"], "kind": q["kind"], "label": WAY_LABEL[q["kind"]], "other": q["water"] or "the water", "confidence": q["confidence"], "assumed": q["assumed"], "sources": q["sources"], "length_m": 0})
+    for x in json.load(open(ROOT / "research/layers/routes_1860.geojson", encoding="utf-8"))["features"]:
+        q = x["properties"]
+        hit = {s["id"]: s["name"] for s in q["stops"]}
+        for v in q["via"]:
+            if v in box_row:
+                hit.setdefault(box_row[v], "")
+        for row in hit:
+            for r in ([row] if row in rows else []) + ([rows[row]["parent_id"]] if row in rows and rows[row]["parent_id"] else []):
+                lst = routes_at.setdefault(r, [])
+                if not any(e["id"] == q["id"] for e in lst):
+                    lst.append({"id": q["id"], "name": q["name_en"], "confidence": q["confidence"], "sources": q["sources"], "stop": row in {s["id"] for s in q["stops"]} and r == row})
+    for lst in ways.values():
+        lst.sort(key=lambda w: ({"A": 0, "B": 1, "C": 2}[w["confidence"]], w["id"]))
+        seen = set()
+        lst[:] = [w for w in lst if not (w["id"] in seen or seen.add(w["id"]))]
+    return ways, routes_at
+
+
+def ways_of(book, page):
+    """What a page shows of the ways: the lines and landings that touch it (a compound: those of its halls, counted), the routes that pass it."""
+    pid = page["id"]
+    out = {}
+    if page["kind"] == "compound":
+        mine = [w for k in [pid] + book.children.get(pid, []) for w in book.ways.get(k, [])]
+        seen = set()
+        mine = [w for w in mine if not (w["id"] in seen or seen.add(w["id"]))]
+    else:
+        mine = book.ways.get(pid, [])
+    if mine:
+        out["reached"] = mine[:40]
+    if book.routes_at.get(pid):
+        out["routes"] = book.routes_at[pid]
+    return out
+
+
 def assert_public(page):
     pid = page["id"]
     assert set(page) <= PUBLIC_KEYS, (pid, set(page) - PUBLIC_KEYS)
+    for w in page.get("ways", {}).get("reached", []):
+        assert set(w) == PUBLIC_WAY_KEYS, (pid, w)
+    for w in page.get("ways", {}).get("routes", []):
+        assert set(w) == PUBLIC_ROUTE_KEYS, (pid, w)
     for d in page.get("dimensions", []):
         assert set(d) - {"scale"} == PUBLIC_DIMENSION_KEYS, (pid, d)  # a scene's figures also say the scale used
     for f in page["facts"]:

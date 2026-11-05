@@ -2,6 +2,7 @@
 // Data: generated/ground.json + ground.bin (scripts/ground1860.py), generated/structures.json and data/halls_1860.geojson (scripts/boxes1860.py), data/buildings/<ID>.json (scripts/building_pages.py), data/labels_1860.json.
 // World axes: x = east, z = south, y = height above the water, metres. Halls are one merged mesh (halls3d.js); a click tests rectangles, not triangles.
 // URL: ?b=<ID> (opens that page and frames its object) &cam=x,y,z,tx,ty,tz &halls=0 &walls=0 &labels=0 &conf=1 &vx=2 &shot=1 (hides the panels, nothing animates, no labels) &public=1 (localhost: no research copy of the pages).
+// Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
 if (shot) document.body.classList.add("shot");
@@ -42,7 +43,7 @@ function fitNearPlane() {
 }
 let labels = [];
 function updateLabels() {
-  const on = state.labels && !shot && !walking;
+  const on = state.labels && !shot && !walking && !touring;
   for (const l of labels) {
     const d = camera.position.distanceTo(l.position);
     l.visible = on && (l.userData.rank === 1 ? d > 700 : d < 1400);
@@ -100,9 +101,9 @@ function glideTo(pos, tgt, off, ms = 700) {
   requestAnimationFrame(step);
 }
 
-const state = { halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1) };
+const state = { halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0" };
 const meshes = {};
-let walking = false;
+let walking = false, touring = null;
 
 // Ground, from the binary parts of ground1860.py.
 function partGeometry(buf, part, withRgb) {
@@ -206,13 +207,16 @@ function labelSprite(text, sub, rank) {
 
 async function main() {
   const local = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) && !params.get("public") && (await fetch(location.href, { method: "HEAD" }).then((r) => r.headers.get("X-Palace-Local") === "1").catch(() => false));
-  const [meta, buf, gridBuf, fc, structures, labelData] = await Promise.all([
+  const [meta, buf, gridBuf, fc, structures, labelData, pathFc, landingFc, routeFc] = await Promise.all([
     fetch("generated/ground.json").then((r) => r.json()),
     fetch("generated/ground.bin").then((r) => r.arrayBuffer()),
     fetch("generated/ground_grid.i16").then((r) => r.arrayBuffer()),
     fetch("data/halls_1860.geojson").then((r) => r.json()),
     fetch("generated/structures.json").then((r) => r.json()),
     fetch("data/labels_1860.json").then((r) => r.json()),
+    fetch("data/paths_1860.geojson").then((r) => r.json()),
+    fetch("data/landings_1860.geojson").then((r) => r.json()),
+    fetch("data/routes_1860.geojson").then((r) => r.json()),
   ]);
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
@@ -228,6 +232,8 @@ async function main() {
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m });
+  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, base: meta.ground_m - meta.datum_m });
+  for (const g of Object.values(ways.groups)) world.add(g);
   meshes.halls = halls.mesh;
   world.add(meshes.halls);
   labels = labelData.map((l) => {
@@ -242,6 +248,10 @@ async function main() {
   function apply() {
     meshes.halls.visible = state.halls;
     meshes.structures.visible = state.walls;
+    ways.groups.sure.visible = ways.groups.boat.visible = state.paths;
+    ways.groups.assumed.visible = state.paths && state.assumed;
+    ways.setConfMode(state.conf);
+    document.getElementById("legend-paths").hidden = !state.paths;
     world.scale.y = state.vx;
     world.updateMatrixWorld(true);
     halls.setConfMode(state.conf);
@@ -249,7 +259,7 @@ async function main() {
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
   }
-  for (const key of ["halls", "walls", "labels", "conf"]) {
+  for (const key of ["halls", "walls", "labels", "conf", "paths", "assumed"]) {
     const box = document.getElementById(key);
     box.checked = state[key];
     box.onchange = (e) => { state[key] = e.target.checked; apply(); };
@@ -272,7 +282,7 @@ async function main() {
   for (const [rowId, target] of Object.entries(fc.shared_rows || {})) if (byBuilding.has(target)) byBuilding.set(rowId, byBuilding.get(target));
   const boxesOf = (id) => byBuilding.get(id) || byParent.get(id) || [];
 
-  const panel = createBuildingPanel({ local, onClose: () => closeAll(), onOpen: (id) => open(id) });
+  const panel = createBuildingPanel({ local, onClose: () => closeAll(), onOpen: (id) => open(id), onRoute: (id) => startTour(id, 0) });
   const label = document.getElementById("hover");
   const ray = new THREE.Raycaster();
   const rayAt = (e) => {
@@ -309,6 +319,7 @@ async function main() {
     glideTo([c.x + look[0] * d * Math.cos(ELEV), c.y + d * Math.sin(ELEV), c.z + look[1] * d * Math.cos(ELEV)], c.toArray(), [ox, oy]);
   };
   const closeAll = () => {
+    if (touring) { halls.select([]); panel.hide(); return; }
     glideId++;
     halls.select([]);
     panel.hide();
@@ -427,8 +438,132 @@ async function main() {
     render();
   };
   walkBtn.onclick = startWalk;
-  walkExit.onclick = stopWalk;
+  walkExit.onclick = () => (touring ? stopTour() : stopWalk());
+
+  // Round 9: walk a route of data/routes_1860 at eye height (by boat 1.2 m above the water), pausing at its stops with their panel.
+  // A camera fly-through along the line, no collision. Space pauses, the right arrow goes on to the next stop, Shift hurries, Esc stops.
+  const TOUR_SPEED = { walk: 6, boat: 9 }, PAUSE_MS = 3500, BOAT_EYE = 1.2;
+  const routeSel = document.getElementById("route");
+  for (const f of routeFc.features) {
+    const o = document.createElement("option");
+    o.value = f.properties.id;
+    o.textContent = f.properties.name_en;
+    routeSel.append(o);
+  }
+  routeSel.onchange = () => { if (routeSel.value) startTour(routeSel.value, 0); };
+  const lineOf = (f) => {
+    const pts = f.geometry.coordinates.map(toXZ), cum = [0];
+    for (let i = 1; i < pts.length; i++) cum.push(cum[i - 1] + Math.hypot(pts[i][0] - pts[i - 1][0], pts[i][1] - pts[i - 1][1]));
+    return { pts, cum, len: cum[cum.length - 1] };
+  };
+  const pointAt = (R, s) => {
+    s = Math.max(0, Math.min(R.len, s));
+    let i = 0;
+    while (i < R.cum.length - 2 && R.cum[i + 1] < s) i++;
+    const t = (s - R.cum[i]) / (R.cum[i + 1] - R.cum[i] || 1);
+    return [R.pts[i][0] + (R.pts[i + 1][0] - R.pts[i][0]) * t, R.pts[i][1] + (R.pts[i + 1][1] - R.pts[i][1]) * t];
+  };
+  const eyeAt = (T, x, z) => (T.boat ? BOAT_EYE : (groundAt(x, z) ?? meta.ground_m - meta.datum_m) + EYE);
+  const placeTour = (T) => {
+    const [x, z] = pointAt(T.R, T.s);
+    let ax = 0, az = 0;
+    for (const d of [6, 10, 14, 18]) { const [px, pz] = pointAt(T.R, T.s + d); ax += px / 4; az += pz / 4; } // a smoothed look ahead
+    if (Math.hypot(ax - x, az - z) < 1) [ax, az] = [x + Math.sin(T.yaw), z - Math.cos(T.yaw)];
+    const y = eyeAt(T, x, z);
+    let tx = ax, tz = az, ty = y;
+    if (T.look) [tx, ty, tz] = T.look;
+    T.yaw = Math.atan2(tx - x, -(tz - z));
+    camera.position.set(x, y * state.vx, z);
+    camera.lookAt(new THREE.Vector3(tx, ty * state.vx, tz));
+    renderer.render(scene, camera);
+  };
+  const atStop = (T, st) => {
+    T.look = null;
+    const list = boxesOf(st.id);
+    if (list.length) T.look = [list[0].cx, (list[0].y0 + list[0].y1) / 2, list[0].cz];
+    else {
+      const l = landingFc.features.find((f) => f.properties.id === st.id);
+      if (l) { const [lx, lz] = toXZ(l.geometry.coordinates); T.look = [lx, eyeAt(T, lx, lz) - 0.5, lz]; }
+    }
+    walkTip.textContent = `${T.name} · ${st.name} · Space to pause · → next stop · Esc to stop`;
+    if (shot) return;
+    const id = st.id.startsWith("BR") ? null : st.id;
+    if (id) panel.load(id).then((page) => { if (touring === T) { panel.show(page); halls.select(boxesOf(id)); } }).catch(() => {});
+  };
+  const tourStep = (now) => {
+    const T = touring;
+    if (!T) return;
+    const dt = Math.min((now - T.last) / 1000, 0.1);
+    T.last = now;
+    if (!T.paused && now >= T.until) {
+      if (T.look && now >= T.until) { T.look = null; walkTip.textContent = `${T.name} · Space to pause · → next stop · Esc to stop`; }
+      T.s += TOUR_SPEED[T.boat ? "boat" : "walk"] * (keys.has("ShiftLeft") || keys.has("ShiftRight") ? 3 : 1) * dt;
+      const st = T.stops.find((x) => !x.seen && x.along_m <= T.s);
+      if (st) { st.seen = true; T.s = st.along_m; T.until = now + PAUSE_MS; atStop(T, st); }
+      if (T.s >= T.R.len) { T.s = T.R.len; placeTour(T); walkTip.textContent = `${T.name} · the end · Esc to stop`; T.paused = true; }
+    }
+    placeTour(T);
+    T.frame = requestAnimationFrame(tourStep);
+  };
+  function startTour(id, frac) {
+    const f = routeFc.features.find((x) => x.properties.id === id);
+    if (!f) return;
+    if (walking) stopWalk();
+    if (touring) stopTour(true);
+    const home = touring ? touring.home : { pos: camera.position.toArray(), tgt: controls.target.toArray() };
+    closeAll();
+    const R = lineOf(f);
+    const T = { id, name: f.properties.name_en, boat: f.properties.mode === "boat", R, s: R.len * (frac || 0), yaw: 0, look: null, paused: false, until: 0, last: performance.now(), home,
+      stops: f.properties.stops.map((x) => ({ ...x, seen: x.along_m < R.len * (frac || 0) - 0.5 })) };
+    touring = T;
+    controls.enabled = false;
+    glideId++;
+    setOffset([0, 0]);
+    camera.near = 0.3;
+    camera.updateProjectionMatrix();
+    walkExit.hidden = walkTip.hidden = false;
+    backBtn.hidden = true;
+    walkTip.textContent = `${T.name} · Space to pause · → next stop · Esc to stop`;
+    routeSel.value = id;
+    updateLabels();
+    placeTour(T);
+    if (!reduced()) T.frame = requestAnimationFrame(tourStep);
+  }
+  function stopTour(keepHome) {
+    const T = touring;
+    if (!T) return;
+    cancelAnimationFrame(T.frame);
+    touring = null;
+    keys.clear();
+    routeSel.value = "";
+    walkExit.hidden = walkTip.hidden = true;
+    panel.hide();
+    halls.select([]);
+    if (keepHome) return;
+    controls.enabled = true;
+    camera.position.set(...T.home.pos);
+    controls.target.set(...T.home.tgt);
+    controls.update();
+    render();
+  }
+  const nextStop = () => {
+    const T = touring, st = T && T.stops.find((x) => !x.seen);
+    if (!T) return;
+    if (!st) { T.s = T.R.len; placeTour(T); return; }
+    st.seen = true;
+    T.s = st.along_m;
+    T.until = performance.now() + PAUSE_MS;
+    atStop(T, st);
+    placeTour(T);
+  };
   addEventListener("keydown", (e) => {
+    if (touring) {
+      if (e.key === "Escape") { stopTour(); return; }
+      if (e.code === "Space") { touring.paused = !touring.paused; touring.until = 0; e.preventDefault(); return; }
+      if (e.code === "ArrowRight" || e.code === "KeyN") { nextStop(); e.preventDefault(); return; }
+      keys.add(e.code);
+      return;
+    }
     if (!walking) return;
     if (e.key === "Escape") { stopWalk(); return; }
     keys.add(e.code);
@@ -448,7 +583,7 @@ async function main() {
     }
   });
   el.addEventListener("pointerup", (e) => {
-    if (walking || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
+    if (walking || touring || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
     const hit = hitAt(e);
     if (hit) open(hit.box.bid, hit.box);
     else { openToken++; closeAll(); }
@@ -456,7 +591,7 @@ async function main() {
   const labelOf = (b) => [b.props.name || "Hall without a name on the plan", b.props.assumed ? "(assumed)" : ""].filter(Boolean).join(" ");
   let hoverEvent = null;
   el.addEventListener("pointermove", (e) => {
-    if (walking || e.pointerType !== "mouse" || e.buttons) { label.hidden = true; return; }
+    if (walking || touring || e.pointerType !== "mouse" || e.buttons) { label.hidden = true; return; }
     if (!hoverEvent) requestAnimationFrame(() => {
       const hit = hitAt(hoverEvent);
       el.style.cursor = hit ? "pointer" : "";
@@ -480,7 +615,9 @@ async function main() {
   const deep = params.get("b");
   if (deep) await open(deep.toUpperCase());
   document.getElementById("loading").hidden = true;
-  window.viewer = { state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, keys, setOffset };
+  const routeParam = params.get("route");
+  if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
+  window.viewer = { state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 
