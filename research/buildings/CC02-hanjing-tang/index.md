@@ -60,7 +60,7 @@ Changchun Yuan
 - CC02-N04
 - CC02-N05
 
-## Pictures (10)
+## Pictures (22)
 
 - **P0402** (sure): 含经堂遗址 20130126.JPG (2013-01-26 15:43:43 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E9%81%97%E5%9D%80_20130126.JPG
 
@@ -102,8 +102,47 @@ Changchun Yuan
 
   ![P0505](../../photos/images/P0505.jpg)
 
+- **P0799** (sure): Hanjingtang Historic site 1.jpg (2007 (Commons file page)). https://commons.wikimedia.org/wiki/File:Hanjingtang_Historic_site_1.jpg
+- **P0800** (sure): 含经堂 20130126.jpg (2013-01-26 16:05:59 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82_20130126.jpg
+- **P0801** (sure): 含经堂蕴真斋遗址 20130324.JPG (2013-03-24 17:32:11 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%90%AB%E7%BB%8F%E5%A0%82%E8%95%B4%E7%9C%9F%E6%96%8B%E9%81%97%E5%9D%80_20130324.JPG
+- **P0814** (sure): 200705 圆明园 044 (2007-05-07 17:02:20 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490865117
 
-## Texts and drawings (81)
+  ![P0814](../../photos/images/P0814.jpg)
+
+- **P0815** (sure): 200705 圆明园 046 (2007-05-07 17:04:09 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490867045
+
+  ![P0815](../../photos/images/P0815.jpg)
+
+- **P0817** (sure): 200705 圆明园 041 (2007-05-07 17:00:41 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490862541
+
+  ![P0817](../../photos/images/P0817.jpg)
+
+- **P0818** (sure): 200705 圆明园 042 (2007-05-07 17:01:06 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490863389
+
+  ![P0818](../../photos/images/P0818.jpg)
+
+- **P0819** (sure): 200705 圆明园 039 (2007-05-07 16:59:10 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490860793
+
+  ![P0819](../../photos/images/P0819.jpg)
+
+- **P0820** (sure): 200705 圆明园 045 (2007-05-07 17:02:41 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490866337
+
+  ![P0820](../../photos/images/P0820.jpg)
+
+- **P0821** (sure): 200705 圆明园 038 (2007-05-07 16:58:59 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490844380
+
+  ![P0821](../../photos/images/P0821.jpg)
+
+- **P0816** (likely): 200705 圆明园 043 (2007-05-07 17:01:35 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490864097
+
+  ![P0816](../../photos/images/P0816.jpg)
+
+- **P0822** (likely): 200705 圆明园 030 (2007-05-07 16:50:46 (dateTaken on the Flickr page)). https://www.flickr.com/photos/64535987@N00/490856769
+
+  ![P0822](../../photos/images/P0822.jpg)
+
+
+## Texts and drawings (86)
 
 - **E0019** (poem, sure): 御製夏日含經堂詩. 1749 (乾隆十四年) · j83:5b-6a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆十四年御製夏日含經堂詩　鬲軒能却暑邃室亦生凉味道研精義隨時愛景光（用選句）苑禽鳴處樂砌卉吐來芳石鼎閒嘗煮瑶琴靜不張詩吟西蜀杜壁畫輞川王差喜娛清暇還慚致治康
@@ -309,10 +348,14 @@ Changchun Yuan
 - **E0494** (description, sure): 长春园 Changchun Yuan: eight chief groups. 1934 · p.98 · S02. https://archive.org/details/historyofpekings00malo
   > The new garden which the Emperor constructed in 1751 just east of the Yuan Ming Yuan he called the Ch'ang Ch'un Yuan, or Garden of Long Spring.
   From Rixia j83. Built 1751 by Malone's date, added to for years; about a third of the size of the Yuan Ming Yuan proper; islands and artificial hills with wider spaces and larger lakes. No.1 audience hall inside the south gate (澹怀堂); No.2 palace on the central island (含经堂); Nos.3, 6, 8 lakeside gardens; Nos.4, 5, 7 palace groups on islands. Mapping of numbers to ids is mine; only 6 and 8 are named by Malone.
+- **E2497** (description, sure): 紫禁城宁寿宫区与长春园含经堂区建筑关系探讨 (王文涛, 故宫学刊 2015): the 含经堂 layout from the dig. 2015 · pp.358-367 (PDF pp.6-15) · S672. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf
+  From the dig and the archives: the compound is about 300 m north-south by 200 m east-west. Forecourt with three glazed pailou (east, south, west) and four lawns where yurts stood; five-bay gate with a 垂花门 each side; 含经堂 a seven-bay double-eaved hip-and-gable hall with side halls and the towers 霞翥楼 and 梵香楼; 淳化轩 seven by three bays, the largest single building of Changchun Yuan, hip-and-gable (rolled ridge on p.360, glazed on p.361); 蕴真斋 seven bays with front and back porches; 渊映斋 and 涵光室 five-bay hip-and-gable; 三友轩 three bays, measured about 11.1 x 7.2 m on a platform 11.9 x 8.3 m; 静莲斋 five bays; 理心楼 five bays; 待月楼 a three-bay two-storey hip-and-gable tower facing east; 澄波夕照 and 得胜概 three-bay open halls; a two-storey stage 乐奏钧天 with a five-bay viewing hall 神心妙达 rebuilt in mid-Jiaqing. Floor heating survives in five halls. The remains are Qianlong work with some of the 1814 rebuilding, nothing later. 淳化轩 was the model for 乐寿堂 in the 宁寿宫.
 - **E0058** (description, sure): 神心妙达 at 淳化轩. 2021 · section 2.2 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
   In 1814 the 乐奏钧天 stage and dressing rooms went up on the east of 淳化轩, and 神心妙达 was rebuilt as the hall to watch from. The same words in S05 j81:35b are a quotation in the 水木明瑟 preface and have nothing to do with this hall.
 - **E0059** (description, sure): 嘉庆帝所题圆明园淳化轩诗考析 (尤李). 2023-08-16 post · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/0bc9dd46ac1b4792b33bab6f8a9eb883.htm
   Through Jiaqing's poems. It dates the addition of 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼 behind 含经堂 to 1770, when the compound reached full size. The 重刻淳化阁帖 stones were set in the galleries in front of 淳化轩.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E2156** (description, sure): 圆明园买卖街钩沉. post n.d. · hwyj · S115. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
   The two shop streets. 同乐园's runs over 130 m north-south, split by a stream and 双桥, to the south of 舍卫城, in place by 1744. 含经堂's, dug in 2001-02, has a base 135.65 x about 6.3 m and 28 stoves, so perhaps eating houses. It has 40 shop bays in 9 units, against 10 buildings on the Yangshi Lei plan.
 - **E1454** (description, likely): 圆明园漫记, 宋广波. n.d. · essay · S335. https://www.aisixiang.com/data/141347.html
@@ -325,12 +368,18 @@ Changchun Yuan
   In 1770 Qianlong had a good rubbing of the 淳化阁帖 recut, set the slabs into the gallery walls behind 含经堂 and widened the gallery into this hall, meaning to retire here at 85. A note of 1771 says the galleries were done and the carving was not. 淳化轩: 21 dated items, 1770-1824, of which 21 poems (Qianlong, Jiaqing, Daoguang); recurring themes: the view. First dated 1770, last dated 1824.
 - **E0057** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 含经堂. 2020 edition · v3 p.244 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
   The largest group in this garden, finished 1747, rebuilt 1770 with 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼. 含经堂 is a seven-bay double-eaved glazed hall; 霞翥楼 mirrors 梵香楼 and, with the inner plaque 味腴书室, held the 四库全书荟要, which identifies our 味腴书屋. A stage was added east of 淳化轩 in 1814. Guards were still posted after 1860.
-- **E0060** (drawing, sure, search index only): 含经堂平面图 (图名: 长春园淳化轩). 原图乾隆五十九年 (1794) 后, 贴样嘉庆十九年 (1814) · 国家图书馆善本部 样021-23号 · S310. https://www.mhymy.com/dasl/ysltd/7866.html
+- **E0060** (drawing, sure): 含经堂平面图 (图名: 长春园淳化轩). 原图乾隆五十九年 (1794) 后, 贴样嘉庆十九年 (1814) · 国家图书馆善本部 样021-23号 · S310. https://www.mhymy.com/dasl/ysltd/7866.html
   Presentation plan of Hanjing Tang under the title Chunhua Xuan, 722x503 mm, colour and ink with red and yellow slips, drawn after 1794 with a pasted slip of 1814. No image here; the site may ask a small payment for the full record.
+- **E2475** (drawing, sure): 淳化轩及三友轩内檐装修平面 (图名: 淳化轩). 乾隆年间 · 国家图书馆善本部 样076-1号 · S310. https://www.mhymy.com/dasl/ysltd/10072.html
+  Interior plan of 淳化轩 (seven bays, three deep, front and rear verandas, with a two-storey 仙楼 inside) and of 三友轩, a three-bay hall against its west gable; 537x340 mm, ink, working sheet, Qianlong. A paste-over shows the upper 仙楼 over the middle five bays. The record compares it with 乐寿堂 in the Forbidden City, said in a Qing text to copy 淳化轩.
 - **E0061** (archaeology, sure): 含经堂 dig: 地天母 bronze from 梵香楼. 2001-2003 · section on 陈辉 · S333. https://www.visitbeijing.com.cn/article/49Nly85Lvzb
   Approval to survey and dig 长春园宫门 and 含经堂 came in March 2001, and the cleared site was presented by December 2003. A small bronze Buddha inscribed 地天母 was found; the park's archaeologist identifies it as the only known survivor of the 700-odd images of 梵香楼 Fanxiang Lou.
+- **E2496** (archaeology, sure): 圆明园长春园含经堂遗址发掘报告: table of contents. 2006 · 目录, 第三章 遗迹 · S990. https://ebook.artron.net/book.php?bookid=61437
+  The full report of the 2001-2003 seasons lists every excavated unit: in the south the three-arch pailou, walls, paths, carved-brick paving and yurt (毡帐) foundations and tree pits in the forecourt, the gate, the 含经堂 court with screen gate, main hall, east and west side halls, 霞翥楼, 梵香楼, galleries and a 垂花门; in the north 淳化轩 with a Taihu rockery before its terrace, 蕴真斋, the north gate and the open hall 得胜概; east 渊映斋, the dressing room and 乐奏钧天 stage, the viewing hall 神心妙达 and the shop street outside; west 涵光室, 三友轩 with its rockery, 静莲斋, 理心楼, 待月楼 and the open hall 澄波夕照 outside; round about duty rooms, stores, a well pavilion, a timber bridge, 明漪潇照, 云容水态 and the octagonal 静缘亭.
 - **E0063** (archaeology, sure): 澄波夕照 at 含经堂. c. 2011 blog, on the dig of 2001-03 · 系列15 · S356. https://blog.sina.com.cn/s/blog_65fec3ab0100sxa7.html
   After the dig of 2001-03 at 含经堂, the foundations of 澄波夕照, 得胜概 and a rock pavilion were restored in part. So the label on S01 has a site on the ground.
+- **E2491** (archaeology, sure): 紫禁城宁寿宫区与长春园含经堂区建筑关系探讨 (王文涛, 故宫学刊 2015). 2015 · pp.358-367 (PDF pp.6-15), figs 4-9, 30-34 · S940. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf
+  Compares the Ningshou Gong in the Forbidden City with the Hanjing Tang compound, which Qianlong built in phases from 1745 to 1771 for his retirement. It lists each hall's bays and roof, measures 三友轩 on the ruin, and describes some twenty underfloor heating systems found in the 2001-03 dig, with flue sizes. Figures include Yangshi Lei sheets of 淳化轩 (Qianlong and Jiaqing) at the NLC and the late plan from 金勋's collection.
 - **E0064** (archaeology, sure): 含经堂 乐奏钧天 stage as cited in 圆明园戏场探微. 2021 · citing 考古 2004(2) · S144. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
   The park's theatre paper reports the excavated 乐奏钧天 Yuezou Juntian stage of 含经堂 as about 16 m square, built over a granite cellar with a clear height of 2.47 m.
 - **E0062** (archaeology, sure, search index only): 北京圆明园含经堂遗址2001~2002年度发掘简报, 考古 2004(2): 41-65. 2004 · abstract via library record · S143. https://bvbvf1.bib-bvb.de/vufind/PrimoRecord/cdi_cass_nssd_9325303
@@ -364,6 +413,11 @@ Modern interpretation, not evidence.
 - Q9: Bay counts, plan against text
 - Q14: A label names which hall?
 - Q45: Halls in the texts with no row
+- Q86: YM44-06 / CC02-15
+- Q109: CC02-15 买卖街
+- Q143: CC02
+- Q171: CC02
+- Q173: CC02-04 淳化轩
 
 <!-- generated:end -->
 

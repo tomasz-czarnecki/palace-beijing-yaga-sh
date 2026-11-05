@@ -17,10 +17,10 @@ Changchun Yuan
 - **Destroyed:** 1860 (S01, S362)
 - **Position:** 40.00590, 116.31166. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x3 on the plan (S01, S362)
-- **Size in the inventory:** 22.848 × 25.7 m. stated: S362, sections 2, 4 (S01)
+- **Size in the inventory:** 22.848 × 19.968 m. stated: S362, sections 2, 4 (S01)
 - **Lead on its size, from a modern study, not used in the model:** 5 x 3 bays with surrounding gallery; overall width 22.848 m; base 25.344 x 22.464 m, 1 m high (S362, sections 3-4). (confidence B)
 - **Tiles:** grey (S01, S362)
-- **Note:** bays: 5 x 3 with gallery round; first row of the middle bay without inner columns (S362, sections 2, 4). depth_m: 19.968 (S362, sections 2, 4). three linked rolls, hip-gable, no bracket sets (S362, sections 2, 4). (S01, S362)
+- **Note:** bays: 5 x 3 with gallery round; first row of the middle bay without inner columns (S362, sections 2, 4). three linked rolls, hip-gable, no bracket sets (S362, sections 2, 4). (S01, S362)
 - **Plan reader's note:** Label directly east of the hall. Not in the inventory: see notes.md (敦素堂 expected). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 12059, 4662 (S01) *(research copy, not public)*
@@ -88,6 +88,7 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q3: Which state does S01 draw?
+- Q146: CC18-02 敦素堂, CC18-03 冠霞阁, CC18-04 明漪楼 are Qianlong names (S05 j83:18b)
 
 <!-- generated:end -->
 

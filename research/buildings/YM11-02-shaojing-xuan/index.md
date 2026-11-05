@@ -10,16 +10,16 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 韶景轩 Shaojing Xuan (S05, S02, S01, S360 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S01, S360)
-- **Type:** other (S05, S02, S01, S360 · confidence B)
-- **Built:** by 1776 (first dated item) (S05, S02, S01, S360)
-- **Destroyed:** 1860 (S05, S02, S01, S360)
+- **Name:** 韶景轩 Shaojing Xuan (S05, S02, S01, S360, S08 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S02, S01, S360, S08)
+- **Type:** other (S05, S02, S01, S360, S08 · confidence B)
+- **Built:** by 1776 (first dated item) (S05, S02, S01, S360, S08)
+- **Destroyed:** 1860 (S05, S02, S01, S360, S08)
 - **Position:** 40.00341, 116.28838. S01 sure (S01 · confidence B)
-- **Bays:** 5 per side in the texts / 5x5 on the plan (S05, S02, S01, S360)
+- **Bays:** 5 per side in the texts / 5x5 on the plan (S05, S02, S01, S360, S08)
 - **Size in the inventory:** 23.2 × 27.5 m. S01 plan px / hall scale (S01)
-- **Roof:** 重檐 double (S02 p.80: double roof) (S05, S02, S01, S360)
-- **Note:** Malone p.80: square, 8 columns a side. (S05, S02, S01, S360)
+- **Roof:** 重檐 double (S02 p.80: double roof) (S05, S02, S01, S360, S08)
+- **Note:** Malone p.80: square, 8 columns a side. roof: double eaves with pyramidal top (square plan) (S08, P0011 (leaf); S02 p.80). (S05, S02, S01, S360, S08)
 - **Plan reader's note:** 四面各五楹 with a central well: matches exactly (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 2520, 4553 (S01) *(research copy, not public)*
@@ -35,11 +35,14 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0011** (likely): 茹古涵今 Rugu hanjin [Assimiler le passé pour embrasser le présent] (圓明園四十景, 第11景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E4%B8%80%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B9%85%E5%9B%BE%29%2C_%E8%8C%B9%E5%8F%A4%E6%B6%B5%E4%BB%8A_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Rugu_hanjin_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083246.jpg
 
-## Texts and drawings (8)
+  ![P0011](../../photos/images/P0011.jpg)
+
+
+## Texts and drawings (9)
 
 - **E1354** (text, sure): 日下舊聞考 茹古涵今. 1780s (乾隆 敕撰) · j81:3b-4a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 坦坦蕩蕩之南為茹古涵今五楹南向其後方殿為韶景軒四面各五楹韶景軒前東為茂育齋西為竹香齋又北為靜通齋（圓圓明園册）臣等謹按茹古涵今四十景之一也額為皇上御書韶景軒額恭懸軒内其外南簷額曰喜接南薰東簷額曰景麗東皇西簷額曰翠生西嶺北簷額曰清風北户與竹香齋額皆御書茂育齋静通齋額皆世宗御書
@@ -64,16 +67,16 @@ None of its own.
   A square double-roofed hall, eight columns a side, in many courtyards west of 九洲清晏. Malone does not name it; the plan and Rixia place the square hall as 韶景轩.
 - **E1356** (description, sure): 圆明园百景史事分景汇编: 韶景轩. 1776-1820 · from p.130, under 茹古涵今 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=130
   韶景轩: 4 dated items, 1776-1820, of which 4 poems (Qianlong, Jiaqing); recurring themes: remembering his forebears. First dated 1776, last dated 1820.
+- **E2476** (drawing, sure): 韶景轩室内装修平面图 (图名: 韶景轩). 不详; record suggests 嘉庆二十四年 (1819) · 国家图书馆善本部 样023-3号 · S310. https://www.mhymy.com/dasl/ysltd/10403.html
+  Two-storey interior plan of 韶景轩 (茹古涵今), 258x245 mm, red and ink, working sheet; a paste-over shows the upper floor. A square central void with a gallery all round upstairs, four-leaf doors in the north and south central bays, a two-flight L-shaped stair in the west. The record ties it to the 1819 order 揭瓦大亭，更改装修.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 韶景轩, 5x5 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 茹古涵今 (no picture of this hall found): see YM11
+- Evidence for the whole compound 茹古涵今: see YM11
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

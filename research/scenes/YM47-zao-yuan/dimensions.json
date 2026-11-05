@@ -1,0 +1,93 @@
+{
+ "id": "YM47",
+ "name": "藻园 Zao Yuan",
+ "by_method": {
+  "a": 2,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "YM47",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 103.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM47",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 73.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM47",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 5000.0,
+   "err": 500.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  },
+  {
+   "id": "YM47",
+   "part": "藻园 building zone round the boat dock (L-shaped)",
+   "what": "other:site_length_ns",
+   "label": "Site length ns",
+   "value": 105.0,
+   "err": 5.0,
+   "unit": "m",
+   "method": "a",
+   "confidence": "B",
+   "source": "S156",
+   "locator": "mhymy 档案史料 11828, free part (84%)",
+   "snippet": false,
+   "key": false,
+   "scale": "metres as printed"
+  },
+  {
+   "id": "YM47",
+   "part": "藻园 building zone round the boat dock (L-shaped)",
+   "what": "other:site_width_ew",
+   "label": "Site width ew",
+   "value": 95.0,
+   "err": 5.0,
+   "unit": "m",
+   "method": "a",
+   "confidence": "B",
+   "source": "S156",
+   "locator": "mhymy 11828, free part",
+   "snippet": false,
+   "key": false,
+   "scale": "metres as printed"
+  }
+ ]
+}

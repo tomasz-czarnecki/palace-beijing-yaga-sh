@@ -46,7 +46,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (14)
+## Texts and drawings (15)
 
 - **E0691** (poem, sure): 澄心堂. 嘉庆二十年 (1815) · v4 p.338, under 澄心堂; source ref 6-143 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=341
   > 舟泛南湖弭棹登，堂开秋渚印心澄。凉颸送爽波纹叠，皎日含辉鉴影凭。碧荫玲珑松岛合，绿阴茂密柳堤凝。静观神会寥天一，身在蓬山最上层。
@@ -79,6 +79,8 @@ None of its own.
   On an island in the south lake of the western group, once 竹园, rebuilt 1815: a five-bay hall in two rolls with a hip-gable annex and side wings, plaques 垂虹榭 and 绮旭轩 on them. 湛清轩 stands on an islet north-east; a three-bay open hall 凌虚亭 stands on the hill across the lake.
 - **E0590** (description, sure, search index only): 敷春堂; 澄心堂; 迎晖殿 and 中和堂 labels; 绮春 四宜书屋 (search-index text). n.d. · mhymy ysltd 12232, 7496, 13985 · S340. https://www.mhymy.com/dasl/ysltd/7496.html
   敷春堂: the dowagers' residence from Daoguang, inside the south gate, with a stage per the archives. 澄心堂: island, five-bay hall with side halls. A plan labels 中和堂新宫门 and 迎辉殿. 四宜书屋 built 1805, west of 生冬室.
+- **E2488** (drawing, sure): 澄心堂内檐装修平面图 (图名: 澄心堂内檐准底). 道光三十年 (1850) 四月初七日 · 国家图书馆善本部 样101-11号 · S310. https://www.mhymy.com/dasl/ysltd/9980.html
+  Approved working plan of the 澄心堂 interior, 807x601 mm, 1850.4.7; island c. 125 x 150 m per the record. Adds the shelf number and date to E0699/E0700.
 - **E0699** (drawing, sure, search index only): 澄心堂内檐装修平面图. not seen · mhymy 样式雷图档; title only · S42. https://www.mhymy.com/tag/538
   Title only, seen in a listing.
 - **E0700** (drawing, sure, search index only): 澄心堂内檐装修平面图. S310. https://www.mhymy.com/tag/538

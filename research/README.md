@@ -23,6 +23,7 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
 | `reconstructions/catalog.csv` | reconstructions by other people, see below | hand, from Round 5 | yes |
 | `xiyanglou/` | Round 6, the European palaces in depth: one dossier per main building, the sheets they draw on. See below | hand; `scripts/xiyanglou_dossiers.py` | yes |
+| `scenes/` | Round 7, every other scene and compound: one dossier each, the sheets they draw on, the typology check. See below | hand; `scripts/scenes_dossiers.py` | yes |
 | `reconstructions/images/` | free reconstructions, at most 1600 px and about 300 KB | by hand with the catalogue | yes |
 | `buildings/` | one page per row of `buildings.csv` and per gate; `buildings/README.md` the list | `scripts/building_pages.py`, except each page's `## Notes` | yes |
 | `image-credits/CREDITS.md` | the credit of every public picture | `scripts/photos_catalog.py`, between markers | yes |
@@ -98,14 +99,16 @@ uv run python scripts/boxes1860.py            # data/halls_1860.geojson, generat
 uv run python scripts/photos_catalog.py       # site/reconstruction/photos/, credits (from photos/catalog.csv)
 uv run python tools/plan_crops.py             # raw/plancrops/<ID>.jpg, local only; needs the mosaic
 uv run python scripts/xiyanglou_dossiers.py   # research/xiyanglou/<ID>-<slug>/README.md, dimensions.json, the tables of research/xiyanglou/README.md
+uv run python scripts/scenes_dossiers.py      # research/scenes/<ID>-<slug>/README.md, dimensions.json, typology_check.json, the tables of research/scenes/README.md
 uv run python scripts/building_pages.py       # research/buildings/, data/buildings/<ID>.json, raw/buildings/<ID>.json
 uv run python scripts/xiyanglou_page.py       # site/xiyanglou/index.html, site/zh/xiyanglou/index.html, site/xiyanglou/keyplan.svg
+uv run python scripts/scenes_page.py          # site/scenes/index.html (the hub), site/scenes/<ID>/index.html for the public scenes, site/scenes/keyplan.svg, the same under site/zh/scenes/
 uv run python tools/check_pages.py            # every clickable object has a page; public copy clean; generator idempotent
 uv run python tools/check_evidence.py         # coverage; no empty evidence section; no research-only image on the site
 uv run python tools/check_docs.py             # these docs match the files
 ```
 
-Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json`, `xiyanglou/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
+Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, `typology/params.json`, `xiyanglou/`, `scenes/` and the four catalogues. After any change to those, rerun those steps in order. `photos/catalog.csv` and `evidence/catalog.csv` are sources of truth, edited by hand from Round 3 on; `twins/catalog.csv` and `reconstructions/catalog.csv` from Round 5 on. How they were first merged: `docs/rounds/common/palace_r5_merge.py`, a record, not a pipeline step.
 
 **Tested on 2026-10-31 (Round 4), in a scratch copy, in three batches, each compared with the repo:** `build_r1.py` through `building_pages.py` (without `render_r1.py`, `coverage_chart.py`, `plan_crops.py`); `typology_rules.py`, `typology_scale_check.py`, `georef.py`; `trace_plan.py --no-review`. They reproduce every committed file byte for byte. `trace_plan.py` took 45 s, each of the others at most 4 s. Not rerun: `fetch_osm.py` (today's OSM would differ), `clip_dem.py` and `mosaic_plan.py` (they write into `raw/`), `plan_crops.py`.
 
@@ -113,10 +116,10 @@ Everything from `publish_layers.py` down needs only `buildings.csv`, `layers/`, 
 
 | Id | What | Where it lives |
 |---|---|---|
-| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 415 ids, S873 the last; S400 and above are Round 5, S700 and above Round 6 (blocks at the head of its section in `sources.md`). Some items have two ids; all stay valid | `sources.md` |
-| `Q1`, ... | an open question. Q1–Q77 | `questions.md` |
-| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0786 the last | `photos/catalog.csv` |
-| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2440 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
+| `S01`, ... | a source. Blocks: S01–S09 core, S10–S39 maps, S40–S69 texts, S70–S99 pictures, S100–S129 typology, S130–S159 today's site, S160+ georeferencing, S200+ Round 3 (see the head of `sources.md`). 501 ids, S991 the last; S400 and above are Round 5, S700 and above Round 6, S900 and above Round 7 (blocks at the head of its section in `sources.md`). Some items have two ids; all stay valid | `sources.md` |
+| `Q1`, ... | an open question. Q1–Q185; Q78 and on found in Round 7 | `questions.md` |
+| `P0001`, ... | a picture; `P00NN` = `YMNN` for the album. Numbering in `photos/README.md`. P0822 the last | `photos/catalog.csv` |
+| `E0001`, ... | a text, poem, drawing or report. Stable only once committed. E2497 the last; 32 ids moved to the reconstruction catalogue in Round 5 and stay there as `evidence_id` |
 | `T001`, ... | a pairing of one of ours with a standing building. A twin named for two objects has two ids | `twins/catalog.csv` |
 | `R0001`, ... | a reconstruction by other people | `reconstructions/catalog.csv` |
 | `CLASS-grand_hall`, ... | a panel page of what speaks for a class of hall: a twin in the catalogue with `object_id` `CLASS:grand_hall` | `data/buildings/` | `evidence/catalog.csv` |
@@ -233,6 +236,22 @@ The European palaces, Round 6. Overview: `xiyanglou/README.md`. `<ID>-<slug>/REA
 | `impressions.csv` | every impression of the plates found: `plate`, `title`, `date`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `width`, `height`, `notes`. P0041-P0060 stay the panel's plates |
 | `viewpoints.csv` | where each plate was drawn from, estimated: `plate`, `photo_id`, `id`, `lat`, `lon`, `bearing`, `dist_m`, `err_m`, `basis` |
 
+## scenes/
+
+Every scene and compound outside the Xiyang Lou, Round 7: 81 dossiers, wave 1 the famous scenes, wave 2 the other Forty Scenes and six compounds of Yuanming Yuan, waves 3 and 4 Changchun and Qichun. Overview: `scenes/README.md`. `<ID>-<slug>/README.md` is a dossier, written by `scripts/scenes_dossiers.py`, with a hand-written `## Notes` below the markers; `<ID>-<slug>/dimensions.json` is its sheet: `by_method`, `figures` (the keys of the Xiyang Lou sheet plus `scale`). The figures are the rows of `dimensions.csv` and, measured by the script on the traced layers (status `run`), the scene's outline, its islands and the water inside it. `typology_check.json`: the measured figures against `typology/params.json`, by hall class. The csv files and `about.json` are hand-edited from Round 7 on; `docs/rounds/common/palace_r7_merge.py` shows how they were first made.
+
+| File | Fields |
+|---|---|
+| `about.json` | text by scene: `slug`, `zh`, `pinyin`, `en` (Malone's translation where he gives one, else ours), `role_en` (Malone's description), `wave`, `public` (a page of its own on the site), `what_en`, `scene_en`, `later_en`, `interior_en`, `setting_en`, `survives_en`, `recons_en`, `best_en`, `gaps_en`, `summary_en` (the hub's lines), and for the public pages `what_zh`, `scene_zh`, `survives_zh`, `summary_zh`; `sources`; `_overview` for the hub's lead |
+| `halls.csv` | each hall as one source states it: `id` (a row of `buildings.csv`, or `NEW` for a hall the texts name that has no row yet), `scene`, `plaque_zh`, `pinyin`, `en`, `bays`, `depth`, `purlins`, `roof`, `storeys`, `tiles`, `faces`, `relation` (its place among its neighbours), `built`, `changed`, `source_id`, `locator`, `basis` (the words that say it), `confidence`, `status` |
+| `dimensions.csv` | every figure: `id`, `part`, `what`, `value_m` (or m², as `what` says), `err_m`, `method` (a a published survey, excavation report or measured drawing, or a Qing drawing or text that writes the figure; b measured on the plan or a ruin footprint; c read from a painting or woodcut by module; d a photograph with a known object; e typology, or a figure with no survey behind it), `confidence`, `source_id`, `locator`, `scale` (the module or scale used: 营造尺 0.32 m, the hall scale, metres as printed), `basis` (the original figure and unit), `status` (viewed, snippet, run) |
+| `views.csv` | how a picture serves a modeller: `photo_id`, `id`, `view` (album, woodcut, gouache, 1887, yangshilei, tangyang, ruin, today, aerial, detail), `visible_part`, `state` (1744, 1745, 1750-92, 1887, Qing plan, ruin, today), `reliability` (high, medium, low), `note` |
+| `best.csv` | the top views for modellers: `id`, `rank`, `ref` (a P, E or R id), `why` |
+| `digs.csv` | excavations and surveys of the remains: `id`, `year`, `by`, `what_found`, `source_id`, `link`, `status`, `confidence` |
+| `interior.csv` | furniture, paintings, plaques, couplets, objects; rocks, trees, water, bridges, colours, tiles: `id`, `kind`, `what`, `source_id`, `locator`, `quote_or_basis`, `confidence`, `status` |
+| `checks.csv` | the check of the public pages' text before they went up, sentence by sentence, by workers who did not write it: `id`, `field`, `sentence`, `verdict` (held, changed, not verifiable), `source`, `note`, `fix`. 275 sentences: 154 held, 116 changed, 5 not verifiable |
+| `parts.csv` | unnamed rows identified, as in `xiyanglou/parts.csv`: `id`, `name_zh`, `name_pinyin`, `name_en`, `what`, `basis`, `source_id`, `confidence`, `action` (name, `merge:<row>`, retire, keep); read by `scripts/boxes1860.py` |
+
 ## twins/catalog.csv
 
 One row per pairing of one of ours with a standing or named building. 135 rows on 66 objects and classes: 13 `copy of`, 6 `sister`, 7 `same design family`, 3 `copied from ours`, 106 `comparable`; 15 A, 60 B, 60 C. **Never a source for a position or a size in `buildings.csv`.** A pairing with no source stays out, or is `comparable`, C, with the reason in `evidence_for_relation`.
@@ -320,7 +339,7 @@ Constants with their sources stand at the top of `scripts/boxes1860.py` and `scr
 | `fallback` | what speaks for the set of buildings: `[{kind, id, name, heading}]`, `kind` being compound, nearest (with `metres`), garden or class. With `refs_only` it brings only that page's reconstructions and twins, folded. The panel fetches that page, so nothing is written twice |
 | `searched` | a line saying what was searched and not found; blank when it has its own picture and text |
 | `questions`, `sources` | `{id, title}`; the cited sources with licence and link |
-| `dimensions`, `dossier` | Xiyang Lou only: the figures of `dimensions.json` (a building has all of them, a part its own); the link to its section of the public page |
+| `dimensions`, `dossier` | Xiyang Lou: the figures of `dimensions.json` (a building has all of them, a part its own); the link to its section of the public page. A scene with a dossier (Round 7): the scene has all its figures, a hall only its own (it sees the scene's under its fallback); `dossier` links to the scene's page if it has one, else to its summary on the hub `scenes/#<ID>`; `GARDEN-YM`, `-CC`, `-QC`, `-ALL` link to the hub. A scene's figures also carry `scale` |
 
 **Parent fallback,** `fallback_of()` in `scripts/building_pages.py`:
 - a hall leans on its compound, and on the garden too if the compound has no picture or text;

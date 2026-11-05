@@ -68,7 +68,7 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
   ![P0642](../../photos/images/P0642.jpg)
 
 
-## Texts and drawings (17)
+## Texts and drawings (18)
 
 - **E1268** (poem, sure): 御製上下天光詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:37b-38a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製上下天光詩 垂虹駕湖蜿蜒百尺修欄夾翼中為廣亭縠紋倒影滉瀁楣檻間凌空俯瞰一碧萬頃不啻胸吞雲夢 上下天水一色水天上下相連河伯夙朝玉闕渾忘望若昔年
@@ -102,12 +102,14 @@ The Island of the Zig-zag Bridges (Heavenly Light Above and Below) · Yuanming Y
   上下天光: 10 dated items, 1798-1856, of which 10 poems (Jiaqing, Daoguang, Xianfeng); recurring themes: the view, snow, boating. First dated 1798, last dated 1856.
 - **E1275** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 上下天光. 2020 edition · v2 p.20 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=23
   Finished 1726: a two-storey three-bay open tower on the lake with a terrace and bent bridges carrying two hexagonal pavilions, 饮和 and 奇赏. By Daoguang's reign the bridges and 平安院 seem gone and a three-bay hall 心镜澄观 was added.
+- **E1277** (drawing, sure): 上下天光总平面图 (图名: 涵月楼). 道光六至七年 (record converts this as 1825-1826) · 国家图书馆善本部 样式雷排架028-5-1号 · S310. https://www.mhymy.com/dasl/ysltd/5107.html
+  Reworked Daoguang-period base sheet of the whole scene with three layers of change in ink, vermilion and white-out over the tower, terrace and hills; 748x495 mm. No image here; the site may ask a small payment for the full record.
 - **E1278** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 上下天光. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 上下天光, no page printed, before p.226 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at an unstated page; sheet titles and numbers are in the volume, ordered from a library.
 - **E1279** (drawing, sure): 上下天光楼平面详图 (图名: 无). 道光朝 · 国家图书馆善本部 样式雷排架028-5-3号 · S310. https://www.mhymy.com/dasl/ysltd/5109.html
   Daoguang-period survey sheet of the Shangxia Tianguang tower in two layers, ground plan with a pasted upper-floor plan, columns, doors, windows and interior fittings; 365x273 mm, ink with yellow slips (rest of record paywalled). No image here; the site may ask a small payment for the full record.
-- **E1277** (drawing, sure, search index only): 上下天光总平面图 (图名: 涵月楼). 道光六至七年 (record converts this as 1825-1826) · 国家图书馆善本部 样式雷排架028-5-1号 · S310. https://www.mhymy.com/dasl/ysltd/5107.html
-  Reworked Daoguang-period base sheet of the whole scene with three layers of change in ink, vermilion and white-out over the tower, terrace and hills; 748x495 mm. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, likely): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 - **E0548** (plan, likely): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 - **E1280** (archaeology, sure): 上下天光区域考古勘探报告. n.d. · mhymy 档案史料 12739, free part · S152. https://www.mhymy.com/dasl/12739.html

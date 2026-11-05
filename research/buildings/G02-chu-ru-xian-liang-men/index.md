@@ -47,6 +47,9 @@ None of its own.
 ## Open questions
 
 - Q26: Forms
+- Q87: YM01-02
+- Q130: YM01
+- Q164: YM01-02 bridge before 出入贤良门
 
 <!-- generated:end -->
 

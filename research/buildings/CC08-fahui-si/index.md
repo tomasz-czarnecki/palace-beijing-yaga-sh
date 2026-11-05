@@ -68,7 +68,7 @@ None of its own.
   法慧寺 Fahui Si, in 长春园, on the south slope of the ridge north of 海岳开襟, gate facing west. Reads its name and halls through Buddhist texts on 五台山, and notes temple rites run by eunuchs were stopped in 1839.
 - **E0174** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 法慧寺. 2020 edition · v3 p.350 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=353
   Finished 1747 on the slope north of 海岳开襟. Gate 普香界 faces west; a five-bay main hall, a five-bay rear-facing tower with eleven-bay wings (the 四面延楼), a rear hall 光明性海, and in a west court the seven-tiered glazed pagoda, square below and round above, 23.55 m.
-- **E0175** (drawing, sure, search index only): 法慧寺、宝相寺平面图 (图名: 宝相法慧寺). 乾隆年间 · 国家图书馆善本部 样069-1号 · S310. https://www.mhymy.com/dasl/ysltd/12671.html
+- **E0175** (drawing, sure): 法慧寺、宝相寺平面图 (图名: 宝相法慧寺). 乾隆年间 · 国家图书馆善本部 样069-1号 · S310. https://www.mhymy.com/dasl/ysltd/12671.html
   Qianlong-period presentation plan of the two temples, 859x518 mm, colour and ink; Fahui Si has three five-bay halls on its central line. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 法慧寺. https://artmuseum.princeton.edu/collections/objects/138657
@@ -94,7 +94,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q152: yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which
 
 <!-- generated:end -->
 

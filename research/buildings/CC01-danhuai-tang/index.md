@@ -61,7 +61,7 @@ Changchun Yuan
   ![P0499](../../photos/images/P0499.jpg)
 
 
-## Texts and drawings (16)
+## Texts and drawings (17)
 
 - **E0001** (poem, sure): 御製秋日澹懐堂詩. 1749 (乾隆十四年) · j83:3b-4a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆十四年御製秋日澹懐堂詩　玉宇暢霽光松軒俯閬井山水既清佳結搆更寛整土階每覺慚繡柱無須逞神心適可達紛營於以屏斐然翰墨香謐爾希夷境豈惟容膝安寄懐斯良永
@@ -92,6 +92,8 @@ Changchun Yuan
 - **E0494** (description, sure): 长春园 Changchun Yuan: eight chief groups. 1934 · p.98 · S02. https://archive.org/details/historyofpekings00malo
   > The new garden which the Emperor constructed in 1751 just east of the Yuan Ming Yuan he called the Ch'ang Ch'un Yuan, or Garden of Long Spring.
   From Rixia j83. Built 1751 by Malone's date, added to for years; about a third of the size of the Yuan Ming Yuan proper; islands and artificial hills with wider spaces and larger lakes. No.1 audience hall inside the south gate (澹怀堂); No.2 palace on the central island (含经堂); Nos.3, 6, 8 lakeside gardens; Nos.4, 5, 7 palace groups on islands. Mapping of numbers to ids is mine; only 6 and 8 are named by Malone.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E0006** (description, sure): 老北京的记忆(81): 长春园澹怀堂遗址, quoting report and 百景图志. blog · post 81 · S112. https://blog.sina.com.cn/s/blog_88741e0d0102w60j.html
   Built 1747, repaired 1769 and 1791. 澹怀堂 five bays, used for feasts of frontier princes (1760) and, in the 1830s, for empresses' rites. 众乐亭 was 锦香亭 until after 1761. Macartney's globes of 1793 stood here. Second-hand.
 - **E1454** (description, likely): 圆明园漫记, 宋广波. n.d. · essay · S335. https://www.aisixiang.com/data/141347.html

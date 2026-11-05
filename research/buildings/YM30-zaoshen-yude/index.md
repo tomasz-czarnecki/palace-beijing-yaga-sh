@@ -199,7 +199,8 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q90: YM31
+- Q129: The brief says the album views are roughly from the south
 
 <!-- generated:end -->
 

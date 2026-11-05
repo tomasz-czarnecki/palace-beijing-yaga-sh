@@ -8,15 +8,15 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
 
 ## What we know
 
-- **Name:** 万方安和 Wanfang Anhe (S05, S02, S08, S42, S43, S01, S361 · confidence A)
-- **English:** Swastika Building (Peace and Harmony Everywhere) (S05, S02, S08, S42, S43, S01, S361)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S42, S43, S01, S361)
-- **Type:** scene (S05, S02, S08, S42, S43, S01, S361 · confidence A)
-- **Built:** 雍正初年 (S42;S43); before 1744; Yongzheng lived here (poem note); 1727 (S05, S02, S08, S42, S43, S01, S361)
-- **Destroyed:** 1860; a 十字亭 on the 1873 survival list (S06) (S05, S02, S08, S42, S43, S01, S361)
+- **Name:** 万方安和 Wanfang Anhe (S05, S02, S08, S42, S43, S01, S361, S40 · confidence A)
+- **English:** Swastika Building (Peace and Harmony Everywhere) (S05, S02, S08, S42, S43, S01, S361, S40)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S42, S43, S01, S361, S40)
+- **Type:** scene (S05, S02, S08, S42, S43, S01, S361, S40 · confidence A)
+- **Built:** 雍正初年 (S42;S43); before 1744; Yongzheng lived here (poem note); 1727 (S05, S02, S08, S42, S43, S01, S361, S40)
+- **Destroyed:** 1860; a 十字亭 on the 1873 survival list (S06) (S05, S02, S08, S42, S43, S01, S361, S40)
 - **Position:** 40.00567, 116.28670. S01 sure (S01 · confidence B)
 - **Lead on its size, from a modern study, not used in the model:** Rockery by digital model, as surviving: straight length about 20.997 m, width about 7.395 m, height about 2.604 m (S594, Results, overall scale). (confidence B)
-- **Note:** Plaques in parts of the 卍: 正室 南面 etc. Poem 1764 lists nine four-character parts [j81:10b-12a]. S06: 33 bays. Theatre in the west arm by 1727 (S43). (S05, S02, S08, S42, S43, S01, S361)
+- **Note:** Plaques in parts of the 卍: 正室 南面 etc. Poem 1764 lists nine four-character parts [j81:10b-12a]. S06: 33 bays. Theatre in the west arm by 1727 (S43). function: residence liked by Yongzheng (S40, S05 j81:9b-10a). (S05, S02, S08, S42, S43, S01, S361, S40)
 - **Plan reader's note:** Blue 13 at (1930,3440). Swastika building stands in the lake R0032; polygon takes it plus the north land lobe with B0561. 十字亭 at the south end of the lake (1857,4242) lies outside (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 2005, 3340 (S01) *(research copy, not public)*
@@ -70,7 +70,7 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
   ![P0381](../../photos/images/P0381.jpg)
 
 
-## Texts and drawings (28)
+## Texts and drawings (31)
 
 - **E1441** (poem, sure): 御製萬方安和詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:9b-10a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製萬方安和詩 水心架搆形作卍字畧彴相通遙望彼岸竒花纈若綺繡每高秋月夜沆瀣澄空圓靈在鏡此百尺地寜非佛胸涌出寳光耶 作室軒而豁當年志若何（是地冬燠夏爽四序皆宜亦皇考所喜居也）萬方歸覆冒一意願安和觸景懷承器瞻題仰偃波九年遺澤在四海尚謳歌
@@ -128,6 +128,9 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
 - **E1450** (description, sure): Scene 13, 万方安和 Wanfang Anhe, the Swastika Building. 1934 · p.81 · S02. https://archive.org/details/historyofpekings00malo
   > The building in the form of a swastika, a symbol which is used as a Chinese character meaning ten thousand, and also Buddha's heart, is built on a foundation of brick and stone and is entirely surrounded by water.
   卍-plan building on a brick and stone foundation, entirely in water. At the south end of the lake a much smaller building in the form of a cross, the character for ten. Yongzheng often came here, says Qianlong's poem.
+- **E2451** (description, guess): Swinhoe: the park behind the residence, a building in a lake, a rock cavern, lama temples. 1860 · pp.301-302 · S241. https://archive.org/details/narrativeofnorth00swin
+  > Here a solitary building would rise fairy-like from the centre of a lake, reflecting its image on the limpid blue liquid in which it seemed to float, and then a sloping path would carry you into the heart of a mysterious cavern artificially formed of rockery, and leading out on to a grotto in the bosom of another lake. [...] Just within the walls that encircled the grounds on the right and left were large handsome llama temples with yellow tiled roofs.
+  A walk of 7 October 1860 behind the main building: pebbled paths, groves, lakes, summer-houses, bridges, herds of deer; a lone building in the middle of a lake (万方安和 or 蓬岛瑶台 would fit: a guess), a rock cavern opening on a grotto in another lake (the cave of 武陵春色 would fit: a guess), and yellow-tiled lama temples just inside the walls. He gives the wall circuit as about twelve miles.
 - **E1216** (description, sure): Site status table, about 2011: remains tidied up. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   A blogger's table of what was then visible. These scenes have building remains that have been cleared and tidied. Dated about 2011, so digs since then are not reflected.
 - **E1452** (description, sure): 万字房的“前世”与“重生”: scene size. 2023 rev. · mhymy xsjl 14213 · S113. https://www.mhymy.com/xsjl/14213.html
@@ -140,10 +143,14 @@ Swastika Building (Peace and Harmony Everywhere) · Yuanming Yuan
   Of 1727, built in the water in the shape of a 卍, with named rooms on each arm (the note lists them all). 平安院 lies north-east by a bridge, and a large double-eaved cross-shaped pavilion on the south shore.
 - **E1453** (description, sure, search index only): 圆明园新证—万方安和考, 端木泓. n.d. · journal article, earlier fetch · S357. 
   Reads 万方安和 as a Buddhist cosmic diagram: the 万字房 at its heart, the 十字亭 as a node, and the long hall of 山高水长 as an answering stroke. Only the abstract was seen; no stable link kept.
+- **E2470** (drawing, sure): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 - **E1455** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 万方安和. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 万方安和, pp.194-201 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.194-201 (8 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1456** (drawing, sure, search index only): 万方安和总平面图 (圆明园万方安和地盘全样). 乾嘉时期 · 国家图书馆善本部 样053-1-2号 = 国图053-0001-02 · S310. https://www.mhymy.com/dasl/ysltd/7980.html
+- **E1456** (drawing, sure): 万方安和总平面图 (圆明园万方安和地盘全样). 乾嘉时期 · 国家图书馆善本部 样053-1-2号 = 国图053-0001-02 · S310. https://www.mhymy.com/dasl/ysltd/7980.html
   Presentation plan of the Wanfang Anhe scene, Qianlong-Jiaqing period, 33 halls on a swastika plan per the printed volume's preface (S13). No image here; the site may ask a small payment for the full record.
+- **E2473** (drawing, sure, search index only): 圆明园万方安和殿 烫样 and 九洲清晏殿 烫样 at the Hong Kong Palace Museum, 2024. 同治 (1873-74) per S326 · 故宫博物院; shown Hong Kong 2024-03-20 to 08-12 · S261. https://www.hkpm.org.hk/en/exhibition/the-hong-kong-jockey-club-series-yuan-ming-yuan-art-and-culture-of-an-imperial-garden-palace
+  Press of March 2024 (search summary only) says the 万方安和殿 model was shown in Hong Kong for the first time; a separate report (S326) dates the 九洲清晏殿 and 万方安和殿 models to the Tongzhi repair, showing the outer form, dozens of interior partitions and furniture. Whether the 九洲清晏 model went to Hong Kong is not confirmed.
 - **E1457** (drawing, sure, search index only): 圆明园万方安和殿 烫样. 同治年间 · 故宫博物院 · S326. https://m.thepaper.cn/detail/31695388
   Paper model of the Wanfang Anhe hall made for Tongzhi's repair project, for the emperor and Empress Dowager Cixi to review, so after the target state; also shown at the Hong Kong Palace Museum in 2024.
 
@@ -180,6 +187,12 @@ Modern interpretation, not evidence.
 
 - Q26: Forms
 - Q51: Reading the Yangshi Lei records
+- Q97: Swinhoe pp.301-302 (7 October 1860)
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q104: 烫样 dates
+- Q117: YM13 万方安和 响水
+- Q119: Digs
+- Q166: YM13
 
 <!-- generated:end -->
 

@@ -139,6 +139,9 @@ Modern interpretation, not evidence.
 
 - Q1: Target state
 - Q20: Name variants
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q125: Geotagged Commons coverage is thin
+- Q128: The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically
 
 <!-- generated:end -->
 

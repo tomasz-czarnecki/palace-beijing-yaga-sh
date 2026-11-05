@@ -152,7 +152,7 @@ Changchun Yuan
   Poems of 1764-1807 on its rockery of Taihu stone and its summer use; in 1802 Jiaqing came here by boat from 狮子林. 玉玲珑馆: 6 dated items, 1764-1807, of which 6 poems (Qianlong, Jiaqing); recurring themes: the view, escaping the heat, boating. First dated 1764, last dated 1807.
 - **E0291** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 玉玲珑馆. 2020 edition · v4 p.1 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=4
   Built 1747, added to about 1764, on an island south of 狮子林. Gate five bays; main hall of seven (plaque 正谊明道), rear of nine (林光澹碧). West court has 撷景室, 蹈和堂 and the square 朝晖亭 on the water; the east has five-bay 鹤安斋, the double-eaved 狎鸥亭, 随安室, a greenhouse, a fountain, 澹然书屋 and 芥舟 at the shore.
-- **E0292** (drawing, sure, search index only): 玉玲珑馆平面图. 乾隆后期至道光年间 · 国家图书馆善本部 样式雷排架070-1号 · S310. https://www.mhymy.com/dasl/ysltd/5247.html
+- **E0292** (drawing, sure): 玉玲珑馆平面图. 乾隆后期至道光年间 · 国家图书馆善本部 样式雷排架070-1号 · S310. https://www.mhymy.com/dasl/ysltd/5247.html
   Base plan of Yulinglong Guan in colour and ink with yellow slips, 1170x848 mm, late Qianlong to Daoguang, showing its two groups of buildings. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 玉玲珑馆. https://artmuseum.princeton.edu/collections/objects/138657

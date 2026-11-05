@@ -10,13 +10,14 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 三圣殿 Sansheng Dian (S49, S01, S221 · confidence B)
-- **Garden:** Qichun Yuan (S49, S01, S221)
-- **Type:** temple (S49, S01, S221 · confidence B)
-- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221)
+- **Name:** 三圣殿 Sansheng Dian (S49, S01, S221, S228 · confidence B)
+- **Garden:** Qichun Yuan (S49, S01, S221, S228)
+- **Type:** temple (S49, S01, S221, S228 · confidence B)
+- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221, S228)
 - **Position:** 39.99924, 116.30340. S01 likely (S01 · confidence B)
-- **Bays:** 7, three deep, galleries front and back, three-bay rear annex in the texts / 6x4 on the plan (S49, S01, S221)
+- **Bays:** 7, three deep, galleries front and back, three-bay rear annex in the texts / 6x4 on the plan (S49, S01, S221, S228)
 - **Size in the inventory:** 22.0 × 33.2 m. S01 plan px / hall scale (S01)
+- **Note:** after1860: gone by 1933; rebuilt 2009-11 on its Qing column bases, Sumeru base and lower walls (S228, sections 长期被占损毁严重, 复建从何而起). (S49, S01, S221, S228)
 - **Plan reader's note:** No label. Label 正觉寺 south of it. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8480, 7598 (S01) *(research copy, not public)*

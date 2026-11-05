@@ -21,9 +21,12 @@ Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0003** (likely): 九州清晏 Jiuzhou qingyan [Paix sur les Neufs Continents] (圓明園四十景, 第3景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E4%B9%9D%E5%B7%9E%E6%B8%85%E6%99%8F_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Jiuzhou_qingyan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083441.jpg
+
+  ![P0003](../../photos/images/P0003.jpg)
+
 
 ## Texts and drawings (6)
 
@@ -38,7 +41,7 @@ None of its own.
   The decree of 1873 gives the new names of Tongzhi's repair: 同道堂 becomes 福寿仁恩, 基福堂 becomes 思顺堂, the old 天地一家春 becomes 承恩堂. All three new names are written on the plan S01 at 九洲清晏, where its older names are not. So those labels cannot be earlier than this decree, and they are not names of the target state of 1860.
 - **E1185** (description, sure): 清宮詞 note. Republic period · line 238 of the corpus file · S215. https://github.com/garychowcmu/daizhigev20/blob/master/诗藏/词集/清宫词.txt
   Note: the mother of the Jiaqing emperor gave birth to him at 天地一家春.
-- **E1166** (drawing, likely, search index only): 九洲清晏总平面图（二） (图名: 圆明园中路天地一家春等处地盘画样). 同治十三年 (1874) · 故宫博物院图书馆 故1299号 · S310. https://www.mhymy.com/dasl/ysltd/11901.html
+- **E1166** (drawing, likely): 九洲清晏总平面图（二） (图名: 圆明园中路天地一家春等处地盘画样). 同治十三年 (1874) · 故宫博物院图书馆 故1299号 · S310. https://www.mhymy.com/dasl/ysltd/11901.html
   Presentation plan of the Jiuzhou Qingyan scene for Tongzhi's repair of 1874, so a project after the target state; the record takes NLC sheet 006-3 as a possible draft. No image here; the site may ask a small payment for the full record.
 - **E1176** (archaeology, sure): 九洲清晏区域考古勘探报告. n.d. · mhymy 档案史料 12600, free part · S151. https://www.mhymy.com/dasl/12600.html
   Survey report's opening: the island site measures 220 x 120 m (printed area 25,000 m2), with 8,600 m2 of buildings, 656 bays of halls and galleries in middle, east and west routes, not symmetrical. The earliest hall, 清晖阁 Qinghui Ge, is given as 1707, and building went on into Daoguang. The survey results themselves sit behind a paywall.
@@ -50,16 +53,18 @@ Modern interpretation, not evidence.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+- Evidence for the whole compound 九洲清晏: see YM03
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 
 - Q3: Which state does S01 draw?
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
 - Q44: Places in Qichun Yuan
+- Q78: YM03
+- Q102: Q36 support
+- Q104: 烫样 dates
+- Q113: Do not tie the Yangshi Lei sheet 样016-15-8 天地一家春殿糙底 (NLC, mhymy ysltd 13527) to YM03-04 天地
 
 <!-- generated:end -->
 

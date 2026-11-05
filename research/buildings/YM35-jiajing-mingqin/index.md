@@ -8,12 +8,13 @@ Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) · Yuanming 
 
 ## What we know
 
-- **Name:** 夹镜鸣琴 Jiajing Mingqin (S05, S02, S08, S43, S01, S361 · confidence A)
-- **English:** Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) (S05, S02, S08, S43, S01, S361)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S43, S01, S361)
-- **Type:** scene (S05, S02, S08, S43, S01, S361 · confidence A)
-- **Built:** 雍正朝 (S43); Yongzheng (S05, S02, S08, S43, S01, S361)
-- **Destroyed:** 1860 (S05, S02, S08, S43, S01, S361)
+- **Name:** 夹镜鸣琴 Jiajing Mingqin (S05, S02, S08, S43, S01, S361, S310 · confidence A)
+- **English:** Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) (S05, S02, S08, S43, S01, S361, S310)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S43, S01, S361, S310)
+- **Type:** scene (S05, S02, S08, S43, S01, S361, S310 · confidence A)
+- **Built:** 雍正朝 (S43); Yongzheng (S05, S02, S08, S43, S01, S361, S310)
+- **Changed:** c. 道光十年 (1830): the natural-rock south shore of 福海 replaced by dressed-stone revetment, 463.36 m long, 2.24 m high above the base slab (one 浆板, four courses of large blocks, one cap course); three pavilions in the east rebuilt at the same time (S05, S02, S08, S43, S01, S361, S310)
+- **Destroyed:** 1860 (S05, S02, S08, S43, S01, S361, S310)
 - **Position:** 40.00563, 116.29822. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Label (6710,4290), Malone 35 at (6775,4085). South shore of Fuhai from 湖山在望 to 南屏晚钟. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
@@ -97,10 +98,10 @@ Chia Ching Ming Ch'in (The Double Mirror and the Sound of the Lute) · Yuanming 
   On a hill east of 夹镜鸣琴, in pines, facing north in its own court: a pailou, gate hall and the three-bay hip-and-gable main hall 凝祥殿 with side halls. Yellow tile on the album, rare among the shrines. Its goddess 碧霞元君 was prayed to for children; palace women crossed 福海 by boat to it, and a 过皇会 was held nearby on her birthday.
 - **E2003** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 夹镜鸣琴. 2020 edition · v3 p.54 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=57
   A Yongzheng scene on the south shore: a double-eaved square bridge-pavilion, with 聚远楼 across the water, and 广育宫 to the east for the goddess 碧霞元君. Then 南屏晚钟, 西山入画 (rebuilt about 1763 as the five-bay 开鉴堂, later 渊渟镜澈), 湖山在望 and others.
+- **E2004** (drawing, sure): 夹镜鸣琴亭平面图 (图名: 十二年二月二十一日改准夹镜鸣琴). 道光十二年 (1832) 二月二十一日 · 国家图书馆善本部 样031-3号 · S310. https://www.mhymy.com/dasl/ysltd/8125.html
+  Ink design sheet for altering the Jiajing Mingqin pavilion, dated February 1832. No image here; the site may ask a small payment for the full record.
 - **E2005** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 夹镜鸣琴. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 夹镜鸣琴, pp.460-461 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.460-461 (2 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E2004** (drawing, sure, search index only): 夹镜鸣琴亭平面图 (图名: 十二年二月二十一日改准夹镜鸣琴). 道光十二年 (1832) 二月二十一日 · 国家图书馆善本部 样031-3号 · S310. https://www.mhymy.com/dasl/ysltd/8125.html
-  Ink design sheet for altering the Jiajing Mingqin pavilion, dated February 1832. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 夹镜鸣琴. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -125,7 +126,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q140: YM35-01
 
 <!-- generated:end -->
 

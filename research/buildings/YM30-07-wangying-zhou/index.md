@@ -36,7 +36,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (8)
+## Texts and drawings (9)
 
 - **E1869** (text, sure): 日下舊聞考 澡身浴德. 1780s (乾隆 敕撰) · j82:15a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 澡身浴徳之北度河橋為望瀛洲其北為深桞讀書堂堂北為溪月松風（圓明園册）臣等謹按望瀛洲額皇上御書深桞讀書堂溪月松風額皆世宗御書
@@ -61,6 +61,8 @@ None of its own.
   Poem 恭和御制望瀛洲歌元韵（106） by the Qianlong Emperor, 1788, filed by the editors under 春熙院.
 - **E1872** (description, sure): 圆明园百景史事分景汇编: 望瀛洲. 1764-1805 · from p.261, under 澡身浴德 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=261
   望瀛洲: 7 dated items, 1764-1805, of which 7 poems (Qianlong, Jiaqing); recurring themes: the view. First dated 1764, last dated 1805.
+- **E1875** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 澡身浴德. 2020 edition · v2 p.336 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=339
+  A three-bay hall 澄虚榭 facing east at the south-west of 福海, with 含清晖, 涵妙识, 静香馆, 解愠书屋, 旷然阁 near. North are 延真院, 溪山罨画, the square 望瀛洲, 深柳读书堂, 溪月松风. Emperors watched the dragon boats from here.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 望瀛洲, 1x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

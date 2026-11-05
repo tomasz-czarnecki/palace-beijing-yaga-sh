@@ -23,7 +23,7 @@ The Happy Sea (Malone p.93) · Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (3)
+## Pictures (5)
 
 - **P0387** (sure): 蓬岛瑶台 20130414.JPG (2013-04-14 16:15:23 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E8%93%AC%E5%B2%9B%E7%91%B6%E5%8F%B0_20130414.JPG
 
@@ -33,12 +33,14 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
   ![P0393](../../photos/images/P0393.jpg)
 
+- **P0790** (sure): 圆明园 (205947461).jpeg (2 April 2017, 16:27:21 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD_(205947461).jpeg
+- **P0792** (sure): 雪趣 - Have Fun with Snow - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E8%B6%A3_-_Have_Fun_with_Snow_-_2012.12_-_panoramio.jpg
 - **P0394** (likely): 圆明园 福海 (60359218).jpeg (8 February 2014, 19:41:22 (UTC) (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD_%E7%A6%8F%E6%B5%B7_(60359218).jpeg
 
   ![P0394](../../photos/images/P0394.jpg)
 
 
-## Texts and drawings (36)
+## Texts and drawings (40)
 
 - **E1870** (text, sure): 日下舊聞考 澡身浴德、福海. 1780s (乾隆 敕撰) · j82:14a-14b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 澡身浴徳在福海西南隅即澄虛榭正宇三楹東嚮南為含清暉北為涵妙識折而西向為静香館又西為解愠書屋西南為曠然閣（圓明園册）臣等謹按福海亦稱東湖周廣凡數頃澡身浴徳四十景之一也額為皇上御書聫曰好雨知時岑巒添逺碧薰風叶奏殿閣有餘清亦御書
@@ -118,6 +120,12 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - **E2368** (description, sure): Attiret: 福海 with boats and fireworks. 1743 · [pp.20-21] · S157. https://faculty.bard.edu/~louis/gardens/attiretaccount.html
   > but above all, on some fine Night, when the Fire-works are play'd off there; at which time they have Illuminations in all the Palaces, all the Boats, and almost on every Tree.
   Gilt and varnished boats for air, fishing and water jousts; fireworks and illuminations.
+- **E2447** (description, sure): Attiret (French original): the island palace in the sea. 1743, printed 1749 · pp.16-17 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > Il y a en effet un de ces bassins qui a près d'une demi-lieue de diamètre en tous sens, & à qui on a donné le nom de mer. [...] Mais ce qui est un vrai bijou, c'est une isle ou rocher, qui au milieu de cette mer s'élève d'une manière raboteuse & sauvage, à une toise ou environ au-dessus de la surface de l'eau. Sur ce rocher est bâti un petit Palais, où cependant l'on compte plus de cent chambres ou sallons. Il a quatre faces
+  French text behind E2367: the lake called a sea, about half a league across, with a rough rock rising about one toise out of the water at its centre, carrying a small palace of more than a hundred rooms with four fronts, from which all the shore palaces can be seen. Spelling modernised only for the long s.
+- **E2458** (description, sure): Attiret (French original): the shores of the sea, cages, goldfish, boats and fireworks. 1743, printed 1749 · pp.17-20 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > ici ce sont des quais de pierre de taille, où aboutissent des galeries, des allées & des chemins: là ce sont des quais de rocaille construits en espèce de degrés [...] lorsque ce bassin est couvert de barques dorées, vernies, tantôt pour la promenade, tantôt pour la pêche, tantôt pour le combat, la joute & autres jeux: mais sur tout une belle nuit, lorsqu'on y tire des feux d'artifice, & qu'on illumine tous les Palais
+  French text behind E2366 and E2368: the shores of 福海 alternate cut-stone quays, rockwork quays built as steps, and terraces with buildings in tiers; flowering woods, cages for water birds half in the water, a goldfish reserve fenced with fine copper mesh; gilt boats for outings, fishing, mock fights and jousts, and fireworks at night. The mock fights support the guess that Wolseley's toy junks of 1860 (S240 p.237) sailed here.
 - **E1524** (description, sure): 玉明 侍游御園記 (in 蕉軒隨錄). 1856 (咸豐六年七月二十一日) · 蕉軒隨錄, 御園侍游 (line 336 of the corpus file) · S210. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/志存记录/蕉轩随录.txt
   > ◎御园侍游玉将军（明）有《侍游御园记》，成竹坪同年（林）曾属予代作跋语，恭书于后。按，《记》云：“咸丰六年秋七月二十一日，奉旨：本日散朝后，著玉明、肃顺自备鞍马，午初一刻进西南门，在山高水长伺候。有顷，上从内乘船，至山高水长后阁扇下船，出前门，谕玉明、肃顺暨珠勒亨、西拉布、托云、德勒格尔、伊勒东阿等脱去外褂。上乘马，命七臣随行。自山高水长游藻园，至厂地，过汇芳书院，复由紫碧山房至鱼跃鸢飞少坐。过蕊珠宫门，至黄花磴进茶毕，往西洋楼海宴堂，至转马台，过小角门，至狮子林清淑斋赏饭。左右四卓，命七臣坐，并奉温谕可饱食，非外边筵宴比也。上命膳房先给七臣面各一器，上进面，复进饭，颁赏御用菜蔬，七臣叩头谢。上进粥，复赏粥毕。随驾起行，由宝相寺、法慧寺、谐奇趣过明春门，至雷峰夕照马头，坐如在天上船，游福海。上命笔砚作诗毕，至渊氵亭镜澈马头下船。进丽春门骑马，由旧园东墙根过敷春堂，游西大堤汉城关，至含辉楼下马，命七臣散归。玉明自道光十一年由侍卫擢厕御前二十余年，仰邀优渥，得遍瞻御园盛景。欣感之余，谨作记以纪荣遇。”
   A rare first-hand record of a day in the garden four years before its destruction. The emperor takes seven officials by a named route from 山高水長 through 藻園, 彚芳書院, 紫碧山房 and 魚躍鳶飛, past 蕊珠宫門, on to 海宴堂 in the 西洋樓, a meal at 清淑齋 in 獅子林, 寳相寺, 法慧寺, 諧奇趣, by boat on 福海, then 敷春堂 and 含暉楼. All were standing then.
@@ -127,6 +135,12 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - **E2369** (description, likely): Wen Feng, keeper of the palace, drowned. 1934 · p.185 · S02. https://archive.org/details/historyofpekings00malo
   > The body was afterwards found in one of the lakes, and Hang-ki returned to Pekin.
   Chinese tradition has Wen Feng (文丰, my reading of the characters) drown himself in 福海 after the fall of the gate; Grant reports the search by 恒祺 Hengqi on 10 October and the finding of the body in one of the lakes. Grant also reports Chinese authorities reoccupied the place the day the French left, and five were put to death for looting.
+- **E2453** (description, guess): Wolseley: walks, marble bridges, fish-ponds and toy junks. 1860 · pp.237 · S240. https://archive.org/details/narrativeofwarwi00wols
+  > one soon became lost amidst the multiplicity of turnings, marble bridges, canals and fish-ponds met with everywhere, and literally covering the park. Upon some of these little sheets of water there were lilliputian junks armed with small brass cannon, with which a naval fight was sometimes represented for the amusement of his Majesty, who watched the show from a neighbouring tea-house.
+  After the private apartments: a maze of walks, marble bridges, canals and fish-ponds; on some ponds small junks with brass cannon for mock naval fights watched by the emperor from a tea-house. Which water is meant is not said; 福海 is a guess.
+- **E2455** (description, guess): Hérisson: lakes, an island palace, the coach house with Macartney's carriages, the boat landing (low trust). 1860, published 1886 · pp.322-323 · S246. https://archive.org/details/journalduninter00irigoog
+  > Voici des lacs, au milieu du plus grand est construit un petit palais [...] Ce palais, planté sur une île dont les terres rapportées dépassent à peine le niveau éternellement constant de la nappe d'eau qui l'entoure, semble sortir du fond du lac. Sur le bord du lac, à gauche, il y a un grand bâtiment en bois précieux [...] C'est une remise. Elle contient les carrosses [...] que lord Macartney fut [...] chargé d'offrir à l'empereur
+  A small palace on a low island in the largest lake (蓬岛瑶台 would fit: a guess); on the left shore a coach house holding the unused carriages of the Macartney embassy (compare Swinhoe's outhouse with Macartney's gifts, E0477); beside it a yellow-tiled boat landing with the imperial barges, and tame goldfish a foot long. Low trust (S246).
 - **E0528** (description, sure): 清宮詞 note. Republic period · line 540 of the corpus file · S215. https://github.com/garychowcmu/daizhigev20/blob/master/诗藏/词集/清宫词.txt
   Note: says British and French troops burned the garden on 八月二十二日 and looted 清漪 and 静明 on the next two days; 文豐 died in 福海 and 泰清's family died by fire.
 - **E2019** (description, likely): 圆明园福海东岸历史建筑方位考, 圆明园研究 78期. 2024-03-04 · xs/ktsb/202403/t20240304_4643616 · S338. https://www.yuanmingyuanpark.cn/xs/ktsb/202403/t20240304_4643616.html
@@ -155,6 +169,11 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - Q30: Water
 - Q42: East shore of 福海
 - Q52: Smaller conflicts
+- Q83: YM54 / 涵虚朗鉴
+- Q95: Attiret 1743 (S911 p.16
+- Q118: YM33 接秀山房
+- Q137: YM36
+- Q141: Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG)
 
 <!-- generated:end -->
 

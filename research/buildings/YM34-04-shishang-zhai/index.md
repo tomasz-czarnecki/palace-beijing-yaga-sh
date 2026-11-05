@@ -16,9 +16,8 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01, S111)
 - **Position:** 40.00593, 116.30093. S01 sure (S01 · confidence B)
 - **Bays:** 3 in the texts / 2x1 on the plan (S05, S01, S111)
-- **Size in the inventory:** 7.04 × 6.6 m. stated: S111, post 133 (S01)
+- **Size in the inventory:** 7.04 × 5.76 m. stated: S111, post 133 (S01)
 - **Roof:** 卷棚硬山 (S05, S01, S111)
-- **Note:** depth_m: 5.76 (S111, post 133). (S05, S01, S111)
 - **Plan reader's note:** Label inside a walled court, this hall north of it. Text: 阁西稍北. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 7842, 4192 (S01) *(research copy, not public)*

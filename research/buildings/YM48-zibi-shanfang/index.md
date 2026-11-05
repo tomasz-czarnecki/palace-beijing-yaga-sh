@@ -16,7 +16,7 @@ The Cold Hill, Han Shan (Malone p.88) · Yuanming Yuan
 - **Changed:** c. 1760 rebuilt (S05, S02, S41, S06, S01, S337, S361)
 - **Destroyed:** 1860; on the 1873 survival list (S06); survived 1860; later loss; inner gate, 乐在人和, 顺木天 survived 1860; lost around 1900 (S05, S02, S41, S06, S01, S337, S361)
 - **Position:** 40.01104, 116.28266. S01 sure (S01 · confidence B)
-- **Note:** Not in the album, the one scene not painted (S41). Highest hill: 58.16 m elevation on the 1965 survey (S41). Malone p.65 n. dates it unknown; S41 says it existed by 1744. (S05, S02, S41, S06, S01, S337, S361)
+- **Note:** Not in the album, the one scene not painted (S41). Highest hill: 58.16 m elevation on the 1965 survey (S41). Malone p.65 n. dates it unknown; S41 says it existed by 1744. after1860: main hall survived 1860 (with 顺木天); lost around 1900 (S337, E0451; E2315). (S05, S02, S41, S06, S01, S337, S361)
 - **Plan reader's note:** Label in the south court. Malone p.88: rock hill in the NW corner north of the wall (Cold Hill). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 628, 560 (S01) *(research copy, not public)*
@@ -51,7 +51,7 @@ The Cold Hill, Han Shan (Malone p.88) · Yuanming Yuan
   ![P0459](../../photos/images/P0459.jpg)
 
 
-## Texts and drawings (63)
+## Texts and drawings (64)
 
 - **E2302** (text, sure): 丰乐轩 in 紫碧山房. 1780s · j81:25a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 鴻慈永祜後垣西北為紫碧山房前宇為横雲堂山房東巖洞中為石帆室東南為豐樂軒北為霽華樓
@@ -198,6 +198,8 @@ The Cold Hill, Han Shan (Malone p.88) · Yuanming Yuan
   A wall runs east across the whole garden north of the shrine. In the north-west end a hill of rocks called Han Shan, with caves and pleasure houses, climbed by the emperor on the ninth of the ninth moon (Yuan's memorandum). Malone does not tie it to a scene; 紫碧山房 is my reading by position.
 - **E2000** (description, sure): Site status table, about 2011: scattered remains only. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   Scenes with only scattered, incomplete building remains in the same table. 方壶胜境 is listed separately as the one with fairly complete remains not yet tidied up. 紫碧山房, 舍卫城 and 如园 have been dug since.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E2305** (description, sure): 圆明园百景史事分景汇编: 丰乐轩. 1761-1814 · from p.200, under 紫碧山房 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=200
   The compiler describes a three-bay hall with galleries all round facing north, with Yongzheng's plaque and a gallery running north-east to the farm plot 学圃. 丰乐轩: 16 dated items, 1761-1814, of which 16 poems (Qianlong, Jiaqing); recurring themes: the harvest, the view. First dated 1761, last dated 1814.
 - **E2306** (description, sure): 圆明园百景史事分景汇编: 景晖楼. 1761-1761 · from p.198, under 紫碧山房 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=198
@@ -243,6 +245,8 @@ Modern interpretation, not evidence.
 - Q39: 丰乐轩 YM22-02
 - Q45: Halls in the texts with no row
 - Q47: How much burned, and when
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q142: No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th
 
 <!-- generated:end -->
 

@@ -34,11 +34,14 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **Faces:** 177.1° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0017** (likely): 鴻慈永祜 Hongci yonghu [Incommensurable Miséricorde pour une bénédiction éternelle] (圓明園四十景, 第17景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E4%B8%83%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B9%85%E5%9B%BE%29%2C_%E9%B4%BB%E6%85%88%E6%B0%B8%E7%A5%9C_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Hongci_yonghu_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008330t.jpg
 
-## Texts and drawings (10)
+  ![P0017](../../photos/images/P0017.jpg)
+
+
+## Texts and drawings (11)
 
 - **E1555** (text, sure): 御製安佑宫碑文. c. 1743 (蕆事於癸亥, in the text) · j81:21b-24a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 御製安佑宫碑文　序昭穆以祀其先祖有功而宗有徳建報本之義為萬古之經者宗廟之制三代以上即有之繼人之志述人之事者所當謹也設裳衣以如其生朔有酌而望有獻盡事親之禮抒不匱之思者原廟之制西漢以來始有之繼人之志述人之事者弗敢廢也後世神御殿亦猶漢原廟之義耶然漢之原廟不過月出衣冠一遊耳至宋之時乃有神御之名蓋奉安列朝御容所也上元結燈樓寒食設秋千其視漢為己備矣而崇建徧郡國奉祀或禪院識者多議其非禮焉我皇祖聖祖仁皇帝在位六十餘年恩澤旁覃僻邑窮谷圓頂方趾之衆飲其德而不知子孫臣庶躬被教育者宜其謳歌慨慕而無已思也是以雍正元年我皇考世宗憲皇帝謹就大内夀皇殿奉安御容朔望瞻禮牲新時薦而於皇祖所幸暢春園亦陳薦如禮非輕為此創舉也我皇祖有非常之澤及天下是以皇考合天下之情亦以非常之禮報之有漢宋備物備禮之誠而無宋代徧及郡國祀繁致䙝之譏也予小子嬛嬛在疚顧諟皇考之陟降勅明旦凛紹庭良法美政布在方冊者謹守而弗敢失既就夀皇殿東室䖍奉皇考御容以配皇祖念兹圓明園我皇考向日遊觀在囿在沼之地也其何忍恝視爰擇爽塏之地具殿廡之規為室九敬奉皇祖御容於中奉皇考配東一室匪惟予小子罔極之思羮牆之慕藉以稍抒亦欲使後世子孫凜覲揚之志勤堂構之基所謂禮以義起有其舉之莫敢廢也鳩工於乾隆庚午而蕆事於癸亥所司以碑文請乃序其事如左而繫之以詩懿兹苑囿皇考所作土階茅茨遵堯之約匪誇丹雘有窅谿壑匪沸管絃有唳雲鶴詎美之求惟聖所樂我龍受之中心惕若宅是廣居九有是度祖武斯繩宏規敢畧爰相其地載斟載酌爰創其模載經載落廟貌巖巖堂皇綽綽有閑楹旅有梴松桷周之以郛其郛嶽嶽環之以池其池㶁㶁其水何有鳶飛魚躍其宇何有網軒珠箔神御孔安心乎莫莫來覲來齋曰望曰朔於萬斯年予誠永託
@@ -69,16 +72,16 @@ None of its own.
   Inner court: waiting rooms, two green-glazed incense burners, pines, two double-roofed pavilions over marble steles. Main hall on a marble terrace with five stairs, the middle one carved with dragons; incense burners and bronze birds and animals. Ten pillars across the front, forty in all, double roof of yellow glazed tile (n.38). Built 1742 at 600,000 taels (Tse Li vol. xviii p.30; Attiret 1743). Tablets and portraits of Kangxi and Yongzheng.
 - **E1564** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 鸿慈永祜. 2020 edition · v2 p.159 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=162
   The ancestral temple, finished 1743 after 寿皇殿. Outer arch, 致孚殿 with the carved 圆明园记, a moon-river bridge, three arches, a five-bay gate, the nine-bay double-eaved hall in yellow tile; side halls, stele pavilions and bronze deer and cranes before it. Five imperial images in time.
+- **E1560** (description, likely): 圆明园百景史事分景汇编: 鸿慈永诂. 1744-1856 · from p.192, under 鸿慈永诂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=192
+  The compiler's note on 安佑宫: modelled on 寿皇殿, nine bays, double-eaved hip-gable roof, yellow glazed tile, with two glazed archways and pairs of 华表 before it; Kangxi's image in the centre, Yongzheng east, Qianlong west. It also says that Yongzheng's image was first kept at 月地云居. 鸿慈永诂: 16 dated items, 1744-1856, of which 15 poems and 1 court records (Qianlong, Jiaqing, Daoguang, Xianfeng). First dated 1744, last dated 1856.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 安佑宫, 9x3 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 鸿慈永祜 (no picture of this hall found): see YM17
+- Evidence for the whole compound 鸿慈永祜: see YM17
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a temple hall (not this building): see CLASS-temple_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 
@@ -86,6 +89,11 @@ None of its own.
 - Q26: Forms
 - Q52: Smaller conflicts
 - Q59: Twin claims to hold loosely
+- Q116: YM41 大宫门 and YM17 安佑宫
+- Q119: Digs
+- Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
+- Q160: S818 (PKU page) says three 安佑宫 华表 went to Yenching in 1925 and the fourth to the city
+- Q185: Typology, 石华表 YM17-02
 
 <!-- generated:end -->
 

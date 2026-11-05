@@ -100,6 +100,7 @@ None of its own.
 ## Open questions
 
 - Q9: Bay counts, plan against text
+- Q134: YM12
 
 <!-- generated:end -->
 

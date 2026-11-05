@@ -272,9 +272,15 @@ function createBuildingPanel({ local, onClose, onOpen }) {
   }
 
   // A Xiyang Lou object: every figure known of its size, with how it was got. Parts lead the list by key figures; the rest folds.
+  // The Xiyang Lou reads its plates by perspective; a Chinese scene reads its paintings by module, and its figures also give the scale used.
   const METHOD = { a: "a survey", b: "b ruin or plan", c: "c engraving", d: "d photograph", e: "e typology or unsurveyed" };
+  const METHOD_SCENE = { a: "a survey or Qing drawing", b: "b ruin or plan", c: "c painting, by module", d: "d photograph", e: "e typology or unsurveyed" };
   function dimensionBlock(rows, into) {
-    into.append(el("p", "bp-line", "How each was got: a, a published survey or measured drawing; b, measured on the plan or the ruin; c, read from the engraving by perspective; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it."));
+    const scene = rows.some((d) => "scale" in d);
+    const names = scene ? METHOD_SCENE : METHOD;
+    into.append(el("p", "bp-line", scene
+      ? "How each was got: a, a published survey or excavation report, or a Qing drawing or text that writes the figure; b, measured on the plan or a ruin footprint; c, read from a painting or woodcut by module; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it. 1 营造尺 = 0.32 m."
+      : "How each was got: a, a published survey or measured drawing; b, measured on the plan or the ruin; c, read from the engraving by perspective; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it."));
     const draw = (rowsNow) => {
       const t = el("table", "dim");
       const head = el("tr");
@@ -284,7 +290,8 @@ function createBuildingPanel({ local, onClose, onOpen }) {
         const tr = el("tr");
         const size = `${d.value} ${d.unit}` + (d.err ? ` ± ${d.err}` : "");
         const src = [d.source.replaceAll(";", ", "), d.locator].filter(Boolean).join(", ");
-        tr.append(el("td", "", d.part), el("td", "", d.label), el("td", "num", size), el("td", "", METHOD[d.method] || d.method), el("td", "", d.confidence), el("td", "src", d.snippet ? `${src}, search extract` : src));
+        const where = scene && d.scale ? `${src}; scale: ${d.scale}` : src;
+        tr.append(el("td", "", d.part), el("td", "", d.label), el("td", "num", size), el("td", "", names[d.method] || d.method), el("td", "", d.confidence), el("td", "src", d.snippet ? `${where}, search extract` : where));
         t.append(tr);
       }
       return t;
@@ -321,9 +328,10 @@ function createBuildingPanel({ local, onClose, onOpen }) {
         pictureBlock(other.photos || [], s, f.kind !== "garden");
         evidenceBlock(other.evidence || [], s);
         if (other.dimensions && other.dimensions.length) {
-          s.append(el("h4", "", `Dimensions of the whole building (${other.dimensions.length})`));
+          s.append(el("h4", "", `${other.id.startsWith("XY") ? "Dimensions of the whole building" : "Dimensions of the whole compound"} (${other.dimensions.length})`));
           dimensionBlock(other.dimensions, s);
         }
+        if (f.kind === "compound" && other.dossier && !page.dossier) dossierLink(other, s);
         if (other.reconstructions && other.reconstructions.length) {
           s.append(el("h4", "", `Reconstructions by others (${other.reconstructions.length})`));
           reconBlock(other.reconstructions, s);

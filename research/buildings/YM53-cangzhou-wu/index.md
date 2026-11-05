@@ -56,6 +56,7 @@ None of its own.
 ## Open questions
 
 - Q47: How much burned, and when
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
 
 <!-- generated:end -->
 

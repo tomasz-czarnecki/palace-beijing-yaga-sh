@@ -25,7 +25,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (8)
+## Texts and drawings (9)
 
 - **E2303** (text, sure): 日下舊聞考 紫碧山房. 1780s (乾隆 敕撰) · j81:25a-25b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 鴻慈永祜後垣西北為紫碧山房前宇為横雲堂山房東巖洞中為石帆室東南為豐樂軒北為霽華樓迤東為景暉樓横雲堂西池上為澄素樓西北為引溪亭（圎圓明園册）臣等謹按紫碧山房額有二其一恭懸正宇内一懸穿堂門檐與引溪亭額皆世宗御書紫碧山房正宇檐額曰樂在人和及横雲堂諸額皆皇上御書
@@ -50,6 +50,8 @@ None of its own.
   Poem of the Jiaqing Emperor at 石帆室, 1797, on the view. Year as given by the compilation.
 - **E2309** (description, sure): 圆明园百景史事分景汇编: 石帆室. 1761-1797 · from p.198, under 紫碧山房 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=198
   石帆室: 6 dated items, 1761-1797, of which 6 poems (Qianlong, Jiaqing); recurring themes: the view. First dated 1761, last dated 1797.
+- **E2315** (description, likely): 圆明园五朝御制诗文集注 v3, editors' note on 紫碧山房. 2020 edition · v3 p.118 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=121
+  Enlarged about 1760: inner gate, 含余清, the octagonal 翼翠亭, 丰乐轩, 纳翠轩, the boat-shaped 石帆室, the three-storey 景晖楼, 横云堂, a five-bay main hall 乐在人和, 澄素楼, 霁华楼. After 1860 the inner gate, main hall and 顺木天 pavilion survived under guard and were lost around 1900, say the editors.
 
 ## Evidence for the set of buildings
 

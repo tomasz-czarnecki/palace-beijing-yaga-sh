@@ -56,7 +56,7 @@ Ying Shui Lan Hsiang (Reflections on the Water and the Fragrance of Iris) · Yua
   ![P0528](../../photos/images/P0528.jpg)
 
 
-## Texts and drawings (21)
+## Texts and drawings (22)
 
 - **E1663** (poem, sure): 御製映水蘭香詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:34a-34b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製映水蘭香詩 在澹泊寧静少西屋旁松竹交隂翛然逺俗前有水田數棱縱横綠䕃之外適涼風乍來稻香徐引八百鼻功德兹為第一 園居豈為事遊觀早晩農功倚檻㸔數頃黄雲黍雨潤千畦綠水稻風寒心田喜色良勝玉鼻觀真香不數蘭日在豳風圖畫裏敢忘周頌命田官
@@ -112,6 +112,8 @@ Ying Shui Lan Hsiang (Reflections on the Water and the Fragrance of Iris) · Yua
   West of 澹泊宁静: paddy, a weaving shop and fish ponds. Names 多稼轩 as its main building, roofed in slate, where Qianlong watched farming.
 - **E1672** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 映水兰香. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 映水兰香, pp.263-265 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.263-265 (3 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
+- **E2479** (drawing, sure): 映水兰香总平面图. 不详 · 国家图书馆善本部 样044-3号 · S310. https://www.mhymy.com/dasl/ysltd/9288.html
+  Overall plan of 映水兰香, 619x424 mm, ink, light colour, yellow slips, presentation sheet, undated. Free text only quotes 日下旧闻考 and the 1759 rebuilding of 多稼轩.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
 
@@ -131,6 +133,7 @@ Modern interpretation, not evidence.
 - Q13: Weak identifications
 - Q32: OSM errors
 - Q40: 多稼轩 YM20-04
+- Q167: YM20 / YM21
 
 <!-- generated:end -->
 

@@ -10,16 +10,18 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 多稼轩 Duojia Xuan (S05, S42, S01, S360 · confidence B)
+- **Name:** 多稼轩 Duojia Xuan (S05, S42, S01, S360, S361 · confidence B)
 - **Written on the plan:** ??轩 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S42, S01, S360)
-- **Type:** other (S05, S42, S01, S360 · confidence B)
-- **Built:** by 1753 (first dated item) (S05, S42, S01, S360)
-- **Destroyed:** 1860 (S05, S42, S01, S360)
+- **Garden:** Yuanming Yuan (S05, S42, S01, S360, S361)
+- **Type:** other (S05, S42, S01, S360, S361 · confidence B)
+- **Built:** by 1753 (first dated item) (S05, S42, S01, S360, S361)
+- **Changed:** repaired 1760 (S05, S42, S01, S360, S361)
+- **Destroyed:** 1860 (S05, S42, S01, S360, S361)
 - **Position:** 40.00794, 116.28915. S01 likely (S01 · confidence B)
-- **Bays:** 7 in the texts / 7x1 on the plan (S05, S42, S01, S360)
+- **Bays:** 7 in the texts / 7x1 on the plan (S05, S42, S01, S360, S361)
 - **Size in the inventory:** 23.2 × 9.7 m. S01 plan px / hall scale (S01)
-- **Tiles:** 石板瓦 slate (S42 映水兰香 summary) (S05, S42, S01, S360)
+- **Tiles:** 石板瓦 slate (S42 映水兰香 summary) (S05, S42, S01, S360, S361)
+- **Note:** orientation: S (S05, j81:29a). (S05, S42, S01, S360, S361)
 - **Plan reader's note:** Seven bays match 多稼轩南向七楹; faint three-char label in court north of it. West of 田字 hall across the field, as text 西门外别垣内. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3084, 2411 (S01) *(research copy, not public)*
@@ -82,6 +84,7 @@ None of its own.
 ## Open questions
 
 - Q40: 多稼轩 YM20-04
+- Q167: YM20 / YM21
 
 <!-- generated:end -->
 

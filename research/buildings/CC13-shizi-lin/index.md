@@ -46,7 +46,7 @@ Lion Grove (Malone p.98) · Changchun Yuan
 - CC13-N03
 - CC13-N04
 
-## Pictures (6)
+## Pictures (7)
 
 - **P0415** (sure): Shizilin Rainbow Bridge restored in its original site 01 20130126.JPG (2013-01-26 16:45:40 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Shizilin_Rainbow_Bridge_restored_in_its_original_site_01_20130126.JPG
 
@@ -60,6 +60,10 @@ Lion Grove (Malone p.98) · Changchun Yuan
 
   ![P0417](../../photos/images/P0417.jpg)
 
+- **P0442** (sure): Qianlong writing in the Lion Forest, Old Summer Palace, Beijing.jpg (2009-09-12 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Qianlong_writing_in_the_Lion_Forest,_Old_Summer_Palace,_Beijing.jpg
+
+  ![P0442](../../photos/images/P0442.jpg)
+
 - **P0443** (sure): Ruins of Shizilin East 20130421.JPG (2013-04-21 13:01:49 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Ruins_of_Shizilin_East_20130421.JPG
 
   ![P0443](../../photos/images/P0443.jpg)
@@ -68,10 +72,7 @@ Lion Grove (Malone p.98) · Changchun Yuan
 
   ![P0500](../../photos/images/P0500.jpg)
 
-- **P0442** (likely): Qianlong writing in the Lion Forest, Old Summer Palace, Beijing.jpg (2009-09-12 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Qianlong_writing_in_the_Lion_Forest,_Old_Summer_Palace,_Beijing.jpg
-
-  ![P0442](../../photos/images/P0442.jpg)
-
+- **P0802** (sure): Ruins of Shizilin 20130323.JPG (2013-03-23 13:30:06 (Commons file page)). https://commons.wikimedia.org/wiki/File:Ruins_of_Shizilin_20130323.JPG
 
 ## Texts and drawings (67)
 
@@ -299,7 +300,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q119: Digs
 
 <!-- generated:end -->
 

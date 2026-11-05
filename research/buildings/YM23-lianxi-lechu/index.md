@@ -74,7 +74,7 @@ Lien Hsi Lo Ch'u (the Happy Place of Falling Streams) · Yuanming Yuan
   ![P0711](../../raw/photos/P0711.jpg)
 
 
-## Texts and drawings (37)
+## Texts and drawings (38)
 
 - **E1690** (poem, sure): 御製濓溪樂處詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:1b-2a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製濓溪樂處詩 苑中菡萏甚多此處特盛小殿數楹流水周環於其下每月涼暑夕風爽秋初淨緑紛紅動香不已想西湖十里野水蒼茫無此端嚴清麗也左右前後皆君子洵可永日 水軒俯澄泓天光涵數頃爛漫六月春摇曳玻瓈影香風湖面來炎夏方秋冷時披濓溪書樂處惟自省君子斯我師何須求玉井
@@ -172,6 +172,8 @@ Lien Hsi Lo Ch'u (the Happy Place of Falling Streams) · Yuanming Yuan
   The compiler describes a big island in a lake ringed by hills, with a main hall 慎修思永: nine bays in three rolls with galleries round and annexes north and south, so a cross plan. 濂溪乐处: short note in the compilation, no dated items.
 - **E1713** (description, sure, search index only): 濂溪乐处 scene card. n.d. · mhymy jqjs 11653 · S340. https://www.mhymy.com/ymss/jqjs/11653.html
   North of the garden, a large island among lake and streams, with lotus, hills all round.
+- **E2474** (drawing, sure): 慎修思永装修平面图 (图名: 慎修思永). 乾隆四十九年 (1784) 之后 · 国家图书馆善本部 样027-11-1号 · S310. https://www.mhymy.com/dasl/ysltd/10092.html
+  Interior plan of the nine-bay three-roof hall 慎修思永 of 濂溪乐处, 451x324 mm, ink and yellow slips, presentation sheet, after 1784; the record gives bay widths, roof depths, column and platform height (dim rows) and an interior with a western-style stage and a Buddhist chapel upstairs.
 - **E1714** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 濂溪乐处（汇万总春之庙附）. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 濂溪乐处（汇万总春之庙附）, pp.300-320 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.300-320 (21 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
@@ -192,6 +194,7 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q1: Target state
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
 
 <!-- generated:end -->
 

@@ -26,7 +26,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (11)
+## Texts and drawings (12)
 
 - **E2181** (poem, sure): 御製玲峯歌. 1775 (乾隆四十年) · j81:37b-38b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆四十年御製玲峯歌　將謂湖石洞庭產孰知壯地多無限萬鍾異石大房山有竒必偶斯為伴天地生物弗拘墟龍井吳山率常見（叶豈二處亦多玲瓏怪石皆取自太湖耶）米未能致今致之青芝岫屏湖裔館（米石棄良鄉縣多年因運致於昆明湖之樂夀堂名之曰青芝岫向有詩）彼勞竒文徒問答（米萬鍾既得異石於大房山東牲載書以告甬東薛岡見之復代石報米書二書當時傳誦以為韻事詳見春明夢餘錄）物遇其時當自顯兹峯有過無不及名曰玲實稱豈舛伊家顛叟上皇山亦既艶稱百夫輦致此用力雖倍蓰賁來寧費修書柬略發内帑給雇值肯敎張（去聲）事恣朱勔大孔小穴盡靈透凸突凹窳仍□嵼春風秋月幾閱厯海水桑田任遷轉故土那憶埋黄沙素質奚礙皴蒼蘚一峯峙我文源閣育秀通虚映萬卷萬卷徵實難更僕特宜黄石覿面展又如逸興到棲霞（栖霞有玲瓏池）日面月面應誰辨每來汲古遣幾餘詎同二米為髙簡欣於斯即慙於斯悅目怡情究非善
@@ -53,6 +53,8 @@ None of its own.
   Group about 16,000 m2, building about 700 m2, modelled on 天一阁. Library six bays by five, galleries front and rear, 硬山, black glazed tile with green edging, grey brick walls and dark green columns. A lower floor with study and west stair, mezzanine and a top floor of shelves. 玲峰 over 6 m high. Based on Yangshi Lei plans including one of 1894.
 - **E2197** (description, sure): 圆明园百景史事分景汇编: 玲峰. 1775-1782 · from p.220, under 文源阁 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=220
   玲峰: 4 dated items, 1775-1782, of which 4 poems (Qianlong); recurring themes: the view. First dated 1775, last dated 1782.
+- **E2493** (archaeology, sure): 杨菁, 杨文艳, 牛颖倩, 殷双 (天津大学建筑学院), 圆明园文源阁, 圆明园研究 63: survey of the ruin and the Guangxu 丈尺册. 2022 · sections 3.2-3.5, notes [2], [4], figs 8-12, table 3-1-1 · S105. https://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
+  The authors measured and scanned the cleared ruin before the 2024 dig: the library and stele pavilion platforms are fairly whole, the gate, steps and the cracked-ice floor can be seen, the square pond has gone, and black glazed and green glazed fragments lie about. The verbatim line is the Guangxu-reign 丈尺册 (a Qing text, quoted by the authors) giving the six bays and the depth. Their measured area is the smallest of the four northern libraries, close to 文津阁.
 - **E2206** (archaeology, sure): 文源阁 public day and results, 新华网, 北京晚报 via visitbeijing, 总台 via 凤凰网. 2024-09 to 12 · three news items · S134. https://news.ifeng.com/c/8eTlzYasshZ
   From 2024-08-26, 1,000 m2 planned. Site was the 四达亭 pavilion under Yongzheng, rebuilt 1775. Water system: one supply culvert under the north wall, four drains and a 沟门 outlet in the south wall, ground inside higher than outside. 玲峰 stone base of long slabs tied with iron dovetails. Original surface about 0.5 m down, with irregular stone paths and Y-forks not shown on any plan. Glazed fittings and porcelain sherds.
 - **E2207** (archaeology, sure): 文源阁 2024 dig, 人民日报海外版 via 新华网. 2025-01-13 · article by 张利芳 · S133. https://www.news.cn/local/20250113/42158ce447b64aab8b6590fd52fddf3c/c.html

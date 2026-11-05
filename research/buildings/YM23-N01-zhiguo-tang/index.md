@@ -68,6 +68,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - Q38: Unread labels settled by a text
 - Q47: How much burned, and when
 - Q54: Timber buildings standing in 1882 (Round 5)
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
 
 <!-- generated:end -->
 

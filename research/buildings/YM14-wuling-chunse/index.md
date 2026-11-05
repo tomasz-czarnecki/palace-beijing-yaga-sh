@@ -17,7 +17,7 @@ Peach Blossom Cave (Spring Colors at Wu Ling) · Yuanming Yuan
 - **Changed:** 桃花坞 theatre added 1811 (S43); differs on later plans (S41); 1726 (雍正四年): Qianlong studies here and names it 樂善堂; earlier the whole was 桃花塢 (S05, S02, S08, S41, S42, S43, S01, S200, S340, S361)
 - **Destroyed:** 1860 (S05, S02, S08, S41, S42, S43, S01, S200, S340, S361)
 - **Position:** 40.00635, 116.28736. S01 likely (S01 · confidence B)
-- **Note:** Qianlong studied here 1726 as 樂善堂 [j81:13a]. Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S42, S43, S01, S200, S340, S361)
+- **Note:** Qianlong studied here 1726 as 樂善堂 [j81:13a]. Album does not show the 1860 state here (S41). 武陵春色, earlier 桃花坞 as a whole (S05, j81:13a). (S05, S02, S08, S41, S42, S43, S01, S200, S340, S361)
 - **Plan reader's note:** Rock ridge island plus 全璧堂 walled court to the NW and 桃花洞 rocks. Walled court runs north of my box to y about 2715: halls there left to the reader of that area (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 2301, 3056 (S01) *(research copy, not public)*
@@ -85,7 +85,7 @@ Peach Blossom Cave (Spring Colors at Wu Ling) · Yuanming Yuan
   ![P0521](../../photos/images/P0521.jpg)
 
 
-## Texts and drawings (48)
+## Texts and drawings (51)
 
 - **E1491** (text, sure): 御製樂善堂記. before 1735 (a prince, undated in S05) · j81:13b-14b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 御製樂善堂記　凡人之性未嘗不善仁義禮智全備於我所謂得天地之正氣而為人也然而智愚賢不肖之分者氣拘之私誘之遂日以蔽錮而昏昧有能復其性者鮮矣人能自强不息以復性為功已有善念擴而充之人有善事喜而從之則本性呈露而有馨香之徳矣是故明徳之馨勝於黍稷芝蘭鮑魚與之俱化未有樂善而不能修徳者也余有書屋數間清爽幽静山水之趣琴鶴之玩時呈於前菜圃數畦桃花滿林堪以娯目顔之曰樂善堂者盖取大舜樂取於人以為善之意也夫孝弟仁義乃所謂善也人能孝以養親弟以敬長仁以恤下義以事上樂而行之時時無怠則能因物付物以事處事而完所性之本體矣是故大舜聖人也猶存虚受之心聞一善言若決江河漢文帝嘗問東平王在國何事最樂王曰為善最樂余雖不敏然頼皇父之明訓師友之切磋於大舜之善與人同雖有志而未逮而東平王之為善最樂則不敢不勉焉是為記（文御製集）
@@ -189,10 +189,17 @@ Peach Blossom Cave (Spring Colors at Wu Ling) · Yuanming Yuan
 - **E1499** (description, sure): Scene 14, 武陵春色 Wuling Chunse, Peach Blossom Cave. 1934 · p.81 · S02. https://archive.org/details/historyofpekings00malo
   > On the east side of this group of buildings a canal runs through a cave under the hill, and out on the other side.
   Over the bridge north of 万方安和. Qianlong studied here as prince before moving to 长春仙馆. A canal passes through a cave under the hill on the east side.
+- **E2451** (description, guess): Swinhoe: the park behind the residence, a building in a lake, a rock cavern, lama temples. 1860 · pp.301-302 · S241. https://archive.org/details/narrativeofnorth00swin
+  > Here a solitary building would rise fairy-like from the centre of a lake, reflecting its image on the limpid blue liquid in which it seemed to float, and then a sloping path would carry you into the heart of a mysterious cavern artificially formed of rockery, and leading out on to a grotto in the bosom of another lake. [...] Just within the walls that encircled the grounds on the right and left were large handsome llama temples with yellow tiled roofs.
+  A walk of 7 October 1860 behind the main building: pebbled paths, groves, lakes, summer-houses, bridges, herds of deer; a lone building in the middle of a lake (万方安和 or 蓬岛瑶台 would fit: a guess), a rock cavern opening on a grotto in another lake (the cave of 武陵春色 would fit: a guess), and yellow-tiled lama temples just inside the walls. He gives the wall circuit as about twelve miles.
 - **E1011** (description, sure): Site status table, about 2011: nothing visible, or built over. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   Same table. In it the first group shows no visible remains; 得全阁, 流香渚, 凤麟洲, 涵秋馆, 蔚藻堂, 中和堂, 敷春堂 and 心镜轩 have service buildings on them, and 含晖楼, 澄心堂, 延寿寺, 清夏堂 and 喜雨山房 are occupied by other institutions. 澹泊宁静 and several others have been dug since, so this is out of date for them.
+- **E2468** (description, sure): 武陵春色样式雷图 (record text). record 2020-22 · mhymy dasl/ysltd/2812 · S310. https://www.mhymy.com/dasl/ysltd/2812.html
+  Short record: built before 康熙五十九年 (1720) as 桃花坞; a rock tunnel in the south-east reached by boat; halls 壶中日月长 (five-bay open hall north of the pool), 天然佳妙, 洞天日月多佳景, 桃源深处, 绾春轩, 品诗堂. No sheet data.
 - **E1501** (description, sure): 壶中仙籁 戏台 at 恒春堂. 2021 · section 1.8 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
   Two-storey stage in a court of 恒春堂, hip-and-gable with double eaves, facing north, three bays each way, plaques 天上云璈 below or above and 壶中仙籁; five bays of dressing rooms in two rolls behind it. Plays on record 1819 and 1839.
+- **E2495** (description, likely): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E1276** (description, likely): 圆明园景点建筑命名对古代文学遗产的继承与发展. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/dede1cad62ea454f85d22aca8ad15328.htm
   How scene and hall names come from literature: 上下天光 from 范仲淹, 杏花春馆 from 杜牧, 武陵春色 from 陶渊明, 坐石临流 from 兰亭, and 丰乐轩 and 顺木天 from 柳宗元. It also quotes the 陶渊明 line 平畴交远风. It places 丰乐轩, three bays facing north, in the 紫碧山房 scene.
 - **E1493** (description, sure): 圆明园百景史事分景汇编: 武陵春色. 1744-1824 · from p.203, under 武陵春色 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=203
@@ -232,6 +239,9 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q1: Target state
+- Q97: Swinhoe pp.301-302 (7 October 1860)
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q119: Digs
 
 <!-- generated:end -->
 

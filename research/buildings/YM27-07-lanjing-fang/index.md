@@ -35,7 +35,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (3)
+## Texts and drawings (4)
 
 - **E1781** (text, sure): 日下舊聞考 西峰秀色. 1780s (乾隆 敕撰) · j82:6b-7a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 北逺山村西南有室臨河西向為西峯秀色河西松巒峻峙為小匡廬後有龍王廟西峯秀色之東為含韻齋又東為一堂和氣又東南為自得軒後垣東為嵐鏡舫西為花港觀魚（圓明園册）臣等謹按西峯秀色四十景之一兹額及含韻齋一堂和氣自得軒額皆世宗御書嵐鏡舫花港觀魚諸額皆皇上御書
@@ -46,6 +46,8 @@ None of its own.
 - **E1801** (poem, sure): 岚镜舫. 乾隆五十六年 (1791) · v2 p.271, under 西峰秀色; source ref 17-319 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=274
   > 室肖舫曰舫，溪似镜曰镜。镜舫本虚名，室溪乃实称。因悟虚与实，究孰为真境。而岚亦浮阴，适来与之映。如释迦拈花，迦叶笑以应。
   Poem 岚镜舫 by the Qianlong Emperor, 1791, filed by the editors under 西峰秀色.
+- **E1788** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 西峰秀色. 2020 edition · v2 p.258 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=261
+  Of 1728, Yongzheng's favourite. A three-bay open hall facing west, once with a stage for the Double Seventh; 含韵斋 of five bays in three rolls; 玉兰堂, 自得轩, 小隐亭, twelve-bay 岚镜舫, a seven-bay hall 花港观鱼 over the river, 长青洲, the 小匡庐 cascade.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 岚镜舫, 6x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

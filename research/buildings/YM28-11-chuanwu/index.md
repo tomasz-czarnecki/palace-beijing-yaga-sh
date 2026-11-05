@@ -36,9 +36,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **1 ×:** small house: 50.7 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0028** (guess): 四宜書屋 Siyi shuwu [Étude des Quatre Aptitudes] (圓明園四十景, 第28景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28085_of_124%29.jpg
+
+  ![P0028](../../photos/images/P0028.jpg)
+
 
 ## Texts and drawings (3)
 
@@ -55,11 +58,9 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 四宜书屋 (no picture of this hall found): see YM28
+- Evidence for the whole compound 四宜书屋: see YM28
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a small house (not this building): see CLASS-small_house
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

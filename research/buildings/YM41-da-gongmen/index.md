@@ -53,7 +53,7 @@ The Great Palace Gate (Malone p.68) · Yuanming Yuan
   ![P0217](../../raw/photos/P0217.jpg)
 
 
-## Texts and drawings (30)
+## Texts and drawings (32)
 
 - **E0999** (text, sure): 日下舊聞考 正大光明. 1780s (乾隆 敕撰) · j80:7b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 大宫門前輦道東西皆有湖是為前湖（圓明園冊）臣等謹按前湖西岸有石刻御製前湖詩
@@ -97,6 +97,9 @@ The Great Palace Gate (Malone p.68) · Yuanming Yuan
 - **E2109** (description, sure): Wolseley: court and gate of 大宫门. 1860 · pp.231-232 · S240. https://archive.org/details/narrativeofwarwi00wols
   > The gateway was at one end of a courtyard, enclosed upon three sides with ranges of guard-houses, handsomely ornamented outside with curious carving, and roofed with variegated tiling.
   Eaves with small birds and beasts, red, white, green, blue and gilt. Beam ends carved and painted. Red doors picked out in gold. Gate sills 2 or 3 ft above the pavement with granite ramps, so no wheeled traffic. Guard-room right and left within.
+- **E2452** (description, sure): Swinhoe: the gate and audience hall burning, 19 October. 1860 · pp.336-337 · S241. https://archive.org/details/narrativeofnorth00swin
+  > We passed the chief entrance to the Yuen-ming-yuen, and watched [...] the dancing flames curling into grotesque festoons and wreaths, as they twined in their last embrace round the grand portal of the Palace, while the black column of smoke that rose straight up into the sky from the already roof-fallen reception-hall
+  Before sunset on 19 October every place had been fired by the British troops; leaving, Swinhoe saw the main gate in flames and smoke rising from the reception hall behind it, whose roof had already fallen. Peasants' houses next to the walls had caught fire too.
 - **E2110** (description, sure): 6 October 1860: arrival at the Great Palace Gate. 1934 · p.179 · S02. https://archive.org/details/historyofpekings00malo
   > A company of French marines scaled the outer wall and occupied the outer gate and courtyard on the night of October 6th, killing one or two of the defenders and suffering a few wounds themselves.
   French troops arrived at seven in the evening with a British cavalry brigade under Pattle. A few eunuchs defended the gate. From Cordier, quoting Montauban.
@@ -123,6 +126,8 @@ The Great Palace Gate (Malone p.68) · Yuanming Yuan
   Grant: forty small palaces in the grounds, paths in order, ornamental water, the French camped at the entrance of the Great Audience Hall. Main palace held jade, jars, enamels, bronzes, clocks; in a building near it two howitzers from Woolwich given by Macartney. 8 October: gold and silver found in one of the temples and a room of silks and furs, shared between the armies.
 - **E2117** (description, sure): 圆明园大宫门区历史文脉调查研究. 2016-09 to 2017-02, posted 2020-08-03 · 圆明园官网 yjbg t20200803_4417131 · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/t20200803_4417131.html
   Park study of about 2 km2 south of the garden wall: 挂甲屯, 西马厂, the 八旗 drill ground and princes' gardens that served the court, their fall after 1860. Abstract on the page, the full text is an attachment.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E1013** (description, sure): 圆明园正大光明初探. post n.d. · lswh or jzys list · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/2d97c9a95a8442f7abf5b8e453d02fa3.htm
   The whole front court district, built 1725, 370 x 310 m. 大宫门 and 出入贤良门 are five-bay gate halls with 卷棚歇山 roofs on the garden's south wall line. 正大光明殿: seven bays by three, all-round gallery, single eave, grey tile, high base, 36.45 x 16 m, with a terrace and four incense burners. Stresses its garden-like, less formal planning.
 - **E2118** (description, sure): 圆明园银库：清朝兴衰晴雨表. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/2573bb7ddce64f769e928d8b30b5fdbd.htm
@@ -161,6 +166,10 @@ Modern interpretation, not evidence.
 
 - Q3: Which state does S01 draw?
 - Q28: 1860 and after, for the site's text
+- Q80: YM41-01 / YM03-01
+- Q116: YM41 大宫门 and YM17 安佑宫
+- Q125: Geotagged Commons coverage is thin
+- Q150: QC01
 
 <!-- generated:end -->
 

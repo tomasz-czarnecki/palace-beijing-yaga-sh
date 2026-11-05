@@ -1,0 +1,93 @@
+{
+ "id": "CC01",
+ "name": "澹怀堂 Danhuai Tang",
+ "by_method": {
+  "a": 1,
+  "b": 4,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "CC01",
+   "part": "gate quarter axis, screen wall to 众乐亭",
+   "what": "court_d",
+   "label": "Court depth",
+   "value": 220.0,
+   "err": 5.0,
+   "unit": "m",
+   "method": "a",
+   "confidence": "B",
+   "source": "S316",
+   "locator": "as quoted by S112 (E0007) and a search extract",
+   "snippet": true,
+   "key": true,
+   "scale": ""
+  },
+  {
+   "id": "CC01",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 171.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "CC01",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 89.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "CC01",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 13100.0,
+   "err": 1300.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  },
+  {
+   "id": "CC01",
+   "part": "water inside the scene's outline",
+   "what": "water_area",
+   "label": "Water inside the outline",
+   "value": 190.0,
+   "err": 20.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 within layers/scenes_1860",
+   "snippet": false,
+   "key": false,
+   "scale": "UTM 50N"
+  }
+ ]
+}

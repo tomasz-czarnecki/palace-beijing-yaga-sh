@@ -10,15 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 九洲清晏殿 Jiuzhou Qingyan Dian (S05, S41, S54, S01, S337 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S41, S54, S01, S337)
-- **Type:** residence (S05, S41, S54, S01, S337 · confidence B)
-- **Changed:** After 1836 fire (S41); 1836: rebuilt after fire with five bays, rear annex removed (S05, S41, S54, S01, S337)
-- **Destroyed:** 1860 (S05, S41, S54, S01, S337)
+- **Name:** 九洲清晏殿 Jiuzhou Qingyan Dian (S05, S41, S54, S01, S337, S02, S310 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S41, S54, S01, S337, S02, S310)
+- **Type:** residence (S05, S41, S54, S01, S337, S02, S310 · confidence B)
+- **Changed:** After 1836 fire (S41); 1836: rebuilt after fire with five bays, rear annex removed; 咸丰五年九月 (Sept-Oct 1855): a three-bay rear porch 后抱厦 added; measured with the 同道堂 套殿 on 九月二十四日 (S05, S41, S54, S01, S337, S02, S310)
+- **Destroyed:** 1860 (S05, S41, S54, S01, S337, S02, S310)
 - **Position:** 40.00369, 116.29029. S01 likely (S01 · confidence B)
-- **Bays:** 7 in the texts / 5x2 on the plan (S05, S41, S54, S01, S337)
+- **Bays:** 7 in the texts / 5x2 on the plan (S05, S41, S54, S01, S337, S02, S310)
 - **Size in the inventory:** 19.9 × 18.4 m. S01 plan px / hall scale (S01)
-- **Note:** Yongzheng and Daoguang said to have died at 九州清晏 (S54 lead; S43 places Daoguang at 慎德堂). bays: 7 to 1836, then 5 (no rear annex) (S337, 三幅样式雷圆明园河道全图辨析; 九州清晏殿 interior article). (S05, S41, S54, S01, S337)
+- **Note:** Yongzheng and Daoguang said to have died at 九州清晏 (S54 lead; S43 places Daoguang at 慎德堂). bays: 7 to 1836, then 5 (no rear annex) (S337, 三幅样式雷圆明园河道全图辨析; 九州清晏殿 interior article). orientation: its north front faces the Back Lake (a hall open both ways: the court of 奉三无私 to the south, the lake to the north) (S02, p.79). (S05, S41, S54, S01, S337, S02, S310)
 - **Plan reader's note:** 九洲清晏殿: next hall north on the axis, faces the 后湖 side. Plan 5, text 7 (or 7 counting the blocks at its sides). Faint ghost characters in its court, last looks like 殿; not legible (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3303, 4518 (S01) *(research copy, not public)*
@@ -34,14 +34,18 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.5 m
 - **Confidence:** B
 
-## Pictures (1)
+## Pictures (2)
+
+- **P0003** (likely): 九州清晏 Jiuzhou qingyan [Paix sur les Neufs Continents] (圓明園四十景, 第3景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E4%B9%9D%E5%B7%9E%E6%B8%85%E6%99%8F_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Jiuzhou_qingyan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083441.jpg
+
+  ![P0003](../../photos/images/P0003.jpg)
 
 - **P0365** (sure): 九州清晏殿遗址 20130318.JPG (2013-03-18 15:35:06 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E4%B9%9D%E5%B7%9E%E6%B8%85%E6%99%8F%E6%AE%BF%E9%81%97%E5%9D%80_20130318.JPG
 
   ![P0365](../../photos/images/P0365.jpg)
 
 
-## Texts and drawings (19)
+## Texts and drawings (20)
 
 - **E1091** (poem, sure): 御製九州清宴詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:23b-24a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製九州清宴詩 正大光明直北為㡬餘游息之所棼橑紛接鱗瓦參差前臨巨湖渟浤演漾周圍支汊縱横旁逹諸勝仿彿潯陽九𣲖騶衍謂禆海周環為九州者九大瀛海環其外兹境信若造物施設耶 昔我皇考宅是廣居旰食宵衣左圖右書園林游觀以適幾餘豈繄廊廟泉石是娱所志維何煌煌御書九州清宴皇心乃舒肯構孰責繼序在余業業兢兢奉此遺模一念之間敬肆攸殊作狂作聖繫彼斯湏謂天可畏屋漏與俱謂民可畏敢欺其愚六膳八珍牣乎御㕑念彼溝壑曷其飽諸水榭山亭天然畫圖瞻彼茅簷痌瘝切膚慎終如始前聖之謨嗚呼小子母渝厥初
@@ -78,11 +82,13 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   About 500 yards to a smaller hall with images of Buddha in rooms each side, then another reception hall and a third, and on the left the emperor's own rooms: one moderate room with a double-seated throne, chandelier, clocks; passage to two small rooms and a spiral stair to two upper rooms with books, whose windows look down into the hall; two retiring rooms and the bedroom. The 1858 treaty lay on a table. This fits the axis 圆明园殿, 奉三无私, 九洲清晏; the ids are my reading.
 - **E1154** (description, sure): 圆明园九州清晏殿早期内檐装修格局特点讨论, 古建园林技术 2006(6). 2006 · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/0b87ab74b7b548389ae1f6c597a41471.htm
   Reads the early interior from the 九州清晏旧样 drawing against the texts. Seven bays and a three-bay rear annex; a two-storey interior open space framed by a running gallery in front three bays of a single-eave hall, reached by raising the column height. Compares it with later halls such as 淳化轩.
-- **E1162** (drawing, sure, search index only): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
-  Design sheet of September 1855 for adding a front porch to the Jiuzhou Qingyan hall; it relies on sheet 样005-13, measured for the Tongdao Tang annex on the 24th of that month. No image here; the site may ask a small payment for the full record.
-- **E1170** (drawing, sure, search index only): 九洲清晏殿及同道堂装修平面图. S310. https://www.mhymy.com/tag/560
+- **E2460** (description, sure): 九洲清晏殿装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7237 · S310. https://www.mhymy.com/dasl/ysltd/7237.html
+  Record on the 九洲清晏 hall: five bays with a three-bay rear porch, front and rear verandas, Yongzheng's plaque; the name in the 活计档 from 雍正三年 (1725); discusses 洲 vs 州. No drawing number or date shown in the free part; rest paid.
+- **E1162** (drawing, sure): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
+  ...for adding a REAR porch (后抱厦) to the Jiuzhou Qingyan hall...
+- **E1170** (drawing, sure): 九洲清晏殿及同道堂装修平面图. 咸丰五年 (1855) (site prints 1865 in error) · 国家图书馆善本部 样004-2-1号 · S310. https://www.mhymy.com/dasl/ysltd/10933.html
   Fittings plan of the Jiuzhou Qingyan hall and Tongdao Tang, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
-- **E1171** (drawing, sure, search index only): 九洲清晏殿建筑及室内装修平面图 (旧样). 道光十六年以前 · 国家图书馆善本部 样004-5号 · S310. https://www.mhymy.com/dasl/ysltd/7106.html
+- **E1171** (drawing, sure): 九洲清晏殿建筑及室内装修平面图 (旧样). 道光十六年以前 · 国家图书馆善本部 样004-5号 · S310. https://www.mhymy.com/dasl/ysltd/7106.html
   Plan of the Jiuzhou Qingyan hall and its interior fittings as it stood before the fire of Daoguang 16 (1836). No image here; the site may ask a small payment for the full record.
 - **E1172** (drawing, sure, search index only): 圆明园九洲清晏殿 烫样. 同治年间 · 故宫博物院 · S326. https://m.thepaper.cn/detail/31695388
   Paper model of the Jiuzhou Qingyan hall made for Tongzhi's repair project with exterior, fittings and furniture, so after the target state.
@@ -112,6 +118,9 @@ Modern interpretation, not evidence.
 
 - Q9: Bay counts, plan against text
 - Q51: Reading the Yangshi Lei records
+- Q101: YM03-03 九洲清晏殿
+- Q104: 烫样 dates
+- Q163: YM03-03 九洲清晏殿
 
 <!-- generated:end -->
 

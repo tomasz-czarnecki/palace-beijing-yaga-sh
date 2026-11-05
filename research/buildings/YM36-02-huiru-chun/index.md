@@ -16,8 +16,7 @@ Yuanming Yuan
 - **Destroyed:** 1860 (S05, S01, S111)
 - **Position:** 40.00900, 116.30103. S01 sure (S01 · confidence B)
 - **Bays:** 2 in the texts / 2x1 on the plan (S05, S01, S111)
-- **Size in the inventory:** 6.4 × 6.6 m. stated: S111, post 125 (S01)
-- **Note:** depth_m: 6.4 (S111, post 125). (S05, S01, S111)
+- **Size in the inventory:** 6.4 × 6.4 m. stated: S111, post 125 (S01)
 - **Plan reader's note:** S111 two bays, S: fits. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8170, 2578 (S01) *(research copy, not public)*

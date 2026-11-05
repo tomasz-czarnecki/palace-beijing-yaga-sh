@@ -8,14 +8,14 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
 
 ## What we know
 
-- **Name:** 勤政亲贤 Qinzheng Qinxian (S05, S02, S08, S41, S01 · confidence B)
-- **English:** Hall of Diligent Government (Diligent in Government and Friendly with Officials) (S05, S02, S08, S41, S01)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S01)
-- **Type:** scene (S05, S02, S08, S41, S01 · confidence B)
-- **Changed:** Differs between album and later Yangshi Lei plans (S41, no details) (S05, S02, S08, S41, S01)
-- **Destroyed:** 1860 (S05, S02, S08, S41, S01)
+- **Name:** 勤政亲贤 Qinzheng Qinxian (S05, S02, S08, S41, S01, S310 · confidence B)
+- **English:** Hall of Diligent Government (Diligent in Government and Friendly with Officials) (S05, S02, S08, S41, S01, S310)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S01, S310)
+- **Type:** scene (S05, S02, S08, S41, S01, S310 · confidence B)
+- **Changed:** Differs between album and later Yangshi Lei plans (S41, no details) (S05, S02, S08, S41, S01, S310)
+- **Destroyed:** 1860 (S05, S02, S08, S41, S01, S310)
 - **Position:** 40.00205, 116.29144. S01 likely (S01 · confidence B)
-- **Note:** Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S01)
+- **Note:** Album does not show the 1860 state here (S41). after1860: site later held houses and the duck farm of the 海淀乡 livestock brigade; hills and water restored in 2004; a few building parts and Taihu rocks remain (S310, mhymy ysltd 603). (S05, S02, S08, S41, S01, S310)
 - **Plan reader's note:** Scene name not written; hall label 勤政殿 legible and 保合太和 富春楼 飞云轩 芳碧丛 match the text. Blue number near (3950,5330) looks like 7 or 2: not the album number 2 with certainty (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3692, 5430 (S01) *(research copy, not public)*
@@ -78,7 +78,7 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
   ![P0509](../../photos/images/P0509.jpg)
 
 
-## Texts and drawings (52)
+## Texts and drawings (57)
 
 - **E1039** (poem, sure): 御製勤政親賢詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:17b-18a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製勤政親賢詩 正大光明殿之東為勤政殿日於此披省章奏召對臣工亭午始退座後屏風書無逸以自朂又東為保合太和秀石名葩庭軒明敞觀閣相交林徑四逹 庭訓昭雲日欽承切式刑勅幾宵豈暇籲俊刻靡寜一念徴䝉聖羣言辨渭涇乾乾終始志無逸近書屏
@@ -98,12 +98,18 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
 - **E1070** (text, sure): 御製為君難跋. 乾隆 (undated in S05) · j80:15b-17b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 御製為君難跋　予昔為創業守成難易説亦既反覆辨論難與不易之輕重懸殊不可同日而語以為岑文本之言非是而定之曰開創不易守成難矣此非在守成言守成蓋實有見其難也兹特引伸觸𩔖敬述勤政殿後楣皇考御書為君難之義而為之跋曰大哉王言示大清億萬斯年家法大訓歟夫為君難之言孔子道人之言耳而吾直以為皇考之言者何蓋耕當問僕織當問婢豈不以習焉安焉不見異物而遷之謂乎孔子非為君者也其云難亦不過思其理而度其勢究未身歴其境而心親其勞也皇考禀内聖之姿行外王之道質諸心得驗以躬行故取孔子之言而銘之梠端所以自警也所以訓予小子也所以詔世世孫曾常凛此志以迓天庥而基命宥宻永永無極也是故言政莫備於尚書而言難亦權輿於尚書放勲重華一再曰欽引而未發至於大禹祇承於帝首曰后克艱厥后艱者難也承於帝舜者舜實承於帝堯也惟帝其難之則益深切著明言之矣無輕民事惟艱伊尹之申誥也先知稼穡之艱難周公之作訓也五十八篇之中其於天命民碞之可畏暑雨祁寒之宜思誨之諄諄三致意焉甄古今之得失綜政典之治亂無知難而不興之世亦無不知難而不亡之朝然而知難非空言知其難而已其必勅命謹幾明徳修身以立其本懲忿窒慾親賢遠侫以正其施凜凜焉惴惴焉以謹對越而培永圖予故曰大哉王言示大清億萬斯年家法大訓也或曰為君難為臣不易孔子之言也今獨舉其一豈股肱交儆之義哉予曰向不云乎難與不易輕重懸殊不可同日而語則為臣之不易吾將俟為臣者自言其不易可耳未若為君之難也且也當其不易者恒多語有之衆擎易舉則不易者亦將成易而當其難者一人而已嗚呼豈不甚難
   Colophon to Yongzheng's plaque 為君難 'To Be Ruler Is Hard', hung on the rear west wall of 勤政殿: he traces the idea through the classics and claims it as family law.
+- **E2442** (text, sure): 竹葉亭雜記: how officials entered 勤政殿, and the east study rebuilt in 丁酉 (probably 1837). early 19th c., on 丁酉-戊戌, probably 1837-1838 · 卷一, lines 27-29 of the corpus file · S211. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/志存记录/竹叶亭杂记.txt
+  > 臣工等由东首台阶上进殿，过横桶，转牌杈，向南稍东即南向跪，则面圣矣。此地不大，盖截书房北段为小间。北墙有桶扇门，驾由此出入，是以上面北坐也。丁酉冬，将书房添前廊，南向开门，北安窗，炕倚窗，设御座炕之西头。东南向窗间设大玻璃，以防苑外人窃听。圣人防闲之严如此。臣工由殿外南向之门入见，自戊戌正月始也。
+  Continues E1088. Officials climbed the east steps, passed the partition and the screen and knelt facing south: the emperor sat facing north in a small room cut from the north end of the east study, entering by a door in its north wall. In winter 丁酉 (most likely 1837, 道光十七年, in the author's own career; 1777 is the other possible reading) the study got a front porch and a south door, windows on the north, a kang against them with the throne at its west end, and large glass panes in the south-east windows against eavesdroppers; from the first month of 戊戌 (1838 on that reading) officials entered by the south door.
 - **E1089** (text, sure): 文宗實錄 道光三十年. 1850 (道光三十年) · 實錄卷之三 · S207. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/别史/清实录咸丰朝实录.txt
   > 自是日始。上居飞云轩苫次。
   The new emperor kept mourning in 飛雲軒 from this day, showing the hall in use in 1850.
 - **E1088** (text, sure): 竹葉亭雜記. early 19th c. · line 25 of the corpus file · S211. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/志存记录/竹叶亭杂记.txt
   > 圆明园召见，向在勤政殿。三楹桶扇洞开，殿中有横桶分前后焉。殿东有套间曰东书房，无前廊。夏日召见在殿中，春秋则在书房。书房门向东，前加牌杈。
   How audiences were held at 勤政殿: three bays with folding doors opened, a partition front to back, and a side room on the east called 東書房 used in spring and autumn. Gives the interior; the bay count differs from S05.
+- **E2445** (text, sure): 養吉齋叢錄 卷六: 御門聽政 in the garden held at 勤政殿. author active to 1860s · 卷六, line 331 of the corpus file · S202. https://raw.githubusercontent.com/garychowcmu/daizhigev20/master/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%BB%E5%90%89%E6%96%8B%E4%B8%9B%E5%BD%95.txt
+  > 宫内御干清门，圆明园御勤政殿。
+  The formal 'audience at the gate' for memorials from the boards was held at 乾清门 in the palace and at 勤政殿 in the garden.
 - **E1068** (text, likely): 圆明园内生秋庭等建筑名录. Qing, undated on the contents page · 初编 目录 p.521 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   List of buildings beginning with Shengqiu Ting. Printed in the facsimile volume; text not seen.
 - **E1040** (poem, sure): 静鉴室: 乾隆二十三年 poem of the Qianlong Emperor. 乾隆二十三年 (1758), date from the compilation · p.106 item (1), under 静鉴室 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=106
@@ -189,6 +195,8 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
   A bridge over a walled canal to a range with two wings, a large paved court, the main isolated block joined by two galleries to side pavilions, side courts. Fits the audience compounds; 正大光明 or 勤政亲贤 unproven.
 - **E1083** (description, sure): 吉祥所 of 勤政亲贤. c. 2011 blog, unnamed source · 系列06, section 勤政亲贤 · S50. 
   East of 勤政亲贤 stood 吉祥院, called also 吉祥所, counted apart in the building totals. In 1860 its gate and three courts survived while the rest burned. No other source seen: a lead.
+- **E2464** (description, sure): 勤政殿地盘图样 (record text). record 2020-22 · mhymy dasl/ysltd/7310 · S310. https://www.mhymy.com/dasl/ysltd/7310.html
+  Record on 勤政殿: five bays facing south with three-bay 抱厦 front and back, plaques 勤政殿 (Yongzheng) and 勤政亲贤, the throne screen with 无逸, couplets. No drawing number in the free part.
 - **E0512** (description, likely): 朱强, 圆明园核心功能景区的园林化特征试析, 圆明园研究 (issue page dated 2026-02-03). 2026-02-03 · xs/ktsb/202602/t20260203_4804592; abstract read · S338. https://www.yuanmingyuanpark.cn/xs/ktsb/202602/t20260203_4804592.html
   Reconstructs the five core functions of the main garden (outer court, government, residence, ritual, military display) and reads each area's garden design against comparable sites. Only the abstract was read; the scene ties are my reading of those five functions.
 - **E1071** (description, sure): 圆明园百景史事分景汇编: 静鉴室. 1758-1763 · from p.106, under 正大光明 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=106
@@ -213,10 +221,14 @@ Hall of Diligent Government (Diligent in Government and Friendly with Officials)
   生秋庭: 1 dated items, 1801-1801, of which 1 poems (Jiaqing); recurring themes: escaping the heat. First dated 1801, last dated 1801.
 - **E1081** (description, sure): 圆明园百景史事分景汇编: 三友轩. 1808-1808 · from p.110, under 正大光明 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=110
   三友轩: 1 dated items, 1808-1808, of which 1 poems (Jiaqing); recurring themes: state papers. First dated 1808, last dated 1808.
+- **E1084** (drawing, sure): 勤政殿平面图 (图名: 踏勘勤政殿东书房尺寸底). 咸丰五年 (1855) 三月 · 国家图书馆善本部 样002-3号 · S310. https://www.mhymy.com/dasl/ysltd/11009.html
+  Survey sheet of the east study of the Qinzheng hall with measurements, March 1855, 350x349 mm, red and ink. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, sure): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 - **E1085** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 勤政亲贤. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 勤政亲贤, pp.32-65 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.32-65 (34 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1084** (drawing, sure, search index only): 勤政殿平面图 (图名: 踏勘勤政殿东书房尺寸底). 咸丰五年 (1855) 三月 · 国家图书馆善本部 样002-3号 · S310. https://www.mhymy.com/dasl/ysltd/11009.html
-  Survey sheet of the east study of the Qinzheng hall with measurements, March 1855, 350x349 mm, red and ink. No image here; the site may ask a small payment for the full record.
+- **E2469** (drawing, sure): 保合太和殿装修平面图 (图名: 保合太和). 不详 · 国家图书馆善本部 样002-17号 · S310. https://www.mhymy.com/dasl/ysltd/10368.html
+  Interior plan of 保合太和殿, 422x260 mm, ink, working sheet, undated. Its slip writes the main sizes: three bays, each as wide as three ordinary bays, so the front reads as nine; a three-bay open front porch; throne, platform and splayed screen at the back of the central bay, bookcases behind a board wall.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
 
@@ -249,6 +261,8 @@ Modern interpretation, not evidence.
 - Q1: Target state
 - Q41: 藏密楼 YM31-07, 松风阁 YM81
 - Q45: Halls in the texts with no row
+- Q119: Digs
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

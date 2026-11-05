@@ -32,7 +32,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 173.4° from north
 - **Confidence:** B
 
-## Pictures (4)
+## Pictures (6)
 
 - **P0421** (sure): Jianbi Pavilion 20130317.JPG (2013-03-17 09:37:37 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Jianbi_Pavilion_20130317.JPG
 
@@ -50,6 +50,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
   ![P0424](../../photos/images/P0424.jpg)
 
+- **P0806** (sure): Old Summer Palace, Jianbi Pavilion 20130201.JPG (2013-02-01 14:11:19 (Commons file page)). https://commons.wikimedia.org/wiki/File:Old_Summer_Palace,_Jianbi_Pavilion_20130201.JPG
+- **P0807** (sure): 鉴碧亭 - panoramio.jpg (Taken on 27 May 2011 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E9%89%B4%E7%A2%A7%E4%BA%AD_-_panoramio.jpg
 
 ## Texts and drawings (17)
 
@@ -114,6 +116,7 @@ Modern interpretation, not evidence.
 
 - Q8: Known errors of S01
 - Q44: Places in Qichun Yuan
+- Q161: Shizhao's Flickr photo 200707 圆明园 038 (754223912, CC BY 2.0) shows a rock carved 展詩應律
 
 <!-- generated:end -->
 

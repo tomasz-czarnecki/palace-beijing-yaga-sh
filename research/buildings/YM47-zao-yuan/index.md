@@ -53,7 +53,7 @@ Ts'ao Yuan, Garden of Aquatic Grasses (Malone p.81) · Yuanming Yuan
   ![P0397](../../photos/images/P0397.jpg)
 
 
-## Texts and drawings (70)
+## Texts and drawings (71)
 
 - **E2244** (text, sure): 日下舊聞考 藻园. 1780s (乾隆 敕撰) · j81:8b-9a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 長春仙館由西南門迤西為藻園内為曠然堂五楹堂後為貯清書屋曠然堂東池上為夕佳書屋稍北為鏡瀾榭東南樓為凝眺為懷新館西北為湛碧軒西南為湛清華（圓明園冊）臣等謹按藻園曠然堂諸額皆皇上御書
@@ -203,6 +203,8 @@ Ts'ao Yuan, Garden of Aquatic Grasses (Malone p.81) · Yuanming Yuan
   South-west corner of the garden, not among the Forty Scenes. Informal buildings, pools, hills and a boathouse. Malone found a brick dated 1751 on site and suggests it is later than the album of 1744.
 - **E1011** (description, sure): Site status table, about 2011: nothing visible, or built over. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   Same table. In it the first group shows no visible remains; 得全阁, 流香渚, 凤麟洲, 涵秋馆, 蔚藻堂, 中和堂, 敷春堂 and 心镜轩 have service buildings on them, and 含晖楼, 澄心堂, 延寿寺, 清夏堂 and 喜雨山房 are occupied by other institutions. 澹泊宁静 and several others have been dug since, so this is out of date for them.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E0377** (description, guess): 1873 survey as reported: 林渊锦镜. 2011-; 2010 · zh.wikipedia 圆明园; 阙维民 2010 citing 刘敦桢 1933 · S06. https://zh.wikipedia.org/wiki/圆明园
   The survivors of 1860 listed in the survey of 1873 include 林渊锦镜. S06 and a modern list put it in 长春园. 阙维民 writes 林渊锦镜（藻园）. Which is right, we can't say; CC21 has no position yet. The primary source is on the wish list.
 - **E2245** (description, sure): 圆明园百景史事分景汇编: 贮清书屋. 1753-1793 · from p.185, under 藻园 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=185
@@ -235,10 +237,10 @@ Ts'ao Yuan, Garden of Aquatic Grasses (Malone p.81) · Yuanming Yuan
   About mid-Qianlong in the south-west corner: five-bay 旷然堂, 贮清书屋, a pool with 溜琴亭, 自远轩, a thirteen-bay boat dock with a route to 畅春园, 粹藻楼, 凝眺楼, 怀新馆, 夕佳书屋, 镜澜榭, 湛碧轩, 湛清华轩, 响琴峡. The gate leads to a road west to 清漪园.
 - **E2260** (description, sure, search index only): 藻园 scene card. n.d. · mhymy jqjs 11634 · S340. https://www.mhymy.com/ymss/jqjs/11634.html
   South-west corner against the walls, an imitation Jiangnan garden, 190 x 125 m, 23,000 m2.
+- **E0540** (drawing, sure): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
+  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E2261** (drawing, likely): 《国家图书馆藏样式雷图档·圆明园卷初编》: 澡园. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 澡园, pp.173-176 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.173-176 (4 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E0540** (drawing, sure, search index only): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
-  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
 - **E2263** (archaeology, sure): 圆明园藻园遗址考古发掘报告. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html
@@ -267,6 +269,8 @@ Modern interpretation, not evidence.
 - Q18: Plan labels vs text names at 藻园, 月地云居, 日天琳宇 etc
 - Q45: Halls in the texts with no row
 - Q52: Smaller conflicts
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q142: No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th
 
 <!-- generated:end -->
 

@@ -42,7 +42,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

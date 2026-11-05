@@ -64,7 +64,7 @@ None of its own.
   From the screen wall to the hill behind 中和堂: about 200 by 120 m. Built 1809 and called the new gate. Great and second gates are gate halls with rolled-ridge hip-and-gable roofs. 迎晖殿 is the main hall where the dowager took birthday homage. In 1986 the gates and walls were rebuilt on the site; the 迎晖殿 terrace remains.
 - **E0590** (description, likely, search index only): 敷春堂; 澄心堂; 迎晖殿 and 中和堂 labels; 绮春 四宜书屋 (search-index text). n.d. · mhymy ysltd 12232, 7496, 13985 · S340. https://www.mhymy.com/dasl/ysltd/7496.html
   敷春堂: the dowagers' residence from Daoguang, inside the south gate, with a stage per the archives. 澄心堂: island, five-bay hall with side halls. A plan labels 中和堂新宫门 and 迎辉殿. 四宜书屋 built 1805, west of 生冬室.
-- **E0578** (drawing, sure, search index only): 绮春园寝宫区总平面图. 道光三十年 (1850) 八月二十四日 · 清华大学建筑学院 PpXXI11-7号 · S310. https://www.mhymy.com/dasl/ysltd/7521.html
+- **E0578** (drawing, sure): 绮春园寝宫区总平面图. 道光三十年 (1850) 八月二十四日 · 清华大学建筑学院 PpXXI11-7号 · S310. https://www.mhymy.com/dasl/ysltd/7521.html
   Plan of Qichun Yuan's residential quarter dated 24th of the 8th month, Daoguang 30 (1850), with Yishou Xuan, Fuchun Tang, the east and west ranges and kitchens. No image here; the site may ask a small payment for the full record.
 - **E0593** (drawing, sure, search index only): 绮春园寝宫区总平面图, inscribed 三十年八月二十四日对准中和堂样. 道光三十年八月二十四日 1850 · 清华大学建筑学院资料室, 排架 PpXXI11-7; ink, light colour, yellow slips, 底样 · S42. https://www.mhymy.com/dasl/ysltd/7521.html
   The palace block in late Daoguang: 颐寿轩, 敷春堂, east and west 所, imperial kitchen and pharmacy. The entry says 敷春堂, 鉴德书屋, 翠合轩, 凌虚阁 of the 1805 poems stand on the big island of this group. Catalogue data seen via search only.

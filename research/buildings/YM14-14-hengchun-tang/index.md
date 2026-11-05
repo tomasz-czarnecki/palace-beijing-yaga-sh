@@ -10,15 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 恒春堂 Hengchun Tang (S43, S01, S337, S360 · confidence B)
-- **Garden:** Yuanming Yuan (S43, S01, S337, S360)
-- **Type:** other (S43, S01, S337, S360 · confidence B)
-- **Built:** 1811; 1811 with a stage (S43, S01, S337, S360)
-- **Destroyed:** 1860 (S43, S01, S337, S360)
+- **Name:** 恒春堂 Hengchun Tang (S43, S01, S337, S360, S361 · confidence B)
+- **Garden:** Yuanming Yuan (S43, S01, S337, S360, S361)
+- **Type:** other (S43, S01, S337, S360, S361 · confidence B)
+- **Built:** 1811; 1811 with a stage; Jiaqing, by 1812 (S43, S01, S337, S360, S361)
+- **Destroyed:** 1860 (S43, S01, S337, S360, S361)
 - **Position:** 40.00724, 116.28662. S01 sure (S01 · confidence B)
-- **Bays:** 5 in the texts / 5x2 on the plan (S43, S01, S337, S360)
+- **Bays:** 5 in the texts / 5x2 on the plan (S43, S01, S337, S360, S361)
 - **Size in the inventory:** 20.3 × 11.8 m. S01 plan px / hall scale (S01)
-- **Where the text puts it:** 中部偏西院内 (S43) (S43, S01, S337, S360) *(research copy, not public)*
+- **Where the text puts it:** 中部偏西院内 (S43) (S43, S01, S337, S360, S361) *(research copy, not public)*
 - **Plan reader's note:** Label to the west of the stage court. 5 bays match. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 2048, 2612 (S01) *(research copy, not public)*

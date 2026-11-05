@@ -33,12 +33,17 @@ Assumed: a position is known and no block is drawn, so a small default box stand
 - **Water:** stands partly over the water layer: on piers or on a bank too thin for the layer to show
 - **Confidence:** C, assumed
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0015** (guess): 山髙水長 Shangao shuichang [Élevées les montagnes, inépuisable l'eau] (圓明園四十景, 第15景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28046_of_124%29.jpg
 
-## Texts and drawings (1)
+  ![P0015](../../photos/images/P0015.jpg)
 
+
+## Texts and drawings (2)
+
+- **E1529** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 山高水长. 2020 edition · v2 p.147 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=150
+  Feasting ground and archery field: a west-facing nine-bay tower of 1726, first 引见楼, rear court with side halls, landing at a cross pavilion. A slanted riding track before it and an earth target wall to the north-west. The thirteen courts 十三所 to the south-east served the firework nights, seven in all from the 13th to the 19th of the first month.
 - **E1536** (archaeology, likely): 十三所: surveyed 1994. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html
   The 1994 survey names 十三所 as one of three sites probed, with 藻园 and 山高水长. The paying part of the report holds the results: not read. The same words in the texts row are tied to YM73 and YM15; here to the hall YM15-02.
 
@@ -46,10 +51,8 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 山高水长 (no picture of this hall found): see YM15
+- Evidence for the whole compound 山高水长: see YM15
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

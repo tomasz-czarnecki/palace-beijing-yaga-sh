@@ -8,13 +8,14 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 同乐园 Tongle Yuan (S05, S02, S43, S41, S01, S360 · confidence A)
-- **Garden:** Yuanming Yuan (S05, S02, S43, S41, S01, S360)
-- **Type:** compound (S05, S02, S43, S41, S01, S360 · confidence A)
-- **Built:** by 1738 (first dated item) (S05, S02, S43, S41, S01, S360)
-- **Destroyed:** 1860 (S05, S02, S43, S41, S01, S360)
+- **Name:** 同乐园 Tongle Yuan (S05, S02, S43, S41, S01, S360, S310 · confidence A)
+- **Garden:** Yuanming Yuan (S05, S02, S43, S41, S01, S360, S310)
+- **Type:** compound (S05, S02, S43, S41, S01, S360, S310 · confidence A)
+- **Built:** by 1738 (first dated item) (S05, S02, S43, S41, S01, S360, S310)
+- **Changed:** 1838: plan to rebuild the 清音阁 stage as two storeys, 3.60 m lower, abandoned after objections (feng shui); kept at three storeys (S05, S02, S43, S41, S01, S360, S310)
+- **Destroyed:** 1860 (S05, S02, S43, S41, S01, S360, S310)
 - **Position:** 40.00738, 116.29321. S01 sure (S01 · confidence B)
-- **Note:** Shown in album leaf YM38 (S41; S02 p.95). 坐石臨流 東為同樂園 [j82:26a]. (S05, S02, S43, S41, S01, S360)
+- **Note:** Shown in album leaf YM38 (S41; S02 p.95). 坐石臨流 東為同樂園 [j82:26a]. (S05, S02, S43, S41, S01, S360, S310)
 - **Plan reader's note:** Label (4770,2900). Polygon takes the theatre courts south of the canal and the block east of the street north of it (买卖街, text: 中有南北长街). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 4768, 2900 (S01) *(research copy, not public)*
@@ -56,7 +57,7 @@ Yuanming Yuan
   ![P0487](../../photos/images/P0487.jpg)
 
 
-## Texts and drawings (31)
+## Texts and drawings (34)
 
 - **E2146** (text, sure): 日下舊聞考 同乐园、舍卫城. 1780s (乾隆 敕撰) · j82:27b-28b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 麴院風荷之北為同樂園前後樓各五楹南向其前為清音閣北向東為永日堂中有南北長街街西為抱樸草堂街北度雙橋為舎衛城前樹坊楔三城南面為多寳閣内為山門正殿為壽國壽民後為仁慈殿又後為普福宫城北為最勝閣（圓明園册）臣等謹按永日堂壽國壽民仁慈殿普福宫諸額皆世宗御書舍衛城北坊額曰花界曰香城東曰□湧曰金池西曰曇霏曰珠林多寳閣祀闗帝額曰至聖大勇夀國夀民殿額曰心月妙相仁慈殿額曰具足圓成普福宫額曰瑞應優曇最勝閣坊額曰乾闥持輪曰祗林垂鬘皆御書
@@ -118,6 +119,8 @@ Yuanming Yuan
 - **E0476** (description, guess): M'Ghee: the grounds and a theatre. 1860 · p.211 · S242. https://archive.org/details/howwegotintopek01ghegoog
   > theatres and their store-houses, filled with all the paraphernalia for masquerades upon a gigantic scale, one theatre and its belongings covering from five to ten acres of ground, all richly planted around;
   Grounds extending six or seven miles by his estimate, summer-houses with yellow porcelain roofs. Which theatre is not stated; 同乐园 is my guess by size.
+- **E2466** (description, sure): 同乐园平面图 (record text). record 2020-22 · mhymy dasl/ysltd/7295 · S310. https://www.mhymy.com/dasl/ysltd/7295.html
+  Record on 同乐园: the great theatre court in the south-east of 坐石临流, facing 舍卫城 to the north, the 买卖街 to the west, the 永日堂 chapel to the east; c. 1 ha, 4,550 m2 built. No drawing number shown.
 - **E2154** (description, sure): 扮戏楼 at 同乐园. 2021 · section on 同乐园 · S43. https://www.yuanmingyuanpark.cn/xs/yjbg/202108/t20210831_4483509.html
   Five-bay dressing building south of the great stage, 22.2 m wide and 6.4 m deep with 1.6 m galleries front and back, then a nine-bay south building behind it.
 - **E2156** (description, sure): 圆明园买卖街钩沉. post n.d. · hwyj · S115. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
@@ -132,14 +135,18 @@ Yuanming Yuan
   An overview of a four-part district with the shop street in the middle. 坐石临流 is the cup-floating pavilion; 抱朴草堂 a six-bay reverse hall. It gives 舍卫城 hall by hall (多宝阁, 寿国寿民, 仁慈殿, 普福宫, 最胜阁), and 同乐园: a theatre with towers of five bays, three-bay link, the emperor below and dowager above, facing the three-storey stage 清音阁.
 - **E2155** (description, sure, search index only): 《圆明园戏场探微》. S312. https://www.mhymy.com/xsjl/9991.html
   Survey of the gardens' theatres with sizes, from the three-storey stage of 1726 to the indoor stages of the Xianfeng period.
+- **E2158** (drawing, sure): 同乐园 烫样. 中国国家博物馆 · S328. https://www.mhymy.com/xwzx/ssrd/13512.html
+  Paper model of the Tongle Yuan group under conservation at the National Museum, reported as the clearest surviving record of it, labelled with directions and sizes; made for Tongzhi's project per the report.
+- **E2159** (drawing, sure): 清音阁样式雷图. S310. https://www.mhymy.com/dasl/ysltd/7297.html
+  Drawing of the Qingyin Ge theatre tower at Tongle Yuan; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
+- **E2472** (drawing, sure): 圆明园同乐园建筑群 烫样 (National Museum of China). not stated · 中国国家博物馆 · S922. https://www.xinhuanet.com/shuhua/20230517/853c8d5fecc64755ade73189babb5a70/c.html
+  Card model of the 同乐园 theatre group, conserved by the NMC in 2023 (pigment analysis by Raman spectroscopy). The report calls it key evidence for the layout and forms before the burning but gives no date; S920 lists a 同乐堂 among the Tongzhi models, which may or may not be this one. A 营造学社 photo of the model is reproduced on a bilibili wiki page (link card only).
 - **E2071** (drawing, likely): 《国家图书馆藏样式雷图档·圆明园卷初编》: 坐石临流. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 坐石临流, pp.229-262 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.229-262 (34 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E2072** (drawing, sure, search index only): 同乐园平面图. S310. https://www.mhymy.com/dasl/ysltd/7295.html
   Plan of the great theatre garden, part of Zuoshi Linliu, facing Shewei Cheng to the north; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
-- **E2158** (drawing, sure, search index only): 同乐园 烫样. 中国国家博物馆 · S328. https://www.mhymy.com/xwzx/ssrd/13512.html
-  Paper model of the Tongle Yuan group under conservation at the National Museum, reported as the clearest surviving record of it, labelled with directions and sizes; made for Tongzhi's project per the report.
-- **E2159** (drawing, sure, search index only): 清音阁样式雷图. S310. https://www.mhymy.com/dasl/ysltd/7297.html
-  Drawing of the Qingyin Ge theatre tower at Tongle Yuan; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
+- **E2492** (archaeology, likely): 买卖街 article page citing the 含经堂 dig brief. single page T00121 · S941. https://www.dpm.org.cn/Uploads/pdf/5071/T00121_00.pdf
+  Gives the 含经堂 shop-row foundations from the dig brief, 135.65 m N-S and about 63 m E-W, with 28 stoves, so perhaps several eating houses. It also says the 同乐园 shopping street ran straight N-S for over 130 m, crossed by a stream with a double plank bridge 双桥, and split into E and W arms south of 舍卫城.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 同乐园. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -170,6 +177,13 @@ Modern interpretation, not evidence.
 - Q51: Reading the Yangshi Lei records
 - Q52: Smaller conflicts
 - Q59: Twin claims to hold loosely
+- Q86: YM44-06 / CC02-15
+- Q104: 烫样 dates
+- Q119: Digs
+- Q125: Geotagged Commons coverage is thin
+- Q168: YM44 清音阁
+- Q169: YM44 what_en says nothing of 1860
+- Q170: YM44 card model
 
 <!-- generated:end -->
 

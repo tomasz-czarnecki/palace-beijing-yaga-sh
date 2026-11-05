@@ -40,6 +40,8 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 
 - Q25: Other dates
 - Q52: Smaller conflicts
+- Q156: Twin lead for the coordinator
+- Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
 
 <!-- generated:end -->
 

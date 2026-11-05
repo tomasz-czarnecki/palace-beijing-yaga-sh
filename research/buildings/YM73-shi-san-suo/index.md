@@ -49,8 +49,10 @@ Yuanming Yuan
 
 None of its own.
 
-## Texts and drawings (3)
+## Texts and drawings (4)
 
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E1529** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 山高水长. 2020 edition · v2 p.147 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=150
   Feasting ground and archery field: a west-facing nine-bay tower of 1726, first 引见楼, rear court with side halls, landing at a cross pavilion. A slanted riding track before it and an earth target wall to the north-west. The thirteen courts 十三所 to the south-east served the firework nights, seven in all from the 13th to the 19th of the first month.
 - **E1536** (archaeology, sure): 十三所: surveyed 1994. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html

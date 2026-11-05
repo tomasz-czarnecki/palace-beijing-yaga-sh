@@ -61,7 +61,7 @@ None of its own.
   Scenes with only scattered, incomplete building remains in the same table. 方壶胜境 is listed separately as the one with fairly complete remains not yet tidied up. 紫碧山房, 舍卫城 and 如园 have been dug since.
 - **E0179** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 宝相寺. 2020 edition · v3 p.353 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=356
   Finished 1747 east of 法慧寺. South gate, the five-bay tower 澄光阁 with side halls 云窦 and 松关, 昙霏阁, and behind them the five-bay 现大圆镜 on a high terrace with a three-bay annex.
-- **E0175** (drawing, sure, search index only): 法慧寺、宝相寺平面图 (图名: 宝相法慧寺). 乾隆年间 · 国家图书馆善本部 样069-1号 · S310. https://www.mhymy.com/dasl/ysltd/12671.html
+- **E0175** (drawing, sure): 法慧寺、宝相寺平面图 (图名: 宝相法慧寺). 乾隆年间 · 国家图书馆善本部 样069-1号 · S310. https://www.mhymy.com/dasl/ysltd/12671.html
   Qianlong-period presentation plan of the two temples, 859x518 mm, colour and ink; Fahui Si has three five-bay halls on its central line. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 宝相寺. https://artmuseum.princeton.edu/collections/objects/138657

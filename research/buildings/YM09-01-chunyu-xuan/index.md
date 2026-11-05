@@ -76,6 +76,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 - Q1: Target state
 - Q47: How much burned, and when
+- Q94: YM09 and YM33
 
 <!-- generated:end -->
 

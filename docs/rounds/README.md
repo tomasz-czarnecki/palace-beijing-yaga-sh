@@ -17,6 +17,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r4_docs` | high | 20:56-21:08 (12 min) | exit 0 at 21:08Z | - | - | `4b44190` | done |
 | `palace_r5_refs` | not recorded | 21:45–23:26 | 101 min | - | see its result row | see the git log | done |
 | `palace_r6_xiyanglou` | not recorded | 2026-11-01, from 00:58 | see its log | - | see its result row | see the git log | done |
+| `palace_r7_scenes` | not recorded | 2026-11-05, from 16:19 | see its log | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -162,3 +163,23 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - Most plates' scales rest on plan widths, and only XY06, XY09, XY10 and XY11 on a survey. Figures of method a: 29 of 453.
 - The walls and footprints layers stay on the plan while the boxes moved to the ruin (Q64).
 - No native reader for the zh page.
+
+## palace_r7_scenes
+
+**Asked:** Tomasz: "Can you continue research?" Do for every scene and compound outside the Xiyang Lou what Round 6 did for it, in priority order: the famous scenes, the other Forty Scenes, Changchun Yuan, Qichun Yuan.
+
+**Delivered:** `research/scenes/`, 81 dossiers with dimension sheets, the sheets they draw on (`about.json`, `halls.csv`, `dimensions.csv`, `views.csv`, `best.csv`, `digs.csv`, `interior.csv`, `parts.csv`, `checks.csv`), the overview with the modelling priority and a typology check; `scripts/scenes_dossiers.py`, `scripts/scenes_page.py`; the Dimensions block and the dossier link in every scene's panel, halls inheriting them through the fallback; the hub `site/scenes/` and ten public scene pages with zh drafts, linked from both homepages; 36 free pictures, 57 texts and drawings, 2 reconstructions, 19 sources (S900-S999), 124 facts, Q78-Q185, 64 wishes. Common brief: `common/palace_r7_subagents.md`; merge: `common/palace_r7_merge.py`; lists and before-coverage: `common/palace_r7_lists.py`; screenshots: `common/palace_r7_shots.js`, `common/palace_r7_stitch.py`. Records, not pipeline steps.
+
+**Timeline:** reading and skeletons 16:19-16:26. Eight workers 16:26-17:01 (texts in two halves, drawings, digs and studies, photographs, the album read hall by hall, the other Forty Scenes, Changchun and Qichun), while the coordinator wrote the generators. Merge and pipeline 17:01-17:08. Three workers 17:08-17:37: two checked the public text sentence by sentence and wrote the zh drafts, one searched Commons and Openverse again. Pages, screenshots, docs to the end.
+
+**Checked:** `tools/check_evidence.py` with a scenes section against `research/evidence/coverage_before_r7.json` (commit 6b27915), `tools/check_pages.py`, `tools/check_docs.py`; `scripts/building_pages.py` run twice; `scripts/build_r1.py` reproduces the layers byte for byte before the facts. 275 sentences checked: 154 held, 116 changed, 5 not verifiable; all applied. Screenshots in `screenshots/r7/`, opened.
+
+**Went wrong or left open:**
+- The first eight workers ran in the background, the Agent tool's default; the brief asked for the foreground. The coordinator kept its turn open until all returned (the last at 17:01), and the second batch ran in the foreground.
+- `apply_facts.py` dropped the second of two sizes on a row into the note (three earlier rows had lost a depth); fixed. A merge rule let one worker's merge win over another's keep; fixed, and `boxes1860.py` now stops on a merge into a row with no box.
+- Halls with evidence of their own stay at 573: the new pictures and texts went to halls that already had a name. The 937 unnamed blocks still show only the plan and their scene: a plan-reading pass is on the wishlist.
+- Most Yangshi Lei figures are modern transcriptions on mhymy, the drawings themselves unseen; the 1855 whole plan of 九洲清晏 (样011-3) is behind a paywall. Many 九洲清晏 court figures come from the Tongzhi plan of 1874: graded B.
+- No free modern photograph found for eight wave 1 scenes; no new old photograph of any scene outside the Xiyang Lou.
+- Typology proposals (Q182-Q185) are not applied. No native reader for the zh pages.
+- The brief's 日下旧闻考 j80-87 holds Changchun Yuan in j83 only; j84 is 清漪园.
+

@@ -176,7 +176,7 @@ The Library of Collected Fragrance · Yuanming Yuan
   Short notes: 鱼跃鸢飞 inside 大北门, Yongzheng, about 2,500 m2; 西峰秀色 on an islet north of 舍卫城, 1728, open only west toward the hills; 安佑宫 1740-43, its marble columns now at Peking University and the National Library; 日天琳宇 the 佛楼, early Yongzheng; 汇芳书院 1742; 廓然大公 320 x 160 m, lost in 1900.
 - **E1593** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 汇芳书院. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 汇芳书院, pp.357-361 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.357-361 (5 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1594** (drawing, sure, search index only): 汇芳书院总平面图 (图名: 汇芳书院). 乾隆晚期至道光时期 (inferred on the record) · 国家图书馆善本部 样036-1号 · S310. https://www.mhymy.com/dasl/ysltd/11546.html
+- **E1594** (drawing, sure): 汇芳书院总平面图 (图名: 汇芳书院). 乾隆晚期至道光时期 (inferred on the record) · 国家图书馆善本部 样036-1号 · S310. https://www.mhymy.com/dasl/ysltd/11546.html
   Survey base plan of Huifang Shuyuan at 1:200, 1185x861 mm, ink and light colour, with hall names, bay and depth sizes and courtyard sizes; late Qianlong to Daoguang. No image here; the site may ask a small payment for the full record.
 - **E1595** (drawing, sure, search index only): 汇芳书院样式雷图. S310. https://www.mhymy.com/dasl/ysltd/5098.html
   Older record of a drawing of Huifang Shuyuan; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.

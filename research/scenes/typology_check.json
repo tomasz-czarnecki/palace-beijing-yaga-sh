@@ -1,0 +1,1227 @@
+{
+ "gate_hall": {
+  "n": 2,
+  "within": 1,
+  "outside": [
+   {
+    "id": "YM45-03",
+    "name": "山门",
+    "what": "platform_h",
+    "value": 1.25,
+    "default": 0.77,
+    "within": false,
+    "ratio": 1.62,
+    "source": "S46",
+    "locator": "北京日报 2020-01-09; E2180",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM41-01",
+    "name": "大宫门门殿",
+    "what": "platform_h",
+    "value": 0.77,
+    "default": 0.77,
+    "within": true,
+    "ratio": 1.0,
+    "source": "S102",
+    "locator": "mhymy 12324; E1017",
+    "status": "viewed"
+   },
+   {
+    "id": "YM45-03",
+    "name": "山门",
+    "what": "platform_h",
+    "value": 1.25,
+    "default": 0.77,
+    "within": false,
+    "ratio": 1.62,
+    "source": "S46",
+    "locator": "北京日报 2020-01-09; E2180",
+    "status": "viewed"
+   }
+  ]
+ },
+ "grand_hall": {
+  "n": 18,
+  "within": 5,
+  "outside": [
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "column_h",
+    "value": 4.35,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.85,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "platform_h",
+    "value": 0.59,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.48,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "frontage",
+    "value": 23.36,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.64,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "depth",
+    "value": 26.49,
+    "default": [
+     15,
+     19
+    ],
+    "within": false,
+    "ratio": 1.56,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM02-08",
+    "name": "保合太和殿",
+    "what": "frontage",
+    "value": 32.0,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.88,
+    "source": "S310",
+    "locator": "NLC 样002-17 (undated), slip quoted on mhymy 10368",
+    "status": "viewed"
+   },
+   {
+    "id": "YM02-08",
+    "name": "保合太和殿",
+    "what": "depth",
+    "value": 11.52,
+    "default": [
+     15,
+     19
+    ],
+    "within": false,
+    "ratio": 0.68,
+    "source": "S310",
+    "locator": "NLC 样002-17 (undated), slip quoted on mhymy 10368",
+    "status": "viewed"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "column_h",
+    "value": 3.68,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.72,
+    "source": "S139",
+    "locator": "news 2020-12-16 (E1643)",
+    "status": "snippet"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "platform_h",
+    "value": 0.55,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.45,
+    "source": "S137",
+    "locator": "news 2022-11-04 (E1644)",
+    "status": "snippet"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "platform_h",
+    "value": 0.55,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.45,
+    "source": "S137",
+    "locator": "E1644",
+    "status": "viewed"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "column_h",
+    "value": 3.68,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.72,
+    "source": "S139",
+    "locator": "中国日报网 2020-12-16, para. 4 (张中华)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM23-01",
+    "name": "慎修思永",
+    "what": "column_h",
+    "value": 4.0,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.78,
+    "source": "S310",
+    "locator": "mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM23-01",
+    "name": "慎修思永",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.79,
+    "source": "S310",
+    "locator": "mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "CC14-01",
+    "name": "正谊明道",
+    "what": "frontage",
+    "value": 27.2,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.75,
+    "source": "S310",
+    "locator": "mhymy ysltd 5247 (玉玲珑馆平面图, NLC 样070-1), 丈尺 as quoted",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "column_h",
+    "value": 4.35,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.85,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "platform_h",
+    "value": 0.59,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.48,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "frontage",
+    "value": 23.36,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.64,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-11",
+    "name": "慎德堂",
+    "what": "depth",
+    "value": 26.49,
+    "default": [
+     15,
+     19
+    ],
+    "within": false,
+    "ratio": 1.56,
+    "source": "S310",
+    "locator": "mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM01-08",
+    "name": "正大光明殿",
+    "what": "frontage",
+    "value": 35.95,
+    "default": [
+     33,
+     40
+    ],
+    "within": true,
+    "ratio": 0.98,
+    "source": "S310",
+    "locator": "NLC 样001-4 正大光明白差准底 (undated), slip text quoted on mhymy record 10451",
+    "status": "viewed"
+   },
+   {
+    "id": "YM01-08",
+    "name": "正大光明殿",
+    "what": "depth",
+    "value": 16.0,
+    "default": [
+     15,
+     19
+    ],
+    "within": true,
+    "ratio": 0.94,
+    "source": "S310",
+    "locator": "NLC 样001-4 正大光明白差准底 (undated), slip text quoted on mhymy record 10451",
+    "status": "viewed"
+   },
+   {
+    "id": "YM02-08",
+    "name": "保合太和殿",
+    "what": "frontage",
+    "value": 32.0,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.88,
+    "source": "S310",
+    "locator": "NLC 样002-17 (undated), slip quoted on mhymy 10368",
+    "status": "viewed"
+   },
+   {
+    "id": "YM02-08",
+    "name": "保合太和殿",
+    "what": "depth",
+    "value": 11.52,
+    "default": [
+     15,
+     19
+    ],
+    "within": false,
+    "ratio": 0.68,
+    "source": "S310",
+    "locator": "NLC 样002-17 (undated), slip quoted on mhymy 10368",
+    "status": "viewed"
+   },
+   {
+    "id": "YM02-08",
+    "name": "保合太和殿",
+    "what": "column_h",
+    "value": 4.48,
+    "default": 5.12,
+    "within": true,
+    "ratio": 0.88,
+    "source": "S310",
+    "locator": "NLC 样002-17 (undated), slip quoted on mhymy 10368",
+    "status": "viewed"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "column_h",
+    "value": 3.68,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.72,
+    "source": "S139",
+    "locator": "news 2020-12-16 (E1643)",
+    "status": "snippet"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "platform_h",
+    "value": 0.55,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.45,
+    "source": "S137",
+    "locator": "news 2022-11-04 (E1644)",
+    "status": "snippet"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "platform_h",
+    "value": 0.55,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.45,
+    "source": "S137",
+    "locator": "E1644",
+    "status": "viewed"
+   },
+   {
+    "id": "YM20-01",
+    "name": "田字殿",
+    "what": "column_h",
+    "value": 3.68,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.72,
+    "source": "S139",
+    "locator": "中国日报网 2020-12-16, para. 4 (张中华)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM23-01",
+    "name": "慎修思永",
+    "what": "column_h",
+    "value": 4.0,
+    "default": 5.12,
+    "within": false,
+    "ratio": 0.78,
+    "source": "S310",
+    "locator": "mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM23-01",
+    "name": "慎修思永",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 1.22,
+    "within": false,
+    "ratio": 0.79,
+    "source": "S310",
+    "locator": "mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM23-01",
+    "name": "慎修思永",
+    "what": "frontage",
+    "value": 35.52,
+    "default": [
+     33,
+     40
+    ],
+    "within": true,
+    "ratio": 0.97,
+    "source": "S310",
+    "locator": "mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "CC14-01",
+    "name": "正谊明道",
+    "what": "frontage",
+    "value": 27.2,
+    "default": [
+     33,
+     40
+    ],
+    "within": false,
+    "ratio": 0.75,
+    "source": "S310",
+    "locator": "mhymy ysltd 5247 (玉玲珑馆平面图, NLC 样070-1), 丈尺 as quoted",
+    "status": "viewed"
+   },
+   {
+    "id": "CC14-01",
+    "name": "正谊明道",
+    "what": "depth",
+    "value": 18.24,
+    "default": [
+     15,
+     19
+    ],
+    "within": true,
+    "ratio": 1.07,
+    "source": "S310",
+    "locator": "mhymy ysltd 5247 (玉玲珑馆平面图, NLC 样070-1), 丈尺 as quoted",
+    "status": "viewed"
+   }
+  ]
+ },
+ "main_hall": {
+  "n": 10,
+  "within": 4,
+  "outside": [
+   {
+    "id": "YM03-01",
+    "name": "圆明园殿",
+    "what": "depth",
+    "value": 7.04,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 0.7,
+    "source": "S310",
+    "locator": "NLC 样007-9-1 (1855.3.17), 黄签 quoted on mhymy record 11195; same figures on the 1837 sheet",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-13",
+    "name": "乐奏钧天戏台",
+    "what": "frontage",
+    "value": 16.0,
+    "default": [
+     17,
+     24
+    ],
+    "within": false,
+    "ratio": 0.78,
+    "source": "S144",
+    "locator": "section on 含经堂, citing 考古 2004(2)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-13",
+    "name": "乐奏钧天戏台",
+    "what": "depth",
+    "value": 16.0,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 1.6,
+    "source": "S144",
+    "locator": "section on 含经堂, citing 考古 2004(2)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "platform_h",
+    "value": 1.0,
+    "default": 0.7,
+    "within": false,
+    "ratio": 1.43,
+    "source": "S362",
+    "locator": "section 三.1 台基",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "platform_h",
+    "value": 1.0,
+    "default": 0.7,
+    "within": false,
+    "ratio": 1.43,
+    "source": "S362",
+    "locator": "section 四.1",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "depth",
+    "value": 19.968,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 2.0,
+    "source": "S362",
+    "locator": "section 四.1",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM03-01",
+    "name": "圆明园殿",
+    "what": "frontage",
+    "value": 19.52,
+    "default": [
+     17,
+     24
+    ],
+    "within": true,
+    "ratio": 0.95,
+    "source": "S310",
+    "locator": "NLC 样007-9-1 (1855.3.17), 黄签 quoted on mhymy record 11195; same figures on the 1837 sheet",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-01",
+    "name": "圆明园殿",
+    "what": "depth",
+    "value": 7.04,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 0.7,
+    "source": "S310",
+    "locator": "NLC 样007-9-1 (1855.3.17), 黄签 quoted on mhymy record 11195; same figures on the 1837 sheet",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-01",
+    "name": "圆明园殿",
+    "what": "column_h",
+    "value": 3.84,
+    "default": 3.7,
+    "within": true,
+    "ratio": 1.04,
+    "source": "S310",
+    "locator": "NLC 样007-9-1 (1855.3.17), 黄签 quoted on mhymy record 11195; same figures on the 1837 sheet",
+    "status": "viewed"
+   },
+   {
+    "id": "YM03-01",
+    "name": "圆明园殿",
+    "what": "platform_h",
+    "value": 0.704,
+    "default": 0.7,
+    "within": true,
+    "ratio": 1.01,
+    "source": "S310",
+    "locator": "NLC 样007-9-1 (1855.3.17), 黄签 quoted on mhymy record 11195; same figures on the 1837 sheet",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-13",
+    "name": "乐奏钧天戏台",
+    "what": "frontage",
+    "value": 16.0,
+    "default": [
+     17,
+     24
+    ],
+    "within": false,
+    "ratio": 0.78,
+    "source": "S144",
+    "locator": "section on 含经堂, citing 考古 2004(2)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-13",
+    "name": "乐奏钧天戏台",
+    "what": "depth",
+    "value": 16.0,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 1.6,
+    "source": "S144",
+    "locator": "section on 含经堂, citing 考古 2004(2)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "platform_h",
+    "value": 1.0,
+    "default": 0.7,
+    "within": false,
+    "ratio": 1.43,
+    "source": "S362",
+    "locator": "section 三.1 台基",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "platform_h",
+    "value": 1.0,
+    "default": 0.7,
+    "within": false,
+    "ratio": 1.43,
+    "source": "S362",
+    "locator": "section 四.1",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "frontage",
+    "value": 22.848,
+    "default": [
+     17,
+     24
+    ],
+    "within": true,
+    "ratio": 1.11,
+    "source": "S362",
+    "locator": "section 四.1",
+    "status": "viewed"
+   },
+   {
+    "id": "CC18-N01",
+    "name": "延清堂",
+    "what": "depth",
+    "value": 19.968,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 2.0,
+    "source": "S362",
+    "locator": "section 四.1",
+    "status": "viewed"
+   }
+  ]
+ },
+ "pavilion_square": {
+  "n": 3,
+  "within": 0,
+  "outside": [
+   {
+    "id": "YM20-11",
+    "name": "静香屋",
+    "what": "frontage",
+    "value": 3.2,
+    "default": [
+     4.5,
+     8
+    ],
+    "within": false,
+    "ratio": 0.51,
+    "source": "S361",
+    "locator": "v2 p.195 (E1655), Qianlong 1791",
+    "status": "viewed"
+   },
+   {
+    "id": "YM17-02",
+    "name": "石华表",
+    "what": "height_ridge",
+    "value": 8.0,
+    "default": 6.59,
+    "within": false,
+    "ratio": 1.21,
+    "source": "S980",
+    "locator": "page text",
+    "status": "viewed"
+   },
+   {
+    "id": "YM17-02",
+    "name": "石华表",
+    "what": "platform_h",
+    "value": 1.24,
+    "default": 0.48,
+    "within": false,
+    "ratio": 2.58,
+    "source": "S980",
+    "locator": "page text",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM20-11",
+    "name": "静香屋",
+    "what": "frontage",
+    "value": 3.2,
+    "default": [
+     4.5,
+     8
+    ],
+    "within": false,
+    "ratio": 0.51,
+    "source": "S361",
+    "locator": "v2 p.195 (E1655), Qianlong 1791",
+    "status": "viewed"
+   },
+   {
+    "id": "YM17-02",
+    "name": "石华表",
+    "what": "height_ridge",
+    "value": 8.0,
+    "default": 6.59,
+    "within": false,
+    "ratio": 1.21,
+    "source": "S980",
+    "locator": "page text",
+    "status": "viewed"
+   },
+   {
+    "id": "YM17-02",
+    "name": "石华表",
+    "what": "platform_h",
+    "value": 1.24,
+    "default": 0.48,
+    "within": false,
+    "ratio": 2.58,
+    "source": "S980",
+    "locator": "page text",
+    "status": "viewed"
+   }
+  ]
+ },
+ "side_hall": {
+  "n": 4,
+  "within": 4,
+  "outside": [],
+  "all": [
+   {
+    "id": "CC02-10",
+    "name": "三友轩",
+    "what": "frontage",
+    "value": 11.1,
+    "default": [
+     10,
+     14
+    ],
+    "within": true,
+    "ratio": 0.92,
+    "source": "S940",
+    "locator": "p.364 (PDF p.12)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-10",
+    "name": "三友轩",
+    "what": "depth",
+    "value": 7.2,
+    "default": [
+     6,
+     8
+    ],
+    "within": true,
+    "ratio": 1.03,
+    "source": "S940",
+    "locator": "p.364 (PDF p.12)",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-10",
+    "name": "三友轩",
+    "what": "frontage",
+    "value": 11.1,
+    "default": [
+     10,
+     14
+    ],
+    "within": true,
+    "ratio": 0.92,
+    "source": "S672",
+    "locator": "p.364",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-10",
+    "name": "三友轩",
+    "what": "depth",
+    "value": 7.2,
+    "default": [
+     6,
+     8
+    ],
+    "within": true,
+    "ratio": 1.03,
+    "source": "S672",
+    "locator": "p.364",
+    "status": "viewed"
+   }
+  ]
+ },
+ "small_house": {
+  "n": 5,
+  "within": 2,
+  "outside": [
+   {
+    "id": "YM22-01",
+    "name": "水木明瑟殿",
+    "what": "depth",
+    "value": 4.48,
+    "default": [
+     5.5,
+     7
+    ],
+    "within": false,
+    "ratio": 0.72,
+    "source": "S310",
+    "locator": "mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM22-01",
+    "name": "水木明瑟殿",
+    "what": "column_h",
+    "value": 3.2,
+    "default": 2.75,
+    "within": false,
+    "ratio": 1.16,
+    "source": "S310",
+    "locator": "mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-15",
+    "name": "买卖街",
+    "what": "frontage",
+    "value": 135.65,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 13.57,
+    "source": "S115",
+    "locator": "hwyj post",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM22-01",
+    "name": "水木明瑟殿",
+    "what": "frontage",
+    "value": 9.6,
+    "default": [
+     8,
+     12
+    ],
+    "within": true,
+    "ratio": 0.96,
+    "source": "S310",
+    "locator": "mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM22-01",
+    "name": "水木明瑟殿",
+    "what": "depth",
+    "value": 4.48,
+    "default": [
+     5.5,
+     7
+    ],
+    "within": false,
+    "ratio": 0.72,
+    "source": "S310",
+    "locator": "mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "YM22-01",
+    "name": "水木明瑟殿",
+    "what": "column_h",
+    "value": 3.2,
+    "default": 2.75,
+    "within": false,
+    "ratio": 1.16,
+    "source": "S310",
+    "locator": "mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-15",
+    "name": "买卖街",
+    "what": "frontage",
+    "value": 135.65,
+    "default": [
+     8,
+     12
+    ],
+    "within": false,
+    "ratio": 13.57,
+    "source": "S115",
+    "locator": "hwyj post",
+    "status": "viewed"
+   },
+   {
+    "id": "CC02-15",
+    "name": "买卖街",
+    "what": "depth",
+    "value": 6.3,
+    "default": [
+     5.5,
+     7
+    ],
+    "within": true,
+    "ratio": 1.01,
+    "source": "S115",
+    "locator": "hwyj post",
+    "status": "viewed"
+   }
+  ]
+ },
+ "storeyed_hall": {
+  "n": 10,
+  "within": 2,
+  "outside": [
+   {
+    "id": "YM46-01",
+    "name": "文源阁阁",
+    "what": "depth",
+    "value": 14.72,
+    "default": [
+     3.5,
+     8
+    ],
+    "within": false,
+    "ratio": 2.56,
+    "source": "S105",
+    "locator": "note [4] (光绪朝《圆明园慎修思永及文源阁丈尺册》)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "frontage",
+    "value": 32.0,
+    "default": [
+     9,
+     23
+    ],
+    "within": false,
+    "ratio": 2.0,
+    "source": "S202",
+    "locator": "卷十三, line 938 of the corpus file (E2148)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 0.45,
+    "within": false,
+    "ratio": 2.13,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "column_h",
+    "value": 4.42,
+    "default": [
+     3.2,
+     2.3
+    ],
+    "within": false,
+    "ratio": 1.57,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "height_ridge",
+    "value": 23.94,
+    "default": 8.1,
+    "within": false,
+    "ratio": 2.96,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 0.45,
+    "within": false,
+    "ratio": 2.13,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "column_h",
+    "value": 4.42,
+    "default": [
+     3.2,
+     2.3
+    ],
+    "within": false,
+    "ratio": 1.57,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "height_ridge",
+    "value": 23.94,
+    "default": 8.1,
+    "within": false,
+    "ratio": 2.96,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   }
+  ],
+  "all": [
+   {
+    "id": "YM46-01",
+    "name": "文源阁阁",
+    "what": "frontage",
+    "value": 22.72,
+    "default": [
+     9,
+     23
+    ],
+    "within": true,
+    "ratio": 1.42,
+    "source": "S105",
+    "locator": "note [4] (光绪朝《圆明园慎修思永及文源阁丈尺册》)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM46-01",
+    "name": "文源阁阁",
+    "what": "depth",
+    "value": 14.72,
+    "default": [
+     3.5,
+     8
+    ],
+    "within": false,
+    "ratio": 2.56,
+    "source": "S105",
+    "locator": "note [4] (光绪朝《圆明园慎修思永及文源阁丈尺册》)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "frontage",
+    "value": 32.0,
+    "default": [
+     9,
+     23
+    ],
+    "within": false,
+    "ratio": 2.0,
+    "source": "S202",
+    "locator": "卷十三, line 938 of the corpus file (E2148)",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 0.45,
+    "within": false,
+    "ratio": 2.13,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "column_h",
+    "value": 4.42,
+    "default": [
+     3.2,
+     2.3
+    ],
+    "within": false,
+    "ratio": 1.57,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "height_ridge",
+    "value": 23.94,
+    "default": 8.1,
+    "within": false,
+    "ratio": 2.96,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "frontage",
+    "value": 14.52,
+    "default": [
+     9,
+     23
+    ],
+    "within": true,
+    "ratio": 0.91,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297 (清音阁样式雷图, free part), metres as printed; drawing not named",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "platform_h",
+    "value": 0.96,
+    "default": 0.45,
+    "within": false,
+    "ratio": 2.13,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "column_h",
+    "value": 4.42,
+    "default": [
+     3.2,
+     2.3
+    ],
+    "within": false,
+    "ratio": 1.57,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   },
+   {
+    "id": "YM44-02",
+    "name": "清音阁",
+    "what": "height_ridge",
+    "value": 23.94,
+    "default": 8.1,
+    "within": false,
+    "ratio": 2.96,
+    "source": "S310",
+    "locator": "mhymy ysltd 7297",
+    "status": "viewed"
+   }
+  ]
+ }
+}

@@ -35,11 +35,17 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (1)
+## Texts and drawings (3)
 
 - **E2077** (text, sure): 日下舊聞考 曲院风荷. 1780s (乾隆 敕撰) · j82:26b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 坐石臨流東南當碧桐書院正東為麴院風荷五楹南嚮其西佛樓為洛迦勝境（圓明園册）臣等謹按麴院風荷四十景之一額為皇上御書洛迦勝境額亦御書
   East of 碧桐書院: 麴院風荷, five bays facing south, with the Buddha tower 洛迦勝境 to its west.
+- **E2075** (poem, likely): 曲院风荷: 嘉庆元年 poem of the Jiaqing Emperor. 嘉庆元年 (1796), date from the compilation · p.257 item (2), under 曲院风荷 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=257
+  > 显迹传东土，如来平等观。西方常住锡，南海永安澜。法律三车演，庄严七宝攒。长称圣人寿，普被福田宽。
+  Poem of the Jiaqing Emperor at 曲院风荷, 1796, on the view. Year as given by the compilation.
+- **E2076** (poem, likely): 曲院风荷: 嘉庆七年 poem of the Jiaqing Emperor. 嘉庆七年 (1802), date from the compilation · p.257 item (4), under 曲院风荷 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=257
+  > 海南卓锡畅宗风，应感随声示现同。人我尽包四生转，慈悲原在一心通。六时钟磬真仍幻，三月莺花色即空。若向个中寻住脚，痴人说梦总愚蒙。
+  Poem of the Jiaqing Emperor at 曲院风荷, 1802, on the view. Year as given by the compilation.
 
 **On the plan:** Drawn on the plan of the gardens (S01) with no label, 3x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
 

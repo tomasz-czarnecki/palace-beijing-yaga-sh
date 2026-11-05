@@ -20,7 +20,7 @@ Yuanming Yuan
 - **Bays:** 9x2 on the plan (S05, S01)
 - **Size in the inventory:** 44.7 × 21.1 m. S01 plan px / hall scale (S01)
 - **Tiles:** 二色瓦 two-colour (poem: 殿以香楠為材覆二色瓦) [j80:30a] (S05, S01)
-- **Note:** Nanmu timber. Kangxi, Yongzheng, Qianlong met here 1722 [j80:28a]. S06: 金碧二色琉璃瓦. (S05, S01)
+- **Note:** Nanmu timber. Kangxi, Yongzheng, Qianlong met here 1722 [j80:28a]. S06: 金碧二色琉璃瓦. roof_tiles: two-colour glazed (二色瓦) (S05, j80:30a). (S05, S01)
 - **Plan reader's note:** Inventory 纪恩堂. First char 镂 or 楼. Label at (4046,4568) (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 4059, 4484 (S01) *(research copy, not public)*
@@ -36,7 +36,11 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.2 m
 - **Confidence:** B
 
-## Pictures (1)
+## Pictures (2)
+
+- **P0004** (likely): 鏤月開雲 Louyue kaiyun [Graver la lune et ciseler les nuées] (圓明園四十景, 第4景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%9B%9B%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%9B%9B%E5%B9%85%E5%9B%BE%29%2C_%E9%8F%A4%E6%9C%88%E9%96%8B%E9%9B%B2_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Louyue_kaiyun_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008355w.jpg
+
+  ![P0004](../../photos/images/P0004.jpg)
 
 - **P0273** (likely): Spring Everlasting on the Abode of the Immortals, leaf 镂月开云 Louyue Kaiyun (Engraved Moon and Unfolding Clouds), album of 20 leaves in colour (ca. 1821 or later (S261)). https://www.hkpm.org.hk/en/exhibition/the-hong-kong-jockey-club-series-yuan-ming-yuan-art-and-culture-of-an-imperial-garden-palace Research-only: link card.
 
@@ -65,7 +69,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Open questions
 
-None that name it.
+- Q133: YM04-01
 
 <!-- generated:end -->
 

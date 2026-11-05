@@ -33,15 +33,21 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 173.7° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0031** (likely): 平湖秋月 Pinghu qiuyue [Lune d'automne sur le lac Serein] (圓明園四十景, 第31景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E6%99%AF_%28%E4%B8%8B%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B9%85%E5%9B%BE%29%2C_%E5%B9%B3%E6%B9%96%E7%A7%8B%E6%9C%88_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Pinghu_qiuyue_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008346x.jpg
 
-## Texts and drawings (5)
+  ![P0031](../../photos/images/P0031.jpg)
+
+
+## Texts and drawings (6)
 
 - **E1912** (text, sure): 日下舊聞考 平湖秋月、福海. 1780s (乾隆 敕撰) · j82:15b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 平湖秋月在福海西北隅正宇三楹西為流水音東北出山口臨河為花嶼蘭皋折而東南度橋為兩峯挿雲又東南為山水樂其北為君子軒為藏密樓（圓明園册）臣等謹按平湖秋月四十景之一額為世宗御書流水音花嶼蘭皋諸額為皇上御書
   In the north-west corner of 福海: 平湖秋月, three bays, with 流水音, 花嶼蘭皋, 兩峯挿雲, 山水樂, 君子軒 and 藏密樓.
+- **E1896** (poem, likely): 御製平湖秋月詞（調寄浣溪紗）（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:15b-16a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
+  > 乾隆九年 御製平湖秋月詞（調寄浣溪紗） 倚山面湖竹樹䝉密左右支板橋以通步屐湖可數十頃當秋深月皎㶑灧波光接天無際蘇公隄畔差足方兹勝概 不辨天光與水光結璘池館慶宵涼蓼煙荷露正蒼茫　白傅蘇公風雅客一杯相勸舞霓裳此時誰不道錢塘
+  Set against a hill and facing the lake, with dense bamboo and plank bridges on either side. The lake runs to tens of qing, and on deep autumn nights moon and water merge, close to the view by 蘇公隄 Su Causeway.
 - **E1909** (poem, sure): 平湖秋月: 道光三年 poem of the Daoguang Emperor. 道光三年 (1823), date from the compilation · p.263 item (1), under 平湖秋月 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=263
   > 平湖日午泛轻航，飒飒南风喜送凉。鸣籁青松遮碧嶂，含芳紫槿映虚堂。倏看雨脚疎还密，乍听雷声隐复扬。四望溟蒙涵妙景，瀛洲图书水中央。
   Poem of the Daoguang Emperor at 平湖秋月, 1823, on rain and the view. Year as given by the compilation.
@@ -58,11 +64,9 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 平湖秋月 (no picture of this hall found): see YM31
+- Evidence for the whole compound 平湖秋月: see YM31
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a grand hall (not this building): see CLASS-grand_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

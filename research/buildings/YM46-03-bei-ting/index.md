@@ -36,7 +36,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (5)
+## Texts and drawings (7)
 
 - **E2195** (text, sure): 日下舊聞考 文源阁. 1780s (乾隆 敕撰) · j81:35b-36b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 水木明瑟之北稍西為文源閣上下各六楹閣西為栁浪聞鶯（圓明園册）臣等謹按文源閣乾隆三十九年建與文華殿後之文淵閣避暑山莊之文津閣皆以貯四庫全書閣額及閣内汲古觀瀾額皆御書聨曰因溯委以會心是處原泉來活水即登髙而遊目當前奥㝔對玲峯屏扆聨曰寧誇池館消閒暇雅喜詩書悅性靈檐柱聨曰討尋宜富波瀾浩矣無涯神智益披攬直探星宿挹之不盡古今涵亦御書閣前石為玲峯刋御製文源閣詩閣東亭内石碣刋御製文源閣記恭錄卷内
@@ -46,10 +46,14 @@ None of its own.
   Copied by measurement from the Fan family library in Zhejiang (天一阁), per Qianlong's account carved on a marble stele of 1774, still standing when Malone wrote. Glazed tiles with a wave design in white and green, fragments still on site; a pool before the library, water-worn rock round it, and the inscribed monolith 玲峰 rising 12 or 15 ft from a stone terrace in the pool.
 - **E2200** (description, sure): 杨菁 等, 圆明园文源阁, 圆明园研究 63. 2022 · xs/ktsb t20220128_4510628, earlier fetch · S105. http://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
   Group about 16,000 m2, building about 700 m2, modelled on 天一阁. Library six bays by five, galleries front and rear, 硬山, black glazed tile with green edging, grey brick walls and dark green columns. A lower floor with study and west stair, mezzanine and a top floor of shelves. 玲峰 over 6 m high. Based on Yangshi Lei plans including one of 1894.
+- **E2493** (archaeology, sure): 杨菁, 杨文艳, 牛颖倩, 殷双 (天津大学建筑学院), 圆明园文源阁, 圆明园研究 63: survey of the ruin and the Guangxu 丈尺册. 2022 · sections 3.2-3.5, notes [2], [4], figs 8-12, table 3-1-1 · S105. https://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
+  The authors measured and scanned the cleared ruin before the 2024 dig: the library and stele pavilion platforms are fairly whole, the gate, steps and the cracked-ice floor can be seen, the square pond has gone, and black glazed and green glazed fragments lie about. The verbatim line is the Guangxu-reign 丈尺册 (a Qing text, quoted by the authors) giving the six bays and the depth. Their measured area is the smallest of the four northern libraries, close to 文津阁.
 - **E2206** (archaeology, sure): 文源阁 public day and results, 新华网, 北京晚报 via visitbeijing, 总台 via 凤凰网. 2024-09 to 12 · three news items · S134. https://news.ifeng.com/c/8eTlzYasshZ
   From 2024-08-26, 1,000 m2 planned. Site was the 四达亭 pavilion under Yongzheng, rebuilt 1775. Water system: one supply culvert under the north wall, four drains and a 沟门 outlet in the south wall, ground inside higher than outside. 玲峰 stone base of long slabs tied with iron dovetails. Original surface about 0.5 m down, with irregular stone paths and Y-forks not shown on any plan. Glazed fittings and porcelain sherds.
 - **E2207** (archaeology, sure): 文源阁 2024 dig, 人民日报海外版 via 新华网. 2025-01-13 · article by 张利芳 · S133. https://www.news.cn/local/20250113/42158ce447b64aab8b6590fd52fddf3c/c.html
   Aug to Nov 2024: gate, stele pavilion, terrace, 趣亭, north gate, walls, roads and waterways. Dig confirms six bays and black glazed roof tiles. Two ponds, one in front and one east of the library; walls of 虎皮石 rubble, not city brick; stele pavilion founded on cedar pegs, stone slabs and rammed 三合土. Five stone culverts run under the walls, three of them under the rockery behind the gate.
+- **E2494** (archaeology, likely): Old Summer Palace findings reveal fresh details of complex planning (文源阁 dig 2024). 2024-12-27 · pp.1-2 · S942. https://govt.chinadaily.com.cn/s/202412/27/WS676e0181498eec7e1f72bc12/old-summer-palace-findings-reveal-fresh-details-of-complex-planning_2.html
+  The 文源阁 court was a closed yard with a door south and north, holding the main hall, two pavilions and a viewing terrace linked by paths of unworked flagstones. Two ponds, one in the north-east corner and one south of the hall, were tied by channels to the river outside for fire water, and the yard was raised a little so storm water left through a wall drain. Foundations were trench, timber piles, stone slabs, then the base, the soundest found so far in the gardens; the layout matches Yangshi Lei sketches of 1779 and 1898.
 
 **On the plan:** Drawn on the plan of the gardens (S01) with no label, 1x1 cells: a building stood here, its name unknown. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -63,7 +67,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q110: YM46-03 碑亭
 
 <!-- generated:end -->
 

@@ -10,16 +10,16 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 观澜堂 Guanlan Tang (S51, S06, S52, S01, S111, S337, S361 · confidence B)
-- **Garden:** Yuanming Yuan (S51, S06, S52, S01, S111, S337, S361)
-- **Type:** residence (S51, S06, S52, S01, S111, S337, S361 · confidence B)
-- **Built:** 嘉庆二十二年 1817 前后, replacing 观鱼跃 (S51); late Jiaqing, by 1817-1819; 1819 (date of first poem); 接秀山房's rebuild (S51, S06, S52, S01, S111, S337, S361)
-- **Destroyed:** survived 1860; lost around 1900 (S51, S06, S52, S01, S111, S337, S361)
+- **Name:** 观澜堂 Guanlan Tang (S51, S06, S52, S01, S111, S337, S361, S360 · confidence B)
+- **Garden:** Yuanming Yuan (S51, S06, S52, S01, S111, S337, S361, S360)
+- **Type:** residence (S51, S06, S52, S01, S111, S337, S361, S360 · confidence B)
+- **Built:** 嘉庆二十二年 1817 前后, replacing 观鱼跃 (S51); late Jiaqing, by 1817-1819; 1819 (date of first poem); 接秀山房's rebuild (S51, S06, S52, S01, S111, S337, S361, S360)
+- **Destroyed:** survived 1860; lost around 1900 (S51, S06, S52, S01, S111, S337, S361, S360)
 - **Position:** 40.00687, 116.30149. S01 sure (S01 · confidence B)
-- **Bays:** 5 in the texts / 5x3 on the plan (S51, S06, S52, S01, S111, S337, S361)
+- **Bays:** 5 in the texts / 5x3 on the plan (S51, S06, S52, S01, S111, S337, S361, S360)
 - **Size in the inventory:** 23.36 × 26.49 m. stated in a source (S01)
-- **Where the text puts it:** 接秀山房殿以南 (S51) (S51, S06, S52, S01, S111, S337, S361) *(research copy, not public)*
-- **Note:** 南向三卷五间; 通进深22.24 m (blog S52 quoting archive; lead, unverified). frontage_m: 19.1 (S111, post 125). depth_m: 22.24 (S111, post 125). bays: 5, three rolls (S111, post 125). (S51, S06, S52, S01, S111, S337, S361)
+- **Where the text puts it:** 接秀山房殿以南 (S51) (S51, S06, S52, S01, S111, S337, S361, S360) *(research copy, not public)*
+- **Note:** 南向三卷五间; 通进深22.24 m (blog S52 quoting archive; lead, unverified). frontage_m: 19.1 (S111, post 125). depth_m: 22.24 (S111, post 125). bays: 5, three rolls (S111, post 125). function: lake-view hall still used by Xianfeng in 1857 (S360, p.274 item (13) (E1953)). (S51, S06, S52, S01, S111, S337, S361, S360)
 - **Plan reader's note:** Label just south in its walled court. S111: 三卷五间, built about 1817: plan 5x3 fits exactly. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8156, 3725 (S01) *(research copy, not public)*
@@ -63,9 +63,9 @@ None of its own.
   The compiler says 观鱼跃 was pulled down about 1817 for a new south-facing hall of five bays in three rolls, like 慎德堂 and the largest on 福海. 观澜堂: 13 dated items, 1819-1857, of which 13 poems (Jiaqing, Daoguang, Xianfeng); recurring themes: the view, boating, rain. First dated 1819, last dated 1857.
 - **E1957** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 接秀山房. 2020 edition · v3 p.1 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=4
   Begun 1731 on the south-east shore of 福海, a three-bay west-facing hall, with 琴趣轩, 寻云楼, 云锦墅, 澄练楼, 怡然书屋 and 揽翠亭 under Qianlong. Late Jiaqing replaced the main hall with five bays in three rolls, 观澜堂. The editors say that hall survived 1860, Cixi came in 1898, and it was lost around 1900.
-- **E1958** (drawing, sure, search index only): 观澜堂平面图. 咸丰五年 (1855) 八月初十日 · 国家图书馆善本部 样042-11-2号 · S310. https://www.mhymy.com/dasl/ysltd/6932.html
+- **E1958** (drawing, sure): 观澜堂平面图. 咸丰五年 (1855) 八月初十日 · 国家图书馆善本部 样042-11-2号 · S310. https://www.mhymy.com/dasl/ysltd/6932.html
   Survey base plan of the Guanlan Tang hall dated 10th of the 8th month, 1855. No image here; the site may ask a small payment for the full record.
-- **E0540** (drawing, sure, search index only): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
+- **E0540** (drawing, sure): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
   Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
@@ -93,6 +93,10 @@ Modern interpretation, not evidence.
 - Q9: Bay counts, plan against text
 - Q42: East shore of 福海
 - Q47: How much burned, and when
+- Q89: YM33-08 观澜堂 (about 1817)
+- Q94: YM09 and YM33
+- Q106: Brief calls YM33 "观澜堂"
+- Q118: YM33 接秀山房
 
 <!-- generated:end -->
 

@@ -134,7 +134,7 @@ None of its own.
   Begun 1752, its south-east much rebuilt about 1808, when the five-bay 碧静堂 was made. 青莲朵 is the rock from 德寿宫 in Hangzhou. Three gates: a west land gate, a seven-bay north water gate with a landing, and 蒨园门, the only way through to 绮春园.
 - **E0165** (description, sure, search index only): 海岳开襟; 映清斋; 蒨园; 鉴园; 狮子林 (search-index text). n.d. · mhymy dasl 2278, tag 361, others · S340. https://www.mhymy.com/dasl/2278.html
   海岳开襟: lake islet about 90 m across, about 1,000 m2 of buildings, by 1747, repaired 1778 and 1791; a totem park stood here 1995-2007. 映清斋: added 1766 as a new palace of 玉玲珑馆. 蒨园: 6,600 m2, 2,300 m2 of buildings, 1752. 鉴园: repaired 1810. 狮子林: west part with 丛芳榭 by 1747, the east in imitation of Suzhou finished 1772.
-- **E0106** (drawing, sure, search index only): 蒨园总平面图. 嘉庆十三年 (1808) · 国家图书馆善本部 样067-1号 · S310. https://www.mhymy.com/dasl/ysltd/7750.html
+- **E0106** (drawing, sure): 蒨园总平面图. 嘉庆十三年 (1808) · 国家图书馆善本部 样067-1号 · S310. https://www.mhymy.com/dasl/ysltd/7750.html
   Ink base plan of the Qian Yuan garden of 1808. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 蒨园门 on the south gate. https://artmuseum.princeton.edu/collections/objects/138657

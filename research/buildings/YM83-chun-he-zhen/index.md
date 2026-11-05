@@ -44,7 +44,7 @@ Yuanming Yuan
   Places the gate: south-east of the 城关 of 宁和镇. On S01 the label read ?楼门 (G17) stands on the east lane just south of G33, the X-marked square on the road at 春和镇 (the later name of 宁和镇). This settles the reading 东楼门.
 - **E2393** (text, likely): 《日下舊聞考》 on 寧和鎮, the plan's 春和镇. 乾隆, 1780s · j82:27b · S05. https://www.kanripo.org/text/KR2k0036/082
   > 飲練長虹又東南度橋折而北設城闗為寧和鎮其東南為東樓門
-  Rixia gives 寧和鎮, a gate fort. S01 reads 春和镇. Possibly a plate change after 1780s or a misreading; no other source found.
+  Rixia gives 寧和鎮, a gate fort. S01 reads 春和镇: the S361 editors (E2081, v3 p.112) say it was renamed 春和镇 early in Daoguang's reign to avoid a name taboo, so S01 shows the later name.
 - **E2081** (description, likely): 圆明园五朝御制诗文集注 v3, editors' note on 曲院风荷. 2020 edition · v3 p.112 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=115
   Modelled on the West Lake scene. Five-bay hall, Buddhist tower 洛伽胜境, a nine-arch bridge with archways 金鳌 and 玉蝀, 四围佳丽, 饮练长虹, then 宁和镇, renamed 春和镇 early in Daoguang's reign to avoid a name taboo. West of it the village 村庄房.
 

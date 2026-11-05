@@ -73,7 +73,7 @@ None of its own.
   A water garden of 1766 south of 玉玲珑馆: a fan-shaped nine-bay study with water on three sides and curved galleries, 月香水影 an open hall, the five-bay two-storey 晴望楼, 益思堂, 陶嘉书屋, 豁如室 and the double-eaved square 昭旷亭.
 - **E0165** (description, sure, search index only): 海岳开襟; 映清斋; 蒨园; 鉴园; 狮子林 (search-index text). n.d. · mhymy dasl 2278, tag 361, others · S340. https://www.mhymy.com/dasl/2278.html
   海岳开襟: lake islet about 90 m across, about 1,000 m2 of buildings, by 1747, repaired 1778 and 1791; a totem park stood here 1995-2007. 映清斋: added 1766 as a new palace of 玉玲珑馆. 蒨园: 6,600 m2, 2,300 m2 of buildings, 1752. 鉴园: repaired 1810. 狮子林: west part with 丛芳榭 by 1747, the east in imitation of Suzhou finished 1772.
-- **E0309** (drawing, sure, search index only): 映清斋平面图 (图名: 无). 不详 · 国家图书馆善本部 样070-9-1号 · S310. https://www.mhymy.com/dasl/ysltd/9716.html
+- **E0309** (drawing, sure): 映清斋平面图 (图名: 无). 不详 · 国家图书馆善本部 样070-9-1号 · S310. https://www.mhymy.com/dasl/ysltd/9716.html
   Undated ink base plan of Yingqing Zhai, 207x203 mm. No image here; the site may ask a small payment for the full record.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.

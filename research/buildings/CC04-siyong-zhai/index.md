@@ -164,6 +164,7 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q26: Forms
+- Q119: Digs
 
 <!-- generated:end -->
 

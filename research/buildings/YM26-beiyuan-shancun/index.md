@@ -65,7 +65,7 @@ Pei Yuan Shan T'sun (Village of the Distant Northern Mountains) · Yuanming Yuan
   ![P0533](../../photos/images/P0533.jpg)
 
 
-## Texts and drawings (25)
+## Texts and drawings (26)
 
 - **E1749** (poem, sure): 御製北逺山村詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:5b-6a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製北逺山村詩 循苑牆度北闗村落鱗次竹籬茅舎巷陌交通平疇逺風有牧□漁歌與舂杵應答讀王儲田家詩時遇此境 矮屋㡬楹漁舎疎籬一帶農家獨速畦邊秧馬更番岸上水車牧童牛背村□饁婦釵梁野花輞川圖昔曾見摩詰信不我遐
@@ -132,8 +132,10 @@ Pei Yuan Shan T'sun (Village of the Distant Northern Mountains) · Yuanming Yuan
   A village scene from late Yongzheng, the garden's silk-farming quarter from 1729. Five-bay 课农轩 with a three-bay annex was built in 1817 on the sites of 皆春阁, 稻凉楼, 涉趣楼 and 湛虚书屋. West of it the octagonal 观音庵, once a dragon-king temple; also 水村图, 绘雨精舍, 兰野, 观澜亭. Some survived 1860 under guard.
 - **E1757** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 北远山村（课农轩）. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 北远山村（课农轩）, pp.397-404 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.397-404 (8 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1758** (drawing, sure, search index only): 北远山村总平面图 (图名: 课农轩). 嘉庆年间 · 国家图书馆善本部 样040-1号 · S310. https://www.mhymy.com/dasl/ysltd/7678.html
+- **E1758** (drawing, sure): 北远山村总平面图 (图名: 课农轩). 嘉庆年间 · 国家图书馆善本部 样040-1号 · S310. https://www.mhymy.com/dasl/ysltd/7678.html
   Jiaqing-period plan of the Beiyuan Shancun scene under the title Kenong Xuan, 791x592 mm. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, likely): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 北远山村. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -152,7 +154,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q136: YM26 / YM51
 
 <!-- generated:end -->
 

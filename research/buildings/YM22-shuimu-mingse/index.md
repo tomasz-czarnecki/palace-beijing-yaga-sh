@@ -56,7 +56,7 @@ Shui Mu Ming Se (A Stream and Trees and a Bright Lute) · Yuanming Yuan
   ![P0529](../../photos/images/P0529.jpg)
 
 
-## Texts and drawings (12)
+## Texts and drawings (13)
 
 - **E1679** (poem, sure): 御製水木明瑟詞（調寄秋風清）（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:35a-35b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製水木明瑟詞（調寄秋風清） 用泰西水法引入室中以轉風扇泠泠瑟瑟非絲非竹天籟遙聞林光逾生淨綠酈道元云竹柏之懷與神心妙達智仁之性共山水效深兹境有焉 林瑟瑟水泠泠溪風羣籟動山鳥一聲鳴斯時斯景誰圖得非色非空吟不成
@@ -87,8 +87,10 @@ Shui Mu Ming Se (A Stream and Trees and a Bright Lute) · Yuanming Yuan
   North of 后湖, Yongzheng date. Main hall 丰乐轩 by the stream, and north-east of it the 水木明瑟 hall, nicknamed 风扇房 fan house: water drove fans inside to cool the room. A Taihu rock with Qianlong's verse now stands at the Summer Palace.
 - **E1688** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 水木明瑟. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 水木明瑟, pp.327-329 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.327-329 (3 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1689** (drawing, sure, search index only): 水木明瑟殿平面图. 不详 · 国家图书馆善本部 样030-1号 · S310. https://www.mhymy.com/dasl/ysltd/8006.html
+- **E1689** (drawing, sure): 水木明瑟殿平面图. 不详 · 国家图书馆善本部 样030-1号 · S310. https://www.mhymy.com/dasl/ysltd/8006.html
   Undated base plan of the three-bay hall built over a stream, the "fan room", 468x365 mm, ink, light colour and vermilion. No image here; the site may ask a small payment for the full record.
+- **E2482** (drawing, sure): 水木明瑟风扇立面图. 不详 · 国家图书馆善本部 样007-18号 · S310. https://www.mhymy.com/dasl/ysltd/8002.html
+  Elevation (working sheet, ink, undated) of the water-driven fan of the 水木明瑟 hall, which straddled a stream; the 风扇 sat over the channel in the east bay.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 水木明瑟. https://artmuseum.princeton.edu/collections/objects/138657
 

@@ -18,7 +18,7 @@ Yuanming Yuan
 - **Position:** 40.00781, 116.29008. S01 sure (S01 · confidence B)
 - **Bays:** 33 rooms, each 4.48 m square in the texts / 8x10 on the plan (S05, S01, S137)
 - **Size in the inventory:** 39.2 × 49.2 m. S01 plan px / hall scale (S01)
-- **Note:** 田-plan. (S05, S01, S137)
+- **Note:** 田-plan. function: hall on a 田 plan with four gates; towers on the east and north sides (S05, j81:29a). (S05, S01, S137)
 - **Plan reader's note:** 田 plan, four courts. About 7 bays each side, counted roughly. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3466, 2508 (S01) *(research copy, not public)*
@@ -33,9 +33,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 175.7° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0020** (likely): 澹泊寧静 Danbo ningjing [Détachement et sérénité] (圓明園四十景, 第20景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%BA%8C%E5%8D%81%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B9%85%E5%9B%BE%29%2C_%E6%BE%B9%E6%B3%8A%E5%AF%A7%E9%9D%99_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Danbo_ningjing_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008334m.jpg
+
+  ![P0020](../../photos/images/P0020.jpg)
+
 
 ## Texts and drawings (7)
 
@@ -61,15 +64,13 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 澹泊宁静 (no picture of this hall found): see YM20
+- Evidence for the whole compound 澹泊宁静: see YM20
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a grand hall (not this building): see CLASS-grand_hall
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
-
 ## Open questions
 
-None that name it.
+- Q182: Typology, grand_hall heights
 
 <!-- generated:end -->
 

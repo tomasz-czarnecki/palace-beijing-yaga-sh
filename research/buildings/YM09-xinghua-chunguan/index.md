@@ -42,10 +42,10 @@ The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms) · Yu
 - YM09-B0671
 - YM09-B0672
 - YM09-B0674
-- YM09-N01 ?镜
+- YM09-N01 渊镜
 - YM09-N02 敞厅
 
-## Pictures (8)
+## Pictures (9)
 
 - **P0009** (sure): 杏花春館 Xinghua chunguan [Pavillon de printemps des Fleurs d'abricotier] (圓明園四十景, 第9景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B9%9D%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B9%9D%E5%B9%85%E5%9B%BE%29%2C_%E6%9D%8F%E8%8A%B1%E6%98%A5%E9%A4%A8_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Xinghua_chunguan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008361h.jpg
 
@@ -79,8 +79,9 @@ The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms) · Yu
 
   ![P0450](../../photos/images/P0450.jpg)
 
+- **P0795** (likely): 洁白世界 - White World - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E6%B4%81%E7%99%BD%E4%B8%96%E7%95%8C_-_White_World_-_2012.12_-_panoramio.jpg
 
-## Texts and drawings (32)
+## Texts and drawings (33)
 
 - **E1285** (poem, sure): 御製杏花春館詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:1b-2a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製杏花春館詩 由山亭邐迤而入矮屋疎籬東西參錯環植文杏春深花發爛然如霞前闢小圃雜蒔蔬蓏識野田村落景象 霏香紅雪韻空庭肯讓寒梅占膽瓶最愛花光傳藝苑每乗月令驗農經為梁謾説仙人館載酒偏宜小隠亭夜半一犁春雨足朝來吟屐樹邊停
@@ -157,10 +158,12 @@ The Village of Apricot Blossoms (the Springtime Lodge of Apricot Blossoms) · Yu
   First a vegetable plot, plaque of 1727. 春雨轩 was added in 1755; around it 涧壑余清, 得树亭, 杏花村, 土地庙, 镜水斋, 吟籁亭, the gate 渊镜/屏岩, 抑斋, 翠微堂, 绿云酣. The editors say 春雨轩 and others survived 1860, and were lost around 1900.
 - **E1304** (description, sure, search index only): 杏花春馆 scene card. n.d. · mhymy jqjs 3871 · S340. https://www.mhymy.com/ymss/jqjs/3871.html
   North-west of 后湖, flat ground ringed by water. First the 菜圃 vegetable garden, also called 春雨轩, Kangxi date; a hill over ten metres high rises on the north.
+- **E1305** (drawing, sure): 杏花春馆总平面图. 道光十一至二十年 (record prints 131-1840) · 国家图书馆善本部 样028-1号 · S310. https://www.mhymy.com/dasl/ysltd/8065.html
+  Base plan of the Xinghua Chunguan scene, 1831-40; the record misprints the start year. No image here; the site may ask a small payment for the full record.
 - **E1306** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 杏花春馆. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 杏花春馆, pp.202-225 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.202-225 (24 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1305** (drawing, sure, search index only): 杏花春馆总平面图. 道光十一至二十年 (record prints 131-1840) · 国家图书馆善本部 样028-1号 · S310. https://www.mhymy.com/dasl/ysltd/8065.html
-  Base plan of the Xinghua Chunguan scene, 1831-40; the record misprints the start year. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, likely): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 - **E1307** (plan, sure): 杏花春馆 东 河桶 敞厅. 2009 · section 综述 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/f075d549d1d94c89bc870ce17d7f8eb1.htm
   The Palace Museum 三园河道图 shows a three-bay open hall on the channel east of 杏花春馆, which the Guimet plan omits.
 - **E1308** (archaeology, sure): 杏花春馆 屏岩, 绿云酣: excavated. 2020 · section 三.2 · S41. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/8eef05885c3e4279ae0132f1a37a13c9.htm
@@ -183,6 +186,10 @@ Modern interpretation, not evidence.
 
 - Q1: Target state
 - Q45: Halls in the texts with no row
+- Q93: YM09
+- Q94: YM09 and YM33
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q119: Digs
 
 <!-- generated:end -->
 

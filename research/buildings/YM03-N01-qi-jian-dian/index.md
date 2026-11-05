@@ -55,6 +55,9 @@ None of its own.
 
 - Q3: Which state does S01 draw?
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
+- Q102: Q36 support
+- Q120: Q36 / YM03
+- Q121: YM03-N01 七间殿, YM03-N04 思顺堂 (?顺堂) and YM03-N06 承恩堂 carry names that S947 gives for the unbu
 
 <!-- generated:end -->
 

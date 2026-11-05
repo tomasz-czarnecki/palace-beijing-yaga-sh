@@ -10,13 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 天然图画楼 Tianran Tuhua Lou (S05, S01 · confidence B)
+- **Name:** 天然图画楼 Tianran Tuhua Lou (S05, S01, S08 · confidence B)
 - **Written on the plan:** 天然图画 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** tower (S05, S01 · confidence B)
-- **Destroyed:** 1860 (S05, S01)
+- **Garden:** Yuanming Yuan (S05, S01, S08)
+- **Type:** tower (S05, S01, S08 · confidence B)
+- **Destroyed:** 1860 (S05, S01, S08)
 - **Position:** 40.00477, 116.29149. S01 sure (S01 · confidence B)
 - **Size in the inventory:** 9.6 × 8.5 m. S01 plan px / hall scale (S01)
+- **Storeys:** 2 (S05, S01, S08)
+- **Note:** 2, on a high terrace (S08, P0005 (leaf); S02 p.79). (S05, S01, S08)
 - **Plan reader's note:** Label at (3932,4034). Small two-part block at the south end of the row B0710; 楼 per text (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3894, 4013 (S01) *(research copy, not public)*

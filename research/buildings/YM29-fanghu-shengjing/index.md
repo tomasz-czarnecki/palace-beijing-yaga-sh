@@ -12,7 +12,7 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
 - **English:** Fang Hu Sheng Ching (Elevated Region of the Square Pot) (S05, S02, S08, S06, S01, S361)
 - **Garden:** Yuanming Yuan (S05, S02, S08, S06, S01, S361)
 - **Type:** scene (S05, S02, S08, S06, S01, S361 · confidence A)
-- **Built:** 乾隆五年 1740 (S02 p.93); 乾隆三年 1738 per S06 (S05, S02, S08, S06, S01, S361)
+- **Built:** 乾隆五年 1740 (S02 p.93); 乾隆三年 1738 per S06; under way in 1740 (乾隆五年) (S05, S02, S08, S06, S01, S361)
 - **Destroyed:** 1860; masonry pulled down later (S02 p.218) (S05, S02, S08, S06, S01, S361)
 - **Position:** 40.01175, 116.30038. S01 sure (S01 · confidence B)
 - **Bays:** three halls of 5 on two floors, with 3-bay side towers in the texts (S05, S02, S08, S06, S01, S361)
@@ -53,7 +53,7 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
 - YM29-N01
 - YM29-N02
 
-## Pictures (10)
+## Pictures (12)
 
 - **P0029** (sure): 方壺勝境 Fanghu shengjing [Site merveilleux du Vase carré] (圓明園四十景, 第29景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28088_of_124%29.jpg
 
@@ -95,6 +95,8 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
 
   ![P0384](../../photos/images/P0384.jpg)
 
+- **P0787** (sure): Yuanmingyuan Fanghu Shengjing 20130323.JPG (2013-03-23 14:59:06 (Commons file page)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Fanghu_Shengjing_20130323.JPG
+- **P0788** (likely): Beijing 2012 (8208647367).jpg (2012-11-06 14:39 (Commons file page)). https://commons.wikimedia.org/wiki/File:Beijing_2012_(8208647367).jpg
 
 ## Texts and drawings (19)
 
@@ -138,9 +140,9 @@ Fang Hu Sheng Ching (Elevated Region of the Square Pot) · Yuanming Yuan
   A temple garden from early Qianlong: on a high terrace in the water the double-eaved 迎薰亭 with 集瑞亭 and 凝祥亭, then three five-bay towers 宜春殿, 哕鸾殿, 琼华楼, each with paired side towers. The note counts 2,235 Buddha images in the nine towers. East court 蕊珠宫; 三潭印月 to the west.
 - **E1854** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 方壶胜境. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 方壶胜境, pp.419-433 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.419-433 (15 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1855** (drawing, sure, search index only): 方壶胜境平面图 (图名: 方壶胜境北路). 道光后期 · 国家图书馆善本部 样042-2号 · S310. https://www.mhymy.com/dasl/ysltd/8298.html
+- **E1855** (drawing, sure): 方壶胜境平面图 (图名: 方壶胜境北路). 道光后期 · 国家图书馆善本部 样042-2号 · S310. https://www.mhymy.com/dasl/ysltd/8298.html
   Late-Daoguang presentation plan of the north range of Fanghu Shengjing, ink and light colour. No image here; the site may ask a small payment for the full record.
-- **E1856** (drawing, sure, search index only): 方壶胜境铜龙、凤立样底图. S310. https://www.mhymy.com/tag/1101
+- **E1856** (drawing, sure, search index only): 方壶胜境铜龙、凤立样底图. S310. https://www.mhymy.com/dasl/ysltd/2603.html
   Elevation base sheet for the bronze dragons and phoenixes at Fanghu Shengjing, title seen as a related item; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 - **E1857** (plan, sure): 《圆明园四十景》图的价值: 方壶胜境 leaf. 2020 · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/8eef05885c3e4279ae0132f1a37a13c9.htm
   Says the 方壶胜境 leaf also shows its neighbours: 蕊珠宫 east, the three small stone pagodas and pavilions of 三潭印月 west, 天宇空明 north, two timber bridges south. So one leaf can witness several objects.
@@ -171,6 +173,11 @@ Modern interpretation, not evidence.
 
 - Q17: Halls in the texts and not on the plan
 - Q25: Other dates
+- Q119: Digs
+- Q128: The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically
+- Q175: YM29
+- Q176: YM29
+- Q181: YM17 and YM29
 
 <!-- generated:end -->
 

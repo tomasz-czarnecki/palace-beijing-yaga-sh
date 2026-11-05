@@ -73,7 +73,7 @@ The Tank (Tranquil and Vast) · Yuanming Yuan
   ![P0377](../../photos/images/P0377.jpg)
 
 
-## Texts and drawings (31)
+## Texts and drawings (32)
 
 - **E1317** (poem, sure): 御製坦坦蕩蕩詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:3a-3b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製坦坦蕩蕩詩 鑿池為魚樂國池周舍下錦鱗數千頭喁唼撥刺于荇風藻雨間囘環泳游悠然自得詩云衆維魚矣我知魚樂我蒿目乎斯民 鑿池觀魚樂坦坦復蕩蕩泳游同一適奚必江湖想却笑䝉莊癡爾我辨是非有問如何答魚樂魚自知
@@ -148,11 +148,13 @@ The Tank (Tranquil and Vast) · Yuanming Yuan
   The goldfish pool on the west shore: gate hall of five bays 素心堂 with a three-bay annex, 半亩园 east, 澹怀堂 west, 知鱼亭, 萃景斋, 双佳斋, and the five-bay 光风霁月 in mid-pool.
 - **E1335** (description, sure, search index only): 坦坦荡荡 scene card. n.d. · mhymy jqjs 3880 · S340. https://www.mhymy.com/ymss/jqjs/3880.html
   West shore of 后湖, late Kangxi, first the 金鱼池 goldfish pond, named in 1739. An island with a central fish pool ringed by halls, earth mounds on west and north.
+- **E1336** (drawing, sure): 坦坦荡荡总平面图. 道光二十年至咸丰八年 (1840-1858) · 国家图书馆善本部 样024-2号 · S310. https://www.mhymy.com/dasl/ysltd/11163.html
+  Presentation ground plan of the Tantan Dangdang scene, 415x403 mm, ink and light colour with a pasted slip, 1840-58, close to the target state. No image here; the site may ask a small payment for the full record.
+- **E2483** (drawing, sure): 坦坦荡荡平面图 (图名: 坦坦荡荡). 道光二十年至咸丰八年 (1840-1858) · 国家图书馆善本部 样024-4号 · S310. https://www.mhymy.com/dasl/ysltd/7726.html
+  Measured survey plan (底样、踏勘实测图), 738x654 mm, ink, of the goldfish-pond scene, 1840-58: a state close to 1860. Distinct from 样024-2 (E1336).
 - **E1337** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 坦坦荡荡. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 坦坦荡荡, pp.177-193 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.177-193 (17 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1336** (drawing, sure, search index only): 坦坦荡荡总平面图. 道光二十年至咸丰八年 (1840-1858) · 国家图书馆善本部 样024-2号 · S310. https://www.mhymy.com/dasl/ysltd/11163.html
-  Presentation ground plan of the Tantan Dangdang scene, 415x403 mm, ink and light colour with a pasted slip, 1840-58, close to the target state. No image here; the site may ask a small payment for the full record.
-- **E1338** (drawing, likely, search index only): 半亩园平面图. 国家图书馆善本部 样024-6号 · S310. https://www.mhymy.com/dasl/ysltd/7766.html
+- **E1338** (drawing, likely): 半亩园平面图. 国家图书馆善本部 样024-6号 · S310. https://www.mhymy.com/dasl/ysltd/7766.html
   Plan of Banmu Yuan; shelf 024 is the Tantan Dangdang shelf, so the tie to that scene is an inference from the number. No image here; the site may ask a small payment for the full record.
 - **E1339** (archaeology, sure): 修复1860: 坦坦荡荡 绣墩, 思永斋 tiles. 2019 · news, 陈辉 · S334. https://news.ifeng.com/c/7ma60W4GZjB
   The restoration project for excavated sherds (about 100,000 pieces of porcelain) chose objects with known find spots: a blue-and-white porcelain stool from 坦坦荡荡 Tantan Dangdang, known locally as 金鱼池 the goldfish pond, and blue-and-white tiles from 思永斋 Siyong Zhai.

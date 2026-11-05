@@ -8,17 +8,17 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 
 ## What we know
 
-- **Name:** 九洲清晏 Jiuzhou Qingyan (S05, S02, S08, S41, S42, S43, S01, S208, S360 · confidence A)
-- **English:** The Emperor's Private Apartments (Nine Continents Clear and Calm) (S05, S02, S08, S41, S42, S43, S01, S208, S360)
+- **Name:** 九洲清晏 Jiuzhou Qingyan (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313 · confidence A)
+- **English:** The Emperor's Private Apartments (Nine Continents Clear and Calm) (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
 - **Written on the plan:** 圆明园殿 (S01 · confidence A)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S42, S43, S01, S208, S360)
-- **Type:** scene (S05, S02, S08, S41, S42, S43, S01, S208, S360 · confidence A)
-- **Built:** 最早建筑清晖阁 康熙四十六年 1707 (S42); name under Yongzheng (S42) (S05, S02, S08, S41, S42, S43, S01, S208, S360)
-- **Changed:** 1765 四景 added (S05); 1831 慎德堂, 乐安和/怡情书史 removed (S41; S43); 1836 fire on the central axis, 3 halls rebuilt (S41; S54); 1837 同道堂 (S43); 1855 theatre (S43); Fire on 丙申九月二十六日 (1836). 圓明園殿, 奉三無私 and 九洲清晏 rebuilt to the old form, finished 道光十七年 (1837); 1836 fire; three halls rebuilt by 1837 (S05, S02, S08, S41, S42, S43, S01, S208, S360)
-- **Destroyed:** 1860 (S05, S02, S08, S41, S42, S43, S01, S208, S360)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
+- **Type:** scene (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313 · confidence A)
+- **Built:** 最早建筑清晖阁 康熙四十六年 1707 (S42); name under Yongzheng (S42) (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
+- **Changed:** 1765 四景 added (S05); 1831 慎德堂, 乐安和/怡情书史 removed (S41; S43); 1836 fire on the central axis, 3 halls rebuilt (S41; S54); 1837 同道堂 (S43); 1855 theatre (S43); Fire on 丙申九月二十六日 (1836). 圓明園殿, 奉三無私 and 九洲清晏 rebuilt to the old form, finished 道光十七年 (1837); 1836 fire; three halls rebuilt by 1837; West line: under Qianlong 乐安和, 怡情书史, 清晖阁; after Daoguang rebuilt as 慎德堂, 同道堂, 湛静斋. South and north landings; 如意桥 to 勤政亲贤 (SE), 南大桥 to 正大光明 (SW), wooden bridges to 镂月开云 (NE) and 茹古涵今 (NW) (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
+- **Destroyed:** 1860 (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
 - **Position:** 40.00369, 116.29029. S01 sure (S01 · confidence B)
 - **Lead on its size, from a modern study, not used in the model:** island about 234 m E-W, 116 m N-S, about 21600 sq m (S341, 再现·圆明园——九洲清晏, search extract, mhymy qklw 9484 or 9486). (confidence B)
-- **Note:** S42: 东西长220 m, 南北宽120 m, 占地25000 m2, 建筑面积8600 m2, 殿宇游廊656间. Rixia spells 九州清宴. Plan readers: the 1860 state of the west road is the Daoguang one. Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S42, S43, S01, S208, S360)
+- **Note:** S42: 东西长220 m, 南北宽120 m, 占地25000 m2, 建筑面积8600 m2, 殿宇游廊656间. Rixia spells 九州清宴. Plan readers: the 1860 state of the west road is the Daoguang one. Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S42, S43, S01, S208, S360, S313)
 - **Plan reader's note:** Identified by 圆明园殿 label, 前湖 and 后湖 labels. plan_x,y = presumed 九洲清晏殿 B0805 (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3303, 4518 (S01) *(research copy, not public)*
@@ -103,7 +103,7 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 - YM03-N06 承恩堂
 - YM03-N07 同顺堂
 
-## Pictures (14)
+## Pictures (16)
 
 - **P0003** (sure): 九州清晏 Jiuzhou qingyan [Paix sur les Neufs Continents] (圓明園四十景, 第3景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E4%B9%9D%E5%B7%9E%E6%B8%85%E6%99%8F_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Jiuzhou_qingyan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083441.jpg
 
@@ -151,14 +151,16 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 
   ![P0451](../../photos/images/P0451.jpg)
 
+- **P0793** (sure): Ruyi Bridge in Yuanmingyuan Ruins 20130318.JPG (2013-03-18 15:28:07 (Commons file page)). https://commons.wikimedia.org/wiki/File:Ruyi_Bridge_in_Yuanmingyuan_Ruins_20130318.JPG
 - **P0396** (likely): Yuanmingyuan Front lake of Jiuzhou 20130324.JPG (2013-03-24 14:33:15 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_Front_lake_of_Jiuzhou_20130324.JPG
 
   ![P0396](../../photos/images/P0396.jpg)
 
+- **P0796** (guess): Yuanmingyuan lake1.jpg (not stated (Commons file page)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_lake1.jpg
 
 Of its halls: P0280 (YM03-11).
 
-## Texts and drawings (104)
+## Texts and drawings (115)
 
 - **E1091** (poem, sure): 御製九州清宴詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:23b-24a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製九州清宴詩 正大光明直北為㡬餘游息之所棼橑紛接鱗瓦參差前臨巨湖渟浤演漾周圍支汊縱横旁逹諸勝仿彿潯陽九𣲖騶衍謂禆海周環為九州者九大瀛海環其外兹境信若造物施設耶 昔我皇考宅是廣居旰食宵衣左圖右書園林游觀以適幾餘豈繄廊廟泉石是娱所志維何煌煌御書九州清宴皇心乃舒肯構孰責繼序在余業業兢兢奉此遺模一念之間敬肆攸殊作狂作聖繫彼斯湏謂天可畏屋漏與俱謂民可畏敢欺其愚六膳八珍牣乎御㕑念彼溝壑曷其飽諸水榭山亭天然畫圖瞻彼茅簷痌瘝切膚慎終如始前聖之謨嗚呼小子母渝厥初
@@ -322,6 +324,9 @@ Of its halls: P0280 (YM03-11).
 - **E1002** (description, sure): Attiret: the emperor's residence. 1743 · [pp.21-23] · S157. https://faculty.bard.edu/~louis/gardens/attiretaccount.html
   > This Palace for the usual Residence of the Emperor is just within the grand Gate of the Pleasure-ground. First are the Ante-chambers; then, the Halls for Audience: and then, the Courts, and Gardens belonging to them. The Whole forms an Island; which is entirely surrounded by a large and deep Canal.
   As big as the town of Dole. Audience halls, then courts and gardens, on an island within a deep canal. S02 p.136 n. takes the description of the rooms to mean scene 3.
+- **E2448** (description, sure): Attiret (French original): the emperor's residence is an island. 1743, printed 1749 · pp.21-22 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > Ce logement ordinaire de l'Empereur, est immédiatement après les portes d'entrée, les premières salles, les salles d'audience, les cours & leurs jardins. Il forme une isle. Il est entouré de tous les côtés par un large & profond canal. On pourroit l'appeller un Sérail.
+  French text behind E1002: the residence lies right after the entrance gates, first halls, audience halls and courts; it forms an island ringed by a wide deep canal, and holds the finest furniture, lacquer, porcelain and silks. Attiret compares the whole quarter of the women and eunuchs to the town of Dole.
 - **E1005** (description, sure): Varin: second and third throne halls. 1860 · pp.234-235 · S245. https://archive.org/details/expditiondechin00paulgoog
   > On arriva, ensuite, devant un lac artificiel entouré de rochers et de montagnes rapportés, lequel était côtoyé par une route sablée ; on traversa un pont jeté sur le canal d'alimentation de ce lac, et on se retrouva dans une troisième salle du trône,
   A second, smaller and more elegant throne hall behind the first, then the lake and the third. Behind it salons; on the right the store of furs and robes, ahead the emperor's rooms, on the left the empress's. Varin's second hall lies before the lake, unlike Swinhoe's sequence.
@@ -337,6 +342,9 @@ Of its halls: P0280 (YM03-11).
 - **E1150** (description, sure): M'Ghee: the imperial apartments. 1860 · pp.208-210 · S242. https://archive.org/details/howwegotintopek01ghegoog
   > and a spiral staircase, the only one in the building, led to a similar suite of apartments overhead,
   Courtyard plan. State room with dark carved furniture and wainscot, then a court about 50 ft square flagged in marble, a larger room with jade, china, enamel, clocks, mirrors, chandeliers. Rooms of the court ladies on the extreme left, with the only spiral stair. Front on another sheet of water with large planted rockeries. To the right the buildings ran about half a mile: officials, servants, stores with shelved rooms of labelled objects. Swinhoe p.297 also has a spiral stair. 慎德堂 is my guess for the emperor's rooms under Xianfeng.
+- **E2450** (description, sure): Swinhoe: the empress's rooms, stores and painted galleries. 1860 · pp.300-301 · S241. https://archive.org/details/narrativeofnorth00swin
+  > On the extreme left were the Empress's two rooms and several smaller ones for the sundry wives, but none of them in style at all approaching those of the Emperor's. [...] On the right of the grand hall were houses after houses well stored with silks, curios, and luxuries of all kinds [...] Narrow painted galleries connected all the imperial rooms
+  Continues E1037 (pp.296-298) inside the residence on 7 October 1860: the empress's two rooms and smaller ones on the far left, storehouses of silks and curios on the right of the main hall, then the servants' houses, all joined by narrow painted galleries.
 - **E1152** (description, sure): Malone on the pasted slip at 九洲清晏. 1934 · p.72 caption; p.80 note; p.232 · S02. https://archive.org/details/historyofpekings00malo
   > A piece of paper showing a plan of a later alteration of the Emperor's private Apartments is folded up over the Back Lake.
   On the Official Map a slip shows a later arrangement of this island. Our zoom on his photograph on p.72 (folded flap over 后湖) shows a ring with a square centre on the flap, the same device as S01 draws flat in the 七间殿 court. The halftone is coarse, so this is an impression that a better scan should test.
@@ -346,6 +354,9 @@ Of its halls: P0280 (YM03-11).
 - **E1526** (description, sure): Van Braam, Dutch embassy, January-February 1795. 1934 · pp.167-170 · S02. https://archive.org/details/historyofpekings00malo
   > They are very numerous, of small dimensions, neatly furnished in the Chinese taste, and containing a few books and some very valuable curiosities. Three only of these apartments can boast of European time-pieces.
   Audience in a Tartar tent on the open space at the Drill Field; sled rides along frozen canals; goldfish of 15 inches and more; the emperor's rooms as quoted. They were not allowed to see the European buildings, and had seen twenty drawings of them in Canton. Told of a garden 300 li round with 36 residences; Malone calls this exaggerated.
+- **E2441** (description, likely): Hérisson: the side rooms of the throne hall and the private apartments behind. 1860 (published 1886) · pp.315-317 · S246. https://archive.org/details/journalduninter00irigoog
+  > Derrière la salle du Trône s'étendent, sur un espace immense, au milieu des jardins, les appartements privés, également bondés d'objets d'art et de luxe, mais moins extraordinaires en somme.
+  Two doors at the corners beside the throne lead to small side rooms, the right one to the private apartments; he fills them with gold, enamelled pagodas, European clocks and the emperor's daily objects, then says the private apartments stretch over a large area among gardens behind the hall. Low trust (S02 p.185 n.); keep as a claim, not for form.
 - **E1151** (description, likely): Fire already during the looting (Favier, per Malone). 1934 · p.183 · S02. https://archive.org/details/historyofpekings00malo
   > Fires broke out, and the Emperor's own residence which contained the finest collection of the whole group was burned down.
   Malone, citing Favier pp.254-62. That is before the ordered burning of 18-19 October.
@@ -357,6 +368,14 @@ Of its halls: P0280 (YM03-11).
   Very large island cut by the frame, many courts and galleries, one higher-roofed block at the back. Hills beyond, a steep masonry bridge and a wooden one. 九洲清晏 is only a guess.
 - **E1154** (description, sure): 圆明园九州清晏殿早期内檐装修格局特点讨论, 古建园林技术 2006(6). 2006 · jzys · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/0b87ab74b7b548389ae1f6c597a41471.htm
   Reads the early interior from the 九州清晏旧样 drawing against the texts. Seven bays and a three-bay rear annex; a two-storey interior open space framed by a running gallery in front three bays of a single-eave hall, reached by raising the column height. Compares it with later halls such as 淳化轩.
+- **E2460** (description, sure): 九洲清晏殿装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7237 · S310. https://www.mhymy.com/dasl/ysltd/7237.html
+  Record on the 九洲清晏 hall: five bays with a three-bay rear porch, front and rear verandas, Yongzheng's plaque; the name in the 活计档 from 雍正三年 (1725); discusses 洲 vs 州. No drawing number or date shown in the free part; rest paid.
+- **E2461** (description, sure): 奉三无私殿装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7271 · S310. https://www.mhymy.com/dasl/ysltd/7271.html
+  Record on 奉三无私殿: seven bays with front and rear verandas, plaques and couplets, its use as the garden's ritual hall. No drawing number in the free part; rest paid.
+- **E2462** (description, sure): 圆明园殿装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7105 · S310. https://www.mhymy.com/dasl/ysltd/7105.html
+  Record on 圆明园殿: five bays, verandas front and back, 卷棚歇山, Kangxi's plaque and couplets. No drawing number in the free part; rest paid.
+- **E2463** (description, sure): 慎德堂装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7342 · S310. https://www.mhymy.com/dasl/ysltd/7342.html
+  Record on 慎德堂: five bays under three linked roofs, built 1831 over 乐安和, 怡情书史 and a fish pond; bay widths, depths, column and platform height in metres (dim rows); Daoguang died there in 1850. Drawing behind the figures not named.
 - **E0512** (description, likely): 朱强, 圆明园核心功能景区的园林化特征试析, 圆明园研究 (issue page dated 2026-02-03). 2026-02-03 · xs/ktsb/202602/t20260203_4804592; abstract read · S338. https://www.yuanmingyuanpark.cn/xs/ktsb/202602/t20260203_4804592.html
   Reconstructs the five core functions of the main garden (outer court, government, residence, ritual, military display) and reads each area's garden design against comparable sites. Only the abstract was read; the scene ties are my reading of those five functions.
 - **E1136** (description, sure): 圆明园百景史事分景汇编: 九洲清晏. 1738-1840 · from p.111, under 九洲清晏 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=111
@@ -389,44 +408,52 @@ Of its halls: P0280 (YM03-11).
   A Xianfeng note of 1855 says he was born in 1831 in 湛静斋, which is the present 基福堂. 基福堂: 2 dated items, 1855-1855, of which 2 poems (Xianfeng); recurring themes: daily residence there, remembering his forebears. First dated 1855, last dated 1855.
 - **E1155** (description, sure, search index only): 《再现·圆明园——九洲清晏（中）》. S313. https://www.mhymy.com/xsjl/qklw/9484.html
   Modern account of the Jiuzhou Qingyan compound; read in extract only.
+- **E1156** (drawing, sure): 慎德堂室内装修平面图（一）. 道光十六年以前 (record prints 道光十六年(1826), Daoguang 16 is 1836) · 国家图书馆善本部 样005-4号 · S310. https://www.mhymy.com/dasl/ysltd/10529.html
+  Presentation plan of Shende Tang's interior before the fire of 1836, likely its fittings as built in 1831, 369x333 mm, ink with yellow slips. No image here; the site may ask a small payment for the full record.
 - **E1157** (drawing, sure): 慎德堂内檐装修尺寸地盘画样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   Interior fittings and sizes, named in the printed volume's preface; no number given.
 - **E1158** (drawing, sure): 慎德堂明间后檐支摘窗一槽立样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   Elevation of one set of windows on the rear of the central bay, named in the printed volume's preface; no number given.
 - **E1159** (drawing, sure): 慎德堂添安装修地盘样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   One of several dozen Shende Tang sheets named in the printed volume's preface; no number given.
+- **E1160** (drawing, sure): 慎德堂室内装修平面图（二）. 咸丰元年 (1851) 八月二十六日 (inscription) · 国家图书馆善本部 样011-12号 · S310. https://www.mhymy.com/dasl/ysltd/10570.html
+  Design sheet reworking the old Shende Tang interior, inscribed 26th of the 8th month of Xianfeng 1 (1851); its own page URL not seen, link is the site's Shende Tang list. No image here; the site may ask a small payment for the full record.
+- **E1161** (drawing, sure): 九洲清晏总平面图（一） (图名: 九洲清晏全样). 咸丰五年 (1855) 十月至十二月 · 国家图书馆 样011-3号 · S310. https://www.mhymy.com/dasl/ysltd/11352.html
+  Overall plan of the Jiuzhou Qingyan scene drawn October-December 1855, the closest dated overall sheet to the target state found here. No image here; the site may ask a small payment for the full record.
+- **E1162** (drawing, sure): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
+  ...for adding a REAR porch (后抱厦) to the Jiuzhou Qingyan hall...
+- **E1163** (drawing, sure): 圆明园殿平面图. 咸丰五年 (1855) · 国家图书馆善本部 样007-9-1号 · S310. https://www.mhymy.com/dasl/ysltd/11195.html
+  Plan of the Yuanming Yuan hall on the Jiuzhou Qingyan axis, drawn in Xianfeng 5 (1855). No image here; the site may ask a small payment for the full record.
+- **E1170** (drawing, sure): 九洲清晏殿及同道堂装修平面图. 咸丰五年 (1855) (site prints 1865 in error) · 国家图书馆善本部 样004-2-1号 · S310. https://www.mhymy.com/dasl/ysltd/10933.html
+  Fittings plan of the Jiuzhou Qingyan hall and Tongdao Tang, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
+- **E1174** (drawing, sure): 慎德堂室内装修平面图（三）. 咸丰六年 (1856) 正月二十二日 · 国家图书馆善本部 样008-11号 · S310. https://www.mhymy.com/dasl/ysltd/10577.html
+  Plan of Shende Tang's interior later than the 1851 sheet, with the front bay rebuilt as an indoor stage; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
+- **E1164** (drawing, sure): 慎德堂室内装修平面图（四）. 原无年代; 指向咸丰九年 (1859) 旨意档 · 国家图书馆善本部 样017-12号 · S310. https://www.mhymy.com/dasl/ysltd/10598.html
+  Undated plan of Shende Tang's interior, mostly like 样003-5 with added loft symbols in the east bay, tied by the site to an order of Xianfeng 9 (1859), so the last state before the destruction. No image here; the site may ask a small payment for the full record.
+- **E1165** (drawing, sure): 慎德堂平面图. 咸丰九年 (1859) 七月二十六日 · 国家图书馆善本部 样008-18号 · S310. https://www.mhymy.com/dasl/ysltd/10636.html
+  Plan of Shende Tang recording a revision of July 1859 of the west loft, turning the straight stair into a turning stair; own page URL, shelf number not seen. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, sure): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
+- **E1166** (drawing, sure): 九洲清晏总平面图（二） (图名: 圆明园中路天地一家春等处地盘画样). 同治十三年 (1874) · 故宫博物院图书馆 故1299号 · S310. https://www.mhymy.com/dasl/ysltd/11901.html
+  Presentation plan of the Jiuzhou Qingyan scene for Tongzhi's repair of 1874, so a project after the target state; the record takes NLC sheet 006-3 as a possible draft. No image here; the site may ask a small payment for the full record.
 - **E1167** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷续编》: 九州清晏. 续编, 656 drawings + 169 texts in all per the 卷序 · S13. https://book.douban.com/review/10163867/
   Over 400 sheets of Jiuzhou Qingyan per the preface. The contents of this volume were not found online.
 - **E1168** (drawing, sure): 九州清晏图. 国家图书馆 国图011-0001 · S13. https://book.douban.com/review/10163867/
   Cited in the printed volume's preface as showing the early form of the scene; number as printed there.
-- **E1156** (drawing, sure, search index only): 慎德堂室内装修平面图（一）. 道光十六年以前 (record prints 道光十六年(1826), Daoguang 16 is 1836) · 国家图书馆善本部 样005-4号 · S310. https://www.mhymy.com/dasl/ysltd/10529.html
-  Presentation plan of Shende Tang's interior before the fire of 1836, likely its fittings as built in 1831, 369x333 mm, ink with yellow slips. No image here; the site may ask a small payment for the full record.
-- **E1160** (drawing, sure, search index only): 慎德堂室内装修平面图（二）. 咸丰元年 (1851) 八月二十六日 (inscription) · 国家图书馆 样0011-12 (as cited in （三）'s record) · S310. https://www.mhymy.com/tag/598
-  Design sheet reworking the old Shende Tang interior, inscribed 26th of the 8th month of Xianfeng 1 (1851); its own page URL not seen, link is the site's Shende Tang list. No image here; the site may ask a small payment for the full record.
-- **E1161** (drawing, sure, search index only): 九洲清晏总平面图（一） (图名: 九洲清晏全样). 咸丰五年 (1855) 十月至十二月 · 国家图书馆 样011-3号 · S310. https://www.mhymy.com/dasl/ysltd/11352.html
-  Overall plan of the Jiuzhou Qingyan scene drawn October-December 1855, the closest dated overall sheet to the target state found here. No image here; the site may ask a small payment for the full record.
-- **E1162** (drawing, sure, search index only): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
-  Design sheet of September 1855 for adding a front porch to the Jiuzhou Qingyan hall; it relies on sheet 样005-13, measured for the Tongdao Tang annex on the 24th of that month. No image here; the site may ask a small payment for the full record.
-- **E1163** (drawing, sure, search index only): 圆明园殿平面图. 咸丰五年 (1855) · 国家图书馆善本部 样007-9-1号 · S310. https://www.mhymy.com/dasl/ysltd/11195.html
-  Plan of the Yuanming Yuan hall on the Jiuzhou Qingyan axis, drawn in Xianfeng 5 (1855). No image here; the site may ask a small payment for the full record.
-- **E1164** (drawing, sure, search index only): 慎德堂室内装修平面图（四）. 原无年代; 指向咸丰九年 (1859) 旨意档 · 国家图书馆 · S310. https://www.mhymy.com/tag/598
-  Undated plan of Shende Tang's interior, mostly like 样003-5 with added loft symbols in the east bay, tied by the site to an order of Xianfeng 9 (1859), so the last state before the destruction. No image here; the site may ask a small payment for the full record.
-- **E1165** (drawing, sure, search index only): 慎德堂平面图. 咸丰九年 (1859) 正月之后 · 国家图书馆 · S310. https://www.mhymy.com/tag/598
-  Plan of Shende Tang recording a revision of July 1859 of the west loft, turning the straight stair into a turning stair; own page URL, shelf number not seen. No image here; the site may ask a small payment for the full record.
-- **E1166** (drawing, sure, search index only): 九洲清晏总平面图（二） (图名: 圆明园中路天地一家春等处地盘画样). 同治十三年 (1874) · 故宫博物院图书馆 故1299号 · S310. https://www.mhymy.com/dasl/ysltd/11901.html
-  Presentation plan of the Jiuzhou Qingyan scene for Tongzhi's repair of 1874, so a project after the target state; the record takes NLC sheet 006-3 as a possible draft. No image here; the site may ask a small payment for the full record.
-- **E1169** (drawing, sure, search index only): 九洲清晏中路总平面图. S310. https://www.mhymy.com/tag/560
+- **E1169** (drawing, sure): 九洲清晏中路总平面图. 国家图书馆善本部 样005-34号 · S310. https://www.mhymy.com/dasl/ysltd/10468.html
   Plan of the central axis of Jiuzhou Qingyan with column grid, walls, fittings and courtyards, red and yellow slips naming halls and sizes; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
-- **E1170** (drawing, sure, search index only): 九洲清晏殿及同道堂装修平面图. S310. https://www.mhymy.com/tag/560
-  Fittings plan of the Jiuzhou Qingyan hall and Tongdao Tang, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
-- **E1171** (drawing, sure, search index only): 九洲清晏殿建筑及室内装修平面图 (旧样). 道光十六年以前 · 国家图书馆善本部 样004-5号 · S310. https://www.mhymy.com/dasl/ysltd/7106.html
+- **E1171** (drawing, sure): 九洲清晏殿建筑及室内装修平面图 (旧样). 道光十六年以前 · 国家图书馆善本部 样004-5号 · S310. https://www.mhymy.com/dasl/ysltd/7106.html
   Plan of the Jiuzhou Qingyan hall and its interior fittings as it stood before the fire of Daoguang 16 (1836). No image here; the site may ask a small payment for the full record.
+- **E2471** (drawing, likely): 天地一家春 烫样. 同治十三年 (1874) per the article · holder not named (故宫博物院 likely) · S921. https://www.thepaper.cn/newsDetail_forward_30767629
+  Card model of 天地一家春 for the 1874 repair, painted in several colours with the interior fittings and outer walls. The Tongzhi 天地一家春 was the Empress Dowager's new sleeping palace on the 敷春堂 site of 绮春园 (mhymy 13527), not the 九洲清晏 hall of that name; a model of 1873-74, not of 1860.
+- **E2459** (drawing, sure, search index only): 九洲清晏 院落尺寸 草图 (as cited: 国家图书馆藏006-3, figures equal to 样062-24). 同治 (1873-74), as the draft of 故1299 · 国家图书馆 样006-3; 样062-24 · S310. https://www.mhymy.com/dasl/ysltd/11901.html
+  Two NLC sheets cited on the record of the 1874 presentation plan 故1299: 006-3, perhaps its draft, writes the size of every court of the scene, the same figures as 样062-24. Court sizes in 丈尺 for the Tongzhi repair; see the dim rows. Not opened: cited only.
 - **E1172** (drawing, sure, search index only): 圆明园九洲清晏殿 烫样. 同治年间 · 故宫博物院 · S326. https://m.thepaper.cn/detail/31695388
   Paper model of the Jiuzhou Qingyan hall made for Tongzhi's repair project with exterior, fittings and furniture, so after the target state.
 - **E1173** (drawing, sure, search index only): 慎德堂室内装修图 (cited as 样003-5). 国家图书馆 样003-5 · S310. https://www.mhymy.com/tag/598
   Sheet cited as close to Shende Tang interior plan （四）; its own record not seen. No image here; the site may ask a small payment for the full record.
-- **E1174** (drawing, sure, search index only): 慎德堂室内装修平面图（三）. 国家图书馆 · S310. https://www.mhymy.com/tag/598
-  Plan of Shende Tang's interior later than the 1851 sheet, with the front bay rebuilt as an indoor stage; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
+- **E2473** (drawing, likely, search index only): 圆明园万方安和殿 烫样 and 九洲清晏殿 烫样 at the Hong Kong Palace Museum, 2024. 同治 (1873-74) per S326 · 故宫博物院; shown Hong Kong 2024-03-20 to 08-12 · S261. https://www.hkpm.org.hk/en/exhibition/the-hong-kong-jockey-club-series-yuan-ming-yuan-art-and-culture-of-an-imperial-garden-palace
+  Press of March 2024 (search summary only) says the 万方安和殿 model was shown in Hong Kong for the first time; a separate report (S326) dates the 九洲清晏殿 and 万方安和殿 models to the Tongzhi repair, showing the outer form, dozens of interior partitions and furniture. Whether the 九洲清晏 model went to Hong Kong is not confirmed.
 - **E1175** (plan, sure): 法国巴黎《圆明园地盘全图》考辨: names and red lines at 九洲清晏 (王其亨, 张凤梧, 《中国园林》2009 no.12). 2009, on a plan of 1858-1873/74 · section 年代推断 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/f075d549d1d94c89bc870ce17d7f8eb1.htm
   The Guimet plan also carries the labels 思顺堂 and 承恩堂, with red lines of the Tongzhi project at 九洲清晏: a fourth depth for 慎德堂, a changed 同道堂 with its theatre, 九洲清晏殿 changed, and in the east road a square pavilion, galleries and a rear hall, with a pool. The authors date the red lines to 1873-74 and the base plan to 1858 or later. S01 at the same place shows a square pavilion in a round pool in the court south of its 七间殿.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
@@ -473,6 +500,20 @@ Modern interpretation, not evidence.
 - Q43: The Twelve Months paintings P0155–P0160, P0281–P0283
 - Q45: Halls in the texts with no row
 - Q51: Reading the Yangshi Lei records
+- Q78: YM03
+- Q79: YM03
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q101: YM03-03 九洲清晏殿
+- Q104: 烫样 dates
+- Q113: Do not tie the Yangshi Lei sheet 样016-15-8 天地一家春殿糙底 (NLC, mhymy ysltd 13527) to YM03-04 天地
+- Q115: YM03 九洲清晏 size
+- Q119: Digs
+- Q120: Q36 / YM03
+- Q127: The 1887 lithograph pages (P0232-P0271, S260) are re-cuts of the 1745 woodcut compositions
+- Q128: The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically
+- Q131: YM03
+- Q162: YM03
+- Q163: YM03-03 九洲清晏殿
 
 <!-- generated:end -->
 

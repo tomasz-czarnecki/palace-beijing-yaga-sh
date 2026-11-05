@@ -38,7 +38,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - QC01-N01
 - QC01-N02 影壁
 
-## Pictures (4)
+## Pictures (5)
 
 - **P0418** (sure): 绮春园宫门 - Palace Gate of Qichun Garden - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E7%BB%AE%E6%98%A5%E5%9B%AD%E5%AE%AB%E9%97%A8_-_Palace_Gate_of_Qichun_Garden_-_2012.12_-_panoramio.jpg
 
@@ -48,6 +48,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
   ![P0419](../../photos/images/P0419.jpg)
 
+- **P0805** (sure): Old Summer Palace, Palace Gates of Qichunyuan.jpg (2009-10 (Commons file page)). https://commons.wikimedia.org/wiki/File:Old_Summer_Palace,_Palace_Gates_of_Qichunyuan.jpg
 - **P0466** (likely): Entrance of the Old Summer Palace.jpg (2011-04-21 23:27:49 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Entrance_of_the_Old_Summer_Palace.jpg
 
   ![P0466](../../photos/images/P0466.jpg)
@@ -101,6 +102,8 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q25: Other dates
+- Q119: Digs
+- Q150: QC01
 
 <!-- generated:end -->
 

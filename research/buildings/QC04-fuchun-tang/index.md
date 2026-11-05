@@ -8,16 +8,16 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 敷春堂 Fuchun Tang (S06, S43, S49, S01, S220, S224, S361 · confidence B)
-- **Garden:** Qichun Yuan (S06, S43, S49, S01, S220, S224, S361)
-- **Type:** compound (S06, S43, S49, S01, S220, S224, S361 · confidence B)
-- **Built:** 嘉庆初年 (S43); 1801 (S06, S43, S49, S01, S220, S224, S361)
-- **Changed:** 道光元年 1821 大规模改建增饰; 戏台改盖成殿宇 (S43;S49); 同治十二年 1873 renamed 天地一家春 (never finished; S220); S224: renamed 永春堂 under Daoguang for the dowager. But S220 (1852) and an 1838 drawing title still use 敷春堂, and the 1873 edict renames 敷春堂; 1821 stage made into a hall; 1873 renamed 天地一家春 in the unfinished repair (S06, S43, S49, S01, S220, S224, S361)
-- **Destroyed:** some buildings outlasted 1860; lost around 1900 (S06, S43, S49, S01, S220, S224, S361)
+- **Name:** 敷春堂 Fuchun Tang (S06, S43, S49, S01, S220, S224, S361, S310 · confidence B)
+- **Garden:** Qichun Yuan (S06, S43, S49, S01, S220, S224, S361, S310)
+- **Type:** compound (S06, S43, S49, S01, S220, S224, S361, S310 · confidence B)
+- **Built:** 嘉庆初年 (S43); 1801 (S06, S43, S49, S01, S220, S224, S361, S310)
+- **Changed:** 道光元年 1821 大规模改建增饰; 戏台改盖成殿宇 (S43;S49); 同治十二年 1873 renamed 天地一家春 (never finished; S220); S224: renamed 永春堂 under Daoguang for the dowager. But S220 (1852) and an 1838 drawing title still use 敷春堂, and the 1873 edict renames 敷春堂; 1821 stage made into a hall; 1873 renamed 天地一家春 in the unfinished repair; 敷春堂 front hall: 响堂炕 (heated bed-platform) added 道光十八年正月 (1838), 地炕 in the west end bay 咸丰五年九月 (1855); the Empress Dowager 孝和 lived here 1823-1849 (S06, S43, S49, S01, S220, S224, S361, S310)
+- **Destroyed:** some buildings outlasted 1860; lost around 1900 (S06, S43, S49, S01, S220, S224, S361, S310)
 - **Position:** 40.00130, 116.30611. S01 likely (S01 · confidence B)
-- **Bays:** 5, 工字 plan in the texts (S06, S43, S49, S01, S220, S224, S361)
-- **Where the text puts it:** 中和堂之后 (S06) (S06, S43, S49, S01, S220, S224, S361) *(research copy, not public)*
-- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Empress dowager quarters in Daoguang-Xianfeng (S43; S02 p.174). (S06, S43, S49, S01, S220, S224, S361)
+- **Bays:** 5, 工字 plan in the texts (S06, S43, S49, S01, S220, S224, S361, S310)
+- **Where the text puts it:** 中和堂之后 (S06) (S06, S43, S49, S01, S220, S224, S361, S310) *(research copy, not public)*
+- **Note:** 绮春园三十景 (Jiaqing poems, list in S06). Empress dowager quarters in Daoguang-Xianfeng (S43; S02 p.174). (S06, S43, S49, S01, S220, S224, S361, S310)
 - **Plan reader's note:** NO label 敷春堂 on the plan. S06 order 迎晖殿 中和堂 敷春堂 后殿 问月楼 puts it in this block, which the plan labels 集禧堂 永春堂 问月楼. Centre = largest hall, unlabelled. See notes.md. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9596, 6775 (S01) *(research copy, not public)*
@@ -71,7 +71,7 @@ Qichun Yuan
   ![P0463](../../photos/images/P0463.jpg)
 
 
-## Texts and drawings (55)
+## Texts and drawings (56)
 
 - **E0566** (text, sure): 嘉庆十三年 谕旨 to 苏楞额 on the new palace block (as quoted in S220). 嘉庆十三年七月 1808 · S220 section 三; archive not seen · S220. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/00baad8cc3da4c6a901378da7919d9a8.htm
   > 该园墙北，敷春堂之南，开随墙门一座。……并着苏楞额、常福将此园第何处可以建盖大殿，何处可以不必更张，建立坐落处所，即为查明。再，园内不拘定原有园门方向，酌量东西宽阔处所，可建立南向宫门、朝房、照壁、鹿角，均从缓查明贴签具奏，仿照长春园宫门前式样。
@@ -195,24 +195,26 @@ Qichun Yuan
   Centre of the block inside the gate, the dowager's residence in Daoguang and Xianfeng reigns, rear part garden. In 1860 only 18 bays of duty rooms, tea and meal kitchens and a pharmacy survived. That supports reading 药房 for the third label of QC71.
 - **E0590** (description, sure, search index only): 敷春堂; 澄心堂; 迎晖殿 and 中和堂 labels; 绮春 四宜书屋 (search-index text). n.d. · mhymy ysltd 12232, 7496, 13985 · S340. https://www.mhymy.com/dasl/ysltd/7496.html
   敷春堂: the dowagers' residence from Daoguang, inside the south gate, with a stage per the archives. 澄心堂: island, five-bay hall with side halls. A plan labels 中和堂新宫门 and 迎辉殿. 四宜书屋 built 1805, west of 生冬室.
-- **E0591** (drawing, sure, search index only): 敷春堂殿平面图. 道光十八年 (1838) 正月二十一日 · 国家图书馆善本部 样084-7-1号 · S310. https://www.mhymy.com/dasl/ysltd/12232.html
+- **E0591** (drawing, sure): 敷春堂殿平面图. 道光十八年 (1838) 正月二十一日 · 国家图书馆善本部 样084-7-1号 · S310. https://www.mhymy.com/dasl/ysltd/12232.html
   Plan of the Fuchun Tang hall dated early 1838, tied to heated floors added that year. No image here; the site may ask a small payment for the full record.
+- **E0578** (drawing, sure): 绮春园寝宫区总平面图. 道光三十年 (1850) 八月二十四日 · 清华大学建筑学院 PpXXI11-7号 · S310. https://www.mhymy.com/dasl/ysltd/7521.html
+  Plan of Qichun Yuan's residential quarter dated 24th of the 8th month, Daoguang 30 (1850), with Yishou Xuan, Fuchun Tang, the east and west ranges and kitchens. No image here; the site may ask a small payment for the full record.
+- **E0595** (drawing, sure): 敷春堂东南所平面图. 咸丰九年十二月至咸丰十年二月 (record prints 1859-1800) · 国家图书馆善本部 样088-6-1号 · S310. https://www.mhymy.com/dasl/ysltd/9879.html
+  Plan of the south-east range at Fuchun Tang of winter 1859-60, the months before the destruction; the record misprints the end year. No image here; the site may ask a small payment for the full record.
+- **E0599** (drawing, sure): 敷春堂前殿平面图. 国家图书馆善本部 样086-1号 · S310. https://www.mhymy.com/dasl/ysltd/12836.html
+  Record titled as a plan of the front hall of 敷春堂 Fuchun Tang, whose list card places it at the centre of Qichun behind the palace gate; the sheet's date and state were not seen because the record page refused this server.
+- **E0596** (drawing, likely): 天地一家春殿平面图 (糙底). 同治十二至十三年 (1873-74) · 国家图书馆善本部 样016-15-8号 · S310. https://www.mhymy.com/dasl/ysltd/13527.html
+  Rough base plan of the Tiandi Yijia Chun hall of Tongzhi's repair project, begun October 1873 and stopped late 1874, so after the target state; the site puts it on the former Fuchun Tang site. No image here; the site may ask a small payment for the full record.
+- **E2471** (drawing, likely): 天地一家春 烫样. 同治十三年 (1874) per the article · holder not named (故宫博物院 likely) · S921. https://www.thepaper.cn/newsDetail_forward_30767629
+  Card model of 天地一家春 for the 1874 repair, painted in several colours with the interior fittings and outer walls. The Tongzhi 天地一家春 was the Empress Dowager's new sleeping palace on the 敷春堂 site of 绮春园 (mhymy 13527), not the 九洲清晏 hall of that name; a model of 1873-74, not of 1860.
 - **E0592** (drawing, sure, search index only): 敷春堂殿平面图, inscribed 十八年新正月二十一日搭响堂炕准底. 道光十八年正月二十一日 1838 · 国家图书馆善本部, 样084-7-1号; 底样, 507×365 mm · S42. https://www.mhymy.com/dasl/ysltd/12232.html
   Interior of the hall when heated beds were added. Catalogue data via search only.
-- **E0578** (drawing, sure, search index only): 绮春园寝宫区总平面图. 道光三十年 (1850) 八月二十四日 · 清华大学建筑学院 PpXXI11-7号 · S310. https://www.mhymy.com/dasl/ysltd/7521.html
-  Plan of Qichun Yuan's residential quarter dated 24th of the 8th month, Daoguang 30 (1850), with Yishou Xuan, Fuchun Tang, the east and west ranges and kitchens. No image here; the site may ask a small payment for the full record.
 - **E0593** (drawing, sure, search index only): 绮春园寝宫区总平面图, inscribed 三十年八月二十四日对准中和堂样. 道光三十年八月二十四日 1850 · 清华大学建筑学院资料室, 排架 PpXXI11-7; ink, light colour, yellow slips, 底样 · S42. https://www.mhymy.com/dasl/ysltd/7521.html
   The palace block in late Daoguang: 颐寿轩, 敷春堂, east and west 所, imperial kitchen and pharmacy. The entry says 敷春堂, 鉴德书屋, 翠合轩, 凌虚阁 of the 1805 poems stand on the big island of this group. Catalogue data seen via search only.
 - **E0594** (drawing, sure, search index only): 敷春堂东南所平面图. 咸丰九年十二月 to 十年二月 (site prints 1859-1800, a slip) · 国家图书馆善本部, 样088-6-1号; 底样, 619×428 mm · S42. https://www.mhymy.com/dasl/ysltd/9879.html
   South-east court of the block in the last winter before the destruction. Catalogue data via search only.
-- **E0595** (drawing, sure, search index only): 敷春堂东南所平面图. 咸丰九年十二月至咸丰十年二月 (record prints 1859-1800) · 国家图书馆善本部 样088-6-1号 · S310. https://www.mhymy.com/dasl/ysltd/9879.html
-  Plan of the south-east range at Fuchun Tang of winter 1859-60, the months before the destruction; the record misprints the end year. No image here; the site may ask a small payment for the full record.
 - **E0598** (drawing, sure, search index only): 敷春堂前殿平面图. S310. https://www.mhymy.com/special/yslt
   Plan of the front hall at Fuchun Tang, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
-- **E0599** (drawing, sure, search index only): 敷春堂前殿平面图. ysltd/12836 (topic list card only; 排架 not seen) · S310. https://www.mhymy.com/dasl/ysltd/12836.html
-  Record titled as a plan of the front hall of 敷春堂 Fuchun Tang, whose list card places it at the centre of Qichun behind the palace gate; the sheet's date and state were not seen because the record page refused this server.
-- **E0596** (drawing, likely, search index only): 天地一家春殿平面图 (糙底). 同治十二至十三年 (1873-74) · 国家图书馆善本部 样016-15-8号 · S310. https://www.mhymy.com/dasl/ysltd/13527.html
-  Rough base plan of the Tiandi Yijia Chun hall of Tongzhi's repair project, begun October 1873 and stopped late 1874, so after the target state; the site puts it on the former Fuchun Tang site. No image here; the site may ask a small payment for the full record.
 - **E0597** (drawing, likely, search index only): 天地一家春殿平面图. 同治十二至十三年, after the target state · 国家图书馆善本部, 样016-15-8号; 糙底, red and ink, 1280×1186 mm · S42. https://www.mhymy.com/dasl/ysltd/13527.html
   The 1873 plan on the old 敷春堂 site, begun Oct 1873, stopped 1874. Evidence for the site, not for the 1860 state.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
@@ -239,6 +241,7 @@ Modern interpretation, not evidence.
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
 - Q44: Places in Qichun Yuan
 - Q47: How much burned, and when
+- Q113: Do not tie the Yangshi Lei sheet 样016-15-8 天地一家春殿糙底 (NLC, mhymy ysltd 13527) to YM03-04 天地
 
 <!-- generated:end -->
 

@@ -23,7 +23,7 @@ Back Lake (Malone p.79) · Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (3)
+## Pictures (4)
 
 - **P0373** (sure): 上下天光遗址 20130318.JPG (2013-03-18 15:40:29 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E4%B8%8B%E5%A4%A9%E5%85%89%E9%81%97%E5%9D%80_20130318.JPG
 
@@ -37,6 +37,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
   ![P0372](../../photos/images/P0372.jpg)
 
+- **P0796** (guess): Yuanmingyuan lake1.jpg (not stated (Commons file page)). https://commons.wikimedia.org/wiki/File:Yuanmingyuan_lake1.jpg
 
 ## Texts and drawings (6)
 

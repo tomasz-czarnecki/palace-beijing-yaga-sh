@@ -66,7 +66,7 @@ Hsi Feng Hsiu Se (the Elegant Color of the Western Peaks) · Yuanming Yuan
   ![P0534](../../photos/images/P0534.jpg)
 
 
-## Texts and drawings (38)
+## Texts and drawings (39)
 
 - **E1769** (poem, sure): 御製西峯秀色詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:7a-8a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製西峯秀色詩 軒楹洞達面臨翠巘西山爽氣在我襟袖後宇為含韻齋周植玉蘭十餘本方春花氣襲人宛入衆香國裏 嵦地高軒架木為朱明颯爽如秋時不雕不斵太古意詎惟其麗惟其宜西窻正對西山啟遥接嶢峯等尺咫霜辰紅葉詩思杜雨夕緑螺畫㸔米亦有童童盤葢松重基特立孰與同三冬百卉凋零盡依然鬱翠惟此翁山腰蘭若雲遮半一聲清磬風吹㫁疑有苾蒭單上參不如詩客窻中玩結搆既久蒼苔老花棚藥畤相縈抱慿欄送目無不佳趺榻怡神良復好春朝秋夜值㡬餘把卷時還讀我書齋外水田凡數頃較晴量雨諮農夫清詞麗句箇中得消幾丁丁玉壺刻但憶趨庭十載前徊徨無語予心惻（是地軒爽明敞戸對西山皇考最愛居此）
@@ -167,8 +167,10 @@ Hsi Feng Hsiu Se (the Elegant Color of the Western Peaks) · Yuanming Yuan
   Short notes: 鱼跃鸢飞 inside 大北门, Yongzheng, about 2,500 m2; 西峰秀色 on an islet north of 舍卫城, 1728, open only west toward the hills; 安佑宫 1740-43, its marble columns now at Peking University and the National Library; 日天琳宇 the 佛楼, early Yongzheng; 汇芳书院 1742; 廓然大公 320 x 160 m, lost in 1900.
 - **E1790** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 西峰秀色. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 西峰秀色, pp.354-355 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.354-355 (2 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1791** (drawing, sure, search index only): 西峰秀色总平面图. 乾隆中叶 · 国家图书馆善本部 样039-1号 · S310. https://www.mhymy.com/dasl/ysltd/11099.html
+- **E1791** (drawing, sure): 西峰秀色总平面图. 乾隆中叶 · 国家图书馆善本部 样039-1号 · S310. https://www.mhymy.com/dasl/ysltd/11099.html
   Mid-Qianlong base plan of the Xifeng Xiuse scene, 1093x870 mm, ink and light colour, with the cascade. No image here; the site may ask a small payment for the full record.
+- **E2481** (drawing, sure): 小匡庐水法结构图 (图名: 小匡庐). 不详 · 国家图书馆善本部 样142-008号 · S310. https://www.mhymy.com/dasl/ysltd/7364.html
+  Presentation sheet, ink and light colour, of the waterworks of the 小匡庐 cascade in 西峰秀色 (fountain made early Yongzheng, name cut on the rock 1738).
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
 
@@ -191,7 +193,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q132: YM27
 
 <!-- generated:end -->
 

@@ -15,6 +15,7 @@ The Porch of the Great Gentleman · Yuanming Yuan
 - **Changed:** by 1755: 八景 named (雙鶴齋 once 深栁讀書堂) (S05, S02, S08, S06, S01, S361)
 - **Destroyed:** 1860; on the 1873 survival list (S06); survived 1860; lost around 1900 (S05, S02, S08, S06, S01, S361)
 - **Position:** 40.01010, 116.29411. S01 sure (S01 · confidence B)
+- **Note:** after1860: survived 1860, lost around 1900 (editors of S361) (S361, editors' note (E2035)). (S05, S02, S08, S06, S01, S361)
 - **Plan reader's note:** Label (5340,1710) in the court, Malone 37 at (5430,1715). Hill and lake group, 双鹤斋 in front. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 5340, 1632 (S01) *(research copy, not public)*
@@ -81,7 +82,7 @@ The Porch of the Great Gentleman · Yuanming Yuan
   ![P0164](../../photos/images/P0164.jpg)
 
 
-## Texts and drawings (37)
+## Texts and drawings (39)
 
 - **E2025** (poem, sure): 御製廓然大公詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:23a-23b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製廓然大公詩 平岡迴合山禽渚鳥逺近相呼後鑿曲池有蒲菡蓞長夏高啓北窻水香拂拂真足開豁襟顔 有山不讓土故得高㠖㠖有河不擇流故得寛瀰瀰是之謂大公而我以名此偶值清晏間慿眺誠樂只識得聖人心聞諸程夫子
@@ -174,12 +175,16 @@ The Porch of the Great Gentleman · Yuanming Yuan
   Begun under Yongzheng, later a favourite residence: a seven-bay hall with a five-bay annex 双鹤斋. 规月桥, 绮吟堂, 采芝径, 峭蒨居, 影山楼, 环秀山房 follow. Qianlong's rebuild copied 寄畅园, and the rockwork copied his Panshan villa. It survived 1860 and was lost around 1900, say the editors.
 - **E1745** (description, sure, search index only): 鱼跃鸢飞; 西峰秀色; 鸿慈永祜; 日天琳宇; 汇芳书院; 蓬岛瑶台; 廓然大公 (search-index text). n.d. · mhymy jqjs, tag and ysltd pages · S340. https://www.mhymy.com/ymss/jqjs/ymy
   Short notes: 鱼跃鸢飞 inside 大北门, Yongzheng, about 2,500 m2; 西峰秀色 on an islet north of 舍卫城, 1728, open only west toward the hills; 安佑宫 1740-43, its marble columns now at Peking University and the National Library; 日天琳宇 the 佛楼, early Yongzheng; 汇芳书院 1742; 廓然大公 320 x 160 m, lost in 1900.
+- **E2036** (drawing, sure): 廓然大公总平面图. 咸丰十年 (1860) 以前 · 故宫博物院图书馆 样1702号 · S310. https://www.mhymy.com/dasl/ysltd/8362.html
+  Overall plan of Kuoran Dagong, also called Shuanghe Zhai, on the west shore of Fuhai; the record dates it only as before 1860. No image here; the site may ask a small payment for the full record.
+- **E2470** (drawing, sure): 样式雷烫样 of the Tongzhi repair of Yuanming Yuan (list by site). 同治 (1873-74) for most, per the report · Lei family models, now chiefly 故宫博物院; the report does not give numbers · S920. https://www.thepaper.cn/newsDetail_forward_2201516
+  The Lei family card models cover Yuanming Yuan, Wanchun Yuan, the Summer Palace and others; most of the Yuanming Yuan ones were made for Tongzhi's repair: the whole central (九洲清晏) axis, 泉石自娱, 同乐堂, 上下天光, 思顺堂, 天地一家春; in the north 恒春堂, 课农轩, 廓然大公; in the south 勤政殿; in the west 万方安和. Period objects of 1873-74, not of 1860: they show the Tongzhi design, which kept many old names but changed forms.
 - **E2037** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 廓然大公. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 廓然大公, pp.330-353 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.330-353 (24 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E2038** (drawing, sure): 圆明园廓然大公 烫样. 故宫博物院 · S327. https://www.ihchina.cn/news_other_details/17719.html
   Paper model of Kuoran Dagong shown at the National Library in 2007 as held by the Palace Museum; the report gives no date.
-- **E2036** (drawing, sure, search index only): 廓然大公总平面图. 咸丰十年 (1860) 以前 · 故宫博物院图书馆 样1702号 · S310. https://www.mhymy.com/dasl/ysltd/8362.html
-  Overall plan of Kuoran Dagong, also called Shuanghe Zhai, on the west shore of Fuhai; the record dates it only as before 1860. No image here; the site may ask a small payment for the full record.
+- **E2490** (drawing, sure): 廓然大公烫样及细部 (photo set of the card model, P1-P8). model undated on the page; Lei family 廓然大公 models are listed among the Tongzhi ones (S920) · mhymy dasl/ysltd/918; model in the 故宫博物院 (E2038) · S310. https://www.mhymy.com/dasl/ysltd/918.html
+  Eight photographs of the 廓然大公 card model and its details, with no text. Images not saved (research-only). If the model is of 1873-74 it shows the Tongzhi design, not 1860.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
@@ -209,6 +214,8 @@ Modern interpretation, not evidence.
 
 - Q9: Bay counts, plan against text
 - Q47: How much burned, and when
+- Q104: 烫样 dates
+- Q129: The brief says the album views are roughly from the south
 
 <!-- generated:end -->
 

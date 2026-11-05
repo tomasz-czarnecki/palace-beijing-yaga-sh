@@ -39,6 +39,11 @@ None of its own.
 - Q9: Bay counts, plan against text
 - Q25: Other dates
 - Q28: 1860 and after, for the site's text
+- Q80: YM41-01 / YM03-01
+- Q116: YM41 大宫门 and YM17 安佑宫
+- Q125: Geotagged Commons coverage is thin
+- Q150: QC01
+- Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
 
 <!-- generated:end -->
 

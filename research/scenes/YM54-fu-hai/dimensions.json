@@ -1,0 +1,77 @@
+{
+ "id": "YM54",
+ "name": "福海 Fu Hai",
+ "by_method": {
+  "a": 1,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "YM54",
+   "part": "the sea 福海",
+   "what": "diameter",
+   "label": "Diameter",
+   "value": 1950.0,
+   "err": 1000.0,
+   "unit": "m",
+   "method": "a",
+   "confidence": "C",
+   "source": "S911",
+   "locator": "p.16",
+   "snippet": false,
+   "key": true,
+   "scale": "lieue de Paris about 3.9 km"
+  },
+  {
+   "id": "YM54",
+   "part": "the lake 福海",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 579.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 W0001, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01"
+  },
+  {
+   "id": "YM54",
+   "part": "the lake 福海",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 573.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 W0001, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01"
+  },
+  {
+   "id": "YM54",
+   "part": "the lake 福海",
+   "what": "lake_area",
+   "label": "Lake area",
+   "value": 257900.0,
+   "err": 20600.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 W0001, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  }
+ ]
+}

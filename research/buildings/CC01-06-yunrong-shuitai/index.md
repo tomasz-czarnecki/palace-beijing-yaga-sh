@@ -35,7 +35,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (4)
+## Texts and drawings (5)
 
 - **E0003** (text, sure): 日下舊聞考 澹怀堂、七空闸. 1780s (乾隆 敕撰) · j83:3a-3b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 長春園宫門五楹東西朝房各五楹正殿爲澹懷堂後爲衆樂亭亭後河北敞宇為雲容水態其西稍南為長橋（長春園册）臣等謹案澹懐堂内額曰樂在人和聯曰敷政協民心好惬箕風畢雨澄懐觀物理妙叅智水仁山與衆樂亭雲容水態諸額皆皇上御題又案園内諸河之水由圓明園東垣之一空閘五空閘流出環繞各所又東出七空閘灌溉稻田
@@ -46,6 +46,8 @@ None of its own.
   Finished 1747 inside the south gate, the garden's main hall and also called 勤政殿, used for government and for feasting frontier princes. Behind it is 众乐亭, across the river the five-bay 云容水态, and to the west the thirteen-arch 长桥, the longest of the gardens' bridges.
 - **E0007** (archaeology, likely): 《圆明园长春园宫门区遗址发掘报告》, as quoted in 北平旧梦 老北京的记忆(81). excavated 2001-04 to 2004-10 · blog post, quoting the report and 《圆明园百景图志》 · S112. https://blog.sina.com.cn/s/blog_88741e0d0102w60j.html
   The dig of the 长春园 gate district found the layout still that of the Qianlong founding, with a strictly symmetrical axis of screen wall, 宫门, 牌楼门, 澹怀堂 Danhuai Tang and 众乐亭 Zhongle Ting, 220 m from screen wall to pavilion. It also found stone steps running into the lake north of 众乐亭, read as the imperial boat landing, and it corrects details of the 1930s Beiping survey map. Second-hand: a blog quoting the report.
+- **E2496** (archaeology, likely): 圆明园长春园含经堂遗址发掘报告: table of contents. 2006 · 目录, 第三章 遗迹 · S990. https://ebook.artron.net/book.php?bookid=61437
+  The full report of the 2001-2003 seasons lists every excavated unit: in the south the three-arch pailou, walls, paths, carved-brick paving and yurt (毡帐) foundations and tree pits in the forecourt, the gate, the 含经堂 court with screen gate, main hall, east and west side halls, 霞翥楼, 梵香楼, galleries and a 垂花门; in the north 淳化轩 with a Taihu rockery before its terrace, 蕴真斋, the north gate and the open hall 得胜概; east 渊映斋, the dressing room and 乐奏钧天 stage, the viewing hall 神心妙达 and the shop street outside; west 涵光室, 三友轩 with its rockery, 静莲斋, 理心楼, 待月楼 and the open hall 澄波夕照 outside; round about duty rooms, stores, a well pavilion, a timber bridge, 明漪潇照, 云容水态 and the octagonal 静缘亭.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 云容水态, 6x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

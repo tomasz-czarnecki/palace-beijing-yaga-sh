@@ -39,7 +39,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (10)
+## Texts and drawings (12)
 
 - **E2101** (text, sure): 日下舊聞考 大宫门. 1780s (乾隆 敕撰) · j80:8b-9a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 大宫門五楹門前左右朝房各五楹其後東為宗人府内閣吏部禮部兵部都察院理藩院翰林院詹事府國子監鑾儀衛東四旗各衙門直房東夾道内為銀庫又東北為南書房東南為檔案房西為户部刑部工部欽天監内務府光禄寺通政司大理寺鴻臚寺太常寺太僕寺御書處上駟院武備院西四旗各衙門直房西夾道之西南為造辦處又南為藥房
@@ -62,6 +62,12 @@ None of its own.
 - **E2115** (description, sure): The Great Palace Gate and the offices before it. 1934 · p.70 · S02. https://archive.org/details/historyofpekings00malo
   > The Great Palace Gate was a roofed building in which hung a tablet inscribed with the name of the garden, Yuan Ming Yuan, written by the Emperor K'ang Hsi.
   大宫门 Da Gongmen: waiting rooms beside the road, behind them offices of the boards and the Eight Banners, the Grand Council, the 南书房 imperial school, treasury, dispensary and kitchens. Note 15 on p.70 lists the offices east and west of the gate by name.
+- **E2452** (description, likely): Swinhoe: the gate and audience hall burning, 19 October. 1860 · pp.336-337 · S241. https://archive.org/details/narrativeofnorth00swin
+  > We passed the chief entrance to the Yuen-ming-yuen, and watched [...] the dancing flames curling into grotesque festoons and wreaths, as they twined in their last embrace round the grand portal of the Palace, while the black column of smoke that rose straight up into the sky from the already roof-fallen reception-hall
+  Before sunset on 19 October every place had been fired by the British troops; leaving, Swinhoe saw the main gate in flames and smoke rising from the reception hall behind it, whose roof had already fallen. Peasants' houses next to the walls had caught fire too.
+- **E2114** (description, likely): Spirit wall south of the Great Palace Gate, measured by Malone. 1934 · p.69 · S02. https://archive.org/details/historyofpekings00malo
+  > On the north side of the Fan Lake and directly south of the gate stood an ornamented spirit wall 137 feet long, over five feet thick, and about 15 feet high.
+  大影壁 Da Yingbi, the spirit wall: 137 ft long, over 5 ft thick, about 15 ft high, from Malone's own measurements before it was torn down for its materials. The road ran from it straight north to the gate, between the Fan Lakes; Qianlong's monument of 1763 stood on the west bank.
 - **E1013** (description, sure): 圆明园正大光明初探. post n.d. · lswh or jzys list · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/2d97c9a95a8442f7abf5b8e453d02fa3.htm
   The whole front court district, built 1725, 370 x 310 m. 大宫门 and 出入贤良门 are five-bay gate halls with 卷棚歇山 roofs on the garden's south wall line. 正大光明殿: seven bays by three, all-round gallery, single eave, grey tile, high base, 36.45 x 16 m, with a terrace and four incense burners. Stresses its garden-like, less formal planning.
 - **E2120** (archaeology, sure): 大宫门考古成果 announced 2019-01-28, 中新网 via 中国日报网. 2019-01-29 · photo caption · S132. https://cn.chinadaily.com.cn/a/201901/29/WS5c4fad50a31010568bdc713a.html
@@ -81,7 +87,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q80: YM41-01 / YM03-01
 
 <!-- generated:end -->
 

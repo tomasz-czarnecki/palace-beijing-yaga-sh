@@ -10,14 +10,14 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 思顺堂 Si Shun Tang (S01, S220 · confidence B)
+- **Name:** 思顺堂 Si Shun Tang (S01, S220, S310 · confidence B)
 - **Written on the plan:** ?顺堂 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S01, S220)
-- **Type:** other (S01, S220 · confidence B)
-- **Changed:** 1873: name given to 基福堂 (YM03-17) by decree; before 1860 the hall was 基福堂, earlier 湛静斋; The label is the name of the decree of 1873, for 基福堂: in 1860 this was 基福堂 (S01, S220)
-- **Destroyed:** 1860 (S01, S220)
+- **Garden:** Yuanming Yuan (S01, S220, S310)
+- **Type:** other (S01, S220, S310 · confidence B)
+- **Changed:** 1873: name given to 基福堂 (YM03-17) by decree; before 1860 the hall was 基福堂, earlier 湛静斋; The label is the name of the decree of 1873, for 基福堂: in 1860 this was 基福堂 (S01, S220, S310)
+- **Destroyed:** 1860 (S01, S220, S310)
 - **Position:** 40.00335, 116.28943. S01 likely (S01 · confidence B)
-- **Bays:** 6 in the texts / 6x1 on the plan (S01, S220)
+- **Bays:** 6 in the texts / 6x1 on the plan (S01, S220, S310)
 - **Size in the inventory:** 23.7 × 11.8 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** First char 恩 or 思, not settled. Label at (2940,4700) (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
@@ -64,6 +64,11 @@ Modern interpretation, not evidence.
 
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
 - Q38: Unread labels settled by a text
+- Q78: YM03
+- Q102: Q36 support
+- Q120: Q36 / YM03
+- Q121: YM03-N01 七间殿, YM03-N04 思顺堂 (?顺堂) and YM03-N06 承恩堂 carry names that S947 gives for the unbu
+- Q162: YM03
 
 <!-- generated:end -->
 

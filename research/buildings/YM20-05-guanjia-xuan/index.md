@@ -10,15 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 观稼轩 Guanjia Xuan (S05, S01 · confidence B)
+- **Name:** 观稼轩 Guanjia Xuan (S05, S01, S361 · confidence B)
 - **Written on the plan:** 观?? (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** other (S05, S01 · confidence B)
-- **Destroyed:** 1860 (S05, S01)
+- **Garden:** Yuanming Yuan (S05, S01, S361)
+- **Type:** other (S05, S01, S361 · confidence B)
+- **Destroyed:** 1860 (S05, S01, S361)
 - **Position:** 40.00769, 116.28933. S01 likely (S01 · confidence B)
-- **Bays:** 3x1 on the plan (S05, S01)
+- **Bays:** 3x1 on the plan (S05, S01, S361)
 - **Size in the inventory:** 9.8 × 6.6 m. S01 plan px / hall scale (S01)
-- **Note:** Open, no doors on a terrace [j81:32a]. (S05, S01)
+- **Note:** Open, no doors on a terrace [j81:32a]. function: open viewing hall on a terrace over the paddies, no doors or windows (S361, v2 p.193, p.196). (S05, S01, S361)
 - **Plan reader's note:** 观稼轩: faint label to the west at (3098,2530); hall stands on the 稻畦 oval, text 其东临稻畦. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3147, 2538 (S01) *(research copy, not public)*

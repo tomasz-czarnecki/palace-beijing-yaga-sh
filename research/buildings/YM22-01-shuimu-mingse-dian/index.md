@@ -10,17 +10,17 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 水木明瑟殿 Shuimu Mingse Dian (S05, S42, S01, S360, S361 · confidence B)
+- **Name:** 水木明瑟殿 Shuimu Mingse Dian (S05, S42, S01, S360, S361, S310 · confidence B)
 - **Written on the plan:** 水木明瑟 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S42, S01, S360, S361)
-- **Type:** other (S05, S42, S01, S360, S361 · confidence B)
-- **Built:** by 1744 (first dated item) (S05, S42, S01, S360, S361)
-- **Destroyed:** 1860 (S05, S42, S01, S360, S361)
+- **Garden:** Yuanming Yuan (S05, S42, S01, S360, S361, S310)
+- **Type:** other (S05, S42, S01, S360, S361, S310 · confidence B)
+- **Built:** by 1744 (first dated item) (S05, S42, S01, S360, S361, S310)
+- **Destroyed:** 1860 (S05, S42, S01, S360, S361, S310)
 - **Position:** 40.00899, 116.29033. S01 sure (S01 · confidence B)
-- **Bays:** 3, across a stream in the texts / 3x1 on the plan (S05, S42, S01, S360, S361)
-- **Size in the inventory:** 11.7 × 9.4 m. S01 plan px / hall scale (S01)
-- **Where the text puts it:** (S42) (S05, S42, S01, S360, S361) *(research copy, not public)*
-- **Note:** 风扇房. (S05, S42, S01, S360, S361)
+- **Bays:** 3, across a stream in the texts / 3x1 on the plan (S05, S42, S01, S360, S361, S310)
+- **Size in the inventory:** 9.6 × 4.48 m. stated: S310, mhymy ysltd 8006 (水木明瑟殿平面图, NLC 样030-1), metres as printed (S01)
+- **Where the text puts it:** (S42) (S05, S42, S01, S360, S361, S310) *(research copy, not public)*
+- **Note:** 风扇房. (S05, S42, S01, S360, S361, S310)
 - **Plan reader's note:** Label directly south. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3624, 1962 (S01) *(research copy, not public)*
@@ -39,7 +39,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (8)
+## Texts and drawings (9)
 
 - **E1683** (text, sure): 日下舊聞考 水木明瑟. 1780s (乾隆 敕撰) · j81:35a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 映水蘭香東北為水木明瑟（圓明園册）臣等謹按水木明瑟四十景之一額為皇上御書世宗御書額曰一溪清水引風涼
@@ -62,6 +62,8 @@ None of its own.
   A three-bay hall straddling a stream, where a Western water mechanism drove fans, hence 风扇房. Near it 印月池, 钓鱼矶 pavilion, a five-bay hall with plaques 丰乐轩 and 映水兰香, 贵织山堂 to the silkworm god, 知耕织, 濯鳞沼.
 - **E1687** (description, likely, search index only): 水木明瑟 scene card. n.d. · mhymy jqjs 11649 · S340. https://www.mhymy.com/ymss/jqjs/11649.html
   North of 后湖, Yongzheng date. Main hall 丰乐轩 by the stream, and north-east of it the 水木明瑟 hall, nicknamed 风扇房 fan house: water drove fans inside to cool the room. A Taihu rock with Qianlong's verse now stands at the Summer Palace.
+- **E2482** (drawing, sure): 水木明瑟风扇立面图. 不详 · 国家图书馆善本部 样007-18号 · S310. https://www.mhymy.com/dasl/ysltd/8002.html
+  Elevation (working sheet, ink, undated) of the water-driven fan of the 水木明瑟 hall, which straddled a stream; the 风扇 sat over the channel in the east bay.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 水木明瑟, 3x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

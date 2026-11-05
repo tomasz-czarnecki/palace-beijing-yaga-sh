@@ -47,7 +47,7 @@ The Long Spring Lodge of the Immortal · Yuanming Yuan
 - YM12-B1051
 - YM12-N01 长春仙馆
 
-## Pictures (8)
+## Pictures (9)
 
 - **P0012** (sure): 長春仙館 Changchun xianguan [Pavillon d'immortalité du Printemps éternel] (圓明園四十景, 第12景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E4%BA%8C%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B9%85%E5%9B%BE%29%2C_%E9%95%B7%E6%98%A5%E4%BB%99%E9%A4%A8_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Changchun_xianguan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008325n.jpg
 
@@ -81,6 +81,7 @@ The Long Spring Lodge of the Immortal · Yuanming Yuan
 
   ![P0380](../../photos/images/P0380.jpg)
 
+- **P0789** (guess): 散落在山坡的石构件 - panoramio.jpg (Taken on 27 May 2011 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E6%95%A3%E8%90%BD%E5%9C%A8%E5%B1%B1%E5%9D%A1%E7%9A%84%E7%9F%B3%E6%9E%84%E4%BB%B6_-_panoramio.jpg
 
 ## Texts and drawings (75)
 
@@ -286,12 +287,12 @@ The Long Spring Lodge of the Immortal · Yuanming Yuan
   Begun 1726 as 莲花馆; Hongli's lodging as prince, then the dowager's festival lodging (she died here in the first month of 1777), Jiaqing's for his first three years, and later consorts'. Gate of three bays, a five-bay hall; 绿荫轩, 丽景轩, 春好轩, 墨云池, 随安室, 林虚桂静, 含碧堂, 古香斋, 抑斋, 藤影花丛, 凭流亭.
 - **E1419** (description, sure, search index only): 长春仙馆 scene card. n.d. · mhymy jqjs 3873 · S340. https://www.mhymy.com/ymss/jqjs/3873.html
   West of 正大光明, south of 茹古涵今, against the south wall, a garden within a garden. Built by 1726, first called 莲花馆.
+- **E1420** (drawing, sure): 长春仙馆总平面图 (图名: 长春仙馆地盘画样). 道光十一至十七年 (1831-1837) · 国家图书馆善本部 样016-3号 · S310. https://www.mhymy.com/dasl/ysltd/8755.html
+  Presentation ground plan of the Changchun Xianguan scene, 1176x913 mm, red and ink with red and yellow slips, 1831-37. No image here; the site may ask a small payment for the full record.
 - **E1421** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 长春仙馆. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 长春仙馆, pp.126-156 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.126-156 (31 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E1422** (drawing, sure): 长春仙馆地盘画样全图. 国家图书馆 国图016-0001-02 · S13. https://book.douban.com/review/10163867/
   Cited in the printed volume's preface, with about 135 halls and rooms; number as printed there.
-- **E1420** (drawing, sure, search index only): 长春仙馆总平面图 (图名: 长春仙馆地盘画样). 道光十一至十七年 (1831-1837) · 国家图书馆善本部 样016-3号 · S310. https://www.mhymy.com/dasl/ysltd/8755.html
-  Presentation ground plan of the Changchun Xianguan scene, 1176x913 mm, red and ink with red and yellow slips, 1831-37. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 长春仙馆. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -314,6 +315,8 @@ Modern interpretation, not evidence.
 
 - Q9: Bay counts, plan against text
 - Q45: Halls in the texts with no row
+- Q129: The brief says the album views are roughly from the south
+- Q134: YM12
 
 <!-- generated:end -->
 

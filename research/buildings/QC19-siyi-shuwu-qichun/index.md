@@ -58,7 +58,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   ![P0485](../../photos/images/P0485.jpg)
 
 
-## Texts and drawings (17)
+## Texts and drawings (18)
 
 - **E0448** (text, sure): 《養吉齋叢錄》 on 綺春園 and the Thirty Scenes. Qing; text states events up to 文宗 · 卷十八 leaf 4 (archive.org 02096508.cn image n52-n53) · S223. https://archive.org/details/02096508.cn/page/n52
   > 綺春園在圓明園東，有複道相屬。舊為大學士傅恆及其子大學士福康安賜園，歿後繳進，嘉慶間始加繕葺。仁宗御製綺春園三十景詩，有宣宗恭跋：先是，園西南以繚垣別界一區，名含暉園，莊敬和碩公主釐降時，賜居於此。公主薨逝，額駙索特那木多布齋以園繳進。舊又橫界一區，名西爽村，有聯暉樓，為成邸寓園。嘉慶間成邸別賜園宅，西爽、含暉皆併入為一園，而規模宏遠矣。舊有數楹名鳳麐洲，後易名清夏齋；問月樓在洲之南，鏡綠亭在洲之北。道光時為尊養孝和皇太后之所，正殿曰迎暉殿。文宗登極，奉康慈太后亦居此，問安視膳，皆如道光間禮。三十景者：敷春堂　鑑德書屋　翠合軒　凌虛閣　協性齋　澄光榭　問月樓　我見室　蔚藻堂　藹芳圃　鏡綠亭　淙玉軒　舒卉軒　竹林院　夕霏榭　清夏齋　鏡虹館　春雨山房　含光樓（即舊時聯暉樓）　涵清館　華滋庭　苔香室　虛明鏡　含淳堂　春澤齋　水心榭　四宜書屋　茗柯精舍　來薰室　般若觀
@@ -94,6 +94,8 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   Formed from princes' and ministers' gardens, about 54.3 ha. Taken back from Fuheng's heirs and renamed in 1769; gate, tiger-stone wall and 正觉寺 added by 1773, rebuilt in 1795. Jiaqing's growth came in three stages: the western and central groups of the Thirty Scenes first, then the new gate and eastern scenes, finally the south-west (招凉榭, 湛清轩, 畅和堂, 澄心堂, the shrines), gathered as a New Twenty Scenes.
 - **E0590** (description, sure, search index only): 敷春堂; 澄心堂; 迎晖殿 and 中和堂 labels; 绮春 四宜书屋 (search-index text). n.d. · mhymy ysltd 12232, 7496, 13985 · S340. https://www.mhymy.com/dasl/ysltd/7496.html
   敷春堂: the dowagers' residence from Daoguang, inside the south gate, with a stage per the archives. 澄心堂: island, five-bay hall with side halls. A plan labels 中和堂新宫门 and 迎辉殿. 四宜书屋 built 1805, west of 生冬室.
+- **E2485** (drawing, sure): 四宜书屋（绮春园）平面图 (图名: 四宜书屋). 道光三十年 (1850) 二月 · 国家图书馆善本部 样091-5号 · S310. https://www.mhymy.com/dasl/ysltd/13985.html
+  Survey of an old presentation sheet (旧呈样踏勘实测), 617x365 mm, 1850.2. Record figures: gate to north wall 75.04 m, gate well to the hexagonal pavilion 48 m, width 62.72 m; a channel dug 1822, 220.80 x 11.20 m; 1855.8 a rubble wall, a gate and a one-arch stone bridge 4.06 m wide, 25.92 m long, 4.80 m high, opening 3.20 m wide, 3.84 m high.
 - **E0766** (drawing, sure, search index only): 四宜书屋（绮春园）平面图. 道光三十年二月 1850 · 国家图书馆; survey of an old 呈样 · S42. https://www.mhymy.com/dasl/ysltd/13985.html
   The entry says it stands west of 生冬室 across the long river. A second page, 四宜书屋样式雷图, is at /dasl/ysltd/4275.html.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html

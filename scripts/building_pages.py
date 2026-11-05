@@ -2,7 +2,7 @@
 
   uv run python scripts/building_pages.py        (after boxes1860.py)
 
-Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/reconstructions/catalog.csv, research/twins/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson, research/xiyanglou/views.csv and research/xiyanglou/<ID>-<slug>/dimensions.json (Xiyang Lou objects only: pictures by side, the Dimensions block, the link to the dossier). Writes:
+Reads research/buildings.csv, research/questions.md, research/sources.md, research/photos/catalog.csv, research/evidence/catalog.csv, research/reconstructions/catalog.csv, research/twins/catalog.csv, research/layers/walls_1860 (the gates), site/reconstruction/data/halls_1860.geojson, research/xiyanglou/views.csv and research/xiyanglou/<ID>-<slug>/dimensions.json (Xiyang Lou objects only: pictures by side, the Dimensions block, the link to the dossier), research/scenes/about.json and research/scenes/<ID>-<slug>/dimensions.json (every other scene or compound with a dossier, its halls inheriting it: the Dimensions block and the link to the dossier). Writes:
   research/buildings/<ID>-<slug>/index.md        every row of buildings.csv and every gate. The block between the markers is rewritten; `## Notes` below it is hand-written and never touched
   research/buildings/README.md                   the list of all of them
   site/reconstruction/data/buildings/<ID>.json   public: names, garden, dates, sources, confidence, the box, the evidence. No plan pixels, no plan readers' notes, no /_local/ or raw/ path (asserted). GARDEN-YM.json etc. hold what speaks for a whole garden, CLASS-grand_hall.json etc. the comparables for a class of hall
@@ -69,6 +69,7 @@ BASIS_LINE = {
     "gate": "Assumed: a gate on the walls layer with no hall drawn at its point, so a small default box stands there. Confidence C.",
 }
 XY = ROOT / "research/xiyanglou"
+SCENES = ROOT / "research/scenes"
 XY_SIDE = {"S": "South façade", "N": "North façade", "E": "East façade", "W": "West façade", "roof": "Roof and fountains", "fountain": "Roof and fountains", "aerial": "Plans and views from above", "detail": "Details and fragments", "fragment": "Details and fragments"}
 XY_FRONT = {"XY02": "E", "XY05": "W", "XY08": "W", "XY12": "W", "XY13": "W", "XY15": "W", "XY07": "N", "XY11": "N", "XY03": "N"}  # the side of the first plate comes first
 ROOF_WORD = {"hip_gable": "hip-and-gable 歇山", "hip": "hip 庑殿", "gable": "gable 硬山 or 悬山", "pyramid": "pyramid 攒尖"}
@@ -211,6 +212,12 @@ class Book:
         for sheet in XY.glob("XY*/dimensions.json"):
             data = json.load(open(sheet, encoding="utf-8"))
             self.xy_sheets[data["id"]] = data
+        self.scene_about = {k: v for k, v in json.load(open(SCENES / "about.json", encoding="utf-8")).items() if not k.startswith("_")}
+        self.scene_sheets = {}
+        for sheet in SCENES.glob("*/dimensions.json"):
+            data = json.load(open(sheet, encoding="utf-8"))
+            if data["id"] in self.scene_about:
+                self.scene_sheets[data["id"]] = data
         self.tops = [r for r in self.rows.values() if not r["parent_id"] and not r["id"].startswith("Z-") and r["lat"]]
         self.gate_garden = {g: self.nearest(*reversed(f["geometry"]["coordinates"]), [])[0]["garden"] for g, f in self.gates.items()}
 
@@ -748,13 +755,24 @@ def xy_photos(book, page, public):
 
 
 def xy_extras(book, page, out):
-    """A Xiyang Lou page: its figures, and the way to the dossier."""
+    """A Xiyang Lou page or a page of a scene with a dossier: its figures, and the way to the dossier. A hall carries its own figures; the scene's come through the fallback."""
     pid = page["id"]
     if pid == "GARDEN-XY":
         out["dossier"] = {"href": "../xiyanglou/", "label": "Read the full Xiyang Lou dossier"}
+    if pid in ("GARDEN-YM", "GARDEN-CC", "GARDEN-QC", "GARDEN-ALL"):
+        out["dossier"] = {"href": "../scenes/", "label": "Read the scene dossiers"}
+    top = pid.split("-")[0]
+    if top in book.scene_sheets:
+        about = book.scene_about[top]
+        public = about.get("public")
+        out["dossier"] = {"href": f"../scenes/{top}/" if public else f"../scenes/#{top}", "label": f"Read the dossier of {about['zh']} {about['pinyin']}" if public else f"Read the summary of {about['zh']} {about['pinyin']} among the scene dossiers"}
+        figures = book.scene_sheets[top]["figures"]
+        mine = figures if pid == top else [d for d in figures if d["id"] == pid]
+        if mine:
+            out["dimensions"] = mine
+        return
     if not pid.startswith("XY"):
         return
-    top = pid.split("-")[0]
     out["dossier"] = {"href": f"../xiyanglou/#{top}", "label": "Read the full Xiyang Lou dossier"}
     sheet = book.xy_sheets.get(top)
     if sheet:
@@ -765,7 +783,7 @@ def assert_public(page):
     pid = page["id"]
     assert set(page) <= PUBLIC_KEYS, (pid, set(page) - PUBLIC_KEYS)
     for d in page.get("dimensions", []):
-        assert set(d) == PUBLIC_DIMENSION_KEYS, (pid, d)
+        assert set(d) - {"scale"} == PUBLIC_DIMENSION_KEYS, (pid, d)  # a scene's figures also say the scale used
     for f in page["facts"]:
         assert set(f) == PUBLIC_FACT_KEYS, (pid, f)
     for p in page["photos"] + page.get("photos_inside", []):

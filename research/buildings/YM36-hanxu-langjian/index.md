@@ -14,7 +14,7 @@ Vast Empty Clear Mirror · Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S02, S08, S01, S360, S361)
 - **Type:** scene (S05, S02, S08, S01, S360, S361 · confidence A)
 - **Built:** by 1762 (first dated item); 1738 (S05, S02, S08, S01, S360, S361)
-- **Changed:** 1744 poem 結宇福海之西 [j82:21b-22a]; plaque 舊懸湖西澄虛榭 後移置湖東雷峯夕照軒宇 [j82:21b]. The album view predates this move. (S05, S02, S08, S01, S360, S361)
+- **Changed:** 1744 poem 結宇福海之西 [j82:21b-22a]; plaque 舊懸湖西澄虛榭 後移置湖東雷峯夕照軒宇 [j82:21b]. The album view predates this move.; plaque 涵虚朗鉴 formerly at 澄虚榭 (west shore), moved to 雷峰夕照 (east shore); the 1744 leaf already says 福海之東, so the move predates 1744 (S05, S02, S08, S01, S360, S361)
 - **Destroyed:** 1860 (S05, S02, S08, S01, S360, S361)
 - **Position:** 40.00884, 116.30115. S01 sure (S01 · confidence B)
 - **Plan reader's note:** Malone wrote 30 at (7890,1960) off this shore: swapped with 36, trust the labels. 雷峰夕照, 惠如春, 会心不远, 贻兰亭, 值房, 云锦墅 all legible. Polygon extends south to 云锦墅 (text lists it here; S111 under 接秀山房). (S01) *(research copy, not public)*
@@ -73,7 +73,7 @@ Vast Empty Clear Mirror · Yuanming Yuan
   ![P0643](../../photos/images/P0643.jpg)
 
 
-## Texts and drawings (20)
+## Texts and drawings (21)
 
 - **E2009** (poem, sure): 御製涵虛朗鑑詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:21b-22a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製涵虛朗鑑詩 結宇福海之西左右雲堤紆委千章層青面前巨浸空澄一泓淨碧日月出入雲霞卷舒逺山烟嵐近水樓閣來不迎而去不距莫不落其度内如如焉亦無如如者吾得之於濠上也 涵虛斯朗鑑朗鑑在虛涵即此契元理悠然對碧潭雲山同妙盡魚鳥適清酣天水相忘處空明共我三
@@ -126,6 +126,8 @@ Vast Empty Clear Mirror · Yuanming Yuan
   涵虚朗鉴: 5 dated items, 1762-1820, of which 5 poems (Qianlong, Jiaqing); recurring themes: the view. First dated 1762, last dated 1820.
 - **E2018** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 涵虚朗鉴. 2020 edition · v3 p.60 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=63
   Begun 1738 on the north-east shore, a three-bay hall facing west, plaques 雷峰夕照 outside and 涵虚朗鉴 inside. It gives the order of halls along the shore, north and south of that hall: compare the conflict logged by archaeo (S338).
+- **E2478** (drawing, sure): 雷峰夕照及惠如春平面图. 道光十二年 (1832) 二月 · 国家图书馆善本部 样031-8号 · S310. https://www.mhymy.com/dasl/ysltd/9807.html
+  Rebuilding design (working sheet, 415x405 mm, red and ink) for 雷峰夕照 and 惠如春 in 涵虚朗鉴 on the east shore of 福海; the record gives the scene c. 85 x 250 m and lists repairs of 1778, 1788, 1792-94 and 1832.
 - **E2020** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 涵虚朗鉴. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 涵虚朗鉴, pp.442-445 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.442-445 (4 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 
@@ -153,6 +155,10 @@ Modern interpretation, not evidence.
 - Q10: 涵虚朗鉴
 - Q41: 藏密楼 YM31-07, 松风阁 YM81
 - Q42: East shore of 福海
+- Q83: YM54 / 涵虚朗鉴
+- Q129: The brief says the album views are roughly from the south
+- Q137: YM36
+- Q141: Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG)
 
 <!-- generated:end -->
 

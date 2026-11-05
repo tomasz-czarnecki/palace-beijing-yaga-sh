@@ -10,10 +10,10 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 皆春阁 Jiechun Ge (S05 · confidence B)
-- **Garden:** Yuanming Yuan (S05)
-- **Type:** tower (S05 · confidence B)
-- **Destroyed:** 1860 (S05)
+- **Name:** 皆春阁 Jiechun Ge (S05, S361 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S361)
+- **Type:** tower (S05, S361 · confidence B)
+- **Destroyed:** replaced 1817 by 课农轩 (with 稻凉楼, 涉趣楼, 湛虚书屋) (S05, S361)
 - **Position:** Not placed: the name was not found on the plan.
 
 ## Our model now
@@ -53,6 +53,7 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q59: Twin claims to hold loosely
+- Q136: YM26 / YM51
 
 <!-- generated:end -->
 

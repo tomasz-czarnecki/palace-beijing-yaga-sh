@@ -10,12 +10,12 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 南北长街 (买卖街) Nanbei Changjie (Maimai Jie) (S05, S02, S06 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S06)
-- **Type:** other (S05, S02, S06 · confidence B)
-- **Destroyed:** 1860 (S05, S02, S06)
+- **Name:** 南北长街 (买卖街) Nanbei Changjie (Maimai Jie) (S05, S02, S06, S211 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S02, S06, S211)
+- **Type:** other (S05, S02, S06, S211 · confidence B)
+- **Destroyed:** 1860 (S05, S02, S06, S211)
 - **Position:** Not placed: the name was not found on the plan.
-- **Note:** New Year fair street (S02 p.94; S06). (S05, S02, S06)
+- **Note:** New Year fair street (S02 p.94; S06). function: New Year mock market run by eunuchs with goods from the Peking shops, held under Qianlong until the 燕九 day of the first month; stopped in 嘉庆四年 (1799), so in 1860 the street stood without its fair (S211, 卷一, line 37 (E2151)). (S05, S02, S06, S211)
 
 ## Our model now
 
@@ -25,7 +25,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (9)
+## Texts and drawings (10)
 
 - **E2146** (text, sure): 日下舊聞考 同乐园、舍卫城. 1780s (乾隆 敕撰) · j82:27b-28b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 麴院風荷之北為同樂園前後樓各五楹南向其前為清音閣北向東為永日堂中有南北長街街西為抱樸草堂街北度雙橋為舎衛城前樹坊楔三城南面為多寳閣内為山門正殿為壽國壽民後為仁慈殿又後為普福宫城北為最勝閣（圓明園册）臣等謹按永日堂壽國壽民仁慈殿普福宫諸額皆世宗御書舍衛城北坊額曰花界曰香城東曰□湧曰金池西曰曇霏曰珠林多寳閣祀闗帝額曰至聖大勇夀國夀民殿額曰心月妙相仁慈殿額曰具足圓成普福宫額曰瑞應優曇最勝閣坊額曰乾闥持輪曰祗林垂鬘皆御書
@@ -42,6 +42,9 @@ None of its own.
 - **E2174** (description, likely): Attiret: the little town. 1743 · [pp.23-24] · S157. https://faculty.bard.edu/~louis/gardens/attiretaccount.html
   > It has Four Gates, answering the Four principal Points of the Compass; with Towers, Walls, Parapets, and Battlements. It has it's Streets, Squares, Temples, Exchanges, Markets, Shop, Tribunals, Palaces, and a Port for Vessels.
   A small walled town reached by a nearly straight road from the emperor's palace, each side near a mile by his figure; S02 p.136 n. thinks the figure includes the shop street. Malone identifies it with 舍卫城 and the street south of it.
+- **E2449** (description, likely): Attiret (French original): the little town with four gates. 1743, printed 1749 · pp.22-25 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > De ce logement de l'Empereur le chemin conduit presque tout droit à une petite ville, bâtie au milieu de tout l'enclos. Son étendue est d'un quart de lieue en tout sens. Elle a ses quatre portes aux quatre points cardinaux; ses tours, ses murailles, ses parapets, ses crénaux. Elle a ses rues, ses places, ses temples, ses halles, ses marchés, ses boutiques, ses tribunaux, ses palais, son port.
+  French text behind E2174 and E2160: a walled mock town in the middle of the enclosure, a quarter league each way, with four gates, towers, crenellated walls, streets, temples, markets, shops and a port, where the eunuchs staged a fair for the court. The size is far larger than 舍卫城 on S01; see the question row.
 - **E2156** (description, sure): 圆明园买卖街钩沉. post n.d. · hwyj · S115. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
   The two shop streets. 同乐园's runs over 130 m north-south, split by a stream and 双桥, to the south of 舍卫城, in place by 1744. 含经堂's, dug in 2001-02, has a base 135.65 x about 6.3 m and 28 stoves, so perhaps eating houses. It has 40 shop bays in 9 units, against 10 buildings on the Yangshi Lei plan.
 - **E2157** (description, sure): 圆明园同乐园的功能及其文化内涵. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/602fc6cd19de47f8b9fb9d1a693ade5e.htm
@@ -60,7 +63,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q86: YM44-06 / CC02-15
 
 <!-- generated:end -->
 

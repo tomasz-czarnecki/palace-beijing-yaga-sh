@@ -30,7 +30,7 @@ None of its own.
 
 - **E2155** (description, sure, search index only): 《圆明园戏场探微》. S312. https://www.mhymy.com/xsjl/9991.html
   Survey of the gardens' theatres with sizes, from the three-storey stage of 1726 to the indoor stages of the Xianfeng period.
-- **E1174** (drawing, likely, search index only): 慎德堂室内装修平面图（三）. 国家图书馆 · S310. https://www.mhymy.com/tag/598
+- **E1174** (drawing, likely): 慎德堂室内装修平面图（三）. 咸丰六年 (1856) 正月二十二日 · 国家图书馆善本部 样008-11号 · S310. https://www.mhymy.com/dasl/ysltd/10577.html
   Plan of Shende Tang's interior later than the 1851 sheet, with the front bay rebuilt as an indoor stage; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 
 ## Evidence for the set of buildings

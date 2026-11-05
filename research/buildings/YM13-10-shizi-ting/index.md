@@ -32,15 +32,20 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 172.8° from north
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0013** (likely): 萬方安和 Wanfang anhe [Paix et concorde aux dix mille horizons] (圓明園四十景, 第13景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E4%B8%89%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E8%90%AC%E6%96%B9%E5%AE%89%E5%92%8C_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Wanfang_anhe_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083263.jpg
 
-## Texts and drawings (2)
+  ![P0013](../../photos/images/P0013.jpg)
+
+
+## Texts and drawings (3)
 
 - **E1450** (description, sure): Scene 13, 万方安和 Wanfang Anhe, the Swastika Building. 1934 · p.81 · S02. https://archive.org/details/historyofpekings00malo
   > The building in the form of a swastika, a symbol which is used as a Chinese character meaning ten thousand, and also Buddha's heart, is built on a foundation of brick and stone and is entirely surrounded by water.
   卍-plan building on a brick and stone foundation, entirely in water. At the south end of the lake a much smaller building in the form of a cross, the character for ten. Yongzheng often came here, says Qianlong's poem.
+- **E1451** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 万方安和. 2020 edition · v2 p.117 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=120
+  Of 1727, built in the water in the shape of a 卍, with named rooms on each arm (the note lists them all). 平安院 lies north-east by a bridge, and a large double-eaved cross-shaped pavilion on the south shore.
 - **E1453** (description, sure, search index only): 圆明园新证—万方安和考, 端木泓. n.d. · journal article, earlier fetch · S357. 
   Reads 万方安和 as a Buddhist cosmic diagram: the 万字房 at its heart, the 十字亭 as a node, and the long hall of 山高水长 as an answering stroke. Only the abstract was seen; no stable link kept.
 
@@ -48,15 +53,13 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 万方安和 (no picture of this hall found): see YM13
+- Evidence for the whole compound 万方安和: see YM13
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a square pavilion (not this building): see CLASS-pavilion_square
 
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
-
 ## Open questions
 
-None that name it.
+- Q92: YM13-10 十字亭
 
 <!-- generated:end -->
 

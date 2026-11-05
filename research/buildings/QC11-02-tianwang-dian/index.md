@@ -10,13 +10,14 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 天王殿 Tianwang Dian (S49, S01, S221 · confidence B)
-- **Garden:** Qichun Yuan (S49, S01, S221)
-- **Type:** temple (S49, S01, S221 · confidence B)
-- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221)
+- **Name:** 天王殿 Tianwang Dian (S49, S01, S221, S228 · confidence B)
+- **Garden:** Qichun Yuan (S49, S01, S221, S228)
+- **Type:** temple (S49, S01, S221, S228 · confidence B)
+- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221, S228)
 - **Position:** 39.99883, 116.30346. S01 likely (S01 · confidence B)
-- **Bays:** 5 in the texts / 4x2 on the plan (S49, S01, S221)
+- **Bays:** 5 in the texts / 4x2 on the plan (S49, S01, S221, S228)
 - **Size in the inventory:** 14.8 × 8.5 m. S01 plan px / hall scale (S01)
+- **Note:** after1860: survived 1860 and 1900; wholly or partly destroyed in the 20th century; rebuilt 2009-11 (S228, section 长期被占损毁严重 and 专家论证绘图复原). (S49, S01, S221, S228)
 - **Plan reader's note:** No label; next hall on the axis. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8477, 7780 (S01) *(research copy, not public)*

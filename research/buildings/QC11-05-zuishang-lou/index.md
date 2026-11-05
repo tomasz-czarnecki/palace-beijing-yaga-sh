@@ -33,7 +33,11 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.2 m
 - **Confidence:** B
 
-## Pictures (1)
+## Pictures (2)
+
+- **P0173** (likely): China, Peking, Tempel (Bundesarchiv caption: Chinesischer Tempel ...) (1900 (Commons)). https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_137-000605%2C_China%2C_Peking%2C_Tempel.jpg
+
+  ![P0173](../../photos/images/P0173.jpg)
 
 - **P0431** (sure): 正觉寺最上樓 20130512.jpg (2013-05-12 15:15:02 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E8%A7%89%E5%AF%BA%E6%9C%80%E4%B8%8A%E6%A8%93_20130512.jpg
 

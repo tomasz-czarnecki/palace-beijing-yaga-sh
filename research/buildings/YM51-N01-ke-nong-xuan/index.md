@@ -61,6 +61,10 @@ None of its own.
 
 - Q47: How much burned, and when
 - Q59: Twin claims to hold loosely
+- Q104: 烫样 dates
+- Q136: YM26 / YM51
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q142: No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th
 
 <!-- generated:end -->
 

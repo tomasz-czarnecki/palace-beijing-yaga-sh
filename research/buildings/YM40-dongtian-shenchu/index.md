@@ -113,7 +113,7 @@ The Palace School, the Princes' Residences, and Studios (the Depth of the Vault 
   ![P0547](../../photos/images/P0547.jpg)
 
 
-## Texts and drawings (21)
+## Texts and drawings (22)
 
 - **E2085** (poem, sure): 御製洞天深處詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:29a-29b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製洞天深處詩 縁溪而東徑曲折如蟻盤短椽陿室於奥為宜雜植卉木紛紅駭緑幽巖石厂别有天地非人間少南即前垂天貺皇考御題予兄弟舊時讀書舎也 幽蘭泛重阿喬柯幕憩榭牝壑既虛寂細瀑時淙㵼瑟瑟竹籟秋亭亭松月夜對此少淹留安知嵗月流願為君子儒不作逍遥遊
@@ -160,6 +160,8 @@ The Palace School, the Princes' Residences, and Studios (the Depth of the Vault 
   Built under Yongzheng for the princes' study and lodging: four courts on two east-west lanes and one north-south lane, the three study rooms 前垂天贶, 中天景物, 后天不老, a Confucius shrine, and 如意馆, the court painters' workshop where Castiglione and Attiret worked.
 - **E2092** (description, sure): 圆明园百景史事分景汇编: 洞天深处. undated · from p.182, under 洞天深处 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=182
   洞天深处: short note in the compilation, no dated items.
+- **E2484** (drawing, sure): 福园四所总平面图. 乾隆中叶-道光二十六年 (1846) · 国家图书馆善本部 样式雷排架017-1-14号 · S310. https://www.mhymy.com/dasl/ysltd/5081.html
+  Presentation plan (465x430 mm) of the four princes' courts 四所 inside 福园门 in 洞天深处, before their rebuilding as two courts 东西二所 in 1846 (mhymy 7317): so not the 1860 state of the east part.
 - **E2093** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 洞天深处. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 洞天深处, pp.66-114 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.66-114 (49 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
 - **E2094** (drawing, sure, search index only): 洞天深处平面图. S310. https://www.mhymy.com/dasl/ysltd/7317.html

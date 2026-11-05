@@ -10,19 +10,19 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 正大光明殿 Zhengda Guangming Dian (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337 · confidence B)
+- **Name:** 正大光明殿 Zhengda Guangming Dian (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310 · confidence B)
 - **Written on the plan:** 正大光明 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
-- **Type:** audience hall (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337 · confidence B)
-- **Built:** 雍正三年 1725 (S02 p.76) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
-- **Changed:** Plain under Yongzheng; columns painted red and capitals with dragons before the end of Qianlong (S02 p.76); Used for the palace re-examination 1844-50 and from 1814 for clansmen; dated later use (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
-- **Destroyed:** 19 October 1860, last of the buildings; the troops had quartered in it (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
+- **Garden:** Yuanming Yuan (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
+- **Type:** audience hall (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310 · confidence B)
+- **Built:** 雍正三年 1725 (S02 p.76) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
+- **Changed:** Plain under Yongzheng; columns painted red and capitals with dragons before the end of Qianlong (S02 p.76); Used for the palace re-examination 1844-50 and from 1814 for clansmen; dated later use (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
+- **Destroyed:** 19 October 1860, last of the buildings; the troops had quartered in it (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Position:** 40.00193, 116.29051. S01 sure (S01 · confidence B)
-- **Bays:** 7 in the texts / 7x1 on the plan (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
+- **Bays:** 7 in the texts / 7x1 on the plan (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Size in the inventory:** 39.32 × 19.2 m. stated in a source (S01)
-- **Roof:** 卷棚歇山 (S06) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
-- **Tiles:** 灰瓦 grey (S06) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
-- **Note:** S06 进深五间. Malone p.75 measured the foundation on site: 129 x 63 ft, 4 ft high = 39.3 x 19.2 x 1.2 m; porch colonnade of 10 columns; pillars c. 2 ft 8 in. Macartney 150 x 60 ft (S02 p.76). Interior height over 20 ft per Staunton (S02 p.76 n.). Macartney gifts 1793 set up here. Scene of camp and last fire 1860 (S02 p.77). 不雕不繪 per 1744 poem [j80:11a]. 33.5 inside room (110 ft); current 39.32 is Malone's foundation, 129 ft (S251, p.125). 12.8 inside room (42 ft); current 19.2 is Malone's foundation, 63 ft (S251, p.125). 1860 descriptions: rosewood or dark painted throne, polished marble floor, wall-size picture of the gardens, wire net under the eaves (S240, pp.232-235). frontage_m: 36.45 (S337, 圆明园正大光明初探). depth_m: 16 (S337, 圆明园正大光明初探). roof: single-eave 卷棚歇山, ten purlins (S337, 圆明园正大光明初探). (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337)
+- **Roof:** 卷棚歇山 (S06) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
+- **Tiles:** 灰瓦 grey (S06) (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
+- **Note:** S06 进深五间. Malone p.75 measured the foundation on site: 129 x 63 ft, 4 ft high = 39.3 x 19.2 x 1.2 m; porch colonnade of 10 columns; pillars c. 2 ft 8 in. Macartney 150 x 60 ft (S02 p.76). Interior height over 20 ft per Staunton (S02 p.76 n.). Macartney gifts 1793 set up here. Scene of camp and last fire 1860 (S02 p.77). 不雕不繪 per 1744 poem [j80:11a]. 33.5 inside room (110 ft); current 39.32 is Malone's foundation, 129 ft (S251, p.125). 12.8 inside room (42 ft); current 19.2 is Malone's foundation, 63 ft (S251, p.125). 1860 descriptions: rosewood or dark painted throne, polished marble floor, wall-size picture of the gardens, wire net under the eaves (S240, pp.232-235). frontage_m: 36.45 (S337, 圆明园正大光明初探). depth_m: 16 (S337, 圆明园正大光明初探). roof: single-eave 卷棚歇山, ten purlins (S337, 圆明园正大光明初探). depth_m: 16 (S310, NLC 样001-4 正大光明白差准底 (undated), slip text quoted on mhymy record 10451). frontage_m: 35.95 (S310, NLC 样001-4 正大光明白差准底 (undated), slip text quoted on mhymy record 10451). (S05, S02, S06, S01, S106, S119, S08, S202, S251, S240, S242, S337, S310)
 - **Plan reader's note:** Text 7. Label in the court south of it (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3305, 5444 (S01) *(research copy, not public)*
@@ -37,7 +37,11 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **Faces:** 174.8° from north
 - **Confidence:** B
 
-## Pictures (2)
+## Pictures (3)
+
+- **P0001** (likely): 正大光明 Zhengda guangming [Droiture et clarté] (圓明園四十景, 第1景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%80%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B8%80%E5%B9%85%E5%9B%BE%29%2C_%E6%AD%A3%E5%A4%A7%E5%85%89%E6%98%8E_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Zhengda_guangming_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083229.jpg
+
+  ![P0001](../../photos/images/P0001.jpg)
 
 - **P0284** (sure): 凯宴成功诸将士于正大光明殿 Victory banquet at 正大光明殿, print from 平定回疆得胜图 (10 plates); also an album leaf of 1828-29 shown at Hong Kong (c. 1830 (BM, snippet); plates inscribed 己丑 1829 (Crouch 2019, snippet); leaf 1828-29 (S262)). https://www.britishmuseum.org/collection/object/A_1938-0113-0-1 Research-only: link card.
 - **P0363** (sure): 正大光明 20130318.JPG (2013-03-18 15:13:40 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E5%A4%A7%E5%85%89%E6%98%8E_20130318.JPG
@@ -45,11 +49,14 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
   ![P0363](../../photos/images/P0363.jpg)
 
 
-## Texts and drawings (34)
+## Texts and drawings (38)
 
 - **E1000** (text, sure): 日下舊聞考 正大光明. 1780s (乾隆 敕撰) · j80:9a-11a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 大宫門内為出入賢良門五楹門左右為直房前跨石橋度橋東西朝房各五楹西南為茶膳房再西為繙書房東南為清茶房為軍機處（圓明園冊）臣等謹按出入賢良門額世宗御書是為二宫門凡武職侍衛引見御此門較射左右直房為各部院臣工入直之所東西設兩罩門各衙門奏事由東罩門逓進茶膳房太監人等由西罩門出入門前河形如月中駕石橋三其水自西來東注如意門閘口㑹東園各河而出出入賢良門内為正大光明殿七楹東西配殿各五楹後為壽山殿東為洞明堂（圓明園冊）臣等謹按圓明園四十景中世宗御題四字額者凡十有四正大光明殿其一也餘如牡丹臺今為鏤月開雲蓬萊洲今為蓬島瑶臺乃乾隆九年皇上恭依避暑山莊三十六景四字題額之例更鍚嘉名用昭畫一敬就各條下加按並恭載御製四十景詩至附近各景詩已載御製詩全集者兹不備録又按正大光明殿内聨曰心天之心而宵衣旰食樂民之樂以和性怡情為世宗御書又聨曰遹求寜觀成無逺弗届以對時育物有那其居為皇上御書東壁懸御書周書無逸篇西壁懸豳風圖東為洞明堂世宗御書額
   Through the five-bay 出入賢良門, the second gate with duty rooms and three stone bridges over a moon-shaped canal, are court offices, kitchens, the translation office and the 軍機處 Grand Council. Then 正大光明殿 of seven bays with five-bay side halls, 壽山殿 behind and 洞明堂 to the east. The notes explain the renaming of the fourteen Yongzheng titles under the 1744 four-character scheme, and record the couplets, the 無逸 text on the east wall and the 豳風 picture on the west wall.
+- **E1129** (text, sure): 日下舊聞考 九洲清晏. 1780s (乾隆 敕撰) · j80:20b-23b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
+  > 正大光明後有湖亦稱前湖湖正北為圓明園殿五楹後為奉三無私殿七楹又後為九州清宴殿七楹東為天地一家春西為樂安和又西為清暉閣閣前為露香齋左為茹古堂為松雲樓右為涵徳書屋（圓明園冊）臣等謹按九州清宴額世宗御書四十景之一也前第一層殿恭懸聖祖御書圓明園額聨曰每對青山緑水㑹心處一邱一壑總自天恩浩蕩常從霽月光風悦目時一草一木莫非帝徳高深世宗藩邸時書聨曰恤小民之依所其無逸稽古人之徳彰厥有常皇上御書第二層為奉三無私殿内恭懸皇上御書聖祖仁皇帝聖訓曰天下之治亂休咎皆係人主之一身一心政令之設必當遠慮深謀以防後悔周詳籌度計及久長不可為近名邀利之舉不可用一已偏執之見採羣言以廣益合衆志以成城始為無偏無黨之道孝者百行之原不孝之人斷不可用義者萬事之本非義之事必不可為孝以立身義以制事無是二者雖君臣父子不能保也世宗憲皇帝聖訓曰敬天法祖勤政親賢愛民擇吏除暴安良勿過寛柔勿過嚴猛同氣至親實為一體誠心友愛休戚相闗時聞正言日行正事弗為小人所誘弗為邪説所惑聖祖所貽之宗室宜親國家所用之賢良宜保自然和氣致祥綿宗社萬年之慶額曰清虚靜泰聨曰澗泉無操琴泠然善也風竹有聲畫顧而樂之寳座聨曰所無逸而居動靜適徴仁智體有常以治照臨並叶清寜皇上御書九州清宴殿後額曰蔚然深秀聨曰紅篆爐烟看氣直緑苞庭竹愛心虛與樂安和清暉閣諸額皆御書清暉閣北壁懸圓明園全圖乾隆二年命畫院郎世寜唐岱孫祐沈源張萬邦丁觀鵬恭繪御題大觀二字並題聨曰稽古重圖書義存無逸三宗訓勤民咨稼穡事著豳風七月篇
+  North across the lake behind the audience hall: 圓明園殿 (five bays), 奉三無私殿 (seven), 九州清宴殿 (seven), with 天地一家春 to the east, 樂安和 to the west, then 清暉閣 with 露香齋, 茹古堂, 松雲樓 and 涵徳書屋. The note gives the plaques and full text of the Kangxi and Yongzheng instructions on the second hall's wall. On the north wall of 清暉閣 hung the 圓明園全圖 painted in 乾隆二年 (1737) by 郎世寜 Castiglione, 唐岱, 孫祐, 沈源, 張萬邦 and 丁觀鵬.
 - **E0995** (poem, likely): 御製正大光明殿詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j80:11a-11b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 乾隆九年 御製正大光明殿詩 園南出入賢良門内為正衙不雕不繪得松軒茅殿意屋後峭石壁立玉筍嶙峋前庭虚敞四望牆外林木隂湛花時霏紅叠紫層暎無際 勝地同靈囿遺規繼暢春當年成不日奕代永居辰義府庭羅璧恩波水㵼銀草青思示儉山靜體依仁只可方衢室何湏道玉津經營懲峻宇出入引賢臣（出入賢良門扁額皇考御筆也）洞逹心常豁清凉境絶塵每移雲館蹕未費地官緡生意榮芳樹天機躍錦鱗肯堂彌厪念俯仰惕心頻
   The formal audience hall, inside 出入賢良門. Qianlong stresses it is uncarved and unpainted, like a pine-and-thatch hall. Tall rock stands behind it, the forecourt is open, and flowering trees beyond the walls fill the view.
@@ -74,6 +81,9 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **E1182** (text, sure): 養吉齋叢錄 卷十五. mid-19th c. (printed 1890s), on earlier reigns · 卷十五, line 1026 of the corpus file · S202. https://raw.githubusercontent.com/garychowcmu/daizhigev20/master/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%BB%E5%90%89%E6%96%8B%E4%B8%9B%E5%BD%95.txt
   > 正月十四日，宗亲宴，皆近支亲藩。道光间，在奉三无私。定例，皇子位次，在亲王、郡王上，惟家宴则近支诸王与皇子以长幼为序。十五日，蒙古亲藩宴在正大光明殿。是日掌仪司进玩艺，派蒙古王公递酒。旧时惟满洲一、二品大臣许入座。嘉庆七年，并许一、二品汉大臣与宴。后以为常。讲官与宴者，席于殿之西北隅。十六日，廷臣宴在正大光明殿。满、汉大学士尚书皆与。侍郎亦有命入座者。督、抚、将军人觐在京，或得与宴。如乾隆时之萨载、万福、常青是也。宴次有喜起舞，清语谓之嘛克新。人数曩亦无定，其礼节与除夕保和殿筵宴同。
   New Year banquets: the imperial clan at 奉三無私殿 under Daoguang; Mongol princes on the fifteenth and officials on the sixteenth at 正大光明殿.
+- **E2446** (text, sure): 養吉齋叢錄: whose hand wrote the 正大光明 plaques. author active to 1860s · line 1094 of the corpus file · S202. https://raw.githubusercontent.com/garychowcmu/daizhigev20/master/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%BB%E5%90%89%E6%96%8B%E4%B8%9B%E5%BD%95.txt
+  > 圆明园「正大光明殿」额，世宗御信书。
+  The plaque of the garden's 正大光明殿 is in Yongzheng's hand, agreeing with S05 j80:10a (the corpus copy reads 御信书, probably for 御书).
 - **E0994** (poem, sure): 正大光明: 乾隆八年 poem of the Qianlong Emperor. 乾隆八年 (1743), date from the compilation · p.29 item (10), under 正大光明 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=29
   > 筲三簸用精，圆融如意粒。甜滑自然秔，体借蟾蜍魄。竒传沆瀣英，常留春日意。恰称令宵名，的的星丸皎。
   Poem of the Qianlong Emperor at 正大光明, 1743, on banquets. Year as given by the compilation.
@@ -128,6 +138,12 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 - **E1027** (description, likely): Hérisson: the throne hall, low trust. 1860, published 1886 · pp.311-313 · S246. https://archive.org/details/journalduninter00irigoog
   > Le toit est couvert de ces tuiles jaunes vernissées qu'on fabrique dans la petite ville où nous avons couché hier.
   Seven polished granite steps, two rows of ironwood columns carved with scenes, yellow glazed tile with green edges and green faience dragons at the corners. S02 p.185 n. calls him the least reliable. Other witnesses mention no carved columns. Keep only as a claim.
+- **E2441** (description, likely): Hérisson: the side rooms of the throne hall and the private apartments behind. 1860 (published 1886) · pp.315-317 · S246. https://archive.org/details/journalduninter00irigoog
+  > Derrière la salle du Trône s'étendent, sur un espace immense, au milieu des jardins, les appartements privés, également bondés d'objets d'art et de luxe, mais moins extraordinaires en somme.
+  Two doors at the corners beside the throne lead to small side rooms, the right one to the private apartments; he fills them with gold, enamelled pagodas, European clocks and the emperor's daily objects, then says the private apartments stretch over a large area among gardens behind the hall. Low trust (S02 p.185 n.); keep as a claim, not for form.
+- **E2452** (description, likely): Swinhoe: the gate and audience hall burning, 19 October. 1860 · pp.336-337 · S241. https://archive.org/details/narrativeofnorth00swin
+  > We passed the chief entrance to the Yuen-ming-yuen, and watched [...] the dancing flames curling into grotesque festoons and wreaths, as they twined in their last embrace round the grand portal of the Palace, while the black column of smoke that rose straight up into the sky from the already roof-fallen reception-hall
+  Before sunset on 19 October every place had been fired by the British troops; leaving, Swinhoe saw the main gate in flames and smoke rising from the reception hall behind it, whose roof had already fallen. Peasants' houses next to the walls had caught fire too.
 - **E1007** (description, likely): Later uses of the Main Audience Hall: Dutch embassy 1795, camp in 1860. 1934 · p.77 · S02. https://archive.org/details/historyofpekings00malo
   > Apparently this hall was also used as camp by the British soldiers who burned the Yuan Ming Yuan in 1860 and was the last place to which they set fire.
   Dutch embassy ceremony of 3 February 1795 (Van Braam). British troops camped at the hall in 1860 and burned it last (M'Ghee pp.283-89, cited by Malone). Malone also reports that Gordon bought an imperial throne, not proven to be from this hall.
@@ -140,7 +156,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
   The whole front court district, built 1725, 370 x 310 m. 大宫门 and 出入贤良门 are five-bay gate halls with 卷棚歇山 roofs on the garden's south wall line. 正大光明殿: seven bays by three, all-round gallery, single eave, grey tile, high base, 36.45 x 16 m, with a terrace and four incense burners. Stresses its garden-like, less formal planning.
 - **E1001** (description, sure): 圆明园百景史事分景汇编: 正大光明. 1727-1860 · from p.27, under 正大光明 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=27
   The main audience hall: New Year banquets for Mongol and other princes, examinations of officials, weddings of princesses and birthday rites, with the Macartney gifts recorded in 1793 and the last banquet in the first month of 1860. 正大光明: 447 dated items, 1727-1860, of which 215 poems and 232 court records (Yongzheng, Qianlong, Jiaqing, Daoguang, Xianfeng); recurring themes: banquets, lanterns and fireworks, state papers. First dated 1727, last dated 1860.
-- **E1016** (drawing, sure, search index only): 正大光明殿平面图 (图名: 正大光明白差准底). 不详 · 国家图书馆善本部 样001-4号 · S310. https://www.mhymy.com/dasl/ysltd/10451.html
+- **E1016** (drawing, sure): 正大光明殿平面图 (图名: 正大光明白差准底). 不详 · 国家图书馆善本部 样001-4号 · S310. https://www.mhymy.com/dasl/ysltd/10451.html
   Undated interior plan of the audience hall in ink, 520x210 mm, showing the throne canopy, splayed walls and bookcases. No image here; the site may ask a small payment for the full record.
 - **E1017** (archaeology, sure): 正大光明区域考古勘探报告. n.d. · mhymy 档案史料 12324, free part · S102. https://www.mhymy.com/dasl/12324.html
   Report's opening describes three successive courts from 大宫门 to 正大光明殿, 370 m north-south and 310 m east-west between the 如意门 gates, 114,700 m2 of site and 7,000 m2 of buildings, begun 1725. Gate hall of five bays on a base 21.57 x 11.33 m, 0.77 m high; screen wall 41.6 m long, 204.8 m south of the gate terrace.
@@ -162,6 +178,8 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q46: 正大光明殿 YM01-08
+- Q81: YM01-08
+- Q182: Typology, grand_hall heights
 
 <!-- generated:end -->
 

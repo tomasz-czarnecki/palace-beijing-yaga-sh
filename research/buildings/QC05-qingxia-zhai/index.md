@@ -121,7 +121,7 @@ None of its own.
   Jiaqing and Daoguang poems (1805-1824) show a study on a green pool with a stream, rocks, a small cascade, pines and bamboo, used in summer. From 1850 it is the residence of 如皇贵太妃; Xianfeng's visits are recorded up to 咸丰十年三月, the spring of 1860. 清夏斋: 28 dated items, 1805-1860, of which 11 poems and 17 court records (Jiaqing, Daoguang, Xianfeng); recurring themes: visits to the dowager, escaping the heat, the view. First dated 1805, last dated 1860.
 - **E0626** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 清夏斋. 2020 edition · v4 p.304 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=307
   Two courts side by side on land with a long history (裕亲王's 萼辉园 c. 1687, then 交辉园, 春和园, Prince Cheng's 西爽村 from 1773 to 1799). East is 延寿寺, first 双寿寺, renamed 竹林院 by Jiaqing: front hall three bays, rear hall five. West is 清夏斋: seven-bay 工字 hall, its plaque 凤麟洲 until 1804, with 天临海镜, 镜虹馆 and the cup-floating pavilion 寄情咸畅.
-- **E0628** (drawing, sure, search index only): 寄情咸畅平面图 (清夏斋流杯亭图). 不详 · 国家图书馆善本部 样101-8-1号 · S310. https://www.mhymy.com/dasl/ysltd/7959.html
+- **E0628** (drawing, sure): 寄情咸畅平面图 (清夏斋流杯亭图). 不详 · 国家图书馆善本部 样101-8-1号 · S310. https://www.mhymy.com/dasl/ysltd/7959.html
   Undated plan of the winding-stream pavilion at Qingxia Zhai. No image here; the site may ask a small payment for the full record.
 - **E0629** (drawing, sure, search index only): 清夏斋流杯亭 (page title 寄情咸畅平面图). date unknown · 国家图书馆善本部, 样101-8-1号; ink, light colour, yellow slips, 呈样, 510×505 mm · S42. https://www.mhymy.com/dasl/ysltd/7959.html
   The wine-cup pavilion of 清夏斋: square, 12 square column bases, about 48 stones, throne in the south half, cup stone in the north. Stone seat said to survive (S42 7965).
@@ -144,6 +144,7 @@ None of its own.
 - Q11: Qichun Yuan's thirty scenes
 - Q20: Name variants
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
+- Q147: QC05 清夏斋
 
 <!-- generated:end -->
 

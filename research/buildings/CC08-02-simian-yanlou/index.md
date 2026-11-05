@@ -16,6 +16,7 @@ Changchun Yuan
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.01084, 116.30447. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 26.3 × 7.3 m. S01 plan px / hall scale (S01)
+- **Note:** Round 7 turned the front from 85.6° (S05 j83:12a). (S05, S01)
 - **Plan reader's note:** Square ring of rooms round court x 9576-9667, y 1609-1684. Ring outer x 9549-9688, y 1584-1716. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 9620, 1650 (S01) *(research copy, not public)*

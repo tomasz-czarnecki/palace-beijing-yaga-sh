@@ -39,7 +39,7 @@ Yuanming Yuan
 
 None of its own.
 
-## Texts and drawings (17)
+## Texts and drawings (18)
 
 - **E2334** (text, sure): 日下舊聞考 若帆之阁. 1780s (乾隆 敕撰) · j82:6a-6b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 北逺山村東北度石橋折而西為湛虛翠軒又西為耕雲堂又西為若帆之閣湛虛翠軒東數十武有闗帝廟（圓明園册）臣等謹按若帆之閣下層額曰御風泠然上額曰平臨天境與湛虛翠軒諸額皆御書
@@ -82,7 +82,9 @@ None of its own.
   Begun 1764 within the great north gate: a square two-storey tower of three bays, 安止楼, a square half-in-water pavilion 碧澜亭, 耕云堂 on a rockery, 爽籁居, 湛虚翠轩, a stone bridge and 关帝庙. 耕云堂 survived 1860 and was lost around 1900, say the editors.
 - **E2338** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 若帆之阁. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 若帆之阁, pp.405-414 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.405-414 (10 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E0529** (drawing, likely, search index only): 圆明园总平面图. 乾隆四十至四十二年绘, 改至道光十一年 (1775-1831) · 故宫博物院图书馆 样1704号 · S310. https://www.mhymy.com/dasl/ysltd/9380.html
+- **E2486** (drawing, sure): 若帆之阁立面图 (图名: 四月初一日进内踏勘若帆之阁明瓦古棚排子糙底尺寸). 不详 · 国家图书馆善本部 样032-2-1号 · S310. https://www.mhymy.com/dasl/ysltd/9365.html
+  Rough survey elevation (399x316 mm) with sizes of the 明瓦 (shell-pane) awning frames of 若帆之阁, measured on the first of the fourth month, year not given. Scene built 1764.
+- **E0529** (drawing, likely): 圆明园总平面图. 乾隆四十至四十二年绘, 改至道光十一年 (1775-1831) · 故宫博物院图书馆 样1704号 · S310. https://www.mhymy.com/dasl/ysltd/9380.html
   Large overall base plan of Yuanming Yuan, ink and light colour with pasted slips, 1761x1311 mm, drawn c. 1775-77 and altered until 1831, so its layers must be read apart; at Tianran Tuhua the pool is painted out in white. No image here; the site may ask a small payment for the full record.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
@@ -102,7 +104,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q142: No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th
 
 <!-- generated:end -->
 

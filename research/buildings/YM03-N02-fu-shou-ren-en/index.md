@@ -57,6 +57,8 @@ None of its own.
 
 - Q3: Which state does S01 draw?
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
+- Q78: YM03
+- Q102: Q36 support
 
 <!-- generated:end -->
 

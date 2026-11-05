@@ -25,14 +25,18 @@ Yuanming Yuan
 
 No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
 
-## Pictures (1)
+## Pictures (2)
+
+- **P0035** (likely): 夾鏡鳴琴 Jiajing mingqin [Jouer de la cithare en serrant le miroir] (圓明園四十景, 第35景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28106_of_124%29.jpg
+
+  ![P0035](../../photos/images/P0035.jpg)
 
 - **P0391** (sure): 夹镜鸣琴遗址 20130324.JPG (2013-03-24 16:40:27 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%A4%B9%E9%95%9C%E9%B8%A3%E7%90%B4%E9%81%97%E5%9D%80_20130324.JPG
 
   ![P0391](../../photos/images/P0391.jpg)
 
 
-## Texts and drawings (3)
+## Texts and drawings (4)
 
 - **E1998** (text, sure): 日下舊聞考 夹镜鸣琴. 1780s (乾隆 敕撰) · j82:19b-20b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 别有洞天迤西為夾鏡鳴琴南為聚逺樓東為廣育宫前建坊座後為凝祥殿宫東為南屏晚鐘又東度橋為西山入畫為山容水態夾鏡鳴琴之西為湖山在望為佳山水為洞裏長春（圓圓明園册）臣等謹按夾鏡鳴琴四十景之一額為皇上御書廣育宫奉碧霞元君殿額曰恩光仁照與西山入畫湖山在望佳山水洞裏長春諸額皆世宗御書廣育宫前坊額曰含𢎞光大曰品物咸亨與凝祥殿南屏晩鐘諸額皆皇上御書凝祥殿聫曰茂育恩覃昭聖感資生徳溥配坤元亦御書
@@ -42,6 +46,8 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - **E1999** (description, sure): Scene 35, 夹镜鸣琴 Jiajing Mingqin. 1934 · p.94 · S02. https://archive.org/details/historyofpekings00malo
   > A deep well can still be found on the top of this hill where the water was drawn by workmen to supply the music of the waterfall.
   A pavilion on a bridge on the south side of 福海, overlooking water both ways, near a waterfall running down from a temple-crowned hill. A deep well on the hilltop, seen by Malone, supplied the fall by hand.
+- **E2003** (description, likely): 圆明园五朝御制诗文集注 v3, editors' note on 夹镜鸣琴. 2020 edition · v3 p.54 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=57
+  A Yongzheng scene on the south shore: a double-eaved square bridge-pavilion, with 聚远楼 across the water, and 广育宫 to the east for the goddess 碧霞元君. Then 南屏晚钟, 西山入画 (rebuilt about 1763 as the five-bay 开鉴堂, later 渊渟镜澈), 湖山在望 and others.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 夹镜鸣琴. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -52,7 +58,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Open questions
 
-None that name it.
+- Q140: YM35-01
 
 <!-- generated:end -->
 

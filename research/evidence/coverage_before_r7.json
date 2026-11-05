@@ -1,0 +1,831 @@
+{
+ "commit": "6b27915",
+ "date": "2026-11-05",
+ "note": "Round 7 before: measured on site/reconstruction/data/buildings at HEAD 6b27915, by the coordinator, before any change.",
+ "scenes": {
+  "YM03": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 14,
+   "free_pictures": 12,
+   "texts": 104,
+   "halls": 73,
+   "halls_with_own_evidence": 27,
+   "dimension_figures": 0
+  },
+  "YM01": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 10,
+   "free_pictures": 9,
+   "texts": 41,
+   "halls": 23,
+   "halls_with_own_evidence": 13,
+   "dimension_figures": 0
+  },
+  "YM02": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 52,
+   "halls": 28,
+   "halls_with_own_evidence": 11,
+   "dimension_figures": 0
+  },
+  "YM41": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 0,
+   "texts": 30,
+   "halls": 17,
+   "halls_with_own_evidence": 13,
+   "dimension_figures": 0
+  },
+  "YM32": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 10,
+   "free_pictures": 8,
+   "texts": 27,
+   "halls": 11,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM54": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 3,
+   "free_pictures": 3,
+   "texts": 36,
+   "halls": 0,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "YM29": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 10,
+   "free_pictures": 8,
+   "texts": 19,
+   "halls": 25,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM46": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 31,
+   "halls": 6,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "YM45": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 3,
+   "free_pictures": 1,
+   "texts": 26,
+   "halls": 38,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "YM44": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 31,
+   "halls": 23,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM15": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 30,
+   "halls": 10,
+   "halls_with_own_evidence": 2,
+   "dimension_figures": 0
+  },
+  "YM20": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 45,
+   "halls": 16,
+   "halls_with_own_evidence": 15,
+   "dimension_figures": 0
+  },
+  "YM13": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 6,
+   "texts": 28,
+   "halls": 11,
+   "halls_with_own_evidence": 10,
+   "dimension_figures": 0
+  },
+  "YM09": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 8,
+   "texts": 32,
+   "halls": 17,
+   "halls_with_own_evidence": 10,
+   "dimension_figures": 0
+  },
+  "YM14": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 48,
+   "halls": 33,
+   "halls_with_own_evidence": 15,
+   "dimension_figures": 0
+  },
+  "YM31": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 7,
+   "texts": 37,
+   "halls": 13,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "YM39": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 7,
+   "texts": 13,
+   "halls": 18,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM38": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 7,
+   "texts": 23,
+   "halls": 7,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "YM33": {
+   "wave": 1,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 29,
+   "halls": 11,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM04": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 6,
+   "texts": 27,
+   "halls": 9,
+   "halls_with_own_evidence": 3,
+   "dimension_figures": 0
+  },
+  "YM05": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 6,
+   "texts": 29,
+   "halls": 21,
+   "halls_with_own_evidence": 9,
+   "dimension_figures": 0
+  },
+  "YM06": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 10,
+   "halls": 22,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "YM07": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 9,
+   "free_pictures": 8,
+   "texts": 14,
+   "halls": 8,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "YM08": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 8,
+   "texts": 17,
+   "halls": 5,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "YM10": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 7,
+   "texts": 31,
+   "halls": 15,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM11": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 20,
+   "halls": 15,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "YM12": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 8,
+   "free_pictures": 8,
+   "texts": 75,
+   "halls": 20,
+   "halls_with_own_evidence": 12,
+   "dimension_figures": 0
+  },
+  "YM16": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 17,
+   "halls": 23,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM17": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 9,
+   "free_pictures": 8,
+   "texts": 25,
+   "halls": 18,
+   "halls_with_own_evidence": 13,
+   "dimension_figures": 0
+  },
+  "YM18": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 5,
+   "texts": 41,
+   "halls": 14,
+   "halls_with_own_evidence": 9,
+   "dimension_figures": 0
+  },
+  "YM19": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 12,
+   "halls": 20,
+   "halls_with_own_evidence": 15,
+   "dimension_figures": 0
+  },
+  "YM21": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 21,
+   "halls": 8,
+   "halls_with_own_evidence": 6,
+   "dimension_figures": 0
+  },
+  "YM22": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 12,
+   "halls": 5,
+   "halls_with_own_evidence": 2,
+   "dimension_figures": 0
+  },
+  "YM23": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 5,
+   "texts": 37,
+   "halls": 18,
+   "halls_with_own_evidence": 16,
+   "dimension_figures": 0
+  },
+  "YM24": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 14,
+   "halls": 7,
+   "halls_with_own_evidence": 3,
+   "dimension_figures": 0
+  },
+  "YM25": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 5,
+   "texts": 14,
+   "halls": 12,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "YM26": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 25,
+   "halls": 15,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "YM27": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 38,
+   "halls": 16,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM28": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 40,
+   "halls": 28,
+   "halls_with_own_evidence": 11,
+   "dimension_figures": 0
+  },
+  "YM30": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 38,
+   "halls": 21,
+   "halls_with_own_evidence": 9,
+   "dimension_figures": 0
+  },
+  "YM34": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 9,
+   "free_pictures": 9,
+   "texts": 29,
+   "halls": 22,
+   "halls_with_own_evidence": 10,
+   "dimension_figures": 0
+  },
+  "YM35": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 7,
+   "texts": 11,
+   "halls": 15,
+   "halls_with_own_evidence": 11,
+   "dimension_figures": 0
+  },
+  "YM36": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 7,
+   "free_pictures": 7,
+   "texts": 20,
+   "halls": 14,
+   "halls_with_own_evidence": 9,
+   "dimension_figures": 0
+  },
+  "YM37": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 9,
+   "free_pictures": 8,
+   "texts": 37,
+   "halls": 19,
+   "halls_with_own_evidence": 14,
+   "dimension_figures": 0
+  },
+  "YM40": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 21,
+   "halls": 63,
+   "halls_with_own_evidence": 8,
+   "dimension_figures": 0
+  },
+  "YM47": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 70,
+   "halls": 19,
+   "halls_with_own_evidence": 10,
+   "dimension_figures": 0
+  },
+  "YM48": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 63,
+   "halls": 16,
+   "halls_with_own_evidence": 11,
+   "dimension_figures": 0
+  },
+  "YM49": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 17,
+   "halls": 9,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "YM50": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 12,
+   "halls": 8,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "YM51": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 13,
+   "halls": 6,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "YM55": {
+   "wave": 2,
+   "dossier": false,
+   "pictures": 3,
+   "free_pictures": 3,
+   "texts": 6,
+   "halls": 0,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "CC02": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 10,
+   "free_pictures": 10,
+   "texts": 81,
+   "halls": 33,
+   "halls_with_own_evidence": 17,
+   "dimension_figures": 0
+  },
+  "CC14": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 37,
+   "halls": 14,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "CC04": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 26,
+   "halls": 18,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "CC06": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 4,
+   "free_pictures": 4,
+   "texts": 26,
+   "halls": 6,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "CC13": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 6,
+   "free_pictures": 6,
+   "texts": 67,
+   "halls": 18,
+   "halls_with_own_evidence": 14,
+   "dimension_figures": 0
+  },
+  "CC18": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 40,
+   "halls": 19,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "CC16": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 22,
+   "halls": 8,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "CC15": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 11,
+   "halls": 8,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "CC09": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 9,
+   "halls": 8,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "CC08": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 12,
+   "halls": 7,
+   "halls_with_own_evidence": 4,
+   "dimension_figures": 0
+  },
+  "CC10": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 14,
+   "halls": 6,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "CC01": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 5,
+   "free_pictures": 5,
+   "texts": 16,
+   "halls": 12,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "CC03": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 30,
+   "halls": 17,
+   "halls_with_own_evidence": 10,
+   "dimension_figures": 0
+  },
+  "CC05": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 2,
+   "free_pictures": 2,
+   "texts": 9,
+   "halls": 3,
+   "halls_with_own_evidence": 2,
+   "dimension_figures": 0
+  },
+  "CC07": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 5,
+   "halls": 2,
+   "halls_with_own_evidence": 2,
+   "dimension_figures": 0
+  },
+  "CC12": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 10,
+   "halls": 5,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "CC17": {
+   "wave": 3,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 8,
+   "halls": 3,
+   "halls_with_own_evidence": 3,
+   "dimension_figures": 0
+  },
+  "QC04": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 4,
+   "free_pictures": 4,
+   "texts": 55,
+   "halls": 23,
+   "halls_with_own_evidence": 7,
+   "dimension_figures": 0
+  },
+  "QC08": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 4,
+   "free_pictures": 4,
+   "texts": 17,
+   "halls": 0,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC07": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 2,
+   "free_pictures": 2,
+   "texts": 17,
+   "halls": 2,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC05": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 30,
+   "halls": 7,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC11": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 12,
+   "free_pictures": 11,
+   "texts": 16,
+   "halls": 11,
+   "halls_with_own_evidence": 5,
+   "dimension_figures": 0
+  },
+  "QC01": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 4,
+   "free_pictures": 4,
+   "texts": 12,
+   "halls": 2,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "QC02": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 12,
+   "halls": 3,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC17": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 18,
+   "halls": 9,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC12": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 14,
+   "halls": 7,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "QC13": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 29,
+   "halls": 8,
+   "halls_with_own_evidence": 1,
+   "dimension_figures": 0
+  },
+  "QC14": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 0,
+   "free_pictures": 0,
+   "texts": 14,
+   "halls": 7,
+   "halls_with_own_evidence": 3,
+   "dimension_figures": 0
+  },
+  "QC19": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 1,
+   "free_pictures": 1,
+   "texts": 17,
+   "halls": 15,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  },
+  "QC06": {
+   "wave": 4,
+   "dossier": false,
+   "pictures": 4,
+   "free_pictures": 4,
+   "texts": 31,
+   "halls": 2,
+   "halls_with_own_evidence": 0,
+   "dimension_figures": 0
+  }
+ },
+ "totals": {
+  "scenes_with_dossier": 15,
+  "scenes_with_dossier_note": "the 15 Xiyang Lou buildings only",
+  "halls": 1510,
+  "halls_with_own_evidence": 573,
+  "dimension_figures_by_method": {
+   "a": 29,
+   "b": 183,
+   "c": 164,
+   "d": 23,
+   "e": 31
+  },
+  "dimension_figures_note": "all on the Xiyang Lou (research/xiyanglou/dimensions.csv, 453 rows, 430 on a building)"
+ }
+}

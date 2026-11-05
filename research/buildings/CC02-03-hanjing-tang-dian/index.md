@@ -10,16 +10,17 @@ Changchun Yuan
 
 ## What we know
 
-- **Name:** 含经堂殿 Hanjing Tang dian (S05, S06, S01, S360, S361 · confidence B)
+- **Name:** 含经堂殿 Hanjing Tang dian (S05, S06, S01, S360, S361, S940 · confidence B)
 - **Written on the plan:** 含经堂 (S01 · confidence B)
-- **Garden:** Changchun Yuan (S05, S06, S01, S360, S361)
-- **Type:** other (S05, S06, S01, S360, S361 · confidence B)
-- **Built:** by 1747 (first dated item) (S05, S06, S01, S360, S361)
-- **Destroyed:** 1860 (S05, S06, S01, S360, S361)
+- **Garden:** Changchun Yuan (S05, S06, S01, S360, S361, S940)
+- **Type:** other (S05, S06, S01, S360, S361, S940 · confidence B)
+- **Built:** by 1747 (first dated item) (S05, S06, S01, S360, S361, S940)
+- **Destroyed:** 1860 (S05, S06, S01, S360, S361, S940)
 - **Position:** 40.00812, 116.30734. S01 sure (S01 · confidence B)
-- **Bays:** 7 in the texts / 10x1 on the plan (S05, S06, S01, S360, S361)
+- **Bays:** 7 in the texts / 10x1 on the plan (S05, S06, S01, S360, S361, S940)
 - **Size in the inventory:** 39.7 × 17.2 m. S01 plan px / hall scale (S01)
-- **Note:** S06 says 五楹. bays: 7, double-eaved, glazed (S361, v3 p.244). (S05, S06, S01, S360, S361)
+- **Roof:** 重檐歇山 (double-eave hip-and-gable), 7 bays (S05, S06, S01, S360, S361, S940)
+- **Note:** S06 says 五楹. bays: 7, double-eaved, glazed (S361, v3 p.244). (S05, S06, S01, S360, S361, S940)
 - **Plan reader's note:** Label south, blue 2. About 9 bays on the plan vs 7 in text. Hall x 10494-10658, y 3223-3283. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 10576, 3254 (S01) *(research copy, not public)*
@@ -30,7 +31,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 - **Box:** 36.15 × 12.23 m, grand hall
 - **Heights:** platform 1.22 m, eave 6.34 m, ridge 10.69 m above the ground
-- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
+- **Roof:** hip-and-gable 歇山, double eaves 重檐, grey tile
 - **Faces:** 171.9° from north
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.2 m
 - **Confidence:** B
@@ -39,7 +40,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (21)
+## Texts and drawings (24)
 
 - **E0019** (poem, sure): 御製夏日含經堂詩. 1749 (乾隆十四年) · j83:5b-6a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆十四年御製夏日含經堂詩　鬲軒能却暑邃室亦生凉味道研精義隨時愛景光（用選句）苑禽鳴處樂砌卉吐來芳石鼎閒嘗煮瑶琴靜不張詩吟西蜀杜壁畫輞川王差喜娛清暇還慚致治康
@@ -98,10 +99,16 @@ None of its own.
 - **E0056** (description, likely): 长春园 No.2, 含经堂 Hanjing Tang. 1934 · p.98 · S02. https://archive.org/details/historyofpekings00malo
   > A palace on the large island in the center of the garden which was almost as large as the emperor's private palace in the Yuan Ming Yuan, and contained an inscribed stone tablet to Emperor Yu the Great which had been handed down from several dynasties before the Sung.
   Almost as large as the emperor's own palace in the Yuan Ming Yuan, with an old inscribed tablet. Qianlong is said to have retired here after abdication (Yuan's memorandum, hearsay). Plate p.100: rock garden north of it; p.101 calls it very extensive.
+- **E2497** (description, sure): 紫禁城宁寿宫区与长春园含经堂区建筑关系探讨 (王文涛, 故宫学刊 2015): the 含经堂 layout from the dig. 2015 · pp.358-367 (PDF pp.6-15) · S672. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf
+  From the dig and the archives: the compound is about 300 m north-south by 200 m east-west. Forecourt with three glazed pailou (east, south, west) and four lawns where yurts stood; five-bay gate with a 垂花门 each side; 含经堂 a seven-bay double-eaved hip-and-gable hall with side halls and the towers 霞翥楼 and 梵香楼; 淳化轩 seven by three bays, the largest single building of Changchun Yuan, hip-and-gable (rolled ridge on p.360, glazed on p.361); 蕴真斋 seven bays with front and back porches; 渊映斋 and 涵光室 five-bay hip-and-gable; 三友轩 three bays, measured about 11.1 x 7.2 m on a platform 11.9 x 8.3 m; 静莲斋 five bays; 理心楼 five bays; 待月楼 a three-bay two-storey hip-and-gable tower facing east; 澄波夕照 and 得胜概 three-bay open halls; a two-storey stage 乐奏钧天 with a five-bay viewing hall 神心妙达 rebuilt in mid-Jiaqing. Floor heating survives in five halls. The remains are Qianlong work with some of the 1814 rebuilding, nothing later. 淳化轩 was the model for 乐寿堂 in the 宁寿宫.
 - **E0053** (description, sure): 圆明园百景史事分景汇编: 含经堂. 1747-1810 · from p.277, under 含经堂 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=277
   The 1747 poem is on the newly finished hall. A note of 1777 says the east wing was shelved like 摛藻堂 in the palace for the 四库全书荟要. Most poems are about reading. The compiler captions a poem of 1791 as a feast here, but the poem's own note puts the banquet at 正大光明殿. 含经堂: 34 dated items, 1747-1810, of which 34 poems (Qianlong, Jiaqing); recurring themes: reading, the view, escaping the heat. First dated 1747, last dated 1810.
 - **E0057** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 含经堂. 2020 edition · v3 p.244 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=247
   The largest group in this garden, finished 1747, rebuilt 1770 with 淳化轩, 蕴真斋, 三友轩, 静莲斋, 待月楼 and 理心楼. 含经堂 is a seven-bay double-eaved glazed hall; 霞翥楼 mirrors 梵香楼 and, with the inner plaque 味腴书室, held the 四库全书荟要, which identifies our 味腴书屋. A stage was added east of 淳化轩 in 1814. Guards were still posted after 1860.
+- **E2496** (archaeology, sure): 圆明园长春园含经堂遗址发掘报告: table of contents. 2006 · 目录, 第三章 遗迹 · S990. https://ebook.artron.net/book.php?bookid=61437
+  The full report of the 2001-2003 seasons lists every excavated unit: in the south the three-arch pailou, walls, paths, carved-brick paving and yurt (毡帐) foundations and tree pits in the forecourt, the gate, the 含经堂 court with screen gate, main hall, east and west side halls, 霞翥楼, 梵香楼, galleries and a 垂花门; in the north 淳化轩 with a Taihu rockery before its terrace, 蕴真斋, the north gate and the open hall 得胜概; east 渊映斋, the dressing room and 乐奏钧天 stage, the viewing hall 神心妙达 and the shop street outside; west 涵光室, 三友轩 with its rockery, 静莲斋, 理心楼, 待月楼 and the open hall 澄波夕照 outside; round about duty rooms, stores, a well pavilion, a timber bridge, 明漪潇照, 云容水态 and the octagonal 静缘亭.
+- **E2491** (archaeology, sure): 紫禁城宁寿宫区与长春园含经堂区建筑关系探讨 (王文涛, 故宫学刊 2015). 2015 · pp.358-367 (PDF pp.6-15), figs 4-9, 30-34 · S940. https://www.dpm.org.cn/Uploads/File/2020/03/27/u5e7db6f5d6c90.pdf
+  Compares the Ningshou Gong in the Forbidden City with the Hanjing Tang compound, which Qianlong built in phases from 1745 to 1771 for his retirement. It lists each hall's bays and roof, measures 三友轩 on the ruin, and describes some twenty underfloor heating systems found in the 2001-03 dig, with flue sizes. Figures include Yangshi Lei sheets of 淳化轩 (Qianlong and Jiaqing) at the NLC and the late plan from 金勋's collection.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 含经堂, 10x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

@@ -36,7 +36,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (6)
+## Texts and drawings (7)
 
 - **E2028** (poem, sure): 御製廓然大公八景詩（有序）. 1755 (乾隆二十年) · j82:23b-25a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆二十年御製廓然大公八景詩（有序）　圓明園四十景皆取四字為題各景之中一軒一峯具有幽致日涉成趣正復不窮題以八景系之七言　前接陌桞後臨平湖軒堂翼然虛明洞徹皇考御書題額時有卿雲䕶之廓然大公扁即在後室一泓涵碧頗有物來順應之趣　深桞偏宜羽客嬉會心恰當讀書時（是處昔又名深栁讀書堂）在隂能和寧吾謂好爵還思與爾縻（右雙鶴齋）　循雙鶴齋而西跨湖為橋圓如半璧暎水則為滿月繚以長廊悠然濠濮間想　拖如玉帶曲如鈎上置行廊又似舟仙術何須倩法善往來常作廣寒游（右規月橋）　性之介立為峭文之藻蔚為蒨太沖詩意良足會心　石秀松𬎼各出羣不同同處挹清芬太沖豈務多竒者五字全拈大塊文（右峭蒨居）　面東為樓杜陵句曰半陂以南純浸山動影窈窕沖融間斯樓有焉因迥為高結搆清層樓因得影山名窻中峯作波中態上下明漪最有情（右影山樓）　竒石㟏岈迴互徑出其中烟雲往來披拂襟袖　緑雲叢翠徑縈紆面面深竒步步殊倩得仇英冩生筆定須為作採芝圖（右披雲徑）　機政之餘拈吟適興每遇佳景不覺綺思濬發　逢源左右足深資適興無非把筆時設使古人癖誠有吟之一字我何辭（右綺吟堂）　曲澗奔泉琤琮作金石聲韻出天然是謂雲山韶濩　迸水摐摐下石磯八音繁會太音稀輞川漫擬王家畫虞陛高懐舜手揮（右韻石淙）　山巔笠亭孤標秀出左顧飛瀑右挹雲林盡得此間勝概　詭石蒼松扶翼然氤氲朝暮幻雲烟林光泉韻無非秀都付山亭秀占全（右啟秀亭）
@@ -55,6 +55,8 @@ None of its own.
 - **E2039** (poem, likely): 题双鹤斋. 乾隆二十年 (1755) · v3 p.70, under 廓然大公; source ref 5-366 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=73
   > 翯翯松阴复竹边，双来疑是下青田。参军赋句无须读，弄影奔机意总仙。
   Poem 题双鹤斋 by the Qianlong Emperor, 1755, filed by the editors under 廓然大公.
+- **E2035** (description, likely): 圆明园五朝御制诗文集注 v3, editors' note on 廓然大公. 2020 edition · v3 p.67 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=70
+  Begun under Yongzheng, later a favourite residence: a seven-bay hall with a five-bay annex 双鹤斋. 规月桥, 绮吟堂, 采芝径, 峭蒨居, 影山楼, 环秀山房 follow. Qianlong's rebuild copied 寄畅园, and the rockwork copied his Panshan villa. It survived 1860 and was lost around 1900, say the editors.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 双鹤斋, 5x2 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -68,7 +70,8 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q94: YM09 and YM33
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
 
 <!-- generated:end -->
 

@@ -37,7 +37,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (2)
+## Texts and drawings (3)
 
 - **E1327** (text, sure): 日下舊聞考 坦坦荡荡. 1780s (乾隆 敕撰) · j81:2b-3a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 杏花春館之西度碧瀾橋為坦坦蕩蕩三楹前宇為素心堂後宇為光風霽月堂東北為知魚亭又東北為萃景齋西北為雙佳齋（圓明園冊）臣等謹按坦坦蕩蕩四十景之一也額為皇上御書聨曰源頭句詠朱夫子池上居同白樂天素心堂内額曰清虚靜泰與光風霽月萃景齋諸額皆御書知魚亭及雙佳齋額世宗御書萃景齋石上刋御製坦坦蕩蕩詩
@@ -45,6 +45,8 @@ None of its own.
 - **E1332** (description, sure): Scene 10, 坦坦荡荡 Tantan Dangdang, the Tank. 1934 · p.80 · S02. https://archive.org/details/historyofpekings00malo
   > A rectangular tank with a building in the middle of it, called Kuang Feng Chai Yueh, or Bright Wind and Narrow Moon, approached by bridges from all four sides, distinguishes this island.
   A rectangular fish tank with 光风霁月 in the middle, bridged on all four sides. The stocking with big red goldfish is Malone's inference ("no doubt"), not a report.
+- **E1333** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 坦坦荡荡. 2020 edition · v2 p.44 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=47
+  The goldfish pool on the west shore: gate hall of five bays 素心堂 with a three-bay annex, 半亩园 east, 澹怀堂 west, 知鱼亭, 萃景斋, 双佳斋, and the five-bay 光风霁月 in mid-pool.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 光风霁月, 5x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 

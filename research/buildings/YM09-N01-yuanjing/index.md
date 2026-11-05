@@ -1,6 +1,6 @@
 <!-- generated:start (scripts/building_pages.py): do not edit between these markers -->
 
-# YM09-N01: ?镜
+# YM09-N01: 渊镜 Yuanjing
 
 Yuanming Yuan
 
@@ -10,10 +10,11 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** ?镜 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S01)
-- **Type:** other (S01 · confidence B)
-- **Destroyed:** 1860 (S01)
+- **Name:** 渊镜 Yuanjing (S01, S361 · confidence B)
+- **Written on the plan:** ?镜 (S01 · confidence B)
+- **Garden:** Yuanming Yuan (S01, S361)
+- **Type:** other (S01, S361 · confidence B)
+- **Destroyed:** 1860 (S01, S361)
 - **Position:** 40.00588, 116.28828. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 6.7 × 8.5 m. S01 plan px / hall scale (S01)
 - **Plan reader's note:** Concentric square on the ridge top, rect=28,28,0. Label (2689,3336), first char 洞 or 閒. May be the 屏岩 of S41 (small city gate on top), unproven (S01) *(research copy, not public)*

@@ -64,7 +64,7 @@ The Drill Field (Hills High and Waters Long) · Yuanming Yuan
   ![P0522](../../photos/images/P0522.jpg)
 
 
-## Texts and drawings (30)
+## Texts and drawings (31)
 
 - **E1515** (poem, sure): 御製山髙水長詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:18a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製山髙水長詩 在園之西南隅地勢平衍構重樓數楹每一臨瞰逺岫堆鬟近郊錯繡曠如也為外藩朝正錫宴陳魚龍角觝之所平時宿衞士於此較射 重構枕平川湖山萬景全時觀君子徳式命上賓筵湛露今推惠彤弓古尚賢更殷三接晉内外一家連
@@ -117,6 +117,8 @@ The Drill Field (Hills High and Waters Long) · Yuanming Yuan
   Temporary altars too: Jiaqing set a rain altar at 山高水长 in the sixth month of 1812, Yongzheng a travel altar under the new 太平台 behind 深柳读书堂, and Xianfeng paid respects at 奉三无私.
 - **E1528** (description, sure): 圆明园山高水长武帐宴探析. 2015 · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/wxda/6437c7cd02cc4108910a6d1f7014a16b.htm
   From archives, poems and the Manchu 夷使档: from Yongzheng, 山高水长 Shangao Shuichang, in the south-west corner, was where Mongol nobles were received, in a great tent feast. It follows the staging of the banquet for Dzungar envoys under Qianlong.
+- **E2465** (description, sure): 山高水长平面图 (record text). record 2020-22 · mhymy dasl/ysltd/7326 · S310. https://www.mhymy.com/dasl/ysltd/7326.html
+  Record on 山高水长 (the 西厂): the field c. 460 x 280 m, 12.88 ha, building area c. 2,500 m2; used for banquets for Mongol and other princes, archery, and the Lantern Festival fireworks. No drawing number in the free part.
 - **E1530** (description, likely): 圆明园蒙古包形制考. 2020-07-30 · 圆明园官网 yjbg t20200730_4416789 · S338. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/t20200730_4416789.html
   Studies three types of court yurt used in the garden, from texts and court paintings. Relevant to the tents at 山高水长.
 - **E0512** (description, likely): 朱强, 圆明园核心功能景区的园林化特征试析, 圆明园研究 (issue page dated 2026-02-03). 2026-02-03 · xs/ktsb/202602/t20260203_4804592; abstract read · S338. https://www.yuanmingyuanpark.cn/xs/ktsb/202602/t20260203_4804592.html
@@ -129,14 +131,14 @@ The Drill Field (Hills High and Waters Long) · Yuanming Yuan
   South-west corner: a tower facing the Western Hills, flat open ground. Where envoys were feasted, guards shot, and fireworks were shown at the lantern festival.
 - **E1453** (description, likely, search index only): 圆明园新证—万方安和考, 端木泓. n.d. · journal article, earlier fetch · S357. 
   Reads 万方安和 as a Buddhist cosmic diagram: the 万字房 at its heart, the 十字亭 as a node, and the long hall of 山高水长 as an answering stroke. Only the abstract was seen; no stable link kept.
+- **E1534** (drawing, sure): 山高水长楼平面图. 道光十一年 (1831) · 国家图书馆善本部 样018-4-1号 · S310. https://www.mhymy.com/dasl/ysltd/11498.html
+  Record titled as a plan of the 山高水长 Shangao Shuichang tower; its list card only introduces the scene, so the sheet's date and state were not seen because the record page refused this server.
 - **E1532** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 山高水长. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 山高水长, pp.157-172 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.157-172 (16 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1533** (drawing, sure, search index only): 山高水长楼平面图. S310. https://www.mhymy.com/special/yslt
-  Plan of the Shangao Shuichang tower, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
-- **E1534** (drawing, sure, search index only): 山高水长楼平面图. ysltd/11498 (topic list card only; 排架 not seen) · S310. https://www.mhymy.com/dasl/ysltd/11498.html
-  Record titled as a plan of the 山高水长 Shangao Shuichang tower; its list card only introduces the scene, so the sheet's date and state were not seen because the record page refused this server.
-- **E1535** (drawing, sure, search index only): 引见楼前蒙古包及焰火布置平面图. 乾隆年间 · 国家图书馆善本部 样018-1号 · S310. https://www.mhymy.com/dasl/ysltd/9779.html
+- **E1535** (drawing, sure): 引见楼前蒙古包及焰火布置平面图. 乾隆年间 · 国家图书馆善本部 样018-1号 · S310. https://www.mhymy.com/dasl/ysltd/9779.html
   Qianlong-period base plan of seven Mongol tents and the fireworks set up before the tower at Shangao Shuichang, 656x405 mm, ink and light colour. No image here; the site may ask a small payment for the full record.
+- **E1533** (drawing, sure, search index only): 山高水长楼平面图. S310. https://www.mhymy.com/dasl/ysltd/7326.html
+  Plan of the Shangao Shuichang tower, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 - **E1536** (archaeology, sure): 十三所: surveyed 1994. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html
   The 1994 survey names 十三所 as one of three sites probed, with 藻园 and 山高水长. The paying part of the report holds the results: not read. The same words in the texts row are tied to YM73 and YM15; here to the hall YM15-02.
 - **E2263** (archaeology, sure): 圆明园藻园遗址考古发掘报告. survey from 1994-08-31 · mhymy 档案史料 11828, free part · S156. https://www.mhymy.com/dasl/11828.html
@@ -164,6 +166,10 @@ Modern interpretation, not evidence.
 
 - Q8: Known errors of S01
 - Q26: Forms
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q119: Digs
+- Q125: Geotagged Commons coverage is thin
+- Q129: The brief says the album views are roughly from the south
 
 <!-- generated:end -->
 

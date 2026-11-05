@@ -68,7 +68,7 @@ Ju Ku Han Chin (Seize the Old; It Contains the Present) · Yuanming Yuan
   ![P0378](../../photos/images/P0378.jpg)
 
 
-## Texts and drawings (20)
+## Texts and drawings (21)
 
 - **E1347** (poem, sure): 御製茹古涵今詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:4a-4b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製茹古涵今詩 長春仙館之北嘉樹叢卉生香蓊葧繚以曲垣綴以周廊邃館明忩牙籖萬軸潄芳潤擷菁華不薄今人愛古人少陵斯言實獲我心 廣厦全無薄暑憑灑然心鏡玉壺氷時温舊學寜無説欲去陳言尚未能鳥語花香生静悟松風水月得佳朋今人不薄古人愛我愛古人杜少陵
@@ -119,10 +119,12 @@ Ju Ku Han Chin (Seize the Old; It Contains the Present) · Yuanming Yuan
   For books and study: a seven-bay gate, five-bay front hall, and 韶景轩, five bays on each of four sides with four plaques, then 茂育斋, 竹香斋, 静通斋.
 - **E1359** (description, sure, search index only): 茹古涵今 scene card. n.d. · mhymy jqjs 3851 · S340. https://www.mhymy.com/ymss/jqjs/3851.html
   Also called 韶景轩, south of 坦坦荡荡, 9,000 m2 with a dense 3,300 m2 of buildings, around a large square hall of the same name.
+- **E2476** (drawing, sure): 韶景轩室内装修平面图 (图名: 韶景轩). 不详; record suggests 嘉庆二十四年 (1819) · 国家图书馆善本部 样023-3号 · S310. https://www.mhymy.com/dasl/ysltd/10403.html
+  Two-storey interior plan of 韶景轩 (茹古涵今), 258x245 mm, red and ink, working sheet; a paste-over shows the upper floor. A square central void with a gallery all round upstairs, four-leaf doors in the north and south central bays, a two-flight L-shaped stair in the west. The record ties it to the 1819 order 揭瓦大亭，更改装修.
+- **E1360** (drawing, sure): 茹古涵今总平面图. 道光十一至二十年 (1831-1840) · 国家图书馆善本部 样023-1号 · S310. https://www.mhymy.com/dasl/ysltd/10408.html
+  Base plan of the Rugu Hanjin scene, also called Shaojing Xuan 韶景轩, 1831-40. No image here; the site may ask a small payment for the full record.
 - **E1361** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 茹古涵今. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 茹古涵今, pp.115-125 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.115-125 (11 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1360** (drawing, sure, search index only): 茹古涵今总平面图. 道光十一至二十年 (1831-1840) · 国家图书馆善本部 样023-1号 · S310. https://www.mhymy.com/dasl/ysltd/10408.html
-  Base plan of the Rugu Hanjin scene, also called Shaojing Xuan 韶景轩, 1831-40. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 茹古涵今. https://artmuseum.princeton.edu/collections/objects/138657
 

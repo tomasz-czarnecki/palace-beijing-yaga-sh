@@ -2,7 +2,7 @@
 
   uv run python tools/check_evidence.py
 
-Reads what the panel reads: site/reconstruction/data/buildings/<ID>.json. "Own" counts what is tied to the object itself; "inherited" counts its own or what reaches it through `fallback` (compound, garden, class of hall). A plan reference is evidence too, and is counted apart, because it is the weakest kind. "Before" comes from research/evidence/coverage_before_r5.json, measured at commit 5fbd637. The Xiyang Lou section counts pictures per building and per side against research/evidence/coverage_before_r6.json (commit 3fa83a0), and dimension figures by method; it fails on a main building with no dossier or no dimension sheet, a picture in research/xiyanglou/views.csv missing from the catalogue, a figure with no method or source, or a picture on the public page that is research-only.
+Reads what the panel reads: site/reconstruction/data/buildings/<ID>.json. "Own" counts what is tied to the object itself; "inherited" counts its own or what reaches it through `fallback` (compound, garden, class of hall). A plan reference is evidence too, and is counted apart, because it is the weakest kind. "Before" comes from research/evidence/coverage_before_r5.json, measured at commit 5fbd637. The Xiyang Lou section counts pictures per building and per side against research/evidence/coverage_before_r6.json (commit 3fa83a0), and dimension figures by method; it fails on a main building with no dossier or no dimension sheet, a picture in research/xiyanglou/views.csv missing from the catalogue, a figure with no method or source, or a picture on the public page that is research-only. The scenes section (Round 7) counts, per scene and compound with a dossier in research/scenes/, pictures, texts, halls with evidence of their own and dimension figures by method against research/evidence/coverage_before_r7.json (commit 6b27915); it fails on a scene with no dossier or no dimension sheet, a figure with no method, source or row, a picture in research/scenes/views.csv missing from the catalogue, a public scene with no page, or a research-only picture or path on a scene page.
 """
 
 import csv
@@ -100,6 +100,69 @@ def xiyang_lou(catalog, problems):
         for word in ("research/raw", "/_local/", "/opt/"):
             if word in text:
                 problems.append(f"{page}: {word}")
+
+
+def scenes(catalog, problems):
+    """Round 7: every scene and compound outside the Xiyang Lou with a dossier, before and after."""
+    sc = ROOT / "research/scenes"
+    before = json.load(open(ROOT / "research/evidence/coverage_before_r7.json", encoding="utf-8"))
+    about = {k: v for k, v in json.load(open(sc / "about.json", encoding="utf-8")).items() if not k.startswith("_")}
+    rows = {r["id"]: r for r in csv.DictReader(open(ROOT / "research/buildings.csv", encoding="utf-8", newline=""))}
+    dims = list(csv.DictReader(open(sc / "dimensions.csv", encoding="utf-8", newline="")))
+    views = list(csv.DictReader(open(sc / "views.csv", encoding="utf-8", newline="")))
+    known = {r["photo_id"] for r in catalog}
+    for v in views:
+        if v["photo_id"] not in known:
+            problems.append(f"scenes/views.csv: {v['photo_id']} is not in the catalogue")
+    for d in dims:
+        if d["method"] not in tuple("abcde") or not d["source_id"]:
+            problems.append(f"scenes/dimensions.csv: {d['id']} {d['part']} {d['what']}: no method or no source")
+        if d["id"] not in rows:
+            problems.append(f"scenes/dimensions.csv: {d['id']} is not a row of buildings.csv")
+    children = {}
+    for r in rows.values():
+        if r["parent_id"]:
+            children.setdefault(r["parent_id"], []).append(r["id"])
+    total = {m: 0 for m in "abcde"}
+    new = {m: 0 for m in "abcde"}
+    own_before = own_now = 0
+    print("Scenes, before -> now: pictures (free), texts, halls with their own evidence, figures by method (from research):")
+    for sid, a in about.items():
+        folder = next(iter(sc.glob(f"{sid}-*/")), None)
+        if not folder or not (folder / "README.md").exists() or not (folder / "dimensions.json").exists():
+            problems.append(f"{sid}: no dossier or no dimension sheet")
+            continue
+        sheet = json.load(open(folder / "dimensions.json", encoding="utf-8"))
+        page = load(sid)
+        own = sum(1 for c in children.get(sid, []) if load(c)["photos"] or load(c)["evidence"])
+        old = before["scenes"].get(sid, {})
+        by = sheet["by_method"]
+        mine = [d for d in dims if d["id"].split("-")[0] == sid]
+        nb = {m: sum(d["method"] == m for d in mine) for m in "abcde"}
+        for m in "abcde":
+            total[m] += by[m]
+            new[m] += nb[m]
+        own_before += old.get("halls_with_own_evidence", 0)
+        own_now += own
+        if a["wave"] == 1 or a.get("public"):
+            print(f"  {sid} {a['zh']}: pictures {old.get('pictures', 0)} -> {len(page['photos'])} ({sum(1 for p in page['photos'] if not p.get('link_only'))}); texts {old.get('texts', 0)} -> {len(page['evidence'])}; halls own {old.get('halls_with_own_evidence', 0)} -> {own} of {len(children.get(sid, []))}; figures " + " ".join(f"{m} {by[m]}" + (f" ({nb[m]})" if nb[m] else "") for m in "abcde") + (" · public page" if a.get("public") else ""))
+        if a.get("public"):
+            for f in (SITE / "scenes" / sid / "index.html", SITE / "zh/scenes" / sid / "index.html"):
+                if not f.exists():
+                    problems.append(f"{sid}: public, and {f.relative_to(ROOT)} is missing")
+        if not page.get("dossier"):
+            problems.append(f"{sid}: its panel has no link to the dossier")
+    print(f"Scenes: dossiers {before['totals']['scenes_with_dossier']} (Xiyang Lou only) -> {before['totals']['scenes_with_dossier'] + len(about)} ({len(about)} scenes and compounds), public pages {sum(1 for a in about.values() if a.get('public'))}; their halls with evidence of their own {own_before} -> {own_now}; figures outside the Xiyang Lou 0 -> {sum(total.values())} {total}, from research {sum(new.values())} {new}, the rest measured on the traced layers")
+    bad = {r["photo_id"] for r in catalog if r["rights_class"] != "free"}
+    recons = {r["recon_id"]: r for r in csv.DictReader(open(ROOT / "research/reconstructions/catalog.csv", encoding="utf-8", newline=""))}
+    bad |= {k for k, r in recons.items() if r["rights_class"] != "free"}
+    for page in list((SITE / "scenes").rglob("*.html")) + list((SITE / "zh/scenes").rglob("*.html")):
+        text = page.read_text(encoding="utf-8")
+        for pid in set(re.findall(r"reconstruction/photos/([PR][0-9]{4})", text)) & bad:
+            problems.append(f"{page.relative_to(ROOT)}: {pid} is research-only and shows an image")
+        for word in ("research/raw", "/_local/", "/opt/"):
+            if word in text:
+                problems.append(f"{page.relative_to(ROOT)}: {word}")
 
 
 def main():
@@ -233,6 +296,7 @@ def main():
     print(f"Reconstructions: {len(recons)}, free {sum(r['rights_class'] == 'free' for r in recons)}, {shown_recon} on the site, with a local copy {sum(bool(r['local_copy']) for r in recons)}, kept off the panels {sum(not r['shows'] for r in recons)}; by kind {dict(sorted(who.items()))}.")
     print(f"Twins: {len(twins)} pairings on {len({t['object_id'] for t in twins})} objects or classes; with a picture {len({tid for r in catalog if r['relation'].startswith('twin:') for tid in r['relation'][5:].split(';')})}; pictures {sum(r['relation'].startswith('twin:') for r in catalog)}.")
     xiyang_lou(catalog, problems)
+    scenes(catalog, problems)
     for p in problems[:40]:
         print("FAIL", p)
     if len(problems) > 40:

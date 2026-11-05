@@ -16,7 +16,7 @@ Yu Yueh Yo Fei (Fishes Leap and Birds Fly) · Yuanming Yuan
 - **Destroyed:** 1860; on the 1873 survival list (S06); survived 1860; later loss; survived 1860; lost around 1900 (S05, S02, S08, S06, S01, S337, S360, S361, S310)
 - **Position:** 40.01186, 116.29262. S01 sure (S01 · confidence B)
 - **Storeys:** 2 (S05, S02, S08, S06, S01, S337, S360, S361, S310)
-- **Note:** S06 also misprints 鱼跃莺飞. pyramidal (four-sided) (S360, p.250 lead). (S05, S02, S08, S06, S01, S337, S360, S361, S310)
+- **Note:** S06 also misprints 鱼跃莺飞. pyramidal (four-sided) (S360, p.250 lead). after1860: survived 1860 (刘敦桢's list) (S337, E0451). (S05, S02, S08, S06, S01, S337, S360, S361, S310)
 - **Plan reader's note:** Big 6x5 hall on a promontory, stream bending round: matches Malone 25. Rocks and crescent screen SE. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 4774, 646 (S01) *(research copy, not public)*
@@ -103,7 +103,7 @@ Yu Yueh Yo Fei (Fishes Leap and Birds Fly) · Yuanming Yuan
 - **E1745** (description, sure, search index only): 鱼跃鸢飞; 西峰秀色; 鸿慈永祜; 日天琳宇; 汇芳书院; 蓬岛瑶台; 廓然大公 (search-index text). n.d. · mhymy jqjs, tag and ysltd pages · S340. https://www.mhymy.com/ymss/jqjs/ymy
   Short notes: 鱼跃鸢飞 inside 大北门, Yongzheng, about 2,500 m2; 西峰秀色 on an islet north of 舍卫城, 1728, open only west toward the hills; 安佑宫 1740-43, its marble columns now at Peking University and the National Library; 日天琳宇 the 佛楼, early Yongzheng; 汇芳书院 1742; 廓然大公 320 x 160 m, lost in 1900.
 - **E1746** (drawing, sure, search index only): 鱼跃鸢飞总平面图 (图名: 鱼跃鸢飞尺寸). 乾隆四十年之后, 道光十一年之前 · 国家图书馆善本部 样045-1号 · S310. https://www.mhymy.com/dasl/ysltd/11992.html
-  Ink base plan with measurements of the Yuyue Yuanfei scene, 839x577 mm, between 1775 and 1831. No image here; the site may ask a small payment for the full record.
+  Sheet titled 鱼跃鸢飞尺寸 (839x577 mm, 底样, after 1775 and before 1831, 样045-1号) but, per the record, it writes only 五十七丈七尺七寸 (184.9 m) at the north-west and north-east corners and some plank-bridge sizes; no building sizes.
 
 **On the plan:** Its place is drawn on the plan of the gardens (S01), with no name written. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -122,6 +122,7 @@ Modern interpretation, not evidence.
 - Q20: Name variants
 - Q47: How much burned, and when
 - Q54: Timber buildings standing in 1882 (Round 5)
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
 
 <!-- generated:end -->
 

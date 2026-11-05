@@ -22,6 +22,7 @@ The playbook drawn from this project, the Old Summer Palace before 1860, and its
 | 10 | Evidence hunt | every object as a list | `research/photos/catalog.csv`, `research/evidence/` | `scripts/photos_catalog.py`, `scripts/apply_facts.py`, `tools/check_evidence.py` | 102 min |
 | 11 | Twins and others' reconstructions | every object, its evidence | `research/twins/`, `research/reconstructions/` | `scripts/building_pages.py`, `tools/check_evidence.py`, `tools/serve_local.py` | 101 min |
 | 12 | A deep dive, ready for models | the famous part, its pictures | `research/xiyanglou/`, `site/xiyanglou/` | `scripts/xiyanglou_dossiers.py`, `scripts/xiyanglou_page.py`, `scripts/boxes1860.py` | see the rounds' log |
+| 13 | The same, for the whole site, breadth first | every compound, the catalogues | `research/scenes/`, `site/scenes/` | `scripts/scenes_dossiers.py`, `scripts/scenes_page.py`, `scripts/apply_facts.py` | 8 workers 35-40 min, then 3 more 12-30 min; about 1 h 45 min by the clock |
 
 Phases 3 to 6 ran together as one round, 142 min. Phases 7 to 9 ran as one round, 30 min. Next come detailed models, which here have not started (`models/README.md`); phase 12 picks what to model first and gives it its numbers.
 
@@ -128,6 +129,20 @@ Breadth leaves the famous part as thin as the rest. Before modelling, take the p
 8. **A public page from the dossiers,** generated, so it stays in step, with a key plan drawn from your own layers.
 9. **Verify before it goes public.** A worker with no part in writing the text checks each sentence against the source cited, and marks it held, changed or not verifiable. Here 195 checks gave 33 changes: a throne platform called lost that stands, a gate called rebuilt that nobody has seen, one side of a dispute given as fact, a search extract stated as a dig report. Do this after any prose written from workers' notes.
 
+### 13. Breadth dossiers: every compound, scene by scene
+
+Once the famous part has its dossiers, everything else still shows its compound's fallback. Do the same for the whole site, in waves by fame, with a dossier for every compound even where little is known: here 81 scenes and compounds in four waves.
+
+1. **Generate the dossier from what you hold, before any research.** `scripts/scenes_dossiers.py` writes a full dossier for every compound from the inventory and the catalogues alone: halls with sizes and fronts, evidence per hall, pictures, texts, reconstructions, questions, wishes. Research then fills hand-edited sheets beside it (`about.json`, `halls.csv`, `dimensions.csv`, `views.csv`, `digs.csv`, `interior.csv`), and nothing is ever blank: an empty section says "not written yet", and what the catalogues hold stands below it.
+2. **Split by source, not by scene,** with the waves inside each worker: texts (two workers), drawings, digs and studies, today's photographs (the only one on Commons), the period pictures read for a modeller, and two breadth workers for the minor gardens. Every worker cites the catalogue rows by id, so the dossier text links to the evidence the panel shows.
+3. **Read the album leaves hall by hall.** One worker, local images only, enlarged crops on a grid: bays, storeys, roof form, tile colour, columns, for every hall it can tie by position. It gave the roofs of all 40 scenes, which the typology had sampled on two leaves, and it tied 66 pictures to halls. Its finding that the 1887 lithograph re-cuts the 1745 woodcuts tree for tree took one side-by-side crop.
+4. **Take the Qing figures as written.** Yangshi Lei slips write 丈尺: record the original, the 营造尺 used (0.32 m) and the metres, method a. A plan of a later repair (here Tongzhi's, 1873-74) is a later source for the target state: grade it B, never A, however exact its figures.
+5. **Let figures correct the inventory through facts,** not by hand: a hall's overall frontage and depth from a method-a figure replace the plan's estimate (`apply_facts.py`), a text that says which way a hall faces turns an assumed front (only a half turn; a quarter turn is a question). Rebuild the rows from their inputs (`build_r1.py`, then `apply_facts.py`) every time the facts change, so a trial run leaves nothing behind.
+6. **Measure what you can by script:** each scene's outline, its islands and the water inside it, on your own traced layers (method b, status `run`), counted apart from the figures research brought.
+7. **The typology check comes free** once figures carry a method: compare the measured halls with the class defaults by script and propose, don't apply. Here the residential "grand halls" stood 0.6-1 m lower in the column than the audience hall the default was taken from.
+8. **Public pages only for the best documented,** by a stated score and two rules a reader would expect (at least one free picture, enough text), and a hub listing every dossier so each panel can link to its summary.
+9. **Check every sentence before it goes public,** by workers who did not write it, and keep the checks (`research/scenes/checks.csv`). Here 275 sentences: 154 held, 116 changed, 5 not verifiable. The same workers then wrote the zh drafts from the corrected text.
+
 ## The data model
 
 **Hand-offs are plain files,** each step reading the last one's output:
@@ -218,6 +233,7 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - Round 5: Duke, Harvard's API, Gallica's SRU, the Library of Congress, Getty, and most of mhymy.com. Q62 has the full list; `research/wishlist.md` says who could open them by hand.
 
 - Round 6: Duke, Gallica's SRU, Smithsonian, the Library of Congress, Harvard, Yale, Manchester's LUNA, the British Museum, NYPL's item pages and most of mhymy.com, by bot check or refused connection; Commons' image host answered 429 with Retry-After 600 twice. Public IIIF manifests and Manchester Digital Collections answered where the portals did not. Fetch at 1280 px, one every 6 s.
+- Round 7: mhymy.com answered all day, one request every 6 s, about 95 record pages: catalogue header and introduction free, slips and images behind a reply wall or payment, so 70 Yangshi Lei rows moved from search summary to viewed but most 丈尺 stay out of reach. yuanmingyuanpark.cn timed out on 38 of 39 pages for ten minutes, then answered. Commons answered 429 seven times; it is exhausted for these scenes, and Openverse (20 results a page, not 50) reached free Flickr sets that Commons lacked. Not tried, as asked: Duke, Harvard, the Royal BC Museum. Web searches: 61 by the workers' own counts, well inside the budget.
 
 **The wishlist is a deliverable.** What, what it would replace, where it is held, how to ask (`research/wishlist.md`).
 
@@ -295,6 +311,9 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Workers' shorthand in public text.** Clean notes by rule and view real panels. File names as titles, and the same work tied twice at two grades, showed up only in screenshots.
 - **Boxes fighting the plan.** At full hall scale 315 pairs overlap. Reduce towards the drawn size first, then move at most 2 m, and report what is left (Q34).
 - **Views that look wrong:** the outer plain hid the water, land colours skipped colour conversion, labels too small, wall tops through low roofs. Only viewing screenshots catches these.
+- **Two facts on one row.** The first stated size changed `size_source`, so the second was taken for a conflict and noted: three rows of earlier rounds (YM34-03, YM34-04, YM36-02) had lost their depth that way. Fixed in `apply_facts.py`; check every rule that reads a field it also writes.
+- **A merge of two readings.** Two workers read the same labels at 九洲清晏, one merging a row, one keeping it; the merge would have taken a box away from a hall that had one. Where workers disagree the row stays, the doubt is written down, and `boxes1860.py` stops on a merge into a row with no box.
+- **Tall screenshots repeat themselves.** Past about 8000 px the headless capture here tiled the top of the page again, and lazy images stayed blank. Scroll the page first, capture in segments from the same load, stitch (`docs/rounds/common/palace_r7_shots.js`). Headless Chromium has no Chinese font: point fontconfig at the Noto files.
 - **Generators that must be idempotent.** `scripts/building_pages.py` writes only if changed, and `tools/check_pages.py` runs it twice and compares.
 - **Clean URLs break relative links.** With `trailingSlash: false`, `/reconstruction` has no slash: links need to work on both.
 - **Size.** At Round 3 `site/` was 106 MB, `research/photos/images/` 161 MB, `.git` 267 MB; after Round 6 `site/` is about 150 MB and `research/photos/images/` about 240 MB. Round 3 cut new images to 1600 px and about 300 KB. Check the host's limits before setting one up.

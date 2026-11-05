@@ -1,0 +1,77 @@
+{
+ "id": "YM15",
+ "name": "山高水长 Shangao Shuichang",
+ "by_method": {
+  "a": 1,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "YM15",
+   "part": "Mongol tents in front of the 山高水长 tower",
+   "what": "diameter",
+   "label": "Diameter",
+   "value": 24.0,
+   "err": 1.0,
+   "unit": "m",
+   "method": "a",
+   "confidence": "B",
+   "source": "S310",
+   "locator": "NLC 样018-1 (乾隆), via mhymy 9779",
+   "snippet": false,
+   "key": true,
+   "scale": "metres as printed"
+  },
+  {
+   "id": "YM15",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 93.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM15",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 36.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM15",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 2400.0,
+   "err": 200.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  }
+ ]
+}

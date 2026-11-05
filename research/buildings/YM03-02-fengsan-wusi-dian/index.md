@@ -10,15 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 奉三无私殿 Fengsan Wusi Dian (S05, S41, S43, S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S41, S43, S01)
-- **Type:** other (S05, S41, S43, S01 · confidence B)
-- **Changed:** After 1836 fire (S41); theatre repaired 1852 (S43) (S05, S41, S43, S01)
-- **Destroyed:** 1860 (S05, S41, S43, S01)
+- **Name:** 奉三无私殿 Fengsan Wusi Dian (S05, S41, S43, S01, S02 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S41, S43, S01, S02)
+- **Type:** other (S05, S41, S43, S01, S02 · confidence B)
+- **Changed:** After 1836 fire (S41); theatre repaired 1852 (S43) (S05, S41, S43, S01, S02)
+- **Destroyed:** 1860 (S05, S41, S43, S01, S02)
 - **Position:** 40.00339, 116.29032. S01 likely (S01 · confidence B)
-- **Bays:** 7 in the texts / 6x1 on the plan (S05, S41, S43, S01)
+- **Bays:** 7 in the texts / 6x1 on the plan (S05, S41, S43, S01, S02)
 - **Size in the inventory:** 26.8 × 10.9 m. S01 plan px / hall scale (S01)
-- **Note:** Forty Scenes album kept here from 1747 (S41). Theatre: outdoor (S43 n.6). (S05, S41, S43, S01)
+- **Note:** Forty Scenes album kept here from 1747 (S41). Theatre: outdoor (S43 n.6). bays: 7, facing a wide courtyard north of 圆明园殿 (S02, p.79). (S05, S41, S43, S01, S02)
 - **Plan reader's note:** 奉三无私殿: first hall north of 圆明园殿 across the wide court; 7 bays match, Malone p.79 a large building of seven chien. Very faint vertical ghost characters in the court south of it, end looks like 殿; not legible (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3301, 4678 (S01) *(research copy, not public)*
@@ -34,11 +34,14 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0003** (likely): 九州清晏 Jiuzhou qingyan [Paix sur les Neufs Continents] (圓明園四十景, 第3景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E4%B9%9D%E5%B7%9E%E6%B8%85%E6%99%8F_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Jiuzhou_qingyan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083441.jpg
 
-## Texts and drawings (13)
+  ![P0003](../../photos/images/P0003.jpg)
+
+
+## Texts and drawings (14)
 
 - **E1129** (text, sure): 日下舊聞考 九洲清晏. 1780s (乾隆 敕撰) · j80:20b-23b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_080.txt
   > 正大光明後有湖亦稱前湖湖正北為圓明園殿五楹後為奉三無私殿七楹又後為九州清宴殿七楹東為天地一家春西為樂安和又西為清暉閣閣前為露香齋左為茹古堂為松雲樓右為涵徳書屋（圓明園冊）臣等謹按九州清宴額世宗御書四十景之一也前第一層殿恭懸聖祖御書圓明園額聨曰每對青山緑水㑹心處一邱一壑總自天恩浩蕩常從霽月光風悦目時一草一木莫非帝徳高深世宗藩邸時書聨曰恤小民之依所其無逸稽古人之徳彰厥有常皇上御書第二層為奉三無私殿内恭懸皇上御書聖祖仁皇帝聖訓曰天下之治亂休咎皆係人主之一身一心政令之設必當遠慮深謀以防後悔周詳籌度計及久長不可為近名邀利之舉不可用一已偏執之見採羣言以廣益合衆志以成城始為無偏無黨之道孝者百行之原不孝之人斷不可用義者萬事之本非義之事必不可為孝以立身義以制事無是二者雖君臣父子不能保也世宗憲皇帝聖訓曰敬天法祖勤政親賢愛民擇吏除暴安良勿過寛柔勿過嚴猛同氣至親實為一體誠心友愛休戚相闗時聞正言日行正事弗為小人所誘弗為邪説所惑聖祖所貽之宗室宜親國家所用之賢良宜保自然和氣致祥綿宗社萬年之慶額曰清虚靜泰聨曰澗泉無操琴泠然善也風竹有聲畫顧而樂之寳座聨曰所無逸而居動靜適徴仁智體有常以治照臨並叶清寜皇上御書九州清宴殿後額曰蔚然深秀聨曰紅篆爐烟看氣直緑苞庭竹愛心虛與樂安和清暉閣諸額皆御書清暉閣北壁懸圓明園全圖乾隆二年命畫院郎世寜唐岱孫祐沈源張萬邦丁觀鵬恭繪御題大觀二字並題聨曰稽古重圖書義存無逸三宗訓勤民咨稼穡事著豳風七月篇
@@ -73,6 +76,8 @@ None of its own.
 - **E1037** (description, guess): Swinhoe: from the hall to the emperor's rooms. 1860 · pp.296-298 · S241. https://archive.org/details/narrativeofnorth00swin
   > Behind the grand hall was rockery, and in rear of that again a large pond, so that a pebbled path leading over a bridge and taking a semicircular sweep of half the water, had to be traversed before you visited the next hall.
   About 500 yards to a smaller hall with images of Buddha in rooms each side, then another reception hall and a third, and on the left the emperor's own rooms: one moderate room with a double-seated throne, chandelier, clocks; passage to two small rooms and a spiral stair to two upper rooms with books, whose windows look down into the hall; two retiring rooms and the bedroom. The 1858 treaty lay on a table. This fits the axis 圆明园殿, 奉三无私, 九洲清晏; the ids are my reading.
+- **E2461** (description, sure): 奉三无私殿装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7271 · S310. https://www.mhymy.com/dasl/ysltd/7271.html
+  Record on 奉三无私殿: seven bays with front and rear verandas, plaques and couplets, its use as the garden's ritual hall. No drawing number in the free part; rest paid.
 - **E1527** (description, likely): 山高水长 祈雨坛 (S47 section 2). 2012, citing archive and Qing texts · p.118 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
   Temporary altars too: Jiaqing set a rain altar at 山高水长 in the sixth month of 1812, Yongzheng a travel altar under the new 太平台 behind 深柳读书堂, and Xianfeng paid respects at 奉三无私.
 - **E1176** (archaeology, sure): 九洲清晏区域考古勘探报告. n.d. · mhymy 档案史料 12600, free part · S151. https://www.mhymy.com/dasl/12600.html
@@ -87,11 +92,9 @@ Modern interpretation, not evidence.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 九洲清晏 (no picture of this hall found): see YM03
+- Evidence for the whole compound 九洲清晏: see YM03
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a main hall (not this building): see CLASS-main_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

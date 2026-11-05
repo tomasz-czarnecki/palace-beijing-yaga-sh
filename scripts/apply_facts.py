@@ -36,6 +36,7 @@ def main():
         reader = csv.DictReader(f)
         fields, rows = reader.fieldnames, list(reader)
     by_id = {r["id"]: r for r in rows}
+    stated_now = set()  # rows whose plan size a stated one replaced in this run: the other side may follow
     done = {"filled": 0, "appended": 0, "noted": 0, "named": 0, "raised": 0, "already": 0, "lead": 0, "size_lead": 0}
     for fact in csv.DictReader(open(ROOT / "research/evidence/facts.csv", encoding="utf-8", newline="")):
         if fact["decision"] in ("lead", "gate"):
@@ -58,6 +59,9 @@ def main():
                     add_note(row, f"Round 6 replaced {field.removesuffix('_m')} {old or 'none'} m.")
                 elif field in ("lat", "lon"):
                     row["pos_source"] = f"{fact['source_id']}, moved in Round 6: {fact['locator']}"
+                elif field == "orientation_deg":  # Round 7: a text or the album says which way the front faces; the plan's local turn is kept
+                    row["orientation_assumed"] = "False"
+                    add_note(row, f"Round 7 turned the front from {old}° ({fact['source_id']} {fact['locator']}).")
                 done["corrected"] = done.get("corrected", 0) + 1
             continue
         if fact["decision"] == "name":
@@ -80,9 +84,10 @@ def main():
         elif field in APPEND:
             row[field] = f"{row[field]}; {value}"
             done["appended"] += 1
-        elif field in ("frontage_m", "depth_m") and "plan px" in row["size_source"]:  # a stated size wins over the plan's estimate
+        elif field in ("frontage_m", "depth_m") and ("plan px" in row["size_source"] or fact["id"] in stated_now):  # a stated size wins over the plan's estimate, both sides of it
             row[field] = value
             row["size_source"] = f"stated: {fact['source_id']}, {fact['locator']}"
+            stated_now.add(fact["id"])
             done["filled"] += 1
         else:
             done["noted" if add_note(row, f"{field}: {tag}") else "already"] += 1

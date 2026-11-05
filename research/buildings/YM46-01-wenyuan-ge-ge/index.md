@@ -41,7 +41,7 @@ A plain box at a size stated in a source, on the block drawn on the Qing plan S0
 
 None of its own.
 
-## Texts and drawings (16)
+## Texts and drawings (18)
 
 - **E2194** (text, sure): 御製文源閣記. 1774 (year of the building per S05 j81:36a; the 記 is undated in S05) · j81:36b-37b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 御製文源閣記　藏書之家頗多而必以浙之范氏天一閣為巨擘因輯四庫全書命取其閣式以構庋貯之既圖以來乃知其閣建自明嘉靖末至於今二百一十餘年雖時修葺而未曾改移閣之間數及梁柱寛長尺寸皆有精義蓋取天一生水地六成之之意於是就御園中隙地一倣其製為之名曰文源閣而為之記曰文之時義大矣哉以經世以載道以立言以牖民自開闢以至於今所謂天之未喪斯文也以水喻之則經者文之源也史者文之流也子者文之支也集者文之派也派也支也流也皆自源而分集也子也史也皆自經而出故吾于貯四庫之書首重者經而以水喻文願溯其源且數典天一之閣亦庶幾不大相徑庭也夫
@@ -81,8 +81,12 @@ None of its own.
   Named in 1775 to hold the 四库全书, its form said to copy the Fan family's 天一阁; dozens of poems and records of the 1787 checking of the text, through to 1819. 文源阁: 42 dated items, 1775-1819, of which 40 poems and 2 court records (Qianlong, Jiaqing); recurring themes: reading, state papers. First dated 1775, last dated 1819.
 - **E2199** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 文源阁. 2020 edition · v3 p.155 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=158
   Begun 1774 on the site of Yongzheng's 四达亭, after 天一阁: six bays on two floors. Bronze deer and tripods stood on the terrace; the great rock 玲峰 in the pool, 趣亭 and 月台 to the south, the stele pavilion east, an arch 柳浪闻莺 north-west. It held the 古今图书集成, then the 四库全书.
+- **E2493** (archaeology, sure): 杨菁, 杨文艳, 牛颖倩, 殷双 (天津大学建筑学院), 圆明园文源阁, 圆明园研究 63: survey of the ruin and the Guangxu 丈尺册. 2022 · sections 3.2-3.5, notes [2], [4], figs 8-12, table 3-1-1 · S105. https://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
+  The authors measured and scanned the cleared ruin before the 2024 dig: the library and stele pavilion platforms are fairly whole, the gate, steps and the cracked-ice floor can be seen, the square pond has gone, and black glazed and green glazed fragments lie about. The verbatim line is the Guangxu-reign 丈尺册 (a Qing text, quoted by the authors) giving the six bays and the depth. Their measured area is the smallest of the four northern libraries, close to 文津阁.
 - **E2206** (archaeology, sure): 文源阁 public day and results, 新华网, 北京晚报 via visitbeijing, 总台 via 凤凰网. 2024-09 to 12 · three news items · S134. https://news.ifeng.com/c/8eTlzYasshZ
   From 2024-08-26, 1,000 m2 planned. Site was the 四达亭 pavilion under Yongzheng, rebuilt 1775. Water system: one supply culvert under the north wall, four drains and a 沟门 outlet in the south wall, ground inside higher than outside. 玲峰 stone base of long slabs tied with iron dovetails. Original surface about 0.5 m down, with irregular stone paths and Y-forks not shown on any plan. Glazed fittings and porcelain sherds.
+- **E2494** (archaeology, sure): Old Summer Palace findings reveal fresh details of complex planning (文源阁 dig 2024). 2024-12-27 · pp.1-2 · S942. https://govt.chinadaily.com.cn/s/202412/27/WS676e0181498eec7e1f72bc12/old-summer-palace-findings-reveal-fresh-details-of-complex-planning_2.html
+  The 文源阁 court was a closed yard with a door south and north, holding the main hall, two pavilions and a viewing terrace linked by paths of unworked flagstones. Two ponds, one in the north-east corner and one south of the hall, were tied by channels to the river outside for fire water, and the yard was raised a little so storm water left through a wall drain. Foundations were trench, timber piles, stone slabs, then the base, the soundest found so far in the gardens; the layout matches Yangshi Lei sketches of 1779 and 1898.
 - **E2207** (archaeology, sure): 文源阁 2024 dig, 人民日报海外版 via 新华网. 2025-01-13 · article by 张利芳 · S133. https://www.news.cn/local/20250113/42158ce447b64aab8b6590fd52fddf3c/c.html
   Aug to Nov 2024: gate, stele pavilion, terrace, 趣亭, north gate, walls, roads and waterways. Dig confirms six bays and black glazed roof tiles. Two ponds, one in front and one east of the library; walls of 虎皮石 rubble, not city brick; stele pavilion founded on cedar pegs, stone slabs and rammed 三合土. Five stone culverts run under the walls, three of them under the rockery behind the gate.
 
@@ -98,7 +102,8 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q84: YM46-01 文源阁
+- Q111: YM46-01 文源阁 roof
 
 <!-- generated:end -->
 

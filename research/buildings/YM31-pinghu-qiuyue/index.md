@@ -167,10 +167,10 @@ Level Lake and Autumn Moon · Yuanming Yuan
   夏隐亭: 6 dated items, 1760-1793, of which 6 poems (Qianlong); recurring themes: escaping the heat, the view. First dated 1760, last dated 1793.
 - **E1917** (description, sure): 圆明园百景史事分景汇编: 镜远洲. 1810-1820 · from p.265, under 平湖秋月 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=265
   In 1810 Jiaqing rebuilt part of 平湖秋月 and gave it this new plaque; he wrote on the lake view here every year to 1820. It has no row in the building list. 镜远洲: 12 dated items, 1810-1820, of which 12 poems (Jiaqing); recurring themes: the view, snow, escaping the heat. First dated 1810, last dated 1820.
+- **E0540** (drawing, sure): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
+  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E1918** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 平湖秋月. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 平湖秋月, p.441 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at p.441 (1 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E0540** (drawing, sure, search index only): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
-  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 
@@ -200,6 +200,9 @@ Modern interpretation, not evidence.
 
 - Q41: 藏密楼 YM31-07, 松风阁 YM81
 - Q45: Halls in the texts with no row
+- Q90: YM31
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

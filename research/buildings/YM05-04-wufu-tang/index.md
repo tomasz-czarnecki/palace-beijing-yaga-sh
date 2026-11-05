@@ -15,6 +15,7 @@ Yuanming Yuan
 - **Garden:** Yuanming Yuan (S05, S01, S360)
 - **Type:** other (S05, S01, S360 · confidence B)
 - **Built:** by 1790 (first dated item) (S05, S01, S360)
+- **Changed:** renamed 五福五代堂 in 1784 (甲辰), on the birth of a great-great-grandson (S05, S01, S360)
 - **Destroyed:** 1860 (S05, S01, S360)
 - **Position:** 40.00487, 116.29187. S01 sure (S01 · confidence B)
 - **Bays:** 5 in the texts / 5x2 on the plan (S05, S01, S360)

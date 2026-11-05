@@ -65,6 +65,8 @@ None of its own.
 
 - Q10: 涵虚朗鉴
 - Q42: East shore of 福海
+- Q83: YM54 / 涵虚朗鉴
+- Q137: YM36
 
 <!-- generated:end -->
 

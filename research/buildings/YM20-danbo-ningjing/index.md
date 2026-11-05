@@ -43,7 +43,7 @@ The "Field" Character Building (Placid, Contented, Peaceful, Quiet) · Yuanming 
 - YM20-15 互妙楼
 - YM20-B0410
 
-## Pictures (5)
+## Pictures (6)
 
 - **P0020** (sure): 澹泊寧静 Danbo ningjing [Détachement et sérénité] (圓明園四十景, 第20景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%BA%8C%E5%8D%81%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%8D%81%E5%B9%85%E5%9B%BE%29%2C_%E6%BE%B9%E6%B3%8A%E5%AF%A7%E9%9D%99_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Danbo_ningjing_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008334m.jpg
 
@@ -65,8 +65,9 @@ The "Field" Character Building (Placid, Contented, Peaceful, Quiet) · Yuanming 
 
   ![P0527](../../photos/images/P0527.jpg)
 
+- **P0794** (guess): 冰冻的河道 - Frozen Canal - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%86%B0%E5%86%BB%E7%9A%84%E6%B2%B3%E9%81%93_-_Frozen_Canal_-_2012.12_-_panoramio.jpg
 
-## Texts and drawings (45)
+## Texts and drawings (47)
 
 - **E1618** (poem, sure): 御製澹泊寧静詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:30a-30b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製澹泊寧静詩 仿田字為房密室周遮塵氛不到其外槐隂花蔓延青綴紫風水淪漣蒹葭蒼瑟澹泊相遭洵矣視之既靜其聽始逺 青山本來寧静體綠水如斯澹泊容境有會心皆可樂武侯妙語時相逢千載之下對綸羽溪烟嵐霧方重重
@@ -169,6 +170,10 @@ The "Field" Character Building (Placid, Contented, Peaceful, Quiet) · Yuanming 
   A quarter set apart for farming, within the garden. S02 pp.89-91 places rice fields round scenes 20 to 26; which scenes it means is a guess.
 - **E1011** (description, sure): Site status table, about 2011: nothing visible, or built over. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   Same table. In it the first group shows no visible remains; 得全阁, 流香渚, 凤麟洲, 涵秋馆, 蔚藻堂, 中和堂, 敷春堂 and 心镜轩 have service buildings on them, and 含晖楼, 澄心堂, 延寿寺, 清夏堂 and 喜雨山房 are occupied by other institutions. 澹泊宁静 and several others have been dug since, so this is out of date for them.
+- **E2467** (description, sure): 澹泊宁静样式雷图 (record text). record 2020-22 · mhymy dasl/ysltd/2579 · S310. https://www.mhymy.com/dasl/ysltd/2579.html
+  Short record: 田-shaped hall north of the 后湖, south-west of 舍卫城, built by 雍正五年 (1727); no sheet data.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E1634** (description, sure): 圆明园百景史事分景汇编: 多稼轩. 1753-1820 · from p.237, under 澹泊宁静 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=237
   A note of 1807 calls it the farm-scene part of the garden, and in 1769 Qianlong put the 耕作 and 蚕织 scrolls here, with 贵织山堂 to the north. 多稼轩: 26 dated items, 1753-1820, of which 23 poems and 3 court records (Qianlong, Jiaqing); recurring themes: the harvest, the view. First dated 1753, last dated 1820.
 - **E1635** (description, sure): 圆明园百景史事分景汇编: 翠扶楼. 1759-1790 · from p.237, under 澹泊宁静 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=237
@@ -209,6 +214,9 @@ Modern interpretation, not evidence.
 - Q20: Name variants
 - Q40: 多稼轩 YM20-04
 - Q45: Halls in the texts with no row
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q125: Geotagged Commons coverage is thin
+- Q167: YM20 / YM21
 
 <!-- generated:end -->
 

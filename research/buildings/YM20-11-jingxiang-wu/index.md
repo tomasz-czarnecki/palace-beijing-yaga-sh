@@ -10,13 +10,13 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 静香屋 Jingxiang Wu (S05, S01 · confidence C)
-- **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** other (S05, S01 · confidence C)
-- **Destroyed:** 1860 (S05, S01)
+- **Name:** 静香屋 Jingxiang Wu (S05, S01, S361 · confidence C)
+- **Garden:** Yuanming Yuan (S05, S01, S361)
+- **Type:** other (S05, S01, S361 · confidence C)
+- **Destroyed:** 1860 (S05, S01, S361)
 - **Position:** 40.00795, 116.28882. S01 guess (S01 · confidence C)
-- **Bays:** 2x1 on the plan (S05, S01)
-- **Size in the inventory:** 6.2 × 5.4 m. S01 plan px / hall scale (S01)
+- **Bays:** 2x1 on the plan (S05, S01, S361)
+- **Size in the inventory:** 3.2 × 5.4 m. stated: S361, v2 p.195 (E1655), Qianlong 1791 (S01)
 - **Plan reader's note:** 静香屋: 西偏. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 2952, 2392 (S01) *(research copy, not public)*

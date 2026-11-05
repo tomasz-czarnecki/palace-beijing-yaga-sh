@@ -4,7 +4,7 @@
 
 Yuanming Yuan
 
-**3D object:** none yet.
+**3D object:** 1 box. Open it: `/reconstruction/3d.html?b=YM03-17`
 
 **Part of:** YM03 九洲清晏
 
@@ -21,7 +21,13 @@ Yuanming Yuan
 
 ## Our model now
 
-No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
+A plain box on the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class. It will be updated as the research goes on.
+
+- **Box:** 18.7 × 10.6 m, main hall
+- **Heights:** platform 0.7 m, eave 4.4 m, ridge 8.04 m above the ground
+- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
+- **Faces:** 174.5° from north
+- **Confidence:** B
 
 ## Pictures (0)
 
@@ -57,6 +63,9 @@ None of its own.
 
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
 - Q52: Smaller conflicts
+- Q78: YM03
+- Q102: Q36 support
+- Q162: YM03
 
 <!-- generated:end -->
 

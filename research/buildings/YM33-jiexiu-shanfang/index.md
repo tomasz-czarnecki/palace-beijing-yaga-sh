@@ -8,16 +8,16 @@ The House Which Meets the Beauty of the Hills · Yuanming Yuan
 
 ## What we know
 
-- **Name:** 接秀山房 Jiexiu Shanfang (S05, S02, S08, S41, S51, S01, S361 · confidence B)
-- **English:** The House Which Meets the Beauty of the Hills (S05, S02, S08, S41, S51, S01, S361)
+- **Name:** 接秀山房 Jiexiu Shanfang (S05, S02, S08, S41, S51, S01, S361, S945 · confidence B)
+- **English:** The House Which Meets the Beauty of the Hills (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Written on the plan:** 观澜堂 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S51, S01, S361)
-- **Type:** scene (S05, S02, S08, S41, S51, S01, S361 · confidence B)
-- **Built:** 雍正时期 (S51); 1731 (S05, S02, S08, S41, S51, S01, S361)
-- **Changed:** 观鱼跃 replaced by 观澜堂 c. 1817 (S51); differs on plans (S41) (S05, S02, S08, S41, S51, S01, S361)
-- **Destroyed:** 1860 (S05, S02, S08, S41, S51, S01, S361)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S51, S01, S361, S945)
+- **Type:** scene (S05, S02, S08, S41, S51, S01, S361, S945 · confidence B)
+- **Built:** 雍正时期 (S51); 1731 (S05, S02, S08, S41, S51, S01, S361, S945)
+- **Changed:** 观鱼跃 replaced by 观澜堂 c. 1817 (S51); differs on plans (S41); Under Jiaqing a small court modelled on Yangzhou's 九峰园 was rebuilt as 观澜堂, then the largest three-roll hall in the gardens (S05, S02, S08, S41, S51, S01, S361, S945)
+- **Destroyed:** 1860 (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Position:** 40.00687, 116.30149. S01 sure (S01 · confidence B)
-- **Note:** Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S51, S01, S361)
+- **Note:** Album does not show the 1860 state here (S41). (S05, S02, S08, S41, S51, S01, S361, S945)
 - **Plan reader's note:** Plan names only 观澜堂; no 接秀山房 label. Malone 33 at (8020,3560). S111: after about 1817 the scene was in fact called 观澜堂. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 8156, 3725 (S01) *(research copy, not public)*
@@ -40,7 +40,7 @@ The House Which Meets the Beauty of the Hills · Yuanming Yuan
 - YM33-N01
 - YM33-N02
 
-## Pictures (6)
+## Pictures (7)
 
 - **P0033** (sure): 接秀山房 Jiexiu shanfang [Hameau de montagne pour accueillir l'élégance] (圓明園四十景, 第33景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28100_of_124%29.jpg
 
@@ -66,6 +66,7 @@ The House Which Meets the Beauty of the Hills · Yuanming Yuan
 
   ![P0388](../../photos/images/P0388.jpg)
 
+- **P0792** (likely): 雪趣 - Have Fun with Snow - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E8%B6%A3_-_Have_Fun_with_Snow_-_2012.12_-_panoramio.jpg
 
 ## Texts and drawings (29)
 
@@ -141,12 +142,12 @@ The House Which Meets the Beauty of the Hills · Yuanming Yuan
   The compiler says 观鱼跃 was pulled down about 1817 for a new south-facing hall of five bays in three rolls, like 慎德堂 and the largest on 福海. 观澜堂: 13 dated items, 1819-1857, of which 13 poems (Jiaqing, Daoguang, Xianfeng); recurring themes: the view, boating, rain. First dated 1819, last dated 1857.
 - **E1957** (description, sure): 圆明园五朝御制诗文集注 v3, editors' note on 接秀山房. 2020 edition · v3 p.1 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=4
   Begun 1731 on the south-east shore of 福海, a three-bay west-facing hall, with 琴趣轩, 寻云楼, 云锦墅, 澄练楼, 怡然书屋 and 揽翠亭 under Qianlong. Late Jiaqing replaced the main hall with five bays in three rolls, 观澜堂. The editors say that hall survived 1860, Cixi came in 1898, and it was lost around 1900.
+- **E1958** (drawing, sure): 观澜堂平面图. 咸丰五年 (1855) 八月初十日 · 国家图书馆善本部 样042-11-2号 · S310. https://www.mhymy.com/dasl/ysltd/6932.html
+  Survey base plan of the Guanlan Tang hall dated 10th of the 8th month, 1855. No image here; the site may ask a small payment for the full record.
+- **E0540** (drawing, sure): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
+  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E1959** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 接秀山房. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 接秀山房, pp.446-459 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.446-459 (14 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1958** (drawing, sure, search index only): 观澜堂平面图. 咸丰五年 (1855) 八月初十日 · 国家图书馆善本部 样042-11-2号 · S310. https://www.mhymy.com/dasl/ysltd/6932.html
-  Survey base plan of the Guanlan Tang hall dated 10th of the 8th month, 1855. No image here; the site may ask a small payment for the full record.
-- **E0540** (drawing, sure, search index only): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
-  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 观澜堂. https://artmuseum.princeton.edu/collections/objects/138657
 
@@ -168,6 +169,13 @@ Modern interpretation, not evidence.
 - Q1: Target state
 - Q3: Which state does S01 draw?
 - Q42: East shore of 福海
+- Q89: YM33-08 观澜堂 (about 1817)
+- Q94: YM09 and YM33
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q106: Brief calls YM33 "观澜堂"
+- Q118: YM33 接秀山房
+- Q119: Digs
+- Q129: The brief says the album views are roughly from the south
 
 <!-- generated:end -->
 

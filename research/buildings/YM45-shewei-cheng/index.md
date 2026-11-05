@@ -12,7 +12,7 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
 - **English:** She Wei Ch'eng or Wall of Sravasti (Malone p.63) (S05, S02, S46, S41, S01)
 - **Garden:** Yuanming Yuan (S05, S02, S46, S41, S01)
 - **Type:** temple (S05, S02, S46, S41, S01 · confidence A)
-- **Built:** 乾隆五年 1740 (S02 p.63, p.94 n.: 佛城 in the Yuan Ming Yuan Tse Li); plaque 雍正御笔 (S46) (S05, S02, S46, S41, S01)
+- **Built:** 乾隆五年 1740 (S02 p.63, p.94 n.: 佛城 in the Yuan Ming Yuan Tse Li); plaque 雍正御笔 (S46); 1740 (乾隆五年), as 佛城 (S05, S02, S46, S41, S01)
 - **Destroyed:** Looted 1860; 南城门 and plaque stood in an 1882 photograph, gone in an 1900 photograph; walls gone by 1921 (S46); north wall removed 1960s (S06) (S05, S02, S46, S41, S01)
 - **Position:** 40.00941, 116.29258. S01 sure (S01 · confidence B)
 - **Note:** Shown in album leaf YM38 (S41; S02 p.95). S46: 2019 dig; 南城门 墩台宽15.4 m 进深12.6 m 残高1-1.25 m. S06: 36万+ images (lead). (S05, S02, S46, S41, S01)
@@ -77,7 +77,7 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
 
 - **P0198** (likely): Shewi City ruins (舍卫城, file name) (not stated). https://commons.wikimedia.org/wiki/File%3AShewi_City_ruins_of_the_Yuanmingyuan.jpg Research-only: link card.
 
-## Texts and drawings (26)
+## Texts and drawings (28)
 
 - **E2146** (text, sure): 日下舊聞考 同乐园、舍卫城. 1780s (乾隆 敕撰) · j82:27b-28b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 麴院風荷之北為同樂園前後樓各五楹南向其前為清音閣北向東為永日堂中有南北長街街西為抱樸草堂街北度雙橋為舎衛城前樹坊楔三城南面為多寳閣内為山門正殿為壽國壽民後為仁慈殿又後為普福宫城北為最勝閣（圓明園册）臣等謹按永日堂壽國壽民仁慈殿普福宫諸額皆世宗御書舍衛城北坊額曰花界曰香城東曰□湧曰金池西曰曇霏曰珠林多寳閣祀闗帝額曰至聖大勇夀國夀民殿額曰心月妙相仁慈殿額曰具足圓成普福宫額曰瑞應優曇最勝閣坊額曰乾闥持輪曰祗林垂鬘皆御書
@@ -130,6 +130,9 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
 - **E2174** (description, likely): Attiret: the little town. 1743 · [pp.23-24] · S157. https://faculty.bard.edu/~louis/gardens/attiretaccount.html
   > It has Four Gates, answering the Four principal Points of the Compass; with Towers, Walls, Parapets, and Battlements. It has it's Streets, Squares, Temples, Exchanges, Markets, Shop, Tribunals, Palaces, and a Port for Vessels.
   A small walled town reached by a nearly straight road from the emperor's palace, each side near a mile by his figure; S02 p.136 n. thinks the figure includes the shop street. Malone identifies it with 舍卫城 and the street south of it.
+- **E2449** (description, likely): Attiret (French original): the little town with four gates. 1743, printed 1749 · pp.22-25 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > De ce logement de l'Empereur le chemin conduit presque tout droit à une petite ville, bâtie au milieu de tout l'enclos. Son étendue est d'un quart de lieue en tout sens. Elle a ses quatre portes aux quatre points cardinaux; ses tours, ses murailles, ses parapets, ses crénaux. Elle a ses rues, ses places, ses temples, ses halles, ses marchés, ses boutiques, ses tribunaux, ses palais, son port.
+  French text behind E2174 and E2160: a walled mock town in the middle of the enclosure, a quarter league each way, with four gates, towers, crenellated walls, streets, temples, markets, shops and a port, where the eunuchs staged a fair for the court. The size is far larger than 舍卫城 on S01; see the question row.
 - **E2178** (description, likely): Varin: a walled temple with thousands of niches. 1860 · pp.240-241 · S245. https://archive.org/details/expditiondechin00paulgoog
   > Les murailles de la pagode, formant au sommet une galerie très-large et surélevée de trois mètres, étaient divisées en un nombre infini de petites niches ornées de statuettes en bronze doré,
   Walls 8 m high, enclosing by his figure 800 by 500 m, with small temples inside and a very large statuette count that he himself calls an estimate. Figures clearly high; the form fits 舍卫城. Opposite it a nearly equal palace used as a store of silks. Then a lake round the concubines' palace.
@@ -137,6 +140,8 @@ She Wei Ch'eng or Wall of Sravasti (Malone p.63) · Yuanming Yuan
   Scenes with only scattered, incomplete building remains in the same table. 方壶胜境 is listed separately as the one with fairly complete remains not yet tidied up. 紫碧山房, 舍卫城 and 如园 have been dug since.
 - **E2179** (description, sure): 舍卫城 多宝阁, 城隍庙, 龙王庙; 买卖街 龙王庙 (S47 sections 2.14-2.15). 2012, citing archive and Qing texts · p.116; table rows 24-27 · S47. https://www.dpm.org.cn/Uploads/File/2018/06/15/u5b23730ae0e5a.pdf
   多宝阁, the gate tower at the south of the city, three bays and hip-and-gable, housed Guandi. A 城隍庙 with flagpoles stood in the city by 1777, place unknown. Yangshi Lei plans show two more one-bay dragon-king shrines of the 坐石临流 area: west of 买卖街, and outside the east side of 舍卫城 by the water.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E2156** (description, likely): 圆明园买卖街钩沉. post n.d. · hwyj · S115. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/hwyj/4115411323ba4429a9ecc9ae5b2bc2e5.htm
   The two shop streets. 同乐园's runs over 130 m north-south, split by a stream and 双桥, to the south of 舍卫城, in place by 1744. 含经堂's, dug in 2001-02, has a base 135.65 x about 6.3 m and 28 stoves, so perhaps eating houses. It has 40 shop bays in 9 units, against 10 buildings on the Yangshi Lei plan.
 - **E2175** (description, sure): 圆明园百景史事分景汇编: 湛然室. 1760-1797 · from p.223, under 舍卫城 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=223
@@ -182,6 +187,9 @@ Modern interpretation, not evidence.
 - Q45: Halls in the texts with no row
 - Q52: Smaller conflicts
 - Q56: Reconstructions against the period evidence
+- Q95: Attiret 1743 (S911 p.16
+- Q114: YM45 舍卫城
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

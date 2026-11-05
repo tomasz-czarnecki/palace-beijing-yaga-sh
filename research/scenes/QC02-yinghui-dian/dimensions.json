@@ -1,0 +1,61 @@
+{
+ "id": "QC02",
+ "name": "迎晖殿 Yinghui Dian",
+ "by_method": {
+  "a": 0,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "QC02",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 75.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "QC02",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 68.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "QC02",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 5000.0,
+   "err": 500.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  }
+ ]
+}

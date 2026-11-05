@@ -15,7 +15,7 @@ Yuanming Yuan
 - **Destroyed:** survived 1860 per 1873 survey (S06); survived 1860; later loss (S06, S01, S337, S360)
 - **Position:** 40.01189, 116.29384. S01 sure (S01 · confidence B)
 - **Bays:** 5, in two rolls, front annex in the texts (S06, S01, S337, S360)
-- **Note:** Named only in the 1873 survey via S06. Not in S05 j80-82. Position: plan readers. (S06, S01, S337, S360)
+- **Note:** Named only in the 1873 survey via S06. Not in S05 j80-82. Position: plan readers. after1860: survived 1860 (刘敦桢's list) (S337, E0451). (S06, S01, S337, S360)
 - **Plan reader's note:** Label at (5310,760), between the big hall to its north and B0080 to its south. Taken as the northern group; B0080 goes with YM26. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 5325, 688 (S01) *(research copy, not public)*
@@ -66,7 +66,7 @@ None of its own.
   A village scene from late Yongzheng, the garden's silk-farming quarter from 1729. Five-bay 课农轩 with a three-bay annex was built in 1817 on the sites of 皆春阁, 稻凉楼, 涉趣楼 and 湛虚书屋. West of it the octagonal 观音庵, once a dragon-king temple; also 水村图, 绘雨精舍, 兰野, 观澜亭. Some survived 1860 under guard.
 - **E1757** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 北远山村（课农轩）. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 北远山村（课农轩）, pp.397-404 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.397-404 (8 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1758** (drawing, likely, search index only): 北远山村总平面图 (图名: 课农轩). 嘉庆年间 · 国家图书馆善本部 样040-1号 · S310. https://www.mhymy.com/dasl/ysltd/7678.html
+- **E1758** (drawing, likely): 北远山村总平面图 (图名: 课农轩). 嘉庆年间 · 国家图书馆善本部 样040-1号 · S310. https://www.mhymy.com/dasl/ysltd/7678.html
   Jiaqing-period plan of the Beiyuan Shancun scene under the title Kenong Xuan, 791x592 mm. No image here; the site may ask a small payment for the full record.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
@@ -93,6 +93,10 @@ Modern interpretation, not evidence.
 
 - Q47: How much burned, and when
 - Q59: Twin claims to hold loosely
+- Q104: 烫样 dates
+- Q136: YM26 / YM51
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q142: No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th
 
 <!-- generated:end -->
 

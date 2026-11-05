@@ -10,15 +10,15 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 慎修思永 Shenxiu Siyong (S05, S43, S06, S01, S360, S361 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S43, S06, S01, S360, S361)
-- **Type:** residence (S05, S43, S06, S01, S360, S361 · confidence B)
-- **Built:** by 1760 (first dated item) (S05, S43, S06, S01, S360, S361)
-- **Destroyed:** survived 1860 per 1873 survey (S06); survived 1860; lost around 1900 (S05, S43, S06, S01, S360, S361)
+- **Name:** 慎修思永 Shenxiu Siyong (S05, S43, S06, S01, S360, S361, S337, S310 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S43, S06, S01, S360, S361, S337, S310)
+- **Type:** residence (S05, S43, S06, S01, S360, S361, S337, S310 · confidence B)
+- **Built:** by 1760 (first dated item) (S05, S43, S06, S01, S360, S361, S337, S310)
+- **Destroyed:** survived 1860 per 1873 survey (S06); survived 1860; lost around 1900 (S05, S43, S06, S01, S360, S361, S337, S310)
 - **Position:** 40.00938, 116.28784. S01 sure (S01 · confidence B)
-- **Bays:** 9 in the texts / 8x1 on the plan (S05, S43, S06, S01, S360, S361)
-- **Size in the inventory:** 43.1 × 25.4 m. S01 plan px / hall scale (S01)
-- **Note:** S43: 正殿九间前后抱厦各五间; indoor Western stage by 1739. bays: 9, annexes of 5 front and back (S361, v2 p.208). (S05, S43, S06, S01, S360, S361)
+- **Bays:** 9 in the texts / 8x1 on the plan (S05, S43, S06, S01, S360, S361, S337, S310)
+- **Size in the inventory:** 35.52 × 25.4 m. stated: S310, mhymy ysltd 10092 (慎修思永装修平面图, NLC 样027-11-1, after 1784), metres as printed (S01)
+- **Note:** S43: 正殿九间前后抱厦各五间; indoor Western stage by 1739. bays: 9, annexes of 5 front and back (S361, v2 p.208). after1860: survived 1860 with 知过堂 (刘敦桢's list) (S337, E0451). (S05, S43, S06, S01, S360, S361, S337, S310)
 - **Plan reader's note:** Label south of hall. About 9 bays along the main line match text. Detection fragmented, see blocks_fix. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 2593, 1665 (S01) *(research copy, not public)*
@@ -34,11 +34,14 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0023** (likely): 濂溪樂處 Lianxi lechu [Où Lianxi éprouve de la joie] (圓明園四十景, 第23景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E6%99%AF_%28%E4%B8%8B%E5%86%8C%2C_%E7%AC%AC%E4%B8%89%E5%B9%85%E5%9B%BE%29%2C_%E6%BF%82%E6%BA%AA%E6%A8%82%E8%99%95_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Lianxi_lechu_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008337z.jpg
 
-## Texts and drawings (11)
+  ![P0023](../../photos/images/P0023.jpg)
+
+
+## Texts and drawings (12)
 
 - **E1703** (text, sure): 日下舊聞考 濂溪乐处. 1780s (乾隆 敕撰) · j82:1a-1b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 水木明瑟西北環池帶河為濓溪樂處正殿九楹後為雲香清勝東垣為芰荷深處折而東北為香雪廊其東有樓為雲霞舒卷樓北亭為臨泉（圓明園冊）臣等謹按濓溪樂處四十景之一額為皇上御書殿檐額曰慎修思永聫曰與古人相對左圖右書偕造物者遊仰觀俯察與雲香清勝諸額皆御書香雪廊臨泉二額世宗御書
@@ -70,20 +73,22 @@ None of its own.
   慎修思永: 6 dated items, 1760-1815, of which 6 poems (Qianlong, Jiaqing); recurring themes: the view, remembering his forebears. First dated 1760, last dated 1815.
 - **E1709** (description, sure): 圆明园五朝御制诗文集注 v2, editors' note on 濂溪乐处. 2020 edition · v2 p.208 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=211
   An island residence with a nine-bay hall 慎修思永 and annexes of five, 芰荷深处, 香雪廊, 烟云舒卷 tower, 得月 and 临泉 pavilions, 水云居, 荷香书屋, 延云殿, seven-bay 知过堂 and 墨光亭. The editors say 慎修思永 and 知过堂 survived 1860 and were lost around 1900.
+- **E2474** (drawing, sure): 慎修思永装修平面图 (图名: 慎修思永). 乾隆四十九年 (1784) 之后 · 国家图书馆善本部 样027-11-1号 · S310. https://www.mhymy.com/dasl/ysltd/10092.html
+  Interior plan of the nine-bay three-roof hall 慎修思永 of 濂溪乐处, 451x324 mm, ink and yellow slips, presentation sheet, after 1784; the record gives bay widths, roof depths, column and platform height (dim rows) and an interior with a western-style stage and a Buddhist chapel upstairs.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 慎修思永, 8x1 cells. https://artmuseum.princeton.edu/collections/objects/138657
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 濂溪乐处 (no picture of this hall found): see YM23
+- Evidence for the whole compound 濂溪乐处: see YM23
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a grand hall (not this building): see CLASS-grand_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 
 - Q47: How much burned, and when
+- Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q182: Typology, grand_hall heights
 
 <!-- generated:end -->
 

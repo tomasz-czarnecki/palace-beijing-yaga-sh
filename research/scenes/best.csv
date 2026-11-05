@@ -1,0 +1,141 @@
+id,rank,ref,why
+CC02,1,S990,Only full measured record of the compound; every unit by name.
+CC02,2,E0052,"The Qing layout and plaques, S05 j83:4a-4b."
+CC02,4,P0815,"The long front of the displayed 含经堂 platform with its central steps, from outside: platform height and length over the ground (viewed)"
+CC02,5,P0817,"Displayed brick platform walls round a sunk court, with column-base markers on top: platform heights by brick courses (viewed)"
+CC04,1,E0134,"Qianlong's own account of the 小有天园 court: rocks, tin roof, cascade."
+CC06,1,S991,"Layout of the island group by bays and plaques, and the changes to 1882."
+CC06,2,E0145,"The Qing text: round base, three storeys, four arches, plaques."
+CC08,1,E0174,Hall list and the pagoda form (S361); E0171 for the Qing text.
+CC09,1,E0171,The Qing sequence of halls; E0179 for bays.
+CC10,1,E0188,Dated 1835 plan: the change that sets the 1860 state.
+CC13,1,E0203,Qianlong's poems with prefaces on each of the first eight scenes and the Suzhou rockwork.
+CC14,1,E0291,Fullest layout (S361 note); with E0288 for the Qing names.
+CC15,1,E0308,Fan-shaped nine-bay hall and the other halls (S361).
+CC16,1,E0307,The only Qing description; with E0324 for the full hall list.
+CC18,1,S362,The only measured reconstruction of a Changchun hall with Yangshi Lei figures and dig data (延清堂).
+QC01,1,E0568,Size and roofs of the gate quarter; the 1986 rebuild stands on the site.
+QC04,1,E0595,"The plan of winter 1859-60, closest to the target state (not viewed)."
+QC04,2,E0588,Layout of the block (S361).
+QC05,1,E0626,History and layout of both courts; E0629 for the wine-cup pavilion.
+QC07,1,E0660,Plan type and the fountain court (park text).
+QC08,1,E0676,"Form of the pavilion and islet; the rebuilt pavilion (P0421) shows a modern reading, not evidence."
+QC11,1,P0177,"The lost 三圣殿 before demolition, by Sirén."
+QC11,2,P0173,文殊亭 and 最上楼 before the restoration.
+QC17,1,E0749,The only layout text.
+YM01,1,E1009,"Malone measured the foundation of 正大光明殿 (in params.json) and describes porch, columns and bases; Barrow's inside figures (E1026) and the 1860 witnesses (E2104, E2109, E1033) fill the courts, eaves and wire net"
+YM01,1,E1016,样001-4: the only open slip with the bays and depth of 正大光明殿.
+YM01,1,P0363,The rockery hill behind the audience hall and the flat hall site: height and length of the hill (viewed)
+YM01,1,P0001,"clear axis, moat, gate, hall, rocks and side courts; colours reliable"
+YM01,2,E1016,"Yangshi Lei 正大光明白差准底, undated interior plan (research-only): throne canopy, splayed walls and bookcases, the only period drawing of the room's fittings"
+YM01,2,P0396,The 前湖 front lake edge and water level (viewed)
+YM01,2,P0100,same layout in line
+YM01,3,P0789,Dressed stone members with mortises near the hall: a detail of stone sizes only (viewed)
+YM01,3,P0232,copy of P0100
+YM01,4,P0102,"gouache, roofs recoloured, layout loose"
+YM02,1,E1084,"样002-3 of 1855.3, a measured survey sheet of 勤政殿; figures not yet seen."
+YM02,1,P0002,"front wall, gallery, gate and front halls in colour"
+YM02,2,P0071,court layout behind the front more fully drawn
+YM03,1,E1161,"Yangshi Lei 九洲清晏全样, dated 咸丰五年 (1855) Oct-Dec: the dated overall plan closest to 1860; S01 here is of 1873 or later (Q36, and E1166 is the 1874 project), and the album P0003 shows neither 慎德堂 (1831) nor the c.1765 buildings round 清晖阁"
+YM03,1,E1161,"样011-3 九洲清晏全样, 1855.10-12: the last whole-scene plan before 1860, after the 1855 rear porch."
+YM03,1,P0365,A low mound with column-base stones on the 九洲清晏殿 site against the Back Lake: island height over water (viewed)
+YM03,1,P0003,"the only colour record of the pre-1836 axis; roofs and colours readable, bays only roughly"
+YM03,2,E1153,"Malone pp.77-79: the axis of three halls with courts, which way the end halls face, the crowded island; with S05 j80:20b-23a for bays and plaques"
+YM03,2,E1163,"样007-9-1 圆明园殿, 1855.3: its slip gives bays, depth, column height, platform height and overhang (dim rows)."
+YM03,2,P0793,The 如意桥 rebuilt on its surviving abutments: carved abutment form and channel width (viewed)
+YM03,2,P0089,"line woodcut, larger halls, good for the massing of the courts"
+YM03,3,E1165,"样008-18 慎德堂, 1859.7: the interior as it stood in 1860."
+YM03,3,P0366,"慎德堂 site: rows of foundation stones flush with the turf, for the hall's orientation (viewed)"
+YM03,3,P0234,copy of P0089
+YM03,4,P0367,"A rebuilt bridge on dressed-stone abutments, the stone part to model (viewed)"
+YM03,4,P0103,"colours unreliable, fewer halls"
+YM04,1,P0004,front hall's roof colours and the flower beds
+YM05,1,P0005,"two-storey buildings, pierced wall, lotus pond"
+YM06,1,P0006,"court layout, the waterfall"
+YM07,1,P0007,the three-storey tower with its dial and the 楼
+YM07,1,P0007,shows the separate three-storey hexagonal clock tower
+YM08,1,P0008,"the 楼, the zigzag bridge and both pavilions, frontal and large"
+YM08,1,P0008,"the zig-zag walkway on piles and the tower front, for the parts that did not change; correct the upper floor to the Daoguang closed state (E1280)"
+YM09,1,P0375,"The consolidated stepped platform with its stair in the pond, people for scale (viewed)"
+YM09,1,P0009,"village layout, plots, shrine, well pavilion, summit tower"
+YM09,2,P0374,"The hill site, by its catalogue title"
+YM09,2,P0082,same in line
+YM09,3,P0795,The pond west of the hill with rock edges (viewed)
+YM09,4,P0450,"The old well, by its catalogue title"
+YM10,1,P0010,the tank and its halls
+YM11,1,P0011,the square double-eaved hall and the court rows
+YM12,1,P0012,court rows and the bridge with pavilion
+YM12,1,P0012,the only full view of the court layout
+YM13,1,P0381,"The consolidated 卍 platform in the water: plan, arm widths and height over water (viewed)"
+YM13,1,P0013,"bases, roofs and the screen panel in colour; the cross pavilion"
+YM13,2,P0096,"how the wings meet, more legible"
+YM14,1,P0014,layout of the valley and the main ranges
+YM14,2,P0073,rows of the back compound
+YM15,1,P0015,"the 楼's roof form, storeys and wall materials, and the open field"
+YM15,2,P0087,same layout in line
+YM16,1,P0016,"enclosure, gate, square hall, colours"
+YM17,1,P0017,"roof colour and form, walls, 牌坊"
+YM17,1,P0017,"shows the whole precinct, roofs and walls in their colours"
+YM17,2,P0098,court plan
+YM17,2,P0809,"The best free whole view of a surviving 安佑宫 华表 (relocated to PKU 1925, S818): base, dragon shaft, cloud board and cap with people for scale (viewed)"
+YM17,3,P0810,"Close detail of the 华表 head (cloud board, 承露盘, beast) for carving (viewed)"
+YM17,4,P0813,"The other two 安佑宫 华表, the unmatched pair before the old National Library, in one frame (viewed)"
+YM18,1,P0018,crescent gallery and the compound plan
+YM18,1,P0018,only source for the crescent shape of 眉月轩
+YM19,1,P0019,the two-storey ranges and the banner poles
+YM20,1,P0794,Only a canal near the scene (YM20:guess); no photo of the 田-shaped hall site found (viewed)
+YM20,1,P0020,"front bays, square roof plan, column colour"
+YM20,2,P0139,"confirms the square block, if not its colours"
+YM20,3,P0097,line copy
+YM21,1,P0021,hall group and fields
+YM22,1,P0022,"gallery, platform and retaining wall"
+YM23,1,P0023,island layout and lotus lake
+YM24,1,P0024,"pond, bridge and court"
+YM25,1,P0025,the square building's form
+YM26,1,P0026,village row and the water gate
+YM27,1,P0027,"court layout, rockwork and waterfall"
+YM28,1,P0028,court layout and boat
+YM28,1,E1809,"the 1764 ten poems give each hall's place and form (bays, over water, on a rock, storeyed) for the 1860 state, which the 1744 leaf does not show"
+YM29,1,P0383,"The stepped stone bastions of the platform at the water, the clearest plan line (viewed)"
+YM29,1,P0029,"roof colours, marble terraces, three ranges and the water pavilions, large and clear"
+YM29,2,P0787,"The same front, full length, three weeks earlier (viewed)"
+YM29,2,P0068,plan of the courts to the north-east
+YM29,3,P0384,"A summer view, by its catalogue title"
+YM29,4,P0788,The line of bastions from the boat landing (viewed)
+YM30,1,P0030,waterside group and terrace pavilion
+YM31,1,P0386,"藏密楼 footprint with edges and steps, people for scale (viewed)"
+YM31,1,P0031,"bridge, terrace pavilion and courts with their stone bases"
+YM31,2,P0161,The c.1879 print of a ruined pavilion tied YM31:likely
+YM31,2,P0066,closer view of the courts
+YM32,1,P0387,The island group from across 福海: length and low height (viewed)
+YM32,1,P0032,"glazed roof colours, front range, stair, bridge and the islets"
+YM32,2,P0791,Silhouette of the rebuilt pavilion and hall on the islands (modern work; viewed)
+YM32,2,P0085,court plan from higher up
+YM33,1,P0388,The dressed-stone quay of 接秀山房 on 福海 with people for scale (viewed)
+YM33,1,P0033,the chain of buildings up the ridge and their forms
+YM33,2,P0792,The view west over 福海 from this shore (viewed)
+YM33,2,P0093,same in line
+YM34,1,P0063,roofs visible (no snow)
+YM34,2,P0034,"walls and layout, but snow on all roofs"
+YM35,1,P0035,bridge pavilion and cliff temple
+YM36,1,P0036,shore chain and colours
+YM37,1,P0037,layout of courts and shore
+YM38,1,P0797,The 兰亭八柱 stone pillars and the stele inside the 中山公园 pavilion: the surviving Qing stone of YM38 (viewed)
+YM38,1,P0038,the pavilion's form and the street quarter in colour
+YM38,2,P0493,"The same pavilion, 2005, by its catalogue title"
+YM38,2,P0079,street and courts more legible
+YM38,3,P0492,"The tablet pavilion, 2023, by its catalogue title"
+YM38,4,P0798,The present pavilion outside (modern superstructure; viewed)
+YM39,1,P0498,The re-dug pond and a modern bridge: present water only (viewed)
+YM39,1,P0039,"the bridge with its nine arches, the 牌坊 and the bridgehead pavilion"
+YM39,2,P0088,lotus cover and the courts behind
+YM40,1,P0040,"regular court plan, countable"
+YM40,1,P0040,the only image that shows the grid of the princes' lodgings; rows countable
+YM41,1,P0217,"The only picture tied to 大宫门 (Sirén, research-only, YM41:guess); no free modern photo of the gate site exists on Commons"
+YM44,1,P0487,Refurbished buildings near 同乐园 (YM44:guess); no free photo of the 同乐园 site found
+YM45,1,P0197,"The 舍卫城 gate ruins, 1920 (free); the only image of the city wall's form"
+YM45,2,P0209,Sirén's plate of the street of 舍卫城 (research-only)
+YM54,1,P0393,The west bank and the lake's breadth with a bridge far off (viewed)
+YM54,2,P0792,The frozen lake with people on the ice: the breadth of the water at the east shore (viewed)
+YM54,3,P0387,The 蓬岛瑶台 islands across the lake: their low profile (viewed)
+YM54,4,P0790,A rubble-edged bank seen from the islands (viewed)

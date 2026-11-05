@@ -8,14 +8,15 @@ The Wen Yuan Ko, Library of the Source of Literature (Malone p.89) · Yuanming Y
 
 ## What we know
 
-- **Name:** 文源阁 Wenyuan Ge (S05, S02, S45, S01, S337, S361 · confidence B)
-- **English:** The Wen Yuan Ko, Library of the Source of Literature (Malone p.89) (S05, S02, S45, S01, S337, S361)
-- **Garden:** Yuanming Yuan (S05, S02, S45, S01, S337, S361)
-- **Type:** library (S05, S02, S45, S01, S337, S361 · confidence B)
-- **Built:** 乾隆三十九年 1774 [j81:36a]; 1775 (S05, S02, S45, S01, S337, S361)
-- **Destroyed:** 1860; library burnt (S02 p.188); stele and rock survived the fire (S02 p.89) (S05, S02, S45, S01, S337, S361)
+- **Name:** 文源阁 Wenyuan Ge (S05, S02, S45, S01, S337, S361, S942 · confidence B)
+- **English:** The Wen Yuan Ko, Library of the Source of Literature (Malone p.89) (S05, S02, S45, S01, S337, S361, S942)
+- **Garden:** Yuanming Yuan (S05, S02, S45, S01, S337, S361, S942)
+- **Type:** library (S05, S02, S45, S01, S337, S361, S942 · confidence B)
+- **Built:** 乾隆三十九年 1774 [j81:36a]; 1775 (S05, S02, S45, S01, S337, S361, S942)
+- **Changed:** Layout unchanged from the conversion of 1775 to the end: the dig matches Yangshi Lei sketches dated 1779 and 1898 (S05, S02, S45, S01, S337, S361, S942)
+- **Destroyed:** 1860; library burnt (S02 p.188); stele and rock survived the fire (S02 p.89) (S05, S02, S45, S01, S337, S361, S942)
 - **Position:** 40.00996, 116.29003. S01 sure (S01 · confidence B)
-- **Note:** Copied from 天一阁 [j81:36b]. Not in the 1744 album. Stood on rice fields of the album (S02 p.89). (S05, S02, S45, S01, S337, S361)
+- **Note:** Copied from 天一阁 [j81:36b]. Not in the 1744 album. Stood on rice fields of the album (S02 p.89). (S05, S02, S45, S01, S337, S361, S942)
 - **Plan reader's note:** Label below the hall, walled garden with square pool and rockery. 柳浪闻莺 lies outside the wall at (3185,1340). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 3536, 1477 (S01) *(research copy, not public)*
@@ -37,7 +38,7 @@ The Wen Yuan Ko, Library of the Source of Literature (Malone p.89) · Yuanming Y
 
 None of its own.
 
-## Texts and drawings (31)
+## Texts and drawings (34)
 
 - **E2194** (text, sure): 御製文源閣記. 1774 (year of the building per S05 j81:36a; the 記 is undated in S05) · j81:36b-37b · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 御製文源閣記　藏書之家頗多而必以浙之范氏天一閣為巨擘因輯四庫全書命取其閣式以構庋貯之既圖以來乃知其閣建自明嘉靖末至於今二百一十餘年雖時修葺而未曾改移閣之間數及梁柱寛長尺寸皆有精義蓋取天一生水地六成之之意於是就御園中隙地一倣其製為之名曰文源閣而為之記曰文之時義大矣哉以經世以載道以立言以牖民自開闢以至於今所謂天之未喪斯文也以水喻之則經者文之源也史者文之流也子者文之支也集者文之派也派也支也流也皆自源而分集也子也史也皆自經而出故吾于貯四庫之書首重者經而以水喻文願溯其源且數典天一之閣亦庶幾不大相徑庭也夫
@@ -93,6 +94,9 @@ None of its own.
 - **E2198** (description, sure): 文源阁 Wenyuan Ge, library of the Four Treasuries. 1934 · pp.89-90 · S02. https://archive.org/details/historyofpekings00malo
   > The central point of interest in this rock garden was in the huge monolith with inscriptions on it and pierced with many holes, rising 12 or 15 feet from a stone terrace in the middle of the pool.
   Copied by measurement from the Fan family library in Zhejiang (天一阁), per Qianlong's account carved on a marble stele of 1774, still standing when Malone wrote. Glazed tiles with a wave design in white and green, fragments still on site; a pool before the library, water-worn rock round it, and the inscribed monolith 玲峰 rising 12 or 15 ft from a stone terrace in the pool.
+- **E2454** (description, guess): Hérisson: a rock mountain with a porcelain pagoda, and the imperial library (low trust). 1860, published 1886 · pp.320-321 · S246. https://archive.org/details/journalduninter00irigoog
+  > Son sommet est couronné par une petite pagode de huit mètres sur six de côté, surmontée de ses toits, entièrement construite en porcelaine blanche et jaune décorée d'étoiles. [...] C'est la Bibliothèque impériale. Son toit, en tuiles jaunes, semblable à celui de la salle du Trône [...] La salle a douze mètres de haut, dix de large et quarante de longueur.
+  Hérisson describes a rock mountain dominating the park, topped by an 8 x 6 m pagoda of white and yellow porcelain to Guanyin, and to its right a yellow-tiled imperial library 12 m high, 10 m wide and 40 m long with shelves of manuscripts and two small altars. Malone calls him the least reliable account (S246 note); the sizes do not fit 文源阁 as the texts give it, so the tie is a guess.
 - **E2200** (description, sure): 杨菁 等, 圆明园文源阁, 圆明园研究 63. 2022 · xs/ktsb t20220128_4510628, earlier fetch · S105. http://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
   Group about 16,000 m2, building about 700 m2, modelled on 天一阁. Library six bays by five, galleries front and rear, 硬山, black glazed tile with green edging, grey brick walls and dark green columns. A lower floor with study and west stair, mezzanine and a top floor of shelves. 玲峰 over 6 m high. Based on Yangshi Lei plans including one of 1894.
 - **E2202** (description, sure): 文源阁藏《四库全书》. post n.d. · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/lswh/77d2a7fe09814a34bb1befa2b7e6e0f1.htm
@@ -105,18 +109,22 @@ None of its own.
   Begun 1774 on the site of Yongzheng's 四达亭, after 天一阁: six bays on two floors. Bronze deer and tripods stood on the terrace; the great rock 玲峰 in the pool, 趣亭 and 月台 to the south, the stele pavilion east, an arch 柳浪闻莺 north-west. It held the 古今图书集成, then the 四库全书.
 - **E2201** (description, sure, search index only): 文源阁 scene card. n.d. · mhymy jqjs 11651 · S340. https://www.mhymy.com/ymss/jqjs/11651.html
   Says the library's colours were green and black, black standing for water against fire.
+- **E2205** (drawing, sure): 文源阁平面图. 光绪二十四年 (1898) · 清华大学建筑学院图书馆 T0049号 · S310. https://www.mhymy.com/dasl/ysltd/7842.html
+  Plan of Wenyuan Ge, listed in the site's index; own page URL, shelf number and date not seen. Link is the site's Yangshi Lei list. No image here; the site may ask a small payment for the full record.
+- **E0540** (drawing, sure): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
+  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
 - **E2203** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 文源阁. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 文源阁, pp.321-326 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.321-326 (6 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E0540** (drawing, sure, search index only): 圆明园河道泊岸总平面图. 乾隆四十至四十九年, 嘉庆八至十六年间局部修改 (dating on the record) · 国家图书馆善本部 样043-1号 · S310. https://www.mhymy.com/dasl/ysltd/9509.html
-  Plan of Yuanming Yuan's waterways and embankments, c. 1775-84 with changes between 1803 and 1811, about 1:200, damaged in places, with a sketch of Zao Yuan in the lower right corner. No image here; the site may ask a small payment for the full record.
-- **E2205** (drawing, sure, search index only): 文源阁平面图. S310. https://www.mhymy.com/tag/1056
-  Plan of Wenyuan Ge, listed in the site's index; own page URL, shelf number and date not seen. Link is the site's Yangshi Lei list. No image here; the site may ask a small payment for the full record.
 - **E2204** (drawing, likely, search index only): 圆明园内文源阁图样 (文源阁样式雷草图). 清末 (per the NLC note quoted on the forum) · 国家图书馆 · S323. https://bbs.mhymy.com/forum.php?mod=viewthread&tid=2358
   Late-Qing colour sheet of Wenyuan Ge with a five-bay main tower and corridors to the stele pavilion, unlike the plans from Qianlong to Xianfeng, so possibly an unbuilt design.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.
+- **E2493** (archaeology, sure): 杨菁, 杨文艳, 牛颖倩, 殷双 (天津大学建筑学院), 圆明园文源阁, 圆明园研究 63: survey of the ruin and the Guangxu 丈尺册. 2022 · sections 3.2-3.5, notes [2], [4], figs 8-12, table 3-1-1 · S105. https://www.yuanmingyuanpark.cn/xs/ktsb/202201/t20220128_4510628.html
+  The authors measured and scanned the cleared ruin before the 2024 dig: the library and stele pavilion platforms are fairly whole, the gate, steps and the cracked-ice floor can be seen, the square pond has gone, and black glazed and green glazed fragments lie about. The verbatim line is the Guangxu-reign 丈尺册 (a Qing text, quoted by the authors) giving the six bays and the depth. Their measured area is the smallest of the four northern libraries, close to 文津阁.
 - **E2206** (archaeology, sure): 文源阁 public day and results, 新华网, 北京晚报 via visitbeijing, 总台 via 凤凰网. 2024-09 to 12 · three news items · S134. https://news.ifeng.com/c/8eTlzYasshZ
   From 2024-08-26, 1,000 m2 planned. Site was the 四达亭 pavilion under Yongzheng, rebuilt 1775. Water system: one supply culvert under the north wall, four drains and a 沟门 outlet in the south wall, ground inside higher than outside. 玲峰 stone base of long slabs tied with iron dovetails. Original surface about 0.5 m down, with irregular stone paths and Y-forks not shown on any plan. Glazed fittings and porcelain sherds.
+- **E2494** (archaeology, sure): Old Summer Palace findings reveal fresh details of complex planning (文源阁 dig 2024). 2024-12-27 · pp.1-2 · S942. https://govt.chinadaily.com.cn/s/202412/27/WS676e0181498eec7e1f72bc12/old-summer-palace-findings-reveal-fresh-details-of-complex-planning_2.html
+  The 文源阁 court was a closed yard with a door south and north, holding the main hall, two pavilions and a viewing terrace linked by paths of unworked flagstones. Two ponds, one in the north-east corner and one south of the hall, were tied by channels to the river outside for fire water, and the yard was raised a little so storm water left through a wall drain. Foundations were trench, timber piles, stone slabs, then the base, the soundest found so far in the gardens; the layout matches Yangshi Lei sketches of 1779 and 1898.
 - **E2207** (archaeology, sure): 文源阁 2024 dig, 人民日报海外版 via 新华网. 2025-01-13 · article by 张利芳 · S133. https://www.news.cn/local/20250113/42158ce447b64aab8b6590fd52fddf3c/c.html
   Aug to Nov 2024: gate, stele pavilion, terrace, 趣亭, north gate, walls, roads and waterways. Dig confirms six bays and black glazed roof tiles. Two ponds, one in front and one east of the library; walls of 虎皮石 rubble, not city brick; stele pavilion founded on cedar pegs, stone slabs and rammed 三合土. Five stone culverts run under the walls, three of them under the rockery behind the gate.
 
@@ -165,6 +173,12 @@ Modern interpretation, not evidence.
 - Q26: Forms
 - Q51: Reading the Yangshi Lei records
 - Q52: Smaller conflicts
+- Q84: YM46-01 文源阁
+- Q96: Hérisson (S246 pp.320-324) describes a yellow-tiled 'Bibliothèque impériale' 40 x 10 x 12 
+- Q105: YM46 文源阁
+- Q111: YM46-01 文源阁 roof
+- Q122: Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is capt
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

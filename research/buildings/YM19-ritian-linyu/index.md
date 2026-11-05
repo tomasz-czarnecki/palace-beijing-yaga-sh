@@ -101,7 +101,7 @@ A Buddhist Temple (Sun Heaven Topaz Roof) · Yuanming Yuan
   Short notes: 鱼跃鸢飞 inside 大北门, Yongzheng, about 2,500 m2; 西峰秀色 on an islet north of 舍卫城, 1728, open only west toward the hills; 安佑宫 1740-43, its marble columns now at Peking University and the National Library; 日天琳宇 the 佛楼, early Yongzheng; 汇芳书院 1742; 廓然大公 320 x 160 m, lost in 1900.
 - **E1613** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 日天琳宇. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 日天琳宇, pp.293-298 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.293-298 (6 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1614** (drawing, sure, search index only): 日天琳宇总平面图 (图名: 佛楼). 道咸时期 · 国家图书馆善本部 样020-2号 · S310. https://www.mhymy.com/dasl/ysltd/8498.html
+- **E1614** (drawing, sure): 日天琳宇总平面图 (图名: 佛楼). 道咸时期 · 国家图书馆善本部 样020-2号 · S310. https://www.mhymy.com/dasl/ysltd/8498.html
   Presentation plan of the Buddhist tower compound of Ritian Linyu, Daoguang-Xianfeng, 664x472 mm, ink and light colour with red and yellow slips. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 日天琳宇 / 瑞应宫. https://artmuseum.princeton.edu/collections/objects/138657
@@ -126,6 +126,7 @@ Modern interpretation, not evidence.
 - Q1: Target state
 - Q18: Plan labels vs text names at 藻园, 月地云居, 日天琳宇 etc
 - Q59: Twin claims to hold loosely
+- Q128: The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically
 
 <!-- generated:end -->
 

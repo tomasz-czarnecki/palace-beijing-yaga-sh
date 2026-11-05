@@ -10,15 +10,16 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 清音阁 Qingyin Ge (S05, S43, S01, S103, S202 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S43, S01, S103, S202)
-- **Type:** theatre (S05, S43, S01, S103, S202 · confidence B)
-- **Destroyed:** 1860 (S05, S43, S01, S103, S202)
+- **Name:** 清音阁 Qingyin Ge (S05, S43, S01, S103, S202, S310 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S43, S01, S103, S202, S310)
+- **Type:** theatre (S05, S43, S01, S103, S202, S310 · confidence B)
+- **Changed:** 1838 (道光十八年): a plan to cut the stage to two storeys, 3.60 m lower, was opposed by officials and a eunuch on feng-shui grounds; the outcome is in the locked part of the page (S05, S43, S01, S103, S202, S310)
+- **Destroyed:** 1860 (S05, S43, S01, S103, S202, S310)
 - **Position:** 40.00724, 116.29323. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 14 × 13 m. stated in a source (S01)
 - **Lead on its size, from a modern study, not used in the model:** three-storey stage, 23.94 m from stage floor to ridge (S312, section 1.1). (confidence B)
-- **Storeys:** 3 (S05, S43, S01, S103, S202)
-- **Note:** S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼. Stage about 十丈 deep and wide, as printed, not converted; three tiers (S202, 卷十三, line 938). (S05, S43, S01, S103, S202)
+- **Storeys:** 3 (S05, S43, S01, S103, S202, S310)
+- **Note:** S43: 三层戏楼 通高23.94 m, 每面三间, 坐南朝北; 上中下匾 清音阁 蓬阆咸韺 春台宣豫. 南接扮戏楼. Stage about 十丈 deep and wide, as printed, not converted; three tiers (S202, 卷十三, line 938). orientation: faces north (坐南朝北), towards the viewing hall 同乐园看戏楼 YM44-01 (S310, mhymy ysltd 7297). frontage_m: 32 (S202, 卷十三, line 938 of the corpus file (E2148)). (S05, S43, S01, S103, S202, S310)
 - **Plan reader's note:** 清音阁: octagon-cornered square south of the label. Text faces N. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 4768, 2965 (S01) *(research copy, not public)*
@@ -62,7 +63,10 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q85: YM44-02 清音阁
+- Q112: YM44-02 清音阁
+- Q168: YM44 清音阁
+- Q184: Typology, 清音阁 YM44-02
 
 <!-- generated:end -->
 

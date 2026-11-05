@@ -163,7 +163,7 @@ Pieh Yu Tung T'ien (There Is Another Cave of Heaven) · Yuanming Yuan
   Begun under Yongzheng, a place of Daoist alchemy. Named halls: main hall five bays in three rolls, 纳翠楼, 水木清华之阁, 时赏斋 with the rock 青云片, the stone-boat 活画舫 of seven bays, 眺爽楼, 秀清村门 to 绮春园. Jiaqing added a five-bay 岩水澄华 and others on the south bank.
 - **E1987** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 别有洞天. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 别有洞天, pp.462-470 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.462-470 (9 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1988** (drawing, sure, search index only): 别有洞天总平面图. 乾隆末期至嘉庆 · 清华大学建筑学院图书馆 T0063号 · S310. https://www.mhymy.com/dasl/ysltd/7546.html
+- **E1988** (drawing, sure): 别有洞天总平面图. 乾隆末期至嘉庆 · 清华大学建筑学院图书馆 T0063号 · S310. https://www.mhymy.com/dasl/ysltd/7546.html
   Overall plan of Bieyou Dongtian, late Qianlong to Jiaqing, 800x500 mm. No image here; the site may ask a small payment for the full record.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Tables of when things were added, drawn from archives to date the plan's layers: 藻园 1752, 廓然大公 eight views 1754, 春雨轩 1755, 藏密楼 1758, 多稼轩 ten views 1759, 紫碧山房 1760, 安澜园 and 澄练楼 1763, 若帆之阁 1764, 汇万总春之庙 1769, 文源阁 1775, 法源楼 1779; after: 兰亭八柱 1779, 知过堂 1782, 课农轩 1816, 涵月楼 1827. The most useful single dating table found.

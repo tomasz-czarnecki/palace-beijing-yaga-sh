@@ -8,14 +8,15 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 
 ## What we know
 
-- **Name:** 坐石临流 Zuoshi Linliu (S05, S02, S08, S41, S01 · confidence A)
-- **English:** The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water) (S05, S02, S08, S41, S01)
+- **Name:** 坐石临流 Zuoshi Linliu (S05, S02, S08, S41, S01, S361, S310 · confidence A)
+- **English:** The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water) (S05, S02, S08, S41, S01, S361, S310)
 - **Written on the plan:** 土石临流 (S01 · confidence A)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S01)
-- **Type:** scene (S05, S02, S08, S41, S01 · confidence A)
-- **Destroyed:** 1860 (S05, S02, S08, S41, S01)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S41, S01, S361, S310)
+- **Type:** scene (S05, S02, S08, S41, S01, S361, S310 · confidence A)
+- **Changed:** Lanting pavilion with stone pillars and a carved stone screen standing by 1796; mid-Qianlong: 坐石临流 rebuilt as an eight-sided double-eaved pavilion 八方重檐亭, with a six-sided thatched pavilion, a square bamboo-style pavilion, a two-bay thatched house and a stone throne-bed and screen (S05, S02, S08, S41, S01, S361, S310)
+- **Destroyed:** 1860 (S05, S02, S08, S41, S01, S361, S310)
 - **Position:** 40.00833, 116.29184. S01 sure (S01 · confidence B)
-- **Note:** Album leaf also shows 同乐园 (YM44) and 舍卫城 (YM45) (S41; S02 p.94). Hall list is only this pavilion; the rest are YM44, YM45. (S05, S02, S08, S41, S01)
+- **Note:** Album leaf also shows 同乐园 (YM44) and 舍卫城 (YM45) (S41; S02 p.94). Hall list is only this pavilion; the rest are YM44, YM45. (S05, S02, S08, S41, S01, S361, S310)
 - **Plan reader's note:** Label at (4288,2400). Polygon stops at the scroll gap x~4305; more drawing continues east of the gap (not read). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 4245, 2345 (S01) *(research copy, not public)*
@@ -34,7 +35,7 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 - YM38-B0437
 - YM38-B0445
 
-## Pictures (7)
+## Pictures (9)
 
 - **P0038** (sure): 坐石臨流 Zuoshi linliu [D'une pierre effleurant l'eau, regarder s'écouler l'onde] (圓明園四十景, 第38景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E5%8D%81%E5%85%AB%E6%99%AF_%28%E4%B8%8B%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E5%85%AB%E5%B9%85%E5%9B%BE%29%2C_%E5%9D%90%E7%9F%B3%E8%87%A8%E6%B5%81_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Zuoshi_linliu_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua%2C_-_btv1b550083530.jpg
 
@@ -56,6 +57,7 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 
   ![P0545](../../photos/images/P0545.jpg)
 
+- **P0797** (likely): Bj zsgy07.JPG (not stated (Commons file page)). https://commons.wikimedia.org/wiki/File:Bj_zsgy07.JPG
 - **P0492** (likely): Lanting Tablet Pavilion 1.jpg (2023-11-18 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Lanting_Tablet_Pavilion_1.jpg
 
   ![P0492](../../photos/images/P0492.jpg)
@@ -64,6 +66,7 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
 
   ![P0493](../../photos/images/P0493.jpg)
 
+- **P0798** (likely): Dongcheng, Beijing, China - panoramio (65).jpg (Taken on 17 June 2013 (Commons file page)). https://commons.wikimedia.org/wiki/File:Dongcheng,_Beijing,_China_-_panoramio_(65).jpg
 
 ## Texts and drawings (23)
 
@@ -115,10 +118,10 @@ The Granite Road South of She Wei Ch'eng (the Stone Resting in the Running Water
   North-east of 后湖; copies the 兰亭 of Shaoxing, with its winding-stream gathering of 王羲之.
 - **E2071** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 坐石临流. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 坐石临流, pp.229-262 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.229-262 (34 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
+- **E2158** (drawing, likely): 同乐园 烫样. 中国国家博物馆 · S328. https://www.mhymy.com/xwzx/ssrd/13512.html
+  Paper model of the Tongle Yuan group under conservation at the National Museum, reported as the clearest surviving record of it, labelled with directions and sizes; made for Tongzhi's project per the report.
 - **E2072** (drawing, sure, search index only): 同乐园平面图. S310. https://www.mhymy.com/dasl/ysltd/7295.html
   Plan of the great theatre garden, part of Zuoshi Linliu, facing Shewei Cheng to the north; shelf number and date not seen in the extract. No image here; the site may ask a small payment for the full record.
-- **E2158** (drawing, likely, search index only): 同乐园 烫样. 中国国家博物馆 · S328. https://www.mhymy.com/xwzx/ssrd/13512.html
-  Paper model of the Tongle Yuan group under conservation at the National Museum, reported as the clearest surviving record of it, labelled with directions and sizes; made for Tongzhi's project per the report.
 - **E0550** (plan, sure): 圆明园新证—乾隆朝圆明园全图的发现与研究 (端木泓). post n.d. · 故宫博物院图书馆 no.1704 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
   Argues Palace Museum Library plan no.1704, paper, about 17.6 x 13.1 m, is the earliest complete plan of the Qianlong garden. About a hundred pasted corrections sit over the base layer, recording changes from Qianlong 44 (1779) to Daoguang 11 (1831, 慎德堂). 坐石临流 is one scene shown both ways.
 - **E2262** (plan, sure): 圆明园新证, 端木泓: dated additions shown on plan 1704. post n.d. · tables 1 and 2 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
@@ -147,7 +150,10 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q91: YM38-01
+- Q99: Wolseley (S240), M'Ghee (S242), Loch (S244)
+- Q119: Digs
+- Q125: Geotagged Commons coverage is thin
 
 <!-- generated:end -->
 

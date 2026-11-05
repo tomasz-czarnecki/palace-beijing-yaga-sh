@@ -10,14 +10,14 @@ Qichun Yuan
 
 ## What we know
 
-- **Name:** 文殊亭 Wenshu Ting (S49, S01, S221 · confidence B)
-- **Garden:** Qichun Yuan (S49, S01, S221)
-- **Type:** temple (S49, S01, S221 · confidence B)
-- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221)
+- **Name:** 文殊亭 Wenshu Ting (S49, S01, S221, S228 · confidence B)
+- **Garden:** Qichun Yuan (S49, S01, S221, S228)
+- **Type:** temple (S49, S01, S221, S228 · confidence B)
+- **Destroyed:** not burnt 1860 (S49) (S49, S01, S221, S228)
 - **Position:** 39.99950, 116.30332. S01 likely (S01 · confidence B)
-- **Bays:** 1x1 on the plan (S49, S01, S221)
+- **Bays:** 1x1 on the plan (S49, S01, S221, S228)
 - **Size in the inventory:** 7.2 × 9.1 m. S01 plan px / hall scale (S01)
-- **Note:** 八方重檐 (S49); 文殊 statue over 2 zhang. octagonal; double eaves in Qianlong's time, single eaves on the survivor (S221) (S221, section 四). (S49, S01, S221)
+- **Note:** 八方重檐 (S49); 文殊 statue over 2 zhang. octagonal; double eaves in Qianlong's time, single eaves on the survivor (S221) (S221, section 四). after1860: survived to the restoration; repaired in phase 1 (2003) (S228, section 长期被占损毁严重). (S49, S01, S221, S228)
 - **Plan reader's note:** rect=30,30,0. Octagon drawn, matches 八方重檐亭 in lead 5910f5. (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 8468, 7477 (S01) *(research copy, not public)*
@@ -32,7 +32,11 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Faces:** 172.9° from north
 - **Confidence:** B
 
-## Pictures (2)
+## Pictures (3)
+
+- **P0173** (likely): China, Peking, Tempel (Bundesarchiv caption: Chinesischer Tempel ...) (1900 (Commons)). https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_137-000605%2C_China%2C_Peking%2C_Tempel.jpg
+
+  ![P0173](../../photos/images/P0173.jpg)
 
 - **P0231** (sure): 正觉寺文殊亭内文殊菩萨全身照片 (1920 and 1920年代, both on S229). https://www.yuanmingyuanpark.cn/xw/202102/t20210225_4454127.html Research-only: link card.
 - **P0430** (sure): Eight-sided Pavillion of Manjusri 20130317.jpg (2013-03-17 08:37:44 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Eight-sided_Pavillion_of_Manjusri_20130317.jpg
@@ -57,7 +61,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 ## Open questions
 
-None that name it.
+- Q155: P0639 is titled 'The rebuilt Wen Shu Pavillion of Zheng Jue Temple' (Commons, 2009)
 
 <!-- generated:end -->
 

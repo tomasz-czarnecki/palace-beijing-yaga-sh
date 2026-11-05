@@ -15,6 +15,7 @@ Yuanming Yuan
 - **Type:** other (S05 · confidence B)
 - **Destroyed:** 1860 (S05)
 - **Position:** Not placed: the name was not found on the plan.
+- **Note:** 引胜 (S05); 引胜轩 (S361 editors) (S05, j81:29a). (S05)
 
 ## Our model now
 

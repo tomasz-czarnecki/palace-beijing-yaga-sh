@@ -39,7 +39,7 @@ Qichun Yuan
 - QC11-B1387
 - QC11-B1395
 
-## Pictures (12)
+## Pictures (14)
 
 - **P0177** (sure): Zhengjue temple in Yuanmingyuan Park, a temple hall, 'three saints' (between 1918 and 1935 (Commons)). http://kulturarvsdata.se/SMVK-OM/Bildarkiv/10714275
 
@@ -86,6 +86,8 @@ Qichun Yuan
 
   ![P0639](../../photos/images/P0639.jpg)
 
+- **P0803** (sure): Gate of Zheng Jue Temple, Old Summer Palace, Beijing.jpg (2009-08-29 (Commons file page)). https://commons.wikimedia.org/wiki/File:Gate_of_Zheng_Jue_Temple,_Old_Summer_Palace,_Beijing.jpg
+- **P0804** (sure): 正觉寺 - Zhengjue Temple - 2012.12 - panoramio.jpg (Taken on 21 December 2012 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E6%AD%A3%E8%A7%89%E5%AF%BA_-_Zhengjue_Temple_-_2012.12_-_panoramio.jpg
 
 ## Texts and drawings (16)
 
@@ -150,6 +152,13 @@ Modern interpretation, not evidence.
 
 - Q8: Known errors of S01
 - Q52: Smaller conflicts
+- Q123: Commons File:1963-05_1963年_北京正觉寺金刚宝塔.jpg (人民画报, PD) came up for 正觉寺
+- Q149: QC11 正觉寺
+- Q150: QC01
+- Q152: yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which
+- Q153: Brief
+- Q177: QC11
+- Q178: QC11
 
 <!-- generated:end -->
 

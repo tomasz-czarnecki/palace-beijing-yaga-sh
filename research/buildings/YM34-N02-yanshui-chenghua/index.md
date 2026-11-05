@@ -38,10 +38,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 
 None of its own.
 
-## Texts and drawings (1)
+## Texts and drawings (2)
 
 - **E1983** (description, sure): 岩水澄华. 2018 blog, on the archive · section 岩水澄华 · S381. https://blog.sina.com.cn/s/blog_88741e0d0102xbym.html
   Five-bay hall facing north with a three-bay porch; the area east and west of it was much rebuilt in late Qianlong or early Jiaqing; platform remains can be seen today on the blog's photographs.
+- **E1984** (description, likely): 圆明园五朝御制诗文集注 v3, editors' note on 别有洞天. 2020 edition · v3 p.23 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=26
+  Begun under Yongzheng, a place of Daoist alchemy. Named halls: main hall five bays in three rolls, 纳翠楼, 水木清华之阁, 时赏斋 with the rock 青云片, the stone-boat 活画舫 of seven bays, 眺爽楼, 秀清村门 to 绮春园. Jiaqing added a five-bay 岩水澄华 and others on the south bank.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled ?水澄? (? marks an unread character). https://artmuseum.princeton.edu/collections/objects/138657
 

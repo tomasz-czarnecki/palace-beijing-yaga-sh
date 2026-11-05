@@ -10,13 +10,13 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 石华表 Shi huabiao (S05, S02, S06, S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S06, S01)
-- **Type:** other (S05, S02, S06, S01 · confidence B)
-- **Destroyed:** 1860 (S05, S02, S06, S01)
+- **Name:** 石华表 Shi huabiao (S05, S02, S06, S01, S980 · confidence B)
+- **Garden:** Yuanming Yuan (S05, S02, S06, S01, S980)
+- **Type:** other (S05, S02, S06, S01, S980 · confidence B)
+- **Destroyed:** 1860 (S05, S02, S06, S01, S980)
 - **Position:** 40.00800, 116.28381. S01 likely (S01 · confidence B)
 - **Size in the inventory:** 2.9 × 3.0 m. S01 plan px / hall scale (S01)
-- **Note:** S02 p.85: four carved marble pillars c. 20 ft high, c. 100 ft apart, forming a square. (S05, S02, S06, S01)
+- **Note:** S02 p.85: four carved marble pillars c. 20 ft high, c. 100 ft apart, forming a square. after1860: two at Peking University (from 1925), two at the National Library ancient-books branch (文津楼); pairs mismatched (S980, page text). (S05, S02, S06, S01, S980)
 - **Plan reader's note:** 石华表: four squares (912,2035), (1050,2033), (908,2167), (1048,2167), about 140 px apart. Text says 左右各一 (two), Malone and the plan show four. rect=12,10,0 (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 978, 2100 (S01) *(research copy, not public)*
@@ -56,7 +56,8 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q135: YM17-02
+- Q185: Typology, 石华表 YM17-02
 
 <!-- generated:end -->
 

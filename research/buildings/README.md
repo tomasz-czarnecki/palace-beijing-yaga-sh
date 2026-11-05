@@ -642,7 +642,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM03-14](YM03-14-tongdao-tang-xitai/index.md) | 同道堂戏台 Tongdao Tang xitai | Yuanming Yuan | 0 |  |
 | [YM03-15](YM03-15-yiqing-shushi/index.md) | 怡情书史 Yiqing Shushi | Yuanming Yuan | 0 |  |
 | [YM03-16](YM03-16-zhaoyin-jing-ting/index.md) | 昭吟镜亭 Zhaoyin Jing Ting | Yuanming Yuan | 0 |  |
-| [YM03-17](YM03-17-jifu-tang/index.md) | 基福堂 Jifu Tang | Yuanming Yuan | 0 |  |
+| [YM03-17](YM03-17-jifu-tang/index.md) | 基福堂 Jifu Tang | Yuanming Yuan | 1 |  |
 | [YM03-18](YM03-18-xingcun-zhai/index.md) | 性存斋 Xingcun Zhai | Yuanming Yuan | 0 |  |
 | [YM03-19](YM03-19-yongchun-shi/index.md) | 永春室 Yongchun Shi | Yuanming Yuan | 0 |  |
 | [YM03-20](YM03-20-quanshi-ziyu/index.md) | 泉石自娱 Quanshi Ziyu | Yuanming Yuan | 0 |  |
@@ -785,7 +785,7 @@ One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`
 | [YM09-B0671](YM09-B0671-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM09-B0672](YM09-B0672-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
 | [YM09-B0674](YM09-B0674-unnamed/index.md) | Hall without a name on the plan | Yuanming Yuan | 1 |  |
-| [YM09-N01](YM09-N01-unnamed/index.md) | ?镜 | Yuanming Yuan | 1 |  |
+| [YM09-N01](YM09-N01-yuanjing/index.md) | 渊镜 Yuanjing | Yuanming Yuan | 1 |  |
 | [YM09-N02](YM09-N02-chang-ting/index.md) | 敞厅 Chang Ting | Yuanming Yuan | 1 |  |
 | [YM10](YM10-tantan-dangdang/index.md) | 坦坦荡荡 Tantan Dangdang | Yuanming Yuan | 0 |  |
 | [YM10-01](YM10-01-tantan-dangdang-dian/index.md) | 坦坦荡荡殿 Tantan Dangdang Dian | Yuanming Yuan | 1 |  |

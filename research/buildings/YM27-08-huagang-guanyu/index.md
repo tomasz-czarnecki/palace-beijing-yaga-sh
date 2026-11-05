@@ -24,7 +24,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (2)
+## Texts and drawings (3)
 
 - **E1781** (text, sure): 日下舊聞考 西峰秀色. 1780s (乾隆 敕撰) · j82:6b-7a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 北逺山村西南有室臨河西向為西峯秀色河西松巒峻峙為小匡廬後有龍王廟西峯秀色之東為含韻齋又東為一堂和氣又東南為自得軒後垣東為嵐鏡舫西為花港觀魚（圓明園册）臣等謹按西峯秀色四十景之一兹額及含韻齋一堂和氣自得軒額皆世宗御書嵐鏡舫花港觀魚諸額皆皇上御書
@@ -32,6 +32,8 @@ None of its own.
 - **E1802** (poem, likely): 自花港观鱼放舟至耕云堂. 嘉庆十年 (1805) · v3 p.192, under 若帆之阁; source ref 3-99 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382569071850.pdf#page=195
   > 柳展长条桃灼华，川湄岩角灿明霞。扁舟试放溪亭北，恍似寻芳溯若耶。
   Poem 自花港观鱼放舟至耕云堂 by the Jiaqing Emperor, 1805, filed by the editors under 若帆之阁.
+- **E1788** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 西峰秀色. 2020 edition · v2 p.258 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=261
+  Of 1728, Yongzheng's favourite. A three-bay open hall facing west, once with a stage for the Double Seventh; 含韵斋 of five bays in three rolls; 玉兰堂, 自得轩, 小隐亭, twelve-bay 岚镜舫, a seven-bay hall 花港观鱼 over the river, 长青洲, the 小匡庐 cascade.
 
 ## Evidence for the set of buildings
 

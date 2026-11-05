@@ -32,9 +32,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1 m
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0006** (likely): 碧桐書院 Bitong shuyuan [Studio des aleurites d'émeraude] (圓明園四十景, 第6景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%85%AD%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%85%AD%E5%B9%85%E5%9B%BE%29%2C_%E7%A2%A7%E6%A1%90%E6%9B%B8%E9%99%A2_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Bitong_shuyuan_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b550083587.jpg
+
+  ![P0006](../../photos/images/P0006.jpg)
+
 
 ## Texts and drawings (1)
 
@@ -46,11 +49,9 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 碧桐书院 (no picture of this hall found): see YM06
+- Evidence for the whole compound 碧桐书院: see YM06
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a side hall (not this building): see CLASS-side_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

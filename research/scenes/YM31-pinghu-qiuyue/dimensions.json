@@ -1,0 +1,77 @@
+{
+ "id": "YM31",
+ "name": "平湖秋月 Pinghu Qiuyue",
+ "by_method": {
+  "a": 0,
+  "b": 4,
+  "c": 0,
+  "d": 0,
+  "e": 0
+ },
+ "figures": [
+  {
+   "id": "YM31",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 324.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM31",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 138.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "YM31",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 18800.0,
+   "err": 1900.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  },
+  {
+   "id": "YM31",
+   "part": "water inside the scene's outline",
+   "what": "water_area",
+   "label": "Water inside the outline",
+   "value": 3250.0,
+   "err": 330.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 within layers/scenes_1860",
+   "snippet": false,
+   "key": false,
+   "scale": "UTM 50N"
+  }
+ ]
+}

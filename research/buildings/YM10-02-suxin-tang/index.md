@@ -25,7 +25,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 None of its own.
 
-## Texts and drawings (7)
+## Texts and drawings (8)
 
 - **E1327** (text, sure): 日下舊聞考 坦坦荡荡. 1780s (乾隆 敕撰) · j81:2b-3a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 杏花春館之西度碧瀾橋為坦坦蕩蕩三楹前宇為素心堂後宇為光風霽月堂東北為知魚亭又東北為萃景齋西北為雙佳齋（圓明園冊）臣等謹按坦坦蕩蕩四十景之一也額為皇上御書聨曰源頭句詠朱夫子池上居同白樂天素心堂内額曰清虚靜泰與光風霽月萃景齋諸額皆御書知魚亭及雙佳齋額世宗御書萃景齋石上刋御製坦坦蕩蕩詩
@@ -47,6 +47,8 @@ None of its own.
   Poem 题素心堂 by the Qianlong Emperor, 1770, filed by the editors under 坦坦荡荡.
 - **E1329** (description, sure): 圆明园百景史事分景汇编: 素心堂. 1759-1819 · from p.145, under 坦坦荡荡 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=145
   素心堂: 11 dated items, 1759-1819, of which 11 poems (Qianlong, Jiaqing); recurring themes: visits to the dowager. First dated 1759, last dated 1819.
+- **E1333** (description, likely): 圆明园五朝御制诗文集注 v2, editors' note on 坦坦荡荡. 2020 edition · v2 p.44 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382343267004.pdf#page=47
+  The goldfish pool on the west shore: gate hall of five bays 素心堂 with a three-bay annex, 半亩园 east, 澹怀堂 west, 知鱼亭, 萃景斋, 双佳斋, and the five-bay 光风霁月 in mid-pool.
 
 ## Evidence for the set of buildings
 

@@ -10,13 +10,14 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 接秀山房正宇 Jiexiu Shanfang zhengyu (S05, S01 · confidence C)
+- **Name:** 接秀山房正宇 Jiexiu Shanfang zhengyu (S05, S01 · confidence B)
 - **Garden:** Yuanming Yuan (S05, S01)
-- **Type:** other (S05, S01 · confidence C)
+- **Type:** other (S05, S01 · confidence B)
 - **Destroyed:** 1860 (S05, S01)
 - **Position:** 40.00726, 116.30144. S01 guess (S01 · confidence C)
 - **Bays:** 3 in the texts / 2x2 on the plan (S05, S01)
 - **Size in the inventory:** 7.4 × 10.9 m. S01 plan px / hall scale (S01)
+- **Note:** orientation: W (S05, j82:17b). (S05, S01)
 - **Plan reader's note:** 接秀山房正宇 candidate. S111: the name no longer appears in Daoguang or Xianfeng records. (S01) *(research copy, not public)*
 - **How it was read:** guess (S01) *(research copy, not public)*
 - **Plan pixels:** 8177, 3518 (S01) *(research copy, not public)*
@@ -57,7 +58,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q89: YM33-08 观澜堂 (about 1817)
 
 <!-- generated:end -->
 

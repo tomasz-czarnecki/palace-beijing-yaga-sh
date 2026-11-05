@@ -53,6 +53,8 @@ None of its own.
 
 - Q3: Which state does S01 draw?
 - Q14: A label names which hall?
+- Q102: Q36 support
+- Q162: YM03
 
 <!-- generated:end -->
 

@@ -1,0 +1,77 @@
+{
+ "id": "QC01",
+ "name": "绮春园宫门 Qichun Yuan Gongmen",
+ "by_method": {
+  "a": 0,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 1
+ },
+ "figures": [
+  {
+   "id": "QC01",
+   "part": "gate quarter",
+   "what": "court_w",
+   "label": "Court width",
+   "value": 200.0,
+   "err": 20.0,
+   "unit": "m",
+   "method": "e",
+   "confidence": "C",
+   "source": "S227",
+   "locator": "t20110105_231486",
+   "snippet": true,
+   "key": true,
+   "scale": ""
+  },
+  {
+   "id": "QC01",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 118.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "QC01",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 101.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "QC01",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 11600.0,
+   "err": 1200.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  }
+ ]
+}

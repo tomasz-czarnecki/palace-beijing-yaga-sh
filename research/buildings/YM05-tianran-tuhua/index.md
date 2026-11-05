@@ -156,10 +156,10 @@ A Painting by Nature · Yuanming Yuan
   Built before Yongzheng's accession on the east shore of the rear lake: a square lakeside tower, 朗吟阁 north of it (his favourite room as a prince), 竹簻楼, and 五福堂, renamed 五福五代堂 late in Qianlong's reign, behind which 竹深荷静 became 湛静斋 under Xianfeng.
 - **E1239** (description, sure, search index only): 天然图画 scene card. n.d. · mhymy jqjs 3856 · S340. https://www.mhymy.com/ymss/jqjs/3856.html
   North of 镂月开云, west on 后湖, 150 x 110 m, 16,000 m2, 1,950 m2 of buildings.
+- **E0529** (drawing, sure): 圆明园总平面图. 乾隆四十至四十二年绘, 改至道光十一年 (1775-1831) · 故宫博物院图书馆 样1704号 · S310. https://www.mhymy.com/dasl/ysltd/9380.html
+  Large overall base plan of Yuanming Yuan, ink and light colour with pasted slips, 1761x1311 mm, drawn c. 1775-77 and altered until 1831, so its layers must be read apart; at Tianran Tuhua the pool is painted out in white. No image here; the site may ask a small payment for the full record.
 - **E1240** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 天然图画. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 天然图画, p.227 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at p.227 (1 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E0529** (drawing, sure, search index only): 圆明园总平面图. 乾隆四十至四十二年绘, 改至道光十一年 (1775-1831) · 故宫博物院图书馆 样1704号 · S310. https://www.mhymy.com/dasl/ysltd/9380.html
-  Large overall base plan of Yuanming Yuan, ink and light colour with pasted slips, 1761x1311 mm, drawn c. 1775-77 and altered until 1831, so its layers must be read apart; at Tianran Tuhua the pool is painted out in white. No image here; the site may ask a small payment for the full record.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 天然图画. https://artmuseum.princeton.edu/collections/objects/138657
 

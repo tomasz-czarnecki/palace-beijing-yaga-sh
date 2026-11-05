@@ -38,7 +38,7 @@ The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrac
 - YM32-B0497
 - YM32-B0519
 
-## Pictures (10)
+## Pictures (12)
 
 - **P0032** (sure): 蓬島瑶臺 Pengdao yaotai [Terrasse de jade sur l'île d'Immortalité] (圓明園四十景, 第32景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28097_of_124%29.jpg
 
@@ -76,12 +76,14 @@ The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrac
 
   ![P0387](../../photos/images/P0387.jpg)
 
+- **P0790** (likely): 圆明园 (205947461).jpeg (2 April 2017, 16:27:21 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD_(205947461).jpeg
+- **P0791** (likely): 圆明园 (205947529).jpeg (2 April 2017, 18:18:42 (Commons file page)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD_(205947529).jpeg
 - **P0289** (guess): Fotografija Ruševine harema v Stari poletni palači (album: "Ruinen von Yüen-Ming-Yüen") (20th c., album bought 1914-1920 (holder)). https://vazcollections.si/predmeti/fotografija-rusevine-harema-v-stari-poletni-palaci/
 
   ![P0289](../../photos/images/P0289.jpg)
 
 
-## Texts and drawings (27)
+## Texts and drawings (30)
 
 - **E1925** (poem, sure): 御製蓬島瑶臺詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j82:17a-17b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_082.txt
   > 乾隆九年 御製蓬島瑶臺詩 福海中作大小三島仿李思訓畫意為仙山樓閣之狀岧岧亭亭望之若金堂五所玉樓十二也真忘一如小大一如能知此是三壺方丈便可半升鐺内煮江山 名葩綽約草葳㽔隠映仙家白玉墀天上畫圖懸日月水中樓閣浸琉璃鷺拳淨沼波翻雪燕賀新巢棟有芝海外方蓬原宇内祖龍鞭石竟奚為
@@ -142,6 +144,9 @@ The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrac
 - **E2367** (description, sure): Attiret: 福海 and 蓬岛瑶台. 1743 · [pp.16-17] · S157. https://faculty.bard.edu/~louis/gardens/attiretaccount.html
   > But what is the most charming Thing of all, is an Island or Rock in the Middle of this Sea; rais'd, in a natural and rustic Manner, about Six Foot above the Surface of the Water. On this Rock there is a little Palace; which however contains a hundred different Apartments. It has Four Fronts;
   Lake near five miles round in this translation. Island palace on a rock about 6 ft above the water, a hundred rooms, four fronts, with views of all shores. Identified with 福海 by S02 p.135.
+- **E2447** (description, sure): Attiret (French original): the island palace in the sea. 1743, printed 1749 · pp.16-17 (OCR running heads) · S911. https://archive.org/details/lettresdifiant27pari
+  > Il y a en effet un de ces bassins qui a près d'une demi-lieue de diamètre en tous sens, & à qui on a donné le nom de mer. [...] Mais ce qui est un vrai bijou, c'est une isle ou rocher, qui au milieu de cette mer s'élève d'une manière raboteuse & sauvage, à une toise ou environ au-dessus de la surface de l'eau. Sur ce rocher est bâti un petit Palais, où cependant l'on compte plus de cent chambres ou sallons. Il a quatre faces
+  French text behind E2367: the lake called a sea, about half a league across, with a rough rock rising about one toise out of the water at its centre, carrying a small palace of more than a hundred rooms with four fronts, from which all the shore palaces can be seen. Spelling modernised only for the long s.
 - **E1936** (description, sure): Scene 32, 蓬岛瑶台 Pengdao Yaotai. 1934 · p.93 · S02. https://archive.org/details/historyofpekings00malo
   > The central island was occupied by a little palace courtyard, decorated with glazed tile, and connected by bridges with the smaller islands lying to the northwest and east.
   Central island with a small palace court and glazed tile; bridges to the north-west island, also built over, and the east island, a rustic retreat with pavilion, rocks and trees. Decorated after a painting by the Tang artist 李思训 Li Sixun.
@@ -151,6 +156,12 @@ The Three Islands in the Happy Sea (Paradise Island of the Enameled Green Terrac
 - **E1935** (description, likely): Six paintings, I: 蓬岛瑶台 Pengdao Yaotai. before 1799 · pp.190-195, Tableau I · S258. https://archive.org/details/BIUSante_40644
   > offre une vaste étendue d'eau qui embrasse trois îles liées l'une à l'autre par deux ponts.
   Delatour owned six Chinese paintings of the garden, described by the garden writer Morel. Identifications here are mine, by form. Three islands, two bridges; large island with four building ranges round a square court on a stone plinth, one pavilion with an upper floor; smaller island with two ranges and walls; smallest with a mound and an open hexagonal kiosk on six columns; water lilies.
+- **E2451** (description, guess): Swinhoe: the park behind the residence, a building in a lake, a rock cavern, lama temples. 1860 · pp.301-302 · S241. https://archive.org/details/narrativeofnorth00swin
+  > Here a solitary building would rise fairy-like from the centre of a lake, reflecting its image on the limpid blue liquid in which it seemed to float, and then a sloping path would carry you into the heart of a mysterious cavern artificially formed of rockery, and leading out on to a grotto in the bosom of another lake. [...] Just within the walls that encircled the grounds on the right and left were large handsome llama temples with yellow tiled roofs.
+  A walk of 7 October 1860 behind the main building: pebbled paths, groves, lakes, summer-houses, bridges, herds of deer; a lone building in the middle of a lake (万方安和 or 蓬岛瑶台 would fit: a guess), a rock cavern opening on a grotto in another lake (the cave of 武陵春色 would fit: a guess), and yellow-tiled lama temples just inside the walls. He gives the wall circuit as about twelve miles.
+- **E2455** (description, guess): Hérisson: lakes, an island palace, the coach house with Macartney's carriages, the boat landing (low trust). 1860, published 1886 · pp.322-323 · S246. https://archive.org/details/journalduninter00irigoog
+  > Voici des lacs, au milieu du plus grand est construit un petit palais [...] Ce palais, planté sur une île dont les terres rapportées dépassent à peine le niveau éternellement constant de la nappe d'eau qui l'entoure, semble sortir du fond du lac. Sur le bord du lac, à gauche, il y a un grand bâtiment en bois précieux [...] C'est une remise. Elle contient les carrosses [...] que lord Macartney fut [...] chargé d'offrir à l'empereur
+  A small palace on a low island in the largest lake (蓬岛瑶台 would fit: a guess); on the left shore a coach house holding the unused carriages of the Macartney embassy (compare Swinhoe's outhouse with Macartney's gifts, E0477); beside it a yellow-tiled boat landing with the imperial barges, and tame goldfish a foot long. Low trust (S246).
 - **E1216** (description, sure): Site status table, about 2011: remains tidied up. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   A blogger's table of what was then visible. These scenes have building remains that have been cleared and tidied. Dated about 2011, so digs since then are not reflected.
 - **E1934** (description, sure): 圆明园百景史事分景汇编: 畅襟楼. 1767-1803 · from p.256, under 蓬岛瑶台 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=256
@@ -189,6 +200,9 @@ Modern interpretation, not evidence.
 
 - Q9: Bay counts, plan against text
 - Q47: How much burned, and when
+- Q97: Swinhoe pp.301-302 (7 October 1860)
+- Q119: Digs
+- Q174: YM32
 
 <!-- generated:end -->
 

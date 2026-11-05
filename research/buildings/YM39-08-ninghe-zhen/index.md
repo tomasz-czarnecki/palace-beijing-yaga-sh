@@ -33,9 +33,12 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **1 ×:** gate hall: 6.9 × 6 m, eave 4.47 m, ridge 6.61 m
 - **Confidence:** B
 
-## Pictures (0)
+## Pictures (1)
 
-None of its own.
+- **P0039** (likely): 麴院風荷 Quyuan fenghe [Senteurs de lotus à travers la cour des Ferments] (圓明園四十景, 第39景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E6%99%AF_%28%E4%B8%8B%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B9%9D%E5%B9%85%E5%9B%BE%29%2C_%E9%BA%B4%E9%99%A2%E9%A2%A8%E8%8D%B7_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Quyuan_fenghe_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008354f.jpg
+
+  ![P0039](../../photos/images/P0039.jpg)
+
 
 ## Texts and drawings (3)
 
@@ -44,7 +47,7 @@ None of its own.
   South of 麴院風荷, a nine-opening bridge across the pool with archways 金鼇 to the west and 玉蝀 to the east; 四圍佳麗 and the 飲練長虹 pavilion nearby; further south-east the walled mock town 寧和鎮 and the 東樓門.
 - **E2393** (text, likely): 《日下舊聞考》 on 寧和鎮, the plan's 春和镇. 乾隆, 1780s · j82:27b · S05. https://www.kanripo.org/text/KR2k0036/082
   > 飲練長虹又東南度橋折而北設城闗為寧和鎮其東南為東樓門
-  Rixia gives 寧和鎮, a gate fort. S01 reads 春和镇. Possibly a plate change after 1780s or a misreading; no other source found.
+  Rixia gives 寧和鎮, a gate fort. S01 reads 春和镇: the S361 editors (E2081, v3 p.112) say it was renamed 春和镇 early in Daoguang's reign to avoid a name taboo, so S01 shows the later name.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 
@@ -52,11 +55,9 @@ None of its own.
 
 ## Evidence for the set of buildings
 
-- Evidence for the whole compound 曲院风荷 (no picture of this hall found): see YM39
+- Evidence for the whole compound 曲院风荷: see YM39
 - Reconstructions and comparables for the whole garden, 圆明园 Yuanming Yuan: see GARDEN-YM
 - Standing buildings comparable to a gate hall (not this building): see CLASS-gate_hall
-
-**Searched and not found:** No picture of it found in the Forty Scenes album, its 1745 woodcuts, the Bertin gouaches and the 1887 lithograph; the 20 Xiyang Lou plates; ruin photographs on Commons, at Östasiatiska museet, the Slovene Ethnographic Museum, Historical Photographs of China, the Rijksmuseum, Wellcome and in NDL's albums of about 1900; today's photographs on Commons.
 
 ## Open questions
 

@@ -51,7 +51,7 @@ Ju Yuan, Garden of Likeness (Malone p.98) · Changchun Yuan
 
 None of its own.
 
-## Texts and drawings (40)
+## Texts and drawings (41)
 
 - **E0342** (poem, sure): 御製如園詩. 1770 (乾隆三十五年) · j83:18b-19a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_083.txt
   > 乾隆三十五年御製如園詩　南北臨衢各築垣過來複道便如園有泉有竹清幽致曰室曰齋淳樸敦境冩中山遥古蹟（江寕藩司署中瞻園即明中山王徐逹西園之舊是園規制略倣之）石移西嶺近雲根邇方小得心懐暢景對南薰畧可論
@@ -151,11 +151,13 @@ None of its own.
   A small pavilion facing north-east on a little bay, 100 yards north of 如园. Which hall is not named.
 - **E2000** (description, sure): Site status table, about 2011: scattered remains only. c. 2011 · 系列06 repost, status table · S356. https://blog.sina.com.cn/s/blog_c27029650101itzz.html
   Scenes with only scattered, incomplete building remains in the same table. 方壶胜境 is listed separately as the one with fairly complete remains not yet tidied up. 紫碧山房, 舍卫城 and 如园 have been dug since.
+- **E2495** (description, sure): List of the excavated sites of the Yuanmingyuan, 1994-2024 (贾贯峰, 圆明园研究 83). 2024-11-11 · section on the site museum, para. starting 圆明园是我国第一批国家考古遗址公园 · S946. https://www.yuanmingyuanpark.cn/xs/ktsb/202411/t20241111_4732355.html
+  Since the first formal digs at 藻园 and 十三所 in 1994, the important sites excavated are 含经堂, 澹怀堂, 大宫门, 养雀笼, 谐奇趣, 海晏堂, 远瀛观, 桃花洞, 如园, 紫碧山房, 舍卫城 and 澹泊宁静 (written just as the 2024 文源阁 dig ended). The site museum is to centre on 正觉寺, with a planned museum at 大宫门.
 - **E0356** (description, sure): 圆明园百景史事分景汇编: 如园. 1768-1856 · from p.289, under 如园 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=289
   The early poems (1768-1770, and again 1788) call it 含芳书屋; 如园 appears from 1770. The 1776 poem says it copies the south and notes a covered way over a double wall to 熙春园 on the south. A note of 1825 names 含碧楼 and 延清堂. Daoguang brought the dowager here for meals, 1829-1840; the last entry is Xianfeng rowing here in rain, 1856. 如园: 24 dated items, 1768-1856, of which 16 poems and 8 court records (Qianlong, Jiaqing, Daoguang, Xianfeng); recurring themes: the view, visits to the dowager, reading. First dated 1768, last dated 1856.
 - **E0358** (description, sure): 圆明园五朝御制诗文集注 v4, editors' note on 如园. 2020 edition · v4 p.43 · S361. https://www.yuanmingyuanpark.cn/xs/yjbg/202008/P020200803382796786124.pdf#page=46
   Finished 1767 in the south-east corner, after 瞻园 in Nanjing, linked to 熙春园 by a bridge over the street. Halls included 含芳书屋, 敦素堂, 明漪楼. Heavily repaired in 1811, when Jiaqing's essay 重修如园记 gives the layout and nearly all plaques were changed; he also named ten scenes.
-- **E0359** (drawing, sure, search index only): 如园地盘全图. S310. https://www.mhymy.com/tag/97
+- **E0359** (drawing, sure, search index only): 如园地盘全图. S310. https://www.mhymy.com/dasl/ysltd/7570.html
   Ground plan of Ru Yuan, the garden east of Changchun Yuan's gate quarter; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 - **E0360** (drawing, sure, search index only): 延清堂 样式雷 drawings as cited: 延清堂[地盘样] 样065-0002-04; 如园延清堂[地盘样] 样065-0002-03; 延清堂[地盘尺寸样] 样065-0002-02; [延清堂地盘样糙底] 样065-0004-01; [延清堂天棚立样糙底] 样065-0004-02; 如园[地盘全样], 国家图书馆藏样式雷图档 圆明园卷续编 第八函 p.25. Qing, undated in the citation · 样065-0002-02/-03/-04, 样065-0004-01/-02 · S362. https://www.yuanmingyuanpark.cn/xs/yjbg/202403/t20240328_4646527.html
   Six Yangshi Lei sheets for this hall and garden, cited with numbers: plans, a dimensioned plan and an elevation of the awning. Book reference from the article; the sheets were not viewed.
@@ -197,6 +199,7 @@ Modern interpretation, not evidence.
 - Q3: Which state does S01 draw?
 - Q20: Name variants
 - Q45: Halls in the texts with no row
+- Q146: CC18-02 敦素堂, CC18-03 冠霞阁, CC18-04 明漪楼 are Qianlong names (S05 j83:18b)
 
 <!-- generated:end -->
 

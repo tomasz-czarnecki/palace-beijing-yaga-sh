@@ -129,11 +129,12 @@ Changchun Yuan
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 海岳开襟. https://artmuseum.princeton.edu/collections/objects/138657
 
-## Reconstructions by others (2)
+## Reconstructions by others (3)
 
 Modern interpretation, not evidence.
 - **R0019** (physical model, sure): 20240112 Haiyuekaijin, Hengdian Yingshicheng. Hengdian World Studios (replica); Yumeto (photograph), Hengdian World Studios (per the Commons category). https://commons.wikimedia.org/wiki/File:20240112_Haiyuekaijin,_Hengdian_Yingshicheng.jpg
 - **R0285** (drawing, likely): 重现圆明园之海岳开襟. 星垂野阔大江流, 2025. https://www.bilibili.com/video/BV1pE7hzpE28 Research-only: link card.
+- **R0328** (drawing, sure): 海岳开襟写景图; 海岳开襟复原图. 张宝成. https://www.sohu.com/a/283417657_660430 Research-only: link card.
 
 ## Evidence for the set of buildings
 
@@ -142,6 +143,8 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q47: How much burned, and when
+- Q145: CC06 海岳开襟
+- Q152: yuanmingyuanpark.cn timed out on the S229 page (2021 release of 365 old photographs, which
 
 <!-- generated:end -->
 

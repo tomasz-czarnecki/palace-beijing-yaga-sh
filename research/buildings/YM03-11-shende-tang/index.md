@@ -10,16 +10,16 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 慎德堂 Shende Tang (S41, S43, S42, S01, S208, S337 · confidence A)
-- **Garden:** Yuanming Yuan (S41, S43, S42, S01, S208, S337)
-- **Type:** residence (S41, S43, S42, S01, S208, S337 · confidence A)
-- **Built:** 道光十一年 1831 (S41;S43); 道光十年 per S54; by 道光十一年五月 (1831): the 記 is in the 實錄; first dated use the next month; 1831, on the 怡情书史 and fish-pond area (S41, S43, S42, S01, S208, S337)
-- **Destroyed:** 1860 (S41, S43, S42, S01, S208, S337)
+- **Name:** 慎德堂 Shende Tang (S41, S43, S42, S01, S208, S337, S02, S310, S945 · confidence A)
+- **Garden:** Yuanming Yuan (S41, S43, S42, S01, S208, S337, S02, S310, S945)
+- **Type:** residence (S41, S43, S42, S01, S208, S337, S02, S310, S945 · confidence A)
+- **Built:** 道光十一年 1831 (S41;S43); 道光十年 per S54; by 道光十一年五月 (1831): the 記 is in the 實錄; first dated use the next month; 1831, on the 怡情书史 and fish-pond area (S41, S43, S42, S01, S208, S337, S02, S310, S945)
+- **Destroyed:** 1860 (S41, S43, S42, S01, S208, S337, S02, S310, S945)
 - **Position:** 40.00350, 116.28976. S01 likely (S01 · confidence B)
-- **Bays:** 5 in the texts / 5x4 on the plan (S41, S43, S42, S01, S208, S337)
-- **Size in the inventory:** 25.6 × 48.0 m. S01 plan px / hall scale (S01)
-- **Where the text puts it:** 西路 (S42) (S41, S43, S42, S01, S208, S337) *(research copy, not public)*
-- **Note:** 五间三卷大寝宫 (S43). Daoguang died here (S43). In 1860 state only. Malone p.79 n.: Tongzhi said born here (hearsay). (S41, S43, S42, S01, S208, S337)
+- **Bays:** 5 in the texts / 5x4 on the plan (S41, S43, S42, S01, S208, S337, S02, S310, S945)
+- **Size in the inventory:** 23.36 × 26.49 m. stated: S310, mhymy ysltd 7342 (慎德堂装修图样, free part), metres as printed; drawing not named (S01)
+- **Where the text puts it:** 西路 (S42) (S41, S43, S42, S01, S208, S337, S02, S310, S945) *(research copy, not public)*
+- **Note:** 五间三卷大寝宫 (S43). Daoguang died here (S43). In 1860 state only. Malone p.79 n.: Tongzhi said born here (hearsay). function: faces the large courtyard in the western part of the island; by one oral tradition the birthplace of the Tongzhi emperor, by another 碧桐书院 (S02, p.80 n.). after1860: Daoguang died in the sleeping chamber of 慎德堂 in 道光三十年正月 (1850) (S310, mhymy ysltd 7342). bays: 5 bays, 3 deep, under a three-roll 三卷 roof; front, middle and back sections with a study and bedchambers; the largest three-roll hall of the gardens; built 1831 west of the three-hall axis (S945, 概述; section 1 (figs 3-4 Yangshi Lei site plans before and after 1831)). (S41, S43, S42, S01, S208, S337, S02, S310, S945)
 - **Plan reader's note:** 慎德堂: no label on plan. Malone p.80 note: a hall of this name faces on the large courtyard in the western part of the island; this is the only hall on that court. 5 bays x 3 rolls. Huge, 107 x 159 px. See dating in notes (S01) *(research copy, not public)*
 - **How it was read:** likely (S01) *(research copy, not public)*
 - **Plan pixels:** 3076, 4588 (S01) *(research copy, not public)*
@@ -50,7 +50,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   ![P0280](../../photos/images/P0280.jpg)
 
 
-## Texts and drawings (30)
+## Texts and drawings (31)
 
 - **E1188** (text, sure): 宣宗實錄 御製慎德堂記. 1831 (道光十一年五月) · 實錄卷之一百八十九 · S208. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/别史/清实录道光朝实录.txt
   > 己卯。御制慎德堂记曰。崇俭去奢慎修思永。孰不知其所当然哉。非知之艰。行之惟艰在士大夫犹患其位不期骄而骄禄不期侈而侈膺天命、绍大统者。可不兢兢焉惴惴焉懔夫皇天无亲。惟无是辅念夫祖功宗德创垂不易后世子孙。坐享承平之福纵不尚奢华。无所加增。自问已觉不安矣。若败度败礼视富贵为己所应有。是直不可与言者也。又奚能常保厥位耶。况我大清龙兴东土。首重朴实。列圣丕承。凡心法治法。无非以勤俭训后。诚以世变风移。敝化放心。有不期然而然之势苟非操之固。审之精朴素自甘。慎终如始难与言俭也。至于饮食勿。尚珍异。冠裳勿求华美耳目勿为物欲所诱。居处勿为淫巧所惑。此犹俭德之小者。不作无益害有益不贵异物贱用物。一丝一粟。皆出于民脂民膏思及此。又岂容逞欲妄为哉。所谓无为而治俾天下阴受其福。而民不知者是也然行俭责在一人。不以天下自奉非概从悭□□吝也若救饥拯溺。去暴安良。国用之常经。民生之休戚正措施之不遑。又何可稍存吝惜于其辨也。是以修身务存俭约之心。以期永久。图治之道。可不加慎而切记之乎。
@@ -90,28 +90,30 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   Courtyard plan. State room with dark carved furniture and wainscot, then a court about 50 ft square flagged in marble, a larger room with jade, china, enamel, clocks, mirrors, chandeliers. Rooms of the court ladies on the extreme left, with the only spiral stair. Front on another sheet of water with large planted rockeries. To the right the buildings ran about half a mile: officials, servants, stores with shelved rooms of labelled objects. Swinhoe p.297 also has a spiral stair. 慎德堂 is my guess for the emperor's rooms under Xianfeng.
 - **E1191** (description, sure): 九洲清晏 west road, 1831. 2020, on Yangshi Lei plans · section 三, end · S41. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/8eef05885c3e4279ae0132f1a37a13c9.htm
   慎德堂 was added on the west road in 1831, with 乐安和 and 怡情书史 removed. 怡情书史 is therefore a state of before 1831, not of 1860.
+- **E2463** (description, sure): 慎德堂装修图样 (record text). record 2020-22 · mhymy dasl/ysltd/7342 · S310. https://www.mhymy.com/dasl/ysltd/7342.html
+  Record on 慎德堂: five bays under three linked roofs, built 1831 over 乐安和, 怡情书史 and a fish pond; bay widths, depths, column and platform height in metres (dim rows); Daoguang died there in 1850. Drawing behind the figures not named.
 - **E1148** (description, sure): 圆明园百景史事分景汇编: 慎德堂. 1831-1857 · from p.129, under 九洲清晏 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=129
   Daoguang's essay on thrift, 慎德堂记, is dated spring 1831. Xianfeng lived here in 1856-1857, though the compiler's captions for those years wrongly name 道光帝. 慎德堂: 7 dated items, 1831-1857, of which 7 poems (Daoguang, Xianfeng); recurring themes: daily residence there, the view. First dated 1831, last dated 1857.
 - **E0453** (description, likely, search index only): 《圆明园 1707-1850 修建过程》. 1707-1850 · S317. https://www.mhymy.com/dasl/2278.html
   Year-by-year building chronology citing the Imperial Household archives, including the 1831 rebuilding that produced Shende Tang.
+- **E1156** (drawing, sure): 慎德堂室内装修平面图（一）. 道光十六年以前 (record prints 道光十六年(1826), Daoguang 16 is 1836) · 国家图书馆善本部 样005-4号 · S310. https://www.mhymy.com/dasl/ysltd/10529.html
+  Presentation plan of Shende Tang's interior before the fire of 1836, likely its fittings as built in 1831, 369x333 mm, ink with yellow slips. No image here; the site may ask a small payment for the full record.
 - **E1157** (drawing, sure): 慎德堂内檐装修尺寸地盘画样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   Interior fittings and sizes, named in the printed volume's preface; no number given.
 - **E1158** (drawing, sure): 慎德堂明间后檐支摘窗一槽立样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   Elevation of one set of windows on the rear of the central bay, named in the printed volume's preface; no number given.
 - **E1159** (drawing, sure): 慎德堂添安装修地盘样. after c. 1830 · 国家图书馆 · S13. https://book.douban.com/review/10163867/
   One of several dozen Shende Tang sheets named in the printed volume's preface; no number given.
-- **E1156** (drawing, sure, search index only): 慎德堂室内装修平面图（一）. 道光十六年以前 (record prints 道光十六年(1826), Daoguang 16 is 1836) · 国家图书馆善本部 样005-4号 · S310. https://www.mhymy.com/dasl/ysltd/10529.html
-  Presentation plan of Shende Tang's interior before the fire of 1836, likely its fittings as built in 1831, 369x333 mm, ink with yellow slips. No image here; the site may ask a small payment for the full record.
-- **E1160** (drawing, sure, search index only): 慎德堂室内装修平面图（二）. 咸丰元年 (1851) 八月二十六日 (inscription) · 国家图书馆 样0011-12 (as cited in （三）'s record) · S310. https://www.mhymy.com/tag/598
+- **E1160** (drawing, sure): 慎德堂室内装修平面图（二）. 咸丰元年 (1851) 八月二十六日 (inscription) · 国家图书馆善本部 样011-12号 · S310. https://www.mhymy.com/dasl/ysltd/10570.html
   Design sheet reworking the old Shende Tang interior, inscribed 26th of the 8th month of Xianfeng 1 (1851); its own page URL not seen, link is the site's Shende Tang list. No image here; the site may ask a small payment for the full record.
-- **E1164** (drawing, sure, search index only): 慎德堂室内装修平面图（四）. 原无年代; 指向咸丰九年 (1859) 旨意档 · 国家图书馆 · S310. https://www.mhymy.com/tag/598
+- **E1174** (drawing, sure): 慎德堂室内装修平面图（三）. 咸丰六年 (1856) 正月二十二日 · 国家图书馆善本部 样008-11号 · S310. https://www.mhymy.com/dasl/ysltd/10577.html
+  Plan of Shende Tang's interior later than the 1851 sheet, with the front bay rebuilt as an indoor stage; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
+- **E1164** (drawing, sure): 慎德堂室内装修平面图（四）. 原无年代; 指向咸丰九年 (1859) 旨意档 · 国家图书馆善本部 样017-12号 · S310. https://www.mhymy.com/dasl/ysltd/10598.html
   Undated plan of Shende Tang's interior, mostly like 样003-5 with added loft symbols in the east bay, tied by the site to an order of Xianfeng 9 (1859), so the last state before the destruction. No image here; the site may ask a small payment for the full record.
-- **E1165** (drawing, sure, search index only): 慎德堂平面图. 咸丰九年 (1859) 正月之后 · 国家图书馆 · S310. https://www.mhymy.com/tag/598
+- **E1165** (drawing, sure): 慎德堂平面图. 咸丰九年 (1859) 七月二十六日 · 国家图书馆善本部 样008-18号 · S310. https://www.mhymy.com/dasl/ysltd/10636.html
   Plan of Shende Tang recording a revision of July 1859 of the west loft, turning the straight stair into a turning stair; own page URL, shelf number not seen. No image here; the site may ask a small payment for the full record.
 - **E1173** (drawing, sure, search index only): 慎德堂室内装修图 (cited as 样003-5). 国家图书馆 样003-5 · S310. https://www.mhymy.com/tag/598
   Sheet cited as close to Shende Tang interior plan （四）; its own record not seen. No image here; the site may ask a small payment for the full record.
-- **E1174** (drawing, sure, search index only): 慎德堂室内装修平面图（三）. 国家图书馆 · S310. https://www.mhymy.com/tag/598
-  Plan of Shende Tang's interior later than the 1851 sheet, with the front bay rebuilt as an indoor stage; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
 - **E0550** (plan, sure): 圆明园新证—乾隆朝圆明园全图的发现与研究 (端木泓). post n.d. · 故宫博物院图书馆 no.1704 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/xstl/1c9094aef4f041148f15883c7c266cb9.htm
@@ -138,6 +140,9 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - Q1: Target state
 - Q3: Which state does S01 draw?
 - Q25: Other dates
+- Q120: Q36 / YM03
+- Q131: YM03
+- Q182: Typology, grand_hall heights
 
 <!-- generated:end -->
 

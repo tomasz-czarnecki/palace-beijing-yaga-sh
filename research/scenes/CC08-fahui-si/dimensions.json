@@ -1,0 +1,77 @@
+{
+ "id": "CC08",
+ "name": "法慧寺 Fahui Si",
+ "by_method": {
+  "a": 0,
+  "b": 3,
+  "c": 0,
+  "d": 0,
+  "e": 1
+ },
+ "figures": [
+  {
+   "id": "CC08-04",
+   "part": "glazed pagoda",
+   "what": "height_ridge",
+   "label": "Ridge height",
+   "value": 23.55,
+   "err": 1.0,
+   "unit": "m",
+   "method": "e",
+   "confidence": "C",
+   "source": "S361",
+   "locator": "v3 p.350 editors' note",
+   "snippet": false,
+   "key": true,
+   "scale": ""
+  },
+  {
+   "id": "CC08",
+   "part": "the scene's outline on the plan",
+   "what": "extent_long",
+   "label": "Extent, long side",
+   "value": 48.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "CC08",
+   "part": "the scene's outline on the plan",
+   "what": "extent_short",
+   "label": "Extent, short side",
+   "value": 42.0,
+   "err": 10.0,
+   "unit": "m",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, minimum rotated rectangle",
+   "snippet": false,
+   "key": true,
+   "scale": "the georeferenced plan S01 (RMS 10.6 m, research/georef/)"
+  },
+  {
+   "id": "CC08",
+   "part": "the scene's outline on the plan",
+   "what": "area",
+   "label": "Area",
+   "value": 1700.0,
+   "err": 200.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "C",
+   "source": "S01",
+   "locator": "layers/scenes_1860, UTM 50N, polygon area",
+   "snippet": false,
+   "key": true,
+   "scale": "UTM 50N"
+  }
+ ]
+}

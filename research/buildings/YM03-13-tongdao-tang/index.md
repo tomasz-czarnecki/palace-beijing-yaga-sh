@@ -44,9 +44,9 @@ None of its own.
 - **E1135** (text, sure): 同治十二年 上谕: 九洲清晏 halls renamed (as quoted in S220). 同治十二年十月初一 1873 · S220 section 五; archive not seen · S220. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/ylfj/00baad8cc3da4c6a901378da7919d9a8.htm
   > 绮春园改名万春园，敷春堂改名天地一家春，悦心园改名和春园，清夏斋改名清夏堂，圆明园九州清晏同道堂改名福寿仁恩，基福堂改名思顺堂，天地一家春改名承恩堂。清夏堂西宫门改名南宫门。
   The decree of 1873 gives the new names of Tongzhi's repair: 同道堂 becomes 福寿仁恩, 基福堂 becomes 思顺堂, the old 天地一家春 becomes 承恩堂. All three new names are written on the plan S01 at 九洲清晏, where its older names are not. So those labels cannot be earlier than this decree, and they are not names of the target state of 1860.
-- **E1162** (drawing, sure, search index only): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
-  Design sheet of September 1855 for adding a front porch to the Jiuzhou Qingyan hall; it relies on sheet 样005-13, measured for the Tongdao Tang annex on the 24th of that month. No image here; the site may ask a small payment for the full record.
-- **E1170** (drawing, sure, search index only): 九洲清晏殿及同道堂装修平面图. S310. https://www.mhymy.com/tag/560
+- **E1162** (drawing, sure): 九洲清晏殿添接抱厦平面图. 咸丰五年 (1855) 九月 · 国家图书馆 样005-27-1号 · S310. https://www.mhymy.com/dasl/ysltd/10881.html
+  ...for adding a REAR porch (后抱厦) to the Jiuzhou Qingyan hall...
+- **E1170** (drawing, sure): 九洲清晏殿及同道堂装修平面图. 咸丰五年 (1855) (site prints 1865 in error) · 国家图书馆善本部 样004-2-1号 · S310. https://www.mhymy.com/dasl/ysltd/10933.html
   Fittings plan of the Jiuzhou Qingyan hall and Tongdao Tang, listed in the site's index; own page URL, shelf number and date not seen. No image here; the site may ask a small payment for the full record.
 - **E0548** (plan, sure): 三幅样式雷圆明园河道全图辨析. 2024-06-18 post · NLC 043-001, -002, -003 · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/jzys/59b83e20f7ab4840b746a6208a550939.htm
   Dates three NLC Yangshi Lei water-course plans (about 1:2000) by the changes they show. It lists dated works: 1803 channel from 宁和镇 to 秀清村; 1810 镜远洲 at 平湖秋月; 1811 恒春堂; after 1828 清晖阁 replaced by 湛静斋; 1831 慎德堂; 1836 九州清晏殿 reduced to five bays with 同道堂 added west; 1846 洞天深处 four courts to two.
@@ -75,6 +75,7 @@ Modern interpretation, not evidence.
 - Q1: Target state
 - Q3: Which state does S01 draw?
 - Q36: S01 at 九洲清晏 carries names of 1873. For the next modelling round
+- Q78: YM03
 
 <!-- generated:end -->
 

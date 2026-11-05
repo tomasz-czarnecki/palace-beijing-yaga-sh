@@ -48,6 +48,10 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 
 - Q3: Which state does S01 draw?
 - Q28: 1860 and after, for the site's text
+- Q80: YM41-01 / YM03-01
+- Q116: YM41 大宫门 and YM17 安佑宫
+- Q125: Geotagged Commons coverage is thin
+- Q150: QC01
 
 <!-- generated:end -->
 

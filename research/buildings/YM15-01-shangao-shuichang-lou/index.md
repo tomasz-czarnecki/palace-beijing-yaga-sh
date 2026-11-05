@@ -10,17 +10,17 @@ Yuanming Yuan
 
 ## What we know
 
-- **Name:** 山高水长楼 Shangao Shuichang Lou (S05, S02, S06, S01, S360, S361 · confidence B)
+- **Name:** 山高水长楼 Shangao Shuichang Lou (S05, S02, S06, S01, S360, S361, S40 · confidence B)
 - **Written on the plan:** 山高水长 (S01 · confidence B)
-- **Garden:** Yuanming Yuan (S05, S02, S06, S01, S360, S361)
-- **Type:** tower (S05, S02, S06, S01, S360, S361 · confidence B)
-- **Built:** by 1738 (first dated item) (S05, S02, S06, S01, S360, S361)
-- **Destroyed:** 1860 (S05, S02, S06, S01, S360, S361)
+- **Garden:** Yuanming Yuan (S05, S02, S06, S01, S360, S361, S40)
+- **Type:** tower (S05, S02, S06, S01, S360, S361, S40 · confidence B)
+- **Built:** by 1738 (first dated item) (S05, S02, S06, S01, S360, S361, S40)
+- **Destroyed:** 1860 (S05, S02, S06, S01, S360, S361, S40)
 - **Position:** 40.00375, 116.28593. S01 sure (S01 · confidence B)
-- **Bays:** 9 in the texts / 9x1 on the plan (S05, S02, S06, S01, S360, S361)
+- **Bays:** 9 in the texts / 9x1 on the plan (S05, S02, S06, S01, S360, S361, S40)
 - **Size in the inventory:** 39.5 × 10.0 m. S01 plan px / hall scale (S01)
-- **Storeys:** 2 (S05, S02, S06, S01, S360, S361)
-- **Note:** Malone p.83 two-storey, east side of the field; S06 两层五楹. Ladies on upper floor 1795. bays: 9, facing west, rolled hip-gable, two storeys (S361, v2 p.147). (S05, S02, S06, S01, S360, S361)
+- **Storeys:** 2 (S05, S02, S06, S01, S360, S361, S40)
+- **Note:** Malone p.83 two-storey, east side of the field; S06 两层五楹. Ladies on upper floor 1795. bays: 9, facing west, rolled hip-gable, two storeys (S361, v2 p.147). orientation: W (S05, j81:15b). function: New Year banquet of Mongol princes and envoys, archery of guards, Lantern Festival fireworks (S05, j81:15b). (S05, S02, S06, S01, S360, S361, S40)
 - **Plan reader's note:** 9 bays west-facing: matches text exactly. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 1564, 4250 (S01) *(research copy, not public)*
@@ -36,18 +36,25 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water
 - **Confidence:** B
 
-## Pictures (1)
+## Pictures (2)
+
+- **P0015** (likely): 山髙水長 Shangao shuichang [Élevées les montagnes, inépuisable l'eau] (圓明園四十景, 第15景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29_-_btv1b55008362z_%28046_of_124%29.jpg
+
+  ![P0015](../../photos/images/P0015.jpg)
 
 - **P0279** (likely): 乾隆帝元宵行乐图轴 The Qianlong Emperor Celebrating the Lantern Festival (ca. 1750-1755 (S261); Commons: Qing dynasty). https://commons.wikimedia.org/wiki/File:%E4%B9%BE%E9%9A%86%E5%B8%9D%E5%85%83%E5%AE%B5%E8%A1%8C%E4%B9%90%E5%9B%BE%E8%BD%B4.png
 
   ![P0279](../../photos/images/P0279.jpg)
 
 
-## Texts and drawings (13)
+## Texts and drawings (15)
 
 - **E1519** (text, sure): 日下舊聞考 山高水长. 1780s (乾隆 敕撰) · j81:15a-18a · S05. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 萬方安和西南為山高水長樓西向九楹後擁連岡前帶河流中央地勢平衍凡數頃（圓明園冊）臣等謹按山高水長四十景之一也額為皇上御書左楹横碣上恭刋乾隆十七年上諭詳見國朝宫室碑隂刋乾隆四十三年上諭恭録卷内其地為外藩朝正錫宴及平時侍衞較射之所每嵗燈節則陳火戱於此乾隆四十三年五月二十八日奉上諭朕恭閱太宗文皇帝實錄天聰四年二月上諭羣臣曰昨攻取永平城大臣阿山葉臣與猛士廿四人冒火奮力登城乃我國第一等驍勇人也其廿四人䝉上天眷佑幸俱無恙次日召伊等進見朕心愴然幾不能忍此等猛士與巴圖魯薩木哈圖及他處先登驍勇出衆之人前已有㫖後遇攻城勿令再登及攻昌黎縣薩木哈圖又復與焉以後此等捐軀建功之人勿得再令攻城但當在諸貝勒固山額真左右遇衆對敵之時與之同進若彼欲自攻城亦當止之即或厮卒中有一二次率先登城立功者亦不可再令攻城以示朕愛惜材勇之意仰見我祖宗開創艱難於戰勝攻取時仁恩恤下無微不至是以人思感勵敵愾効忠所向克㨗開疆定業肇造鴻圖貽謀垂裕之道寔在於是朕臨御以來平定凖部回部及蕩平兩金川我旗營勁旅中鼓勇先登攻堅拔柵者固不乏人即綠營中亦間有出衆奮勉者一經將軍等具奏即賞以巴圖魯號用示奬勵而伊等倍加感奮凡遇攻奪碉寨仍復超衆爭先以圖報効其間屢建功績者固多而因冒險傷殞者亦復不少朕每為矜憫䀌然於懷兹紬繹祖訓驍勇立功之人毋令再登益敬服大聖人之用心非孫臣所能見及也今武功告蕆函夏謐寧繼此不願復有用兵之事但兵可百年不用不可一日不備而謨訓昭垂法良意美亦不可一日或忘用是敬錄聖諭明白宣示我君臣當共恪守以垂久逺且使我世世子孫懋繼前規勉思善述以鞏億萬載丕丕基其欽承毋忽
   South-west of 萬方安和: a nine-bay tower 山高水長 facing west, hills behind, a stream in front and several qing of level ground. Foreign princes were feasted here at New Year, guards practised archery, and fireworks were shown at the Lantern Festival. The stele carries the full 1778 edict on sparing the bravest soldiers.
+- **E1515** (poem, likely): 御製山髙水長詩（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:18a · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
+  > 乾隆九年 御製山髙水長詩 在園之西南隅地勢平衍構重樓數楹每一臨瞰逺岫堆鬟近郊錯繡曠如也為外藩朝正錫宴陳魚龍角觝之所平時宿衞士於此較射 重構枕平川湖山萬景全時觀君子徳式命上賓筵湛露今推惠彤弓古尚賢更殷三接晉内外一家連
+  In the south-west corner, on level ground: a multi-bay tower with far hills and near fields in view. Foreign princes come here for the New Year feast with acrobats and wrestling, and in ordinary times the guards practise archery.
 - **E1521** (text, sure): 養吉齋叢錄 卷十三. mid-19th c. (printed 1890s), on earlier reigns · 卷十三, line 931 of the corpus file · S202. https://raw.githubusercontent.com/garychowcmu/daizhigev20/master/%E5%8F%B2%E8%97%8F/%E5%BF%97%E5%AD%98%E8%AE%B0%E5%BD%95/%E5%85%BB%E5%90%89%E6%96%8B%E4%B8%9B%E5%BD%95.txt
   > 山高水长楼名。在圆明园之西，俗呼西厂。地势宽敞，宜陈火戏。每岁正月十九日，例有筵宴，奉宸实司其事。是日侍卫处请派大臣管西南门，善扑营进撩跤名单，掌仪司进玩艺名单。有西洋千秋、罗汉堆塔、旧子音曲、善扑营花跤、高丽跟头诸名目，点出某项则预备。
   山高水長, known as the West Yard, on wide ground in the west of the garden, used for fireworks and a banquet on the nineteenth of the first month with wrestlers and acrobats listed by name.
@@ -69,6 +76,9 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **E1525** (description, sure): Scene 15, 山高水长 Shangao Shuichang, the Drill Field. 1934 · p.83 · S02. https://archive.org/details/historyofpekings00malo
   > The largest open field in the Yuan Ming Yuan was near the southwest corner of the garden. On the east side stood a two-story building from which the Emperor, his officials, and the ladies of the court could view the archery contests,
   Largest open field, with a two-storey viewing building on the east, used for archery, feasts for embassies and fireworks. Dutch embassy here January-February 1795. Across the stream a half-mile straight horse run from the round tower in the north to 藻园 in the south; by the round tower a small shrine to General Liu Meng (per Jung Hua).
+- **E1524** (description, likely): 玉明 侍游御園記 (in 蕉軒隨錄). 1856 (咸豐六年七月二十一日) · 蕉軒隨錄, 御園侍游 (line 336 of the corpus file) · S210. https://github.com/garychowcmu/daizhigev20/blob/master/史藏/志存记录/蕉轩随录.txt
+  > ◎御园侍游玉将军（明）有《侍游御园记》，成竹坪同年（林）曾属予代作跋语，恭书于后。按，《记》云：“咸丰六年秋七月二十一日，奉旨：本日散朝后，著玉明、肃顺自备鞍马，午初一刻进西南门，在山高水长伺候。有顷，上从内乘船，至山高水长后阁扇下船，出前门，谕玉明、肃顺暨珠勒亨、西拉布、托云、德勒格尔、伊勒东阿等脱去外褂。上乘马，命七臣随行。自山高水长游藻园，至厂地，过汇芳书院，复由紫碧山房至鱼跃鸢飞少坐。过蕊珠宫门，至黄花磴进茶毕，往西洋楼海宴堂，至转马台，过小角门，至狮子林清淑斋赏饭。左右四卓，命七臣坐，并奉温谕可饱食，非外边筵宴比也。上命膳房先给七臣面各一器，上进面，复进饭，颁赏御用菜蔬，七臣叩头谢。上进粥，复赏粥毕。随驾起行，由宝相寺、法慧寺、谐奇趣过明春门，至雷峰夕照马头，坐如在天上船，游福海。上命笔砚作诗毕，至渊氵亭镜澈马头下船。进丽春门骑马，由旧园东墙根过敷春堂，游西大堤汉城关，至含辉楼下马，命七臣散归。玉明自道光十一年由侍卫擢厕御前二十余年，仰邀优渥，得遍瞻御园盛景。欣感之余，谨作记以纪荣遇。”
+  A rare first-hand record of a day in the garden four years before its destruction. The emperor takes seven officials by a named route from 山高水長 through 藻園, 彚芳書院, 紫碧山房 and 魚躍鳶飛, past 蕊珠宫門, on to 海宴堂 in the 西洋樓, a meal at 清淑齋 in 獅子林, 寳相寺, 法慧寺, 諧奇趣, by boat on 福海, then 敷春堂 and 含暉楼. All were standing then.
 - **E1528** (description, sure): 圆明园山高水长武帐宴探析. 2015 · lswh · S337. http://iqh.ruc.edu.cn/old/qdhjylyjzx/xszl/wxda/6437c7cd02cc4108910a6d1f7014a16b.htm
   From archives, poems and the Manchu 夷使档: from Yongzheng, 山高水长 Shangao Shuichang, in the south-west corner, was where Mongol nobles were received, in a great tent feast. It follows the staging of the banquet for Dzungar envoys under Qianlong.
 - **E1523** (description, sure): 圆明园百景史事分景汇编: 山高水长. 1738-1860 · from p.131, under 山高水长 · S360. https://www.yuanmingyuanpark.cn/xs/yjbg/202007/P020200730387572832602.pdf#page=131
@@ -77,7 +87,7 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
   Feasting ground and archery field: a west-facing nine-bay tower of 1726, first 引见楼, rear court with side halls, landing at a cross pavilion. A slanted riding track before it and an earth target wall to the north-west. The thirteen courts 十三所 to the south-east served the firework nights, seven in all from the 13th to the 19th of the first month.
 - **E1531** (description, sure, search index only): 山高水长 scene card. n.d. · mhymy jqjs 3877 · S340. https://www.mhymy.com/ymss/jqjs/3877.html
   South-west corner: a tower facing the Western Hills, flat open ground. Where envoys were feasted, guards shot, and fireworks were shown at the lantern festival.
-- **E1534** (drawing, sure, search index only): 山高水长楼平面图. ysltd/11498 (topic list card only; 排架 not seen) · S310. https://www.mhymy.com/dasl/ysltd/11498.html
+- **E1534** (drawing, sure): 山高水长楼平面图. 道光十一年 (1831) · 国家图书馆善本部 样018-4-1号 · S310. https://www.mhymy.com/dasl/ysltd/11498.html
   Record titled as a plan of the 山高水长 Shangao Shuichang tower; its list card only introduces the scene, so the sheet's date and state were not seen because the record page refused this server.
 
 **On the plan:** Drawn on the plan of the gardens (S01), labelled 山高水长, 9x1 cells. https://artmuseum.princeton.edu/collections/objects/138657

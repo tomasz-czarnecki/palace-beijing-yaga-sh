@@ -75,7 +75,7 @@ Yueh Ti Yun Chu (Dwelling of the Moon, Earth, and Clouds) · Yuanming Yuan
   ![P0523](../../photos/images/P0523.jpg)
 
 
-## Texts and drawings (17)
+## Texts and drawings (18)
 
 - **E1539** (poem, sure): 御製月地雲居詞（調寄清平樂）琳宫一區背山臨流松色翠密與紅橋相映結楞嚴壇大悲壇其中魚鯨齊喝風旛交動纔過補特迦山又入室羅筏城永明夀所謂宴坐水月道場大作夢中佛事也（圓明園四十景詩）. 1744 (乾隆九年) · printed in S05 j81:19a-19b · S40. https://github.com/kanripo/KR2k0036/blob/master/KR2k0036_081.txt
   > 乾隆九年 御製月地雲居詞（調寄清平樂）琳宫一區背山臨流松色翠密與紅橋相映結楞嚴壇大悲壇其中魚鯨齊喝風旛交動纔過補特迦山又入室羅筏城永明夀所謂宴坐水月道場大作夢中佛事也 大千乾闥指上無真月覺海漚中頭出没是即那羅延窟 何分西土東天倩他裝㸃名園借使瞿曇重現未肯參伊死禪
@@ -114,10 +114,12 @@ Yueh Ti Yun Chu (Dwelling of the Moon, Earth, and Clouds) · Yuanming Yuan
   First 仙香苑, in 1730 乐志山庄, a residence of Yongzheng. Under Qianlong it held his father's image with the name 安佑宫; when the new temple rose to the north it became a Buddhist temple. Gate 清净地, front hall five bays on each side, rear tower of seven; 戒定慧, 法源楼, where the Sixth Panchen lodged in 1780.
 - **E1544** (description, sure, search index only): 月地云居 scene card. n.d. · mhymy jqjs 11637 · S340. https://www.mhymy.com/ymss/jqjs/11637.html
   South-west; formerly 清净地. Yongzheng's portrait was kept here until 安佑宫 was built; then a temple was added and the place renamed. Marked as having remains.
+- **E1545** (drawing, sure): 月地云居总平面图 (图名: 清净地全样). 乾隆四十四年 (1779) 之后 · 国家图书馆善本部 样019-1号 · S310. https://www.mhymy.com/dasl/ysltd/8154.html
+  Base plan of the Yuedi Yunju scene after 1779, 1235x875 mm, ink and light colour, with additions on the east such as the Fayuan tower. No image here; the site may ask a small payment for the full record.
+- **E2477** (drawing, sure): 法源楼地盘图. 乾隆四十四年 (1779) 以后 · 国家图书馆善本部 样019-3-2号 · S310. https://www.mhymy.com/dasl/ysltd/10185.html
+  Plan of the 法源楼 court added to 月地云居 in 1779, 576x490 mm, ink, light colour, yellow slips, presentation sheet: a three-bay two-storey 法源楼 (paste-over shows both floors) with side halls, a 垂花门 and a veranda round the court; east side court with 静室, a three-bay double-roof hall with surrounding veranda, and a small three-bay chapel north of it.
 - **E1546** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 月地云居. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 月地云居, pp.287-292 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.287-292 (6 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1545** (drawing, sure, search index only): 月地云居总平面图 (图名: 清净地全样). 乾隆四十四年 (1779) 之后 · 国家图书馆善本部 样019-1号 · S310. https://www.mhymy.com/dasl/ysltd/8154.html
-  Base plan of the Yuedi Yunju scene after 1779, 1235x875 mm, ink and light colour, with additions on the east such as the Fayuan tower. No image here; the site may ask a small payment for the full record.
 - **E1547** (drawing, sure, search index only): 月地云居样式雷图. S310. https://www.mhymy.com/dasl/ysltd/2971.html
   Older record of a drawing of Yuedi Yunju, title seen as a link on an archived page, not opened. No image here; the site may ask a small payment for the full record.
 
@@ -141,6 +143,9 @@ Modern interpretation, not evidence.
 
 - Q1: Target state
 - Q18: Plan labels vs text names at 藻园, 月地云居, 日天琳宇 etc
+- Q128: The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically
+- Q129: The brief says the album views are roughly from the south
+- Q141: Text variants between the album leaves (S08) and the 日下旧闻考 copy (S05, Kanripo WYG)
 
 <!-- generated:end -->
 

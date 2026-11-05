@@ -10,14 +10,14 @@ Changchun Yuan
 
 ## What we know
 
-- **Name:** 正谊明道 Zhengyi Mingdao (S05, S48, S01, S361 · confidence B)
-- **Garden:** Changchun Yuan (S05, S48, S01, S361)
-- **Type:** other (S05, S48, S01, S361 · confidence B)
-- **Destroyed:** 1860 (S05, S48, S01, S361)
+- **Name:** 正谊明道 Zhengyi Mingdao (S05, S48, S01, S361, S310 · confidence B)
+- **Garden:** Changchun Yuan (S05, S48, S01, S361, S310)
+- **Type:** other (S05, S48, S01, S361, S310 · confidence B)
+- **Destroyed:** 1860 (S05, S48, S01, S361, S310)
 - **Position:** 40.00787, 116.30958. S01 sure (S01 · confidence B)
-- **Bays:** 5 in the texts / 9x2 on the plan (S05, S48, S01, S361)
-- **Size in the inventory:** 33.7 × 24.8 m. S01 plan px / hall scale (S01)
-- **Note:** S48: 七开间 前有抱厦五间 (lead). bays: 7 (S361, v4 p.1). (S05, S48, S01, S361)
+- **Bays:** 5 in the texts / 9x2 on the plan (S05, S48, S01, S361, S310)
+- **Size in the inventory:** 27.2 × 18.24 m. stated: S310, mhymy ysltd 5247 (玉玲珑馆平面图, NLC 样070-1), 丈尺 as quoted (S01)
+- **Note:** S48: 七开间 前有抱厦五间 (lead). bays: 7 (S361, v4 p.1). (S05, S48, S01, S361, S310)
 - **Plan reader's note:** Label south of the hall, right to left. About 8 bays on the plan vs 5 in the text. South gate range B0694. (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 11413, 3527 (S01) *(research copy, not public)*
@@ -58,6 +58,7 @@ None of its own.
 ## Open questions
 
 - Q9: Bay counts, plan against text
+- Q144: CC14-01 正谊明道
 
 <!-- generated:end -->
 

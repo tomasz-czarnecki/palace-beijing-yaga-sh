@@ -151,7 +151,7 @@ def xiyang_lou():
     return out
 
 
-XY_PARTS = xy_rows("parts.csv")
+XY_PARTS = xy_rows("parts.csv") + list(csv.DictReader(open(ROOT / "research/scenes/parts.csv", encoding="utf-8", newline="")))  # Round 7: the scenes' unnamed rows identified, the same actions
 XY_MERGED = {r["id"]: r["action"].split(":")[1] for r in XY_PARTS if r["action"].startswith("merge:")}  # rows that are part of another's box: its page, no box of their own
 XY_RETIRED = {r["id"] for r in XY_PARTS if r["action"] == "retire"}  # not a building: row and page stay, no box
 XY_REPLACED = {r["building_id"] for r in xy_rows("boxes.csv")} | set(XY_MERGED) | XY_RETIRED
@@ -551,7 +551,10 @@ def main():
     feats = [feature(b) for b in boxes]
     shared = dict(attached)  # rows whose box stands for them, for the pages
     for row_id, target in XY_MERGED.items():
-        shared[row_id] = next(b.id for b in boxes if b.bid == target)
+        box = next((b.id for b in boxes if b.bid == target), None)
+        if box is None:
+            raise SystemExit(f"parts.csv: {row_id} merges into {target}, which has no box: merge the other way, or keep")
+        shared[row_id] = box
     by_id = {b.id: b for b in boxes}
     fc = {
         "type": "FeatureCollection",

@@ -8,15 +8,17 @@ The Ancestral Shrine (Vast Compassion and Eternal Blessing) · Yuanming Yuan
 
 ## What we know
 
-- **Name:** 鸿慈永祜 Hongci Yonghu (S05, S02, S08, S01, S361 · confidence A)
-- **English:** The Ancestral Shrine (Vast Compassion and Eternal Blessing) (S05, S02, S08, S01, S361)
+- **Name:** 鸿慈永祜 Hongci Yonghu (S05, S02, S08, S01, S361, S310, S943, S818 · confidence A)
+- **English:** The Ancestral Shrine (Vast Compassion and Eternal Blessing) (S05, S02, S08, S01, S361, S310, S943, S818)
 - **Written on the plan:** 鸿慈永祜 / 安佑宫 (S01 · confidence A)
-- **Garden:** Yuanming Yuan (S05, S02, S08, S01, S361)
-- **Type:** scene (S05, S02, S08, S01, S361 · confidence A)
-- **Built:** 乾隆七年 1742 [j81:20b]; S02 p.88 same; stele 癸亥 1743 finish [j81:23b] (S05, S02, S08, S01, S361)
-- **Destroyed:** 1860; masonry ruins pulled down later (S02 p.218) (S05, S02, S08, S01, S361)
+- **Garden:** Yuanming Yuan (S05, S02, S08, S01, S361, S310, S943, S818)
+- **Type:** scene (S05, S02, S08, S01, S361, S310, S943, S818 · confidence A)
+- **Built:** 乾隆七年 1742 [j81:20b]; S02 p.88 same; stele 癸亥 1743 finish [j81:23b] (S05, S02, S08, S01, S361, S310, S943, S818)
+- **Changed:** The stone qilin pair first stood before 大宫门 (carved by 1725) and was moved to 安佑宫 when it was built in 1741; taken out by dealers late in the Qing, bought by 载涛, at Yenching / Peking University since 1925 (S05, S02, S08, S01, S361, S310, S943, S818)
+- **Destroyed:** 1860; masonry ruins pulled down later (S02 p.218) (S05, S02, S08, S01, S361, S310, S943, S818)
 - **Position:** 40.00999, 116.28368. S01 sure (S01 · confidence B)
-- **Note:** Same compound as 安佑宫. Cost 600,000 taels (Attiret 1743 via S02 p.88). 恭仿壽皇殿之制. (S05, S02, S08, S01, S361)
+- **Roof:** 重檐歇山, nine bays, yellow glazed tiles (main hall 安佑宫) (S05, S02, S08, S01, S361, S310, S943, S818)
+- **Note:** Same compound as 安佑宫. Cost 600,000 taels (Attiret 1743 via S02 p.88). 恭仿壽皇殿之制. after1860: Three of the four 华表 of 安佑宫 were taken to Yenching University in 1925, the fourth to the city (lying south of 天安门 in 1931); the National Library (文津街) later made a pair from one Yenching column and the fourth, so neither pair matches (S818) (S818, fdcb.pku.edu.cn 华表 page, 历史溯源, citing 《燕京大学校刊》). (S05, S02, S08, S01, S361, S310, S943, S818)
 - **Plan reader's note:** Faint 鸿慈永祜 in the inner court (1005,1295) and 安佑宫 at (1000,1473). Polygon runs south to take in the pailou and four pillars on the peninsula (Malone p.84-85). (S01) *(research copy, not public)*
 - **How it was read:** sure (S01) *(research copy, not public)*
 - **Plan pixels:** 993, 1143 (S01) *(research copy, not public)*
@@ -46,7 +48,7 @@ The Ancestral Shrine (Vast Compassion and Eternal Blessing) · Yuanming Yuan
 - YM17-B0158
 - YM17-N01
 
-## Pictures (9)
+## Pictures (14)
 
 - **P0017** (sure): 鴻慈永祜 Hongci yonghu [Incommensurable Miséricorde pour une bénédiction éternelle] (圓明園四十景, 第17景) (1744 (BnF record: 1744年，清朝乾隆九年)). https://commons.wikimedia.org/wiki/File%3A%E5%9C%93%E6%98%8E%E5%9C%92%E5%9B%9B%E5%8D%81%E6%99%AF._%E7%AC%AC%E5%8D%81%E4%B8%83%E6%99%AF_%28%E4%B8%8A%E5%86%8C%EF%BC%8C%E7%AC%AC%E5%8D%81%E4%B8%83%E5%B9%85%E5%9B%BE%29%2C_%E9%B4%BB%E6%85%88%E6%B0%B8%E7%A5%9C_-_%28%E6%B8%85%29%E5%94%90%E5%B2%B1%E3%80%81%E6%B2%88%E6%BA%90%E5%90%88%E7%95%AB_%3B_%28%E4%B9%BE%E9%9A%86%E5%90%9F%E8%AF%97%EF%BC%8C%E6%B1%AA%E7%94%B1%E6%95%A6%E4%BB%A3%E4%B9%A6%29Hongci_yonghu_-_%28Qing%29Tang_Dai%2C_Shen_Yuan_he_hua_-_btv1b55008330t.jpg
 
@@ -76,10 +78,30 @@ The Ancestral Shrine (Vast Compassion and Eternal Blessing) · Yuanming Yuan
 
   ![P0196](../../photos/images/P0196.jpg)
 
+- **P0812** (likely): 華表及白塔 国立図書館 (3601-000581-0).jpg (1938-03 (撮影年月 on the card, 華北交通アーカイブ)). https://commons.wikimedia.org/wiki/File:%E8%8F%AF%E8%A1%A8%E5%8F%8A%E7%99%BD%E5%A1%94_%E5%9B%BD%E7%AB%8B%E5%9B%B3%E6%9B%B8%E9%A4%A8_(3601-000581-0).jpg
+
+  ![P0812](../../photos/images/P0812.jpg)
+
 - **P0195** (likely): Anyougong gate ruins (安佑宫 gate, file name) (not stated). https://commons.wikimedia.org/wiki/File%3AAnyougong_gate_ruins_of_the_Yuanmingyuan.jpg Research-only: link card.
 - **P0382** (sure): 圆明园鸿慈永祜石碑.jpg (2022-03-13 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:%E5%9C%86%E6%98%8E%E5%9B%AD%E9%B8%BF%E6%85%88%E6%B0%B8%E7%A5%9C%E7%9F%B3%E7%A2%91.jpg
 
   ![P0382](../../photos/images/P0382.jpg)
+
+- **P0809** (sure): PekingUniversitycampus3.jpg (2007-08-18 (Commons file page, from Flickr)). https://commons.wikimedia.org/wiki/File:PekingUniversitycampus3.jpg
+
+  ![P0809](../../photos/images/P0809.jpg)
+
+- **P0810** (sure): Peking University 1.jpg (2007-12-19 (Commons file page, from Flickr)). https://commons.wikimedia.org/wiki/File:Peking_University_1.jpg
+
+  ![P0810](../../photos/images/P0810.jpg)
+
+- **P0811** (sure): 13 Peking University.jpg (2011-05-02 (Commons file page, from Flickr)). https://commons.wikimedia.org/wiki/File:13_Peking_University.jpg
+
+  ![P0811](../../photos/images/P0811.jpg)
+
+- **P0813** (likely): 北平图书馆旧址2019 (2).jpg (2019-11-01 (Commons file page, own work)). https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%B9%B3%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%97%A7%E5%9D%802019_(2).jpg
+
+  ![P0813](../../photos/images/P0813.jpg)
 
 
 ## Texts and drawings (25)
@@ -145,7 +167,7 @@ The Ancestral Shrine (Vast Compassion and Eternal Blessing) · Yuanming Yuan
   South-west; formerly 清净地. Yongzheng's portrait was kept here until 安佑宫 was built; then a temple was added and the place renamed. Marked as having remains.
 - **E1565** (drawing, sure): 《国家图书馆藏样式雷图档·圆明园卷初编》: 鸿慈永祜（安佑宫）. mostly 道光, 咸丰, 同治 per the publisher · 初编 目录: 鸿慈永祜（安佑宫）, pp.362-386 · S13. https://www.nlcpress.com/ProductView.aspx?Id=7642
   The printed facsimile of the National Library of China's Yangshi Lei sheets has a section on this place at pp.362-386 (25 pages, section length worked out from the next heading); sheet titles and numbers are in the volume, ordered from a library.
-- **E1566** (drawing, sure, search index only): 安佑宫室内布置图 (图名: 安佑宫供器尺寸及殿底样). 咸丰朝 · 国家图书馆善本部 样035-4-2号 · S310. https://www.mhymy.com/dasl/ysltd/7659.html
+- **E1566** (drawing, sure): 安佑宫室内布置图 (图名: 安佑宫供器尺寸及殿底样). 咸丰朝 · 国家图书馆善本部 样035-4-2号 · S310. https://www.mhymy.com/dasl/ysltd/7659.html
   Xianfeng-period base sheet in ink of the Anyou Gong hall with the sizes of its ritual vessels, 478x257 mm. No image here; the site may ask a small payment for the full record.
 - **E1086** (plan, sure, search index only): Yangshi Lei plan cards on 梦回圆明园: 勤政殿平面图, 西峰秀色总平面图, 安佑宫室内布置图, 映清斋平面图, 绮春园宫门区平面图, 敷春堂殿平面图, 敷春堂东南所平面图, 涵秋馆地盘图, 四宜书屋(绮春园)平面图, 河道泊岸总平面图, 长春园样式雷河道图, 西洋楼水法图, 御制廓然大公八景诗图. Qing · dasl/ysltd: 11009, 11099, 7659, 9716, 7496, 12232, 9879, 7704, 13985, 9509, 6902, 7643; dasl 11675 · S340. https://www.mhymy.com/dasl/ysltd/11009.html
   Titles seen in the index, drawings not opened. Pattern: https://www.mhymy.com/dasl/ysltd/<id>.html.
@@ -173,6 +195,11 @@ Modern interpretation, not evidence.
 ## Open questions
 
 - Q59: Twin claims to hold loosely
+- Q116: YM41 大宫门 and YM17 安佑宫
+- Q119: Digs
+- Q179: YM17
+- Q180: YM17
+- Q181: YM17 and YM29
 
 <!-- generated:end -->
 

@@ -31,11 +31,15 @@ A plain box on the block drawn on the Qing plan S01: position and frontage from 
 - **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 1.5 m
 - **Confidence:** C
 
-## Pictures (1)
+## Pictures (2)
 
 - **P0416** (sure): Shizilin Restored Watergate on its original site 20130126.JPG (2013-01-26 12:45:07 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Shizilin_Restored_Watergate_on_its_original_site_20130126.JPG
 
   ![P0416](../../photos/images/P0416.jpg)
+
+- **P0442** (likely): Qianlong writing in the Lion Forest, Old Summer Palace, Beijing.jpg (2009-09-12 (Commons DateTimeOriginal)). https://commons.wikimedia.org/wiki/File:Qianlong_writing_in_the_Lion_Forest,_Old_Summer_Palace,_Beijing.jpg
+
+  ![P0442](../../photos/images/P0442.jpg)
 
 
 ## Texts and drawings (5)
