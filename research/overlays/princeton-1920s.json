@@ -1,0 +1,37 @@
+{
+ "image": "princeton-1920s.jpg",
+ "plan": "S01",
+ "note": "research-only plan: never commit, never publish. North up, linear in lon and lat (equirectangular grid in EPSG:4326).",
+ "bounds_leaflet": [
+  [
+   39.994000062352896,
+   116.28098307065787
+  ],
+  [
+   40.014711525367666,
+   116.31547506073848
+  ]
+ ],
+ "corners_lonlat": {
+  "nw": [
+   116.28098307065787,
+   40.014711525367666
+  ],
+  "ne": [
+   116.31547506073848,
+   40.014711525367666
+  ],
+  "se": [
+   116.31547506073848,
+   39.994000062352896
+  ],
+  "sw": [
+   116.28098307065787,
+   39.994000062352896
+  ]
+ },
+ "width_px": 5888,
+ "height_px": 4598,
+ "metres_per_px": 0.5,
+ "date": "2026-10-31"
+}
