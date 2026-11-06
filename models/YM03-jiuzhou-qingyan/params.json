@@ -1,0 +1,210 @@
+{
+ "id": "YM03",
+ "frame": "origin at the front middle of 圆明园殿's box F0018 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "ymy_bays": {
+   "value": "4.16 + 4 x 3.84 m",
+   "source": "S310",
+   "grade": "A",
+   "note": "圆明园殿 five bays, 明间一丈三尺, 四次间各一丈二尺 (NLC 样007-9-1 of 1855.3, the yellow slip as transcribed on mhymy record 11195; the same on the 1837 sheet); 19.52 m between the end columns"
+  },
+  "ymy_depth": {
+   "value": "7.04 + 2 x 1.92 m",
+   "source": "S310",
+   "grade": "A",
+   "note": "进深二丈二尺 between the 金柱 lines, front and back porches 各深六尺 (same slip): 10.88 m between the eave columns"
+  },
+  "ymy_col": {
+   "value": 3.84,
+   "source": "S310",
+   "grade": "A",
+   "note": "檐柱高一丈二尺 (same slip)"
+  },
+  "ymy_pl": {
+   "value": 0.704,
+   "source": "S310",
+   "grade": "A",
+   "note": "台明高二尺二寸 (same slip)"
+  },
+  "ymy_edge": {
+   "value": 0.928,
+   "source": "S310",
+   "grade": "A",
+   "note": "下檐出二尺九寸 (same slip): the platform's edge beyond the eave columns"
+  },
+  "ymy_roof": {
+   "value": "rolled 硬山, grey",
+   "source": "S310;S76;S08",
+   "grade": "B",
+   "note": "record 11195 reads 墀头 on the gables of the 1837 and 1855 sheets and infers a 硬山 roof after the fire (the record author's inference); the 1744 leaf drew a 歇山 (Q100); rolled ridge: the 1745 woodcut's curved ridge ends (S76); grey: the leaf (S08)"
+  },
+  "ymy_doors": {
+   "value": "door screens on the 金柱 line, open porches",
+   "source": "S310",
+   "grade": "B",
+   "note": "record 11195: in 1837 the 隔扇 were moved to the 金柱 line; the 1745 woodcut draws an open verandah (S76)"
+  },
+  "ymy_plaque": {
+   "value": "圆明园, Kangxi's hand, on the front eave",
+   "source": "S05;S310",
+   "grade": "A",
+   "note": "S05 j80:1b, 21a 前第一層殿恭懸聖祖御書圓明園額; record 7105 前檐悬; the board's size and colours C"
+  },
+  "ymy_ears": {
+   "value": "two-cell ear rooms at both ends",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01 draws a two-cell block at each end of the hall, flush with its front half; read as ear rooms 耳房, their form the class's"
+  },
+  "yard": {
+   "value": "walled yard from the hall to the shore, landing",
+   "source": "S01;S02",
+   "grade": "B",
+   "note": "S01 draws two lines from the hall's front to the shore and the label inside; the landing YMC-023 (Round 9) on the shore; the walls 1.4 m (C); Malone's caption of the 1744 woodcut: reeds and rocks at the water's edge before the hall (S02 p.78): rocks either side outside the yard (C)"
+  },
+  "court1": {
+   "value": "S01's: 34.5 m deep (eave columns), 22.6 m between the walls' inner faces",
+   "source": "S01;S310",
+   "grade": "B",
+   "note": "S01 places the halls and the walls (re-read in plan pixels); the Tongzhi survey (NLC 样006-3 = 样062-24, 1873-74, quoted in mhymy record 11901) writes 圆明园殿后檐至奉三无私前檐10丈6尺 = 33.92 m (S01 within 0.6 m) and 东西宽8丈1尺2寸 = 25.98 m: 3.4 m wider than S01's walls, which would cut the halls S01 draws beside them; the plan is kept (Q250)"
+  },
+  "court2": {
+   "value": "S01's: 22.5 m deep (eave columns)",
+   "source": "S01;S310",
+   "grade": "B",
+   "note": "S01 places 九洲清晏殿's front behind 奉三无私殿's; the Tongzhi survey writes 5丈7尺1寸 = 18.27 m (样006-3), perhaps for the Tongzhi design's deeper 双卷 hall: the plan's position is kept (Q250)"
+  },
+  "fs_bays": {
+   "value": "7: 3.52 + 4 x 3.04 + 2 x 2.88 m",
+   "source": "S05;S310;S01",
+   "grade": "C",
+   "note": "七楹 (S05 j80:20b, A); 前后有廊 (record 7271, B); S01 draws the hall wall to wall, 23.3 m with its edges; the widths C, the middle bay widest as in 圆明园殿's slip"
+  },
+  "fs_depth": {
+   "value": 10.88,
+   "source": "S310",
+   "grade": "C",
+   "note": "between the eave columns, 圆明园殿's section carried over (C); the hall's middle where S01 draws it"
+  },
+  "fs_col": {
+   "value": 4.16,
+   "source": "S310",
+   "grade": "C",
+   "note": "one 尺 above 圆明园殿 (C): the second hall of the axis; 慎德堂 on the same island measures 4.35 m (record 7342)"
+  },
+  "fs_pl": {
+   "value": 0.8,
+   "source": "S310",
+   "grade": "C",
+   "note": "a little above 圆明园殿's 0.704 m (C)"
+  },
+  "fs_roof": {
+   "value": "rolled 歇山, grey",
+   "source": "S08",
+   "grade": "B",
+   "note": "the 1744 leaf: 歇山, ridge apparently rolled, grey tile (S08 P0003, a reading); rebuilt 'to the old form' in 1837 (E1134)"
+  },
+  "fs_terrace": {
+   "value": "20 x 5.2 m, 0.6 m",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01 draws a rectangle before the hall (about 20 by 5.2 m); its height a step below the hall's floor (C)"
+  },
+  "jz_bays": {
+   "value": "5: 3.84 + 4 x 3.20 m",
+   "source": "S310;S01",
+   "grade": "C",
+   "note": "five bays (record 7237, A for 1855; S05 says 七楹 for the 1780s, Q101, Q163); the widths C, to S01's drawn 18.1 m"
+  },
+  "jz_depth": {
+   "value": 10.88,
+   "source": "S310",
+   "grade": "C",
+   "note": "前后有廊 (record 7237, A); 圆明园殿's section carried over (C)"
+  },
+  "jz_col": {
+   "value": 4.16,
+   "source": "S310",
+   "grade": "C",
+   "note": "as 奉三无私殿 (C)"
+  },
+  "jz_pl": {
+   "value": 0.9,
+   "source": "S01;S70",
+   "grade": "C",
+   "note": "P0365 shows the hall's site as a low mound against the back lake; the platform C"
+  },
+  "jz_roof": {
+   "value": "rolled 歇山, grey, the largest roof of the island",
+   "source": "S08",
+   "grade": "B",
+   "note": "the 1744 leaf: the biggest roof on the island, 歇山, the ridge reads as rolled (not certain) (S08 P0003)"
+  },
+  "jz_baosha": {
+   "value": "3 bays, 4.16 m deep, behind the hall",
+   "source": "S310",
+   "grade": "A",
+   "note": "后殿五间接后抱厦三间 (record 7237); 样005-27-1 is the design and the work was done in 咸丰五年 (1855) (record 10881); its depth and roof C"
+  },
+  "jz_plaques": {
+   "value": "九洲清晏 front, 蔚然深秀 rear",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j80:21a, 23a: Yongzheng's plaque in front, 蔚然深秀 at the back; boards C"
+  },
+  "tongdao": {
+   "value": "the link and 同道堂 at their boxes",
+   "source": "S310;S01",
+   "grade": "C",
+   "note": "the approved rebuilding gave the hall's west side the 同道堂 annex (样010-3, E1169); S01 draws a three-cell link and a three-bay hall there (F0569, F0022); their forms the class's"
+  },
+  "walls": {
+   "value": "white plaster, grey coping, 3.2 m",
+   "source": "S01;S08",
+   "grade": "B",
+   "note": "S01 draws the walls of the axis; the leaf paints the island's walls white with grey coping (S08 P0003); height C"
+  },
+  "galleries": {
+   "value": "covered galleries along the courts' sides",
+   "source": "S08",
+   "grade": "B",
+   "note": "the 1744 leaf shows covered galleries with white walls and a row of pierced windows between the axis halls (S08 P0003); where they run is C (S01 draws only the walls)"
+  },
+  "gates": {
+   "value": "a gate in each side wall of the first court",
+   "source": "S08",
+   "grade": "C",
+   "note": "the leaf shows a red gate in a white wall beside the front hall (east); the west one mirrored, both C"
+  },
+  "vessels": {
+   "value": "two bronze vessels on stands",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01's two marks in the first court; vessels as at the other courts of the garden (C)"
+  },
+  "trees": {
+   "value": "flowering trees in the courts",
+   "source": "S08",
+   "grade": "B",
+   "note": "the leaf: pink-flowering trees (peach or apricot) all through the courts (S08 P0003, species B); four, places C"
+  },
+  "bridges": {
+   "value": "stone abutments, timber deck, red railings",
+   "source": "S08;S70",
+   "grade": "B",
+   "note": "the leaf: a flat timber bridge with red-brown railings on the island's west side and a stepped timber bridge with railings at its south-east (S08 P0003, A for 1744); today's 南大桥 and 如意桥 rebuilt on dressed-stone abutments (P0367, P0793, B); decks at Round 10's levels"
+  },
+  "zongting": {
+   "value": "a pavilion on the bridge",
+   "source": "S01;S70",
+   "grade": "C",
+   "note": "the name 棕亭桥 (S01, read as a guess) and today's rebuilt pavilion bridge (P0368, B for the type); the pavilion's size and roof C"
+  },
+  "landings": {
+   "value": "dressed-stone landings with steps to the water",
+   "source": "S01;S02",
+   "grade": "C",
+   "note": "Round 9's landings YMC-023 (front) and YMC-031 (back) on S01's shores; M'Ghee and the 1860 witnesses reached the apartments by water and paths (S02 pp.180-183); the steps C"
+  }
+ }
+}

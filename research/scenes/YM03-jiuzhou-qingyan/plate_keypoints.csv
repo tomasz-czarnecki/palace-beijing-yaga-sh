@@ -1,0 +1,16 @@
+plate,photo_id,object,point,x,y,sure,use,note
+,P0003,YM03,ymy_eave_SW,1292,800,2,,"圆明园殿 (the front hall of the axis, the left of the two front halls; Round 18 reading on 3x and 6x crops): the west tip of the front eave"
+,P0003,YM03,ymy_eave_SE,1370,797,2,,the east tip of the front eave (the 歇山's gable end on the right) (v2: re-read on the overlay of the fitted points; v1 had run the hall's ends onto its neighbours)
+,P0003,YM03,ymy_ridge_W,1297,781,3,skip,"the leaf draws a 歇山 (1744); the model's 硬山 of 1837-1860 (record 11195, Q100) has a longer ridge: a change of state, not a test"
+,P0003,YM03,ymy_ridge_E,1371,781,3,skip,as ymy_ridge_W
+,P0003,YM03,ymy_pl_top_SW,1295,823,3,,"the foot of the west front column, on the platform"
+,P0003,YM03,fs_eave_SW,1365,747,2,,"奉三无私殿 (the wide hall behind, reached by the stepped white gallery): the west tip of the front eave (v2: re-read on the overlay of the fitted points; v1 had run the hall's ends onto its neighbours)"
+,P0003,YM03,fs_eave_SE,1450,745,3,,the east tip of the front eave (half hidden by a tree) (v2: re-read on the overlay of the fitted points; v1 had run the hall's ends onto its neighbours)
+,P0003,YM03,fs_ridge_W,1373,724,2,,the west end of the ridge
+,P0003,YM03,fs_ridge_E,1435,724,3,,the east end of the ridge (v2: re-read on the overlay of the fitted points; v1 had run the hall's ends onto its neighbours)
+,P0003,YM03,fs_pl_top_SW,1367,765,3,,the foot of the west front column
+,P0003,YM03,jz_eave_SW,1430,705,2,,"九洲清晏殿 (the largest roof, furthest back): the west tip of the front eave"
+,P0003,YM03,jz_eave_SE,1538,700,2,,the east tip of the front eave
+,P0003,YM03,jz_ridge_W,1447,683,2,,the west end of the ridge
+,P0003,YM03,jz_ridge_E,1517,683,2,,the east end of the ridge
+,P0003,YM03,jz_pl_top_SW,1435,725,3,,the foot of the west front column

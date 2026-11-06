@@ -351,6 +351,108 @@
     "XY11-M52",
     "XY11-M53"
    ]
+  },
+  "YM03-21": {
+   "url": "models/YM03-21/model.glb",
+   "name": "如意桥 Ruyi Qiao",
+   "aliases": [],
+   "position": [
+    -490.74,
+    2.07,
+    166.5
+   ],
+   "rotationY": 0.0914,
+   "caption": {
+    "frontage_m": 14.7,
+    "depth_m": 3.0,
+    "top_m": 46.87,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [],
+   "bridges": [
+    "BR002"
+   ]
+  },
+  "YM03-22": {
+   "url": "models/YM03-22/model.glb",
+   "name": "南大桥 Nan Da Qiao",
+   "aliases": [],
+   "position": [
+    -637.21,
+    1.88,
+    202.075
+   ],
+   "rotationY": 0.185682,
+   "caption": {
+    "frontage_m": 16.6,
+    "depth_m": 3.0,
+    "top_m": 47.23,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [],
+   "bridges": [
+    "BR001"
+   ]
+  },
+  "YM03-23": {
+   "url": "models/YM03-23/model.glb",
+   "name": "棕亭桥 Zongting Qiao",
+   "aliases": [],
+   "position": [
+    -679.17,
+    1.43,
+    98.725
+   ],
+   "rotationY": 1.432665,
+   "caption": {
+    "frontage_m": 13.1,
+    "depth_m": 3.0,
+    "top_m": 50.63,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [],
+   "bridges": [
+    "BR005"
+   ]
+  },
+  "YM03": {
+   "url": "models/YM03/model.glb",
+   "name": "九洲清晏 Jiuzhou Qingyan",
+   "aliases": [
+    "YM03-01",
+    "YM03-02",
+    "YM03-03",
+    "YM03-13",
+    "YM03-N02"
+   ],
+   "position": [
+    -573.163,
+    2.29,
+    176.056
+   ],
+   "rotationY": 0.083776,
+   "caption": {
+    "frontage_m": 24.4,
+    "depth_m": 117.3,
+    "eave_m": 5.48,
+    "ridge_m": 10.03,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "F0018",
+    "F0019",
+    "F0020",
+    "F0022",
+    "F0569"
+   ]
   }
  }
 }

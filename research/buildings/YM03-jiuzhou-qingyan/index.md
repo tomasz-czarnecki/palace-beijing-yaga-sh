@@ -25,7 +25,19 @@ The Emperor's Private Apartments (Nine Continents Clear and Calm) · Yuanming Yu
 
 ## Our model now
 
-55 boxes stand in this compound, 55 on blocks drawn on the plan, 0 assumed. Its halls are listed below.
+The central axis as it stood from the rebuilding of 1837 to 1860: the plan S01 gives the layout and the positions, the slip of 1855 the front hall's bays, depth, column and platform (A), the Tongzhi survey the courts (B), the leaf of 1744 the colours, the roofs and the galleries. 奉三无私殿's and 九洲清晏殿's own figures are on the Yangshi Lei sheets (E1161-E1171, not seen): their bays' widths, depths and heights are 圆明园殿's carried over (C).
+
+- **Layout:** The axis as S01 draws it (re-read in Round 18 in plan pixels, B): front yard, 圆明园殿, first court, 奉三无私殿 and its terrace, second court, 九洲清晏殿; the plan's names here are of 1873 (Q36), the axis halls kept theirs
+- **圆明园殿:** Five bays 4.16 + 4 × 3.84 m, 7.04 m deep with porches of 1.92 m front and back, columns 3.84 m, platform 0.70 m with a 0.93 m edge (the slip of 1855, S310 rec. 11195, A); doors on the 金柱 line since 1837, open porches (B); rolled 硬山 after 1837 (record 11195's reading of the gables, B; the 1744 leaf drew a 歇山, Q100); Kangxi's plaque 圆明园 (S05, A); ear rooms at both ends (S01, C)
+- **Front yard:** Walled on two sides from the hall to the 前湖 (S01, B) with a stone landing (Round 9's YMC-023; its steps C); rocks at the water's edge either side (Malone's caption of the 1744 woodcut, places C)
+- **First court:** As S01 draws it, 22.6 m between the walls' inner faces; 34.5 m between the halls' eave columns, where the Tongzhi survey writes 33.92 m and a width of 25.98 m (样006-3, B; Q250); covered galleries with white walls and pierced windows along both sides (the 1744 leaf, B; where they run C); a gate in each side wall (C); two bronze vessels where S01 draws two marks (C); flowering trees (the leaf, places C)
+- **奉三无私殿:** Seven bays (S05, A) with porches front and back (record 7271, B), wall to wall as S01 draws it (23.3 m, B); the bays' widths, depth, column 4.16 m and platform 0.8 m (C); rolled 歇山, grey (the 1744 leaf, B); the front terrace as S01 draws it (0.6 m, C)
+- **Second court:** As S01 places the halls (21 m between the eave columns; the Tongzhi survey writes 18.27 m, Q250); galleries turning to 九洲清晏殿's porch ends (C)
+- **九洲清晏殿:** Five bays with porches front and back (record 7237, A; S05 says seven for the 1780s, Q101); widths to S01's 18.1 m, depth and heights C; rolled 歇山, the island's largest roof (the 1744 leaf, B); the three-bay rear porch 抱厦 of 1855 (records 7237, 10881, A; its form C); the plaques 九洲清晏 and 蔚然深秀 (S05, A)
+- **West annex:** The link and 同道堂 west of the hall, joined to it in the rebuilding of 1837 (E1169); at their boxes on S01, their form the class's (C)
+- **Back and the lake:** A paved way from the rear porch to a stone landing on the 后湖 (Round 9's YMC-031; the steps C)
+- **Bridges:** 南大桥, 如意桥 and 棕亭桥 are models of their own (YM03-22, YM03-21, YM03-23), drawn by this model's generator
+- **Assumed:** Every elevation but 圆明园殿's (no picture of the rebuilt halls survives), the ear rooms, the gates, the link and 同道堂, the vessels, the brackets, the bridges' timber: the hall kit's classes and the Qing manual's typology (C, the pale tint with conf=1)
 
 ## Inside it (73)
 
@@ -516,6 +528,10 @@ Modern interpretation, not evidence.
 - Q163: YM03-03 九洲清晏殿
 - Q194: How did the emperor cross the 前湖 from 九洲清晏?
 - Q218: No plan draws a plant
+- Q250: 九洲清晏's courts: S01 against the Tongzhi survey
+- Q251: The leaf of 1744 paints 九洲清晏殿 as the axis's widest hall
+- Q254: Where the galleries of the axis ran
+- Q255: East of 九洲清晏殿 in 1860
 
 <!-- generated:end -->
 

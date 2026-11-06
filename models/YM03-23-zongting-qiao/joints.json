@@ -1,0 +1,31 @@
+{
+ "id": "YM03-23",
+ "position": [
+  -679.17,
+  1.43,
+  98.725
+ ],
+ "rotationY": 1.432665,
+ "joints": [
+  {
+   "name": "zongtingqiao_a",
+   "scene": [
+    -685.68,
+    1.97,
+    97.82
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "zongtingqiao_b",
+   "scene": [
+    -672.66,
+    1.49,
+    99.63
+   ],
+   "kind": "bridge end"
+  }
+ ],
+ "entries": [],
+ "footprints": []
+}

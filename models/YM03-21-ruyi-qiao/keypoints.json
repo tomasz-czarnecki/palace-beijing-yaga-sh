@@ -1,0 +1,66 @@
+{
+"id": "YM03-21",
+"objects": [
+"YM03-21"
+],
+"position": [
+-490.74,
+2.07,
+166.5
+],
+"rotationY": 0.0914,
+"points": {
+"ruyiqiao_abut_a_L": {
+"local": [
+2.0,
+0.21,
+-7.341
+],
+"scene": [
+-489.418,
+2.28,
+159.007
+],
+"anchor": false
+},
+"ruyiqiao_abut_a_R": {
+"local": [
+-2.0,
+0.21,
+-7.341
+],
+"scene": [
+-493.402,
+2.28,
+159.372
+],
+"anchor": false
+},
+"ruyiqiao_abut_b_L": {
+"local": [
+2.0,
+0.0,
+7.341
+],
+"scene": [
+-488.078,
+2.07,
+173.628
+],
+"anchor": false
+},
+"ruyiqiao_abut_b_R": {
+"local": [
+-2.0,
+0.0,
+7.341
+],
+"scene": [
+-492.062,
+2.07,
+173.993
+],
+"anchor": false
+}
+}
+}

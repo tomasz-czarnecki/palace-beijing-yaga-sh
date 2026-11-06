@@ -1,0 +1,31 @@
+{
+ "id": "YM03-21",
+ "position": [
+  -490.74,
+  2.07,
+  166.5
+ ],
+ "rotationY": 0.0914,
+ "joints": [
+  {
+   "name": "ruyiqiao_a",
+   "scene": [
+    -491.41,
+    2.183,
+    159.19
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "ruyiqiao_b",
+   "scene": [
+    -490.07,
+    1.976,
+    173.81
+   ],
+   "kind": "bridge end"
+  }
+ ],
+ "entries": [],
+ "footprints": []
+}

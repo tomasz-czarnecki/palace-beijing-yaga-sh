@@ -1,0 +1,12 @@
+{
+ "id": "YM03-22",
+ "frame": "origin at the deck's middle at its lowest point; x across, y up, z along the bridge (scripts/model_site.py)",
+ "params": {
+  "bridges": {
+   "value": "stone abutments, timber deck, red railings",
+   "source": "S08;S70",
+   "grade": "B",
+   "note": "the leaf: a flat timber bridge with red-brown railings on the island's west side and a stepped timber bridge with railings at its south-east (S08 P0003, A for 1744); today's 南大桥 and 如意桥 rebuilt on dressed-stone abutments (P0367, P0793, B); decks at Round 10's levels"
+  }
+ }
+}

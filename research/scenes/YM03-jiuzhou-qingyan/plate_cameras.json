@@ -1,0 +1,87 @@
+{
+ "object": "YM03",
+ "label": "",
+ "points_from": "model YM03-jiuzhou-qingyan",
+ "cameras": {
+  "P0003": {
+   "plate": "",
+   "image": "P0003.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1087
+   ],
+   "object": "YM03",
+   "points_from": "model YM03-jiuzhou-qingyan",
+   "prior": {
+    "lat": 40.0015476,
+    "lon": 116.29046,
+    "err": 100.0,
+    "bearing": 355.0,
+    "eye": 70.0,
+    "eye_sd": 50.0,
+    "f2400": 3805.9137628358553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 18: the 1744 leaf is a painting, not a photograph: a bird's-eye view from the south across the 前湖, the axis halls receding up and to the right; the prior is weak on purpose (100 m in plan, eye 70 m, sd 50 m, an assumed 35° lens): the fit measures how far a single perspective camera can explain the painter's placing of the three halls"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      -391.24,
+      117.77,
+      513.24
+     ],
+     "yaw_deg": 326.85,
+     "pitch_deg": -8.07,
+     "f_px": 2049.4,
+     "du_px": 202.3,
+     "dv_px": -38.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 115.28,
+     "moved_from_prior_m": 252.6,
+     "points": {
+      "n": 13,
+      "rms_px": 18.0,
+      "median_px": 15.5,
+      "max_px": 35.6,
+      "rms_m": 3.79,
+      "median_m": 3.01,
+      "max_m": 7.51
+     },
+     "tests": {
+      "n": 13,
+      "rms_px": 18.0,
+      "median_px": 15.5,
+      "max_px": 35.6,
+      "rms_m": 3.79,
+      "median_m": 3.01,
+      "max_m": 7.51
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 15.9,
+      "median_px": 11.7,
+      "max_px": 31.9,
+      "rms_m": 3.39,
+      "median_m": 2.35,
+      "max_m": 7.09
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 22.3,
+      "median_px": 22.1,
+      "max_px": 25.1,
+      "rms_m": 4.31,
+      "median_m": 4.29,
+      "max_m": 4.79
+     }
+    }
+   }
+  }
+ }
+}

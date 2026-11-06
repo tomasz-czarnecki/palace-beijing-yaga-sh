@@ -28,6 +28,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r15_dashuifa` | not recorded | 2026-11-06, from 02:30 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r16_yuanying` | not recorded | 2026-11-06, from 03:49 | about 1 h | - | see its result row | see the git log | done |
 | `palace_r17_hanjing` | not recorded | 2026-11-06, from 04:44 | about 2 h 30 min | - | see its result row | see the git log | done |
+| `palace_r18_jiuzhou` | not recorded | 2026-11-06, from 06:57 | about 2 h | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -606,4 +607,32 @@ Brief: `palace_r17_hanjing.md`. The first detailed model of a Chinese compound: 
 - **A thin dark sliver** shows against the west wall's inner face in the west court from a high view (`screenshots/r17/after_detail_sanyouxuan_trees.png`); the model holds only the wall and the terrace's edge there (queried), so it is likely where the terrace's floor meets the wall in the view: not traced.
 - **P0410's fit collapsed** its focal length after the side court's bays changed; fixed in the tool (a start from the anchored camera). One `--images P0410` run overwrote the fit table; the full fit was rerun.
 - **Open:** Q241 (the terrace's curve and height), Q244 (S01's 24 m yard), Q245, Q246, Q247, Q248 (P0404), Q249 (the forecourt's depth); every elevation is the kit's (C); the halls of the side courts are their class's.
+
+## palace_r18_jiuzhou
+
+Brief: `palace_r18_jiuzhou.md`. The central axis of 九洲清晏 YM03 in its state of 1837-1860, the second detailed model of a Chinese compound, `models/YM03-jiuzhou-qingyan/`, and the island's three named bridges as small models of their own.
+
+**What it delivered:**
+- **The model:** the front yard from 圆明园殿 to the 前湖 with a stone landing and rocks at the water's edge; 圆明园殿 from the slip of 1855 (A), rolled 硬山 after the 1837 sheets (Q252), Kangxi's plaque, ear rooms; the first court with galleries along both walls (white walls, pierced windows: the 1744 leaf), a gate in each wall, two bronze vessels, two flowering trees, the axis way; 奉三无私殿 seven bays wall to wall with its terrace and balustrade; the second court with galleries turning to the hall's porch ends; 九洲清晏殿 five bays with porches and the rear porch 抱厦 of 1855, the plaques; the link and 同道堂 to its west; the back way and a landing on the 后湖; the white walls of the axis on S01's lines. Bridges: 南大桥 YM03-22, 如意桥 YM03-21, 棕亭桥 YM03-23 (with its pavilion), stone abutments, timber decks with red railings at Round 10's levels.
+- **Tools:** `HallKit.wall(body_mat=)`; a summary's `bridges` (published by `scripts/building_pages.py` in `models.json`; `3d.js` leaves those plain decks out); one generator writing several model folders (each bridge on a `Site` whose frame is moved to it).
+- **Key points:** 15 on the leaf P0003 (`research/scenes/YM03-jiuzhou-qingyan/plate_keypoints.csv`), read by the coordinator on 3x and 6x crops; no readers were spawned (one picture). Vocabulary `<hall>_eave_<corner>`, `<hall>_ridge_<W|E>` (`models/README.md`).
+- **Questions** Q250-Q255; two wish rows; the dossier's notes.
+
+**Numbers:**
+- **check_models:** YM03 15,798 triangles (4,782 fill), GLB 0.51 MB, 0.12 MB compressed; 72 joints, highest 0.07 m above the ground, deepest 0.33 m in; 8 ways at its boxes, 0 off (before `paths1860.py` re-snapped them: 8 ways 0.92-8.90 m from the doors). Bridges: 432-740 triangles each, 0.01 MB compressed, 2 joints each, deepest 0.18 m.
+- **Fit (rms at the object, camera on all 13 points):** P0003 3.79 m (median 3.01, max 7.51 m); v1's 2.97 and 2.55 m rested on two misread points and on a ridge-end definition 40% short. 九洲清晏殿's west half and feet fit to 0.7-1.7 m; the east ends miss by 4.5-7.5 m: the leaf paints 九洲清晏殿 as the widest hall (Q251).
+- **The courts:** 34.45 and 22.49 m between the eave columns, 22.59 m between the walls (S01); the Tongzhi survey writes 33.92, 18.27 and 25.98 m (Q250). The axis's seven reads on S01 spread over 2.50 m.
+- **Paths:** lines crossing a box, wall or water 84 to 83 (A or B 22 to 22).
+- **Cost:** the overview draws 1.157 M triangles (1.141 M in Round 17) at a 651 ms median frame in software WebGL (729 ms in Round 17's run). The site grows by 0.60 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser` (port 8943), `check_greens.py --browser` (port 8944).
+- The generator and step 6 run twice: the same GLBs and no file of `site/` changed (md5).
+- Screenshots in `screenshots/r18/`, opened: before (the kit) and after from the same 19 views (aerial, front across the 前湖, the leaf's direction, rear from the 后湖, both sides, both courts at eye height, details of 圆明园殿 and the rear porch, both landings, the four bridges, a gallery, the west gate, a vessel), `conf=1` and `assumed=0`, the panels of YM03 and YM03-23; v1 and v2 kept; the overlay of P0003 (blend, edges, side by side, the points).
+
+**Went wrong or left open:**
+- **v1 put the walls at the Tongzhi survey's width** and cut the kit halls beside the courts by up to 1.6 m: back to S01 (Q250).
+- **The court-1 camera stood inside 圆明园殿** in v1; **the gate shot looked through a kit hall** at the gate; **the rear porch's roof** was nearly flat (ridge 0.4 m above its eave); **the panel's small view** framed the whole island while the bridges were in the model; **the bridge panels read NaN** for their height: all found on the shots, fixed.
+- **The leaf's readings:** two points on neighbouring halls, found on the overlay, re-read; the fit got worse and truer.
+- **Open:** Q250-Q255; every width, depth and height of 奉三无私殿 and 九洲清晏殿 is C until 样011-3 is seen; the kit's 七间殿 (S01's Tongzhi design) stands east of 九洲清晏殿 (Q255); the bridge to 来青亭 (BR007) stays Round 10's deck.
 

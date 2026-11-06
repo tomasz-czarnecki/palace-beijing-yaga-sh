@@ -1,0 +1,31 @@
+{
+ "id": "YM03-22",
+ "position": [
+  -637.21,
+  1.88,
+  202.075
+ ],
+ "rotationY": 0.185682,
+ "joints": [
+  {
+   "name": "nandaqiao_a",
+   "scene": [
+    -638.74,
+    2.575,
+    193.93
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "nandaqiao_b",
+   "scene": [
+    -635.68,
+    2.261,
+    210.22
+   ],
+   "kind": "bridge end"
+  }
+ ],
+ "entries": [],
+ "footprints": []
+}

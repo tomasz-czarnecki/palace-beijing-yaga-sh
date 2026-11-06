@@ -117,8 +117,8 @@ const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "
 const meshes = {};
 let walking = false, touring = null;
 
-// Walls as thin solids, bridges as decks. One mesh each. Bridges with a row in buildings.csv are clickable through `bridgeBoxes`.
-function buildStructures(data) {
+// Walls as thin solids, bridges as decks. One mesh each. Bridges with a row in buildings.csv are clickable through `bridgeBoxes`. Round 18: a bridge a detailed model draws (models.json `bridges`) is left out.
+function buildStructures(data, skipBridges = new Set()) {
   const group = new THREE.Group();
   const pushBox = (out, ax, az, bx, bz, half, y0, y1, y0b = y0, y1b = y1) => {
     const dx = bx - ax, dz = bz - az, len = Math.hypot(dx, dz) || 1, nx = (-dz / len) * half, nz = (dx / len) * half;
@@ -138,6 +138,7 @@ function buildStructures(data) {
   group.add(new THREE.Mesh(wallGeo, new THREE.MeshLambertMaterial({ color: 0x8c8378, side: THREE.DoubleSide })));
   const deck = [];
   for (const b of data.bridges) {
+    if (skipBridges.has(b.id)) continue; // Round 18: a detailed model draws this bridge (models.json `bridges`)
     for (let i = 0; i < b.pts.length - 1; i++) {
       const [ax, ay, az] = b.pts[i], [bx, by, bz] = b.pts[i + 1];
       pushBox(deck, ax, az, bx, bz, b.width_m / 2, Math.min(ay, by) - 0.5, ay, Math.min(ay, by) - 0.5, by);
@@ -216,7 +217,7 @@ async function main() {
   const greens = buildGreens({ meta: greensMeta, buf: greensBuf, datum: meta.datum_m, toXZ });
   world.add(greens.group);
   greensUpdate = greens.update;
-  meshes.structures = buildStructures(structures);
+  meshes.structures = buildStructures(structures, new Set(Object.values(MODELS).flatMap((c) => c.bridges || [])));
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
   // Round 16: a raised floor a model draws (a terrace, models.json `decks`) carries the ways that cross it: they are laid on it, not on the ground under it

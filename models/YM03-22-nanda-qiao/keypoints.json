@@ -1,0 +1,66 @@
+{
+"id": "YM03-22",
+"objects": [
+"YM03-22"
+],
+"position": [
+-637.21,
+1.88,
+202.075
+],
+"rotationY": 0.185682,
+"points": {
+"nandaqiao_abut_a_L": {
+"local": [
+2.0,
+0.8,
+-8.287
+],
+"scene": [
+-636.774,
+2.68,
+193.561
+],
+"anchor": false
+},
+"nandaqiao_abut_a_R": {
+"local": [
+-2.0,
+0.8,
+-8.287
+],
+"scene": [
+-640.706,
+2.68,
+194.3
+],
+"anchor": false
+},
+"nandaqiao_abut_b_L": {
+"local": [
+2.0,
+0.48,
+8.287
+],
+"scene": [
+-633.714,
+2.36,
+209.85
+],
+"anchor": false
+},
+"nandaqiao_abut_b_R": {
+"local": [
+-2.0,
+0.48,
+8.287
+],
+"scene": [
+-637.646,
+2.36,
+210.589
+],
+"anchor": false
+}
+}
+}

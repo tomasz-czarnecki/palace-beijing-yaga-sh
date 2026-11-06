@@ -20,7 +20,10 @@ Yuanming Yuan
 
 ## Our model now
 
-No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
+棕亭桥 at the island's north-west corner (S01, the label read as a guess): a bridge with a pavilion on it, as its name and today's rebuilding show (P0368, B for the type); every size and the roof are C.
+
+- **Pavilion:** Four columns and a pyramid roof on the bridge's middle (the name, P0368: C)
+- **Deck:** Timber with red railings at Round 10's levels; stone abutments (C)
 
 ## Pictures (1)
 

@@ -602,9 +602,9 @@ class HallKit:
                     m.box(s - 0.025, s + 0.025, y + 0.12, y + 0.85, q - 0.025, q + 0.025, "lacquer")
 
     # ------------------------------------------------------------ walls, screens, archways, galleries, rocks
-    def wall(self, pts, h, thick=0.9, cap="grey", base_h=0.6, closed=False, coping=True, ytop=None):
-        """A palace wall 宫墙 along a polyline (x, z) of the current frame: a stone footing, the red plastered body, a tiled coping with a small roof both ways.
-        Feet follow the ground every 2.5 m; the top is level per segment at the higher end's ground + h."""
+    def wall(self, pts, h, thick=0.9, cap="grey", base_h=0.6, closed=False, coping=True, ytop=None, body_mat="wallred"):
+        """A palace wall 宫墙 along a polyline (x, z) of the current frame: a stone footing, the plastered body (red by default; Round 18 `body_mat`, the white walls of
+        九洲清晏 as the 1744 leaf paints them), a tiled coping with a small roof both ways. Feet follow the ground every 2.5 m; the top is level per segment at the higher end's ground + h."""
         m = self.m
         n = len(pts)
         segs = list(zip(pts, pts[1:] + ([pts[0]] if closed else [])))
@@ -634,11 +634,11 @@ class HallKit:
                     (x0, z0), (x1, z1) = p(s0, d), p(s1, d)
                     yb = min(gs[i], gs[i + 1])
                     m.poly([(x0, y0a, z0), (x1, y0b, z1), (x1, yb + base_h, z1), (x0, yb + base_h, z0)], "platform")
-                    m.poly([(x0, yb + base_h, z0), (x1, yb + base_h, z1), (x1, ytop, z1), (x0, ytop, z0)], "wallred")
+                    m.poly([(x0, yb + base_h, z0), (x1, yb + base_h, z1), (x1, ytop, z1), (x0, ytop, z0)], body_mat)
                 for s in ((s0, ) if i == 0 else ()) + ((s1, ) if i == k - 1 else ()):
                     (x0, z0), (x1, z1) = p(s, t), p(s, -t)
                     yy = gs[0] if s == s0 else gs[-1]
-                    m.poly([(x0, yy - 0.15, z0), (x1, yy - 0.15, z1), (x1, ytop, z1), (x0, ytop, z0)], "wallred")
+                    m.poly([(x0, yy - 0.15, z0), (x1, yy - 0.15, z1), (x1, ytop, z1), (x0, ytop, z0)], body_mat)
             # the coping: a small two-way roof
             p = lambda s, d: (ax + ux * s + nx * d, az + uz * s + nz * d)
             o = t + 0.25

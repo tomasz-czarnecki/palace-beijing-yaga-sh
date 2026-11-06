@@ -1,0 +1,188 @@
+{
+ "halls": {
+  "ymy": {
+   "frontage_m": 21.38,
+   "depth_m": 12.74,
+   "platform_m": 0.704,
+   "eave_m": 4.96,
+   "ridge_m": 9.01,
+   "roof": "ys",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 2,
+   "grade_class": "doc",
+   "x": 0.61,
+   "z": -5.28
+  },
+  "ymy_ear_W": {
+   "frontage_m": 3.77,
+   "depth_m": 3.42,
+   "platform_m": 0.45,
+   "eave_m": 3.77,
+   "ridge_m": 5.3,
+   "roof": "ys",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 0,
+   "grade_class": "fill",
+   "x": -11.97,
+   "z": -1.22
+  },
+  "ymy_ear_E": {
+   "frontage_m": 3.27,
+   "depth_m": 3.4,
+   "platform_m": 0.45,
+   "eave_m": 3.77,
+   "ridge_m": 5.29,
+   "roof": "ys",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 0,
+   "grade_class": "fill",
+   "x": 12.93,
+   "z": -1.21
+  },
+  "fs": {
+   "frontage_m": 23.3,
+   "depth_m": 12.74,
+   "platform_m": 0.8,
+   "eave_m": 5.38,
+   "ridge_m": 9.53,
+   "roof": "xs",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 7,
+   "flights": 2,
+   "grade_class": "doc",
+   "x": 0.61,
+   "z": -50.61
+  },
+  "fs_terrace": {
+   "frontage_m": 19.85,
+   "depth_m": 4.41,
+   "platform_m": 0.6
+  },
+  "jz": {
+   "frontage_m": 18.5,
+   "depth_m": 12.74,
+   "platform_m": 0.9,
+   "eave_m": 5.48,
+   "ridge_m": 10.03,
+   "roof": "xs",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": 0.61,
+   "z": -83.98
+  },
+  "jz_baosha": {
+   "frontage_m": 12.1,
+   "depth_m": 5.62,
+   "platform_m": 0.9,
+   "eave_m": 4.52,
+   "ridge_m": 6.48,
+   "roof": "xs",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": 0.61,
+   "z": -91.55
+  },
+  "link": {
+   "frontage_m": 3.85,
+   "depth_m": 4.24,
+   "platform_m": 0.6,
+   "eave_m": 4.32,
+   "ridge_m": 6.19,
+   "roof": "ys",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 0,
+   "grade_class": "fill",
+   "x": -10.57,
+   "z": -81.64
+  },
+  "tongdao": {
+   "frontage_m": 12.18,
+   "depth_m": 5.64,
+   "platform_m": 0.6,
+   "eave_m": 4.32,
+   "ridge_m": 6.63,
+   "roof": "ys",
+   "rolled": 1,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "fill",
+   "x": -18.63,
+   "z": -80.91
+  }
+ },
+ "axis_x": 0.61,
+ "axis_spread_m": 2.5,
+ "axis_reads": [
+  -0.04,
+  0.52,
+  0.96,
+  2.03,
+  0.81,
+  0.43,
+  -0.47
+ ],
+ "water_front_y": -1.494,
+ "water_back_y": -1.754,
+ "landing_front_run_m": 3.5,
+ "back_yard_m": 11.53,
+ "landing_back_run_m": 3.5,
+ "bridges": {
+  "BR001": {
+   "name": "nandaqiao",
+   "length_m": 16.6,
+   "deck_y": [
+    0.0,
+    0.8
+   ],
+   "grade_class": "doc",
+   "model": "models/YM03-22-nanda-qiao/",
+   "triangles": 432
+  },
+  "BR002": {
+   "name": "ruyiqiao",
+   "length_m": 14.7,
+   "deck_y": [
+    0.0,
+    0.25
+   ],
+   "grade_class": "doc",
+   "model": "models/YM03-21-ruyi-qiao/",
+   "triangles": 504
+  },
+  "BR005": {
+   "name": "zongtingqiao",
+   "length_m": 13.1,
+   "deck_y": [
+    0.0,
+    1.1
+   ],
+   "grade_class": "fill",
+   "model": "models/YM03-23-zongting-qiao/",
+   "triangles": 740
+  }
+ },
+ "court1_depth_m": 34.45,
+ "court2_depth_m": 22.49,
+ "court_width_m": 22.59,
+ "s01_walls_apart_m": 22.59,
+ "s01_fs_frontage_m": 22.03,
+ "s01_ymy_frontage_m": 21.61,
+ "s01_jz_frontage_m": 18.23,
+ "triangles": 15798
+}

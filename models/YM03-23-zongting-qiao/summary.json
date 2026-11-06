@@ -1,0 +1,37 @@
+{
+ "id": "YM03-23",
+ "aliases": [],
+ "name": "棕亭桥 Zongting Qiao",
+ "glb": "model.glb",
+ "position": [
+  -679.17,
+  1.43,
+  98.725
+ ],
+ "rotationY": 1.432665,
+ "line": "棕亭桥 at the island's north-west corner (S01, the label read as a guess): a bridge with a pavilion on it, as its name and today's rebuilding show (P0368, B for the type); every size and the roof are C.",
+ "rows": [
+  [
+   "Pavilion",
+   "Four columns and a pyramid roof on the bridge's middle (the name, P0368: C)"
+  ],
+  [
+   "Deck",
+   "Timber with red railings at Round 10's levels; stone abutments (C)"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 13.1,
+  "depth_m": 3.0,
+  "top_m": 50.63,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "bridges": [
+  "BR005"
+ ],
+ "hides": [],
+ "tris": 740,
+ "glb_bytes": 30380,
+ "made_by": "models/YM03-jiuzhou-qingyan/jiuzhouqingyan.py"
+}

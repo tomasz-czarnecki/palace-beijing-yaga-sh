@@ -1,0 +1,66 @@
+{
+"id": "YM03-23",
+"objects": [
+"YM03-23"
+],
+"position": [
+-679.17,
+1.43,
+98.725
+],
+"rotationY": 1.432665,
+"points": {
+"zongtingqiao_abut_a_L": {
+"local": [
+2.0,
+0.59,
+-6.573
+],
+"scene": [
+-685.405,
+2.02,
+95.839
+],
+"anchor": false
+},
+"zongtingqiao_abut_a_R": {
+"local": [
+-2.0,
+0.59,
+-6.573
+],
+"scene": [
+-685.956,
+2.02,
+99.801
+],
+"anchor": false
+},
+"zongtingqiao_abut_b_L": {
+"local": [
+2.0,
+0.16,
+6.573
+],
+"scene": [
+-672.384,
+1.59,
+97.649
+],
+"anchor": false
+},
+"zongtingqiao_abut_b_R": {
+"local": [
+-2.0,
+0.16,
+6.573
+],
+"scene": [
+-672.935,
+1.59,
+101.611
+],
+"anchor": false
+}
+}
+}

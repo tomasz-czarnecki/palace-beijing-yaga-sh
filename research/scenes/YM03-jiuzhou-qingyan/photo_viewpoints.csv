@@ -1,0 +1,2 @@
+photo_id,id,lat,lon,bearing,dist_m,err_m,eye_m,eye_sd,basis,hfov_deg
+P0003,YM03,40.0015476,116.29046,355,170,100,70,50,"Round 18: the 1744 leaf is a painting, not a photograph: a bird's-eye view from the south across the 前湖, the axis halls receding up and to the right; the prior is weak on purpose (100 m in plan, eye 70 m, sd 50 m, an assumed 35° lens): the fit measures how far a single perspective camera can explain the painter's placing of the three halls",35

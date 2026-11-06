@@ -1,0 +1,16 @@
+name,what,plan_px,note
+ymy_hall,圆明园殿: the hall's outline as S01 draws it,3237.5 4869;3341.7 4919,"S01 (Round 18 reading, 2.4x crop 'front'): the outer line 3237.5-3341.7 (104 px, about 21.7 m), y 4869-4919; five cells inside between x 3246 and 3333 (the five bays of the 1855 slip, S310 rec. 11195)"
+ymy_ear_W,圆明园殿: the small two-cell block at its west end,3223 4898;3240 4915,"S01 crop 'front' px 175-215, py 140-180: two cells, set to the front half of the hall's end; read as an ear room 耳房 (C)"
+ymy_ear_E,圆明园殿: the small two-cell block at its east end,3342 4894;3360 4911,S01 crop 'front' px 440-505: two cells (C)
+yard_W,the front yard's west line from the hall to the shore,3244 4919;3244 4975,"S01 crop 'front': a single line at px 225 from the hall's front to the shore line; read as a low wall (C); the label 圆明园殿 is written inside the yard"
+yard_E,the front yard's east line,3331 4919;3331 4971,S01 crop 'front' px 435 (C)
+shore_S,the front lake's shore before the yard,3244 4975;3294 4974;3331 4971,"S01 crop 'front' py 315-325; the landing YMC-023 of Round 9 stands at (3294.7, 4977.1), on this line"
+court1_marks,two small marks in the court south of 奉三无私殿's terrace,3261.7 4748.3;3325.8 4745.8,"S01 crop 'mid' px 268/422, py 302-308: two dots symmetric about the axis; read as two bronze vessels or lanterns on stands (C), as at 蕴真斋 (Round 17)"
+fs_hall,奉三无私殿: the hall's outline,3239.6 4655.4;3345.8 4699,"S01 crop 'mid': the outer line 3239.6-3345.8, y 4655-4699; seven cells (px 215, 240, 272, 315, 355, 397, 435, 470); the box F0019 (S01 reader, Round 1) runs to 3363"
+fs_terrace,奉三无私殿: the front terrace 月台,3246.7 4699;3342.5 4724,"S01 crop 'mid' px 232-462, py 190-250: a rectangle before the hall, 96 by 25 px (about 20 by 5.2 m)"
+wall_W,the axis compound's west wall,3237 4548;3237 4869,"S01 crops 'axis', 'mid', 'court2': the double line at x 3233-3240 (about 1 m), from the 九洲清晏 range to 圆明园殿's west end"
+wall_E,the axis compound's east wall,3351 4548;3351 4869,"S01 crops 'mid', 'court2': x 3348-3355; north of y 4600 it meets the Tongzhi design's jade-disc court (Q36, Q121)"
+jz_hall,九洲清晏殿: the hall's outline,3259 4486;3346 4549,"S01 crop 'back' px 262-470, py 110-262: two bands, 4486-4513 and 4513-4549, with narrow cells (about 2.3 m); the 1874 design gives 5间双卷 (S310 rec. 11901) and the plan may draw it (Q36): the 1860 hall is five bays with porches and the 1855 rear 抱厦 (S310 rec. 7237, 10881)"
+tongdao_link,the small three-cell block between 九洲清晏殿 and 同道堂 (S01 福寿仁恩 row F0569),3232 4516;3256 4536,S01 crop 'back' px 195-255 (the box F0569)
+tongdao,同道堂: the three-bay hall west of 九洲清晏殿 (box F0022),3173 4514;3232 4542,S01 crop 'back' px 45-195 (the box F0022)
+shore_N,the back lake's shore behind 九洲清晏殿,3220 4422;3260 4413;3300 4411;3340 4412;3370 4417,"S01 crop 'north' py 70-100; the landing YMC-031 of Round 9 at (3303.6, 4411.3), on this line"

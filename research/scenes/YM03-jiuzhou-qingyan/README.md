@@ -477,6 +477,10 @@ For the axis halls S05 gives bays only. The 1855 slips of 样007-9-1, read in th
 - **Q182. Typology, grand_hall heights.** Typology, grand_hall heights: proposal column_m 5.12 -> 4.2 and platform_m 1.22 -> 0.7 for the class, keeping 5.12 and 1.22 for 正大光明殿 alone through by_name. The measured residential and office halls of the class all fall below the default: 慎德堂 YM03-11 column 4.35, platform 0.59 (
 - **Q194. How did the emperor cross the 前湖 from 九洲清晏?** No Qing text says. The plan leads from 如意桥 straight to 勤政殿, where the daily audience was held (route R1 takes it); 南大桥 on the west and a boat from the landing before 圆明园殿 (YMC-023) are the other readings; the 1860 witnesses saw the lake "bridged at each end" (S242) 
 - **Q218. No plan draws a plant.** Every tree's place is generated in an area anchored to the scene (Round 12). A modern study (S1141) names Yangshi Lei planting drawings for 九洲清晏 and an archive "花果树木价值"; neither has been seen. Either would turn C extents into B or A. (Round 12)
+- **Q250. 九洲清晏's courts: S01 against the Tongzhi survey.** The survey 样006-3 = 样062-24 (1873-74, as quoted on mhymy record 11901) writes the first court 33.92 m deep and 25.98 m wide, the second 18.27 m deep and 25.98 m wide. S01 gives 34.5 m between the eave columns of 圆明园殿 and 奉三无私殿 (0.6 m off), 22.5 m between those of
+- **Q251. The leaf of 1744 paints 九洲清晏殿 as the axis's widest hall.** On P0003 the three axis halls measure 78, 85 and 108 px across their eaves from front to back; the model has 21.4, 23.3 and 18.5 m (the 1855 slip, S01 wall to wall, five bays of 1855 at S01's 18 m). A single camera then fits the halls' west halves to 0.
+- **Q254. Where the galleries of the axis ran.** The leaf shows covered galleries with white walls and pierced windows between the axis halls; S01 draws only walls there. The model puts a gallery against each wall of both courts, turning to 九洲清晏殿's porch ends; the 1855 plan 样011-3 would show them. (Round 18)
+- **Q255. East of 九洲清晏殿 in 1860.** S01 draws the Tongzhi design here (七间殿, a jade-disc pond with a square pavilion, Q121); the kit draws S01's 七间殿 F0568 against the model's hall, 1.4 m platform and 15.5 m ridge. In 1860 天地一家春 stood east of the hall (S05 j80:20b) in a form not known. (Round 18)
 
 ### Wishlist rows that name it
 
@@ -500,3 +504,12 @@ For the axis halls S05 gives bays only. The 1855 slips of 样007-9-1, read in th
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### Round 18: the detailed model of the axis
+
+The central axis is now a detailed model, `models/YM03-jiuzhou-qingyan/` (its README holds the evidence by part, the iteration log and the joints), with the three named bridges as models of their own (`models/YM03-21-ruyi-qiao/`, `YM03-22-nanda-qiao/`, `YM03-23-zongting-qiao/`). What this round found, beyond the dossier above:
+- **The axis re-read on S01** (`models/YM03-jiuzhou-qingyan/plan_readings.csv`): 圆明园殿 five cells with two-cell ear rooms at its ends; a walled yard from the hall to the 前湖 with the landing YMC-023 on its shore; two marks in the first court; 奉三无私殿 drawn wall to wall (S01's cells are uneven; Round 1's box reached 3363 px, the hall ends at 3346) with a front terrace about 20 x 5 m; 九洲清晏殿 drawn in two bands of narrow cells (perhaps the Tongzhi 双卷 design); the walls 22.6 m apart between their inner faces. The seven reads of the axis spread over 2.5 m.
+- **The state of 1837-1860 by part:** 圆明园殿 from the slip of 1855 (A), its roof a rolled 硬山 after record 11195 (Q252); 九洲清晏殿 five bays with the 1855 rear porch (A); 同道堂 joined to its west (E1169); every other figure C (圆明园殿's module carried over).
+- **The courts** (Q250): S01 kept against the Tongzhi survey's widths and second depth.
+- **The leaf P0003** (15 key points in `plate_keypoints.csv`, viewpoint in `photo_viewpoints.csv`, the fit in `plate_fit.csv`, all in this folder): a single camera fits it to 3.79 m rms at the object (median 3.0 m); it paints 九洲清晏殿 as the widest hall (Q251); which halls are the axis is a reading (Q253).
+- **Not modelled:** the east of the axis (S01's Tongzhi design, Q255), 慎德堂 and the west road, 清晖阁 and the courts round it, 天地一家春: the kit draws them from their boxes.

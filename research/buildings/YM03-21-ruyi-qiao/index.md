@@ -19,7 +19,11 @@ Yuanming Yuan
 
 ## Our model now
 
-No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
+The bridge from the island's south-east corner towards 勤政亲贤 (S01, the label sure): dressed-stone abutments as the bridge rebuilt on its surviving abutments shows (P0793, B), a timber deck with red railings as the 1744 leaf paints the bridge at the island's south-east (S08 P0003, A for 1744; the leaf draws it stepped, the deck here follows Round 10's level). Timber and posts C.
+
+- **Abutments:** Dressed stone (today's rebuilding on the surviving abutments, P0793, B)
+- **Deck:** Timber on posts, 3 m wide, at Round 10's levels (the leaf's steps not drawn)
+- **Railings:** Red posts and two rails (the 1744 leaf, A for 1744; rhythm C)
 
 ## Pictures (0)
 

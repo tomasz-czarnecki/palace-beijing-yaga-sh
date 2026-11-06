@@ -1052,6 +1052,12 @@ def publish_models(book):
         decks = json.load(open(jp, encoding="utf-8")).get("decks") if jp.exists() else None
         if decks:  # Round 16: raised floors the model draws (a terrace): the view lays the ways on them
             out[mid]["decks"] = decks
+        if sm.get("bridges"):  # Round 18: bridges of structures.json (ground1860.py) the model draws itself: the view leaves out their plain decks
+            known = {b["id"] for b in json.load(open(SITE_DATA.parent / "generated/structures.json", encoding="utf-8"))["bridges"]}
+            bad = [b for b in sm["bridges"] if b not in known]
+            if bad:
+                raise SystemExit(f"models/{folder.name}/summary.json: bridges not in structures.json: {bad}")
+            out[mid]["bridges"] = sm["bridges"]
     write_if_changed(SITE_DATA / "models.json", json.dumps({"note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.", "models": out}, ensure_ascii=False, indent=1) + "\n")
     return out
 

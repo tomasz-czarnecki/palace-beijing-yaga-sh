@@ -1648,6 +1648,31 @@
 "rms_px": 6.2
 }
 }
+},
+"P0003": {
+"object": "YM03",
+"plate": "",
+"image": "photos/P0003.jpg",
+"size": [
+1920,
+1087
+],
+"fits": {
+"all": {
+"position": [
+-391.24,
+117.77,
+513.24
+],
+"yaw_deg": 326.85,
+"pitch_deg": -8.07,
+"f_px": 2049.4,
+"du_px": 202.3,
+"dv_px": -38.3,
+"k_vertical": 1.0,
+"rms_px": 18.0
+}
+}
 }
 }
 }
