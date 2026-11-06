@@ -713,17 +713,17 @@ a.gv-pic { cursor: zoom-in; }
 
 /* Round 22: the locator map (one <symbol id="gmap"> per page from our own layers, the camera's dot and its field of view) and the filled gallery slots */
 .gmap { flex: none; display: block; width: 150px; height: auto; background: #F3ECDC; border: 1px solid var(--line-strong); }
-.gm-garden { fill: #FCF9F1; }
-.gm-hill { fill: #4F8270; fill-opacity: 0.5; }
-.gm-water { fill: #6F93A8; fill-opacity: 0.58; }
-.gm-wall { fill: none; stroke: var(--ink); stroke-opacity: 0.72; stroke-width: 0.8; vector-effect: non-scaling-stroke; }
-.gm-axis { fill: none; stroke: var(--accent); stroke-opacity: 0.8; stroke-width: 0.8; stroke-dasharray: 2 2; vector-effect: non-scaling-stroke; }
-.gm-seal { fill: var(--accent); fill-opacity: 0.8; }
-.gm-label { font-family: var(--serif); font-style: italic; fill: var(--muted); paint-order: stroke; stroke: #FCF9F1; stroke-width: 34px; stroke-linejoin: round; }
+.gm-garden { fill: var(--gm-garden, #FCF9F1); }
+.gm-hill { fill: var(--gm-hill, #4F8270); fill-opacity: var(--gm-hill-o, 0.5); }
+.gm-water { fill: var(--gm-water, #6F93A8); fill-opacity: var(--gm-water-o, 0.58); }
+.gm-wall { fill: none; stroke: var(--gm-wall, var(--ink)); stroke-opacity: var(--gm-wall-o, 0.72); stroke-width: 0.8; vector-effect: non-scaling-stroke; }
+.gm-axis { fill: none; stroke: var(--gm-axis, var(--accent)); stroke-opacity: var(--gm-axis-o, 0.8); stroke-width: 0.8; stroke-dasharray: 2 2; vector-effect: non-scaling-stroke; }
+.gm-seal { fill: var(--gm-seal, var(--accent)); fill-opacity: 0.8; }
+.gm-label { font-family: var(--serif); font-style: italic; fill: var(--gm-label, var(--muted)); paint-order: stroke; stroke: var(--gm-halo, #FCF9F1); stroke-width: 34px; stroke-linejoin: round; }
 .gm-label[lang^="zh"] { font-family: var(--zh-serif); font-style: normal; }
 .gm-north { fill: var(--ink); fill-opacity: 0.65; }
-.gm-cone { fill: var(--accent); fill-opacity: 0.2; stroke: var(--accent); stroke-opacity: 0.75; stroke-width: 0.9; vector-effect: non-scaling-stroke; }
-.gm-dot { fill: var(--accent); stroke: var(--ink); }
+.gm-cone { fill: var(--gm-cone, var(--accent)); fill-opacity: var(--gm-cone-o, 0.2); stroke: var(--gm-cone, var(--accent)); stroke-opacity: 0.75; stroke-width: 0.9; vector-effect: non-scaling-stroke; }
+.gm-dot { fill: var(--gm-dot, var(--accent)); stroke: var(--gm-dot-edge, var(--ink)); }
 
 /* The filled gallery slots: what the AI added, and where the picture looks from */
 .gv-ai { font-family: var(--serif); font-style: italic; color: var(--muted); }
@@ -753,7 +753,7 @@ a.gv-pic { cursor: zoom-in; }
    the headline on a soft scrim at the lower left, each slide's caption under the buttons, the dots in the middle, a small locator map at the
    right, and a paper hills edge into the light page below. Only the picture is rich; everything under it stays paper. */
 .hero.hero-full {
-  --edge-h: clamp(30px, 4.2vw, 64px);
+  --edge-h: 0px;
   --paper: #FBF9F4;
   --scrim: 16, 12, 8;
   display: block;
@@ -850,7 +850,6 @@ a.gv-pic { cursor: zoom-in; }
 .hero-from { margin: 0; max-width: 13.5em; padding: 4px 7px; background: rgba(251, 249, 244, 0.93); color: var(--ink); font-family: var(--mono); font-size: 11px; line-height: 1.4; text-align: left; }
 .hero-loc .gmap { width: clamp(96px, 8.4vw, 120px); box-shadow: 0 6px 20px -6px rgba(var(--scrim), 0.5); }
 
-.hero-edge { position: absolute; z-index: 4; left: 0; right: 0; bottom: -1px; width: 100%; height: var(--edge-h); pointer-events: none; }
 
 @media (max-width: 1180px) {
   /* the header's sections drop to a second row of 41 px */
@@ -899,3 +898,18 @@ a.gv-pic { cursor: zoom-in; }
 }
 :lang(zh) .hero-note { font-family: var(--zh-serif); font-style: normal; line-height: 1.6; }
 :lang(zh) .hero-title { font-family: var(--zh-serif); letter-spacing: 0.02em; }
+
+/* Hero, calmer (Nov 6): no caption block, no containers; only the dots, a tiny AI mark and a translucent black-and-white locator. */
+.hero-full .hero-title, .hero-full .hero-note, .hero-full .hero-large, .hero-from, .hero-progress { display: none; }
+.hero-caps::before { display: none; }
+.hero-meta { margin: 0; }
+.hero-ai { padding: 0; background: none; color: rgba(251, 249, 244, 0.72); font-size: 10.5px; letter-spacing: 0.04em; text-shadow: 0 1px 3px rgba(var(--scrim), 0.7); }
+.hero-nav { padding: 0; background: none; border: 0; -webkit-backdrop-filter: none; backdrop-filter: none; }
+.hero-pause { border-left: 0; }
+.hero-dot::before { filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.55)); }
+.hero-loc .gmap {
+  background: transparent; border: 0; box-shadow: none; opacity: 0.82; filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+  --gm-garden: rgba(255, 255, 255, 0.1); --gm-hill: #fff; --gm-hill-o: 0.1; --gm-water: #fff; --gm-water-o: 0.3;
+  --gm-wall: #fff; --gm-wall-o: 0.9; --gm-axis: #fff; --gm-axis-o: 0.6; --gm-seal: #fff; --gm-label: #fff; --gm-halo: rgba(0, 0, 0, 0.4);
+  --gm-cone: #fff; --gm-cone-o: 0.3; --gm-dot: #fff; --gm-dot-edge: #000;
+}
