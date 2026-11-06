@@ -1,0 +1,366 @@
+{
+ "object": "XY06",
+ "label": "",
+ "points_from": "model XY06-fangwai-guan",
+ "cameras": {
+  "P0048": {
+   "plate": "8",
+   "image": "P0048.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1384
+   ],
+   "object": "XY06",
+   "points_from": "model XY06-fangwai-guan",
+   "prior": {
+    "lat": 40.011586,
+    "lon": 116.303757,
+    "err": 12.0,
+    "bearing": 355.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. South of the hall. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      583.22,
+      5.71,
+      -725.77
+     ],
+     "yaw_deg": 355.94,
+     "pitch_deg": -0.25,
+     "f_px": 3957.9,
+     "du_px": 51.4,
+     "dv_px": 46.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.15,
+     "moved_from_prior_m": 49.7,
+     "points": {
+      "n": 38,
+      "rms_px": 15.1,
+      "median_px": 9.3,
+      "max_px": 44.5,
+      "rms_m": 0.32,
+      "median_m": 0.2,
+      "max_m": 0.95
+     },
+     "tests": {
+      "n": 38,
+      "rms_px": 15.1,
+      "median_px": 9.3,
+      "max_px": 44.5,
+      "rms_m": 0.32,
+      "median_m": 0.2,
+      "max_m": 0.95
+     },
+     "sure12": {
+      "n": 32,
+      "rms_px": 15.5,
+      "median_px": 8.1,
+      "max_px": 44.5,
+      "rms_m": 0.33,
+      "median_m": 0.17,
+      "max_m": 0.95
+     },
+     "skipped": {
+      "n": 1,
+      "rms_px": 34.0,
+      "median_px": 34.0,
+      "max_px": 34.0,
+      "rms_m": 0.72,
+      "median_m": 0.72,
+      "max_m": 0.72
+     }
+    },
+    "stretch": {
+     "position": [
+      583.23,
+      5.52,
+      -725.64
+     ],
+     "yaw_deg": 355.96,
+     "pitch_deg": -0.19,
+     "f_px": 3961.6,
+     "du_px": 53.0,
+     "dv_px": 51.6,
+     "k_vertical": 1.002,
+     "eye_above_ground_m": -0.04,
+     "moved_from_prior_m": 49.8,
+     "points": {
+      "n": 38,
+      "rms_px": 15.0,
+      "median_px": 9.4,
+      "max_px": 44.9,
+      "rms_m": 0.32,
+      "median_m": 0.2,
+      "max_m": 0.96
+     },
+     "tests": {
+      "n": 38,
+      "rms_px": 15.0,
+      "median_px": 9.4,
+      "max_px": 44.9,
+      "rms_m": 0.32,
+      "median_m": 0.2,
+      "max_m": 0.96
+     },
+     "sure12": {
+      "n": 32,
+      "rms_px": 15.4,
+      "median_px": 8.2,
+      "max_px": 44.9,
+      "rms_m": 0.33,
+      "median_m": 0.17,
+      "max_m": 0.96
+     },
+     "skipped": {
+      "n": 1,
+      "rms_px": 34.2,
+      "median_px": 34.2,
+      "max_px": 34.2,
+      "rms_m": 0.73,
+      "median_m": 0.73,
+      "max_m": 0.73
+     }
+    }
+   }
+  },
+  "P0212": {
+   "plate": "",
+   "image": "P0212.jpg",
+   "free": true,
+   "size": [
+    1600,
+    1094
+   ],
+   "object": "XY06",
+   "points_from": "model XY06-fangwai-guan",
+   "prior": {
+    "lat": 40.011625,
+    "lon": 116.303565,
+    "err": 8.0,
+    "bearing": 25.0,
+    "eye": 0.5,
+    "eye_sd": 1.0,
+    "f2400": 2897.056274847714,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 16 reader 3: about 30 degrees west of the axis; the far horizon just above the porch's foot: the photographer stands low."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      565.45,
+      1.02,
+      -777.04
+     ],
+     "yaw_deg": 20.03,
+     "pitch_deg": 1.19,
+     "f_px": 1505.0,
+     "du_px": 41.6,
+     "dv_px": -10.9,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.56,
+     "moved_from_prior_m": 4.1,
+     "points": {
+      "n": 6,
+      "rms_px": 24.8,
+      "median_px": 14.3,
+      "max_px": 46.7,
+      "rms_m": 0.51,
+      "median_m": 0.3,
+      "max_m": 0.94
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 24.8,
+      "median_px": 14.3,
+      "max_px": 46.7,
+      "rms_m": 0.51,
+      "median_m": 0.3,
+      "max_m": 0.94
+     },
+     "sure12": {
+      "n": 3,
+      "rms_px": 19.5,
+      "median_px": 14.2,
+      "max_px": 29.1,
+      "rms_m": 0.42,
+      "median_m": 0.3,
+      "max_m": 0.62
+     },
+     "skipped": {
+      "n": 3,
+      "rms_px": 26.8,
+      "median_px": 19.3,
+      "max_px": 42.0,
+      "rms_m": 0.54,
+      "median_m": 0.42,
+      "max_m": 0.84
+     }
+    }
+   }
+  },
+  "P0355": {
+   "plate": "",
+   "image": "P0355.jpg",
+   "free": true,
+   "size": [
+    1280,
+    848
+   ],
+   "object": "XY06",
+   "points_from": "model XY06-fangwai-guan",
+   "prior": {
+    "lat": 40.011733,
+    "lon": 116.303742,
+    "err": 4.0,
+    "bearing": 355.0,
+    "eye": 1.0,
+    "eye_sd": 0.7,
+    "f2400": 1847.8379565774994,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 16 reader 3: on the axis, on the walk below the platform; the porch's piers 333 px for about 5.1-5.7 m with a 66-degree lens."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      583.0,
+      1.48,
+      -793.73
+     ],
+     "yaw_deg": 337.44,
+     "pitch_deg": 2.36,
+     "f_px": 1026.4,
+     "du_px": 27.6,
+     "dv_px": 10.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.08,
+     "moved_from_prior_m": 5.9,
+     "points": {
+      "n": 4,
+      "rms_px": 17.7,
+      "median_px": 14.8,
+      "max_px": 27.7,
+      "rms_m": 0.26,
+      "median_m": 0.21,
+      "max_m": 0.42
+     },
+     "tests": {
+      "n": 4,
+      "rms_px": 17.7,
+      "median_px": 14.8,
+      "max_px": 27.7,
+      "rms_m": 0.26,
+      "median_m": 0.21,
+      "max_m": 0.42
+     },
+     "sure12": {
+      "n": 0
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0773": {
+   "plate": "",
+   "image": "P0773.jpg",
+   "free": true,
+   "size": [
+    1050,
+    780
+   ],
+   "object": "XY06",
+   "points_from": "model XY06-fangwai-guan",
+   "prior": {
+    "lat": 40.011857,
+    "lon": 116.304035,
+    "err": 9.0,
+    "bearing": 281.6,
+    "eye": 1.5,
+    "eye_sd": 1.0,
+    "f2400": 2897.056274847714,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 16 reader 3 read it from the south-west; Round 16: mirrored across the axis to the south-east: the front recedes to the left of the near corner and the end with the balcony to its right, which only a view from the south-east (or a mirrored print) gives; the fit agrees (Q238)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      601.03,
+      3.55,
+      -803.33
+     ],
+     "yaw_deg": 292.18,
+     "pitch_deg": -17.3,
+     "f_px": 968.7,
+     "du_px": 68.9,
+     "dv_px": 355.9,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.18,
+     "moved_from_prior_m": 2.5,
+     "points": {
+      "n": 9,
+      "rms_px": 38.0,
+      "median_px": 11.4,
+      "max_px": 88.0,
+      "rms_m": 0.74,
+      "median_m": 0.19,
+      "max_m": 1.68
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 38.0,
+      "median_px": 11.4,
+      "max_px": 88.0,
+      "rms_m": 0.74,
+      "median_m": 0.19,
+      "max_m": 1.68
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 37.8,
+      "median_px": 11.4,
+      "max_px": 88.0,
+      "rms_m": 0.73,
+      "median_m": 0.19,
+      "max_m": 1.68
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 141.2,
+      "median_px": 113.7,
+      "max_px": 197.5,
+      "rms_m": 2.11,
+      "median_m": 1.79,
+      "max_m": 2.91
+     }
+    }
+   }
+  }
+ }
+}

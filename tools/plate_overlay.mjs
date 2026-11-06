@@ -1,7 +1,7 @@
 // The plate overlay test's renders (Round 13): the 3D view from every fitted camera of an object (site/reconstruction/data/plates.json, tools/plate_overlay.py fit), one page load for all,
 // then the composites by `tools/plate_overlay.py compose`. With --views, also the model's own views (front, rear, ends, joints, the panel) and, with --before <dir>, the same views of an older copy of site/.
 //
-//   node tools/plate_overlay.mjs --object XY01 [--port 8891] [--fits all,anchored] [--views] [--before /opt/data/cache/scratch/palace_r13_pilot_before/site] [--tag after]
+//   node tools/plate_overlay.mjs --object XY01 [--port 8891] [--fits all,anchored] [--only] [--views] [--before /opt/data/cache/scratch/palace_r13_pilot_before/site] [--tag after]
 //
 // Needs Node and Playwright outside the repo (NODE_PATH, default /opt/data/cache/scratch/palace_r11_kit_tools/node_modules) and a Chrome (CHROME_PATH). Starts tools/serve_local.py --public on --port
 // (and a plain static server on port + 1 for --before), stops them at the end. Software WebGL: everything of one view from one page load. Writes screenshots/r13/, or --out <dir> (Round 14: screenshots/r14).
@@ -22,6 +22,7 @@ const opt = (n, d) => { const i = args.indexOf('--' + n); return i < 0 ? d : arg
 const has = (n) => args.includes('--' + n);
 const OBJ = opt('object', 'XY01');
 const PORT = Number(opt('port', '8891'));
+const ONLY = has('only') ? OBJ : ''; // Round 16: --only hides the other detailed models in the overlay renders (3d.html &plateonly=), when one stands between the camera and the object
 const FITS = opt('fits', 'all,anchored').split(',');
 const TAG = opt('tag', 'after');
 const OUT = path.resolve(ROOT, opt('out', 'screenshots/r13'));
@@ -67,7 +68,7 @@ if (!has('views-only')) {
   const plates = JSON.parse(fs.readFileSync(path.join(ROOT, 'site/reconstruction/data/plates.json'), 'utf8')).plates;
   const ids = Object.keys(plates).filter((k) => plates[k].object === OBJ);
   const page = await newPage(1600, 1200);
-  await page.goto(`${base}/reconstruction/3d.html?shot=1&labels=0&greens=0&plate=${ids[0]}&plateimg=0`, { waitUntil: 'load' });
+  await page.goto(`${base}/reconstruction/3d.html?shot=1&labels=0&greens=0&plate=${ids[0]}&plateimg=0${ONLY ? `&plateonly=${ONLY}` : ''}`, { waitUntil: 'load' });
   await page.waitForFunction('window.__ready === true && window.__plateReady === true', null, { timeout: 600000 });
   for (const id of ids) for (const fit of FITS) {
     if (!plates[id].fits[fit]) continue;

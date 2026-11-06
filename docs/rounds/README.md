@@ -26,6 +26,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r13_pilot` | not recorded | 2026-11-06, before 01:30 | see its log | - | see its result row | 75bd43b | done |
 | `palace_r14_haiyan` | not recorded | 2026-11-06, from 01:30 | see its log | - | see its result row | see the git log | done |
 | `palace_r15_dashuifa` | not recorded | 2026-11-06, from 02:30 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r16_yuanying` | not recorded | 2026-11-06, from 03:49 | about 1 h | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -525,3 +526,45 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - **The trophies read as figures** in v1's relief; redrawn as a shield, crossed arms and a ribbon knot.
 - **Shell kill:** a `pkill -f` on the server's command line matched the shell that ran it; the servers are now stopped by their PID.
 - **Open:** Q232 (the terrace's height), Q233 (plate 16's gates), Q234 (the tower basins' ruin places), Q235 (plate 15's depth), Q236 (the tiers, the stag's group, the stone fish not placed), Q237 (the niche's sill), Q71 (the screen's place: 44.7 m from the niche in the model, the court running on 6.5 m behind it).
+
+## palace_r16_yuanying
+
+**Asked:** the detailed models of 远瀛观 XY09 and 方外观 XY06 built from the references by the pilot's method: the terrace with its stairs and balustrades, the main block with its order, the clock-gate front of the ruin photographs; the small pavilion with its stairs and courts; the match check against every plate and photograph; the ruin photographs for the stone; `tools/check_models.py`; screenshots; docs; Q67 and Q70 stated, not forced.
+
+**Delivered:**
+- **远瀛观** `models/XY09-yuanying-guan/`:
+  - the terrace (S603's 35 × 31 m) 4.3 m up, its retaining walls of piers and rusticated stones, the paved forecourt, the front balustrade with urns, the side balustrades, eight trees in square pits, a back stair (assumed, for reach);
+  - the hall (S603's 28 × 21 m), an inverted 凹 on a 1.2 m base: chamfered wings one bay forward with big windows, eight-slope roofs, decks with balustrades and lanterns with a clock face on every side;
+  - the clock gate: the door between two carved columns 6.0 m apart on pedestals with lions, the entablature blocks standing proud, the door's hood, a door-like opening either side, the attic with the wheel, its moulding, crest and scrolls;
+  - the centre's tiered roofs (a fish-scale roof over a low band, the main hipped roof pierced by the attic, the crown) and the body behind under an assumed hipped roof.
+- **方外观** `models/XY06-fangwai-guan/`: the rusticated podium with its end panels, ovals and porch, three round steps; the walk and the balcony; the upper storey with three windows, carved corner strips and rosettes, end windows with balconies; the double-eaved roof with its crest; the two curved stairs with wave-scroll parapets; a paved apron.
+- **196 key points** read by three readers on plates 14 and 8 and P0183, P0190, P0776, P0179, P0772, P0216, P0291, P0719, P0757, P0341, P0780, P0773, P0212, P0296, P0304, P0295, P0355, from one vocabulary (`docs/rounds/common/palace_r16_yuanying_vocab.md`, merged by `docs/rounds/common/palace_r16_merge.py`); sixteen photograph viewpoints.
+- **Tools:**
+  - `scripts/model_site.py`: `Site.deck`, a raised floor a model draws; `models/XY09-yuanying-guan/joints.json` `decks`, published in `site/reconstruction/data/models.json` by `scripts/building_pages.py`; `3d.js` lays the ways that cross a deck on it; `tools/check_models.py` measures a way's end there.
+  - `tools/plate_overlay.mjs --only` and 3d.html `&plateonly=<ID>`: the overlay renders with the other detailed models hidden.
+- **远瀛观's hall box** raised to the model's heights (eave 12.3, top 19.8 m above its ground; `xiyanglou/boxes.csv`, Q239).
+- **Questions** Q238-Q240, a Round 16 note on Q67; three wish rows.
+
+**Numbers:**
+- **check_models:**
+  - XY09: 25,764 triangles (5,817 fill), GLB 0.80 MB, 0.22 MB compressed. 28 joints: none floats (highest 0.05 m into the ground), deepest 0.15 m (v1: 5 joints). One way at its boxes, 0 off (v3: 4.24 m below the door, before the deck). 大水法's stair landings meet the terrace at 0.00 m in plan and height.
+  - XY06: 9,832 triangles (2,982 fill), GLB 0.32 MB, 0.09 MB compressed. 13 joints, the same: highest 0.05 m in, deepest 0.15 m. One way, 0 off.
+- **Fit, v1 to final (rms at the object, camera `all`):**
+  - 远瀛观: plate 14 1.09 to 0.74 m (`stretch` 0.73 m, k 1.01), P0183 0.27 to 0.14 m, P0216 0.34 to 0.18 m, P0190 0.07 to 0.20 m, P0291 0.17 to 0.24 m, P0719 0.26 m, P0757 0.16 to 0.13 m, P0179 0.06 m, P0341 0.22 m. A free camera absorbs one front's scale: plate 14 is the module's test.
+  - 方外观: plate 8 0.50 to 0.32 m (`stretch` k 1.00), P0773 1.47 m (as the west end) to 0.74 m (as the east end, Q238), P0212 0.53 to 0.51 m, P0355 0.26 m.
+  - The kit had none of these points: no fit before the models.
+- **The module:** the columns 6.0 m apart (plate 14's ratios against S603's 28 m; P0216's door), not 4.2 m; the order and the roofs 1.4 times taller than the box held (crown 15.5 m above the terrace against 12.6 m).
+- **Cost:** the overview draws 1.06 M triangles (1.03 M before) at a 573 and a 658 ms median frame in two runs of software WebGL (604 ms in Round 15's run: the machine varies by that much). The site grows by 1.1 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser` (port 8924), `check_greens.py --browser` (port 8925).
+- `scripts/building_pages.py` run twice: the second run changed nothing (md5). Both generators run twice: the same GLBs (md5).
+- Screenshots in `screenshots/r16/`, opened: before (the kit) and after views of both from the references' directions (plate 14 high over the niche, P0183 on the terrace, the court, the south-west, the west side, the rear from the north-east, the aerial; plate 8 frontal, P0773 from the south-east, the south-west, the rear, the west side, the aerial), details (the clock gate, a wing and its lantern, the porch, a stair), the joints (the terrace's north-west corner, 大水法's stair arriving), `conf=1` and `assumed=0`, both panels; the overlays (blend, edges, side by side) for every picture and fit.
+
+**Went wrong or left open:**
+- **The readers went to the background again** (the Agent tool's default). All three finished within 10 minutes and before the turn ended.
+- **v1 took the dossier's module** (4.2 m between the columns), which made the front 18 m. Plate 14's ratios against the survey moved it to 6.0 m (Q239); every photograph had fitted v1 as well, because a free camera absorbs one front's scale.
+- **The side openings sat 0.85 m too far in** in v2: all three photographs moved them, and the centre block widened to 13.6 m.
+- **Footing skirts covered 方外观's door and ovals**, and `Parts.oval` filled the ovals' glass: found on the shots, fixed.
+- **The way to 远瀛观's door ran 4.24 m under it**: the ground of Round 10 has no terrace. Fixed with decks.
+- **P0773's side** (Q238), **P0776's scale and P0183's sliding camera** (Q240) are open; plate 8's near-elevation runs through 五竹亭's kit pavilions, so its overlay is compared against the model's own frontal view.

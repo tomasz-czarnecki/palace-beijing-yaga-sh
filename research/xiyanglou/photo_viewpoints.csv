@@ -18,3 +18,19 @@ P0344,XY11,40.01188,116.306592,126,13,4,1.6,0.4,"Round 15 reader: on the court j
 P0300,XY11,40.011916,116.306667,172.5,14,5,1.6,0.5,"Round 15 reader: symmetric frames, on the axis; lens and crop unknown, distance a guess.",50
 P0765,XY11,40.01192,116.306596,148,15.5,4,1.6,0.3,Round 15 reader: west of the axis on the court (W2 185 against E2 147 px); 65 degree lens assumed.,65
 P0764,XY11,40.011942,116.306664,172.5,17,4,1.6,0.3,Round 15 reader: on the axis on the court before the steps.,65
+P0183,XY09,40.012244,116.306596,352.5,11,4,7.3,1.5,"Round 16 reader 1: on the axis (door, clock and columns' midpoint on one x), level camera; the frame 2.0 column spacings wide; the eye 3 m above the terrace (the horizon row high: cropped, a rising front or rubble).",42
+P0190,XY09,40.012262,116.306593,352.5,9,3,7.3,1.5,"Round 16 reader 1: on the axis, nearer than P0183; the attic already fallen (after P0183).",45
+P0179,XY09,40.012209,116.306566,352,15,6,5.8,1,"Round 16 reader 2: the W column near the frame's centre, about 3 m west of the axis; grass in front.",45
+P0772,XY09,40.012209,116.306566,352,15,6,5.8,1,Round 16 reader 2: the same negative as P0179 at two thirds the scale; not a second camera.,45
+P0216,XY09,40.012123,116.306593,352,24,8,6.8,1.5,"Round 16 reader 2: frontal, the door axis 150 px right of the centre (about 2 m west of the axis); the rubble seen from above: a heap or a rising front.",45
+P0291,XY09,40.012173,116.306703,330,22,8,5.8,1,Round 16 reader 2: from the south-east: the door's W reveal and the block's E face show.,45
+P0719,XY09,40.012206,116.306579,355,15,6,5.3,1,"Round 16 reader 2: near frontal, about 2 m west of the axis, looking up a little.",45
+P0341,XY09,40.012062,116.306509,6,32,12,2.8,2,"Round 16 reader 2: from the south-west with a long lens; a rubble bank hides the pedestal's foot, the eye at or below the terrace's floor.",25
+P0757,XY09,40.012236,116.306562,352,12,4,5.9,0.5,"Round 16 reader 2: the W column near the frame's centre, frontal; standing on today's paving at the pedestals' level.",60
+P0773,XY06,40.011857,116.304035,281.6,26,9,1.5,1,"Round 16 reader 3 read it from the south-west; Round 16: mirrored across the axis to the south-east: the front recedes to the left of the near corner and the end with the balcony to its right, which only a view from the south-east (or a mirrored print) gives; the fit agrees (Q238).",45
+P0212,XY06,40.011625,116.303565,25,32,8,0.5,1,Round 16 reader 3: about 30 degrees west of the axis; the far horizon just above the porch's foot: the photographer stands low.,45
+P0296,XY06,40.011700,116.303690,5,20,8,1.5,1,"Round 16 reader 3: frontal, a little west of the axis; rough.",45
+P0304,XY06,40.011680,116.303770,345,22,9,1.5,1,"Round 16 reader 3: frontal, a little east of the axis; rough.",45
+P0295,XY06,40.011751,116.304032,300,30,12,1,1,"Round 16 reader 3: from the south-east, rough.",45
+P0355,XY06,40.011733,116.303742,355,17,4,1,0.7,"Round 16 reader 3: on the axis, on the walk below the platform; the porch's piers 333 px for about 5.1-5.7 m with a 66-degree lens.",66
+P0780,XY09,40.012497,116.306493,185,19,8,5.9,0.8,"Round 16 reader 2: from the north on the terrace, west of the axis (大水法's niche 21 degrees left of the column); one usable point.",60

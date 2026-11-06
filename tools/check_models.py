@@ -21,6 +21,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
+from shapely.geometry import Point, Polygon
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -127,6 +128,9 @@ def main():
                 x, z = to_xz(lon, lat)
                 gy = G.land(x, z)
                 y = (gy if gy is not None else 0) + 0.07
+                for dk in jj.get("decks", []):  # Round 16: on a terrace the model draws, the way lies on it (3d.js lays it there)
+                    if Polygon(dk["poly"]).contains(Point(x, z)):
+                        y = dk["y"] + 0.07
                 d = np.hypot(entries[:, 0] - x, entries[:, 2] - z)
                 k = int(np.argmin(d))
                 dy = abs(entries[k, 1] - y)

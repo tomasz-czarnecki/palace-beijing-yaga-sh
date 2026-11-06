@@ -504,3 +504,199 @@ plate,photo_id,object,point,x,y,sure,use,note
 ,P0764,XY11,obel_E_foot,91,562,2,,foot of the E obelisk's pedestal at the middle of its front face on the low base
 ,P0764,XY11,obel_W_foot,1200,557,2,,foot of the W obelisk's pedestal
 ,P0765,XY11,obel_E_foot,222,422,2,,foot of the E obelisk's moulded pedestal (lion-claw feet above it) at the middle of its N face; the obelisk stands on a low base just beyond the E end pier
+14,P0054,XY09,wing_W_foot_SW,681,976,3,,outer edge of the front face's left corner pilaster at its plinth foot; hidden by a tree in front; y from the SE pilaster's plinth (968-982 on two crops)
+14,P0054,XY09,wing_W_foot_SE,876,976,3,,right corner pilaster's outer edge at its plinth foot (plinth bottom read 968-982)
+14,P0054,XY09,wing_E_foot_SW,1523,980,3,,left corner pilaster outer edge at plinth foot; tree in front
+14,P0054,XY09,wing_E_foot_SE,1729,982,3,,right corner pilaster outer edge at plinth foot; tree partly in front
+14,P0054,XY09,wing_W_cornice_SW,681,715,2,,top of the main cornice at the front face's left corner (outer edge of the corner pilaster; a chamfer facet continues left)
+14,P0054,XY09,wing_W_cornice_SE,876,715,2,,top of the main cornice at the right corner pilaster's outer edge
+14,P0054,XY09,wing_E_cornice_SW,1523,716,2,,top of the main cornice at the left corner pilaster's outer edge
+14,P0054,XY09,wing_E_cornice_SE,1729,716,2,,top of the main cornice at the right corner pilaster's outer edge
+14,P0054,XY09,wing_W_win_head,787,800,1,,crown of the arched opening inside the carved frame
+14,P0054,XY09,wing_W_win_sill,787,930,2,,bottom of the opening (top of the carved sill block)
+14,P0054,XY09,wing_E_win_head,1616,799,1,,crown of the arched opening
+14,P0054,XY09,wing_E_win_sill,1616,927,2,,bottom of the opening
+14,P0054,XY09,lantern_W_top,813,485,1,,top of the urn finial
+14,P0054,XY09,lantern_W_eave_L,747,567,2,,front-left eave corner curl
+14,P0054,XY09,lantern_W_eave_R,851,576,2,,front-right eave corner curl (the farther curl at 870 is the rear corner of the visible side)
+14,P0054,XY09,lantern_W_clock,804,623,1,,centre of the clock face on the front
+14,P0054,XY09,lantern_W_rail_L,737,656,2,,top of the lantern's balustrade at its front-left corner
+14,P0054,XY09,lantern_W_rail_R,840,655,3,,top of the balustrade at the post under the front-right corner; the rail continues behind the roof slope
+14,P0054,XY09,lantern_E_top,1591,484,1,,top of the urn finial
+14,P0054,XY09,lantern_E_eave_L,1553,569,2,,front-left eave corner curl (the curl at 1528 is the rear corner of the visible left side)
+14,P0054,XY09,lantern_E_eave_R,1655,566,2,,front-right eave corner curl
+14,P0054,XY09,lantern_E_clock,1603,621,1,,centre of the clock face on the front
+14,P0054,XY09,lantern_E_rail_L,1563,655,3,,top of the balustrade at the post under the front-left corner
+14,P0054,XY09,lantern_E_rail_R,1666,655,2,,top of the balustrade at its front-right corner post
+14,P0054,XY09,ctr_cornice_L,988,724,3,,centre block's front face meets the stack of the wing's inner face; cornice top under the fish-scale roof ornament
+14,P0054,XY09,ctr_cornice_R,1419,724,3,,as L
+14,P0054,XY09,ctr_foot_L,988,945,3,,foot of the wall at the left corner on the hall's raised base; the base's front edge is at about y 952 and the forecourt below
+14,P0054,XY09,ctr_foot_R,1419,945,3,,as L
+14,P0054,XY09,col_W_cap,1088,744,2,,top of the capital under the entablature block
+14,P0054,XY09,col_E_cap,1316,744,2,,top of the capital under the entablature block
+14,P0054,XY09,col_W_base,1088,908,2,,foot of the shaft on the pedestal; the lion sits in front of it
+14,P0054,XY09,col_E_base,1316,908,2,,foot of the shaft; lion in front
+14,P0054,XY09,col_W_ped_foot,1088,973,2,,foot of the pedestal's stepped base on the forecourt
+14,P0054,XY09,col_E_ped_foot,1316,971,2,,foot of the pedestal's stepped base
+14,P0054,XY09,ent_W_top,1088,718,2,,top edge of the entablature block over the W column
+14,P0054,XY09,ent_E_top,1318,718,2,,top edge of the entablature block over the E column
+14,P0054,XY09,door_head,1203,801,1,,crown of the arched door opening inside the frame (the carved hood rises to about 760)
+14,P0054,XY09,door_sill,1203,931,1,,threshold of the door
+14,P0054,XY09,ctrwin_W_head,1040,807,2,,crown of the arched opening
+14,P0054,XY09,ctrwin_W_foot_L,1020,931,2,,bottom-left of the opening; the window reaches the floor (door-window with lower panels)
+14,P0054,XY09,ctrwin_W_foot_R,1061,931,2,,bottom-right of the opening
+14,P0054,XY09,ctrwin_E_head,1366,807,2,,crown of the arched opening
+14,P0054,XY09,ctrwin_E_foot_L,1347,931,2,,bottom-left of the opening
+14,P0054,XY09,ctrwin_E_foot_R,1386,931,2,,bottom-right of the opening
+14,P0054,XY09,clock_C,1202,607,1,,centre of the clock wheel
+14,P0054,XY09,clock_arch_top,1202,552,2,,top of the arched moulding round the wheel
+14,P0054,XY09,clock_crest_top,1202,530,2,,top of the small crest on the arch
+14,P0054,XY09,attic_scroll_L,1077,701,2,,outermost tip of the big scroll at the attic foot over the W entablature block
+14,P0054,XY09,attic_scroll_R,1326,702,2,,outermost tip of the big scroll over the E entablature block
+14,P0054,XY09,scale_eave_L,985,647,2,,outer front tip (curl) of the lower fish-scale roof
+14,P0054,XY09,scale_eave_R,1418,645,2,,outer front tip (curl) of the lower fish-scale roof
+14,P0054,XY09,roof_C_eave_L,1022,557,2,,front-left corner curl of the main hipped roof
+14,P0054,XY09,roof_C_eave_R,1381,557,2,,front-right corner curl of the main hipped roof
+14,P0054,XY09,roof_C_apex,1202,471,2,,top of the main roof where the crown's pedestal begins
+14,P0054,XY09,crown_top,1202,388,1,,top of the crowning ornament
+14,P0054,XY09,terr_rail_C,1200,1273,2,,top of the straight front balustrade on the axis (between urn posts at 1108 and 1292); the plate's bottom edge cuts the balusters
+14,P0054,XY09,terr_rail_L,744,1266,3,,top of the rail at the corner post where the straight front turns back north (the curved stair rails of 大水法 sweep forward from here)
+14,P0054,XY09,terr_rail_R,1661,1266,3,,as L
+14,P0054,XY09,hall_step_C,1200,1013,2,,front edge of the low step before the hall on the axis (one of three separate low steps at x 1000 1200 1408)
+,P0183,XY09,clock_crest_top,442,81,1,,top of the crest's finial over the arched moulding
+,P0183,XY09,clock_arch_top,442,142,2,,top of the outer arched moulding round the wheel
+,P0183,XY09,clock_C,442,233,1,,centre of the rosette wheel
+,P0183,XY09,attic_scroll_L,178,328,2,,outermost tip of the big scroll lying over the W entablature block
+,P0183,XY09,attic_scroll_R,700,331,2,,outermost tip of the big scroll over the E entablature block
+,P0183,XY09,ent_W_top,220,352,1,,top edge of the W entablature block's cornice at its front middle
+,P0183,XY09,ent_E_top,666,352,1,,top edge of the E entablature block's cornice
+,P0183,XY09,col_W_cap,220,422,2,,top of the capital (acanthus with volutes) under the block's architrave
+,P0183,XY09,col_E_cap,665,422,2,,top of the capital under the architrave
+,P0183,XY09,col_W_base,217,830,2,,foot of the carved shaft on the pedestal's cornice
+,P0183,XY09,col_E_base,667,833,2,,foot of the carved shaft on the pedestal's cornice
+,P0183,XY09,col_W_ped_foot,217,951,3,,bottom of the pedestal's base moulding; grass and rubble in front
+,P0183,XY09,col_E_ped_foot,667,947,3,,bottom of the pedestal's base moulding; shadow and grass below
+,P0183,XY09,door_head,443,551,2,,crown of the door's arched opening; the carved hood above is broken
+,P0183,XY09,ctrwin_W_foot_R,100,842,2,,inner edge of the W window's right jamb where it meets the pedestal-height sill; the arch head is broken and hidden by a tree (head not read)
+,P0183,XY09,ctrwin_E_foot_L,790,842,2,,inner edge of the E window's left jamb at the sill
+,P0183,XY09,ctrwin_E_head,845,560,3,skip: the arch is broken and the opening runs off the frame; crown position uncertain,inner curve of the E window's arch at its highest visible point
+,P0190,XY09,ent_W_top,209,26,3,,top of the W entablature block's cornice; its top edge is worn and has rubble on it
+,P0190,XY09,ent_E_top,762,24,2,,top edge of the E entablature block's cornice at its front middle
+,P0190,XY09,col_W_cap,207,149,2,,top of the capital under the architrave
+,P0190,XY09,col_E_cap,772,151,2,,top of the capital under the architrave
+,P0190,XY09,col_W_base,212,633,2,,foot of the carved shaft on the pedestal (pedestal largely in shadow)
+,P0190,XY09,col_E_base,765,648,2,,foot of the carved shaft on the pedestal's cornice
+,P0190,XY09,door_head,486,298,1,,crown of the door's arched opening
+,P0776,XY09,clock_C,727,195,2,,centre of 远瀛观's clock wheel above and right of 大水法's shell crest; small (wheel about 42 px across)
+,P0776,XY09,clock_arch_top,727,158,2,,top of the arched moulding round the wheel
+,P0776,XY09,clock_crest_top,727,134,3,,top of the crest over the arch; leafy edge against the sky
+,P0179,XY09,ent_W_top,906,128,2,,front top edge of the west entablature block on the column's axis; the block's top slab is seen slightly from the side (east face visible at right); cross checked on crop
+,P0179,XY09,col_W_cap,906,281,2,,top of the abacus of the west carved column's capital where the block's soffit begins; cross on the abacus moulding
+,P0179,XY09,door_head,1419,537,1,,inner crown of the central (door) arch under its carved hood; W/E: the big hooded arch is right of the carved column so this column is W (caption agrees)
+,P0179,XY09,ctrwin_W_head,632,580,2,,inner crown of the west window arch under the shell keystone; the two halves of its hood are broken back; the opening runs to the ground (no sill seen; grass)
+,P0772,XY09,ent_W_top,604,85,2,skip: the same negative as P0179 at two thirds the scale (reader 2); its four points let a camera of its own collapse (Round 16),"same negative as P0179 (identical framing, scale 2/3); front top edge of the west block on the column axis; cross checked"
+,P0772,XY09,col_W_cap,604,187,2,skip: the same negative as P0179 at two thirds the scale (reader 2); its four points let a camera of its own collapse (Round 16),abacus top of the west carved column's capital under the block's soffit; cross checked
+,P0772,XY09,door_head,946,358,1,skip: the same negative as P0179 at two thirds the scale (reader 2); its four points let a camera of its own collapse (Round 16),"inner crown of the door arch; hooded big arch right of the column = door, so column = W"
+,P0772,XY09,ctrwin_W_head,421,387,2,skip: the same negative as P0179 at two thirds the scale (reader 2); its four points let a camera of its own collapse (Round 16),inner crown of the west window arch under the shell keystone; hood halves broken
+,P0757,XY09,ent_W_top,627,52,2,,front top edge of the block on the column axis; seen from below (soffit's stepped mouldings show the block's deep projection); W: the lintel with the window hood's springer runs left and the door pier with its big scroll stands right as in P0179
+,P0757,XY09,col_W_cap,623,148,2,,top of the capital's abacus under the soffit; seen from below so the soffit hides part of the abacus top
+,P0757,XY09,col_W_base,623,691,1,,foot of the shaft (underside of its torus base) on the top of the pedestal's dado; cross checked
+,P0757,XY09,col_W_ped_foot,623,781,2,,foot of the pedestal's base mouldings; below it a crisp plain slab 783-833 px that looks modern (the 2018 consolidation?) and is not counted
+,P0341,XY09,ent_W_top,611,202,3,,top edge of the block over the column axis; view from the south-west and a little below so the block's west face also shows and the corner is hard to place
+,P0341,XY09,col_W_cap,611,287,2,,"top of the capital's abacus under the soffit, front; same column as P0757 (lintel with the half-round cut at its left end)"
+,P0341,XY09,col_W_base,611,822,2,,underside of the shaft's torus on the pedestal's dado; cross checked
+,P0341,XY09,col_W_ped_foot,611,884,3,,"foot of the pedestal's base mouldings, partly hidden by the rubble bank in front"
+,P0216,XY09,ent_W_top,728,295,1,,front top edge of the west block on the column axis; frontal view from the south; W: window arch left and hooded door arch right; the E carved column is down (carved drum on the ground right of the door)
+,P0216,XY09,col_W_cap,728,368,2,,top of the abacus under the block's soffit
+,P0216,XY09,col_W_base,728,784,1,,foot of the shaft on the pedestal's carved top moulding
+,P0216,XY09,col_W_ped_foot,728,870,2,,foot of the pedestal's carved base band; grass at its foot
+,P0216,XY09,door_head,944,508,1,,inner crown of the door arch under the carved hood
+,P0216,XY09,door_sill,946,796,3,,rubble on the threshold; level where the jambs' plinths end
+,P0216,XY09,ctrwin_W_head,544,488,2,,inner crown of the west arched opening under the shell keystone
+,P0216,XY09,ctrwin_W_foot_L,485,784,3,,foot of the west opening's left jamb (plinth's foot); the opening runs down to the floor like the door; rubble against it
+,P0216,XY09,ctrwin_W_foot_R,606,784,3,,foot of the west opening's right jamb; partly behind rubble
+,P0291,XY09,ent_W_top,578,162,2,,front top edge of the west block; view oblique from the south-east (the block's east face and the door's reveal show); W: window arch left and hooded door right; E column fallen (drum on the ground right foreground)
+,P0291,XY09,col_W_cap,572,232,2,,abacus top under the soffit
+,P0291,XY09,col_W_base,563,612,3,,foot of the shaft; its pedestal hidden behind a loose carved pedestal block lying in the foreground (not read)
+,P0291,XY09,door_head,797,344,2,,inner crown of the door arch
+,P0291,XY09,ctrwin_W_head,437,338,2,,inner crown of the west opening under the shell keystone
+,P0780,XY09,ent_W_top_N,755,161,3,,"top of the west column's great block seen from the north (its moulded west end shows at left of the block); from the back left = east: door pier with scroll mass at left, the column with the block in the middle, the window's east jamb with its lintel at right, the west outer pier far right; 大水法's niche far left"
+,P0780,XY09,col_W_cap_N,758,272,3,skip: back face is a plain rough-tooled square pier with no capital; top of the shaft under the block's back; may be the backing pier rather than the column itself,
+,P0780,XY09,col_W_base_N,762,581,3,skip: foot of the plain square shaft on a plain square base; may be the backing pier,
+,P0780,XY09,col_W_ped_foot_N,764,638,3,skip: foot of the plain square base on today's paving; may be the backing pier and a modern setting,
+,P0719,XY09,ent_W_top,439,90,2,,front top edge of the west block on the column axis; near-frontal view slightly from the west; W: window arch left and hooded door right; E carved column absent (only its pier with the carved drop stands right of the door)
+,P0719,XY09,col_W_cap,439,173,2,,top of the abacus under the soffit
+,P0719,XY09,door_head,698,298,1,,inner crown of the door arch
+,P0719,XY09,ctrwin_W_head,292,309,3,,inner crown of the west opening; its hood broken and the keystone shell leaning
+8,P0048,XY06,pod_foot_SW,870,980,3,,podium's west front corner at the foot; hidden by the potted plant and the foreground balustrade; set from the rustication's lowest course
+8,P0048,XY06,pod_foot_SE,1536,980,3,,east front corner at the foot behind the potted plant; mirror of SW checked on the crop
+8,P0048,XY06,pod_top_SW,870,800,2,,top of the podium cornice at its west corner where the stair's landing rail meets it
+8,P0048,XY06,pod_top_SE,1536,800,2,,top of the podium cornice at its east corner
+8,P0048,XY06,porch_foot_L,1079,977,2,,porch west pier's outer face at the foot beside the top step
+8,P0048,XY06,porch_foot_R,1320,977,2,,porch east pier's outer face at the foot
+8,P0048,XY06,porch_top_L,1074,799,2,,top of the porch pier's cornice block under the balcony pedestal; same level as the podium cornice
+8,P0048,XY06,porch_top_R,1326,799,2,,the same east
+8,P0048,XY06,door_head,1200,840,1,,flat head of the door opening inside the frame under the shell hood
+8,P0048,XY06,door_sill,1201,978,2,,foot of the door leaves at the top step
+8,P0048,XY06,oval_W_top,1036,849,1,,top of the grilled oval opening inside the cartouche frame
+8,P0048,XY06,oval_W_foot,1036,916,1,,bottom of the grilled oval opening
+8,P0048,XY06,oval_E_top,1365,849,1,,top of the grilled oval opening
+8,P0048,XY06,oval_E_foot,1365,916,1,,bottom of the grilled oval opening
+8,P0048,XY06,step_foot_C,1201,1020,2,,front edge of the lowest of three round steps on the axis
+8,P0048,XY06,up_cornice_SW,890,566,2,,top of the upper cornice at the west corner under the lower roof
+8,P0048,XY06,up_cornice_SE,1510,566,2,,the same east
+8,P0048,XY06,upwin_C_head,1202,628,1,,crown of the middle window's arched opening
+8,P0048,XY06,upwin_C_sill,1202,760,3,skip: sill hidden behind the balcony rail; lowest visible glazing,the opening runs down behind the balusters
+8,P0048,XY06,upwin_W_head,1022,632,1,,crown of the west window's opening
+8,P0048,XY06,upwin_E_head,1380,632,1,,crown of the east window's opening
+8,P0048,XY06,bal_rail_C,1202,728,1,,top of the balcony rail on the axis over the porch
+8,P0048,XY06,bal_rail_L,965,748,2,,top of the low balustrade before the west window at its outer post
+8,P0048,XY06,bal_rail_R,1438,748,2,,top of the low balustrade before the east window at its outer post
+8,P0048,XY06,eave_lo_SW,875,555,2,,lower roof's west corner tip
+8,P0048,XY06,eave_lo_SE,1525,550,2,,lower roof's east corner tip
+8,P0048,XY06,eave_up_SW,952,490,2,,upper roof's west corner tip at the scroll ornament
+8,P0048,XY06,eave_up_SE,1460,490,2,,upper roof's east corner tip at the scroll ornament
+8,P0048,XY06,ridge_W,1090,442,2,,west end of the ridge under the scroll ornament
+8,P0048,XY06,ridge_E,1310,442,2,,east end of the ridge under the scroll ornament
+8,P0048,XY06,crest_top_C,1202,382,1,,top of the crest cartouche on the middle of the ridge
+8,P0048,XY06,stair_W_foot,704,969,3,,lowest step of the west stair; partly hidden by potted plants and the foreground balustrade
+8,P0048,XY06,stair_E_foot,1690,978,3,,lowest step of the east stair; partly hidden by the tree and pots
+8,P0048,XY06,stair_W_top,789,769,2,,outer rail top where it reaches the landing post at the podium top
+8,P0048,XY06,stair_E_top,1611,762,2,,outer rail top at the landing post
+8,P0048,XY06,stair_W_out,648,815,2,,outermost (leftmost) point of the outer balustrade top at its turning post
+8,P0048,XY06,stair_E_out,1733,826,2,,outermost (rightmost) point of the outer balustrade top at its turning post
+8,P0048,XY06,stair_W_rail_foot,650,923,3,,top of the outer balustrade's scroll at its lowest end; among pots
+8,P0048,XY06,stair_E_rail_foot,1754,937,3,,top of the outer balustrade's lowest end; behind the tree
+,P0773,XY06,eave_lo_SE,536,86,2,,tip of the roof at the south-west corner where the front's eave line meets the end's; first roof over the upper cornice (the upper tier lost in the trees or gone); Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,up_cornice_SE,532,104,2,,top of the upper cornice at the south-west corner under the roof; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,up_cornice_NE,879,129,3,,cornice top at the far (north-west) end of the end face; branches over it; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,upwin_E_head,493,229,2,,crown of the front's west upper window seen obliquely; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,upwin_C_head,436,265,2,,crown of the front's middle upper window; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,upwin_W_head,393,290,3,,crown of the front's east upper window; in shade behind a trunk; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,end_E_win_head,723,215,2,,top of the opening of the big window in the west end face under its scrolled pediment; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,end_E_bal_rail,721,329,2,skip: not in the vocabulary; top of the small balcony rail before the west end window,the end window has its own balcony at the upper floor; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,end_E_landing_post,832,315,3,skip: not in the vocabulary; pedestal at the stair's head north of the end window,the landing's post with its mouldings; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,oval_E_top,479,454,2,,top of the west oval opening on the podium front; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,oval_E_foot,479,519,3,skip: the oval's foot is hidden by the stair's wave-scroll rail,read where the rail crosses it; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,stair_E_rail_foot,343,569,3,"skip: the lowest end in view, not the rail's foot: trunks hide it (reader 3)",lowest end of the wave-scroll rail in view; it may run lower behind the trunks; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,stair_E_top,818,426,2,,highest end of the wave-scroll outer rail at the landing post; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0773,XY06,stair_E_wall_foot,640,640,3,skip: not in the vocabulary; foot of the stair's outer wall under the flight,wall of coursed stone; Round 16: read as the east end from the south-east (W and E swapped from the reader's names): the front recedes to the left of the near corner (Q238)
+,P0212,XY06,oval_W_top,674,460,2,,top of the empty west oval frame's opening as it stands
+,P0212,XY06,oval_W_foot,674,574,2,,bottom of the oval opening on the frame's sill
+,P0212,XY06,door_head,823,457,2,,top of the door opening under the carved hood
+,P0212,XY06,porch_foot_L,727,585,3,,west porch pier's front outer corner at the foot; rubble at its base
+,P0212,XY06,porch_foot_R,941,585,3,,east porch pier's front outer corner at the foot; rubble and step fragments
+,P0212,XY06,porch_top_L,727,414,3,skip: top of the pier's capital; the porch cornice above it is broken,cornice fragments run at about y 392
+,P0212,XY06,porch_top_R,941,413,3,skip: top of the pier's capital; the porch cornice above it is broken,
+,P0212,XY06,pod_foot_SW,449,601,3,,west corner of the rusticated end panel at its foot; rubble at the base
+,P0212,XY06,pod_top_SW,449,405,3,skip: top of the rusticated panel at the west corner; the podium cornice is gone,
+,P0296,XY06,oval_W_top,363,470,2,,top of the west oval's opening under the scrolled crest; frame stands whole
+,P0296,XY06,oval_W_foot,363,567,3,,bottom of the oval opening behind the bushes
+,P0304,XY06,oval_E_top,800,375,2,,top of the east oval's opening under its crest; frame stands
+,P0304,XY06,oval_E_foot,800,478,3,,bottom of the east oval's opening; rubble and shade
+,P0355,XY06,porch_top_L,446,277,3,,top of the west porch pier's cap block at its front outer corner; the cap stands at the podium cornice level (3.7-3.8 m); the cornice between the piers is gone
+,P0355,XY06,porch_top_R,779,277,3,,the same on the east porch pier
+,P0355,XY06,porch_foot_L,458,565,3,,west porch pier's outer face at the foot of its plinth on today's platform (re-laid)
+,P0355,XY06,porch_foot_R,767,565,3,,east porch pier's outer face at the foot of its plinth
+,P0295,XY06,oval_E_top,410,524,2,,top of the east oval's opening under its crest; seen from the south-east
+,P0295,XY06,pod_top_SE,517,460,3,,top of the podium cornice at the south-east corner beside the east end panel; the cornice band stands worn

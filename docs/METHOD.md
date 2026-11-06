@@ -359,6 +359,14 @@ Round 15 (`models/XY10-da-shuifa/README.md`, `models/XY11-guan-shuifa/README.md`
 18. **Four photographs agreeing beat one plate.** The niche's head stood 1 m inside its posts' caps on P0641, P0340, P0169 and P0776; the plate drew it full width. The four photographs moved it (P0641 from 0.47 to 0.19 m). The same rule kept the gates of 观水法 at P0193's proportion against plate 16's taller ones (Q233).
 19. **Courts and terraces a model draws are met at the model's doors.** The ways treated the court box as walk-through and ended in its middle, 26 m from the basin. `scripts/paths1860.py` now gives a model's entries to every box of its rows, walk-through or not.
 
+Round 16 (`models/XY09-yuanying-guan/README.md`, `models/XY06-fangwai-guan/README.md`) built a hall on its terrace and a small pavilion, from two plates and fourteen photographs of 1873-2013, and added:
+20. **Test the module before the heights.** 远瀛观's dossier held heights read on plate 14 at a module that made the columns 4.2 m apart, so the whole front came to 18 m against Durand's 28 m. The plate's own ratios against the survey's frontage, and a door on a ruin photograph, both gave 6.0 m. One wrong module scales every height in the row: check it against the widest surveyed figure first. A `stretch` fit near k = 1 afterwards says the module and the heights agree.
+21. **A free camera on one façade cannot test scale.** Every ruin photograph of the clock gate fitted the 4.2 m model as well as the 6.0 m one: a camera of its own absorbs the size of a plane front. The plate, which holds the whole building at once, is the scale test; the photographs then set the proportions of what they show (the order taller than the plate draws it, the pier between column and opening wider).
+22. **Check a photograph's side by the order of its windows.** P0773 was catalogued as the south-west corner; its front recedes to the left of the near corner, which only a south-east view (or a mirrored print) gives. Relabelled, its oval came from 1.7 to 0.65 m. Before fitting an oblique view, list which face is left of the near corner and check it against the bearing.
+23. **A raised floor a model draws carries the ways.** The ways lie on the ground of Round 10; a terrace 4.3 m up hid them inside it, and a way to the door ended 4.24 m below it. A model now declares its terrace as a deck (`Site.deck`, `models/XY09-yuanying-guan/joints.json` `decks`): the view lays the ways on it and `tools/check_models.py` measures there.
+24. **A neighbour's model gives the joint.** 远瀛观's terrace front and the heads of 大水法's stairs are read from 大水法's own files, not from the boxes: the two models meet at 0.00 m in plan and height, and the hall's origin moved 0.72 m onto the shared axis.
+25. **Hide the neighbour for the overlay, not in the scene.** 大水法's niche stands between every camera and 远瀛观; `plate_overlay.mjs --only` (3d.html `&plateonly=`) hides the other detailed models in the renders. Kit halls are not hidden: plate 8's near-elevation from 50 m runs through the five pavilions of 五竹亭, which the engraver left out; compare against the model's own frontal view instead.
+
 ## Pitfalls and fixes
 
 **The kit (Round 11):**
@@ -477,3 +485,9 @@ echo "exit $? at $(date -u +%H:%MZ)" > "$R/next.done"
 - [ ] Wishlist and rights questions written for the owner.
 - [ ] Docs round: rulebook, research README, a round log, and copies of the briefs.
 - [ ] Measure the site's size against the host's limits before the first deploy.
+
+**The fifth and sixth models (Round 16):**
+- **The readers went to the background again** (the Agent tool's default). All three finished within 10 minutes and before the turn ended.
+- **A footing skirt covered its own door.** `Site.footing` draws a face on every side of its outline; on 方外观's podium and porch those faces stood in the planes of the walls with the door and the ovals cut in them. Where a face has openings, draw the wall from below the ground and keep only the joints.
+- **`Parts.oval` fills its centre.** Used as a frame round an opening it covered the glass; a ring (`frame_ring` in the generator) leaves the opening open.
+- **A planar front lets the camera slide.** P0183's sixteen points on the clock gate's front moved its camera 22.5 m back with double the assumed lens; the print is cropped, so the lens prior does not hold. The pixel residuals stand, the camera's place does not.

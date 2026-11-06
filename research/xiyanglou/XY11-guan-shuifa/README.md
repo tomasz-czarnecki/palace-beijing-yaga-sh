@@ -173,7 +173,8 @@ Five panels and two obelisks standing, set up in 1977 by the park: a re-erection
 
 ## Wishlist
 
-None that name it; see `research/wishlist.md`.
+| Round 15: the 远瀛观 dig's report with a section (远瀛观遗址考古发掘简报, S153) and Durand's 1987 plan of the fountain area at scale (R0140, 128 surveyed points; S603 Figs 5, 12) | 大水法's biggest guesses: the terrace's height and so the stairs' rise (Q232), the stairs' plan, the basin's outline and the courses under the niche; the court's south edge and 观水法's place on it (Q71) | 北京市考古研究院, mhymy (S153); Arts asiatiques 43 (S603) | By hand: the report is not online in full; the plate of Durand's plan from a library copy |
+| Round 15: 西洋楼水法图 (E0544, NLC 善本部) and a photograph of 观水法's gates and flights from the court before 1900 | The jets and the cascade of 大水法 (now plate 15's counts), the gates' height and their flights (Q233) | 国家图书馆 (S310's record); MIT Visualizing Cultures, the Ohlmer negatives (Hildesheim) | By request |
 
 <!-- generated:end -->
 

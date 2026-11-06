@@ -57,6 +57,7 @@ class Site:
         self.G = ground()
         self.m = None
         self.KP, self.JOINTS, self.ENTRIES, self.FOOTPRINTS = {}, [], [], []
+        self.DECKS = []  # Round 16: raised floors the model draws and people walk on (a terrace): [name, y, polygon (x, z)]
 
     # ---- frames
     def to_scene(self, p):
@@ -136,6 +137,11 @@ class Site:
     def entry(self, name, x, z, y=None):
         self.ENTRIES.append([name, x, self.gy(x, z) if y is None else y, z])
 
+    def deck(self, name, y, poly):
+        """Round 16: a raised floor the model draws (a terrace) at frame height y over the outline poly: the view lays the ways that cross it on it, and tools/check_models.py
+        measures a way's end there against it, not against the ground of Round 10."""
+        self.DECKS.append([name, y, [tuple(p) for p in poly]])
+
     # ---- the files
     def write(self, here, obj_id, objects, P, frame_note, summary):
         params = {k: {"value": v[0], "source": v[1], "grade": v[2], "note": v[3]} for k, v in P.items()}
@@ -145,7 +151,8 @@ class Site:
         json.dump({"id": obj_id, "position": self.pos, "rotationY": self.rot,
                    "joints": [{"name": j[0], "scene": self.to_scene(j[1:4]), "kind": j[4]} for j in self.JOINTS],
                    "entries": [{"name": e[0], "scene": self.to_scene(e[1:4])} for e in self.ENTRIES],
-                   "footprints": [[self.to_scene((x, 0.0, z))[::2] for x, z in fp] for fp in self.FOOTPRINTS]},
+                   "footprints": [[self.to_scene((x, 0.0, z))[::2] for x, z in fp] for fp in self.FOOTPRINTS],
+                   **({"decks": [{"name": n, "y": self.to_scene((0.0, y, 0.0))[1], "poly": [self.to_scene((x, 0.0, z))[::2] for x, z in poly]} for n, y, poly in self.DECKS]} if self.DECKS else {})},
                   open(here / "joints.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(summary, open(here / "summary.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 

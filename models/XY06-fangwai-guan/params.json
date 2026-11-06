@@ -1,0 +1,210 @@
+{
+ "id": "XY06",
+ "frame": "x east along the front, y up from the ground at the hall's box, z south (out of the front); the origin at the podium's front middle; metres",
+ "params": {
+  "w": {
+   "value": 14.0,
+   "source": "S603;S01",
+   "grade": "B",
+   "note": "the podium's front: Durand's survey 'L. 14 m l. 7 m H. 13 m' without the stairs (S603 p.129); the plan 13.85 m (b)"
+  },
+  "d": {
+   "value": 7.0,
+   "source": "S603",
+   "grade": "B",
+   "note": "the block's depth without the stairs (S603 p.129); his restitution plan draws returns, so 7 m may be the core (dossier)"
+  },
+  "pod_h": {
+   "value": 3.8,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the podium's top (the upper floor) above the ground: plate 8 at 47.6 px/m (the 14 m on 666 px), 3.8 m; P0355's porch piers about 4.4 m (the reader), Round 6 3.7-3.9 m"
+  },
+  "end_panel": {
+   "value": 2.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the end panels of stacked rusticated blocks: plate 8, 130 px"
+  },
+  "porch_w": {
+   "value": 5.06,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the porch over its piers' outer faces: plate 8 241 px (5.06 m); P0355 5.7 m"
+  },
+  "porch_d": {
+   "value": 1.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the porch's projection: plate 8 shows only a sliver of the piers' sides; 1.0-1.5 m (the reader)"
+  },
+  "door_w": {
+   "value": 1.28,
+   "source": "S71",
+   "grade": "C",
+   "note": "the door's opening: plate 8, 61 x 138 px"
+  },
+  "door_h": {
+   "value": 2.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the door's opening, flat-headed in a moulded frame, a carved shell hood above (plate 8, P0212)"
+  },
+  "step_run": {
+   "value": 0.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the three round steps' treads: plate 8, the lowest edge 42 px (0.9 m in the picture's plane) below the sill on the axis; v1's 0.35 m sat 0.7 m short"
+  },
+  "oval_w": {
+   "value": 1.0,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the oval windows' openings: P0212 and P0296 about 1.0 m (plate 8 0.9 m)"
+  },
+  "oval_h": {
+   "value": 1.8,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the ovals' height: P0212 (1922, the frames whole) and P0296 about 1.9 m, the plate 1.4 m: the stone as it stood wins; v2's 1.6 m sat 0.7 m short at the foot on P0212"
+  },
+  "oval_y": {
+   "value": 2.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ovals' centres above the ground: plate 8"
+  },
+  "oval_x": {
+   "value": 3.45,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ovals' centres either side of the axis: plate 8"
+  },
+  "up_inset": {
+   "value": 0.55,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper storey stands in from the podium's ends: plate 8, 12.9-13.0 m over the corner strips"
+  },
+  "up_set": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the walk before the upper storey: the balustrade crosses the lower part of every upper window on plate 8, so it stands before the wall; its width assumed"
+  },
+  "up_h": {
+   "value": 4.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper storey to its cornice's top (8.7 m above the ground): plate 8"
+  },
+  "upwin_w": {
+   "value": 1.25,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper windows: plate 8, 1.16, 1.37 and 1.2 m; tall round-headed French windows to the floor"
+  },
+  "upwin_wc": {
+   "value": 1.37,
+   "source": "S71",
+   "grade": "C",
+   "note": "the middle upper window"
+  },
+  "upwin_h": {
+   "value": 3.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "their heads above the upper floor: plate 8"
+  },
+  "upwin_x": {
+   "value": 3.75,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side windows' middles either side of the axis: plate 8 (x 1022 and 1381 against the axis 1203)"
+  },
+  "strip_w": {
+   "value": 0.84,
+   "source": "S71",
+   "grade": "C",
+   "note": "the carved corner strips of the upper storey: plate 8, 40 px"
+  },
+  "rail_end": {
+   "value": 5.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the walk's balustrade runs from the porch to 5.0 m either side of the axis, before the side windows only, and turns back to the wall: plate 8 (x 965 and 1438); v1's run to the corners sat 1.8 m out"
+  },
+  "rail_h": {
+   "value": 1.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the walk's balustrade above the upper floor: plate 8, rail top at y 748"
+  },
+  "skirt_top": {
+   "value": 9.75,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lower roof's skirt from the cornice up to a short band that carries the upper roof: plate 8, y 515"
+  },
+  "skirt_over": {
+   "value": 0.35,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lower eave's overhang past the corner strips: plate 8, 13.7 m over its tips"
+  },
+  "eave_up": {
+   "value": 10.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper roof's eave tips: plate 8 y 490; 10.7 m wide"
+  },
+  "eave_up_w": {
+   "value": 10.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper roof over its eave tips"
+  },
+  "ridge": {
+   "value": 11.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ridge: plate 8 y 442, 4.6 m long; a hipped roof (no gable shows, C)"
+  },
+  "ridge_l": {
+   "value": 4.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ridge's length: plate 8"
+  },
+  "crest": {
+   "value": 12.5,
+   "source": "S71;S603",
+   "grade": "C",
+   "note": "the crest cartouche on the ridge's middle, about 2 m wide: plate 8 y 382; Durand's 'H. 13 m' fits the crest or the ornaments' tips (S603, B)"
+  },
+  "stair_out": {
+   "value": 4.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the stairs' outer rails at their outermost, beyond the podium's ends: plate 8 4.7 m (W) and 4.1 m (E); the whole front 22.8 m (plan 24.6 m)"
+  },
+  "stair_foot": {
+   "value": 3.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lowest step's middle beyond the podium's corner: plate 8 3.5 m (W), 3.2 m (E)"
+  },
+  "stair_w": {
+   "value": 1.6,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the flights' width between the rails: assumed from plate 8's proportions"
+  },
+  "stair_land_z": {
+   "value": -5.4,
+   "source": "S70",
+   "grade": "C",
+   "note": "the landing beside the end wall in its north half: P0773 (the rail's top north of the end window, a landing post beside the wall); P0295 the east stair's wall curving back"
+  }
+ }
+}

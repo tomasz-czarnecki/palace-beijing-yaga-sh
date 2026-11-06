@@ -1,0 +1,47 @@
+{
+ "id": "XY06",
+ "aliases": [],
+ "name": "方外观 Fangwaiguan",
+ "glb": "model.glb",
+ "position": [
+  576.282,
+  0.36,
+  -808.558
+ ],
+ "rotationY": 0.08203,
+ "line": "Modelled from plate 8 of 1783-86, Ohlmer's photograph of 1873 (the roof still on), the ruin photographs since 1914 and Durand's survey (S603); every figure is a reading (C) unless the row says otherwise. The back and the faces no picture shows are carried round (assumed).",
+ "rows": [
+  [
+   "Podium",
+   "14 × 7 m (S603, survey, B), 3.8 m to the upper floor (plate 8, C): rusticated, end panels of stacked blocks, two oval windows with grilles in carved frames, the porch 5.06 m wide with the door (1.28 × 2.9 m) and its shell hood, three round steps (plate 8; P0212, P0355, C); the 'low room under the terrace' (S258, B)"
+  ],
+  [
+   "Upper storey",
+   "12.9 m wide, set back 1 m behind a balustrade on the podium's top, with the balcony over the porch and its urn pairs; three tall round-headed windows with scrolled pediments, carved corner strips, a frieze of rosettes, the cornice 8.7 m above the ground (plate 8, C); a window with a small balcony on each end (P0773, 1873, C)"
+  ],
+  [
+   "Roof",
+   "double-eaved Chinese roof: the skirt from the cornice, the upper hipped roof with a 4.6 m ridge at 11.3 m, the crest at 12.5 m (plate 8, C; Durand's H. 13 m, S603, B); glazed blue tile (S06, C; violet and green if Choutzé's pavilion of 1876 is this one, Q69)"
+  ],
+  [
+   "Stairs",
+   "two curved stairs from feet 3.4 m beyond the podium's corners, out to 4.6 m and back to landings at the upper floor in the north half of the ends (plate 8, P0773, P0295, C): solid walls, a wave-scroll parapet, a volute at the foot"
+  ],
+  [
+   "Assumed",
+   "the back, the east end above its stair, the stairs' inner faces and the apron's paving: carried round from the front (C, the pale tint with conf=1)"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 14.0,
+  "depth_m": 7.0,
+  "eave_m": 8.7,
+  "ridge_m": 11.3,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "hides": [],
+ "tris": 9832,
+ "fill_tris": 2982,
+ "glb_bytes": 316528
+}

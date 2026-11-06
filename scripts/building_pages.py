@@ -1048,6 +1048,10 @@ def publish_models(book):
             dest.write_bytes(data)
         out[mid] = {"url": f"models/{mid}/model.glb", "name": sm["name"], "aliases": sm.get("aliases", []), "position": sm["position"], "rotationY": sm["rotationY"],
                     "caption": sm["caption"], "hides": sm.get("hides", []), "boxes": sorted(own)}
+        jp = folder / "joints.json"
+        decks = json.load(open(jp, encoding="utf-8")).get("decks") if jp.exists() else None
+        if decks:  # Round 16: raised floors the model draws (a terrace): the view lays the ways on them
+            out[mid]["decks"] = decks
     write_if_changed(SITE_DATA / "models.json", json.dumps({"note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.", "models": out}, ensure_ascii=False, indent=1) + "\n")
     return out
 

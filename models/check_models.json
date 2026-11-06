@@ -230,6 +230,110 @@
     }
    ]
   },
+  "XY06": {
+   "folder": "XY06-fangwai-guan",
+   "figures": 34,
+   "grades": {
+    "A": 0,
+    "B": 2,
+    "C": 32
+   },
+   "materials": 22,
+   "primitives": 22,
+   "extent_m": [
+    23.4,
+    12.7,
+    11.6
+   ],
+   "triangles": 9832,
+   "fill_triangles": 2982,
+   "glb_mb": 0.32,
+   "glb_gz_mb": 0.09,
+   "joints": [
+    {
+     "name": "podium_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "podium_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "podium_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "podium_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "porch_W",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "porch_E",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "steps_C",
+     "kind": "stair foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "stair_W_foot",
+     "kind": "stair foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "stair_W_wall_7",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "stair_W_wall_14",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "stair_E_foot",
+     "kind": "stair foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "stair_E_wall_7",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "stair_E_wall_14",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.15,
+    "n": 13
+   },
+   "ways": [
+    {
+     "way": "CCX-012",
+     "kind": "steps",
+     "at": "XY06-M26:through",
+     "entry": "door_C",
+     "plan_m": 7.05,
+     "height_m": 0.06,
+     "drawn_by_model": true,
+     "ok": true
+    }
+   ]
+  },
   "XY08": {
    "folder": "XY08-haiyan-tang",
    "figures": 64,
@@ -605,6 +709,185 @@
      "plan_m": 6.56,
      "height_m": 0.02,
      "drawn_by_model": true,
+     "ok": true
+    }
+   ]
+  },
+  "XY09": {
+   "folder": "XY09-yuanying-guan",
+   "figures": 50,
+   "grades": {
+    "A": 0,
+    "B": 4,
+    "C": 46
+   },
+   "materials": 25,
+   "primitives": 25,
+   "extent_m": [
+    31.9,
+    20.3,
+    43.6
+   ],
+   "triangles": 25764,
+   "fill_triangles": 5817,
+   "glb_mb": 0.8,
+   "glb_gz_mb": 0.22,
+   "joints": [
+    {
+     "name": "terrace_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terrace_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terrace_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terrace_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_4",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_5",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_6",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_7",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_8",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_9",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_10",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_11",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_12",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_13",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_14",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_15",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_16",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_17",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_18",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_19",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_20",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_21",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_22",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_23",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_24",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_25",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terr_pier_26",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "back_stair_foot",
+     "kind": "stair foot",
+     "gap_m": -0.05
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.15,
+    "n": 28
+   },
+   "ways": [
+    {
+     "way": "CCX-026",
+     "kind": "paved_way",
+     "at": "XY09-M43:model door_C",
+     "entry": "door_C",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
      "ok": true
     }
    ]

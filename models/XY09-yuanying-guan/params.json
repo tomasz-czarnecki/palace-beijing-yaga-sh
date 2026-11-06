@@ -1,0 +1,306 @@
+{
+ "id": "XY09",
+ "frame": "x east along the front, y up from the terrace's foot at the hall's box, z south (out of the front, towards 大水法); the origin on 大水法's axis at the wings' front plane; metres",
+ "params": {
+  "terr_w": {
+   "value": 31.0,
+   "source": "S603;S71",
+   "grade": "B",
+   "note": "the terrace W-E: S603's 'about 31 m' taken W-E (plate 14 draws the side rails about 30 m apart, c); order not stated (Q67)"
+  },
+  "terr_d": {
+   "value": 35.0,
+   "source": "S603",
+   "grade": "B",
+   "note": "the terrace N-S: S603's 35 m; its south face meets 大水法's model (models/XY10-da-shuifa/, the stairs' landings)"
+  },
+  "terr_y": {
+   "value": 4.3,
+   "source": "S71;S871;S70",
+   "grade": "C",
+   "note": "the terrace's top above its foot: 大水法's stairs arrive 4.63 m above the court (Round 15, Q232); the court lies 0.33 m below this box's ground"
+  },
+  "pier_step": {
+   "value": 3.9,
+   "source": "S603",
+   "grade": "C",
+   "note": "the retaining walls' piers ('monolithic piers with long rusticated stones', S603 p.131-132): their spacing assumed"
+  },
+  "rail_h": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the forecourt's balustrades: plate 14"
+  },
+  "front_rail_x": {
+   "value": 9.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the straight front balustrade's ends, where it turns back north: plate 14 x 744-1661 at the rail's depth; 大水法's stairs arrive beyond them"
+  },
+  "hall_w": {
+   "value": 28.0,
+   "source": "S603;S71;S850",
+   "grade": "B",
+   "note": "the hall W-E: S603's 28 m (the post grid); the rubble core 28.4 m W-E (S850, b); plate 14's wings and centre at the 6.0 m column spacing make 27-28 m, against 18 m at 4.2 m (Q67)"
+  },
+  "hall_d": {
+   "value": 21.0,
+   "source": "S603;S850",
+   "grade": "B",
+   "note": "the hall N-S: S603's 21 m; the rubble core N-S 20.1 m (S850, b)"
+  },
+  "S": {
+   "value": 6.0,
+   "source": "S70;S71;S603",
+   "grade": "C",
+   "note": "the carved columns' spacing, the module of the front: plate 14's own ratios against S603's 28 m (the centre 431 px, the columns 228 px apart, the wings 200 px) and P0216's door (the column 3.0 m off the door's axis at a 2.0 m door); the dossier's 4.2 m (the 'centre bays 4 m', c) gives an 18 m front. P0183's brick courses then 10.6 cm"
+  },
+  "base_h": {
+   "value": 1.2,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the hall's floor above the terrace: the door's and the side openings' jambs stop at the pedestals' top on P0216 and P0757 (reader 2); plate 14 a raised base and the threshold 41 px above the pedestals' foot"
+  },
+  "wing_w": {
+   "value": 7.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "each wing over its outer side face and the centre block's corner: 28 m less the centre; its front face 5.0 m, plate 14's 200 px at 40 px/m (the 28 m on 1125 px)"
+  },
+  "wing_ch": {
+   "value": 1.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' chamfered corners, outer and inner: plate 14, facets of 35-41 px with their own pilasters (reader 1); S603's 'eight-slope' wing roofs fit a chamfered plan"
+  },
+  "wing_d": {
+   "value": 8.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "each wing's depth as a pavilion under its own roof: assumed; the body runs on behind"
+  },
+  "recess": {
+   "value": 4.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "how far the centre block stands back of the wings' front: the wing's inner face holds one window bay (plate 14, reader 1: 0.7-0.9 of the wing's front); S310 '倒凹'"
+  },
+  "ctr_w": {
+   "value": 13.6,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the centre block's front: P0183's pier between column and side opening 0.27 S (the openings' axes 5.6 m out, P0183, P0216, P0719 all put them 1 m further out than v2's 4.75 m); plate 14 draws that pier 0.12 S"
+  },
+  "ctr_d": {
+   "value": 12.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the centre block's depth under its tiered roof: assumed, about square as plate 14 draws the main roof"
+  },
+  "band_h": {
+   "value": 0.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the low band over the centre block's cornice, under the fish-scale roof: plate 14 (the roof's eave about 1 m over the cornice at the attic's scrolls)"
+  },
+  "cornice": {
+   "value": 8.0,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the main cornice's and the entablature blocks' top above the terrace: P0183 1.34 S (the photographs; plate 14 draws the order short, 1.11-1.27 S: trust the photographs, reader 1)"
+  },
+  "col_ped": {
+   "value": 1.25,
+   "source": "S70",
+   "grade": "C",
+   "note": "the pedestals' top, on the floor's level: P0216, P0757 (0.17-0.21 of the shaft and capital, reader 2)"
+  },
+  "col_top": {
+   "value": 7.1,
+   "source": "S70",
+   "grade": "C",
+   "note": "the capitals' top above the pedestals' foot: P0183 1.19 S; P0216 1.74 times the door's height"
+  },
+  "col_r": {
+   "value": 0.45,
+   "source": "S70",
+   "grade": "C",
+   "note": "the shaft's radius: shaft and capital 6.5-6.7 shaft widths (P0216, P0757, reader 2)"
+  },
+  "cap_h": {
+   "value": 1.4,
+   "source": "S70",
+   "grade": "C",
+   "note": "the capital: 0.24 of the shaft and capital (P0216, reader 2), a Corinthian type with a mask (P0183)"
+  },
+  "ped_w": {
+   "value": 1.9,
+   "source": "S70",
+   "grade": "C",
+   "note": "the pedestal: 1.9-2.5 shaft widths (reader 2)"
+  },
+  "blk_w": {
+   "value": 2.3,
+   "source": "S70",
+   "grade": "C",
+   "note": "the entablature block: 2.5-2.8 shaft widths wide, standing proud of the wall (reader 2)"
+  },
+  "col_d": {
+   "value": 1.1,
+   "source": "S70",
+   "grade": "C",
+   "note": "the columns' axis before the wall: each stands before a plain pier bonded into the wall, its block projecting deeply (P0179, P0216, P0291, reader 2)"
+  },
+  "door_w": {
+   "value": 1.9,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the door's opening: P0183 0.32 S (reader 1), P0216 2.0 m at the plate's figure (reader 2)"
+  },
+  "door_h": {
+   "value": 4.2,
+   "source": "S70",
+   "grade": "C",
+   "note": "the door's opening above the floor to its arch's crown: its head 0.90 S above the pedestals' foot (P0183)"
+  },
+  "cwin_w": {
+   "value": 1.65,
+   "source": "S70",
+   "grade": "C",
+   "note": "the centre block's side openings: door-like, to the floor, 1.65 x 4.0 m, their crowns level with the door's (P0216, P0179, reader 2)"
+  },
+  "cwin_x": {
+   "value": 5.6,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the side openings' axes: P0183's pier between column and opening 0.27 S (reader 1); v2's 4.75 m sat 1 m inside on P0183, P0216 and P0719"
+  },
+  "win_w": {
+   "value": 1.45,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' windows: plate 14, 0.25 x 0.65 of the wing's front, on a carved sill block 0.23 of it above the foot"
+  },
+  "win_h": {
+   "value": 3.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "as above"
+  },
+  "win_sill": {
+   "value": 2.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' window sills above the terrace: on a carved sill block 0.23 Wf above the wing's foot on the base (plate 14); v2's 1.35 m sat 1.6 m low on the plate"
+  },
+  "clock_y": {
+   "value": 9.7,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the clock wheel's centre above the terrace: 1.61 S on P0183, 1.60 on plate 14: the attic agrees on both"
+  },
+  "clock_r": {
+   "value": 0.8,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the wheel's radius: P0183 0.25 S across, plate 14 0.31 S"
+  },
+  "attic_w": {
+   "value": 3.0,
+   "source": "S70",
+   "grade": "C",
+   "note": "the attic between its pilasters' outer faces: P0183, 230 of 446 px"
+  },
+  "attic_top": {
+   "value": 10.9,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the arched moulding's top: 1.81 S (P0183), 1.84 (plate 14)"
+  },
+  "crest_top": {
+   "value": 11.7,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the crest's top: 1.95 S (P0183), 1.94 (plate 14)"
+  },
+  "scroll_x": {
+   "value": 3.5,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the attic's foot scrolls' tips either side of the axis: P0183 1.17 S, plate 14 1.09 S over their span"
+  },
+  "skirt_top": {
+   "value": 10.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the fish-scale roof from a low band over the cornice to the main roof's foot: plate 14 draws its eave tips 2 m over the cornice (1.63 against 1.24 Wf), a band with the attic's scrolls between"
+  },
+  "roof_eave": {
+   "value": 10.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the main hipped roof's eave: plate 14, its corner tips (lifted) level with the attic's arch, 2.08 Wf"
+  },
+  "roof_w": {
+   "value": 9.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the main roof over its eave tips: plate 14, 359 px (1.57 S)"
+  },
+  "roof_apex": {
+   "value": 13.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the main roof's top: plate 14, 2.50 Wf (2.19 S); the dossier's 12.4 m on the old 2 m base and a 4.2 m column spacing"
+  },
+  "crown": {
+   "value": 15.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the crown's top: plate 14, 2.92 Wf (2.56 S); box XY09-M44 had 12.6 m above the terrace"
+  },
+  "lan_w": {
+   "value": 2.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lanterns' width: plate 14, 0.4 of the wing's front"
+  },
+  "lan_foot": {
+   "value": 8.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the deck under the lantern, its balustrade's top 9.3 m (plate 14, 1.60 Wf)"
+  },
+  "lan_eave": {
+   "value": 11.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lantern's eave: plate 14, 2.02 Wf"
+  },
+  "lan_clock": {
+   "value": 10.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lantern's clock centre: plate 14, 1.77 Wf; the face 0.26 Wf across"
+  },
+  "lan_top": {
+   "value": 14.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lantern's urn finial: plate 14, 2.45 Wf"
+  },
+  "body_ridge": {
+   "value": 10.2,
+   "source": "S603;S71",
+   "grade": "C",
+   "note": "the body behind under a hipped Chinese roof (S603 p.133: side bays two-slope Chinese tile, B): its ridge assumed; plate 14 shows only low roofs behind the wings, below the centre's main roof and the lanterns (v3's 12.0 m competed with the centre's tiers in the overlay)"
+  },
+  "trees": {
+   "value": 8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the forecourt's trees: plate 14, four a side in a row running outward, the innermost in line with the wings' inner faces; none before the centre"
+  }
+ }
+}

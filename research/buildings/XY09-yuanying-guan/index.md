@@ -29,12 +29,15 @@ Yuan Ying Kuan, View of Distant Seas · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 14 of 1783-86, Ohlmer's and Piry's photographs of the clock gate (1873, 1876), the ruin photographs since 1900, Durand's survey (S603) and the plan S01; every figure is a reading (C) unless the row says otherwise. The rear, the ends and the body behind the centre are carried round (assumed).
 
-- **1 ×:** terrace: 31 × 35 m, eave 4.3 m, ridge 4.3 m
-- **1 ×:** hall, five roofs, on the terrace: 28 × 21 m, eave 12 m, ridge 16.9 m
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** B
+- **Terrace:** 31 × 35 m (S603, survey, B; which way is not stated: Q67), its top 4.3 m above its foot, where 大水法's stairs arrive (Round 15, C, Q232); retaining walls of piers and long rusticated stones (S603, B; the pier spacing assumed); paved; the front balustrade with urns, the side balustrades, eight trees in square pits (plate 14, C); a stair down at the back (assumed, for reach)
+- **Hall:** 28 × 21 m (S603's post grid, B; Q67), an inverted 凹 (S310, B): two wings with chamfered corners come 4.5 m forward of the centre block (plate 14, C); on a base 1.2 m high (P0216, P0757, C); grey brick dressed with white marble (S02 p.155, B); the cornice 8 m above the terrace (P0183, C)
+- **Clock gate:** the door (1.9 × 4.2 m) between two carved columns 6 m apart on pedestals, their capitals 7.1 m above the terrace, an entablature block over each standing proud (P0183 of 1873, P0216, P0757, C); a lion on each pedestal (plate 14 only, C); the attic with the clock wheel, its arched moulding and crest 11.7 m above the terrace (P0183, plate 14: they agree, C); a door-like opening either side (P0179, P0216, C)
+- **Wings and lanterns:** a big window on a carved sill block in each wing's front, pilasters on every face and chamfer; a low roof of eight slopes, a deck with a balustrade and a square lantern with a clock face on every side, its finial 14.2 m above the terrace (plate 14; S603 p.133, C)
+- **Roofs:** over the centre: a fish-scale hipped roof as wide as the block, the main hipped roof to 13.2 m pierced by the attic, a pedestal band and the crown at 15.5 m (plate 14; S603 p.133, C); the body behind under a hipped Chinese roof (S603, B; its form assumed); glazed green tile (the 2016 dig found glazed fittings, S153; the colour assumed, Q69)
+- **Scale:** the front's module is the columns' spacing, 6 m: plate 14's ratios against Durand's 28 m and P0216's door (C); the dossier's 4.2 m made the whole front 18 m. Heights from the photographs where they show the part (the order), from plate 14 scaled by the attic where they agree (the roofs)
+- **Assumed:** the hall's rear and end faces, the body behind, the terrace's south face behind 大水法 and the back stair: carried round from the front (C, the pale tint with conf=1)
 
 ## Inside it (3)
 
@@ -303,6 +306,7 @@ Modern interpretation, not evidence.
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q67: 远瀛观 (Round 6)
 - Q232: The height of 远瀛观's terrace
+- Q239: 远瀛观's module and heights
 
 <!-- generated:end -->
 

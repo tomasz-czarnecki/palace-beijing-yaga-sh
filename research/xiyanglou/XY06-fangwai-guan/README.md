@@ -199,13 +199,16 @@ The stone frame of the doors and piers, and pieces of the stairs. Brick cores ar
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q69. Colours of the 1780s state (Round 6).** The one period colour image found is the unfinished watercolour of plate 1 in the Rylands set (S700, research-only), perhaps only a lay-in, grade C. A coloured sketch sent to Delatour in 1786-87 (S258 p.171) has not been found. Witnesses: Choutzé 1876 one pavilion with vio
 - **Q207. Each European front as the plates draw it.** The stone kit gives every building the same parts: rusticated base, pilasters, arches, a pediment on the main fronts, a balustrade. The plates show different orders, windows, stairs and crests on each. The roof colours are known for 谐奇趣 (S700) and 方外观 (S06, Q69) only
+- **Q238. 方外观 on Ohlmer's photograph of 1873 (P0773).** Catalogued as the south-west corner. On it the front recedes to the left of the near corner (its three upper windows in the order nearest, middle, farthest leftward) and the end face with the window and its small balcony lies to the right: a view from the south-east
 
 ## Wishlist
 
-None that name it; see `research/wishlist.md`.
+| Round 16: Durand's elevation of 远瀛观 (S603 fig.16, R0143) and of 方外观 (fig.12, R0142) at scale, and Jin Xun's plan of the belvedere (R0144) | 远瀛观's wings and their depth (the chamfers and the one-bay projection are plate 14's), the body behind (assumed); 方外观's depth and the stairs' plan (Q238) | S603, Arts Asiatiques 43 (1988), a library | Library request |
+| Round 16: the MIT copy of Ohlmer's 方外观 (P0720) and a second photograph of 方外观 before 1900 | Which end P0773 shows, or whether the print is mirrored; the stairs' landings and rails (Q238) | MIT Visualizing Cultures; the Ohlmer negatives | A browser |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+- Round 16: the detailed model `models/XY06-fangwai-guan/` (README: the evidence by side, the iteration log, the fit). Ohlmer's P0773 shows the east end from the south-east, or is a mirrored print (Q238). The ovals stand 1.0 × 1.8 m on the photographs of 1914-22 against the plate's 0.9 × 1.4 m. Fits: plate 8 0.32 m, P0773 0.74 m, P0212 0.51 m.

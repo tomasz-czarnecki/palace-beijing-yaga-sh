@@ -103,7 +103,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 4, b 15, c 10, d 0, e 
 | Row | Part | Frontage × depth | Eave | Top | Grade | Sources |
 |---|---|---|---|---|---|---|
 | XY09 | terrace | 31 × 35 | 4.3 | 4.3 | B | S603;S850;S71 |
-| XY09 | hall, five roofs, on the terrace | 28 × 21 | 12 | 16.9 | B | S603;S850;S71 |
+| XY09 | hall, five roofs, on the terrace | 28 × 21 | 12.3 | 19.8 | B | S603;S850;S71 |
 
 ### Every figure
 
@@ -250,6 +250,7 @@ The carved columns, the image most people have of the whole garden, with arches 
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q67. 远瀛观 (Round 6).** S603 gives terrace 35 x c.31 m and hall 21 x 28 m, order not stated. Taken here as 31 and 28 W-E, 35 and 21 N-S, from plate 14's forecourt and the ruin's stone heap, against the plan's 20.8 m for the 5 bays, Bourgeois's 70 feet (22.7 m if 70 pieds) and the otherwise steady ratio 1. Durand's fig.
 - **Q232. The height of 远瀛观's terrace.** Round 6 guessed 2.0 m. The stairs of 大水法 reach it: plate 15 draws their parapets' curl at the piers' flare, about 4.3 m above the piers' foot by P0641's heights (the foot itself on the gardens' level, 1.30 m over the sunk court, S603); Ohlmer's P0776 (1873) shows the balustrade ov
+- **Q239. 远瀛观's module and heights.** Round 6 read plate 14 at a module that made the carved columns 4.2 m apart (the 'centre bays 4 m') and the crown 12.6 m above the terrace. Plate 14's own ratios against S603's 28 m (the centre 431 px, the columns 228 px apart, the wings' fronts 200 px of the 1125 px front) and P0216'
 
 ## Wishlist
 
@@ -258,6 +259,9 @@ The carved columns, the image most people have of the whole garden, with arches 
 | A tape on site: one door, one column base, one riser each at 谐奇趣, 海晏堂, 远瀛观, 花园门 | The module behind every plate reading (Q65, Q68) | Site | Visit; 1 hour |
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Round 15: the 远瀛观 dig's report with a section (远瀛观遗址考古发掘简报, S153) and Durand's 1987 plan of the fountain area at scale (R0140, 128 surveyed points; S603 Figs 5, 12) | 大水法's biggest guesses: the terrace's height and so the stairs' rise (Q232), the stairs' plan, the basin's outline and the courses under the niche; the court's south edge and 观水法's place on it (Q71) | 北京市考古研究院, mhymy (S153); Arts asiatiques 43 (S603) | By hand: the report is not online in full; the plate of Durand's plan from a library copy |
+| Round 16: a tape on 远瀛观's standing carved column (its pedestal, the shaft's width, the block) and on one riser of the terrace; the 远瀛观 dig's report (S153) with its plan | The model's module, the columns' 6.0 m spacing read from plate 14 and P0216 (Q239), and with it every height of the hall; the terrace's height (Q232) | Site; 北京市考古研究院 | Visit, 1 hour; library |
+| Round 16: Durand's elevation of 远瀛观 (S603 fig.16, R0143) and of 方外观 (fig.12, R0142) at scale, and Jin Xun's plan of the belvedere (R0144) | 远瀛观's wings and their depth (the chamfers and the one-bay projection are plate 14's), the body behind (assumed); 方外观's depth and the stairs' plan (Q238) | S603, Arts Asiatiques 43 (1988), a library | Library request |
 
 <!-- generated:end -->
 
@@ -266,3 +270,4 @@ The carved columns, the image most people have of the whole garden, with arches 
 <!-- Yours: regeneration never touches this part. -->
 
 - Round 15: the terrace's height, a guess of 2.0 m, raised to 4.3 m above its ground so that the stairs of 大水法's model meet it (plate 15, P0776, P0762; Q232); the hall on it rises by the same, its eave and crown kept above the terrace.
+- Round 16: the detailed model `models/XY09-yuanying-guan/` (README: the evidence by side, the iteration log, the fit). The front's module is the carved columns' spacing, 6.0 m (plate 14's ratios against S603's 28 m, P0216's door), not the 4.2 m of Round 6's reading; with it the order is taken from the photographs (P0183: capitals 7.1 m, cornice 8.0 m above the terrace), the attic where plate and photographs agree, the roofs from the plate (crown 15.5 m above the terrace). The hall box's eave and top now follow (12.3 and 19.8 m above its ground). Fits: plate 14 0.74 m, P0183 0.14 m, P0216 0.18 m (Q239, Q240). The wings' chamfers, the lions (plate 14 only) and the attic's fall between 1873 and 1876 (P0183, P0190) are the readers' findings.

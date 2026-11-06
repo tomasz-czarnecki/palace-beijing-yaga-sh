@@ -219,7 +219,11 @@ async function main() {
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
-  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, waterLevelAt, base: meta.ground_m - meta.datum_m, skip: drawnByModel });
+  // Round 16: a raised floor a model draws (a terrace, models.json `decks`) carries the ways that cross it: they are laid on it, not on the ground under it
+  const decks = Object.values(MODELS).flatMap((c) => c.decks || []);
+  const inPoly = (x, z, poly) => { let ins = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) ins = !ins; } return ins; };
+  const wayGroundAt = (x, z) => { for (const d of decks) if (inPoly(x, z, d.poly)) return d.y; return groundAt(x, z); };
+  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt: wayGroundAt, waterLevelAt, base: meta.ground_m - meta.datum_m, skip: drawnByModel });
   for (const g of Object.values(ways.groups)) world.add(g);
   const kit = buildKit({ spec: kitSpec, halls, datum: meta.datum_m, groundAt, toXZ, paths: pathFc });
   await kit.courtsReady;
@@ -243,6 +247,7 @@ async function main() {
       o.raycast = () => {}; // clicks go to the boxes (halls3d.js pick)
     });
     halls.mesh.add(g);
+    if (params.get("plateonly") && params.get("plateonly") !== id) g.visible = false; // Round 16: &plateonly=<ID>, a development switch for the overlays: the other detailed models hidden (a niche before a hall)
     detailed[id] = { group: g, c };
   }).map((p) => p.catch((err) => console.warn("Detailed model not loaded, the boxes stay:", err)))).then(() => {
     if (Object.keys(detailed).length) halls.setModelled(true);

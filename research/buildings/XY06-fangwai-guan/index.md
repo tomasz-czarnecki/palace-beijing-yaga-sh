@@ -28,12 +28,13 @@ Fang Wai Kuan, A Look Abroad · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 8 of 1783-86, Ohlmer's photograph of 1873 (the roof still on), the ruin photographs since 1914 and Durand's survey (S603); every figure is a reading (C) unless the row says otherwise. The back and the faces no picture shows are carried round (assumed).
 
-- **1 ×:** hall, porch and curved stairs, as the plan draws them: 24.6 × 13.3 m, eave 1 m, ridge 1 m
-- **1 ×:** hall, two storeys, 3 bays, double eaves: 14 × 7 m, eave 8.9 m, ridge 13 m
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** B and C, some assumed
+- **Podium:** 14 × 7 m (S603, survey, B), 3.8 m to the upper floor (plate 8, C): rusticated, end panels of stacked blocks, two oval windows with grilles in carved frames, the porch 5.06 m wide with the door (1.28 × 2.9 m) and its shell hood, three round steps (plate 8; P0212, P0355, C); the 'low room under the terrace' (S258, B)
+- **Upper storey:** 12.9 m wide, set back 1 m behind a balustrade on the podium's top, with the balcony over the porch and its urn pairs; three tall round-headed windows with scrolled pediments, carved corner strips, a frieze of rosettes, the cornice 8.7 m above the ground (plate 8, C); a window with a small balcony on each end (P0773, 1873, C)
+- **Roof:** double-eaved Chinese roof: the skirt from the cornice, the upper hipped roof with a 4.6 m ridge at 11.3 m, the crest at 12.5 m (plate 8, C; Durand's H. 13 m, S603, B); glazed blue tile (S06, C; violet and green if Choutzé's pavilion of 1876 is this one, Q69)
+- **Stairs:** two curved stairs from feet 3.4 m beyond the podium's corners, out to 4.6 m and back to landings at the upper floor in the north half of the ends (plate 8, P0773, P0295, C): solid walls, a wave-scroll parapet, a volute at the foot
+- **Assumed:** the back, the east end above its stair, the stairs' inner faces and the apron's paving: carried round from the front (C, the pale tint with conf=1)
 
 ## Inside it (2)
 
@@ -182,6 +183,7 @@ Modern interpretation, not evidence.
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q69: Colours of the 1780s state (Round 6)
 - Q207: Each European front as the plates draw it
+- Q238: 方外观 on Ohlmer's photograph of 1873 (P0773)
 
 <!-- generated:end -->
 

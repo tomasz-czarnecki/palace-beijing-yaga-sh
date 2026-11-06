@@ -522,8 +522,8 @@
    "part": "hall, five roofs, on the terrace",
    "frontage": 28.0,
    "depth": 21.0,
-   "eave": 12.0,
-   "top": 16.9,
+   "eave": 12.3,
+   "top": 19.8,
    "confidence": "B",
    "assumed": false,
    "sources": "S603;S850;S71"

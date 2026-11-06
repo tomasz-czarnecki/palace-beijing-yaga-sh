@@ -3,7 +3,7 @@
  "kept": 759,
  "drawn_rows": 572,
  "rock_rows": 80,
- "areas": 466,
+ "areas": 464,
  "areas_by_kind": {
   "specimen_tree": 102,
   "grove": 210,
@@ -11,28 +11,26 @@
   "avenue": 24,
   "reed_bed": 21,
   "lotus_pond": 40,
-  "flower_bed": 26,
-  "hedge": 1,
+  "flower_bed": 25,
   "rockery": 86
  },
- "areas_sourced": 457,
+ "areas_sourced": 455,
  "areas_fill": 9,
- "plants": 40212,
+ "plants": 40211,
  "by_form": {
-  "pine": 4280,
+  "pine": 4275,
   "blossom": 2857,
   "willow": 1407,
-  "broad": 2527,
+  "broad": 2533,
   "topiary": 354,
   "cypress": 261,
   "bamboo": 4458,
   "reed": 7568,
   "floating": 2728,
   "lotus": 13147,
-  "shrub": 624,
-  "hedge": 1
+  "shrub": 623
  },
- "assumed_plants": 6459,
+ "assumed_plants": 6460,
  "rockeries": 86,
  "rockeries_unplaced": [],
  "areas_skipped": [
@@ -69,6 +67,12 @@
   [
    "QC29",
    "柳",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY10",
+   "松·修剪",
    "scene",
    "no land (or water) for this place in the scene"
   ],
@@ -217,6 +221,18 @@
    "no land (or water) for this place in the scene"
   ],
   [
+   "XY10",
+   "树",
+   "north",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY10",
+   "花",
+   "south",
+   "no land (or water) for this place in the scene"
+  ],
+  [
    "XY11",
    "牡丹",
    "south",
@@ -249,6 +265,12 @@
   [
    "QC40",
    "竹",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY10",
+   "树篱·篱",
    "scene",
    "no land (or water) for this place in the scene"
   ],
@@ -292,11 +314,6 @@
    "XY08",
    "龙爪槐",
    "south"
-  ],
-  [
-   "XY10",
-   "松·修剪",
-   "scene"
   ],
   [
    "QC04",
@@ -372,11 +389,6 @@
    "YM51",
    "柳",
    "shore"
-  ],
-  [
-   "XY10",
-   "树",
-   "north"
   ],
   [
    "YM22",

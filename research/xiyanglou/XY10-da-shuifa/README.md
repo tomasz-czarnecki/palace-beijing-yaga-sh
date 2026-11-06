@@ -230,10 +230,12 @@ The arch of the niche, the basin stones and the two tower bases. Which stones ar
 - **Q232. The height of 远瀛观's terrace.** Round 6 guessed 2.0 m. The stairs of 大水法 reach it: plate 15 draws their parapets' curl at the piers' flare, about 4.3 m above the piers' foot by P0641's heights (the foot itself on the gardens' level, 1.30 m over the sunk court, S603); Ohlmer's P0776 (1873) shows the balustrade ov
 - **Q234. The tower basins' places.** On the ruin (S850) the east basin of 大水法 lies 5.6 m further south than the west one, measured along the axis; S603 gives the two basins 62 m apart and symmetric about the axis, and S01's water bodies sit at 17.5 and 18.4 m south of the niche's box. The model puts both on one line acr
 - **Q237. 大水法's niche in the 1780s and today.** Today the niche's opening runs down to the plinth (P0641, P0340); plate 15 draws a sill band at the piers' flare with the cascade's sheet falling below it, and P0762 shows the opening's back sill at the terrace's level. The model has the 1780s sill at the terrace's level an
+- **Q240. The clock gate on P0776 and P0183's camera.** On Ohlmer's view of 大水法 (P0776, 1873) the clock gate behind the niche draws 2.5 times larger than the Round 15 camera (62 m from the gate) allows at a 4.2 m column spacing, 1.75 times at the model's 6.0 m: either the camera stood nearer or the gate is larger still; 
 
 ## Wishlist
 
-None that name it; see `research/wishlist.md`.
+| Round 15: the 远瀛观 dig's report with a section (远瀛观遗址考古发掘简报, S153) and Durand's 1987 plan of the fountain area at scale (R0140, 128 surveyed points; S603 Figs 5, 12) | 大水法's biggest guesses: the terrace's height and so the stairs' rise (Q232), the stairs' plan, the basin's outline and the courses under the niche; the court's south edge and 观水法's place on it (Q71) | 北京市考古研究院, mhymy (S153); Arts asiatiques 43 (S603) | By hand: the report is not online in full; the plate of Durand's plan from a library copy |
+| Round 15: 西洋楼水法图 (E0544, NLC 善本部) and a photograph of 观水法's gates and flights from the court before 1900 | The jets and the cascade of 大水法 (now plate 15's counts), the gates' height and their flights (Q233) | 国家图书馆 (S310's record); MIT Visualizing Cultures, the Ohlmer negatives (Hildesheim) | By request |
 
 <!-- generated:end -->
 
