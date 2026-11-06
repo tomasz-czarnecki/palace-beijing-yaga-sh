@@ -21,7 +21,7 @@
   "no_height": 0
  },
  "water": {
-  "bodies": 190,
+  "bodies": 192,
   "tris_two_levels": 0
  },
  "boxes": {
@@ -56,7 +56,7 @@
   "low_max_m": 0.04
  },
  "landings": {
-  "n": 68,
+  "n": 69,
   "step_max_m": 0.05,
   "over_0.5": 0
  }

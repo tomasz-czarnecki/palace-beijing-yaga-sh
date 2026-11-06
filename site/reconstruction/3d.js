@@ -21,7 +21,7 @@ document.body.prepend(renderer.domElement);
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(SKY);
-scene.fog = new THREE.Fog(SKY, 5000, 24000);
+scene.fog = new THREE.Fog(SKY, 6000, 40000); // Round 20: clear over the gardens, the Western Hills (10-40 km) a hazy ridge
 scene.add(new THREE.HemisphereLight(0xffffff, 0x8a8370, 1.7));
 const sun = new THREE.DirectionalLight(0xfff4e0, 2.3);
 sun.position.set(-700, 900, 800); // from the south-west, so roofs read
@@ -53,6 +53,7 @@ function updateLabels() {
   const on = state.labels && !shot && !walking && !touring;
   for (const l of labels) {
     const d = camera.position.distanceTo(l.position);
+    if (l.userData.around) { l.visible = on && state.around && !(l.userData.assumed && !state.assumed) && (l.userData.rank === 1 ? d > 900 : d < 3200); continue; } // Round 20
     l.visible = on && (l.userData.rank === 1 ? d > 700 : d < 1400);
   }
 }
@@ -113,7 +114,7 @@ function glideTo(pos, tgt, off, ms = 700) {
   requestAnimationFrame(step);
 }
 
-const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1", greens: params.get("greens") !== "0", season: ["spring", "summer", "autumn", "winter"].includes(params.get("season")) ? params.get("season") : "summer" };
+const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1", greens: params.get("greens") !== "0", around: params.get("around") !== "0", season: ["spring", "summer", "autumn", "winter"].includes(params.get("season")) ? params.get("season") : "summer" };
 const meshes = {};
 let walking = false, touring = null;
 
@@ -206,6 +207,12 @@ async function main() {
     fetch("data/greens_1860.json").then((r) => r.json()),
     fetch("generated/greens_1860.bin").then((r) => r.arrayBuffer()),
   ]);
+  // Round 20: the ground past the domain and what stood on it (around3d.js); the view works without them
+  const [outerMeta, outerBuf, aroundData] = await Promise.all([
+    fetch("generated/ground_outer.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("generated/ground_outer.bin").then((r) => (r.ok ? r.arrayBuffer() : null)).catch(() => null),
+    fetch("data/around_1860.json").then((r) => (r.ok ? r.json() : null)).catch(() => null),
+  ]);
   const modelIndex = await fetch("data/models.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
   const MODELS = (modelIndex && modelIndex.models) || {};
   const modelBoxIds = new Set(Object.values(MODELS).flatMap((c) => c.boxes || []));
@@ -215,6 +222,8 @@ async function main() {
   const ground = buildGround({ meta, buf, gridBuf, levelBuf });
   const { groundAt, waterLevelAt } = ground;
   world.add(ground.group);
+  const around = outerMeta && outerBuf ? buildAround({ meta: outerMeta, buf: outerBuf, data: aroundData, inner: ground, datum: meta.datum_m }) : null;
+  if (around) { world.add(around.group); world.add(around.items); }
   const greens = buildGreens({ meta: greensMeta, buf: greensBuf, datum: meta.datum_m, toXZ });
   world.add(greens.group);
   greensUpdate = greens.update;
@@ -296,6 +305,14 @@ async function main() {
     return s;
   });
 
+  if (around) for (const l of around.labels) {
+    const s = labelSprite(l.text, l.sub, l.rank);
+    s.position.set(l.x, l.y, l.z);
+    s.userData = { rank: l.rank, id: l.id, around: true, assumed: l.assumed };
+    world.add(s);
+    labels.push(s);
+  }
+
   let groundAssumed = true;
   function apply() {
     meshes.halls.visible = state.halls;
@@ -310,6 +327,7 @@ async function main() {
     if (groundAssumed !== state.assumed) { groundAssumed = state.assumed; ground.setAssumed(state.assumed); }
     ground.setContours(state.contours);
     greens.setView({ on: state.greens, assumed: state.assumed, conf: state.conf, season: state.season });
+    if (around) { around.setView({ on: state.around, conf: state.conf, assumed: state.assumed, season: state.season }); for (const q of ground.farQuads) q.visible = !state.around; }
     document.getElementById("legend-greens").hidden = !state.greens;
     document.getElementById("legend-greens-conf").hidden = !state.conf;
     document.getElementById("legend-paths").hidden = !state.paths;
@@ -321,8 +339,9 @@ async function main() {
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
   }
-  for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours", "greens"]) {
+  for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours", "greens", "around"]) {
     const box = document.getElementById(key);
+    if (!box) continue;
     box.checked = state[key];
     box.onchange = (e) => { state[key] = e.target.checked; apply(); };
   }
@@ -357,6 +376,7 @@ async function main() {
     return ray.ray;
   };
   const hitAt = (e) => (state.halls ? halls.pick(rayAt(e)) : null);
+  const aroundAt = (e) => (around && state.around ? around.pick(rayAt(e)) : null); // Round 20: what stood round the gardens, when no hall is hit
 
   let home = null;
   const backBtn = document.getElementById("back");
@@ -655,18 +675,18 @@ async function main() {
     if (walking || touring || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
     const hit = hitAt(e);
     if (hit) open(hit.box.bid, hit.box);
-    else { openToken++; closeAll(); }
+    else { const ah = aroundAt(e); if (ah) open(ah.id); else { openToken++; closeAll(); } }
   });
   const labelOf = (b) => [b.props.name || "Hall without a name on the plan", b.props.assumed ? "(assumed)" : ""].filter(Boolean).join(" ");
   let hoverEvent = null;
   el.addEventListener("pointermove", (e) => {
     if (walking || touring || e.pointerType !== "mouse" || e.buttons) { label.hidden = true; return; }
     if (!hoverEvent) requestAnimationFrame(() => {
-      const hit = hitAt(hoverEvent);
-      el.style.cursor = hit ? "pointer" : "";
-      label.hidden = !hit;
-      if (hit) {
-        label.textContent = labelOf(hit.box);
+      const hit = hitAt(hoverEvent), ah = hit ? null : aroundAt(hoverEvent);
+      el.style.cursor = hit || ah ? "pointer" : "";
+      label.hidden = !hit && !ah;
+      if (hit || ah) {
+        label.textContent = hit ? labelOf(hit.box) : [ah.feature.name_zh, ah.feature.name_en || ah.feature.name_pinyin, ah.feature.assumed ? "(assumed)" : ""].filter(Boolean).join(" ");
         label.style.left = `${Math.min(hoverEvent.clientX + 14, innerWidth - label.offsetWidth - 8)}px`;
         label.style.top = `${hoverEvent.clientY + 16}px`;
       }
@@ -688,7 +708,7 @@ async function main() {
   document.getElementById("loading").hidden = true;
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  window.viewer = { around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

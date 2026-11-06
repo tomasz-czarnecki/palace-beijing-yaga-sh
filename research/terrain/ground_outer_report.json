@@ -1,0 +1,119 @@
+{
+ "ring": {
+  "bounds_xz": [
+   -5600.0,
+   -3400.0,
+   4200.0,
+   3800.0
+  ],
+  "step_m": 20.0,
+  "nodes": 177251,
+  "lonlat_sw": [
+   116.2318,
+   39.9699
+  ],
+  "lonlat_ne": [
+   116.346,
+   40.0355
+  ],
+  "classes": {
+   "0": 136570,
+   "1": 27135,
+   "2": 4360,
+   "3": 22,
+   "4": 9164,
+   "5": 0
+  },
+  "highest_m_egm2008": 214.7
+ },
+ "back": {
+  "bounds_xz": [
+   -45000.0,
+   -26000.0,
+   24000.0,
+   26000.0
+  ],
+  "step_m": 200.0,
+  "nodes": 90306,
+  "lonlat_sw": [
+   115.774,
+   39.766
+  ],
+  "lonlat_ne": [
+   116.577,
+   40.24
+  ],
+  "highest_m_egm2008": 1338.1
+ },
+ "massifs": [
+  {
+   "peak": "万寿山",
+   "area_ha": 47.7,
+   "max_rise_m": 50.5
+  },
+  {
+   "peak": "玉泉山",
+   "area_ha": 1044.2,
+   "max_rise_m": 247.2
+  }
+ ],
+ "lakes": [
+  {
+   "id": "W0901",
+   "name": "昆明湖",
+   "level_m_egm2008": 48.0,
+   "how": "dem median",
+   "area_ha": 174.2
+  },
+  {
+   "id": "W0902",
+   "name": "未名湖",
+   "level_m_egm2008": 44.63,
+   "how": "the inner ground's body (ground.json): the lake crosses the domain's edge",
+   "area_ha": 0.6
+  }
+ ],
+ "join_inner_step_m": {
+  "north": {
+   "dry": 0.008,
+   "under_water": 0.0,
+   "wet_points": 0
+  },
+  "south": {
+   "dry": 0.535,
+   "under_water": 0.0,
+   "wet_points": 0
+  },
+  "west": {
+   "dry": 0.008,
+   "under_water": 0.0,
+   "wet_points": 0
+  },
+  "east": {
+   "dry": 0.008,
+   "under_water": 0.0,
+   "wet_points": 0
+  },
+  "max_dry": 0.535,
+  "max_under_water": 0.0,
+  "how": "every 2.5 m of the domain's edge: the inner ground there (ground_edge.json: land, or the bed where a lake crosses the edge) against the ring's own surface (cm-rounded, its cell triangles); the view meets the inner mesh's own edge vertices, so the drawn seam is closed either way"
+ },
+ "join_backdrop_step_m": 0.0,
+ "plain_vs_dem_backdrop_at_ring_edge_m": {
+  "median": 4.31,
+  "p10": -0.01,
+  "p90": 32.1
+ },
+ "dem_limits": [
+  "GLO-30 is a surface model (TanDEM-X 2011-15), 1 arc second (about 24 x 31 m here): roofs and tree crowns are in it.",
+  "Ring: the DEM only on massifs holding a named OSM peak, after a grey opening of 80 m (buildings and crowns narrower than that removed; a forest canopy stays, some 5-15 m too high).",
+  "万寿山 carries today's temples rebuilt in the 1880s-90s (佛香阁 on its terrace) and today's trees; its earth was heaped in 1750 from the lake: the hill is the one of 1860 within the DEM's error, the buildings are not modelled.",
+  "Everything else in the ring is the plane of the inner ground (research/terrain/plain.json) extended: today's city, fill, cuttings and modern reservoirs are ignored, and so is any small rise of 1860.",
+  "Backdrop: the DEM after an opening of 450 m and a smoothing of about 60 m: the ranges' silhouette, not their detail; it is drawn under fog."
+ ],
+ "sizes_bytes": {
+  "ground_outer.bin": 712368,
+  "ground_outer.json": 8574
+ },
+ "sources": "S04 (GLO-30), S03 (OSM peaks), research/terrain/plain.json"
+}

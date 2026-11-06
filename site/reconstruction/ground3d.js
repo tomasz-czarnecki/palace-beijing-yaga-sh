@@ -47,7 +47,7 @@ function buildGround({ meta, buf, gridBuf, levelBuf }) {
 
   // Land.
   const landMat = withContours(new THREE.MeshLambertMaterial({ vertexColors: true }));
-  const land = [];
+  const land = [], edgeVerts = [];
   const ins = lin(GROUND_COLOURS.inside), out = lin(GROUND_COLOURS.outside), hil = lin(GROUND_COLOURS.hill);
   const confLin = Object.fromEntries(Object.entries(GROUND_COLOURS.conf).map(([k, v]) => [k, lin(v)]));
   for (const c of meta.parts.land) {
@@ -66,6 +66,7 @@ function buildGround({ meta, buf, gridBuf, levelBuf }) {
         conf[3 * i + k] = confLin[0][k] * (1 - tt) + cc[k] * tt;
       }
     }
+    for (let i = 0; i < n; i++) { const x = d.p[3 * i], z = d.p[3 * i + 2]; if (Math.abs(x - x0) < 0.01 || Math.abs(x - x1) < 0.01 || Math.abs(z - z0) < 0.01 || Math.abs(z - z1) < 0.01) edgeVerts.push([x, d.p[3 * i + 1], z]); } // Round 20: the ring beyond meets these
     d.g.setAttribute("color", new THREE.BufferAttribute(plain.slice(), 3));
     d.g.computeVertexNormals();
     const m = new THREE.Mesh(d.g, landMat);
@@ -96,6 +97,7 @@ function buildGround({ meta, buf, gridBuf, levelBuf }) {
   const sh = lin(GROUND_COLOURS.bedShallow), dp = lin(GROUND_COLOURS.bedDeep);
   for (const c of meta.parts.bed) {
     const d = decode(c), col = new Float32Array(c.verts * 3);
+    for (let i = 0; i < c.verts; i++) { const x = d.p[3 * i], z = d.p[3 * i + 2]; if (Math.abs(x - x0) < 0.01 || Math.abs(x - x1) < 0.01 || Math.abs(z - z0) < 0.01 || Math.abs(z - z1) < 0.01) edgeVerts.push([x, d.p[3 * i + 1], z]); }
     for (let i = 0; i < c.verts; i++) {
       const lev = waterLevelAt(d.p[3 * i], d.p[3 * i + 2]) ?? 0, t = Math.min(Math.max((lev - d.p[3 * i + 1]) / 2.2, 0), 1);
       for (let k = 0; k < 3; k++) col[3 * i + k] = sh[k] * (1 - t) + dp[k] * t;
@@ -112,13 +114,15 @@ function buildGround({ meta, buf, gridBuf, levelBuf }) {
   }
 
   // The plain past the modelled land: four quads on the plain's plane, a hair lower so the seam never fights.
-  const FAR = 45000, ringMat = new THREE.MeshLambertMaterial({ color: GROUND_COLOURS.ring });
+  const FAR = 45000, ringMat = new THREE.MeshLambertMaterial({ color: GROUND_COLOURS.ring }), farQuads = []; // Round 20: hidden while around3d.js draws the ring and the backdrop
   for (const [ax, az, bx, bz] of [[-FAR, -FAR, FAR, z0], [-FAR, z1, FAR, FAR], [-FAR, z0, x0, z1], [x1, z0, FAR, z1]]) {
     const g = new THREE.BufferGeometry(), y = (x, z) => plainAt(x, z) - 0.05;
     g.setAttribute("position", new THREE.BufferAttribute(new Float32Array([ax, y(ax, az), az, bx, y(bx, az), az, bx, y(bx, bz), bz, ax, y(ax, bz), bz]), 3));
     g.setIndex([0, 2, 1, 0, 3, 2]);
     g.computeVertexNormals();
-    group.add(new THREE.Mesh(g, ringMat));
+    const q = new THREE.Mesh(g, ringMat);
+    farQuads.push(q);
+    group.add(q);
   }
 
   // The surface one walks on: the land mesh on a 2.5 m lattice; water cells hold their bed; bridges count as land.
@@ -151,5 +155,5 @@ function buildGround({ meta, buf, gridBuf, levelBuf }) {
     }
   };
   const setContours = (on) => { contourUniform.value = on ? 1 : 0; };
-  return { group, groundAt, waterLevelAt, plainAt, setConf, setAssumed, setContours };
+  return { group, groundAt, waterLevelAt, plainAt, setConf, setAssumed, setContours, farQuads, edgeVerts };
 }

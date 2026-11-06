@@ -466,3 +466,10 @@ h1, h2 {
 .sc-hero { margin-top: 28px; }
 .xy-text p + p { margin-top: 12px; }
 .band.paper + .band.paper { border-top: 1px solid rgba(23, 19, 15, 0.14); }
+
+/* Round 20: the page on the surroundings (scripts/around_page.py): the plan's legend */
+.ar-legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 0; padding: 0; list-style: none; font-size: 13px; color: var(--body); }
+.ar-legend li { display: flex; align-items: center; gap: 7px; }
+.ar-sw { width: 16px; height: 11px; border: 1.5px solid transparent; flex: none; }
+.ar-ln { width: 20px; height: 0; border-top: 3px solid; flex: none; }
+.ar-dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }

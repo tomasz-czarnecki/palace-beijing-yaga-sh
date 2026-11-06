@@ -30,6 +30,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r17_hanjing` | not recorded | 2026-11-06, from 04:44 | about 2 h 30 min | - | see its result row | see the git log | done |
 | `palace_r18_jiuzhou` | not recorded | 2026-11-06, from 06:57 | about 2 h | - | see its result row | see the git log | done |
 | `palace_r19_zhengda` | not recorded | 2026-11-06, from 07:51 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r20_surroundings` | not recorded | 2026-11-06, from 09:02 | about 1 h 40 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -666,3 +667,71 @@ Brief: `palace_r19_zhengda.md`. The formal entrance of the garden, 正大光明 
 - **Two cameras stood inside a hall or a roof** (the canal, 勤政殿) and two inside tree crowns: re-aimed.
 - **The panel's Chinese characters render as boxes** in the headless Chrome of this server (no CJK font): the browser's, not the page's.
 - **Open:** Q256-Q263; every height but the platforms' is C until the Yangshi Lei sheets of 正大光明 are seen (wishlist); the Fan Lakes south of the gate are not in the ground (beyond S01).
+
+## palace_r20_surroundings
+
+Brief: `palace_r20_surroundings.md`. What stood and ran round the three gardens in 1860: research, a layer, the ground beyond the walls and a first, labelled setting in the 3D view.
+
+**What it delivered:**
+- **Research:** `research/surroundings/README.md`, from four readers:
+  - the neighbouring gardens;
+  - the water and the roads;
+  - the camps, villages, temples and the advance of 1860;
+  - the old maps: the AMS sheet of 1944 fitted at 95 m rms, the 北京城郊图 of about 1886 at 226 m, the Tour du monde plan of 1864 at 427 m.
+  - 33 new sources (S1200-S1252); S05 read also in juan 76-79, 84-87 and 98-100; questions Q264-Q280; eight wish rows.
+- **The sheet and the layer:**
+  - `research/surroundings/features.csv` and `research/surroundings/geometry.geojson`, merged once by `docs/rounds/common/palace_r20_merge.py`, hand-edited from now on.
+  - `scripts/surroundings1860.py` writes `research/layers/surroundings_1860`: 124 OW objects and the 14 Z- rows S01 draws outside the walls, 138 in all.
+  - It also writes 昆明湖 W0901, 未名湖 W0902 and four paddies FD0901-FD0904 (`outside`) into `water_1860` and `fields_1860`, and `site/reconstruction/data/around_1860.json`.
+- **The ground:**
+  - `scripts/ground_outer1860.py`: a ring of 20 m cells to 玉泉山, and a backdrop of 200 m cells to the Western Hills from the DEM (the E115 tiles were added).
+  - `scripts/ground1860.py`: water `outside` forms its own bodies; it writes `research/terrain/ground_edge.json`.
+- **The view:** `site/reconstruction/around3d.js` (`around=0|1`, with `conf=1` and `assumed=0`, picking into the panels); fog now 6-40 km.
+- **Pages:**
+  - an OW page per object (`scripts/building_pages.py`);
+  - the public page `site/around/` with a zh draft (`scripts/around_page.py`, text in `research/surroundings/about.json`, fonts `site/around/fonts.css`), linked from both homepages;
+  - the 2D dev map's layer "Around the gardens, 1860".
+- **Pictures:** P0823 (十七孔桥) and P0824 (玉峰塔), both 1860, attributed to Beato, LACMA, public domain. P0180-P0182 (Beato, CC0) now on 清漪园's page.
+- **Check:** `tools/check_surroundings.py`.
+
+**Numbers (`tools/check_surroundings.py`, `research/surroundings/check.json`):**
+- **Objects outside the walls:** before, the 18 Z- rows of `buildings.csv` and no layer. Now 138:
+  - 27 villages, 1 town, 20 temples, 15 neighbouring gardens, 11 banner camps, 3 offices, 4 storehouses, 8 canals, 1 river, 7 sluices, 7 bridges, 6 roads, 4 paddies, 2 lakes, 1 spring, 2 far hills, 19 other.
+  - As objects: 77 A, 42 B, 19 C. Their positions: 42 B, 96 C. 55 are marked assumed.
+- **Joins:** 5 (the inflow at G30, the outflow at G20, the causeway at YMC-001 and on the east-west road, the stone road on the east-west road), all 0 m after the snap; loose A or B ends 0.
+- **Overlaps:** none with a wall, a hall, the gardens' water, a lake outside or the inside of the walls.
+- **The join of the grounds:**
+  - 0.0 m at the 594 shared nodes.
+  - Between them, against the 20 m lattice: median 0.002 m, worst 0.535 m at the bank of 未名湖 on the south edge, closed in the view by the fan through the inner edge vertices.
+  - Ring to backdrop: 0 m.
+- **Massing:** 4,233 blocks (1,165 double barrack rows, 450 houses of 海淀, 660 village houses, 872 wall pieces), 3 simple office halls, 56 patches, 15 bands, 2 lakes, 93 labels.
+- **Cost:** around adds 240,308 triangles; the overview frame is 348 ms off, 430 ms on (one load, software WebGL).
+- **Size:** the round's own site files are 1.64 MB; the site grows by 2.99 MB with the pictures, fonts, layers and pages.
+
+**Checked:**
+- These pass: `tools/check_surroundings.py`, `check_pages.py` (`scripts/building_pages.py` run twice: idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_models.py`, `check_kit.py --browser` (port 8963), `check_greens.py --browser` (port 8964).
+- Step 6 run until a pass changed nothing: after the ground's change it took three passes.
+- Screenshots in `screenshots/r20/`, opened:
+  - `before_*` and `after_*` from the same six views (overview, the main gate from the south, the inflow at the south-west sluice, west toward the hills, 清漪园, the camps to the north-west);
+  - `after_conf1_*` and `after_assumed0_*`;
+  - the panels of OW001, OW024 and OW109;
+  - the public page EN and zh, both homepages;
+  - the fork's working shots `infra_*`.
+  - The headless Chrome has no CJK font: Chinese in the 3D view's panel and labels shows as boxes. The public page renders it through its own web fonts.
+
+**Went wrong or left open:**
+- **The readers and the fork ran in the background** (the Agent tool's default), not in the foreground the brief asks for. All five finished before the round's end, and the turn did not end with any of them running.
+- **Fixes found on the shots and in the check:**
+  - The garden patch of 清漪园 hid its own lake from afar.
+  - Assumed round extents looked like exact circles; they are now irregular, seeded outlines.
+  - Village houses stood on the 清河.
+  - Seven blocks stood in 昆明湖, and a court's wall crossed a plan hall.
+  - Two A-grade roads ended at 绮春园's wall unjoined.
+  - The readers' temporary source keys stood in the panel's text.
+  - The barracks first cost 257k triangles with the rest of the round; merged into double rows, the round came in at 240k.
+- **Open:**
+  - A green wedge north-west of 昆明湖, and a light streak across the lake, remain in the view. Neither is the garden patch; the cause is not found, but it looks like the outer ground's mesh colours.
+  - The offices are simple halls, not the hall kit: `kit3d.js` draws only boxes from `halls_1860`.
+  - The Fan Lakes before the gate are not drawn (Q272); 万寿山's form is today's (Q280).
+  - Q264-Q280.
+

@@ -338,6 +338,26 @@ Keep the first of each unless noted.
 - **Q262. The east range of the inner court.** S01 draws a long N-S range of cells at x 3473-3496 between the canal and 大宫门's wall, the twin of the west range B1178; Round 1's blocks gave it no box, so it has no row in buildings.csv. The model draws it (nine bays, C). Which offices stood in the two ranges is not stated (S05 names the boards' duty rooms south of the gate). (Round 19)
 - **Q263. The leaf of 1744 against the model of 正大光明.** One camera fits the leaf's 16 points to 3.6 m rms at the object; the leaf paints the gate's and the hall's east ends 15-24 px further east than the model, and every column's foot 10-16 px lower (taller columns), as it paints halls 1.5-1.9 times too tall elsewhere (Q198). The leaf shows the state before the terrace (1775-1793) and before the bridge was levelled (1839). Not tuned. (Round 19)
 
+### Found in Round 20: the surroundings
+
+- **Q264. The lake of 清漪园 in 1860.** The layer takes today's water inside today's 颐和园 boundary (OW016, W0901) and leaves out 团城湖, taken for a modern reservoir (assumed, not checked). The lake was dug and enlarged in 1749-50 (S02 p.109); whether the 东堤 is of 1750 (Malone's stele) or of the Guangxu work (zh.wikipedia), and which sides had a wall in 1860 (S02 p.199: none round the lake), is open.
+- **Q265. 畅春园's shape and gate.** Malone's sketch (S02 p.22, about 970 x 730 m), zh.wikipedia (1000 x 600 m) and our C polygon (OW003, 65.6 ha, Song 2021's wall line scaled to the 1,060 丈 of S05 j76) all fit the text; the main gate is mid-south in Malone, at the south wall's east end in zh.wikipedia. Was the garden still furnished in 1860? 明善's memorial (via S1207) lists only 清溪书屋 and the two temples as burned there.
+- **Q266. 近春园, 淑春园 and 鸣鹤园 in 1860.** Burned in 1860 (two zh.wikipedia articles, PKU pages) or damaged and pulled down later (1873-74 for 近春园, 徐世昌 for 鸣鹤园)? The layer says unknown.
+- **Q267. 澄怀园 and the plot 翰林花园 (QC60).** The layer puts the Hanlin academicians' garden (OW006) on S01's plot; a lead says 'south of 福园门, sharing 绮春园's west wall'. If so its east side is our wall.
+- **Q268. The outlets on the east.** 日下旧闻考 j80 gives one way out, the 七空闸 (G20, C); 贾 2024 (S348, abstract) gives four: 长春园东墙出水闸, 七孔闸, 绮春园东墙二孔闸 and 五孔闸. Three are not placed; the 七孔闸 has seven openings in the text, five on S01.
+- **Q269. A north-west inlet?** zh.wikipedia puts an inlet at 紫碧山房; no Qing text read supports it, though the garden's water meets the west wall there (W0322).
+- **Q270. The 二龙闸's water:** in an open channel along today's 二龙闸路 (OW023, C) or by culvert (the 1750 tablet's 'underground conduits')?
+- **Q271. The 红桥.** The list of 1792 puts it first south of the gate; Wolseley half a mile north of the town; d'Hérisson 200 m before the palace; Malone p.55 'about half way to the Ch'ang Ch'un Yuan'. The layer has one bridge (OW035) where the stone road crosses the 红桥河 (C).
+- **Q272. The Fan Lakes 扇面湖.** Dug in 1763 (S02 p.68), two ponds either side of the causeway to the gate; no outline found, so they are not in the ground. The east-bank stone road of 1763 (j99:25a) is not placed.
+- **Q273. 镶白旗's small camp:** east of the large camp (日下 j99:29a) or south of it (Malone p.54, today's name 厢白旗小营, which the layer follows: OW115)? Did the extension of 1747 (+300 间 a banner) make new walled annexes?
+- **Q274. What a camp looked like.** No plan is known. The view draws each as a walled rectangle of 14 rows of 11 double houses of ten bays (1,540 间 against the 1,550 of the text), lanes of 8 m; the rows, the wall and the houses are C. Swinhoe (S241 p.286) gives low houses in an eight-foot wall with a wooden gate.
+- **Q275. Which camp Swinhoe's cavalry saw on 6 October 1860** ('barracks of the Blue Bannermen'): 正蓝旗 at 蓝旗营 is assumed. Were the camps damaged in 1860 (the 清实录's 土匪, Mgr Mouly's villages destroyed by 胜保)?
+- **Q276. Which village burned in the night of 7-8 October 1860?** Varin p.239 says a large village between the camp and Peking, set on fire by Chinese; no source read says the allies burned 海淀.
+- **Q277. Maps north of 40.00 N.** The AMS sheet of 1944 (S20) stops at 40°00' and lies about 100 m off round the Summer Palace (fit 95 m rms); the north of the ring rests on the map of about 1886 (±0.3-0.8 km) and today's names. Its 黄旗营, its L-shaped block 2 km east of the AMS 海淀 and its 安福橋 (800 m from today's 安河桥) are not explained.
+- **Q278. The camps' and villages' names on the maps.** The AMS's 'Chenglanki' (twice) and 'Sanki' and the 1886 map's 黄旗营 do not match the camp list of 1724 one to one; the layer keeps the Qing list on today's names.
+- **Q279. The width of the stone road.** Only 徐浩修 (1790): 廣可三間, read as about 10 m (C). No regulation or 1860 figure found.
+- **Q280. The ground beyond the walls.** The ring is the inner ground's plain extended, with the relief of today's DEM (a surface model of 2011-15) on 万寿山, 玉泉山 and the Western Hills, opened to strip trees and buildings; 万寿山's form includes the rebuilding of the 1880s and today's trees. Hills of the plain now under the city are not known.
+
 ## Resolved
 
 - **Malone's numbers 30 and 36** are swapped on the plan: 36 stands by 澄虚榭 (YM30), 30 off 雷峰夕照 (YM36). Read from the labels.

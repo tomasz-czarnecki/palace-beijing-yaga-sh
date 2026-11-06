@@ -18,6 +18,7 @@ import json
 import math
 import re
 import unicodedata
+from collections import Counter
 from pathlib import Path
 
 from markdown_it import MarkdownIt
@@ -59,8 +60,11 @@ SEARCHED_TEXTS = {
     "ALL": "日下旧闻考, Malone 1934, the witnesses of 1860, what search indexes show of the Yangshi Lei drawings",
 }
 GARDEN_POEMS = 6
+OUTSIDE_KIND = {"neighbour_garden": "a neighbouring imperial or princely garden", "town": "a market town", "village": "a village", "banner_camp": "a camp of the banner guard", "office": "an office of the court", "workshop": "a workshop",
+                "storehouse": "a storehouse or yard", "temple": "a temple", "road": "a road", "canal": "a canal", "river": "a river", "sluice": "a sluice", "bridge": "a bridge", "field": "fields", "paddy": "rice paddies", "orchard": "an orchard",
+                "tomb": "a tomb", "hill_far": "hills on the horizon", "lake": "a lake", "spring": "a spring", "other": "a place outside the walls"}  # Round 20
 UNNAMED_LINE = "This block has no name on the plan or in the texts, so no source can be searched for it by name."
-ID_RE = re.compile(r"^((?:YM|CC|XY|QC)\d+(?:-[A-Z]*\d+)?|Z-[A-Z]*\d+|G\d+)-")
+ID_RE = re.compile(r"^((?:YM|CC|XY|QC)\d+(?:-[A-Z]*\d+)?|Z-[A-Z]*\d+|G\d+|OW\d+)-")
 
 md = MarkdownIt("commonmark", {"html": False}).disable("image")  # raw HTML comes out escaped
 
@@ -235,6 +239,16 @@ class Book:
             if data["id"] in self.scene_about:
                 self.scene_sheets[data["id"]] = data
         self.tops = [r for r in self.rows.values() if not r["parent_id"] and not r["id"].startswith("Z-") and r["lat"]]
+        # Round 20: what stood and ran round the gardens (research/layers/surroundings_1860, scripts/surroundings1860.py). The OW ids get pages; the Z- rows it links keep theirs.
+        around_path = ROOT / "research/layers/surroundings_1860.geojson"
+        self.outside = {f["properties"]["id"]: f for f in (json.load(open(around_path, encoding="utf-8"))["features"] if around_path.exists() else []) if f["properties"]["id"].startswith("OW")}
+        view_path = SITE_DATA / "around_1860.json"
+        self.around_view = Counter()
+        if view_path.exists():
+            v = json.load(open(view_path, encoding="utf-8"))
+            for part in ("blocks", "halls", "patches", "strips", "waters", "labels"):
+                for item in v.get(part, []):
+                    self.around_view[(item["id"], part)] += 1
         self.gate_garden = {g: self.nearest(*reversed(f["geometry"]["coordinates"]), [])[0]["garden"] for g, f in self.gates.items()}
 
     def nearest(self, lat, lon, skip):
@@ -247,6 +261,9 @@ class Book:
 
     def name(self, pid):
         """Chinese and pinyin first, then what the page is."""
+        if pid in self.outside:
+            p = self.outside[pid]["properties"]
+            return " ".join(x for x in (p["name_zh"], p["name_pinyin"]) if x) or p["name_en"] or f"{OUTSIDE_KIND[p['kind']][0].upper()}{OUTSIDE_KIND[p['kind']][1:]} without a name"
         if pid in self.gates:
             p = self.gates[pid]["properties"]
             return " ".join(x for x in (p.get("name_zh"), p.get("name_pinyin")) if x) or "Gate without a name read on the plan"
@@ -255,12 +272,17 @@ class Book:
         return " ".join(x for x in (zh, r["name_pinyin"]) if x) or "Hall without a name on the plan"
 
     def short(self, pid):
+        if pid in self.outside:
+            return self.outside[pid]["properties"]["name_zh"] or self.outside[pid]["properties"]["name_en"]
         if pid in self.gates:
             return self.gates[pid]["properties"].get("name_zh") or ""
         r = self.rows[pid]
         return r["name_zh"] or r["name_on_plan"] or ""
 
     def slug_of(self, pid):
+        if pid in self.outside:
+            p = self.outside[pid]["properties"]
+            return slug(p["name_pinyin"] or p["name_en"] or p["kind"])
         if pid in self.gates:
             return slug(self.gates[pid]["properties"].get("name_pinyin", ""))
         r = self.rows[pid]
@@ -592,7 +614,86 @@ def searched_line(book, pid, kind, photos, evidence):
     return " ".join(bits)
 
 
+def outside_facts(p):
+    """A feature of surroundings_1860: what it was, in 1860, its size, where, how sure."""
+    src, conf = p["sources"], p["confidence"]
+    out = []
+    names = " ".join(x for x in (p["name_zh"], p["name_pinyin"]) if x)
+    if names:
+        out.append(fact("Name", names, src, conf))
+    if p["name_en"]:
+        out.append(fact("In English", p["name_en"], src))
+    out.append(fact("What it was", OUTSIDE_KIND[p["kind"]] + " outside the garden walls", src, conf))
+    if p.get("state_1860"):
+        out.append(fact("In 1860", p["state_1860"], src))
+    if p.get("size"):
+        out.append(fact("Size", p["size"], src))
+    if p.get("width_m"):
+        out.append(fact("Width drawn", f"{p['width_m']:g} m", src))
+    where = p.get("position_basis") or ""
+    if p.get("extent_assumed"):
+        where += f"; its extent, a circle of {p['extent_r_m']:g} m, is assumed"
+    if where:
+        out.append(fact("Where", where, src, conf if not p["assumed"] else "C"))
+    if p.get("joins"):
+        out.append(fact("Joins", p["joins"].replace(";", ", ").replace("@", " at "), src))
+    if p.get("note"):
+        out.append(fact("Note", p["note"], src))
+    return out
+
+
+def outside_model(book, pid, p):
+    n = {part: book.around_view.get((pid, part), 0) for part in ("blocks", "halls", "patches", "strips", "waters", "labels")}
+    bits = []
+    if n["halls"]:
+        bits.append(f"{n['halls']} hall{'s' if n['halls'] != 1 else ''} of the hall kit")
+    if n["blocks"]:
+        bits.append(f"{n['blocks']} plain block{'s' if n['blocks'] != 1 else ''} (walls, houses, halls)")
+    if n["patches"]:
+        bits.append("a tinted patch of ground")
+    if n["strips"]:
+        bits.append(f"a band {p.get('width_m', 0):g} m wide on the ground")
+    if n["waters"]:
+        bits.append("water at one level")
+    if not bits:
+        line = "No object in the 3D view: a name only." if n["labels"] else "No object in the 3D view."
+    else:
+        line = "Massing only, not a reconstruction: " + ", ".join(bits) + ". "
+        line += "Its houses, rows and halls are generated to the kind of place, not drawn from a plan of it: assumed (C)." if (n["blocks"] > 1 or n["halls"]) and p["kind"] not in ("road", "canal", "river", "sluice", "bridge") else "Its shape follows the source named under Where."
+    return {"line": line + " The switch `around=0` hides everything outside the walls.", "rows": []}
+
+
+def build_outside(book, pid):
+    f = book.outside[pid]
+    p = f["properties"]
+    g = f["geometry"]
+    pts = g["coordinates"] if g["type"] == "Point" else None
+    if pts is None:
+        flat = []
+        def walk(c):
+            if isinstance(c[0], (int, float)):
+                flat.append(c)
+            else:
+                for x in c:
+                    walk(x)
+        walk(g["coordinates"])
+        pts = [round(sum(c[0] for c in flat) / len(flat), 6), round(sum(c[1] for c in flat) / len(flat), 6)] if g["type"] != "LineString" else flat[len(flat) // 2]
+    position = [round(pts[0], 6), round(pts[1], 6)]
+    photos = sort_photos(book.photos.get(pid, []))
+    evidence = [evidence_entry(e, c) for e, c in sort_evidence(book.evidence.get(pid, []))]
+    cited = split_ids(p["sources"]) + [s for e in evidence for s in split_ids(e["source_id"])] + [s for q, _ in photos for s in split_ids(q["source_id"])]
+    names = [x for x in (p["name_zh"], p["name_pinyin"]) if x]
+    searched = "" if photos else "No picture of it found in the catalogues searched for the surroundings (research/surroundings/README.md)." if names else UNNAMED_LINE
+    return {
+        "id": pid, "kind": "outside", "title": book.name(pid), "subtitle": " · ".join(x for x in (OUTSIDE_KIND[p["kind"]], "outside the walls", "confidence " + p["confidence"] + (", assumed" if p["assumed"] else "")) if x), "parent": None, "children": [], "position": position,
+        "object": None, "model": outside_model(book, pid, p), "facts": outside_facts(p), "photos_rows": photos, "inside_rows": [], "evidence": evidence, "recon_rows": sort_recons(book.recons.get(pid, [])), "twin_rows": sort_twins(book.twins.get(pid, [])),
+        "plan_ref": None, "fallback": [], "searched": searched.replace(" (research/surroundings/README.md)", ""), "questions": questions_of(book, pid, names), "cited": cited,
+    }
+
+
 def build(book, pid):
+    if pid in book.outside:
+        return build_outside(book, pid)
     if pid in book.gates:
         f = book.gates[pid]
         p = f["properties"]
@@ -1096,16 +1197,16 @@ def write_folder(book, pid, page, folders):
 def main():
     book = Book()
     publish_models(book)
-    ids = sorted(book.rows) + sorted(book.gates, key=lambda g: int(g[1:]))
+    ids = sorted(book.rows) + sorted(book.gates, key=lambda g: int(g[1:])) + sorted(book.outside)
     PAGES.mkdir(exist_ok=True)
     folders = existing_folders()
-    readme = ["# Buildings", "", "One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`, `QC..`, halls inside them, `Z-..` in no compound) and per gate (`G..`). Generated by `scripts/building_pages.py`; only the `## Notes` part of a page is yours, and it goes on the site unless it stands below a line holding only `%% private %%`.", "", "| ID | Name | Garden | Boxes | Assumed |", "|---|---|---|---:|---|"]
+    readme = ["# Buildings", "", "One folder per row of `research/buildings.csv` (compounds `YM..`, `CC..`, `XY..`, `QC..`, halls inside them, `Z-..` in no compound), per gate (`G..`) and per object outside the walls (`OW..`, Round 20: `research/layers/surroundings_1860`). Generated by `scripts/building_pages.py`; only the `## Notes` part of a page is yours, and it goes on the site unless it stands below a line holding only `%% private %%`.", "", "| ID | Name | Garden | Boxes | Assumed |", "|---|---|---|---:|---|"]
     written = set()
     for pid in ids:
         page = build(book, pid)
         hand, folder = write_folder(book, pid, page, folders)
         boxes = book.boxes.get(pid, [])
-        garden = book.rows[pid]["garden"] if pid in book.rows else "walls"
+        garden = book.rows[pid]["garden"] if pid in book.rows else "outside the walls" if pid in book.outside else "walls"
         readme.append(f"| [{pid}]({folder}/index.md) | {page['title']} | {garden} | {len(boxes)} | {'yes' if any(b['assumed'] for b in boxes) else ''} |")
         write_if_changed(PUBLIC_OUT / f"{pid}.json", json.dumps(panel_page(book, page, hand, True), ensure_ascii=False, separators=(",", ":")))
         write_if_changed(LOCAL_OUT / f"{pid}.json", json.dumps(panel_page(book, page, hand, False), ensure_ascii=False, separators=(",", ":")))
@@ -1128,7 +1229,7 @@ def main():
     orphans = sorted(k for k in existing_folders() if k not in written)
     with_box = sum(1 for p in ids if book.boxes.get(p))
     missing = sorted({s for p in book.rows.values() for s in split_ids(p["sources"]) if s not in book.sources and s.startswith("S") and s[1:].isdigit()})
-    print(f"{len(ids)} pages ({len(book.rows)} rows, {len(book.gates)} gates); {with_box} with a box of their own; sources cited and not in sources.md: {missing}")
+    print(f"{len(ids)} pages ({len(book.rows)} rows, {len(book.gates)} gates, {len(book.outside)} outside); {with_box} with a box of their own; sources cited and not in sources.md: {missing}")
     if orphans:
         print("Folders whose ID left the data (kept, they may hold notes):", orphans)
 

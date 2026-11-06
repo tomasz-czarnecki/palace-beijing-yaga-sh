@@ -42,7 +42,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q268: The outlets on the east
 
 <!-- generated:end -->
 

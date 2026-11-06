@@ -45,6 +45,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 ## Open questions
 
 - Q197: Which way did the water fall?
+- Q268: The outlets on the east
 
 <!-- generated:end -->
 

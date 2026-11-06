@@ -13,13 +13,14 @@ Field names here are checked against the real files by `tools/check_docs.py`. Co
 | `questions.md` | open questions and conflicts between sources; Q1 is the target state | hand | yes |
 | `wishlist.md` | what would replace the biggest guesses, where it is held, how to ask | hand | yes |
 | `buildings.csv` | one row per compound and per hall or structure inside it | `scripts/build_r1.py`, then `scripts/apply_facts.py`. Change their inputs, not the rows | yes |
-| `layers/` | working GeoJSON in WGS84, the hand-off to the 3D round | `scripts/build_r1.py`; `osm_today` from `scripts/fetch_osm.py` | yes |
+| `layers/` | working GeoJSON in WGS84, the hand-off to the 3D round | `scripts/build_r1.py`; `osm_today` from `scripts/fetch_osm.py`, `osm_ring_today` from `scripts/fetch_osm.py --ring` (Round 20); `surroundings_1860` from `scripts/surroundings1860.py` | yes |
 | `plan/` | everything read off the base plan S01, in plan pixels | see below | yes |
 | `georef/` | how the plan is tied to the ground | see below | yes |
 | `typology/` | `halls.md`, `params.json` (defaults by hall class, each with a source and a confidence), `rules_out.json`, `scale_check.json` | hand and `scripts/typology_*.py` | yes |
 | `terrain/` | Round 10, the ground: `terrain/README.md` (what is measured, read and typology, the error by region, what the DEM can and cannot tell), `terrain/readings.csv` (the workers' rows) and the files below | hand (the README, the readings); `scripts/terrain_dem.py`, `scripts/hills1860.py`, `scripts/ground1860.py`, `tools/check_ground.py` | yes |
 | `kit/` | Round 11, the hall kit and the stone kit: `kit/README.md` (what is drawn, from which numbers, what is sourced, the cost), `kit/kit_check.json`, `kit/kit_browser.json`, `kit/kit_report.json` | hand (the README); `tools/check_kit.py` | yes |
 | `greens/` | Round 12, the planting: `greens/README.md` (what the sources say, what the view draws, the numbers, what is weak), `greens/species.csv` (the rows), `greens/greens_report.json`, `greens/greens_check.json`, `greens/greens_browser.json` | hand (the README, the rows); `scripts/greens1860.py`, `tools/check_greens.py` | yes |
+| `surroundings/` | Round 20, what stood and ran round the gardens: `surroundings/README.md` (the sources by topic, where they disagree, the extent), `surroundings/features.csv` and `surroundings/geometry.geojson` (the sheet), `surroundings/about.json` (the public page's text), `surroundings/report.json`, `surroundings/check.json` | hand (the README, the sheet, the text); `scripts/surroundings1860.py`, `tools/check_surroundings.py`; first made by `docs/rounds/common/palace_r20_merge.py` | yes |
 | `photos/` | the picture catalogue and free images, see `photos/README.md` | hand | yes |
 | `evidence/` | what is not an image, see below; `evidence/coverage_before_r5.json` the coverage before Round 5, which `tools/check_evidence.py` compares with | hand | yes |
 | `twins/catalog.csv` | surviving buildings that are copies, sisters, models or fair comparables of ours, see below | hand, from Round 5 | yes |
@@ -90,6 +91,7 @@ Columns:
 
 ```
 uv run python scripts/fetch_osm.py            # research/raw/osm, layers/osm_today (network)
+uv run python scripts/fetch_osm.py --ring     # Round 20: research/raw/osm/overpass_ring.json, layers/osm_ring_today (the ring round the gardens, network)
 uv run python scripts/clip_dem.py             # research/raw/dem/site_glo30.npz (needs the tiles in raw/dem)
 uv run python scripts/terrain_dem.py          # terrain/plain.json, terrain/glo30_rise.npz: the plain, today's rises (needs raw/dem)
 uv run python scripts/mosaic_plan.py          # raw/plans/princeton_mosaic.jpg, georef/princeton-mosaic.json
@@ -108,8 +110,10 @@ uv run python scripts/render_r1.py            # screenshots/r1/layers_public.png
 uv run python scripts/coverage_chart.py       # screenshots/r1/coverage.png
 uv run python scripts/georef.py accuracy      # layers/georef_error.geojson: expected error by region and 200 m cell, from the check set
 uv run python scripts/hills1860.py            # layers/hills_1860 (heights; the free land's hills), terrain/hills_heights.csv, terrain/rockeries.csv; reads the last run's boxes and ways
+uv run python scripts/surroundings1860.py     # Round 20: layers/surroundings_1860, the lakes and paddies outside the walls into water_1860 and fields_1860 (`outside`), data/around_1860.json, surroundings/report.json
 uv run python scripts/publish_layers.py       # site/reconstruction/data/: the public layers, buildings_1860, labels_1860, georef_error
 uv run python scripts/ground1860.py           # site/reconstruction/generated/: ground.json, ground.bin, ground_grid.i16, ground_level.u8; terrain/water_levels.csv, ground_report.json (imports the box layout of boxes1860.py)
+uv run python scripts/ground_outer1860.py     # Round 20: generated/ground_outer.json and .bin, the ring and the backdrop beyond the inner ground; terrain/ground_outer_report.json (needs raw/dem)
 uv run python scripts/boxes1860.py            # data/halls_1860.geojson, generated/structures.json (walls, bridges); prints its checks
 uv run python models/XY01-xieqiqu/xieqiqu.py  # Round 13: the detailed model of 谐奇趣 (model.glb, params, keypoints, joints, summary); reads the boxes
 uv run python models/XY08-haiyan-tang/haiyantang.py  # Round 14: the detailed model of 海晏堂, the same files; reads the boxes and the ground (its footings follow it)
@@ -131,12 +135,14 @@ uv run python scripts/scenes_dossiers.py      # research/scenes/<ID>-<slug>/READ
 uv run python scripts/building_pages.py       # research/buildings/, data/buildings/<ID>.json, raw/buildings/<ID>.json
 uv run python scripts/xiyanglou_page.py       # site/xiyanglou/index.html, site/zh/xiyanglou/index.html, site/xiyanglou/keyplan.svg
 uv run python scripts/scenes_page.py          # site/scenes/index.html (the hub), site/scenes/<ID>/index.html for the public scenes, site/scenes/keyplan.svg, the same under site/zh/scenes/
+uv run python scripts/around_page.py          # Round 20: site/around/index.html, site/zh/around/index.html, site/around/plan.svg
 uv run python tools/check_pages.py            # every clickable object has a page; public copy clean; generator idempotent
 uv run python tools/check_evidence.py         # coverage; no empty evidence section; no research-only image on the site
 uv run python tools/check_docs.py             # these docs match the files
 uv run python tools/check_georef.py           # the frozen check set against the fit in use, by region; the rows follow the fit
 uv run python tools/check_paths.py            # the ways: counts, joint gaps, crossings, bridge approaches, routes
 uv run python tools/check_ground.py           # the ground: hills by method, one level per body, every object's gap and joint; --before <dir> measures an older export
+uv run python tools/check_surroundings.py     # Round 20: counts by kind and grade; sources; joins at the gates and sluices; no overlap with walls, halls, water; the step where the grounds meet; sizes
 uv run python tools/check_greens.py           # the planting: counts by kind, grade and species; no plant in a box, on a way, wall or bridge, in water (but lotus and reeds) or off the ground; rockeries grounded; --browser measures the view
 uv run python tools/check_kit.py              # the kit: every box drawn, roofs from the data, inside the box, steps on the ground and met by the ways; --browser measures the view first (Node and Playwright outside the repo)
 ```
@@ -181,6 +187,8 @@ Everything from `hills1860.py` down needs only `buildings.csv`, `layers/`, `path
 | `GARDEN-YM`, `-CC`, `-XY`, `-QC`, `-ALL` | what speaks for a whole garden; in `shows` as `GARDEN:YM` | `data/buildings/` |
 | `F0123` | a footprint; `XY01-M03` a Xiyang Lou part, `L002` a laid-out box, `D001` a default box, `GB02` a gate box | `footprints_1860`, `halls_1860` |
 | `W01`, `W0001`, `I001`, `H0001`, `BR001`, `FD0001` | layer features: wall, water, island, hill, bridge, field | `layers/` |
+| `OW001`, ... | an object outside the walls (Round 20), never renumbered: OW001-OW124 | `surroundings/features.csv`, `layers/surroundings_1860` |
+| `W0901`, `FD0901` | water and fields outside the walls (Round 20, `outside: true`): the id the sheet's `layer_id` gives | `layers/water_1860`, `layers/fields_1860` |
 
 ## Conventions
 
@@ -399,6 +407,19 @@ The planting of 1860, Round 12. Overview, the sources, the numbers and what is w
 | `greens/greens_check.json` | what `tools/check_greens.py` measured: `plants`, `by_form`, `by_species`, `trees_confidence`, `extent_confidence`, `assumed`, `on_generated_hills`, `areas`, `placement`, `rockeries`, `files_mb`, `browser` |
 | `greens/greens_browser.json` | `data_hash`, `measured_utc`, `url`, `load_s`, `views` (frame times and triangles with the planting off and on, by season), `report` (the view's own: tiles, far and near triangles), `errors` |
 
+## surroundings/
+
+What stood and ran round the gardens in 1860, Round 20. Overview, the sources by topic, the extent: `surroundings/README.md`.
+
+| File | Fields |
+|---|---|
+| `surroundings/features.csv` | hand-edited: `id` (OW###), `kind` (neighbour_garden, town, village, banner_camp, office, workshop, storehouse, temple, road, canal, river, sluice, bridge, field, paddy, orchard, tomb, hill_far, lake, spring, other), `name_zh`, `name_pinyin`, `name_en`, `geom` (how its shape is given: `pt:<lon> <lat>`, with ` r=<m>` an assumed round extent; `geo` (`surroundings/geometry.geojson`); `osm:way/<id>` (`layers/osm_ring_today`); `row:<Z-id>`; `plan:<x> <y>`), `width_m` (roads and canals; C unless a source gives it), `size` (as a source states it), `state_1860`, `sources`, `confidence` (the object: that it was there, what it was), `pos_confidence` (where it stood), `assumed`, `position_basis` (what the position stands on), `joins` (`start@<id>` or `end@<id>`: a gate, a way of `paths_1860` or an earlier line the line's end is snapped to), `massing` (how the view draws it, `k=v;...`: `houses`, `rows`, `per_row`, `wall`, `compound` (`<w>x<d>`), `halls`, `kit`, `parts` (`<lon> <lat> <w>x<d>x<h>|...`), `within` (a garden's ground drawn only this far from its lakes), `w`, `d`, `rot`, `level`, `label`, `none`), `layer_id` (the id a lake or paddy takes in `water_1860` or `fields_1860`), `reader` (which reader's rows it came from, `topic:key;...`), `note` |
+| `surroundings/geometry.geojson` | hand-edited: one feature per `geo` row, `id`, `basis` (what the line or outline was drawn from) |
+| `surroundings/about.json` | the public page's text: `title_*`, `desc_*`, `eyebrow_*`, `h1_*`, `lead_*`, `plan_cap_*`, `cam`, `sections` (`id`, `h_*`, `en`, `zh`, `pictures`), `unknown_*`, `draft_zh` |
+| `surroundings/report.json` | the generator's counts: `features`, `by_kind`, `by_confidence`, `assumed`, `made`, `joins` (`id`, `target`, `end`, `gap_before_m`, `gap_m`, `confidence`), `overlaps`, `overlap_worst`, `blocks`, `halls`, `patches`, `strips`, `view_bytes` |
+| `surroundings/check.json` | what `tools/check_surroundings.py` measured: `by_kind_confidence`, `joins`, `loose_ends`, `overlaps`, `overlap_worst_m`, `join` (the step where the grounds meet), `block_fall_m`, `sizes_bytes`, `round_site_mb`, `massing`, `fails` |
+| `site/reconstruction/data/around_1860.json` | the view's massing in scene metres: `features` (`id`, `kind`, names, `conf` the weaker grade, `assumed`), `patches` (`id`, `kind`, `ring`, `holes`), `strips` (`id`, `kind`, `w`, `pts`), `waters` (`id`, `ring`, `level`), `blocks` (`id`, `x`, `z`, `w`, `d`, `h`, `rot`, `roof`, `tint`, `assumed`), `halls` (the hall kit: `cls`, `bays`), `labels`, `meta` |
+
 ## Layers
 
 Every feature carries `id`, names where known (`name_zh`, `name_pinyin`), `sources`, `confidence`, `note`. Working copies in `layers/`; `scripts/publish_layers.py` copies them to `site/reconstruction/data/` without the working fields `block`, `source_kind`, `drawn_m`, `ncols`, `nrows` of the footprints, `region_id` and `height_method`.
@@ -409,7 +430,9 @@ Every feature carries `id`, names where known (`name_zh`, `name_pinyin`), `sourc
 - `hills_1860` (472, Round 10): `kind`, `area_m2`, `height_est_m` (the height above the ground round it), `height_method` (the method and what it read: surveyed, dem, painting, text, typology), `error_m`, `sources`, `confidence`, `assumed`, `basis` (plan: the 54 outlines of S01; free_land: H2001 on, generated, assumed), `group` (the piece of land a hill belongs to: one mound per group), `scene_id`, `readings` (rows of `terrain/readings.csv`), `dem_note` (what GLO-30 shows where it gave no height). Written by `scripts/build_r1.py` (the plan's outlines) and then `scripts/hills1860.py` (heights, free land). Undercounts on the plan: Q29, Q199. A hill gives way to a surveyed sunken court of the Xiyang Lou (`scripts/build_r1.py`, `clear_of_courts`): H0015, wholly inside 大水法's court, is dropped (Q71); ids are not renumbered. Round 19: 462; the free land's hills keep off every court, yard and terrace a detailed model paves (`models/*/joints.json` `clear` and `decks`, `hills1860.model_courts()`): a generated hill of 7 m stood in the court of 正大光明, five more in 含经堂's forecourt and courts.
 - `bridges_1860` (73): lines between the two ends; `building_id`, `read`. The drawn width is not recorded.
 - `walls_1860` (58): `garden`, `read`; `kind` outer_wall, separating_wall (lines) and gate (53 points). Read by eye, 10–20 px off the ink, Qichun 20–40 px. Since Round 8 the west side of Changchun Yuan north of the plan's y 1900, which lies in a scroll seam, stands 15.2 m west of the traced line, off the Xiyang Lou ruins, with the sluice G43 (Q64; `WALL_SEAM_RUN` in `scripts/build_r1.py`). How the walls meet today's park outline: `tools/wall_check.py`, Q31, Q186. Round 19: W01 goes round the gate court of 正大光明 (the 大宫门 line and the inner court's ranges) between x 3000 and 3900, where it ran along the canal (Q259); edited in `plan/walls.json` and `plan/walls_manual.json` alike, the plan not re-traced.
-- `fields_1860` (10): the labelled 稻田 rice fields; `kind`, `region_id`, `area_m2`.
+- `fields_1860` (10): the labelled 稻田 rice fields; `kind`, `region_id`, `area_m2`. Round 20 adds the paddies outside the walls (FD0901-FD0904): `outside` true, `surroundings_id` (the object in `surroundings_1860`); the same in `water_1860` for the lakes outside the walls (W0901 昆明湖, W0902 未名湖), which may carry `level_m`. `scripts/ground1860.py` gives an `outside` water its own body, never merged with the gardens' water.
+- `surroundings_1860` (138, Round 20, `scripts/surroundings1860.py`): what stood and ran round the gardens; `id` (OW### or the Z- id of a row S01 draws outside the walls, then `row_id`), `kind`, the names, `sources`, `confidence`, `pos_confidence`, `assumed`, `state_1860`, `size`, `position_basis`, `note`; `width_m` (roads, canals), `joins`, `extent_r_m` and `extent_assumed` (a point given a round extent). Points, lines, outlines.
+- `osm_ring_today` (Round 20, `scripts/fetch_osm.py --ring`): today's water, canals, main roads, parks and names in the ring, ODbL; a reference, never 1860.
 - `osm_today` (6004 here, 2507 on the site): today's park, ODbL. Keeps OSM's tags.
 - `paths_1860` (Round 9, `scripts/paths1860.py`): one LineString per way. `id`, `kind` (paved_way 甬道, gallery 游廊, mountain_gallery 爬山廊, causeway, dike 堤, bridge_approach, steps, courtyard_path, imperial_road, service_path, boat_route), `name_zh`, `scene`, `width_m`, `width_source` (drawn on S01, or typology), `surface` (typology unless a dig is cited), `from_id`, `to_id` (as traced), `from_at`, `to_at` (what the end met: `F0123:front` a box's door, `through` a box walked through, `bridge`, `gate`, `landing`, `path`, `free: ...` the nearest thing when the id was missing or misread), `gap_before_m` (the two ends' distances before snapping), `sources`, `confidence`, `pos_confidence` (B traced on S01, C made here), `assumed` (C), `basis` (s01, leaf, dig, typology, reach), `leaf` (the pictures that show it), `in_box` (a box it may run inside), `drawn` (what the plan shows), `rerouted_m` (how far the reroute strays from the trace), `blocked_before_m`, `blocked_m` (length across a box, wall or water before and after), `length_m`, `note`.
 - `landings_1860` (Round 9): one Point per landing or dock, on the shore 0.3 m inside the land. `id`, `kind` (landing, dock), `name_zh`, `scene`, `serves` (the rows), `water`, `water_id`, `facing_deg` (towards the water), `gap_before_m` (moved to the shore), `sources`, `confidence`, `pos_confidence`, `assumed`, `basis`, `leaf`, `drawn`, `note`.

@@ -205,6 +205,7 @@ Not written yet.
 - **Q138. E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y.** E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (YM05-08 文昌阁, YM16-08 魁星楼, YM23 慎修思永 and 知过堂, YM25, YM37-02 双鹤斋, YM47 藏舟坞?, YM48 紫碧山房/顺木天, YM51 课农轩). The 1860 model is unaffected
 - **Q142. No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among th.** No album leaves exist for YM47 藻园, YM48 紫碧山房, YM49 若帆之阁, YM50 三潭印月, YM51 课农轩 (not among the Forty Scenes, or later). Their form must come from S05, S360, the 1887 图咏 if it covers them, Yangshi Lei drawings and digs (S1
 - **Q201. 紫碧山房's height.** China Daily (S1001) calls today's rock garden 15 m high and "the highest point of Yuanmingyuan". GLO-30 shows 6.9-8.8 m at H0052, and nothing at H0037. Qianlong's "假山故无九仞高" bounds it under about 23 m (S361). The 2017 dig found a retaining wall at the hill's foot (S1012). The model takes 6.3 m f
+- **Q269. A north-west inlet?** zh.wikipedia puts an inlet at 紫碧山房; no Qing text read supports it, though the garden's water meets the west wall there (W0322).
 
 ### Wishlist rows that name it
 

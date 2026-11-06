@@ -19,7 +19,7 @@ function popup(p, extra = "") {
   const box = document.createElement("div");
   const zh = p.name_zh || p.name || "";
   const title = [zh, p.name_pinyin].filter(Boolean).join(" ") || p.id;
-  const bid = p.building_id || (/^(YM|CC|XY|QC|Z-)/.test(p.id || "") ? p.id : "");
+  const bid = p.building_id || (/^(YM|CC|XY|QC|Z-|OW)/.test(p.id || "") ? p.id : "");
   box.innerHTML = `<div class="pop-title">${esc(title)}</div>` +
     (p.name_en ? `<div class="pop-sub">${esc(p.name_en)}</div>` : "") +
     `<div class="pop-tag">${esc(p.id)}${p.garden ? " · " + esc(p.garden) : ""}</div>` + extra +
@@ -51,6 +51,11 @@ const LAYERS = [
     // Check points as small squares in the marker pane, above the canvas layers, so walls and gates never hide them.
     pointToLayer: (f, ll) => L.marker(ll, { icon: L.divIcon({ className: "", iconSize: [12, 12], html: `<div style="width:10px;height:10px;border:1px solid #111827;background:${errColour(f.properties.dist_m)}"></div>` }) }),
   }, false, errText],
+  // Round 20: what stood and ran round the gardens (scripts/surroundings1860.py): roads, canals, villages, camps, the neighbouring gardens. Mostly C: the popup says how sure.
+  ["surroundings_1860", "Around the gardens, 1860 (mostly C)", fill("#e7d3a8", "#8a5a2b"), {
+    style: (f) => ({ color: { road: "#8a5a2b", canal: "#1d6fa5", river: "#1d6fa5" }[f.properties.kind] || "#8a5a2b", weight: f.properties.kind === "road" ? 2 : 1.5, dashArray: f.properties.confidence === "C" ? "5 4" : null, fillColor: f.properties.kind === "neighbour_garden" ? "#c9d7a4" : "#e7d3a8", fillOpacity: 0.3 }),
+    pointToLayer: (f, ll) => L.circleMarker(ll, { radius: 4, color: "#fff", weight: 1, fillColor: f.properties.confidence === "C" ? "#d6a35c" : "#8a5a2b", fillOpacity: 0.95 }),
+  }, true, (p) => `<div class="pop-tag">${esc(p.kind.replace("_", " "))}${p.state_1860 ? " · 1860: " + esc(p.state_1860) : ""}</div>${p.position_basis ? `<div class="pop-tag">where: ${esc(p.position_basis)}</div>` : ""}`],
   ["fields_1860", "Rice fields 稻田", fill("#d9e2a0", "#7c8f33"), { style: () => ({ color: "#7c8f33", weight: 1, fillColor: "#d9e2a0", fillOpacity: 0.7 }) }, true],
   ["scenes_1860", "Scenes and compounds (outline drawn by the reader, not a source)", fill("#fde68a55", "#b45309"), { style: () => ({ color: "#b45309", weight: 1, dashArray: "4 3", fillColor: "#fde68a", fillOpacity: 0.12 }) }, true, (p) => `<div class="pop-tag">${p.area_m2 ? p.area_m2.toLocaleString("en") + " m²" : ""}${p.malone_no ? " · Malone no. " + esc(p.malone_no) : ""}</div>`],
   ["islands_1860", "Islands", fill("#c9d7a4", "#6b7f3a"), { style: () => ({ color: "#6b7f3a", weight: 1, fillColor: "#c9d7a4", fillOpacity: 0.45 }) }, true, (p) => `<div class="pop-tag">${p.area_m2 ? p.area_m2.toLocaleString("en") + " m²" : ""}</div>`],

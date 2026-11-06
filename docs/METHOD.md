@@ -394,6 +394,21 @@ Round 19 (`models/YM01-zhengda-guangming/README.md`) used it on the formal entra
 18. **A model owns the walls it draws.** Where a wall of Round 1 runs through a model, the model draws the wall itself and names the outline in `walls_cut`; the view leaves out the plan's segments there, and the ring's ends meet the model's walls.
 19. **A painting shows a colonnade's feet, not a platform's corners.** Points `<hall>_col_<corner>` (the front corner column's foot) were added for the leaf; the platform's corners stand 1.6 m further out on a hall with a deep edge.
 
+### 20. The surroundings: a labelled setting round the site (Round 20)
+
+Round 20 (`research/surroundings/README.md`) put what stood round the gardens into the layers and the view: the neighbouring gardens, the town, the camps, villages, temples, the water and the roads. The recipe:
+1. **Four readers by topic, one sheet by the editor.** Gardens, water and roads, people (camps, villages, temples, the events of the time), old maps. Each wrote rows with a representative point, its basis and two grades. A merge table (`docs/rounds/common/palace_r20_merge.py`) chose one row per object, kept the others as cross-checks in its note, and gave the ids in the table's order. The table's order is also the massing's precedence: what is sourced and small comes first, villages and camps last, so the generated houses keep clear of everything placed before them.
+2. **Grade the object and its place separately.** A Qing text naming a village makes the village A; its place, taken from the village name that survives today, is C. The view tints by the weaker of the two. Without the split, three quarters of the ring would have read A.
+3. **A map known only from later maps is C for the target date,** whatever its fit. The 1944 sheet's villages are B for 1944 and C for 1860.
+4. **Size the massing from the figure the source gives, and say the layout is generated.** A camp of 1,550 rooms is drawn as 14 rows of eleven ten-bay houses in a walled rectangle; the count is the text's, the rows and the wall are C. Where nothing gives a count, the houses are a guess and marked.
+5. **An assumed extent is drawn as an irregular outline, not a circle.** A circle looked more exact than it was. The outline is seeded from the id, so it stays the same from run to run.
+6. **Lines join by name.** A road's or canal's end is snapped to a gate, the end of a way, or an earlier line (`joins`), and the gap before and after is measured. Two A-grade roads ended 0.3 and 38 m from a garden wall until they were joined to the road they meet.
+7. **The ground beyond: the plain extended, the relief only where it is real.** Today's surface model holds the city. The ring takes the inner ground's plane and uses the DEM only on the massifs that carry a named peak, opened to strip roofs and crowns. A backdrop of 200 m cells to the hills sits under fog.
+8. **The join is measured where the two grounds share vertices.** The 20 m ring cannot follow a 1.4 m bank inside 5 m. The view fans the edge cells through the inner mesh's edge vertices, so the seam is closed; the check fails on the shared nodes (0 m) and reports the lattice's departure between them (0.54 m at one bank).
+9. **Water outside gets bodies of its own.** A lake outside the walls touching the inner domain would otherwise merge with the gardens' water and move its levels.
+10. **Keep the triangles inside a budget by merging what repeats.** The barracks were 2,338 houses of five bays; as 1,165 double houses of ten bays they kept the count of rooms and brought the round's mesh under 250k triangles.
+11. **Run the chain until it stops changing.** The ground reads the boxes of the last run: after a change to the ground, step 6 took three passes before no file changed.
+
 ## Pitfalls and fixes
 
 **The kit (Round 11):**
@@ -512,6 +527,7 @@ echo "exit $? at $(date -u +%H:%MZ)" > "$R/next.done"
 - [ ] Wishlist and rights questions written for the owner.
 - [ ] Docs round: rulebook, research README, a round log, and copies of the briefs.
 - [ ] Measure the site's size against the host's limits before the first deploy.
+- [ ] Before the setting goes in: grade the object and its place separately, and give every generated house, row and outline `assumed` (section 20).
 
 **The fifth and sixth models (Round 16):**
 - **The readers went to the background again** (the Agent tool's default). All three finished within 10 minutes and before the turn ended.

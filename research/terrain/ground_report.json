@@ -8,15 +8,15 @@
   "rms_m": 0.93
  },
  "freeboard_m": 1.5,
- "bodies": 190,
+ "bodies": 192,
  "levels_m": [
   41.99,
-  44.82
+  47.27
  ],
  "shore_m": {
-  "earth": 77190,
+  "earth": 78530,
   "rock": 5710,
-  "stone": 16566
+  "stone": 16570
  },
  "shore_grade_A_m": 19358,
  "hills_modelled": {
@@ -486,19 +486,19 @@
  "pads": 891,
  "mesh": {
   "leaves_by_level": {
-   "0": 11861,
-   "1": 22649,
-   "2": 63884
+   "0": 11825,
+   "1": 22780,
+   "2": 63936
   },
   "balance_passes": 66,
-  "land_tris": 245883,
-  "land_verts": 146499,
-  "skirt_quads": 12167,
-  "bed_tris": 33971,
-  "water_tris": 22135,
+  "land_tris": 245753,
+  "land_verts": 146654,
+  "skirt_quads": 12190,
+  "bed_tris": 34352,
+  "water_tris": 22298,
   "centroid_dev_vs_raster_m": {
    "median": 0.0,
-   "p99": 0.729,
+   "p99": 0.73,
    "max": 4.295
   }
  },

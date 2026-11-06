@@ -1,0 +1,257 @@
+{
+ "features": 138,
+ "by_kind": {
+  "banner_camp": 11,
+  "bridge": 7,
+  "canal": 8,
+  "hill_far": 2,
+  "lake": 2,
+  "neighbour_garden": 15,
+  "office": 3,
+  "other": 19,
+  "paddy": 4,
+  "river": 1,
+  "road": 6,
+  "sluice": 7,
+  "spring": 1,
+  "storehouse": 4,
+  "temple": 20,
+  "town": 1,
+  "village": 27
+ },
+ "by_confidence": {
+  "A": 77,
+  "B": 42,
+  "C": 19
+ },
+ "assumed": 55,
+ "by_kind_confidence": {
+  "banner_camp": {
+   "A": 10,
+   "B": 1
+  },
+  "bridge": {
+   "A": 6,
+   "C": 1
+  },
+  "canal": {
+   "A": 4,
+   "B": 3,
+   "C": 1
+  },
+  "hill_far": {
+   "B": 2
+  },
+  "lake": {
+   "A": 1,
+   "B": 1
+  },
+  "neighbour_garden": {
+   "A": 5,
+   "B": 10
+  },
+  "office": {
+   "A": 1,
+   "B": 2
+  },
+  "other": {
+   "A": 5,
+   "B": 14
+  },
+  "paddy": {
+   "A": 3,
+   "B": 1
+  },
+  "river": {
+   "A": 1
+  },
+  "road": {
+   "A": 4,
+   "B": 1,
+   "C": 1
+  },
+  "sluice": {
+   "A": 6,
+   "B": 1
+  },
+  "spring": {
+   "A": 1
+  },
+  "storehouse": {
+   "A": 1,
+   "B": 3
+  },
+  "temple": {
+   "A": 16,
+   "B": 1,
+   "C": 3
+  },
+  "town": {
+   "A": 1
+  },
+  "village": {
+   "A": 12,
+   "B": 2,
+   "C": 13
+  }
+ },
+ "no_source": [],
+ "unknown_sources": [],
+ "joins": [
+  {
+   "id": "OW024",
+   "target": "G30",
+   "end": "end",
+   "gap_before_m": 0.51,
+   "gap_m": 0.0,
+   "confidence": "A"
+  },
+  {
+   "id": "OW026",
+   "target": "G20",
+   "end": "start",
+   "gap_before_m": 0.4,
+   "gap_m": 0.0,
+   "confidence": "B"
+  },
+  {
+   "id": "OW043",
+   "target": "OW042",
+   "end": "start",
+   "gap_before_m": 0.0,
+   "gap_m": 0.0,
+   "confidence": "A"
+  },
+  {
+   "id": "OW043",
+   "target": "YMC-001",
+   "end": "end",
+   "gap_before_m": 26.53,
+   "gap_m": 0.0,
+   "confidence": "A"
+  },
+  {
+   "id": "OW044",
+   "target": "OW042",
+   "end": "end",
+   "gap_before_m": 41.53,
+   "gap_m": 0.0,
+   "confidence": "A"
+  }
+ ],
+ "loose_ends": [],
+ "overlaps": {},
+ "overlap_worst_m": {},
+ "join": {
+  "points": 4724,
+  "median_m": 0.002,
+  "p99_m": 0.01,
+  "max_m": 0.472,
+  "under_water_max_m": 0.0,
+  "banks_over_limit": [
+   [
+    "south",
+    430,
+    1300,
+    0.315
+   ],
+   [
+    "south",
+    432,
+    1300,
+    0.399
+   ],
+   [
+    "south",
+    435,
+    1300,
+    0.353
+   ],
+   [
+    "south",
+    690,
+    1300,
+    0.37
+   ],
+   [
+    "south",
+    692,
+    1300,
+    0.433
+   ],
+   [
+    "south",
+    695,
+    1300,
+    0.535
+   ],
+   [
+    "south",
+    698,
+    1300,
+    0.397
+   ],
+   [
+    "south",
+    702,
+    1300,
+    0.408
+   ],
+   [
+    "south",
+    705,
+    1300,
+    0.535
+   ],
+   [
+    "south",
+    708,
+    1300,
+    0.442
+   ],
+   [
+    "south",
+    710,
+    1300,
+    0.36
+   ]
+  ],
+  "how": "inner edge every 2.5 m against the ring's 20 m lattice; banks the lattice cannot follow are closed by the view's fan through the inner edge vertices",
+  "nodes": 594,
+  "nodes_max_m": 0.0,
+  "between_nodes_max_m": 0.535
+ },
+ "block_fall_m": {
+  "median": 0.023,
+  "max": 8.08,
+  "at": "OW002",
+  "over": 151,
+  "ids_over": [
+   "OW001",
+   "OW002",
+   "OW036",
+   "OW088",
+   "OW112",
+   "OW113"
+  ]
+ },
+ "sizes_bytes": {
+  "site/reconstruction/data/around_1860.json": 565555,
+  "site/reconstruction/data/surroundings_1860.geojson": 156398,
+  "site/reconstruction/generated/ground_outer.bin": 712368,
+  "site/reconstruction/generated/ground_outer.json": 8574,
+  "site/reconstruction/around3d.js": 28032,
+  "site/around": 107215,
+  "site/zh/around": 57197
+ },
+ "round_site_mb": 1.64,
+ "massing": {
+  "blocks": 4233,
+  "halls": 3,
+  "patches": 56,
+  "strips": 15,
+  "waters": 2,
+  "labels": 93
+ },
+ "fails": []
+}

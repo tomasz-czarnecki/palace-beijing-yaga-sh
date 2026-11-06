@@ -169,3 +169,22 @@ The residual is a cell minus the median of the land cells 90-210 m away.
   - ALOS AW3D30 is 30 m, and its 12.5 m product is resampled (S1016).
   - Nothing open is finer than 30 m.
 - **The real upgrade is on paper:** the 1933 survey map S15 says a 地形测量 was made and draws the hills; whether it has contours or spot heights is not known. The 1965 map predates the cutting of 1967-73. A Yangshi Lei plan of 1784 is drawn over a 10-丈 levelling grid (S1010). See `research/wishlist.md`.
+
+## Round 20: beyond the walls
+
+`scripts/ground_outer1860.py` (after `scripts/ground1860.py`) writes `site/reconstruction/generated/ground_outer.json` and `.bin`, `terrain/ground_outer_report.json`; `scripts/ground1860.py` also writes `terrain/ground_edge.json` (the inner ground along the domain's edge, every 2.5 m).
+
+- **The ring:** 491 x 361 nodes at 20 m (x -5600 to 4200, z -3400 to 3800 m; 116.232-116.346 E, 39.970-40.036 N), heights in cm.
+  - Its classes: plain 136,426 nodes, relief 27,135, lake bed 4,360, bank 22, paddy 9,308 (run).
+  - The plain is the inner ground's plane (`plain.json`) extended (C).
+  - The DEM is used only on massifs holding a named OSM peak, after an opening of 80 m that strips roofs and tree crowns: 万寿山 (47.7 ha, up to 50.5 m above the plain) and 玉泉山 with the hills north-west of it (1,044 ha).
+- **The backdrop:** 346 x 261 nodes at 200 m, out to 115.77 E. The GLO-30 tiles N39 and N40 E115 were added to `raw/dem/`. The DEM is opened by 450 m and smoothed, so it gives the ranges' silhouette, not their detail; it is drawn under fog (6-40 km).
+- **Lakes:** 昆明湖 (W0901) at 48.0 m, the DEM's median inside it, today's water. 未名湖 (W0902) crosses the domain's edge and takes the inner body's level, 44.63 m.
+- **The join:**
+  - At the 594 shared nodes of the inner domain's edge: 0 m (`tools/check_surroundings.py`).
+  - Between them, against the lattice: median 0.002 m. The worst is 0.535 m at the bank by 未名湖 on the south edge, where the inner ground rises 1.4 m within 5 m; the view's fan through the inner edge vertices closes it.
+  - Ring to backdrop: 0 m.
+- **Limits:**
+  - GLO-30 is a surface model of 2011-15. 万寿山 carries today's temples rebuilt in the 1880s-90s and today's trees, though its earth is that of 1750.
+  - Everything else is the plane. Today's fill, cuttings and reservoirs are ignored, and so is any small rise of 1860 (Q280).
+

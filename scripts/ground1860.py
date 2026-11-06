@@ -331,13 +331,19 @@ def main():
     # Water bodies: polygons touching within 1 m.
     water_feats = [(f["properties"], xz_geom(shape(f["geometry"])).buffer(0)) for f in layer("water_1860")]
     water = unary_union([g for _, g in water_feats]).intersection(domain).simplify(SIMPLIFY_M).buffer(0)
-    merged = unary_union([g.buffer(0.5) for _, g in water_feats])
-    comps = polys(merged)
+    # Round 20: water outside the walls (`outside: true`) forms bodies of its own, never merged with the gardens' even where a canal meets a sluice.
+    comps, comp_side = [], []
+    for side in (False, True):
+        feats_side = [g for p, g in water_feats if bool(p.get("outside")) == side]
+        if feats_side:
+            cs = polys(unary_union([g.buffer(0.5) for g in feats_side]))
+            comps += cs
+            comp_side += [side] * len(cs)
     tree = shapely.STRtree(comps)
     body_of = {}
     for p, g in water_feats:
-        hit = tree.query(g.representative_point(), predicate="intersects")
-        body_of[p["id"]] = int(hit[0]) if len(hit) else -1
+        hit = [int(h) for h in tree.query(g.representative_point(), predicate="intersects") if comp_side[int(h)] == bool(p.get("outside"))]
+        body_of[p["id"]] = hit[0] if hit else -1
     bodies = []
     for b, cg in enumerate(comps):
         members = [(p, g) for p, g in water_feats if body_of[p["id"]] == b]
@@ -347,10 +353,13 @@ def main():
         ring = geom.boundary
         pts = [ring.interpolate(t, normalized=True) for t in np.linspace(0, 1, 64, endpoint=False)]
         level = float(np.median(plain(np.array([q.x for q in pts]), np.array([q.y for q in pts])))) - FREEBOARD_M
+        given = [float(p["level_m"]) - DATUM_M for p, _ in members if p.get("level_m") not in (None, "")]
+        if given:
+            level = given[0]  # Round 20: a level the layer states (EGM2008 m), outside the walls only
         names = sorted({p["name_zh"] for p, _ in members if p["name_zh"]})
         area = sum(g.area for _, g in members)
         depth = next((DEPTH[n] for n in names if n in DEPTH), DEPTH_SMALL if area < SMALL_M2 else DEPTH_DEFAULT)
-        bodies.append({"index": len(bodies), "ids": [p["id"] for p, _ in members], "names": names, "area_m2": round(area), "level": level, "depth": depth, "geom": geom})
+        bodies.append({"index": len(bodies), "comp": b, "ids": [p["id"] for p, _ in members], "names": names, "area_m2": round(area), "level": level, "depth": depth, "geom": geom})
     body_geom_tree = shapely.STRtree([b["geom"] for b in bodies])
 
     # Rasters of what is where.
@@ -358,6 +367,8 @@ def main():
     body_r = np.full((Hn, W), -1, int)
     for b in bodies:
         m = raster_mask(b["geom"].intersection(domain), xs, zs) & wet
+        if comp_side[b["comp"]]:
+            m &= body_r < 0  # outside water never takes a cell of the gardens' water
         body_r[m] = b["index"]
     wet &= body_r >= 0
     levels = np.array([b["level"] for b in bodies])
@@ -601,6 +612,13 @@ def main():
 
     # The rasters the mesh samples: land extended over the water, bed extended over the land.
     land_r = fill_from(~wet, F)
+    # Round 20: the land along the domain's edge, every 2.5 m, for the ring beyond (scripts/ground_outer1860.py joins to it). cm above the datum.
+    surf = np.where(wet, fill_from(wet, np.where(wet, bed, 0)), land_r)  # what the mesh has on the edge: the land, or the bed where water reaches it
+    edge = {"x0": x0, "z0": z0, "x1": float(xs[-1]), "z1": float(zs[-1]), "step_m": STEP, "note": "the ground on the domain's edge (the land, the bed under water): north (z0, west to east), south (z1), west (x0, north to south), east (x1); cm above datum_m; wet_* 1 where water",
+            "north": np.round(surf[0, :] * 100).astype(int).tolist(), "south": np.round(surf[-1, :] * 100).astype(int).tolist(),
+            "west": np.round(surf[:, 0] * 100).astype(int).tolist(), "east": np.round(surf[:, -1] * 100).astype(int).tolist(),
+            "wet_north": wet[0, :].astype(int).tolist(), "wet_south": wet[-1, :].astype(int).tolist(), "wet_west": wet[:, 0].astype(int).tolist(), "wet_east": wet[:, -1].astype(int).tolist()}
+    (TERRAIN / "ground_edge.json").write_text(json.dumps(edge, separators=(",", ":")) + "\n", encoding="utf-8")
     land_rs = fill_from(~wet, Fs)
     bed_r = fill_from(wet, np.where(wet, bed, 0))
     code_r = fill_from(~wet, code)

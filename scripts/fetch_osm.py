@@ -1,7 +1,10 @@
 """Fetch OpenStreetMap features around Yuanmingyuan and save them as GeoJSON (ODbL, (c) OpenStreetMap contributors).
 
 Writes research/raw/osm/overpass.json (the raw answer) and research/layers/osm_today.geojson.
+Round 20: `--ring` asks for the surroundings (RING_BBOX, no buildings, no minor streets) and writes research/raw/osm/overpass_ring.json and research/layers/osm_ring_today.geojson: today's water, canals, main roads, parks, places and names, the reference for the layer surroundings_1860.
 """
+
+import sys
 
 import json
 import time
@@ -20,6 +23,37 @@ BBOX = (39.985, 116.280, 40.025, 116.325)  # south, west, north, east: the three
 RAW = Path("research/raw/osm/overpass.json")
 OUT = Path("research/layers/osm_today.geojson")
 UA = "palace-beijing-yaga-sh research bot"
+RING_BBOX = (39.972, 116.232, 40.035, 116.345)  # the ring about 2 km beyond the walls, west to 玉泉山 (Round 20)
+RING_RAW = Path("research/raw/osm/overpass_ring.json")
+RING_OUT = Path("research/layers/osm_ring_today.geojson")
+RING_QUERY = """
+[out:json][timeout:180];
+(
+  way["natural"="water"]({b});
+  relation["natural"="water"]({b});
+  way["waterway"]({b});
+  way["landuse"="reservoir"]({b});
+  way["natural"~"^(hill|ridge|wood|scrub)$"]({b});
+  node["natural"~"^(peak|hill|spring)$"]({b});
+  way["historic"]({b});
+  node["historic"]({b});
+  relation["historic"]({b});
+  way["leisure"="park"]({b});
+  relation["leisure"="park"]({b});
+  relation["boundary"="protected_area"]({b});
+  way["boundary"="protected_area"]({b});
+  way["amenity"~"^(place_of_worship|university)$"]({b});
+  node["amenity"="place_of_worship"]({b});
+  way["landuse"~"^(farmland|orchard|meadow)$"]({b});
+  way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified)$"]({b});
+  node["place"]({b});
+  way["place"]({b});
+  way["bridge"]["name"]({b});
+  node[~"^name$"~"(旗|营|村|庄|屯|寺|庙|闸|桥|园|坊|厂)"]({b});
+  way["name"~"(旗|营|闸|园|寺|庙)"]({b});
+);
+out geom;
+"""
 
 QUERY = """
 [out:json][timeout:120];
@@ -56,9 +90,9 @@ out geom;
 """
 
 
-def fetch() -> dict:
+def fetch(query=QUERY, bbox=BBOX) -> dict:
     """Run the Overpass query on the first mirror that answers."""
-    body = {"data": QUERY.format(b=",".join(map(str, BBOX)))}
+    body = {"data": query.format(b=",".join(map(str, bbox)))}
     for url in URLS:
         print("asking", url)
         try:
@@ -98,11 +132,14 @@ def to_feature(el: dict) -> dict | None:
 
 
 def main() -> None:
+    global RAW, OUT
+    if "--ring" in sys.argv:
+        RAW, OUT = RING_RAW, RING_OUT
     RAW.parent.mkdir(parents=True, exist_ok=True)
     if RAW.exists():
         data = json.loads(RAW.read_text())
     else:
-        data = fetch()
+        data = fetch(RING_QUERY, RING_BBOX) if RAW == RING_RAW else fetch()
         RAW.write_text(json.dumps(data, ensure_ascii=False))
     feats = [f for f in map(to_feature, data["elements"]) if f]
     OUT.write_text(

@@ -6,6 +6,7 @@ serif.otf in the current directory. They are about 8 and 12 MB, so they are not 
 https://github.com/notofonts/noto-cjk (Sans/OTF/SimplifiedChinese, Serif/OTF/SimplifiedChinese).
 Usage: cd <folder with sans.otf and serif.otf> && python3 <repo>/tools/font_subset.py <repo>
 For the Xiyang Lou pages: the same, with `xy` as a second argument. It leaves the homepage's subsets alone, and writes noto-sans-sc-xy.woff2 (what those pages use and the base subset lacks) and noto-serif-sc-xy.woff2 (their headings and plan labels only), and site/xiyanglou/fonts.css with their unicode-range, so the homepage never loads them. Run it after any change to their Chinese text.
+For the page on the surroundings (Round 20): `around`, the same way (noto-*-sc-around.woff2, site/around/fonts.css).
 For the scene pages (Round 7): `scenes` as the second argument, the same way: noto-sans-sc-scenes.woff2, noto-serif-sc-scenes.woff2 and site/scenes/fonts.css, from every page under site/scenes/ and site/zh/scenes/. Run it after scripts/scenes_page.py whenever their Chinese text changed.
 Needs uvx (/opt/data/.local/bin/uvx) for fonttools. Copied from the homepage round's scratch script palace_home_subset.py.
 """
@@ -44,6 +45,10 @@ if len(sys.argv) > 2 and sys.argv[2] == 'xy':
 if len(sys.argv) > 2 and sys.argv[2] == 'scenes':
     files = sorted(str(p.relative_to(R / 'site')) for d in ('scenes', 'zh/scenes') for p in (R / 'site' / d).rglob('*.html')) + ['scenes/keyplan.svg']
     xy('scenes', files, 'scenes', 'the scene pages', serif_from_body=True)
+    sys.exit(0)
+if len(sys.argv) > 2 and sys.argv[2] == 'around':  # Round 20: the page on the surroundings
+    files = sorted(str(p.relative_to(R / 'site')) for d in ('around', 'zh/around') for p in (R / 'site' / d).rglob('*.html')) + ['around/plan.svg']
+    xy('around', files, 'around', 'the page on the surroundings', serif_from_body=True)
     sys.exit(0)
 text = ''
 for f in ['index.html', 'zh/index.html', 'reconstruction/index.html']:  # credits.html lists hundreds of titles: it falls back to the system font

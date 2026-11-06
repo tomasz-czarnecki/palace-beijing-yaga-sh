@@ -46,6 +46,7 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 - Q197: Which way did the water fall?
 - Q202: Hills the plan's outlines miss
 - Q203: Water layer and shores
+- Q268: The outlets on the east
 
 <!-- generated:end -->
 
