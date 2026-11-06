@@ -174,3 +174,7 @@ models/                   detailed models, one folder per building (models/<ID>-
 - **Keep history accurate and respectful.** The destruction of 1860 is a national wound in China. State it factually (who, when, what). No sensational or cute framing, and the twelve zodiac heads stay out of any playful content.
 - **Names:** Chinese characters and pinyin first, then the English translation (正大光明 Zhengda Guangming, "Upright and Bright").
 - **Work order:** garden walls, water, islands and hills first; then the scenic compounds; then single halls.
+
+## Logo
+
+The mark is the vermilion seal (圆 明 / 园 and a round sun), chosen Nov 2026 from three proposals. `site/assets/mark.svg` (header, loading card) and `favicon.svg` are the same file; `logo-lockup.svg` is seal plus wordmark; `apple-touch-icon.png` and `favicon.ico` are renders of it. `tools/logo_gen.py` regenerates the SVGs (outlined glyphs from the site fonts; run with `uvx --from "fonttools[woff]" python tools/logo_gen.py . <outdir>`). The Yaga Labs mark (`yaga-mark-dark.webp`) in the footers stays.
