@@ -1894,6 +1894,56 @@
 }
 }
 },
+"P0415": {
+"object": "CC13",
+"plate": "",
+"image": "photos/P0415.jpg",
+"size": [
+1280,
+960
+],
+"fits": {
+"all": {
+"position": [
+1136.16,
+1.63,
+-751.59
+],
+"yaw_deg": 277.05,
+"pitch_deg": 1.66,
+"f_px": 1017.2,
+"du_px": -1133.2,
+"dv_px": -307.3,
+"k_vertical": 1.0,
+"rms_px": 14.3
+}
+}
+},
+"P0416": {
+"object": "CC13",
+"plate": "",
+"image": "photos/P0416.jpg",
+"size": [
+1280,
+960
+],
+"fits": {
+"all": {
+"position": [
+1172.23,
+3.5,
+-746.52
+],
+"yaw_deg": 257.17,
+"pitch_deg": -17.92,
+"f_px": 710.8,
+"du_px": -97.5,
+"dv_px": 6.0,
+"k_vertical": 1.0,
+"rms_px": 19.3
+}
+}
+},
 "P0173": {
 "object": "QC11",
 "plate": "",

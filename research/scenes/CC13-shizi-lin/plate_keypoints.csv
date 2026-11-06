@@ -1,0 +1,18 @@
+plate,photo_id,object,point,x,y,sure,use,note
+,P0415,CC13,hq_jamb_water_W_S,255,640,2,,"Round 29 reading on the 1x crop with a 20 px grid (scratch palace_r29_shizilin_crops/P0415_z.jpg): the near face's west jamb, its inner edge at the ice"
+,P0415,CC13,hq_spring_W_S,258,455,1,,the west springing: where the intrados leaves the straight jamb
+,P0415,CC13,hq_intrados_S,395,345,1,,the intrados at the crown (the keystone's lower edge)
+,P0415,CC13,hq_extrados_S,410,290,1,,the ring's outer edge at the crown under the deck's slab
+,P0415,CC13,hq_spring_E_S,585,545,1,,the east springing
+,P0415,CC13,hq_jamb_water_E_S,605,828,2,,the east jamb's inner edge at the ice
+,P0415,CC13,hq_ring_foot_W_S,205,645,1,,the west ring's outer edge at the ice (the abutment's face)
+,P0415,CC13,hq_ring_foot_E_S,700,838,1,,the east ring's outer edge at the ice
+,P0416,CC13,sm_extrados_out,850,430,2,,"Round 29 reading on the 1.2x crop with a 20 px grid (P0416_z.jpg): the ring's outer edge at the crown"
+,P0416,CC13,sm_intrados_out,858,492,2,,the intrados at the crown
+,P0416,CC13,sm_ring_foot_S_out,552,610,1,,"the south (left) leg's outer edge where it meets the bank's rock"
+,P0416,CC13,sm_spring_S_out,640,652,1,,the south leg's inner edge at the bank
+,P0416,CC13,sm_ring_mid_S_out,642,479,1,,the outer edge at the haunch (45° on the ring as read by the edge's slope)
+,P0416,CC13,sm_intr_mid_S_out,708,537,1,,the inner edge at the haunch
+,P0416,CC13,sm_ring_mid_N_out,1033,500,1,,the north (right) haunch's outer edge
+,P0416,CC13,sm_intr_mid_N_out,962,542,1,,the north haunch's inner edge (the soffit's edge)
+,P0415,CC13,hq_jamb_water_W_N,560,597,1,,"the west jamb's foot at the far face: the barrel's west wall meets the ice along a joint running from the near face (255, 640) into the arch"

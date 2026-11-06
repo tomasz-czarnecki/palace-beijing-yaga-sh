@@ -12,26 +12,26 @@
   "reed_bed": 21,
   "lotus_pond": 40,
   "flower_bed": 25,
-  "rockery": 84
+  "rockery": 82
  },
  "areas_sourced": 447,
  "areas_fill": 9,
- "plants": 41446,
+ "plants": 41409,
  "by_form": {
-  "pine": 4170,
-  "blossom": 2743,
-  "willow": 1455,
-  "broad": 2425,
+  "pine": 4156,
+  "blossom": 2701,
+  "willow": 1456,
+  "broad": 2386,
   "topiary": 354,
   "cypress": 259,
-  "bamboo": 4723,
-  "reed": 7787,
-  "floating": 2757,
-  "lotus": 14176,
-  "shrub": 597
+  "bamboo": 4801,
+  "reed": 7796,
+  "floating": 2756,
+  "lotus": 14181,
+  "shrub": 563
  },
- "assumed_plants": 6284,
- "rockeries": 84,
+ "assumed_plants": 6169,
+ "rockeries": 82,
  "rockeries_unplaced": [
   [
    "YM01",
@@ -40,6 +40,16 @@
   ]
  ],
  "rockeries_by_model": [
+  [
+   "CC13",
+   "hill",
+   "CC13"
+  ],
+  [
+   "CC13",
+   "shore",
+   "CC13"
+  ],
   [
    "YM46",
    "standing",

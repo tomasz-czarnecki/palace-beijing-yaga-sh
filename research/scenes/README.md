@@ -92,7 +92,7 @@ Halls: rows inside it; own: with a picture or text of their own. Pictures: tied 
 | CC14 | 玉玲珑馆 Yulinglong Guan | 3 | 14 | 7 | 1 (1) | 0 | 37 (1) | 0 | 3 (3) | 7 | 0 | 0 | 0 | 3 | 20.7 |  | [CC14-yulinglong-guan](CC14-yulinglong-guan/README.md) |
 | CC04 | 思永斋 Siyong Zhai | 3 | 18 | 4 | 5 (5) | 0 | 26 (0) | 0 | 0 | 6 | 0 | 0 | 0 | 3 | 21.6 |  | [CC04-siyong-zhai](CC04-siyong-zhai/README.md) |
 | CC06 | 海岳开襟 Haiyue Kaijin | 3 | 6 | 1 | 4 (4) | 1 | 26 (0) | 0 | 0 | 7 | 0 | 0 | 1 (1) | 4 | 23.6 |  | [CC06-haiyue-kaijin](CC06-haiyue-kaijin/README.md) |
-| CC13 | 狮子林 Shizi Lin | 3 | 18 | 14 | 7 (7) | 2 | 67 (0) | 0 | 0 | 3 | 0 | 0 | 0 | 4 | 34.7 |  | [CC13-shizi-lin](CC13-shizi-lin/README.md) |
+| CC13 | 狮子林 Shizi Lin | 3 | 18 | 14 | 7 (7) | 2 | 67 (0) | 0 | 0 | 4 | 0 | 0 | 0 | 4 | 34.7 |  | [CC13-shizi-lin](CC13-shizi-lin/README.md) |
 | CC18 | 如园 Ru Yuan | 3 | 19 | 5 | 0 (0) | 0 | 41 (2) | 2 | 25 (25) | 4 | 0 | 0 | 0 | 6 | 80.1 |  | [CC18-ru-yuan](CC18-ru-yuan/README.md) |
 | CC16 | 鉴园 Jian Yuan | 3 | 8 | 4 | 0 (0) | 0 | 22 (0) | 1 | 0 | 4 | 0 | 0 | 0 | 3 | 15.2 |  | [CC16-jian-yuan](CC16-jian-yuan/README.md) |
 | CC15 | 映清斋 Yingqing Zhai | 3 | 8 | 1 | 0 (0) | 0 | 11 (1) | 0 | 0 | 7 | 0 | 0 | 0 | 2 | 7.1 |  | [CC15-yingqing-zhai](CC15-yingqing-zhai/README.md) |
@@ -119,7 +119,7 @@ Halls: rows inside it; own: with a picture or text of their own. Pictures: tied 
 | QC19 | 四宜书屋 (绮春) Siyi Shuwu (Qichun) | 4 | 15 | 0 | 1 (1) | 0 | 18 (2) | 1 | 5 (5) | 4 | 0 | 0 | 0 | 2 | 23.8 |  | [QC19-siyi-shuwu-qichun](QC19-siyi-shuwu-qichun/README.md) |
 | QC06 | 凤麟洲 Fenglin Zhou | 4 | 2 | 0 | 4 (4) | 0 | 31 (0) | 1 | 2 (2) | 7 | 0 | 0 | 0 | 2 | 25.1 |  | [QC06-fenglin-zhou](QC06-fenglin-zhou/README.md) |
 
-Dossiers: 81, public pages 10. Figures in all: 585 (a 192, b 381, c 3, d 0, e 9); from research 206 (a 192, b 2, c 3, d 0, e 9), measured here on the layers 379. Halls with evidence of their own: 529 of 1174.
+Dossiers: 81, public pages 10. Figures in all: 586 (a 192, b 382, c 3, d 0, e 9); from research 206 (a 192, b 2, c 3, d 0, e 9), measured here on the layers 380. Halls with evidence of their own: 529 of 1174.
 
 ## Typology check
 

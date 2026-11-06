@@ -214,13 +214,14 @@ Never a source for a size or a position here.
 
 ## Dimension sheet
 
-Machine-readable: `dimensions.json`. Figures by method: a 0, b 3, c 0, d 0, e 0. a, a published survey, excavation report or measured drawing, or a Qing drawing or text that writes the figure; b, measured on the plan or a ruin footprint; c, read from a painting or woodcut by module; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it. Rows marked `run` were measured by `scripts/scenes_dossiers.py` on the traced layers. The Qing module: 1 营造尺 = 0.32 m.
+Machine-readable: `dimensions.json`. Figures by method: a 0, b 4, c 0, d 0, e 0. a, a published survey, excavation report or measured drawing, or a Qing drawing or text that writes the figure; b, measured on the plan or a ruin footprint; c, read from a painting or woodcut by module; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it. Rows marked `run` were measured by `scripts/scenes_dossiers.py` on the traced layers. The Qing module: 1 营造尺 = 0.32 m.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | CC13 | the scene's outline on the plan | Area | 5500 m² | 500 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | CC13 | the scene's outline on the plan | Extent, long side | 96 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | CC13 | the scene's outline on the plan | Extent, short side | 76 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
+| CC13 | water inside the scene's outline | Water inside the outline | 730 m² | 70 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 
 ## Gaps and wishlist
 
@@ -230,15 +231,24 @@ Only two of the 14 named parts have a plan size (清閟阁 7 bays, 探真书屋)
 
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
 - **Q214. The age of the pines.** Qianlong's preface of 1770 says Changchun Yuan's pines were planted as saplings (S05 j83 "培松拱把"; at 狮子林 "稚松皆新種"); by 1860 they were about 90 years old. 清晖阁's pines burned in 1763 and were replanted (S361). All pines are drawn as mature trees of 12 m, a species default. (Round 12)
+- **Q306. 狮子林's pool and its channel. (Round 29)** S01 washes the band between 清閟阁's range and the rockery (the label 清閟阁 written on it), and the strip west of the rockery; Round 1's tracer left them land (R2443, R2866, R2045), though their tint is the lake rim's (gr -11 to -12 against -16 on dry land). The 1772 preface 
+- **Q307. Which unnamed hall is which of the sixteen scenes. (Round 29)** S01 labels only 清閟阁, 探真书屋, 小香幢 and draws the water gate. The model names the others by the poems' hints (C): the hall in the rockery 纳景堂 (CC13-N01; 鏡水冩形), the hall in the court between the rockeries 清淑斋 (N02; 就樹得佳隂), the hall by the east garden's s
+- **Q308. The rainbow bridge's size. (Round 29)** The poems give a small bridge whose arch makes a half circle on the water (卧波上者形如半，印水觀來體忽圓, E0227) and that boats pass under (E0203). S01 draws two lines across the pool's arm (about 6 m long, 2.4 m apart). The bridge re-erected on its site (P0415, 2013) fits the model at
 
 ### Wishlist rows that name it
 
 | What | Replaces | Where held | How |
 |---|---|---|---|
 | A Yangshi Lei plan of 长春园狮子林 and the restoration record of its bridge and water gate | the plan-read boxes of CC13 and the guessed rockery | 国家图书馆 Yangshi Lei; 圆明园管理处 | search the NLC catalogue titles for 狮子林; ask the park for the repair drawings |
+| Round 29: a Yangshi Lei plan of 长春园狮子林 (the garden's ground plan, the 丈尺 of its halls) | The pool's channel (Q306), which hall is which scene (Q307), 清閟阁's extent (Q310), the peak of 占峰亭 (Q311), every hall's bays and depth: today all S01's cells and C | 国家图书馆 Yangshi Lei; the Palace Museum | Search the catalogue titles for 狮子林; order a scan |
+| Round 29: a photograph of the Chengde copy 文园狮子林 (T072) taken from its pool, with the names of its halls | The forms of the sixteen scenes in a copy built after this one: a twin's forms only (C) | 避暑山庄; Commons category of the Mountain Resort | Search the Commons and the resort's own publications |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### The detailed model (Round 29)
+
+`models/CC13-shizi-lin/` draws the garden from S01 re-read in plan pixels and from Qianlong's sixteen poems of 1772-75, which say what each scene was: 清閟阁 by a winding pool facing the rockery, the rainbow bridge a half circle on the water that boats pass under, the wisteria frame over a winding stone bridge, the four-column pavilion on the summit, the one-bay tower 小香幢 with its shrine above, the climbing gallery to 探真书屋, the open hall 横碧轩 on the stream with a bow-shaped bridge, the water gate under a wall with a walk on its top (E0203, E0218, E0225-E0266). The pool and the east garden's stream were traced as water (research/plan/water_manual.json RM004, RM005: W0368, W0369). Which of S01's unnamed halls is which scene is a reading (Q307). The rainbow bridge and the water gate were tested on the arches re-erected on their sites in 2013 (P0415 14.3 px, 0.08 m rms; P0416 19.3 px, 0.16 m: `plate_fit.csv`); the bridge's proportions come from a sweep on P0415 (an opening of 1.6 m on 1.1 m jambs), its absolute size from an assumed lens (Q308). Open: Q306-Q311.

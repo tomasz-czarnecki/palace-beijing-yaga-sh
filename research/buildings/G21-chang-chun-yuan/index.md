@@ -47,6 +47,7 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 - Q202: Hills the plan's outlines miss
 - Q203: Water layer and shores
 - Q268: The outlets on the east
+- Q306: 狮子林's pool and its channel. (Round 29)
 
 <!-- generated:end -->
 

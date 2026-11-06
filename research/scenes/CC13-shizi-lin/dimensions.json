@@ -3,7 +3,7 @@
  "name": "狮子林 Shizi Lin",
  "by_method": {
   "a": 0,
-  "b": 3,
+  "b": 4,
   "c": 0,
   "d": 0,
   "e": 0
@@ -55,6 +55,22 @@
    "locator": "layers/scenes_1860, UTM 50N, polygon area",
    "snippet": false,
    "key": true,
+   "scale": "UTM 50N"
+  },
+  {
+   "id": "CC13",
+   "part": "water inside the scene's outline",
+   "what": "water_area",
+   "label": "Water inside the outline",
+   "value": 730.0,
+   "err": 70.0,
+   "unit": "m²",
+   "method": "b",
+   "confidence": "B",
+   "source": "S01",
+   "locator": "layers/water_1860 within layers/scenes_1860",
+   "snippet": false,
+   "key": false,
    "scale": "UTM 50N"
   }
  ]

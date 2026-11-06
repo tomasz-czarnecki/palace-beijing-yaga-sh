@@ -35,6 +35,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r26_maze` | not recorded | 2026-11-06, from 17:44 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r27_anyou` | not recorded | 2026-11-06, from 19:01 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r28_zhengjue` | not recorded | 2026-11-06, from 20:16 | about 2 h | - | see its result row | see the git log | done |
+| `palace_r29_shizilin` | not recorded | 2026-11-06, from 21:58 | about 3 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -1009,3 +1010,32 @@ Brief: `palace_r28_zhengjue.md`. The fifteenth detailed model, built from the re
 - **P0177's camera** ran free 64 m back behind 天王殿 (0.28 m, the overlay showed 天王殿's back wall); held in the middle court it fits 0.44 m and the roof's vote stands (`docs/METHOD.md` 53).
 - **Found on the shots and fixed:** the pond at the gate, hills in the courts, 文殊亭's eaves as thick dark bands (now `oct_roof`), the 五佛殿 one storey where the survivor has two.
 - **Open:** Q299-Q305; the bell and drum towers' and 天王殿's forms are C; P0173's right-hand hall.
+
+## palace_r29_shizilin
+
+Brief: `palace_r29_shizilin.md`. The sixteenth detailed model, built from the references: 狮子林 CC13, the rockery garden of 长春园 copied in 1772 from the Suzhou garden and 倪瓒's scroll (`models/CC13-shizi-lin/`). No subagent: the plan, the texts and the photographs were read by the round itself.
+
+**What it rests on:**
+- **S01**, re-read on 3x, 4x and 5x crops with a 10 px grid (`models/CC13-shizi-lin/plan_readings.csv`): the west garden's three walls, 清閟阁's seven cells, the washed pool, the rockery's outline, 虹桥's two lines, the water gate's half-round, 探真书屋's court and the climbing gallery, the strip to 小香幢, the court between the rockeries, the east garden's curved wall, its halls, stream, pond, mountain sign and rocks.
+- **Qianlong's poems and prefaces** of 1772-75 on the sixteen scenes (S05 j83; E0203, E0218, E0225-E0266): what each scene was (A for the forms they state).
+- **P0415, P0416** (2013, free): the rainbow bridge and the water gate re-erected on their sites, fitted; P0500, P0417 (the gate from inside) and P0442 (the slab with the 1772 poem) beside the model.
+
+**New in the pipeline:**
+- `research/plan/water_manual.json`: RM004 (the pool 曲池 with its west arm and the channel to the water gate, W0368, joined to the lake's level) and RM005 (the east garden's stream and pond, W0369).
+- The generator's own `arch_faces()` (a stilted semicircular arch), `hongqiao()`, `watergate()`, `open_hall()`, `square_pavilion()`, `rock_steps()`, `rock_bank()`, `door_in_wall()`, `kit_hall()`; rocks stacked in tiers (`rock_mass`) and standing peaks.
+- The scene's sheets `research/scenes/CC13-shizi-lin/plate_keypoints.csv`, `photo_viewpoints.csv`, `plate_fit.csv`, `plate_cameras.json`.
+- `research/questions.md`: Q306-Q311. `research/wishlist.md`: three rows.
+
+**Numbers:**
+- **check_models:** CC13 46,542 triangles (37,010 fill), GLB 1.67 MB, 0.57 MB compressed; 118 joints, highest 0.16 m above the ground, deepest 0.20 m in; 5 ways at its boxes, 0 off (before the fix: four platform corners measured at the pool's bed, 2.0-2.9 m, and a reach way 8.1 m from any entry at the water gate). Joints on the decks (`models/CC13-shizi-lin/report.json`): 4, all at 0.00 m (before the fix three were off: 1.53, -0.46, 4.23 m).
+- **Fits** (`research/scenes/CC13-shizi-lin/plate_fit.csv`): P0415 14.3 px, 0.08 m rms over 9 points (the first fit, on S01's proportions, 25 px with the camera on the arch's face, then 44.7 px with the lens at 252 px); P0416 19.3 px, 0.16 m over 8 points.
+- **Sweeps** (environment `CC13_HQ`, `CC13_SM`, never in step 6): 虹桥 span/jambs 2.4/0.55 44.7 px, 1.8/0.55 38.4, 2.0/0.9 25.4, 1.6/0.9 17.6, 1.8/1.2 16.9, 1.6/1.1 14.3, 1.4/1.0 12.7 px; 水门 span 2.4-3.4 m 18.2-21.2 px (not settled).
+- **Kit:** forms from a model 127 to 136 boxes. **Planting:** 41,446 to 41,409 plants; areas 540 to 538. **Hills:** 458 to 456 (a knoll where the pool is, and the free-land hills inside the gardens, H2039 and H2048, kept out by `level`); the generated ids after H2035 move by one. **Water:** 366 to 368 bodies. The Changchun lake's level moved from 42.53 to 42.51 m (EGM2008) when the pool joined its body; the other models' footings follow the ground by up to 0.02 m (文源阁's joints, one by 0.018 m), so their GLBs are rewritten.
+- **The site** grows by 1.8 MB.
+
+**Went wrong or left open:**
+- **P0415's camera** collapsed onto the arch's face with all its points on one plane; a point at the far face and a sweep of the arch fixed it (`docs/METHOD.md` 56). **P0416's camera** sank under the water from a prior over the lake's lobe; its eye is now given above the bank.
+- **Found on the shots and fixed:** the rocks as crystal shards (now stacked tiers), the rockery too low (now 1.4-3.4 m, a 5.2 m summit, sixteen standing peaks), the court before 纳景堂 as a raised slab, the wisteria as solid slabs, 占峰亭's stair over 横碧轩's platform.
+- **Left:** the kit's paved court of the default box D018 (小香幢's box of Round 2) still shows as a pale square north of the garden (`scripts/kit1860.py` makes courts round boxes a model owns); the landing CCX-061 of Round 9 stands in the water just outside the water gate.
+- **Open:** Q306-Q311; every height and every hall's form are C; the identification of the unnamed halls.
+

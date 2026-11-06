@@ -1,0 +1,120 @@
+{
+ "id": "CC13",
+ "frame": "origin at the front middle of 清閟阁's box F0357 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "layout": {
+   "value": "the garden's walls, 清閟阁's range, the pool and its arm and channel, the rockeries, the halls, the court of 清淑斋 and the east garden as S01 draws them",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 re-read in Round 29 on 3x, 4x and 5x crops (plan_readings.csv): every line in plan pixels; S01 is B until Q2; its scale here about 0.24 m a pixel"
+  },
+  "names": {
+   "value": "the sixteen scenes in the order of 日下旧闻考: 虹桥, 假山, 纳景堂, 清閟阁, 藤架, 磴道, 占峰亭, 清淑斋, 小香幢, 探真书屋, 延景楼, 云林石室, 横碧轩, 水门",
+   "source": "S05;S361",
+   "grade": "A",
+   "note": "S05 j83:13b (E0220); the two sets of eight poems with prefaces, 1772 (E0203, E0218); S01 labels 清閟阁, 探真书屋, 小香幢 and the half-round of the water gate; which unnamed hall on S01 is which scene is our reading (C): N01 纳景堂, N02 清淑斋, N03 横碧轩, N04 延景楼, the small three-cell house 云林石室"
+  },
+  "pool": {
+   "value": "the pool 曲池 before 清閟阁 with its west arm and the rock-lined channel along the south wall to the water gate: Round 29's water W0368, at the lake's level",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01's wash before the range (the label 清閟阁 on it) (B); the 1772 preface: 臨曲池面假山 (E0203, A); the channel's course along the south wall a reading (C): research/plan/water_manual.json RM004"
+  },
+  "qingbi": {
+   "value": "清閟阁: seven bays, two storeys, a front porch on the pool, a gallery behind, a rolled 歇山 roof in grey tile",
+   "source": "S01;S05;S361",
+   "grade": "B",
+   "note": "S01's seven cells and rows (B); 閣 (S05: a storeyed building, A); Qianlong's copy of 倪瓒's scroll kept in it (E0223, B); the 1772 preface: 清閟小閣置近臨活水 (E0203); bays regularised, every height C"
+  },
+  "rockery": {
+   "value": "the rockery 假山 round 纳景堂: rock masses on S01's outline, highest north-east of the hall, rock banks on the water, a stair 磴道 to the summit, two caves",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01 draws the outline with rock strokes (B); 獅林以石勝 ... 兹令吳下髙手堆塑小景 (E0203, A); 房山石似洞庭 (Fangshan stone like Taihu's, E0240, A); 循巖陟磴 (E0240); every rock's form and height C; the caves after the Suzhou garden (T073: a comparable, C)"
+  },
+  "najing": {
+   "value": "纳景堂: three bays in the rockery with a porch, a paved terrace before it",
+   "source": "S01;S05",
+   "grade": "C",
+   "note": "S01's hall of four cells (13.2 x 6.6 m) and the plain rectangle south of it (B for the place); the name ours (C); bays, form and heights C"
+  },
+  "hongqiao": {
+   "value": "虹桥: a single stone arch over the pool's west arm, a half circle 1.6 m across on jambs 1.1 m above the water, its ring 0.28 m, a beast's head on the keystone, steps down at both ends",
+   "source": "S05;S01;S361",
+   "grade": "A",
+   "note": "the poems: 跨水為小橋 ... 其下可舟通 (E0203), 卧波上者形如半，印水觀來體忽圓 (a half circle on the water, E0227) (A); S01's two lines across the arm (B); the restored bridge on its site (P0415, 2013) for the ring, the keystone head and the steps (B); its span and heights from P0415's proportions (C)"
+  },
+  "tengjia": {
+   "value": "藤架: a winding stone bridge of three turns across the pool on the 明间's line, 1.6 m wide, under a timber frame of wisteria",
+   "source": "S05",
+   "grade": "A",
+   "note": "E0203: 紫藤引架垂隂縵縈可十數武於石橋宛轉 ... 石橋既曲折，藤架復邐迤 (A); E0237: 石橋上置藤蘿架 (A); its place and course C (S01 does not draw it)"
+  },
+  "yunlang": {
+   "value": "云廊: the climbing gallery from the range's back up to the 探真书屋 court, its floor stepping up",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01's narrow double line stepping down from the court (B); E0252: 雲廊拾級上，書屋號探真 (A); its width and steps C"
+  },
+  "tanzhen": {
+   "value": "探真书屋: two bays in its court, the court on a rock terrace 1.8 m above the gallery's foot",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01's two cells and court (B); 拾級上 (E0252, A); the terrace's height and the house's form C"
+  },
+  "xiangchuang": {
+   "value": "小香幢: a one-bay tower of two storeys at the north end of the strip, the shrine above, a covered way to the range",
+   "source": "S05;S01",
+   "grade": "B",
+   "note": "E0218: 一間樓湧小香幢 (A); E0249: 石磴玲瓏倚翠幢，上為佛室 (A); S01's label on the hill, the strip and its north cell (B); the identification and form C"
+  },
+  "watergate": {
+   "value": "水门: a stone arch 3.0 m across through the east wall where the channel leaves for the lake, the wall 1.4 m thick over it with a walk on its top; the poem's slab",
+   "source": "S05;S01;S361",
+   "grade": "A",
+   "note": "E0265: 跨水為牆下置門 (A); E0266: 跨波門徑上騎牆，歷歷人行來往航 (A); S01's half-round at the south-east corner (B); the restored ring on its site (P0416, P0500, P0417) for its form (B); the slab with the 1772 poem (P0442, A: its place on the gate C)"
+  },
+  "qingshu": {
+   "value": "清淑斋: three bays in the court between the rockeries, its walls",
+   "source": "S01;S05",
+   "grade": "C",
+   "note": "S01's court and inner rectangle (B); E0246: 就樹得佳隂 ... 溪聲清以沉 (A); the identification and form C"
+  },
+  "hengbi": {
+   "value": "横碧轩: an open hall 敞轩 of three bays on the stream, a bow-shaped bridge over the stream before it",
+   "source": "S05;S01",
+   "grade": "B",
+   "note": "E0261: 文軒築溪上，溪水如帶横 (A); E0262: 有橋如弓彎 ... 過橋坐敞軒 (A); S01's hall of four cells by the stream (B); the identification, bays and form C"
+  },
+  "zhanfeng": {
+   "value": "占峰亭: a square pavilion on four columns on the east garden's peak, 4.8 m above the ground, a stone stair 磴道 up",
+   "source": "S05;S01",
+   "grade": "A",
+   "note": "E0243: 峰頂一笠 ... 歷艱陟頂得稍平，四柱小亭翼然據 (A); S01's mountain sign in the east garden (B for the place of a peak); the peak's height and the roof C"
+  },
+  "yanjing": {
+   "value": "延景楼: three bays, two storeys, against the east garden's north wall, a rock stair up its side",
+   "source": "S05;S01",
+   "grade": "C",
+   "note": "E0255: 詭石玲瓏棧徑通 ... 拾級望遙 (A); S01's three cells (B); the identification and form C"
+  },
+  "yunlin": {
+   "value": "云林石室: a three-bay stone room among the rocks of the east garden",
+   "source": "S05;S01",
+   "grade": "C",
+   "note": "E0258: 石作夏雲石作林，其中有室 ... 三間十笏惟容膝 (A); S01's three small cells (B); the identification and form C"
+  },
+  "stream": {
+   "value": "the stream 溪 of the east garden with the small pond at its end: Round 29's water W0369",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01's narrow double line (B); E0261, E0262, E0246 (A); its width 1.8 m C"
+  },
+  "walls": {
+   "value": "the garden's walls, white with a grey tiled coping, 3.0 m",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01's lines (B); white walls with grey tile after the Suzhou garden (T073, comparable: C); height C"
+  }
+ }
+}

@@ -63,5 +63,25 @@
   "islands": false,
   "points": [[716.7, 1375.9], [770.5, 1382.4], [770.5, 1392.5], [748.6, 1390.8], [748.7, 1556.5], [752.7, 1576.1], [780.6, 1611.5], [820.5, 1648.4], [864.3, 1669.7], [982.0, 1684.7], [1109.8, 1699.1], [1151.7, 1682.2], [1191.7, 1651.1], [1215.7, 1618.0], [1220.7, 1588.7], [1221.8, 1448.9], [1219.8, 1440.6], [1221.8, 1433.9], [1239.7, 1436.2], [1235.8, 1445.6], [1233.7, 1530.3], [1232.7, 1598.2], [1223.7, 1633.0], [1199.7, 1662.0], [1159.7, 1697.1], [1109.7, 1716.1], [982.0, 1701.7], [860.4, 1686.2], [830.5, 1671.7], [790.6, 1646.9], [750.7, 1612.0], [730.8, 1579.5], [723.8, 1548.5], [722.7, 1468.0], [721.7, 1392.6]],
   "note": "manual (Round 27): the outer moat 月河 of 鸿慈永祜, a U round the forecourt with the three timber archways and the south half of the outer wall, traced on 2.5x crops of S01 between its two ink lines (12-26 px, 2.7-5.7 m) from the caps beside the outer wall at y 1405-1420 to the south side at y 1684-1702, one channel across the five breaks where S01 draws the bridges (x 864-874, 946-955, 973-991, 1010-1018, 1102-1110); S05 j81:20a 其南為月河橋 (A); Malone: the moat is crossed by five marble bridges, the middle one for the emperor alone (S02 p.85, E1563, B). Drawn on S01 as closed pieces, it was land. `islands` false, as RM002."
+ },
+ {
+  "region_id": "RM004",
+  "class": "water",
+  "name_zh": "",
+  "kind": "pond",
+  "confidence": "C",
+  "islands": false,
+  "points": [[11903, 1500], [12045, 1500], [12048, 1525], [12044, 1548], [12020, 1549], [12000, 1550], [11967, 1542], [11950, 1544], [11934, 1552], [11928, 1570], [11926, 1600], [11928, 1612], [11934, 1625], [11938, 1650], [11934, 1672], [11960, 1686], [12030, 1686], [12046, 1674], [12072, 1672], [12072, 1688], [12046, 1690], [12030, 1700], [11903, 1700]],
+  "note": "manual (Round 29): the pool 曲池 of 狮子林 before 清閟阁 with its west arm under 虹桥 and the rock-lined channel along the south line to the water gate 水门, out to the lake's lobe (R0006); traced on 3x and 4x crops of S01 (models/CC13-shizi-lin/plan_readings.csv: pool_N, pool_W, channel_S, watergate). S01 washes the band before the range (the label 清閟阁 written on it; tint as the lake's rim, gr -11 to -12, against -16 on dry land) but the tracer could not close it: Round 1's regions R2443, R2866, R2045 were land by default. The 1772 preface: 臨曲池面假山 (清閟阁, E0203, A); 虹桥 跨水 ... 其下可舟通 (E0203, A); 水門: 跨水為牆下置門 (E0265), 跨波門徑上騎牆，歷歷人行來往航 (E0266, A). The channel's course along the south line is a reading (C): S01 draws rocks in that band. Kept as land in regions_classified.csv so that the traced ids do not move (as Rounds 19, 24, 27)."
+ },
+ {
+  "region_id": "RM005",
+  "class": "water",
+  "name_zh": "",
+  "kind": "canal",
+  "confidence": "C",
+  "islands": false,
+  "points": [[12152, 1580], [12153, 1590], [12160, 1598], [12170, 1603], [12178, 1598], [12183.4, 1593.7], [12184.1, 1593.7], [12176.7, 1610.5], [12176.4, 1612.3], [12177.1, 1614.1], [12178.5, 1615.3], [12180.3, 1615.6], [12182.1, 1614.9], [12183.3, 1613.5], [12190.3, 1598.5], [12200.2, 1571.7], [12209.5, 1559.7], [12231.9, 1546.1], [12233.3, 1544.4], [12243.3, 1521.4], [12243.5, 1519.4], [12239.5, 1496.4], [12238.2, 1494.2], [12214.4, 1475.3], [12197.5, 1459.4], [12195.8, 1458.5], [12194, 1458.6], [12192.4, 1459.5], [12191.5, 1461.2], [12191.6, 1463], [12192.5, 1464.6], [12209.8, 1480.8], [12232.6, 1499], [12236.2, 1519.6], [12227.2, 1540.5], [12204.1, 1554.8], [12194.1, 1567.8], [12188.2, 1583.2], [12187.4, 1582.9], [12187, 1578], [12175, 1572], [12160, 1573]],
+  "note": "manual (Round 29): the stream 溪 of 狮子林's east garden by 横碧轩, from the north-east through the rocks to the small pond at its south end (S01: a narrow double line of 5-8 px, about 1.5-2 m, models/CC13-shizi-lin/plan_readings.csv stream_E, pond_E), traced as its middle line widened to 1.8 m; the poems: 文軒築溪上，溪水如帶横 (E0261), 有橋如弓彎，有溪若鏡横 (E0262), 溪聲清以沉 (清淑斋, E0246): A for the stream, C for its course and width. Too narrow for the tracer: land in Round 1."
  }
 ]

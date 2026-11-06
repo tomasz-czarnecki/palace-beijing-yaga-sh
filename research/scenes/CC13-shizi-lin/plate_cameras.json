@@ -1,0 +1,155 @@
+{
+ "object": "CC13",
+ "label": "",
+ "points_from": "model CC13-shizi-lin",
+ "cameras": {
+  "P0415": {
+   "plate": "",
+   "image": "P0415.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "CC13",
+   "points_from": "model CC13-shizi-lin",
+   "prior": {
+    "lat": 40.0114152,
+    "lon": 116.3102805,
+    "err": 2.5,
+    "bearing": 321.5,
+    "eye": 1.6,
+    "eye_sd": 0.5,
+    "f2400": 2305.1785523653994,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 29: the rainbow bridge 虹桥 re-erected on its site (2013), seen from the bank south-east of it under the arch along the water: the near face's east leg stands much lower in the picture than its west leg, so the camera is close and to the east; the steps at the right lead down to the rockery's side (the dark piled rocks behind). The restored bridge tests the model's arch (its ring, jambs and crown), not its place: 55° lens assumed; the mirror reading (the camera north-west) fits the same points as well"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      1136.16,
+      1.63,
+      -751.59
+     ],
+     "yaw_deg": 277.05,
+     "pitch_deg": 1.66,
+     "f_px": 1017.2,
+     "du_px": -1133.2,
+     "dv_px": -307.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.31,
+     "moved_from_prior_m": 0.9,
+     "points": {
+      "n": 9,
+      "rms_px": 14.3,
+      "median_px": 11.8,
+      "max_px": 27.0,
+      "rms_m": 0.08,
+      "median_m": 0.06,
+      "max_m": 0.13
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 14.3,
+      "median_px": 11.8,
+      "max_px": 27.0,
+      "rms_m": 0.08,
+      "median_m": 0.06,
+      "max_m": 0.13
+     },
+     "sure12": {
+      "n": 9,
+      "rms_px": 14.3,
+      "median_px": 11.8,
+      "max_px": 27.0,
+      "rms_m": 0.08,
+      "median_m": 0.06,
+      "max_m": 0.13
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0416": {
+   "plate": "",
+   "image": "P0416.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "CC13",
+   "points_from": "model CC13-shizi-lin",
+   "prior": {
+    "lat": 40.0113592,
+    "lon": 116.310736,
+    "err": 6.0,
+    "bearing": 283.7,
+    "eye": 4.1,
+    "eye_sd": 0.6,
+    "f2400": 2305.1785523653994,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 29: the water gate's ring re-erected on its site (2013), seen from outside, looking in along the water under the arch, a little from the left (south): the ring's soffit shows on the right. The restored ring stands free (the wall over it is not rebuilt); it tests the model's arch, not the wall. The prior stands where the model has the lake's lobe (today the channel runs on between banks): its eye is given as the bank's height plus 1.6 m above the lake's bed there (4.1 m), or the fit sinks the camera under the water: 55° lens assumed"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      1172.23,
+      3.5,
+      -746.52
+     ],
+     "yaw_deg": 257.17,
+     "pitch_deg": -17.92,
+     "f_px": 710.8,
+     "du_px": -97.5,
+     "dv_px": 6.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 5.71,
+     "moved_from_prior_m": 2.2,
+     "points": {
+      "n": 8,
+      "rms_px": 19.3,
+      "median_px": 12.4,
+      "max_px": 37.9,
+      "rms_m": 0.16,
+      "median_m": 0.1,
+      "max_m": 0.32
+     },
+     "tests": {
+      "n": 8,
+      "rms_px": 19.3,
+      "median_px": 12.4,
+      "max_px": 37.9,
+      "rms_m": 0.16,
+      "median_m": 0.1,
+      "max_m": 0.32
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 19.3,
+      "median_px": 12.4,
+      "max_px": 37.9,
+      "rms_m": 0.16,
+      "median_m": 0.1,
+      "max_m": 0.32
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}
