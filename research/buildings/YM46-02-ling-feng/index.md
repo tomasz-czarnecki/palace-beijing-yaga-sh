@@ -79,7 +79,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q288: 玲峰's height
 
 <!-- generated:end -->
 

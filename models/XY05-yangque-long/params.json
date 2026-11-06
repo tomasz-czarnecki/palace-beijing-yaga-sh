@@ -1,0 +1,222 @@
+{
+ "id": "XY05",
+ "frame": "x south along the west front (to the right seen from the west), y up from the ground at the gate's box, z west (out of the west front); the origin at the west front's middle; metres",
+ "params": {
+  "w": {
+   "value": 13.9,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the gate range N-S: the plan 13.89 m (b); plates 6 and 7 both 13.9 m on their modules (c); on plate 6 the wings' outer columns 677 px apart, the module of the west front's readings (48.7 px/m)"
+  },
+  "d": {
+   "value": 11.6,
+   "source": "S01",
+   "grade": "C",
+   "note": "west front to east front with the centre's projection: the plan 11.65 m (b)"
+  },
+  "range_w": {
+   "value": -2.5,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the range's west wall (the door and the cage walls) behind the columns' line: on plate 6 the door's sill stands 6 px above the columns' feet, about 2 m further at the plate's 31 m (Round 26 readings); S01's centre projects 5 m west, with its steps"
+  },
+  "col_z": {
+   "value": -0.45,
+   "source": "S71",
+   "grade": "C",
+   "note": "the west columns' line: the portico's and the wings' outer columns stand in one plane, their feet at the same height on plate 6 (y 962-966)"
+  },
+  "range_e": {
+   "value": -9.8,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the east front's middle (the arch) from the west front: concave, the ends 1.8 m further east (plate 7: the end pavilions drawn 14% larger than the centre's piers; P0192: the cornice and the balustrade curve back to the middle)"
+  },
+  "centre_bay": {
+   "value": 5.1,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the east centre bay over its piers: plate 7 the piers' capitals 270 px apart against the niches' 448 (P0192 595 and 1024): the piers' middles 4.4 m apart"
+  },
+  "end_pav": {
+   "value": 2.35,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "each end pavilion of the east front, two round columns and a pier: plate 7, the outer columns' capitals 833 px apart (13.4 m)"
+  },
+  "arch_w": {
+   "value": 2.1,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the east arch's opening: plate 7 125 px (2.0-2.1 m at the plate's 60 px/m)"
+  },
+  "arch_spring": {
+   "value": 3.55,
+   "source": "S71",
+   "grade": "C",
+   "note": "the arch's springing above the threshold: plate 7, the impost 211 px above it, 1.69 times the opening's width"
+  },
+  "arch_top": {
+   "value": 4.6,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the arch's crown: a half circle on P0192, P0175, P0178, P0168 (the rise 0.50-0.53 of the width); plate 7 draws it 1.31 times taller (Q293): the stone as it stood wins"
+  },
+  "col_e": {
+   "value": 4.6,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the east columns and piers to their capitals' tops: P0192, the piers' capitals one arch-width above the imposts (plate 7 0.81): 5.6 m above the threshold with the pedestals"
+  },
+  "ped_e": {
+   "value": 1.0,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the pedestals under the east columns: plate 7, P0192"
+  },
+  "cornice_e": {
+   "value": 6.9,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the east main cornice's top: P0192, about 0.66 arch-widths over the piers' capitals; plate 7's cornice ends 441 px over the ends' feet; the dossier's 6.2 m (Round 6) on another module"
+  },
+  "rail_e": {
+   "value": 8.0,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the east balustrade's top: P0192 and plate 7 (61 px over the cornice's ends)"
+  },
+  "crest_e": {
+   "value": 9.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the crest over the centre: plate 7, 538 px over the threshold"
+  },
+  "finial_e": {
+   "value": 1.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "the finials on the balustrade's pedestals above the rail: plate 7 (the outer ones 86 px over the pedestals' caps)"
+  },
+  "niche_w": {
+   "value": 1.25,
+   "source": "S70",
+   "grade": "C",
+   "note": "the shell niches' openings: P0192, 0.59 arch-widths"
+  },
+  "niche_top": {
+   "value": 4.45,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the niche's crown: P0192 (fitted: 4.7 m sat 0.25 m high on it), plate 7 draws it higher (0.5 m), as it draws the arch (Q293)"
+  },
+  "basin_y": {
+   "value": 1.2,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the shell basin's rim: P0192, 1.12 arch-widths below the imposts; plate 7 93 px over the threshold"
+  },
+  "col_c_w": {
+   "value": 2.28,
+   "source": "S71",
+   "grade": "C",
+   "note": "the west portico's columns either side of the axis: plate 6, 222 px apart (4.56 m)"
+  },
+  "col_c_h": {
+   "value": 6.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "the portico's columns to their tops under the beam: plate 6, 314 px over their feet"
+  },
+  "eave_c": {
+   "value": 7.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the portico roof's eave tips: plate 6, 343-349 px; 6.1 m across them"
+  },
+  "roof_c_d": {
+   "value": 2.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the depth of the west roofs over the columns' line: plate 6, the central ridge 4.1 m between eave tips 6.1 m apart (hips 1.0 m), the wings' ridges as long: shallow roofs like a 牌坊's (S310: 'from the west like a Chinese five-roof 牌坊')"
+  },
+  "ridge_c": {
+   "value": 7.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the central ridge: plate 6, 392 px over the sill; 4.1 m long"
+  },
+  "finial_c": {
+   "value": 9.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the central finials' tips: plate 6, 474 px"
+  },
+  "eave_wing": {
+   "value": 5.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' outer eave tips: plate 6, 252 px over the columns' feet; 15.3 m across the two"
+  },
+  "ridge_wing": {
+   "value": 5.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' ridge's outer end: plate 6, 290 px"
+  },
+  "wing_cap": {
+   "value": 4.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the wings' outer columns to their tops: plate 6, 226 px"
+  },
+  "eave_end": {
+   "value": 3.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lowest roofs beyond the wings: plate 6, eave about y 800 (the reader)"
+  },
+  "cage_x": {
+   "value": 4.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cage windows' middles either side of the axis: plate 6, 1001 and 1383 px (±3.9 m at the columns' module, a little more at the wall)"
+  },
+  "door_w": {
+   "value": 1.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the west door: plate 6, 77 x 106 px on the dossier's reading (1.9 x 2.6 m)"
+  },
+  "door_h": {
+   "value": 3.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the west door's crown, round-headed in a carved frame: plate 6, 167 px over the sill at the wall's plane"
+  },
+  "cage_win_w": {
+   "value": 2.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cage walls' fan-headed windows: plate 6"
+  },
+  "cage_win_top": {
+   "value": 3.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "their crown: plate 6, 148 px over the sill at the wall's plane"
+  },
+  "flank_h": {
+   "value": 3.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the low walls either side of the east front, with panels and pilasters: plate 7; their length beyond the gate a guess (5 m)"
+  },
+  "statue_h": {
+   "value": 1.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the statues on their lotus pedestals before the cage windows: plate 6, their heads 81 px over the sill, nearer than the columns"
+  }
+ }
+}

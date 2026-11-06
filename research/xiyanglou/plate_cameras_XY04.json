@@ -1,0 +1,168 @@
+{
+ "object": "XY04",
+ "label": "",
+ "points_from": "model XY04-huanghua-zhen",
+ "cameras": {
+  "P0045": {
+   "plate": "5",
+   "image": "P0045.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1376
+   ],
+   "object": "XY04",
+   "points_from": "model XY04-huanghua-zhen",
+   "prior": {
+    "lat": 40.01138,
+    "lon": 116.302394,
+    "err": 30.0,
+    "bearing": 354.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "Ground plane: 76 m south of the near wall, 48 m up. An imagined place; nothing stood there. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      465.44,
+      43.92,
+      -732.42
+     ],
+     "yaw_deg": 351.37,
+     "pitch_deg": -2.01,
+     "f_px": 3339.7,
+     "du_px": -132.5,
+     "dv_px": -848.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 43.32,
+     "moved_from_prior_m": 21.2,
+     "points": {
+      "n": 44,
+      "rms_px": 64.0,
+      "median_px": 51.8,
+      "max_px": 121.2,
+      "rms_m": 2.65,
+      "median_m": 2.3,
+      "max_m": 4.91
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 68.8,
+      "median_px": 56.7,
+      "max_px": 121.2,
+      "rms_m": 2.89,
+      "median_m": 2.69,
+      "max_m": 4.91
+     },
+     "sure12": {
+      "n": 31,
+      "rms_px": 60.4,
+      "median_px": 50.4,
+      "max_px": 121.2,
+      "rms_m": 2.45,
+      "median_m": 2.28,
+      "max_m": 4.91
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      466.77,
+      44.82,
+      -706.05
+     ],
+     "yaw_deg": 350.69,
+     "pitch_deg": -0.04,
+     "f_px": 4207.0,
+     "du_px": -271.6,
+     "dv_px": -999.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 44.22,
+     "moved_from_prior_m": 47.5,
+     "points": {
+      "n": 44,
+      "rms_px": 39.3,
+      "median_px": 27.1,
+      "max_px": 97.6,
+      "rms_m": 1.61,
+      "median_m": 1.04,
+      "max_m": 4.95
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 34.2,
+      "median_px": 27.1,
+      "max_px": 71.9,
+      "rms_m": 1.34,
+      "median_m": 1.04,
+      "max_m": 2.74
+     },
+     "sure12": {
+      "n": 31,
+      "rms_px": 39.0,
+      "median_px": 23.1,
+      "max_px": 97.6,
+      "rms_m": 1.63,
+      "median_m": 1.03,
+      "max_m": 4.95
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      466.23,
+      39.08,
+      -712.69
+     ],
+     "yaw_deg": 350.34,
+     "pitch_deg": -3.65,
+     "f_px": 4038.4,
+     "du_px": -279.4,
+     "dv_px": -650.2,
+     "k_vertical": 1.104,
+     "eye_above_ground_m": 38.48,
+     "moved_from_prior_m": 40.8,
+     "points": {
+      "n": 44,
+      "rms_px": 40.3,
+      "median_px": 20.7,
+      "max_px": 101.2,
+      "rms_m": 1.69,
+      "median_m": 0.95,
+      "max_m": 5.24
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 34.5,
+      "median_px": 20.7,
+      "max_px": 71.6,
+      "rms_m": 1.36,
+      "median_m": 0.95,
+      "max_m": 2.72
+     },
+     "sure12": {
+      "n": 31,
+      "rms_px": 41.1,
+      "median_px": 20.4,
+      "max_px": 101.2,
+      "rms_m": 1.76,
+      "median_m": 0.8,
+      "max_m": 5.24
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

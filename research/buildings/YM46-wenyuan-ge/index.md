@@ -189,6 +189,8 @@ Modern interpretation, not evidence.
 - Q111: YM46-01 文源阁 roof
 - Q122: Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is capt
 - Q125: Geotagged Commons coverage is thin
+- Q287: 文源阁's heights
+- Q289: The double lines round 文源阁 and the rice fields north-west of 水木明瑟
 
 <!-- generated:end -->
 

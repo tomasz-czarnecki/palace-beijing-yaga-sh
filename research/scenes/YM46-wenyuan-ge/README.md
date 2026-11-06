@@ -190,6 +190,8 @@ Not written yet.
 - **Q111. YM46-01 文源阁 roof.** YM46-01 文源阁 roof: S105 (sect. 3.4) records the dispute: 金勋 remembered a 歇山 roof and a late-Qing repair drawing 圆明园内文源阁图样 shows 歇山, while 郭黛姮's reconstruction uses 硬山 like 文津阁. Our row has 硬山. The 2024 dig (S133, S134) confirmed six bays and black glazed tiles but, in what we have read, not t
 - **Q122. Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is capt.** Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is captioned 'Wenyuan Pavilion' but shows an intact two-storey library with a Taihu rock in front; 文源阁 YM46 burned in October 1860, so 
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
+- **Q287. 文源阁's heights.** No figure for a height of 文源阁 has been seen: the Guangxu 丈尺册 as S105 quotes it gives the bays and depths only, and the 2024 dig's report is not out. The model (Round 25) takes the storeys from its sister 文渊阁's south front (P0555), measured in 文源阁's bays by a camera fitted jointly with the heigh
+- **Q289. The double lines round 文源阁 and the rice fields north-west of 水木明瑟.** S01 rings the court and the fields labelled 稻田 with double lines a few metres apart, ending in caps; one has a gap south of 文源阁's gate, in line with it. Round 1 classed the ring between the court's wall and the double lines as water (W0047, an
 
 ### Wishlist rows that name it
 

@@ -1,0 +1,52 @@
+{
+ "axis_x": 0.555,
+ "ring_centre_plan_x": -0.5,
+ "centre": [
+  0.56,
+  -37.85
+ ],
+ "side_gate_z": -38.6,
+ "outer_wall_m": 276.2,
+ "maze_walls": 171,
+ "maze_walls_m": 1232.9,
+ "flight_steps": 20,
+ "flight_tread_m": 0.97,
+ "pavilion_top_above_ground_m": 16.7,
+ "hall_centre": [
+  0.56,
+  -80.39
+ ],
+ "trees": {
+  "NW": [
+   -23.93,
+   -59.59
+  ],
+  "NE": [
+   24.43,
+   -60.53
+  ],
+  "SW": [
+   -23.09,
+   -14.24
+  ],
+  "SE": [
+   22.75,
+   -12.18
+  ]
+ },
+ "box_XY04-M22": [
+  1.66,
+  -32.66
+ ],
+ "box_XY04-M24": [
+  -2.29,
+  -80.61
+ ],
+ "tris": 90777,
+ "fill_tris": 6781,
+ "glb_bytes": 2752804,
+ "balusters": 214,
+ "keypoints": 46,
+ "joints": 393,
+ "entries": 9
+}

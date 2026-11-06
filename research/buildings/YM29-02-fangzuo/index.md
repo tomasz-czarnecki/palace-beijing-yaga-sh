@@ -40,7 +40,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q285: Which side tower is which, and where the archways stood
 
 <!-- generated:end -->
 

@@ -64,7 +64,7 @@ The towers on their terraces over the water as the leaf of 1744 paints them and 
 
 ## Open questions
 
-None that name it.
+- Q286: S01's rectangle behind 琼华楼
 
 <!-- generated:end -->
 

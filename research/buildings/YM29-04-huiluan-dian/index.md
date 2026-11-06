@@ -64,7 +64,7 @@ The towers on their terraces over the water as the leaf of 1744 paints them and 
 
 ## Open questions
 
-None that name it.
+- Q282: The leaf's heights at 方壶胜境
 
 <!-- generated:end -->
 

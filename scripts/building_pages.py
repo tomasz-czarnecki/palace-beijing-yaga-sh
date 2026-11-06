@@ -1161,6 +1161,8 @@ def publish_models(book):
             out[mid]["bridges"] = sm["bridges"]
         if sm.get("walls_cut"):  # Round 19: outlines (scene x z) where the model draws the walls itself: the view leaves out the plan's wall segments (structures.json) inside
             out[mid]["walls_cut"] = sm["walls_cut"]
+        if sm.get("ways_cut"):  # Round 26: outlines (scene x z) where the model draws the ways itself (the maze's corridors): the view leaves out the ways of Round 9 whose middle falls inside
+            out[mid]["ways_cut"] = sm["ways_cut"]
     write_if_changed(SITE_DATA / "models.json", json.dumps({"note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.", "models": out}, ensure_ascii=False, indent=1) + "\n")
     return out
 

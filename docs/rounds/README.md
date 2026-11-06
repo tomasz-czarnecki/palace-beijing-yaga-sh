@@ -32,6 +32,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r19_zhengda` | not recorded | 2026-11-06, from 07:51 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r20_surroundings` | not recorded | 2026-11-06, from 09:02 | about 1 h 40 min | - | see its result row | see the git log | done |
 | `palace_r25_wenyuan` | not recorded | 2026-11-06, from 16:41 | see its log | - | see its result row | see the git log | done |
+| `palace_r26_maze` | not recorded | 2026-11-06, from 17:44 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -903,3 +904,39 @@ Brief: `palace_r25_wenyuan.md`. 文源阁 YM46, the eleventh detailed model and 
   - Q287-Q291; Q110 done in the model, Q111 kept 硬山 with the reasons.
   - Every height rests on a sister's proportion until the dig's report or the full 丈尺册 is seen.
   - The brief's 'pool of 15 by 7 zhang' is in no source the repo holds (Q291).
+
+## palace_r26_maze
+
+Brief: `palace_r26_maze.md`. The twelfth and thirteenth detailed models, built from the references: 黄花阵 XY04, the maze with its centre and north hall (`models/XY04-huanghua-zhen/`), and 养雀笼 XY05, the aviary gate (`models/XY05-yangque-long/`). Key-point vocabulary: `common/palace_r26_maze_vocab.md`. Two readers read 45 points on plate 5 and 74 on plates 6 and 7 and four photographs (they ran in the background, not in the foreground as the brief asks; the round waited for both).
+
+**What it rests on:**
+- **The maze's walls** are S01's: `models/XY04-huanghua-zhen/trace_maze.py` thins the plan's ink inside the outer wall to centrelines (Zhang-Suen in numpy), masks the ring, the stair, the hall and a basin, drops the dotted paths, and writes 171 lines to `models/XY04-huanghua-zhen/plan_readings.csv`. They are set into S310's block of 58.56 x 88.64 m where today's rebuild stands (the boxes of Round 6): 1,233 m of maze wall, 276 m of outer wall, against S310's 'over 1,600 m'.
+- **Plate 5** gives the forms: the bands and clipped trees on the walls, the side gates with finial piers and iron leaves, the drum with its straight and curved flights and the carved parapet, the octagonal pavilion (S258: arches on the large faces, windows on the small) with its skirt, dome and lantern, the north hall's gable roof (two storeys: S02), the four weeping pagoda trees (S310).
+- **养雀笼**: plate 6 for the west front (the columns in one line, the cage walls 2 m behind as a net with fan-headed windows, five shallow roofs like a 牌坊's, the statues); Child's photograph of the 1870s (P0192) and the ruin photographs for the east front's proportions (a half-round arch 2.1 m wide springing at 3.55 m, the piers' capitals one arch-width higher, the niches 1.25 m wide); plate 7 for the rest of the east front (the end pavilions, the cartouche, the lattice panels, the balustrade and its finials, the crest, the iron gate).
+
+**New in the pipeline:**
+- `ways_cut` in a summary (published in `models.json` by `scripts/building_pages.py`): the view leaves out the ways of Round 9 whose middle falls inside (`3d.js` `drawnByModel`, `paths3d.js` passes the feature), as `walls_cut` does for walls. The maze draws its own corridors.
+- `hides` GB36: the walls layer's gate G36, 'passage through 养雀笼', stood 13 m east of the gate's box (Round 6 moved the box onto the ruin): a phantom of the model's own passage.
+- `research/paths/exceptions.csv`: CCX-127, the north hall's flight, is drawn by the model.
+- `research/questions.md`: Q281-Q291 of Rounds 24-25 had been appended under Resolved; moved under Open with Q292-Q294.
+
+**Numbers:**
+- **check_models:** XY04 90,777 triangles (6,781 fill), GLB 2.75 MB, 0.87 MB compressed; 393 joints, none above the ground, deepest 0.15 m in; 3 ways at its boxes, 0 off. XY05 10,381 triangles (812 fill), GLB 0.34 MB, 0.09 MB compressed; 59 joints, deepest 0.15 m; 2 ways, 0 off.
+- **Fits** (`research/xiyanglou/plate_fit_XY04.csv`, `plate_fit_XY05.csv`):
+  - plate 5: 44 points, 1.61 m rms at the object (39.3 px; stretch k 1.10: 1.69 m; anchored 2.65 m); the pavilion and the drum 0.74 m, the hall 1.32 m, the trees 1.16 m, the side gates 1.80 m, the outer wall 2.49 m (the far corners 4-5 m: the engraving's constructed perspective), the ring's sides 2.67 m;
+  - plate 6: 0.22 m (all), 0.21 m (stretch k 1.02), 0.25 m (anchored); plate 7: 0.42 m (all), 0.35 m (stretch k 0.94);
+  - P0192 0.05 m, P0175 0.06 m, P0178 0.13 m, P0168 0.16 m.
+- **Tests on plate 5** (written down, not tuned in): the centre scaled 0.65-1.2 times, 1.0 best; the drum and ring at four sizes, 1.59-1.61 m (undecided, Q294); the block at S01's 73.7 x 99.3 m 2.05 m, at 66 x 94 m 1.74 m, at S310's 1.61 m (Q292).
+- **Kit:** forms from a model 86 to 103 boxes. **Planting:** 41,399 to 41,334 plants (the maze `clear`). **Paths:** lines crossing a box, wall or water 87 (A or B 28) to 88 (29): CCX-127, the north hall's flight, which the model draws (exception).
+- **Cost:** the overview draws 1.637 M triangles (Round 25: 1.537 M) at a 467 ms median frame in software WebGL (`check_kit.py --browser`, port 9126). The site grows by 3.09 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (generator idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_surroundings.py`, `check_kit.py --browser` (port 9126), `check_greens.py --browser` (port 9127).
+- Step 6 run twice: the second pass changed no file of `site/`, `models/` or `research/` (md5).
+- Screenshots in `screenshots/r26/`, opened: before (the kit, from a copy of `site/` taken at the round's start) and after from the same 12 cameras (the plate 5 view, the gate, the rear, the west, the centre, from above, the aviary's west, east, south, north and an east detail, the two together), and after only: the east, the west gate, the outer wall's corner, the hall, the flights, the portico, the north-east, a niche, the east steps; `conf=1`, `assumed=0`, the sun at 16:00; both panels with "Our model now"; the overlays of P0045, P0046, P0047, P0192, P0175, P0178, P0168 (blend, edges, side by side, the points).
+
+**Went wrong or left open:**
+- **The first 3D page did not load:** the new `inPoly` in `3d.js` clashed with an existing helper; renamed `inCut`. A server kill by `pkill -f` matched the shell's own command line twice; servers are now stopped by pid.
+- **Found on the shots and fixed:** the north hall's hip roof (the plate draws a gable: 1.99 to 1.61 m on plate 5); the side gates' leaves as a black slab; a blank wall over the aviary's west door (now plate 6's transom); its blank ends (now blind arched panels, C); G36's box before the east front; two cameras inside a wall and on a coping.
+- **Open:** Q292-Q294. The east front's plan is faceted where P0192 shows a curve; the capitals are plain blocks; the north hall's façades and the paving are assumed; 花园门 XY03 is still the kit's tall box where plate 5 draws two finial piers.
+

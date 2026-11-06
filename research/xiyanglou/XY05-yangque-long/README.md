@@ -164,9 +164,11 @@ Half-round stones, carved blocks and two tall piers on site (P0352, 2013). The g
 
 - **Q32. OSM errors.** 线法画 (west of 方河), 养雀笼, possibly 映水兰香; 蓄水楼 point at 116.3055 is 海晏堂's reservoir, not XY02; 谐奇趣's point is 23 m from the ruin. Used only as a hint. Positions come from S01 for all but rows noted `S03`.
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
+- **Q293. Plate 7 draws 养雀笼's arch and niches taller than the stone stood. (Round 26)** On plate 7 the arch's rise over the impost is 1.31 times its half-width; on Child's photograph of the 1870s (P0192) and the later ruin photographs (P0175, P0178, P0168) it is a half circle (1.00-1.05). The niches' crowns too stand abo
 
 ## Wishlist
 
+| A survey or the dig's plan of 养雀笼 (the 2015 dig, S141, S310 extracts), and the four piers returned in 2013 (S817) measured | The biggest guess of the aviary model (Round 26): the range's depth, the west wall 2.5 m behind the columns, the passage, the bird rooms; the piers would give the west front's column bases | 北京市考古研究院; the park | By hand, or a visit |
 | 西洋楼区域考古勘探报告 (S149), 远瀛观遗址考古发掘简报 (S153) in full, and the digs of 2015-16 at 海晏堂 and 养雀笼 | Plan positions of 蓄水楼, 养雀笼 (±15 m), the terrace of 远瀛观, risers and treads on the stairs | mhymy paid or mini-program; 北京市考古研究院 | By hand |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
 
@@ -175,3 +177,11 @@ Half-round stones, carved blocks and two tall piers on site (P0352, 2013). The g
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### Round 26: the detailed model
+
+`models/XY05-yangque-long/` draws the gate with both fronts. What it rests on:
+- **Plate 6** for the west front: the columns in one line, the cage walls 2 m behind them as a net with fan-headed windows, the shallow roofs of a 牌坊 (the central ridge 4.1 m between eave tips 6.1 m apart), the statues; 25 points fit at 0.22 m rms.
+- **Child's photograph of the 1870s (P0192)** and the ruin photographs (P0175, P0178, P0168) for the east front's proportions: the arch a half circle 2.1 m wide springing at 3.55 m, the piers' capitals one arch-width higher, the niches 1.25 m wide; fits 0.05-0.16 m rms. **Plate 7** draws the arch and the niches taller (0.42 m rms; Q293).
+- **The plan S01** for the footprint (13.9 × 11.6 m). No survey of the gate is in hand: the range's depth, the passage and the bird rooms are C.
+- The walls layer's gate G36 ('passage through 养雀笼') stood 13 m east of the gate's box, at the plan's place; the model hides it (`hides` GB36).

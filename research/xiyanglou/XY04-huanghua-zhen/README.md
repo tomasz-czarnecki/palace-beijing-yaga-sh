@@ -180,6 +180,7 @@ What stands is the rebuilding: useful for size and plan, not a survival. Today's
 
 ## Wishlist
 
+| 黄花阵地基图样 样337-146 (国家图书馆善本部; E0945, E2411), seen in full, with its yellow slips | The biggest guess of the maze model (Round 26): the walls traced on S01 and squeezed into S310's block (Q292), the drum, the ring and its flights (Q294), the north hall's size; the slips may give the walls' heights and the pavilion's size | 《国家图书馆藏样式雷图档·圆明园卷》 | Library request |
 | 样式雷 谐奇趣 sheet no. 985 with over 120 dimensions (S108, S310), 东水车房 样094-4, 线法墙地样, 黄花阵地基图样 样337-146 | The first absolute sizes for 谐奇趣; the first modelling target's biggest guesses (Q72) | 《国家图书馆藏样式雷图档·圆明园卷》 初编 and 续编; 故宫博物院图书馆 for 985, 986 | Library, or S108's authors |
 
 <!-- generated:end -->
@@ -187,3 +188,11 @@ What stands is the rebuilding: useful for size and plan, not a survival. Today's
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### Round 26: the detailed model
+
+`models/XY04-huanghua-zhen/` draws the maze, its centre (XY04-01) and its north hall (XY04-N01). What it rests on:
+- **The walls' pattern** is S01's, traced in plan pixels by `models/XY04-huanghua-zhen/trace_maze.py` (`plan_readings.csv`: 171 lines) and set into S310's block of 58.56 × 88.64 m at the place of today's rebuild, which the boxes of Round 6 follow. Mapped so, the walls come to 1,233 m and the outer wall to 276 m: 1,509 m against S310's 'over 1,600 m'.
+- **Plate 5** gives the forms and the heights: the bands and clipped trees on the walls, the side gates with finial piers, the drum and its curved flights, the pavilion and its dome, the north hall's gable roof. Its 44 points fit at 1.61 m rms; the pavilion and the drum 0.74 m, the outer wall's far corners 4-5 m (the engraving's constructed perspective).
+- **Plate 5 bears out S310's proportions** against S01's 73.7 × 99.3 m (1.61 m against 2.05 m rms): Q292. The ring round the drum is S01's; the plate cannot settle its size (Q294).
+- **Still a guess**: the north hall's façades (only its roof shows), the paving of the paths, every height (plate 5's, C). The Yangshi Lei plan 样337-146 is not in hand: it is the biggest replacement on the wishlist.

@@ -1,0 +1,181 @@
+id,kind,points_px,note
+RECT,outer_wall,8706.0 415.0;9056.0 415.0;9056.0 888.0;8706.0 888.0,"the maze's outer wall on S01, the middle of its double line (W 8700/8712, E 9049/9062, N 411/419, S 882/893 by the ink's profiles); the generator maps it onto the block of S310"
+RING,ring,8878.0 686.0,"the ring of steps round the drum: centre, by eye on the ink (S01 draws an outer circle of 100 px with radial ticks, an inner circle, and the octagon)"
+STAIR,stair,8865 717;8892 717;8892 760;8865 760,the straight flight south of the ring: three rungs drawn (S01)
+HALL,hall,8837 432;8926 432;8926 486;8837 486,the north hall XY04-N01 as S01 draws its grid (Round 6: 18.74 x 11.42 m)
+BASIN,basin,8862 539;8902 539;8902 565;8862 565,wave marks in a half-round below the north wall's bow: a small basin (C)
+GATE_S,gate,8879 888,the south gate's opening on the axis (dotted path through the outer wall; 花园门 XY03 stands there)
+GATE_W,gate,8706 682,"the west side opening: the dotted path through the outer wall, ink gap y 672-692"
+GATE_E,gate,9056 682,"the east side opening, mirrored from the west (S01's dots on the east side run 9015-9040; plate 5 draws a gate there with finial piers)"
+GATE_N,gate,8883 415,the north opening behind the hall (Round 9: 8877-8890 x 405-415)
+W001,wall,8901.5 415.0;8903.5 423.5;8906.5 426.5;8922.5 415.0,traced by trace_maze.py
+W002,wall,8834.5 432.5;8755.5 433.5;8749.5 432.5;8746.5 430.5;8726.5 431.5;8725.5 432.5;8726.5 437.5;8723.5 445.5;8723.5 453.5,traced by trace_maze.py
+W003,wall,8928.5 435.5;8977.5 436.5;8978.5 437.5;9002.5 436.5,traced by trace_maze.py
+W004,wall,9027.5 436.5;9004.5 437.5,traced by trace_maze.py
+W005,wall,9031.5 436.5;9036.5 436.5;9037.5 441.5,traced by trace_maze.py
+W006,wall,8738.5 443.5;8748.5 442.5;8763.5 442.5;8764.5 443.5;8822.5 442.5;8823.5 443.5,traced by trace_maze.py
+W007,wall,8824.5 445.5;8823.5 465.5,traced by trace_maze.py
+W008,wall,9035.5 447.5;8996.5 448.5;8983.5 446.5;8938.5 446.5;8937.5 447.5;8937.5 466.5,traced by trace_maze.py
+W009,wall,9036.5 449.5;9035.5 456.5;8998.5 456.5;8997.5 455.5;8955.5 456.5,traced by trace_maze.py
+W010,wall,8815.5 452.5;8802.5 452.5;8775.5 455.5;8724.5 454.5,traced by trace_maze.py
+W011,wall,8723.5 455.5;8722.5 456.5;8723.5 466.5,traced by trace_maze.py
+W012,wall,8724.5 466.5;8726.5 467.5;8798.5 466.5;8799.5 465.5;8822.5 466.5,traced by trace_maze.py
+W013,wall,8723.5 467.5;8722.5 477.5,traced by trace_maze.py
+W014,wall,8939.5 468.5;8961.5 468.5;8962.5 469.5;8974.5 468.5;8975.5 469.5;8995.5 469.5;8996.5 470.5;9015.5 469.5;9016.5 470.5;9056.0 471.5,traced by trace_maze.py
+W015,wall,8723.5 479.5;8723.5 492.5,traced by trace_maze.py
+W016,wall,8736.5 481.5;8771.5 481.5;8772.5 482.5;8814.5 481.5;8820.5 482.5;8823.5 484.5;8821.5 505.5,traced by trace_maze.py
+W017,wall,8937.5 483.5;8966.5 482.5;8967.5 483.5;8999.5 483.5;9002.5 484.5,traced by trace_maze.py
+W018,wall,9023.5 483.5;9008.5 484.5,traced by trace_maze.py
+W019,wall,8936.5 484.5;8936.5 499.5;8935.5 500.5;8936.5 505.5,traced by trace_maze.py
+W020,wall,8808.5 492.5;8724.5 493.5,traced by trace_maze.py
+W021,wall,8723.5 494.5;8723.5 505.5;8721.5 511.5;8722.5 515.5,traced by trace_maze.py
+W022,wall,8953.5 495.5;9004.5 497.5;9005.5 498.5;9009.5 497.5;9013.5 498.5;9043.5 497.5;9056.0 498.5,traced by trace_maze.py
+W023,wall,8744.5 505.5;8748.5 504.5;8807.5 504.5;8820.5 506.5,traced by trace_maze.py
+W024,wall,8937.5 506.5;8938.5 507.5;8979.5 506.5;8989.5 508.5;9011.5 507.5,traced by trace_maze.py
+W025,wall,9016.5 509.5;9017.5 508.5;9026.5 509.5,traced by trace_maze.py
+W026,wall,8887.5 513.5;8874.5 513.5;8868.5 518.5,traced by trace_maze.py
+W027,wall,8896.5 517.5;8910.5 517.5;8921.5 515.5;8951.5 514.5;8952.5 513.5;8964.5 515.5;8973.5 514.5;9003.5 517.5,traced by trace_maze.py
+W028,wall,8729.5 517.5;8747.5 518.5,traced by trace_maze.py
+W029,wall,8750.5 518.5;8759.5 518.5,traced by trace_maze.py
+W030,wall,8762.5 518.5;8793.5 518.5;8794.5 519.5;8802.5 518.5;8805.5 519.5,traced by trace_maze.py
+W031,wall,8843.5 519.5;8855.5 519.5,traced by trace_maze.py
+W032,wall,8726.5 526.5;8744.5 527.5,traced by trace_maze.py
+W033,wall,9027.5 527.5;8998.5 528.5;8987.5 526.5;8969.5 526.5;8968.5 527.5;8946.5 526.5;8917.5 529.5;8899.5 528.5,traced by trace_maze.py
+W034,wall,8871.5 528.5;8881.5 527.5;8888.5 531.5,traced by trace_maze.py
+W035,wall,8767.5 528.5;8799.5 528.5,traced by trace_maze.py
+W036,wall,8804.5 528.5;8815.5 528.5,traced by trace_maze.py
+W037,wall,8820.5 529.5;8854.5 530.5;8861.5 532.5,traced by trace_maze.py
+W038,wall,8889.5 532.5;8896.5 537.5;8906.5 538.5;8924.5 537.5;8925.5 538.5;8956.5 539.5,traced by trace_maze.py
+W039,wall,8862.5 534.5;8856.5 540.5;8834.5 541.5,traced by trace_maze.py
+W040,wall,8721.5 536.5;8727.5 535.5;8728.5 536.5;8772.5 537.5;8777.5 539.5;8807.5 541.5,traced by trace_maze.py
+W041,wall,8985.5 538.5;8986.5 539.5;9033.5 539.5;9034.5 538.5;9056.0 539.5,traced by trace_maze.py
+W042,wall,8809.5 541.5;8828.5 541.5,traced by trace_maze.py
+W043,wall,8757.5 549.5;8796.5 548.5;8797.5 549.5;8817.5 549.5;8827.5 551.5;8852.5 550.5;8857.5 551.5;8861.5 554.5,traced by trace_maze.py
+W044,wall,8904.5 548.5;8923.5 548.5;8924.5 549.5;9000.5 548.5;9004.5 549.5,traced by trace_maze.py
+W045,wall,9018.5 553.5;9021.5 551.5;9028.5 551.5;9034.5 553.5,traced by trace_maze.py
+W046,wall,8724.5 554.5;8734.5 553.5;8740.5 556.5,traced by trace_maze.py
+W047,wall,9036.5 554.5;9039.5 559.5;9039.5 569.5;9035.5 579.5;9030.5 583.5;9017.5 586.5;9008.5 594.5,traced by trace_maze.py
+W048,wall,8767.5 557.5;8768.5 558.5;8790.5 557.5;8791.5 556.5;8794.5 557.5;8799.5 556.5;8830.5 557.5,traced by trace_maze.py
+W049,wall,9016.5 556.5;9015.5 566.5,traced by trace_maze.py
+W050,wall,8926.5 558.5;8935.5 559.5;8954.5 558.5,traced by trace_maze.py
+W051,wall,8722.5 559.5;8721.5 574.5;8725.5 580.5,traced by trace_maze.py
+W052,wall,8742.5 559.5;8749.5 575.5,traced by trace_maze.py
+W053,wall,8956.5 559.5;8978.5 559.5;8992.5 561.5;8993.5 560.5,traced by trace_maze.py
+W054,wall,8849.5 572.5;8825.5 571.5;8824.5 570.5;8819.5 571.5;8803.5 569.5;8779.5 569.5;8768.5 572.5;8763.5 575.5,traced by trace_maze.py
+W055,wall,8960.5 570.5;8962.5 569.5;8974.5 571.5;9009.5 571.5;9010.5 570.5,traced by trace_maze.py
+W056,wall,8910.5 570.5;8927.5 570.5;8928.5 571.5;8930.5 570.5;8958.5 570.5,traced by trace_maze.py
+W057,wall,8959.5 571.5;8958.5 575.5;8955.5 576.5;8946.5 575.5;8945.5 576.5,traced by trace_maze.py
+W058,wall,8761.5 576.5;8759.5 578.5;8755.5 579.5;8753.5 578.5,traced by trace_maze.py
+W059,wall,8847.5 583.5;8821.5 580.5;8788.5 580.5;8776.5 585.5,traced by trace_maze.py
+W060,wall,8726.5 581.5;8730.5 584.5;8741.5 586.5;8748.5 595.5;8755.5 601.5,traced by trace_maze.py
+W061,wall,8860.5 583.5;8881.5 584.5;8882.5 585.5;8942.5 585.5;8947.5 587.5;8957.5 588.5,traced by trace_maze.py
+W062,wall,8774.5 586.5;8764.5 596.5,traced by trace_maze.py
+W063,wall,9040.5 586.5;9041.5 587.5;9041.5 600.5;9039.5 616.5;9039.5 640.5;9040.5 642.5;9038.5 659.5;9038.5 678.5,traced by trace_maze.py
+W064,wall,8835.5 594.5;8832.5 593.5;8797.5 594.5;8785.5 599.5;8778.5 606.5,traced by trace_maze.py
+W065,wall,8974.5 593.5;8977.5 597.5;8976.5 603.5,traced by trace_maze.py
+W066,wall,8840.5 594.5;8857.5 596.5,traced by trace_maze.py
+W067,wall,8895.5 598.5;8925.5 598.5;8926.5 599.5;8960.5 601.5,traced by trace_maze.py
+W068,wall,9002.5 599.5;9001.5 606.5;9003.5 613.5,traced by trace_maze.py
+W069,wall,8755.5 601.5;8754.5 605.5;8755.5 662.5;8754.5 663.5,traced by trace_maze.py
+W070,wall,8723.5 606.5;8729.5 612.5;8730.5 615.5;8730.5 645.5;8731.5 646.5,traced by trace_maze.py
+W071,wall,8739.5 607.5;8740.5 610.5;8739.5 654.5,traced by trace_maze.py
+W072,wall,9018.5 610.5;9018.5 621.5;9019.5 622.5;9017.5 638.5;9018.5 658.5,traced by trace_maze.py
+W073,wall,8810.5 613.5;8824.5 611.5;8841.5 611.5;8842.5 612.5;8852.5 612.5;8858.5 614.5,traced by trace_maze.py
+W074,wall,9031.5 611.5;9029.5 656.5,traced by trace_maze.py
+W075,wall,8808.5 614.5;8802.5 615.5;8796.5 618.5,traced by trace_maze.py
+W076,wall,8901.5 615.5;8929.5 615.5;8942.5 617.5,traced by trace_maze.py
+W077,wall,9004.5 615.5;9005.5 620.5;9005.5 649.5;9004.5 650.5,traced by trace_maze.py
+W078,wall,8767.5 617.5;8766.5 618.5;8767.5 621.5;8766.5 664.5;8772.5 673.5,traced by trace_maze.py
+W079,wall,8794.5 619.5;8784.5 627.5,traced by trace_maze.py
+W080,wall,8747.5 623.5;8749.5 632.5,traced by trace_maze.py
+W081,wall,8988.5 625.5;8991.5 634.5;8991.5 640.5;8990.5 641.5;8990.5 660.5;8987.5 672.5,traced by trace_maze.py
+W082,wall,8721.5 627.5;8721.5 640.5;8722.5 641.5;8721.5 642.5;8721.5 668.5,traced by trace_maze.py
+W083,wall,8781.5 631.5;8780.5 647.5;8777.5 659.5,traced by trace_maze.py
+W084,wall,8824.5 634.5;8825.5 637.5;8824.5 645.5,traced by trace_maze.py
+W085,wall,8944.5 635.5;8946.5 640.5;8955.5 649.5;8958.5 650.5;8962.5 654.5;8963.5 657.5,traced by trace_maze.py
+W086,wall,8972.5 635.5;8977.5 650.5;8977.5 664.5,traced by trace_maze.py
+W087,wall,8807.5 642.5;8802.5 645.5;8798.5 650.5,traced by trace_maze.py
+W088,wall,8821.5 650.5;8814.5 657.5,traced by trace_maze.py
+W089,wall,8797.5 652.5;8796.5 665.5;8794.5 668.5,traced by trace_maze.py
+W090,wall,9004.5 655.5;9005.5 666.5;9011.5 674.5,traced by trace_maze.py
+W091,wall,8810.5 662.5;8807.5 675.5;8808.5 716.5;8810.5 720.5;8816.5 726.5,traced by trace_maze.py
+W092,wall,8793.5 670.5;8786.5 675.5,traced by trace_maze.py
+W093,wall,8706.0 671.5;8717.5 672.5;8726.5 671.5,traced by trace_maze.py
+W094,wall,8747.5 673.5;8743.5 681.5,traced by trace_maze.py
+W095,wall,8951.5 673.5;8953.5 681.5;8952.5 701.5;8949.5 721.5;8947.5 725.5,traced by trace_maze.py
+W096,wall,8774.5 675.5;8779.5 677.5;8784.5 676.5,traced by trace_maze.py
+W097,wall,9012.5 676.5;9017.5 685.5;9017.5 701.5,traced by trace_maze.py
+W098,wall,9031.5 679.5;9033.5 685.5;9032.5 698.5,traced by trace_maze.py
+W099,wall,8982.5 680.5;8983.5 709.5,traced by trace_maze.py
+W100,wall,8742.5 683.5;8739.5 693.5;8739.5 705.5,traced by trace_maze.py
+W101,wall,9016.5 703.5;9016.5 708.5;9012.5 714.5,traced by trace_maze.py
+W102,wall,9029.5 706.5;9025.5 716.5,traced by trace_maze.py
+W103,wall,8982.5 710.5;8973.5 711.5,traced by trace_maze.py
+W104,wall,8706.0 711.5;8740.5 712.5,traced by trace_maze.py
+W105,wall,8971.5 712.5;8966.5 717.5;8962.5 724.5,traced by trace_maze.py
+W106,wall,8768.5 715.5;8764.5 725.5;8765.5 738.5,traced by trace_maze.py
+W107,wall,8790.5 716.5;8793.5 721.5;8793.5 725.5;8796.5 731.5,traced by trace_maze.py
+W108,wall,8980.5 720.5;8979.5 744.5;8977.5 750.5,traced by trace_maze.py
+W109,wall,9039.5 720.5;9038.5 721.5;9039.5 749.5,traced by trace_maze.py
+W110,wall,8736.5 725.5;8734.5 723.5;8721.5 723.5;8720.5 724.5;8720.5 744.5;8719.5 745.5;8719.5 762.5;8720.5 763.5,traced by trace_maze.py
+W111,wall,8992.5 723.5;8994.5 735.5;8994.5 755.5;8989.5 768.5;8983.5 776.5,traced by trace_maze.py
+W112,wall,9005.5 723.5;9004.5 777.5;8989.5 793.5,traced by trace_maze.py
+W113,wall,8753.5 724.5;8754.5 726.5;8753.5 774.5,traced by trace_maze.py
+W114,wall,8782.5 725.5;8781.5 739.5;8785.5 754.5,traced by trace_maze.py
+W115,wall,9019.5 725.5;9019.5 738.5;9015.5 778.5;9016.5 785.5,traced by trace_maze.py
+W116,wall,8737.5 726.5;8739.5 743.5;8740.5 775.5;8742.5 780.5,traced by trace_maze.py
+W117,wall,8817.5 728.5;8822.5 738.5;8822.5 743.5,traced by trace_maze.py
+W118,wall,8943.5 729.5;8936.5 734.5,traced by trace_maze.py
+W119,wall,8935.5 735.5;8931.5 740.5;8932.5 745.5,traced by trace_maze.py
+W120,wall,8727.5 736.5;8728.5 737.5;8728.5 760.5;8729.5 761.5;8730.5 786.5,traced by trace_maze.py
+W121,wall,8955.5 737.5;8948.5 743.5,traced by trace_maze.py
+W122,wall,8803.5 741.5;8812.5 746.5;8821.5 744.5,traced by trace_maze.py
+W123,wall,8767.5 745.5;8768.5 758.5;8770.5 761.5;8771.5 767.5,traced by trace_maze.py
+W124,wall,8933.5 746.5;8934.5 747.5;8943.5 746.5,traced by trace_maze.py
+W125,wall,9030.5 747.5;9029.5 780.5,traced by trace_maze.py
+W126,wall,9038.5 751.5;9039.5 755.5;9038.5 756.5;9036.5 839.5,traced by trace_maze.py
+W127,wall,8802.5 769.5;8811.5 770.5;8837.5 769.5;8855.5 772.5,traced by trace_maze.py
+W128,wall,8955.5 770.5;8945.5 773.5;8934.5 773.5;8933.5 774.5;8919.5 774.5;8904.5 772.5,traced by trace_maze.py
+W129,wall,8767.5 771.5;8761.5 778.5,traced by trace_maze.py
+W130,wall,8782.5 781.5;8789.5 784.5;8808.5 785.5;8827.5 788.5;8854.5 789.5,traced by trace_maze.py
+W131,wall,9028.5 782.5;9028.5 799.5,traced by trace_maze.py
+W132,wall,8750.5 786.5;8731.5 787.5,traced by trace_maze.py
+W133,wall,8901.5 789.5;8904.5 789.5;8907.5 791.5;8930.5 792.5;8931.5 793.5;8967.5 790.5,traced by trace_maze.py
+W134,wall,8728.5 790.5;8706.0 802.5,traced by trace_maze.py
+W135,wall,8768.5 795.5;8761.5 805.5,traced by trace_maze.py
+W136,wall,9005.5 800.5;9012.5 810.5;9027.5 809.5;9031.5 815.5,traced by trace_maze.py
+W137,wall,8778.5 801.5;8779.5 802.5;8816.5 801.5;8817.5 802.5;8838.5 802.5;8857.5 804.5;8870.5 804.5;8871.5 803.5;8877.5 804.5;8878.5 803.5,traced by trace_maze.py
+W138,wall,8880.5 802.5;8897.5 803.5,traced by trace_maze.py
+W139,wall,8910.5 803.5;8914.5 804.5;8924.5 803.5;8939.5 805.5;8950.5 804.5;8961.5 806.5;8962.5 805.5;8969.5 806.5;8975.5 804.5,traced by trace_maze.py
+W140,wall,8741.5 806.5;8736.5 805.5;8726.5 806.5;8725.5 810.5,traced by trace_maze.py
+W141,wall,8759.5 808.5;8749.5 820.5;8748.5 831.5;8745.5 839.5,traced by trace_maze.py
+W142,wall,8999.5 811.5;9007.5 822.5;9008.5 825.5;9007.5 829.5,traced by trace_maze.py
+W143,wall,8723.5 813.5;8720.5 817.5;8720.5 828.5;8722.5 839.5,traced by trace_maze.py
+W144,wall,8775.5 814.5;8777.5 815.5;8782.5 814.5;8826.5 815.5;8830.5 814.5;8845.5 816.5;8848.5 815.5;8868.5 815.5;8869.5 816.5;8900.5 815.5;8907.5 817.5,traced by trace_maze.py
+W145,wall,8910.5 818.5;8911.5 817.5;8917.5 819.5;8928.5 818.5,traced by trace_maze.py
+W146,wall,8874.5 820.5;8882.5 819.5;8886.5 821.5,traced by trace_maze.py
+W147,wall,8930.5 819.5;8979.5 820.5;8980.5 821.5,traced by trace_maze.py
+W148,wall,8777.5 824.5;8779.5 826.5;8828.5 828.5,traced by trace_maze.py
+W149,wall,8892.5 828.5;8894.5 832.5;8894.5 838.5;8896.5 840.5,traced by trace_maze.py
+W150,wall,8921.5 829.5;8922.5 830.5;8946.5 830.5;8947.5 829.5;8972.5 830.5,traced by trace_maze.py
+W151,wall,9006.5 831.5;9006.5 839.5;9008.5 845.5,traced by trace_maze.py
+W152,wall,8860.5 834.5;8858.5 836.5;8853.5 837.5;8845.5 836.5;8808.5 837.5,traced by trace_maze.py
+W153,wall,8723.5 840.5;8727.5 841.5;8744.5 840.5,traced by trace_maze.py
+W154,wall,8746.5 840.5;8783.5 840.5,traced by trace_maze.py
+W155,wall,8898.5 841.5;8926.5 840.5;8944.5 842.5,traced by trace_maze.py
+W156,wall,9035.5 840.5;9031.5 841.5;9024.5 846.5;9010.5 849.5;8975.5 847.5,traced by trace_maze.py
+W157,wall,8721.5 841.5;8719.5 860.5;8722.5 863.5;8724.5 863.5,traced by trace_maze.py
+W158,wall,9036.5 841.5;9035.5 866.5,traced by trace_maze.py
+W159,wall,8760.5 853.5;8786.5 852.5;8787.5 851.5;8814.5 851.5;8815.5 852.5;8838.5 852.5;8843.5 856.5,traced by trace_maze.py
+W160,wall,8736.5 854.5;8737.5 855.5;8758.5 854.5,traced by trace_maze.py
+W161,wall,8947.5 858.5;8913.5 858.5;8912.5 859.5;8901.5 858.5;8899.5 859.5,traced by trace_maze.py
+W162,wall,8949.5 859.5;8963.5 859.5;8964.5 860.5;8988.5 859.5;9000.5 861.5;9006.5 860.5,traced by trace_maze.py
+W163,wall,8726.5 864.5;8744.5 864.5;8758.5 862.5;8781.5 865.5;8806.5 865.5;8812.5 867.5,traced by trace_maze.py
+W164,wall,8850.5 864.5;8856.5 867.5;8860.5 867.5,traced by trace_maze.py
+W165,wall,8819.5 867.5;8833.5 869.5,traced by trace_maze.py
+W166,wall,8955.5 867.5;8952.5 868.5;8909.5 868.5,traced by trace_maze.py
+W167,wall,8957.5 868.5;8963.5 867.5;8975.5 868.5,traced by trace_maze.py
+W168,wall,8983.5 868.5;8991.5 870.5;9006.5 870.5,traced by trace_maze.py
+W169,wall,8893.5 869.5;8892.5 878.5;8899.5 888.0,traced by trace_maze.py
+W170,wall,9010.5 870.5;9018.5 869.5;9033.5 870.5,traced by trace_maze.py
+W171,wall,8721.5 872.5;8741.5 875.5;8761.5 875.5;8790.5 878.5;8827.5 877.5;8854.5 880.5;8860.5 888.0,traced by trace_maze.py

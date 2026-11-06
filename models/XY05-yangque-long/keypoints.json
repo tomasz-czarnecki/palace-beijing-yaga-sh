@@ -1,0 +1,703 @@
+{
+"id": "XY05",
+"objects": [
+"XY05"
+],
+"position": [
+497.751,
+0.62,
+-787.677
+],
+"rotationY": -1.462586,
+"points": {
+"w_cagewin_L_head": {
+"local": [
+-4.0,
+3.4,
+-2.5
+],
+"scene": [
+499.804,
+4.02,
+-791.924
+],
+"anchor": false
+},
+"w_cagewin_L_sill": {
+"local": [
+-4.0,
+0.9,
+-2.5
+],
+"scene": [
+499.804,
+1.52,
+-791.924
+],
+"anchor": false
+},
+"w_cagewin_R_head": {
+"local": [
+4.0,
+3.4,
+-2.5
+],
+"scene": [
+500.668,
+4.02,
+-783.97
+],
+"anchor": false
+},
+"w_cagewin_R_sill": {
+"local": [
+4.0,
+0.9,
+-2.5
+],
+"scene": [
+500.668,
+1.52,
+-783.97
+],
+"anchor": false
+},
+"w_door_head": {
+"local": [
+0.0,
+3.7,
+-2.5
+],
+"scene": [
+500.236,
+4.32,
+-787.947
+],
+"anchor": false
+},
+"w_door_sill": {
+"local": [
+0.0,
+0.25,
+-2.5
+],
+"scene": [
+500.236,
+0.87,
+-787.947
+],
+"anchor": true
+},
+"w_col_C_L_foot": {
+"local": [
+-2.28,
+0.35,
+-0.15
+],
+"scene": [
+497.654,
+0.97,
+-789.96
+],
+"anchor": true
+},
+"w_col_C_L_cap": {
+"local": [
+-2.28,
+6.4,
+-0.15
+],
+"scene": [
+497.654,
+7.02,
+-789.96
+],
+"anchor": false
+},
+"w_col_C_R_foot": {
+"local": [
+2.28,
+0.35,
+-0.15
+],
+"scene": [
+498.146,
+0.97,
+-785.427
+],
+"anchor": true
+},
+"w_col_C_R_cap": {
+"local": [
+2.28,
+6.4,
+-0.15
+],
+"scene": [
+498.146,
+7.02,
+-785.427
+],
+"anchor": false
+},
+"w_roof_C_eave_L": {
+"local": [
+-3.05,
+7.35,
+0.45
+],
+"scene": [
+496.974,
+7.97,
+-790.661
+],
+"anchor": false
+},
+"w_roof_C_eave_R": {
+"local": [
+3.05,
+7.35,
+0.45
+],
+"scene": [
+497.633,
+7.97,
+-784.596
+],
+"anchor": false
+},
+"w_ridge_C_L": {
+"local": [
+-1.95,
+8.05,
+-0.65
+],
+"scene": [
+498.187,
+8.67,
+-789.686
+],
+"anchor": false
+},
+"w_finial_C_L": {
+"local": [
+-1.95,
+9.6,
+-0.65
+],
+"scene": [
+498.187,
+10.22,
+-789.686
+],
+"anchor": false
+},
+"w_ridge_C_R": {
+"local": [
+1.95,
+8.05,
+-0.65
+],
+"scene": [
+498.608,
+8.67,
+-785.809
+],
+"anchor": false
+},
+"w_finial_C_R": {
+"local": [
+1.95,
+9.6,
+-0.65
+],
+"scene": [
+498.608,
+10.22,
+-785.809
+],
+"anchor": false
+},
+"w_crest_C_top": {
+"local": [
+0.0,
+8.8,
+-0.65
+],
+"scene": [
+498.397,
+9.42,
+-787.747
+],
+"anchor": false
+},
+"w_wing_L_col_out_foot": {
+"local": [
+-6.65,
+0.3,
+-0.25
+],
+"scene": [
+497.281,
+0.92,
+-794.315
+],
+"anchor": true
+},
+"w_wing_L_col_out_cap": {
+"local": [
+-6.65,
+4.6,
+-0.25
+],
+"scene": [
+497.281,
+5.22,
+-794.315
+],
+"anchor": false
+},
+"w_wing_L_eave_out": {
+"local": [
+-7.75,
+5.4,
+0.45
+],
+"scene": [
+496.467,
+6.02,
+-795.333
+],
+"anchor": false
+},
+"w_wing_L_ridge_out": {
+"local": [
+-6.65,
+6.05,
+-0.65
+],
+"scene": [
+497.679,
+6.67,
+-794.358
+],
+"anchor": false
+},
+"w_wing_R_col_out_foot": {
+"local": [
+6.65,
+0.3,
+-0.25
+],
+"scene": [
+498.718,
+0.92,
+-781.093
+],
+"anchor": true
+},
+"w_wing_R_col_out_cap": {
+"local": [
+6.65,
+4.6,
+-0.25
+],
+"scene": [
+498.718,
+5.22,
+-781.093
+],
+"anchor": false
+},
+"w_wing_R_eave_out": {
+"local": [
+7.75,
+5.4,
+0.45
+],
+"scene": [
+498.141,
+6.02,
+-779.924
+],
+"anchor": false
+},
+"w_wing_R_ridge_out": {
+"local": [
+6.65,
+6.05,
+-0.65
+],
+"scene": [
+499.115,
+6.67,
+-781.136
+],
+"anchor": false
+},
+"w_statue_L_top": {
+"local": [
+-4.0,
+1.9,
+0.45
+],
+"scene": [
+496.872,
+2.52,
+-791.605
+],
+"anchor": false
+},
+"w_statue_R_top": {
+"local": [
+4.0,
+1.9,
+0.45
+],
+"scene": [
+497.736,
+2.52,
+-783.652
+],
+"anchor": false
+},
+"e_col_L_out_foot": {
+"local": [
+6.55,
+1.0,
+-12.22
+],
+"scene": [
+510.607,
+1.62,
+-782.485
+],
+"anchor": false
+},
+"e_col_L_out_cap": {
+"local": [
+6.55,
+5.6,
+-12.22
+],
+"scene": [
+510.607,
+6.22,
+-782.485
+],
+"anchor": false
+},
+"e_foot_L_out": {
+"local": [
+6.95,
+-0.097,
+-11.9
+],
+"scene": [
+510.332,
+0.523,
+-782.053
+],
+"anchor": false
+},
+"e_cornice_L_end": {
+"local": [
+6.95,
+6.9,
+-12.35
+],
+"scene": [
+510.779,
+7.52,
+-782.101
+],
+"anchor": false
+},
+"e_rail_L_end": {
+"local": [
+6.65,
+8.0,
+-12.1
+],
+"scene": [
+510.498,
+8.62,
+-782.373
+],
+"anchor": false
+},
+"e_niche_L_head": {
+"local": [
+3.641,
+4.45,
+-10.625
+],
+"scene": [
+508.707,
+5.07,
+-785.205
+],
+"anchor": false
+},
+"e_niche_L_basin": {
+"local": [
+3.179,
+1.2,
+-11.151
+],
+"scene": [
+509.18,
+1.82,
+-785.721
+],
+"anchor": false
+},
+"e_arch_head": {
+"local": [
+0.0,
+4.6,
+-9.8
+],
+"scene": [
+507.494,
+5.22,
+-788.735
+],
+"anchor": false
+},
+"e_arch_foot_L": {
+"local": [
+1.05,
+0.25,
+-9.8
+],
+"scene": [
+507.607,
+0.87,
+-787.692
+],
+"anchor": true
+},
+"e_arch_foot_R": {
+"local": [
+-1.05,
+0.25,
+-9.8
+],
+"scene": [
+507.38,
+0.87,
+-789.779
+],
+"anchor": true
+},
+"e_impost_L": {
+"local": [
+1.05,
+3.55,
+-9.8
+],
+"scene": [
+507.607,
+4.17,
+-787.692
+],
+"anchor": false
+},
+"e_impost_R": {
+"local": [
+-1.05,
+3.55,
+-9.8
+],
+"scene": [
+507.38,
+4.17,
+-789.779
+],
+"anchor": false
+},
+"e_pier_C_L_cap": {
+"local": [
+2.24,
+5.6,
+-10.0
+],
+"scene": [
+507.934,
+6.22,
+-786.53
+],
+"anchor": false
+},
+"e_pier_C_R_cap": {
+"local": [
+-2.24,
+5.6,
+-10.0
+],
+"scene": [
+507.451,
+6.22,
+-790.984
+],
+"anchor": false
+},
+"e_niche_R_head": {
+"local": [
+-3.641,
+4.45,
+-10.625
+],
+"scene": [
+507.921,
+5.07,
+-792.444
+],
+"anchor": false
+},
+"e_niche_R_basin": {
+"local": [
+-3.179,
+1.2,
+-11.151
+],
+"scene": [
+508.493,
+1.82,
+-792.042
+],
+"anchor": false
+},
+"e_col_R_out_foot": {
+"local": [
+-6.55,
+1.0,
+-12.22
+],
+"scene": [
+509.192,
+1.62,
+-795.508
+],
+"anchor": false
+},
+"e_col_R_out_cap": {
+"local": [
+-6.55,
+5.6,
+-12.22
+],
+"scene": [
+509.192,
+6.22,
+-795.508
+],
+"anchor": false
+},
+"e_foot_R_out": {
+"local": [
+-6.95,
+0.042,
+-11.9
+],
+"scene": [
+508.831,
+0.662,
+-795.872
+],
+"anchor": false
+},
+"e_cornice_R_end": {
+"local": [
+-6.95,
+6.9,
+-12.35
+],
+"scene": [
+509.278,
+7.52,
+-795.92
+],
+"anchor": false
+},
+"e_rail_R_end": {
+"local": [
+-6.65,
+8.0,
+-12.1
+],
+"scene": [
+509.062,
+8.62,
+-795.595
+],
+"anchor": false
+},
+"e_finial_L_in": {
+"local": [
+2.24,
+9.45,
+-10.1
+],
+"scene": [
+508.034,
+10.07,
+-786.541
+],
+"anchor": false
+},
+"e_finial_R_in": {
+"local": [
+-2.24,
+9.45,
+-10.1
+],
+"scene": [
+507.55,
+10.07,
+-790.995
+],
+"anchor": false
+},
+"e_finial_L_out": {
+"local": [
+6.55,
+9.45,
+-11.9
+],
+"scene": [
+510.289,
+10.07,
+-782.451
+],
+"anchor": false
+},
+"e_finial_R_out": {
+"local": [
+-6.55,
+9.45,
+-11.9
+],
+"scene": [
+508.874,
+10.07,
+-795.474
+],
+"anchor": false
+},
+"e_crest_top": {
+"local": [
+0.0,
+9.0,
+-10.1
+],
+"scene": [
+507.792,
+9.62,
+-788.768
+],
+"anchor": false
+}
+}
+}

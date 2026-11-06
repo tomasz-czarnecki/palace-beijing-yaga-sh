@@ -700,3 +700,121 @@ plate,photo_id,object,point,x,y,sure,use,note
 ,P0355,XY06,porch_foot_R,767,565,3,,east porch pier's outer face at the foot of its plinth
 ,P0295,XY06,oval_E_top,410,524,2,,top of the east oval's opening under its crest; seen from the south-east
 ,P0295,XY06,pod_top_SE,517,460,3,,top of the podium cornice at the south-east corner beside the east end panel; the cornice band stands worn
+5,P0045,XY04,owall_foot_SW,193,1208,2,,bottom of the near wall's front face at its left end (base meets the paved walk)
+5,P0045,XY04,owall_foot_SE,2219,1218,2,,bottom of the near wall's front face at its right end
+5,P0045,XY04,owall_top_SW,193,1135,1,,front top edge of the coping at the near wall's left end
+5,P0045,XY04,owall_top_SE,2219,1147,2,,front top edge of the coping at the near wall's right end
+5,P0045,XY04,owall_top_NW,670,470,2,,far corner: outer edge of the west wall's top meeting the north wall's far edge; trees close by
+5,P0045,XY04,owall_top_NE,1739,470,2,,far corner: outer edge of the east wall's top meeting the north wall's far edge; tree crown touches it
+5,P0045,XY04,swall_top_gate_L,1000,1141,2,,front edge of the near wall's coping where it ends at the block left of the gate
+5,P0045,XY04,swall_top_gate_R,1394,1142,2,,front edge of the near wall's coping where it starts right of the gate's end block
+5,P0045,XY04,wgate_finial_L,392,714,2,,top of the pineapple on the west gate's near (south) pier
+5,P0045,XY04,wgate_finial_R,415,690,2,,top of the pineapple on the west gate's far (north) pier
+5,P0045,XY04,wgate_pier_top_L,391,778,2,,top of the near pier's cornice cap under the finial's block
+5,P0045,XY04,wgate_pier_top_R,425,752,3,,top of the far pier's cap; its front partly behind the near finial
+5,P0045,XY04,egate_finial_L,1990,710,2,,top of the pineapple on the east gate's far (north) pier
+5,P0045,XY04,egate_finial_R,2011,741,2,,top of the pineapple on the east gate's near (south) pier
+5,P0045,XY04,egate_pier_top_L,1985,773,3,,top of the far pier's cap
+5,P0045,XY04,egate_pier_top_R,2013,805,2,,top of the near pier's cornice cap under the finial's block
+5,P0045,XY04,front_step_foot_C,1200,928,2,,bottom edge of the lowest of the five steps on the axis
+5,P0045,XY04,drum_foot_C,1200,889,2,,foot of the drum's plinth on the axis where it meets the narrow landing
+5,P0045,XY04,drum_top_C,1200,790,2,,top front edge of the drum (floor line under the column bases) on the axis
+5,P0045,XY04,ring_post_L_top,1107,837,2,,top of the urn on the post at the left curved flight's front end
+5,P0045,XY04,ring_post_R_top,1288,839,2,,top of the urn on the post at the right curved flight's front end
+5,P0045,XY04,ring_rail_L_out,1021,803,3,,outermost left of the rising balustrade's top rail; tangent near vertical so y is loose
+5,P0045,XY04,ring_rail_R_out,1380,813,3,,outermost right of the rising balustrade's top rail; tangent near vertical so y is loose
+5,P0045,XY04,pav_col_SW_foot,1137,787,2,,bottom of the left front column's base on the drum
+5,P0045,XY04,pav_col_SE_foot,1261,787,2,,bottom of the right front column's base on the drum
+5,P0045,XY04,pav_col_SW_cap,1137,636,2,,top of the left front column's capital under the architrave
+5,P0045,XY04,pav_col_SE_cap,1262,636,2,,top of the right front column's capital under the architrave
+5,P0045,XY04,pav_ent_top_C,1200,589,2,,top of the front face's cornice where the skirt roof's tiles end
+5,P0045,XY04,pav_arch_head_S,1200,650,3,,crown of the front opening inside its carved frame; ornament blurs the line
+5,P0045,XY04,pav_eave_L,1054,556,3,,outer left tip of the skirt roof's eave; against the terrace balustrade behind
+5,P0045,XY04,pav_eave_R,1345,555,3,,outer right tip of the skirt roof's eave
+5,P0045,XY04,pav_dome_top,1200,469,2,,dome's top where the lantern's base ring sits
+5,P0045,XY04,pav_lantern_top,1200,405,2,,top of the lantern's scrolled roof under the ball's stem
+5,P0045,XY04,pav_finial_top,1200,380,1,,top of the ball finial
+5,P0045,XY04,hall_eave_SW,1047,467,2,,north hall roof's lower front left corner
+5,P0045,XY04,hall_eave_SE,1354,469,2,,north hall roof's lower front right corner
+5,P0045,XY04,hall_ridge_W,1066,404,3,,left end of the main ridge under the finial's pedestal
+5,P0045,XY04,hall_ridge_E,1335,404,3,,right end of the main ridge under the finial's pedestal
+5,P0045,XY04,hall_finial_W,1065,377,1,,top of the left ridge-end finial
+5,P0045,XY04,hall_finial_E,1335,377,1,,top of the right ridge-end finial
+5,P0045,XY04,tree_SW_top,520,925,3,,highest point of the front left weeping crown; flat umbrella top
+5,P0045,XY04,tree_SE_top,1895,930,3,,highest point of the front right weeping crown; flat umbrella top
+5,P0045,XY04,tree_NW_top,672,624,3,,highest point of the back left crown; merges with wall pattern behind
+5,P0045,XY04,tree_NE_top,1740,629,3,,highest point of the back right crown; merges with wall pattern behind
+6,P0046,XY05,w_col_C_L_foot,1085,966,2,,top of the base under the left central column's shaft
+6,P0046,XY05,w_col_C_R_foot,1307,966,2,,top of the base under the right central column's shaft
+6,P0046,XY05,w_col_C_L_cap,1087,646,2,,top of the left central column where it meets the beam (plain top; no carved capital drawn)
+6,P0046,XY05,w_col_C_R_cap,1307,646,2,,top of the right central column under the beam
+6,P0046,XY05,w_roof_C_eave_L,1048,617,2,,curled left front eave tip of the central roof
+6,P0046,XY05,w_roof_C_eave_R,1347,617,2,,curled right front eave tip of the central roof
+6,P0046,XY05,w_ridge_C_L,1097,574,2,,left end of the main ridge's top where it meets the finial's pedestal
+6,P0046,XY05,w_ridge_C_R,1296,574,2,,right end of the main ridge's top where it meets the finial's pedestal
+6,P0046,XY05,w_finial_C_L,1085,492,1,,tip of the left tall finial
+6,P0046,XY05,w_finial_C_R,1310,492,1,,tip of the right tall finial
+6,P0046,XY05,w_crest_C_top,1197,538,1,,top of the fleur on the scrolled ornament
+6,P0046,XY05,w_door_head,1197,793,2,,crown of the inner arched opening (lunette) inside the carved frame
+6,P0046,XY05,w_door_sill,1197,960,2,,threshold under the door leaves
+6,P0046,XY05,w_wing_L_col_out_foot,859,962,2,,top of the base of the left wing's front outer column
+6,P0046,XY05,w_wing_R_col_out_foot,1536,963,2,,top of the base of the right wing's front outer column
+6,P0046,XY05,w_wing_L_col_out_cap,859,738,2,,top of the left wing's outer column under the beam
+6,P0046,XY05,w_wing_R_col_out_cap,1536,735,2,,top of the right wing's outer column under the beam
+6,P0046,XY05,w_wing_L_eave_out,823,710,2,,curled outer front eave tip of the left wing's roof
+6,P0046,XY05,w_wing_R_eave_out,1570,710,2,,curled outer front eave tip of the right wing's roof
+6,P0046,XY05,w_wing_L_ridge_out,861,672,3,,outer end of the left wing's ridge at the finial's pedestal
+6,P0046,XY05,w_wing_R_ridge_out,1530,672,3,,outer end of the right wing's ridge at the finial's pedestal
+6,P0046,XY05,w_cagewin_L_head,1001,812,2,,crown of the fan-headed window in the left cage wall (inner edge of the arch band)
+6,P0046,XY05,w_cagewin_R_head,1383,812,2,,crown of the fan-headed window in the right cage wall
+6,P0046,XY05,w_statue_L_top,995,879,2,,top of the left statue's head
+6,P0046,XY05,w_statue_R_top,1398,879,2,,top of the right statue's head
+7,P0047,XY05,e_arch_head,1192,660,2,,crown of the arch opening (inner edge of the moulded frame above the iron lunette)
+7,P0047,XY05,e_arch_foot_L,1129,953,2,,threshold at the left jamb's inner edge
+7,P0047,XY05,e_arch_foot_R,1254,953,2,,threshold at the right jamb's inner edge
+7,P0047,XY05,e_impost_L,1129,742,2,,top of the left impost block at the opening's inner edge
+7,P0047,XY05,e_impost_R,1254,742,2,,top of the right impost block at the opening's inner edge
+7,P0047,XY05,e_pier_C_L_cap,1055,641,1,,top of the capital of the pilaster left of the arch frame
+7,P0047,XY05,e_pier_C_R_cap,1325,641,1,,top of the capital of the pilaster right of the arch frame
+7,P0047,XY05,e_col_L_out_cap,775,621,1,,top of the outer left column's capital (under the impost band)
+7,P0047,XY05,e_col_R_out_cap,1608,626,1,,top of the outer right column's capital
+7,P0047,XY05,e_cornice_L_end,743,536,2,,top outer corner of the main cornice's break over the outer left column
+7,P0047,XY05,e_cornice_R_end,1640,539,2,,top outer corner of the main cornice's break over the outer right column
+7,P0047,XY05,e_rail_L_end,752,475,2,,top outer corner of the cap of the outer left finial pedestal
+7,P0047,XY05,e_rail_R_end,1634,476,2,,top outer corner of the cap of the outer right finial pedestal
+7,P0047,XY05,e_finial_L_out,781,389,1,,tip of the outermost left finial
+7,P0047,XY05,e_finial_R_out,1606,392,1,,tip of the outermost right finial
+7,P0047,XY05,e_finial_L_in,1049,423,1,,tip of the single finial over the pier left of the centre
+7,P0047,XY05,e_finial_R_in,1337,425,1,,tip of the single finial over the pier right of the centre
+7,P0047,XY05,e_crest_top,1191,415,1,,tip of the central ray of the crest's shell
+7,P0047,XY05,e_niche_L_head,969,652,2,,crown of the left niche's opening under the frame (top of the shell)
+7,P0047,XY05,e_niche_R_head,1417,655,2,,crown of the right niche's opening under the frame
+7,P0047,XY05,e_niche_L_basin,968,860,2,,front top of the rim of the left shell basin
+7,P0047,XY05,e_niche_R_basin,1417,862,2,,front top of the rim of the right shell basin
+,P0192,XY05,e_arch_head,840,592,2,,crown of the arch opening (lower edge of the moulded archivolt)
+,P0192,XY05,e_impost_L,703,729,1,,top of the left impost block at its inner end
+,P0192,XY05,e_impost_R,974,732,1,,top of the right impost block at its inner end
+,P0192,XY05,e_pier_C_L_cap,545,461,2,,top of the scrolled capital of the pilaster left of the arch where the band above starts
+,P0192,XY05,e_pier_C_R_cap,1140,462,2,,top of the scrolled capital of the pilaster right of the arch
+,P0192,XY05,e_niche_L_head,330,576,3,,crown of the left niche's opening under the frame (in shade behind branches)
+,P0192,XY05,e_niche_R_head,1352,586,2,,crown of the right niche's opening under the frame (just above the shell's scalloped edge)
+,P0192,XY05,e_niche_L_basin,330,1034,2,,front top edge of the left basin's rim
+,P0192,XY05,e_niche_R_basin,1356,1031,2,,front top edge of the right basin's rim
+,P0175,XY05,e_arch_head,1141,612,2,,crown of the arch opening on the face (lower edge of the archivolt; the soffit shows below it)
+,P0175,XY05,e_impost_L,1058,700,1,,top of the left impost block at its inner end
+,P0175,XY05,e_impost_R,1225,702,1,,top of the right impost block at its inner end
+,P0175,XY05,e_pier_C_R_cap,1316,545,2,,top of the scrolled capital of the pier right of the arch where the band above starts
+,P0175,XY05,e_niche_L_head,855,614,2,,crown of the left niche's opening under the frame (above the shell's scalloped edge)
+,P0175,XY05,e_niche_R_head,1440,616,2,,crown of the right niche's opening under the frame (above the shell's scalloped edge)
+,P0178,XY05,e_arch_head,1183,457,2,,crown of the arch opening on the face (lower edge of the archivolt; soffit below)
+,P0178,XY05,e_impost_L,1117,551,1,,top of the left impost block at its inner end
+,P0178,XY05,e_impost_R,1286,565,3,,top of the right impost block where it turns into the soffit (oblique view; the face's inner edge is uncertain)
+,P0178,XY05,e_pier_C_R_cap,1401,394,2,,top of the scrolled capital of the pier right of the arch where the band above starts
+,P0178,XY05,e_niche_L_head,888,435,2,,crown of the left niche's opening under the frame (above the shell's scalloped edge)
+,P0178,XY05,e_niche_R_head,1537,477,2,,crown of the right niche's opening under the frame
+,P0168,XY05,e_arch_head,613,380,2,,crown of the arch opening on the face (lower edge of the archivolt; soffit below)
+,P0168,XY05,e_impost_L,551,450,2,,top of the left impost block at its inner end
+,P0168,XY05,e_impost_R,659,459,3,,top of the right impost block where it turns into the soffit (oblique; the face edge is about x683)
+,P0168,XY05,e_pier_C_R_cap,757,330,2,,top of the scrolled capital of the pier right of the arch where the band above starts
+,P0168,XY05,e_niche_L_head,393,364,3,,crown of the left niche's opening under the frame (seen obliquely; small)
+,P0168,XY05,e_niche_R_head,856,395,2,,crown of the right niche's opening under the frame (above the shell's scalloped edge)

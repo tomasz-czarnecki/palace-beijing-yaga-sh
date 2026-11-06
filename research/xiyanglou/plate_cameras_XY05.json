@@ -1,0 +1,583 @@
+{
+ "object": "XY05",
+ "label": "",
+ "points_from": "model XY05-yangque-long",
+ "cameras": {
+  "P0046": {
+   "plate": "6",
+   "image": "P0046.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1393
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.011662,
+    "lon": 116.302444,
+    "err": 12.0,
+    "bearing": 84.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. West of the gate on the axis. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      470.74,
+      4.38,
+      -784.48
+     ],
+     "yaw_deg": 83.03,
+     "pitch_deg": 0.23,
+     "f_px": 1389.1,
+     "du_px": -9.3,
+     "dv_px": 89.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.24,
+     "moved_from_prior_m": 4.0,
+     "points": {
+      "n": 25,
+      "rms_px": 12.6,
+      "median_px": 10.2,
+      "max_px": 30.0,
+      "rms_m": 0.25,
+      "median_m": 0.21,
+      "max_m": 0.58
+     },
+     "tests": {
+      "n": 20,
+      "rms_px": 13.9,
+      "median_px": 10.9,
+      "max_px": 30.0,
+      "rms_m": 0.27,
+      "median_m": 0.22,
+      "max_m": 0.58
+     },
+     "sure12": {
+      "n": 23,
+      "rms_px": 13.0,
+      "median_px": 10.7,
+      "max_px": 30.0,
+      "rms_m": 0.26,
+      "median_m": 0.21,
+      "max_m": 0.58
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      457.51,
+      4.38,
+      -784.11
+     ],
+     "yaw_deg": 84.41,
+     "pitch_deg": -0.59,
+     "f_px": 2055.9,
+     "du_px": -21.5,
+     "dv_px": 112.7,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.83,
+     "moved_from_prior_m": 9.2,
+     "points": {
+      "n": 25,
+      "rms_px": 11.1,
+      "median_px": 7.0,
+      "max_px": 26.6,
+      "rms_m": 0.22,
+      "median_m": 0.15,
+      "max_m": 0.52
+     },
+     "tests": {
+      "n": 20,
+      "rms_px": 12.1,
+      "median_px": 7.5,
+      "max_px": 26.6,
+      "rms_m": 0.24,
+      "median_m": 0.15,
+      "max_m": 0.52
+     },
+     "sure12": {
+      "n": 23,
+      "rms_px": 11.5,
+      "median_px": 7.5,
+      "max_px": 26.6,
+      "rms_m": 0.23,
+      "median_m": 0.15,
+      "max_m": 0.52
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      458.09,
+      4.4,
+      -784.08
+     ],
+     "yaw_deg": 84.24,
+     "pitch_deg": -0.23,
+     "f_px": 2011.1,
+     "du_px": -22.9,
+     "dv_px": 99.6,
+     "k_vertical": 1.015,
+     "eye_above_ground_m": 2.84,
+     "moved_from_prior_m": 8.6,
+     "points": {
+      "n": 25,
+      "rms_px": 10.7,
+      "median_px": 6.6,
+      "max_px": 23.7,
+      "rms_m": 0.21,
+      "median_m": 0.13,
+      "max_m": 0.46
+     },
+     "tests": {
+      "n": 20,
+      "rms_px": 11.7,
+      "median_px": 8.1,
+      "max_px": 23.7,
+      "rms_m": 0.23,
+      "median_m": 0.16,
+      "max_m": 0.46
+     },
+     "sure12": {
+      "n": 23,
+      "rms_px": 11.1,
+      "median_px": 7.0,
+      "max_px": 23.7,
+      "rms_m": 0.22,
+      "median_m": 0.14,
+      "max_m": 0.46
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0047": {
+   "plate": "7",
+   "image": "P0047.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1394
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.011727,
+    "lon": 116.303217,
+    "err": 10.0,
+    "bearing": 264.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. On the bridge east of the gate, as drawn. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "2 anchor points"
+    },
+    "all": {
+     "position": [
+      534.32,
+      3.59,
+      -791.13
+     ],
+     "yaw_deg": 264.72,
+     "pitch_deg": 1.6,
+     "f_px": 1569.9,
+     "du_px": -13.8,
+     "dv_px": 51.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.13,
+     "moved_from_prior_m": 1.6,
+     "points": {
+      "n": 22,
+      "rms_px": 25.5,
+      "median_px": 16.1,
+      "max_px": 51.9,
+      "rms_m": 0.42,
+      "median_m": 0.28,
+      "max_m": 0.86
+     },
+     "tests": {
+      "n": 20,
+      "rms_px": 26.7,
+      "median_px": 17.1,
+      "max_px": 51.9,
+      "rms_m": 0.44,
+      "median_m": 0.29,
+      "max_m": 0.86
+     },
+     "sure12": {
+      "n": 22,
+      "rms_px": 25.5,
+      "median_px": 16.1,
+      "max_px": 51.9,
+      "rms_m": 0.42,
+      "median_m": 0.28,
+      "max_m": 0.86
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      541.42,
+      1.82,
+      -791.66
+     ],
+     "yaw_deg": 264.88,
+     "pitch_deg": 0.44,
+     "f_px": 2029.1,
+     "du_px": -15.8,
+     "dv_px": 172.5,
+     "k_vertical": 0.939,
+     "eye_above_ground_m": 1.38,
+     "moved_from_prior_m": 8.7,
+     "points": {
+      "n": 22,
+      "rms_px": 21.6,
+      "median_px": 11.8,
+      "max_px": 45.5,
+      "rms_m": 0.35,
+      "median_m": 0.2,
+      "max_m": 0.74
+     },
+     "tests": {
+      "n": 20,
+      "rms_px": 22.1,
+      "median_px": 10.8,
+      "max_px": 45.5,
+      "rms_m": 0.36,
+      "median_m": 0.18,
+      "max_m": 0.74
+     },
+     "sure12": {
+      "n": 22,
+      "rms_px": 21.6,
+      "median_px": 11.8,
+      "max_px": 45.5,
+      "rms_m": 0.35,
+      "median_m": 0.2,
+      "max_m": 0.74
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0168": {
+   "plate": "",
+   "image": "P0168.jpg",
+   "free": true,
+   "size": [
+    1144,
+    810
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.01173,
+    "lon": 116.303233,
+    "err": 10.0,
+    "bearing": 264.0,
+    "eye": 1.6,
+    "eye_sd": 1.5,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 26: frontal on the east front, about 25 m (the catalogue's estimate); the reader's right impost seen obliquely. Lens unknown, assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      527.41,
+      1.89,
+      -784.21
+     ],
+     "yaw_deg": 280.85,
+     "pitch_deg": 6.72,
+     "f_px": 1345.4,
+     "du_px": -1.5,
+     "dv_px": 38.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.41,
+     "moved_from_prior_m": 10.0,
+     "points": {
+      "n": 6,
+      "rms_px": 10.1,
+      "median_px": 4.8,
+      "max_px": 21.6,
+      "rms_m": 0.16,
+      "median_m": 0.08,
+      "max_m": 0.34
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 10.1,
+      "median_px": 4.8,
+      "max_px": 21.6,
+      "rms_m": 0.16,
+      "median_m": 0.08,
+      "max_m": 0.34
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 3.7,
+      "median_px": 3.0,
+      "max_px": 5.5,
+      "rms_m": 0.06,
+      "median_m": 0.05,
+      "max_m": 0.09
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0175": {
+   "plate": "",
+   "image": "P0175.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1323
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.01173,
+    "lon": 116.303233,
+    "err": 10.0,
+    "bearing": 264.0,
+    "eye": 1.6,
+    "eye_sd": 1.5,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 26: frontal on the east front's axis with the path, about 25 m (the catalogue's estimate, carried with the box). Lens unknown, assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      533.01,
+      1.53,
+      -787.55
+     ],
+     "yaw_deg": 268.05,
+     "pitch_deg": 6.09,
+     "f_px": 2031.0,
+     "du_px": 18.7,
+     "dv_px": 33.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.05,
+     "moved_from_prior_m": 4.2,
+     "points": {
+      "n": 6,
+      "rms_px": 4.9,
+      "median_px": 4.6,
+      "max_px": 7.8,
+      "rms_m": 0.06,
+      "median_m": 0.06,
+      "max_m": 0.1
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 4.9,
+      "median_px": 4.6,
+      "max_px": 7.8,
+      "rms_m": 0.06,
+      "median_m": 0.06,
+      "max_m": 0.1
+     },
+     "sure12": {
+      "n": 6,
+      "rms_px": 4.9,
+      "median_px": 4.6,
+      "max_px": 7.8,
+      "rms_m": 0.06,
+      "median_m": 0.06,
+      "max_m": 0.1
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0178": {
+   "plate": "",
+   "image": "P0178.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1113
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.01169,
+    "lon": 116.303233,
+    "err": 10.0,
+    "bearing": 268.0,
+    "eye": 1.6,
+    "eye_sd": 1.5,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 26: the whole from a little left (south) of the axis, about 25 m (the catalogue). Lens unknown, assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      525.47,
+      1.07,
+      -784.04
+     ],
+     "yaw_deg": 279.65,
+     "pitch_deg": 7.62,
+     "f_px": 1710.7,
+     "du_px": 99.0,
+     "dv_px": 55.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.59,
+     "moved_from_prior_m": 9.1,
+     "points": {
+      "n": 6,
+      "rms_px": 11.4,
+      "median_px": 7.4,
+      "max_px": 22.4,
+      "rms_m": 0.13,
+      "median_m": 0.08,
+      "max_m": 0.25
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 11.4,
+      "median_px": 7.4,
+      "max_px": 22.4,
+      "rms_m": 0.13,
+      "median_m": 0.08,
+      "max_m": 0.25
+     },
+     "sure12": {
+      "n": 5,
+      "rms_px": 11.6,
+      "median_px": 4.9,
+      "max_px": 22.4,
+      "rms_m": 0.13,
+      "median_m": 0.05,
+      "max_m": 0.25
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0192": {
+   "plate": "",
+   "image": "P0192.jpg",
+   "free": true,
+   "size": [
+    1600,
+    1200
+   ],
+   "object": "XY05",
+   "points_from": "model XY05-yangque-long",
+   "prior": {
+    "lat": 40.01172,
+    "lon": 116.303117,
+    "err": 6.0,
+    "bearing": 264.0,
+    "eye": 1.6,
+    "eye_sd": 1.5,
+    "f2400": 2897.056274847714,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 26: Child's photograph of the 1870s, frontal on the east front's axis, about 15 m from it (the catalogue's place, which stood on the plan's position before Round 6 moved the gate, carried with the box); the base cut by the frame. Lens unknown, assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      517.53,
+      1.41,
+      -789.48
+     ],
+     "yaw_deg": 265.22,
+     "pitch_deg": 11.4,
+     "f_px": 1381.3,
+     "du_px": 27.6,
+     "dv_px": 224.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.89,
+     "moved_from_prior_m": 6.7,
+     "points": {
+      "n": 9,
+      "rms_px": 6.4,
+      "median_px": 5.4,
+      "max_px": 12.1,
+      "rms_m": 0.05,
+      "median_m": 0.04,
+      "max_m": 0.09
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 6.4,
+      "median_px": 5.4,
+      "max_px": 12.1,
+      "rms_m": 0.05,
+      "median_m": 0.04,
+      "max_m": 0.09
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 6.3,
+      "median_px": 5.1,
+      "max_px": 12.1,
+      "rms_m": 0.04,
+      "median_m": 0.04,
+      "max_m": 0.09
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

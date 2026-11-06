@@ -24,15 +24,12 @@ Yang Ch'iao Lung, Bird Cage · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plates 6 and 7 of 1783-86 and the photographs of the east front from the 1870s to about 1922 (Child, Sirén); it was pulled down about 1924 and no plan survey is in hand, so every figure is a reading (C) on the plan's footprint.
 
-- **Box:** 13.9 × 11.6 m, european
-- **Part:** gate block, three gates to the west, a European arch to the east
-- **Heights:** platform 0.5 m, eave 6.2 m, ridge 8.5 m above the ground
-- **Roof:** hip 庑殿, glazed tile
-- **Faces:** 263.8° from north
-- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
-- **Confidence:** C, assumed
+- **West front:** a Chinese gate of five roofs (S02 p.147, S310: B): the portico's two columns 6.4 m under the highest roof (ridge 7.9 m, finials 9.6 m), the arched door, the wings' columns and roofs (eave 5.1 m), the lowest roofs at the ends; the cage walls as a net with a fan-headed window in each, two statues on lotus pedestals (plate 6, C)
+- **East front:** a European front 13.9 m wide, concave (the ends 1.8 m forward): end pavilions of two columns (4.6 m on 1 m pedestals) and a pier, shell niches with fountain vases, the arch 2.1 m wide to 4.6 m with its iron gate, the scrolled cartouche and lattice panels, the cornice at 6.9 m, the balustrade to 8 m with finials, the crest at 9 m (plate 7; P0192, P0175, P0178, P0168: C)
+- **Plan:** 13.9 × 11.6 m with the portico's projection (S01, b); a passage through the middle, the bird rooms either side (S310, B)
+- **Assumed:** the ends of the range, the roof terrace, the passage's inside, the walls beyond the gate and their lowest roofs, the low walls either side of the east front beyond what plate 7 shows, the statues' figures (C, the pale tint with conf=1)
 
 ## Inside it (2)
 
@@ -127,6 +124,7 @@ Modern interpretation, not evidence.
 
 - Q32: OSM errors
 - Q64: The plan's scale and turn in this strip (Round 6)
+- Q293: Plate 7 draws 养雀笼's arch and niches taller than the stone stood. (Round 26)
 
 <!-- generated:end -->
 

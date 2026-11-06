@@ -1,0 +1,45 @@
+{
+ "id": "XY05",
+ "aliases": [],
+ "name": "养雀笼 Yangque Long",
+ "glb": "model.glb",
+ "position": [
+  497.751,
+  0.62,
+  -787.677
+ ],
+ "rotationY": -1.462586,
+ "line": "Modelled from plates 6 and 7 of 1783-86 and the photographs of the east front from the 1870s to about 1922 (Child, Sirén); it was pulled down about 1924 and no plan survey is in hand, so every figure is a reading (C) on the plan's footprint.",
+ "rows": [
+  [
+   "West front",
+   "a Chinese gate of five roofs (S02 p.147, S310: B): the portico's two columns 6.4 m under the highest roof (ridge 7.9 m, finials 9.6 m), the arched door, the wings' columns and roofs (eave 5.1 m), the lowest roofs at the ends; the cage walls as a net with a fan-headed window in each, two statues on lotus pedestals (plate 6, C)"
+  ],
+  [
+   "East front",
+   "a European front 13.9 m wide, concave (the ends 1.8 m forward): end pavilions of two columns (4.6 m on 1 m pedestals) and a pier, shell niches with fountain vases, the arch 2.1 m wide to 4.6 m with its iron gate, the scrolled cartouche and lattice panels, the cornice at 6.9 m, the balustrade to 8 m with finials, the crest at 9 m (plate 7; P0192, P0175, P0178, P0168: C)"
+  ],
+  [
+   "Plan",
+   "13.9 × 11.6 m with the portico's projection (S01, b); a passage through the middle, the bird rooms either side (S310, B)"
+  ],
+  [
+   "Assumed",
+   "the ends of the range, the roof terrace, the passage's inside, the walls beyond the gate and their lowest roofs, the low walls either side of the east front beyond what plate 7 shows, the statues' figures (C, the pale tint with conf=1)"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 13.9,
+  "depth_m": 11.6,
+  "eave_m": 6.9,
+  "ridge_m": 7.9,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "hides": [
+  "GB36"
+ ],
+ "tris": 10381,
+ "fill_tris": 812,
+ "glb_bytes": 337312
+}

@@ -1,0 +1,216 @@
+{
+ "id": "XY04",
+ "frame": "x east along the south wall, y up from the ground at the south wall's box, z south; the origin on the south wall's centre line at its middle; metres",
+ "params": {
+  "block_w": {
+   "value": 58.56,
+   "source": "S310;S850",
+   "grade": "B",
+   "note": "the maze block E-W, 183 尺 (S310, a lead with no survey cited: method e); today's rebuilt maze 55.5-58.7 m (S850, b); the wall boxes of Round 6"
+  },
+  "block_d": {
+   "value": 88.64,
+   "source": "S310;S850",
+   "grade": "B",
+   "note": "the block N-S, 277 尺 (S310, e); today's rebuild 88.4-89.5 m (S850, b)"
+  },
+  "plan_rect": {
+   "value": "8706 415 9056 888",
+   "source": "S01",
+   "grade": "C",
+   "note": "the outer wall on S01 in plan px (W N E S), the middle of its double line: 73.7 x 99.3 m at the plan's scale; mapped onto the block (Q292)"
+  },
+  "wall_h": {
+   "value": 1.2,
+   "source": "S310;S02",
+   "grade": "B",
+   "note": "the maze walls: 阵墙高约1.20米 (S310, e); Malone 'about shoulder high' (S02 p.145)"
+  },
+  "wall_t": {
+   "value": 0.6,
+   "source": "S310",
+   "grade": "B",
+   "note": "宽约0.60米 (S310, e)"
+  },
+  "owall_h": {
+   "value": 1.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the outer wall, drawn taller and thicker than the maze walls on plate 5 (the near wall with its base course); assumed"
+  },
+  "owall_t": {
+   "value": 0.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the outer wall's thickness: plate 5 draws its top wider than the maze walls'; assumed"
+  },
+  "band": {
+   "value": "0.30-0.95",
+   "source": "S310;S71",
+   "grade": "C",
+   "note": "the carved band of 卐字不断 brick on both faces (S310; plate 5 draws fret and wave-scroll bands): drawn as a framed band of raised keys, no texture"
+  },
+  "topiary_step": {
+   "value": 5.5,
+   "source": "S71;S310",
+   "grade": "C",
+   "note": "the clipped three-tier trees on the walls (plate 5; S310 'three-tier clipped trees on the wall on the plates'): one every 5.5 m along a wall, their spacing read roughly on plate 5"
+  },
+  "gate_side_w": {
+   "value": 2.6,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the side gates' openings in the west and east walls: S01's dotted path through the wall at y 672-692 px; plate 5 draws two finial piers and iron leaves"
+  },
+  "pier_h": {
+   "value": 3.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side gates' piers to the cap; a pineapple finial of 1.0 m above (plate 5, by the walls' height)"
+  },
+  "drum_r": {
+   "value": 6.0,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the drum's radius: plate 5 285 px against the maze's 1315 px at that depth (12.7 m on the block's 58.56), S01's inner circle about 6 m"
+  },
+  "ring_r": {
+   "value": 8.6,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the ring of steps' outer radius: S01 100 px (16.7-18.7 m on the block), plate 5 419 px of 1315 (18.7 m)"
+  },
+  "drum_h": {
+   "value": 3.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the drum's top above the ground: plate 5, 105 px against the pavilion's width 132 px, with the plate's heights about 1.45 times its widths (Q219) and the view from above"
+  },
+  "landing_h": {
+   "value": 0.75,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the landing before the drum: the straight flight S01 draws south of the ring (three rungs), five steps on plate 5"
+  },
+  "flight_end": {
+   "value": 170.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the curved flights run from the landing round both sides to meet behind the drum at its top, degrees from the south: plate 5 shows them climbing behind the parapet"
+  },
+  "parapet_h": {
+   "value": 0.55,
+   "source": "S71",
+   "grade": "C",
+   "note": "the curved parapet's solid part above the treads, its balustrade above: plate 5"
+  },
+  "rail_h": {
+   "value": 0.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "balustrades: the parapet's, the drum's top"
+  },
+  "pav_w": {
+   "value": 6.4,
+   "source": "S01;S71;S03",
+   "grade": "C",
+   "note": "the pavilion across its large faces: S01's octagon 36 px (6.4 m on the block), plate 5 137 px of 1315 (6.1 m); today's redesigned pavilion 6.57 m (S03, B, not the original)"
+  },
+  "pav_chamfer": {
+   "value": 1.4,
+   "source": "S258;S01",
+   "grade": "C",
+   "note": "an octagon of four large faces (arches) and four small ones (windows): S258's description; the small faces 2.0 m"
+  },
+  "col_h": {
+   "value": 5.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pavilion's columns from the drum's top to their capitals: plate 5, 143 px, at the drum's reading"
+  },
+  "ent_top": {
+   "value": 6.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the entablature's top above the drum: plate 5, 175 px"
+  },
+  "eave_r": {
+   "value": 5.35,
+   "source": "S71",
+   "grade": "C",
+   "note": "the skirt roof's eave radius: plate 5 240 px of 1315 (10.7 m across)"
+  },
+  "eave_y": {
+   "value": 6.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the skirt's eave above the drum: plate 5, 210 px"
+  },
+  "dome_base": {
+   "value": 7.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the dome's foot above the drum: plate 5, 240 px"
+  },
+  "dome_top": {
+   "value": 10.6,
+   "source": "S71;S258",
+   "grade": "C",
+   "note": "the dome's top (a 'cul-de-four', S258) above the drum: plate 5, 330 px"
+  },
+  "lantern_top": {
+   "value": 11.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the open lantern's roof above the drum: plate 5, 365 px"
+  },
+  "finial_top": {
+   "value": 12.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ball finial's top above the drum: plate 5, 405 px"
+  },
+  "hall_w": {
+   "value": 14.9,
+   "source": "S01",
+   "grade": "C",
+   "note": "the north hall's front: S01's grid 89 px (18.7 m at the plan's scale), on the block 14.9 m; plate 5 reads 18.1 m on the block's width"
+  },
+  "hall_d": {
+   "value": 10.1,
+   "source": "S01",
+   "grade": "C",
+   "note": "its depth: S01 54 px on the block"
+  },
+  "hall_eave": {
+   "value": 7.0,
+   "source": "S02;S71",
+   "grade": "C",
+   "note": "two storeys (S02 p.145, B); the eave a guess from plate 5, where only its roof and upper wall show over the pavilion"
+  },
+  "hall_ridge": {
+   "value": 9.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the ridge: a gable roof with its ridge over the whole length and finials on its ends (plate 5)"
+  },
+  "hall_plat": {
+   "value": 0.6,
+   "source": "S01",
+   "grade": "C",
+   "note": "the hall's platform and terrace; S01 draws flights on its south side"
+  },
+  "basin_r": {
+   "value": 3.3,
+   "source": "S01",
+   "grade": "C",
+   "note": "the half-round basin with wave marks below the north wall's bow on S01 (34-40 px): a small pool, C"
+  },
+  "tree_crown": {
+   "value": 3.4,
+   "source": "S310;S71",
+   "grade": "C",
+   "note": "the four weeping pagoda trees 龙爪槐 in their tree circles at the inner corners (S310; plate 5 draws four umbrella crowns); their places the four rounded beds S01 draws, the crown's size assumed"
+  }
+ }
+}

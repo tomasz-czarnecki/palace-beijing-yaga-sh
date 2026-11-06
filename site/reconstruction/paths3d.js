@@ -34,7 +34,7 @@ function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base, skip 
   };
   const boatPts = [];
   for (const f of paths.features) {
-    if (skip && skip(f.properties)) continue; // Round 13: steps and galleries a detailed model draws itself
+    if (skip && skip(f.properties, f)) continue; // Round 13: steps and galleries a detailed model draws itself
     const p = f.properties;
     const xz = f.geometry.coordinates.map(toXZ);
     if (p.kind === "boat_route") {

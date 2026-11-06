@@ -297,7 +297,10 @@ async function main() {
   const modelIndex = await fetch("data/models.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
   const MODELS = (modelIndex && modelIndex.models) || {};
   const modelBoxIds = new Set(Object.values(MODELS).flatMap((c) => c.boxes || []));
-  const drawnByModel = (p) => (p.kind === "steps" || p.kind === "gallery") && [p.from_at, p.to_at].some((at) => at && modelBoxIds.has(at.split(":")[0]));
+  const waysCut = Object.values(MODELS).flatMap((c) => c.ways_cut || []); // Round 26: outlines where a model draws the ways itself (the maze's corridors)
+  const inCut = (poly, x, z) => { let ins = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) ins = !ins; } return ins; };
+  const midOf = (f) => { const c = f.geometry.coordinates, n = c.length, a = toXZ(c[Math.floor((n - 1) / 2)]), b = toXZ(c[Math.ceil((n - 1) / 2)]); return [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2]; };
+  const drawnByModel = (p, f) => ((p.kind === "steps" || p.kind === "gallery") && [p.from_at, p.to_at].some((at) => at && modelBoxIds.has(at.split(":")[0]))) || (f && waysCut.length > 0 && f.geometry.type === "LineString" && waysCut.some((poly) => inCut(poly, ...midOf(f))));
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
   const ground = buildGround({ meta, buf, gridBuf, levelBuf });

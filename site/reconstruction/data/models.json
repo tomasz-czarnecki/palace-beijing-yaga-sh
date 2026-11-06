@@ -189,6 +189,91 @@
     "XY01-M06"
    ]
   },
+  "XY04": {
+   "url": "models/XY04/model.glb",
+   "name": "黄花阵 Huanghua Zhen",
+   "aliases": [
+    "XY04-01",
+    "XY04-N01"
+   ],
+   "position": [
+    454.585,
+    0.54,
+    -828.646
+   ],
+   "rotationY": 0.10821,
+   "caption": {
+    "frontage_m": 58.56,
+    "depth_m": 88.64,
+    "eave_m": 1.2,
+    "ridge_m": 16.7,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY04-M10",
+    "XY04-M11",
+    "XY04-M12",
+    "XY04-M13",
+    "XY04-M14",
+    "XY04-M15",
+    "XY04-M16",
+    "XY04-M17",
+    "XY04-M18",
+    "XY04-M19",
+    "XY04-M20",
+    "XY04-M21",
+    "XY04-M22",
+    "XY04-M23",
+    "XY04-M24"
+   ],
+   "ways_cut": [
+    [
+     [
+      416.454,
+      -913.162
+     ],
+     [
+      473.678,
+      -919.379
+     ],
+     [
+      483.143,
+      -832.251
+     ],
+     [
+      425.919,
+      -826.035
+     ]
+    ]
+   ]
+  },
+  "XY05": {
+   "url": "models/XY05/model.glb",
+   "name": "养雀笼 Yangque Long",
+   "aliases": [],
+   "position": [
+    497.751,
+    0.62,
+    -787.677
+   ],
+   "rotationY": -1.462586,
+   "caption": {
+    "frontage_m": 13.9,
+    "depth_m": 11.6,
+    "eave_m": 6.9,
+    "ridge_m": 7.9,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [
+    "GB36"
+   ],
+   "boxes": [
+    "XY05-M25"
+   ]
+  },
   "XY06": {
    "url": "models/XY06/model.glb",
    "name": "方外观 Fangwaiguan",
