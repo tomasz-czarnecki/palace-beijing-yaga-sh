@@ -27,6 +27,7 @@
     ["greens", "Trees, lotus and rockeries"],
     ["around", "The surroundings of the palace"],
     ["models", "Detailed buildings"],
+    ["light", "Light: sun, shadows, sky and the night"],
   ];
   const steps = {};
   for (const [key, label] of STEPS) {
@@ -67,6 +68,8 @@
     if (path.endsWith("/generated/greens_1860.bin")) return ["greens", "Planting · the trees"];
     if (path.endsWith("/data/models.json")) return ["models", "Index of the detailed buildings"];
     if (path.endsWith("/data/plates.json")) return ["engine", "Engraving cameras"];
+    if (path.endsWith("/beauty3d.js")) return ["light", "Beautiful light · sun, shadows, sky, haze"];
+    if (path.endsWith("/night3d.js")) return ["light", "Beautiful light · lanterns and lit windows"];
     if (path.includes("/data/buildings/")) return ["models", "Page · " + decodeURIComponent(file.replace(".json", ""))];
     if (file.endsWith(".glb")) {
       const id = path.split("/").slice(-2, -1)[0];

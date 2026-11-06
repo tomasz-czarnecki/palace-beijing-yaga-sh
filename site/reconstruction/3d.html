@@ -13,14 +13,29 @@
   <style>
     html, body { margin: 0; height: 100%; background: #cfd8dd; font: 13px/1.35 'Geist', system-ui, sans-serif; color: #1c1c1c; overflow: hidden; }
     canvas { display: block; }
-    #panel { position: fixed; top: 58px; left: 10px; background: #ffffffe6; padding: 8px 12px; border-radius: 6px; max-width: 265px; max-height: calc(100vh - 80px); overflow-y: auto; box-sizing: border-box; }
-    #panel h1 { font-size: 14px; margin: 0 0 6px; }
+    /* Round 23: layers and settings, hidden on every load, a dropdown under the cog in the header (panelCog in 3d.js), as in Küstrin. The view has the whole width. */
+    #panel { position: fixed; top: 56px; right: clamp(12px, 2vw, 24px); z-index: 850; box-sizing: border-box; width: 290px; max-height: calc(100vh - 68px); overflow-y: auto; overscroll-behavior: contain; background: #ffffffeb; padding: 8px 12px; border-radius: 6px; box-shadow: 0 2px 10px #0003; }
+    #panel[hidden] { display: none; }
+    .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 -4px 6px 0; }
+    #panel h1 { font-size: 14px; margin: 0; }
+    #panel-close { flex: none; width: 28px; height: 28px; padding: 0; border: 0; border-radius: 3px; background: none; color: #555; font-size: 18px; line-height: 1; cursor: pointer; }
+    #panel-close:hover { color: #1c1c1c; background: #0000000f; }
+    #panel-close:focus-visible, #panel input:focus-visible, #panel select:focus-visible, #panel button:focus-visible, #legend-box summary:focus-visible { outline: 2px solid #DB6543; outline-offset: 1px; }
+    /* Beside the building panel, not over it. */
+    body.panel-open #panel { right: calc(min(400px, 100vw) + 10px); }
     #panel label { display: block; }
     #panel select#season { margin-left: 4px; font: 12px 'Geist', system-ui, sans-serif; }
+    .panel-light { display: flex; align-items: center; gap: 8px; margin: 0 0 7px; font-size: 12px; }
+    .panel-light .light-switch { display: flex; font: 11px 'Geist Mono', ui-monospace, monospace; letter-spacing: .04em; text-transform: uppercase; }
+    .panel-light .light-switch button { min-height: 28px; padding: 0 9px; border: 1px solid #17130F; background: none; color: #17130F; font: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; white-space: nowrap; }
+    .panel-light .light-switch button + button { border-left: 0; }
+    .panel-light .light-switch button[aria-pressed="true"] { background: #17130F; color: #F5EEE2; }
     #legend span { display: inline-block; width: 11px; height: 11px; margin-right: 5px; vertical-align: -1px; border: 1px solid #0005; }
+    #legend-box { margin-top: 8px; font-size: 12px; color: #333; }
+    #legend-box summary { cursor: pointer; color: #555; font-size: 11.5px; }
     #legend { margin-top: 6px; font-size: 12px; }
     #legend div { margin-bottom: 2px; }
-    #note { font-size: 11px; color: #555; margin-top: 6px; }
+    #note, #legend-box p { font-size: 11px; color: #555; margin: 6px 0 0; }
     #bpanel { position: fixed; top: 48px; right: 0; bottom: 0; width: min(400px, 100vw); z-index: 900; overflow-y: auto; background: #fbf8f3; box-shadow: -2px 0 14px #0003; font: 13px/1.45 'Geist', system-ui, sans-serif; }
     #bpanel[hidden] { display: none; }
     .bp-head { position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; gap: 10px; padding: 12px 14px 10px; background: #17130F; color: #F5EEE2; }
@@ -152,11 +167,18 @@
     @media (max-width: 760px) { #loading ol { display: none; } #loading .ln .s { width: 76px; } }
     @media (max-width: 760px) {
       #bpanel { top: auto; left: 0; bottom: 0; width: 100%; height: 56vh; box-shadow: 0 -2px 14px #0004; border-radius: 10px 10px 0 0; }
-      body.panel-open #panel { display: none; }
       body.panel-open #back { left: 50%; }
-      #panel { max-width: 210px; }
-      #note, #legend { display: none; }
+      /* The cog's panel the full width under the bar, scrolling; the time of day drops below the bar, and what stands under the bar moves down with it. */
+      #panel, body.panel-open #panel { top: 56px; left: 8px; right: 8px; width: auto; background: #fff; max-height: min(70vh, calc(100vh - 68px)); }
+      #panel-close { width: 36px; height: 36px; }
+      #panel label { padding: 3px 0; }
+      body.light-sun #panel { top: 92px; max-height: min(70vh, calc(100vh - 104px)); }
+      body.panel-open #panel { max-height: calc(44vh - 64px); }
+      body.light-sun.panel-open #panel { max-height: calc(44vh - 100px); }
+      body.light-sun #back, body.light-sun #walk-exit { top: 94px; }
     }
+    @media (max-width: 1060px) { .recon-header .brand span:not([lang]) { display: none; } }
+    @media (min-width: 761px) and (max-width: 900px) { .recon-header nav a[href="../"] { display: none; } .time-of-day input { width: 100px; } }
     /* Round 13: the detailed model's preview in the panel (model3d.js, as Küstrin's) */
     .bp-model { position: relative; margin: 0 -14px 10px; }
     .bp-model:empty { display: none; }
@@ -178,14 +200,25 @@
 <body>
   <header class="recon-header">
     <a class="brand" href="../"><img src="../assets/mark.svg" width="24" height="24" alt=""><span lang="zh-Hans">圆明园</span><span>Yuanmingyuan</span></a>
+    <div class="light-controls">
+      <div class="time-of-day" id="tod" role="group" aria-label="Time of day" title="Time of day, a clear summer's day" hidden>
+        <button type="button" class="tod-button" id="tod-play" aria-label="Play the day" title="Play the day"><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path id="tod-play-icon" d="M3 1.5v9l7.5-4.5z" fill="currentColor"/><path id="tod-pause-icon" hidden d="M2.5 1.5h2.6v9H2.5zM6.9 1.5h2.6v9H6.9z" fill="currentColor"/></svg></button>
+        <svg class="tod-icon" id="tod-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><g id="tod-sun"><circle cx="8" cy="8" r="3.2" fill="currentColor"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13M3 13l1.4-1.4M11.6 4.4L13 3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><path id="tod-moon" hidden d="M11.8 10.6A5.2 5.2 0 0 1 5.4 4.2a.4.4 0 0 0-.6-.4 5.6 5.6 0 1 0 7.4 7.4.4.4 0 0 0-.4-.6z" fill="currentColor"/></svg>
+        <input id="sun-hour" type="range" min="0" max="24" step="0.25" value="18.5" aria-label="Time of day" aria-valuetext="18:30, golden hour">
+        <output id="tod-time" for="sun-hour" aria-live="off">18:30</output>
+        <button type="button" class="tod-button tod-speed" id="tod-speed" hidden aria-label="Speed 1 times, press to change">1×</button>
+      </div>
+    </div>
     <nav aria-label="Reconstruction">
       <a href="../">Homepage</a>
       <a href="3d.html" aria-current="page">3D view</a>
       <a class="dev-link" href="index.html" title="Development preview: the 2D working map">Dev map</a>
+      <button type="button" class="panel-cog" id="panel-cog" aria-label="Layers and settings" title="Layers and settings" aria-controls="panel" aria-expanded="false"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-2.82 1.17V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-2.82-1.17l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 3.26 14H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.17-2.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 10 3.26V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 2.82 1.17l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 20.91 10H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
     </nav>
   </header>
-  <div id="panel">
-    <h1><span lang="zh-Hans">圆明园</span> before October 1860</h1>
+  <div id="panel" role="region" aria-label="Layers and settings" hidden>
+    <div class="panel-head"><h1><span lang="zh-Hans">圆明园</span> before October 1860</h1><button id="panel-close" type="button" aria-label="Close layers and settings">×</button></div>
+    <div class="panel-light"><span>Light</span><div class="light-switch" role="group" aria-label="Light"><button type="button" data-light="clean" aria-pressed="false">Clean</button><button type="button" data-light="sun" aria-pressed="true">Beautiful light</button></div></div>
     <label><input type="checkbox" id="halls" checked> Halls</label>
     <label><input type="checkbox" id="kit" checked> Hall kit: forms from the typology (off: plain boxes)</label>
     <label><input type="checkbox" id="walls" checked> Walls and bridges</label>
@@ -200,6 +233,8 @@
     <label><input type="checkbox" id="vx"> Vertical scale 2×</label>
     <button id="walk" type="button">Walk from the view's centre</button>
     <select id="route" aria-label="Walk a route"><option value="">Walk a route…</option></select>
+    <details id="legend-box">
+    <summary>Legend, sources and how to move</summary>
     <div id="legend">
       <div id="legend-plain">
         <div><span style="background:#8a2f22"></span><span style="background:#5f6469"></span>a hall on the plan, drawn by the kit from its hall class: red-brown lacquer, grey tile (the rule)</div>
@@ -230,6 +265,9 @@
       <div><span style="background:#6f9fb0"></span>water <span style="background:#899862;margin-left:8px"></span>land <span style="background:#567446;margin-left:8px"></span>hills</div>
     </div>
     <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, and the halls are drawn by a kit from their hall class unless a source gives their own figures, ground from today's 30 m DEM, the 1744 album and typology: most hills are guesses (C), the pale ones generated where the plan draws none. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height. Planting: what the 1744 poems, prefaces and leaves, 日下旧闻考, the later imperial poems and the eyewitnesses name for each scene; no plan draws a tree, so every place is generated, and the pale fill (assumed) is typical planting where no source names any.</div>
+    <p>Light: the sun, the sky, the shadows, the haze and the night of Beautiful light are a choice for the look, not evidence: a clear day in the season you pick, by Beijing's clock. Clean is the historical view.</p>
+    <p>Night: no source places a lantern or says which rooms were lit before 1860. The lanterns along the galleries, before the gates and the main halls and at the landings, and the lit windows, are generated by fixed rules for the look of a festival night (assumed, C); the Assumed switch hides them.</p>
+    </details>
   </div>
   <aside id="bpanel" aria-label="Building" hidden></aside>
   <div id="lightbox" role="dialog" aria-label="Picture" hidden>

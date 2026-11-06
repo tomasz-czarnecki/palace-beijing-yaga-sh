@@ -7,7 +7,7 @@ const OUT = process.argv[2] || '/opt/data/cache/scratch/palace_loader_test';
 fs.mkdirSync(OUT, { recursive: true });
 const require = createRequire('/opt/data/cache/scratch/palace_r11_kit_tools/node_modules/noop.js');
 const { chromium } = require('playwright');
-const PORT = 8977;
+const PORT = Number(process.env.PORT || 8977);
 const srv = spawn(REPO + '/.venv/bin/python', [REPO + '/tools/serve_local.py', '--port', String(PORT), '--public'], { cwd: REPO, stdio: 'ignore' });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 for (let k = 0; k < 60; k++) { try { await fetch(`http://127.0.0.1:${PORT}/reconstruction/3d.html`, { method: 'HEAD' }); break; } catch { await sleep(300); } }

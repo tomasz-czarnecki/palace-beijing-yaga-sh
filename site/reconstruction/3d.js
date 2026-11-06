@@ -8,9 +8,88 @@
 // Round 13: detailed models (data/models.json, models/<ID>-<slug>/ by scripts/building_pages.py, glb_lite.js): the model replaces its boxes' drawing, the boxes stay the click target, unseen; &assumed=0 hides the parts carried round with no picture (materials ~fill), &conf=1 tints them pale and the rest by its grade. The panel's "Our model now" has the model's own small view (model3d.js).
 // Round 13: &plate=<photo id>[&platefit=all|anchored] is a development mode: the camera of that plate or photograph as tools/plate_overlay.py fitted it (data/plates.json), the picture laid over the view at a set opacity; &plateimg=0 the view alone.
 // Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
+// Round 23: Clean is this file's own light. Beautiful light, the default, is beauty3d.js (and night3d.js behind it), ported from Küstrin: fetched as the page starts and put on right behind the first frame; it hooks in through scene.onBeforeRender and the calls beauty?.… below.
+// &light=clean|sun (default sun, or what the visitor last chose; shot=1 and plate= are Clean unless they say sun) &time=<clock hour, 0-24, Beijing> &cycle=1 (the day plays from there) &lightq=high|mid|low|min &panel=1 (the cog's panel open). The time of day is in the header; the layers, the light and the legend are under the cog.
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
 if (shot) document.body.classList.add("shot");
+
+// Round 23: the layers and settings, hidden on every load, open from the cog in the header (as in Küstrin); nothing remembered. Wired before anything loads, so the cog works from the first moment.
+// Closes with its ×, Escape (one thing at a time: the picture first, then this, then the building panel or the walk behind it) or a press outside it.
+const panelCog = (() => {
+  const box = document.getElementById("panel"), cog = document.getElementById("panel-cog");
+  const set = (open, focus = false) => { box.hidden = !open; cog.setAttribute("aria-expanded", String(open)); if (open && focus) document.getElementById("panel-close").focus(); };
+  const closeToCog = () => { set(false); cog.focus(); };
+  cog.onclick = (e) => set(box.hidden, e.detail === 0); // a key (Enter, Space) moves the focus in; a click leaves it
+  document.getElementById("panel-close").onclick = closeToCog;
+  addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || box.hidden || !document.getElementById("lightbox").hidden) return;
+    e.stopImmediatePropagation();
+    closeToCog();
+  }, true);
+  addEventListener("pointerdown", (e) => { if (!box.hidden && !box.contains(e.target) && !cog.contains(e.target)) set(false); }, true);
+  if (params.get("panel") === "1" && !shot) set(true);
+  return { close: () => set(false), open: () => set(true), get open() { return !box.hidden; } };
+})();
+
+// Round 23: Clean or Beautiful light, and the time of day in the header. A click on the light is remembered; a link's light= is not.
+let beauty = null, beautyDay = null; // Beautiful light, once asked for; the day of the season (beauty3d.js dayOf)
+const LIGHT_KEY = "palace-light";
+const rememberedLight = () => { try { return localStorage.getItem(LIGHT_KEY); } catch { return null; } };
+const firstLight = params.get("light") === "clean" || params.get("light") === "sun" ? params.get("light") : shot || params.get("plate") || rememberedLight() === "clean" ? "clean" : "sun";
+const askedHour = () => (params.get("time") !== null && Number.isFinite(Number(params.get("time"))) ? Number(params.get("time")) : null);
+const clockOf = (h) => { const m = Math.round(h * 60) % 1440; return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`; };
+// Until beauty3d.js is in: a summer's day by the clock (sunrise 04:50, sunset 19:47); then its own day of the season.
+const PART_OF_DAY = [[3.8, "night"], [4.8, "dawn"], [5.5, "sunrise"], [6.3, "morning"], [11, "morning"], [13.8, "noon"], [17.8, "afternoon"], [19.2, "golden hour"], [19.8, "sunset"], [20.6, "blue hour"], [24, "night"]];
+const partOfDay = (h) => (beautyDay ? beautyDay.partOf(h) : PART_OF_DAY.find(([end]) => h < end)?.[1] ?? "night");
+const isDown = (h) => (beautyDay ? beautyDay.down(h) : h < 4.83 || h > 19.79);
+// Playing the day: about 70 seconds round the clock, as in Küstrin, twice as slow through dawn and dusk.
+const CYCLE = { seconds: 68, slow: [[4, 6], [18.8, 21.5]], fps: 30, phoneFps: 20, speeds: [1, 3], urlEveryMs: 5000 };
+const cyclePerHour = () => CYCLE.seconds / CYCLE.slow.reduce((n, [a, b]) => n + b - a, 24); // real seconds to a clock hour, outside the slow stretches
+const hourAfter = (h, seconds) => {
+  for (let s = seconds; ; ) {
+    const slow = CYCLE.slow.find(([a, b]) => h >= a && h < b), perHour = cyclePerHour() * (slow ? 2 : 1);
+    const edge = slow ? slow[1] : CYCLE.slow.map(([a]) => a).find((a) => a > h) ?? 24;
+    if (s < (edge - h) * perHour) return h + s / perHour;
+    s -= (edge - h) * perHour;
+    h = edge % 24;
+  }
+};
+const TOD_TRACK = [[0, "#0b1330"], [3.2, "#101c44"], [4.6, "#d98a5b"], [6, "#9dbcd9"], [12.3, "#c6e3f5"], [17.5, "#e8c483"], [19.6, "#d9663a"], [20.5, "#3a4d86"], [21.8, "#0b1330"], [24, "#0b1330"]];
+const lightButtons = document.querySelectorAll("[data-light]"), tod = document.getElementById("tod"), sunHour = document.getElementById("sun-hour");
+const showHour = (h) => {
+  document.getElementById("tod-time").textContent = clockOf(h);
+  sunHour.setAttribute("aria-valuetext", `${clockOf(h)}, ${partOfDay(h)}`);
+  tod.title = `Time of day: ${clockOf(h)}, ${partOfDay(h)}${beautyDay ? ` (a clear day about ${beautyDay.day}, Beijing time)` : ""}`;
+  const down = isDown(h);
+  tod.classList.toggle("night", down);
+  document.getElementById("tod-sun").toggleAttribute("hidden", down);
+  document.getElementById("tod-moon").toggleAttribute("hidden", !down);
+};
+const showTrack = (track) => {
+  const lo = Number(sunHour.min), hi = Number(sunHour.max), span = hi - lo;
+  tod.style.setProperty("--tod-track", `linear-gradient(90deg, ${track.map(([h, c]) => `${c} ${(((h - lo) / span) * 100).toFixed(1)}%`).join(", ")})`);
+};
+const showLight = (mode) => {
+  lightButtons.forEach((el) => el.setAttribute("aria-pressed", String(el.dataset.light === mode)));
+  tod.hidden = mode !== "sun";
+  document.body.classList.toggle("light-sun", mode === "sun");
+};
+{
+  showTrack(TOD_TRACK);
+  const h = askedHour();
+  if (h !== null) sunHour.value = h;
+  showHour(Number(sunHour.value));
+  showLight(firstLight);
+}
+// Through fetch, not a plain import, so the loading console can name it. Once only: when the sun is the mode to start in, it is on its way while the gardens load, and costs the first frame nothing.
+let beautyCode = null;
+const loadBeauty = () => (beautyCode ||= (async () => {
+  const res = await fetch("beauty3d.js");
+  if (!res.ok) throw new Error(`beauty3d.js: ${res.status}`);
+  const url = URL.createObjectURL(new Blob([await res.text(), "\n//# sourceURL=beauty3d.js"], { type: "text/javascript" }));
+  try { return await import(url); } finally { URL.revokeObjectURL(url); }
+})());
 const reduced = () => shot || matchMedia("(prefers-reduced-motion: reduce)").matches;
 const SKY = 0xcfd8dd;
 
@@ -22,7 +101,8 @@ document.body.prepend(renderer.domElement);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(SKY);
 scene.fog = new THREE.Fog(SKY, 6000, 40000); // Round 20: clear over the gardens, the Western Hills (10-40 km) a hazy ridge
-scene.add(new THREE.HemisphereLight(0xffffff, 0x8a8370, 1.7));
+const hemi = new THREE.HemisphereLight(0xffffff, 0x8a8370, 1.7);
+scene.add(hemi);
 const sun = new THREE.DirectionalLight(0xfff4e0, 2.3);
 sun.position.set(-700, 900, 800); // from the south-west, so roofs read
 scene.add(sun);
@@ -58,8 +138,8 @@ function updateLabels() {
   }
 }
 let kitUpdate = null, kitFrame = 0, greensUpdate = null, lastRender = 0;
-function render() {
-  lastRender = performance.now();
+function render(daylight = false) {
+  if (!daylight) lastRender = performance.now(); // the panel's preview waits while the view moves; the playing day's frames don't count
   fitNearPlane();
   updateLabels();
   // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all. Round 12: so do the plants.
@@ -67,7 +147,7 @@ function render() {
   if ((kitWaits || greensWait) && !kitFrame) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
   renderer.render(scene, camera);
 }
-controls.addEventListener("change", render);
+controls.addEventListener("change", () => render());
 addEventListener("resize", () => {
   camera.aspect = innerWidth / innerHeight;
   setOffset(offset);
@@ -191,6 +271,7 @@ function labelSprite(text, sub, rank) {
 }
 
 async function main() {
+  if (firstLight === "sun") loadBeauty().catch(() => { beautyCode = null; }); // setLight below retries, and says so
   const local = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) && !params.get("public") && (await fetch(location.href, { method: "HEAD" }).then((r) => r.headers.get("X-Palace-Local") === "1").catch(() => false));
   const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc, kitSpec, greensMeta, greensBuf] = await Promise.all([
     fetch("generated/ground.json").then((r) => r.json()),
@@ -263,6 +344,7 @@ async function main() {
   }).map((p) => p.catch((err) => console.warn("Detailed model not loaded, the boxes stay:", err)))).then(() => {
     if (Object.keys(detailed).length) halls.setModelled(true);
     applyModels();
+    beauty?.modelsChanged(); // their shadows, their patches, their lit windows
     render();
     window.__modelsReady = true;
   });
@@ -337,6 +419,8 @@ async function main() {
     applyModels();
     document.getElementById("legend-plain").hidden = state.conf;
     document.getElementById("legend-conf").hidden = !state.conf;
+    beauty?.changed();
+    if (beauty && beautyDay && beautyDay.season !== state.season) seasonDay();
     render();
   }
   for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours", "greens", "around"]) {
@@ -431,6 +515,7 @@ async function main() {
       if (token !== openToken) return;
       const list = boxesOf(id);
       panel.show(page);
+      if (isPhone()) panelCog.close(); // the sheet would sit over the picture the click just framed
       setUrl(id);
       halls.select(list);
       if (!state.halls && list.length) { state.halls = true; document.getElementById("halls").checked = true; apply(); }
@@ -701,14 +786,175 @@ async function main() {
   controls.target.set(...cam.slice(3, 6));
   controls.update();
   apply();
+  performance.mark("palace-first-frame");
+
+  // Round 23: Clean or Beautiful light. Its meshes and their groups, what the night places its lanterns from, and how a frame is drawn without moving the near plane (the walk sets its own).
+  const seasonDay = () => {
+    if (!beautyCode || !beauty) return;
+    beautyCode.then((mod) => {
+      beautyDay = { ...mod.dayOf(state.season), season: state.season };
+      CYCLE.slow = beautyDay.slow;
+      showTrack(beautyDay.track);
+      showHour(Number(sunHour.value));
+    }).catch(() => {});
+  };
+  let lightAsked = 0;
+  const setLight = async (mode, { keepUrl = false } = {}) => {
+    const token = ++lightAsked;
+    showLight(mode);
+    if (mode === "sun" && !beauty) {
+      try {
+        const { createBeauty } = await loadBeauty();
+        beauty ||= createBeauty({
+          renderer, scene, camera, controls, world, hemi, sun, state, render, draw: () => renderer.render(scene, camera),
+          meshes: { ground: ground.group, around: around?.group, aroundItems: around?.items, structures: meshes.structures, halls: meshes.halls, ways: ways.groups, greens: greens.group, labels: () => labels },
+          dynamic: [kit.group, greens.group], groundY: meta.ground_m - meta.datum_m,
+          phone: isPhone(), automated: shot || navigator.webdriver, quality: params.get("lightq"), hour: askedHour(),
+          nightInputs: { paths: pathFc, landings: landingFc, halls: halls.info, gallery: kitSpec.gallery, toXZ, groundAt: wayGroundAt, waterLevelAt, aroundData, aroundHeightAt: around?.heightAt },
+        });
+        sunHour.value = beauty.hour;
+        seasonDay();
+        showHour(beauty.hour);
+      } catch (err) {
+        beautyCode = null;
+        console.warn("Beautiful light is not loaded:", err);
+        showLight("clean");
+        return;
+      }
+    }
+    if (token !== lightAsked) return;
+    if (mode === "sun") { beauty.enable(); render(); beauty.probe(); } else if (beauty) beauty.disable();
+    cycle.sync();
+    if (!keepUrl) {
+      const u = new URL(location.href);
+      if (mode === "sun") u.searchParams.delete("light"); else { u.searchParams.set("light", "clean"); u.searchParams.delete("time"); }
+      history.replaceState(null, "", u);
+    }
+    render();
+  };
+  lightButtons.forEach((el) => {
+    el.onclick = () => {
+      try { localStorage.setItem(LIGHT_KEY, el.dataset.light); } catch { /* private mode: for this page only */ }
+      setLight(el.dataset.light);
+    };
+  });
+  // A frame of the playing day: the walk draws its own when it moves, a route every frame.
+  const drawFrame = () => { if (touring) return; if (walking) renderer.render(scene, camera); else render(true); };
+  // Playing the day. It runs only while wanted, in Beautiful light and on a visible tab; it picks up again when those come back.
+  const cycle = (() => {
+    const playButton = document.getElementById("tod-play"), speedButton = document.getElementById("tod-speed");
+    let wanted = false, cycling = false, raf = 0, last = 0, lastFrame = 0, speed = CYCLE.speeds[0], lastUrl = 0, shownClock = "", steps = 0;
+    const frameMs = () => 1000 / (isPhone() ? CYCLE.phoneFps : CYCLE.fps);
+    const writeUrl = (h) => {
+      const u = new URL(location.href);
+      u.searchParams.set("time", h.toFixed(2));
+      history.replaceState(null, "", u);
+    };
+    const advance = (seconds) => {
+      const h = hourAfter(beauty.hour % 24, seconds * speed);
+      beauty.stepHour(h);
+      steps++;
+      const clock = clockOf(h);
+      if (clock !== shownClock) { shownClock = clock; sunHour.value = h; showHour(h); }
+      const now = performance.now();
+      if (now - lastUrl > CYCLE.urlEveryMs) { lastUrl = now; writeUrl(h); }
+    };
+    const tick = (now) => {
+      raf = 0;
+      if (!cycling) return;
+      raf = requestAnimationFrame(tick);
+      if (now - lastFrame < frameMs() - 2) return;
+      const seconds = Math.min((now - last) / 1000, 2);
+      last = lastFrame = now;
+      if (!document.getElementById("lightbox").hidden) return; // it covers the view
+      advance(seconds);
+      drawFrame();
+    };
+    const sync = () => {
+      const run = wanted && Boolean(beauty?.on) && !document.hidden;
+      if (run === cycling) return;
+      cycling = run;
+      if (beauty) beauty.cycling = run;
+      if (run) {
+        last = lastFrame = performance.now();
+        raf = requestAnimationFrame(tick);
+      } else {
+        cancelAnimationFrame(raf);
+        raf = 0;
+        if (beauty?.on && !document.hidden) drawFrame();
+      }
+    };
+    const showButtons = () => {
+      const label = wanted ? "Pause" : "Play the day";
+      playButton.setAttribute("aria-label", label);
+      playButton.title = label;
+      document.getElementById("tod-play-icon").toggleAttribute("hidden", wanted);
+      document.getElementById("tod-pause-icon").toggleAttribute("hidden", !wanted);
+      speedButton.hidden = !wanted;
+      speedButton.textContent = `${speed}×`;
+      speedButton.setAttribute("aria-label", `Speed ${speed} times, press to change`);
+    };
+    const play = () => {
+      if (shot || wanted) return;
+      wanted = true;
+      sunHour.step = "any"; // or the thumb would snap to the quarter hours
+      lastUrl = performance.now();
+      beauty?.nightReady(); // so dusk doesn't hitch
+      showButtons();
+      sync();
+    };
+    const pause = () => {
+      if (!wanted) return;
+      wanted = false;
+      sunHour.step = "0.25";
+      sync();
+      showButtons();
+      if (beauty?.on) { showHour(beauty.hour); writeUrl(beauty.hour); }
+    };
+    playButton.onclick = () => (wanted ? pause() : play());
+    speedButton.onclick = () => {
+      speed = CYCLE.speeds[(CYCLE.speeds.indexOf(speed) + 1) % CYCLE.speeds.length];
+      showButtons();
+    };
+    document.addEventListener("visibilitychange", sync);
+    return { play, pause, sync, get playing() { return wanted; }, get running() { return cycling; }, get speed() { return speed; }, get steps() { return steps; }, step: (seconds) => { advance(seconds); drawFrame(); }, hourAfter };
+  })();
+  // The slider redraws the shadows' maps: one frame per screen frame, however fast it moves.
+  let hourFrame = 0;
+  sunHour.oninput = () => {
+    cycle.pause();
+    const h = Number(sunHour.value);
+    showHour(h);
+    if (!beauty || hourFrame) return;
+    hourFrame = requestAnimationFrame(() => {
+      hourFrame = 0;
+      const now = Number(sunHour.value);
+      beauty.setHour(now);
+      const u = new URL(location.href);
+      u.searchParams.set("time", String(now));
+      history.replaceState(null, "", u);
+    });
+  };
+  if (firstLight === "sun") await setLight("sun", { keepUrl: true });
+  // A link to the dark, and the render tools, wait for the lanterns; the day doesn't, they follow behind it.
+  if (beauty?.on && (shot || navigator.webdriver || beautyDay?.down(beauty.hour) || isDown(beauty.hour))) await beauty.nightReady();
+  performance.mark("palace-light-on");
   const deep = params.get("b");
   if (deep) await open(deep.toUpperCase());
   await modelsReady;
+  setTimeout(() => { if (beauty?.on) beauty.probe(); }, 1200); // once the models are in, a second look at the frame time: they are most of the cost
   if (params.get("plate")) await plateMode(params.get("plate").toUpperCase(), params.get("platefit") || "all");
   { const ld = document.getElementById("loading"); if (ld && !window.__loaderOn) ld.hidden = true; } // loading.js (when on) closes its own card
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  // cycle=1 starts it once; what the address bar then carries is time=, so a copied link opens on that hour, standing.
+  if (params.get("cycle") !== null && !shot) {
+    if (params.get("cycle") === "1" && beauty?.on && !matchMedia("(prefers-reduced-motion: reduce)").matches) cycle.play();
+    const u = new URL(location.href);
+    u.searchParams.delete("cycle");
+    history.replaceState(null, "", u);
+  }
+  window.viewer = { setLight, cycle, panelCog, get beauty() { return beauty; }, around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

@@ -68,7 +68,7 @@ if (!has('views-only')) {
   const plates = JSON.parse(fs.readFileSync(path.join(ROOT, 'site/reconstruction/data/plates.json'), 'utf8')).plates;
   const ids = Object.keys(plates).filter((k) => plates[k].object === OBJ);
   const page = await newPage(1600, 1200);
-  await page.goto(`${base}/reconstruction/3d.html?shot=1&labels=0&greens=0&plate=${ids[0]}&plateimg=0${ONLY ? `&plateonly=${ONLY}` : ''}`, { waitUntil: 'load' });
+  await page.goto(`${base}/reconstruction/3d.html?shot=1&light=clean&labels=0&greens=0&plate=${ids[0]}&plateimg=0${ONLY ? `&plateonly=${ONLY}` : ''}`, { waitUntil: 'load' });
   await page.waitForFunction('window.__ready === true && window.__plateReady === true', null, { timeout: 600000 });
   for (const id of ids) for (const fit of FITS) {
     if (!plates[id].fits[fit]) continue;
@@ -103,7 +103,7 @@ for (const d of fs.readdirSync(path.join(ROOT, 'models'))) {
 const toWorld = (c, p) => { const s = Math.sin(c.rotationY), k = Math.cos(c.rotationY); return [c.position[0] + k * p[0] + s * p[2], c.position[1] + p[1], c.position[2] - s * p[0] + k * p[2]]; };
 async function views(siteBase, tag, withPanel) {
   const page = await newPage(1400, 900);
-  await page.goto(`${siteBase}/reconstruction/3d.html?shot=1&labels=0`, { waitUntil: 'load' });
+  await page.goto(`${siteBase}/reconstruction/3d.html?shot=1&light=clean&labels=0`, { waitUntil: 'load' });
   await page.waitForFunction('window.__ready === true', null, { timeout: 600000 });
   await page.waitForFunction('window.__modelsReady === true || !window.viewer.detailed', null, { timeout: 120000 }).catch(() => {});
   const frame = JSON.parse(fs.readFileSync(path.join(ROOT, 'site/reconstruction/data/models.json'), 'utf8')).models[OBJ];
@@ -115,7 +115,7 @@ async function views(siteBase, tag, withPanel) {
     console.log(tag, name, `${((Date.now() - t0) / 1000).toFixed(0)} s`);
   }
   for (const extra of has('conf') ? [['conf=1', 'conf'], ['assumed=0', 'assumed0']] : []) {
-    await page.goto(`${siteBase}/reconstruction/3d.html?shot=1&labels=0&${extra[0]}`, { waitUntil: 'load' });
+    await page.goto(`${siteBase}/reconstruction/3d.html?shot=1&light=clean&labels=0&${extra[0]}`, { waitUntil: 'load' });
     await page.waitForFunction('window.__ready === true', null, { timeout: 600000 });
     await page.waitForFunction('window.__modelsReady === true', null, { timeout: 120000 }).catch(() => {});
     const av = VIEWS.find((v) => v[0] === 'aerial') || ['aerial', [70, 60, 95], [0, 3, 8]];
@@ -128,7 +128,7 @@ async function views(siteBase, tag, withPanel) {
   if (!withPanel) return;
   // the panel with the model's own view: a real viewport, no shot mode
   const p2 = await newPage(1400, 900);
-  await p2.goto(`${siteBase}/reconstruction/3d.html?b=${OBJ}&labels=0`, { waitUntil: 'load' });
+  await p2.goto(`${siteBase}/reconstruction/3d.html?b=${OBJ}&light=clean&labels=0`, { waitUntil: 'load' });
   await p2.waitForFunction('window.__ready === true && window.__modelsReady === true', null, { timeout: 600000 });
   await p2.evaluate((o) => window.viewer.open(o), OBJ);
   await sleep(4000);
