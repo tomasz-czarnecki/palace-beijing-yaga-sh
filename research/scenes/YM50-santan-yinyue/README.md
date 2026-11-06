@@ -127,7 +127,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 4, c 0, d 0, e 0.
 | YM50 | the scene's outline on the plan | Area | 4300 m² | 400 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM50 | the scene's outline on the plan | Extent, long side | 109 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM50 | the scene's outline on the plan | Extent, short side | 67 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| YM50 | water inside the scene's outline | Water inside the outline | 1300 m² | 130 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| YM50 | water inside the scene's outline | Water inside the outline | 1310 m² | 130 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 
 ## Gaps and wishlist
 

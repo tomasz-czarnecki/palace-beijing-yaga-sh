@@ -43,7 +43,7 @@
   },
   {
    "id": "YM30",
-   "part": "island I015 (澡身浴德)",
+   "part": "island I016 (澡身浴德)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 63.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM30",
-   "part": "island I015 (澡身浴德)",
+   "part": "island I016 (澡身浴德)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 151.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM30",
-   "part": "island I015 (澡身浴德)",
+   "part": "island I016 (澡身浴德)",
    "what": "island_area",
    "label": "Island area",
    "value": 7200.0,

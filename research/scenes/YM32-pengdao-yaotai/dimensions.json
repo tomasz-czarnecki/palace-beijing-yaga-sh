@@ -43,7 +43,7 @@
   },
   {
    "id": "YM32",
-   "part": "island I020 (蓬岛瑶台)",
+   "part": "island I021 (蓬岛瑶台)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 60.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM32",
-   "part": "island I020 (蓬岛瑶台)",
+   "part": "island I021 (蓬岛瑶台)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 97.0,
@@ -123,7 +123,7 @@
   },
   {
    "id": "YM32",
-   "part": "island I020 (蓬岛瑶台)",
+   "part": "island I021 (蓬岛瑶台)",
    "what": "island_area",
    "label": "Island area",
    "value": 4400.0,

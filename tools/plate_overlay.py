@@ -249,6 +249,19 @@ def fit_camera(obs, pts, size, pr, use, starts=()):
         t = t0.copy()
         t[:8] = st[:8]
         inits.append(t)
+    if len(names) >= 4:  # Round 24: also from the prior's place aimed at the points' middle, the focal length from their spread, the offset to their middle (a painting seen
+        # from far and high, whose points lie off the sheet's middle, collapsed its focal length from the level start: P0029)
+        Pm = np.array([pts[n][0] for n in names], float)
+        ob = np.array([obs[n][:2] for n in names], float)
+        d = Pm.mean(0) - C0
+        t = t0.copy()
+        t[3], t[4] = math.atan2(d[0], -d[2]), math.atan2(d[1], math.hypot(d[0], d[2]))
+        f_, r_, _ = basis(t[3], t[4])
+        lat = [(p - C0) @ r_ / max((p - C0) @ f_, 1e-6) for p in Pm]
+        if max(lat) - min(lat) > 1e-6 and np.ptp(ob[:, 0]) > 1:
+            t[5] = math.log(np.ptp(ob[:, 0]) / (max(lat) - min(lat)))
+        t[6], t[7] = ob[:, 0].mean() - W / 2, ob[:, 1].mean() - H / 2
+        inits.append(t)
     for t in inits:
         r = least_squares(res, t, loss="soft_l1", f_scale=2.0, max_nfev=4000)
         if best is None or r.cost < best.cost:

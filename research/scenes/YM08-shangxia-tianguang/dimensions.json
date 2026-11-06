@@ -43,7 +43,7 @@
   },
   {
    "id": "YM08",
-   "part": "island I018 (上下天光)",
+   "part": "island I019 (上下天光)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 88.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM08",
-   "part": "island I018 (上下天光)",
+   "part": "island I019 (上下天光)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 103.0,
@@ -107,7 +107,7 @@
   },
   {
    "id": "YM08",
-   "part": "island I018 (上下天光)",
+   "part": "island I019 (上下天光)",
    "what": "island_area",
    "label": "Island area",
    "value": 7300.0,

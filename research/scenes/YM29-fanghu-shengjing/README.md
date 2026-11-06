@@ -224,7 +224,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 4, c 1, d 0, e 0.
 | YM29 | the scene's outline on the plan | Area | 19600 m² | 2000 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM29 | the scene's outline on the plan | Extent, long side | 192 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM29 | the scene's outline on the plan | Extent, short side | 156 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| YM29 | water inside the scene's outline | Water inside the outline | 890 m² | 90 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| YM29 | water inside the scene's outline | Water inside the outline | 6610 m² | 660 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 | YM29-03 | centre water pavilion terrace | Terrace width | 22 m | 7 | c | C | S08 | P0029, crop ym29_c1 cell 24 | 1 bay ≈ 3.5-4.2 m (typology/params.json); the front range centre block taken as 5 bays | the centre terrace reads about as wide as the 5-bay centre block behind it, roughly 1.0-1.2 times; court painting not in linear perspective, ±30% | viewed |
 
 ## Gaps and wishlist
@@ -249,9 +249,13 @@ Not written yet.
 | 圆明园则例 (Yuan Ming Yuan Tse Li) vol. ii p.33, the record of 佛城 and 方壶胜境 being built in 1740, and any 则例 entries giving 丈尺 for 舍卫城's wall and gate | the 1740 date seen only through Malone p.94 n.45; no wall height or gate size from a Qing text | 国家图书馆 or 故宫博物院 (圆明园内工则例) | to-request; check whether a published 则例 volume (清代匠作则例) covers it |
 | 样042-2 方壶胜境北路 (道光后期) and the 铜龙、凤立样 sheet | box sizes from S01 and typology (C) with Qing 丈尺 (A) | NLC; 初编 pp.419-433 | library visit or purchase of 初编/续编; mhymy full records need payment or the WeChat mini-program (not allowed for workers) |
 | Round 9: a tracing pass on the waters the layer lacks or closes (方壶胜境's inlet, 同乐园's north water, the YM82 dock basin, the necks of Q192) | Boat routes over land, 17 landings off the shore, three causeways in water (Q191, Q192) | S01, our crop tool | a reader with `docs/rounds/common/palace_r9_tools/crop.py`, then `scripts/build_r1.py` |
+| Round 24: 样042-2 方壶胜境北路 (NLC, late Daoguang, E1855) and the 方壶胜境 section of 《国家图书馆藏样式雷图档·圆明园卷初编》 pp.419-433 (E1854) | The model's biggest guess: every height at 方壶胜境 (the terraces 2.6, 1.9 and 3.0 m, the storeys 3.6 and 3.2 m; Q284), the bays' widths, the galleries, the rectangle behind 琼华楼 (Q286) | 国家图书馆善本部; libraries that own the 初编 | Library; ask for the sheet as an image |
+| Round 24: a survey or a measured photograph of the bastions of 方壶胜境 in the water, with a fixed object in view | A test of S01's line of the lower terrace and of the leaf's east pavilion (Q281, Q283) | Site; the park's office | Visit with a tape and a phone GPS; 1 hour |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+Round 24 built the scene as a detailed model, `models/YM29-fanghu-shengjing/`: S01 re-read in plan pixels for it (`plan_readings.csv`); the inlet the terraces stand in made water (`research/plan/water_manual.json`, W0365, from S01's region R0018, classed land by default: Q191); the nine towers in three ranges (S05, S361, Malone), the lower terrace with its bastions, the upper brick-faced terrace, the galleries, the causeway with the two archways, 迎薰亭 and the two cruciform terraces with their pavilions, coloured after the leaf; the 1744 leaf P0029 read at 28 key points (`plate_keypoints.csv`) and fitted with one camera, 2.97 m rms at the object (`plate_fit.csv`). The leaf puts the east water pavilion about 5.5 m nearer the axis than S01 (Q281) and paints 迎薰亭 taller (Q282); the ruin photographs show only the bastions at the waterline (Q283); every height is C (Q284); which side tower bore which plaque and where the archways stood (Q285); S01's rectangle behind 琼华楼 (Q286).

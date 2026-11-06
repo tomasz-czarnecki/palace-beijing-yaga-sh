@@ -43,7 +43,7 @@
   },
   {
    "id": "YM11",
-   "part": "island I013 (茹古涵今)",
+   "part": "island I014 (茹古涵今)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 100.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM11",
-   "part": "island I013 (茹古涵今)",
+   "part": "island I014 (茹古涵今)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 114.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM11",
-   "part": "island I013 (茹古涵今)",
+   "part": "island I014 (茹古涵今)",
    "what": "island_area",
    "label": "Island area",
    "value": 7900.0,

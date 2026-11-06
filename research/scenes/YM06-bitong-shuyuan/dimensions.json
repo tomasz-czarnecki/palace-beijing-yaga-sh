@@ -43,7 +43,7 @@
   },
   {
    "id": "YM06",
-   "part": "island I011 (碧桐书院)",
+   "part": "island I012 (碧桐书院)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 115.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM06",
-   "part": "island I011 (碧桐书院)",
+   "part": "island I012 (碧桐书院)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 125.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM06",
-   "part": "island I011 (碧桐书院)",
+   "part": "island I012 (碧桐书院)",
    "what": "island_area",
    "label": "Island area",
    "value": 9600.0,

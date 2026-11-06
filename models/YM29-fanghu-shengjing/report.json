@@ -1,0 +1,414 @@
+{
+ "halls": {
+  "pav_W": {
+   "frontage_m": 6.0,
+   "depth_m": 6.0,
+   "platform_m": 0.4,
+   "eave_m": 3.64,
+   "ridge_m": 7.92,
+   "roof": "xs x2 (十字脊)+lower eave",
+   "tile": "blue/yellow",
+   "grade_class": "doc",
+   "x": -38.68,
+   "z": 8.0,
+   "base_y": 0.41
+  },
+  "pav_E": {
+   "frontage_m": 6.0,
+   "depth_m": 6.0,
+   "platform_m": 0.4,
+   "eave_m": 3.64,
+   "ridge_m": 7.92,
+   "roof": "xs x2 (十字脊)+lower eave",
+   "tile": "blue/yellow",
+   "grade_class": "doc",
+   "x": 42.19,
+   "z": 9.92,
+   "base_y": 0.41
+  },
+  "yingxun": {
+   "frontage_m": 6.6,
+   "depth_m": 6.6,
+   "platform_m": 0.45,
+   "eave_m": 3.87,
+   "ridge_m": 8.77,
+   "finial_m": 10.32,
+   "roof": "cj+db",
+   "tile": "yellow",
+   "grade_class": "doc",
+   "x": 1.25,
+   "z": 27.05,
+   "base_y": 0.41
+  },
+  "fr": {
+   "frontage_m": 20.63,
+   "depth_m": 10.63,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 12.29,
+   "roof": "xs",
+   "tile": "yellow/green",
+   "bays": 5,
+   "grade_class": "doc",
+   "x": 1.25,
+   "z": -4.76,
+   "base_y": 1.11
+  },
+  "entry": {
+   "frontage_m": 8.46,
+   "depth_m": 4.95,
+   "eave_m": 4.47,
+   "roof": "flat (balcony)",
+   "grade_class": "doc"
+  },
+  "fr_W": {
+   "frontage_m": 7.47,
+   "depth_m": 9.37,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 11.31,
+   "roof": "xs",
+   "tile": "yellow/green",
+   "bays": 3,
+   "grade_class": "doc",
+   "x": -22.24,
+   "z": -5.3,
+   "base_y": 1.11
+  },
+  "fr_E": {
+   "frontage_m": 7.06,
+   "depth_m": 9.99,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 11.18,
+   "roof": "xs",
+   "tile": "yellow/green",
+   "bays": 3,
+   "grade_class": "doc",
+   "x": 23.63,
+   "z": -3.39,
+   "base_y": 1.11
+  },
+  "fr_link_W": {
+   "frontage_m": 10.27,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 3,
+   "grade_class": "fill",
+   "x": -13.67,
+   "z": -4.96,
+   "base_y": 1.11
+  },
+  "fr_link_E": {
+   "frontage_m": 8.91,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 3,
+   "grade_class": "fill",
+   "x": 15.94,
+   "z": -4.0,
+   "base_y": 1.11
+  },
+  "fr_room_W": {
+   "frontage_m": 4.25,
+   "depth_m": 3.07,
+   "platform_m": 0.3,
+   "floor2_m": null,
+   "eave_m": 4.32,
+   "ridge_m": 5.68,
+   "roof": "xs",
+   "tile": "green/None",
+   "bays": 1,
+   "grade_class": "fill",
+   "x": -13.53,
+   "z": -8.03,
+   "base_y": 1.11
+  },
+  "fr_room_E": {
+   "frontage_m": 4.63,
+   "depth_m": 3.39,
+   "platform_m": 0.3,
+   "floor2_m": null,
+   "eave_m": 4.32,
+   "ridge_m": 5.77,
+   "roof": "xs",
+   "tile": "green/None",
+   "bays": 1,
+   "grade_class": "fill",
+   "x": 16.29,
+   "z": -7.1,
+   "base_y": 1.11
+  },
+  "hl": {
+   "frontage_m": 20.91,
+   "depth_m": 10.27,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 12.18,
+   "roof": "xs",
+   "tile": "purple/green",
+   "bays": 5,
+   "grade_class": "doc",
+   "x": 1.25,
+   "z": -31.84,
+   "base_y": 4.11
+  },
+  "hl_W": {
+   "frontage_m": 13.08,
+   "depth_m": 7.41,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 11.29,
+   "roof": "xs",
+   "tile": "purple/green",
+   "bays": 3,
+   "grade_class": "doc",
+   "x": -21.79,
+   "z": -32.05,
+   "base_y": 4.11
+  },
+  "hl_E": {
+   "frontage_m": 13.57,
+   "depth_m": 7.86,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 11.43,
+   "roof": "xs",
+   "tile": "purple/green",
+   "bays": 3,
+   "grade_class": "doc",
+   "x": 22.96,
+   "z": -30.95,
+   "base_y": 4.11
+  },
+  "hl_link_W": {
+   "frontage_m": 6.31,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 2,
+   "grade_class": "fill",
+   "x": -12.39,
+   "z": -32.19,
+   "base_y": 4.11
+  },
+  "hl_link_E": {
+   "frontage_m": 5.4,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 2,
+   "grade_class": "fill",
+   "x": 13.78,
+   "z": -31.56,
+   "base_y": 4.11
+  },
+  "qh": {
+   "frontage_m": 22.79,
+   "depth_m": 11.1,
+   "platform_m": 0.6,
+   "floor2_m": 4.62,
+   "eave_m": 8.74,
+   "ridge_m": 14.18,
+   "roof": "xs+db",
+   "tile": "yellow/blue",
+   "bays": 5,
+   "grade_class": "doc",
+   "x": 1.25,
+   "z": -58.94,
+   "base_y": 4.11
+  },
+  "qh_W": {
+   "frontage_m": 13.65,
+   "depth_m": 8.18,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 12.53,
+   "roof": "xs+db",
+   "tile": "purple/green",
+   "bays": 4,
+   "grade_class": "doc",
+   "x": -22.05,
+   "z": -55.01,
+   "base_y": 4.11
+  },
+  "qh_E": {
+   "frontage_m": 13.56,
+   "depth_m": 8.39,
+   "platform_m": 0.45,
+   "floor2_m": 4.47,
+   "eave_m": 8.59,
+   "ridge_m": 12.59,
+   "roof": "xs+db",
+   "tile": "purple/green",
+   "bays": 4,
+   "grade_class": "doc",
+   "x": 22.39,
+   "z": -53.79,
+   "base_y": 4.11
+  },
+  "qh_link_W": {
+   "frontage_m": 5.63,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 2,
+   "grade_class": "fill",
+   "x": -12.71,
+   "z": -55.13,
+   "base_y": 4.11
+  },
+  "qh_link_E": {
+   "frontage_m": 3.62,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 1,
+   "grade_class": "fill",
+   "x": 14.1,
+   "z": -53.99,
+   "base_y": 4.11
+  },
+  "gal_W": {
+   "frontage_m": 15.77,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 5,
+   "grade_class": "fill",
+   "x": -21.61,
+   "z": -43.34,
+   "base_y": 4.11
+  },
+  "gal_E": {
+   "frontage_m": 15.32,
+   "depth_m": 4.0,
+   "platform_m": 0.2,
+   "floor2_m": 4.22,
+   "eave_m": 8.14,
+   "ridge_m": 9.44,
+   "roof": "xu",
+   "tile": "green/None",
+   "bays": 5,
+   "grade_class": "fill",
+   "x": 22.86,
+   "z": -42.24,
+   "base_y": 4.11
+  }
+ },
+ "joints_on_decks": [
+  [
+   "wall_W0_0",
+   3.96
+  ],
+  [
+   "wall_W0_1",
+   3.96
+  ],
+  [
+   "wall_W1_0",
+   3.96
+  ],
+  [
+   "wall_W1_1",
+   3.96
+  ],
+  [
+   "wall_E0_0",
+   3.96
+  ],
+  [
+   "wall_E0_1",
+   3.96
+  ],
+  [
+   "wall_E1_0",
+   3.96
+  ],
+  [
+   "wall_E1_1",
+   3.96
+  ],
+  [
+   "wall_NW0_0",
+   3.96
+  ],
+  [
+   "wall_NW0_1",
+   3.96
+  ],
+  [
+   "wall_NE0_0",
+   3.96
+  ],
+  [
+   "wall_NE0_1",
+   3.96
+  ]
+ ],
+ "rot_box": 0.062832,
+ "rot_axis": 0.073303,
+ "axis_x": 1.25,
+ "axis_spread_m": 1.56,
+ "axis_reads": [
+  1.2,
+  0.92,
+  1.48,
+  0.44,
+  1.7,
+  1.02,
+  1.99
+ ],
+ "water_y": -1.49,
+ "water_m": 42.76,
+ "low_y": 1.11,
+ "causeway_y": 0.41,
+ "up_y": 4.11,
+ "stair_gap_m": 5.29,
+ "causeway_m": {
+  "width": 5.79,
+  "length": 15.07
+ },
+ "fr_s01_m": [
+  20.63,
+  10.63
+ ],
+ "triangles": 84808
+}

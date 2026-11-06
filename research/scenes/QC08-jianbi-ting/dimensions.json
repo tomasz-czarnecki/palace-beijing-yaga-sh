@@ -43,7 +43,7 @@
   },
   {
    "id": "QC08",
-   "part": "island I034 (鉴碧亭)",
+   "part": "island I035 (鉴碧亭)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 50.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "QC08",
-   "part": "island I034 (鉴碧亭)",
+   "part": "island I035 (鉴碧亭)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 53.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "QC08",
-   "part": "island I034 (鉴碧亭)",
+   "part": "island I035 (鉴碧亭)",
    "what": "island_area",
    "label": "Island area",
    "value": 2300.0,

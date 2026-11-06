@@ -503,7 +503,7 @@
     {
      "name": "colW_foot_90",
      "kind": "colonnade foot",
-     "gap_m": -0.28
+     "gap_m": -0.3
     },
     {
      "name": "octE_plinth",
@@ -3261,6 +3261,675 @@
      "plan_m": 7.75,
      "height_m": 0.06,
      "drawn_by_model": true,
+     "ok": true
+    }
+   ]
+  },
+  "YM29": {
+   "folder": "YM29-fanghu-shengjing",
+   "figures": 28,
+   "grades": {
+    "A": 6,
+    "B": 18,
+    "C": 4
+   },
+   "materials": 50,
+   "primitives": 50,
+   "extent_m": [
+    94.1,
+    22.4,
+    112.5
+   ],
+   "triangles": 84808,
+   "fill_triangles": 24638,
+   "glb_mb": 2.59,
+   "glb_gz_mb": 0.69,
+   "joints": [
+    {
+     "name": "up_terrace_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "up_terrace_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "up_terrace_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "up_terrace_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "up_terrace_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "up_terrace_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_6",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_7",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_8",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_9",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_10",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_11",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_12",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_13",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_14",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_15",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_16",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_17",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_18",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "low_terrace_19",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_W_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_6",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_7",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_8",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_9",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_10",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_11",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_12",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_13",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_14",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_15",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_16",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_17",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_18",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_W_19",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "strip_E_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_4",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_5",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_6",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_7",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_8",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_9",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_10",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_11",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_12",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_13",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_14",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_15",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_16",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_17",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_18",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross_E_19",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "causeway_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "causeway_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "causeway_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "causeway_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pav_terrace_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pav_terrace_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pav_terrace_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pav_terrace_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qh_rear_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qh_rear_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qh_rear_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qh_rear_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.15,
+    "max_below": 0.15,
+    "n": 90
+   },
+   "ways": [
+    {
+     "way": "YMF-064",
+     "kind": "gallery",
+     "at": "F0164:right",
+     "entry": "stair_up_foot",
+     "plan_m": 11.99,
+     "height_m": 0.38,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-064",
+     "kind": "gallery",
+     "at": "F0591:back",
+     "entry": "strip_W_down_top",
+     "plan_m": 2.06,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-065",
+     "kind": "gallery",
+     "at": "F0164:left",
+     "entry": "stair_up_foot",
+     "plan_m": 10.03,
+     "height_m": 0.38,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-065",
+     "kind": "gallery",
+     "at": "F0592:back",
+     "entry": "strip_E_down_top",
+     "plan_m": 1.38,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-066",
+     "kind": "causeway",
+     "at": "F0164:model entry_flight_foot",
+     "entry": "entry_flight_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMF-066",
+     "kind": "causeway",
+     "at": "F0165:model entry_flight_foot",
+     "entry": "entry_flight_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMF-067",
+     "kind": "steps",
+     "at": "F0165:front",
+     "entry": "pav_fl_SC_top",
+     "plan_m": 5.96,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-068",
+     "kind": "paved_way",
+     "at": "F0164:model hl_front_+0.0",
+     "entry": "hl_front_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMF-068",
+     "kind": "paved_way",
+     "at": "F0166:model stair_up_top",
+     "entry": "stair_up_top",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMF-069",
+     "kind": "gallery",
+     "at": "F0662:back",
+     "entry": "hl_W_front_+0.0",
+     "plan_m": 10.77,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-069",
+     "kind": "gallery",
+     "at": "F0801:front",
+     "entry": "qh_W_front_+0.0",
+     "plan_m": 1.65,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-070",
+     "kind": "gallery",
+     "at": "F0661:back",
+     "entry": "hl_E_front_+0.0",
+     "plan_m": 10.67,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-070",
+     "kind": "gallery",
+     "at": "F0660:front",
+     "entry": "qh_E_front_+0.0",
+     "plan_m": 3.04,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-071",
+     "kind": "gallery",
+     "at": "F0662:left",
+     "entry": "hl_W_front_+0.0",
+     "plan_m": 8.45,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-071",
+     "kind": "gallery",
+     "at": "F0166:right",
+     "entry": "hl_W_front_+0.0",
+     "plan_m": 12.34,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-072",
+     "kind": "gallery",
+     "at": "F0166:left",
+     "entry": "hl_E_front_+0.0",
+     "plan_m": 12.01,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-072",
+     "kind": "gallery",
+     "at": "F0661:right",
+     "entry": "hl_E_front_+0.0",
+     "plan_m": 9.82,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "YMF-073",
+     "kind": "paved_way",
+     "at": "F0166:model qh_front_+0.0",
+     "entry": "qh_front_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMF-073",
+     "kind": "paved_way",
+     "at": "F0167:model hl_back_+0.0",
+     "entry": "hl_back_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
      "ok": true
     }
    ]

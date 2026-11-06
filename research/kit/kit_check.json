@@ -53,12 +53,12 @@
    "red": 6
   },
   "form_from": {
-   "model": 69,
-   "class": 1444,
-   "dossier": 117,
+   "model": 82,
+   "class": 1435,
+   "dossier": 113,
    "stated": 4
   },
-  "assumed_form": 1526,
+  "assumed_form": 1517,
   "assumed_box": 119,
   "form_grade": {
    "A": 40,
@@ -66,10 +66,10 @@
    "B": 35
   },
   "steps_sides": {
-   "2": 703,
-   "1": 795,
-   "4": 7,
-   "3": 43,
+   "2": 698,
+   "1": 800,
+   "4": 6,
+   "3": 44,
    "0": 7
   },
   "balustrades": 41,
@@ -80,23 +80,23 @@
    "all_round": 37
   },
   "courts_ha": 17.3,
-  "court_triangles": 58616
+  "court_triangles": 58624
  },
  "drawn": {
-  "halls_drawn": 1565,
-  "of": 1565,
-  "near_triangles_median": 734.0,
+  "halls_drawn": 1552,
+  "of": 1552,
+  "near_triangles_median": 732.0,
   "far_triangles_median": 76.0
  },
  "beyond_box_m": {
   "body_or_roof": {
-   "n": 1565,
+   "n": 1552,
    "median": 0.19,
    "p90": 0.22,
    "max": 0.66
   },
   "steps": {
-   "n": 1565,
+   "n": 1552,
    "median": 0.6,
    "p90": 1.11,
    "max": 2.16
@@ -104,34 +104,34 @@
   "hall_kit_over_overhang": 0
  },
  "joints": {
-  "step_flights": 2289,
+  "step_flights": 2262,
   "step_foot_to_ground_m": {
-   "n": 2289,
+   "n": 2262,
    "median": 0.0,
    "p90": 0.0,
    "max": 0.01
   },
-  "way_ends_at_a_box_side": 1296,
-  "of_them_A_or_B": 330,
+  "way_ends_at_a_box_side": 1286,
+  "of_them_A_or_B": 324,
   "at_a_pool_wall_court_or_terrace_hall": 5,
   "met_by_a_flight_within_m": 1.5,
-  "met": 1268,
+  "met": 1245,
   "gap_way_end_to_flight_m": {
-   "n": 1268,
+   "n": 1245,
    "median": 0.0,
    "p90": 0.0,
    "max": 0.1
   },
   "drop_platform_top_to_way_m": {
-   "n": 1296,
+   "n": 1286,
    "median": 0.41,
    "p90": 0.63,
    "max": 2.1
   },
   "drop_left_where_no_flight_m": {
-   "n": 23,
-   "median": 0.29,
-   "p90": 0.93,
+   "n": 36,
+   "median": 0.43,
+   "p90": 0.78,
    "max": 0.93
   },
   "no_flight_where_entered": [
@@ -148,10 +148,82 @@
     -0.02
    ],
    [
+    "F0164",
+    "right",
+    "AB",
+    0.38
+   ],
+   [
     "F0591",
     "back",
     "AB",
-    -0.02
+    0.55
+   ],
+   [
+    "F0164",
+    "left",
+    "AB",
+    0.38
+   ],
+   [
+    "F0592",
+    "back",
+    "AB",
+    0.47
+   ],
+   [
+    "F0165",
+    "front",
+    "AB",
+    0.41
+   ],
+   [
+    "F0662",
+    "back",
+    "AB",
+    0.48
+   ],
+   [
+    "F0801",
+    "front",
+    "AB",
+    0.55
+   ],
+   [
+    "F0661",
+    "back",
+    "AB",
+    0.47
+   ],
+   [
+    "F0660",
+    "front",
+    "AB",
+    0.45
+   ],
+   [
+    "F0662",
+    "left",
+    "AB",
+    0.48
+   ],
+   [
+    "F0166",
+    "right",
+    "AB",
+    0.62
+   ],
+   [
+    "F0166",
+    "left",
+    "AB",
+    0.63
+   ],
+   [
+    "F0661",
+    "right",
+    "AB",
+    0.47
    ],
    [
     "XY01-M01",
@@ -163,7 +235,7 @@
     "XY01-M02",
     "left",
     "AB",
-    0.34
+    0.36
    ],
    [
     "XY01-M01",
@@ -268,6 +340,12 @@
     0.01
    ],
    [
+    "F0726",
+    "front",
+    "C",
+    -0.17
+   ],
+   [
     "F0740",
     "front",
     "C",
@@ -277,64 +355,64 @@
  },
  "cost": {
   "browser": {
-   "measured_utc": "2026-11-06 10:25"
+   "measured_utc": "2026-11-06 16:37"
   },
   "after": {
    "overview_kit": {
     "frame_ms_median": 453.6,
-    "frame_ms_min": 405.8,
-    "frame_ms_max": 653.6,
-    "drawn_triangles": 1432253,
-    "draw_calls": 799,
-    "triangles_in_memory": 1517321
+    "frame_ms_min": 426.5,
+    "frame_ms_max": 475.4,
+    "drawn_triangles": 1518216,
+    "draw_calls": 850,
+    "triangles_in_memory": 1601598
    },
    "court_kit": {
-    "frame_ms_median": 262.8,
-    "frame_ms_min": 232,
-    "frame_ms_max": 330.7,
-    "drawn_triangles": 901587,
-    "draw_calls": 95,
-    "triangles_in_memory": 2215271
+    "frame_ms_median": 255.4,
+    "frame_ms_min": 244.7,
+    "frame_ms_max": 311.3,
+    "drawn_triangles": 932416,
+    "draw_calls": 114,
+    "triangles_in_memory": 2299900
    },
    "hall_kit": {
-    "frame_ms_median": 339.2,
-    "frame_ms_min": 323.8,
-    "frame_ms_max": 385.8,
-    "drawn_triangles": 1151069,
-    "draw_calls": 240,
-    "triangles_in_memory": 2327212
+    "frame_ms_median": 373.1,
+    "frame_ms_min": 340.4,
+    "frame_ms_max": 438.8,
+    "drawn_triangles": 1236784,
+    "draw_calls": 291,
+    "triangles_in_memory": 2410881
    },
    "overview_boxes": {
-    "frame_ms_median": 385.2,
-    "frame_ms_min": 346,
-    "frame_ms_max": 426.3,
-    "drawn_triangles": 1317985,
-    "draw_calls": 545,
-    "triangles_in_memory": 2140675
+    "frame_ms_median": 434.1,
+    "frame_ms_min": 385,
+    "frame_ms_max": 562.6,
+    "drawn_triangles": 1403976,
+    "draw_calls": 597,
+    "triangles_in_memory": 2224952
    },
    "court_boxes": {
-    "frame_ms_median": 168.3,
-    "frame_ms_min": 161.4,
-    "frame_ms_max": 178,
-    "drawn_triangles": 803304,
-    "draw_calls": 61,
-    "triangles_in_memory": 2349135
+    "frame_ms_median": 183.9,
+    "frame_ms_min": 164.9,
+    "frame_ms_max": 222,
+    "drawn_triangles": 833783,
+    "draw_calls": 80,
+    "triangles_in_memory": 2433764
    },
    "hall_boxes": {
-    "frame_ms_median": 272.5,
-    "frame_ms_min": 250.4,
-    "frame_ms_max": 302.7,
-    "drawn_triangles": 1033327,
-    "draw_calls": 159,
-    "triangles_in_memory": 2327212
+    "frame_ms_median": 439.2,
+    "frame_ms_min": 392.9,
+    "frame_ms_max": 506.4,
+    "drawn_triangles": 1119070,
+    "draw_calls": 211,
+    "triangles_in_memory": 2410881
    }
   },
-  "after_load_s": 3.066,
+  "after_load_s": 2.534,
   "before": null,
   "before_load_s": null,
-  "near_triangles_if_all_built": 1527238,
-  "far_triangles": 138622,
-  "court_triangles": 58616,
+  "near_triangles_if_all_built": 1508104,
+  "far_triangles": 136410,
+  "court_triangles": 58624,
   "lod_m": 420,
   "tile_m": 180,
   "tiles": 123

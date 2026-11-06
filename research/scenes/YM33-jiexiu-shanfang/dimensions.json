@@ -43,7 +43,7 @@
   },
   {
    "id": "YM33",
-   "part": "island I035 (接秀山房)",
+   "part": "island I036 (接秀山房)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 47.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM33",
-   "part": "island I035 (接秀山房)",
+   "part": "island I036 (接秀山房)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 50.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM33",
-   "part": "island I035 (接秀山房)",
+   "part": "island I036 (接秀山房)",
    "what": "island_area",
    "label": "Island area",
    "value": 1800.0,

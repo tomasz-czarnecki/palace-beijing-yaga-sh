@@ -1,0 +1,81 @@
+{
+ "object": "YM29",
+ "label": "",
+ "points_from": "model YM29-fanghu-shengjing",
+ "cameras": {
+  "P0029": {
+   "plate": "",
+   "image": "P0029.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1093
+   ],
+   "object": "YM29",
+   "points_from": "model YM29-fanghu-shengjing",
+   "prior": {
+    "lat": 40.0099494,
+    "lon": 116.301276,
+    "err": 120.0,
+    "bearing": 345.0,
+    "eye": 80.0,
+    "eye_sd": 60.0,
+    "f2400": 3805.9137628358553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 24: the 1744 leaf is a painting, not a photograph: a bird's-eye view from the south-south-east across the inlet to the three ranges (the towers' east faces show, and each range stands right of the one before it in the picture: the painter's eye east of the axis); the prior is weak on purpose (120 m in plan, eye 80 m, sd 60 m, an assumed 35° lens), as for P0001 and P0003: the fit measures how far one perspective camera can explain the painter's placing of the towers, the pavilions and the terraces"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      498.41,
+      199.05,
+      -479.85
+     ],
+     "yaw_deg": 355.08,
+     "pitch_deg": -3.53,
+     "f_px": 1484.6,
+     "du_px": 1228.0,
+     "dv_px": -595.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 197.71,
+     "moved_from_prior_m": 176.0,
+     "points": {
+      "n": 28,
+      "rms_px": 13.0,
+      "median_px": 10.6,
+      "max_px": 26.2,
+      "rms_m": 2.97,
+      "median_m": 2.42,
+      "max_m": 5.78
+     },
+     "tests": {
+      "n": 28,
+      "rms_px": 13.0,
+      "median_px": 10.6,
+      "max_px": 26.2,
+      "rms_m": 2.97,
+      "median_m": 2.42,
+      "max_m": 5.78
+     },
+     "sure12": {
+      "n": 28,
+      "rms_px": 13.0,
+      "median_px": 10.6,
+      "max_px": 26.2,
+      "rms_m": 2.97,
+      "median_m": 2.42,
+      "max_m": 5.78
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

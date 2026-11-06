@@ -761,3 +761,75 @@ Briefs: `palace_r22_hero.md` (a carousel with a locator map, the gallery's first
 - **Hover** holds the carousel only over its controls and captions: the picture fills the screen, so a hold on any hover would stop it for most visitors.
 - On phones the words and their shade cover about half the picture; the one-line note is hidden there (it stays in the lightbox).
 - The overview at 800 m is an impression: the AI redrew the layout and drew the European palaces far too large; its caption says so.
+
+## palace_r24_fanghu
+
+Brief: `palace_r24_fanghu.md`. 方壶胜境 YM29, the tenth detailed model and the fourth of a Chinese compound: storeyed towers on terraces over the water, `models/YM29-fanghu-shengjing/`.
+
+**What it delivered:**
+- **The water first:**
+  - The inlet the leaf paints the terraces standing in was land in Round 10's ground: S01's region R0018, 2.6 ha, was classed land by default, so the kit's halls stood among trees and the boat legs YMF-043 and YMF-044 crossed 90 m of dry land (Q191).
+  - It is water W0365 now (`research/plan/water_manual.json`, appended so the traced ids do not move), with the ink band of S01's flights round 迎薰亭's terrace (no region, so it was land beside the terrace).
+- **The model:**
+  - The lower terrace on the water with S01's stepped bastions (the ruin's line today, P0383), white marble with a balustrade along the water.
+  - The upper brick-faced terrace (Malone) with its south balustrade, the walls with yellow coping, a gate west and east with a flight down the face, and the terrace behind 琼华楼 (S01's rectangle).
+  - The stair on the axis from the front range's platform.
+  - Nine two-storey towers in three ranges (S05, S361's note, Malone):
+    - 宜春殿 with the three-bay entry under its balcony (the plaque 方壶胜境 over the door), and 锦绮楼 and 翡翠楼 with their gables to the water, yellow with green trim;
+    - 哕鸾殿 with 碧云楼 and 紫霞楼, purple-brown with green trim;
+    - 琼华楼 with 千祥阁 and 万福阁 under double top eaves, yellow with blue trim and purple-brown with green.
+  - Two-storey galleries joining the towers' upper floors (Malone's elevated walks), and single-storey galleries on the strips out to two cruciform terraces with 集瑞亭 and 凝祥亭 (cross ridges, blue with yellow trim).
+  - The causeway with the two archways 坊座 (S05; places and form C) to the square terrace of 迎薰亭: double eaves, a gilt finial, two bronze dragons and two bronze phoenixes (E1856), and three flights to the water for the barge.
+  - Flagged courts with bronze vessels and potted flowering trees.
+- **Tools:**
+  - The generator's `tower()` (the kit's second storey, a double top eave) and `gallery2()`.
+  - The levels in three constants at its head (`LIFT_LOW`, `LIFT_CW`, `LIFT_UP`, all C), with every terrace a deck.
+  - `tools/plate_overlay.py`: one more start, the prior's place aimed at the points' middle with the focal length from their spread.
+  - Six exception rows for the galleries the model draws itself (`research/paths/exceptions.csv`).
+- **Key points:** 28 on the leaf P0029 (`research/scenes/YM29-fanghu-shengjing/plate_keypoints.csv`), read by the coordinator on 3x and 5x crops; no readers were spawned (one picture).
+- **Questions and the rest:** Q281-Q286, Q191 updated, two wish rows, and the dossier's notes.
+
+**Numbers:**
+- **check_models:** YM29 84,808 triangles (24,638 fill), GLB 2.59 MB, 0.69 MB compressed; 90 ground joints, none above the ground, deepest 0.15 m in; 19 ways at its boxes, 0 off.
+- **Fit (rms at the object, one camera on all 28 points):** P0029 2.97 m (13.0 px; median 2.42 m, max 5.78 m).
+  - The first run collapsed its focal length (160 px rms) until the new start.
+  - The towers' gable apexes and eave tips fit to 0.1-2.4 m.
+  - The east water pavilion is 5.4-5.8 m off: the leaf puts it nearer the axis than S01 does (Q281).
+  - 迎薰亭's eave is 4.6 m off: the leaf paints it taller (Q282).
+- **The layout:**
+  - S01's axis: seven reads spread over 1.56 m, 0.6° off the box's bearing.
+  - The upper terrace's face runs 2.6° off that axis, 3.6 m over its 78 m. At the axis the stair has 5.29 m between the face and the front range.
+  - The causeway is 5.79 x 15.07 m.
+  - 琼华楼: 22.8 x 11.1 m, eave 8.74 m, ridge 14.18 m above its terrace. 迎薰亭: 6.6 m square, finial 10.32 m.
+  - Water 42.76 m. The lower terrace is 2.6 m above it, the causeway and water terraces 1.9 m, the upper terrace 3.0 m above the lower (all C).
+- **Ground and water:**
+  - Water bodies 192 to 189 (the inlet joined its neighbours); W0365 2.59 ha.
+  - Hills 462 to 465, the free land 115.0 to 112.2 ha.
+- **Paths:**
+  - Lines crossing a box, wall or water: 83 to 87 (A or B 22 to 28: the six galleries the model draws, with their exception rows).
+  - Landings more than 1 m off the shore: 16 to 10. YMF-008 (57.5 m), YMF-009 (64.3 m), YMF-028, YMF-029 and YMF-031 now meet the inlet.
+  - The boat legs YMF-043 and YMF-044: 90 m over land to 4.7 m each.
+- **Cost:** the overview draws 1.518 M triangles (1.432 M in the last measure, Round 20's check) at a 454 ms median frame in software WebGL (one run of `check_kit.py --browser` gave 602 ms under load). The site grows by 2.76 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py`, `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_surroundings.py`, `check_kit.py --browser` (port 9103), `check_greens.py --browser` (port 9104).
+- Step 6 (from `build_r1.py`) was run twice after the last change: no file of `site/`, `models/` or `research/` changed (md5).
+- Screenshots in `screenshots/r24/`, opened:
+  - before (the kit, from a copy of `site/` taken at the round's start) and after, from the same 16 views: aerial, the leaf's direction, the front across the inlet, the rear, both sides, the entry and archways, the middle court, the rear court, the stair, 迎薰亭, the west cross terrace, the bastions at the water, the rear terrace's joint, the east gate, the overview;
+  - `conf=1` and `assumed=0`;
+  - the panel of YM29;
+  - the overlay of P0029 (blend, edges, side by side, the points).
+
+**Went wrong or left open:**
+- **The inlet was land** (above). Found on the first shot, fixed in the water layer, not hidden in the model.
+- **Land beside the square terrace:** the ink band of S01's flights belongs to no region. Joined to the water.
+- **Every way inside the compound snapped to the east gate's stair foot** at first, 40 m away. The terraces were footprints, so every entry on them counted as blocked. Terraces are decks, not footprints (Round 17's lesson, met again).
+- **The stair:** the gap was read at the face's corner (4.2 m) and the stair was first cut into the terrace. At the axis the gap is 5.3 m. The notch was dropped, and the same corner value had filtered out the upper terrace's south balustrade; both were found on the shots.
+- **The cruciform terraces** had diagonal edges (a wrong vertex order) and were 12.7 m across against S01's 10 m. Two review cameras stood inside the hill or over a roof. All found on the shots and fixed.
+- **YMF-066, the causeway's way, collapses to a point** at the entry flight's foot. Both its ends lie inside the model, and `paths1860.py` snaps each from the other; YM01's YMC-007 does the same. The model draws the causeway. Not changed, because it would move other models' ways.
+- **The panel's Chinese characters render as boxes** in the headless Chrome of this server (no CJK font): the browser's, not the page's.
+- **Open:**
+  - Q281-Q286.
+  - Every height is C until 样042-2 is seen.
+  - The ruin photographs were not fitted (Q283).
+  - Lotus covers the inlet. Round 12 places it from the 1742 poem (荷瓣漂红霞一湖, E1841), while the leaf of 1744 shows clear water before the terraces.

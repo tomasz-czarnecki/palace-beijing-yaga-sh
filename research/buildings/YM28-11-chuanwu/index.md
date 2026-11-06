@@ -31,9 +31,9 @@ On the block drawn on the Qing plan S01: position and frontage from the plan, he
 - **1 ×:** small house: 45.41 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **1 ×:** small house: 47.1 × 7.3 m, eave 3.2 m, ridge 5.7 m
 - **1 ×:** small house: 40.01 × 6.6 m, eave 3.2 m, ridge 5.46 m
-- **1 ×:** small house: 42.66 × 6.3 m, eave 3.2 m, ridge 5.36 m
+- **1 ×:** small house: 40.88 × 6.3 m, eave 3.2 m, ridge 5.36 m
 - **1 ×:** small house: 47.4 × 7.6 m, eave 3.2 m, ridge 5.8 m
-- **1 ×:** small house: 50.7 × 6.9 m, eave 3.2 m, ridge 5.56 m
+- **1 ×:** small house: 45.32 × 6.9 m, eave 3.2 m, ridge 5.56 m
 - **Drawn:** by the hall kit; 8 of 8 drawn from the typology of their hall class, not from a picture of these halls
 - **Confidence:** B
 

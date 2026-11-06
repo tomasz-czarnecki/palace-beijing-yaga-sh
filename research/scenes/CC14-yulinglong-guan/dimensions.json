@@ -75,7 +75,7 @@
   },
   {
    "id": "CC14",
-   "part": "island I017 (玉玲珑馆)",
+   "part": "island I018 (玉玲珑馆)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 95.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "CC14",
-   "part": "island I017 (玉玲珑馆)",
+   "part": "island I018 (玉玲珑馆)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 101.0,
@@ -139,7 +139,7 @@
   },
   {
    "id": "CC14",
-   "part": "island I017 (玉玲珑馆)",
+   "part": "island I018 (玉玲珑馆)",
    "what": "island_area",
    "label": "Island area",
    "value": 7100.0,

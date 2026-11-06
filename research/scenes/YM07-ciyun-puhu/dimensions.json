@@ -43,7 +43,7 @@
   },
   {
    "id": "YM07",
-   "part": "island I019 (慈云普护)",
+   "part": "island I020 (慈云普护)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 78.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM07",
-   "part": "island I019 (慈云普护)",
+   "part": "island I020 (慈云普护)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 123.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM07",
-   "part": "island I019 (慈云普护)",
+   "part": "island I020 (慈云普护)",
    "what": "island_area",
    "label": "Island area",
    "value": 5500.0,

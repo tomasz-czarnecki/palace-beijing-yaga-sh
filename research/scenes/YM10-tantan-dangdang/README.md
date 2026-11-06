@@ -203,9 +203,9 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 7, c 0, d 0, e 0.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| YM10 | island I010 (坦坦荡荡) | Island area | 10600 m² | 1100 | b | B | S01 | layers/islands_1860, UTM 50N, polygon area | UTM 50N | land enclosed by the water traced from S01 | run |
-| YM10 | island I010 (坦坦荡荡) | Island, short side | 95 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
-| YM10 | island I010 (坦坦荡荡) | Island, long side | 130 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
+| YM10 | island I011 (坦坦荡荡) | Island area | 10600 m² | 1100 | b | B | S01 | layers/islands_1860, UTM 50N, polygon area | UTM 50N | land enclosed by the water traced from S01 | run |
+| YM10 | island I011 (坦坦荡荡) | Island, short side | 95 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
+| YM10 | island I011 (坦坦荡荡) | Island, long side | 130 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
 | YM10 | the scene's outline on the plan | Area | 10100 m² | 1000 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM10 | the scene's outline on the plan | Extent, long side | 127 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM10 | the scene's outline on the plan | Extent, short side | 93 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |

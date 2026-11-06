@@ -43,7 +43,7 @@
   },
   {
    "id": "QC12",
-   "part": "island I009 (澄心堂)",
+   "part": "island I010 (澄心堂)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 127.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "QC12",
-   "part": "island I009 (澄心堂)",
+   "part": "island I010 (澄心堂)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 149.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "QC12",
-   "part": "island I009 (澄心堂)",
+   "part": "island I010 (澄心堂)",
    "what": "island_area",
    "label": "Island area",
    "value": 15300.0,

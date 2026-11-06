@@ -1,0 +1,174 @@
+{
+ "id": "YM29",
+ "frame": "origin at the front middle of the front range's box F0164 at its ground; x east along the front, y up, z south, turned to the axis S01 draws (scripts/model_site.py)",
+ "params": {
+  "layout": {
+   "value": "the lower terrace on the water, the upper terrace behind it, the three ranges, galleries, strips, causeway and three water terraces as S01 draws them",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 re-read in Round 24 on 3x and 4x crops (plan_readings.csv): every block, strip and terrace in plan pixels; S01 is B until Q2; its scale here about 0.22 m a pixel"
+  },
+  "water": {
+   "value": "the inlet before the terraces, 2.59 ha, its level 42.76 m (Round 10's rule for a body)",
+   "source": "S01;S08",
+   "grade": "B",
+   "note": "S01's region R0018, classed land by default and taken as water in Round 24 (research/plan/water_manual.json, W0365; Q191); the leaf paints the terraces standing in the water (S08 P0029); its level the plain along its shore less 1.5 m (research/terrain/water_levels.csv, C)"
+  },
+  "names": {
+   "value": "nine towers: 宜春殿 with 锦绮楼 and 翡翠楼 at the water; 哕鸾殿 with 碧云楼 and 紫霞楼; 琼华楼 with 千祥阁 and 万福阁; the pavilions 迎薰亭, 集瑞亭, 凝祥亭",
+   "source": "S05;S310;S361",
+   "grade": "A",
+   "note": "S05 j82:12a-13a: 臨池樓宇為方壺勝境上下各五楹 ... 其北樓宇為噦鸞殿又北為瓊華樓, the upper plaque of the front 宜春殿 (A); the twenty plaques written in 乾隆五年 1740 (S310 rec. 8298); S361's note: three five-bay towers each with a pair of side towers, 2,235 Buddha images in the nine towers (E1852, B); which side tower bore which plaque C"
+  },
+  "storeys": {
+   "value": "every tower of two storeys; the three pavilions on the water of one",
+   "source": "S05;S02;S258;S08",
+   "grade": "A",
+   "note": "S05: 上下各五楹 (the front, A); Malone: all of two stories (S02 pp.92-93, E1850, B); S258: apart from the three pavilions on the water every building has an upper floor (E1849, B); the leaf (S08 P0029)"
+  },
+  "low_terrace": {
+   "value": "the lower terrace, its top 2.6 m above the water, white marble faces and balustrade, stepped bastions",
+   "source": "S01;S08;S02",
+   "grade": "B",
+   "note": "its outline S01 (B); the leaf: a white marble base with a balustrade under the front range, stepping out at the bastions (S08 P0029); Malone: three two-storey buildings on the lower terrace by the lake (E1850); today's line of bastions in the water (P0383, P0787: free photographs, B); its height C (the leaf's base about 0.6 times a storey)"
+  },
+  "up_terrace": {
+   "value": "the upper terrace, 3.0 m above the lower one, brick faces, a balustrade along its south edge",
+   "source": "S01;S02;S08",
+   "grade": "B",
+   "note": "Malone: the upper terrace brick-faced (S02 pp.92-93); its outline S01; the leaf paints the middle court above the front range's roofs with a white rail at its edge; its height C"
+  },
+  "fr": {
+   "value": "宜春殿: five bays, two storeys, a skirt roof and a balcony between, 歇山 with yellow tile and green trim 剪边",
+   "source": "S05;S08;S01",
+   "grade": "A",
+   "note": "S05 上下各五楹 (A); the leaf: red columns and lattice on both storeys, a balustraded balcony at the upper floor, 歇山 in yellow with green edges (S08 P0029, crop ym29_c1; research/scenes/halls.csv); S01's five cells 20.6 x 10.6 m (B); every height C"
+  },
+  "entry": {
+   "value": "the three-bay entry: one storey before the middle bays, its flat roof the upper floor's balcony",
+   "source": "S01;S08",
+   "grade": "B",
+   "note": "S01 draws a block 8.5 x 5.0 m before the five cells with a flight before it (B); the leaf paints a lower front with a door in the middle under the white rail of the upper floor (S08 P0029, crop p29_centre5); three bays C"
+  },
+  "fr_towers": {
+   "value": "锦绮楼 and 翡翠楼: two storeys, 歇山 with their gables to the front, yellow with green trim",
+   "source": "S01;S08;S310",
+   "grade": "B",
+   "note": "S01's blocks 7.5 x 9.4 m and 7.1 x 10.0 m at the ends of the front range (B); the leaf: two-storey corner blocks, their gables to the water, yellow with green edges (S08 P0029); the names from the plaque list (S310 rec. 8298), which is which C"
+  },
+  "hl": {
+   "value": "哕鸾殿: five bays, two storeys, 歇山 in purple-brown tile with green trim",
+   "source": "S05;S08;S01",
+   "grade": "A",
+   "note": "S05 其北樓宇為噦鸞殿 (樓宇: two storeys, A); the leaf: 歇山, purplish-brown field with green trim, two levels of columns (S08 P0029; Q175); S01's five cells 20.9 x 10.3 m; the bays and heights C"
+  },
+  "hl_towers": {
+   "value": "碧云楼 and 紫霞楼: two storeys, 歇山, purple-brown with green trim",
+   "source": "S01;S08;S310",
+   "grade": "B",
+   "note": "S01's three-cell blocks 13.1 x 7.4 and 13.6 x 7.9 m (B); the leaf (S08 P0029); the names S310 rec. 8298, which is which C"
+  },
+  "qh": {
+   "value": "琼华楼: five bays, two storeys, a double top eave 重檐 in yellow tile with blue trim",
+   "source": "S05;S08;S01",
+   "grade": "A",
+   "note": "S05 又北為瓊華樓 (A); the leaf: the centre 重檐 with a yellow field and blue edging (S08 P0029, crop ym29_c1b; research/scenes/halls.csv); S01's five cells 22.8 x 11.1 m; heights C"
+  },
+  "qh_towers": {
+   "value": "千祥阁 and 万福阁: two storeys, double top eave, purple-brown with green trim",
+   "source": "S01;S08;S310",
+   "grade": "B",
+   "note": "S01's four-cell blocks 13.7 x 8.2 and 13.6 x 8.4 m (B); the leaf: the flanking buildings purple-brown with green edging and two tiers of eaves (S08 P0029); names S310, which is which C"
+  },
+  "qh_rear": {
+   "value": "a terrace behind 琼华楼 at the upper level",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01 draws a plain rectangle 22.8 x 8.3 m behind the five cells, beyond the north line: read as a terrace (C)"
+  },
+  "galleries": {
+   "value": "two-storey galleries joining each middle block to its side towers and the side towers of the upper ranges to each other",
+   "source": "S02;S01;S08",
+   "grade": "B",
+   "note": "Malone: elevated walks connecting their second stories (S02 pp.92-93, E1850); S01's double lines and the strips of cells down the court's sides (bays about 3.2 m); the leaf's red two-storey galleries along the front; their width 4.0 m and roofs C"
+  },
+  "rooms": {
+   "value": "two small rooms behind the front galleries",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01's plain squares 4.3 x 3.1 and 4.6 x 3.4 m behind the links; read as stair rooms to the upper floor (C)"
+  },
+  "stair_up": {
+   "value": "a flight on the axis from the front range's platform up to the upper terrace, 2.55 m",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01's cells x 8033-8058 from the terrace's face to the front range's back, 5.3 m on the axis (B): the front range's middle hall is the way through; seventeen steps of 0.15 x 0.30 m C"
+  },
+  "strips": {
+   "value": "the galleries out to the two water terraces, single-storey, on stone strips in the water",
+   "source": "S01;S02;S08",
+   "grade": "B",
+   "note": "S01: double lines on strips about 4.4 m wide from the side towers out and south to the cruciform terraces; Malone: a bridge and two piers to three small terraces (E1850); the leaf's galleries (S08 P0029); single storey and their roofs C"
+  },
+  "cross_pav": {
+   "value": "集瑞亭 and 凝祥亭: square pavilions with a lower eave and a cross-ridge 十字脊 roof, blue tile with yellow trim, on stepped cruciform terraces",
+   "source": "S01;S08;S310",
+   "grade": "B",
+   "note": "S01: stepped crosses with a 3 x 3 grid (B); the leaf: 重檐 with cross ridges, gables on all four sides, blue with yellow trim (S08 P0029; research/scenes/halls.csv YM29-03); open pavilions (Malone); their size and heights C"
+  },
+  "causeway": {
+   "value": "the causeway from the jut before the entry to the middle water terrace, 1.9 m above the water",
+   "source": "S01;S08",
+   "grade": "B",
+   "note": "S01: two lines about 5.3 m apart, 15 m long, a flight at its north end down from the jut (B); the leaf: white balustrades along it (S08 P0029); its height C"
+  },
+  "pailou": {
+   "value": "two archways 坊座 on the causeway: four red posts, three yellow roofs, plaques both faces",
+   "source": "S05;S258;S08",
+   "grade": "B",
+   "note": "S05 j82:12b 南建坊座二, the south plaques 芝田日永 and 閬苑春深, the north 鳯鳴珠樹 and 鹿夀靈臺 (A); S258: a pailou at the foot of the first stair (E1849, B); the leaf paints a small yellow roof on red posts on the causeway (S08 P0029); places and form C (Q17)"
+  },
+  "pav": {
+   "value": "迎薰亭: square, double eaves 重檐, a yellow pyramid roof with a gilt finial, on the square terrace",
+   "source": "S01;S08;S310;S361",
+   "grade": "B",
+   "note": "the leaf: 重檐 square pyramid, yellow, gilt finial, red columns (S08 P0029); S01: the outer square 7.9 x 6.0 m on a terrace 18.6 x 16.2 m (B); the name S310, S361 (E1852: on a high terrace in the water); taken square 6.6 m, heights C"
+  },
+  "pav_deck": {
+   "value": "the square water terrace: white balustrade, a flight each side, three flights to the water for the barge",
+   "source": "S01;S02;S08",
+   "grade": "B",
+   "note": "S01: the terrace with a flight east and west and three along the front (B); Malone: marble balustrades and steps for the barge (E1850); the leaf (S08 P0029)"
+  },
+  "bronzes": {
+   "value": "two bronze dragons and two bronze phoenixes on stone stands at the water terrace's corners",
+   "source": "S310;S08",
+   "grade": "B",
+   "note": "S310: 方壶胜境铜龙、凤立样底图, an elevation sheet of the bronze dragons and phoenixes (E1856, title only); the leaf paints four dark bronze figures at the middle terrace's corners (S08 P0029); their form, size and which stands where C"
+  },
+  "court": {
+   "value": "the middle court flagged, with bronze vessels and potted flowering trees before 哕鸾殿; the rear court flagged",
+   "source": "S08;S258",
+   "grade": "B",
+   "note": "the leaf: a grey-paved court with bronze vessels in a row and potted flowering trees (S08 P0029); S258: octagonal paving (E1849); the vessels' and trees' number and places C"
+  },
+  "walls": {
+   "value": "the upper terrace's west, east and north walls, red with yellow glazed coping, a gate in the west and east walls",
+   "source": "S01;S08;S310",
+   "grade": "C",
+   "note": "S01's lines and the two three-cell gates astride the walls (B); the plaque 蕊珠门 (S310 rec. 8298); the colour C (the leaf shows orange-red walls with yellow coping round the courts to the north-east)"
+  },
+  "colours": {
+   "value": "red columns and lattice, green-blue beams, white marble, glazed roofs in yellow, purple-brown and blue with green, blue or yellow trim",
+   "source": "S08",
+   "grade": "A",
+   "note": "the leaf of 1744 (S08 P0029; research/scenes/halls.csv; Q175: Malone's 'golden glazed tile' reads the poem's 十二金堂, the leaf shows several colours)"
+  },
+  "heights": {
+   "value": "ground storey 3.6 m, the upper floor 4.4 m above the platform, upper storey 3.2 m, platforms 0.45 m; the roofs by the 举架",
+   "source": "S101",
+   "grade": "C",
+   "note": "the storeyed_hall class (research/typology/params.json) and the Qing manual's 举架 (S101); no measured drawing or dig gives a height here (Q119)"
+  }
+ }
+}

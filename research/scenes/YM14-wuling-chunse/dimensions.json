@@ -43,7 +43,7 @@
   },
   {
    "id": "YM14",
-   "part": "island I014 (武陵春色)",
+   "part": "island I015 (武陵春色)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 104.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM14",
-   "part": "island I014 (武陵春色)",
+   "part": "island I015 (武陵春色)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 137.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM14",
-   "part": "island I014 (武陵春色)",
+   "part": "island I015 (武陵春色)",
    "what": "island_area",
    "label": "Island area",
    "value": 8400.0,
