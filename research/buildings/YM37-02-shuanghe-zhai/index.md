@@ -73,6 +73,7 @@ None of its own.
 
 - Q94: YM09 and YM33
 - Q138: E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y
+- Q217: 深柳读书堂
 
 <!-- generated:end -->
 

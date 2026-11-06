@@ -65,6 +65,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 - Q17: Halls in the texts and not on the plan
 - Q60: Captions and claims, old photographs (Round 5)
 - Q126: Commons hits for 'Yuen Ming Yuen' outside the Xiyang Lou are mostly not 圆明园
+- Q202: Hills the plan's outlines miss
 
 <!-- generated:end -->
 

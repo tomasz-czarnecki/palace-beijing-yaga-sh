@@ -4,6 +4,7 @@
 // URL: ?b=<ID> (opens that page and frames its object) &cam=x,y,z,tx,ty,tz &halls=0 &walls=0 &labels=0 &conf=1 &vx=2 &shot=1 (hides the panels, nothing animates, no labels) &public=1 (localhost: no research copy of the pages).
 // Round 10: the ground (ground3d.js): hills, banks, beds, one level per water body; &contours=1 draws contour lines; &conf=1 also tints the ground; &assumed=0 also flattens the generated hills.
 // Round 11: the hall kit (kit3d.js, stonekit3d.js, data/kit_1860.json): every hall drawn from its numbers, courts paved between the halls; &kit=0 returns to the plain boxes; &assumed=0 also hides the boxes with no block on the plan, the courts, and draws a hall whose form is only its class's as its plain box.
+// Round 12: the planting and the rockeries (greens3d.js, data/greens_1860.json, generated/greens_1860.bin): &greens=0 hides them; &season=spring|summer|autumn|winter (default summer); &assumed=0 also hides the generated fill and lowers plants on generated hills; &conf=1 tints plants by the grade of their species, the fill pale.
 // Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
@@ -51,12 +52,13 @@ function updateLabels() {
     l.visible = on && (l.userData.rank === 1 ? d > 700 : d < 1400);
   }
 }
-let kitUpdate = null, kitFrame = 0;
+let kitUpdate = null, kitFrame = 0, greensUpdate = null;
 function render() {
   fitNearPlane();
   updateLabels();
-  // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all.
-  if (kitUpdate && kitUpdate(camera, shot ? 1e9 : 4) && !kitFrame) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
+  // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all. Round 12: so do the plants.
+  const kitWaits = kitUpdate && kitUpdate(camera, shot ? 1e9 : 4), greensWait = greensUpdate && greensUpdate(camera, shot ? 1e9 : 3);
+  if ((kitWaits || greensWait) && !kitFrame) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
   renderer.render(scene, camera);
 }
 controls.addEventListener("change", render);
@@ -106,7 +108,7 @@ function glideTo(pos, tgt, off, ms = 700) {
   requestAnimationFrame(step);
 }
 
-const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1" };
+const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "0", walls: params.get("walls") !== "0", labels: params.get("labels") !== "0", conf: params.get("conf") === "1", vx: Number(params.get("vx") || 1), paths: params.get("paths") !== "0", assumed: params.get("assumed") !== "0", contours: params.get("contours") === "1", greens: params.get("greens") !== "0", season: ["spring", "summer", "autumn", "winter"].includes(params.get("season")) ? params.get("season") : "summer" };
 const meshes = {};
 let walking = false, touring = null;
 
@@ -182,7 +184,7 @@ function labelSprite(text, sub, rank) {
 
 async function main() {
   const local = ["localhost", "127.0.0.1", "[::1]"].includes(location.hostname) && !params.get("public") && (await fetch(location.href, { method: "HEAD" }).then((r) => r.headers.get("X-Palace-Local") === "1").catch(() => false));
-  const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc, kitSpec] = await Promise.all([
+  const [meta, buf, gridBuf, levelBuf, fc, structures, labelData, pathFc, landingFc, routeFc, kitSpec, greensMeta, greensBuf] = await Promise.all([
     fetch("generated/ground.json").then((r) => r.json()),
     fetch("generated/ground.bin").then((r) => r.arrayBuffer()),
     fetch("generated/ground_grid.i16").then((r) => r.arrayBuffer()),
@@ -194,12 +196,17 @@ async function main() {
     fetch("data/landings_1860.geojson").then((r) => r.json()),
     fetch("data/routes_1860.geojson").then((r) => r.json()),
     fetch("data/kit_1860.json").then((r) => r.json()),
+    fetch("data/greens_1860.json").then((r) => r.json()),
+    fetch("generated/greens_1860.bin").then((r) => r.arrayBuffer()),
   ]);
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
   const ground = buildGround({ meta, buf, gridBuf, levelBuf });
   const { groundAt, waterLevelAt } = ground;
   world.add(ground.group);
+  const greens = buildGreens({ meta: greensMeta, buf: greensBuf, datum: meta.datum_m, toXZ });
+  world.add(greens.group);
+  greensUpdate = greens.update;
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
@@ -233,6 +240,9 @@ async function main() {
     ground.setConf(state.conf);
     if (groundAssumed !== state.assumed) { groundAssumed = state.assumed; ground.setAssumed(state.assumed); }
     ground.setContours(state.contours);
+    greens.setView({ on: state.greens, assumed: state.assumed, conf: state.conf, season: state.season });
+    document.getElementById("legend-greens").hidden = !state.greens;
+    document.getElementById("legend-greens-conf").hidden = !state.conf;
     document.getElementById("legend-paths").hidden = !state.paths;
     world.scale.y = state.vx;
     world.updateMatrixWorld(true);
@@ -241,11 +251,14 @@ async function main() {
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
   }
-  for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours"]) {
+  for (const key of ["kit", "halls", "walls", "labels", "conf", "paths", "assumed", "contours", "greens"]) {
     const box = document.getElementById(key);
     box.checked = state[key];
     box.onchange = (e) => { state[key] = e.target.checked; apply(); };
   }
+  const seasonSel = document.getElementById("season");
+  seasonSel.value = state.season;
+  seasonSel.onchange = (e) => { state.season = e.target.value; apply(); };
   const vxBox = document.getElementById("vx");
   vxBox.checked = state.vx === 2;
   vxBox.onchange = (e) => { state.vx = e.target.checked ? 2 : 1; apply(); };
@@ -362,6 +375,7 @@ async function main() {
     const dir = new THREE.Vector3(Math.sin(yaw) * Math.cos(pitch), Math.sin(pitch), -Math.cos(yaw) * Math.cos(pitch));
     camera.lookAt(camera.position.clone().add(dir));
     if (kitUpdate) kitUpdate(camera, 2);
+    if (greensUpdate) greensUpdate(camera, 2);
     renderer.render(scene, camera);
   };
   const walkStep = (now) => {
@@ -459,6 +473,7 @@ async function main() {
     camera.position.set(x, y * state.vx, z);
     camera.lookAt(new THREE.Vector3(tx, ty * state.vx, tz));
     if (kitUpdate) kitUpdate(camera, shot ? 1e9 : 2);
+    if (greensUpdate) greensUpdate(camera, shot ? 1e9 : 2);
     renderer.render(scene, camera);
   };
   const atStop = (T, st) => {
@@ -601,7 +616,7 @@ async function main() {
   document.getElementById("loading").hidden = true;
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { kit, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  window.viewer = { kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

@@ -44,7 +44,7 @@ No box in the 3D view: the plan shows no building here, or a plot, water, a hill
 
 ## Open questions
 
-None that name it.
+- Q197: Which way did the water fall?
 
 <!-- generated:end -->
 

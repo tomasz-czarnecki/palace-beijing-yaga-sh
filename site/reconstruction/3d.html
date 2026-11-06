@@ -16,6 +16,7 @@
     #panel { position: fixed; top: 58px; left: 10px; background: #ffffffe6; padding: 8px 12px; border-radius: 6px; max-width: 265px; max-height: calc(100vh - 80px); overflow-y: auto; box-sizing: border-box; }
     #panel h1 { font-size: 14px; margin: 0 0 6px; }
     #panel label { display: block; }
+    #panel select#season { margin-left: 4px; font: 12px 'Geist', system-ui, sans-serif; }
     #legend span { display: inline-block; width: 11px; height: 11px; margin-right: 5px; vertical-align: -1px; border: 1px solid #0005; }
     #legend { margin-top: 6px; font-size: 12px; }
     #legend div { margin-bottom: 2px; }
@@ -144,7 +145,9 @@
     <label><input type="checkbox" id="kit" checked> Hall kit: forms from the typology (off: plain boxes)</label>
     <label><input type="checkbox" id="walls" checked> Walls and bridges</label>
     <label><input type="checkbox" id="paths" checked> Paths, galleries and landings</label>
-    <label><input type="checkbox" id="assumed" checked> Assumed (C): halls with no block, courts, forms from the class, paths, hills</label>
+    <label><input type="checkbox" id="greens" checked> Trees, planting and rockeries</label>
+    <label>Season <select id="season" aria-label="Season of the planting"><option value="spring">spring</option><option value="summer">summer</option><option value="autumn">autumn</option><option value="winter">winter</option></select></label>
+    <label><input type="checkbox" id="assumed" checked> Assumed (C): halls with no block, courts, forms from the class, paths, hills, planting no source names</label>
     <label><input type="checkbox" id="labels" checked> Names</label>
     <label><input type="checkbox" id="conf"> Colour by confidence</label>
     <label><input type="checkbox" id="contours"> Contour lines (1 m)</label>
@@ -173,9 +176,14 @@
         <div><span style="background:#8a3b2a"></span><span style="background:#5f6469"></span>covered gallery 游廊, a simple roof on posts <span style="background:#d3cab6;margin-left:8px"></span>landing</div>
         <div><span style="background:#24566e"></span>boat route on the water (dashed)</div>
       </div>
+      <div id="legend-greens">
+        <div><span style="background:#3c5a34"></span><span style="background:#89a35a"></span><span style="background:#5b7a3f"></span><span style="background:#eeb2c2"></span>planting of 1860 where a source names it for the scene: pines, willows, broadleaf trees, blossom, bamboo; lotus and reeds on the water. No plan draws a plant: every place is generated</div>
+        <div><span style="background:#aaa79d"></span>rockeries and garden rocks where a text or a leaf names them; size typology (C)</div>
+        <div id="legend-greens-conf" hidden><span style="background:#2f8f4e"></span><span style="background:#d9a441"></span><span style="background:#c4513a"></span>plants by the grade of their species <span style="background:#d8bfae;margin-left:8px"></span>the fill: what no source names (assumed)</div>
+      </div>
       <div><span style="background:#6f9fb0"></span>water <span style="background:#899862;margin-left:8px"></span>land <span style="background:#567446;margin-left:8px"></span>hills</div>
     </div>
-    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, and the halls are drawn by a kit from their hall class unless a source gives their own figures, ground from today's 30 m DEM, the 1744 album and typology: most hills are guesses (C), the pale ones generated where the plan draws none. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height.</div>
+    <div id="note">Positions from a Qing plan (S01, image courtesy of the Princeton University Art Museum); heights and roofs are typology, and the halls are drawn by a kit from their hall class unless a source gives their own figures, ground from today's 30 m DEM, the 1744 album and typology: most hills are guesses (C), the pale ones generated where the plan draws none. Colours are chosen for the view. Drag to turn, right-drag to move, scroll to zoom. Click a hall: the view zooms in and a panel shows what we know. Paths: traced on the plan S01 and graded by the 1744 leaves, the texts and the digs; the pale ones are guesses. A route follows them at eye height. Planting: what the 1744 poems, prefaces and leaves, 日下旧闻考, the later imperial poems and the eyewitnesses name for each scene; no plan draws a tree, so every place is generated, and the pale fill (assumed) is typical planting where no source names any.</div>
   </div>
   <aside id="bpanel" aria-label="Building" hidden></aside>
   <div id="lightbox" role="dialog" aria-label="Picture" hidden>
@@ -196,6 +204,7 @@
   <script src="stonekit3d.js"></script>
   <script src="kit3d.js"></script>
   <script src="paths3d.js"></script>
+  <script src="greens3d.js"></script>
   <script src="panel3d.js"></script>
   <script src="3d.js"></script>
 </body>

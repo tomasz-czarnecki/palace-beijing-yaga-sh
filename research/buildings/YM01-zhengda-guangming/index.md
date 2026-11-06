@@ -251,6 +251,7 @@ Modern interpretation, not evidence.
 - Q165: YM01 survives_en and recons_en are empty
 - Q182: Typology, grand_hall heights
 - Q183: Typology, grand_hall bays
+- Q198: The album's hills are too tall
 
 <!-- generated:end -->
 

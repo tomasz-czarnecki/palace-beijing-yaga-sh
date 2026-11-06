@@ -43,6 +43,9 @@ No box of its own: the hall drawn at this point stands for the gate in the 3D vi
 - Q156: Twin lead for the coordinator
 - Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
 - Q196: The width of a paved way 甬道 is not known anywhere
+- Q197: Which way did the water fall?
+- Q202: Hills the plan's outlines miss
+- Q203: Water layer and shores
 
 <!-- generated:end -->
 

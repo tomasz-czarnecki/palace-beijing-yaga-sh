@@ -1,0 +1,256 @@
+{
+ "plants": 40161,
+ "by_form": {
+  "pine": 4324,
+  "blossom": 2825,
+  "willow": 1451,
+  "broad": 2530,
+  "topiary": 255,
+  "cypress": 261,
+  "bamboo": 4447,
+  "reed": 7568,
+  "floating": 2728,
+  "lotus": 13147,
+  "shrub": 624,
+  "hedge": 1
+ },
+ "by_species": {
+  "荷": 13147,
+  "芦苇": 4990,
+  "竹": 4447,
+  "松": 4309,
+  "落叶乔木": 2134,
+  "花树": 2099,
+  "荇": 1581,
+  "柳": 1451,
+  "蘆": 794,
+  "蓼": 770,
+  "蒲": 717,
+  "桃": 520,
+  "菱": 407,
+  "萍": 381,
+  "藻": 324,
+  "柏": 261,
+  "菊": 257,
+  "松·修剪": 255,
+  "蒹葭": 169,
+  "花": 164,
+  "树": 160,
+  "芦荻": 128,
+  "山桃": 123,
+  "阔叶树": 96,
+  "杏": 66,
+  "牡丹": 40,
+  "名葩": 36,
+  "竒花": 36,
+  "芍药": 36,
+  "雜蘤名葩": 36,
+  "枫": 35,
+  "苹": 35,
+  "槐": 20,
+  "梧桐": 17,
+  "白皮松": 15,
+  "药圃": 14,
+  "林木": 14,
+  "红叶树": 13,
+  "林": 13,
+  "玉兰": 9,
+  "楓": 9,
+  "卉木": 7,
+  "龙爪槐": 5,
+  "玉蘭": 4,
+  "嘉樹叢卉": 4,
+  "花木": 3,
+  "梅": 2,
+  "梨": 2,
+  "鼠姑": 2,
+  "杂树": 1,
+  "树篱·篱": 1,
+  "黑枣": 1,
+  "槲": 1
+ },
+ "trees_confidence": {
+  "A": 28789,
+  "B": 3456,
+  "C": 7916
+ },
+ "extent_confidence": {
+  "C": 33091,
+  "B": 7070
+ },
+ "assumed": 6508,
+ "on_generated_hills": 11799,
+ "areas": {
+  "n": 466,
+  "by_kind": {
+   "specimen_tree": 103,
+   "grove": 209,
+   "bamboo_grove": 42,
+   "avenue": 24,
+   "reed_bed": 21,
+   "lotus_pond": 40,
+   "flower_bed": 26,
+   "hedge": 1
+  },
+  "extent_confidence": {
+   "C": 303,
+   "B": 163
+  },
+  "trees_confidence": {
+   "A": 409,
+   "B": 40,
+   "C": 17
+  },
+  "assumed": 9,
+  "scenes": 87
+ },
+ "placement": {
+  "in_box": 0,
+  "crown_over_box": 0,
+  "crown_over_box_max_m": 0,
+  "on_way": 0,
+  "on_wall": 0,
+  "on_bridge": 0,
+  "in_rockery": 0,
+  "land_plant_in_water": 0,
+  "water_plant_on_land": 0,
+  "base_gap_max_m": 0.005,
+  "base_gap_over_tol": 0,
+  "trunk_slope_gap_max_m": 0.39,
+  "trunk_slope_gap_over_sink": 0,
+  "water_level_gap_max_m": 0.005
+ },
+ "rockeries": {
+  "n": 86,
+  "by_kind": {
+   "standing": 24,
+   "shore": 32,
+   "hill": 27,
+   "screen": 3
+  },
+  "grade": {
+   "B": 27,
+   "A": 52,
+   "C": 7
+  },
+  "extent": {
+   "C": 54,
+   "B": 32
+  },
+  "floating": 0,
+  "in_box": 0,
+  "shore_dry": [],
+  "shore_meeting_water": 32,
+  "height_m": "n 86, median 3.25, p90 5.55, max 6.00 m"
+ },
+ "files_mb": {
+  "greens_1860.json": 0.055,
+  "greens_1860.geojson": 2.523,
+  "greens_1860.bin": 0.562
+ },
+ "browser": {
+  "measured_utc": "2026-11-06 00:08",
+  "views": {
+   "overview_off": {
+    "frame_ms_median": 401.7,
+    "frame_ms_min": 350.7,
+    "frame_ms_max": 414.1,
+    "drawn_triangles": 575338,
+    "draw_calls": 287,
+    "greens_near_instances": 0,
+    "greens_near_triangles": 0,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "scene_off": {
+    "frame_ms_median": 309.6,
+    "frame_ms_min": 192.5,
+    "frame_ms_max": 323.8,
+    "drawn_triangles": 611950,
+    "draw_calls": 109,
+    "greens_near_instances": 0,
+    "greens_near_triangles": 0,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "near_off": {
+    "frame_ms_median": 247.9,
+    "frame_ms_min": 210.4,
+    "frame_ms_max": 280,
+    "drawn_triangles": 532037,
+    "draw_calls": 79,
+    "greens_near_instances": 0,
+    "greens_near_triangles": 0,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "overview_summer": {
+    "frame_ms_median": 565,
+    "frame_ms_min": 326.1,
+    "frame_ms_max": 601.8,
+    "drawn_triangles": 846401,
+    "draw_calls": 465,
+    "greens_near_instances": 0,
+    "greens_near_triangles": 0,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "scene_summer": {
+    "frame_ms_median": 383.8,
+    "frame_ms_min": 344.6,
+    "frame_ms_max": 418.6,
+    "drawn_triangles": 802735,
+    "draw_calls": 177,
+    "greens_near_instances": 2997,
+    "greens_near_triangles": 81078,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "near_summer": {
+    "frame_ms_median": 332.8,
+    "frame_ms_min": 319.1,
+    "frame_ms_max": 356.4,
+    "drawn_triangles": 692644,
+    "draw_calls": 120,
+    "greens_near_instances": 7784,
+    "greens_near_triangles": 159954,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "scene_spring": {
+    "frame_ms_median": 412.5,
+    "frame_ms_min": 380.9,
+    "frame_ms_max": 483.9,
+    "drawn_triangles": 799647,
+    "draw_calls": 177,
+    "greens_near_instances": 2997,
+    "greens_near_triangles": 77894,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "scene_autumn": {
+    "frame_ms_median": 385.4,
+    "frame_ms_min": 360.7,
+    "frame_ms_max": 416.1,
+    "drawn_triangles": 799647,
+    "draw_calls": 177,
+    "greens_near_instances": 2997,
+    "greens_near_triangles": 77894,
+    "greens_far_triangles": 253597,
+    "rock_triangles": 17480
+   },
+   "scene_winter": {
+    "frame_ms_median": 336.4,
+    "frame_ms_min": 318.7,
+    "frame_ms_max": 400.9,
+    "drawn_triangles": 772576,
+    "draw_calls": 172,
+    "greens_near_instances": 2997,
+    "greens_near_triangles": 54574,
+    "greens_far_triangles": 240450,
+    "rock_triangles": 17480
+   }
+  },
+  "errors": []
+ }
+}

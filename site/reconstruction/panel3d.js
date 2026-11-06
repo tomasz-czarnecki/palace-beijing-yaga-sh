@@ -54,6 +54,54 @@ function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
     body.append(s);
   }
 
+  // Round 12: the planting of this scene (research/greens/species.csv) and its rockeries, with what the view drew of each.
+  function plantingBlock(pl, kind, body) {
+    const src = pl.sourced || [], not = pl.not_drawn || [], rej = pl.rejected || [], rocks = pl.rocks || [];
+    const s = section(`Planting of this ${kind === "compound" ? "scene" : kind === "garden" ? "garden" : "hall"} (${src.length + not.length})`);
+    s.append(el("p", "bp-line", "What the sources name, with where they put it. No plan draws a plant: the view places each one, seeded, in the part of the scene the source names (B where a 1744 leaf shows that side, C where only a text names it). Where no source names any planting, the view adds typical planting, marked assumed (C)."));
+    const item = (e, extra) => {
+      const li = el("li");
+      const name = [e.plant, e.en, e.latin ? `(${e.latin})` : ""].filter(Boolean).join(" ");
+      li.append(el("span", "", `${name} · ${e.role.replace("_", " ")} · ${e.place}${e.season ? ` · ${e.season}` : ""}`));
+      if (e.where) li.append(el("span", "tag", e.where));
+      if (e.quote) li.append(el("span", "ev-text", e.quote));
+      li.append(el("span", "tag", `${e.id} · ${e.confidence} · ${e.kind} · ${e.sources}${extra(e)}`));
+      return li;
+    };
+    if (src.length) {
+      const ul = el("ul", "facts");
+      for (const e of src) ul.append(item(e, (x) => (x.drawn ? ` · ${x.drawn} drawn` : " · not drawn: no room for it in the place named")));
+      s.append(ul);
+    }
+    if (not.length) {
+      s.append(el("h4", "", "Named, not drawn (fields, lawns, climbers, potted plants)"));
+      const ul = el("ul", "facts");
+      for (const e of not) ul.append(item(e, () => ""));
+      s.append(ul);
+    }
+    if (rocks.length) {
+      s.append(el("h4", "", `Rocks and rockeries (${rocks.length})`));
+      const ul = el("ul", "facts");
+      for (const r of rocks) {
+        const li = el("li");
+        li.append(el("span", "", `${{ standing: "a standing stone", screen: "a rock screen behind a hall", shore: "rockwork on the shore, into the water", hill: "a rock hill" }[r.rock] || r.rock}, about ${r.height_m} m above the ground (typology, C)`));
+        if (r.where) li.append(el("span", "tag", r.where));
+        li.append(el("span", "tag", `${r.id} · ${r.confidence} · place ${r.extent} · ${r.sources}`));
+        ul.append(li);
+      }
+      s.append(ul);
+    }
+    if (rej.length) {
+      const d = el("details", "ev-more");
+      d.append(el("summary", "", `Rejected (${rej.length}): an allusion, a figure of speech, not this garden`));
+      const ul = el("ul", "facts");
+      for (const e of rej) ul.append(item(e, () => ""));
+      d.append(ul);
+      s.append(d);
+    }
+    body.append(s);
+  }
+
   function section(title) {
     const s = el("section");
     s.append(el("h3", "", title));
@@ -447,6 +495,7 @@ function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
       body.append(s);
     }
     if (page.ways) waysBlock(page.ways, body);
+    if (page.planting) plantingBlock(page.planting, page.kind, body);
     if (page.reconstructions && page.reconstructions.length) {
       const s = section(`Reconstructions by others (${page.reconstructions.length})`);
       reconBlock(page.reconstructions, s);

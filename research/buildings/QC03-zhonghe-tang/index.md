@@ -87,7 +87,7 @@ Modern interpretation, not evidence.
 
 ## Open questions
 
-None that name it.
+- Q202: Hills the plan's outlines miss
 
 <!-- generated:end -->
 

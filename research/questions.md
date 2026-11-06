@@ -261,13 +261,8 @@ Keep the first of each unless noted.
 - **Q207. Each European front as the plates draw it.** The stone kit gives every building the same parts: rusticated base, pilasters, arches, a pediment on the main fronts, a balustrade. The plates show different orders, windows, stairs and crests on each. The roof colours are known for 谐奇趣 (S700) and 方外观 (S06, Q69) only. 谐奇趣's model is the next round's. (Round 11)
 - **Q208. Courts: paving, lawn or gravel, and where the compound walls ran.** The kit paves the ground between the halls of a compound (a closing of their outlines, 17.3 ha). The walls of the compounds are not traced, and no source says how each court was surfaced. S104 (田字房, dug 2022) found pebble drip courses and 40 cm floor tiles. (Round 11)
 
-## Resolved
+### Found in Round 10: the ground (moved here from under Resolved in Round 12: they are open)
 
-- **Malone's numbers 30 and 36** are swapped on the plan: 36 stands by 澄虚榭 (YM30), 30 off 雷峰夕照 (YM36). Read from the labels.
-- **G22** reads 蒨园门, the Changchun side, not 绮园门. Two readers.
-- **Datum.** OSM is true WGS84: 2.7 m E, 1.8 m N against Esri over 54 outlines; GLO-30's flat 福海 fits at 0 m E, 4 m N. GCJ-02 here would be 540 m. `north` and `west` in `site_glo30.npz` are cell centres.
-- **SL3.** No slip in Qichun Yuan: Malone's footnote is about 如意馆.
-- **别有洞天 in Qichun** at (7121,7385) is a gate label, not YM34.
 - **Q197. Which way did the water fall?** S05 j80:6b-7b says 西北高而東南低 (high in the north-west, low in the south-east). The water came in by a one-opening sluice in the south-west and left by a five-opening sluice north of 明春门, then across 长春园 by the 七空闸 east into 清河. Today's DEM low ground falls 1.27 m per km towards 34°, today's unedited lakes 0.8 m per km towards 26° (`research/terrain/plain.json`). The model follows the DEM: each body 1.5 m under the plain along its shore, 41.99-44.82 m, all C. No source gives a level or a fall in metres; 贾贯峰 2024 (S1003) is paywalled. (Round 10)
 - **Q198. The album's hills are too tall.** Read by module against each scene's largest hall, the Forty Scenes leaves paint the main hills 2.5-4.5 ridges high (up to 7.9 at 杏花春馆), 10-70 m. The halls themselves are drawn 1.5-1.9 times too tall for their width (正大光明殿, 安佑宫). The model scales the 99 readings by 0.448 so their median falls on the middle of Attiret's 6.5-19.5 m, and clips them to it. That is a run, not a source: the album is used for which side of a scene is hilled and which hill is the highest. The 24000 px masters on Commons would sharpen every reading. (Round 10)
 - **Q199. Where the earth hills stood.** No source we hold draws them: S01 does not, the 1933 map (S15) does by its legend but is unseen, and the 1965 map predates the cutting of 216 hills in 1967-73 (S145, S146). The 418 hills on free land (111 ha) follow the album's pattern, not any one hill's place, and are switched off with `assumed=0`. The DEM gives 122 of all the hills a height from today's rise, which holds modern fill (S147) and trees. (Round 10)
@@ -275,3 +270,24 @@ Keep the first of each unless noted.
 - **Q201. 紫碧山房's height.** China Daily (S1001) calls today's rock garden 15 m high and "the highest point of Yuanmingyuan". GLO-30 shows 6.9-8.8 m at H0052, and nothing at H0037. Qianlong's "假山故无九仞高" bounds it under about 23 m (S361). The 2017 dig found a retaining wall at the hill's foot (S1012). The model takes 6.3 m from the DEM for H0052, and H0037's 191 m² holds 3.5 m of its 15 m. Malone (S02 p.80) puts the highest hill of Yuan Ming Yuan at 杏花春馆 YM09, unless the north-west rock hill was higher. (Round 10)
 - **Q202. Hills the plan's outlines miss.** 杏花春馆's high hill (S02 p.80); a second 寿山 behind 中和堂 QC03 in 绮春园 (S1008 no.79); 泽兰堂 CC10 on the south slope of the 长春园 north hill (S1008 no.70). The free land covers the first two places in part; none is an outline of its own. (Round 10)
 - **Q203. Water layer and shores.** Shores within 3 m of a hall or 6 m of a landing are stone by rule; 19.1 km of the 99.8 km take their kind from a leaf (A). A text gives a stone bank only at 镜绿亭 (QC04) and a reedy shore at 澡身浴德 (YM30). Today's natural-stone banks are modern (9200 m in 长春园 1992-94, S1006). Bridges whose lines run over land in the water layer (南大桥 BR001 among them) lie flush on the ground (Q191). (Round 10)
+
+### Found in Round 12: the planting
+
+- **Q209. Lotus at 曲院风荷 and 平湖秋月.** Their texts name lotus (S40 曲院风荷 "红衣印波", 平湖秋月 "荷露"), but the 1744 leaves paint plain water there; the leaves paint lotus only at 濂溪乐处 (about 85-90% of its lake) and 多稼如云 (Round 12, album workers). The model follows the texts, so those lotus beds stand on C extents; open water kept along 曲院风荷's bridge is our reading of the preface. (Round 12)
+- **Q210. The garden's commonest broadleaf tree.** The leaves' most frequent tree, large, with a twisted mottled trunk, cannot be named from the brush: 槐, 榆 or 白皮松 (mottled bark) are possible. 38 rows read it as an unnamed broadleaf (落叶乔木), drawn as a round crown. (Round 12)
+- **Q211. 万花阵's walls.** The kit draws hedge walls (Round 6, `xiyanglou/boxes.csv`), but plate P0045 draws carved-brick panels with small clipped trees set along their tops, Malone (S02 p.145) describes brick walls, and a record of 1793 summarised in `xiyanglou/facts.csv` (S310) has turf laid on the wall tops and watered daily. The clipped trees on the walls are not drawn (GS-0490, GS-0491); the walls should probably be brick with a green cap. (Round 12)
+- **Q212. The tall tiered columns at 大水法 and 观水法.** `xiyanglou/views.csv` reads them as fountain towers; the planting worker reads the hatching on P0055 and P0056 as clipped foliage, ten or so discs on a stem. Drawn as topiary (GS-0508), C. (Round 12)
+- **Q213. 正觉寺's old trees.** The park registers 26-28 old trees, almost all in 正觉寺 (QC11), mainly 侧柏 and 桧柏, with 白皮松, 国槐 and 黑枣 (S1161, S1162). One 桧柏 (11010802198) is graded 一级, 300 years or more, older than the temple of 1773. No tree's position is published, so the court's trees are placed, not surveyed. (Round 12)
+- **Q214. The age of the pines.** Qianlong's preface of 1770 says Changchun Yuan's pines were planted as saplings (S05 j83 "培松拱把"; at 狮子林 "稚松皆新種"); by 1860 they were about 90 years old. 清晖阁's pines burned in 1763 and were replanted (S361). All pines are drawn as mature trees of 12 m, a species default. (Round 12)
+- **Q215. Qichun Yuan's planting is of Jiaqing's time.** Nearly every planting row of Qichun Yuan comes from Jiaqing poems of 1802-1820; the latest dated line is lotus at 招凉榭 in 1858. Whether the planting stood so in 1860 is unknown; the rows are kept as A for "a source of the time names it". (Round 12)
+- **Q216. Which 五福堂 had the magnolias.** S361 files the poems 五福堂对玉兰花 (1788) under 春熙院; a Jiaqing note of 1797 (S360) puts magnolias at 含碧堂 and 五福堂 of 长春仙馆, and 天然图画 YM05 has a 五福堂. The YM05 row is kept at C. (Round 12)
+- **Q217. 深柳读书堂.** S05 j82 puts it at 澡身浴德 (north of 望瀛洲); Qianlong's notes of 1755 and 1774 say 双鹤斋 in 廓然大公 was once called so. Willows are drawn at both. (Round 12)
+- **Q218. No plan draws a plant.** Every tree's place is generated in an area anchored to the scene (Round 12). A modern study (S1141) names Yangshi Lei planting drawings for 九洲清晏 and an archive "花果树木价值"; neither has been seen. Either would turn C extents into B or A. (Round 12)
+
+## Resolved
+
+- **Malone's numbers 30 and 36** are swapped on the plan: 36 stands by 澄虚榭 (YM30), 30 off 雷峰夕照 (YM36). Read from the labels.
+- **G22** reads 蒨园门, the Changchun side, not 绮园门. Two readers.
+- **Datum.** OSM is true WGS84: 2.7 m E, 1.8 m N against Esri over 54 outlines; GLO-30's flat 福海 fits at 0 m E, 4 m N. GCJ-02 here would be 540 m. `north` and `west` in `site_glo30.npz` are cell centres.
+- **SL3.** No slip in Qichun Yuan: Malone's footnote is about 如意馆.
+- **别有洞天 in Qichun** at (7121,7385) is a gate label, not YM34.

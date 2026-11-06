@@ -371,8 +371,8 @@ def shape_entry(p):
 
 
 # ---- the courts ----
-def courts(feats):
-    G = Grid()
+def court_area(feats):
+    """The courts as one geometry in scene metres (also read by scripts/greens1860.py, Round 12)."""
     xz = lambda g: shapely.transform(g, lambda c: np.column_stack(to_xz(c[:, 0], c[:, 1])))
     water = unary_union([xz(shape(f["geometry"])).buffer(0) for f in layer("water_1860")]).buffer(0.8)
     hills = unary_union([xz(shape(f["geometry"])).buffer(0) for f in layer("hills_1860") if (f["properties"].get("height_est_m") or 0) >= 1.0])
@@ -394,7 +394,12 @@ def courts(feats):
         if gid in scenes:
             area = area.intersection(scenes[gid].buffer(APRON_M)).union(apron)
         parts.append(area)
-    court = unary_union(parts).difference(water).difference(unary_union(all_boxes)).buffer(0)
+    return unary_union(parts).difference(water).difference(unary_union(all_boxes)).buffer(0)
+
+
+def courts(feats):
+    G = Grid()
+    court = court_area(feats)
     # a grid of cells, cut to the court; each piece triangulated, heights from the ground
     x0, z0, x1, z1 = court.bounds
     xs = np.arange(math.floor(x0 / COURT_CELL_M) * COURT_CELL_M, x1 + COURT_CELL_M, COURT_CELL_M)

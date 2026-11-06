@@ -33,7 +33,8 @@ END = "<!-- generated:end -->"
 NOTES_HINT = "<!-- Yours: regeneration never touches this part. It goes on the public site; what you write below a line holding only %% private %% stays in the research copy. -->"
 PRIVATE_LINE = "%% private %%"
 # What may stand in a public file. Anything else stops the script.
-PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources", "dimensions", "dossier", "ways"}
+PUBLIC_KEYS = {"id", "kind", "title", "subtitle", "object", "parent", "children", "position", "model", "facts", "notes_html", "photos", "photos_inside", "evidence", "reconstructions", "twins", "plan_ref", "fallback", "searched", "questions", "sources", "dimensions", "dossier", "ways", "planting"}
+PUBLIC_PLANT_KEYS = {"id", "plant", "latin", "en", "role", "place", "where", "season", "kind", "confidence", "sources", "quote", "drawn"}  # Round 12
 PUBLIC_WAY_KEYS = {"id", "kind", "label", "other", "confidence", "assumed", "sources", "length_m"}
 PUBLIC_ROUTE_KEYS = {"id", "name", "confidence", "sources", "stop"}
 WAY_LABEL = {"imperial_road": "imperial road", "paved_way": "paved way 甬道", "courtyard_path": "court path", "service_path": "service path", "gallery": "covered gallery 游廊", "mountain_gallery": "climbing gallery 爬山廊", "causeway": "causeway", "dike": "dike 堤", "bridge_approach": "bridge approach", "steps": "steps 踏跺", "boat_route": "boat route", "landing": "landing 码头", "dock": "boat dock 船坞"}
@@ -185,6 +186,7 @@ class Book:
         self.sources = load_sources()
         self.box_row = {p["id"]: p["building_id"] for f in fc["features"] for p in [f["properties"]]}
         self.ways, self.routes_at = load_ways(self.box_row, self.rows)
+        self.planting, self.drawn, self.rocks = load_planting()
         self.children = {}
         for r in self.rows.values():
             if r["parent_id"]:
@@ -768,6 +770,10 @@ def panel_page(book, page, hand, public):
     if ways:
         out["ways"] = ways
         used |= {s for w in ways.get("reached", []) + ways.get("routes", []) for s in split_ids(w["sources"]) if s in book.sources}
+    planting = planting_of(book, page)
+    if planting:
+        out["planting"] = planting
+        used |= {s for k in ("sourced", "not_drawn", "rejected", "rocks") for r in planting.get(k, []) for s in split_ids(r["sources"]) if s in book.sources}
     out["sources"] = sources_of(book, used)
     xy_extras(book, page, out)
     if public:
@@ -894,6 +900,68 @@ def load_ways(box_row, rows):
     return ways, routes_at
 
 
+PLACE_WORDS = {"scene": "in the scene", "north": "north side", "south": "south side", "east": "east side", "west": "west side", "front_court": "front court", "rear_court": "rear court",
+               "court": "in the courts", "around_hall": "beside a hall", "shore": "at the shore", "island": "on the island", "hill": "on the hills", "hill_foot": "at the foot of the hills",
+               "dike": "on the dike", "along_way": "along the way", "pond": "on the water", "lake_edge": "at the water's edge", "bridge": "by the bridge", "rockery": "by the rocks",
+               "field": "in the fields", "outside_wall": "beyond the walls"}
+
+
+def load_planting():
+    """Round 12: research/greens/species.csv by scene, what the view drew for each row (data/greens_1860.geojson), the rockeries by scene."""
+    rows = {}
+    for r in csv.DictReader(open(ROOT / "research/greens/species.csv", encoding="utf-8")):
+        rows.setdefault(r["scene_id"], []).append(r)
+    drawn, rocks = {}, {}
+    path = SITE_DATA / "greens_1860.geojson"
+    if path.exists():
+        for f in json.load(open(path, encoding="utf-8"))["features"]:
+            p = f["properties"]
+            if p["kind"] == "rockery":
+                rocks.setdefault(p["scene"].split("-")[0], []).append(p)
+                continue
+            for rid in split_ids(p["rows"]):
+                d = drawn.setdefault(rid, {"count": 0, "extent": p["extent_confidence"], "fill": p["assumed"]})
+                d["count"] += p["count"]
+    return rows, drawn, rocks
+
+
+def planting_of(book, page):
+    """What a page shows of the planting: the rows of its scene (a compound also its halls'), what the view drew of each, what is not drawn and why, the rockeries."""
+    pid, kind = page["id"], page["kind"]
+    if kind == "compound":
+        keys = [pid] + book.children.get(pid, [])
+    elif kind == "garden":
+        keys = [pid, "GARDEN-ALL"] if pid != "GARDEN-ALL" else [pid]
+    elif kind == "hall":
+        keys = [pid]
+    else:
+        return None
+    rows = [r for k in keys for r in book.planting.get(k, [])]
+    rocks = book.rocks.get(pid, []) if kind == "compound" else []
+    if not rows and not rocks:
+        return None
+
+    def free(r):
+        return all("public domain" in book.sources.get(s, {}).get("licence", "") for s in split_ids(r["sources"]))
+
+    def entry(r):
+        e = {"id": r["id"], "plant": r["plant_zh"], "latin": r["latin"], "en": r["name_en"], "role": r["role"], "place": PLACE_WORDS.get(r["place"], r["place"]), "where": r["place_text"][:160],
+             "season": r["season"], "kind": r["source_kind"], "confidence": r["confidence"], "sources": r["sources"], "quote": r["quote"][:60] if free(r) and r["source_kind"] in ("poem", "preface", "text", "account") else "",
+             "drawn": book.drawn.get(r["id"], {}).get("count", 0)}
+        return e
+
+    keep = [r for r in rows if r["use"] == "keep"]
+    out = {"sourced": [entry(r) for r in keep if r["form"] not in ("none", "rock")],
+           "not_drawn": [entry(r) for r in keep if r["form"] == "none"],
+           "rejected": [{**entry(r), "where": r["reject_reason"][:160], "drawn": 0} for r in rows if r["use"] == "reject"],
+           "rocks": [{"id": p["id"], "rock": p["rock"], "height_m": p["height_m"], "confidence": p["confidence"], "extent": p["extent_confidence"], "sources": p["sources"], "where": p["note"][:160]} for p in rocks]}
+    order = {"A": 0, "B": 1, "C": 2}
+    for k in ("sourced", "not_drawn", "rejected"):
+        out[k].sort(key=lambda e: (order.get(e["confidence"], 3), e["plant"], e["id"]))
+        out[k] = out[k][:60]
+    return {k: v for k, v in out.items() if v}
+
+
 def ways_of(book, page):
     """What a page shows of the ways: the lines and landings that touch it (a compound: those of its halls, counted), the routes that pass it."""
     pid = page["id"]
@@ -918,6 +986,9 @@ def assert_public(page):
         assert set(w) == PUBLIC_WAY_KEYS, (pid, w)
     for w in page.get("ways", {}).get("routes", []):
         assert set(w) == PUBLIC_ROUTE_KEYS, (pid, w)
+    for k in ("sourced", "not_drawn", "rejected"):
+        for e in page.get("planting", {}).get(k, []):
+            assert set(e) == PUBLIC_PLANT_KEYS, (pid, e)
     for d in page.get("dimensions", []):
         assert set(d) - {"scale"} == PUBLIC_DIMENSION_KEYS, (pid, d)  # a scene's figures also say the scale used
     for f in page["facts"]:

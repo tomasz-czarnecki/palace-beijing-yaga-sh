@@ -22,6 +22,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r9_paths` | not recorded | 2026-11-05, from 19:22 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r10_ground` | not recorded | 2026-11-05, from 20:34 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r11_kit` | not recorded | 2026-11-05, from 21:53 | about 1 h 35 min | - | see its result row | see the git log | done |
+| `palace_r12_greens` | not recorded | 2026-11-05, from 23:04 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -326,4 +327,36 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
   - The courts are a closing of the halls, not the compound walls (Q208).
   - Round 9's galleries draw a Chinese gallery in front of 谐奇趣.
   - In software WebGL a close view costs about 1.6x the old frame time.
+
+## palace_r12_greens
+
+**Asked:** the gardens' planting by scene, from sources: a species table (poems and prefaces, 日下旧闻考, the 1744 leaves and later pictures, the court's records as cited, today's old trees and rocks, accounts 1743-1860), a layer of areas with a grade for the extent and one for the species, the rockeries, a generator and a view with seasons, `greens`, `assumed` and `conf`, `tools/check_greens.py`, the panel's "Planting of this scene", screenshots.
+
+**Delivered:**
+- **Sources:** `research/greens/species.csv`, 823 rows from six readers working in the foreground (texts of YM01-20 and of YM21-88, Changchun, Qichun and the Xiyang Lou with the court's records, the album in two halves, survivors and accounts); 759 kept (676 A, 68 B, 15 C) in 110 scenes, 64 rejected with the reason. The worker brief: `docs/rounds/common/palace_r12_worker_brief.md`; the merge: `docs/rounds/common/palace_r12_merge.py` (a record). Fifteen rows hand-corrected after the first runs (the wall bank a tree screen, the Xiyang Lou rows topiary, fences not plants). Sources S1120, S1140, S1141, S1160-S1165; Q209-Q218; three wishes.
+- **Generator:** `scripts/greens1860.py`: `research/layers/greens_1860` and its public copy (466 areas, 86 rockeries), `site/reconstruction/data/greens_1860.json`, `site/reconstruction/generated/greens_1860.bin`, `research/greens/greens_report.json`. `scripts/kit1860.py` now exposes `court_area()` (its output unchanged, byte for byte).
+- **View:** `site/reconstruction/greens3d.js` (plants baked per 200 m tile, a far and a near level; rockeries as lumps), `3d.js` and `3d.html` (the toggle, the season, the legend), `panel3d.js` (the planting block), `scripts/building_pages.py` (`planting` on scene, hall and garden pages).
+- **Check:** `tools/check_greens.py` (`--browser`), `research/greens/greens_check.json`, `research/greens/greens_browser.json`; the overview `research/greens/README.md`.
+
+**Numbers** (`tools/check_greens.py`; before = the planting switched off in the same page load, software WebGL, 1400 x 900):
+- **Plants:** 0 before; 40,161 now: lotus 13,147, reeds 7,568, bamboo 4,447, pines 4,324, blossom 2,825, floating leaves 2,728, broadleaf 2,530, willows 1,451, flower beds 624, cypresses 261, topiary 255. Species A 28,789, B 3,456, C 7,916; extent B 7,070, C 33,091; the fill (assumed) 6,508.
+- **Areas:** 466 in 87 scenes (209 groves, 103 specimen groups, 42 bamboo groves, 40 lotus ponds, 26 flower beds, 24 avenues, 21 reed beds, 1 hedge); extent B 163, C 303.
+- **Rockeries:** 86 (32 shore rockwork, all reaching the water; 27 rock hills; 24 standing stones; 3 rock screens), none floating, none in a box.
+- **Clearances and ground:** 0 plants in a box or with a crown over one, 0 on a way, wall or bridge, 0 in a rockery, 0 land plants in water, 0 water plants on land; bases at most 0.00 m off the walk surface, the ground under a trunk at most 0.39 m below its base (sink 0.5 m), water plants within 0.005 m of their level.
+- **Cost:** overview 402 → 565 ms (575 k → 846 k triangles drawn); 九洲清晏 from 220 m 310 → 384 ms; 曲院风荷 from 140 m 248 → 333 ms; seasons within 10% of each other.
+- **Files:** 3.14 MB of generated data (layer 2.52, binary 0.56, index 0.06).
+
+**Checked:** `tools/check_greens.py` (with `--browser`), `check_pages.py`, `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py` and `check_kit.py` pass. `scripts/building_pages.py` run twice; `scripts/greens1860.py` run twice gives the same files. Screenshots in `screenshots/r12/` from one page load (the panel from a second), opened; the bare views are the planting switched off.
+
+**Went wrong or left open:**
+- Instanced plants cost about 500 ms a frame in software WebGL; baked tiles brought it to about 120-160 ms.
+- A garden-wide row with `place` scene filled a whole garden with 2,500 pines; the wall belt of GARDEN-ALL first found no wall; clipped pines lost their form to the species key; a specimen with no count was area-filled (98 weeping pagoda trees in the maze court); flower beds hit their cap of 160. All fixed.
+- Far crowns of 8 triangles read as diamonds; now 14-triangle lumps.
+- **Still weak:**
+  - Every place is generated (Q218); 33,091 plants stand on C extents.
+  - Lotus at 曲院风荷 and 平湖秋月 follows the texts against the leaves (Q209).
+  - The commonest tree is unnamed (Q210); sizes are species defaults.
+  - The maze walls (Q211), the tall tiers of 大水法 (Q212) and Qichun's Jiaqing-era rows (Q215) are open.
+  - 39 rows found no place and 37 areas no room (`research/greens/greens_report.json`).
+  - With `assumed=0` plants on generated hills are lowered by the hill's height, not re-placed.
 

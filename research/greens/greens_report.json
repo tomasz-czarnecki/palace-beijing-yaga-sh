@@ -1,0 +1,466 @@
+{
+ "rows": 823,
+ "kept": 759,
+ "drawn_rows": 572,
+ "rock_rows": 80,
+ "areas": 466,
+ "areas_by_kind": {
+  "specimen_tree": 103,
+  "grove": 209,
+  "bamboo_grove": 42,
+  "avenue": 24,
+  "reed_bed": 21,
+  "lotus_pond": 40,
+  "flower_bed": 26,
+  "hedge": 1,
+  "rockery": 86
+ },
+ "areas_sourced": 457,
+ "areas_fill": 9,
+ "plants": 40161,
+ "by_form": {
+  "pine": 4324,
+  "blossom": 2825,
+  "willow": 1451,
+  "broad": 2530,
+  "topiary": 255,
+  "cypress": 261,
+  "bamboo": 4447,
+  "reed": 7568,
+  "floating": 2728,
+  "lotus": 13147,
+  "shrub": 624,
+  "hedge": 1
+ },
+ "assumed_plants": 6508,
+ "rockeries": 86,
+ "rockeries_unplaced": [],
+ "areas_skipped": [
+  [
+   "GARDEN-YM",
+   "松",
+   "around_hall",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "QC42",
+   "槐",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC45",
+   "松",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC45",
+   "柳",
+   "pond",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC51",
+   "槐",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC29",
+   "柳",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY11",
+   "松·修剪",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "GARDEN-CC",
+   "柳",
+   "shore",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-CC",
+   "荷",
+   "pond",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "树",
+   "court",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "树林",
+   "along_way",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "花",
+   "shore",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "花木",
+   "hill",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "QC29",
+   "竹",
+   "around_hall",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC33",
+   "柳",
+   "shore",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC33",
+   "菰",
+   "pond",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC37",
+   "荷",
+   "pond",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC41",
+   "枫",
+   "hill",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC42",
+   "菊",
+   "around_hall",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC45",
+   "牡丹",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC46",
+   "牡丹",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC46",
+   "芦苇",
+   "lake_edge",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC46",
+   "荷",
+   "pond",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC47",
+   "菊",
+   "around_hall",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC48",
+   "竹",
+   "shore",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC48",
+   "荷",
+   "pond",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC51",
+   "竹",
+   "around_hall",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC51",
+   "芍药",
+   "court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "QC42",
+   "柳",
+   "north",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY11",
+   "牡丹",
+   "south",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "GARDEN-CC",
+   "松",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-QC",
+   "花木",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "树",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "树林",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "QC40",
+   "竹",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "XY11",
+   "树篱·篱",
+   "scene",
+   "no land (or water) for this place in the scene"
+  ],
+  [
+   "GARDEN-YM",
+   "梅",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-YM",
+   "树",
+   "around_hall",
+   "garden-wide: informs the fill, no area of its own"
+  ],
+  [
+   "GARDEN-ALL",
+   "柏",
+   "scene",
+   "garden-wide: informs the fill, no area of its own"
+  ]
+ ],
+ "areas_empty": [
+  [
+   "YM03",
+   "松",
+   "court"
+  ],
+  [
+   "YM32",
+   "阔叶树",
+   "court"
+  ],
+  [
+   "XY10",
+   "松·修剪",
+   "scene"
+  ],
+  [
+   "QC04",
+   "荷",
+   "shore"
+  ],
+  [
+   "QC49",
+   "柳",
+   "shore"
+  ],
+  [
+   "XY07",
+   "荷",
+   "front_court"
+  ],
+  [
+   "YM03",
+   "松",
+   "rockery"
+  ],
+  [
+   "YM03",
+   "树",
+   "rockery"
+  ],
+  [
+   "YM03",
+   "落叶乔木",
+   "shore"
+  ],
+  [
+   "YM05",
+   "竹",
+   "front_court"
+  ],
+  [
+   "YM05",
+   "落叶乔木",
+   "court"
+  ],
+  [
+   "YM06",
+   "树",
+   "hill"
+  ],
+  [
+   "YM18",
+   "翠蔓",
+   "rockery"
+  ],
+  [
+   "YM24",
+   "阔叶树",
+   "hill"
+  ],
+  [
+   "YM27",
+   "松",
+   "rockery"
+  ],
+  [
+   "YM32",
+   "树",
+   "island"
+  ],
+  [
+   "YM33",
+   "红叶树",
+   "hill"
+  ],
+  [
+   "YM37",
+   "松",
+   "rockery"
+  ],
+  [
+   "YM51",
+   "柳",
+   "shore"
+  ],
+  [
+   "XY10",
+   "树",
+   "north"
+  ],
+  [
+   "YM22",
+   "阔叶树",
+   "east"
+  ],
+  [
+   "YM26",
+   "阔叶树",
+   "south"
+  ],
+  [
+   "YM32",
+   "松",
+   "north"
+  ],
+  [
+   "YM32",
+   "柳",
+   "east"
+  ],
+  [
+   "GARDEN-YM",
+   "树",
+   "outside_wall"
+  ],
+  [
+   "YM26",
+   "桑",
+   "scene"
+  ],
+  [
+   "YM37",
+   "阔叶树",
+   "scene"
+  ],
+  [
+   "YM40",
+   "花树",
+   "scene"
+  ],
+  [
+   "YM41",
+   "乔木",
+   "scene"
+  ],
+  [
+   "YM03",
+   "柳",
+   "scene"
+  ],
+  [
+   "YM21",
+   "柳",
+   "shore"
+  ],
+  [
+   "YM33",
+   "竹",
+   "around_hall"
+  ],
+  [
+   "YM02",
+   "松",
+   "around_hall"
+  ],
+  [
+   "YM03",
+   "槐",
+   "around_hall"
+  ],
+  [
+   "YM10",
+   "柳",
+   "shore"
+  ],
+  [
+   "YM30",
+   "松",
+   "around_hall"
+  ],
+  [
+   "YM02",
+   "秀木",
+   "around_hall"
+  ]
+ ],
+ "files_mb": {
+  "layer": 2.52,
+  "json": 0.05,
+  "bin": 0.56
+ }
+}
