@@ -4,7 +4,7 @@
 
 The browser draws every hall from these numbers (site/reconstruction/kit3d.js for the Qing halls, stonekit3d.js for the Xiyang Lou); it adds no number of its own except the shapes of the parts.
 Each entry says where its form comes from (`src`):
-  model    a detailed model, models/<ID>-<slug>/summary.json: the kit draws nothing for it (none yet)
+  model    a detailed model, models/<ID>-<slug>/summary.json: the kit draws nothing for it (Round 13: 谐奇趣 XY01 and its parts)
   dossier  the hall's own figures (research/scenes, research/xiyanglou: dimensions.json) or its own reading in research/scenes/halls.csv (roof form, tiles), each figure with its method and grade (`fig`)
   stated   a size stated in a source (research/typology/params.json by_name)
   class    the defaults of its hall class (params.json): `assumed`, C, "drawn from the typology of its hall class, not from a picture of this hall"
@@ -452,6 +452,8 @@ def main():
             halls[p["id"]] = shape_entry(p)
         else:
             halls[p["id"]] = hall_entry(p, steps, models)
+        if p["building_id"] in models:  # Round 13: a detailed model stands here; the kit draws nothing for its boxes (European ones too)
+            halls[p["id"]]["src"] = "model"
     court = courts(feats)
     out = {
         "name": "kit_1860",

@@ -1,0 +1,86 @@
+{
+ "photos": [
+  "P0185",
+  "P0186",
+  "P0187",
+  "P0188",
+  "P0189"
+ ],
+ "scale": "W 27.2 m (S01) and the octagons 61.8 m apart (S850) held",
+ "figures": {
+  "H1": {
+   "prior": 3.9,
+   "measured": 3.91,
+   "se": 0.18,
+   "prior_sd": 2.0
+  },
+  "H2": {
+   "prior": 8.7,
+   "measured": 8.64,
+   "se": 0.21,
+   "prior_sd": 2.0
+  },
+  "Ht": {
+   "prior": 11.6,
+   "measured": 11.55,
+   "se": 0.24,
+   "prior_sd": 2.0
+  },
+  "Wc": {
+   "prior": 11.7,
+   "measured": 11.71,
+   "se": 0.28,
+   "prior_sd": 3.0
+  },
+  "D": {
+   "prior": 8.6,
+   "measured": 8.6,
+   "se": 0.42,
+   "prior_sd": 3.0
+  },
+  "oct_up": {
+   "prior": 7.4,
+   "measured": 7.4,
+   "se": 0.33,
+   "prior_sd": 2.0
+  },
+  "nst_foot": {
+   "prior": 2.3,
+   "measured": 2.27,
+   "se": 0.28,
+   "prior_sd": 2.0
+  }
+ },
+ "residuals": {
+  "P0185": {
+   "n": 6,
+   "rms_px_before": 13.5,
+   "rms_px_after": 13.5,
+   "f_px": 1707.0
+  },
+  "P0186": {
+   "n": 15,
+   "rms_px_before": 9.5,
+   "rms_px_after": 9.5,
+   "f_px": 1567.0
+  },
+  "P0187": {
+   "n": 15,
+   "rms_px_before": 25.0,
+   "rms_px_after": 25.5,
+   "f_px": 1554.0
+  },
+  "P0188": {
+   "n": 7,
+   "rms_px_before": 25.8,
+   "rms_px_after": 25.1,
+   "f_px": 2014.0
+  },
+  "P0189": {
+   "n": 21,
+   "rms_px_before": 22.3,
+   "rms_px_after": 22.4,
+   "f_px": 1130.0
+  }
+ }
+}

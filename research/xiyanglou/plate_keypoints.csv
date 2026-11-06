@@ -1,0 +1,175 @@
+plate,photo_id,object,point,x,y,sure,use,note
+1,P0041,XY01,base_top_SE,1507,870,2,,string course under the second-storey pilaster bases
+1,P0041,XY01,base_top_SW,891,870,2,,string course under the second-storey pilaster bases
+1,P0041,XY01,foot_SE,1507,1000,3,,bottom of the plinth; ground line hidden by stair wall and jets
+1,P0041,XY01,foot_SW,891,1000,3,,bottom of the plinth; ground line hidden by stair wall and jets
+1,P0041,XY01,ridge_E,1260,591,2,,top of roof body below ridge ornaments
+1,P0041,XY01,ridge_W,1140,591,2,,top of roof body below ridge ornaments
+1,P0041,XY01,roof_eave_SE,1361,640,2,,roof sits on the top cornice; tip = corner ornament on the cornice
+1,P0041,XY01,roof_eave_SW,1043,640,2,,roof sits on the top cornice; tip = corner ornament on the cornice
+1,P0041,XY01,stair_rail_S,1200,840,3,,axis hidden by central sculpture group; read at pedestal tops either side and carried to the axis
+1,P0041,XY01,top_cornice_SE,1362,646,2,,
+1,P0041,XY01,top_cornice_SW,1040,645,2,,
+1,P0041,XY01,top_foot_SE,1351,746,2,,top storey band meets wing roof level behind the balustrade
+1,P0041,XY01,top_foot_SW,1047,746,2,,top storey band meets wing roof level behind the balustrade
+1,P0041,XY01,topwin_S_head,1200,685,2,,top of outer frame; cartouche above to y 670
+1,P0041,XY01,win2_S_head,1200,774,2,,top of outer frame; ornament above to y 755
+1,P0041,XY01,wing_cornice_SE,1508,744,2,,
+1,P0041,XY01,wing_cornice_SW,893,745,2,,
+1,P0041,XY01,wing_rail_SE,1500,722,2,,bird statue stands on the corner post above
+1,P0041,XY01,wing_rail_SW,899,722,2,,bird statue stands on the corner post above
+1,P0041,XY01-01,colW_in,889,900,2,,colonnade cornice top beside the main block's corner
+1,P0041,XY01-01,colW_out,670,901,2,"skip: a silhouette, not a point: on the plate the colonnade passes behind the octagon's diagonal face; S01 brings it to the north face (Q to be raised)",meets the octagon's corner ressaut
+1,P0041,XY01-01,colW_rail_in,889,889,2,,
+1,P0041,XY01-01,colW_rail_out,670,887,3,skip: as colW_out,
+1,P0041,XY01-01,octW_apex,513,671,2,,base of the crown box (balustrade with figures); centred on the whole octagon not on the front face
+1,P0041,XY01-01,octW_door_head,463,924,2,,
+1,P0041,XY01-01,octW_eave_L,401,735,3,,roof's lower corner with a scroll ornament; edge not crisp
+1,P0041,XY01-01,octW_foot,460,1076,2,,top of the base step at the door; steps project in front
+1,P0041,XY01-01,octW_lowout_L,342,898,2,,"front (south) face; cornice ressaut over the corner column pair; Round 13: renamed from octW_low_L: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-01,octW_lowout_R,553,898,2,,"front face meets the east diagonal face; Round 13: renamed from octW_low_R: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-01,octW_upout_L,348,742,2,,"Round 13: renamed from octW_up_L: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-01,octW_upout_R,552,741,2,,"Round 13: renamed from octW_up_R: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-02,pool_rim_E,1577,1071,2,,rounded east lobe of the rim; runs back under the east stair flight
+1,P0041,XY01-02,pool_rim_S,1200,1091,2,,rim band 1088-1096 on the axis; middle of the band
+1,P0041,XY01-02,pool_rim_W,823,1075,2,,rounded west lobe of the rim; runs back under the west stair flight
+1,P0041,XY01-N01,colE_in,1510,902,2,,
+1,P0041,XY01-N01,colE_out,1716,901,2,skip: as colW_out,
+1,P0041,XY01-N01,colE_rail_in,1510,884,2,,urn finials stand on the posts above
+1,P0041,XY01-N01,colE_rail_out,1716,881,3,skip: as colW_out,
+1,P0041,XY01-N01,octE_apex,1880,671,2,,base of the crown box (balustrade with figures); centred on the whole octagon
+1,P0041,XY01-N01,octE_door_head,1936,924,2,,
+1,P0041,XY01-N01,octE_eave_L,1778,735,3,,roof's lower corner with a scroll ornament; edge not crisp
+1,P0041,XY01-N01,octE_eave_R,1988,735,3,,roof's lower corner with a scroll ornament; edge not crisp
+1,P0041,XY01-N01,octE_foot,1936,1076,2,,top of the base step at the door; steps project in front
+1,P0041,XY01-N01,octE_lowout_L,1846,898,2,,"front face meets the west diagonal face; Round 13: renamed from octE_low_L: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-N01,octE_lowout_R,2060,898,2,,"Round 13: renamed from octE_low_R: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-N01,octE_upout_L,1850,744,2,,"Round 13: renamed from octE_up_L: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+1,P0041,XY01-N01,octE_upout_R,2045,742,2,,"Round 13: renamed from octE_up_R: the reader took the octagon's outline (its south face and the diagonal face towards the axis), see the reader's notes"
+2,P0042,XY01,base_top_NE,702,922,3,,bottom of corner pilaster plinth on the north terrace floor; terrace rail just in front
+2,P0042,XY01,base_top_NW,1700,925,3,,bottom of corner pilaster plinth on the north terrace floor; terrace rail just in front
+2,P0042,XY01,door2_N_head,1200,764,2,,inner crown of the middle arch (outer moulding crown y~752; keystone ornament covers the crown)
+2,P0042,XY01,foot_NE,660,1080,3,,foot of the north terrace podium at its outer corner (podium reaches ~40 px beyond the wall corner x~700); ground line taken at the lowest plinth line
+2,P0042,XY01,foot_NW,1733,1080,3,,foot of the north terrace podium at its outer corner; ground line taken at the lowest plinth line
+2,P0042,XY01,nfount_rim_L,972,1146,2,,outer rim top of the left lobe
+2,P0042,XY01,nfount_rim_R,1441,1146,2,,outer rim top of the right lobe
+2,P0042,XY01,nfount_rim_front,1200,1197,2,,front edge of the rim top of the forward middle segment on the axis
+2,P0042,XY01,nland_C,1200,918,2,,front edge of upper landing slab under its rail; fountain jet crosses the axis
+2,P0042,XY01,nstair_foot_E,1028,1066,2,,foot of the lower flight's end post on the ground; the lower flights descend TOWARD the axis so their foot is the inner end
+2,P0042,XY01,nstair_foot_W,1380,1066,2,,foot of the lower flight's end post on the ground; descends toward the axis
+2,P0042,XY01,nterr_rail_E,668,940,2,,top of terrace rail at its outer end post (vase above not counted)
+2,P0042,XY01,nterr_rail_W,1735,937,2,,top of terrace rail at its outer end post (vase above not counted)
+2,P0042,XY01,ridge_E,1090,482,2,,left end of flat ridge line under the scroll ornament (plate looks south: east is left)
+2,P0042,XY01,ridge_W,1312,482,2,,right end of flat ridge line under the scroll ornament
+2,P0042,XY01,roof_eave_NE,945,566,3,,roof's lower corner hidden by corner scroll ornament
+2,P0042,XY01,roof_eave_NW,1447,562,3,,roof's lower corner hidden by corner scroll ornament
+2,P0042,XY01,top_cornice_NE,929,572,2,,
+2,P0042,XY01,top_cornice_NW,1467,569,2,,
+2,P0042,XY01,top_foot_NE,931,705,2,,top of the band on which the top storey's corner pilaster stands
+2,P0042,XY01,top_foot_NW,1466,703,2,,top of the band on which the top storey's corner pilaster stands
+2,P0042,XY01,topwin_N_head,1200,636,2,,top of the rectangular frame moulding of the middle window; the scrolled cartouche crest above it rises to y~601
+2,P0042,XY01,wing_cornice_NE,700,742,2,,
+2,P0042,XY01,wing_cornice_NW,1700,741,2,,
+2,P0042,XY01,wing_rail_NE,702,705,2,,top of corner pedestal cap (eagle ornament above)
+2,P0042,XY01,wing_rail_NW,1697,703,2,,top of corner pedestal cap (eagle ornament above)
+2,P0042,XY01-01,octW_apex,1857,798,2,,base of the crown
+2,P0042,XY01-01,octW_eave_L,1760,857,2,,
+2,P0042,XY01-01,octW_eave_R,1980,848,2,,
+2,P0042,XY01-01,octW_up_L,1827,848,3,,north face (turned to viewer) cornice top left end; only the upper storey shows
+2,P0042,XY01-01,octW_up_R,1916,848,3,,north face cornice top right end
+2,P0042,XY01-N01,octE_apex,543,800,2,,base of the crown; octagon seen from the north over the colonnade roof
+2,P0042,XY01-N01,octE_eave_L,440,852,3,,left eave tip in the foliage
+2,P0042,XY01-N01,octE_eave_R,638,857,2,,
+2,P0042,XY01-N01,octE_up_L,487,849,3,,north face (turned to viewer) cornice top left end; only the upper storey shows above the colonnade rail
+2,P0042,XY01-N01,octE_up_R,573,849,3,,north face cornice top right end
+10,P0050,XY08,blk_cornice_NW,323,469,2,,outer end of the cornice top where the tile row sits on it (roof foot); single main cornice of the two-storey front
+10,P0050,XY08,blk_cornice_SW,2071,469,2,,outer end of the cornice top under the tile row at the SW corner
+10,P0050,XY08,blk_door_W_head,1200,535,1,,top of the door opening (inner edge of the rectangular frame) of the middle upper-storey door; outer frame top y~521; the door is square-headed not arched
+10,P0050,XY08,blk_eave_NW,316,450,1,,tip of the upturned hip-eave end at the NW corner (north pavilion)
+10,P0050,XY08,blk_eave_SW,2078,451,2,,tip of the upturned hip-eave end at the SW corner; trees close behind
+10,P0050,XY08,blk_ped_apex_W,1198,346,2,,top of the broken scroll pediment of the central attic where the crowning urn/shell ornament starts (ornament top y~322)
+10,P0050,XY08,blk_ridge_N,497,380,2,,north end of the north end-pavilion's short top ridge (lower edge of ridge below ornament); the long middle roof's ridge is lower (y~402) and meets this pavilion's hip at x~593
+10,P0050,XY08,blk_ridge_S,1887,377,2,,south end of the south end-pavilion's short top ridge; the long middle roof's ridge meets this pavilion's hip at x~1790 y~401
+10,P0050,XY08,blk_stair_land_W,1200,668,3,,top of the landing's front parapet on the axis (base of the fish-and-shell cascade group); the landing floor edge itself is hidden behind the parapet
+10,P0050,XY08,pool12_rim_N,422,1031,2,,leftmost (north) point of the curved rim's outer edge where it sweeps back to the north stair foot; image-extreme not plan-extreme
+10,P0050,XY08,pool12_rim_S,1978,1027,2,,rightmost (south) point of the curved rim's outer edge at the south stair foot; image-extreme not plan-extreme
+10,P0050,XY08,pool12_rim_W,1200,1191,2,,top edge of the front rim band on the axis (bottom of rim y~1210); sea-creature scrollwork sits on it
+11,P0051,XY08,blk_cornice_NE,2070,654,2,,cornice top under the tile row at the NE corner (turn into the east face)
+11,P0051,XY08,blk_cornice_NW,2270,654,1,,cornice top under the tile row at the NW corner
+11,P0051,XY08,blk_eave_NE,2068,638,2,,upturned eave tip at the corner where the north face turns into the receding east face
+11,P0051,XY08,blk_eave_NW,2275,643,1,,upturned eave tip at the right (west) end of the north face
+11,P0051,XY08,blk_foot_NE,2084,1018,2,,foot of the corner of the rusticated lower storey (outer corner of the plinth) on the pavement
+11,P0051,XY08,blk_foot_NW,2269,1017,2,,outer corner of the plinth on the pavement at the NW corner; topiary just to the right
+11,P0051,XY08,blk_ridge_N,2100,593,2,,north end of the north pavilion's hip-roof ridge (base of the ridge ornament y~550-590); read west block = the hipped two-storey mass at the right; the long roof behind is hidden
+13,P0053,XY08,blk_cornice_SE,324,664,2,,cornice top under the tile row at the SE corner (turn into the east face)
+13,P0053,XY08,blk_cornice_SW,131,663,1,,cornice top under the tile row at the SW corner
+13,P0053,XY08,blk_eave_SE,326,656,2,,eave tip at the corner where the south face turns into the receding east face
+13,P0053,XY08,blk_eave_SW,127,655,1,,upturned eave tip at the left (west) end of the south face
+13,P0053,XY08,blk_foot_SE,306,1020,2,,outer corner of the plinth on the pavement at the SE corner; shrubs to the right
+13,P0053,XY08,blk_foot_SW,141,1020,2,,outer corner of the plinth on the pavement; topiary touches it on the left
+13,P0053,XY08,blk_ridge_S,297,604,2,,south end of the south pavilion's hip-roof ridge (base of the ridge ornament y~560-600); read west block = the hipped two-storey mass at the left
+,P0185,XY01-N01,colE_out,628,400,3,,top of the colonnade cornice where it meets the octagon; it runs on as the octagon's lower cornice; balustrade gone
+,P0185,XY01-N01,octE_door_head,829,430,2,,inner crown of the arched door
+,P0185,XY01-N01,octE_low_L,742,386,3,,top of the lower-storey cornice at the face's left corner; the corner is ill-defined
+,P0185,XY01-N01,octE_low_R,958,385,3,,top of the lower-storey cornice where it breaks forward over the right column pair
+,P0185,XY01-N01,octE_up_L,737,224,2,,roof gone: top of the upper cornice at the left corner of the face turned to the viewer (window face; faces SSW)
+,P0185,XY01-N01,octE_up_R,928,229,2,,roof gone: top of the upper cornice at the right corner of the same face
+,P0186,XY01,base_top_SE,941,399,2,,
+,P0186,XY01,base_top_SW,540,404,3,,band at the ground-storey top; trees in front
+,P0186,XY01,mainE_cornice_N,995,318,3,,far (north) corner of the east end; in shadow
+,P0186,XY01,mainE_rail_N,985,287,3,,last post of the east end balustrade; may be broken
+,P0186,XY01,mainE_wall_foot_S,941,399,2,,same physical point as base_top_SE
+,P0186,XY01,top_cornice_SE,823,259,2,,roof gone: top of the cornice at the SE corner; crest ornament above to y ~247
+,P0186,XY01,top_cornice_SW,634,263,2,,roof gone: top of the cornice at the top storey's SW corner
+,P0186,XY01,top_foot_SE,823,301,3,,behind the east wing balustrade: read at its foot (rail top y ~283)
+,P0186,XY01,top_foot_SW,633,325,3,,behind the west wing balustrade: read at its foot (rail top y ~305)
+,P0186,XY01,topwin_S_head,722,282,3,,middle window of the top storey; head damaged
+,P0186,XY01,win2_S_head,722,349,2,,
+,P0186,XY01,wing_cornice_SE,943,303,2,,
+,P0186,XY01,wing_cornice_SW,540,327,3,,outer edge lost against trees
+,P0186,XY01,wing_rail_SE,940,284,3,,under the corner crest
+,P0186,XY01,wing_rail_SW,548,306,3,,corner post; small and far
+,P0187,XY01,base_top_SE,1298,507,2,,string course at the SE corner's pilaster bundle foot
+,P0187,XY01,foot_SE,1300,790,3,,ground hidden by rubble and grass at the corner
+,P0187,XY01,mainE_cornice_N,1450,290,3,,projecting cornice end at the NE corner; in shadow
+,P0187,XY01,mainE_wall_foot_N,1440,516,3,,band at the NE corner foot; low contrast
+,P0187,XY01,mainE_wall_foot_S,1298,507,2,,same physical point as base_top_SE
+,P0187,XY01,top_cornice_SE,848,92,3,,roof gone: top of the cornice at the SE corner; corner crest ornament above to y 50
+,P0187,XY01,top_cornice_SW,366,194,2,,roof gone: top of the cornice line at the top storey's SW corner
+,P0187,XY01,top_foot_SE,852,240,3,,hidden behind the east wing balustrade: read at the balustrade's foot (rail top y ~205)
+,P0187,XY01,top_foot_SW,372,345,3,,hidden behind the west wing balustrade: read at the balustrade's foot (rail top y 308)
+,P0187,XY01,topwin_S_head,590,236,3,,middle window of top storey; frame broken through to the sky; head read at the top of the gap
+,P0187,XY01,win2_S_head,588,405,2,,top of the middle second-storey opening (frame head)
+,P0187,XY01,wing_cornice_SE,1268,124,3,,top of the dentil cornice at the SE corner
+,P0187,XY01,wing_cornice_SW,166,363,3,,cornice corner partly lost in trees/shadow
+,P0187,XY01,wing_rail_SE,1255,98,3,,under the corner crest ornament (crest to y ~70)
+,P0187,XY01,wing_rail_SW,180,323,3,,corner post with broken crest; far and small
+,P0188,XY01,mainE_cornice_N,820,237,2,,outer upper corner of the projecting cornice
+,P0188,XY01,mainE_cornice_S,253,244,2,,outer upper corner of the projecting cornice (looking west: south is left)
+,P0188,XY01,mainE_door_head,533,358,3,,head of the opening hidden by the broken scrolled pediment; taken at the pediment's lower edge between the column capitals
+,P0188,XY01,mainE_rail_N,794,168,3,,top of corner pedestal cap; rubble on top
+,P0188,XY01,mainE_rail_S,281,179,3,,top of corner pedestal cap; rubble on top
+,P0188,XY01,mainE_wall_foot_N,806,520,2,,under the corner pilaster pair's base on the ledge
+,P0188,XY01,mainE_wall_foot_S,290,516,2,,under the corner pilaster pair's base on the ledge
+,P0188,XY01-N01,colE_in,802,300,3,"skip: sure 3, the reader's own doubt (an arched wing at the north end of the east face); S01's trace puts the colonnade's start south of the middle; 436 px off under the photo's best camera",cornice top of the one-storey arched wing seen end-on at the right (north) side of the east face; taken as the colonnade joining the block; rubble on top
+,P0189,XY01,base_top_NE,133,405,3,,top of the base band under the pilasters just above the terrace rail
+,P0189,XY01,base_top_NW,975,405,3,,top of the base band under the pilasters just above the terrace rail
+,P0189,XY01,door2_N_head,550,273,2,,inner crown of the middle arch
+,P0189,XY01,foot_NE,105,505,3,,foot of the terrace podium at its outer edge; grass hides the ground line
+,P0189,XY01,foot_NW,992,498,3,,foot of the terrace podium at its outer edge; grass and tree
+,P0189,XY01,nfount_rim_L,322,590,2,,rim top left end; fallen slabs on top
+,P0189,XY01,nfount_rim_R,695,595,3,,rim top right end among fallen slabs
+,P0189,XY01,nfount_rim_front,548,600,2,,front edge of the rim top on the axis
+,P0189,XY01,nland_C,550,371,2,,front edge of the landing slab under its rail
+,P0189,XY01,nstair_foot_E,462,512,3,,lower end post of the flight descending toward the axis; ground in grass
+,P0189,XY01,nstair_foot_W,635,512,3,,lower end post of the flight descending toward the axis; ground in grass
+,P0189,XY01,nterr_rail_E,131,410,3,,outer end of the terrace rail
+,P0189,XY01,nterr_rail_W,980,410,2,,outer end of the terrace rail
+,P0189,XY01,top_cornice_NE,391,154,2,,roof gone: top of the cornice at the corner (rubble on top)
+,P0189,XY01,top_cornice_NW,744,150,2,,roof gone: top of the cornice at the corner (rubble on top)
+,P0189,XY01,top_foot_NE,393,222,3,,rubble at the wing-roof level hides the foot
+,P0189,XY01,top_foot_NW,745,222,3,,rubble at the wing-roof level hides the foot
+,P0189,XY01,wing_cornice_NE,126,248,2,,
+,P0189,XY01,wing_cornice_NW,977,244,2,,
+,P0189,XY01,wing_rail_NE,141,215,2,,top of corner pedestal; ornament/rubble above
+,P0189,XY01,wing_rail_NW,962,210,2,,top of corner pedestal; set in ~15 px from the cornice tip

@@ -284,6 +284,15 @@ Keep the first of each unless noted.
 - **Q217. 深柳读书堂.** S05 j82 puts it at 澡身浴德 (north of 望瀛洲); Qianlong's notes of 1755 and 1774 say 双鹤斋 in 廓然大公 was once called so. Willows are drawn at both. (Round 12)
 - **Q218. No plan draws a plant.** Every tree's place is generated in an area anchored to the scene (Round 12). A modern study (S1141) names Yangshi Lei planting drawings for 九洲清晏 and an archive "花果树木价值"; neither has been seen. Either would turn C extents into B or A. (Round 12)
 
+### Found in Round 13: the pilot model of 谐奇趣
+
+- **Q219. The plates draw 谐奇趣 taller than it stood.** Three of Ohlmer's photographs of 1873 (P0186, P0187, P0189) put the top storey at about 0.45 of the main storey's height and the centre block 11.7 m wide; plates 1 and 2 draw it about 1.5 times as tall and 13.8-14.4 m wide. With the model built to the photographs, the best camera for plate 1 wants its heights drawn 1.57 times its widths, plate 2 1.11 times (`tools/plate_overlay.py`, fit `stretch`). The photographs are taken as right for the building as built; the plates as the court's idealised elevation. The scale of every photographic figure rests on the plan's frontage, 27.2 m (Q72). (Round 13)
+- **Q220. The south stair.** Plate 1 draws a polygonal landing at the main floor, flights beside it, a curved terrace over the pool and flights falling outward at its ends; P0186 and P0187 show the east flight beside the landing, high at the landing's corner pier, low towards the pool. The model follows both for the upper flights; the lower flights' form (curved or straight, how far out) is the plate's alone. (Round 13)
+- **Q221. The north stairs' lower flights.** Plate 2 puts their feet at 0.35 of the wing's half-frontage from the axis, P0189 at 0.21 (in grass, sure 3). The model takes the photograph: 2.3 m. (Round 13)
+- **Q222. Where the colonnades meet the block and the octagons.** S01's traces (CCX-001, 002) leave the block's flanks 1.4 m south of its middle and reach the octagons' north faces; one reader saw on P0188 an arched one-storey wing at the north end of the east face (sure 3); plate 1 shows the colonnade passing behind the octagon's diagonal face. The model follows S01. (Round 13)
+- **Q223. The size of the south pool.** S01 draws 27.3 x 13.2 m, today's lined bank is 35.6 x 16.2 m (S850); plate 1 draws the rim wider than the block. A figure of 30 x 18 m was asked for in the brief of Round 13 but is not in the data. The model keeps S01's; plate 1 alone cannot place it (its depth is too compressed: a fit ran the pool 35 m into the lake). (Round 13)
+- **Q224. The ways round 谐奇趣 sit about 12 m off the model.** The north axis CCX-005 as traced on S01 starts in the court south of the ruin-placed block (the plan's offset in this strip, Q64, Q187). `scripts/paths1860.py` now drops a traced point inside a model and snaps the end to the model's own entry (the north stair's foot). (Round 13)
+
 ## Resolved
 
 - **Malone's numbers 30 and 36** are swapped on the plan: 36 stands by 澄虚榭 (YM30), 30 off 雷峰夕照 (YM36). Read from the labels.

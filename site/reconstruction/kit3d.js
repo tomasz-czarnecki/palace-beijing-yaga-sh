@@ -639,6 +639,7 @@ function buildKit({ spec, halls, datum, groundAt, toXZ, paths }) {
   for (const f of paths.features) {
     const p = f.properties;
     if (!(p.kind === "gallery" || p.kind === "mountain_gallery") || p.in_box) continue;
+    if ([p.from_at, p.to_at].some((at) => at && (spec.halls[at.split(":")[0]] || {}).src === "model")) continue; // Round 13: the model draws its own colonnades
     const pts = f.geometry.coordinates.map(toXZ);
     (tileOf(pts[0][0], pts[0][1]).galleries ||= []).push({ p, pts });
   }

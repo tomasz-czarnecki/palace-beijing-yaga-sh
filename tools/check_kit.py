@@ -263,7 +263,8 @@ def main():
             fails.append(f"{bad_feet} step flights with a foot off the ground by more than {JOINT_M} m")
         paths = json.load(open(DATA / "paths_1860.geojson", encoding="utf-8"))["features"]
         ends = way_ends(paths, boxes, G, steps_of)
-        unmet = [e for e in ends if e["entered"] and e["grade"] == "AB" and (e["gap_m"] is None or e["gap_m"] > REACH_M) and e["drop_m"] > JOINT_M]
+        # Round 13: a box a detailed model stands for is the model's business (tools/check_models.py measures its ways and joints)
+        unmet = [e for e in ends if e["entered"] and e["grade"] == "AB" and (e["gap_m"] is None or e["gap_m"] > REACH_M) and e["drop_m"] > JOINT_M and K.get(e["box"], {}).get("src") != "model"]
         if unmet:
             fails.append(f"{len(unmet)} A or B ways end at a box side with no step flight within {REACH_M} m and a drop over {JOINT_M} m: {[(e['box'], e['side']) for e in unmet[:6]]}")
         res["drawn"] = {"halls_drawn": len(drawn) - len(not_drawn), "of": len(drawn), "near_triangles_median": stats([R[i]["tris"]["near"] for i in drawn if i in R])["median"],

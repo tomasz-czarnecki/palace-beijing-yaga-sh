@@ -360,3 +360,64 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
   - 39 rows found no place and 37 areas no room (`research/greens/greens_report.json`).
   - With `assumed=0` plants on generated hills are lowered by the hill's height, not re-placed.
 
+
+## palace_r13_pilot
+
+**Asked:** an engraving overlay tool and the pilot model of 谐奇趣 XY01:
+- the tool renders an object from each plate's camera, lays it over the plate and measures key points in pixels and metres;
+- the model: block, colonnades, octagons, pools, every side detailed, the kit replaced, "Our model now" with its viewer;
+- iterate against plates 1 and 2 and the 1873 photographs;
+- the joints with the ground and the ways;
+- 海晏堂 XY08 as a kit baseline;
+- `tools/check_models.py` and screenshots.
+
+**Delivered:**
+- **Key points:** `research/xiyanglou/plate_keypoints.csv`. Three readers worked in the foreground, from a fixed vocabulary (`models/README.md`): 174 points on plates 1, 2, 10, 11, 13 and P0185-P0189, each checked with a cross. Five readings are skipped with their reason. Plate 1's octagon readings were renamed to what was read, the outline.
+- **Priors:** `research/xiyanglou/photo_viewpoints.csv`, the photographs' camera priors.
+- **Tool:**
+  - `tools/plate_overlay.py` (`fit`, `compose`): pinhole cameras with `anchored`, `all` and, for plates, `stretch` (heights drawn k times widths). It writes `plate_fit_<ID>.csv`, `plate_cameras_<ID>.json`, `site/reconstruction/data/plates.json` and the point overlays.
+  - `tools/plate_overlay.mjs`: the renders from one page load, the views, the panel, a `--before` copy.
+  - `3d.html?plate=<photo id>&platefit=`: a dev mode with the picture over the view.
+- **Model:** `models/XY01-xieqiqu/`: `models/XY01-xieqiqu/xieqiqu.py`, `models/XY01-xieqiqu/measure.py` (the storeys read off the photographs; `--roofs` off the plates), `params.json`, `models/XY01-xieqiqu/keypoints.json`, `models/XY01-xieqiqu/joints.json`, `summary.json`, `README.md` (the evidence, the iteration log v1-v5, the disagreements). The mesh and GLB writer is `scripts/model_mesh.py`.
+- **Publishing and view:**
+  - `scripts/building_pages.py` publishes the model (`site/reconstruction/models/XY01/model.glb`, `data/models.json`, the panel's rows).
+  - `scripts/kit1860.py` gives the model's boxes `src` `model`.
+  - `site/reconstruction/glb_lite.js` and `model3d.js` come from Küstrin.
+  - `halls3d.js` puts the model's boxes in `pM`, unseen, still the click target.
+  - `3d.js` loads the models, handles selection, `assumed`, `conf`, the preview and plate mode.
+  - `panel3d.js` adds the slot for "Our model now".
+  - `paths3d.js` and `kit3d.js` skip the steps and galleries the model draws.
+- **Joins:**
+  - `scripts/paths1860.py` uses a model's entries as its boxes' doors and routes round its footprints. A traced way's points inside a model give way to it.
+  - `research/paths/exceptions.csv` records CCX-001 to CCX-004, drawn by the model.
+  - `scripts/greens1860.py` keeps the planting off the footprints.
+- **Check:** `tools/check_models.py` (`models/check_models.json`). `tools/check_kit.py` leaves the modelled boxes to it.
+
+**Numbers:**
+- **check_models:** before the round, no model. After: 1 model with 88,252 triangles (21,558 fill); GLB 2.69 MB, 0.77 MB compressed (budget 1.5).
+  - 22 joints: none floats (highest 0.01 m), deepest 0.74 m into the ground (the north basin's paving), most 0.0-0.3 m.
+  - 9 way ends at the model, 0 off. Before: the north axis ended 5.4 m from any entry, and two old courtyard stubs 6.9 and 8.4 m off.
+- **The model's figures:** the storeys were measured on P0185-P0189 with the frontage 27.2 m (S01) as the scale. Ground storey 3.91 ± 0.18 m, main cornice 8.64 ± 0.21, top cornice 11.55 ± 0.24, centre block 11.71 ± 0.28 wide, depth 8.60 ± 0.42, octagons' upper cornice 7.40 ± 0.33, the north flights' feet 2.27 ± 0.28 m from the axis. The roof apex is 14.0 m and the octagon apex 10.0 m, from the plates. The dossier had eave 15.1 m and ridge 18.3 m, by the plates' module.
+- **Fit, v1 (the dossier's figures) to v5:**
+  - Photographs (camera `all`, rms at the building): from 0.9-3.3 m to 0.29-0.59 m (P0185 0.29, P0187 0.44, P0188 0.44, P0186 0.58, P0189 0.59).
+  - Plate 2: from 1.87 to 1.32 m (`stretch` 1.26 m, k 1.11; `anchored` 1.69 m).
+  - Plate 1: from 3.6 to 2.43 m (`stretch` 1.59 m, k 1.57: drawn as a near-parallel elevation with the heights stretched).
+- **海晏堂 XY08 kit baseline (`all`):** plate 10 3.71 m rms (median 0.66 m), plates 11 and 13 2.0 m (7 points each). The kit draws one long hip roof where the plates draw end pavilions under their own roofs.
+- **Cost:** the overview draws 932 k triangles (846 k in Round 12) at 540-583 ms a frame in software WebGL. The site grows by 2.7 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py`, `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser`, `check_greens.py --browser`.
+- `scripts/building_pages.py` was run twice. The model's generator, `paths1860.py`, `kit1860.py` and `greens1860.py`, run again, gave the same files (md5).
+- Screenshots in `screenshots/r13/`, opened:
+  - overlays (blend, edges, side by side) and point plots for every picture and fit;
+  - before and after views, front, rear, both ends, aerial, and the joints;
+  - `assumed=0` and `conf=1`;
+  - the panel with the viewer.
+
+**Went wrong or left open:**
+- The octagons' left and right were swapped in the generator: found by the residuals. A copy for the panel's viewer kept its transform on the group: an empty view. The plate mode used `window.viewer` before it existed. All fixed.
+- The readers were started in the background by the Agent tool's default. All three finished before the turn ended.
+- The south stair's upper flights were first built along the façade. The P0187 overlay showed them running north-south, and plate 1 agrees. The lower flights first ended against the wings; they now run out to the court.
+- A pool measured on plate 1 alone ran into the lake: dropped. S01's pool stands (Q223).
+- New questions: Q219 (the plates' tall top storey), Q220 (the south stair's lower flights), Q221 (the north feet), Q222 (the colonnades' junctions), Q223 (the pool's size; the brief's 30 × 18 m is not in the data), Q224 (the ways about 12 m off the ruin-placed model).
+- Every figure is C until the Yangshi Lei sheet 985 is seen. Photographic heights rest on the plan's frontage (±15 %).

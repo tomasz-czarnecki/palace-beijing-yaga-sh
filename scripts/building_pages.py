@@ -173,6 +173,12 @@ class Book:
         fc = json.load(open(SITE_DATA / "halls_1860.geojson", encoding="utf-8"))
         self.boxes, self.by_parent = {}, {}
         self.kit = json.load(open(SITE_DATA / "kit_1860.json", encoding="utf-8"))["halls"]  # Round 11: how the kit draws each box (scripts/kit1860.py)
+        self.models = {}  # Round 13: detailed models, id and aliases -> summary (models/*/summary.json, published by publish_models)
+        for path in sorted((ROOT / "models").glob("*/summary.json")):
+            sm = json.load(open(path, encoding="utf-8"))
+            sm["folder"] = path.parent
+            for i in [sm["id"], *sm.get("aliases", [])]:
+                self.models[i] = sm
         for f in fc["features"]:
             p = f["properties"]
             self.boxes.setdefault(p["building_id"], []).append(p)
@@ -326,6 +332,9 @@ def box_rows(boxes, kit=None):
 
 
 def model_of(book, pid, kind):
+    sm = book.models.get(pid)
+    if sm:
+        return {"line": sm["line"], "rows": sm["rows"], "detailed": sm["id"]}
     boxes = book.boxes.get(pid, [])
     if kind == "compound" and not boxes:
         inner = book.by_parent.get(pid, [])
@@ -1011,6 +1020,38 @@ def assert_public(page):
         assert word not in text, (pid, word)
 
 
+def publish_models(book):
+    """Round 13, as Küstrin's: check every models/*/summary.json, copy its GLB to site/reconstruction/models/<ID>/, write data/models.json. Stops on a summary that fails."""
+    out = {}
+    for sm in {id(v): v for v in book.models.values()}.values():
+        mid, folder = sm["id"], sm["folder"]
+        problems = []
+        if mid not in book.rows:
+            problems.append("id not a row of buildings.csv")
+        problems += [f"alias {a} not a row" for a in sm.get("aliases", []) if a not in book.rows]
+        for k in ("glb", "position", "rotationY", "line", "rows", "caption"):
+            if k not in sm:
+                problems.append(f"no {k}")
+        if not all(k in sm.get("caption", {}) for k in ("frontage_m", "depth_m")):
+            problems.append("caption needs frontage_m and depth_m")
+        own = {b["id"] for i in [mid, *sm.get("aliases", [])] for b in book.boxes.get(i, [])}
+        problems += [f"hides its own box {h}" for h in sm.get("hides", []) if h in own]
+        glb = folder / sm["glb"]
+        if not glb.exists():
+            problems.append("GLB missing")
+        if problems:
+            raise SystemExit(f"models/{folder.name}/summary.json: " + "; ".join(problems))
+        dest = SITE_DATA.parent / "models" / mid / "model.glb"
+        data = glb.read_bytes()
+        if not dest.exists() or dest.read_bytes() != data:
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            dest.write_bytes(data)
+        out[mid] = {"url": f"models/{mid}/model.glb", "name": sm["name"], "aliases": sm.get("aliases", []), "position": sm["position"], "rotationY": sm["rotationY"],
+                    "caption": sm["caption"], "hides": sm.get("hides", []), "boxes": sorted(own)}
+    write_if_changed(SITE_DATA / "models.json", json.dumps({"note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.", "models": out}, ensure_ascii=False, indent=1) + "\n")
+    return out
+
+
 def write_if_changed(path, text):
     if not path.exists() or path.read_text(encoding="utf-8") != text:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -1042,6 +1083,7 @@ def write_folder(book, pid, page, folders):
 
 def main():
     book = Book()
+    publish_models(book)
     ids = sorted(book.rows) + sorted(book.gates, key=lambda g: int(g[1:]))
     PAGES.mkdir(exist_ok=True)
     folders = existing_folders()

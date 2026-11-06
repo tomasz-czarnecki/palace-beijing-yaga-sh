@@ -212,6 +212,9 @@ class Site:
             p = f["properties"]
             self.boxes.append((p, xz_geom(shape(f["geometry"]))))
         self.box_polys = [g for _, g in self.boxes]
+        # Round 13: a detailed model's own footprints (models/<ID>-<slug>/joints.json: its stairs, terrace, colonnades, pools) are kept clear as boxes are
+        for jp in sorted((ROOT / "models").glob("*/joints.json")):
+            self.box_polys += [Polygon(fp).buffer(0) for fp in json.load(open(jp, encoding="utf-8")).get("footprints", [])]
         self.box_tree = STRtree(self.box_polys)
         self.box_union = unary_union(self.box_polys)
         paths = json.load(open(SITE_DATA / "paths_1860.geojson", encoding="utf-8"))["features"]

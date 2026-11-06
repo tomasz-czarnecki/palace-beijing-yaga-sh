@@ -25,13 +25,17 @@ scalloped fountain pool, south · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from the plates of 1783-86 (plates 1 and 2, the south and north fronts), Ohlmer's photographs of 1873 from the south, east and north, the plan S01 and the ruin's footprint; every figure is a reading (C) until the Qing drawing 样式雷 985 with its 120 dimensions is seen. The west end, the rear of the colonnades and octagons and the roof's back have no picture: carried round from the documented bays (assumed).
 
-- **Box:** 26 × 13 m, european, pool
-- **Part:** scalloped fountain pool
-- **Faces:** 173.8° from north
-- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
-- **Confidence:** C, assumed
+- **Main block:** 27.2 × 8.6 m, three storeys: ground storey to 3.9 m, main storey cornice 8.7 m, top storey cornice 11.6 m, ridge 14 m (plates 1-2, P0187-P0189, C)
+- **Bays:** 7, 7 and 3 (S108, S310, B); the ends a door between two cartouches (P0188, B as photographed, C carried to the west end)
+- **Colonnades:** two quarter ellipses of 9 bays from the block's flanks (S01's traces, B), 4 m deep, cornice at 3.9 m, one level with the block's ground storey and the octagons' lower cornice (S108 Fig. 8, B)
+- **Music pavilions:** two octagons 8.7 m across, 61.8 m apart (S850, B), cornices 3.9 and 7.4 m, apex 10 m (plate 1, C)
+- **South stair:** a landing at 3.9 m, a flight down either side of it to a curved terrace at 1.9 m over the pool (plate 1, P0186, P0187), flights at the terrace's ends running out to the court (plate 1 only, C, Q220)
+- **Pools:** south 海棠 pool 27.3 × 13.2 m (S01, C) with the fish 翻尾石鱼 (S840, B); north basin 4.5 m across (S310, B)
+- **Colours:** white stone, grey wall panels, blue-green windows, a yellow-ochre glazed roof with an orange-red edge (the unfinished watercolour of plate 1, S700, C)
+- **Fit to the pictures:** Ohlmer's photographs of 1873: 0.3-0.6 m rms at the building over 64 points (P0185-P0189); plate 2: 1.3 m; plate 1: 1.6 m once its heights, drawn 1.57 times its widths, are allowed for (Q219). research/xiyanglou/plate_fit_XY01.csv
+- **Storeys measured:** on the photographs, the plan's frontage as the scale: the plates draw the top storey half as tall again (Q219)
 
 ## Pictures (2)
 

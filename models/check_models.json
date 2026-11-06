@@ -1,0 +1,240 @@
+{
+ "fails": [],
+ "models": {
+  "XY01": {
+   "folder": "XY01-xieqiqu",
+   "figures": 32,
+   "grades": {
+    "A": 0,
+    "B": 4,
+    "C": 28
+   },
+   "materials": 26,
+   "primitives": 27,
+   "extent_m": [
+    72.2,
+    15.9,
+    65.7
+   ],
+   "triangles": 88252,
+   "fill_triangles": 21558,
+   "glb_mb": 2.69,
+   "glb_gz_mb": 0.77,
+   "joints": [
+    {
+     "name": "octW_plinth",
+     "kind": "plinth foot",
+     "gap_m": -0.04
+    },
+    {
+     "name": "colW_foot_0",
+     "kind": "colonnade foot",
+     "gap_m": -0.23
+    },
+    {
+     "name": "colW_foot_30",
+     "kind": "colonnade foot",
+     "gap_m": -0.49
+    },
+    {
+     "name": "colW_foot_60",
+     "kind": "colonnade foot",
+     "gap_m": -0.61
+    },
+    {
+     "name": "colW_foot_90",
+     "kind": "colonnade foot",
+     "gap_m": -0.28
+    },
+    {
+     "name": "octE_plinth",
+     "kind": "plinth foot",
+     "gap_m": -0.02
+    },
+    {
+     "name": "colE_foot_0",
+     "kind": "colonnade foot",
+     "gap_m": 0.0
+    },
+    {
+     "name": "colE_foot_30",
+     "kind": "colonnade foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "colE_foot_60",
+     "kind": "colonnade foot",
+     "gap_m": -0.21
+    },
+    {
+     "name": "colE_foot_90",
+     "kind": "colonnade foot",
+     "gap_m": -0.02
+    },
+    {
+     "name": "south_stair_foot_W",
+     "kind": "stair foot",
+     "gap_m": -0.29
+    },
+    {
+     "name": "south_stair_foot_E",
+     "kind": "stair foot",
+     "gap_m": 0.01
+    },
+    {
+     "name": "pool_rim_W",
+     "kind": "basin foot",
+     "gap_m": -0.3
+    },
+    {
+     "name": "pool_rim_E",
+     "kind": "basin foot",
+     "gap_m": -0.28
+    },
+    {
+     "name": "pool_rim_S",
+     "kind": "basin foot",
+     "gap_m": -0.3
+    },
+    {
+     "name": "north_stair_foot_W",
+     "kind": "stair foot",
+     "gap_m": -0.03
+    },
+    {
+     "name": "north_stair_foot_E",
+     "kind": "stair foot",
+     "gap_m": -0.03
+    },
+    {
+     "name": "north_basin_ring",
+     "kind": "paving foot",
+     "gap_m": -0.74
+    },
+    {
+     "name": "block_SW",
+     "kind": "wall foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "block_SE",
+     "kind": "wall foot",
+     "gap_m": 0.0
+    },
+    {
+     "name": "block_NW",
+     "kind": "wall foot",
+     "gap_m": -0.25
+    },
+    {
+     "name": "block_NE",
+     "kind": "wall foot",
+     "gap_m": 0.0
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": 0.01,
+    "max_below": 0.74,
+    "n": 22
+   },
+   "ways": [
+    {
+     "way": "CCX-001",
+     "kind": "gallery",
+     "at": "XY01-M01:front",
+     "entry": "north_porch_door",
+     "plan_m": 15.1,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-001",
+     "kind": "gallery",
+     "at": "XY01-M02:left",
+     "entry": "octW_door",
+     "plan_m": 7.1,
+     "height_m": 0.29,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-002",
+     "kind": "gallery",
+     "at": "XY01-M01:left",
+     "entry": "south_stair_foot_E",
+     "plan_m": 6.0,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-002",
+     "kind": "gallery",
+     "at": "XY01-M04:front",
+     "entry": "octE_door",
+     "plan_m": 1.76,
+     "height_m": 0.08,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-003",
+     "kind": "steps",
+     "at": "XY01-M01:front",
+     "entry": "north_porch_door",
+     "plan_m": 15.1,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-003",
+     "kind": "steps",
+     "at": "XY01-M06:left",
+     "entry": "octE_door",
+     "plan_m": 18.53,
+     "height_m": 0.04,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-004",
+     "kind": "steps",
+     "at": "XY01-M01:front",
+     "entry": "north_porch_door",
+     "plan_m": 15.1,
+     "height_m": 0.07,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-004",
+     "kind": "steps",
+     "at": "XY01-M06:left",
+     "entry": "octE_door",
+     "plan_m": 18.53,
+     "height_m": 0.04,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-005",
+     "kind": "paved_way",
+     "at": "XY01-M01:model north_stair_foot_E",
+     "entry": "north_stair_foot_E",
+     "plan_m": 0.0,
+     "height_m": 0.1,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  }
+ },
+ "limits": {
+  "joint_m": 0.5,
+  "buried_m": 1.0,
+  "glb_gz_mb": 1.5,
+  "glb_raw_mb": 3.0
+ }
+}

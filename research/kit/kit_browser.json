@@ -1,88 +1,57 @@
 {
- "spec_hash": "5ad03615274adbd57a03aba073c8e184",
- "measured_utc": "2026-11-05 23:00",
+ "spec_hash": "0fbdfd22f6852a13fe0d2cbc0f23ca09",
+ "measured_utc": "2026-11-06 01:23",
  "after": {
   "url": "http://127.0.0.1:8873/reconstruction/3d.html?shot=1",
-  "load_s": 0.869,
+  "load_s": 2.609,
   "views": {
    "overview_kit": {
-    "frame_ms_median": 392,
-    "frame_ms_min": 336.6,
-    "frame_ms_max": 416.2,
-    "drawn_triangles": 575338,
-    "draw_calls": 287,
-    "triangles_in_memory": 666438
+    "frame_ms_median": 583.1,
+    "frame_ms_min": 318.8,
+    "frame_ms_max": 609.7,
+    "drawn_triangles": 932343,
+    "draw_calls": 491,
+    "triangles_in_memory": 1022391
    },
    "court_kit": {
-    "frame_ms_median": 245.9,
-    "frame_ms_min": 233.9,
-    "frame_ms_max": 261.8,
-    "drawn_triangles": 548127,
-    "draw_calls": 57,
-    "triangles_in_memory": 1167262
+    "frame_ms_median": 295.1,
+    "frame_ms_min": 273.6,
+    "frame_ms_max": 332.6,
+    "drawn_triangles": 665670,
+    "draw_calls": 86,
+    "triangles_in_memory": 1730939
    },
    "hall_kit": {
-    "frame_ms_median": 320.7,
-    "frame_ms_min": 277.9,
-    "frame_ms_max": 368.6,
-    "drawn_triangles": 585762,
+    "frame_ms_median": 430.6,
+    "frame_ms_min": 279,
+    "frame_ms_max": 470.8,
+    "drawn_triangles": 916261,
+    "draw_calls": 191,
+    "triangles_in_memory": 1861502
+   },
+   "overview_boxes": {
+    "frame_ms_median": 487.6,
+    "frame_ms_min": 407.3,
+    "frame_ms_max": 527,
+    "drawn_triangles": 815265,
+    "draw_calls": 229,
+    "triangles_in_memory": 1670937
+   },
+   "court_boxes": {
+    "frame_ms_median": 222.6,
+    "frame_ms_min": 184.2,
+    "frame_ms_max": 233.3,
+    "drawn_triangles": 574221,
+    "draw_calls": 52,
+    "triangles_in_memory": 1878661
+   },
+   "hall_boxes": {
+    "frame_ms_median": 310.2,
+    "frame_ms_min": 286.8,
+    "frame_ms_max": 373.4,
+    "drawn_triangles": 788767,
     "draw_calls": 108,
-    "triangles_in_memory": 1314984
-   },
-   "overview_boxes": {
-    "frame_ms_median": 270,
-    "frame_ms_min": 175.8,
-    "frame_ms_max": 309.7,
-    "drawn_triangles": 458134,
-    "draw_calls": 24,
-    "triangles_in_memory": 1314984
-   },
-   "court_boxes": {
-    "frame_ms_median": 152.8,
-    "frame_ms_min": 143.2,
-    "frame_ms_max": 165.2,
-    "drawn_triangles": 457974,
-    "draw_calls": 23,
-    "triangles_in_memory": 1314984
-   },
-   "hall_boxes": {
-    "frame_ms_median": 197.1,
-    "frame_ms_min": 134,
-    "frame_ms_max": 217.9,
-    "drawn_triangles": 457974,
-    "draw_calls": 23,
-    "triangles_in_memory": 1314984
-   }
-  },
-  "errors": []
- },
- "before": {
-  "url": "http://127.0.0.1:8871/reconstruction/3d.html?shot=1",
-  "load_s": 0.764,
-  "views": {
-   "overview_boxes": {
-    "frame_ms_median": 291.5,
-    "frame_ms_min": 279.4,
-    "frame_ms_max": 337.8,
-    "drawn_triangles": 458048,
-    "draw_calls": 22,
-    "triangles_in_memory": 458048
-   },
-   "court_boxes": {
-    "frame_ms_median": 179.5,
-    "frame_ms_min": 165.8,
-    "frame_ms_max": 208.2,
-    "drawn_triangles": 457888,
-    "draw_calls": 21,
-    "triangles_in_memory": 458048
-   },
-   "hall_boxes": {
-    "frame_ms_median": 236.1,
-    "frame_ms_min": 174.1,
-    "frame_ms_max": 257.5,
-    "drawn_triangles": 457888,
-    "draw_calls": 21,
-    "triangles_in_memory": 458048
+    "triangles_in_memory": 1861502
    }
   },
   "errors": []

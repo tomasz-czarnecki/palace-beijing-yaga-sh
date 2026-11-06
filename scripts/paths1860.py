@@ -131,7 +131,35 @@ class Box:
 
     def doors(self):
         o = DOOR_OUT_M
+        ent = MODEL_ENTRIES.get(self.bid) if MODEL_DOORS["on"] else None
+        if ent:
+            # Round 13: a detailed model stands here: its own doors and stair feet (models/<ID>-<slug>/joints.json), those outside this box, are the doors
+            out = {f"model {n}": xz for n, xz in ent if not self.poly.buffer(-0.05).contains(Point(xz))}
+            if out:
+                return out
         return {"front": self.c + self.a * (self.hd + o), "back": self.c - self.a * (self.hd + o), "right": self.c + self.u * (self.hf + o), "left": self.c - self.u * (self.hf + o)}
+
+
+def model_entries():
+    """Round 13: building id -> [(name, xz)] of every detailed model's entries, for the model's id and its aliases; and every model's footprints (shapely polygons) into MODEL_FOOTPRINTS."""
+    out = {}
+    for sp in sorted((ROOT / "models").glob("*/summary.json")):
+        sm = json.load(open(sp, encoding="utf-8"))
+        jp = sp.parent / "joints.json"
+        if not jp.exists():
+            continue
+        jj = json.load(open(jp, encoding="utf-8"))
+        ent = [(e["name"], np.array([e["scene"][0], e["scene"][2]], float)) for e in jj["entries"]]
+        MODEL_FOOTPRINTS.extend(shapely.Polygon(fp).buffer(0) for fp in jj.get("footprints", []))
+        for i in [sm["id"], *sm.get("aliases", [])]:
+            out[i] = ent
+    return out
+
+
+MODEL_FOOTPRINTS = []
+MODEL_ENTRIES = model_entries()
+MODEL_ZONE = shapely.ops.unary_union(MODEL_FOOTPRINTS).buffer(6.0) if MODEL_FOOTPRINTS else None
+MODEL_DOORS = {"on": True}  # off while snapping the steps and galleries a model draws itself: they keep the box's sides, as traced
 
 
 ROWTYPE = {r["id"]: r["type"] for r in rows(ROOT / "research/buildings.csv")}
@@ -174,7 +202,11 @@ class Router:
     def __init__(self, boxes, water, bridges, wall_segs):
         solid = [b.poly for b in boxes if not b.walk_through]
         self.solid_boxes = boxes
-        self.box_union = unary_union(solid)
+        self._union_plain = unary_union(solid)
+        # Round 13: where a detailed model stands, its own footprints (models/<ID>-<slug>/joints.json) are the obstacle, not its boxes; the steps and galleries it draws keep the boxes (MODEL_DOORS off)
+        self._union_model = unary_union([b.poly for b in boxes if not b.walk_through and b.bid not in MODEL_ENTRIES] + MODEL_FOOTPRINTS)
+        shapely.prepare(self._union_plain)
+        shapely.prepare(self._union_model)
         self.box_tree = shapely.STRtree([b.poly for b in boxes])
         self.water = water.union(unary_union([g.buffer(3.0) for _, g in bridges.values()]))  # a boat passes under a bridge
         self.water_in = self.water.buffer(-1.0)
@@ -183,14 +215,18 @@ class Router:
         self.wet = water.difference(bridge_lanes)  # water a land way may not cross
         self.walls = wall_segs
         shapely.prepare(self.wet)
-        shapely.prepare(self.box_union)
         shapely.prepare(self.walls)
         self.dry = None
+
+    @property
+    def box_union(self):
+        return self._union_model if MODEL_DOORS["on"] else self._union_plain
 
     def land_obstacle(self, allow_boxes=()):
         if not allow_boxes:
             return self.box_union, self.wet, self.walls
-        keep = unary_union([b.poly for b in self.solid_boxes if not b.walk_through and b.id not in allow_boxes])
+        model = MODEL_DOORS["on"]
+        keep = unary_union([b.poly for b in self.solid_boxes if not b.walk_through and b.id not in allow_boxes and not (model and b.bid in MODEL_ENTRIES)] + (MODEL_FOOTPRINTS if model else []))
         shapely.prepare(keep)
         return keep, self.wet, self.walls
 
@@ -476,11 +512,18 @@ def main():
             continue
         boat = t["kind"] == "boat_route"
         ends = []
+        MODEL_DOORS["on"] = t["kind"] not in ("steps", "gallery")
+        if MODEL_DOORS["on"] and MODEL_ZONE is not None and (t["from_id"] in MODEL_ENTRIES or t["to_id"] in MODEL_ENTRIES):
+            # Round 13: a way that ends at a detailed model: its traced points inside the model (and 6 m round it) give way to the model; the end snaps from the first point beyond
+            pts = np.array([p for j, p in enumerate(pts) if j in (0, len(pts) - 1) or not MODEL_ZONE.contains(Point(p))])
         for i, (ident, end, nxt) in enumerate(((t["from_id"], pts[0], pts[1]), (t["to_id"], pts[-1], pts[-2]))):
             ref = done if ident in done else {**raw_lines, **done}
+            model_end = MODEL_DOORS["on"] and ident in MODEL_ENTRIES and MODEL_ZONE is not None and MODEL_ZONE.contains(Point(end))
+            if model_end:
+                end = nxt
             a = snap.anchor(ident, end, ref, landings, nxt=nxt)
             far = SNAP_ID_MAX_XY_M if ident.startswith("XY") or t["scene"].startswith("XY") else SNAP_ID_MAX_M
-            if a is not None and np.hypot(*(a[0] - end)) > far and not boat:
+            if a is not None and np.hypot(*(a[0] - end)) > far and not boat and not model_end:
                 b = nearest_anything(end, snap, done, landings, boxes, t["scene"])
                 a = (b[0], b[1], f"free: {b[2]} ({ident} lies {np.hypot(*(a[0] - end)):.0f} m off)") if b is not None else None
             if a is None and not boat:
@@ -520,6 +563,7 @@ def main():
             "blocked_before_m": round(before, 1), "blocked_m": round(after, 1), "note": t["note"], "_line": line,
         })
 
+    MODEL_DOORS["on"] = True
     # 3. bridge approaches
     land_lines = [p["_line"] for p in paths if p["kind"] != "boat_route"]
     approaches = []

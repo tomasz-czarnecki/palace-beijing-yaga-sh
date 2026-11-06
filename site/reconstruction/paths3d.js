@@ -8,7 +8,7 @@ const PATH_COLOURS = {
   conf: { A: 0x2f8f4e, B: 0xd9a441, C: 0xc4513a },
 };
 
-function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base }) {
+function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base, skip }) {
   const LIFT = 0.07, STEP_M = 4;
   const groups = { sure: new THREE.Group(), assumed: new THREE.Group(), boat: new THREE.Group(), gallery: new THREE.Group() }; // Round 11: the galleries' posts and roofs on their own, so the hall kit can stand in for them
   const yAt = (x, z) => { const g = groundAt(x, z); return (g === null ? base : g) + LIFT; };
@@ -34,6 +34,7 @@ function buildPaths({ paths, landings, toXZ, groundAt, waterLevelAt, base }) {
   };
   const boatPts = [];
   for (const f of paths.features) {
+    if (skip && skip(f.properties)) continue; // Round 13: steps and galleries a detailed model draws itself
     const p = f.properties;
     const xz = f.geometry.coordinates.map(toXZ);
     if (p.kind === "boat_route") {

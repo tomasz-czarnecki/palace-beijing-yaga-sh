@@ -1,0 +1,37 @@
+{
+ "note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.",
+ "models": {
+  "XY01": {
+   "url": "models/XY01/model.glb",
+   "name": "谐奇趣 Xieqiqu",
+   "aliases": [
+    "XY01-01",
+    "XY01-N01",
+    "XY01-02"
+   ],
+   "position": [
+    466.299,
+    0.6,
+    -733.096
+   ],
+   "rotationY": 0.108246,
+   "caption": {
+    "frontage_m": 27.2,
+    "depth_m": 8.6,
+    "eave_m": 11.6,
+    "ridge_m": 14.0,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY01-M01",
+    "XY01-M02",
+    "XY01-M03",
+    "XY01-M04",
+    "XY01-M05",
+    "XY01-M06"
+   ]
+  }
+ }
+}

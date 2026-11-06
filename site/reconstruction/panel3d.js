@@ -2,7 +2,7 @@
 // Data: data/buildings/<ID>.json (scripts/building_pages.py). On the research machine (local = true) it reads /_local/buildings/<ID>.json, the full copy, and falls back to the public file.
 // `notes_html` was rendered at build time with raw HTML escaped; every other string is set as text.
 // Evidence comes first, because it is what a click is for: the object's own pictures, its own texts and drawings, the plan as a link; then reconstructions by other people (modern interpretation, not evidence), surviving comparable buildings (not this building), then what speaks for its set of buildings (`fallback`), fetched from that page. A research-only picture or reconstruction is a `link_only` entry: title, date, holder and a link, never an image. The research copy on localhost may carry a local image for it, marked as such.
-function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
+function createBuildingPanel({ local, onClose, onOpen, onRoute, onModel }) {
   const root = document.getElementById("bpanel");
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text !== undefined) e.textContent = text; return e; };
   const cache = {};
@@ -511,8 +511,10 @@ function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
       body.append(slot);
       addFallback(page, slot);
     }
+    let modelSlot = null; // Round 13: a detailed model's own small view (model3d.js), as in Küstrin
     if (page.model) {
       const s = section("Our model now");
+      if (page.model.detailed) { modelSlot = el("div", "bp-model"); s.append(modelSlot); }
       s.append(el("p", "bp-line", page.model.line), rowList(page.model.rows));
       body.append(s);
     }
@@ -560,6 +562,7 @@ function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
     root.replaceChildren(head, body);
     root.hidden = false;
     root.scrollTop = 0;
+    if (onModel) onModel(modelSlot ? page.id : null, modelSlot);
     document.body.classList.add("panel-open");
   }
 
@@ -577,6 +580,7 @@ function createBuildingPanel({ local, onClose, onOpen, onRoute }) {
   function hide() {
     shown = null;
     root.hidden = true;
+    if (onModel) onModel(null, null);
     document.body.classList.remove("panel-open");
   }
 

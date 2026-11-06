@@ -1,0 +1,35 @@
+{
+ "photos": [
+  "P0041",
+  "P0042"
+ ],
+ "scale": "W 27.2 m (S01) and the octagons 61.8 m apart (S850) held",
+ "figures": {
+  "ridge": {
+   "prior": 14.0,
+   "measured": 15.57,
+   "se": 0.34,
+   "prior_sd": 3.0
+  },
+  "oct_apex": {
+   "prior": 10.0,
+   "measured": 9.91,
+   "se": 0.17,
+   "prior_sd": 3.0
+  }
+ },
+ "residuals": {
+  "P0041": {
+   "n": 43,
+   "rms_px_before": 35.8,
+   "rms_px_after": 37.6,
+   "f_px": 1797.0
+  },
+  "P0042": {
+   "n": 36,
+   "rms_px_before": 42.0,
+   "rms_px_after": 38.4,
+   "f_px": 1367.0
+  }
+ }
+}

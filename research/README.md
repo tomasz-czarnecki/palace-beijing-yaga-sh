@@ -271,6 +271,10 @@ The European palaces, Round 6. Overview: `xiyanglou/README.md`. `<ID>-<slug>/REA
 | `best.csv` | the top views for modellers: `id`, `rank`, `photo_id`, `why` |
 | `impressions.csv` | every impression of the plates found: `plate`, `title`, `date`, `creator`, `archive`, `archive_id`, `source_id`, `source_url`, `licence`, `attribution`, `rights_class`, `width`, `height`, `notes`. P0041-P0060 stay the panel's plates |
 | `viewpoints.csv` | where each plate was drawn from, estimated: `plate`, `photo_id`, `id`, `lat`, `lon`, `bearing`, `dist_m`, `err_m`, `basis` |
+| `photo_viewpoints.csv` | Round 13: where a photograph was taken from, as the prior of its camera fit: `photo_id`, `id`, `lat`, `lon`, `bearing`, `dist_m`, `err_m`, `eye_m` (the eye above the ground), `eye_sd`, `basis` |
+| `plate_keypoints.csv` | Round 13, hand-edited: named points read on a plate or a photograph, in the pixels of its copy in `research/photos/images/` (or `research/raw/photos/`): `plate` (empty for a photograph), `photo_id`, `object`, `point` (the vocabulary: `models/README.md`), `x`, `y`, `sure` (1 within about 3 px, 2 about 8 px, 3 rough), `use` (empty, or `skip: reason`: kept in the table, left out of every fit), `note` |
+| `plate_fit_<object>.csv` | Round 13, written by `tools/plate_overlay.py fit`: a row per point, picture and fit: `image`, `plate`, `object`, `fit` (anchored, all, stretch), `point`, `sure`, `role` (anchor: placed by the plan or the ruin; test; skipped), `in_fit`, `x_img`, `y_img` (the reading), `x_model`, `y_model` (the model's point through the fitted camera), `dx`, `dy`, `err_px`, `depth_m` (along the camera's axis), `err_m` (`err_px` times `depth_m` over the focal length) |
+| `plate_cameras_<object>.json` | Round 13, the same run: each picture's prior, its fitted cameras (position, `yaw_deg`, `pitch_deg`, `f_px`, `du_px`, `dv_px`, `k_vertical` for `stretch`, `eye_above_ground_m`, `moved_from_prior_m`) and their statistics; the free pictures' cameras are copied to `site/reconstruction/data/plates.json` |
 
 ## scenes/
 

@@ -1,0 +1,6 @@
+photo_id,id,lat,lon,bearing,dist_m,err_m,eye_m,eye_sd,basis
+P0185,XY01-N01,40.01072,116.30265,20,35,15,1.6,2.0,"Catalogue camera note (Round 6): the east wing from the south-south-west, about 35 m. Eye of a standing photographer on rubble, assumed."
+P0186,XY01,40.01002,116.30244,0,130,30,1.6,2.0,"Catalogue: on the axis across the reed pond, about 130 m from the south front, +-30 m."
+P0187,XY01,40.01108,116.30275,325,35,15,1.6,2.0,"Catalogue: from the south-east, close to the stair. Round 13: err 15 m assumed."
+P0188,XY01,40.01123,116.303,270,35,15,1.6,3.0,"Catalogue: frontal on the narrow east end, about 35 m east of the footprint edge, +-15 m; the camera may stand on rubble (eye sd 3 m)."
+P0189,XY01,40.0115,116.30244,180,25,10,1.6,2.0,"Catalogue: frontal on the north front with the fountain basin in the foreground, about 25 m north of the footprint, +-10 m."

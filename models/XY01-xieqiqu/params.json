@@ -1,0 +1,198 @@
+{
+ "id": "XY01",
+ "frame": "x east along the south front, y up from the base, z south; metres",
+ "params": {
+  "W": {
+   "value": 27.2,
+   "source": "S01;S71;S70",
+   "grade": "C",
+   "note": "frontage of the main block: plan S01 126 px (b), plates 1 and 2 read on that module (c)"
+  },
+  "D": {
+   "value": 8.6,
+   "source": "S89;S90;S01",
+   "grade": "C",
+   "note": "depth, measured on the photographs P0185-P0189 (measure.py, method d): 8.60 ± 0.42 m; plan 8.6 m, the old box 14 m"
+  },
+  "H1": {
+   "value": 3.9,
+   "source": "S89;S90;S108",
+   "grade": "C",
+   "note": "ground storey to the floor of the main storey, measured on P0185-P0189 (measure.py, second pass): 3.92 ± 0.18 m; also the colonnades' and the octagons' lower cornice, one level by S108 Fig. 8 (B). The plates' module gave 4.5-5.5 m"
+  },
+  "H2": {
+   "value": 8.7,
+   "source": "S89;S90",
+   "grade": "C",
+   "note": "top of the main storey's cornice (wing roofs), measured on P0185-P0189: 8.65 ± 0.21 m; the plates' module gave 11.2 and 8.8 m"
+  },
+  "Ht": {
+   "value": 11.6,
+   "source": "S89;S90",
+   "grade": "C",
+   "note": "top of the top storey's cornice, measured on P0186, P0187, P0189: 11.56 ± 0.24 m. The plates draw the top storey about 1.5 times as tall against the main storey (Q219): 16.3 and 13.9 m by their module"
+  },
+  "ridge": {
+   "value": 14.0,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "roof apex under the ridge cap (the ridge line 14.35 m): the roof rises 0.17 of the top storey's width on both plates (54/322 px, 90/538 px), 2.1 m, plus 0.6 m for the plates' view from below the cornice, on the photographs' storey. A full camera fit on the plates gives 15.65 ± 0.32 m, pulled up by their tall top storey (Q219); the dossier's 18.3 m was the plates' module"
+  },
+  "rail": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "balustrade height: plate 2 draws 1.2 m, heavy for a rail"
+  },
+  "Wc": {
+   "value": 11.7,
+   "source": "S89;S90",
+   "grade": "C",
+   "note": "width of the three-bay centre block, measured on P0186, P0187, P0189: 11.71 ± 0.28 m; plates 13.8 and 14.4 m"
+  },
+  "proj": {
+   "value": 0.4,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the centre block stands forward of the wings, plates 1 and 2"
+  },
+  "oct_flats": {
+   "value": 8.7,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "octagon across the flats: plan 8.6 m, plate 1 8.9 m, plate 2 9.0 m"
+  },
+  "oct_up": {
+   "value": 7.4,
+   "source": "S89;S90",
+   "grade": "C",
+   "note": "octagon, upper cornice (roof foot), measured on P0185 with the block: 7.41 ± 0.33 m; plate 1's module 9.3 m"
+  },
+  "oct_apex": {
+   "value": 10.0,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "octagon roof apex below the crown: plates 1-2 with every other figure at the photographs' values (measure.py --roofs): 9.99 ± 0.17 m; plate 1's module gave 12.5 m"
+  },
+  "oct_x": {
+   "value": 30.9,
+   "source": "S850;S01",
+   "grade": "B",
+   "note": "octagon centres from the axis: rubble 61.76 m apart (S850); the boxes stand 32.4 and 29.3 m off, made symmetric"
+  },
+  "oct_z": {
+   "value": 23.75,
+   "source": "S850;S01",
+   "grade": "C",
+   "note": "octagon centres south of the block's middle: the boxes 22.7 and 24.8 m"
+  },
+  "col_w": {
+   "value": 4.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "colonnade depth: S01 draws 3.8 m (the gallery trace CCX-001), the box 4 m"
+  },
+  "col_bays": {
+   "value": 9,
+   "source": "S108;S310",
+   "grade": "B",
+   "note": "nine bays each, the survey's description"
+  },
+  "col_z0": {
+   "value": 1.4,
+   "source": "S01",
+   "grade": "B",
+   "note": "the colonnades leave the block's flanks 1.4 m south of its middle: the gallery traces CCX-001/002 on S01 (plan px y 1492 in a block drawn y 1465-1506); a quarter ellipse to the octagon, 17.3 x 18 m"
+  },
+  "terr_R": {
+   "value": 12.4,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the curved terrace: its front at the pool's back (S01), its ends at the wings, where the lower flights turn outward (plate 1)"
+  },
+  "terr_h": {
+   "value": 1.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the terrace's level in front of the landing: 0.46 of the main floor's height on plate 1"
+  },
+  "land_w": {
+   "value": 8.0,
+   "source": "S71;S89",
+   "grade": "C",
+   "note": "the landing in front of the main storey's middle, half-octagonal (plate 1); its flights' outer pier at 0.45 of the half-frontage on P0186 and P0187"
+  },
+  "land_d": {
+   "value": 3.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "its depth, plate 1"
+  },
+  "pool_w": {
+   "value": 27.3,
+   "source": "S01",
+   "grade": "C",
+   "note": "scalloped pool 27.3 x 13.2 m (plan, as drawn); today's bank 35.6 x 16.2 m (S850) goes round a later lining"
+  },
+  "pool_d": {
+   "value": 13.2,
+   "source": "S01",
+   "grade": "C",
+   "note": "as above"
+  },
+  "pool_z": {
+   "value": 25.4,
+   "source": "S01",
+   "grade": "C",
+   "note": "pool centre south of the block's middle, the box XY01-M06"
+  },
+  "pool_rim": {
+   "value": 0.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "rim above the court"
+  },
+  "nst_w": {
+   "value": 23.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "north stairs: outer width of the two hatched squares on S01"
+  },
+  "nst_d": {
+   "value": 8.8,
+   "source": "S01",
+   "grade": "C",
+   "note": "their depth north of the block, S01"
+  },
+  "nst_h": {
+   "value": 1.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side terraces of the north stairs: plate 2's 2.4 m by its module, scaled as its main floor (5.1 to 4.1 m)"
+  },
+  "nst_foot": {
+   "value": 2.3,
+   "source": "S89;S90",
+   "grade": "C",
+   "note": "the lower north flights' feet, towards the axis, measured on P0189 (sure 3, in grass): 2.32 ± 0.28 m; plate 2 draws them further out (Q221)"
+  },
+  "nland_w": {
+   "value": 8.0,
+   "source": "S71;S89",
+   "grade": "C",
+   "note": "the north landing in front of the middle door, plate 2 and P0189"
+  },
+  "nfount_d": {
+   "value": 4.5,
+   "source": "S310",
+   "grade": "B",
+   "note": "north basin 4.5 m across (a search extract, method e)"
+  },
+  "nfount_z": {
+   "value": -27.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "north basin on the axis, the ring pavement of plate 2; it was set back on its spot in 1987 (S814, S815), not surveyed here"
+  }
+ }
+}

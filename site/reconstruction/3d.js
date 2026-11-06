@@ -5,6 +5,8 @@
 // Round 10: the ground (ground3d.js): hills, banks, beds, one level per water body; &contours=1 draws contour lines; &conf=1 also tints the ground; &assumed=0 also flattens the generated hills.
 // Round 11: the hall kit (kit3d.js, stonekit3d.js, data/kit_1860.json): every hall drawn from its numbers, courts paved between the halls; &kit=0 returns to the plain boxes; &assumed=0 also hides the boxes with no block on the plan, the courts, and draws a hall whose form is only its class's as its plain box.
 // Round 12: the planting and the rockeries (greens3d.js, data/greens_1860.json, generated/greens_1860.bin): &greens=0 hides them; &season=spring|summer|autumn|winter (default summer); &assumed=0 also hides the generated fill and lowers plants on generated hills; &conf=1 tints plants by the grade of their species, the fill pale.
+// Round 13: detailed models (data/models.json, models/<ID>-<slug>/ by scripts/building_pages.py, glb_lite.js): the model replaces its boxes' drawing, the boxes stay the click target, unseen; &assumed=0 hides the parts carried round with no picture (materials ~fill), &conf=1 tints them pale and the rest by its grade. The panel's "Our model now" has the model's own small view (model3d.js).
+// Round 13: &plate=<photo id>[&platefit=all|anchored] is a development mode: the camera of that plate or photograph as tools/plate_overlay.py fitted it (data/plates.json), the picture laid over the view at a set opacity; &plateimg=0 the view alone.
 // Round 9: &paths=0 hides the ways (data/paths_1860, landings_1860: paths3d.js), &assumed=0 only the assumed (C) ones; &route=<R1..> walks a route of data/routes_1860 from its start, &routet=<0..1> from that share of its length (with &shot=1 the camera stands there, still).
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
@@ -39,7 +41,9 @@ const world = new THREE.Group(); // scaled in y for the 2x option
 scene.add(world);
 
 const ABOVE_ALL_M = 40; // higher than any ridge above the water
+let plateLock = false; // Round 13: ?plate= holds its own projection
 function fitNearPlane() {
+  if (plateLock) return;
   const room = camera.position.y - ABOVE_ALL_M * world.scale.y;
   const near = Math.max(0.5, Math.min(room * 0.6, camera.position.distanceTo(controls.target) * 0.4));
   if (Math.abs(near - camera.near) > 0.05 * camera.near) { camera.near = near; camera.updateProjectionMatrix(); }
@@ -52,8 +56,9 @@ function updateLabels() {
     l.visible = on && (l.userData.rank === 1 ? d > 700 : d < 1400);
   }
 }
-let kitUpdate = null, kitFrame = 0, greensUpdate = null;
+let kitUpdate = null, kitFrame = 0, greensUpdate = null, lastRender = 0;
 function render() {
+  lastRender = performance.now();
   fitNearPlane();
   updateLabels();
   // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all. Round 12: so do the plants.
@@ -199,6 +204,10 @@ async function main() {
     fetch("data/greens_1860.json").then((r) => r.json()),
     fetch("generated/greens_1860.bin").then((r) => r.arrayBuffer()),
   ]);
+  const modelIndex = await fetch("data/models.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const MODELS = (modelIndex && modelIndex.models) || {};
+  const modelBoxIds = new Set(Object.values(MODELS).flatMap((c) => c.boxes || []));
+  const drawnByModel = (p) => (p.kind === "steps" || p.kind === "gallery") && [p.from_at, p.to_at].some((at) => at && modelBoxIds.has(at.split(":")[0]));
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
   const ground = buildGround({ meta, buf, gridBuf, levelBuf });
@@ -210,7 +219,7 @@ async function main() {
   meshes.structures = buildStructures(structures);
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
-  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, waterLevelAt, base: meta.ground_m - meta.datum_m });
+  const ways = buildPaths({ paths: pathFc, landings: landingFc, toXZ, groundAt, waterLevelAt, base: meta.ground_m - meta.datum_m, skip: drawnByModel });
   for (const g of Object.values(ways.groups)) world.add(g);
   const kit = buildKit({ spec: kitSpec, halls, datum: meta.datum_m, groundAt, toXZ, paths: pathFc });
   await kit.courtsReady;
@@ -218,6 +227,59 @@ async function main() {
   kitUpdate = kit.update;
   meshes.halls = halls.mesh;
   world.add(meshes.halls);
+
+  // Round 13: the detailed models, children of the halls' mesh so the halls toggle and the vertical exaggeration reach them. Until one has loaded its boxes show.
+  const detailed = {}; // id -> { group, c }
+  const modelOf = (id) => Object.entries(MODELS).find(([k, c]) => k === id || (c.aliases || []).includes(id));
+  const MODEL_TINT = { fill: 0xe7e0d3, doc: HALL_COLOURS.conf.C, selected: 0x6a5000 };
+  const modelsReady = Promise.all(Object.entries(MODELS).map(async ([id, c]) => {
+    const g = await loadGLBLite(c.url);
+    g.position.set(...c.position);
+    g.rotation.y = c.rotationY;
+    g.traverse((o) => {
+      if (!o.isMesh) return;
+      o.userData.fill = o.material.name.endsWith("~fill");
+      o.userData.colour = o.material.color.clone();
+      o.raycast = () => {}; // clicks go to the boxes (halls3d.js pick)
+    });
+    halls.mesh.add(g);
+    detailed[id] = { group: g, c };
+  }).map((p) => p.catch((err) => console.warn("Detailed model not loaded, the boxes stay:", err)))).then(() => {
+    if (Object.keys(detailed).length) halls.setModelled(true);
+    applyModels();
+    render();
+    window.__modelsReady = true;
+  });
+  let modelSelected = new Set();
+  function applyModels() {
+    for (const [id, { group }] of Object.entries(detailed)) {
+      const sel = modelSelected.has(id);
+      group.traverse((o) => {
+        if (!o.isMesh) return;
+        o.visible = !(o.userData.fill && !state.assumed);
+        if (state.conf) o.material.color.setHex(o.userData.fill ? MODEL_TINT.fill : MODEL_TINT.doc);
+        else o.material.color.copy(o.userData.colour);
+        o.material.emissive.setHex(sel ? MODEL_TINT.selected : 0);
+      });
+    }
+  }
+  const selectBoxes = halls.select;
+  halls.select = (list) => {
+    selectBoxes(list);
+    modelSelected = new Set(Object.keys(detailed).filter((id) => list.some((b) => (MODELS[id].boxes || []).includes(b.id))));
+    applyModels();
+  };
+  const modelFor = (id) => {
+    const hit = modelOf(id);
+    if (!hit || !detailed[hit[0]]) return null;
+    const { group, c } = detailed[hit[0]];
+    // a copy in the main scene's coordinates, baked into the geometry (model3d.js reads the raw positions for the footprint)
+    const out = new THREE.Group(), mtx = new THREE.Matrix4().compose(group.position, group.quaternion, new THREE.Vector3(1, 1, 1));
+    group.traverse((o) => { if (o.isMesh && !(o.userData.fill && !state.assumed)) { const m = new THREE.Mesh(o.geometry.clone().applyMatrix4(mtx), o.material.clone()); m.material.emissive.setHex(0); m.material.color.copy(o.userData.colour); out.add(m); } });
+    out.userData = { ground: c.position[1], front: [Math.sin(c.rotationY), Math.cos(c.rotationY)], props: { ...c.caption, name: c.name } };
+    return out;
+  };
+  const preview = createModelPreview({ modelFor, sunDir: sun.position.clone().normalize(), datum: meta.datum_m, busy: () => performance.now() - lastRender < 200 });
   labels = labelData.map((l) => {
     const s = labelSprite(l.zh, l.en, l.rank);
     const [x, z] = toXZ([l.lon, l.lat]);
@@ -247,6 +309,7 @@ async function main() {
     world.scale.y = state.vx;
     world.updateMatrixWorld(true);
     halls.setConfMode(state.conf);
+    applyModels();
     document.getElementById("legend-plain").hidden = state.conf;
     document.getElementById("legend-conf").hidden = !state.conf;
     render();
@@ -277,7 +340,7 @@ async function main() {
   for (const [rowId, target] of Object.entries(fc.shared_rows || {})) if (byBuilding.has(target)) byBuilding.set(rowId, byBuilding.get(target));
   const boxesOf = (id) => byBuilding.get(id) || byParent.get(id) || [];
 
-  const panel = createBuildingPanel({ local, onClose: () => closeAll(), onOpen: (id) => open(id), onRoute: (id) => startTour(id, 0) });
+  const panel = createBuildingPanel({ local, onClose: () => closeAll(), onOpen: (id) => open(id), onRoute: (id) => startTour(id, 0), onModel: (id, slot) => preview.show(id, slot) });
   const label = document.getElementById("hover");
   const ray = new THREE.Raycaster();
   const rayAt = (e) => {
@@ -613,11 +676,57 @@ async function main() {
   apply();
   const deep = params.get("b");
   if (deep) await open(deep.toUpperCase());
+  await modelsReady;
+  if (params.get("plate")) await plateMode(params.get("plate").toUpperCase(), params.get("platefit") || "all");
   document.getElementById("loading").hidden = true;
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
-  window.viewer = { kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
+  window.viewer = { detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
+}
+
+// Round 13: ?plate=<photo id>. The canvas takes the picture's proportions in the top left of the window; the camera is the fitted one (tools/plate_overlay.py: pinhole, no roll; principal point offset as a view offset).
+async function plateMode(pid, fit) {
+  const data = await fetch("data/plates.json").then((r) => r.json());
+  const e = data.plates[pid];
+  if (!e || !e.fits[fit]) { console.warn("No fitted camera for", pid, fit); window.__plateReady = true; return; }
+  const F = e.fits[fit], [W, H] = e.size;
+  let w = innerWidth, h = Math.round((innerWidth * H) / W);
+  if (h > innerHeight) { h = innerHeight; w = Math.round((innerHeight * W) / H); }
+  renderer.setSize(w, h);
+  camera.aspect = W / H;
+  camera.fov = (2 * Math.atan(H / 2 / F.f_px) * 180) / Math.PI;
+  camera.setViewOffset(W, H, -F.du_px, -F.dv_px, W, H);
+  camera.updateProjectionMatrix();
+  setOffset = () => {}; // the panel's offset would move the picture
+  plateLock = true;
+  const yaw = (F.yaw_deg * Math.PI) / 180, pitch = (F.pitch_deg * Math.PI) / 180;
+  const dir = new THREE.Vector3(Math.sin(yaw) * Math.cos(pitch), Math.sin(pitch), -Math.cos(yaw) * Math.cos(pitch));
+  const C = new THREE.Vector3(...F.position);
+  controls.enabled = false;
+  camera.position.copy(C);
+  controls.target.copy(C.clone().add(dir.multiplyScalar(20)));
+  camera.lookAt(controls.target);
+  camera.near = 0.5;
+  camera.updateProjectionMatrix();
+  if (F.k_vertical && F.k_vertical !== 1) {
+    // fit `stretch`: the plate draws heights k times its widths (tools/plate_overlay.py); kept until the next projection update
+    camera.projectionMatrix.elements[5] *= F.k_vertical;
+    camera.projectionMatrixInverse.copy(camera.projectionMatrix).invert();
+  }
+  const img = document.getElementById("plate-img"), ui = document.getElementById("plate-ui");
+  if (params.get("plateimg") !== "0") {
+    img.src = e.image;
+    Object.assign(img.style, { left: "0px", top: "0px", width: `${w}px`, height: `${h}px`, display: "block" });
+    ui.style.display = "block";
+    ui.innerHTML = `<b>${pid}</b>${e.plate ? ` (plate ${e.plate})` : ""}, ${e.object}: camera fitted to ${fit === "anchored" ? "the anchored points" : fit === "stretch" ? `every point, heights drawn ${F.k_vertical} times the widths` : "every point"}, ${F.rms_px} px rms (research/xiyanglou/plate_fit_${e.object}.csv)<br><label>Picture <input id="plate-op" type="range" min="0" max="100" value="50"></label><label><input id="plate-fit" type="checkbox" ${fit === "anchored" ? "checked" : ""}> anchored camera</label>`;
+    document.getElementById("plate-op").oninput = (ev) => { img.style.opacity = ev.target.value / 100; };
+    document.getElementById("plate-fit").onchange = (ev) => { const u = new URL(location.href); u.searchParams.set("platefit", ev.target.checked ? "anchored" : "all"); location.href = u; };
+  }
+  render();
+  await new Promise((r) => requestAnimationFrame(r));
+  render();
+  window.__plateReady = true;
 }
 
 main();

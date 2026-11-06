@@ -3,10 +3,10 @@
  "kept": 759,
  "drawn_rows": 572,
  "rock_rows": 80,
- "areas": 466,
+ "areas": 467,
  "areas_by_kind": {
   "specimen_tree": 103,
-  "grove": 209,
+  "grove": 210,
   "bamboo_grove": 42,
   "avenue": 24,
   "reed_bed": 21,
@@ -15,24 +15,24 @@
   "hedge": 1,
   "rockery": 86
  },
- "areas_sourced": 457,
+ "areas_sourced": 458,
  "areas_fill": 9,
- "plants": 40161,
+ "plants": 40110,
  "by_form": {
-  "pine": 4324,
-  "blossom": 2825,
-  "willow": 1451,
-  "broad": 2530,
-  "topiary": 255,
+  "pine": 4263,
+  "blossom": 2838,
+  "willow": 1424,
+  "broad": 2552,
+  "topiary": 246,
   "cypress": 261,
-  "bamboo": 4447,
+  "bamboo": 4458,
   "reed": 7568,
   "floating": 2728,
   "lotus": 13147,
   "shrub": 624,
   "hedge": 1
  },
- "assumed_plants": 6508,
+ "assumed_plants": 6464,
  "rockeries": 86,
  "rockeries_unplaced": [],
  "areas_skipped": [
@@ -393,11 +393,6 @@
    "east"
   ],
   [
-   "GARDEN-YM",
-   "树",
-   "outside_wall"
-  ],
-  [
    "YM26",
    "桑",
    "scene"
@@ -459,7 +454,7 @@
   ]
  ],
  "files_mb": {
-  "layer": 2.52,
+  "layer": 2.54,
   "json": 0.05,
   "bin": 0.56
  }

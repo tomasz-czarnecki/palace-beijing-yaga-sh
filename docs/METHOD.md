@@ -332,6 +332,17 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 | Plan image | local | local (Q6); traced geometry public |
 | Grade A means | seen on a source of 1900–1914 | a source made while the gardens stood; S01 held at B |
 
+### 18. A detailed model, tested against the plates and the photographs
+
+Round 13 (`models/XY01-xieqiqu/README.md`, `tools/plate_overlay.py`). The order that worked:
+1. **Fix a key-point vocabulary first,** then let readers read every picture with it, in the pixels of a named copy, with a sureness grade, each point checked with a cross on a fresh crop. Readers differ in what a name means (one took an octagon's outline, another the face's ends): keep their notes, rename a reading to what was read, and skip a silhouette (a colonnade passing behind a pavilion) with the reason rather than force it.
+2. **Photographs measure, plates test.** A ruin photograph is a true perspective; an engraving of the 1780s is not. Fit each photograph's camera jointly with the few figures that matter (storeys, widths, depth), the plan's frontage as the scale; carry the figures into the model; then fit the plates to that model and measure what is left. Run the measurement twice: the first pass is pulled by its priors.
+3. **Measure the engraver, don't tune it away.** A plate camera with one more unknown, its heights drawn k times its widths, separates the idealisation (plate 1: 1.57, plate 2: 1.11) from the model's error. Record what the plates enlarge (the top storey, here) as a question, and say which source is likely right and why.
+4. **Two fits per picture:** on the points the plan places (`anchored`: an honest test of the heights) and on all points (the best one camera can do: the shape disagreement). A picture's distance prior can be far off (P0186's catalogue guess by 70 m); a fit that runs to absurd places (a pool 35 m into the lake) says the picture does not constrain that figure: drop it.
+5. **Render the overlay, look at it.** The residual table found the storeys; the blend found the stair (its flights run north-south, which a second look at the plate confirmed). Render from the fitted camera in the real view, one page load for all pictures, and compose blend, edges and side-by-side.
+6. **The model joins the rest:** its entries become the doors the ways snap to, its footprints what the ways route round and the planting keeps clear of, its boxes stay the click target, unseen. A traced way that starts inside the model (the plan sits about 12 m off the ruin here) loses its points inside and snaps from the first point beyond.
+7. **Carry round, mark it.** Faces no picture shows are copied from the documented ones into their own `~fill` materials: one switch hides them, one tints them.
+
 ## Pitfalls and fixes
 
 **The kit (Round 11):**
@@ -339,6 +350,13 @@ buildings.csv, catalogues, questions.md, sources.md, halls_1860 -> building_page
 - **Ground probes counted as geometry.** The steps' ground samples went through the same transform that measures how far a hall reaches beyond its box, so every hall seemed 0.3 m too wide. Fix: a probe flag.
 - **Shore steps hung in the air.** A flight's foot was read on the land-only ground, and its blocks stopped there over a sloping bank. Fix: sample the flight's four corners; skip it if any is water; reach down to the lowest.
 - **4.8 M triangles in memory at load.** Every tile's near level was built at once. Fix: lazy near tiles, byte colours, no normals: 0.67 M at the overview.
+
+**The pilot model (Round 13):**
+- **An octagon's left and right were swapped** (the viewer's left taken as the face's own): plate 1's error halved when fixed. Test a view-dependent point on a picture before trusting a residual.
+- **The plate camera ran 190 m back with a 5,900 px lens.** Plate 1 is a near-parallel elevation, not a view from 69 m: the octagons' spacing against the block allows no strong perspective. Report it as such; the `stretch` fit then explains the heights.
+- **The dossier's heights (15.1 m eave, 18.3 m ridge) were the plates' module.** The photographs gave 11.6 and 14.0 m. Heights read on an engraving by a module inherit its idealisation.
+- **The panel's model view showed an empty disc.** The copy handed to `model3d.js` kept its transform on the group; that file reads raw positions. Bake the transform into the copied geometry.
+- **A background "foreground" agent.** The Agent tool started the readers in the background by default; they finished before the turn ended. Keep waiting for every notification before the final message.
 
 **Running the agents:**
 - **A research round launched its subagents in the background, ended its turn "waiting", and print mode killed them after 10 minutes.** It exited 0 with almost nothing delivered ($9, 17 min). Fix: foreground subagents only, several Agent calls in one message; `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` in the chain; and chains gated on deliverables, not on the exit code alone.

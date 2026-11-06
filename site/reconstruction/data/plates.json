@@ -1,0 +1,381 @@
+{
+"note": "Round 13: cameras of the plates and photographs fitted by tools/plate_overlay.py, for ?plate=<photo id> in 3d.html. Pixels of the 2400 px copy (size).",
+"plates": {
+"P0041": {
+"object": "XY01",
+"plate": "1",
+"image": "photos/P0041.jpg",
+"size": [
+2400,
+1384
+],
+"fits": {
+"anchored": {
+"position": [
+476.38,
+11.21,
+-639.71
+],
+"yaw_deg": 354.16,
+"pitch_deg": 0.27,
+"f_px": 1791.1,
+"du_px": 9.4,
+"dv_px": 98.4,
+"k_vertical": 1.0,
+"rms_px": 111.5
+},
+"all": {
+"position": [
+495.2,
+25.04,
+-466.3
+],
+"yaw_deg": 354.08,
+"pitch_deg": -0.25,
+"f_px": 5877.3,
+"du_px": 26.8,
+"dv_px": -270.4,
+"k_vertical": 1.0,
+"rms_px": 57.7
+},
+"stretch": {
+"position": [
+490.28,
+2.41,
+-514.59
+],
+"yaw_deg": 353.89,
+"pitch_deg": 1.77,
+"f_px": 4667.8,
+"du_px": 12.2,
+"dv_px": 60.2,
+"k_vertical": 1.566,
+"rms_px": 36.8
+}
+}
+},
+"P0042": {
+"object": "XY01",
+"plate": "2",
+"image": "photos/P0042.jpg",
+"size": [
+2400,
+1374
+],
+"fits": {
+"anchored": {
+"position": [
+461.77,
+3.65,
+-775.23
+],
+"yaw_deg": 174.32,
+"pitch_deg": 0.56,
+"f_px": 1522.8,
+"du_px": 12.9,
+"dv_px": 218.7,
+"k_vertical": 1.0,
+"rms_px": 53.5
+},
+"all": {
+"position": [
+461.88,
+3.42,
+-774.34
+],
+"yaw_deg": 174.08,
+"pitch_deg": -1.54,
+"f_px": 1397.7,
+"du_px": 4.4,
+"dv_px": 297.5,
+"k_vertical": 1.0,
+"rms_px": 42.5
+},
+"stretch": {
+"position": [
+461.76,
+3.09,
+-775.28
+],
+"yaw_deg": 173.91,
+"pitch_deg": 0.28,
+"f_px": 1417.3,
+"du_px": 0.7,
+"dv_px": 275.9,
+"k_vertical": 1.111,
+"rms_px": 40.1
+}
+}
+},
+"P0185": {
+"object": "XY01",
+"plate": "",
+"image": "photos/P0185.jpg",
+"size": [
+1020,
+752
+],
+"fits": {
+"all": {
+"position": [
+472.42,
+2.57,
+-682.49
+],
+"yaw_deg": 31.48,
+"pitch_deg": 3.49,
+"f_px": 1686.9,
+"du_px": 4.3,
+"dv_px": 5.6,
+"k_vertical": 1.0,
+"rms_px": 13.5
+}
+}
+},
+"P0186": {
+"object": "XY01",
+"plate": "",
+"image": "photos/P0186.jpg",
+"size": [
+1220,
+915
+],
+"fits": {
+"all": {
+"position": [
+519.94,
+5.87,
+-644.99
+],
+"yaw_deg": 324.1,
+"pitch_deg": -3.04,
+"f_px": 1609.7,
+"du_px": 18.9,
+"dv_px": -1.0,
+"k_vertical": 1.0,
+"rms_px": 9.5
+}
+}
+},
+"P0187": {
+"object": "XY01",
+"plate": "",
+"image": "photos/P0187.jpg",
+"size": [
+1496,
+1100
+],
+"fits": {
+"all": {
+"position": [
+489.87,
+2.3,
+-708.79
+],
+"yaw_deg": 318.46,
+"pitch_deg": 7.78,
+"f_px": 1562.8,
+"du_px": 54.5,
+"dv_px": -105.0,
+"k_vertical": 1.0,
+"rms_px": 25.0
+}
+}
+},
+"P0188": {
+"object": "XY01",
+"plate": "",
+"image": "photos/P0188.jpg",
+"size": [
+1050,
+787
+],
+"fits": {
+"all": {
+"position": [
+512.65,
+5.55,
+-740.88
+],
+"yaw_deg": 258.47,
+"pitch_deg": 1.95,
+"f_px": 1973.3,
+"du_px": -8.0,
+"dv_px": 0.7,
+"k_vertical": 1.0,
+"rms_px": 25.8
+}
+}
+},
+"P0189": {
+"object": "XY01",
+"plate": "",
+"image": "photos/P0189.jpg",
+"size": [
+1050,
+771
+],
+"fits": {
+"anchored": {
+"position": [
+461.66,
+3.32,
+-773.97
+],
+"yaw_deg": 174.24,
+"pitch_deg": 0.81,
+"f_px": 1198.0,
+"du_px": 36.2,
+"dv_px": 8.1,
+"k_vertical": 1.0,
+"rms_px": 39.7
+},
+"all": {
+"position": [
+461.24,
+3.42,
+-774.64
+],
+"yaw_deg": 174.87,
+"pitch_deg": 4.91,
+"f_px": 1127.7,
+"du_px": 67.2,
+"dv_px": -64.5,
+"k_vertical": 1.0,
+"rms_px": 21.2
+}
+}
+},
+"P0050": {
+"object": "XY08",
+"plate": "10",
+"image": "photos/P0050.jpg",
+"size": [
+2400,
+1403
+],
+"fits": {
+"anchored": {
+"position": [
+632.84,
+1.89,
+-797.57
+],
+"yaw_deg": 82.59,
+"pitch_deg": 0.52,
+"f_px": 1559.2,
+"du_px": 34.4,
+"dv_px": 210.3,
+"k_vertical": 1.0,
+"rms_px": 167.5
+},
+"all": {
+"position": [
+632.25,
+2.41,
+-798.03
+],
+"yaw_deg": 80.98,
+"pitch_deg": 9.98,
+"f_px": 1434.0,
+"du_px": -131.4,
+"dv_px": -116.6,
+"k_vertical": 1.0,
+"rms_px": 125.6
+},
+"stretch": {
+"position": [
+621.47,
+7.17,
+-795.81
+],
+"yaw_deg": 75.37,
+"pitch_deg": 46.8,
+"f_px": 1353.7,
+"du_px": -324.7,
+"dv_px": -695.2,
+"k_vertical": 0.384,
+"rms_px": 113.1
+}
+}
+},
+"P0051": {
+"object": "XY08",
+"plate": "11",
+"image": "photos/P0051.jpg",
+"size": [
+2400,
+1387
+],
+"fits": {
+"all": {
+"position": [
+728.52,
+11.08,
+-860.31
+],
+"yaw_deg": 214.96,
+"pitch_deg": 2.14,
+"f_px": 1532.4,
+"du_px": 365.6,
+"dv_px": -59.0,
+"k_vertical": 1.0,
+"rms_px": 46.9
+},
+"stretch": {
+"position": [
+723.33,
+7.56,
+-905.06
+],
+"yaw_deg": 178.52,
+"pitch_deg": 1.15,
+"f_px": 1011.2,
+"du_px": 321.2,
+"dv_px": 56.6,
+"k_vertical": 2.172,
+"rms_px": 5.9
+}
+}
+},
+"P0053": {
+"object": "XY08",
+"plate": "13",
+"image": "photos/P0053.jpg",
+"size": [
+2400,
+1378
+],
+"fits": {
+"all": {
+"position": [
+743.99,
+11.89,
+-760.13
+],
+"yaw_deg": 307.49,
+"pitch_deg": 1.38,
+"f_px": 1510.9,
+"du_px": -394.9,
+"dv_px": -43.0,
+"k_vertical": 1.0,
+"rms_px": 45.9
+},
+"stretch": {
+"position": [
+752.37,
+8.75,
+-716.72
+],
+"yaw_deg": 345.84,
+"pitch_deg": 0.63,
+"f_px": 938.6,
+"du_px": -321.5,
+"dv_px": 57.7,
+"k_vertical": 2.238,
+"rms_px": 6.5
+}
+}
+}
+}
+}

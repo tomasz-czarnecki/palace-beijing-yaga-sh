@@ -63,7 +63,8 @@ function buildHalls({ fc, toXZ, datum, kit }) {
     const base = p.ground_m - datum + (p.stand || 0), foot = (p.stand ? p.ground_m - datum : p.foot_m - datum), top = base + p.ridge_m;
     const spec = kit && kit.halls[p.id];
     const byKit = Boolean(spec) && !KIT_SHAPES.has(spec.k) && spec.src !== "model";
-    const key = !byKit ? (p.assumed ? "pXA" : "pX") : p.assumed ? "pA" : spec.a ? "pK" : "pS";
+    // Round 13: a box a detailed model stands for (data/models.json) draws into pM, which hides as soon as the model has loaded (setModelled); the box stays the click target
+    const key = spec && spec.src === "model" ? "pM" : !byKit ? (p.assumed ? "pXA" : "pX") : p.assumed ? "pA" : spec.a ? "pK" : "pS";
     const B = buf(key);
     const start = B.count;
     const minSide = Math.min(hf, hd) * 2;
@@ -292,10 +293,12 @@ function buildHalls({ fc, toXZ, datum, kit }) {
   const repaint = () => { live(); select(selected); };
 
   // Which meshes show: the plain boxes, or the kit; and the assumed ones or not. `kitOn` is false when there is no kit.
+  let modelled = false;
+  const setModelled = (on) => { modelled = on; if (plainMeshes.pM) plainMeshes.pM.visible = !on; };
   const setView = ({ kitOn, assumed }) => {
-    const show = { pX: true, pXA: assumed, pA: !kitOn && assumed, pK: !kitOn || !assumed, pS: !kitOn };
+    const show = { pX: true, pXA: assumed, pA: !kitOn && assumed, pK: !kitOn || !assumed, pS: !kitOn, pM: !modelled };
     for (const [k, m] of Object.entries(plainMeshes)) m.visible = show[k];
-    for (const b of info) b.hidden = b.props.assumed && !assumed;
+    for (const b of info) b.hidden = b.props.assumed && !assumed && !(b.spec && b.spec.src === "model");
   };
 
   // Nearest box along a ray, or null.
@@ -340,5 +343,5 @@ function buildHalls({ fc, toXZ, datum, kit }) {
     }
     return false;
   };
-  return { mesh, info, select, setConfMode, pick, blocked, setView, addBuffers, repaint, plainMeshes };
+  return { mesh, info, select, setConfMode, pick, blocked, setView, addBuffers, repaint, plainMeshes, setModelled };
 }

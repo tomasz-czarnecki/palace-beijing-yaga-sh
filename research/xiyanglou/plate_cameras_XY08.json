@@ -1,0 +1,406 @@
+{
+ "object": "XY08",
+ "label": "kit-baseline",
+ "points_from": "stone kit",
+ "cameras": {
+  "P0050": {
+   "plate": "10",
+   "image": "P0050.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1403
+   ],
+   "object": "XY08",
+   "points_from": "stone kit",
+   "prior": {
+    "lat": 40.011756,
+    "lon": 116.30425,
+    "err": 15.0,
+    "bearing": 82.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. West of the basin. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      632.84,
+      1.89,
+      -797.57
+     ],
+     "yaw_deg": 82.59,
+     "pitch_deg": 0.52,
+     "f_px": 1559.2,
+     "du_px": 34.4,
+     "dv_px": 210.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.46,
+     "moved_from_prior_m": 12.5,
+     "points": {
+      "n": 12,
+      "rms_px": 167.5,
+      "median_px": 118.1,
+      "max_px": 284.9,
+      "rms_m": 4.25,
+      "median_m": 3.14,
+      "max_m": 8.27
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 193.4,
+      "median_px": 217.7,
+      "max_px": 284.9,
+      "rms_m": 4.91,
+      "median_m": 4.99,
+      "max_m": 8.27
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 162.1,
+      "median_px": 116.7,
+      "max_px": 284.9,
+      "rms_m": 4.17,
+      "median_m": 2.78,
+      "max_m": 8.27
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      632.25,
+      2.41,
+      -798.03
+     ],
+     "yaw_deg": 80.98,
+     "pitch_deg": 9.98,
+     "f_px": 1434.0,
+     "du_px": -131.4,
+     "dv_px": -116.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.92,
+     "moved_from_prior_m": 12.1,
+     "points": {
+      "n": 12,
+      "rms_px": 125.6,
+      "median_px": 39.6,
+      "max_px": 255.4,
+      "rms_m": 3.71,
+      "median_m": 0.66,
+      "max_m": 8.4
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 137.1,
+      "median_px": 29.7,
+      "max_px": 255.4,
+      "rms_m": 4.25,
+      "median_m": 0.79,
+      "max_m": 8.4
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 126.0,
+      "median_px": 29.7,
+      "max_px": 255.4,
+      "rms_m": 3.76,
+      "median_m": 0.53,
+      "max_m": 8.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      621.47,
+      7.17,
+      -795.81
+     ],
+     "yaw_deg": 75.37,
+     "pitch_deg": 46.8,
+     "f_px": 1353.7,
+     "du_px": -324.7,
+     "dv_px": -695.2,
+     "k_vertical": 0.384,
+     "eye_above_ground_m": 6.8,
+     "moved_from_prior_m": 2.1,
+     "points": {
+      "n": 12,
+      "rms_px": 113.1,
+      "median_px": 50.1,
+      "max_px": 271.7,
+      "rms_m": 3.26,
+      "median_m": 0.96,
+      "max_m": 8.68
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 116.7,
+      "median_px": 33.2,
+      "max_px": 271.7,
+      "rms_m": 3.72,
+      "median_m": 0.86,
+      "max_m": 8.68
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 117.9,
+      "median_px": 67.1,
+      "max_px": 271.7,
+      "rms_m": 3.4,
+      "median_m": 1.05,
+      "max_m": 8.68
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0051": {
+   "plate": "11",
+   "image": "P0051.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1387
+   ],
+   "object": "XY08",
+   "points_from": "stone kit",
+   "prior": {
+    "lat": 40.012386,
+    "lon": 116.305194,
+    "err": 18.0,
+    "bearing": 172.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. Scale is my own tie. North of the garden with the two small pools. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "2 anchor points"
+    },
+    "all": {
+     "position": [
+      728.52,
+      11.08,
+      -860.31
+     ],
+     "yaw_deg": 214.96,
+     "pitch_deg": 2.14,
+     "f_px": 1532.4,
+     "du_px": 365.6,
+     "dv_px": -59.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 11.17,
+     "moved_from_prior_m": 26.6,
+     "points": {
+      "n": 7,
+      "rms_px": 46.9,
+      "median_px": 10.0,
+      "max_px": 110.9,
+      "rms_m": 2.01,
+      "median_m": 0.35,
+      "max_m": 4.77
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 49.9,
+      "median_px": 6.5,
+      "max_px": 110.9,
+      "rms_m": 2.14,
+      "median_m": 0.23,
+      "max_m": 4.77
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 46.9,
+      "median_px": 10.0,
+      "max_px": 110.9,
+      "rms_m": 2.01,
+      "median_m": 0.35,
+      "max_m": 4.77
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      723.33,
+      7.56,
+      -905.06
+     ],
+     "yaw_deg": 178.52,
+     "pitch_deg": 1.15,
+     "f_px": 1011.2,
+     "du_px": 321.2,
+     "dv_px": 56.6,
+     "k_vertical": 2.172,
+     "eye_above_ground_m": 7.34,
+     "moved_from_prior_m": 47.0,
+     "points": {
+      "n": 7,
+      "rms_px": 5.9,
+      "median_px": 4.8,
+      "max_px": 8.8,
+      "rms_m": 0.47,
+      "median_m": 0.37,
+      "max_m": 0.69
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 5.4,
+      "median_px": 4.8,
+      "max_px": 8.0,
+      "rms_m": 0.44,
+      "median_m": 0.37,
+      "max_m": 0.69
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 5.9,
+      "median_px": 4.8,
+      "max_px": 8.8,
+      "rms_m": 0.47,
+      "median_m": 0.37,
+      "max_m": 0.69
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0053": {
+   "plate": "13",
+   "image": "P0053.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1378
+   ],
+   "object": "XY08",
+   "points_from": "stone kit",
+   "prior": {
+    "lat": 40.011352,
+    "lon": 116.30539,
+    "err": 18.0,
+    "bearing": 352.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "Mirror of plate 11. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "2 anchor points"
+    },
+    "all": {
+     "position": [
+      743.99,
+      11.89,
+      -760.13
+     ],
+     "yaw_deg": 307.49,
+     "pitch_deg": 1.38,
+     "f_px": 1510.9,
+     "du_px": -394.9,
+     "dv_px": -43.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 7.71,
+     "moved_from_prior_m": 28.7,
+     "points": {
+      "n": 7,
+      "rms_px": 45.9,
+      "median_px": 8.6,
+      "max_px": 106.1,
+      "rms_m": 2.01,
+      "median_m": 0.31,
+      "max_m": 4.69
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 47.7,
+      "median_px": 7.1,
+      "max_px": 106.1,
+      "rms_m": 2.11,
+      "median_m": 0.26,
+      "max_m": 4.69
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 45.9,
+      "median_px": 8.6,
+      "max_px": 106.1,
+      "rms_m": 2.01,
+      "median_m": 0.31,
+      "max_m": 4.69
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      752.37,
+      8.75,
+      -716.72
+     ],
+     "yaw_deg": 345.84,
+     "pitch_deg": 0.63,
+     "f_px": 938.6,
+     "du_px": -321.5,
+     "dv_px": 57.7,
+     "k_vertical": 2.238,
+     "eye_above_ground_m": 6.63,
+     "moved_from_prior_m": 46.7,
+     "points": {
+      "n": 7,
+      "rms_px": 6.5,
+      "median_px": 5.1,
+      "max_px": 12.9,
+      "rms_m": 0.53,
+      "median_m": 0.41,
+      "max_m": 1.05
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 4.7,
+      "median_px": 5.1,
+      "max_px": 6.7,
+      "rms_m": 0.4,
+      "median_m": 0.41,
+      "max_m": 0.61
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 6.5,
+      "median_px": 5.1,
+      "max_px": 12.9,
+      "rms_m": 0.53,
+      "median_m": 0.41,
+      "max_m": 1.05
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

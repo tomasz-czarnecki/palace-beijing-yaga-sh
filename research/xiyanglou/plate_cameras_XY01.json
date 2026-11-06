@@ -1,0 +1,765 @@
+{
+ "object": "XY01",
+ "label": "final",
+ "points_from": "model XY01-xieqiqu",
+ "cameras": {
+  "P0041": {
+   "plate": "1",
+   "image": "P0041.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1384
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.010515,
+    "lon": 116.302541,
+    "err": 14.0,
+    "bearing": 354.0,
+    "eye": 6.2,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=69 m with f=1250; octagon then fits the plan. Over the water south of the pool, as the foreground shows. Eye 6.2 m. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      476.38,
+      11.21,
+      -639.71
+     ],
+     "yaw_deg": 354.16,
+     "pitch_deg": 0.27,
+     "f_px": 1791.1,
+     "du_px": 9.4,
+     "dv_px": 98.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 9.95,
+     "moved_from_prior_m": 17.7,
+     "points": {
+      "n": 43,
+      "rms_px": 111.5,
+      "median_px": 97.2,
+      "max_px": 216.4,
+      "rms_m": 4.89,
+      "median_m": 4.74,
+      "max_m": 8.25
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 121.5,
+      "median_px": 101.2,
+      "max_px": 216.4,
+      "rms_m": 5.32,
+      "median_m": 4.89,
+      "max_m": 8.25
+     },
+     "sure12": {
+      "n": 37,
+      "rms_px": 105.2,
+      "median_px": 97.2,
+      "max_px": 178.6,
+      "rms_m": 4.75,
+      "median_m": 4.74,
+      "max_m": 7.44
+     },
+     "skipped": {
+      "n": 4,
+      "rms_px": 177.5,
+      "median_px": 177.9,
+      "max_px": 183.3,
+      "rms_m": 7.42,
+      "median_m": 7.44,
+      "max_m": 7.68
+     }
+    },
+    "all": {
+     "position": [
+      495.2,
+      25.04,
+      -466.3
+     ],
+     "yaw_deg": 354.08,
+     "pitch_deg": -0.25,
+     "f_px": 5877.3,
+     "du_px": 26.8,
+     "dv_px": -270.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 23.15,
+     "moved_from_prior_m": 192.1,
+     "points": {
+      "n": 43,
+      "rms_px": 57.7,
+      "median_px": 42.9,
+      "max_px": 111.8,
+      "rms_m": 2.43,
+      "median_m": 1.96,
+      "max_m": 4.62
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 49.9,
+      "median_px": 35.7,
+      "max_px": 111.8,
+      "rms_m": 2.12,
+      "median_m": 1.59,
+      "max_m": 4.62
+     },
+     "sure12": {
+      "n": 37,
+      "rms_px": 53.7,
+      "median_px": 41.9,
+      "max_px": 105.3,
+      "rms_m": 2.26,
+      "median_m": 1.88,
+      "max_m": 4.35
+     },
+     "skipped": {
+      "n": 4,
+      "rms_px": 160.1,
+      "median_px": 160.3,
+      "max_px": 166.3,
+      "rms_m": 6.8,
+      "median_m": 6.8,
+      "max_m": 7.06
+     }
+    },
+    "stretch": {
+     "position": [
+      490.28,
+      2.41,
+      -514.59
+     ],
+     "yaw_deg": 353.89,
+     "pitch_deg": 1.77,
+     "f_px": 4667.8,
+     "du_px": 12.2,
+     "dv_px": 60.2,
+     "k_vertical": 1.566,
+     "eye_above_ground_m": -3.21,
+     "moved_from_prior_m": 143.6,
+     "points": {
+      "n": 43,
+      "rms_px": 36.8,
+      "median_px": 27.2,
+      "max_px": 84.9,
+      "rms_m": 1.59,
+      "median_m": 1.19,
+      "max_m": 3.53
+     },
+     "tests": {
+      "n": 36,
+      "rms_px": 34.2,
+      "median_px": 25.0,
+      "max_px": 84.9,
+      "rms_m": 1.49,
+      "median_m": 1.12,
+      "max_m": 3.53
+     },
+     "sure12": {
+      "n": 37,
+      "rms_px": 32.2,
+      "median_px": 25.5,
+      "max_px": 65.0,
+      "rms_m": 1.4,
+      "median_m": 1.13,
+      "max_m": 2.61
+     },
+     "skipped": {
+      "n": 4,
+      "rms_px": 149.7,
+      "median_px": 149.8,
+      "max_px": 155.8,
+      "rms_m": 6.44,
+      "median_m": 6.44,
+      "max_m": 6.7
+     }
+    }
+   }
+  },
+  "P0042": {
+   "plate": "2",
+   "image": "P0042.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1374
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.011649,
+    "lon": 116.30238,
+    "err": 10.0,
+    "bearing": 174.0,
+    "eye": 4.6,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=43 m from the rubble spacing; the ring pavement gives 42 m. In the court north of the fountain. Eye 4.6 m. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      461.77,
+      3.65,
+      -775.23
+     ],
+     "yaw_deg": 174.32,
+     "pitch_deg": 0.56,
+     "f_px": 1522.8,
+     "du_px": 12.9,
+     "dv_px": 218.7,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.9,
+     "moved_from_prior_m": 8.0,
+     "points": {
+      "n": 36,
+      "rms_px": 53.5,
+      "median_px": 37.5,
+      "max_px": 108.7,
+      "rms_m": 1.69,
+      "median_m": 1.33,
+      "max_m": 4.55
+     },
+     "tests": {
+      "n": 29,
+      "rms_px": 56.5,
+      "median_px": 37.8,
+      "max_px": 108.7,
+      "rms_m": 1.84,
+      "median_m": 1.44,
+      "max_m": 4.55
+     },
+     "sure12": {
+      "n": 25,
+      "rms_px": 55.1,
+      "median_px": 59.1,
+      "max_px": 85.2,
+      "rms_m": 1.64,
+      "median_m": 1.29,
+      "max_m": 3.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      461.88,
+      3.42,
+      -774.34
+     ],
+     "yaw_deg": 174.08,
+     "pitch_deg": -1.54,
+     "f_px": 1397.7,
+     "du_px": 4.4,
+     "dv_px": 297.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.73,
+     "moved_from_prior_m": 8.9,
+     "points": {
+      "n": 36,
+      "rms_px": 42.5,
+      "median_px": 33.5,
+      "max_px": 103.6,
+      "rms_m": 1.32,
+      "median_m": 1.01,
+      "max_m": 3.05
+     },
+     "tests": {
+      "n": 29,
+      "rms_px": 42.4,
+      "median_px": 31.7,
+      "max_px": 103.6,
+      "rms_m": 1.39,
+      "median_m": 1.06,
+      "max_m": 3.05
+     },
+     "sure12": {
+      "n": 25,
+      "rms_px": 44.3,
+      "median_px": 29.6,
+      "max_px": 103.6,
+      "rms_m": 1.22,
+      "median_m": 0.83,
+      "max_m": 3.05
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      461.76,
+      3.09,
+      -775.28
+     ],
+     "yaw_deg": 173.91,
+     "pitch_deg": 0.28,
+     "f_px": 1417.3,
+     "du_px": 0.7,
+     "dv_px": 275.9,
+     "k_vertical": 1.111,
+     "eye_above_ground_m": 1.34,
+     "moved_from_prior_m": 7.9,
+     "points": {
+      "n": 36,
+      "rms_px": 40.1,
+      "median_px": 30.8,
+      "max_px": 89.1,
+      "rms_m": 1.26,
+      "median_m": 0.9,
+      "max_m": 2.67
+     },
+     "tests": {
+      "n": 29,
+      "rms_px": 38.6,
+      "median_px": 32.7,
+      "max_px": 89.1,
+      "rms_m": 1.32,
+      "median_m": 0.91,
+      "max_m": 2.67
+     },
+     "sure12": {
+      "n": 25,
+      "rms_px": 42.1,
+      "median_px": 28.2,
+      "max_px": 89.1,
+      "rms_m": 1.16,
+      "median_m": 0.88,
+      "max_m": 2.67
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0185": {
+   "plate": "",
+   "image": "P0185.jpg",
+   "free": true,
+   "size": [
+    1020,
+    752
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.01072,
+    "lon": 116.30265,
+    "err": 15.0,
+    "bearing": 20.0,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": null,
+    "f_sd": null,
+    "kind": "photo",
+    "basis": "Catalogue camera note (Round 6): the east wing from the south-south-west, about 35 m. Eye of a standing photographer on rubble, assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      472.42,
+      2.57,
+      -682.49
+     ],
+     "yaw_deg": 31.48,
+     "pitch_deg": 3.49,
+     "f_px": 1686.9,
+     "du_px": 4.3,
+     "dv_px": 5.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.66,
+     "moved_from_prior_m": 11.3,
+     "points": {
+      "n": 6,
+      "rms_px": 13.5,
+      "median_px": 7.3,
+      "max_px": 29.5,
+      "rms_m": 0.29,
+      "median_m": 0.15,
+      "max_m": 0.62
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 13.5,
+      "median_px": 7.3,
+      "max_px": 29.5,
+      "rms_m": 0.29,
+      "median_m": 0.15,
+      "max_m": 0.62
+     },
+     "sure12": {
+      "n": 3,
+      "rms_px": 6.3,
+      "median_px": 6.1,
+      "max_px": 7.7,
+      "rms_m": 0.13,
+      "median_m": 0.13,
+      "max_m": 0.16
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0186": {
+   "plate": "",
+   "image": "P0186.jpg",
+   "free": true,
+   "size": [
+    1220,
+    915
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.01002,
+    "lon": 116.30244,
+    "err": 30.0,
+    "bearing": 0.0,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": null,
+    "f_sd": null,
+    "kind": "photo",
+    "basis": "Catalogue: on the axis across the reed pond, about 130 m from the south front, +-30 m."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      519.94,
+      5.87,
+      -644.99
+     ],
+     "yaw_deg": 324.1,
+     "pitch_deg": -3.04,
+     "f_px": 1609.7,
+     "du_px": 18.9,
+     "dv_px": -1.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 7.17,
+     "moved_from_prior_m": 69.6,
+     "points": {
+      "n": 15,
+      "rms_px": 9.5,
+      "median_px": 9.0,
+      "max_px": 15.2,
+      "rms_m": 0.58,
+      "median_m": 0.56,
+      "max_m": 0.9
+     },
+     "tests": {
+      "n": 15,
+      "rms_px": 9.5,
+      "median_px": 9.0,
+      "max_px": 15.2,
+      "rms_m": 0.58,
+      "median_m": 0.56,
+      "max_m": 0.9
+     },
+     "sure12": {
+      "n": 6,
+      "rms_px": 7.1,
+      "median_px": 6.8,
+      "max_px": 10.2,
+      "rms_m": 0.42,
+      "median_m": 0.42,
+      "max_m": 0.62
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0187": {
+   "plate": "",
+   "image": "P0187.jpg",
+   "free": true,
+   "size": [
+    1496,
+    1100
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.01108,
+    "lon": 116.30275,
+    "err": 15.0,
+    "bearing": 325.0,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": null,
+    "f_sd": null,
+    "kind": "photo",
+    "basis": "Catalogue: from the south-east, close to the stair. Round 13: err 15 m assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "1 anchor points"
+    },
+    "all": {
+     "position": [
+      489.87,
+      2.3,
+      -708.79
+     ],
+     "yaw_deg": 318.46,
+     "pitch_deg": 7.78,
+     "f_px": 1562.8,
+     "du_px": 54.5,
+     "dv_px": -105.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.79,
+     "moved_from_prior_m": 11.3,
+     "points": {
+      "n": 15,
+      "rms_px": 25.0,
+      "median_px": 14.8,
+      "max_px": 55.8,
+      "rms_m": 0.44,
+      "median_m": 0.37,
+      "max_m": 0.84
+     },
+     "tests": {
+      "n": 14,
+      "rms_px": 25.7,
+      "median_px": 17.3,
+      "max_px": 55.8,
+      "rms_m": 0.45,
+      "median_m": 0.39,
+      "max_m": 0.84
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 17.3,
+      "median_px": 7.2,
+      "max_px": 32.6,
+      "rms_m": 0.34,
+      "median_m": 0.14,
+      "max_m": 0.63
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0188": {
+   "plate": "",
+   "image": "P0188.jpg",
+   "free": true,
+   "size": [
+    1050,
+    787
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.01123,
+    "lon": 116.303,
+    "err": 15.0,
+    "bearing": 270.0,
+    "eye": 1.6,
+    "eye_sd": 3.0,
+    "f2400": null,
+    "f_sd": null,
+    "kind": "photo",
+    "basis": "Catalogue: frontal on the narrow east end, about 35 m east of the footprint edge, +-15 m; the camera may stand on rubble (eye sd 3 m)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      512.65,
+      5.55,
+      -740.88
+     ],
+     "yaw_deg": 258.47,
+     "pitch_deg": 1.95,
+     "f_px": 1973.3,
+     "du_px": -8.0,
+     "dv_px": 0.7,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.75,
+     "moved_from_prior_m": 4.7,
+     "points": {
+      "n": 7,
+      "rms_px": 25.8,
+      "median_px": 6.7,
+      "max_px": 65.3,
+      "rms_m": 0.44,
+      "median_m": 0.12,
+      "max_m": 1.11
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 25.8,
+      "median_px": 6.7,
+      "max_px": 65.3,
+      "rms_m": 0.44,
+      "median_m": 0.12,
+      "max_m": 1.11
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 7.6,
+      "median_px": 6.4,
+      "max_px": 11.5,
+      "rms_m": 0.13,
+      "median_m": 0.11,
+      "max_m": 0.19
+     },
+     "skipped": {
+      "n": 1,
+      "rms_px": 512.7,
+      "median_px": 512.7,
+      "max_px": 512.7,
+      "rms_m": 8.75,
+      "median_m": 8.75,
+      "max_m": 8.75
+     }
+    }
+   }
+  },
+  "P0189": {
+   "plate": "",
+   "image": "P0189.jpg",
+   "free": true,
+   "size": [
+    1050,
+    771
+   ],
+   "object": "XY01",
+   "points_from": "model XY01-xieqiqu",
+   "prior": {
+    "lat": 40.0115,
+    "lon": 116.30244,
+    "err": 10.0,
+    "bearing": 180.0,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": null,
+    "f_sd": null,
+    "kind": "photo",
+    "basis": "Catalogue: frontal on the north front with the fountain basin in the foreground, about 25 m north of the footprint, +-10 m."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      461.66,
+      3.32,
+      -773.97
+     ],
+     "yaw_deg": 174.24,
+     "pitch_deg": 0.81,
+     "f_px": 1198.0,
+     "du_px": 36.2,
+     "dv_px": 8.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.65,
+     "moved_from_prior_m": 8.6,
+     "points": {
+      "n": 21,
+      "rms_px": 39.7,
+      "median_px": 35.2,
+      "max_px": 80.7,
+      "rms_m": 1.09,
+      "median_m": 1.06,
+      "max_m": 2.01
+     },
+     "tests": {
+      "n": 14,
+      "rms_px": 46.2,
+      "median_px": 40.7,
+      "max_px": 80.7,
+      "rms_m": 1.31,
+      "median_m": 1.25,
+      "max_m": 2.01
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 41.7,
+      "median_px": 38.1,
+      "max_px": 66.9,
+      "rms_m": 1.21,
+      "median_m": 1.18,
+      "max_m": 2.01
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      461.24,
+      3.42,
+      -774.64
+     ],
+     "yaw_deg": 174.87,
+     "pitch_deg": 4.91,
+     "f_px": 1127.7,
+     "du_px": 67.2,
+     "dv_px": -64.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.7,
+     "moved_from_prior_m": 9.4,
+     "points": {
+      "n": 21,
+      "rms_px": 21.2,
+      "median_px": 22.2,
+      "max_px": 38.2,
+      "rms_m": 0.59,
+      "median_m": 0.35,
+      "max_m": 1.1
+     },
+     "tests": {
+      "n": 14,
+      "rms_px": 19.1,
+      "median_px": 15.8,
+      "max_px": 38.2,
+      "rms_m": 0.58,
+      "median_m": 0.43,
+      "max_m": 0.96
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 16.3,
+      "median_px": 9.6,
+      "max_px": 28.8,
+      "rms_m": 0.38,
+      "median_m": 0.31,
+      "max_m": 0.9
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}
