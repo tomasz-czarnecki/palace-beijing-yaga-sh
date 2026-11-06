@@ -705,7 +705,7 @@ async function main() {
   if (deep) await open(deep.toUpperCase());
   await modelsReady;
   if (params.get("plate")) await plateMode(params.get("plate").toUpperCase(), params.get("platefit") || "all");
-  document.getElementById("loading").hidden = true;
+  { const ld = document.getElementById("loading"); if (ld && !window.__loaderOn) ld.hidden = true; } // loading.js (when on) closes its own card
   const routeParam = params.get("route");
   if (routeParam) startTour(routeParam.toUpperCase(), Number(params.get("routet") || 0));
   window.viewer = { around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };

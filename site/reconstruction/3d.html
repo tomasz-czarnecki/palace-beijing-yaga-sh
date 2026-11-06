@@ -118,8 +118,38 @@
     #walk { display: block; width: 100%; margin: 6px 0 2px; padding: 5px 0; border: 1px solid #17130F; border-radius: 3px; background: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; cursor: pointer; }
     #hover { position: fixed; z-index: 950; max-width: 300px; padding: 2px 7px; border-radius: 3px; background: #17130Fe6; color: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; pointer-events: none; }
     #hover[hidden] { display: none; }
-    #loading { position: fixed; top: 48px; right: 0; bottom: 0; left: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; background: #17130Fcc; color: #F5EEE2; font: 13px 'Geist', system-ui, sans-serif; }
+    /* Loading screen and console (loading.js): the card stays over the view while the gardens and the detailed buildings come in one by one, then fades out. */
+    #loading { position: fixed; top: 48px; right: 0; bottom: 0; left: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; background: #17130Fd9; color: #F5EEE2; font: 13px/1.45 'Geist', system-ui, sans-serif; transition: opacity .8s; }
     #loading[hidden] { display: none; }
+    #loading .ld-card { width: min(560px, calc(100vw - 24px)); max-height: calc(100vh - 84px); display: flex; flex-direction: column; box-sizing: border-box; padding: 16px 18px 12px; background: #17130F; border: 1px solid #2F2720; border-radius: 6px; box-shadow: 0 10px 34px #0007; }
+    #loading .ld-head { display: flex; align-items: center; gap: 12px; }
+    #loading .ld-head img { width: 36px; height: auto; flex: none; }
+    #loading .ld-head > div { flex: 1; min-width: 0; }
+    #loading h2 { margin: 0; font-size: 16px; font-weight: 600; }
+    #loading .ld-sub { font-size: 12px; color: #D9CDBB; }
+    #loading .ld-sub.bad { color: #f0907a; }
+    #loading .ld-head button { flex: none; height: 30px; min-width: 30px; padding: 0 8px; border: 1px solid #A1927D; border-radius: 3px; background: none; color: inherit; font: inherit; cursor: pointer; }
+    #loading .ld-head button[hidden] { display: none; }
+    #loading .ld-bar { height: 6px; margin: 12px 0 5px; background: #2F2720; border-radius: 3px; overflow: hidden; }
+    #loading .ld-bar i { display: block; width: 0; height: 100%; background: #C2452D; transition: width .3s; }
+    #loading .ld-stat { display: flex; justify-content: space-between; gap: 10px; font: 11.5px ui-monospace, monospace; color: #A1927D; }
+    #loading ol { list-style: none; margin: 10px 0 8px; padding: 0; font-size: 12.5px; color: #8f8272; }
+    #loading ol li { padding: 1px 0; }
+    #loading ol li::before { content: "○"; display: inline-block; width: 1.5em; }
+    #loading ol li.run { color: #F5EEE2; }
+    #loading ol li.run::before { content: "◐"; color: #C2452D; }
+    #loading ol li.ok { color: #D9CDBB; }
+    #loading ol li.ok::before { content: "✓"; color: #8fbf73; }
+    #loading .ld-log { flex: 1 1 auto; min-height: 96px; max-height: 30vh; overflow-y: auto; padding: 6px 8px; background: #0d0a08; border-radius: 3px; font: 11px/1.5 ui-monospace, monospace; }
+    #loading .ln { display: flex; gap: 8px; white-space: nowrap; }
+    #loading .ln .i { flex: none; width: 1em; }
+    #loading .ln .n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+    #loading .ln .s { flex: none; width: 92px; text-align: right; }
+    #loading .ln .t { flex: none; width: 44px; text-align: right; color: #8f8272; }
+    #loading .ln.ok .i { color: #8fbf73; } #loading .ln.run { color: #F0A58C; } #loading .ln.bad { color: #f0705a; } #loading .ln.skip { color: #8f8272; }
+    #loading .ld-tip { margin-top: 8px; font-size: 11.5px; color: #8f8272; }
+    #loading.done { opacity: 0; }
+    @media (max-width: 760px) { #loading ol { display: none; } #loading .ln .s { width: 76px; } }
     @media (max-width: 760px) {
       #bpanel { top: auto; left: 0; bottom: 0; width: 100%; height: 56vh; box-shadow: 0 -2px 14px #0004; border-radius: 10px 10px 0 0; }
       body.panel-open #panel { display: none; }
@@ -215,7 +245,22 @@
   <div id="hover" hidden></div>
   <img id="plate-img" alt="">
   <div id="plate-ui"></div>
-  <div id="loading" role="status">Building the gardens…</div>
+  <div id="loading" role="region" aria-label="Loading the 3D view">
+    <div class="ld-card">
+      <div class="ld-head">
+        <img src="../assets/mark.svg" width="36" height="36" alt="">
+        <div><h2><span lang="zh-Hans">圆明园</span> Yuanmingyuan, before 1860</h2><div class="ld-sub" id="ld-sub" role="status" aria-live="polite">Building the gardens…</div></div>
+        <button id="ld-reload" type="button" hidden>Reload</button>
+        <button id="ld-close" type="button" aria-label="Hide the loading console" hidden>×</button>
+      </div>
+      <div class="ld-bar"><i id="ld-bar"></i></div>
+      <div class="ld-stat"><span id="ld-count">Starting</span><span id="ld-bytes"></span></div>
+      <ol id="ld-steps"></ol>
+      <div class="ld-log" id="ld-log" aria-hidden="true"></div>
+      <div class="ld-tip">Drag to turn · scroll to zoom · click a building for its story</div>
+    </div>
+  </div>
+  <script src="loading.js"></script>
   <script src="vendor/three.bundle.js"></script>
   <script src="ground3d.js"></script>
   <script src="around3d.js"></script>
