@@ -1,0 +1,31 @@
+name,what,plan_px,note
+deck,the compound's terrace: the outer wall's line and the terrace's curved south edge,10380 2797;10766 2797;10766 3521;10750 3500;10724 3482;10690 3468;10628 3467;10628 3514;10518 3514;10518 3465;10453 3471;10420 3489;10398 3509;10380 3523,"S01 (Round 17 reading, 2.4x crops): the north wall at y 2797, the west wall at x 10378-10385 and the east at 10762-10771 (both read, the mean kept); the curved line from the forecourt's corners to the gate yard and the yard's rectangle. P0403, P0505 and P0815 show the edge as a dressed retaining wall with a central flight"
+wall_W,the outer wall's west run,10380 2797;10380 3443,S01: the double line at x 10378 (crops a and b)
+wall_N,the outer wall's north run with the north gate,10380 2797;10766 2797,S01: y 2797 (crop a); the north gate on the axis at x 10569
+wall_E,the outer wall's east run,10766 2797;10766 3443,S01: x 10762 (crops a and b); the shop street 买卖街 stands outside it (S940 p.360)
+wall_S_W,the south wall west of the gate,10380 3443;10527 3443,S01: y 3443 (crop b)
+wall_S_E,the south wall east of the gate,10615 3443;10766 3443,S01: y 3443
+court_W,the 含经堂 court's west wall,10495 3443;10495 3287,S01: x 10495 (crop b px 300); the west side hall stands against it
+court_E,the 含经堂 court's east wall,10657 3443;10657 3287,S01: x 10657 (crop b px 690)
+gal_W,the west 墨刻游廊 between 含经堂 and 淳化轩,10500 3222;10500 3083,"S01: the double line px 300-310 of crops a, b; the yellow slip 墨刻游廊 on the Yangshi Lei plan (S940 p.361, fig. 9)"
+gal_E,the east 墨刻游廊,10652 3222;10652 3083,S01: px 680-690
+cross_W,the cross wall between the 梵香楼 group and the court of 三友轩,10380 3222;10426 3222;10441 3222;10495 3222,S01 crop b py 265: a wall with a small gate at x 10426-10441
+cross_E,the cross wall north of the 霞翥楼 group,10657 3228;10706 3228;10721 3228;10766 3228,"S01 crop b py 215-260, read loosely; the gap a small gate (C)"
+forecourt,"the forecourt's walls: west, south and east",10383 3523;10383 3733;10768 3731;10768 3521,S01 crop c: x 10385 and 10771 (the mean with the compound's walls kept); the south wall y 3733
+gate_flight,the flight down from the gate's yard on the axis,10561 3514;10587 3534,"S01 crop c: the small block 日 at px 458-522, py 168-225; P0403 and P0505 show a central flight there"
+side_flight_W,the hatched block on the west curve,10410 3498;10453 3471,"S01 crop c px 95-215, py 75-200: hatched, along the curve; read as a flight up the terrace (C, Q241)"
+side_flight_E,the hatched block on the east curve,10692 3471;10735 3498,"S01 crop c px 770-895, py 70-195"
+screen,the screen wall 影壁 in the 含经堂 court,10558 3402;10583 3412,"S01 crop b px 452-512, py 700-725; S940 p.360 '宫门内中轴线上影壁一座'; P0402 '含经堂以及影壁遗址'"
+fx_range_W,梵香楼: the outer range,10384 3262;10409 3441,"S01 crop b px 20-85, py 360-800: a long range on the west side"
+fx_wing_NW,梵香楼: the north wing,10409 3262;10449 3302,S01 crop b px 85-190 py 360-460
+fx_wing_SW,梵香楼: the south wing,10409 3410;10449 3441,S01 crop b px 85-190 py 720-800
+peidian_W,the west side hall of the 含经堂 court,10460 3316;10495 3400,"S01 crop b px 215-300, py 495-695 (the box F0317, labelled 涵光室 by the plan readers; S940 p.360 places 涵光室 west of 淳化轩's terrace, so this is the side hall 配殿, Q242)"
+chx_terrace,淳化轩's front terrace 月台 with two flights at its front ends,10532 3082;10610 3109,"S01 crop a px 390-575, py 725-790; the two flights px 395-415 and 555-575 (P0404: two flights on the south face)"
+rock_axis_W,the rockery between 含经堂 and 淳化轩: the west pile,10508 3172;10565 3204,"S01 crop b px 320-480, py 140-225 (rock strokes); S940 p.359 '含经堂与淳化轩之间的叠石假山'; P0404 the pile before the terrace (re-set)"
+rock_axis_E,the rockery: the east pile,10577 3168;10637 3204,S01 crop b px 500-640
+rock_W,a rock pile in the court west of the 淳化轩 court,10412 3177;10457 3197,S01 crop b px 100-210 py 160-210
+rock_syx,the curved rockery round 三友轩,10388 3035;10392 3000;10405 2982;10428 2975;10450 2984,"S01 crop a px 40-200, py 460-620; S940 p.360 '一组堆砌成弧形的假山围拢着三友轩'; P0406"
+yz_bar,蕴真斋: the seven-bay body,10489 2851;10639 2901,S01 crop a px 285-645 py 170-290
+yz_back,蕴真斋: the back porch 抱厦,10535 2820;10601 2851,S01 crop a px 395-555 py 95-170
+yz_front,蕴真斋: the front porch and its terrace,10541 2901;10599 2976,"S01 crop a px 410-550 py 290-470 (the label's court, two small marks either side: lanterns or vessels, C)"
+north_gate,the north gate 北宫门 on the axis,10560 2780;10578 2812,S01 crop a px 455-500 py 0-75; S940 p.360 names 北宫门

@@ -27,6 +27,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r14_haiyan` | not recorded | 2026-11-06, from 01:30 | see its log | - | see its result row | see the git log | done |
 | `palace_r15_dashuifa` | not recorded | 2026-11-06, from 02:30 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r16_yuanying` | not recorded | 2026-11-06, from 03:49 | about 1 h | - | see its result row | see the git log | done |
+| `palace_r17_hanjing` | not recorded | 2026-11-06, from 04:44 | about 2 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -568,3 +569,41 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - **Footing skirts covered 方外观's door and ovals**, and `Parts.oval` filled the ovals' glass: found on the shots, fixed.
 - **The way to 远瀛观's door ran 4.24 m under it**: the ground of Round 10 has no terrace. Fixed with decks.
 - **P0773's side** (Q238), **P0776's scale and P0183's sliding camera** (Q240) are open; plate 8's near-elevation runs through 五竹亭's kit pavilions, so its overlay is compared against the model's own frontal view.
+
+## palace_r17_hanjing
+
+Brief: `palace_r17_hanjing.md`. The first detailed model of a Chinese compound: 含经堂 CC02 in 长春园, `models/CC02-hanjing-tang/`.
+
+**What it delivered:**
+- **The model:** the whole walled compound and its forecourt as one model (id CC02, 23 aliases): the forecourt with three glazed archways, crossing paths and lawns; the terrace the compound stands on (a deck) with its curved edge, the gate's projection and three flights; the gate; the 含经堂 court with the screen, two side halls and the ⊐ ranges 梵香楼 and 霞翥楼 of two storeys; 含经堂 (seven bays, a porch all round, double-eaved yellow 歇山) on its platform and front terrace; the galleries 墨刻游廊 with the 淳化阁帖 slabs and the rockery; 淳化轩 on its terrace with two flights; 蕴真斋 with porches; every hall of the side courts at its box; 三友轩 at its measured size; the north gate; the walls; court trees the texts name.
+- **Tools:**
+  - `scripts/hall_parts.py`: the hall kit of Round 11 in Python (platform, flights with side slabs, balustrade, columns, bands and bracket sets, doors and windows, roofs wd/xs/ys/xu/cj, rolled, double eaves, a second storey), and walls, screens, glazed archways, galleries, rocks.
+  - `models/CC02-hanjing-tang/plan_readings.csv`: S01 re-read in plan pixels for the model.
+  - `tools/plate_overlay.py --sheets <scene folder>` (a scene's own key points, viewpoints and fit); the `all` fit also starts from the anchored camera.
+  - `models/CC02-hanjing-tang/joints.json` `clear` (`scripts/model_site.py`, read by `scripts/greens1860.py`, which also keeps off decks): areas without planting that the ways may cross.
+- **Sources:** S940 (王文涛 2015) fetched as a research-only copy to `research/raw/S940/`: its figures 5 and 6 (the Yangshi Lei plans 长春园淳化轩) and 7 (the dig from the air) read for the layout.
+- **Key points:** 81 read by three readers on P0402, P0403, P0404, P0405, P0408, P0410, P0505, P0815 (P0406 one point, P0816 and P0817 not placeable) with one vocabulary (`docs/rounds/common/palace_r17_hanjing_vocab.md`).
+- **Questions** Q241-Q249; three wish rows; the dossier's notes.
+
+**Numbers:**
+- **check_models:** CC02 78,202 triangles (48,676 fill), GLB 2.40 MB, 0.71 MB compressed; 56 ground joints, highest 0.00 m above, deepest 0.45 m in; 13 joints on the deck, all at -0.15 m (`models/CC02-hanjing-tang/report.json`); 15 ways at its boxes, 0 off.
+- **Fit, v1 to final (rms at the object, camera on all points):** P0402 0.15 to 0.13 m, P0403 1.71 to 0.40 m, P0404 1.48 to 0.34 m (no test: the camera slides, Q248), P0405 0.70 to 0.25 m, P0408 0.59 to 0.41 m, P0410 0.88 to 0.91 m, P0505 1.52 to 0.66 m, P0815 1.70 to 0.67 m. Anchored tests (the heights against the feet): P0403 2.96 to 0.54 m, P0505 2.84 to 1.27 m, P0815 2.73 to 0.87 m, P0405 4.89 to 2.60 m, P0408 2.50 to 1.85 m.
+- **The terrace's height,** swept 1.8 to 3.0 m on P0403, P0505, P0815: summed rms 1.77, 1.73, 1.82, 2.00, 2.23 m: 2.1 m.
+- **Ways:** five CC02 boxes newly reached by Round 9's links (F0314, F0315, F0320, F0321, F0640); one newly unreached (F1001, outside the west wall, between it and the lake).
+- **Cost:** the overview draws 1.14 M triangles (1.06 M in Round 16) at a 729 ms median frame in software WebGL. The site grows by 2.4 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_kit.py --browser` (port 8934), `check_greens.py --browser` (port 8935).
+- The generator run twice: the same files (md5); `scripts/building_pages.py` run twice: no file of `site/` changed.
+- Screenshots in `screenshots/r17/`, opened: before (the kit) and after from the model's own views (front, aerial, rear, both sides, the gate, the 含经堂 court and terrace, 淳化轩's terrace, the galleries, 三友轩, 蕴真斋, the north gate, the joints at the terrace and the gate's flight, the ranges, the stage court, the south archway), `conf=1` and `assumed=0`, details (含经堂's eave, the gallery's slabs, the terrace's north-west corner, the west wall from outside, 三友轩's trees, the screen), the panel; the overlays (blend, edges, side by side) for every photograph and fit.
+
+**Went wrong or left open:**
+- **The deck as a footprint** blocked Round 9's links inside the compound; split into footprints (walls, platforms) and `clear` (courts, lawns).
+- **The inner walls' feet** were measured against the ground of Round 10 (2 m below the terrace) by `check_models.py`; they are joints with the deck now and measured in the model's report.
+- **The flights' L and R** were mirrored against the vocabulary for every side but one; the readers followed the brief.
+- **The gate's door bays** drew black (the dark core of the kit stood in front of the recessed plank doors), **the galleries' walls** faced the court, **the forecourt's clear area** stopped short of the curved edge so plants stood at the terrace's foot: all found on the shots, fixed.
+- **三友轩's three trees** first stood inside the hall B0555, 2 m before its front: moved behind it; the generator now counts trees inside a footprint (0).
+- **A thin dark sliver** shows against the west wall's inner face in the west court from a high view (`screenshots/r17/after_detail_sanyouxuan_trees.png`); the model holds only the wall and the terrace's edge there (queried), so it is likely where the terrace's floor meets the wall in the view: not traced.
+- **P0410's fit collapsed** its focal length after the side court's bays changed; fixed in the tool (a start from the anchored camera). One `--images P0410` run overwrote the fit table; the full fit was rerun.
+- **Open:** Q241 (the terrace's curve and height), Q244 (S01's 24 m yard), Q245, Q246, Q247, Q248 (P0404), Q249 (the forecourt's depth); every elevation is the kit's (C); the halls of the side courts are their class's.
+

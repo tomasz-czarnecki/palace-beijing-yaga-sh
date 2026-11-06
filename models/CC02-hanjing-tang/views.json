@@ -1,0 +1,22 @@
+{"note": "Round 17: the model's own views for tools/plate_overlay.mjs --views, [name, eye, target] in the model's frame (x east, y up, z south, metres).",
+ "views": [
+  ["front", [0, 7, 150], [0, 4, 50]],
+  ["aerial", [95, 95, 165], [0, 0, 0]],
+  ["aerial_rear", [-70, 85, -210], [0, 0, -40]],
+  ["west_side", [-120, 14, -10], [-35, 4, -20]],
+  ["east_side", [120, 14, -40], [35, 4, -40]],
+  ["rear", [0, 18, -170], [0, 4, -95]],
+  ["gate_front", [9, 2.0, 66], [0, 4, 40]],
+  ["court_hjt", [0, 4.1, 33], [0, 6, 0]],
+  ["hjt_terrace", [9, 3.6, 13], [0, 4.5, 2]],
+  ["chx_terrace", [-8, 4.0, -22], [0, 4.5, -44]],
+  ["galleries", [-13, 4.1, -18], [-17, 4.2, -38]],
+  ["sanyouxuan", [-24, 4.0, -36], [-36, 3.2, -52]],
+  ["yunzhenzhai", [12, 4.4, -62], [0, 5, -84]],
+  ["north_gate_out", [6, 3, -128], [0, 2.5, -104]],
+  ["joint_terrace_W", [-30, 1.8, 62], [-43, 1.2, 47]],
+  ["joint_gate_flight", [11, 1.8, 62], [0, 1.4, 50]],
+  ["fanxiang", [-26, 4.2, 12], [-42, 4.5, 14]],
+  ["stage_court", [30, 4.2, -40], [26, 5, -66]],
+  ["pailou_S", [6, 2.2, 112], [0, 4, 92]]
+ ]}

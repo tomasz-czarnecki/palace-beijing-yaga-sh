@@ -348,6 +348,8 @@ No measured footprint of 含经堂, 淳化轩 or 蕴真斋 is on disk: they are 
 - **Q172. CC02-15 买卖街.** CC02-15 买卖街: width of the shop street base disagrees: S941 (OCR of the 紫禁城 page) reads 东西宽约63米, E2156 (S115) gives about 6.3 m; both cite the dig brief S143. 40 bays in a row 135.65 m long fit 6.3 m better. Check the brief or the PDF image of S941 before any box. (verify_b worker, Round 7)
 - **Q173. CC02-04 淳化轩.** CC02-04 淳化轩: S940 gives 卷棚歇山 (p.360) and 琉璃歇山 (p.361) for the same hall; only S361 (E0057) calls 含经堂 glazed. Tile finds in S990 should settle both. (verify_b worker, Round 7)
 - **Q196. The width of a paved way 甬道 is not known anywhere.** No text and no published dig gives one; the drawn roads are 4-5 m (S01 at 大宫门 and 绮春园宫门); every other width is typology (`WIDTH` in `scripts/paths1860.py`). The digs of 含经堂 (S143, S990), 长春园宫门 (S316) and 大宫门 (S993) would.
+- **Q242. Which hall is 涵光室?** The plan readers' label 涵光室 sits on the side hall west of the 含经堂 court (box F0317); S940 p.360 puts 涵光室 west of 淳化轩's terrace, answering 渊映斋 on the east. The model draws F0317 as the court's west side hall 配殿 and its mirror on the east (CC02-N05, no box), as S940 says the court had; 涵光室 it
+- **Q245. 含经堂's two levels.** P0402 shows a first level about 0.8 m high with a central flight about 4.3 m wide, and a second flight behind it to a higher level. The model draws a front terrace 月台 22 x 6 m at 0.8 m and the hall's platform at 1.5 m; the terrace's plan and the upper height are C. (Round 17)
 
 ### Wishlist rows that name it
 
@@ -361,9 +363,19 @@ No measured footprint of 含经堂, 淳化轩 or 蕴真斋 is on disk: they are 
 | S143 full text (考古 2004(2):41-65) and S990 (2006 report), chapter 3 | the widths of the shop street, the footprints of 含经堂, 淳化轩, 蕴真斋, and the roof tiles | a library holding 考古 2004 and the 文物出版社 2006 report | order a scan of the brief; borrow the report |
 | Old photographs (1900-1940) of the Chinese scenes outside the Xiyang Lou: 正觉寺, 舍卫城, 文源阁 and 石玲峰, 福海 and its islands, 大宫门, 绮春园宫门, 含经堂, in Sidney Gamble (Duke), Hedda Morrison (Harvard-Yenching) and C. F. Moore (Royal BC Museum) | Round 7 found no new old photograph of any Yuanming Yuan scene outside the Xiyang Lou; every candidate on Commons was catalogued already | repository.duke.edu/dc/gamble; hollis.harvard.edu; Royal BC Museum MS-3171 | A person in a browser: the three refuse automated access (Q33, Q62); not tried again this round, as the brief asked |
 | Round 9: the 大宫门 report S993 read by eye in a browser, and the path chapters of S990 (含经堂) and S316 (长春园宫门) | The first measured widths of a 御路 and a 甬道 (Q196), replacing every typology width | the park's site; the books in a library | open the PDF in a browser; a library visit |
+| Round 17: the 含经堂 dig report S990 (2006), its plan of the whole site at scale and its unit sections with heights | The model's biggest guess: every elevation of the compound (the terrace's 2.1 m swept on three photographs, Q241; the platforms from risers on P0402, P0404, P0410) and the outlines S01 gives to ±10-20 m (the gate's projection, Q244; 含经堂's two levels, Q245; north of 蕴真斋, Q246) | National Library of China; university libraries (ISBN 7-5010-1939-8) | Order the book; read the plan and the sections per unit |
+| Round 17: tile finds of 含经堂 and 淳化轩 in S990, or a glazed fragment photographed on the site | The roofs' colour: yellow glazed is C on both (glazed from S361 and S940 p.361; the colour from the twin 乐寿堂), Q143, Q151 | S990; the site's display | Library; a visit |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### Round 17: the detailed model
+
+The compound is now a detailed model, `models/CC02-hanjing-tang/` (its README holds the evidence by part and the iteration log). What this round found, beyond the dossier above:
+- **The layout re-read on S01** (`models/CC02-hanjing-tang/plan_readings.csv`): the outer wall, the forecourt's walls with the three archways, a curved edge from the forecourt's corners to the gate, the gate's projection with a small flight, the walls of the 含经堂 court with the side halls against them, the double lines of the galleries 墨刻游廊 (Round 9's traces CCX-050, CCX-051), the screen, the ⊐ ranges of 梵香楼 and 霞翥楼, 淳化轩's terrace with two flights, 蕴真斋's cross, the north gate. It agrees with the Yangshi Lei plans 长春园淳化轩 (S940 figs. 5, 6; research-only copy of S940 in `research/raw/S940/`).
+- **The ruin, read for the platforms** (81 key points on P0402, P0403, P0404, P0405, P0408, P0410, P0505, P0815; `plate_keypoints.csv`, `photo_viewpoints.csv` and the fit `plate_fit.csv` in this folder): the compound stands on a terrace about 2.1 m above its forecourt (a sweep, Q241); the gate's projection is about 13 m wide with three flights (Q244); 含经堂 has a front terrace of about 0.8 m with a 4.3 m flight before a higher platform (Q245); 淳化轩's terrace has its two flights 2.5-3 m in from its ends; the screen's base is about 0.4 m; the platforms of the east court stand 0.6-0.9 m with columns about 2.4 m apart (P0410); north of 蕴真斋 the walk runs on more than 10 m (Q246).
+- **Which hall is which** (Q242, Q243): the plan readers' 涵光室 (F0317) is the 含经堂 court's west side hall; by S940's order N01 is 理心楼 and B0521 静莲斋.
+- **Final fit** (rms at the object, camera on all points): P0402 0.13 m, P0403 0.40 m, P0404 0.34 m (no test, Q248), P0405 0.25 m, P0408 0.41 m, P0410 0.91 m, P0505 0.66 m, P0815 0.67 m.

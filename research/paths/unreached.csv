@@ -1,14 +1,13 @@
 scene,box,reason
 CC01,F0305,no dry way round the boxes
 CC01,F1219,no dry way round the boxes
-CC02,F0314,no dry way round the boxes
-CC02,F0315,no dry way round the boxes
-CC02,F0320,no dry way round the boxes
-CC02,F0321,no dry way round the boxes
 CC02,F0455,no dry way round the boxes
 CC02,F0456,no dry way round the boxes
 CC02,F0457,no dry way round the boxes
-CC02,F0640,no dry way round the boxes
+CC02,F0943,no dry way round the boxes
+CC02,F0944,no dry way round the boxes
+CC02,F0973,no dry way round the boxes
+CC02,F0974,no dry way round the boxes
 QC16,F1480,no dry way round the boxes
 QC68,F1466,no dry way round the boxes
 QC69,F1476,no dry way round the boxes

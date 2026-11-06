@@ -5,7 +5,7 @@
   node tools/plate_overlay.mjs --object XY01            (the renders, from one page load; tools/serve_local.py must not be running on 8891)
   uv run python tools/plate_overlay.py compose --object XY01
 
-Generic: any picture with rows in research/xiyanglou/plate_keypoints.csv, any XY object. The object's points come from its detailed model (models/<ID>-<slug>/keypoints.json,
+Generic: any picture with rows in research/xiyanglou/plate_keypoints.csv, any XY object; from Round 17 any scene with --sheets research/scenes/<ID>-<slug> (its own sheets there). The object's points come from its detailed model (models/<ID>-<slug>/keypoints.json,
 written by the model's generator) or, with no model, from the stone kit's numbers (data/halls_1860.geojson, data/kit_1860.json): the corners at foot and cornice, the ridge, the eave tips,
 the pediment, the stair landing, as stonekit3d.js draws them.
 
@@ -40,6 +40,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from scene1860 import DATUM_M, to_xz  # noqa: E402
 
 XY = ROOT / "research/xiyanglou"
+SHEETS = XY  # Round 17: --sheets research/scenes/CC02-hanjing-tang reads a scene's own plate_keypoints.csv and photo_viewpoints.csv there and writes plate_fit.csv, plate_cameras.json beside them
 SHOTS = ROOT / "screenshots/r13"  # --shots screenshots/r14 (Round 14)
 SIGMA = {"1": 3.0, "2": 8.0, "3": 15.0}
 F_PLATE_2400 = 1250.0  # viewpoints.csv: 'D=f/s with f=1250 px of plates 1-2', on the 2400 px copies
@@ -183,14 +184,14 @@ def project(cam, X, size):
 def priors_of(pid, plate, cat):
     """The viewpoint's prior: position (scene x, z), its error, the eye's height above the ground, the bearing, a focal length if known."""
     if plate:
-        r = next(r for r in rd(XY / "viewpoints.csv") if r["plate"] == plate)
+        r = next(r for r in rd(SHEETS / "viewpoints.csv") if r["plate"] == plate)
         eye = {"1": 6.2, "2": 4.6}.get(plate)
         if eye is None:
             import re
             mm = re.search(r"[Ee]ye (?:about )?([\d.]+) m", r["basis"])
             eye = float(mm.group(1)) if mm else 4.0
         return {"lat": float(r["lat"]), "lon": float(r["lon"]), "err": float(r["err_m"]), "bearing": float(r["bearing"]), "eye": eye, "eye_sd": 3.0, "f2400": F_PLATE_2400, "f_sd": 0.25, "kind": "plate", "basis": r["basis"]}
-    r = next((r for r in rd(XY / "photo_viewpoints.csv") if r["photo_id"] == pid), None)
+    r = next((r for r in rd(SHEETS / "photo_viewpoints.csv") if r["photo_id"] == pid), None)
     if r is None:
         c = cat[pid]
         r = {"lat": c["camera_lat"], "lon": c["camera_lon"], "err_m": 20, "bearing": c["bearing"], "eye_m": 1.6, "basis": c["camera_note"]}
@@ -207,7 +208,7 @@ def ground_at(x, z):
     return g if g is not None else ground_at.G.at(x, z)
 
 
-def fit_camera(obs, pts, size, pr, use):
+def fit_camera(obs, pts, size, pr, use, starts=()):
     """obs: name -> (x, y, sure); pts: name -> (X, anchor); use: 'anchored' or 'all'."""
     W, H = size
     x0, z0 = to_xz(pr["lon"], pr["lat"])
@@ -239,9 +240,16 @@ def fit_camera(obs, pts, size, pr, use):
 
     t0 = np.array([*C0, yaw0, 0.0, math.log(F0), 0.0, 0.0] + ([0.0] if use == "stretch" else []))
     best = None
+    inits = []
     for dyaw in (0.0, 0.15, -0.15):
         t = t0.copy()
         t[3] += dyaw
+        inits.append(t)
+    for st in starts:  # Round 17: also from another fit's camera (the anchored one): a near camera can collapse its focal length from the prior's start (P0410)
+        t = t0.copy()
+        t[:8] = st[:8]
+        inits.append(t)
+    for t in inits:
         r = least_squares(res, t, loss="soft_l1", f_scale=2.0, max_nfev=4000)
         if best is None or r.cost < best.cost:
             best = r
@@ -268,16 +276,25 @@ def parts_of(args):
 
 
 def set_shots(args):
-    global SHOTS
+    global SHOTS, SHEETS
     if getattr(args, "shots", ""):
         SHOTS = ROOT / args.shots
+    if getattr(args, "sheets", ""):
+        SHEETS = ROOT / args.sheets
+
+
+def out_names(obj):
+    """The fit table and the cameras: research/xiyanglou/plate_fit_<ID>.csv and plate_cameras_<ID>.json; in a scene's folder (--sheets) plate_fit.csv and plate_cameras.json."""
+    if SHEETS == XY:
+        return SHEETS / f"plate_fit_{obj}.csv", SHEETS / f"plate_cameras_{obj}.json"
+    return SHEETS / "plate_fit.csv", SHEETS / "plate_cameras.json"
 
 
 def cmd_fit(args):
     set_shots(args)
     cat = catalogue()
     pts_def, origin = model_points(args.object)
-    rows = [r for r in rd(XY / "plate_keypoints.csv") if r["object"].split("-")[0] == args.object.split("-")[0]]
+    rows = [r for r in rd(SHEETS / "plate_keypoints.csv") if r["object"].split("-")[0] == args.object.split("-")[0]]
     images = args.images.split(",") if args.images else sorted({r["photo_id"] for r in rows})
     SHOTS.mkdir(parents=True, exist_ok=True)
     (SHOTS / "local").mkdir(exist_ok=True)
@@ -299,15 +316,17 @@ def cmd_fit(args):
             print(f"{pid}: {len(obs)} points, too few for a camera: left out")
             continue
         cams[pid] = {"plate": plate, "image": f"{pid}.jpg", "free": free, "size": list(size), "object": args.object, "points_from": origin, "prior": pr, "not_in_model": missing, "fits": {}}
+        prev = []
         for use in ("anchored", "all", "stretch") if plate else ("anchored", "all"):
             n_anchor = sum(1 for n in obs if n in pts and pts[n][1])
             if use == "anchored" and n_anchor < 3:
                 cams[pid]["fits"][use] = {"skipped": f"{n_anchor} anchor points"}
                 continue
-            cam, used, C0 = fit_camera(obs, pts, size, pr, use)
+            cam, used, C0 = fit_camera(obs, pts, size, pr, use, starts=prev)
             # a second pass with the faces chosen for the fitted camera
             pts = resolve(pts_def, cam[:3])
-            cam, used, C0 = fit_camera(obs, pts, size, pr, use)
+            cam, used, C0 = fit_camera(obs, pts, size, pr, use, starts=prev)
+            prev = [cam]
             out = []
             for n, (u, v, s) in list(obs.items()) + list(skipped.items()):
                 if n not in pts:
@@ -352,18 +371,19 @@ def cmd_fit(args):
         a = cams[pid]["fits"].get("all", {})
         b = cams[pid]["fits"].get("anchored", {})
         print(f"{pid} plate {plate or '-'}: {len(obs)} read, {len(missing)} not in the model; all: {a.get('points')}; anchored tests: {b.get('tests', b.get('skipped'))}")
-    with open(XY / f"plate_fit_{args.object}.csv", "w", newline="", encoding="utf-8") as fh:
+    fit_csv, cam_json = out_names(args.object)
+    with open(fit_csv, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=list(table[0].keys()))
         w.writeheader()
         w.writerows(table)
-    json.dump({"object": args.object, "label": args.label, "points_from": origin, "cameras": cams}, open(XY / f"plate_cameras_{args.object}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    json.dump({"object": args.object, "label": args.label, "points_from": origin, "cameras": cams}, open(cam_json, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     publish_cameras()
 
 
 def publish_cameras():
     """site/reconstruction/data/plates.json: every free picture's fitted cameras, for the 3D view's ?plate= mode. Research-only pictures stay out."""
     out = {}
-    for p in sorted(XY.glob("plate_cameras_*.json")):
+    for p in sorted(XY.glob("plate_cameras_*.json")) + sorted((ROOT / "research/scenes").glob("*/plate_cameras.json")):
         d = json.load(open(p, encoding="utf-8"))
         for pid, c in d["cameras"].items():
             if not c["free"]:
@@ -399,7 +419,7 @@ def draw_points(pid, path, free, rows, obj):
 def cmd_compose(args):
     set_shots(args)
     cat = catalogue()
-    d = json.load(open(XY / f"plate_cameras_{args.object}.json", encoding="utf-8"))
+    d = json.load(open(out_names(args.object)[1], encoding="utf-8"))
     for pid, c in d["cameras"].items():
         path, free = image_path(pid, cat)
         dest = SHOTS if free else SHOTS / "local"
@@ -438,9 +458,11 @@ def main():
     f.add_argument("--label", default="")
     f.add_argument("--shots", default="")
     f.add_argument("--parts", default="", help="part-wise fits as well: 'name=regex;name=regex' on the point names (Round 14)")
+    f.add_argument("--sheets", default="", help="a scene's folder holding plate_keypoints.csv and photo_viewpoints.csv (Round 17); default research/xiyanglou")
     c = sub.add_parser("compose")
     c.add_argument("--object", required=True)
     c.add_argument("--shots", default="")
+    c.add_argument("--sheets", default="")
     args = ap.parse_args()
     {"fit": cmd_fit, "compose": cmd_compose}[args.cmd](args)
 

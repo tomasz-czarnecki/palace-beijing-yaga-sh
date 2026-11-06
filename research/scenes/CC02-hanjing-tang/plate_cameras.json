@@ -1,0 +1,923 @@
+{
+ "object": "CC02",
+ "label": "final",
+ "points_from": "model CC02-hanjing-tang",
+ "cameras": {
+  "P0402": {
+   "plate": "",
+   "image": "P0402.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.007794,
+    "lon": 116.3074024,
+    "err": 6.0,
+    "bearing": 352.3,
+    "eye": 3.7,
+    "eye_sd": 2.0,
+    "f2400": 2078.460969082653,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader A: camera at (0.0, 33.0) in the model's frame, bearing 0.0 on its plan; At the gate looking north on the axis; the two stone remains (~4 m apart) about 9 m ahead and 含经堂's flight foot about 36 m ahead from the horizon at y~400. Eye height counted from the ground of Round 10: the terrace's 2.1 m added (the photograph is taken inside the compound)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      886.38,
+      5.33,
+      -350.04
+     ],
+     "yaw_deg": 350.15,
+     "pitch_deg": -1.18,
+     "f_px": 833.0,
+     "du_px": -28.3,
+     "dv_px": -9.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 4.65,
+     "moved_from_prior_m": 1.9,
+     "points": {
+      "n": 7,
+      "rms_px": 6.8,
+      "median_px": 4.8,
+      "max_px": 11.2,
+      "rms_m": 0.2,
+      "median_m": 0.05,
+      "max_m": 0.39
+     },
+     "tests": {
+      "n": 3,
+      "rms_px": 9.7,
+      "median_px": 9.5,
+      "max_px": 11.2,
+      "rms_m": 0.3,
+      "median_m": 0.33,
+      "max_m": 0.39
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 7.4,
+      "median_px": 5.5,
+      "max_px": 11.2,
+      "rms_m": 0.26,
+      "median_m": 0.19,
+      "max_m": 0.39
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      886.26,
+      5.19,
+      -350.9
+     ],
+     "yaw_deg": 350.66,
+     "pitch_deg": -0.49,
+     "f_px": 752.4,
+     "du_px": -18.0,
+     "dv_px": -9.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 4.51,
+     "moved_from_prior_m": 1.1,
+     "points": {
+      "n": 7,
+      "rms_px": 4.9,
+      "median_px": 4.9,
+      "max_px": 8.0,
+      "rms_m": 0.13,
+      "median_m": 0.1,
+      "max_m": 0.22
+     },
+     "tests": {
+      "n": 3,
+      "rms_px": 5.2,
+      "median_px": 5.0,
+      "max_px": 5.8,
+      "rms_m": 0.17,
+      "median_m": 0.18,
+      "max_m": 0.22
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 4.4,
+      "median_px": 4.2,
+      "max_px": 5.8,
+      "rms_m": 0.16,
+      "median_m": 0.15,
+      "max_m": 0.22
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0403": {
+   "plate": "",
+   "image": "P0403.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0071519,
+    "lon": 116.3075219,
+    "err": 10.0,
+    "bearing": 352.3,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": 1563.8704474094468,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader A: camera at (0.0, 105.0) in the model's frame, bearing 0.0 on its plan; On the axis (flight at image centre); 84 m wall spans 1240 px and the 5.6 m flight 76 px giving f/D 14.8 at 56 m; the four footings in front (~17 m span) at ~13 m fix the lens."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      895.11,
+      2.67,
+      -280.0
+     ],
+     "yaw_deg": 354.38,
+     "pitch_deg": -0.9,
+     "f_px": 836.2,
+     "du_px": 14.3,
+     "dv_px": -7.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.6,
+     "moved_from_prior_m": 1.2,
+     "points": {
+      "n": 12,
+      "rms_px": 6.2,
+      "median_px": 5.7,
+      "max_px": 10.8,
+      "rms_m": 0.46,
+      "median_m": 0.4,
+      "max_m": 0.88
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 7.2,
+      "median_px": 6.4,
+      "max_px": 10.8,
+      "rms_m": 0.54,
+      "median_m": 0.45,
+      "max_m": 0.88
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 4.7,
+      "median_px": 4.8,
+      "max_px": 5.3,
+      "rms_m": 0.32,
+      "median_m": 0.32,
+      "max_m": 0.37
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      895.52,
+      3.01,
+      -279.26
+     ],
+     "yaw_deg": 354.09,
+     "pitch_deg": -1.16,
+     "f_px": 851.6,
+     "du_px": 15.1,
+     "dv_px": -9.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.87,
+     "moved_from_prior_m": 1.5,
+     "points": {
+      "n": 12,
+      "rms_px": 5.4,
+      "median_px": 5.2,
+      "max_px": 8.5,
+      "rms_m": 0.4,
+      "median_m": 0.36,
+      "max_m": 0.69
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 6.2,
+      "median_px": 5.5,
+      "max_px": 8.5,
+      "rms_m": 0.47,
+      "median_m": 0.38,
+      "max_m": 0.69
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 5.1,
+      "median_px": 5.2,
+      "max_px": 5.8,
+      "rms_m": 0.34,
+      "median_m": 0.34,
+      "max_m": 0.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0404": {
+   "plate": "",
+   "image": "P0404.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0081737,
+    "lon": 116.3072962,
+    "err": 9.0,
+    "bearing": 0.3,
+    "eye": 4.2,
+    "eye_sd": 2.0,
+    "f2400": 2078.460969082653,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader B: camera at (-3.0, -10.0) in the model's frame, bearing 8.0 on its plan; Terrace strip ~1000 px read as 17 m gives ~59 px/m at the face, ~25 m away with a ~1600 px lens; face near-frontal, terrace centred: camera on 含经堂's north side above the rockery court, eye ~1 m over the terrace top (~2 m over the court). Eye height counted from the ground of Round 10: the terrace's 2.1 m added (the photograph is taken inside the compound). An assumed lens of 60 degrees (a 2013 compact), a weak prior: without it the nine nearly coplanar points let the camera slide 17.5 m and sink below the terrace."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      874.97,
+      3.14,
+      -412.85
+     ],
+     "yaw_deg": 349.86,
+     "pitch_deg": 1.77,
+     "f_px": 351.7,
+     "du_px": -114.2,
+     "dv_px": 40.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.5,
+     "moved_from_prior_m": 18.9,
+     "points": {
+      "n": 9,
+      "rms_px": 41.3,
+      "median_px": 29.6,
+      "max_px": 77.1,
+      "rms_m": 0.77,
+      "median_m": 0.53,
+      "max_m": 1.51
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 54.8,
+      "median_px": 37.8,
+      "max_px": 77.1,
+      "rms_m": 1.03,
+      "median_m": 0.72,
+      "max_m": 1.51
+     },
+     "sure12": {
+      "n": 5,
+      "rms_px": 25.5,
+      "median_px": 29.6,
+      "max_px": 37.8,
+      "rms_m": 0.48,
+      "median_m": 0.53,
+      "max_m": 0.72
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      875.34,
+      1.97,
+      -410.67
+     ],
+     "yaw_deg": 357.53,
+     "pitch_deg": 5.66,
+     "f_px": 544.0,
+     "du_px": -21.6,
+     "dv_px": 94.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.33,
+     "moved_from_prior_m": 16.7,
+     "points": {
+      "n": 9,
+      "rms_px": 22.1,
+      "median_px": 19.0,
+      "max_px": 36.2,
+      "rms_m": 0.34,
+      "median_m": 0.29,
+      "max_m": 0.55
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 18.0,
+      "median_px": 10.9,
+      "max_px": 31.4,
+      "rms_m": 0.3,
+      "median_m": 0.18,
+      "max_m": 0.55
+     },
+     "sure12": {
+      "n": 5,
+      "rms_px": 14.2,
+      "median_px": 10.6,
+      "max_px": 25.1,
+      "rms_m": 0.19,
+      "median_m": 0.17,
+      "max_m": 0.31
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0405": {
+   "plate": "",
+   "image": "P0405.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0091235,
+    "lon": 116.3071609,
+    "err": 6.0,
+    "bearing": 175.3,
+    "eye": 5.7,
+    "eye_sd": 2.0,
+    "f2400": 2970.1042240995553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader B: camera at (0.5, -116.0) in the model's frame, bearing 183.0 on its plan; Porch 14.3 m = 1100 px and 淳化轩 29.2 m = 880 px, 32.5 m apart, give f ~1600 px, porch face ~21 m off and horizon y~270; eye ~3.6 m over the court, so the camera stood raised on the walk north of the porch. Eye height counted from the ground of Round 10: the terrace's 2.1 m added (the photograph is taken inside the compound)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      865.01,
+      4.2,
+      -500.86
+     ],
+     "yaw_deg": 170.68,
+     "pitch_deg": 0.3,
+     "f_px": 1696.2,
+     "du_px": -2.8,
+     "dv_px": 1.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.0,
+     "moved_from_prior_m": 2.4,
+     "points": {
+      "n": 8,
+      "rms_px": 59.2,
+      "median_px": 22.1,
+      "max_px": 123.6,
+      "rms_m": 1.84,
+      "median_m": 0.29,
+      "max_m": 3.96
+     },
+     "tests": {
+      "n": 4,
+      "rms_px": 83.0,
+      "median_px": 66.2,
+      "max_px": 123.6,
+      "rms_m": 2.6,
+      "median_m": 1.86,
+      "max_m": 3.96
+     },
+     "sure12": {
+      "n": 3,
+      "rms_px": 24.5,
+      "median_px": 29.4,
+      "max_px": 30.0,
+      "rms_m": 0.32,
+      "median_m": 0.38,
+      "max_m": 0.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      866.84,
+      5.96,
+      -500.13
+     ],
+     "yaw_deg": 169.78,
+     "pitch_deg": -3.79,
+     "f_px": 1620.9,
+     "du_px": -162.6,
+     "dv_px": -3.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.64,
+     "moved_from_prior_m": 0.5,
+     "points": {
+      "n": 8,
+      "rms_px": 18.9,
+      "median_px": 11.6,
+      "max_px": 34.6,
+      "rms_m": 0.25,
+      "median_m": 0.22,
+      "max_m": 0.41
+     },
+     "tests": {
+      "n": 4,
+      "rms_px": 12.8,
+      "median_px": 11.6,
+      "max_px": 19.0,
+      "rms_m": 0.22,
+      "median_m": 0.22,
+      "max_m": 0.29
+     },
+     "sure12": {
+      "n": 3,
+      "rms_px": 22.2,
+      "median_px": 19.0,
+      "max_px": 30.2,
+      "rms_m": 0.28,
+      "median_m": 0.25,
+      "max_m": 0.37
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0408": {
+   "plate": "",
+   "image": "P0408.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0083086,
+    "lon": 116.3068687,
+    "err": 20.0,
+    "bearing": 172.3,
+    "eye": 12.1,
+    "eye_sd": 2.0,
+    "f2400": 2078.460969082653,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader C: camera at (-37.0, -30.0) in the model's frame, bearing 180.0 on its plan; Looking south from high ground north of the range: near plain wall (wingN + range north end) horizontal so the view is square to it; N-S edges converge to x 666 near the top giving a steep look-down; people 50 m off stand ~12-15 m below the eye; camera x from where the centre line crosses the near wall (35% from its east end). Eye height counted from the ground of Round 10: the terrace's 2.1 m added (the photograph is taken inside the compound)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      841.49,
+      8.44,
+      -423.85
+     ],
+     "yaw_deg": 170.05,
+     "pitch_deg": -3.45,
+     "f_px": 1959.1,
+     "du_px": 1.3,
+     "dv_px": -11.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 7.46,
+     "moved_from_prior_m": 14.4,
+     "points": {
+      "n": 11,
+      "rms_px": 67.6,
+      "median_px": 11.9,
+      "max_px": 217.5,
+      "rms_m": 1.37,
+      "median_m": 0.35,
+      "max_m": 4.27
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 91.3,
+      "median_px": 13.9,
+      "max_px": 217.5,
+      "rms_m": 1.85,
+      "median_m": 0.45,
+      "max_m": 4.27
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 82.7,
+      "median_px": 11.9,
+      "max_px": 217.5,
+      "rms_m": 1.64,
+      "median_m": 0.28,
+      "max_m": 4.27
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      846.72,
+      6.21,
+      -409.1
+     ],
+     "yaw_deg": 172.23,
+     "pitch_deg": -2.32,
+     "f_px": 1533.6,
+     "du_px": -17.9,
+     "dv_px": -10.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 5.34,
+     "moved_from_prior_m": 5.3,
+     "points": {
+      "n": 11,
+      "rms_px": 14.9,
+      "median_px": 8.5,
+      "max_px": 31.5,
+      "rms_m": 0.41,
+      "median_m": 0.29,
+      "max_m": 0.82
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 13.8,
+      "median_px": 6.7,
+      "max_px": 31.0,
+      "rms_m": 0.38,
+      "median_m": 0.23,
+      "max_m": 0.8
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 6.9,
+      "median_px": 7.3,
+      "max_px": 10.4,
+      "rms_m": 0.24,
+      "median_m": 0.26,
+      "max_m": 0.35
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0410": {
+   "plate": "",
+   "image": "P0410.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0083712,
+    "lon": 116.3076027,
+    "err": 6.0,
+    "bearing": 354.3,
+    "eye": 3.7,
+    "eye_sd": 2.0,
+    "f2400": 3296.972903345547,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader C: camera at (26.0, -28.0) in the model's frame, bearing 2.0 on its plan; Axial view north up the line side_F0315 / side_F0640 / stage (all centred about x 26 on the diagram); evening sun (17:27 March) from the left confirms looking north; flight foot-to-top width ratio 1.17 puts the camera about 7-9 m from the first flight's foot. Eye height counted from the ground of Round 10: the terrace's 2.1 m added (the photograph is taken inside the compound)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      907.63,
+      4.59,
+      -416.82
+     ],
+     "yaw_deg": 351.31,
+     "pitch_deg": -3.7,
+     "f_px": 760.0,
+     "du_px": -26.1,
+     "dv_px": -39.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.99,
+     "moved_from_prior_m": 3.6,
+     "points": {
+      "n": 13,
+      "rms_px": 38.7,
+      "median_px": 17.8,
+      "max_px": 83.5,
+      "rms_m": 0.89,
+      "median_m": 0.44,
+      "max_m": 1.68
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 51.8,
+      "median_px": 33.4,
+      "max_px": 83.5,
+      "rms_m": 0.92,
+      "median_m": 0.51,
+      "max_m": 1.68
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 42.1,
+      "median_px": 11.2,
+      "max_px": 83.5,
+      "rms_m": 0.34,
+      "median_m": 0.3,
+      "max_m": 0.51
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      907.6,
+      4.59,
+      -416.91
+     ],
+     "yaw_deg": 352.73,
+     "pitch_deg": -13.33,
+     "f_px": 791.9,
+     "du_px": -9.2,
+     "dv_px": 100.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.99,
+     "moved_from_prior_m": 3.6,
+     "points": {
+      "n": 13,
+      "rms_px": 34.8,
+      "median_px": 21.3,
+      "max_px": 65.8,
+      "rms_m": 0.91,
+      "median_m": 0.39,
+      "max_m": 1.68
+     },
+     "tests": {
+      "n": 6,
+      "rms_px": 42.7,
+      "median_px": 36.1,
+      "max_px": 65.8,
+      "rms_m": 0.9,
+      "median_m": 0.38,
+      "max_m": 1.6
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 33.9,
+      "median_px": 15.9,
+      "max_px": 65.8,
+      "rms_m": 0.29,
+      "median_m": 0.23,
+      "max_m": 0.5
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0505": {
+   "plate": "",
+   "image": "P0505.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0072054,
+    "lon": 116.307512,
+    "err": 10.0,
+    "bearing": 351.3,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": 1242.6363765486835,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader A: camera at (0.0, 99.0) in the model's frame, bearing 359.0 on its plan; On the axis just behind the south archway's footings (inner pair 507 px apart); wide lens; wall and flight a little smaller than in P0403."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      888.92,
+      2.34,
+      -286.68
+     ],
+     "yaw_deg": 3.67,
+     "pitch_deg": 0.99,
+     "f_px": 635.9,
+     "du_px": 62.7,
+     "dv_px": 11.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.48,
+     "moved_from_prior_m": 6.5,
+     "points": {
+      "n": 10,
+      "rms_px": 10.8,
+      "median_px": 7.0,
+      "max_px": 20.2,
+      "rms_m": 0.95,
+      "median_m": 0.55,
+      "max_m": 1.96
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 13.9,
+      "median_px": 15.1,
+      "max_px": 20.2,
+      "rms_m": 1.27,
+      "median_m": 1.36,
+      "max_m": 1.96
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 10.6,
+      "median_px": 7.8,
+      "max_px": 17.1,
+      "rms_m": 0.83,
+      "median_m": 0.57,
+      "max_m": 1.36
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      892.66,
+      2.32,
+      -287.37
+     ],
+     "yaw_deg": 5.96,
+     "pitch_deg": 1.23,
+     "f_px": 584.3,
+     "du_px": 131.2,
+     "dv_px": 11.9,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.51,
+     "moved_from_prior_m": 2.9,
+     "points": {
+      "n": 10,
+      "rms_px": 7.6,
+      "median_px": 6.8,
+      "max_px": 11.5,
+      "rms_m": 0.66,
+      "median_m": 0.53,
+      "max_m": 1.19
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 8.3,
+      "median_px": 8.1,
+      "max_px": 11.5,
+      "rms_m": 0.77,
+      "median_m": 0.7,
+      "max_m": 1.19
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 8.1,
+      "median_px": 7.8,
+      "max_px": 10.5,
+      "rms_m": 0.67,
+      "median_m": 0.65,
+      "max_m": 0.89
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0815": {
+   "plate": "",
+   "image": "P0815.jpg",
+   "free": true,
+   "size": [
+    1024,
+    768
+   ],
+   "object": "CC02",
+   "points_from": "model CC02-hanjing-tang",
+   "prior": {
+    "lat": 40.0067633,
+    "lon": 116.3077126,
+    "err": 25.0,
+    "bearing": 350.3,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": 2305.1785523653994,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 17 reader A: camera at (10.0, 150.0) in the model's frame, bearing 358.0 on its plan; Outside the forecourt to the south; whole wall (about 84 m) spans ~800 px and the flight sits ~120 px left of centre so the camera is east of the axis; compact-camera lens assumed; eye may be higher (spoil heaps)."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      914.14,
+      3.21,
+      -236.1
+     ],
+     "yaw_deg": 352.04,
+     "pitch_deg": 1.96,
+     "f_px": 970.5,
+     "du_px": -7.9,
+     "dv_px": 13.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.25,
+     "moved_from_prior_m": 2.4,
+     "points": {
+      "n": 10,
+      "rms_px": 6.8,
+      "median_px": 5.8,
+      "max_px": 11.3,
+      "rms_m": 0.73,
+      "median_m": 0.6,
+      "max_m": 1.21
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 8.1,
+      "median_px": 8.1,
+      "max_px": 11.3,
+      "rms_m": 0.87,
+      "median_m": 0.87,
+      "max_m": 1.21
+     },
+     "sure12": {
+      "n": 0
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      917.78,
+      3.18,
+      -236.82
+     ],
+     "yaw_deg": 349.92,
+     "pitch_deg": 2.03,
+     "f_px": 959.2,
+     "du_px": -8.4,
+     "dv_px": 13.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.46,
+     "moved_from_prior_m": 5.7,
+     "points": {
+      "n": 10,
+      "rms_px": 6.2,
+      "median_px": 5.8,
+      "max_px": 8.8,
+      "rms_m": 0.67,
+      "median_m": 0.62,
+      "max_m": 0.96
+     },
+     "tests": {
+      "n": 5,
+      "rms_px": 6.6,
+      "median_px": 6.3,
+      "max_px": 8.8,
+      "rms_m": 0.72,
+      "median_m": 0.7,
+      "max_m": 0.96
+     },
+     "sure12": {
+      "n": 0
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

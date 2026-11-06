@@ -214,7 +214,10 @@ class Site:
         self.box_polys = [g for _, g in self.boxes]
         # Round 13: a detailed model's own footprints (models/<ID>-<slug>/joints.json: its stairs, terrace, colonnades, pools) are kept clear as boxes are
         for jp in sorted((ROOT / "models").glob("*/joints.json")):
-            self.box_polys += [Polygon(fp).buffer(0) for fp in json.load(open(jp, encoding="utf-8")).get("footprints", [])]
+            jj = json.load(open(jp, encoding="utf-8"))
+            self.box_polys += [Polygon(fp).buffer(0) for fp in jj.get("footprints", [])]
+            # Round 17: the areas a model keeps clear of planting without barring the ways (its paved terrace, a forecourt's lawns): `clear` and the decks
+            self.box_polys += [Polygon(fp).buffer(0) for fp in jj.get("clear", [])] + [Polygon(d["poly"]).buffer(0) for d in jj.get("decks", [])]
         self.box_tree = STRtree(self.box_polys)
         self.box_union = unary_union(self.box_polys)
         paths = json.load(open(SITE_DATA / "paths_1860.geojson", encoding="utf-8"))["features"]

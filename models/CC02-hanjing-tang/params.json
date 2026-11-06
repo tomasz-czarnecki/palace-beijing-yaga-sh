@@ -1,0 +1,174 @@
+{
+ "id": "CC02",
+ "frame": "origin at the front middle of 含经堂's box F0310 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "terrace_h": {
+   "value": 2.1,
+   "source": "S01;S70;S966",
+   "grade": "C",
+   "note": "the compound's terrace over the forecourt: S01 draws its edge; P0403, P0505 (2013) and P0815 (2007) show a dressed brick retaining wall with a three-part flight; measured on those three by a sweep of the model (tools/plate_overlay.py fit, rms at the object summed over the three: 1.8 m 1.77, 2.1 m 1.73, 2.4 m 1.82, 2.7 m 2.00, 3.0 m 2.23; d); v1's 1.4 m fitted 1.52-1.71 m rms; the dig's figure is in S990, not seen"
+  },
+  "yard_w": {
+   "value": 13.5,
+   "source": "S70;S966",
+   "grade": "C",
+   "note": "the projecting flight before the gate: P0403, P0505, P0815 about 12-13 m wide between sloping cheeks, a central flight of about 5.6 m and two narrower ones (reader A); S01 draws a yard 24 m wide there (Q244): the ruin's outline wins"
+  },
+  "outer_wall_h": {
+   "value": 3.6,
+   "source": "S01",
+   "grade": "C",
+   "note": "the outer wall 宫墙 above the terrace: S01 draws it, no source gives a height; a garden palace wall of the class, C"
+  },
+  "court_wall_h": {
+   "value": 3.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the court walls inside: S01; height C"
+  },
+  "fore_wall_h": {
+   "value": 2.6,
+   "source": "S01;S940",
+   "grade": "C",
+   "note": "the forecourt's walls on three sides, with the archways in them (S01; S940 p.360); height C"
+  },
+  "gate_pl": {
+   "value": 0.6,
+   "source": "S01;S05",
+   "grade": "C",
+   "note": "the gate's platform on the terrace; S05 '宫門五楹南嚮'; the bays and the frontage are the box's (S01 19.1 m)"
+  },
+  "hjt_bays": {
+   "value": 7,
+   "source": "S05;S940",
+   "grade": "B",
+   "note": "含經堂七楹 (S05 j83:4a); S940 p.360 面阔七间; S01 draws nine cells: seven bays and a porch at each end, a porch all round 周围廊 (C)"
+  },
+  "hjt_roof": {
+   "value": "double-eaved 歇山 with a ridge",
+   "source": "S940;S361",
+   "grade": "B",
+   "note": "S940 p.360 重檐歇山顶大殿; S361 v3 p.244 'a seven-bay double-eaved glazed hall' (E0057)"
+  },
+  "hjt_tiles": {
+   "value": "yellow glazed",
+   "source": "S361",
+   "grade": "C",
+   "note": "glazed: S361 (E0057, B); yellow is C: the twin 乐寿堂 is yellow and Q143 is open (S990's tile finds would settle it)"
+  },
+  "hjt_pl": {
+   "value": 1.5,
+   "source": "S70",
+   "grade": "C",
+   "note": "the hall's platform over the court: P0402 shows a first level about 0.8 m high with a central flight about 4.3 m wide and a second flight behind it to a higher level (reader A, d); the second level C"
+  },
+  "hjt_terrace": {
+   "value": "22 x 6 m, 0.8 m, flight 4.3 m",
+   "source": "S70",
+   "grade": "C",
+   "note": "the front terrace 月台 of 含经堂: its height and its flight from P0402 (d); its plan C"
+  },
+  "hjt_porch": {
+   "value": 2.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the porch all round: the end cells of S01's nine, about 2 m"
+  },
+  "col_grand": {
+   "value": 4.17,
+   "source": "S112",
+   "grade": "C",
+   "note": "the column of a grand hall: research/typology/params.json grand_hall as re-read in Round 11 against the measured halls (Q182)"
+  },
+  "hjt_ridge": {
+   "value": 11.6,
+   "source": "S101",
+   "grade": "C",
+   "note": "the ridge above the court: the 举架 of a grand hall (0.5, 0.6, 0.75, 0.9; S101) over the upper roof's half-span of about 4.7 m, on the lower eave, the skirt and the upper wall"
+  },
+  "chx_bays": {
+   "value": "7 x 3",
+   "source": "S940",
+   "grade": "B",
+   "note": "淳化轩面阔七间，进深三间 (S940 p.360); front and back porches C"
+  },
+  "chx_roof": {
+   "value": "rolled 歇山, glazed",
+   "source": "S940",
+   "grade": "B",
+   "note": "S940 gives 卷棚歇山 (p.360) and 琉璃歇山 (p.361): read together, a glazed rolled hip-and-gable roof (Q151, Q173); yellow C as for 含经堂"
+  },
+  "chx_pl": {
+   "value": 1.2,
+   "source": "S70",
+   "grade": "C",
+   "note": "the platform: P0404 shows six or seven risers in the flights of the displayed platform (d)"
+  },
+  "chx_ridge": {
+   "value": 13.0,
+   "source": "S101",
+   "grade": "C",
+   "note": "the 举架 of a grand hall over the half-span of the 21 m deep hall (box F0311, S01)"
+  },
+  "chx_terrace": {
+   "value": "17 x 5.5 m, two flights at its front ends",
+   "source": "S01;S70",
+   "grade": "B",
+   "note": "S01 crop a: the terrace in front of 淳化轩 with two small flights at its ends; P0404: two flights on the south face of the displayed platform"
+  },
+  "yz_bays": {
+   "value": "7, porches front and back",
+   "source": "S940;S01",
+   "grade": "B",
+   "note": "蕴真斋面阔七间，前后带抱厦 (S940 p.360); S01 draws a cross: the body 32.7 x 10.2 m, the back porch 14.5 x 6.4 m, the front arm 14.5 x 15 m"
+  },
+  "yz_pl": {
+   "value": 0.9,
+   "source": "S70",
+   "grade": "C",
+   "note": "P0405 and P0801: brick-faced platforms stepping down to a sunk court (d)"
+  },
+  "yz_roof": {
+   "value": "rolled 歇山, grey",
+   "source": "S01",
+   "grade": "C",
+   "note": "no source gives it; grey rolled tile is the rule of the gardens (research/typology/halls.md)"
+  },
+  "fx_storeys": {
+   "value": 2,
+   "source": "S05",
+   "grade": "C",
+   "note": "梵香楼 and 霞翥楼: two storeys read from the name 楼 alone (S05 j83:4b); their ⊐ plan from S01 (plan_readings.csv), mirrored as S940 p.360 says"
+  },
+  "gal_w": {
+   "value": 3.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the galleries 墨刻游廊: S01's double line, about 3 m over the roof; the wall on the outer side holds the stones (S05 j83:4b '東西廊廡壁間嵌御定淳化閣帖石刻'; S940 p.361)"
+  },
+  "screen_wh": {
+   "value": "5.5 x 1.2 x 4.0 m",
+   "source": "S01;S940",
+   "grade": "C",
+   "note": "the screen wall: S01 5.4 m by 2 m; S940 p.360; height C"
+  },
+  "pailou_h": {
+   "value": 7.5,
+   "source": "S05",
+   "grade": "C",
+   "note": "the three glazed archways 琉璃坊楔 (S05 j83:4a); their footings were dug (S990); the form is the class of the standing glazed archways, C"
+  },
+  "syx_hall": {
+   "value": "11.1 x 7.2 m on a platform 11.9 x 8.3 m",
+   "source": "S940",
+   "grade": "B",
+   "note": "三友轩 measured on the ruin (S940 p.364): the box F0318 (14.5 x 13.3 m) is larger (Q108); the model draws the measured size at the box's middle"
+  },
+  "stage": {
+   "value": "two storeys, double eaves",
+   "source": "S361;S144",
+   "grade": "C",
+   "note": "乐奏钧天 (CC02-13): a two-storey stage (S940 p.360), double eaves (S43 per S361); about 16 m square with its cellar (E0064); drawn at the box's 8.7 m (S01) as a two-storey pavilion, C"
+  }
+ }
+}

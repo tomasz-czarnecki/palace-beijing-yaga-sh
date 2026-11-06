@@ -1,0 +1,471 @@
+{
+ "halls": {
+  "gate": {
+   "frontage_m": 19.1,
+   "depth_m": 7.6,
+   "platform_m": 0.6,
+   "eave_m": 5.05,
+   "ridge_m": 8.05,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 2,
+   "grade_class": "doc"
+  },
+  "north_gate": {
+   "frontage_m": 5.2,
+   "depth_m": 4.8,
+   "platform_m": 0.15,
+   "eave_m": 3.77,
+   "ridge_m": 5.57,
+   "roof": "ys",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 1,
+   "flights": 0,
+   "grade_class": "fill"
+  },
+  "hanjingtang": {
+   "frontage_m": 36.21,
+   "depth_m": 12.5,
+   "platform_m": 1.5,
+   "eave_m": 6.52,
+   "ridge_m": 11.6,
+   "roof": "xs",
+   "rolled": 0,
+   "double": 1,
+   "tiles": "yellow",
+   "bays": 9,
+   "flights": 2,
+   "grade_class": "doc"
+  },
+  "peidian_W": {
+   "frontage_m": 18.4,
+   "depth_m": 8.5,
+   "platform_m": 0.6,
+   "eave_m": 4.42,
+   "ridge_m": 7.02,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "peidian_E": {
+   "frontage_m": 18.4,
+   "depth_m": 8.5,
+   "platform_m": 0.6,
+   "eave_m": 4.42,
+   "ridge_m": 7.02,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "fanxiang_range": {
+   "frontage_m": 36.68,
+   "depth_m": 5.42,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.0,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 10,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "fanxiang_wingN": {
+   "frontage_m": 8.3,
+   "depth_m": 8.41,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.82,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "fanxiang_wingS": {
+   "frontage_m": 8.31,
+   "depth_m": 6.57,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.31,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "xiazhu_range": {
+   "frontage_m": 36.68,
+   "depth_m": 5.42,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.0,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 10,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "xiazhu_wingN": {
+   "frontage_m": 8.3,
+   "depth_m": 8.41,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.82,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "xiazhu_wingS": {
+   "frontage_m": 8.31,
+   "depth_m": 6.57,
+   "platform_m": 0.7,
+   "eave_m": 7.9,
+   "ridge_m": 10.31,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "chunhuaxuan": {
+   "frontage_m": 29.21,
+   "depth_m": 21.04,
+   "platform_m": 1.2,
+   "eave_m": 6.22,
+   "ridge_m": 13.0,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "yellow",
+   "bays": 7,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "chunhuaxuan_terrace": {
+   "frontage_m": 16.99,
+   "depth_m": 6.5,
+   "platform_m": 1.05,
+   "flights": 2
+  },
+  "yunzhenzhai": {
+   "frontage_m": 32.62,
+   "depth_m": 10.91,
+   "platform_m": 0.9,
+   "eave_m": 4.92,
+   "ridge_m": 8.74,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 7,
+   "flights": 0,
+   "grade_class": "doc"
+  },
+  "yunzhenzhai_back": {
+   "frontage_m": 14.34,
+   "depth_m": 6.72,
+   "platform_m": 0.9,
+   "eave_m": 4.72,
+   "ridge_m": 9.5,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "yunzhenzhai_front": {
+   "frontage_m": 14.34,
+   "depth_m": 3.6,
+   "platform_m": 0.9,
+   "eave_m": 4.72,
+   "ridge_m": 9.5,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "side_F0315": {
+   "frontage_m": 14.1,
+   "depth_m": 7.9,
+   "platform_m": 0.7,
+   "eave_m": 3.64,
+   "ridge_m": 6.6,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "side_F0640": {
+   "frontage_m": 20.53,
+   "depth_m": 12.88,
+   "platform_m": 0.9,
+   "eave_m": 4.4,
+   "ridge_m": 8.82,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F0321": {
+   "frontage_m": 21.3,
+   "depth_m": 18.4,
+   "platform_m": 0.7,
+   "eave_m": 4.4,
+   "ridge_m": 7.56,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F1002": {
+   "frontage_m": 20.66,
+   "depth_m": 5.0,
+   "platform_m": 0.45,
+   "eave_m": 3.2,
+   "ridge_m": 4.91,
+   "roof": "xu",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 7,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F1028": {
+   "frontage_m": 16.0,
+   "depth_m": 5.4,
+   "platform_m": 0.7,
+   "eave_m": 4.4,
+   "ridge_m": 6.29,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F0452": {
+   "frontage_m": 17.38,
+   "depth_m": 8.92,
+   "platform_m": 0.7,
+   "eave_m": 4.4,
+   "ridge_m": 7.46,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "side_F0991": {
+   "frontage_m": 19.79,
+   "depth_m": 7.36,
+   "platform_m": 0.7,
+   "eave_m": 4.4,
+   "ridge_m": 6.92,
+   "roof": "xs",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 6,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F0975": {
+   "frontage_m": 10.63,
+   "depth_m": 3.89,
+   "platform_m": 0.45,
+   "eave_m": 3.2,
+   "ridge_m": 4.53,
+   "roof": "ys",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F0976": {
+   "frontage_m": 10.8,
+   "depth_m": 4.81,
+   "platform_m": 0.45,
+   "eave_m": 3.2,
+   "ridge_m": 4.85,
+   "roof": "xu",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F1011": {
+   "frontage_m": 22.2,
+   "depth_m": 9.4,
+   "platform_m": 0.45,
+   "eave_m": 3.2,
+   "ridge_m": 6.41,
+   "roof": "xu",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 6,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "side_F0990": {
+   "frontage_m": 7.35,
+   "depth_m": 4.94,
+   "platform_m": 0.45,
+   "eave_m": 3.2,
+   "ridge_m": 4.89,
+   "roof": "ys",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 2,
+   "flights": 1,
+   "grade_class": "fill"
+  },
+  "sanyouxuan": {
+   "frontage_m": 11.9,
+   "depth_m": 8.3,
+   "platform_m": 0.6,
+   "eave_m": 4.22,
+   "ridge_m": 6.42,
+   "roof": "ys",
+   "rolled": 1,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "doc"
+  },
+  "stage": {
+   "frontage_m": 8.74,
+   "depth_m": 7.93,
+   "platform_m": 1.2,
+   "eave_m": 8.6,
+   "ridge_m": 11.2,
+   "roof": "xs",
+   "rolled": 0,
+   "double": 0,
+   "tiles": "grey",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "fill"
+  }
+ },
+ "deck_y": 2.19,
+ "forecourt_y": 0.09,
+ "axis_x": -0.73,
+ "axis_spread_m": 1.0,
+ "gate_flight_run_m": 4.2,
+ "deck_joints": [
+  {
+   "name": "wallSW0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "wallSE0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "courtW0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "courtW0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "courtE0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "courtE0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossW_a0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossW_b0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossW_b0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossE_a0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossE_a0_1",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossE_b0_0",
+   "gap_m": -0.15
+  },
+  {
+   "name": "crossE_b0_1",
+   "gap_m": -0.15
+  }
+ ],
+ "north_flight_run_m": 3.0,
+ "trees_in_a_footprint": 0,
+ "court_trees": {
+  "plum": 5,
+  "pine": 1,
+  "bamboo": 1,
+  "basis": "E0068 (淳化轩's court plums), S940 p.364 (pine, bamboo and plum outside 三友轩); places C"
+ },
+ "sanyou_walk_m": 1.5,
+ "triangles": 78202
+}
