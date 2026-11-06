@@ -1,0 +1,325 @@
+{
+ "object": "QC11",
+ "label": "",
+ "points_from": "model QC11-zhengjue-si",
+ "cameras": {
+  "P0173": {
+   "plate": "",
+   "image": "P0173.jpg",
+   "free": true,
+   "size": [
+    800,
+    622
+   ],
+   "object": "QC11",
+   "points_from": "model QC11-zhengjue-si",
+   "prior": {
+    "lat": 39.9993701,
+    "lon": 116.3032547,
+    "err": 10.0,
+    "bearing": 24.6,
+    "eye": 1.6,
+    "eye_sd": 2.0,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 28: the Bundesarchiv view of about 1900 (Bild 137-000605) from the inner court south-west of 文殊亭: two faces of the octagon show, the south-west on the left and the south, with its four-leaf door as today (P0430), on the right of the near corner; the two men stand a few metres before the platform; 50° lens assumed; the octagon alone cannot tell this reading from its mirror (the camera south-east, the faces south and south-east): both fit at 0.19 m"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      524.99,
+      4.15,
+      583.57
+     ],
+     "yaw_deg": 27.61,
+     "pitch_deg": 6.79,
+     "f_px": 868.7,
+     "du_px": 2.6,
+     "dv_px": 32.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.23,
+     "moved_from_prior_m": 3.3,
+     "points": {
+      "n": 11,
+      "rms_px": 27.7,
+      "median_px": 6.2,
+      "max_px": 56.2,
+      "rms_m": 0.57,
+      "median_m": 0.11,
+      "max_m": 1.19
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 34.7,
+      "median_px": 31.3,
+      "max_px": 56.2,
+      "rms_m": 0.71,
+      "median_m": 0.6,
+      "max_m": 1.19
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 27.7,
+      "median_px": 6.2,
+      "max_px": 56.2,
+      "rms_m": 0.57,
+      "median_m": 0.11,
+      "max_m": 1.19
+     },
+     "skipped": {
+      "n": 7,
+      "rms_px": 332.0,
+      "median_px": 325.9,
+      "max_px": 420.2,
+      "rms_m": 16.02,
+      "median_m": 15.54,
+      "max_m": 21.27
+     }
+    },
+    "all": {
+     "position": [
+      524.56,
+      5.64,
+      582.07
+     ],
+     "yaw_deg": 32.26,
+     "pitch_deg": -6.58,
+     "f_px": 845.2,
+     "du_px": 20.4,
+     "dv_px": 148.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.72,
+     "moved_from_prior_m": 1.9,
+     "points": {
+      "n": 11,
+      "rms_px": 9.8,
+      "median_px": 9.3,
+      "max_px": 14.3,
+      "rms_m": 0.18,
+      "median_m": 0.17,
+      "max_m": 0.26
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 10.2,
+      "median_px": 10.1,
+      "max_px": 14.3,
+      "rms_m": 0.18,
+      "median_m": 0.17,
+      "max_m": 0.26
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 9.8,
+      "median_px": 9.3,
+      "max_px": 14.3,
+      "rms_m": 0.18,
+      "median_m": 0.17,
+      "max_m": 0.26
+     },
+     "skipped": {
+      "n": 7,
+      "rms_px": 354.4,
+      "median_px": 355.1,
+      "max_px": 439.3,
+      "rms_m": 16.94,
+      "median_m": 16.89,
+      "max_m": 21.9
+     }
+    }
+   }
+  },
+  "P0177": {
+   "plate": "",
+   "image": "P0177.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1420
+   ],
+   "object": "QC11",
+   "points_from": "model QC11-zhengjue-si",
+   "prior": {
+    "lat": 39.9988628,
+    "lon": 116.3033596,
+    "err": 0.5,
+    "bearing": 10.9,
+    "eye": 1.5,
+    "eye_sd": 0.3,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 28: Sirén's photograph of 三圣殿 (1918-35) from the front court, west of the axis: the hall's west bays draw wider than its east ones and its ridge falls to the right, so the camera stands south-west of the middle; the hall's 23 m spans 1490 px of 1920, about 25-30 m off with a 50° lens (assumed, the old photographs' prior)"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      533.74,
+      3.17,
+      636.62
+     ],
+     "yaw_deg": 7.77,
+     "pitch_deg": 5.26,
+     "f_px": 2023.3,
+     "du_px": 6.6,
+     "dv_px": 58.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.21,
+     "moved_from_prior_m": 0.0,
+     "points": {
+      "n": 12,
+      "rms_px": 31.7,
+      "median_px": 21.4,
+      "max_px": 66.1,
+      "rms_m": 0.58,
+      "median_m": 0.34,
+      "max_m": 1.31
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 40.9,
+      "median_px": 27.0,
+      "max_px": 66.1,
+      "rms_m": 0.75,
+      "median_m": 0.44,
+      "max_m": 1.31
+     },
+     "sure12": {
+      "n": 12,
+      "rms_px": 31.7,
+      "median_px": 21.4,
+      "max_px": 66.1,
+      "rms_m": 0.58,
+      "median_m": 0.34,
+      "max_m": 1.31
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      533.08,
+      2.5,
+      638.12
+     ],
+     "yaw_deg": 13.12,
+     "pitch_deg": -8.65,
+     "f_px": 2080.1,
+     "du_px": 179.9,
+     "dv_px": 620.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 0.53,
+     "moved_from_prior_m": 1.6,
+     "points": {
+      "n": 12,
+      "rms_px": 25.1,
+      "median_px": 16.1,
+      "max_px": 60.2,
+      "rms_m": 0.44,
+      "median_m": 0.27,
+      "max_m": 1.14
+     },
+     "tests": {
+      "n": 7,
+      "rms_px": 27.9,
+      "median_px": 17.1,
+      "max_px": 60.2,
+      "rms_m": 0.5,
+      "median_m": 0.27,
+      "max_m": 1.14
+     },
+     "sure12": {
+      "n": 12,
+      "rms_px": 25.1,
+      "median_px": 16.1,
+      "max_px": 60.2,
+      "rms_m": 0.44,
+      "median_m": 0.27,
+      "max_m": 1.14
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0427": {
+   "plate": "",
+   "image": "P0427.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "QC11",
+   "points_from": "model QC11-zhengjue-si",
+   "prior": {
+    "lat": 39.9983474,
+    "lon": 116.3036057,
+    "err": 6.0,
+    "bearing": 350.4,
+    "eye": 1.6,
+    "eye_sd": 1.0,
+    "f2400": 2305.1785523653994,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 28: the gate today (2013) from the forecourt on the axis: the gate's 9.6 m body spans 442 px of 1280, about 27 m off with a 55° lens (assumed); the gate survives (repaired 2003), so the photograph tests the model's gate as it stands"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      554.65,
+      3.88,
+      696.24
+     ],
+     "yaw_deg": 352.61,
+     "pitch_deg": 17.11,
+     "f_px": 1087.4,
+     "du_px": -3.3,
+     "dv_px": -326.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.63,
+     "moved_from_prior_m": 2.3,
+     "points": {
+      "n": 11,
+      "rms_px": 6.0,
+      "median_px": 6.2,
+      "max_px": 9.2,
+      "rms_m": 0.15,
+      "median_m": 0.16,
+      "max_m": 0.22
+     },
+     "tests": {
+      "n": 11,
+      "rms_px": 6.0,
+      "median_px": 6.2,
+      "max_px": 9.2,
+      "rms_m": 0.15,
+      "median_m": 0.16,
+      "max_m": 0.22
+     },
+     "sure12": {
+      "n": 11,
+      "rms_px": 6.0,
+      "median_px": 6.2,
+      "max_px": 9.2,
+      "rms_m": 0.15,
+      "median_m": 0.16,
+      "max_m": 0.22
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

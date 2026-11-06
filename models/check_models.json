@@ -460,6 +460,1025 @@
     }
    ]
   },
+  "QC11": {
+   "folder": "QC11-zhengjue-si",
+   "figures": 22,
+   "grades": {
+    "A": 0,
+    "B": 18,
+    "C": 4
+   },
+   "materials": 44,
+   "primitives": 44,
+   "extent_m": [
+    71.3,
+    14.8,
+    159.5
+   ],
+   "triangles": 48542,
+   "fill_triangles": 28162,
+   "glb_mb": 1.51,
+   "glb_gz_mb": 0.41,
+   "joints": [
+    {
+     "name": "wall_S0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S3_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S3_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S4_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S4_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S5_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_S5_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_E2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_N0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_N0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_N1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_N1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_W0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_W0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "gate_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "gate_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "screen_W_-1",
+     "kind": "wall foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "screen_W_+1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "screen_E_-1",
+     "kind": "wall foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "screen_E_+1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yemen_W_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "yemen_W_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yemen_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "yemen_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yemen_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yemen_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "yemen_E_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "yemen_E_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "yemen_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "yemen_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yemen_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.32
+    },
+    {
+     "name": "yemen_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "bell_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "bell_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "bell_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "bell_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "bell_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "drum_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "drum_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "drum_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "drum_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "drum_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "sq_W_foot",
+     "kind": "pedestal foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sq_E_foot",
+     "kind": "pedestal foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "tw_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "tw_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "tw_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "tw_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "tw_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "tw_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "cross20_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross20_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross21_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross21_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross22_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross22_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross23_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross23_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_W_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_W_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "sidegate2_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "sidegate2_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "sidegate2_E_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_E_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "sidegate2_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "sidegate2_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "sidegate2_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "pd_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pd_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "pd_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.2
+    },
+    {
+     "name": "pd_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "pd_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "pd_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "pd_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pd_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "yuetai_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yuetai_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yuetai_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yuetai_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yt_C_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yt_W_foot",
+     "kind": "flight foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "yt_E_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ss_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ss_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ss_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ss_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "cross1W0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross1W0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross1E0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "cross1E0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerW0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerW0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerW1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerW1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerE0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerE0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerE1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "innerE1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_W_foot",
+     "kind": "flight foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "walk_E_foot",
+     "kind": "flight foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "walk_SW_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "walk_SE_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_terrace_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_terrace_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_terrace_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_terrace_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_flW_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zs_flE_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "shunshan_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "shunshan_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "shunshan_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "range_W_N_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.19
+    },
+    {
+     "name": "range_W_N_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "range_W_N_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_N_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "range_W_S_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_S_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_S_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_S_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "range_W_wf_pl_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_wf_pl_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_wf_pl_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_wf_pl_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_W_wf_fl_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_N_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "range_E_N_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_N_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "range_E_S_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_S_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "range_E_S_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "range_E_S_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "range_E_wf_pl_0",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_wf_pl_1",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_wf_pl_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_wf_pl_3",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_wf_fl_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "back_gate_front_foot",
+     "kind": "flight foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "back_gate_back_foot",
+     "kind": "flight foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "back_gate_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "back_gate_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "back_gate_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.4
+    },
+    {
+     "name": "back_gate_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "nyardW0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "nyardW0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "nyardE0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "nyardE0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.15,
+    "max_below": 0.4,
+    "n": 172
+   },
+   "ways": [
+    {
+     "way": "QC-010",
+     "kind": "paved_way",
+     "at": "F0405:model tw_front_foot",
+     "entry": "tw_front_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-010",
+     "kind": "paved_way",
+     "at": "F0406:model gate_back_foot",
+     "entry": "gate_back_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-011",
+     "kind": "paved_way",
+     "at": "F0406:model ss_front_+0.0",
+     "entry": "ss_front_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-011",
+     "kind": "paved_way",
+     "at": "F0407:model tw_back_foot",
+     "entry": "tw_back_foot",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-012",
+     "kind": "paved_way",
+     "at": "F0407:model ws_S",
+     "entry": "ws_S",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-012",
+     "kind": "paved_way",
+     "at": "F0408:model annex_front_+0.0",
+     "entry": "annex_front_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-013",
+     "kind": "paved_way",
+     "at": "F0408:model zs_flE_top",
+     "entry": "zs_flE_top",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-013",
+     "kind": "paved_way",
+     "at": "F0409:model ws_N",
+     "entry": "ws_N",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-014",
+     "kind": "courtyard_path",
+     "at": "F0405:model gate_back_foot",
+     "entry": "gate_back_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-015",
+     "kind": "courtyard_path",
+     "at": "F0405:model gate_back_foot",
+     "entry": "gate_back_foot",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-016",
+     "kind": "courtyard_path",
+     "at": "F0407:model pd_E_front_+0.0",
+     "entry": "pd_E_front_+0.0",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-017",
+     "kind": "service_path",
+     "at": "F0409:model back_gate_back_foot",
+     "entry": "back_gate_back_foot",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "QC-017",
+     "kind": "service_path",
+     "at": "F0409:model back_gate_back_foot",
+     "entry": "back_gate_back_foot",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  },
   "XY01": {
    "folder": "XY01-xieqiqu",
    "figures": 32,

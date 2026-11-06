@@ -29,7 +29,7 @@ From `research/buildings.csv`, with what the sources state in `research/scenes/h
 | QC11 | 正觉寺 Zhengjue Si | 正觉寺 | temple |  |  |  |  |  |  | B |
 | QC11-01 | 山门 Shanmen |  | gate | 3, with a side gate each side (S221); 3 (S221) | 9.6 × 7.9 (plan) | S (S221) | 1 (S221) | 歇山 (S221); 筒瓦歇山 (S221) |  | B |
 | QC11-02 | 天王殿 Tianwang Dian |  | temple | 5 (S221) | 14.8 × 8.5 (plan) | S (S221) | 1 (S221) |  |  | B |
-| QC11-03 | 三圣殿 Sansheng Dian |  | temple | 7 (S221) | 22 × 33.2 (plan) | S (S221) | 1 (S221) | single-eaved 歇山, as on P0177 (S221); 歇山 (P0177) (S221) |  | B |
+| QC11-03 | 三圣殿 Sansheng Dian |  | temple | 7 (S221) | 22 × 33.2 (plan) | S (S221) | 1 (S221) | single-eaved hip roof 庑殿, as on P0177 (Round 28: the photograph fits a 庑殿 at 0.44 m rms and a 歇山 at 1.25 m; Round 7 had read 歇山, Q299) (S221); not stated for the main hall (S221's 歇山 is its side halls'; P0177 shows a 庑殿, Round 28, Q299) (S221) |  | B |
 | QC11-04 | 文殊亭 Wenshu Ting |  | temple | 1 (S221) | 7.2 × 9.1 (plan) | S (S221) | 1 (S221) | double eaves, octagonal (S221); double eaves under Qianlong; single eaves when S221 was written (S221) |  | B |
 | QC11-05 | 最上楼 Zuishang Lou |  | tower | 7, with 3-bay side halls east and west (S221); 7 (S221) | 51.9 × 15.7 (plan) | S (S221) | 2, with a balcony on the upper storey (P0173) (S221); 2 (S221) |  |  | B |
 | QC11-B1357 | unnamed |  | hall | 2 | 15.3 × 14.8 (plan) | E (assumed) |  |  |  | B |
@@ -45,11 +45,11 @@ From `research/buildings.csv`, with what the sources state in `research/scenes/h
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | QC11-01 | 正觉寺 (山门) shanmen | 3, with a side gate each side |  | 歇山 | 1 | S | south end of the axis; plaque in Chinese, Manchu, Tibetan and Mongol | 1773 / survived; repaired 2003 (S228) | S221 section 四 | E0681; roof from palace_r7_halls | B | viewed |
 | QC11-02 | 天王殿 Tianwang Dian | 5 |  |  | 1 | S | behind the gate, between bell and drum towers | 1773 | S221 section 四 | E0681 | B | viewed |
-| QC11-03 | 三圣殿 (正觉殿) Sansheng Dian | 7 | 3 (palace_r7_halls) | single-eaved 歇山, as on P0177 | 1 | S | main hall on a stone terrace, centre of the axis | 1773 / lost in the 20th century; rebuilt 2002-11 | S221 section 四 | E0681; roof read on Sirén's photograph P0177 | B | viewed |
+| QC11-03 | 三圣殿 (正觉殿) Sansheng Dian | 7 | 3 (palace_r7_halls) | single-eaved hip roof 庑殿, as on P0177 (Round 28: the photograph fits a 庑殿 at 0.44 m rms and a 歇山 at 1.25 m; Round 7 had read 歇山, Q299) | 1 | S | main hall on a stone terrace, centre of the axis | 1773 / lost in the 20th century; rebuilt 2002-11 | S221 section 四 | E0681; roof read on Sirén's photograph P0177 | B | viewed |
 | QC11-04 | 文殊亭 (殊像阁) Wenshu Ting | 1 | octagonal | double eaves, octagonal | 1 | S | between 三圣殿 and 最上楼, held a large Manjusri image | 1773 / rebuilt | S221 section 四 | E0681; form read on P0173 (octagonal, two eaves) | B | viewed |
 | QC11-05 | 最上楼 Zuishang Lou | 7, with 3-bay side halls east and west |  |  | 2, with a balcony on the upper storey (P0173) | S | north end of the axis | 1773 / wholly or partly destroyed by the 1990s; rebuilt 2009-11 (S228) | S221 section 四 | E0681; balcony read on P0173 | B | viewed |
 | QC11-01 | 正觉寺 (山门) shanmen | 3 |  | 筒瓦歇山 | 1 | S | south end of the axis; two faces of a splayed screen wall 八字明壁 by the gate (S221 writes 门之西侧; the west wall survives) | 1773 | S221 section on the halls, quoting 金勋 成府村志 (manuscript) | 山门为三间简瓦歇山顶，门之西侧砌八字明壁两面（西墙现存） | B | viewed |
-| QC11-03 | 三圣殿 Sansheng Dian | 7 | 3, galleries front and back | 歇山 (P0177) | 1 | S | main hall; a three-bay rear annex; five-bay hip-and-gable side halls east and west holding ten Tibetan images | 1773 / lost in the 20th century, rebuilt 2002-11 | S221 section on the halls | 三圣殿正殿七间，殿为三进深，前后有廊，并接后庑殿三间 ... 三圣殿东西配殿各五楹，殿顶为歇山顶 | B | viewed |
+| QC11-03 | 三圣殿 Sansheng Dian | 7 | 3, galleries front and back | not stated for the main hall (S221's 歇山 is its side halls'; P0177 shows a 庑殿, Round 28, Q299) | 1 | S | main hall; a three-bay rear annex; five-bay hip-and-gable side halls east and west holding ten Tibetan images | 1773 / lost in the 20th century, rebuilt 2002-11 | S221 section on the halls | 三圣殿正殿七间，殿为三进深，前后有廊，并接后庑殿三间 ... 三圣殿东西配殿各五楹，殿顶为歇山顶 | B | viewed |
 | QC11-04 | 文殊亭 Wenshu Ting | 1 | octagonal | double eaves under Qianlong; single eaves when S221 was written | 1 | S | north of 三圣殿 | 1773 / reduced to single eaves at some date (S221); P0173 still shows two eaves | S221 section on the halls | 乾隆年间为八方重檐亭，外檐匾曰文殊亭，而现存的文殊亭为单檐八方亭 | B | viewed |
 | QC11-05 | 最上楼 Zuishang Lou | 7 |  |  | 2 | S | rear tower; three-bay 顺山殿 east and west of it (the west one survives) | 1773 | S221 section on the halls | 后楼七间，楼东西三间顺山殿（西殿现仍存） | B | viewed |
 
@@ -184,7 +184,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 0, b 4, c 0, d 0, e 1.
 | QC11 | the scene's outline on the plan | Area | 14700 m² | 1500 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | QC11 | the scene's outline on the plan | Extent, long side | 159 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | QC11 | the scene's outline on the plan | Extent, short side | 94 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| QC11 | water inside the scene's outline | Water inside the outline | 610 m² | 60 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| QC11 | water inside the scene's outline | Water inside the outline | 490 m² | 50 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 | QC11 | temple site | Site area m2 | 14300 m | 0 | e | B | S228 | article |  | 14,300 m2 site, 3,649 m2 of buildings (E0679), park figures in the press, no survey cited; area in m2 | viewed |
 
 ## Gaps and wishlist
@@ -204,6 +204,8 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 - **Q178. QC11.** QC11: E0683 gives a 达喇嘛 and 40 lamas from 宝谛寺; S228 says 建成后由两名喇嘛住持 (two lamas presided). Not a conflict as such (heads vs community), but check E0683's source before the page gives the number 40. (verify_b worker, Round 7)
 - **Q190. Check points whose reading was doubted after writing, kept as written** (the rule): K-FH-01 (the plan draws two lines 9 m apart round the lobe; the outer read), K-XY-01 (the pool's south edge in shadow, perhaps 1.5 m), K-QC-01 and K-QC-02 (read on leaning roofs, 2-4 m), K-QB-01 (the island today is larger and l
 - **Q213. 正觉寺's old trees.** The park registers 26-28 old trees, almost all in 正觉寺 (QC11), mainly 侧柏 and 桧柏, with 白皮松, 国槐 and 黑枣 (S1161, S1162). One 桧柏 (11010802198) is graded 一级, 300 years or more, older than the temple of 1773. No tree's position is published, so the court's trees are placed, not surveyed. (Round 12)
+- **Q302. The two-storey hall at the right of P0173. (Round 28)** The view of about 1900 shows a two-storey hall with a porch of tall columns and a balcony beside 文殊亭, its floor seemingly above the photographer's eye. Fitted as 最上楼 at S01's place, the camera has to stand inside 三圣殿, 4.5 m up (0.54 m rms); as the east 五佛殿
+- **Q304. 正觉寺's east strip and the scroll seam. (Round 28)** The boxes QC11-B1368, -B1369, -B1387, -B1395 stand across the seam of S01's scrolls (the black band at plan x 8630-8670), 20-25 m east of the temple's east wall, with a wall line beyond them; E0681 places the lamas' yard (8 buildings, 22 bays) east of the templ
 
 ### Wishlist rows that name it
 
@@ -213,9 +215,24 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 | The restoration survey of 正觉寺 (2002-2011) and R0005 圆明园正觉寺建筑研究 | the plan-read sizes of QC11 halls | 圆明园管理处; mhymy xsjl/10588 | ask the park; read R0005 if it opens |
 | Old photographs (1900-1940) of the Chinese scenes outside the Xiyang Lou: 正觉寺, 舍卫城, 文源阁 and 石玲峰, 福海 and its islands, 大宫门, 绮春园宫门, 含经堂, in Sidney Gamble (Duke), Hedda Morrison (Harvard-Yenching) and C. F. Moore (Royal BC Museum) | Round 7 found no new old photograph of any Yuanming Yuan scene outside the Xiyang Lou; every candidate on Commons was catalogued already | repository.duke.edu/dc/gamble; hollis.harvard.edu; Royal BC Museum MS-3171 | A person in a browser: the three refuse automated access (Q33, Q62); not tried again this round, as the brief asked |
 | Round 12: the park's register of old trees with positions (北京市古树名木 database, 圆明园 entries) | The 26-28 surviving trees of 正觉寺 placed where they stand (Q213) | 北京市园林绿化局; the park | ask the park's office through Tomasz |
+| Round 28: the restoration survey of 正觉寺 (2002-2011) with the Qing base of 三圣殿 measured, and R0005 圆明园正觉寺建筑研究 | The model's biggest guesses at 正觉寺: 三圣殿's depth and column (Q300) and every hall's height, now from one photograph's proportions or the classes | 圆明园管理处; mhymy xsjl/10588 | Ask the park through Tomasz; read R0005 if it opens |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### The detailed model (Round 28)
+
+`models/QC11-zhengjue-si/` draws the whole walled temple in its state before October 1860 (README there: the evidence by part, the fits and the iteration log). Its layout is S01 re-read in plan pixels (`models/QC11-zhengjue-si/plan_readings.csv`); the halls are S221's (E0681). What the round found:
+
+- **三圣殿's roof is a hip roof 庑殿, not a 歇山.** Fitted to Sirén's photograph (P0177), a 歇山 leaves the main ridge's ends 1.8 and 3.9 m off (1.25 m rms over 12 points), a 庑殿 0.27 and 1.14 m (0.44 m). Round 7's reading and S221's 歇山, which is the side halls', are corrected in `research/scenes/halls.csv` (Q299). The lattice stands on the eave columns. The rebuild of 2009-11 (P0428) has double eaves.
+- **Its column and depth** from a sweep on the same photograph: 4.6 m and S01's 14.0 m between the eave columns (C, Q300).
+- **文殊亭** fits P0173 (about 1900) at 0.18 m rms with S01's octagon (face 2.65 m) and the photograph's proportions; four-leaf lattice doors on the faces it shows. The image inside, 3 丈 in 金勋's memory, is taller than the pavilion so drawn (Q301).
+- **The gate** fits P0427 (the gate today) at 0.15 m rms at S01's 10.1 m width.
+- **The 五佛殿** in the middle of the inner court's side ranges are two-storey halls with a balcony and a 硬山 rising over the range, as the east one stands today (P0430, Q303).
+- **The two-storey hall at P0173's right** fits neither 最上楼 at S01's place nor the east 五佛殿 (Q302).
+- **The pond before the gate** (W0069, an automatic wash call) is land (`research/plan/water_removed.json`): S01 draws the road from the gate to the river there, and the dig of 2005 found its base (E0685).
+
+The model's sheets in this folder: `plate_keypoints.csv` (34 readings on P0177, P0173, P0427; 7 of them `skip` with the reason), `photo_viewpoints.csv`, and the fit's `plate_fit.csv` and `plate_cameras.json`.

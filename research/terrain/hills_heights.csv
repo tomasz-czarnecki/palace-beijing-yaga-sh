@@ -307,38 +307,38 @@ H2251,free_land,G139,YM39,329,8.3,6.1,painting,"painting: album reading (the sce
 H2252,free_land,G140,YM05,494,9.2,6.6,painting,"painting: album reading (the scene's hills, no reading on this side), median 20 m as painted x 0.45 so the album's median falls on the middle of Attiret's 6.5-19.5 m, clipped to it",S08;S01;S08;S911,C,yes,R10-235;R10-236,"GLO-30 shows -0.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2253,free_land,G141,YM39,238,8.3,6.1,painting,"painting: album reading (the scene's hills, no reading on this side), median 18 m as painted x 0.45 so the album's median falls on the middle of Attiret's 6.5-19.5 m, clipped to it",S08;S01;S08;S911,C,yes,R10-460;R10-461,"GLO-30 shows 2.0 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2254,free_land,G142,YM05,2375,9.2,6.6,painting,"painting: album reading (the scene's hills, no reading on this side), median 20 m as painted x 0.45 so the album's median falls on the middle of Attiret's 6.5-19.5 m, clipped to it",S08;S01;S08;S911,C,yes,R10-235;R10-236,"GLO-30 shows 0.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2255,free_land,G143,,114106,6.5,3.0,dem,"dem: GLO-30 peak 8.5 m above the local low ground over 300 cells, 87 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2255,free_land,G143,,116839,6.5,3.0,dem,"dem: GLO-30 peak 8.5 m above the local low ground over 301 cells, 87 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
 H2256,free_land,G143,QC26,7447,8.0,3.0,typology,"typology: major hill, 6-12 m (area 7447 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2257,free_land,G143,QC07,4324,8.0,3.0,typology,"typology: major hill, 6-12 m (area 4324 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.8 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2258,free_land,G143,QC77,2415,6.5,3.0,dem,"dem: GLO-30 peak 8.5 m above the local low ground over 11 cells, 9 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2259,free_land,G143,QC11,2106,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 2106 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2260,free_land,G143,,2034,3.0,3.0,dem,"dem: GLO-30 peak 5.0 m above the local low ground over 10 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2261,free_land,G143,QC11,1972,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1972 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2262,free_land,G143,QC01,1697,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1697 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2263,free_land,G143,QC82,1572,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1572 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2264,free_land,G143,QC25,865,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 865 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2265,free_land,G143,QC82,862,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 862 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2266,free_land,G143,QC78,825,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 825 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2267,free_land,G143,QC11,700,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 700 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.7 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2268,free_land,G143,QC65,661,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 661 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.8 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2269,free_land,G143,QC78,574,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 574 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2270,free_land,G143,QC17,551,3.9,3.0,dem,"dem: GLO-30 peak 5.9 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2271,free_land,G143,QC18,522,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2272,free_land,G143,,519,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 519 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2273,free_land,G143,QC19,509,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 509 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2274,free_land,G143,QC79,505,3.5,3.0,dem,"dem: GLO-30 peak 5.5 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2275,free_land,G143,QC04,441,3.0,3.0,dem,"dem: GLO-30 peak 5.0 m above the local low ground over 5 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2276,free_land,G143,,431,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2277,free_land,G143,QC10,403,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 403 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2278,free_land,G143,QC43,401,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 401 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2279,free_land,G143,QC17,397,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2280,free_land,G143,QC43,379,4.4,3.0,dem,"dem: GLO-30 peak 6.4 m above the local low ground over 4 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2281,free_land,G143,QC17,351,5.0,3.0,dem,"dem: GLO-30 peak 7.0 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2282,free_land,G143,QC18,282,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2283,free_land,G143,QC80,203,2.5,1.0,typology,typology: knoll (area 203 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2284,free_land,G143,QC35,201,2.5,1.0,typology,typology: knoll (area 201 m2),S08;S01;S157,C,yes,,"GLO-30 shows 2.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2285,free_land,G143,QC49,185,2.5,1.0,typology,typology: knoll (area 185 m2),S08;S01;S157,C,yes,,"GLO-30 shows 0.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2286,free_land,G143,QC17,161,3.6,3.0,dem,"dem: GLO-30 peak 5.6 m above the local low ground over 4 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2259,free_land,G143,,2034,3.0,3.0,dem,"dem: GLO-30 peak 5.0 m above the local low ground over 10 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2260,free_land,G143,QC01,1697,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1697 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2261,free_land,G143,QC82,1572,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1572 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2262,free_land,G143,QC25,865,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 865 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2263,free_land,G143,QC82,862,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 862 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2264,free_land,G143,QC78,825,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 825 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2265,free_land,G143,QC65,661,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 661 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.8 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2266,free_land,G143,QC78,574,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 574 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2267,free_land,G143,QC17,551,3.9,3.0,dem,"dem: GLO-30 peak 5.9 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2268,free_land,G143,QC18,522,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2269,free_land,G143,,519,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 519 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2270,free_land,G143,QC19,509,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 509 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 2.6 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2271,free_land,G143,QC79,505,3.5,3.0,dem,"dem: GLO-30 peak 5.5 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2272,free_land,G143,QC11,479,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 479 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2273,free_land,G143,QC04,441,3.0,3.0,dem,"dem: GLO-30 peak 5.0 m above the local low ground over 5 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2274,free_land,G143,,431,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2275,free_land,G143,QC11,418,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 418 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2276,free_land,G143,QC10,403,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 403 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2277,free_land,G143,QC43,401,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 401 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2278,free_land,G143,QC17,397,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2279,free_land,G143,QC43,379,4.4,3.0,dem,"dem: GLO-30 peak 6.4 m above the local low ground over 4 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2280,free_land,G143,QC17,351,5.0,3.0,dem,"dem: GLO-30 peak 7.0 m above the local low ground over 4 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2281,free_land,G143,QC18,282,5.7,3.0,dem,"dem: GLO-30 peak 7.7 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2282,free_land,G143,QC80,203,2.5,1.0,typology,typology: knoll (area 203 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2283,free_land,G143,QC35,201,2.5,1.0,typology,typology: knoll (area 201 m2),S08;S01;S157,C,yes,,"GLO-30 shows 2.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2284,free_land,G143,QC49,185,2.5,1.0,typology,typology: knoll (area 185 m2),S08;S01;S157,C,yes,,"GLO-30 shows 0.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2285,free_land,G143,QC17,161,3.6,3.0,dem,"dem: GLO-30 peak 5.6 m above the local low ground over 4 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2286,free_land,G143,QC11,142,2.5,1.0,typology,typology: knoll (area 142 m2),S08;S01;S157,C,yes,,"GLO-30 shows 3.7 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2287,free_land,G143,,105,2.5,1.0,typology,typology: knoll (area 105 m2),S08;S01;S157,C,yes,,"GLO-30 shows 3.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2288,free_land,G144,,300,6.9,3.0,dem,"dem: GLO-30 peak 8.9 m above the local low ground over 4 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
 H2289,free_land,G145,,400,6.2,3.0,dem,"dem: GLO-30 peak 8.2 m above the local low ground over 4 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
@@ -428,33 +428,32 @@ H2372,free_land,G193,QC70,152,2.5,1.0,typology,typology: knoll (area 152 m2),S08
 H2373,free_land,G194,,481,3.1,3.0,dem,"dem: GLO-30 peak 5.1 m above the local low ground over 4 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
 H2374,free_land,G195,QC16,382,2.5,1.0,typology,typology: knoll (area 382 m2),S08;S01;S157,C,yes,,"GLO-30 shows 1.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
 H2375,free_land,G196,QC02,531,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 531 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2376,free_land,G197,QC11,1719,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 1719 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2377,free_land,G198,QC02,431,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 431 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2378,free_land,G199,,1747,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 8 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2379,free_land,G199,QC15,766,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 6 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2380,free_land,G199,QC15,170,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 2 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2381,free_land,G199,QC14,158,2.5,1.0,typology,typology: knoll (area 158 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2382,free_land,G200,QC15,1448,2.6,3.0,dem,"dem: GLO-30 peak 4.6 m above the local low ground over 7 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2383,free_land,G201,QC12,1756,3.5,3.0,dem,"dem: GLO-30 peak 5.5 m above the local low ground over 7 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2384,free_land,G202,QC12,799,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 799 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2385,free_land,G203,QC12,1606,2.2,3.0,dem,"dem: GLO-30 peak 4.2 m above the local low ground over 9 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2386,free_land,G204,QC62,329,2.5,1.0,typology,typology: knoll (area 329 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.0 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2387,free_land,G205,QC12,1333,2.6,3.0,dem,"dem: GLO-30 peak 4.6 m above the local low ground over 6 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2388,free_land,G206,QC62,466,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 466 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 0.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2389,free_land,G207,QC01,325,2.5,1.0,typology,typology: knoll (area 325 m2),S08;S01;S157,C,yes,,"GLO-30 shows 0.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2390,free_land,G208,QC01,256,2.5,1.0,typology,typology: knoll (area 256 m2),S08;S01;S157,C,yes,,"GLO-30 shows 1.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2391,free_land,G209,QC12,944,3.6,3.0,dem,"dem: GLO-30 peak 5.6 m above the local low ground over 5 cells, 5 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2392,free_land,G210,QC12,1226,3.7,3.0,dem,"dem: GLO-30 peak 5.7 m above the local low ground over 5 cells, 5 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2393,free_land,G211,QC14,1109,2.8,3.0,dem,"dem: GLO-30 peak 4.8 m above the local low ground over 7 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2394,free_land,G211,,154,2.5,1.0,typology,typology: knoll (area 154 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2395,free_land,G212,QC14,2305,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 2305 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.8 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2396,free_land,G212,,215,2.5,1.0,typology,typology: knoll (area 215 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2397,free_land,G213,,1685,5.5,3.0,dem,"dem: GLO-30 peak 7.5 m above the local low ground over 9 cells, 7 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2398,free_land,G213,QC31,789,6.9,3.0,dem,"dem: GLO-30 peak 8.9 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2399,free_land,G213,QC31,106,5.5,3.0,dem,"dem: GLO-30 peak 7.5 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2400,free_land,G214,,506,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 506 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2401,free_land,G215,,738,7.4,3.0,dem,"dem: GLO-30 peak 9.4 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2402,free_land,G216,,544,4.2,3.0,dem,"dem: GLO-30 peak 6.2 m above the local low ground over 4 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
-H2403,free_land,G217,,640,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 640 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2404,free_land,G217,QC63,259,2.5,1.0,typology,typology: knoll (area 259 m2),S08;S01;S157,C,yes,,"GLO-30 shows 1.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
-H2405,free_land,G218,,562,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 562 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2376,free_land,G197,QC02,431,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 431 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2377,free_land,G198,,1747,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 8 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2378,free_land,G198,QC15,766,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 6 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2379,free_land,G198,QC15,170,4.0,3.0,dem,"dem: GLO-30 peak 6.0 m above the local low ground over 2 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2380,free_land,G198,QC14,158,2.5,1.0,typology,typology: knoll (area 158 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2381,free_land,G199,QC15,1448,2.6,3.0,dem,"dem: GLO-30 peak 4.6 m above the local low ground over 7 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2382,free_land,G200,QC12,1756,3.5,3.0,dem,"dem: GLO-30 peak 5.5 m above the local low ground over 7 cells, 2 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2383,free_land,G201,QC12,799,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 799 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 4.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2384,free_land,G202,QC12,1606,2.2,3.0,dem,"dem: GLO-30 peak 4.2 m above the local low ground over 9 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2385,free_land,G203,QC62,329,2.5,1.0,typology,typology: knoll (area 329 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.0 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2386,free_land,G204,QC12,1333,2.6,3.0,dem,"dem: GLO-30 peak 4.6 m above the local low ground over 6 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2387,free_land,G205,QC62,466,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 466 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 0.3 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2388,free_land,G206,QC01,325,2.5,1.0,typology,typology: knoll (area 325 m2),S08;S01;S157,C,yes,,"GLO-30 shows 0.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2389,free_land,G207,QC01,256,2.5,1.0,typology,typology: knoll (area 256 m2),S08;S01;S157,C,yes,,"GLO-30 shows 1.9 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2390,free_land,G208,QC12,944,3.6,3.0,dem,"dem: GLO-30 peak 5.6 m above the local low ground over 5 cells, 5 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2391,free_land,G209,QC12,1226,3.7,3.0,dem,"dem: GLO-30 peak 5.7 m above the local low ground over 5 cells, 5 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2392,free_land,G210,QC14,1109,2.8,3.0,dem,"dem: GLO-30 peak 4.8 m above the local low ground over 7 cells, 4 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2393,free_land,G210,,154,2.5,1.0,typology,typology: knoll (area 154 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2394,free_land,G211,QC14,2305,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 2305 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.8 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2395,free_land,G211,,215,2.5,1.0,typology,typology: knoll (area 215 m2),S08;S01;S157,C,yes,,"GLO-30 shows 4.4 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2396,free_land,G212,,1685,5.5,3.0,dem,"dem: GLO-30 peak 7.5 m above the local low ground over 9 cells, 7 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2397,free_land,G212,QC31,789,6.9,3.0,dem,"dem: GLO-30 peak 8.9 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2398,free_land,G212,QC31,106,5.5,3.0,dem,"dem: GLO-30 peak 7.5 m above the local low ground over 3 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2399,free_land,G213,,506,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 506 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.5 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2400,free_land,G214,,738,7.4,3.0,dem,"dem: GLO-30 peak 9.4 m above the local low ground over 6 cells, 6 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2401,free_land,G215,,544,4.2,3.0,dem,"dem: GLO-30 peak 6.2 m above the local low ground over 4 cells, 3 of them 3 m or more, minus 2.0 m for trees",S08;S01;S04;S159,C,yes,,
+H2402,free_land,G216,,640,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 640 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 1.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2403,free_land,G216,QC63,259,2.5,1.0,typology,typology: knoll (area 259 m2),S08;S01;S157,C,yes,,"GLO-30 shows 1.2 m at most here: flat today (hills cut 1967-73, S145) or below the noise"
+H2404,free_land,G217,,562,3.5,1.5,typology,"typology: courtyard hill, 2-4 m (area 562 m2)",S08;S01;S157,C,yes,,"GLO-30 shows 3.1 m at most here: flat today (hills cut 1967-73, S145) or below the noise"

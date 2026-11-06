@@ -74,7 +74,7 @@ osm-way-1216377974,path,,114.8,0.43,0.11,0.0,0.27,modern
 osm-way-1232568986,service,,137.9,0.0,0.0,0.0,0.0,undecided
 osm-way-1232568987,service,,71.5,0.0,0.31,0.0,0.0,modern
 osm-way-1232568988,footway,,93.7,0.0,0.0,0.0,0.0,undecided
-osm-way-1232568989,footway,,150.4,0.41,0.0,0.0,0.05,modern
+osm-way-1232568989,footway,,150.4,0.0,0.0,0.0,0.0,undecided
 osm-way-1254656592,footway,,847.9,0.16,0.06,0.0,0.36,undecided
 osm-way-1254656593,footway,,230.9,0.89,0.0,0.0,0.11,modern
 osm-way-1254656594,footway,,56.2,0.0,0.06,0.0,0.0,undecided
@@ -87,7 +87,7 @@ osm-way-1254656601,footway,,27.4,0.0,0.31,0.04,0.0,modern
 osm-way-1254656602,footway,,111.4,0.85,0.0,0.0,0.15,modern
 osm-way-1254656603,footway,,18.4,0.95,0.0,0.0,0.05,modern
 osm-way-128686715,service,,517.2,0.18,0.0,0.0,0.52,undecided
-osm-way-1340498777,footway,,551.5,0.02,0.0,0.0,0.08,undecided
+osm-way-1340498777,footway,,551.5,0.02,0.0,0.0,0.03,undecided
 osm-way-1340498779,cycleway,海淀三山五园绿道,59.4,0.0,0.0,0.0,0.0,undecided
 osm-way-1340498783,footway,,10.8,0.0,0.0,0.0,0.0,undecided
 osm-way-1340498785,footway,,20.1,0.0,0.0,0.0,0.0,undecided
@@ -119,7 +119,7 @@ osm-way-1352934934,path,,19.3,0.93,0.0,0.0,0.07,modern
 osm-way-1352937023,footway,,98.8,0.05,0.07,0.0,0.28,undecided
 osm-way-1352937025,track,,72.2,0.4,0.0,0.0,0.6,modern
 osm-way-1352937026,track,,42.0,0.01,0.35,0.13,0.33,modern
-osm-way-1355438503,service,,62.0,0.18,0.0,0.0,0.28,undecided
+osm-way-1355438503,service,,62.0,0.0,0.0,0.0,0.0,undecided
 osm-way-1355989040,footway,,148.3,0.06,0.09,0.07,0.13,undecided
 osm-way-1355989041,footway,,30.9,0.0,0.17,0.0,0.11,undecided
 osm-way-1355989043,footway,,16.9,0.0,0.7,0.0,0.0,modern

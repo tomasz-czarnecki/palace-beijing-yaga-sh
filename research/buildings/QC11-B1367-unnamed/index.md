@@ -20,15 +20,21 @@ Qichun Yuan
 
 ## Our model now
 
-On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
+The temple of 1773 as S01 draws its walls, courts and halls and S221 names them (after 金勋), spared in 1860: the gate as it survives (P0427), the towers, 天王殿, the side halls, 三圣殿 with its hip roof after Sirén's photograph (P0177), the raised walk with 文殊亭 after the view of about 1900 (P0173), the two-storey 五佛殿 as the east one survives (P0430), 最上楼 with its balcony and the 顺山殿. Every height but those read on the photographs, and the end ranges', side halls' and towers' forms, are C.
 
-- **Box:** 38.8 × 10.43 m, grand hall
-- **Heights:** platform 0.59 m, eave 4.76 m, ridge 8.45 m above the ground
-- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 80.4° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.9 m
-- **Drawn:** by the hall kit: 11 bays, the middle widest, a porch all round, steps on the front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
-- **Confidence:** B
+- **Layout:** As S01 draws it (re-read in Round 28 in plan pixels, B): the outer wall about 67 x 145 m, the gate in the south wall, two cross walls, the inner court; the distances along the axis agree with today's buildings within 3% (OSM)
+- **山门 (gate):** Three bays, red walls on a grey stone course, a round-arched door with a stone frame and a round window either side, a band of painted beams, a single-eave 歇山 in grey tile (it survives, repaired 2003: P0427; S221 三间 筒瓦歇山; B); 10.1 m wide as S01 draws it, its heights read on P0427 (the wall 2.7 m, the ridge 5.5 m above its floor; the photograph's fit 0.15 m rms; C); the plaque in four scripts (S221) drawn as a board
+- **Screen walls and side gates:** A red screen wall with a framed panel and medallion either side of the gate (S221: 八字明壁, the west one survives; P0427), a side gate in the wall beyond each (S221; S01), two small gates in the second cross wall and the back gate on the north wall (S01; P0453); their forms C
+- **Bell and drum towers:** Two storeys of red masonry with a skirt roof and a 歇山 top on S01's squares (S221 names them; P0427 shows their tops today); which is which and every height C
+- **天王殿:** Five bays (S221) in the second cross wall (S01); red masonry fronts with three arched doors, a 歇山 roof: the form of the rebuild of 2009-11 (P0429), a reading aid only (C)
+- **配殿 (side halls):** Five bays each, single-eave 歇山 in grey tile (S221: 三圣殿东西配殿各五楹); S01 draws the east one, the west one is mirrored (C); porches and heights C
+- **三圣殿:** Seven bays (S221), 25.32 m along its platform, a single-eave hip roof 庑殿 in grey tile with a ridge, lattice doors in the three middle bays and windows over sill walls in the others, the bracket band, a low stone platform with the 月台 and three flights before it, after Sirén's photograph (P0177, 1918-35, CC0) of the hall the fire of 1860 spared: the photograph fits a hip roof at 0.44 m rms and a 歇山 at 1.25 m (Q299); the rebuild of 2009-11 has double eaves (P0428), not followed; its column 4.6 m and its depth 14.0 m (S01's rows) from a sweep on the photograph (C, Q300); the three-bay rear annex (S221 后庑殿三间; S01) with a rolled roof (C)
+- **文殊亭:** Octagonal with double eaves in grey tile, red columns, four-leaf lattice doors on every face, an upper drum with small windows and a gourd finial, on the raised walk (P0173, about 1900, fitted at 0.18 m rms; it survives, repaired with two eaves in 2003: P0430; S221; S01's octagons); its face 2.65 m and its heights from P0173's proportions (C); inside, the great Manjusri on a lion (S221) is not drawn (Q301)
+- **最上楼:** Seven bays, two storeys: the tall porch columns carrying the balcony with its rail, lattice fronts on both storeys (P0173; S221 后楼七间; S01), the 硬山 roof with red gables and the solid back wall after the rebuild (P0431, P0453: C); the three-bay 顺山殿 at its ends (S221; S01; the west one survives), one storey, 硬山 (C)
+- **Inner court:** The raised walk on the axis from the annex to 最上楼's terrace (S01), faced with rubble and 0.75 m high as the court is today (P0430, P0431: C); the ranges along the sides on S01's cells, their middle five bays the 五佛殿: two storeys with a porch and a balcony and a 硬山 with red gables over the one-storey ends, as the east one stands today (P0430; S228 names them among the survivors; the west one's porch on S01, the east one's carried over: C)
+- **Walls and courts:** The outer wall of rubble with a grey coping (P0453 today; C), the cross walls and inner lines red (C); the courts earth with their old trees (the planting of Round 12, Q213), no generated hill in them
+- **What survives:** The gate, 文殊亭, the east and west 五佛殿, the side halls, the west corner rooms and the west 顺山殿 (repaired 2002-03); the Qing base, column bases and lower walls of 三圣殿; 天王殿, 三圣殿 and 最上楼 were rebuilt in 2009-11 and the temple opened in July 2011 (S228)
+- **Assumed:** Every height except the gate's (P0427), 三圣殿's column and 文殊亭's proportions (P0173, P0177); the ranges', side halls', towers', small gates' and annex's forms; the rubble walk and terraces; which tower is the bell tower; the colours (the survivors as repaired): C, the pale tint with conf=1
 
 ## Pictures (0)
 

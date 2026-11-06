@@ -49,7 +49,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q304: 正觉寺's east strip and the scroll seam. (Round 28)
 
 <!-- generated:end -->
 

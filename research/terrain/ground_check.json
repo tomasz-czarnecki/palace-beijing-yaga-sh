@@ -1,27 +1,27 @@
 {
  "state": "now",
  "hills": {
-  "n": 459,
-  "area_ha": 111.4,
+  "n": 458,
+  "area_ha": 111.1,
   "method": {
    "dem": 124,
-   "typology": 245,
+   "typology": 244,
    "painting": 88,
    "surveyed": 1,
    "text": 1
   },
   "confidence": {
-   "C": 458,
+   "C": 457,
    "B": 1
   },
   "basis": {
    "plan": 54,
-   "free_land": 405
+   "free_land": 404
   },
   "no_height": 0
  },
  "water": {
-  "bodies": 188,
+  "bodies": 187,
   "tris_two_levels": 0
  },
  "boxes": {
@@ -41,15 +41,15 @@
   "ends_over_water": 0
  },
  "ways": {
-  "points": 9366,
+  "points": 9326,
   "no_land": 21,
-  "ends": 1457,
+  "ends": 1453,
   "end_max_m": 0.38,
   "ends_over_0.5": 0,
   "ends_over_0.5_AB": 0
  },
  "walls": {
-  "courses": 1150,
+  "courses": 1154,
   "hanging": 0,
   "hang_max_m": 0,
   "low": 19,

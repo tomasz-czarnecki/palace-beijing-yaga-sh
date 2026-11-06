@@ -1,0 +1,42 @@
+plate,photo_id,object,point,x,y,sure,use,note
+,P0177,QC11,ss_fcol7_foot,1727,978,2,,the east corner column's foot on the platform at the sill wall's base (Round 28 reading on the 1.5x crop with a 20 px grid)
+,P0177,QC11,ss_fcol7_top,1727,718,2,,the east corner column under the eave beam
+,P0177,QC11,ss_fcol6_foot,1545,978,2,,the second column from the east
+,P0177,QC11,ss_fcol6_top,1545,716,1,,
+,P0177,QC11,ss_fcol5_foot,1358,978,2,,the third from the east (the west post of the bay with the open door)
+,P0177,QC11,ss_fcol5_top,1358,714,1,,
+,P0177,QC11,ss_fcol2_foot,725,976,1,,the third from the west (columns 3 and 4 stand behind the two trunks)
+,P0177,QC11,ss_fcol2_top,725,682,1,,
+,P0177,QC11,ss_fcol0_foot,240,975,1,,the west corner column's foot by the white pier (the end hard to read behind the pines)
+,P0177,QC11,ss_ridge_E,1292,462,2,,the east end of the main ridge at its ornament
+,P0177,QC11,ss_ridge_W,560,366,1,,the west end of the main ridge where its decorated band starts and the west hip falls to the left (Round 28 1.2x crop of the roof; the upright piece at x 522 is a pine's broken top)
+,P0177,QC11,ss_eave_SE,1843,686,1,,the front east corner of the eave at its upturned tip
+,P0173,QC11,ws_col_SSW_foot,328,518,2,,"文殊亭: the near corner column's foot on the platform (Round 28 reading on the 1.7x crop with a 10 px grid); the south-west face to its left and the south face, with its four-leaf door as today (P0430), to its right; the octagon alone cannot tell this reading from its mirror (both fit at 0.19 m, README)"
+,P0173,QC11,ws_col_SSW_top,328,322,2,,the near corner column under the beam band
+,P0173,QC11,ws_col_WSW_foot,184,510,2,,the left corner of the south-west face
+,P0173,QC11,ws_col_WSW_top,184,322,1,,
+,P0173,QC11,ws_col_SSE_foot,445,503,2,,the right corner of the south face
+,P0173,QC11,ws_col_SSE_top,445,322,1,,
+,P0173,QC11,ws_col_WNW_foot,131,506,1,,the far left column (the west face seen edge-on)
+,P0173,QC11,ws_low_eave_WNW,38,251,1,,the lower eave's left tip
+,P0173,QC11,ws_low_eave_SSE,518,245,1,,the lower eave's right tip
+,P0173,QC11,ws_up_eave_WNW,91,124,1,,the upper eave's left tip
+,P0173,QC11,ws_up_eave_SSE,482,118,1,,the upper eave's right tip
+,P0173,QC11,ws_apex,290,47,1,skip,the roof's top at the picture's edge (the finial cut off)
+,P0427,QC11,gate_wall_top_SW,371.5,347.5,2,,the gate: the red wall's west end under the beam band (Round 28 reading on the 2x crop with a 10 px grid)
+,P0427,QC11,gate_wall_top_SE,814,347.5,2,,its east end
+,P0427,QC11,gate_eave_SW,322,302,1,,the eave's west corner tip
+,P0427,QC11,gate_eave_SE,867,305,1,,the eave's east corner tip
+,P0427,QC11,gate_ridge_W,425,242,2,,the main ridge's west end at its ornament
+,P0427,QC11,gate_ridge_E,768,242,2,,its east end
+,P0427,QC11,gate_door_head,594,392.5,2,,the arched door's crown (the opening)
+,P0427,QC11,gate_door_foot_L,567.5,471,2,,the opening's west jamb at the threshold
+,P0427,QC11,gate_door_foot_R,620,471,2,,its east jamb
+,P0427,QC11,gate_win_W_c,462.5,416,1,,the west round window's centre (its lower half behind the board: from the ring's top and width)
+,P0427,QC11,gate_win_E_c,725.5,416,1,,the east round window's centre
+,P0173,QC11,zs_col5_foot,505,454,1,skip,"最上楼: a porch column's foot at the porch floor (by the potted plants); its number from the octagon's camera (README); skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"
+,P0173,QC11,zs_col5_beam,505,310,1,skip,"the same column under the balcony's floor beam (the beam painted with round ornaments); skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"
+,P0173,QC11,zs_col6_foot,587,454,1,skip,"the next column east; skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"
+,P0173,QC11,zs_col6_beam,587,300,1,skip,"skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"
+,P0173,QC11,zs_col7_foot,729,455,1,skip,"the east end column; skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"
+,P0173,QC11,zs_col7_beam,729,283,1,skip,"skip: the two-storey hall at the picture's right fits neither 最上楼 at S01's place (the camera then stands inside 三圣殿, 4.5 m up: 0.54 m) nor the east 五佛殿 (0.98-1.35 m): Q302"

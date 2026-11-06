@@ -53,21 +53,21 @@
    "red": 6
   },
   "form_from": {
-   "model": 120,
-   "class": 1417,
-   "dossier": 93,
+   "model": 127,
+   "class": 1413,
+   "dossier": 90,
    "stated": 4
   },
-  "assumed_form": 1500,
+  "assumed_form": 1496,
   "assumed_box": 119,
   "form_grade": {
    "A": 40,
-   "C": 1559,
-   "B": 35
+   "C": 1560,
+   "B": 34
   },
   "steps_sides": {
-   "2": 688,
-   "1": 810,
+   "2": 681,
+   "1": 817,
    "4": 6,
    "3": 44,
    "0": 7
@@ -80,23 +80,23 @@
    "all_round": 37
   },
   "courts_ha": 17.3,
-  "court_triangles": 58494
+  "court_triangles": 58475
  },
  "drawn": {
-  "halls_drawn": 1514,
-  "of": 1514,
-  "near_triangles_median": 736.0,
+  "halls_drawn": 1507,
+  "of": 1507,
+  "near_triangles_median": 734.0,
   "far_triangles_median": 76.0
  },
  "beyond_box_m": {
   "body_or_roof": {
-   "n": 1514,
+   "n": 1507,
    "median": 0.19,
    "p90": 0.22,
    "max": 0.66
   },
   "steps": {
-   "n": 1514,
+   "n": 1507,
    "median": 0.6,
    "p90": 1.11,
    "max": 2.16
@@ -104,26 +104,26 @@
   "hall_kit_over_overhang": 0
  },
  "joints": {
-  "step_flights": 2224,
+  "step_flights": 2209,
   "step_foot_to_ground_m": {
-   "n": 2224,
+   "n": 2209,
    "median": 0.0,
    "p90": 0.0,
    "max": 0.01
   },
-  "way_ends_at_a_box_side": 1267,
-  "of_them_A_or_B": 319,
+  "way_ends_at_a_box_side": 1252,
+  "of_them_A_or_B": 315,
   "at_a_pool_wall_court_or_terrace_hall": 4,
   "met_by_a_flight_within_m": 1.5,
-  "met": 1223,
+  "met": 1208,
   "gap_way_end_to_flight_m": {
-   "n": 1223,
+   "n": 1208,
    "median": 0.0,
    "p90": 0.0,
-   "max": 0.1
+   "max": 0.0
   },
   "drop_platform_top_to_way_m": {
-   "n": 1267,
+   "n": 1252,
    "median": 0.41,
    "p90": 0.63,
    "max": 2.1
@@ -379,64 +379,64 @@
  },
  "cost": {
   "browser": {
-   "measured_utc": "2026-11-06 19:58"
+   "measured_utc": "2026-11-06 21:35"
   },
   "after": {
    "overview_kit": {
-    "frame_ms_median": 945.7,
-    "frame_ms_min": 639.9,
-    "frame_ms_max": 986.9,
-    "drawn_triangles": 1699568,
-    "draw_calls": 1012,
-    "triangles_in_memory": 1782950
+    "frame_ms_median": 499.5,
+    "frame_ms_min": 465.4,
+    "frame_ms_max": 734,
+    "drawn_triangles": 1749246,
+    "draw_calls": 1054,
+    "triangles_in_memory": 1832628
    },
    "court_kit": {
-    "frame_ms_median": 340.9,
-    "frame_ms_min": 255.6,
-    "frame_ms_max": 415.3,
-    "drawn_triangles": 925868,
-    "draw_calls": 112,
-    "triangles_in_memory": 2476028
+    "frame_ms_median": 246,
+    "frame_ms_min": 231.1,
+    "frame_ms_max": 348.4,
+    "drawn_triangles": 927582,
+    "draw_calls": 113,
+    "triangles_in_memory": 2526802
    },
    "hall_kit": {
-    "frame_ms_median": 636.7,
-    "frame_ms_min": 523.7,
-    "frame_ms_max": 691.5,
-    "drawn_triangles": 1353508,
+    "frame_ms_median": 390.4,
+    "frame_ms_min": 370.5,
+    "frame_ms_max": 521.7,
+    "drawn_triangles": 1354129,
     "draw_calls": 404,
-    "triangles_in_memory": 2588359
+    "triangles_in_memory": 2639333
    },
    "overview_boxes": {
-    "frame_ms_median": 696.4,
-    "frame_ms_min": 440.1,
-    "frame_ms_max": 746.6,
-    "drawn_triangles": 1586742,
-    "draw_calls": 762,
-    "triangles_in_memory": 2402142
+    "frame_ms_median": 695.1,
+    "frame_ms_min": 442.6,
+    "frame_ms_max": 725.9,
+    "drawn_triangles": 1636789,
+    "draw_calls": 806,
+    "triangles_in_memory": 2451820
    },
    "court_boxes": {
-    "frame_ms_median": 263.9,
-    "frame_ms_min": 185.6,
-    "frame_ms_max": 280,
-    "drawn_triangles": 826254,
-    "draw_calls": 78,
-    "triangles_in_memory": 2609822
+    "frame_ms_median": 193.6,
+    "frame_ms_min": 167.3,
+    "frame_ms_max": 247,
+    "drawn_triangles": 827670,
+    "draw_calls": 79,
+    "triangles_in_memory": 2660596
    },
    "hall_boxes": {
-    "frame_ms_median": 444.6,
-    "frame_ms_min": 400.1,
-    "frame_ms_max": 483.3,
-    "drawn_triangles": 1235768,
+    "frame_ms_median": 420,
+    "frame_ms_min": 312,
+    "frame_ms_max": 481.2,
+    "drawn_triangles": 1236091,
     "draw_calls": 325,
-    "triangles_in_memory": 2588359
+    "triangles_in_memory": 2639333
    }
   },
-  "after_load_s": 2.88,
+  "after_load_s": 2.975,
   "before": null,
   "before_load_s": null,
-  "near_triangles_if_all_built": 1480142,
-  "far_triangles": 134132,
-  "court_triangles": 58494,
+  "near_triangles_if_all_built": 1466730,
+  "far_triangles": 133484,
+  "court_triangles": 58475,
   "lod_m": 420,
   "tile_m": 180,
   "tiles": 123

@@ -34,6 +34,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r25_wenyuan` | not recorded | 2026-11-06, from 16:41 | see its log | - | see its result row | see the git log | done |
 | `palace_r26_maze` | not recorded | 2026-11-06, from 17:44 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r27_anyou` | not recorded | 2026-11-06, from 19:01 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r28_zhengjue` | not recorded | 2026-11-06, from 20:16 | about 2 h | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -975,3 +976,36 @@ Brief: `palace_r27_anyou.md`. The fourteenth detailed model, built from the refe
 - **The south archway** had been centred on the mean axis, 1.2 m off S01's bar; a way through its box missed its entries by 1.58 m. It stands on S01's bar now, with an entry in its middle bay.
 - **The panel's Chinese characters render as boxes** in this server's headless Chrome (no CJK font), as in Round 26.
 - **Open:** Q295-Q298, Q179 (two or four 华表: four drawn); the qilin's and the bronzes' forms; what the corner ranges were.
+
+## palace_r28_zhengjue
+
+Brief: `palace_r28_zhengjue.md`. The fifteenth detailed model, built from the references: 正觉寺 QC11, the Tibetan Buddhist temple of 绮春园 that the fire of 1860 spared (`models/QC11-zhengjue-si/`). No subagent: the plan and the photographs were read by the round itself.
+
+**What it rests on:**
+- **S01**, re-read on 3-6x crops with a 5 and 10 px grid (`models/QC11-zhengjue-si/plan_readings.csv`): the outer wall, two cross walls, every gate, tower, hall, range and terrace; the axis's middles spread over 1.22 m; the distances along the axis within 3% of today's buildings (OSM).
+- **S221** (E0681, after 金勋) for the halls, bays and roofs; **S228** for what survived and what was rebuilt.
+- **P0177** (Sirén, 1918-35, CC0): 三圣殿 before its loss. **P0173** (about 1900, CC BY-SA 3.0 de): 文殊亭 and a two-storey hall. **P0427, P0430, P0453** (2013): the gate, 文殊亭 and the east 五佛殿 as they survive. The rebuilds (P0428, P0429, P0431) as reading aids only.
+
+**New in the pipeline:**
+- `research/plan/water_removed.json`: W0069 (region R0251), the ground before the gate, an automatic wash call; land now, its number kept.
+- `research/scenes/halls.csv`: 三圣殿's roof corrected from 歇山 to 庑殿 (both rows of QC11-03).
+- The generator's own `masonry()`, `lou()`, `octagon_pavilion()` and `oct_roof()`; its `terrace(..., fp=False)` for decks the ways cross.
+- `research/questions.md`: Q299-Q305.
+
+**Numbers:**
+- **check_models:** QC11 48,542 triangles (about 28,000 fill), GLB 1.51 MB, 0.41 MB compressed; 172 joints, none above the ground, deepest 0.40 m in; 13 ways at its boxes, 0 off. Joints on the decks (`models/QC11-zhengjue-si/report.json`): 31, all at 0.00 m.
+- **Fits** (`research/scenes/QC11-zhengjue-si/plate_fit.csv`): P0177 0.44 m rms over 12 points (庑殿; a 歇山 1.25 m), the camera held in the middle court (a free camera ran 64 m back behind 天王殿 with a long lens); P0173 0.18 m over 11 points on 文殊亭 (the hall at its right `skip`, Q302); P0427 0.15 m over 11 points.
+- **Sweep on P0177** (environment `QC11_SS_COL`, `QC11_SS_DEPTH`, never in step 6): columns 4.0/4.6/5.2 m at depths 11/14 m: all points 0.51/0.43, 0.53/0.46, 0.65/0.62 m; anchored 0.87/0.91, 0.60/0.77, 0.82/1.02 m: 4.6 m and S01's 14 m kept.
+- **Kit:** forms from a model 120 to 127 boxes. **Planting:** 41,260 to 41,446 plants (the pond before the gate is land). **Hills:** 459 to 458 (four free-land hills had stood inside the temple). **Water:** 367 to 366 bodies. **Paths:** lines crossing a box, wall or water 91 (A or B 32) to 90 (32).
+- **The site** grows by 1.5 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (generator idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_surroundings.py`, `check_kit.py --browser` (port 9142: the overview draws 1.749 M triangles at a 500 ms median frame; Round 27 1.700 M), `check_greens.py --browser` (port 9143).
+- Step 6 run twice at the end: the second pass changed no file of `site/`, `models/` or `research/` (md5).
+- Screenshots in `screenshots/r28/`, opened: before (the kit, from a copy of `site/` taken at the round's start) and after from the same 17 cameras (the references' directions: P0427, P0429, P0177, P0173, P0430, P0431, P0453; the rear, the west side, the gate's door, 最上楼's balcony, two joints, from above), `beforeafter_*.jpg`; `conf=1`, `assumed=0` and the sun at 16:00 from the south-east; the overlays of P0177, P0173 and P0427 (free: blend, edges, side by side); the panel with "Our model now".
+
+**Went wrong or left open:**
+- **The flights inside a frame** were placed twice over; **the decks as footprints** made a B way cross 23 m of 'box'; **the hall's back flight** ran into the annex's floor: all fixed, `docs/METHOD.md` 51-52.
+- **P0177's camera** ran free 64 m back behind 天王殿 (0.28 m, the overlay showed 天王殿's back wall); held in the middle court it fits 0.44 m and the roof's vote stands (`docs/METHOD.md` 53).
+- **Found on the shots and fixed:** the pond at the gate, hills in the courts, 文殊亭's eaves as thick dark bands (now `oct_roof`), the 五佛殿 one storey where the survivor has two.
+- **Open:** Q299-Q305; the bell and drum towers' and 天王殿's forms are C; P0173's right-hand hall.

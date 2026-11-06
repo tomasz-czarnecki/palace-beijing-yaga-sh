@@ -1,0 +1,138 @@
+{
+ "id": "QC11",
+ "frame": "origin at the front middle of 三圣殿's box F0407 at its ground; z south along S01's axis (the gate's middle to 最上楼's), x east, y up (scripts/model_site.py)",
+ "params": {
+  "layout": {
+   "value": "the outer wall, the gate with its screen walls and side gates, the two towers, the second cross wall with 天王殿 and two small gates, the side halls, 三圣殿 with its 月台 and annex in the first cross wall, the inner court with the ranges, the raised walk, 文殊亭, 最上楼 with its 顺山殿, the back gate, as S01 draws them",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 re-read in Round 28 on 3-6x crops with a 5 and 10 px grid (plan_readings.csv); placed by the fit in use (research/georef/); S01 is B until Q2; the axis's distances agree with today's buildings within 3% (OSM, README)"
+  },
+  "halls": {
+   "value": "the gate 山门 three bays, bell and drum towers, 天王殿 five bays, 三圣殿 seven bays with 东西配殿 of five and a three-bay rear annex, 文殊亭 octagonal with double eaves, 最上楼 seven bays with three-bay 顺山殿 either side",
+   "source": "S221",
+   "grade": "B",
+   "note": "S221 section 四 and its section on the halls, quoting 金勋's 成府村志 (E0681; research-only, facts cited); S01's cells agree for the gate, 天王殿, 三圣殿, the annex, 文殊亭, 最上楼 and the 顺山殿"
+  },
+  "gate": {
+   "value": "the gate 山门: a masonry gate of three bays, red walls on a grey stone lower course, a round-arched door with a stone frame in the middle and a round window either side, a band of painted beams, a single-eave 歇山 roof in grey tile; three steps",
+   "source": "P0427;S221;S01",
+   "grade": "B",
+   "note": "it survives (repaired 2003, S228): P0427 (2013) shows it from the front; S221: 三间 筒瓦歇山 (E0681); the back carried round from the front (C); its heights read on P0427 at the body's width, 9.6 m (S01 10.1 m, the box 9.6 m): C"
+  },
+  "screens": {
+   "value": "a red screen wall with a framed panel and a round medallion either side of the gate, on the wall line, with a small tiled coping",
+   "source": "P0427;S70;S221;S01",
+   "grade": "B",
+   "note": "S221: 门之西侧砌八字明壁两面（西墙现存）; P0427; S01's two elongated cells; their splay not drawn (S01 draws them on the line); heights C"
+  },
+  "side_gates": {
+   "value": "a small gate house in the south wall either side, and two in the second cross wall, and the back gate on the north wall: one arched door each, red walls, small 歇山 roofs",
+   "source": "S01;S221;P0453;S70",
+   "grade": "B",
+   "note": "S01's three-cell blocks; S221: a side gate each side of the gate; P0453 shows the back gate today; their form C"
+  },
+  "towers": {
+   "value": "the bell tower 钟楼 and the drum tower 鼓楼: two storeys of red masonry, an arched door, a skirt roof, the upper storey with arched windows, a 歇山 roof",
+   "source": "S221;S01;P0427;S70",
+   "grade": "B",
+   "note": "S221 names them (E0681); S01's two squares, about 5.9 m; P0427 shows their upper storeys and roofs over the screen walls today (whether old or rebuilt, S228 does not say: Q177); which is which and every height C"
+  },
+  "tianwang": {
+   "value": "天王殿: five bays, red masonry front and back with three arched doors and two small arched windows, painted beams, a single-eave 歇山 roof in grey tile, standing in the second cross wall",
+   "source": "S221;S01;P0429;S70",
+   "grade": "C",
+   "note": "S221: five bays (B); S01's cells (B); the form is the rebuild's of 2009-11 (P0429: a reading aid, not evidence; S228 says the rebuild drew on a Yangshi Lei plan, not seen); the dig's report (E0688) is a title only"
+  },
+  "peidian": {
+   "value": "the side halls 配殿 of the front court, five bays each, single-eave 歇山 in grey tile, a porch of red columns before lattice doors and windows",
+   "source": "S221;S01",
+   "grade": "B",
+   "note": "S221: 三圣殿东西配殿各五楹，殿顶为歇山顶 (E0681); S01 draws the east one only (B); the west one mirrored about the axis (C); the depth 6.4 m between S01's 5.3 m and today's 9.3 m roof (OSM) (C)"
+  },
+  "sansheng": {
+   "value": "三圣殿: seven bays, a single-eave hip roof 庑殿 in grey tile with a ridge, lattice doors in the three middle bays and lattice windows over sill walls in the others, the lattice on the eave columns, a low stone platform",
+   "source": "P0177;S86;S221;S01",
+   "grade": "B",
+   "note": "Sirén's photograph of 1918-35 (P0177, CC0; the hall was spared in 1860 and lost by 1933) shows the single eave, the doors and windows and the low terrace with its flights; fitted with a 歇山 its ridge ends stand 1.8 and 3.9 m off the photograph's (1.25 m rms), with a 庑殿 0.27 and 1.14 m (0.44 m): the hip roof is drawn and the dossier's 歇山 reading of P0177 is withdrawn (Q299); S221: 七间, 三进深, 前后有廊 (E0681: the galleries inside the lattice, which P0177 shows on the eave columns); S01's seven bays 23.3 m between the end columns (B); the rebuild of 2009-11 has double eaves (P0428): not followed"
+  },
+  "ss_heights": {
+   "value": "columns 4.6 m above the floor, the platform 0.95 m, the bracket band, the ridge by the 举架",
+   "source": "P0177;S86",
+   "grade": "C",
+   "note": "a sweep on P0177 (README): columns 4.0, 4.6, 5.2 m and depths 11 and 14 m; all points 0.43-0.65 m rms, the anchored test best at 4.6 m (0.60-0.77 m) and the depth of S01 (14 m) better than 11 m at every column; a shallow curve, so C; the platform's six risers; the roof's rise the main hall class"
+  },
+  "ss_depth": {
+   "value": "13.5 m between the front and back eave columns (galleries 2.24 m front and back)",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01's rows read as the back and front eave columns (y 7581 and 7635, the second on the cross wall's line); the reading of the rows is C; today's roof outline (OSM) is 13.6 m deep, which allows 10-11 m between columns (Q300)"
+  },
+  "annex": {
+   "value": "the rear annex 后庑殿 of three bays behind the hall's middle, a rolled 歇山 roof",
+   "source": "S221;S01",
+   "grade": "B",
+   "note": "S221: 并接后庑殿三间 (E0681); S01's three cells; its roof and heights C"
+  },
+  "yuetai": {
+   "value": "the terrace 月台 before 三圣殿, with three flights at its front",
+   "source": "S01;P0177;S86",
+   "grade": "B",
+   "note": "S01's rectangle; P0177 shows the flights and a stone base before them; its height (one riser below the hall) C"
+  },
+  "strip": {
+   "value": "the raised walk on the axis from the annex to 最上楼, 0.75 m above the court, faced with rubble, flights from the court at its sides",
+   "source": "S01;P0430;S70;P0431",
+   "grade": "B",
+   "note": "S01's two lines (B); its height and the rubble face after the court round 文殊亭 and 最上楼's terrace today (P0430, P0431: C)"
+  },
+  "wenshu": {
+   "value": "文殊亭: an octagonal pavilion with double eaves in grey tile, red columns, lattice doors 隔扇 on every face, an upper drum with small lattice windows, a gourd finial",
+   "source": "P0173;S88;P0430;S70;S221;S01",
+   "grade": "B",
+   "note": "P0173 (Bundesarchiv, about 1900, CC BY-SA 3.0 de) shows it with two eaves and four-leaf lattice doors on the two faces it shows, carried round (C; today's repair has windows over sill walls on the diagonals, P0430); S221: 八方重檐亭 under Qianlong, single eaves when S221 was written; repaired with two eaves in 2003 (P0430, P0639); S01's two octagons; its face 2.65 m (S01, C) and its heights from P0173's proportions to the face, fitted at 0.18 m rms (C)"
+  },
+  "wenshu_image": {
+   "value": "inside: Manjusri on a lion on a Sumeru base (not drawn)",
+   "source": "S221",
+   "grade": "B",
+   "note": "S221 quoting 金勋 (E0681): the image about 3 丈 (9.6 m) high with its mandorla; the pavilion as drawn is 8.6 m to the apex inside its roof: the figure is a memory of the 20th century (Q301)"
+  },
+  "zuishang": {
+   "value": "最上楼: seven bays, two storeys, a porch of tall red columns carrying the balcony 平座 of the upper storey with its rail, lattice fronts on both storeys, a 硬山 roof in grey tile with red gable walls, the back a solid wall",
+   "source": "P0173;S88;S221;S01;P0431;S70;P0453",
+   "grade": "B",
+   "note": "P0173 shows the tall porch columns, the balcony with its rail on the beam and the lattice fronts; S221: 后楼七间 (E0681); S01's seven bays (B); the 硬山, the red gables and the solid back are the rebuild's (P0431, P0453: C); every height C"
+  },
+  "shunshan": {
+   "value": "the 顺山殿, three bays each, one storey, 硬山 in grey tile, porches",
+   "source": "S221;S01",
+   "grade": "B",
+   "note": "S221: 楼东西三间顺山殿（西殿现仍存） (E0681); S01's cells (the east one 10.3 m deep against the west one's 7 m, as drawn); their form C"
+  },
+  "ranges": {
+   "value": "the ranges along the inner court's sides, eleven bays each on S01's cells: three bays at each end of one storey, 硬山 in grey tile; the middle five the 五佛殿, two storeys with a porch and a balcony, a 硬山 roof with red gables rising over the low ends",
+   "source": "S01;S228;P0430;S70",
+   "grade": "B",
+   "note": "S01's cells and the west range's projection, the 五佛殿's porch (B); S228 names the east and west 五佛殿 among the halls that survived and were repaired in 2002-03; P0430 shows the east one beside 文殊亭 today: two storeys, red columns through both, a balcony rail, a 硬山 with red gables over a low range (B: a surviving building as repaired); its heights read roughly on P0430 (C); the end ranges' forms C"
+  },
+  "walls": {
+   "value": "the outer wall of rubble 虎皮石 with a grey coping, 3.0 m; the two cross walls and the inner lines red with grey copings",
+   "source": "S01;P0453;S70;P0429",
+   "grade": "B",
+   "note": "S01's lines (B); the rubble wall after P0453 (the north side today), the red walls after P0427 and P0429 (today); heights C"
+  },
+  "colours": {
+   "value": "red columns, walls and lattice, green-blue painted beams, grey tile, grey brick sill walls, white stone",
+   "source": "P0427;S70;P0430",
+   "grade": "C",
+   "note": "the surviving gate and 文殊亭 as repaired (P0427, P0430); the photographs of 1900-1935 are black and white"
+  },
+  "courts": {
+   "value": "the courts earth with their old trees (the planting of Round 12), no generated hill",
+   "source": "S1161;S1162;S228",
+   "grade": "B",
+   "note": "the park's old trees stand in this temple (Q213, research/greens/species.csv GS-0807 to GS-0810); 26 old trees remained before the restoration (S228)"
+  }
+ }
+}
