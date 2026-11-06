@@ -134,35 +134,35 @@
     #hover { position: fixed; z-index: 950; max-width: 300px; padding: 2px 7px; border-radius: 3px; background: #17130Fe6; color: #F5EEE2; font: 12px 'Geist', system-ui, sans-serif; pointer-events: none; }
     #hover[hidden] { display: none; }
     /* Loading screen and console (loading.js): the card stays over the view while the gardens and the detailed buildings come in one by one, then fades out. */
-    #loading { position: fixed; top: 48px; right: 0; bottom: 0; left: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; background: #17130Fd9; color: #F5EEE2; font: 13px/1.45 'Geist', system-ui, sans-serif; transition: opacity .8s; }
+    #loading { position: fixed; top: 48px; right: 0; bottom: 0; left: 0; z-index: 3000; display: flex; align-items: center; justify-content: center; background: #FBF9F4EB; color: #1E1812; font: 13px/1.45 'Geist', system-ui, sans-serif; transition: opacity .8s; }
     #loading[hidden] { display: none; }
-    #loading .ld-card { width: min(560px, calc(100vw - 24px)); max-height: calc(100vh - 84px); display: flex; flex-direction: column; box-sizing: border-box; padding: 16px 18px 12px; background: #17130F; border: 1px solid #2F2720; border-radius: 6px; box-shadow: 0 10px 34px #0007; }
+    #loading .ld-card { width: min(560px, calc(100vw - 24px)); max-height: calc(100vh - 84px); display: flex; flex-direction: column; box-sizing: border-box; padding: 16px 18px 12px; background: #FFFFFF; border: 1px solid #E2D9C6; border-radius: 6px; box-shadow: 0 10px 34px #3A2A1A26; }
     #loading .ld-head { display: flex; align-items: center; gap: 12px; }
     #loading .ld-head img { width: 36px; height: auto; flex: none; }
     #loading .ld-head > div { flex: 1; min-width: 0; }
     #loading h2 { margin: 0; font-size: 16px; font-weight: 600; }
-    #loading .ld-sub { font-size: 12px; color: #D9CDBB; }
-    #loading .ld-sub.bad { color: #f0907a; }
-    #loading .ld-head button { flex: none; height: 30px; min-width: 30px; padding: 0 8px; border: 1px solid #A1927D; border-radius: 3px; background: none; color: inherit; font: inherit; cursor: pointer; }
+    #loading .ld-sub { font-size: 12px; color: #3E352C; }
+    #loading .ld-sub.bad { color: #B3321C; }
+    #loading .ld-head button { flex: none; height: 30px; min-width: 30px; padding: 0 8px; border: 1px solid #5B5047; border-radius: 3px; background: none; color: inherit; font: inherit; cursor: pointer; }
     #loading .ld-head button[hidden] { display: none; }
-    #loading .ld-bar { height: 6px; margin: 12px 0 5px; background: #2F2720; border-radius: 3px; overflow: hidden; }
+    #loading .ld-bar { height: 6px; margin: 12px 0 5px; background: #E2D9C6; border-radius: 3px; overflow: hidden; }
     #loading .ld-bar i { display: block; width: 0; height: 100%; background: #C2452D; transition: width .3s; }
-    #loading .ld-stat { display: flex; justify-content: space-between; gap: 10px; font: 11.5px ui-monospace, monospace; color: #A1927D; }
-    #loading ol { list-style: none; margin: 10px 0 8px; padding: 0; font-size: 12.5px; color: #8f8272; }
+    #loading .ld-stat { display: flex; justify-content: space-between; gap: 10px; font: 11.5px ui-monospace, monospace; color: #5B5047; }
+    #loading ol { list-style: none; margin: 10px 0 8px; padding: 0; font-size: 12.5px; color: #6B5F54; }
     #loading ol li { padding: 1px 0; }
     #loading ol li::before { content: "○"; display: inline-block; width: 1.5em; }
-    #loading ol li.run { color: #F5EEE2; }
+    #loading ol li.run { color: #1E1812; }
     #loading ol li.run::before { content: "◐"; color: #C2452D; }
-    #loading ol li.ok { color: #D9CDBB; }
-    #loading ol li.ok::before { content: "✓"; color: #8fbf73; }
-    #loading .ld-log { flex: 1 1 auto; min-height: 96px; max-height: 30vh; overflow-y: auto; padding: 6px 8px; background: #0d0a08; border-radius: 3px; font: 11px/1.5 ui-monospace, monospace; }
+    #loading ol li.ok { color: #3E352C; }
+    #loading ol li.ok::before { content: "✓"; color: #3F7D4E; }
+    #loading .ld-log { flex: 1 1 auto; min-height: 96px; max-height: 30vh; overflow-y: auto; padding: 6px 8px; background: #F4EFE4; border-radius: 3px; font: 11px/1.5 ui-monospace, monospace; }
     #loading .ln { display: flex; gap: 8px; white-space: nowrap; }
     #loading .ln .i { flex: none; width: 1em; }
     #loading .ln .n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
     #loading .ln .s { flex: none; width: 92px; text-align: right; }
-    #loading .ln .t { flex: none; width: 44px; text-align: right; color: #8f8272; }
-    #loading .ln.ok .i { color: #8fbf73; } #loading .ln.run { color: #F0A58C; } #loading .ln.bad { color: #f0705a; } #loading .ln.skip { color: #8f8272; }
-    #loading .ld-tip { margin-top: 8px; font-size: 11.5px; color: #8f8272; }
+    #loading .ln .t { flex: none; width: 44px; text-align: right; color: #6B5F54; }
+    #loading .ln.ok .i { color: #3F7D4E; } #loading .ln.run { color: #C2452D; } #loading .ln.bad { color: #B3321C; } #loading .ln.skip { color: #6B5F54; }
+    #loading .ld-tip { margin-top: 8px; font-size: 11.5px; color: #6B5F54; }
     #loading.done { opacity: 0; }
     @media (max-width: 760px) { #loading ol { display: none; } #loading .ln .s { width: 76px; } }
     @media (max-width: 760px) {
