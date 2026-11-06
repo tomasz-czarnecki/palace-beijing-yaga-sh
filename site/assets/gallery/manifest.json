@@ -1,0 +1,4 @@
+{
+  "note": "Slots whose AI render is in place. Drop assets/gallery/<slot>.webp, then add the slot name to ready. See PLACEHOLDERS.md.",
+  "ready": []
+}

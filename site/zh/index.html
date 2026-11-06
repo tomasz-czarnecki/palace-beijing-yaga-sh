@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>圆明园：1860 年以前的模样</title>
   <meta name="description" content="用地图和三维模型复原 1860 年 10 月以前的北京圆明园。每座建筑都写明出处，推测之处一律标出。研究进行中。">
+  <meta name="theme-color" content="#FBF9F4">
   <link rel="icon" href="../favicon.ico" sizes="32x32">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
@@ -15,6 +16,21 @@
   <script src="../main.js" defer></script>
 </head>
 <body>
+  <a class="skip" href="#main">跳到正文</a>
+  <!-- The page's drawings: the cloud of the dividers and the ink landscape of the placeholders -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="cloud" viewBox="0 0 76 26"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h14c3 0 4-3 2-5s-6 0-5 3"/><path d="M74 20H60c-3 0-4-3-2-5s6 0 5 3"/><path d="M22 20c-3-1-4-6 0-8 3-2 7 0 7 3 0 2-3 3-4 1"/><path d="M54 20c3-1 4-6 0-8-3-2-7 0-7 3 0 2 3 3 4 1"/><path d="M29 20c0-6 4-12 9-12s9 6 9 12"/><path d="M38 20c-2 0-4-2-3-4 1-3 5-3 6 0 1 2-1 4-3 4"/></g></symbol>
+      <symbol id="ph-land" viewBox="0 0 400 160" preserveAspectRatio="xMidYMax slice">
+        <path d="M0 96 C30 84 52 62 78 66 C98 69 108 44 134 40 C160 36 172 78 198 80 C222 82 236 58 262 56 C292 54 306 84 334 82 C360 80 380 68 400 72 V160 H0 Z" fill="#3F6E8C" fill-opacity=".07"/>
+        <path d="M0 96 C30 84 52 62 78 66 C98 69 108 44 134 40 C160 36 172 78 198 80 C222 82 236 58 262 56 C292 54 306 84 334 82 C360 80 380 68 400 72" fill="none" stroke="currentColor" stroke-opacity=".16" stroke-width=".8" vector-effect="non-scaling-stroke"/>
+        <path d="M0 122 C44 110 84 104 126 112 C164 119 196 104 232 106 C276 109 310 124 400 114 V160 H0 Z" fill="#5E8C7B" fill-opacity=".10"/>
+        <path d="M0 122 C44 110 84 104 126 112 C164 119 196 104 232 106 C276 109 310 124 400 114" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width=".8" vector-effect="non-scaling-stroke"/>
+        <g stroke="currentColor" stroke-opacity=".16" stroke-linecap="round" stroke-width=".8" vector-effect="non-scaling-stroke"><path d="M46 140h34M118 146h52M236 140h28M292 148h44"/></g>
+        <path d="M300 108 l9 -6 l9 6 M303 108 v6 M315 108 v6 M298 114 h22" fill="none" stroke="currentColor" stroke-opacity=".28" stroke-width=".8" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      </symbol>
+    </defs>
+  </svg>
   <div class="yaga-bar">
     <div class="yaga-bar-inner">
       <a class="yaga-bar-link" href="https://www.yaga.sh">
@@ -27,9 +43,17 @@
   <header class="site-header">
     <div class="site-header-inner">
       <a href="../zh/" class="brand">
-        <img class="brand-mark" src="../assets/mark.svg" width="28" height="28" alt="">
+        <img class="brand-mark" src="../assets/mark.svg" width="30" height="30" alt="">
         <span class="brand-name">圆明园 <span lang="en">Yuanmingyuan</span></span>
       </a>
+      <nav class="site-nav" aria-label="栏目">
+        <a href="#about">园林</a>
+        <a href="#october-1860">1860</a>
+        <a href="../zh/xiyanglou/">西洋楼</a>
+        <a href="../zh/scenes/">各景</a>
+        <a href="../zh/around/">周边</a>
+        <a href="#how">复原方法</a>
+      </nav>
       <div class="header-right">
         <nav class="lang" aria-label="语言"><a href="../" hreflang="en" lang="en">EN</a><b aria-current="true">中文</b></nav>
         <a href="../reconstruction/3d.html" class="btn btn-dark btn-sm">进入复原</a>
@@ -37,41 +61,274 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" data-gallery="../assets/gallery/" data-ai="AI 图像" data-ai-note="依据我们的三维模型生成的 AI 图像，不是历史图像。" data-lb-close="关闭">
     <section id="top" class="hero">
+      <svg class="hero-hills" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="hh-far" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#3F6E8C" stop-opacity=".16"/><stop offset=".75" stop-color="#3F6E8C" stop-opacity="0"/></linearGradient>
+          <linearGradient id="hh-mid" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#5E8C7B" stop-opacity=".2"/><stop offset=".95" stop-color="#5E8C7B" stop-opacity=".02"/></linearGradient>
+          <linearGradient id="hh-near" x1="0" y1="0" x2="0" y2="1"><stop offset=".8" stop-color="#1E1812" stop-opacity=".10"/><stop offset="1" stop-color="#1E1812" stop-opacity=".02"/></linearGradient>
+          <linearGradient id="hh-mist" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBF9F4" stop-opacity="0"/><stop offset=".55" stop-color="#FBF9F4" stop-opacity=".55"/><stop offset="1" stop-color="#FBF9F4" stop-opacity="0"/></linearGradient>
+          <filter id="hh-soft" x="-5%" y="-20%" width="110%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+        </defs>
+        <path fill="url(#hh-far)" filter="url(#hh-soft)" d="M0 139C16 135 66 108 95 111C123 114 144 152 171 157C198 162 227 150 259 140C290 129 324 92 360 93C395 94 432 142 471 146C511 150 557 116 597 117C637 118 673 144 710 153C747 162 780 176 819 171C858 165 902 132 944 121C986 110 1033 107 1070 102C1108 98 1129 88 1167 96C1205 104 1262 143 1297 150C1332 158 1353 141 1377 141C1401 141 1429 150 1440 152V320H0Z"/>
+        <path fill="none" stroke="#3F6E8C" stroke-opacity=".28" stroke-width="1" d="M0 139C16 135 66 108 95 111C123 114 144 152 171 157C198 162 227 150 259 140C290 129 324 92 360 93C395 94 432 142 471 146C511 150 557 116 597 117C637 118 673 144 710 153C747 162 780 176 819 171C858 165 902 132 944 121C986 110 1033 107 1070 102C1108 98 1129 88 1167 96C1205 104 1262 143 1297 150C1332 158 1353 141 1377 141C1401 141 1429 150 1440 152"/>
+        <path fill="url(#hh-mid)" filter="url(#hh-soft)" d="M0 197C28 195 111 178 170 183C228 187 290 222 350 224C410 226 483 195 532 196C581 197 600 224 643 229C686 235 746 230 791 227C835 224 862 214 910 213C958 211 1031 216 1077 218C1124 220 1154 226 1190 226C1226 227 1254 229 1291 221C1328 214 1385 181 1410 181C1435 181 1435 215 1440 222V320H0Z"/>
+        <path fill="none" stroke="#1E1812" stroke-opacity=".22" stroke-width="1.1" d="M0 197C28 195 111 178 170 183C228 187 290 222 350 224C410 226 483 195 532 196C581 197 600 224 643 229C686 235 746 230 791 227C835 224 862 214 910 213C958 211 1031 216 1077 218C1124 220 1154 226 1190 226C1226 227 1254 229 1291 221C1328 214 1385 181 1410 181C1435 181 1435 215 1440 222"/>
+        <rect x="0" y="200" width="1440" height="120" fill="url(#hh-mist)"/>
+        <path fill="url(#hh-near)" d="M0 277C27 278 104 281 160 281C215 281 268 280 334 279C400 277 486 273 557 273C629 272 702 276 762 278C822 280 862 286 918 285C973 285 1033 275 1094 274C1156 273 1228 278 1285 279C1343 280 1414 280 1440 280V320H0Z"/>
+        <path fill="none" stroke="#1E1812" stroke-opacity=".18" stroke-width="1" d="M0 277C27 278 104 281 160 281C215 281 268 280 334 279C400 277 486 273 557 273C629 272 702 276 762 278C822 280 862 286 918 285C973 285 1033 275 1094 274C1156 273 1228 278 1285 279C1343 280 1414 280 1440 280"/>
+      </svg>
       <div class="hero-grid">
-        <figure class="hero-figure">
-          <span class="plate-frame"><img src="../assets/img/fanghu-shengjing-1744.jpg" srcset="../assets/img/fanghu-shengjing-1744-800.jpg 800w, ../assets/img/fanghu-shengjing-1744.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1407" alt="绢本设色画，俯瞰一组临湖而建的大型宫殿：红墙，黄、绿、蓝三色琉璃瓦顶，白石台基伸入水中，后面是松树、花树和云雾中的远山。"></span>
-          <figcaption class="caption">方壶胜境，《圆明园四十景图》之一，1744 年奉敕绘制。<a href="../credits.html">图片来源</a></figcaption>
-        </figure>
-
         <div class="hero-copy">
           <div class="eyebrow"><span class="eyebrow-bar"></span><span>清代皇家园林 · 北京</span></div>
-          <h1><span class="title-zh">圆明园</span><span class="title-pinyin" lang="en">Yuanmingyuan</span><span class="title-en">1860 年以前的模样</span></h1>
+          <h1><span class="title-zh">圆明园</span><span class="title-pinyin" lang="en">Yuanmingyuan</span><span class="title-en">1860 年 10 月以前的模样</span></h1>
           <div class="tag">研究进行中</div>
-          <p class="lead">我们正在用地图和三维模型复原这座清代皇家园林在 1860 年 10 月之前的样子。做成之后，你可以在浏览器里走进去看。</p>
+          <p class="lead">我们正在用地图和三维模型复原这座清代皇家园林在 1860 年 10 月之前的样子，你可以在浏览器里走进去看。</p>
           <div class="actions">
             <a href="../reconstruction/3d.html" class="btn btn-dark">进入复原</a>
+            <a href="#about" class="btn btn-ghost">了解园林</a>
           </div>
         </div>
+
+        <figure class="hero-figure">
+          <div class="hero-leaf"><span class="mount"><picture><source type="image/webp" srcset="../assets/img/fanghu-shengjing-1744-800.webp 800w, ../assets/img/fanghu-shengjing-1744-1200.webp 1200w" sizes="(max-width: 860px) 92vw, 42vw"><img src="../assets/img/fanghu-shengjing-1744.jpg" srcset="../assets/img/fanghu-shengjing-1744-800.jpg 800w, ../assets/img/fanghu-shengjing-1744.jpg 1400w" sizes="(max-width: 860px) 92vw, 42vw" width="1400" height="1407" fetchpriority="high" alt="绢本设色画，俯瞰一组临湖而建的大型宫殿：红墙，黄、绿、蓝三色琉璃瓦顶，白石台基伸入水中，后面是松树、花树和云雾中的山峦。"></picture></span>
+          <img class="hero-seal" src="../assets/mark.svg" width="92" height="92" alt=""></div>
+          <figcaption class="caption">方壶胜境，《圆明园四十景图》之一，1744 年奉敕绘制。<a href="../credits.html">图片来源</a></figcaption>
+        </figure>
       </div>
     </section>
 
-    <section id="what" class="band">
+    <section id="about" class="band intro">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>它是什么</div>
-          <h2>三座园子，<span class="accent">一处皇家居所。</span></h2>
-        </div>
         <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">一</span><span class="eyebrow-bar"></span>它是什么</div>
+          <div class="head-row">
+            <h2>三座园子，一处居所：<span class="accent">依据史料建模。</span></h2>
+            <span class="v-title" aria-hidden="true">万园之园</span>
+          </div>
           <p>圆明园在北京城西北，由圆明园、长春园、绮春园三座园子组成，合称“圆明三园”。</p>
           <p>园子始建于康熙年间，雍正、乾隆两朝相继扩建。自乾隆起，这里是皇帝的主要居所，日常政务也在这里处理；紫禁城则用于举行正式典礼。</p>
           <p>园中绝大部分是中国式的殿宇、湖泊和山丘，一处处布置成景。长春园北部还有一小片欧式宫苑，即西洋楼，1747 年动工，由耶稣会士郎世宁设计，蒋友仁负责喷泉水法。</p>
+          <p>这里看到的一切都是复原，并非实测。每座建筑都注明来源，并标出 A、B、C 三级可信等级；证据不足的地方我们会推测，并且明确说明。</p>
+          <div class="actions">
+            <a href="../reconstruction/3d.html" class="btn btn-dark">进入复原</a>
+            <a href="#how" class="btn btn-ghost">怎样复原</a>
+          </div>
+        </div>
+        <figure class="reveal">
+          <span class="moon"><img src="../reconstruction/photos/P0008.jpg" width="824" height="813" loading="lazy" decoding="async" alt="青绿设色画：群山环抱的湖面上，曲折的长桥伸入水中，桥上建有亭榭。"></span>
+          <figcaption class="caption">上下天光，《圆明园四十景图》第八景，1744 年，唐岱、沈源绘。Source gallica.bnf.fr / BnF。<a href="../credits.html">图片版权</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="year" class="band paper">
+      <div class="band-inner">
+        <div class="split">
+          <div class="copy">
+            <div class="eyebrow"><span class="seal-num" aria-hidden="true">二</span><span class="eyebrow-bar"></span>复原的时间点</div>
+            <h2>为什么是 <span class="accent">1860 年 10 月之前。</span></h2>
+            <p>我们复原的是咸丰末年、园子被毁之前的样子。凡是后来的资料没有推翻的地方，1744 年的四十景图和 18 世纪 80 年代的西洋楼铜版画都可以作为依据。</p>
+            <p>我们的底图是一幅清代的园林总图，每座殿宇都按开间画出，反映道光、咸丰年间的状况。建筑的位置和平面以它为准，其余依靠绘画、版画、文献和考古发掘。</p>
+          </div>
+          <div class="copy">
+            <ol class="timeline" aria-label="1860 年以前的圆明园">
+              <li><b>1707–09</b>康熙帝把这片土地赐给皇四子胤禛，即后来的雍正帝。</li>
+              <li><b>1725</b>雍正在园子南部建起听政的大殿和朝房。</li>
+              <li><b>1744</b>四十景定名，并绘成图册。</li>
+              <li><b>1747</b>长春园中的西洋楼开工。</li>
+              <li><b>1770–74</b>绮春园并入。</li>
+              <li><b>1855</b>目前找到的最后一处有纪年的增建：同道堂的戏台。</li>
+            </ol>
+          </div>
+        </div>
+        <!-- 数字来源见英文页 site/index.html 中的注释（2026-11-06 的运行结果）。 -->
+        <div class="stats">
+          <div class="stat"><div class="stat-num">332<small>公顷</small></div><div class="stat-label">三座园墙以内的面积，据我们的底图</div></div>
+          <div class="stat"><div class="stat-num">116<small>公顷</small></div><div class="stat-label">其中的水面：湖、池、河道共 364 处</div></div>
+          <div class="stat"><div class="stat-num">1,824</div><div class="stat-label">座建筑、园门等已编目，均注明来源</div></div>
+          <div class="stat"><div class="stat-num">1,634</div><div class="stat-label">座殿宇按数据生成三维</div></div>
+          <div class="stat"><div class="stat-num">14</div><div class="stat-label">个精细模型，与铜版画、照片和图档相互校准</div></div>
+          <div class="stat"><div class="stat-num">562</div><div class="stat-label">种资料：图档、文献、图像、测绘</div></div>
         </div>
       </div>
     </section>
 
-    <section id="happened" class="band">
+    <section id="views" class="views">
+      <div class="views-intro">
+        <div class="eyebrow"><span class="seal-num" aria-hidden="true">三</span><span class="eyebrow-bar"></span>图景</div>
+        <h2>园中景致：<span class="accent">旧日所绘，日后所见。</span></h2>
+        <p class="views-note">前几幅是当时的图像：1744 年的四十景图和 18 世纪 80 年代的铜版画。后面的空白画框，留给依据我们三维模型生成的 AI 图像，每一幅都会注明是 AI 图像。</p>
+      </div>
+
+      <div class="views-group" id="views-painted">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>宫廷所绘</div>
+          <h2>园子尚在时的 <span class="accent">绘画与版画。</span></h2>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure>
+            <a class="gv-pic" href="../assets/img/haiyantang-west-1786-1600.webp" data-lb><picture><source type="image/webp" srcset="../assets/img/haiyantang-west-1786-800.webp 800w, ../assets/img/haiyantang-west-1786-1600.webp 1600w" sizes="(min-width: 1440px) 1344px, 100vw"><img src="../reconstruction/photos/P0050.jpg" width="1600" height="935" loading="lazy" decoding="async" alt="铜版画：一座两层的欧式宫殿，正中有山花，双跑弧形台阶环抱着带喷泉的水池，池边坐着一排雕像，前面是整齐的绿篱。"></picture><span class="pic-tag">铜版画，1783–86</span></a>
+            <figcaption class="gv-cap">
+              <h3>海晏堂西面</h3>
+              <p>西洋楼铜版画二十幅中的第十幅。西面的双跑台阶环抱着十二时辰水法的水池。我们在第十四轮建成的海晏堂模型，就以这幅图校准。</p>
+              <p class="gv-credit">伊兰泰，1786 年。北京故宫博物院，经维基共享资源，公有领域。<a href="../credits.html">图片版权</a></p>
+              <span class="gv-label is-evidence">当时的图像</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="gv-row gv-row-narrow">
+          <div class="gv gv-narrow reveal">
+            <figure>
+              <a class="gv-pic" href="../reconstruction/photos/P0014.jpg" data-lb><img src="../reconstruction/photos/P0014.jpg" width="824" height="817" loading="lazy" decoding="async" alt="青绿设色画：陡峭的青山间开着粉色桃花，几处小屋，一条溪水在山间蜿蜒。"><span class="pic-tag">四十景图，1744</span></a>
+              <figcaption class="gv-cap">
+                <h3>武陵春色</h3>
+                <p>四十景之第十四景：群山间一片桃花溪谷，取意桃花源的故事。</p>
+                <p class="gv-credit">唐岱、沈源，1744 年。Source gallica.bnf.fr / BnF。<a href="../credits.html">图片版权</a></p>
+                <span class="gv-label is-evidence">当时的图像</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-wide reveal">
+            <figure>
+              <a class="gv-pic" href="../reconstruction/photos/P0041.jpg" data-lb><img src="../reconstruction/photos/P0041.jpg" width="1000" height="577" loading="lazy" decoding="async" alt="铜版画：一座欧式宫殿，两侧弧形游廊伸向两座亭楼，前面是喷泉水池。"><span class="pic-tag">铜版画，1783–86</span></a>
+              <figcaption class="gv-cap">
+                <h3>谐奇趣南面</h3>
+                <p>铜版画第一幅。我们的第一个精细模型（第十三轮）就以这幅图和 1873 年的五张遗址照片校准。</p>
+                <p class="gv-credit">伊兰泰，1786 年。北京故宫博物院，经维基共享资源，公有领域。<a href="../credits.html">图片版权</a></p>
+                <span class="gv-label is-evidence">当时的图像</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="views-group" id="views-day">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>有待呈现</div>
+          <h2>园中一日，<span class="accent">据模型而绘。</span></h2>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure class="ph" data-slot="home-gate-morning" data-aspect="16:9" data-alt="AI 图像：清晨的光线中，从大宫门望向正大光明殿。">
+            <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-gate-morning</code> · 16:9</span></span>
+            <figcaption class="gv-cap">
+              <h3>清晨的宫门</h3>
+              <p>从大宫门穿过内院，到听政的正大光明殿，按第十九轮模型的布局。</p>
+              <span class="gv-label" data-filled="AI 图像">图片待补</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="gv-row gv-row-narrow">
+          <div class="gv gv-narrow reveal">
+            <figure class="ph" data-slot="home-fuhai-dawn" data-aspect="4:5" data-alt="AI 图像：黎明时福海上的晨雾，湖心是蓬岛瑶台。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-fuhai-dawn</code> · 4:5</span></span>
+              <figcaption class="gv-cap">
+                <h3>福海晨雾</h3>
+                <p>晨雾笼罩福海，湖心岛上是蓬岛瑶台。</p>
+                <span class="gv-label" data-filled="AI 图像">图片待补</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-wide reveal">
+            <figure class="ph" data-slot="home-haiyantang-afternoon" data-aspect="16:9" data-alt="AI 图像：午后阳光下的海晏堂庭院、双跑台阶和水法池。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-haiyantang-afternoon</code> · 16:9</span></span>
+              <figcaption class="gv-cap">
+                <h3>午后的海晏堂</h3>
+                <p>斜阳下的西立面和水法池，据第十四轮模型。</p>
+                <span class="gv-label" data-filled="AI 图像">图片待补</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="gv-row">
+          <div class="gv gv-wide reveal">
+            <figure class="ph" data-slot="home-dashuifa-playing" data-aspect="16:9" data-alt="AI 图像：大水法喷水时的壁龛、跌水和两座喷水塔。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-dashuifa-playing</code> · 16:9</span></span>
+              <figcaption class="gv-cap">
+                <h3>大水法喷水</h3>
+                <p>壁龛、七级跌水和两座喷水塔，据第十五轮模型。</p>
+                <span class="gv-label" data-filled="AI 图像">图片待补</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-narrow reveal">
+            <figure class="ph" data-slot="home-lantern-night" data-aspect="4:5" data-alt="AI 图像：冬夜水边游廊上挂满灯笼。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-lantern-night</code> · 4:5</span></span>
+              <figcaption class="gv-cap">
+                <h3>灯节之夜</h3>
+                <p>上元灯节时游廊上的灯笼，依照宫廷所绘的行乐图。</p>
+                <span class="gv-label" data-filled="AI 图像">图片待补</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure class="ph" data-slot="home-snow-halls" data-aspect="16:9" data-alt="AI 图像：雪落在九洲清晏殿宇的灰瓦卷棚顶上，湖面结冰。">
+            <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-snow-halls</code> · 16:9</span></span>
+            <figcaption class="gv-cap">
+              <h3>雪中殿宇</h3>
+              <p>皇帝居住的九洲清晏，灰瓦卷棚顶覆着雪，据第十八轮模型。</p>
+              <span class="gv-label" data-filled="AI 图像">图片待补</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="views-group" id="views-above">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>俯瞰</div>
+          <h2>如手卷般 <span class="accent">徐徐展开。</span></h2>
+        </div>
+        <div class="scroll-strip">
+          <div class="scroll-track" tabindex="0" role="region" aria-label="俯瞰图，可左右滑动">
+            <figure class="ph" data-slot="home-aerial-overview" data-aspect="3:4" data-alt="AI 图像：从西南高处俯瞰三园的湖泊、岛屿和殿宇，远处是西山。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-aerial-overview</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>三园全景</h3><p>从西南高处俯瞰。</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-axis" data-aspect="3:4" data-alt="AI 图像：俯瞰中轴线，从大宫门经正大光明殿到后湖。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-aerial-axis</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>中轴</h3><p>从宫门到后湖。</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-fuhai" data-aspect="3:4" data-alt="AI 图像：俯瞰福海、湖中诸岛和岸边的殿宇。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-aerial-fuhai</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>福海</h3><p>福海与湖中诸岛。</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-xiyanglou" data-aspect="3:4" data-alt="AI 图像：俯瞰长春园北部的西洋楼。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-aerial-xiyanglou</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>西洋楼</h3><p>长春园北部的欧式宫苑。</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-surroundings" data-aspect="9:16" data-alt="AI 图像：园林周围的营房、村落和邻近园林，远处是玉泉山和西山。">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" aria-hidden="true">待</span><span class="ph-label"><b>AI 图像待补</b><code>home-surroundings</code> · 9:16</span></span>
+              <figcaption class="gv-cap"><h3>园墙之外</h3><p>营房、村落与西山。</p></figcaption>
+            </figure>
+          </div>
+          <p class="scroll-hint">左右滑动 · AI 图像待补</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="compare" class="band paper">
+      <div class="band-inner">
+        <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">四</span><span class="eyebrow-bar"></span>模型与铜版画</div>
+          <h2>我们的模型，<span class="accent">对照铜版画。</span></h2>
+          <p>拖动分隔线。左边是我们的大水法三维模型，用依第十五幅铜版画反推出的相机视角截图，并考虑到画中被拉高的比例；右边是铜版画原图。画师有所理想化，模型在没有遗存的地方也只能推测：全图拟合误差为 1.42 米（均方根），场院进深被画面压缩的地方误差最大。</p>
+        </div>
+        <div class="cmp reveal" data-cmp>
+          <picture class="cmp-base"><source type="image/webp" media="(max-width: 700px)" srcset="../assets/img/dashuifa-plate15-1786-800.webp"><img src="../assets/img/dashuifa-plate15-1786-1600.webp" width="1600" height="918" loading="lazy" decoding="async" alt="大水法铜版画：雕饰繁复的壁龛和跌水，两侧水池中各有一座高高的喷水塔，前面是规整的花坛。"></picture>
+          <picture class="cmp-top"><source type="image/webp" media="(max-width: 700px)" srcset="../assets/img/dashuifa-model-plate15-800.webp"><img src="../assets/img/dashuifa-model-plate15-1600.webp" width="1600" height="918" loading="lazy" decoding="async" alt="同一视角下我们的大水法三维模型截图：壁龛、跌水、两座喷水塔和后面的殿宇，以素色表现。"></picture>
+          <span class="cmp-line" aria-hidden="true"></span>
+          <span class="cmp-grip" aria-hidden="true"></span>
+          <span class="cmp-tag cmp-tag-a">我们的三维模型</span>
+          <span class="cmp-tag cmp-tag-b">铜版画第十五幅，1786</span>
+          <input type="range" min="0" max="100" value="50" aria-label="在三维模型和第十五幅铜版画之间滑动">
+        </div>
+        <p class="caption">左：我们的模型，从依铜版画反推的相机视角截图。右：大水法正面，西洋楼铜版画第十五幅，伊兰泰，1786 年，北京故宫博物院，经维基共享资源，公有领域。<a href="../credits.html">图片版权</a></p>
+      </div>
+    </section>
+
+    <section id="october-1860" class="band sober">
       <div class="band-inner split">
         <div>
           <div class="eyebrow"><span class="eyebrow-bar"></span>发生了什么</div>
@@ -91,73 +348,101 @@
 
     <section id="xiyanglou" class="band">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>西洋楼</div>
-          <h2>废墟<span class="accent">之所存。</span></h2>
-        </div>
         <div class="copy">
-          <figure class="xy-home"><a href="../zh/xiyanglou/" class="plate-frame"><img src="../reconstruction/photos/P0054.jpg" width="1000" height="577" loading="lazy" alt="远瀛观，西洋楼铜版画第十四图"></a><figcaption class="caption">远瀛观，西洋楼铜版画第十四图，1783至1786年。<a href="../credits.html">图片版权</a></figcaption></figure>
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">五</span><span class="eyebrow-bar"></span>西洋楼</div>
+          <div class="head-row">
+            <h2>废墟<span class="accent">之所存。</span></h2>
+            <span class="v-title" aria-hidden="true">西洋楼</span>
+          </div>
           <p>圆明园最为人知的遗址就在这里：乾隆朝自1747年起由传教士设计、中国工匠营建的一组欧式宫殿和喷泉。我们逐栋整理了铜版画、新旧废墟照片、已知尺寸、现存遗迹和流散石件的去向。</p>
           <div class="actions"><a href="../zh/xiyanglou/" class="btn btn-dark">阅读西洋楼专题</a></div>
         </div>
+        <figure class="xy-home reveal"><a href="../zh/xiyanglou/" class="mount"><img src="../reconstruction/photos/P0054.jpg" width="1000" height="585" loading="lazy" decoding="async" alt="远瀛观，西洋楼铜版画第十四图"></a><figcaption class="caption">远瀛观，西洋楼铜版画第十四图，1783至1786年。<a href="../credits.html">图片版权</a></figcaption></figure>
       </div>
     </section>
 
+    <div class="cloud-rule" aria-hidden="true"><svg><use href="#cloud"/></svg></div>
+
     <section id="scenes" class="band paper">
-      <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>圆明三园 · 逐景</div>
-          <h2>殿宇、湖山，<span class="accent">逐景考订。</span></h2>
+      <div class="band-inner">
+        <div class="split">
+          <div class="copy">
+            <div class="eyebrow"><span class="seal-num" aria-hidden="true">六</span><span class="eyebrow-bar"></span>圆明三园 · 逐景</div>
+            <h2>殿宇、湖山，<span class="accent">逐景考订。</span></h2>
+          </div>
+          <div class="copy">
+            <p>西洋楼以外，圆明园是环绕湖山布置的中式殿宇庭院。我们为每一景、每一组建筑整理了1744年四十景图、清代文献与图档、考古发掘和今日遗址所提供的信息，以及已知的尺寸，供下一步建模之用。</p>
+            <div class="actions"><a href="../zh/scenes/" class="btn btn-dark">阅读各景专题</a></div>
+          </div>
         </div>
-        <div class="copy">
-          <figure class="xy-home"><a href="../zh/scenes/" class="plate-frame"><img src="../reconstruction/photos/P0003.jpg" width="824" height="813" loading="lazy" alt="九洲清晏，1744年《圆明园四十景图》第三景"></a><figcaption class="caption">九洲清晏，皇帝寝宫所在，1744年《圆明园四十景图》第三景。Source gallica.bnf.fr / BnF。<a href="../credits.html">图片版权</a></figcaption></figure>
-          <p>西洋楼以外，圆明园是环绕湖山布置的中式殿宇庭院。我们为每一景、每一组建筑整理了1744年四十景图、清代文献与图档、考古发掘和今日遗址所提供的信息，以及已知的尺寸，供下一步建模之用。</p>
-          <div class="actions"><a href="../zh/scenes/" class="btn btn-dark">阅读各景专题</a></div>
+        <div class="cards">
+          <a class="card reveal" href="../zh/scenes/YM01/"><span class="card-shot"><img src="../reconstruction/photos/P0001_t.jpg" srcset="../reconstruction/photos/P0001_t.jpg 400w, ../reconstruction/photos/P0001.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="398" loading="lazy" decoding="async" alt="四十景图：沿铺石中轴排列的灰瓦殿宇和院墙，后面是青山。"></span><span class="card-year">第 1 景 · 1744</span><h3>正大光明 <span lang="en">Zhengda Guangming</span></h3><p>南面中轴上听政的正殿。</p><span class="card-go">阅读专题</span></a>
+          <a class="card reveal" href="../zh/scenes/YM03/"><span class="card-shot"><img src="../reconstruction/photos/P0003_t.jpg" srcset="../reconstruction/photos/P0003_t.jpg 400w, ../reconstruction/photos/P0003.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="395" loading="lazy" decoding="async" alt="四十景图：林木间布满殿宇庭院的岛屿，前有水面，后有群山。"></span><span class="card-year">第 3 景 · 1744</span><h3>九洲清晏 <span lang="en">Jiuzhou Qingyan</span></h3><p>后湖岛上的皇帝寝宫。</p><span class="card-go">阅读专题</span></a>
+          <a class="card reveal" href="../zh/scenes/YM13/"><span class="card-shot"><img src="../reconstruction/photos/P0013_t.jpg" srcset="../reconstruction/photos/P0013_t.jpg 400w, ../reconstruction/photos/P0013.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="395" loading="lazy" decoding="async" alt="四十景图：一座伸入湖中的殿宇，岸边有垂柳和亭子，后面是群山。"></span><span class="card-year">第 13 景 · 1744</span><h3>万方安和 <span lang="en">Wanfang Anhe</span></h3><p>建在湖中、平面呈“卍”字的殿宇。</p><span class="card-go">阅读专题</span></a>
+          <a class="card reveal" href="../zh/scenes/YM17/"><span class="card-shot"><img src="../reconstruction/photos/P0017_t.jpg" srcset="../reconstruction/photos/P0017_t.jpg 400w, ../reconstruction/photos/P0017.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="394" loading="lazy" decoding="async" alt="四十景图：松林中一组红墙琉璃瓦的庙宇，前有门楼。"></span><span class="card-year">第 17 景 · 1744</span><h3>鸿慈永祜 <span lang="en">Hongci Yonghu</span></h3><p>供奉先帝的安佑宫。</p><span class="card-go">阅读专题</span></a>
+          <a class="card reveal" href="../zh/scenes/YM20/"><span class="card-shot"><img src="../reconstruction/photos/P0020_t.jpg" srcset="../reconstruction/photos/P0020_t.jpg 400w, ../reconstruction/photos/P0020.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="394" loading="lazy" decoding="async" alt="四十景图：水环绕的田地和树木间有一座殿宇，后面是群山。"></span><span class="card-year">第 20 景 · 1744</span><h3>澹泊宁静 <span lang="en">Danbo Ningjing</span></h3><p>四周稻田，中央是“田”字形的殿宇。</p><span class="card-go">阅读专题</span></a>
+          <a class="card reveal" href="../zh/scenes/YM32/"><span class="card-shot"><img src="../reconstruction/photos/P0032_t.jpg" srcset="../reconstruction/photos/P0032_t.jpg 400w, ../reconstruction/photos/P0032.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="396" loading="lazy" decoding="async" alt="四十景图：宽阔湖面上的几座小岛，岛上有殿宇和琉璃瓦顶，对岸是群山。"></span><span class="card-year">第 32 景 · 1744</span><h3>蓬岛瑶台 <span lang="en">Pengdao Yaotai</span></h3><p>福海中央的岛屿。</p><span class="card-go">阅读专题</span></a>
         </div>
+        <p class="caption">《圆明园四十景图》，1744 年，唐岱、沈源绘。Source gallica.bnf.fr / BnF。<a href="../credits.html">图片版权</a></p>
       </div>
     </section>
 
     <section id="around" class="band">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>1860年的园外</div>
-          <h2>并非空旷的平原：<span class="accent">园林、营房与村落。</span></h2>
-        </div>
         <div class="copy">
-          <figure class="xy-home"><a href="../zh/around/" class="plate-frame"><img src="../reconstruction/photos/P0182.jpg" width="1000" height="766" loading="lazy" alt="清漪园万寿山琉璃塔，费利斯·比托摄于1860年10月"></a><figcaption class="caption">相邻的清漪园，费利斯·比托摄于1860年10月焚毁之前。National Gallery of Art (CC0)。<a href="../credits.html">图片版权</a></figcaption></figure>
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">七</span><span class="eyebrow-bar"></span>1860年的园外</div>
+          <h2>并非空旷的平原：<span class="accent">园林、营房与村落。</span></h2>
           <p>圆明园周围有其他皇家园林、八旗护军营房、海淀镇、村落，以及由玉泉山泉水灌溉的稻田。我们整理了清代文献、1860年的记述和旧地图对这一地带的记载，并在三维视图中为园林加上了初步的、标明来源的周边环境。其中大部分是推测，专页说明了每一部分的可信程度。</p>
           <div class="actions"><a href="../zh/around/" class="btn btn-dark">查看圆明园周边</a></div>
         </div>
+        <figure class="xy-home reveal"><a href="../zh/around/" class="plate-frame"><img src="../reconstruction/photos/P0182.jpg" width="1000" height="766" loading="lazy" decoding="async" alt="清漪园万寿山琉璃塔，费利斯·比托摄于1860年10月"></a><figcaption class="caption">相邻的清漪园，费利斯·比托摄于1860年10月焚毁之前。National Gallery of Art (CC0)。<a href="../credits.html">图片版权</a></figcaption></figure>
       </div>
     </section>
 
     <section id="how" class="band paper">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>怎样复原</div>
-          <h2>每座建筑，<span class="accent">都有出处。</span></h2>
+        <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">八</span><span class="eyebrow-bar"></span>怎样复原</div>
+          <div class="head-row">
+            <h2>每座建筑，<span class="accent">都有出处。</span></h2>
+            <span class="v-title" aria-hidden="true">言必有据</span>
+          </div>
         </div>
         <div class="copy">
           <p>建筑的位置和平面，依据清代的园林图档；形制、屋顶、树木和桥梁，参考《圆明园四十景图》和 18 世纪 80 年代的西洋楼铜版画；再借助今天仍在的湖泊、岛屿和山丘，把旧图和实地对应起来。</p>
           <p>每一处都注明来源和可信等级。证据不足的地方我们会推测，并且明确标出。</p>
-          <div class="legend">
-            <div><b>A</b>见于园林尚存时的资料，或实测自至今未变的遗存。</div>
-            <div><b>B</b>后世资料：遗址照片、20 世纪的测绘、现代学术复原，或者只有文字记载。</div>
-            <div><b>C</b>根据建筑类型或对称关系推断。凡是推测，一律标为 C。</div>
-          </div>
+          <ul class="grades">
+            <li><span class="grade grade-a" aria-label="A 级">A</span><span>见于园林尚存时的资料，或实测自至今未变的遗存。</span></li>
+            <li><span class="grade grade-b" aria-label="B 级">B</span><span>后世资料：遗址照片、20 世纪的测绘、现代学术复原，或者只有文字记载。</span></li>
+            <li><span class="grade grade-c" aria-label="C 级">C</span><span>根据建筑类型或对称关系推断。凡是推测，一律标为 C。</span></li>
+          </ul>
+          <p class="credits-link credits-after"><a href="../credits.html">资料来源与图片版权（英文）</a></p>
         </div>
       </div>
     </section>
 
-    <footer class="band">
-      <div class="contact-inner">
-        <p class="credits-link"><a href="../credits.html">资料来源与图片版权（英文）</a></p>
-        <div class="footer-row">
-          <span class="footer-brand"><span>圆明园 · Yaga.sh 实验项目</span></span>
-          <span class="copyright">© 2026 · yaga.sh</span>
+    <section id="contact" class="band contact-band">
+      <div class="band-inner">
+        <div class="eyebrow"><span class="seal-num" aria-hidden="true">九</span><span class="eyebrow-bar"></span>你的资料</div>
+        <h2>你手上有 <span class="accent">照片、图纸或文字吗？</span></h2>
+        <p class="contact-lead">多数殿宇目前只能按同类建筑推测。一张照片、一幅图纸，或者一段记有尺寸的文字，都可能让推测变成有据可查的事实。</p>
+        <div class="actions">
+          <!-- TODO(Tomasz): 联系地址。Küstrin 用的是带真实邮箱的 mailto: 按钮；本项目尚未确定地址，确定后替换 href 和文字。 -->
+          <a href="#contact" class="btn btn-dark" aria-disabled="true" data-todo="contact-address">联系地址待定</a>
         </div>
+        <p class="todo-note">待办：本项目的联系地址尚未确定。</p>
       </div>
-    </footer>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="contact-inner">
+      <p class="credits-link"><a href="../credits.html">资料来源与图片版权（英文）</a></p>
+      <div class="footer-row">
+        <span class="footer-brand"><a href="https://www.yaga.sh"><img class="ink-mark" src="../assets/yaga-mark-dark.webp" width="128" height="128" alt="Yaga Labs"><span>圆明园 · Yaga.sh 实验项目</span></a></span>
+        <span class="copyright">© 2026 · yaga.sh</span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>圆明园 Yuanmingyuan: the Old Summer Palace before 1860</title>
   <meta name="description" content="A map and a 3D model of 圆明园 Yuanmingyuan, the Old Summer Palace in Beijing, as it stood before October 1860. Every building traced to a source, guesses marked. Research in progress.">
+  <meta name="theme-color" content="#FBF9F4">
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -14,6 +15,21 @@
   <script src="main.js" defer></script>
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+  <!-- The page's drawings: the cloud of the dividers and the ink landscape of the placeholders -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="cloud" viewBox="0 0 76 26"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h14c3 0 4-3 2-5s-6 0-5 3"/><path d="M74 20H60c-3 0-4-3-2-5s6 0 5 3"/><path d="M22 20c-3-1-4-6 0-8 3-2 7 0 7 3 0 2-3 3-4 1"/><path d="M54 20c3-1 4-6 0-8-3-2-7 0-7 3 0 2 3 3 4 1"/><path d="M29 20c0-6 4-12 9-12s9 6 9 12"/><path d="M38 20c-2 0-4-2-3-4 1-3 5-3 6 0 1 2-1 4-3 4"/></g></symbol>
+      <symbol id="ph-land" viewBox="0 0 400 160" preserveAspectRatio="xMidYMax slice">
+        <path d="M0 96 C30 84 52 62 78 66 C98 69 108 44 134 40 C160 36 172 78 198 80 C222 82 236 58 262 56 C292 54 306 84 334 82 C360 80 380 68 400 72 V160 H0 Z" fill="#3F6E8C" fill-opacity=".07"/>
+        <path d="M0 96 C30 84 52 62 78 66 C98 69 108 44 134 40 C160 36 172 78 198 80 C222 82 236 58 262 56 C292 54 306 84 334 82 C360 80 380 68 400 72" fill="none" stroke="currentColor" stroke-opacity=".16" stroke-width=".8" vector-effect="non-scaling-stroke"/>
+        <path d="M0 122 C44 110 84 104 126 112 C164 119 196 104 232 106 C276 109 310 124 400 114 V160 H0 Z" fill="#5E8C7B" fill-opacity=".10"/>
+        <path d="M0 122 C44 110 84 104 126 112 C164 119 196 104 232 106 C276 109 310 124 400 114" fill="none" stroke="currentColor" stroke-opacity=".2" stroke-width=".8" vector-effect="non-scaling-stroke"/>
+        <g stroke="currentColor" stroke-opacity=".16" stroke-linecap="round" stroke-width=".8" vector-effect="non-scaling-stroke"><path d="M46 140h34M118 146h52M236 140h28M292 148h44"/></g>
+        <path d="M300 108 l9 -6 l9 6 M303 108 v6 M315 108 v6 M298 114 h22" fill="none" stroke="currentColor" stroke-opacity=".28" stroke-width=".8" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      </symbol>
+    </defs>
+  </svg>
   <div class="yaga-bar">
     <div class="yaga-bar-inner">
       <a class="yaga-bar-link" href="https://www.yaga.sh">
@@ -26,9 +42,17 @@
   <header class="site-header">
     <div class="site-header-inner">
       <a href="./" class="brand">
-        <img class="brand-mark" src="assets/mark.svg" width="28" height="28" alt="">
+        <img class="brand-mark" src="assets/mark.svg" width="30" height="30" alt="">
         <span class="brand-name"><span lang="zh-Hans">圆明园</span> Yuanmingyuan</span>
       </a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#about">The garden</a>
+        <a href="#october-1860">1860</a>
+        <a href="xiyanglou/">Xiyang Lou</a>
+        <a href="scenes/">Scenes</a>
+        <a href="around/">Around</a>
+        <a href="#how">How we build</a>
+      </nav>
       <div class="header-right">
         <nav class="lang" aria-label="Language"><b aria-current="true">EN</b><a href="zh/" hreflang="zh-Hans" lang="zh-Hans">中文</a></nav>
         <a href="reconstruction/3d.html" class="btn btn-dark btn-sm">Enter the reconstruction</a>
@@ -36,41 +60,280 @@
     </div>
   </header>
 
-  <main>
+  <main id="main" data-gallery="assets/gallery/" data-ai="AI visualisation" data-ai-note="AI visualisation based on our 3D model, not a historical picture." data-lb-close="Close">
     <section id="top" class="hero">
+      <svg class="hero-hills" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="hh-far" x1="0" y1="0" x2="0" y2="1"><stop offset=".25" stop-color="#3F6E8C" stop-opacity=".16"/><stop offset=".75" stop-color="#3F6E8C" stop-opacity="0"/></linearGradient>
+          <linearGradient id="hh-mid" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#5E8C7B" stop-opacity=".2"/><stop offset=".95" stop-color="#5E8C7B" stop-opacity=".02"/></linearGradient>
+          <linearGradient id="hh-near" x1="0" y1="0" x2="0" y2="1"><stop offset=".8" stop-color="#1E1812" stop-opacity=".10"/><stop offset="1" stop-color="#1E1812" stop-opacity=".02"/></linearGradient>
+          <linearGradient id="hh-mist" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBF9F4" stop-opacity="0"/><stop offset=".55" stop-color="#FBF9F4" stop-opacity=".55"/><stop offset="1" stop-color="#FBF9F4" stop-opacity="0"/></linearGradient>
+          <filter id="hh-soft" x="-5%" y="-20%" width="110%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+        </defs>
+        <path fill="url(#hh-far)" filter="url(#hh-soft)" d="M0 139C16 135 66 108 95 111C123 114 144 152 171 157C198 162 227 150 259 140C290 129 324 92 360 93C395 94 432 142 471 146C511 150 557 116 597 117C637 118 673 144 710 153C747 162 780 176 819 171C858 165 902 132 944 121C986 110 1033 107 1070 102C1108 98 1129 88 1167 96C1205 104 1262 143 1297 150C1332 158 1353 141 1377 141C1401 141 1429 150 1440 152V320H0Z"/>
+        <path fill="none" stroke="#3F6E8C" stroke-opacity=".28" stroke-width="1" d="M0 139C16 135 66 108 95 111C123 114 144 152 171 157C198 162 227 150 259 140C290 129 324 92 360 93C395 94 432 142 471 146C511 150 557 116 597 117C637 118 673 144 710 153C747 162 780 176 819 171C858 165 902 132 944 121C986 110 1033 107 1070 102C1108 98 1129 88 1167 96C1205 104 1262 143 1297 150C1332 158 1353 141 1377 141C1401 141 1429 150 1440 152"/>
+        <path fill="url(#hh-mid)" filter="url(#hh-soft)" d="M0 197C28 195 111 178 170 183C228 187 290 222 350 224C410 226 483 195 532 196C581 197 600 224 643 229C686 235 746 230 791 227C835 224 862 214 910 213C958 211 1031 216 1077 218C1124 220 1154 226 1190 226C1226 227 1254 229 1291 221C1328 214 1385 181 1410 181C1435 181 1435 215 1440 222V320H0Z"/>
+        <path fill="none" stroke="#1E1812" stroke-opacity=".22" stroke-width="1.1" d="M0 197C28 195 111 178 170 183C228 187 290 222 350 224C410 226 483 195 532 196C581 197 600 224 643 229C686 235 746 230 791 227C835 224 862 214 910 213C958 211 1031 216 1077 218C1124 220 1154 226 1190 226C1226 227 1254 229 1291 221C1328 214 1385 181 1410 181C1435 181 1435 215 1440 222"/>
+        <rect x="0" y="200" width="1440" height="120" fill="url(#hh-mist)"/>
+        <path fill="url(#hh-near)" d="M0 277C27 278 104 281 160 281C215 281 268 280 334 279C400 277 486 273 557 273C629 272 702 276 762 278C822 280 862 286 918 285C973 285 1033 275 1094 274C1156 273 1228 278 1285 279C1343 280 1414 280 1440 280V320H0Z"/>
+        <path fill="none" stroke="#1E1812" stroke-opacity=".18" stroke-width="1" d="M0 277C27 278 104 281 160 281C215 281 268 280 334 279C400 277 486 273 557 273C629 272 702 276 762 278C822 280 862 286 918 285C973 285 1033 275 1094 274C1156 273 1228 278 1285 279C1343 280 1414 280 1440 280"/>
+      </svg>
       <div class="hero-grid">
-        <figure class="hero-figure">
-          <span class="plate-frame"><img src="assets/img/fanghu-shengjing-1744.jpg" srcset="assets/img/fanghu-shengjing-1744-800.jpg 800w, assets/img/fanghu-shengjing-1744.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1407" alt="Painting on silk seen from above: a large palace complex with red walls and yellow, green and blue glazed roofs, built out over a lake on white marble terraces, with pines, blossoming trees and misty hills behind."></span>
-          <figcaption class="caption"><span lang="zh-Hans">方壶胜境</span> Fanghu Shengjing, "Beautiful Scene of the Square Pot". A leaf of the Forty Scenes album (<span lang="zh-Hans">圆明园四十景图</span>), commissioned in 1744. <a href="credits.html">Credit</a></figcaption>
-        </figure>
-
         <div class="hero-copy">
           <div class="eyebrow"><span class="eyebrow-bar"></span><span>Qing imperial gardens · Beijing</span></div>
-          <h1><span class="title-zh" lang="zh-Hans">圆明园</span><span class="title-pinyin">Yuanmingyuan</span><span class="title-en">The Old Summer Palace before 1860</span></h1>
+          <h1><span class="title-zh" lang="zh-Hans">圆明园</span><span class="title-pinyin">Yuanmingyuan</span><span class="title-en">The Old Summer Palace before October 1860</span></h1>
           <div class="tag">Research in progress</div>
-          <p class="lead">We are rebuilding the Qing emperors' garden palace as a map and a 3D model you will be able to walk through in the browser, as it stood before October 1860.</p>
+          <p class="lead">We are rebuilding the Qing emperors' garden palace as a map and a 3D model you can walk through in the browser, as it stood before October 1860.</p>
           <div class="actions">
             <a href="reconstruction/3d.html" class="btn btn-dark">Enter the reconstruction</a>
+            <a href="#about" class="btn btn-ghost">Read the story</a>
           </div>
         </div>
+
+        <figure class="hero-figure">
+          <div class="hero-leaf"><span class="mount"><picture><source type="image/webp" srcset="assets/img/fanghu-shengjing-1744-800.webp 800w, assets/img/fanghu-shengjing-1744-1200.webp 1200w" sizes="(max-width: 860px) 92vw, 42vw"><img src="assets/img/fanghu-shengjing-1744.jpg" srcset="assets/img/fanghu-shengjing-1744-800.jpg 800w, assets/img/fanghu-shengjing-1744.jpg 1400w" sizes="(max-width: 860px) 92vw, 42vw" width="1400" height="1407" fetchpriority="high" alt="Painting on silk seen from above: a large palace complex with red walls and yellow, green and blue glazed roofs, built out over a lake on white marble terraces, with pines, blossoming trees and misty hills behind."></picture></span>
+          <img class="hero-seal" src="assets/mark.svg" width="92" height="92" alt=""></div>
+          <figcaption class="caption"><span lang="zh-Hans">方壶胜境</span> Fanghu Shengjing, "Beautiful Scene of the Square Pot". A leaf of the Forty Scenes album (<span lang="zh-Hans">圆明园四十景图</span>), commissioned in 1744. <a href="credits.html">Credit</a></figcaption>
+        </figure>
       </div>
     </section>
 
-    <section id="what" class="band">
+    <section id="about" class="band intro">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>What it was</div>
-          <h2>Three gardens, <span class="accent">one residence.</span></h2>
-        </div>
         <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">一</span><span class="eyebrow-bar"></span>What it was</div>
+          <div class="head-row">
+            <h2>Three gardens, one residence: <span class="accent">a model built from evidence.</span></h2>
+            <span class="v-title" lang="zh-Hans" aria-hidden="true">万园之园</span>
+          </div>
           <p>The palace north-west of Beijing was made up of three gardens: <span lang="zh-Hans">圆明园</span> Yuanming Yuan, "Garden of Perfect Brightness"; <span lang="zh-Hans">长春园</span> Changchun Yuan, "Garden of Eternal Spring"; and <span lang="zh-Hans">绮春园</span> Qichun Yuan, "Garden of Elegant Spring".</p>
           <p>Building began under the Kangxi Emperor in the early 1700s, and the Yongzheng and Qianlong Emperors enlarged it. From Qianlong on it was the main imperial residence, where the emperors handled state affairs. The Forbidden City was used for formal ceremonies.</p>
           <p>Most of it was Chinese: halls, lakes and hills arranged as scenes. Along the back of Changchun Yuan stood a small group of European-style palaces, <span lang="zh-Hans">西洋楼</span> Xiyang Lou, begun in 1747, designed by the Jesuit Giuseppe Castiglione, with fountains by Michel Benoist.</p>
+          <p>What you see here is reconstructed, not surveyed. Every building carries its sources and a grade, A, B or C, and where the evidence runs out we guess and say so.</p>
+          <div class="actions">
+            <a href="reconstruction/3d.html" class="btn btn-dark">Enter the reconstruction</a>
+            <a href="#how" class="btn btn-ghost">How we rebuild it</a>
+          </div>
+        </div>
+        <figure class="reveal">
+          <span class="moon"><img src="reconstruction/photos/P0008.jpg" width="824" height="813" loading="lazy" decoding="async" alt="Painting in blue and green: a lake ringed by green hills, with pavilions on a zigzag causeway built out over the water."></span>
+          <figcaption class="caption"><span lang="zh-Hans">上下天光</span> Shangxia Tianguang, "Heaven's Light Above and Below", leaf 8 of the Forty Scenes, 1744. 唐岱 Tang Dai and 沈源 Shen Yuan. Source gallica.bnf.fr / BnF. <a href="credits.html">Credit</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="year" class="band paper">
+      <div class="band-inner">
+        <div class="split">
+          <div class="copy">
+            <div class="eyebrow"><span class="seal-num" aria-hidden="true">二</span><span class="eyebrow-bar"></span>The state we rebuild</div>
+            <h2>Why <span class="accent">just before October 1860.</span></h2>
+            <p>We rebuild the gardens as they stood in the last years of the Xianfeng reign, just before their destruction. The album of 1744 and the copperplates of the 1780s count for that state wherever nothing later contradicts them.</p>
+            <p>Our base is a large Qing plan of the gardens that draws every hall by its bays, in a state of the Daoguang and Xianfeng reigns. It gives the positions and footprints; the paintings, engravings, texts and digs give the rest.</p>
+          </div>
+          <div class="copy">
+            <ol class="timeline" aria-label="The gardens before 1860">
+              <li><b>1707–09</b>The Kangxi Emperor grants the land to Prince Yinzhen, the later Yongzheng Emperor.</li>
+              <li><b>1725</b>Yongzheng builds the audience hall and offices on the south side.</li>
+              <li><b>1744</b>The Forty Scenes are named and painted.</li>
+              <li><b>1747</b>Work begins on the European palaces in Changchun Yuan.</li>
+              <li><b>1770–74</b>Qichun Yuan joins the gardens.</li>
+              <li><b>1855</b>The last dated addition we have found: the theatre of <span lang="zh-Hans">同道堂</span> Tongdao Tang.</li>
+            </ol>
+          </div>
+        </div>
+        <!-- Facts: each number from a run on the repo, 2026-11-06.
+             332 ha: the three outer wall rings W01-W03 of research/layers/walls_1860.geojson as polygons in UTM 50N (183.4 + 69.2 + 79.5 ha).
+             116 ha: the 364 bodies of research/layers/water_1860.geojson inside the walls, UTM 50N (116.3 ha).
+             1,824: rows of research/buildings.csv, every one with a value in `sources`.
+             1,634: halls in site/reconstruction/data/kit_1860.json (`halls`).
+             14: entries of site/reconstruction/data/models.json (`models`), three of them bridges.
+             562: source rows (| S..) in research/sources.md. -->
+        <div class="stats">
+          <div class="stat"><div class="stat-num">332<small>ha</small></div><div class="stat-label">inside the three garden walls, on our plan</div></div>
+          <div class="stat"><div class="stat-num">116<small>ha</small></div><div class="stat-label">of it water: 364 lakes, ponds and canals</div></div>
+          <div class="stat"><div class="stat-num">1,824</div><div class="stat-label">buildings, gates and other objects catalogued, each with its source</div></div>
+          <div class="stat"><div class="stat-num">1,634</div><div class="stat-label">halls drawn in 3D from their numbers</div></div>
+          <div class="stat"><div class="stat-num">14</div><div class="stat-label">detailed models fitted to the plates, photographs and plans</div></div>
+          <div class="stat"><div class="stat-num">562</div><div class="stat-label">sources listed: plans, texts, pictures, surveys</div></div>
         </div>
       </div>
     </section>
 
-    <section id="happened" class="band">
+    <section id="views" class="views">
+      <div class="views-intro">
+        <div class="eyebrow"><span class="seal-num" aria-hidden="true">三</span><span class="eyebrow-bar"></span>The views</div>
+        <h2>The gardens, <span class="accent">as painted and as we will picture them.</span></h2>
+        <p class="views-note">The first pictures are period evidence: leaves of the 1744 album and the copperplates of the 1780s. The empty frames after them wait for AI pictures made from our 3D model. Each one will say that it is an AI picture.</p>
+      </div>
+
+      <div class="views-group" id="views-painted">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>As the court drew it</div>
+          <h2>Engraved and painted <span class="accent">while the gardens stood.</span></h2>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure>
+            <a class="gv-pic" href="assets/img/haiyantang-west-1786-1600.webp" data-lb><picture><source type="image/webp" srcset="assets/img/haiyantang-west-1786-800.webp 800w, assets/img/haiyantang-west-1786-1600.webp 1600w" sizes="(min-width: 1440px) 1344px, 100vw"><img src="reconstruction/photos/P0050.jpg" width="1600" height="935" loading="lazy" decoding="async" alt="Copperplate engraving: a two-storey European-style palace with a pediment and curved double stairs, enclosing a basin with a fountain and a row of seated figures; formal hedges in front."></picture><span class="pic-tag">Copperplate, 1783-86</span></a>
+            <figcaption class="gv-cap">
+              <h3><span lang="zh-Hans">海晏堂</span> Haiyan Tang, the west front</h3>
+              <p>Plate 10 of the twenty copperplate views of the European palaces. The double stair of the west front embraces the basin of the water clock. Our model of it, built in Round 14, is fitted to this plate.</p>
+              <p class="gv-credit">Yi Lantai, 1786. Palace Museum, Beijing, via Wikimedia Commons, public domain. <a href="credits.html">Credit</a></p>
+              <span class="gv-label is-evidence">Period evidence</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="gv-row gv-row-narrow">
+          <div class="gv gv-narrow reveal">
+            <figure>
+              <a class="gv-pic" href="reconstruction/photos/P0014.jpg" data-lb><img src="reconstruction/photos/P0014.jpg" width="824" height="817" loading="lazy" decoding="async" alt="Painting in blue and green: steep green hills with pink peach blossom, small houses and a stream winding between them."><span class="pic-tag">Album leaf, 1744</span></a>
+              <figcaption class="gv-cap">
+                <h3><span lang="zh-Hans">武陵春色</span> Wuling Chunse, "Spring Colours of Wuling"</h3>
+                <p>Leaf 14 of the Forty Scenes: a peach-blossom valley among hills, after the old tale of the hidden village.</p>
+                <p class="gv-credit">唐岱 Tang Dai and 沈源 Shen Yuan, 1744. Source gallica.bnf.fr / BnF. <a href="credits.html">Credit</a></p>
+                <span class="gv-label is-evidence">Period evidence</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-wide reveal">
+            <figure>
+              <a class="gv-pic" href="reconstruction/photos/P0041.jpg" data-lb><img src="reconstruction/photos/P0041.jpg" width="1000" height="577" loading="lazy" decoding="async" alt="Copperplate engraving: a European-style palace with curved arcades running out to two pavilions, a fountain basin in front."><span class="pic-tag">Copperplate, 1783-86</span></a>
+              <figcaption class="gv-cap">
+                <h3><span lang="zh-Hans">谐奇趣</span> Xieqiqu from the south</h3>
+                <p>Plate 1 of the copperplates. Our first detailed model, of Round 13, is fitted to this plate and to five photographs of the ruin taken in 1873.</p>
+                <p class="gv-credit">Yi Lantai, 1786. Palace Museum, Beijing, via Wikimedia Commons, public domain. <a href="credits.html">Credit</a></p>
+                <span class="gv-label is-evidence">Period evidence</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="views-group" id="views-day">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>To be pictured</div>
+          <h2>A day in the gardens, <span class="accent">from our model.</span></h2>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure class="ph" data-slot="home-gate-morning" data-aspect="16:9" data-alt="AI visualisation: the approach from the Da Gongmen gate to the Zhengda Guangming audience hall in early morning light.">
+            <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-gate-morning</code> · 16:9<br>The gate court in the morning</span></span>
+            <figcaption class="gv-cap">
+              <h3>The gate court in the morning</h3>
+              <p>From <span lang="zh-Hans">大宫门</span> Da Gongmen across the inner court to <span lang="zh-Hans">正大光明</span> Zhengda Guangming, the audience hall, as our model of Round 19 sets them out.</p>
+              <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="gv-row gv-row-narrow">
+          <div class="gv gv-narrow reveal">
+            <figure class="ph" data-slot="home-fuhai-dawn" data-aspect="4:5" data-alt="AI visualisation: mist over the Fuhai lake at dawn, with the Pengdao Yaotai islets in the middle.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-fuhai-dawn</code> · 4:5<br>Fuhai at dawn</span></span>
+              <figcaption class="gv-cap">
+                <h3><span lang="zh-Hans">福海</span> Fuhai at dawn</h3>
+                <p>Mist on the Sea of Blessings, with <span lang="zh-Hans">蓬岛瑶台</span> Pengdao Yaotai on its islets.</p>
+                <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-wide reveal">
+            <figure class="ph" data-slot="home-haiyantang-afternoon" data-aspect="16:9" data-alt="AI visualisation: the court of Haiyan Tang in afternoon light, the double stair and the water clock basin.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-haiyantang-afternoon</code> · 16:9<br>Haiyan Tang's court, afternoon</span></span>
+              <figcaption class="gv-cap">
+                <h3>The court of <span lang="zh-Hans">海晏堂</span> Haiyan Tang, an afternoon</h3>
+                <p>The west front and the basin of the water clock in low sun, from our model of Round 14.</p>
+                <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="gv-row">
+          <div class="gv gv-wide reveal">
+            <figure class="ph" data-slot="home-dashuifa-playing" data-aspect="16:9" data-alt="AI visualisation: the Dashuifa fountain playing, its niche, water steps and the two towers of jets.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-dashuifa-playing</code> · 16:9<br>The Great Fountain playing</span></span>
+              <figcaption class="gv-cap">
+                <h3><span lang="zh-Hans">大水法</span> Dashuifa, the Great Fountain, playing</h3>
+                <p>The niche, the seven water steps and the two towers of jets, from our model of Round 15.</p>
+                <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="gv gv-narrow reveal">
+            <figure class="ph" data-slot="home-lantern-night" data-aspect="4:5" data-alt="AI visualisation: lanterns along a covered way by the water on a winter night.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-lantern-night</code> · 4:5<br>A lantern night</span></span>
+              <figcaption class="gv-cap">
+                <h3>A lantern night</h3>
+                <p>Lanterns along a covered way at the Lantern Festival, as the court paintings of the festival show it.</p>
+                <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="gv gv-full reveal">
+          <figure class="ph" data-slot="home-snow-halls" data-aspect="16:9" data-alt="AI visualisation: snow on the grey rolled roofs of the Jiuzhou Qingyan halls by the frozen lake.">
+            <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-snow-halls</code> · 16:9<br>Snow on the halls</span></span>
+            <figcaption class="gv-cap">
+              <h3>Snow on the halls</h3>
+              <p>The grey rolled roofs of <span lang="zh-Hans">九洲清晏</span> Jiuzhou Qingyan, the emperor's island, under snow, from our model of Round 18.</p>
+              <span class="gv-label" data-filled="AI visualisation">Picture to come</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="views-group" id="views-above">
+        <div class="views-head">
+          <div class="eyebrow"><span class="eyebrow-bar"></span>From above</div>
+          <h2>Unrolled like <span class="accent">a handscroll.</span></h2>
+        </div>
+        <div class="scroll-strip">
+          <div class="scroll-track" tabindex="0" role="region" aria-label="Views from above, scroll sideways">
+            <figure class="ph" data-slot="home-aerial-overview" data-aspect="3:4" data-alt="AI visualisation: the three gardens from high in the south-west, lakes, islands and halls, the Western Hills behind.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-aerial-overview</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>The three gardens</h3><p>From high in the south-west.</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-axis" data-aspect="3:4" data-alt="AI visualisation: the main axis from above, from the Da Gongmen gate through Zhengda Guangming to the Back Lake.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-aerial-axis</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3>The axis</h3><p>From the gate to the Back Lake.</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-fuhai" data-aspect="3:4" data-alt="AI visualisation: the Fuhai lake from above with its islets and the halls on its shores.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-aerial-fuhai</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3><span lang="zh-Hans">福海</span> Fuhai</h3><p>The Sea of Blessings and its islets.</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-aerial-xiyanglou" data-aspect="3:4" data-alt="AI visualisation: the strip of European palaces along the north edge of Changchun Yuan, from above.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-aerial-xiyanglou</code> · 3:4</span></span>
+              <figcaption class="gv-cap"><h3><span lang="zh-Hans">西洋楼</span> Xiyang Lou</h3><p>The European palaces in their strip.</p></figcaption>
+            </figure>
+            <figure class="ph" data-slot="home-surroundings" data-aspect="9:16" data-alt="AI visualisation: the gardens in their setting, the camps, villages and neighbouring gardens, with the Jade Spring hills and the Western Hills behind.">
+              <span class="ph-frame"><svg class="ph-art" aria-hidden="true" focusable="false"><use href="#ph-land"/></svg><span class="ph-seal" lang="zh-Hans" aria-hidden="true">待</span><span class="ph-label"><b>AI render to come</b><code>home-surroundings</code> · 9:16</span></span>
+              <figcaption class="gv-cap"><h3>Beyond the walls</h3><p>Camps, villages and the Western Hills.</p></figcaption>
+            </figure>
+          </div>
+          <p class="scroll-hint">Scroll sideways · AI renders to come</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="compare" class="band paper">
+      <div class="band-inner">
+        <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">四</span><span class="eyebrow-bar"></span>Model and plate</div>
+          <h2>Our model, held <span class="accent">against the copperplate.</span></h2>
+          <p>Drag the divider. On the left, our 3D model of <span lang="zh-Hans">大水法</span> Dashuifa, the Great Fountain, seen through the camera we fitted to plate 15, with the plate's taller heights allowed for. On the right, the plate itself. The engraver idealised, and our model guesses where nothing survives: across the plate the fit is 1.42 m (root mean square), worst where the plate shortens the court.</p>
+        </div>
+        <div class="cmp reveal" data-cmp>
+          <picture class="cmp-base"><source type="image/webp" media="(max-width: 700px)" srcset="assets/img/dashuifa-plate15-1786-800.webp"><img src="assets/img/dashuifa-plate15-1786-1600.webp" width="1600" height="918" loading="lazy" decoding="async" alt="Copperplate engraving of the Dashuifa fountain: a carved niche with water steps, two tall towers of jets in basins either side, and formal parterres in front."></picture>
+          <picture class="cmp-top"><source type="image/webp" media="(max-width: 700px)" srcset="assets/img/dashuifa-model-plate15-800.webp"><img src="assets/img/dashuifa-model-plate15-1600.webp" width="1600" height="918" loading="lazy" decoding="async" alt="Screenshot of our 3D model of Dashuifa from the same camera: the niche, the water steps, the two towers with their jets and the hall behind, in plain colours."></picture>
+          <span class="cmp-line" aria-hidden="true"></span>
+          <span class="cmp-grip" aria-hidden="true"></span>
+          <span class="cmp-tag cmp-tag-a">Our 3D model</span>
+          <span class="cmp-tag cmp-tag-b">Plate 15, 1786</span>
+          <input type="range" min="0" max="100" value="50" aria-label="Slide between our 3D model and plate 15">
+        </div>
+        <p class="caption">Left: our model, screenshot from the camera fitted to the plate. Right: <span lang="zh-Hans">大水法正面</span>, plate 15 of the copperplates, Yi Lantai, 1786, Palace Museum, Beijing, via Wikimedia Commons, public domain. <a href="credits.html">Credit</a></p>
+      </div>
+    </section>
+
+    <section id="october-1860" class="band sober">
       <div class="band-inner split">
         <div>
           <div class="eyebrow"><span class="eyebrow-bar"></span>What happened</div>
@@ -90,73 +353,101 @@
 
     <section id="xiyanglou" class="band">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>The European palaces</div>
-          <h2><span lang="zh-Hans">西洋楼</span> Xiyang Lou, <span class="accent">what the ruins hold.</span></h2>
-        </div>
         <div class="copy">
-          <figure class="xy-home"><a href="xiyanglou/" class="plate-frame"><img src="reconstruction/photos/P0054.jpg" width="1000" height="577" loading="lazy" alt="Yuanying Guan, plate 14 of the twenty copper plates of the 1780s"></a><figcaption class="caption"><span lang="zh-Hans">远瀛观</span> Yuanying Guan, plate 14 of the twenty copperplate views, 1783-86. <a href="credits.html">Credit</a></figcaption></figure>
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">五</span><span class="eyebrow-bar"></span>The European palaces</div>
+          <div class="head-row">
+            <h2><span lang="zh-Hans">西洋楼</span> Xiyang Lou, <span class="accent">what the ruins hold.</span></h2>
+            <span class="v-title" lang="zh-Hans" aria-hidden="true">西洋楼</span>
+          </div>
           <p>The ruins that everyone knows from the Old Summer Palace are these: a strip of European-style palaces and fountains, built for the Qianlong Emperor from 1747 with Jesuit designers and Chinese craftsmen. We have gone through them building by building: the engravings, the photographs of the ruins then and now, what is known of their sizes, what survives and where the fragments are.</p>
           <div class="actions"><a href="xiyanglou/" class="btn btn-dark">Read about the European palaces</a></div>
         </div>
+        <figure class="xy-home reveal"><a href="xiyanglou/" class="mount"><img src="reconstruction/photos/P0054.jpg" width="1000" height="585" loading="lazy" decoding="async" alt="Yuanying Guan, plate 14 of the twenty copper plates of the 1780s"></a><figcaption class="caption"><span lang="zh-Hans">远瀛观</span> Yuanying Guan, plate 14 of the twenty copperplate views, 1783-86. <a href="credits.html">Credit</a></figcaption></figure>
       </div>
     </section>
 
+    <div class="cloud-rule" aria-hidden="true"><svg><use href="#cloud"/></svg></div>
+
     <section id="scenes" class="band paper">
-      <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>The three gardens, scene by scene</div>
-          <h2>Halls, lakes and hills, <span class="accent">one scene at a time.</span></h2>
+      <div class="band-inner">
+        <div class="split">
+          <div class="copy">
+            <div class="eyebrow"><span class="seal-num" aria-hidden="true">六</span><span class="eyebrow-bar"></span>The three gardens, scene by scene</div>
+            <h2>Halls, lakes and hills, <span class="accent">one scene at a time.</span></h2>
+          </div>
+          <div class="copy">
+            <p>Outside the European palaces, the gardens were Chinese halls and courts set round lakes and hills. For each scene and compound we have gathered what the album of 1744, the Qing texts and plans, the excavations and today's site say about it, and what is known of its size, so that it can be modelled.</p>
+            <div class="actions"><a href="scenes/" class="btn btn-dark">Read the scene dossiers</a></div>
+          </div>
         </div>
-        <div class="copy">
-          <figure class="xy-home"><a href="scenes/" class="plate-frame"><img src="reconstruction/photos/P0003.jpg" width="824" height="813" loading="lazy" alt="Jiuzhou Qingyan, the emperor's residence, leaf 3 of the Forty Scenes album of 1744"></a><figcaption class="caption"><span lang="zh-Hans">九洲清晏</span> Jiuzhou Qingyan, the emperor's residence, in the album of the Forty Scenes, 1744. Source gallica.bnf.fr / BnF. <a href="credits.html">Credit</a></figcaption></figure>
-          <p>Outside the European palaces, the gardens were Chinese halls and courts set round lakes and hills. For each scene and compound we have gathered what the album of 1744, the Qing texts and plans, the excavations and today's site say about it, and what is known of its size, so that it can be modelled.</p>
-          <div class="actions"><a href="scenes/" class="btn btn-dark">Read the scene dossiers</a></div>
+        <div class="cards">
+          <a class="card reveal" href="scenes/YM01/"><span class="card-shot"><img src="reconstruction/photos/P0001_t.jpg" srcset="reconstruction/photos/P0001_t.jpg 400w, reconstruction/photos/P0001.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="398" loading="lazy" decoding="async" alt="Album leaf: walled courts of grey-roofed halls along a paved axis, green hills behind."></span><span class="card-year">Leaf 1 · 1744</span><h3><span lang="zh-Hans">正大光明</span> Zhengda Guangming</h3><p>The audience hall on the south axis.</p><span class="card-go">Read the dossier</span></a>
+          <a class="card reveal" href="scenes/YM03/"><span class="card-shot"><img src="reconstruction/photos/P0003_t.jpg" srcset="reconstruction/photos/P0003_t.jpg 400w, reconstruction/photos/P0003.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="395" loading="lazy" decoding="async" alt="Album leaf: an island crowded with halls and courts among trees, water in front and hills behind."></span><span class="card-year">Leaf 3 · 1744</span><h3><span lang="zh-Hans">九洲清晏</span> Jiuzhou Qingyan</h3><p>The emperor's apartments on the island by the Back Lake.</p><span class="card-go">Read the dossier</span></a>
+          <a class="card reveal" href="scenes/YM13/"><span class="card-shot"><img src="reconstruction/photos/P0013_t.jpg" srcset="reconstruction/photos/P0013_t.jpg 400w, reconstruction/photos/P0013.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="395" loading="lazy" decoding="async" alt="Album leaf: a hall built out in a lake, willows and a pavilion on the shore, hills behind."></span><span class="card-year">Leaf 13 · 1744</span><h3><span lang="zh-Hans">万方安和</span> Wanfang Anhe</h3><p>A hall built in the lake on the plan of the character <span lang="zh-Hans">卍</span>.</p><span class="card-go">Read the dossier</span></a>
+          <a class="card reveal" href="scenes/YM17/"><span class="card-shot"><img src="reconstruction/photos/P0017_t.jpg" srcset="reconstruction/photos/P0017_t.jpg 400w, reconstruction/photos/P0017.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="394" loading="lazy" decoding="async" alt="Album leaf: a walled temple compound with glazed roofs among pines, approached through gateways."></span><span class="card-year">Leaf 17 · 1744</span><h3><span lang="zh-Hans">鸿慈永祜</span> Hongci Yonghu</h3><p>The ancestral temple, <span lang="zh-Hans">安佑宫</span> Anyou Gong.</p><span class="card-go">Read the dossier</span></a>
+          <a class="card reveal" href="scenes/YM20/"><span class="card-shot"><img src="reconstruction/photos/P0020_t.jpg" srcset="reconstruction/photos/P0020_t.jpg 400w, reconstruction/photos/P0020.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="394" loading="lazy" decoding="async" alt="Album leaf: a hall among trees and fields ringed by water, hills behind."></span><span class="card-year">Leaf 20 · 1744</span><h3><span lang="zh-Hans">澹泊宁静</span> Danbo Ningjing</h3><p>Paddies all round, and a hall on the plan of the character <span lang="zh-Hans">田</span>.</p><span class="card-go">Read the dossier</span></a>
+          <a class="card reveal" href="scenes/YM32/"><span class="card-shot"><img src="reconstruction/photos/P0032_t.jpg" srcset="reconstruction/photos/P0032_t.jpg 400w, reconstruction/photos/P0032.jpg 824w" sizes="(max-width: 560px) 92vw, 380px" width="400" height="396" loading="lazy" decoding="async" alt="Album leaf: islets in a wide lake with halls and glazed roofs on them, hills on the far shore."></span><span class="card-year">Leaf 32 · 1744</span><h3><span lang="zh-Hans">蓬岛瑶台</span> Pengdao Yaotai</h3><p>The islets in the middle of <span lang="zh-Hans">福海</span> Fuhai.</p><span class="card-go">Read the dossier</span></a>
         </div>
+        <p class="caption">Leaves of the Forty Scenes album, 1744, by 唐岱 Tang Dai and 沈源 Shen Yuan. Source gallica.bnf.fr / BnF. <a href="credits.html">Credit</a></p>
       </div>
     </section>
 
     <section id="around" class="band">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>Around the gardens, 1860</div>
-          <h2>Not an empty plain: <span class="accent">gardens, camps, villages.</span></h2>
-        </div>
         <div class="copy">
-          <figure class="xy-home"><a href="around/" class="plate-frame"><img src="reconstruction/photos/P0182.jpg" width="1000" height="766" loading="lazy" alt="The glazed pagoda on Wanshou Shan in the Qingyi Yuan, photographed by Felice Beato in October 1860"></a><figcaption class="caption"><span lang="zh-Hans">清漪园</span> Qingyi Yuan, the neighbouring garden, photographed by Felice Beato in October 1860, before the burning. National Gallery of Art (CC0). <a href="credits.html">Credit</a></figcaption></figure>
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">七</span><span class="eyebrow-bar"></span>Around the gardens, 1860</div>
+          <h2>Not an empty plain: <span class="accent">gardens, camps, villages.</span></h2>
           <p>The gardens stood among other imperial gardens, the camps of the banner guard, the market town of <span lang="zh-Hans">海淀</span> Haidian, villages and rice fields fed by the springs of the Jade Spring hills. We have gathered what the Qing texts, the accounts of 1860 and the old maps say about that ring, and put a first, labelled version of it round the gardens in the 3D view. Most of it is inferred, and the page says how sure each part is.</p>
           <div class="actions"><a href="around/" class="btn btn-dark">See what surrounded the palace</a></div>
         </div>
+        <figure class="xy-home reveal"><a href="around/" class="plate-frame"><img src="reconstruction/photos/P0182.jpg" width="1000" height="766" loading="lazy" decoding="async" alt="The glazed pagoda on Wanshou Shan in the Qingyi Yuan, photographed by Felice Beato in October 1860"></a><figcaption class="caption"><span lang="zh-Hans">清漪园</span> Qingyi Yuan, the neighbouring garden, photographed by Felice Beato in October 1860, before the burning. National Gallery of Art (CC0). <a href="credits.html">Credit</a></figcaption></figure>
       </div>
     </section>
 
     <section id="how" class="band paper">
       <div class="band-inner split">
-        <div>
-          <div class="eyebrow"><span class="eyebrow-bar"></span>How we rebuild it</div>
-          <h2>Every building <span class="accent">traced to a source.</span></h2>
+        <div class="copy">
+          <div class="eyebrow"><span class="seal-num" aria-hidden="true">八</span><span class="eyebrow-bar"></span>How we rebuild it</div>
+          <div class="head-row">
+            <h2>Every building <span class="accent">traced to a source.</span></h2>
+            <span class="v-title" lang="zh-Hans" aria-hidden="true">言必有据</span>
+          </div>
         </div>
         <div class="copy">
           <p>Qing site plans give positions and footprints. The Forty Scenes album and the Xiyang Lou engravings of the 1780s give forms, roofs, trees and bridges. Today's lakes, islands and hills tie the old plans to the ground.</p>
           <p>Every feature carries its source and a grade. Where the evidence runs out we guess, and say so.</p>
-          <div class="legend">
-            <div><b>A</b>Shown on a source made while the gardens stood, or measured on remains that survive unchanged.</div>
-            <div><b>B</b>A later source: photographs of the ruins, 20th-century surveys, modern scholarly reconstructions, or a written description only.</div>
-            <div><b>C</b>Inferred from typology or symmetry. Every guess is a C.</div>
-          </div>
+          <ul class="grades">
+            <li><span class="grade grade-a" aria-label="Grade A">A</span><span>Shown on a source made while the gardens stood, or measured on remains that survive unchanged.</span></li>
+            <li><span class="grade grade-b" aria-label="Grade B">B</span><span>A later source: photographs of the ruins, 20th-century surveys, modern scholarly reconstructions, or a written description only.</span></li>
+            <li><span class="grade grade-c" aria-label="Grade C">C</span><span>Inferred from typology or symmetry. Every guess is a C.</span></li>
+          </ul>
+          <p class="credits-link credits-after"><a href="credits.html">Sources and image credits</a></p>
         </div>
       </div>
     </section>
 
-    <footer class="band">
-      <div class="contact-inner">
-        <p class="credits-link"><a href="credits.html">Sources and image credits</a></p>
-        <div class="footer-row">
-          <span class="footer-brand"><span><span lang="zh-Hans">圆明园</span> Yuanmingyuan · a Yaga.sh experiment</span></span>
-          <span class="copyright">© 2026 · yaga.sh</span>
+    <section id="contact" class="band contact-band">
+      <div class="band-inner">
+        <div class="eyebrow"><span class="seal-num" aria-hidden="true">九</span><span class="eyebrow-bar"></span>Your sources</div>
+        <h2>Do you have a photograph, <span class="accent">a plan, a text?</span></h2>
+        <p class="contact-lead">Most halls are still drawn from their class, not from their own evidence. A photograph, a plan or a text that gives a size can turn a guess into a graded fact.</p>
+        <div class="actions">
+          <!-- TODO(Tomasz): contact address. Küstrin uses a mailto: button with a real address; this project has none decided yet. Replace the href and the text with the address to use. -->
+          <a href="#contact" class="btn btn-dark" aria-disabled="true" data-todo="contact-address">Contact address to come</a>
         </div>
+        <p class="todo-note">To do: the contact address for this project is not set yet.</p>
       </div>
-    </footer>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="contact-inner">
+      <p class="credits-link"><a href="credits.html">Sources, image credits and licences</a></p>
+      <div class="footer-row">
+        <span class="footer-brand"><a href="https://www.yaga.sh"><img class="ink-mark" src="assets/yaga-mark-dark.webp" width="128" height="128" alt="Yaga Labs"><span><span lang="zh-Hans">圆明园</span> Yuanmingyuan · a Yaga.sh experiment</span></a></span>
+        <span class="copyright">© 2026 · yaga.sh</span>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
