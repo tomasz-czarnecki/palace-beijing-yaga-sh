@@ -165,7 +165,7 @@ Thin: 18 evidence rows; no dig, no dimension.
 
 ### Open questions that name it
 
-None.
+- **Q209. Lotus at 曲院风荷 and 平湖秋月.** Their texts name lotus (S40 曲院风荷 "红衣印波", 平湖秋月 "荷露"), but the 1744 leaves paint plain water there; the leaves paint lotus only at 濂溪乐处 (about 85-90% of its lake) and 多稼如云 (Round 12, album workers). The model follows the texts, so those lotus beds stand on C extents; open water kept alon
 
 ### Wishlist rows that name it
 

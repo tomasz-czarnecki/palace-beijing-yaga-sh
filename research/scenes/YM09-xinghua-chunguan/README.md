@@ -257,6 +257,9 @@ Not written yet.
 - **Q94. YM09 and YM33.** YM09 and YM33: the S361 editors say 春雨轩 (E1303) and 观澜堂 (E1957) outlived the fire of October 1860 and were lost around 1900; S47 (E1315) records offerings at the 春雨轩 earth shrine in 1861. No period source of 1860-1900 seen for the halls themselves (徐树钧 1871, E0433, names only 双鹤斋 and a few other
 - **Q99. Wolseley (S240), M'Ghee (S242), Loch (S244).** Wolseley (S240), M'Ghee (S242), Loch (S244): their pages on the garden are already catalogued (E0472-E0480, E1028-E1038, E2104-E2123). I found no further passage in them tying a hall of YM15, YM20, YM13, YM09, YM14, YM31, YM39, YM38 or YM33 by name; the 1860 account
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
+- **Q198. The album's hills are too tall.** Read by module against each scene's largest hall, the Forty Scenes leaves paint the main hills 2.5-4.5 ridges high (up to 7.9 at 杏花春馆), 10-70 m. The halls themselves are drawn 1.5-1.9 times too tall for their width (正大光明殿, 安佑宫). The model scales the 99 readings by 0.448 so thei
+- **Q201. 紫碧山房's height.** China Daily (S1001) calls today's rock garden 15 m high and "the highest point of Yuanmingyuan". GLO-30 shows 6.9-8.8 m at H0052, and nothing at H0037. Qianlong's "假山故无九仞高" bounds it under about 23 m (S361). The 2017 dig found a retaining wall at the hill's foot (S1012). The model takes 6.3 m f
+- **Q202. Hills the plan's outlines miss.** 杏花春馆's high hill (S02 p.80); a second 寿山 behind 中和堂 QC03 in 绮春园 (S1008 no.79); 泽兰堂 CC10 on the south slope of the 长春园 north hill (S1008 no.70). The free land covers the first two places in part; none is an outline of its own. (Round 10)
 
 ### Wishlist rows that name it
 

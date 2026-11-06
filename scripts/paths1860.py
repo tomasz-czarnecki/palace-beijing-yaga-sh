@@ -134,7 +134,7 @@ class Box:
         ent = MODEL_ENTRIES.get(self.bid) if MODEL_DOORS["on"] else None
         if ent:
             # Round 13: a detailed model stands here: its own doors and stair feet (models/<ID>-<slug>/joints.json), those outside this box, are the doors
-            out = {f"model {n}": xz for n, xz in ent if not self.poly.buffer(-0.05).contains(Point(xz))}
+            out = {f"model {n}": xz for n, xz in ent if self.walk_through or not self.poly.buffer(-0.05).contains(Point(xz))}  # a court's entries lie inside it (Round 15)
             if out:
                 return out
         return {"front": self.c + self.a * (self.hd + o), "back": self.c - self.a * (self.hd + o), "right": self.c + self.u * (self.hf + o), "left": self.c - self.u * (self.hf + o)}
@@ -354,7 +354,7 @@ class Snapper:
         return not self.router.wet.contains(q) and not self.router.box_union.contains(q)
 
     def door(self, box, ref, prefer_front=True, nxt=None):
-        if box.walk_through:
+        if box.walk_through and not (MODEL_DOORS["on"] and MODEL_ENTRIES.get(box.bid)):  # Round 15: a court or terrace a model draws is met at the model's entries
             return box.c.copy(), "through", box
         best = None
         for side, p in box.doors().items():

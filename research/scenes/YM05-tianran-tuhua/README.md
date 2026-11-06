@@ -222,6 +222,7 @@ No dig found; storeys of 天然图画楼 and 朗吟阁 not stated in S05 (楼 an
 - **Q26. Forms.** 安佑宫 pillars: two (S05 j81:20a), four (S02 p.85, S01), a pair at each of two pailou (S06). 山高水长 九楹 (S05) / two-storey 五楹 (S06). 慈云普护楼 三楹 / 三层. 思永斋 七楹 / 工字殿十七楹. 长桥 13 / 10 spans. 谐奇趣 3 / 2 storeys. 出入贤良门 bridges three (S05) / one (S02). 得全阁 separate (S05) / middle floor (S48). 深柳读书堂 two places or one (S05
 - **Q57. What state a reconstruction shows.** Ours is 1860. 中央美术学院's Forty Scenes (S553, 2025) aims at about 1744; Tsinghua models four periods including 咸丰, and a render on the web seldom says which (S505); the card models 烫样 are of the repair of 1873–74 (`era` = period) and read back to 1860 only with a Yangshi Lei dra
 - **Q138. E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y.** E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (YM05-08 文昌阁, YM16-08 魁星楼, YM23 慎修思永 and 知过堂, YM25, YM37-02 双鹤斋, YM47 藏舟坞?, YM48 紫碧山房/顺木天, YM51 课农轩). The 1860 model is unaffected
+- **Q216. Which 五福堂 had the magnolias.** S361 files the poems 五福堂对玉兰花 (1788) under 春熙院; a Jiaqing note of 1797 (S360) puts magnolias at 含碧堂 and 五福堂 of 长春仙馆, and 天然图画 YM05 has a 五福堂. The YM05 row is kept at C. (Round 12)
 
 ### Wishlist rows that name it
 

@@ -203,6 +203,7 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 - **Q177. QC11.** QC11: S228 says the rebuild of 2009-11 used a Yangshi Lei ground plan (样式雷地盘看样图) of 正觉寺; no such drawing is in the evidence catalogue. Worth a search on the NLC/mhymy lists. S228 also names neither the bell and drum towers in the repair lists: old or rebuilt? (verify_b worker, Round 7)
 - **Q178. QC11.** QC11: E0683 gives a 达喇嘛 and 40 lamas from 宝谛寺; S228 says 建成后由两名喇嘛住持 (two lamas presided). Not a conflict as such (heads vs community), but check E0683's source before the page gives the number 40. (verify_b worker, Round 7)
 - **Q190. Check points whose reading was doubted after writing, kept as written** (the rule): K-FH-01 (the plan draws two lines 9 m apart round the lobe; the outer read), K-XY-01 (the pool's south edge in shadow, perhaps 1.5 m), K-QC-01 and K-QC-02 (read on leaning roofs, 2-4 m), K-QB-01 (the island today is larger and l
+- **Q213. 正觉寺's old trees.** The park registers 26-28 old trees, almost all in 正觉寺 (QC11), mainly 侧柏 and 桧柏, with 白皮松, 国槐 and 黑枣 (S1161, S1162). One 桧柏 (11010802198) is graded 一级, 300 years or more, older than the temple of 1773. No tree's position is published, so the court's trees are placed, not surveyed. (Round 12)
 
 ### Wishlist rows that name it
 
@@ -211,6 +212,7 @@ No measured plan of the temple is on disk; the park's restoration survey of 2002
 | A higher-resolution scan of Sirén's 正觉寺 photograph (P0177) and of the 1920 舍卫城 gate (P0197) | the small copies for the hall form | Commons TIFF File:Zhengjue_Temple_in_Yuanmingyuan_Park_(Old_Summer_Palace).tif (5080x3757, CC0); Östasiatiska museet 107843 | Download the TIFF (not done here: it is a copy of P0177) |
 | The restoration survey of 正觉寺 (2002-2011) and R0005 圆明园正觉寺建筑研究 | the plan-read sizes of QC11 halls | 圆明园管理处; mhymy xsjl/10588 | ask the park; read R0005 if it opens |
 | Old photographs (1900-1940) of the Chinese scenes outside the Xiyang Lou: 正觉寺, 舍卫城, 文源阁 and 石玲峰, 福海 and its islands, 大宫门, 绮春园宫门, 含经堂, in Sidney Gamble (Duke), Hedda Morrison (Harvard-Yenching) and C. F. Moore (Royal BC Museum) | Round 7 found no new old photograph of any Yuanming Yuan scene outside the Xiyang Lou; every candidate on Commons was catalogued already | repository.duke.edu/dc/gamble; hollis.harvard.edu; Royal BC Museum MS-3171 | A person in a browser: the three refuse automated access (Q33, Q62); not tried again this round, as the brief asked |
+| Round 12: the park's register of old trees with positions (北京市古树名木 database, 圆明园 entries) | The 26-28 surviving trees of 正觉寺 placed where they stand (Q213) | 北京市园林绿化局; the park | ask the park's office through Tomasz |
 
 <!-- generated:end -->
 

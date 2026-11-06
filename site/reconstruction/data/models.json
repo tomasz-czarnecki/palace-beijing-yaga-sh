@@ -67,6 +67,62 @@
     "XY08-M41",
     "XY08-M42"
    ]
+  },
+  "XY10": {
+   "url": "models/XY10/model.glb",
+   "name": "大水法 Dashuifa",
+   "aliases": [
+    "XY10-N01",
+    "XY10-N02"
+   ],
+   "position": [
+    822.415,
+    -1.05,
+    -840.135
+   ],
+   "rotationY": 0.1309,
+   "caption": {
+    "frontage_m": 21.2,
+    "depth_m": 4.4,
+    "eave_m": 9.9,
+    "ridge_m": 17.7,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY10-M45",
+    "XY10-M46",
+    "XY10-M47",
+    "XY10-M48",
+    "XY10-M49",
+    "XY10-M50",
+    "XY10-M51"
+   ]
+  },
+  "XY11": {
+   "url": "models/XY11/model.glb",
+   "name": "观水法 Guanshuifa",
+   "aliases": [],
+   "position": [
+    828.871,
+    -1.05,
+    -796.362
+   ],
+   "rotationY": -3.010693,
+   "caption": {
+    "frontage_m": 14.4,
+    "depth_m": 9.0,
+    "eave_m": 6.3,
+    "ridge_m": 7.3,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY11-M52",
+    "XY11-M53"
+   ]
   }
  }
 }

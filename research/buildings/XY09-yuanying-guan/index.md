@@ -31,8 +31,8 @@ Yuan Ying Kuan, View of Distant Seas · Xiyang Lou
 
 Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
 
-- **1 ×:** terrace: 31 × 35 m, eave 2 m, ridge 2 m
-- **1 ×:** hall, five roofs, on the terrace: 28 × 21 m, eave 9.7 m, ridge 14.6 m
+- **1 ×:** terrace: 31 × 35 m, eave 4.3 m, ridge 4.3 m
+- **1 ×:** hall, five roofs, on the terrace: 28 × 21 m, eave 12 m, ridge 16.9 m
 - **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
 - **Confidence:** B
 
@@ -302,6 +302,7 @@ Modern interpretation, not evidence.
 - Q60: Captions and claims, old photographs (Round 5)
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q67: 远瀛观 (Round 6)
+- Q232: The height of 远瀛观's terrace
 
 <!-- generated:end -->
 

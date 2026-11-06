@@ -120,7 +120,7 @@ Not written yet.
 
 ### Open questions that name it
 
-None.
+- **Q202. Hills the plan's outlines miss.** 杏花春馆's high hill (S02 p.80); a second 寿山 behind 中和堂 QC03 in 绮春园 (S1008 no.79); 泽兰堂 CC10 on the south slope of the 长春园 north hill (S1008 no.70). The free land covers the first two places in part; none is an outline of its own. (Round 10)
 
 ### Wishlist rows that name it
 

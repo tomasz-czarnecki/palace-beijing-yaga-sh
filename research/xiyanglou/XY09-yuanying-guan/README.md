@@ -102,8 +102,8 @@ Machine-readable: `dimensions.json`. Figures by method: a 4, b 15, c 10, d 0, e 
 
 | Row | Part | Frontage × depth | Eave | Top | Grade | Sources |
 |---|---|---|---|---|---|---|
-| XY09 | terrace | 31 × 35 | 2 | 2 | B | S603;S850;S71 |
-| XY09 | hall, five roofs, on the terrace | 28 × 21 | 9.7 | 14.6 | B | S603;S850;S71 |
+| XY09 | terrace | 31 × 35 | 4.3 | 4.3 | B | S603;S850;S71 |
+| XY09 | hall, five roofs, on the terrace | 28 × 21 | 12 | 16.9 | B | S603;S850;S71 |
 
 ### Every figure
 
@@ -249,6 +249,7 @@ The carved columns, the image most people have of the whole garden, with arches 
 - **Q60. Captions and claims, old photographs (Round 5).** Before 1900 "Yuen Ming Yuen" in a caption is no evidence of this garden: Favier's plates (S460) show Longevity Hill and the Jade Belt Bridge, Thomson's at Wellcome show Fragrant Hill, Beato's Wellcome lake view Longevity Hill and Jade Spring Hill, 清国戦地写真集録 (S654)
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q67. 远瀛观 (Round 6).** S603 gives terrace 35 x c.31 m and hall 21 x 28 m, order not stated. Taken here as 31 and 28 W-E, 35 and 21 N-S, from plate 14's forecourt and the ruin's stone heap, against the plan's 20.8 m for the 5 bays, Bourgeois's 70 feet (22.7 m if 70 pieds) and the otherwise steady ratio 1. Durand's fig.
+- **Q232. The height of 远瀛观's terrace.** Round 6 guessed 2.0 m. The stairs of 大水法 reach it: plate 15 draws their parapets' curl at the piers' flare, about 4.3 m above the piers' foot by P0641's heights (the foot itself on the gardens' level, 1.30 m over the sunk court, S603); Ohlmer's P0776 (1873) shows the balustrade ov
 
 ## Wishlist
 
@@ -263,3 +264,5 @@ The carved columns, the image most people have of the whole garden, with arches 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+- Round 15: the terrace's height, a guess of 2.0 m, raised to 4.3 m above its ground so that the stairs of 大水法's model meet it (plate 15, P0776, P0762; Q232); the hall on it rises by the same, its eave and crown kept above the terrace.

@@ -25,6 +25,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r12_greens` | not recorded | 2026-11-05, from 23:04 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r13_pilot` | not recorded | 2026-11-06, before 01:30 | see its log | - | see its result row | 75bd43b | done |
 | `palace_r14_haiyan` | not recorded | 2026-11-06, from 01:30 | see its log | - | see its result row | see the git log | done |
+| `palace_r15_dashuifa` | not recorded | 2026-11-06, from 02:30 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -479,3 +480,48 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
   - The east raised tier's width (9.3 m) was plate 12's module taken at the stairs' depth.
 - **Covered openings:** the link's and the wings' body boxes covered their own arches and windows.
 - **Open questions:** Q225 (the water building's length on plates 11, 13), Q226 (the wings), Q227 (the end sections' projection), Q228 (the attic: P0774 against plate 10), Q229 (plate 10's foreground), Q230 (the east block's width), Q231 (the figures' bodies).
+
+## palace_r15_dashuifa
+
+**Asked:** the detailed models of 大水法 XY10 and 观水法 XY11 built from the references by the pilot's method: the niche, the cascade, the fountains, the basin, the stairs and the towers; the screen with its platform; the court between them and the distance (Q71); the match check against every plate and photograph; the ruin photographs for the stone as it stood; `tools/check_models.py`; screenshots; docs; Durand's survey checked against the plates.
+
+**Delivered:**
+- **大水法** `models/XY10-da-shuifa/` (aliases XY10-N01, -N02; it draws the court box XY10-M45 too):
+  - the niche with its deep head, shoulder scrolls and shell crest, the recess with the lion mask and seven water steps, the 1780s sill at the terrace's level;
+  - the two piers with console feet, sunk fields, cornice blocks and vase finials;
+  - the two stairs to 远瀛观, their court-side parapets the "great scrolls": a balustrade on each, a curl at the pier, a volute at the foot;
+  - the plinth and the courses, the lobed basin with its rail, potted trees, two urn fountains, the stag on its rock and ten hounds with their jets;
+  - the two towers of ten tiers on carved pedestals in their lobed basins, about forty jets each;
+  - the court's floor: paved bands and four parterres.
+- **观水法** `models/XY11-guan-shuifa/`: the concave screen of five panels on its 1.30 m socle with pilasters, end piers, entablature, crest and urns; the brick backing; the round platform with five convex steps; the throne, the balustrade with trophies; the trophy pedestals and the obelisks; the gardens' strip with the two side gates, their flights turned towards the court, the hedges and the back wall.
+- **235 key points** read by three readers on plates 15, 16 and P0776, P0777, P0641, P0340, P0214, P0288, P0169, P0762, P0640, P0343, P0344, P0300, P0765, P0764, from one vocabulary (`docs/rounds/common/palace_r15_dashuifa_vocab.md`); fourteen photograph viewpoints.
+- **Tools:**
+  - `scripts/model_site.py`: the frame from a box, the walk surface, the footings, the joints and the files, for the new models.
+  - `tools/plate_overlay.py`: `photo_viewpoints.csv` `hfov_deg`, an assumed lens as a weak prior.
+  - `scripts/paths1860.py`: a court or terrace a model draws is met at the model's entries.
+- **远瀛观's terrace** raised from 2.0 to 4.3 m in `research/xiyanglou/boxes.csv` (and the hall on it) so that the stairs meet it (Q232).
+- **Questions** Q232-Q237, a Round 15 note on Q71; two wish rows.
+
+**Numbers:**
+- **check_models:**
+  - XY10: 17,088 triangles (2,240 fill), GLB 0.56 MB, 0.16 MB compressed. 24 joints: none floats (highest 0.05 m into the ground), deepest 0.15 m. Seven ways at its boxes, 0 off (in v1 the axis way ended 26-32 m off, in the court box's middle).
+  - XY11: 7,719 triangles (102 fill), GLB 0.25 MB, 0.08 MB compressed. 57 joints, the same: highest 0.05 m in, deepest 0.15 m. Three ways, 0 off (in v1 the axis way ended 4.8 m off, across the steps).
+- **Fit, v1 to final (rms at the object, camera `all`):**
+  - 大水法: P0641 0.47 to 0.19 m, P0340 0.42 to 0.15 m, P0169 0.81 to 0.62 m, P0776 1.70 to 0.96 m, P0762 0.78 (degenerate, f 79 px) to 0.51 m, P0214 0.78 to 0.68 m, plate 15 1.61 to 1.42 m (`stretch` 1.34 m, k 1.20).
+  - 观水法: P0300 0.14 m, P0343 0.22 to 0.14 m, P0640 0.16 m, P0344 0.18 to 0.19 m, P0764 0.31 to 0.30 m, P0777 0.44 to 0.41 m, P0765 1.01 to 0.76 m, plate 16 1.25 to 0.90 m (`stretch` 0.86 m, k 1.48).
+  - The kit had none of these points: no fit before the model.
+- **Durand against the plates:** the sunk area 110 × 60 m (S603) agrees with the plan (109 × 63 m) and the ruin (108.8 m E-W); the tower basins 62 m apart (S603) against the ruin's 63.3 m and the plan's water bodies 58.6 m; plate 15 compresses the court's depth by 3.5-4 m (Q235).
+- **Cost:** the overview draws 1.03 M triangles (1.00 M before) at a 604 ms median frame in software WebGL (570 ms before). The site grows by 0.8 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser` (port 8914), `check_greens.py --browser` (port 8915).
+- `scripts/building_pages.py` run twice: the second run changed nothing (md5). Both generators run twice: the same GLBs (md5).
+- Screenshots in `screenshots/r15/`, opened: before (the kit) and after views of both from the references' directions (front, the obliques of P0214, P0288, P0169, P0777, P0344, the rear from the terrace, the gate, the aerials, the joints at the stair and the basin, details of the niche and the screen), `conf=1` and `assumed=0`, the panels; the overlays (blend, edges, side by side) for every picture and fit.
+
+**Went wrong or left open:**
+- **v1's buttresses.** The plate's ribbed bands were modelled as quarter-arch buttresses with a flight hidden behind each to a 2.33 m terrace. P0776's balustrade over the curl showed them to be the stairs' parapets; the stairs climb to about 4.6 m, and 远瀛观's terrace guess was raised to meet them (Q232). P0776's rail still fits 2.7 m higher.
+- **A ring stitched to a misaligned outline** covered both tower basins with marble in v1 (`offset_aligned` in `scripts/model_site.py`).
+- **Photo cameras without a lens collapsed** (P0762: f 79 px, the eye 13 m up). Fixed by the lens prior.
+- **The trophies read as figures** in v1's relief; redrawn as a shield, crossed arms and a ribbon knot.
+- **Shell kill:** a `pkill -f` on the server's command line matched the shell that ran it; the servers are now stopped by their PID.
+- **Open:** Q232 (the terrace's height), Q233 (plate 16's gates), Q234 (the tower basins' ruin places), Q235 (plate 15's depth), Q236 (the tiers, the stag's group, the stone fish not placed), Q237 (the niche's sill), Q71 (the screen's place: 44.7 m from the niche in the model, the court running on 6.5 m behind it).

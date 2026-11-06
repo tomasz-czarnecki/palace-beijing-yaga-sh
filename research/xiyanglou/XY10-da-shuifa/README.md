@@ -227,6 +227,9 @@ The arch of the niche, the basin stones and the two tower bases. Which stones ar
 - **Q49. Captions overruled by form (old photographs).** Carved-column ruin: captioned Xianfa gate (P0179), Dashuifa (P0216, P0199), plate 19 (Skušek): by form 远瀛观 XY09, plate P0054. Sirén 003717 (P0214), captioned 远瀛观, shows 大水法. Skušek "Theater" and the holder's 谐奇趣: 方外观 XY06 by plate P0048. The Skušek album's names ar
 - **Q71. 观水法 on the axis (Round 6).** Niche to throne is 41.7 m by OSM's point and the row, 57 m as the plan draws it. The ruin lies under trees, so the screen may stand up to 15 m further south. Today's panels were re-erected in 1977 and prove nothing alone. P0193 (Child) shows steps in front of a side gate where plate 
 - **Q212. The tall tiered columns at 大水法 and 观水法.** `xiyanglou/views.csv` reads them as fountain towers; the planting worker reads the hatching on P0055 and P0056 as clipped foliage, ten or so discs on a stem. Drawn as topiary (GS-0508), C. (Round 12)
+- **Q232. The height of 远瀛观's terrace.** Round 6 guessed 2.0 m. The stairs of 大水法 reach it: plate 15 draws their parapets' curl at the piers' flare, about 4.3 m above the piers' foot by P0641's heights (the foot itself on the gardens' level, 1.30 m over the sunk court, S603); Ohlmer's P0776 (1873) shows the balustrade ov
+- **Q234. The tower basins' places.** On the ruin (S850) the east basin of 大水法 lies 5.6 m further south than the west one, measured along the axis; S603 gives the two basins 62 m apart and symmetric about the axis, and S01's water bodies sit at 17.5 and 18.4 m south of the niche's box. The model puts both on one line acr
+- **Q237. 大水法's niche in the 1780s and today.** Today the niche's opening runs down to the plinth (P0641, P0340); plate 15 draws a sill band at the piers' flare with the cascade's sheet falling below it, and P0762 shows the opening's back sill at the terrace's level. The model has the 1780s sill at the terrace's level an
 
 ## Wishlist
 
@@ -237,3 +240,10 @@ None that name it; see `research/wishlist.md`.
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+**Round 15: the detailed model** `models/XY10-da-shuifa/` (its README has the evidence, the iteration log and the fit). What the model takes from this dossier and what it changed:
+- The span over the piers is S01's arc, 21.2 m; the niche frame 9.2 m, the opening 3.7 m (plate 15 and P0641 agree on 0.43-0.44 of the span). Heights come from P0641 with the pier's width as the scale: pier foot to cornice 8.6 m, the posts' caps level with it, the head 3.7 m over them, the crest 4.0 m. The dossier's 14.3 and 16.7 m by the plate's module are the plate's stretched heights (its fit: k 1.2).
+- The "great scrolls" are the parapets of the two stairs up to 远瀛观's terrace: plate 15's ribbed bands are their balusters, P0776 shows the balustrade over the curl at the W pier. The stairs reach about 4.6 m above the court, so XY09's terrace was raised to 4.3 m (Q232).
+- The two tower basins stand symmetric, 62 m apart (S603), on the mean of the two ruin readings (Q234). Ten tiers, not thirteen (Q236).
+- The 1780s niche had a sill at the terrace's level; today's opening to the plinth is the loss of its infill (Q237).
+- Final fit: P0641 0.19 m, P0340 0.15 m, P0169 0.62 m, P0776 0.96 m, P0762 0.51 m, plate 15 1.42 m (1.34 m with its stretch; the court's depth compressed, Q235).

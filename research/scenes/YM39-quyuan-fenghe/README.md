@@ -220,10 +220,13 @@ Not written yet.
 - **Q99. Wolseley (S240), M'Ghee (S242), Loch (S244).** Wolseley (S240), M'Ghee (S242), Loch (S244): their pages on the garden are already catalogued (E0472-E0480, E1028-E1038, E2104-E2123). I found no further passage in them tying a hall of YM15, YM20, YM13, YM09, YM14, YM31, YM39, YM38 or YM33 by name; the 1860 account
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
 - **Q128. The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically.** The gouaches of 1750-92 (S77, P0101-P0140) recolour systematically: pink or red walls, roofs in yellow, blue, green or orange where the 1744 leaves show grey tile (e.g. P0103 YM03, P0102 YM01, P0114 YM29 all orange-red, P0120 YM16 yellow and 
+- **Q209. Lotus at 曲院风荷 and 平湖秋月.** Their texts name lotus (S40 曲院风荷 "红衣印波", 平湖秋月 "荷露"), but the 1744 leaves paint plain water there; the leaves paint lotus only at 濂溪乐处 (about 85-90% of its lake) and 多稼如云 (Round 12, album workers). The model follows the texts, so those lotus beds stand on C extents; open water kept alon
 
 ### Wishlist rows that name it
 
-None; see `research/wishlist.md`.
+| What | Replaces | Where held | How |
+|---|---|---|---|
+| Round 12: the forty leaves at full size, read again for tree counts by side and the kind of the broadleaf tree | The counts and kinds of the leaf rows (Q210), the lotus of 曲院风荷 (Q209) | Wikimedia Commons, BnF | a reader, three hours |
 
 <!-- generated:end -->
 

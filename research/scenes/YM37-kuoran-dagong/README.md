@@ -222,6 +222,7 @@ A 1755 poem is also quoted (S05 j82:23b); the survival claim of E2035 needs a pr
 - **Q104. 烫样 dates.** 烫样 dates: every Yuanming Yuan card model for which a date is stated (九洲清晏殿, 万方安和殿, 天地一家春, 廓然大公, the 中路 set, 勤政殿, 课农轩) is said to be of the Tongzhi repair 1873-74 (S920, S326, S921). They are period objects of 1873, not of 1860: use them for form and joinery types only where the 1855 sheets agree. Th
 - **Q129. The brief says the album views are roughly from the south.** The brief says the album views are roughly from the south. Most are, but several leaves look from the south-west (YM30 P0030, YM33 P0033, YM36 P0036, YM16 P0016) or south-east (YM12 P0012, YM37 P0037); YM15 P0015 shows the 楼 end-on from its south gabl
 - **Q138. E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y.** E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (YM05-08 文昌阁, YM16-08 魁星楼, YM23 慎修思永 and 知过堂, YM25, YM37-02 双鹤斋, YM47 藏舟坞?, YM48 紫碧山房/顺木天, YM51 课农轩). The 1860 model is unaffected
+- **Q217. 深柳读书堂.** S05 j82 puts it at 澡身浴德 (north of 望瀛洲); Qianlong's notes of 1755 and 1774 say 双鹤斋 in 廓然大公 was once called so. Willows are drawn at both. (Round 12)
 
 ### Wishlist rows that name it
 

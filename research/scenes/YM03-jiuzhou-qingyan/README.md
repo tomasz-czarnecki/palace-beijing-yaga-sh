@@ -476,6 +476,7 @@ For the axis halls S05 gives bays only. The 1855 slips of 样007-9-1, read in th
 - **Q163. YM03-03 九洲清晏殿.** YM03-03 九洲清晏殿: S05 (E1129) gives seven bays (九州清宴殿七楹), mhymy record 7237 five bays with a three-bay rear porch (1855). The public text now states both; settle from 样011-3 (E1161) before a model. (verify_a worker, Round 7)
 - **Q182. Typology, grand_hall heights.** Typology, grand_hall heights: proposal column_m 5.12 -> 4.2 and platform_m 1.22 -> 0.7 for the class, keeping 5.12 and 1.22 for 正大光明殿 alone through by_name. The measured residential and office halls of the class all fall below the default: 慎德堂 YM03-11 column 4.35, platform 0.59 (
 - **Q194. How did the emperor cross the 前湖 from 九洲清晏?** No Qing text says. The plan leads from 如意桥 straight to 勤政殿, where the daily audience was held (route R1 takes it); 南大桥 on the west and a boat from the landing before 圆明园殿 (YMC-023) are the other readings; the 1860 witnesses saw the lake "bridged at each end" (S242) 
+- **Q218. No plan draws a plant.** Every tree's place is generated in an area anchored to the scene (Round 12). A modern study (S1141) names Yangshi Lei planting drawings for 九洲清晏 and an archive "花果树木价值"; neither has been seen. Either would turn C extents into B or A. (Round 12)
 
 ### Wishlist rows that name it
 

@@ -1,0 +1,770 @@
+{
+"id": "XY10",
+"objects": [
+"XY10",
+"XY10-N01",
+"XY10-N02"
+],
+"position": [
+822.415,
+-1.05,
+-840.135
+],
+"rotationY": 0.1309,
+"points": {
+"niche_post_cap_W": {
+"local": [
+-4.72,
+10.0,
+0.14
+],
+"scene": [
+817.754,
+8.95,
+-839.38
+],
+"anchor": false
+},
+"niche_post_cap_E": {
+"local": [
+4.72,
+10.0,
+0.14
+],
+"scene": [
+827.113,
+8.95,
+-840.612
+],
+"anchor": false
+},
+"niche_open_top": {
+"local": [
+0.0,
+10.75,
+0.0
+],
+"scene": [
+822.415,
+9.7,
+-840.135
+],
+"anchor": false
+},
+"niche_head_W": {
+"local": [
+-3.8,
+10.85,
+0.2
+],
+"scene": [
+818.674,
+9.8,
+-839.441
+],
+"anchor": false
+},
+"niche_head_E": {
+"local": [
+3.8,
+10.85,
+0.2
+],
+"scene": [
+826.209,
+9.8,
+-840.433
+],
+"anchor": false
+},
+"niche_head_top": {
+"local": [
+0.0,
+13.7,
+0.0
+],
+"scene": [
+822.415,
+12.65,
+-840.135
+],
+"anchor": false
+},
+"niche_head_top_N": {
+"local": [
+0.0,
+13.7,
+-3.0
+],
+"scene": [
+822.023,
+12.65,
+-843.109
+],
+"anchor": false
+},
+"niche_head_W_N": {
+"local": [
+-3.8,
+10.85,
+-2.8
+],
+"scene": [
+818.282,
+9.8,
+-842.415
+],
+"anchor": false
+},
+"niche_post_cap_W_N": {
+"local": [
+-4.72,
+10.0,
+-3.12
+],
+"scene": [
+817.328,
+8.95,
+-842.612
+],
+"anchor": false
+},
+"niche_open_foot_W_N": {
+"local": [
+-1.85,
+4.88,
+-3.0
+],
+"scene": [
+820.189,
+3.83,
+-842.868
+],
+"anchor": false
+},
+"niche_head_E_N": {
+"local": [
+3.8,
+10.85,
+-2.8
+],
+"scene": [
+825.817,
+9.8,
+-843.407
+],
+"anchor": false
+},
+"niche_post_cap_E_N": {
+"local": [
+4.72,
+10.0,
+-3.12
+],
+"scene": [
+826.687,
+8.95,
+-843.844
+],
+"anchor": false
+},
+"niche_open_foot_E_N": {
+"local": [
+1.85,
+4.88,
+-3.0
+],
+"scene": [
+823.858,
+3.83,
+-843.351
+],
+"anchor": false
+},
+"niche_open_top_N": {
+"local": [
+0.0,
+10.75,
+-3.0
+],
+"scene": [
+822.023,
+9.7,
+-843.109
+],
+"anchor": false
+},
+"niche_crest_top": {
+"local": [
+0.0,
+17.7,
+-0.05
+],
+"scene": [
+822.408,
+16.65,
+-840.185
+],
+"anchor": false
+},
+"cascade_top": {
+"local": [
+0.0,
+7.9,
+-2.55
+],
+"scene": [
+822.082,
+6.85,
+-842.663
+],
+"anchor": false
+},
+"niche_open_foot_W": {
+"local": [
+-1.85,
+4.88,
+0.0
+],
+"scene": [
+820.581,
+3.83,
+-839.894
+],
+"anchor": false
+},
+"niche_open_foot_E": {
+"local": [
+1.85,
+4.88,
+0.0
+],
+"scene": [
+824.249,
+3.83,
+-840.376
+],
+"anchor": false
+},
+"pier_W_finial_top": {
+"local": [
+-8.5,
+14.4,
+-1.4
+],
+"scene": [
+813.805,
+13.35,
+-840.414
+],
+"anchor": false
+},
+"pier_W_cap_SW": {
+"local": [
+-10.6,
+9.9,
+1.3
+],
+"scene": [
+812.075,
+8.85,
+-837.463
+],
+"anchor": false
+},
+"pier_W_cap_SE": {
+"local": [
+-6.4,
+9.9,
+1.3
+],
+"scene": [
+816.239,
+8.85,
+-838.011
+],
+"anchor": false
+},
+"pier_W_flare_S": {
+"local": [
+-8.5,
+4.9,
+0.8
+],
+"scene": [
+814.092,
+3.85,
+-838.232
+],
+"anchor": false
+},
+"pier_W_foot_S": {
+"local": [
+-8.5,
+1.3,
+1.35
+],
+"scene": [
+814.164,
+0.25,
+-837.687
+],
+"anchor": false
+},
+"scroll_W_top": {
+"local": [
+-11.866,
+5.78,
+-0.962
+],
+"scene": [
+810.525,
+4.73,
+-839.54
+],
+"anchor": false
+},
+"scroll_W_end": {
+"local": [
+-18.535,
+0.4,
+4.063
+],
+"scene": [
+804.569,
+-0.65,
+-833.687
+],
+"anchor": false
+},
+"stair_W_rail_high": {
+"local": [
+-11.547,
+5.94,
+-1.202
+],
+"scene": [
+810.81,
+4.89,
+-839.82
+],
+"anchor": false
+},
+"stair_W_rail_low": {
+"local": [
+-17.217,
+1.979,
+3.07
+],
+"scene": [
+805.746,
+0.929,
+-834.844
+],
+"anchor": false
+},
+"pier_E_finial_top": {
+"local": [
+8.5,
+14.4,
+-1.4
+],
+"scene": [
+830.66,
+13.35,
+-842.632
+],
+"anchor": false
+},
+"pier_E_cap_SW": {
+"local": [
+6.4,
+9.9,
+1.3
+],
+"scene": [
+828.93,
+8.85,
+-839.681
+],
+"anchor": false
+},
+"pier_E_cap_SE": {
+"local": [
+10.6,
+9.9,
+1.3
+],
+"scene": [
+833.094,
+8.85,
+-840.23
+],
+"anchor": false
+},
+"pier_E_flare_S": {
+"local": [
+8.5,
+4.9,
+0.8
+],
+"scene": [
+830.947,
+3.85,
+-840.451
+],
+"anchor": false
+},
+"pier_E_foot_S": {
+"local": [
+8.5,
+1.3,
+1.35
+],
+"scene": [
+831.018,
+0.25,
+-839.906
+],
+"anchor": false
+},
+"scroll_E_top": {
+"local": [
+11.866,
+5.78,
+-0.962
+],
+"scene": [
+834.054,
+4.73,
+-842.638
+],
+"anchor": false
+},
+"scroll_E_end": {
+"local": [
+18.535,
+0.4,
+4.063
+],
+"scene": [
+841.322,
+-0.65,
+-838.526
+],
+"anchor": false
+},
+"stair_E_rail_high": {
+"local": [
+11.547,
+5.94,
+-1.202
+],
+"scene": [
+833.706,
+4.89,
+-842.834
+],
+"anchor": false
+},
+"stair_E_rail_low": {
+"local": [
+17.217,
+1.979,
+3.07
+],
+"scene": [
+839.885,
+0.929,
+-839.339
+],
+"anchor": false
+},
+"base_course_C": {
+"local": [
+0.0,
+1.3,
+0.4
+],
+"scene": [
+822.467,
+0.25,
+-839.738
+],
+"anchor": false
+},
+"basin_rim_S": {
+"local": [
+0.0,
+0.6,
+18.586
+],
+"scene": [
+824.841,
+-0.45,
+-821.708
+],
+"anchor": false
+},
+"basin_rim_W": {
+"local": [
+-14.779,
+0.6,
+9.8
+],
+"scene": [
+809.042,
+-0.45,
+-828.49
+],
+"anchor": false
+},
+"basin_rim_E": {
+"local": [
+14.789,
+0.6,
+9.8
+],
+"scene": [
+838.357,
+-0.45,
+-832.349
+],
+"anchor": false
+},
+"stag_top": {
+"local": [
+0.0,
+3.65,
+11.0
+],
+"scene": [
+823.851,
+2.6,
+-829.229
+],
+"anchor": false
+},
+"stag_foot": {
+"local": [
+0.0,
+0.35,
+11.75
+],
+"scene": [
+823.949,
+-0.7,
+-828.486
+],
+"anchor": false
+},
+"twbasin_W_rim_L": {
+"local": [
+-40.45,
+0.3,
+15.6
+],
+"scene": [
+784.347,
+-0.75,
+-819.389
+],
+"anchor": false
+},
+"twbasin_W_rim_R": {
+"local": [
+-20.051,
+0.3,
+15.6
+],
+"scene": [
+804.572,
+-0.75,
+-822.051
+],
+"anchor": false
+},
+"twbasin_W_rim_S": {
+"local": [
+-31.0,
+0.3,
+25.05
+],
+"scene": [
+794.95,
+-0.75,
+-811.253
+],
+"anchor": false
+},
+"tower_W_ped_top_SW": {
+"local": [
+-33.55,
+5.15,
+18.15
+],
+"scene": [
+791.521,
+4.1,
+-817.761
+],
+"anchor": false
+},
+"tower_W_ped_top_SE": {
+"local": [
+-28.45,
+5.15,
+18.15
+],
+"scene": [
+796.577,
+4.1,
+-818.427
+],
+"anchor": false
+},
+"tower_W_ped_foot_SW": {
+"local": [
+-33.5,
+0.15,
+18.1
+],
+"scene": [
+791.564,
+-0.9,
+-817.817
+],
+"anchor": false
+},
+"tower_W_ped_foot_SE": {
+"local": [
+-28.5,
+0.15,
+18.1
+],
+"scene": [
+796.521,
+-0.9,
+-818.47
+],
+"anchor": false
+},
+"tower_W_top": {
+"local": [
+-31.0,
+17.15,
+15.6
+],
+"scene": [
+793.716,
+16.1,
+-820.622
+],
+"anchor": false
+},
+"twbasin_E_rim_L": {
+"local": [
+20.066,
+0.3,
+15.6
+],
+"scene": [
+844.346,
+-0.75,
+-827.288
+],
+"anchor": false
+},
+"twbasin_E_rim_R": {
+"local": [
+40.45,
+0.3,
+15.6
+],
+"scene": [
+864.555,
+-0.75,
+-829.948
+],
+"anchor": false
+},
+"twbasin_E_rim_S": {
+"local": [
+31.0,
+0.3,
+25.05
+],
+"scene": [
+856.419,
+-0.75,
+-819.346
+],
+"anchor": false
+},
+"tower_E_ped_top_SW": {
+"local": [
+28.45,
+5.15,
+18.15
+],
+"scene": [
+852.991,
+4.1,
+-825.854
+],
+"anchor": false
+},
+"tower_E_ped_top_SE": {
+"local": [
+33.55,
+5.15,
+18.15
+],
+"scene": [
+858.047,
+4.1,
+-826.519
+],
+"anchor": false
+},
+"tower_E_ped_foot_SW": {
+"local": [
+28.5,
+0.15,
+18.1
+],
+"scene": [
+853.034,
+-0.9,
+-825.91
+],
+"anchor": false
+},
+"tower_E_ped_foot_SE": {
+"local": [
+33.5,
+0.15,
+18.1
+],
+"scene": [
+857.991,
+-0.9,
+-826.562
+],
+"anchor": false
+},
+"tower_E_top": {
+"local": [
+31.0,
+17.15,
+15.6
+],
+"scene": [
+855.186,
+16.1,
+-828.715
+],
+"anchor": false
+}
+}
+}

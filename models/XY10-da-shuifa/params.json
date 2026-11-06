@@ -1,0 +1,258 @@
+{
+ "id": "XY10",
+ "frame": "x east along the niche's front, y up from the court's floor, z south (out of the front); metres",
+ "params": {
+  "span": {
+   "value": 21.2,
+   "source": "S01;S71;S440",
+   "grade": "C",
+   "note": "the piers' outer edges: the plan's arc x 10511-10611, 100 px at 4.71 px/m (b); plate 15 and P0641 draw the niche 0.43-0.44 of it"
+  },
+  "niche_w": {
+   "value": 9.2,
+   "source": "S71;S440",
+   "grade": "C",
+   "note": "the niche frame over its posts: 0.43 of the span on plate 15 (191 of 443 px), 0.44 on P0641 (225 of 512 px)"
+  },
+  "open_w": {
+   "value": 3.7,
+   "source": "S71;S440",
+   "grade": "C",
+   "note": "the niche opening: 0.40 of the frame on plate 15, 90 of 225 px on P0641"
+  },
+  "pier_w": {
+   "value": 3.2,
+   "source": "S440",
+   "grade": "C",
+   "note": "the pier's shaft across the front: P0641 76-80 px at 25 px/m; the cornice block 4.2 m (104 px)"
+  },
+  "pier_d": {
+   "value": 4.4,
+   "source": "S01;S86",
+   "grade": "C",
+   "note": "the pier's depth: the plan's band 4.36 m (b); P0214 and P0288 show deep piers, side faces wider than the fronts"
+  },
+  "pier_fwd": {
+   "value": 0.8,
+   "source": "S01",
+   "grade": "C",
+   "note": "the piers stand forward of the niche: the plan draws the band as an arc whose ends come south"
+  },
+  "foot": {
+   "value": 1.3,
+   "source": "S603",
+   "grade": "C",
+   "note": "the piers' and the niche's foot on the plinth course, at the gardens' level: the court is sunk 1.30 m (S603, survey, B); the courses step down from it to the basin (P0641)"
+  },
+  "pier_h": {
+   "value": 8.6,
+   "source": "S440",
+   "grade": "C",
+   "note": "pier foot to cornice top: P0641, 214 px at 25 px/m (the shaft's width the scale); plate 15 draws it 11.5 m at the plan's scale, its heights stretched (k about 1.3)"
+  },
+  "flare_h": {
+   "value": 3.6,
+   "source": "S440",
+   "grade": "C",
+   "note": "the console foot under the shaft: P0641 89-95 px"
+  },
+  "cap_h": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pier's crowning cornice block: plate 15 25 px of 240"
+  },
+  "finial_h": {
+   "value": 4.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the vase finial over each pier: plate 15, 0.53 of the pier's height (126 of 240 px); gone by 1873 (P0776). The dossier's 14.3 m top is the same reading by the plate's module"
+  },
+  "post_cap": {
+   "value": 8.7,
+   "source": "S440;S71",
+   "grade": "C",
+   "note": "the niche posts' caps, where the head springs: level with the piers' cornice on P0641 (510 and 513 px) and on plate 15 (671 and 670)"
+  },
+  "head_rise": {
+   "value": 3.7,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the arch head's rise over the post caps: 0.41 of the frame on plate 15, 0.39 on P0762 (its back)"
+  },
+  "head_in": {
+   "value": 0.95,
+   "source": "S440;S83;S871",
+   "grade": "C",
+   "note": "the head stands this far inside the frame's outer edge each side: the posts' caps stick out about 25 px beyond it on P0641; v1's full-width head was 0.9-1.6 m too wide on P0641, P0340, P0169 and P0776"
+  },
+  "head_d": {
+   "value": 3.0,
+   "source": "S86",
+   "grade": "C",
+   "note": "the head is a deep hood: its shoulder scrolls run back as drums on P0214 and P0288, 0.5-0.8 of its width (the ruin reader); 3 m, C"
+  },
+  "open_top": {
+   "value": 9.45,
+   "source": "S440;S71",
+   "grade": "C",
+   "note": "the opening's top on the axis, 0.75 m over the post caps: P0641 19 px, plate 15 15 px"
+  },
+  "crest_h": {
+   "value": 4.0,
+   "source": "S71;S871",
+   "grade": "C",
+   "note": "the shell crest over the head: plate 15 0.58 of the frame (5.3 m) at its stretched heights; whole in 1873 (P0776)"
+  },
+  "post_d": {
+   "value": 3.0,
+   "source": "S86",
+   "grade": "C",
+   "note": "the posts' depth: as the head"
+  },
+  "cascade_steps": {
+   "value": 7,
+   "source": "S310;S71",
+   "grade": "B",
+   "note": "the seven-step water curtain in the niche (S310, B); plate 15 draws about seven lips below the lion mask"
+  },
+  "mask_y": {
+   "value": 6.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lion mask's mouth above the foot: plate 15 draws it 34 px below the post caps; v1's 8.0 m sat 1.8 m above the plate's fit"
+  },
+  "terrace_y": {
+   "value": 4.63,
+   "source": "S71;S871;S70",
+   "grade": "C",
+   "note": "the 远瀛观 terrace above the court, where the stairs arrive: plate 15 draws the parapets' curl at the piers' flare (789 and 812 px), 4.3 m over the piers' foot by P0641's heights; P0776's balustrade stands over it; the ground behind the niche on P0762 at about the same level. XY09's terrace box raised to 4.3 m to meet it (Q232)"
+  },
+  "stair_w": {
+   "value": 3.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "each flight's width: the plan's hatched blocks at the arc's ends (CCX-023, 024), about 3 m"
+  },
+  "stair_ang": {
+   "value": 37.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the flights' turn from the front: the hatched blocks run on the diagonal, out and forward from the arc's ends; plate 14 draws two stairs embracing 大水法"
+  },
+  "stair_run": {
+   "value": 8.3,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "a flight's run: 30 steps of 0.155 m on treads of 0.28 m; the plan's blocks are about 8 m on the diagonal"
+  },
+  "basin_w": {
+   "value": 28.4,
+   "source": "S850",
+   "grade": "B",
+   "note": "the lobed basin's width on the ruin (S850 view); the plan draws 29.5 m"
+  },
+  "basin_z0": {
+   "value": 1.6,
+   "source": "S850;S01",
+   "grade": "C",
+   "note": "its north edge before the base courses: the pool's centre 12.0 m south of the niche's box middle (ruin), less half its depth"
+  },
+  "basin_z1": {
+   "value": 18.0,
+   "source": "S850;S01",
+   "grade": "C",
+   "note": "its front on the axis: 16.4 m deep on the ruin (C); the plan draws 21 m"
+  },
+  "rim_h": {
+   "value": 0.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the rim above the court; a low rail of small posts on its front (plate 15)"
+  },
+  "water_y": {
+   "value": 0.35,
+   "source": "S71",
+   "grade": "C",
+   "note": "the water's surface"
+  },
+  "stag_z": {
+   "value": 10.5,
+   "source": "S01",
+   "grade": "C",
+   "note": "the stag's base: the plan's middle rectangle in the pool"
+  },
+  "stag_h": {
+   "value": 2.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the stag on its rock: plate 15 draws it 77 px from base to antler tips at the basin's depth"
+  },
+  "hounds": {
+   "value": 10,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "ten hounds round the stag: the plan's ten small rectangles in a ring; plate 15 shows about four a side leaping at it"
+  },
+  "tower_x": {
+   "value": 31.0,
+   "source": "S603",
+   "grade": "B",
+   "note": "the two tower basins' centres 62 m apart, symmetric about the axis (S603, survey); the ruin readings put the east basin 5.6 m further south than the west (Q234)"
+  },
+  "tower_z": {
+   "value": 15.6,
+   "source": "S01;S850",
+   "grade": "C",
+   "note": "their line across the axis: 17.8 m south of the niche's box middle, the mean of the two ruin readings; S01's water bodies 17.5-18.4"
+  },
+  "basin_d": {
+   "value": 18.0,
+   "source": "S603",
+   "grade": "B",
+   "note": "the tower basins, 18 m across, quatrefoil (S603); plate 15 draws a lobed oblong with a straight front and concave corners"
+  },
+  "ped_w": {
+   "value": 4.6,
+   "source": "S01;S71",
+   "grade": "B",
+   "note": "the pedestal, square: the plan 4.6 m (b), plate 15 the same"
+  },
+  "ped_h": {
+   "value": 5.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pedestal's height above the water: plate 15, 0.69 of its width at its stretched heights (6.7 m), less the plate's stretch"
+  },
+  "tiers": {
+   "value": 10,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pyramid's tiers: plate 15 draws ten (the reader, +-1); S310's '13 steps' is a search extract, the page not confirmed"
+  },
+  "pyr_h": {
+   "value": 12.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pyramid with its pinnacle above the pedestal: plate 15, 2.4 times the pedestal"
+  },
+  "tier_b": {
+   "value": 3.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the bottom tier's width: 0.72 of the pedestal's front on plate 15"
+  },
+  "tier_t": {
+   "value": 0.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the top tier's width: 0.19 of the pedestal's front"
+  },
+  "jets": {
+   "value": 40,
+   "source": "S71",
+   "grade": "C",
+   "note": "about forty jets a tower in two rings, the tallest 1.8 times the pedestal (plate 15)"
+  }
+ }
+}

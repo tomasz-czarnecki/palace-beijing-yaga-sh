@@ -1,0 +1,588 @@
+{
+ "object": "XY10",
+ "label": "v4",
+ "points_from": "model XY10-da-shuifa",
+ "cameras": {
+  "P0055": {
+   "plate": "15",
+   "image": "P0055.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1377
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.011637,
+    "lon": 116.306701,
+    "err": 22.0,
+    "bearing": 352.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. South of the 观水法 screen by this figure (throne 42 m from the niche, footprints): a raised, imagined eye. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      834.04,
+      33.86,
+      -747.32
+     ],
+     "yaw_deg": 352.48,
+     "pitch_deg": 12.19,
+     "f_px": 1968.6,
+     "du_px": -11.0,
+     "dv_px": -1029.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 33.55,
+     "moved_from_prior_m": 31.9,
+     "points": {
+      "n": 44,
+      "rms_px": 41.6,
+      "median_px": 20.0,
+      "max_px": 135.6,
+      "rms_m": 1.42,
+      "median_m": 0.79,
+      "max_m": 4.11
+     },
+     "tests": {
+      "n": 44,
+      "rms_px": 41.6,
+      "median_px": 20.0,
+      "max_px": 135.6,
+      "rms_m": 1.42,
+      "median_m": 0.79,
+      "max_m": 4.11
+     },
+     "sure12": {
+      "n": 30,
+      "rms_px": 46.1,
+      "median_px": 18.5,
+      "max_px": 135.6,
+      "rms_m": 1.55,
+      "median_m": 0.67,
+      "max_m": 4.11
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      831.56,
+      24.28,
+      -767.05
+     ],
+     "yaw_deg": 352.43,
+     "pitch_deg": -2.56,
+     "f_px": 1651.0,
+     "du_px": -9.4,
+     "dv_px": -339.8,
+     "k_vertical": 1.202,
+     "eye_above_ground_m": 24.72,
+     "moved_from_prior_m": 12.0,
+     "points": {
+      "n": 44,
+      "rms_px": 40.3,
+      "median_px": 16.6,
+      "max_px": 144.0,
+      "rms_m": 1.34,
+      "median_m": 0.68,
+      "max_m": 4.33
+     },
+     "tests": {
+      "n": 44,
+      "rms_px": 40.3,
+      "median_px": 16.6,
+      "max_px": 144.0,
+      "rms_m": 1.34,
+      "median_m": 0.68,
+      "max_m": 4.33
+     },
+     "sure12": {
+      "n": 30,
+      "rms_px": 45.1,
+      "median_px": 14.2,
+      "max_px": 144.0,
+      "rms_m": 1.47,
+      "median_m": 0.57,
+      "max_m": 4.33
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0169": {
+   "plate": "",
+   "image": "P0169.jpg",
+   "free": true,
+   "size": [
+    1251,
+    887
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.011976,
+    "lon": 116.306385,
+    "err": 12.0,
+    "bearing": 25.0,
+    "eye": 1.6,
+    "eye_sd": 1.0,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: from the south-west, the niche at bearing about 37; catalogue's place refined."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      808.09,
+      1.13,
+      -800.18
+     ],
+     "yaw_deg": 5.66,
+     "pitch_deg": 4.35,
+     "f_px": 1246.0,
+     "du_px": 56.7,
+     "dv_px": 60.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.18,
+     "moved_from_prior_m": 17.3,
+     "points": {
+      "n": 8,
+      "rms_px": 18.6,
+      "median_px": 16.7,
+      "max_px": 30.8,
+      "rms_m": 0.62,
+      "median_m": 0.56,
+      "max_m": 1.0
+     },
+     "tests": {
+      "n": 8,
+      "rms_px": 18.6,
+      "median_px": 16.7,
+      "max_px": 30.8,
+      "rms_m": 0.62,
+      "median_m": 0.56,
+      "max_m": 1.0
+     },
+     "sure12": {
+      "n": 4,
+      "rms_px": 17.0,
+      "median_px": 16.7,
+      "max_px": 21.3,
+      "rms_m": 0.56,
+      "median_m": 0.56,
+      "max_m": 0.72
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 43.7,
+      "median_px": 43.7,
+      "max_px": 45.1,
+      "rms_m": 1.35,
+      "median_m": 1.35,
+      "max_m": 1.41
+     }
+    }
+   }
+  },
+  "P0214": {
+   "plate": "",
+   "image": "P0214.jpg",
+   "free": true,
+   "size": [
+    1600,
+    1136
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.012061,
+    "lon": 116.306841,
+    "err": 10.0,
+    "bearing": 315.0,
+    "eye": 1.6,
+    "eye_sd": 1.0,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: from the south-east, the niche at bearing about 305; the catalogue's place moved by the near pier's size."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      856.85,
+      0.6,
+      -819.3
+     ],
+     "yaw_deg": 320.74,
+     "pitch_deg": 5.05,
+     "f_px": 1289.8,
+     "du_px": -20.6,
+     "dv_px": 69.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.65,
+     "moved_from_prior_m": 16.0,
+     "points": {
+      "n": 4,
+      "rms_px": 25.6,
+      "median_px": 14.0,
+      "max_px": 45.7,
+      "rms_m": 0.68,
+      "median_m": 0.38,
+      "max_m": 1.21
+     },
+     "tests": {
+      "n": 4,
+      "rms_px": 25.6,
+      "median_px": 14.0,
+      "max_px": 45.7,
+      "rms_m": 0.68,
+      "median_m": 0.38,
+      "max_m": 1.21
+     },
+     "sure12": {
+      "n": 0
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0340": {
+   "plate": "",
+   "image": "P0340.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.012019,
+    "lon": 116.306633,
+    "err": 6.0,
+    "bearing": 352.5,
+    "eye": 2.0,
+    "eye_sd": 1.0,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: frontal on the axis, GPS tag kept, as P0641."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      825.4,
+      0.85,
+      -814.23
+     ],
+     "yaw_deg": 353.17,
+     "pitch_deg": 0.17,
+     "f_px": 623.1,
+     "du_px": 16.5,
+     "dv_px": -14.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.9,
+     "moved_from_prior_m": 7.3,
+     "points": {
+      "n": 12,
+      "rms_px": 3.5,
+      "median_px": 3.1,
+      "max_px": 6.0,
+      "rms_m": 0.15,
+      "median_m": 0.12,
+      "max_m": 0.24
+     },
+     "tests": {
+      "n": 12,
+      "rms_px": 3.5,
+      "median_px": 3.1,
+      "max_px": 6.0,
+      "rms_m": 0.15,
+      "median_m": 0.12,
+      "max_m": 0.24
+     },
+     "sure12": {
+      "n": 10,
+      "rms_px": 2.9,
+      "median_px": 3.1,
+      "max_px": 3.7,
+      "rms_m": 0.12,
+      "median_m": 0.12,
+      "max_m": 0.16
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 85.2,
+      "median_px": 85.2,
+      "max_px": 86.1,
+      "rms_m": 3.57,
+      "median_m": 3.56,
+      "max_m": 3.61
+     }
+    }
+   }
+  },
+  "P0641": {
+   "plate": "",
+   "image": "P0641.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.012007,
+    "lon": 116.306605,
+    "err": 5.0,
+    "bearing": 352.5,
+    "eye": 2.2,
+    "eye_sd": 1.0,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the axis (the frame is symmetric), the GPS tag kept; about 21 m from the niche by its 9 m frame; pitched up about 8 degrees."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      822.58,
+      1.59,
+      -813.13
+     ],
+     "yaw_deg": 358.81,
+     "pitch_deg": 5.15,
+     "f_px": 663.8,
+     "du_px": 20.8,
+     "dv_px": 150.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.64,
+     "moved_from_prior_m": 7.0,
+     "points": {
+      "n": 12,
+      "rms_px": 4.8,
+      "median_px": 4.4,
+      "max_px": 7.4,
+      "rms_m": 0.19,
+      "median_m": 0.17,
+      "max_m": 0.29
+     },
+     "tests": {
+      "n": 12,
+      "rms_px": 4.8,
+      "median_px": 4.4,
+      "max_px": 7.4,
+      "rms_m": 0.19,
+      "median_m": 0.17,
+      "max_m": 0.29
+     },
+     "sure12": {
+      "n": 10,
+      "rms_px": 4.4,
+      "median_px": 3.8,
+      "max_px": 7.0,
+      "rms_m": 0.18,
+      "median_m": 0.16,
+      "max_m": 0.28
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 92.7,
+      "median_px": 92.7,
+      "max_px": 92.7,
+      "rms_m": 3.78,
+      "median_m": 3.78,
+      "max_m": 3.81
+     }
+    }
+   }
+  },
+  "P0762": {
+   "plate": "",
+   "image": "P0762.jpg",
+   "free": true,
+   "size": [
+    1280,
+    853
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.012324,
+    "lon": 116.306577,
+    "err": 8.0,
+    "bearing": 172.5,
+    "eye": 4.2,
+    "eye_sd": 1.5,
+    "f2400": 2078.460969082653,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the 远瀛观 terrace on the axis behind the niche, about 15 m from its front middle (the GPS tag coarse); eye about 4.5 m above the court."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      820.23,
+      1.18,
+      -856.57
+     ],
+     "yaw_deg": 172.6,
+     "pitch_deg": 16.01,
+     "f_px": 1215.5,
+     "du_px": 25.7,
+     "dv_px": 240.4,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.9,
+     "moved_from_prior_m": 1.3,
+     "points": {
+      "n": 8,
+      "rms_px": 43.7,
+      "median_px": 22.4,
+      "max_px": 75.3,
+      "rms_m": 0.51,
+      "median_m": 0.28,
+      "max_m": 0.85
+     },
+     "tests": {
+      "n": 8,
+      "rms_px": 43.7,
+      "median_px": 22.4,
+      "max_px": 75.3,
+      "rms_m": 0.51,
+      "median_m": 0.28,
+      "max_m": 0.85
+     },
+     "sure12": {
+      "n": 6,
+      "rms_px": 27.0,
+      "median_px": 12.8,
+      "max_px": 56.3,
+      "rms_m": 0.34,
+      "median_m": 0.17,
+      "max_m": 0.71
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0776": {
+   "plate": "",
+   "image": "P0776.jpg",
+   "free": true,
+   "size": [
+    1061,
+    783
+   ],
+   "object": "XY10",
+   "points_from": "model XY10-da-shuifa",
+   "prior": {
+    "lat": 40.011794,
+    "lon": 116.306727,
+    "err": 15.0,
+    "bearing": 340.0,
+    "eye": 1.6,
+    "eye_sd": 1.0,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: 45 m south of the niche, about 5 m east of the axis (the clock gate of 远瀛观 sits 76 px right of the crest); niche frame 186 px for about 9 m at a 45-55 degree lens. In the court near the 观水法 platform; eye on the court floor."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      826.31,
+      0.5,
+      -800.11
+     ],
+     "yaw_deg": 348.05,
+     "pitch_deg": 8.67,
+     "f_px": 984.6,
+     "du_px": 11.9,
+     "dv_px": -17.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 1.55,
+     "moved_from_prior_m": 7.1,
+     "points": {
+      "n": 13,
+      "rms_px": 22.7,
+      "median_px": 12.0,
+      "max_px": 65.6,
+      "rms_m": 0.96,
+      "median_m": 0.5,
+      "max_m": 2.81
+     },
+     "tests": {
+      "n": 13,
+      "rms_px": 22.7,
+      "median_px": 12.0,
+      "max_px": 65.6,
+      "rms_m": 0.96,
+      "median_m": 0.5,
+      "max_m": 2.81
+     },
+     "sure12": {
+      "n": 6,
+      "rms_px": 10.8,
+      "median_px": 7.7,
+      "max_px": 20.3,
+      "rms_m": 0.45,
+      "median_m": 0.32,
+      "max_m": 0.86
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 94.2,
+      "median_px": 71.7,
+      "max_px": 132.8,
+      "rms_m": 3.63,
+      "median_m": 2.77,
+      "max_m": 5.11
+     }
+    }
+   }
+  }
+ }
+}

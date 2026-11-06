@@ -321,6 +321,7 @@ Apart from 样001-4, read only in the mhymy transcription (S310 rec. 10451), no 
 - **Q165. YM01 survives_en and recons_en are empty.** YM01 survives_en and recons_en are empty: the public page will have no ruin text. The digs worker may hold a 正大光明 survey; the coordinator should check before publishing. (verify_a worker, Round 7)
 - **Q182. Typology, grand_hall heights.** Typology, grand_hall heights: proposal column_m 5.12 -> 4.2 and platform_m 1.22 -> 0.7 for the class, keeping 5.12 and 1.22 for 正大光明殿 alone through by_name. The measured residential and office halls of the class all fall below the default: 慎德堂 YM03-11 column 4.35, platform 0.59 (
 - **Q183. Typology, grand_hall bays.** Typology, grand_hall bays: proposal bay_m central 5.5 -> 5.17 and side 4.7 -> 4.83 (次间) and 4.32 (梢间), from the yellow slip of NLC 样001-4 正大光明白差准底 as transcribed on mhymy (S310): 明间 一丈六尺一寸五, 次间 一丈五尺一寸, 梢间 一丈三尺五寸, hall 35.95 x 16.0 m with porches, inside Malone's platform of 39.32 x 
+- **Q198. The album's hills are too tall.** Read by module against each scene's largest hall, the Forty Scenes leaves paint the main hills 2.5-4.5 ridges high (up to 7.9 at 杏花春馆), 10-70 m. The halls themselves are drawn 1.5-1.9 times too tall for their width (正大光明殿, 安佑宫). The model scales the 99 readings by 0.448 so thei
 
 ### Wishlist rows that name it
 

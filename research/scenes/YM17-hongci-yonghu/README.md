@@ -250,7 +250,7 @@ No excavation report of the 安佑宫 platform was found. Yangshi Lei plans or s
 - **Q179. YM17.** YM17: S05 j81:19b reads 左右石華表各一 (one stone 华表 on each side, two), Malone (E1561) and S980 give four, at the corners of a square round the archway. Two or four for the model? And S05 has the three outer archways ringed round the glazed archway (坊南及東西復有三坊環列), while E1564 (S361) and Malone place three pail
 - **Q180. YM17.** YM17: the stele in the Kanripo text reads 鳩工於乾隆庚午而蕆事於癸亥; 庚午 would be 1750, after 癸亥 (1743). Probably a copying error for 壬戌 (1742), which S05's own note (建自乾隆七年) supports. Check another edition before quoting it. (verify_b worker, Round 7)
 - **Q181. YM17 and YM29.** YM17 and YM29: E1561 gives the 华表 as about 20 ft (6.1 m), S980 about 8 m overall; and the S943 page says the qilin went from the garden to Peking University in 1925 in one place and via 载涛 and 朗润园 in another. (verify_b worker, Round 7)
-- **Q185. Typology, 石华表 YM17-02.** Typology, 石华表 YM17-02: the four marble columns of 安佑宫, about 8 m high on an octagonal base of 1.24 m (S980, S818), stand in the 3D view as a square pavilion box. Proposal: a column shape, or no box, in boxes1860.py. Not applied (coordinator worker, Round 7)
+- **Q185. Typology, 石华表 YM17-02.** Typology, 石华表 YM17-02: the four marble columns of 安佑宫, about 8 m high on an octagonal base of 1.24 m (S980, S818), stand in the 3D view as a square pavilion box. Proposal: a column shape, or no box, in boxes1860.py. Not applied (coordinator worker, Round 7) **Round 11: left open.** Sinc
 
 ### Wishlist rows that name it
 

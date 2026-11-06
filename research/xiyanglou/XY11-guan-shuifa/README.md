@@ -169,6 +169,7 @@ Five panels and two obelisks standing, set up in 1977 by the park: a re-erection
 - **Q65. How far the plates can be trusted for size (Round 6).** The focal length f about 1250 px rests on plate 2 alone (ring pavement 1241, rubble spacing 1275), checked on plate 1 by an octagon of 8.9 m against 8.6 m on the plan, and is carried to the other 18 as an assumption, so their viewpoints are low confidence. 
 - **Q71. 观水法 on the axis (Round 6).** Niche to throne is 41.7 m by OSM's point and the row, 57 m as the plan draws it. The ruin lies under trees, so the screen may stand up to 15 m further south. Today's panels were re-erected in 1977 and prove nothing alone. P0193 (Child) shows steps in front of a side gate where plate 
 - **Q212. The tall tiered columns at 大水法 and 观水法.** `xiyanglou/views.csv` reads them as fountain towers; the planting worker reads the hatching on P0055 and P0056 as clipped foliage, ten or so discs on a stem. Drawn as topiary (GS-0508), C. (Round 12)
+- **Q233. Plate 16's side gates.** Plate 16 draws the gates of 观水法 about 2.4 m taller than P0193 (Child, 1870s: height 1.06 times the width) allows at the plate's own width of 5.2 m; the plate's heights are drawn 1.6 times its widths overall (its `stretch` fit), which leaves the gates still 2.4 m over. The model follows 
 
 ## Wishlist
 
@@ -179,3 +180,10 @@ None that name it; see `research/wishlist.md`.
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+**Round 15: the detailed model** `models/XY11-guan-shuifa/` (its README has the evidence, the iteration log and the fit).
+- The screen: 14.4 m over the end piers, concave with its ends 2.8 m forward (P0640, P0764), the socle 1.30 m (S603), the panels 2.2 m (P0764), the cornice 5.6 m above the platform's level, 6.3 m above the court (P0777 of 1873 and today's end piers put it 0.5 m over the plate's module).
+- The platform 0.7 m above the court with five convex steps (P0344, P0764); the throne, the balustrade with trophies, the trophy pedestals and the obelisks from plate 16.
+- The gates 33.86 m apart (S01) on a strip of the gardens 1.30 m above the court, each with ten steps turned towards the court's middle (plate 16); their height from P0193's proportion, not the plate's (Q233).
+- The court's sunk area runs on 6.5 m behind the screen; the model raises the strip there (Q71).
+- Final fit: P0300 0.14 m, P0343 0.14 m, P0640 0.16 m, P0344 0.19 m, P0764 0.30 m, P0777 0.41 m, P0765 0.76 m, plate 16 0.90 m.

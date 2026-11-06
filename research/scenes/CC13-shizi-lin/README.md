@@ -229,6 +229,7 @@ Only two of the 14 named parts have a plan size (清閟阁 7 bays, 探真书屋)
 ### Open questions that name it
 
 - **Q119. Digs.** Digs: by the park's own list (S946, 2024) and what this round found, no excavation has been published for YM03 九洲清晏 (survey only, S151), YM02 勤政亲贤, YM29 方壶胜境, YM32 蓬岛瑶台, YM44 同乐园, YM15 山高水长 (1994 auger survey only, S156), YM38, YM33, CC13 狮子林, CC04 思永斋, YM17 安佑宫 or QC01. Sizes there must come from Yangs
+- **Q214. The age of the pines.** Qianlong's preface of 1770 says Changchun Yuan's pines were planted as saplings (S05 j83 "培松拱把"; at 狮子林 "稚松皆新種"); by 1860 they were about 90 years old. 清晖阁's pines burned in 1763 and were replanted (S361). All pines are drawn as mature trees of 12 m, a species default. (Round 12)
 
 ### Wishlist rows that name it
 

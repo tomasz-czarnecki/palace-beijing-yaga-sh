@@ -245,6 +245,7 @@ No dig found (search for a 长春仙馆 excavation gave nothing). Which hall bor
 - **Q129. The brief says the album views are roughly from the south.** The brief says the album views are roughly from the south. Most are, but several leaves look from the south-west (YM30 P0030, YM33 P0033, YM36 P0036, YM16 P0016) or south-east (YM12 P0012, YM37 P0037); YM15 P0015 shows the 楼 end-on from its south gabl
 - **Q134. YM12.** YM12: S05 j81:5a puts 长春仙馆 on a five-bay main hall; S01 writes 藤影花丛 on that five-bay hall (YM12-02) and 长春仙馆 on a seven-bay row (YM12-N01). Either the plaque moved after 1796 or the reading of the plan is off. Check the plan crop and S360's Jiaqing notes. (w2 worker, Round 7)
 - **Q193. Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks.** 日下旧闻考 j80:9a says 驾石桥三; the leaf P0001 (checked at full size) and S01 draw one, BR006, and gaps in the stream wall either side. Candidates not on `bridges_1860`: a strip on the west of 长春仙馆 (2135-2160 x 5145-5165 px), a neck at its sou
+- **Q216. Which 五福堂 had the magnolias.** S361 files the poems 五福堂对玉兰花 (1788) under 春熙院; a Jiaqing note of 1797 (S360) puts magnolias at 含碧堂 and 五福堂 of 长春仙馆, and 天然图画 YM05 has a 五福堂. The YM05 row is kept at C. (Round 12)
 
 ### Wishlist rows that name it
 

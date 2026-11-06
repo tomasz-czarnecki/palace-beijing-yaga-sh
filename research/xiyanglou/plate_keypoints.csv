@@ -269,3 +269,238 @@ plate,photo_id,object,point,x,y,sure,use,note
 ,P0170,XY08,wb_cornice_NE,815,321,3,,"top of the cornice at the NE corner pier (x 802-846) where the east face's cornice (rising left to y 307 at x 598) meets the north front's (y 319-325); rubble-strewn edge, +-4 px"
 ,P0170,XY08,wb_foot_NE,815,641,3,skip: foot hidden,"lowest visible point of the NE corner pier's lit face; below it a dark mass (rubble or the plinth in shadow) to y ~670; the east face's plinth ledge reaches the corner at about (800,670); the ground line is not visible"
 ,P0170,XY08,es_L1_rail_N,207,350,3,skip: identity of the landing uncertain,"top of the cap of a free-standing square post on the east block's north side, at the head of the lower visible flight; it may be the NE corner post of a landing (L1 or L2), its balustrade gone"
+15,P0055,XY10,niche_crest_top,1203,481,1,,top of the scalloped shell crest on the axis; cross sits on its upper edge (crop c2)
+15,P0055,XY10,niche_head_top,1203,592,3,,crown of the arch head's outer curve; hidden behind the crest cartouche that hangs over it; estimated from the curve on both sides (c2)
+15,P0055,XY10,niche_head_W,1126,638,2,,outermost point of the left (W) shoulder scroll of the arch head moulding; garlands spill a little further out (c2)
+15,P0055,XY10,niche_head_E,1281,638,2,,outermost point of the right (E) shoulder scroll; symmetric with W within 1 px about x 1203 (c2)
+15,P0055,XY10,niche_open_top,1203,656,2,,top of the niche opening on the axis: on the plate the recess head is rounded (an inner arch) not square; read its crown (c2)
+15,P0055,XY10,niche_open_foot_W,1166,804,3,,left foot of the opening where its side meets the sill band at y 804; the cascade water covers the corner (c3)
+15,P0055,XY10,niche_open_foot_E,1242,804,3,,right foot of the opening on the sill band; water covers the corner (c3)
+15,P0055,XY10,niche_post_cap_W,1108,671,2,,outer top corner of the frame's left post at the springing of the head (c2)
+15,P0055,XY10,niche_post_cap_E,1299,671,2,,outer top corner of the frame's right post at the springing (c2)
+15,P0055,XY10,cascade_top,1202,705,2,,mouth of the lion mask; the first row of water drops starts just below (c3)
+15,P0055,XY10,pier_W_cap_SW,982,670,2,,top front-left corner of the W pier's crowning cornice; the finial's plinth sits on it (c4 c6)
+15,P0055,XY10,pier_W_cap_SE,1061,670,2,,top front-right corner of the W pier cornice (c4)
+15,P0055,XY10,pier_E_cap_SW,1344,672,2,,top front-left corner of the E pier cornice (c5)
+15,P0055,XY10,pier_E_cap_SE,1425,672,2,,top front-right corner of the E pier cornice (c5)
+15,P0055,XY10,pier_W_finial_top,1020,544,1,,top of the fruit-basket finial over the W pier (c4)
+15,P0055,XY10,pier_E_finial_top,1386,546,1,,top of the finial over the E pier (c5)
+15,P0055,XY10,pier_W_flare_S,1021,812,2,,underside of the band closing the straight shaft; the console legs flare below it (c4 c6)
+15,P0055,XY10,pier_E_flare_S,1386,812,2,,same on the E pier (c5 c6)
+15,P0055,XY10,pier_W_foot_S,1021,910,3,,foot of the console legs on the base course at mid-width; between the legs sits a lyre cartouche; planters at the foot blur the line (c6)
+15,P0055,XY10,pier_E_foot_S,1386,910,3,,same on the E pier (c6)
+15,P0055,XY10,scroll_W_top,965,789,2,,top of the curl at the inner upper end of the W ribbed band where it meets the pier; the band's foot (great volute) is hidden by the clipped tree (c7 c11)
+15,P0055,XY10,scroll_E_top,1444,787,2,,top of the curl at the inner upper end of the E ribbed band (c8)
+15,P0055,XY10,base_course_C,1203,888,3,,top edge of the arcaded base course under the cascade; the falling sheet covers the axis; read from the line either side (c3 c6)
+15,P0055,XY10,stag_top,1203,923,2,,level of the antler tips (tips at x 1184 and 1224); x put on the axis (c3 c13)
+15,P0055,XY10,stag_foot,1203,1000,3,,the stag (frontal) stands among jets; the base at the water read where the jets' feet are (c13)
+15,P0055,XY10,basin_rim_S,1203,1020,2,,top of the basin's low post rim at the front-most point of its convex central lobe (c13)
+15,P0055,XY10,basin_rim_W,845,1010,3,,left end of the low rim as far as it is seen behind the topiary pedestals; rockwork beyond it; outline unclear (c16 c18)
+15,P0055,XY10,basin_rim_E,1561,1010,3,,right end of the low rim behind the topiary pedestals; set nearly symmetric with W; unclear (c17 c18)
+15,P0055,XY10,tower_W_ped_top_SW,232,990,2,,top front-left corner of the W pedestal cornice (c21)
+15,P0055,XY10,tower_W_ped_top_SE,362,990,2,,top front-right corner of the W pedestal cornice; its E side face shows to x 412 (c21)
+15,P0055,XY10,tower_E_ped_top_SW,2052,984,2,,top front-left corner of the E pedestal cornice; its W side face shows from x 1995 (c24 c32)
+15,P0055,XY10,tower_E_ped_top_SE,2184,984,2,,top front-right corner of the E pedestal cornice (c24 c32)
+15,P0055,XY10,tower_W_ped_foot_SW,232,1178,3,,foot of the W pedestal on the basin floor; behind the front row of jets (c26)
+15,P0055,XY10,tower_W_ped_foot_SE,362,1178,3,,same; right corner (c26)
+15,P0055,XY10,tower_E_ped_foot_SW,2052,1178,3,,foot of the E pedestal; behind the jets (c25)
+15,P0055,XY10,tower_E_ped_foot_SE,2184,1178,3,,same; right corner (c25)
+15,P0055,XY10,tower_W_top,316,537,2,,top of the scrolled crown pinnacle of the W pyramid; the star-shaped jet rises from it (c30)
+15,P0055,XY10,tower_E_top,2090,531,2,,top of the E pyramid's pinnacle below the star jet (c31)
+15,P0055,XY10,twbasin_W_rim_L,42,1105,3,,left-most point of the W tower basin rim; at the plate's border and may be cut (c27)
+15,P0055,XY10,twbasin_W_rim_R,612,1150,2,,right-most point of the outer kerb; on the rounded lobe towards the axis (c27)
+15,P0055,XY10,twbasin_W_rim_S,300,1238,2,,front-most point of the kerb on its straight front side (c27)
+15,P0055,XY10,twbasin_E_rim_L,1805,1090,2,,left-most point of the E basin kerb; on the lobe towards the axis (c28)
+15,P0055,XY10,twbasin_E_rim_R,2372,1115,2,,right-most point of the E basin kerb (c28)
+15,P0055,XY10,twbasin_E_rim_S,2100,1225,2,,front-most point of the E basin kerb (c28)
+,P0776,XY10,niche_crest_top,651,161,2,,top of the shell crest; whole in 1873 with the mask below it (d1 d4)
+,P0776,XY10,niche_head_top,651,243,3,,crown of the head's outer curve; the crest's mask sits on it; estimated from the curve on both sides (d4)
+,P0776,XY10,niche_head_W,560,299,2,,outer edge of the left shoulder scroll of the head (d1 d4)
+,P0776,XY10,niche_head_E,748,290,2,,outer edge of the right shoulder scroll (d1 d4)
+,P0776,XY10,niche_open_top,650,288,2,,top of the opening (underside of the moulding over the recess); a dark square hole shows through the back wall just below (d1 d4)
+,P0776,XY10,niche_post_cap_W,561,316,3,,outer top corner of the left post where the head's scroll ends; ivy on it (d4)
+,P0776,XY10,niche_post_cap_E,747,314,3,,outer top corner of the right post (d4)
+,P0776,XY10,pier_W_cap_SW,389,321,2,,top front-left corner of the W pier cornice; no finial on the pier in 1873 (d2 d4)
+,P0776,XY10,pier_W_cap_SE,486,321,2,,top front-right corner of the W pier cornice (d2 d4)
+,P0776,XY10,pier_E_cap_SW,831,305,3,,top front-left corner of the E pier cornice; the pier's right part is lost in tree shadow (d3 d4)
+,P0776,XY10,pier_W_flare_S,436,447,3,,end of the straight shaft where the console curves begin at mid-width; behind branches (d2 d4)
+,P0776,XY10,pier_E_flare_S,865,446,3,skip: mid-width unsure (the right part of the pier is in shadow),bottom of the lit front of the E pier shaft where the consoles begin (d3)
+,P0776,XY10,scroll_W_top,360,418,3,,top of the curl at the inner end next to the W pier (as on plate 15 at 965 789); it is not the stair-foot volute (d5)
+,P0776,XY10,stair_W_rail_high,378,355,3,,top of the balustrade rail where it meets the W pier; the balustrade falls to the west; no end post seen (d5)
+,P0776,XY10,stair_W_rail_low,211,380,3,skip: not an end post; the rail goes on into the trees,the lowest point of the rail still seen at the left (d5)
+,P0641,XY10,niche_head_W,583,488,2,,outermost point of the W shoulder scroll of the arch head; checked on a 4x crop
+,P0641,XY10,niche_head_E,760,487,2,,outermost point of the E shoulder scroll; checked on a 4x crop
+,P0641,XY10,niche_open_top,671,491,2,,underside of the head on the axis: top of the small dark light under the lintel band; the crown above is broken (head_top skipped)
+,P0641,XY10,niche_open_foot_W,630,727,3,skip: today the opening runs down to the plinth; the 1780s sill (plate 15) at the terrace level and the infill below it are gone,opening's W side at the sill: the inner edge of the W post's console foot on the base course
+,P0641,XY10,niche_open_foot_E,702,727,3,skip: today the opening runs down to the plinth; the 1780s sill (plate 15) at the terrace level and the infill below it are gone,opening's E side at the sill: inner edge of the E post's console foot
+,P0641,XY10,niche_post_cap_W,558,509,2,,outer top corner of the W post's cap moulding at the springing (the post is 557-622 wide; the head springs from its inner part)
+,P0641,XY10,niche_post_cap_E,783,511,2,,outer top corner of the E post's cap moulding at the springing
+,P0641,XY10,pier_E_cap_SW,826,513,2,,E pier cornice top front-left corner; cornice whole
+,P0641,XY10,pier_E_cap_SE,930,513,2,,E pier cornice top front-right corner
+,P0641,XY10,pier_E_flare_S,881,638,2,,E pier: under the moulded band at the shaft's foot where the consoles start;mid-width
+,P0641,XY10,pier_E_foot_S,881,727,2,,E pier: bottom moulding of the console foot at mid-width;on the plinth course
+,P0641,XY10,pier_W_flare_S,448,632,3,,W pier: shaft broken above (a tall fragment of its W half to y 464 stands); top of the console band at mid-width of the surviving shaft block 410-486
+,P0641,XY10,pier_W_foot_S,448,727,2,,W pier console foot bottom at mid-width (mask at x 447)
+,P0641,XY10,base_course_C,670,731,3,,top front edge of the highest course under the niche on the axis (the course the post consoles stand on; drain opening below it)
+,P0340,XY10,niche_head_W,569,255,2,,outermost point of the W shoulder scroll; checked on a 2x crop
+,P0340,XY10,niche_head_E,749,255,2,,outermost point of the E shoulder scroll
+,P0340,XY10,niche_open_top,659,253,2,,underside of the head on the axis (top of the dark light under the lintel); crown broken above
+,P0340,XY10,niche_open_foot_W,618,480,3,skip: today the opening runs down to the plinth; the 1780s sill (plate 15) at the terrace level and the infill below it are gone,inner edge of the W post's console at the sill
+,P0340,XY10,niche_open_foot_E,690,481,3,skip: today the opening runs down to the plinth; the 1780s sill (plate 15) at the terrace level and the infill below it are gone,inner edge of the E post's console at the sill
+,P0340,XY10,niche_post_cap_W,545,272,2,,outer top corner of the W post's cap at the springing
+,P0340,XY10,niche_post_cap_E,776,272,2,,outer top corner of the E post's cap at the springing
+,P0340,XY10,pier_E_cap_SW,822,266,2,,E pier cornice top front-left corner
+,P0340,XY10,pier_E_cap_SE,922,266,2,,E pier cornice top front-right corner
+,P0340,XY10,pier_E_flare_S,871,395,2,,E pier: under the band at the shaft foot;mid-width
+,P0340,XY10,pier_E_foot_S,871,480,2,,E pier console foot bottom at mid-width
+,P0340,XY10,pier_W_flare_S,445,397,3,,W pier: top of the console band below the broken shaft block;mid-width
+,P0340,XY10,pier_W_foot_S,445,480,2,,W pier console foot bottom at mid-width
+,P0340,XY10,base_course_C,659,487,3,,top front edge of the course under the niche on the axis;in low sun shadow
+,P0214,XY10,niche_head_top,325,347,3,,crown of the head's front arc where it meets the deep scroll body; the head is whole in 1922 but mossy at the crown; read from the SE so the axis is estimated
+,P0214,XY10,niche_head_W,241,464,3,,outermost point of the W shoulder scroll on the head's front face (its eye seen end-on)
+,P0214,XY10,pier_E_cap_SW,494,429,3,,E pier cornice top: left end of its front (south) face; S face seen very foreshortened (x 494-551) against the broad E face
+,P0214,XY10,pier_E_cap_SE,551,421,3,,E pier cornice top: the S/E corner (the arris between the narrow front and the broad east face)
+,P0288,XY10,niche_head_W,952,380,2,,outermost W point of the head's front arc (seen from the east along the south face)
+,P0288,XY10,niche_head_top,1030,255,3,,top of the head's front arc near the axis; crown edge partly worn or broken;axis estimated
+,P0288,XY10,pier_E_cap_SW,1292,280,3,,E pier cornice top;left (south-west) end of its front face; front face foreshortened
+,P0169,XY10,niche_head_top,1005,270,3,,head whole in 1902: top of its outer curve on the axis under the keystone block (the crest above is gone)
+,P0169,XY10,niche_head_W,906,339,2,,outermost W point of the head's front face; the W shoulder scroll's flank (a long drum) is seen beyond it to the left from the SW
+,P0169,XY10,niche_head_E,1106,336,2,,outermost E point of the head's front face (E shoulder scroll)
+,P0169,XY10,niche_open_top,990,331,3,,underside of the head on the axis: top of the small dark light under the lintel
+,P0169,XY10,pier_E_cap_SW,1163,364,2,,E pier cornice top front-left corner (pier stands whole to its cornice in 1902)
+,P0169,XY10,pier_W_cap_SW,683,386,3,skip: top of the W pier's shaft as it stands in 1902; the crowning cornice looks lost,left end of the standing top
+,P0169,XY10,pier_W_cap_SE,794,386,3,skip: top of the W pier's shaft as it stands in 1902; the crowning cornice looks lost,right end of the standing top
+,P0169,XY10,pier_W_flare_S,748,519,2,,W pier front face mid-width: foot of the straight shaft where the consoles begin
+,P0762,XY10,niche_head_top_N,665,126,2,,seen from the north: top of the head's back face on the axis; the back of the head is whole (a crack only on the axis)
+,P0762,XY10,niche_head_W_N,969,305,2,,seen from the north (W = picture right): outermost W point of the head's back curve above its shoulder scroll
+,P0762,XY10,niche_head_E_N,362,310,2,,seen from the north (E = picture left): outermost E point of the head's back curve
+,P0762,XY10,niche_open_top_N,665,372,2,,seen from the north: underside of the head (soffit) on the axis
+,P0762,XY10,niche_post_cap_W_N,1042,370,2,,seen from the north: outer top corner of the W post's cap (picture right)
+,P0762,XY10,niche_post_cap_E_N,255,372,2,,seen from the north: outer top corner of the E post's cap (picture left)
+,P0762,XY10,niche_open_foot_W_N,818,700,3,,seen from the north: foot of the opening's W side at the back sill (terrace level; sand drift)
+,P0762,XY10,niche_open_foot_E_N,520,700,3,,seen from the north: foot of the opening's E side at the back sill
+,P0169,XY10,niche_post_cap_W,829,352,3,,outer top corner of the W post's cap moulding at the springing; seen from the SW against brick behind
+,P0169,XY10,niche_post_cap_E,1118,361,3,,outer top corner of the E post's cap moulding at the springing
+16,P0056,XY11,scr_cornice_E,807,598,2,,outer top corner of the end pier's cornice slab (left); checked on crop
+16,P0056,XY11,scr_cornice_W,1601,604,2,,outer top corner of the W end pier's cornice slab (right); checked
+16,P0056,XY11,scr_endpier_top_E,813,648,2,,plate: top of the pier shaft at the underside of its entablature (the cornice block sits above); outer corner
+16,P0056,XY11,scr_endpier_top_W,1595,651,2,,as E: pier shaft top under the entablature; outer corner
+16,P0056,XY11,pan_C_top,1204,719,2,,top of panel C's rectangular frame below its crest cartouche
+16,P0056,XY11,pan_E1_top,1053,713,2,,frame top of E1 under its cartouche
+16,P0056,XY11,pan_W1_top,1355,713,2,,frame top of W1
+16,P0056,XY11,pan_E2_top,924,697,2,,frame top of E2
+16,P0056,XY11,pan_W2_top,1485,699,2,,frame top of W2
+16,P0056,XY11,pan_E2_foot,925,929,2,,frame bottom of E2 just above the pilaster plinth line
+16,P0056,XY11,pan_W2_foot,1480,931,2,,frame bottom of W2
+16,P0056,XY11,crest_top_C,1204,590,2,,top of the central crest cartouche (mask) on the axis; no finial on the axis
+16,P0056,XY11,finial_E_top,841,516,1,,outer of the PAIR of finials on the E end pier
+16,P0056,XY11,finial_W_top,1580,521,1,,outer of the pair on the W end pier
+16,P0056,XY11,throne_top,1204,733,3,,crown on top of the throne's ribbed fan canopy; it is drawn against panel C so the edge between canopy and panel ornament is uncertain
+16,P0056,XY11,plat_front_C,1200,1067,2,,front edge of the platform floor where the top step begins; on the axis
+16,P0056,XY11,steps_foot_C,1200,1142,2,,front edge of the lowest (5th) step on the axis; the pebble band of the court below
+16,P0056,XY11,steps_foot_E,901,1095,3,,outer end of the lowest step (the flight is stepped at its ends; each upper step shorter)
+16,P0056,XY11,steps_foot_W,1500,1099,3,,outer end of the lowest step W
+16,P0056,XY11,trophy_E_ped_top,826,1012,2,,front middle of the top cornice of the E trophy pedestal under the trophy's round base
+16,P0056,XY11,trophy_W_ped_top,1573,1014,2,,the same W
+16,P0056,XY11,obel_E_top,722,751,1,,top of the ball on the E obelisk
+16,P0056,XY11,obel_W_top,1682,759,1,,top of the ball on the W obelisk
+16,P0056,XY11,obel_E_foot,717,961,2,,foot of the obelisk's pedestal (its plinth on the paving) under the middle of its front face
+16,P0056,XY11,obel_W_foot,1685,966,2,,the same W
+16,P0056,XY11,gate_E_top,315,695,2,,top of the E gate's pediment crest (shell cartouche)
+16,P0056,XY11,gate_W_top,2100,703,2,,top of the W gate's crest
+16,P0056,XY11,gate_E_jamb_in,333,1016,2,,foot of the E gate opening's right (inner) jamb at the threshold atop the flight
+16,P0056,XY11,gate_W_jamb_in,2071,1031,2,,foot of the W gate opening's left (inner) jamb at the threshold
+16,P0056,XY11,gate_E_steps_foot,411,1130,2,,middle of the lowest step's front edge (the flight runs obliquely down to the right)
+16,P0056,XY11,gate_W_steps_foot,1990,1142,2,,middle of the lowest step's front edge W
+16,P0056,XY11,wall_top_E,390,746,2,,top edge of the back wall where it passes behind the E gate's pediment shoulder
+16,P0056,XY11,wall_top_W,2018,757,2,,top edge of the back wall where it meets the W gate's pediment shoulder
+,P0777,XY11,scr_cornice_E,123,338,3,,near (E) end pier: outer top corner of its cornice in foliage at left; dark
+,P0777,XY11,scr_cornice_W,562,391,2,,far (W) end: outer top corner of the cornice over the W end pier
+,P0777,XY11,scr_endpier_top_E,122,365,3,,E end pier shaft top under its entablature (outer corner on the lit E side face)
+,P0777,XY11,scr_endpier_top_W,562,410,3,,W end pier shaft top under its entablature
+,P0777,XY11,finial_E_top,160,262,3,,a vase-like finial on the E end pier among branches; top uncertain
+,P0777,XY11,crest_top_C,320,342,3,,top of the crest band over panel C; the crest stands in 1873 but is worn and broken into lumps
+,P0777,XY11,pan_E2_top,201,410,3,,E2 seen nearly edge-on as a dark slot beside the E end pier (counting from the unambiguous W end pier: W2 W1 C E1 E2)
+,P0777,XY11,pan_E2_foot,201,555,3,,E2 slot foot
+,P0777,XY11,pan_E1_top,250,430,2,,frame top of E1
+,P0777,XY11,pan_C_top,320,436,2,,frame top of C (the panel with the big X of crossed arms)
+,P0777,XY11,pan_C_foot,320,552,2,,frame bottom of C
+,P0777,XY11,pan_W1_top,403,441,2,,frame top of W1
+,P0777,XY11,pan_W2_top,489,444,2,,frame top of W2
+,P0777,XY11,pan_W2_foot,489,547,2,,frame bottom of W2
+,P0777,XY11,socle_top_C,320,569,3,,top of the socle's projecting band under C
+,P0777,XY11,socle_foot_E,120,632,3,,foot of the socle at the E end in shadow and grass
+,P0640,XY11,pan_E2_top,217,336,1,,frame top of E2 (left); panels stand free since 1977 with no backing
+,P0640,XY11,pan_E2_foot,217,569,1,,frame bottom of E2 where it meets its plinth block
+,P0640,XY11,pan_E1_top,448,353,1,,frame top of E1
+,P0640,XY11,pan_C_top,655,365,1,,frame top of C (crossed cannons and a pile of balls)
+,P0640,XY11,pan_C_foot,655,570,1,,frame bottom of C on its plinth block
+,P0640,XY11,pan_W1_top,869,362,1,,frame top of W1
+,P0640,XY11,pan_W2_top,1089,352,1,,frame top of W2
+,P0640,XY11,pan_W2_foot,1089,580,1,,frame bottom of W2
+,P0640,XY11,socle_top_C,657,611,2,,top of the socle's cornice band under C (below the panel's plinth block 570-609)
+,P0343,XY11,scr_endpier_top_E,89,289,3,,E end pier's broken flat top at its outer front corner (the pier stands to about the panel tops plus a third; the top is broken)
+,P0343,XY11,pan_E2_top,259,357,1,,frame top of E2
+,P0343,XY11,pan_E2_foot,259,559,1,,frame bottom of E2 on its plinth block
+,P0343,XY11,pan_E1_top,458,367,1,,frame top of E1
+,P0343,XY11,pan_C_top,653,366,1,,frame top of C (crossed cannons)
+,P0343,XY11,pan_C_foot,653,570,1,,frame bottom of C
+,P0343,XY11,pan_W1_top,858,356,1,,frame top of W1
+,P0343,XY11,pan_W2_top,1074,332,1,,frame top of W2 (nearest panel: the camera stands west of the axis)
+,P0343,XY11,pan_W2_foot,1074,584,1,,frame bottom of W2
+,P0343,XY11,socle_top_C,652,606,2,,top of the socle cornice under C below the plinth block
+,P0344,XY11,scr_endpier_top_E,352,141,3,,E end pier's broken flat top at its outer front corner (far end of the frame; camera NW)
+,P0344,XY11,pan_E2_top,468,183,1,,frame top of E2 (panels show their W side faces: camera west of axis)
+,P0344,XY11,pan_E2_foot,468,342,1,,frame bottom of E2 on its plinth block
+,P0344,XY11,pan_E1_top,620,170,1,,frame top of E1
+,P0344,XY11,pan_C_top,771,151,1,,frame top of C (crossed cannons)
+,P0344,XY11,pan_C_foot,771,337,1,,frame bottom of C
+,P0344,XY11,pan_W1_top,942,121,2,,frame top of W1 at the right edge; W2 and the W end pier are out of frame
+,P0344,XY11,socle_top_C,771,374,2,,top of the socle cornice under C
+,P0344,XY11,steps_foot_W,805,654,3,,W outer end of the lowest of the five curved steps; the flight ends stepped against a carved block (the remnant base of the W trophy pedestal?)
+,P0344,XY11,obel_E_top,330,205,3,skip: a tapering carved stone stands just beyond the E end pier; could be the E obelisk's shaft re-set or a fragment; not proved in place,top of the tapering stone beyond the E end pier
+,P0300,XY11,pan_E2_top,127,319,2,,frame top of E2; panels still in the brick backing (1914-20); over each panel an architrave block survives; end piers out of frame
+,P0300,XY11,pan_E2_foot,127,560,2,,frame bottom of E2
+,P0300,XY11,pan_E1_top,356,328,2,,frame top of E1
+,P0300,XY11,pan_C_top,590,326,2,,frame top of C (crossed cannons)
+,P0300,XY11,pan_C_foot,590,553,2,,frame bottom of C
+,P0300,XY11,pan_W1_top,822,311,2,,frame top of W1
+,P0300,XY11,pan_W2_top,1047,290,2,,frame top of W2
+,P0300,XY11,pan_W2_foot,1047,536,2,,frame bottom of W2
+,P0765,XY11,scr_endpier_top_E,280,204,2,,E end pier's flat (broken) top at its outer front corner
+,P0765,XY11,scr_endpier_top_W,1171,142,2,,W end pier's flat (broken) top at its outer front corner; nearer: camera NW
+,P0765,XY11,pan_E2_top,409,251,1,,frame top of E2
+,P0765,XY11,pan_E2_foot,409,398,1,,frame bottom of E2 on its plinth block
+,P0765,XY11,pan_E1_top,553,252,1,,frame top of E1
+,P0765,XY11,pan_C_top,698,245,1,,frame top of C (crossed cannons)
+,P0765,XY11,pan_C_foot,698,398,1,,frame bottom of C
+,P0765,XY11,pan_W1_top,856,233,1,,frame top of W1
+,P0765,XY11,pan_W2_top,1009,213,1,,frame top of W2
+,P0765,XY11,pan_W2_foot,1009,398,1,,frame bottom of W2
+,P0765,XY11,socle_top_C,699,427,2,,top of the socle cornice under C below the panel's plinth block
+,P0765,XY11,socle_foot_W,1186,538,3,,foot of the W end pier's base at its outer front corner on today's ground
+,P0765,XY11,plat_front_C,662,552,3,,top step (platform) front edge where the axis should cross it; axis placed by eye under panel C at an oblique view
+,P0765,XY11,steps_foot_C,653,689,3,,lowest of the five steps front edge on the estimated axis; a flat curb course lies in front of it
+,P0765,XY11,steps_foot_W,1042,684,2,,W outer end of the lowest step; the flight ends stepped at its sides
+,P0765,XY11,steps_foot_E,36,580,3,skip: the lowest step may run out of the frame at the left,left-most visible end of the lowest step
+,P0765,XY11,obel_E_top,235,258,3,skip: tapering stone on the socle extension beyond the E end pier; may be the E obelisk re-set or a fragment,top of the tapering stone
+,P0764,XY11,scr_endpier_top_E,196,314,2,,E end pier's broken flat top at its outer front corner
+,P0764,XY11,scr_endpier_top_W,1101,310,2,,W end pier's broken flat top at its outer front corner
+,P0764,XY11,pan_E2_top,337,371,1,,frame top of E2
+,P0764,XY11,pan_E2_foot,337,535,1,,frame bottom of E2 on its plinth block
+,P0764,XY11,pan_E1_top,493,381,1,,frame top of E1
+,P0764,XY11,pan_C_top,646,384,1,,frame top of C (crossed cannons)
+,P0764,XY11,pan_C_foot,646,534,1,,frame bottom of C
+,P0764,XY11,pan_W1_top,802,377,1,,frame top of W1
+,P0764,XY11,pan_W2_top,954,366,1,,frame top of W2
+,P0764,XY11,pan_W2_foot,954,531,1,,frame bottom of W2
+,P0764,XY11,socle_top_C,645,566,2,,top of the socle cornice under C below the plinth block
+,P0764,XY11,socle_foot_E,169,653,3,,foot of the socle at the E end pier's outer front corner; a lower base runs on beyond it under the obelisk
+,P0764,XY11,socle_foot_W,1114,653,3,,the same W
+,P0764,XY11,plat_front_C,646,702,2,,platform's front edge (top of the uppermost nosing) on the axis
+,P0764,XY11,steps_foot_C,646,857,2,,front edge of the lowest of five steps on the axis; a flat curb course lies before it (857-895)
+,P0764,XY11,obel_E_top,101,372,2,skip: today's tip of the shaft; the ball of the plate is lost,tip of the E obelisk (a tapering shaft on a moulded pedestal beyond the E end pier)
+,P0764,XY11,obel_W_top,1193,367,2,skip: today's tip; the ball is lost,tip of the W obelisk
+,P0764,XY11,obel_E_foot,91,562,2,,foot of the E obelisk's pedestal at the middle of its front face on the low base
+,P0764,XY11,obel_W_foot,1200,557,2,,foot of the W obelisk's pedestal
+,P0765,XY11,obel_E_foot,222,422,2,,foot of the E obelisk's moulded pedestal (lion-claw feet above it) at the middle of its N face; the obelisk stands on a low base just beyond the E end pier

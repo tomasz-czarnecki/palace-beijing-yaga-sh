@@ -24,12 +24,15 @@ east pyramid fountain · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 15 of 1783-86, Ohlmer's photograph of 1873, the ruin photographs of 1902-1922 and today's (P0641 for the proportions), the plan S01 and Durand's survey (S603); every figure is a reading (C) unless the row says otherwise. Faces no picture shows (the piers' backs, the stairs' flights, the towers' north faces) are carried round from the documented parts (assumed).
 
-- **1 ×:** round basin, quatrefoil on S603's plan: 18 × 18 m, eave 0.5 m, ridge 0.5 m
-- **1 ×:** pyramid fountain tower: 4.6 × 4.2 m, eave 5 m, ridge 21.2 m
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** B and C, some assumed
+- **Niche:** the frame 9.2 m wide over its posts, the opening 3.7 m, the posts' caps 10.0 m above the court, the deep arch head to 13.7 m and the shell crest to 17.7 m (plate 15, P0641, P0762, P0776, C); seven water steps in the recess under the lion mask (S310, B)
+- **Piers:** two square piers 3.2 m across, their outer edges 21.2 m apart (S01, b), console feet, cornice at 9.9 m, vase finials to 14.4 m (plate 15; gone by 1873, P0776); proportions from P0641 (C)
+- **Stairs:** a flight beside each pier up to the terrace of 远瀛观, 4.63 m above the court, on the diagonal of S01's hatched blocks (C); its court-side parapet is plate 15's ribbed band: a balustrade on top, a curl at the pier, the great volute at its foot (plate 15, P0776; the volutes lying today were re-laid in 1978-83). The treads behind the parapet are assumed
+- **Basin:** lobed, 28.4 m wide (the ruin, S850, B), 16.4 m deep (C), with a low rail on its front, potted trees on pedestals, two urn fountains; the stag on its rock and ten hounds round it in the plan's places (S01, plate 15, C)
+- **Towers:** two pyramids of 10 tiers (plate 15, C; S310 says 13) on carved pedestals 4.6 m square (S01, B), 5 m high, their tops 17.1 m above the water; basins 18 m across, 62 m apart (S603, survey, B), about 40 jets each
+- **Court:** the sunken area 110 × 60 m, 1.30 m below the gardens (S603, survey, B): paved bands, four parterres before the towers (plate 15, C)
+- **Colours:** white marble (S02 p.157, B); the stag and hounds in stone grey: their material is not stated in the sources read (C)
 
 ## Pictures (1)
 

@@ -233,6 +233,8 @@ When the pile gallery went and 知过堂 came is not dated here (S360 may have i
 - **Q54. Timber buildings standing in 1882 (Round 5).** A China News clip of 2021 on Commons (S650, CC BY) shows 刘阳 Liu Yang's prints, which he dates to 1882, inscribed "Yen-Ming-Yuan Nº…": 知过堂 YM23-N01 (Nº 128), 顺木天 YM52-N01 (Nº 318, two tiers, which speaks against its `side_hall` class), 鱼跃鸢飞 YM25-01, 断桥残雪 YM18-08 (Nº 
 - **Q138. E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (Y.** E0451 (刘敦桢 via S337) lists 17 buildings left after 1860, eight of them in wave-2 scenes (YM05-08 文昌阁, YM16-08 魁星楼, YM23 慎修思永 and 知过堂, YM25, YM37-02 双鹤斋, YM47 藏舟坞?, YM48 紫碧山房/顺木天, YM51 课农轩). The 1860 model is unaffected
 - **Q182. Typology, grand_hall heights.** Typology, grand_hall heights: proposal column_m 5.12 -> 4.2 and platform_m 1.22 -> 0.7 for the class, keeping 5.12 and 1.22 for 正大光明殿 alone through by_name. The measured residential and office halls of the class all fall below the default: 慎德堂 YM03-11 column 4.35, platform 0.59 (
+- **Q200. H0021 濂溪乐处外山 and 眉月轩.** The outline lies 8 m from the centre of the 眉月轩 hall, so it cannot be the big east hill the YM18 leaf paints; the outline or the hall's placement is wrong there. (album worker, Round 10)
+- **Q209. Lotus at 曲院风荷 and 平湖秋月.** Their texts name lotus (S40 曲院风荷 "红衣印波", 平湖秋月 "荷露"), but the 1744 leaves paint plain water there; the leaves paint lotus only at 濂溪乐处 (about 85-90% of its lake) and 多稼如云 (Round 12, album workers). The model follows the texts, so those lotus beds stand on C extents; open water kept alon
 
 ### Wishlist rows that name it
 

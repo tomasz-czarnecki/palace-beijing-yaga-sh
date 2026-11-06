@@ -1,0 +1,204 @@
+{
+ "id": "XY11",
+ "frame": "x west along the screen (the front faces north), y up from the court's floor, z north (out of the front); metres",
+ "params": {
+  "chord": {
+   "value": 14.4,
+   "source": "S70;S01",
+   "grade": "C",
+   "note": "the screen's chord over the end piers' outer corners: P0343 (d, by S603's 1.30 m socle), the plan 14.46 m (b)"
+  },
+  "sag": {
+   "value": 2.8,
+   "source": "S70;S440",
+   "grade": "C",
+   "note": "how far the ends come forward of the middle: P0640 and P0764 (the inner panels 0.4 m, the outer 1.4 m forward of the centre one, by their sizes; the reader)"
+  },
+  "bay_c": {
+   "value": 2.8,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the centre bay, the widest: plate 16 169 px against 135-158 for the others; the pitch about 2.5 m on P0343"
+  },
+  "bay": {
+   "value": 2.45,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the other four bays"
+  },
+  "pier_w": {
+   "value": 0.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "each end pier, a pier and a recessed strip: plate 16 about 40 px of 794"
+  },
+  "plat_y": {
+   "value": 0.7,
+   "source": "S70",
+   "grade": "C",
+   "note": "the platform above the court: five steps of about 0.14 m (P0344, P0764); the platform survives in place (S603 p.129)"
+  },
+  "socle_h": {
+   "value": 1.3,
+   "source": "S603",
+   "grade": "B",
+   "note": "the socle of the trophy wall, as high as the court's slope: S603 note 17 with p.127 (a reading of two statements)"
+  },
+  "plinth_h": {
+   "value": 0.45,
+   "source": "S70",
+   "grade": "C",
+   "note": "the block under each panel: P0764 32 px against the socle's 87 px"
+  },
+  "panel_h": {
+   "value": 2.2,
+   "source": "S70;S603",
+   "grade": "C",
+   "note": "the panel frames: P0764 150 px at the socle's scale (2.2 m), P0343 2.5 m"
+  },
+  "panel_w": {
+   "value": 1.2,
+   "source": "S70;S603",
+   "grade": "C",
+   "note": "the middle panel's frame: P0343, 100 px at 81 px/m"
+  },
+  "pil_top": {
+   "value": 4.95,
+   "source": "S71;S871",
+   "grade": "C",
+   "note": "the pilasters' tops under the entablature: plate 16, 50 px of entablature under the cornice; v1's 4.45 m sat 0.5 m low on P0777 and P0764"
+  },
+  "cornice": {
+   "value": 5.6,
+   "source": "S71;S70;S871",
+   "grade": "C",
+   "note": "the cornice's top above the socle's foot: P0777 (1873, the cornice whole) and the end piers today (P0343, P0764) put it 0.5 m above v1's 5.1 m (plate 16's module 4.0 m, P0343's end pier 5.1 m)"
+  },
+  "crest_h": {
+   "value": 0.45,
+   "source": "S71",
+   "grade": "C",
+   "note": "the openwork crest over the cornice, a mask cartouche on the axis: plate 16, 35-40 px"
+  },
+  "urn_h": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the urns of fruit over the four pilasters and the pairs over the end piers: plate 16, about 80 px over the cornice"
+  },
+  "backing": {
+   "value": 0.9,
+   "source": "S02;S280",
+   "grade": "C",
+   "note": "the brick backing behind the panels (S02 pp.158-159: a brick screen holding marble panels; P0300 shows it torn): its depth assumed"
+  },
+  "plat_r": {
+   "value": 4.0,
+   "source": "S70;S440;S01",
+   "grade": "C",
+   "note": "the round platform's radius: P0640 and P0764 (a circle about as wide as the three middle panels); the plan box 14.5 x 11.5 m holds screen and platform"
+  },
+  "plat_cz": {
+   "value": 3.2,
+   "source": "S440",
+   "grade": "C",
+   "note": "the circle's middle before the screen's middle (its back rim just in front of the socle, P0640)"
+  },
+  "steps": {
+   "value": 5,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "five convex steps: P0344, P0764 and plate 16 (75 px on the axis)"
+  },
+  "step_run": {
+   "value": 0.36,
+   "source": "S70",
+   "grade": "C",
+   "note": "each step's tread"
+  },
+  "throne_h": {
+   "value": 3.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the throne from the platform to the crown of its canopy: plate 16, about 1.3 panel heights (300 px)"
+  },
+  "rail_h": {
+   "value": 0.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the low balustrade round the platform with armour trophies on its posts: plate 16, about 90 px; gone today"
+  },
+  "trophy_x": {
+   "value": 6.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the trophy pedestals at the platform's front corners, before the end piers: plate 16 x 826 and 1573"
+  },
+  "obel_x": {
+   "value": 8.7,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the obelisks just beyond the end piers: plate 16 90-110 px outside the screen's ends; today they stand there on a low base (P0764)"
+  },
+  "obel_top": {
+   "value": 4.4,
+   "source": "S71;S70",
+   "grade": "C",
+   "note": "the obelisk's ball top above the court: plate 16, 150 px under the cornice; today the cut tip stands at the panels' tops (P0764)"
+  },
+  "gate_x": {
+   "value": 16.9,
+   "source": "S01;S603",
+   "grade": "C",
+   "note": "the side gates, 33.86 m apart centre to centre: the plan's skewed squares either side of the screen (b)"
+  },
+  "gate_w": {
+   "value": 5.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "each gate's width: plate 16, 219 px at the gates' module"
+  },
+  "gate_h": {
+   "value": 5.5,
+   "source": "S70;S71",
+   "grade": "C",
+   "note": "the gate's crest above its threshold: P0193 (Child, 1870s) draws it 1.06 times its width; plate 16's fit wants it 2.4 m higher (Q233); P0193 is Child's photograph (S70)"
+  },
+  "gate_turn": {
+   "value": 40.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the flights run obliquely towards the court's middle: plate 16; v2's straight flights put their feet 3 m too far out"
+  },
+  "garden_y": {
+   "value": 1.3,
+   "source": "S603",
+   "grade": "B",
+   "note": "the gardens' level above the court: the slope's drop (S603, survey)"
+  },
+  "gate_steps": {
+   "value": 10,
+   "source": "S71",
+   "grade": "C",
+   "note": "the flight down from each gate to the court: about ten steps on plate 16"
+  },
+  "wall_top": {
+   "value": 4.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the plain back wall's coping above the court: plate 16, about 150 px under the cornice"
+  },
+  "hedge_h": {
+   "value": 1.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the clipped hedges between the gates and the screen: plate 16"
+  },
+  "wall_z": {
+   "value": -3.0,
+   "source": "S01;S03",
+   "grade": "C",
+   "note": "the back wall's line behind the screen; the court's sunk area ends 6.5 m south of the screen's box (XY10-M45), the wall assumed nearer"
+  }
+ }
+}

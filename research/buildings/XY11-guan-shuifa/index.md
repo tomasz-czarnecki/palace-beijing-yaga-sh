@@ -23,12 +23,13 @@ Kuan Shui Fa, View of the Fountains · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 16 of 1783-86, Ohlmer's photograph of 1873 and the photographs since 1914 (the panels re-erected in 1977, the platform in place), the plan S01 and Durand's survey (S603); every figure is a reading (C) unless the row says otherwise. Faces no picture shows (the screen's brick back, the wall's south face) are carried round (assumed).
 
-- **1 ×:** throne platform: 14.5 × 11.5 m, eave 1.3 m, ridge 1.3 m
-- **1 ×:** screen of five marble panels: 14.46 × 1 m, eave 5.1 m, ridge 5.1 m
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** C, all assumed
+- **Screen:** five carved marble panels of European arms in a concave screen 14.4 m over its end piers (P0343, S01, C), its ends 2.8 m forward (P0640, P0764, C); the socle 1.3 m (S603, B), panels 2.2 m high (P0764, C), cornice 6.3 m above the court, a crest and eight urns (plate 16, C); brick backing behind (S02, B; its depth assumed). The panels were set back in 1977 on their old spot (S817, B)
+- **Platform and throne:** the round platform 0.7 m above the court with 5 convex steps (P0344, P0764; in place, S603 p.129, B); on it the throne with its canopy, 3 m high, and the low balustrade with trophies (plate 16, C)
+- **Pedestals and obelisks:** two trophy pedestals before the end piers and two obelisks on their bases beyond them, their balls 4.4 m above the court (plate 16; the obelisks stand today, P0764, C)
+- **Gates and wall:** the side gates 33.8 m apart (S01, C) on the gardens' level, 1.3 m above the court (S603, B), each with a flight of 10 steps down (plate 16, C) and the form of P0193; clipped hedges and the plain back wall (plate 16, C)
+- **Colours:** white marble (S02 pp.158-159, B), the backing and the wall rendered brick, the throne gilt (C: the plate is not coloured)
 
 ## Pictures (16)
 
@@ -143,6 +144,7 @@ Modern interpretation, not evidence.
 - Q65: How far the plates can be trusted for size (Round 6)
 - Q71: 观水法 on the axis (Round 6)
 - Q212: The tall tiered columns at 大水法 and 观水法
+- Q233: Plate 16's side gates
 
 <!-- generated:end -->
 

@@ -233,6 +233,7 @@ No sheet found on mhymy; the 初编 has one page, p.441 (E1918). 样043-1 shows 
 - **Q90. YM31.** YM31: S361 files the poems on 流水音 (E1920, Jiaqing 1798) and 藏密楼 (E1923, E1924) under 澡身浴德 YM30, while 日下旧闻考 j82:15b (E1912) places 流水音 west of 平湖秋月 and 藏密楼 to its north. Either the editors group the shore differently or there are two halls of each name; I kept the S05 ties (YM31-02, YM31-07). (texts_b wo
 - **Q99. Wolseley (S240), M'Ghee (S242), Loch (S244).** Wolseley (S240), M'Ghee (S242), Loch (S244): their pages on the garden are already catalogued (E0472-E0480, E1028-E1038, E2104-E2123). I found no further passage in them tying a hall of YM15, YM20, YM13, YM09, YM14, YM31, YM39, YM38 or YM33 by name; the 1860 account
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
+- **Q209. Lotus at 曲院风荷 and 平湖秋月.** Their texts name lotus (S40 曲院风荷 "红衣印波", 平湖秋月 "荷露"), but the 1744 leaves paint plain water there; the leaves paint lotus only at 濂溪乐处 (about 85-90% of its lake) and 多稼如云 (Round 12, album workers). The model follows the texts, so those lotus beds stand on C extents; open water kept alon
 
 ### Wishlist rows that name it
 

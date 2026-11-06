@@ -204,6 +204,7 @@ Four dated Yangshi Lei plans (1838, 1850, 1859-60, and the 1873 project) exist b
 - **Q44. Places in Qichun Yuan.** 凌虚阁 QC31 is placed by a label 凌虚亭 in the far south; S42, S361 put it on the 敷春堂 island: two buildings or a wrong match? 心镜轩 QC27: S155 puts it 108–115 × 78 m in the south-east, our point is in the service area east of the gate. 天心水面 is a plaque on 得全阁 in Changchun (S05 j83:11a) and north
 - **Q47. How much burned, and when.** Main account stands (Q28). Fires before 18 October: S02 p.183 after Favier, S245 p.245 on 8–9 October, S247. S203 and S214 say local robbers lit the first fires; the edicts (S207) and S215 say foreign troops. Keep these apart: show what each text says. Survivors: S361 lists 惠济祠, 河神庙,
 - **Q113. Do not tie the Yangshi Lei sheet 样016-15-8 天地一家春殿糙底 (NLC, mhymy ysltd 13527) to YM03-04 天地.** Do not tie the Yangshi Lei sheet 样016-15-8 天地一家春殿糙底 (NLC, mhymy ysltd 13527) to YM03-04 天地一家春: per the record it is the Tongzhi design of 1874-75 for a new 天地一家春 at the old 敷春堂 site in 绮春园 (renamed 万春园), never finished
+- **Q203. Water layer and shores.** Shores within 3 m of a hall or 6 m of a landing are stone by rule; 19.1 km of the 99.8 km take their kind from a leaf (A). A text gives a stone bank only at 镜绿亭 (QC04) and a reedy shore at 澡身浴德 (YM30). Today's natural-stone banks are modern (9200 m in 长春园 1992-94, S1006). Bridges whose
 
 ### Wishlist rows that name it
 

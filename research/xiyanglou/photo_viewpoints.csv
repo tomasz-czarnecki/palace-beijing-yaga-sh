@@ -1,6 +1,20 @@
-photo_id,id,lat,lon,bearing,dist_m,err_m,eye_m,eye_sd,basis
-P0185,XY01-N01,40.01072,116.30265,20,35,15,1.6,2.0,"Catalogue camera note (Round 6): the east wing from the south-south-west, about 35 m. Eye of a standing photographer on rubble, assumed."
-P0186,XY01,40.01002,116.30244,0,130,30,1.6,2.0,"Catalogue: on the axis across the reed pond, about 130 m from the south front, +-30 m."
-P0187,XY01,40.01108,116.30275,325,35,15,1.6,2.0,"Catalogue: from the south-east, close to the stair. Round 13: err 15 m assumed."
-P0188,XY01,40.01123,116.303,270,35,15,1.6,3.0,"Catalogue: frontal on the narrow east end, about 35 m east of the footprint edge, +-15 m; the camera may stand on rubble (eye sd 3 m)."
-P0189,XY01,40.0115,116.30244,180,25,10,1.6,2.0,"Catalogue: frontal on the north front with the fountain basin in the foreground, about 25 m north of the footprint, +-10 m."
+photo_id,id,lat,lon,bearing,dist_m,err_m,eye_m,eye_sd,basis,hfov_deg
+P0185,XY01-N01,40.01072,116.30265,20,35,15,1.6,2.0,"Catalogue camera note (Round 6): the east wing from the south-south-west, about 35 m. Eye of a standing photographer on rubble, assumed.",
+P0186,XY01,40.01002,116.30244,0,130,30,1.6,2.0,"Catalogue: on the axis across the reed pond, about 130 m from the south front, +-30 m.",
+P0187,XY01,40.01108,116.30275,325,35,15,1.6,2.0,"Catalogue: from the south-east, close to the stair. Round 13: err 15 m assumed.",
+P0188,XY01,40.01123,116.303,270,35,15,1.6,3.0,"Catalogue: frontal on the narrow east end, about 35 m east of the footprint edge, +-15 m; the camera may stand on rubble (eye sd 3 m).",
+P0189,XY01,40.0115,116.30244,180,25,10,1.6,2.0,"Catalogue: frontal on the north front with the fountain basin in the foreground, about 25 m north of the footprint, +-10 m.",
+P0776,XY10,40.011794,116.306727,340,45,15,1.6,1.0,"Round 15 reader: 45 m south of the niche, about 5 m east of the axis (the clock gate of 远瀛观 sits 76 px right of the crest); niche frame 186 px for about 9 m at a 45-55 degree lens. In the court near the 观水法 platform; eye on the court floor.",50
+P0641,XY10,40.012007,116.306605,352.5,21,5,2.2,1.0,"Round 15 reader: on the axis (the frame is symmetric), the GPS tag kept; about 21 m from the niche by its 9 m frame; pitched up about 8 degrees.",65
+P0340,XY10,40.012019,116.306633,352.5,21,6,2.0,1.0,"Round 15 reader: frontal on the axis, GPS tag kept, as P0641.",65
+P0214,XY10,40.012061,116.306841,315,25,10,1.6,1.0,"Round 15 reader: from the south-east, the niche at bearing about 305; the catalogue's place moved by the near pier's size.",50
+P0288,XY10,40.012105,116.306873,285,25,10,1.9,1.0,Round 15 reader: from the east along the south face; eye from the Western Hills' horizon.,50
+P0169,XY10,40.011976,116.306385,25,30,12,1.6,1.0,"Round 15 reader: from the south-west, the niche at bearing about 37; catalogue's place refined.",50
+P0762,XY10,40.012324,116.306577,172.5,15,8,4.2,1.5,"Round 15 reader: on the 远瀛观 terrace on the axis behind the niche, about 15 m from its front middle (the GPS tag coarse); eye about 4.5 m above the court.",60
+P0777,XY11,40.011943,116.306872,233,23,8,1.6,0.5,"Round 15 reader: from the north-east, about 50 degrees off the screen's normal by its foreshortening; panel frames E1 122, C 116, W2 103 px; lens about 50 degrees assumed.",50
+P0640,XY11,40.011888,116.306673,172.5,11,3,2.3,0.6,"Round 15 reader: on the axis (E2 and W2 frames 233 and 229 px), standing on the platform near its front; GPS tag 3.8 m west, moved to the axis.",65
+P0343,XY11,40.011883,116.306636,158,11,3,2.3,0.6,"Round 15 reader: on the platform near its west side (W2 252 against E2 202 px), looking at the middle.",65
+P0344,XY11,40.01188,116.306592,126,13,4,1.6,0.4,"Round 15 reader: on the court just north-west of the steps' west end, looking down on the five steps.",60
+P0300,XY11,40.011916,116.306667,172.5,14,5,1.6,0.5,"Round 15 reader: symmetric frames, on the axis; lens and crop unknown, distance a guess.",50
+P0765,XY11,40.01192,116.306596,148,15.5,4,1.6,0.3,Round 15 reader: west of the axis on the court (W2 185 against E2 147 px); 65 degree lens assumed.,65
+P0764,XY11,40.011942,116.306664,172.5,17,4,1.6,0.3,Round 15 reader: on the axis on the court before the steps.,65

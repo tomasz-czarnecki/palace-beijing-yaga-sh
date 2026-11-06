@@ -1,10 +1,10 @@
 # Detailed building models
 
-One folder per modelled building, `<ID>-<slug>/`, as in Küstrin (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh/models/README.md`). The ID is the row of `research/buildings.csv` it replaces in the 3D view; the slug is the page's (`research/buildings/<ID>-<slug>/`). Round 13 made the first: `XY01-xieqiqu/` (谐奇趣, the pilot; its README has the method, the iteration log and the fit). Round 14 made the second: `XY08-haiyan-tang/` (海晏堂, the whole complex, west block to east stairs, with the water clock and the reservoir).
+One folder per modelled building, `<ID>-<slug>/`, as in Küstrin (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh/models/README.md`). The ID is the row of `research/buildings.csv` it replaces in the 3D view; the slug is the page's (`research/buildings/<ID>-<slug>/`). Round 13 made the first: `XY01-xieqiqu/` (谐奇趣, the pilot; its README has the method, the iteration log and the fit). Round 14 made the second: `XY08-haiyan-tang/` (海晏堂, the whole complex, west block to east stairs, with the water clock and the reservoir). Round 15 made the third and fourth: `XY10-da-shuifa/` (大水法, the niche, the piers, the stairs to 远瀛观, the basin, the two towers and the court's floor) and `XY11-guan-shuifa/` (观水法, the screen, the platform, the gates on the gardens' strip).
 
 Each folder holds:
 - `README.md`: the evidence (a `## Evidence` list), the method, the iteration log, where the model and the pictures disagree.
-- The generator: a Python script writing `model.glb` with `scripts/model_mesh.py`. From Round 14 the façade openings, pilasters, entablatures, cartouches, balustrades, urns, jets and hip roofs come from `scripts/model_parts.py` (`Parts(mesh)`); the pilot keeps its own copies so that its GLB stays as it was.
+- The generator: a Python script writing `model.glb` with `scripts/model_mesh.py`. From Round 15 the frame from a box, the walk surface, the footings (`skirt`, `footing`), the joints, entries and footprints and the four JSON files come from `scripts/model_site.py` (`Site(box_id)`); 海晏堂 and the pilot keep their own copies. From Round 14 the façade openings, pilasters, entablatures, cartouches, balustrades, urns, jets and hip roofs come from `scripts/model_parts.py` (`Parts(mesh)`); the pilot keeps its own copies so that its GLB stays as it was.
 - `views.json` (optional, Round 14): the model's own views, `[name, eye, target]` in its frame, for `tools/plate_overlay.mjs --views`.
 - `params.json`: every figure with `value`, `source`, `grade` and `note`.
 - `keypoints.json`: named points, local and scene, for `tools/plate_overlay.py`.
@@ -50,6 +50,13 @@ Each folder holds:
 - The water building: `link_rail_N`, `wb_foot_NW`, `wb_cornice_NW`, `wb_rail_NW` (the W end is the one by the west block), `wb_door_NW_head`, `wb_door_NC_head`, `wbpav_W_eave_NE`, `wbpav_E_ridge`.
 - The east block: `es_door_head`, `es_foot_N`, `es_corner_NE_foot`, `es_L1_rail_N`, `es_L3_rail_N`, `es_top_rail_C`.
 - The readers' brief with every definition: `docs/rounds/common/palace_r14_haiyan_vocab.md`.
+
+大水法's and 观水法's vocabulary (Round 15, every definition in `docs/rounds/common/palace_r15_dashuifa_vocab.md`):
+- The niche: `niche_crest_top`, `niche_head_top`, `niche_head_W` and `_E` (the shoulder scrolls' extremes), `niche_open_top`, `niche_open_foot_W` and `_E`, `niche_post_cap_W` and `_E`, `cascade_top`; the same points on the back carry `_N` (P0762, seen from the terrace).
+- The piers: `pier_W_cap_SW`, `_SE` (and `pier_E_`), `pier_W_finial_top`, `pier_W_flare_S`, `pier_W_foot_S`. The stairs: `scroll_W_top`, `scroll_W_end`, `stair_W_rail_low`, `stair_W_rail_high`.
+- The basin and the towers: `basin_rim_S`, `_W`, `_E`, `base_course_C`, `stag_top`, `stag_foot`, `tower_W_ped_top_SW` and `_SE`, `tower_W_ped_foot_SW` and `_SE`, `tower_W_top`, `twbasin_W_rim_L`, `_R`, `_S`.
+- The screen (east is the picture's left on plate 16): `scr_cornice_E` and `_W`, `scr_endpier_top_E`, `pan_C_top`, `pan_C_foot`, `pan_E1_top`, `pan_E2_top`, `pan_E2_foot` (and `_W`), `socle_top_C`, `socle_foot_E`, `crest_top_C`, `finial_E_top`.
+- The platform and its ornaments: `plat_front_C`, `steps_foot_C`, `_E`, `_W`, `throne_top`, `trophy_E_ped_top`, `obel_E_top`, `obel_E_foot`. The gates and the wall: `gate_E_top`, `gate_E_jamb_in`, `gate_E_steps_foot`, `wall_top_E` (and `_W`).
 
 **Fits by part.** Where a plate draws the parts of a complex at different scales (plates 11 and 13 draw 海晏堂's water building 1.4 times too long against its west block), `tools/plate_overlay.py fit --parts 'west=^(blk|...)_;water=^(wb|wbpav|link)_'` fits a camera of its own to each part with six points or more (`part_<name>` in the fit table and in `plates.json`). It tests each part's own heights and widths; the disagreement between the parts is a question, not a residual to tune.
 

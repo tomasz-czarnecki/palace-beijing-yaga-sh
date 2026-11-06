@@ -1,0 +1,662 @@
+{
+ "object": "XY11",
+ "label": "v4",
+ "points_from": "model XY11-guan-shuifa",
+ "cameras": {
+  "P0056": {
+   "plate": "16",
+   "image": "P0056.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1380
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.012036,
+    "lon": 116.306645,
+    "err": 8.0,
+    "bearing": 172.0,
+    "eye": 3.1,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. North of the steps, eye about 3.1 m. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      814.25,
+      2.81,
+      -905.6
+     ],
+     "yaw_deg": 173.51,
+     "pitch_deg": 46.46,
+     "f_px": 4130.5,
+     "du_px": 123.0,
+     "dv_px": -4239.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.53,
+     "moved_from_prior_m": 83.1,
+     "points": {
+      "n": 33,
+      "rms_px": 49.0,
+      "median_px": 26.9,
+      "max_px": 124.6,
+      "rms_m": 0.9,
+      "median_m": 0.51,
+      "max_m": 2.4
+     },
+     "tests": {
+      "n": 33,
+      "rms_px": 49.0,
+      "median_px": 26.9,
+      "max_px": 124.6,
+      "rms_m": 0.9,
+      "median_m": 0.51,
+      "max_m": 2.4
+     },
+     "sure12": {
+      "n": 30,
+      "rms_px": 47.9,
+      "median_px": 22.4,
+      "max_px": 124.6,
+      "rms_m": 0.88,
+      "median_m": 0.41,
+      "max_m": 2.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      813.17,
+      3.32,
+      -908.5
+     ],
+     "yaw_deg": 172.19,
+     "pitch_deg": 0.39,
+     "f_px": 6105.8,
+     "du_px": 22.0,
+     "dv_px": 10.2,
+     "k_vertical": 1.476,
+     "eye_above_ground_m": 4.32,
+     "moved_from_prior_m": 86.1,
+     "points": {
+      "n": 33,
+      "rms_px": 46.2,
+      "median_px": 26.6,
+      "max_px": 127.7,
+      "rms_m": 0.86,
+      "median_m": 0.49,
+      "max_m": 2.4
+     },
+     "tests": {
+      "n": 33,
+      "rms_px": 46.2,
+      "median_px": 26.6,
+      "max_px": 127.7,
+      "rms_m": 0.86,
+      "median_m": 0.49,
+      "max_m": 2.4
+     },
+     "sure12": {
+      "n": 30,
+      "rms_px": 45.2,
+      "median_px": 23.6,
+      "max_px": 127.7,
+      "rms_m": 0.84,
+      "median_m": 0.43,
+      "max_m": 2.4
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0300": {
+   "plate": "",
+   "image": "P0300.jpg",
+   "free": true,
+   "size": [
+    1200,
+    732
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.011916,
+    "lon": 116.306667,
+    "err": 5.0,
+    "bearing": 172.5,
+    "eye": 1.6,
+    "eye_sd": 0.5,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: symmetric frames, on the axis; lens and crop unknown, distance a guess."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      817.51,
+      1.37,
+      -812.13
+     ],
+     "yaw_deg": 145.56,
+     "pitch_deg": 4.88,
+     "f_px": 1827.8,
+     "du_px": 48.2,
+     "dv_px": 20.0,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.42,
+     "moved_from_prior_m": 10.1,
+     "points": {
+      "n": 8,
+      "rms_px": 13.3,
+      "median_px": 10.1,
+      "max_px": 22.8,
+      "rms_m": 0.14,
+      "median_m": 0.1,
+      "max_m": 0.25
+     },
+     "tests": {
+      "n": 8,
+      "rms_px": 13.3,
+      "median_px": 10.1,
+      "max_px": 22.8,
+      "rms_m": 0.14,
+      "median_m": 0.1,
+      "max_m": 0.25
+     },
+     "sure12": {
+      "n": 8,
+      "rms_px": 13.3,
+      "median_px": 10.1,
+      "max_px": 22.8,
+      "rms_m": 0.14,
+      "median_m": 0.1,
+      "max_m": 0.25
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0343": {
+   "plate": "",
+   "image": "P0343.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.011883,
+    "lon": 116.306636,
+    "err": 3.0,
+    "bearing": 158.0,
+    "eye": 2.3,
+    "eye_sd": 0.6,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the platform near its west side (W2 252 against E2 202 px), looking at the middle."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      819.15,
+      2.37,
+      -807.76
+     ],
+     "yaw_deg": 140.86,
+     "pitch_deg": 1.73,
+     "f_px": 1271.6,
+     "du_px": 58.9,
+     "dv_px": -44.7,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.42,
+     "moved_from_prior_m": 5.7,
+     "points": {
+      "n": 10,
+      "rms_px": 10.9,
+      "median_px": 8.8,
+      "max_px": 20.8,
+      "rms_m": 0.14,
+      "median_m": 0.11,
+      "max_m": 0.27
+     },
+     "tests": {
+      "n": 10,
+      "rms_px": 10.9,
+      "median_px": 8.8,
+      "max_px": 20.8,
+      "rms_m": 0.14,
+      "median_m": 0.11,
+      "max_m": 0.27
+     },
+     "sure12": {
+      "n": 9,
+      "rms_px": 9.9,
+      "median_px": 8.4,
+      "max_px": 20.8,
+      "rms_m": 0.12,
+      "median_m": 0.1,
+      "max_m": 0.27
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0344": {
+   "plate": "",
+   "image": "P0344.jpg",
+   "free": true,
+   "size": [
+    1024,
+    768
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.01188,
+    "lon": 116.306592,
+    "err": 4.0,
+    "bearing": 126.0,
+    "eye": 1.6,
+    "eye_sd": 0.4,
+    "f2400": 2078.460969082653,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the court just north-west of the steps' west end, looking down on the five steps."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      812.78,
+      1.18,
+      -806.05
+     ],
+     "yaw_deg": 110.46,
+     "pitch_deg": -2.03,
+     "f_px": 1560.5,
+     "du_px": -11.4,
+     "dv_px": 27.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.23,
+     "moved_from_prior_m": 8.1,
+     "points": {
+      "n": 9,
+      "rms_px": 15.4,
+      "median_px": 2.7,
+      "max_px": 33.4,
+      "rms_m": 0.19,
+      "median_m": 0.04,
+      "max_m": 0.49
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 15.4,
+      "median_px": 2.7,
+      "max_px": 33.4,
+      "rms_m": 0.19,
+      "median_m": 0.04,
+      "max_m": 0.49
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 10.2,
+      "median_px": 2.7,
+      "max_px": 26.1,
+      "rms_m": 0.1,
+      "median_m": 0.03,
+      "max_m": 0.26
+     },
+     "skipped": {
+      "n": 1,
+      "rms_px": 19.8,
+      "median_px": 19.8,
+      "max_px": 19.8,
+      "rms_m": 0.32,
+      "median_m": 0.32,
+      "max_m": 0.32
+     }
+    }
+   }
+  },
+  "P0640": {
+   "plate": "",
+   "image": "P0640.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.011888,
+    "lon": 116.306673,
+    "err": 3.0,
+    "bearing": 172.5,
+    "eye": 2.3,
+    "eye_sd": 0.6,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the axis (E2 and W2 frames 233 and 229 px), standing on the platform near its front; GPS tag 3.8 m west, moved to the axis."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      834.05,
+      2.1,
+      -810.74
+     ],
+     "yaw_deg": 194.14,
+     "pitch_deg": 1.06,
+     "f_px": 1292.4,
+     "du_px": -125.8,
+     "dv_px": -8.1,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.15,
+     "moved_from_prior_m": 7.3,
+     "points": {
+      "n": 9,
+      "rms_px": 13.9,
+      "median_px": 12.3,
+      "max_px": 25.7,
+      "rms_m": 0.16,
+      "median_m": 0.13,
+      "max_m": 0.31
+     },
+     "tests": {
+      "n": 9,
+      "rms_px": 13.9,
+      "median_px": 12.3,
+      "max_px": 25.7,
+      "rms_m": 0.16,
+      "median_m": 0.13,
+      "max_m": 0.31
+     },
+     "sure12": {
+      "n": 9,
+      "rms_px": 13.9,
+      "median_px": 12.3,
+      "max_px": 25.7,
+      "rms_m": 0.16,
+      "median_m": 0.13,
+      "max_m": 0.31
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  },
+  "P0764": {
+   "plate": "",
+   "image": "P0764.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.011942,
+    "lon": 116.306664,
+    "err": 4.0,
+    "bearing": 172.5,
+    "eye": 1.6,
+    "eye_sd": 0.3,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: on the axis on the court before the steps."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      825.53,
+      2.06,
+      -821.9
+     ],
+     "yaw_deg": 172.95,
+     "pitch_deg": 30.92,
+     "f_px": 1252.1,
+     "du_px": 16.7,
+     "dv_px": -747.2,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.11,
+     "moved_from_prior_m": 9.2,
+     "points": {
+      "n": 17,
+      "rms_px": 19.4,
+      "median_px": 13.3,
+      "max_px": 38.3,
+      "rms_m": 0.3,
+      "median_m": 0.19,
+      "max_m": 0.64
+     },
+     "tests": {
+      "n": 17,
+      "rms_px": 19.4,
+      "median_px": 13.3,
+      "max_px": 38.3,
+      "rms_m": 0.3,
+      "median_m": 0.19,
+      "max_m": 0.64
+     },
+     "sure12": {
+      "n": 15,
+      "rms_px": 18.9,
+      "median_px": 11.5,
+      "max_px": 38.3,
+      "rms_m": 0.3,
+      "median_m": 0.19,
+      "max_m": 0.64
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 26.6,
+      "median_px": 26.4,
+      "max_px": 29.7,
+      "rms_m": 0.44,
+      "median_m": 0.43,
+      "max_m": 0.49
+     }
+    }
+   }
+  },
+  "P0765": {
+   "plate": "",
+   "image": "P0765.jpg",
+   "free": true,
+   "size": [
+    1280,
+    800
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.01192,
+    "lon": 116.306596,
+    "err": 4.0,
+    "bearing": 148.0,
+    "eye": 1.6,
+    "eye_sd": 0.3,
+    "f2400": 1883.6226925409883,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: west of the axis on the court (W2 185 against E2 147 px); 65 degree lens assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      821.59,
+      2.27,
+      -813.15
+     ],
+     "yaw_deg": 150.79,
+     "pitch_deg": -5.46,
+     "f_px": 996.4,
+     "du_px": -37.4,
+     "dv_px": 25.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 3.32,
+     "moved_from_prior_m": 2.7,
+     "points": {
+      "n": 16,
+      "rms_px": 66.0,
+      "median_px": 20.1,
+      "max_px": 199.5,
+      "rms_m": 0.76,
+      "median_m": 0.37,
+      "max_m": 2.03
+     },
+     "tests": {
+      "n": 16,
+      "rms_px": 66.0,
+      "median_px": 20.1,
+      "max_px": 199.5,
+      "rms_m": 0.76,
+      "median_m": 0.37,
+      "max_m": 2.03
+     },
+     "sure12": {
+      "n": 13,
+      "rms_px": 30.1,
+      "median_px": 15.8,
+      "max_px": 86.3,
+      "rms_m": 0.44,
+      "median_m": 0.26,
+      "max_m": 1.07
+     },
+     "skipped": {
+      "n": 2,
+      "rms_px": 190.9,
+      "median_px": 144.7,
+      "max_px": 269.2,
+      "rms_m": 3.19,
+      "median_m": 2.44,
+      "max_m": 4.49
+     }
+    }
+   }
+  },
+  "P0777": {
+   "plate": "",
+   "image": "P0777.jpg",
+   "free": true,
+   "size": [
+    1058,
+    783
+   ],
+   "object": "XY11",
+   "points_from": "model XY11-guan-shuifa",
+   "prior": {
+    "lat": 40.011943,
+    "lon": 116.306872,
+    "err": 8.0,
+    "bearing": 233.0,
+    "eye": 1.6,
+    "eye_sd": 0.5,
+    "f2400": 2573.4083046114706,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 15 reader: from the north-east, about 50 degrees off the screen's normal by its foreshortening; panel frames E1 122, C 116, W2 103 px; lens about 50 degrees assumed."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      844.52,
+      1.37,
+      -818.05
+     ],
+     "yaw_deg": 225.19,
+     "pitch_deg": 7.96,
+     "f_px": 1065.6,
+     "du_px": -42.8,
+     "dv_px": -6.3,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 2.42,
+     "moved_from_prior_m": 5.2,
+     "points": {
+      "n": 16,
+      "rms_px": 19.9,
+      "median_px": 15.3,
+      "max_px": 35.7,
+      "rms_m": 0.41,
+      "median_m": 0.33,
+      "max_m": 0.69
+     },
+     "tests": {
+      "n": 16,
+      "rms_px": 19.9,
+      "median_px": 15.3,
+      "max_px": 35.7,
+      "rms_m": 0.41,
+      "median_m": 0.33,
+      "max_m": 0.69
+     },
+     "sure12": {
+      "n": 7,
+      "rms_px": 11.6,
+      "median_px": 9.1,
+      "max_px": 19.1,
+      "rms_m": 0.3,
+      "median_m": 0.24,
+      "max_m": 0.46
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

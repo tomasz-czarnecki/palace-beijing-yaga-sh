@@ -215,6 +215,8 @@ Not written yet.
 - **Q52. Smaller conflicts.** 正觉寺: 乾隆三十八年 is 1773, S221 prints 1774. 文源阁: S133 east/north-east vs north-west, black glazed (dig) vs black with green edge (S105). 藻园: 190 × 125 m the garden (S340), 105 × 95 m the buildings by the dock (S156). 福海: "half a mile a side" (S02), "near five miles round" (S157), 一百頃 (poem of 176
 - **Q90. YM31.** YM31: S361 files the poems on 流水音 (E1920, Jiaqing 1798) and 藏密楼 (E1923, E1924) under 澡身浴德 YM30, while 日下旧闻考 j82:15b (E1912) places 流水音 west of 平湖秋月 and 藏密楼 to its north. Either the editors group the shore differently or there are two halls of each name; I kept the S05 ties (YM31-02, YM31-07). (texts_b wo
 - **Q129. The brief says the album views are roughly from the south.** The brief says the album views are roughly from the south. Most are, but several leaves look from the south-west (YM30 P0030, YM33 P0033, YM36 P0036, YM16 P0016) or south-east (YM12 P0012, YM37 P0037); YM15 P0015 shows the 楼 end-on from its south gabl
+- **Q203. Water layer and shores.** Shores within 3 m of a hall or 6 m of a landing are stone by rule; 19.1 km of the 99.8 km take their kind from a leaf (A). A text gives a stone bank only at 镜绿亭 (QC04) and a reedy shore at 澡身浴德 (YM30). Today's natural-stone banks are modern (9200 m in 长春园 1992-94, S1006). Bridges whose
+- **Q217. 深柳读书堂.** S05 j82 puts it at 澡身浴德 (north of 望瀛洲); Qianlong's notes of 1755 and 1774 say 双鹤斋 in 廓然大公 was once called so. Willows are drawn at both. (Round 12)
 
 ### Wishlist rows that name it
 

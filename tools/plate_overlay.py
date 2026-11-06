@@ -194,7 +194,9 @@ def priors_of(pid, plate, cat):
     if r is None:
         c = cat[pid]
         r = {"lat": c["camera_lat"], "lon": c["camera_lon"], "err_m": 20, "bearing": c["bearing"], "eye_m": 1.6, "basis": c["camera_note"]}
-    return {"lat": float(r["lat"]), "lon": float(r["lon"]), "err": float(r["err_m"]), "bearing": float(r["bearing"]), "eye": float(r.get("eye_m") or 1.6), "eye_sd": float(r.get("eye_sd") or 2.0), "f2400": None, "f_sd": None, "kind": "photo", "basis": r["basis"]}
+    hfov = r.get("hfov_deg")  # Round 15: an assumed lens as a weak prior, so that a flat set of points cannot shrink the focal length to nothing
+    f2400 = 1200.0 / math.tan(math.radians(float(hfov)) / 2) if hfov else None
+    return {"lat": float(r["lat"]), "lon": float(r["lon"]), "err": float(r["err_m"]), "bearing": float(r["bearing"]), "eye": float(r.get("eye_m") or 1.6), "eye_sd": float(r.get("eye_sd") or 2.0), "f2400": f2400, "f_sd": 0.3 if hfov else None, "kind": "photo", "basis": r["basis"]}
 
 
 def ground_at(x, z):
