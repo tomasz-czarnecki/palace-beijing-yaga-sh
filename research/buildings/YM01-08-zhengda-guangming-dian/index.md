@@ -29,14 +29,20 @@ Yuanming Yuan
 
 ## Our model now
 
-At a size stated in a source, on the block drawn on the Qing plan S01. Heights and roof from the typology where not stated; its form drawn by the hall kit.
+The formal entrance of the garden as it stood in the 1850s, from the terrace before 大宫门 to the rock peaks behind the audience hall: the plan S01 gives the layout, the yellow slip 样001-4 the hall's seven bays, depth and porches (A), Malone and Barrow its platform (B), the dig the gate's base (B), the leaf of 1744 the roofs, colours, railings and the gallery, the witnesses of 1860 the flagged courts, the marble canal and bridge, the lions. Heights, the halls round the courts and every ornament are C.
 
-- **Box:** 39.32 × 19.2 m, grand hall
-- **Heights:** platform 1.22 m, eave 6.34 m, ridge 12.4 m above the ground
-- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 174.8° from north
-- **Drawn:** by the hall kit: 7 bays, the middle widest, a porch all round, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. From its own figures and readings where the dossier gives them (bays: central 5.168 m, side 4.832 m, end 4.32 m, a A, S310; porch: 1.92 m, a A, S310; roof read: buildings.csv B), the rest from the typology of its hall class.
-- **Confidence:** B
+- **Layout:** As S01 draws it (re-read in Round 19 in plan pixels, B): 大宫门 on the palace wall, the inner court with its offices and ranges, the moon-shaped canal, 出入贤良门 on the gate line, the court and 正大光明殿 with its terrace; S01 draws the hall and terrace 0.8 times the stated sizes (Q256), the model keeps the stated sizes centred where S01 draws them
+- **正大光明殿:** Seven bays 4.32 + 4.32 + 4.83 + 5.17 + 4.83 + 4.32 + 4.32 m with porches of 1.92 m all round, 16.0 m deep (the slip 样001-4, A); the rear porch walled in, the front end bays windows over a sill wall, the rear end bays walled (the slip, A; Barrow, B); ten red columns across the front (Malone, B); the platform 39.3 x 19.2 m, 1.22 m above the court (Malone, Barrow, B); three flights (Malone; the leaf); rolled 歇山, grey tile, a painted bracket band (the leaf, S337, Barrow, B); column 5.12 m and the roof's pitch C; Yongzheng's plaque 正大光明 (S05, A)
+- **Terrace 月台:** 38.40 x 14.82 m, 0.26 m high, with four censers (S119, B; added 1775-1793); the balustrade and the censers' form C
+- **Court:** Flagged (Wolseley, M'Ghee 1860, B), 79 x 22.6 m between the side halls and from the terrace to the gate line (S01); the five-bay side halls 东西配殿 (S05, A; their form C); a covered way east from the hall (the leaf, Malone, B); the rock peaks of 寿山 behind (S05, the leaf; places and heights C)
+- **出入贤良门:** Five bays (S05, A), rolled 歇山 (S337, B), red plank doors in the middle bays (the leaf); the duty rooms either side, lower and gabled (S05, the leaf); the gate line's rubble wall about 4 m high with two side gates (Varin 1860, the leaf, S05; B); widths and heights C
+- **Canal and bridge:** The moon-shaped canal about 3 m wide lined with white marble (S05, S01, Varin; B), red railings on its banks (the leaf); one flat marble bridge on the axis, its north end flared (S01; levelled flat in 1839, S211, A), wooden railings and two gilt dragons (Varin, B; their form C); a slab crossing where S01 breaks the canal east of the axis (C). S05 gives three bridges (Q130)
+- **Inner court:** Flagged (M'Ghee 1860, B); the court offices 内朝房, five bays each (S05, A; form C); a long range on each side (S01; the east one has no box, C); the garden wall round it, red (Round 19's W01 on S01; colour and height C)
+- **大宫门:** Five bays (S05, A) on the dig's base 21.57 x 11.33 m, 0.77 m high (S102, B); rolled 歇山 (S337, B); red plank doors with gilt studs (Wolseley 1860, B); Yongzheng's plaque 圆明园 (S05, A); the column 4.16 m and the brackets C; on the palace wall (S42) with a 左门 either side (S42, S01; form C)
+- **Terrace and lions:** The gate's terrace as S01 draws it (21.6 x 10 m; height 0.40 m C) with a pair of bronze lions on stone pedestals where S01 draws two squares (1763, S42; Wolseley, Varin 1860; B); the lions' form C
+- **Before the gate:** The court offices 外朝房, five bays each (S05, A; at S01's boxes; form C); the stone road on the axis 4.8 m wide (S05, S42, S01; B)
+- **Beyond the model:** 勤政殿 of 勤政亲贤 (YM02-01) and the spirit wall 大影壁 (YM41-12) are models of their own, drawn by this model's generator
+- **Assumed:** Every height but the platforms', the halls round the courts, the ranges and duty rooms, the side gates, the censers, the lions' and dragons' form, the balustrade, the brackets, the rock peaks: the hall kit's classes and the Qing manual's typology (C, the pale tint with conf=1)
 
 ## Pictures (3)
 
@@ -183,6 +189,8 @@ Modern interpretation, not evidence.
 - Q182: Typology, grand_hall heights
 - Q183: Typology, grand_hall bays
 - Q198: The album's hills are too tall
+- Q256: S01 draws 正大光明殿 and its terrace small
+- Q257: The terrace 月台 of 正大光明殿
 
 <!-- generated:end -->
 

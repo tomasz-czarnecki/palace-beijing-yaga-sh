@@ -21,8 +21,9 @@ Assumed: a gate on the walls layer with no hall drawn at its point, so a small d
 - **Part:** gate on the walls layer, no hall drawn at this point: a small default box
 - **Heights:** platform 0.77 m, eave 4.47 m, ridge 6.38 m above the ground
 - **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 354° from north
-- **Drawn:** by the hall kit: 2 bays, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. Drawn from the typology of its hall class, not from a picture of this hall (assumed, C).
+- **Faces:** 175° from north
+- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 4.5 m
+- **Drawn:** by the hall kit: 2 bays, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, bracket sets 斗拱 as a painted band. From the size a source states, the rest from the typology of its hall class.
 - **Confidence:** C, assumed
 
 ## Pictures (0)
@@ -52,6 +53,8 @@ None of its own.
 - Q130: YM01
 - Q164: YM01-02 bridge before 出入贤良门
 - Q193: Bridges: three at 出入贤良门, and bridges the readers saw that the layer lacks
+- Q256: S01 draws 正大光明殿 and its terrace small
+- Q258: The bridge before 出入贤良门, and Varin's galleries
 
 <!-- generated:end -->
 

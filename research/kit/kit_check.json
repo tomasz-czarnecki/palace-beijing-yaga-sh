@@ -53,12 +53,12 @@
    "red": 6
   },
   "form_from": {
-   "dossier": 121,
-   "class": 1455,
-   "model": 54,
+   "model": 69,
+   "class": 1444,
+   "dossier": 117,
    "stated": 4
   },
-  "assumed_form": 1534,
+  "assumed_form": 1526,
   "assumed_box": 119,
   "form_grade": {
    "A": 40,
@@ -66,8 +66,8 @@
    "B": 35
   },
   "steps_sides": {
-   "2": 709,
-   "1": 789,
+   "2": 703,
+   "1": 795,
    "4": 7,
    "3": 43,
    "0": 7
@@ -80,23 +80,23 @@
    "all_round": 37
   },
   "courts_ha": 17.3,
-  "court_triangles": 58582
+  "court_triangles": 58616
  },
  "drawn": {
-  "halls_drawn": 1580,
-  "of": 1580,
-  "near_triangles_median": 736.0,
+  "halls_drawn": 1565,
+  "of": 1565,
+  "near_triangles_median": 734.0,
   "far_triangles_median": 76.0
  },
  "beyond_box_m": {
   "body_or_roof": {
-   "n": 1580,
+   "n": 1565,
    "median": 0.19,
    "p90": 0.22,
    "max": 0.66
   },
   "steps": {
-   "n": 1580,
+   "n": 1565,
    "median": 0.6,
    "p90": 1.11,
    "max": 2.16
@@ -104,26 +104,26 @@
   "hall_kit_over_overhang": 0
  },
  "joints": {
-  "step_flights": 2315,
+  "step_flights": 2289,
   "step_foot_to_ground_m": {
-   "n": 2315,
+   "n": 2289,
    "median": 0.0,
    "p90": 0.0,
    "max": 0.01
   },
-  "way_ends_at_a_box_side": 1310,
-  "of_them_A_or_B": 334,
+  "way_ends_at_a_box_side": 1296,
+  "of_them_A_or_B": 330,
   "at_a_pool_wall_court_or_terrace_hall": 5,
   "met_by_a_flight_within_m": 1.5,
-  "met": 1282,
+  "met": 1268,
   "gap_way_end_to_flight_m": {
-   "n": 1282,
+   "n": 1268,
    "median": 0.0,
    "p90": 0.0,
    "max": 0.1
   },
   "drop_platform_top_to_way_m": {
-   "n": 1310,
+   "n": 1296,
    "median": 0.41,
    "p90": 0.63,
    "max": 2.1
@@ -277,71 +277,71 @@
  },
  "cost": {
   "browser": {
-   "measured_utc": "2026-11-06 07:45"
+   "measured_utc": "2026-11-06 08:53"
   },
   "after": {
    "overview_kit": {
-    "frame_ms_median": 650.7,
-    "frame_ms_min": 372.3,
-    "frame_ms_max": 890.5,
-    "drawn_triangles": 1156694,
-    "draw_calls": 710,
-    "triangles_in_memory": 1242014
+    "frame_ms_median": 635.3,
+    "frame_ms_min": 490.9,
+    "frame_ms_max": 772.7,
+    "drawn_triangles": 1195233,
+    "draw_calls": 791,
+    "triangles_in_memory": 1280553
    },
    "court_kit": {
-    "frame_ms_median": 283.7,
-    "frame_ms_min": 219.3,
-    "frame_ms_max": 306.5,
-    "drawn_triangles": 663982,
+    "frame_ms_median": 261.6,
+    "frame_ms_min": 241.8,
+    "frame_ms_max": 379.8,
+    "drawn_triangles": 664464,
     "draw_calls": 86,
-    "triangles_in_memory": 1942106
+    "triangles_in_memory": 1978383
    },
    "hall_kit": {
-    "frame_ms_median": 432,
-    "frame_ms_min": 414,
-    "frame_ms_max": 458.6,
-    "drawn_triangles": 916307,
+    "frame_ms_median": 456.7,
+    "frame_ms_min": 362.8,
+    "frame_ms_max": 582.4,
+    "drawn_triangles": 914250,
     "draw_calls": 231,
-    "triangles_in_memory": 2072365
+    "triangles_in_memory": 2090588
    },
    "overview_boxes": {
-    "frame_ms_median": 509.3,
-    "frame_ms_min": 342.3,
-    "frame_ms_max": 581.3,
-    "drawn_triangles": 1041770,
-    "draw_calls": 453,
-    "triangles_in_memory": 1882816
+    "frame_ms_median": 673.9,
+    "frame_ms_min": 567.5,
+    "frame_ms_max": 710,
+    "drawn_triangles": 1080965,
+    "draw_calls": 537,
+    "triangles_in_memory": 1903907
    },
    "court_boxes": {
-    "frame_ms_median": 191.6,
-    "frame_ms_min": 160.4,
-    "frame_ms_max": 269.7,
-    "drawn_triangles": 566253,
+    "frame_ms_median": 213.2,
+    "frame_ms_min": 193.6,
+    "frame_ms_max": 230.3,
+    "drawn_triangles": 566181,
     "draw_calls": 52,
-    "triangles_in_memory": 2089828
+    "triangles_in_memory": 2112247
    },
    "hall_boxes": {
-    "frame_ms_median": 323.6,
-    "frame_ms_min": 239.6,
-    "frame_ms_max": 404.2,
-    "drawn_triangles": 796781,
+    "frame_ms_median": 372,
+    "frame_ms_min": 340.7,
+    "frame_ms_max": 400.2,
+    "drawn_triangles": 796508,
     "draw_calls": 150,
-    "triangles_in_memory": 2072365
+    "triangles_in_memory": 2090588
    }
   },
-  "after_load_s": 2.413,
+  "after_load_s": 2.605,
   "before": null,
   "before_load_s": null,
-  "near_triangles_if_all_built": 1544686,
-  "far_triangles": 139866,
-  "court_triangles": 58582,
+  "near_triangles_if_all_built": 1527238,
+  "far_triangles": 138622,
+  "court_triangles": 58616,
   "lod_m": 420,
   "tile_m": 180,
   "tiles": 123
  },
  "files_mb": {
   "kit_1860.json": 0.586,
-  "courts.bin": 1.054,
+  "courts.bin": 1.055,
   "kit3d.js": 0.045,
   "stonekit3d.js": 0.022,
   "total": 1.71

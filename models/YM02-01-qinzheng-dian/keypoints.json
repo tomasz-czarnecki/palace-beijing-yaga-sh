@@ -1,0 +1,651 @@
+{
+"id": "YM02-01",
+"objects": [
+"YM02-01"
+],
+"position": [
+-480.505,
+2.27,
+281.098
+],
+"rotationY": 0.07854,
+"points": {
+"qz_pl_foot_NW": {
+"local": [
+-13.182,
+0.01,
+-9.715
+],
+"scene": [
+-494.409,
+2.28,
+272.447
+],
+"anchor": true
+},
+"qz_pl_top_NW": {
+"local": [
+-13.182,
+0.6,
+-9.715
+],
+"scene": [
+-494.409,
+2.87,
+272.447
+],
+"anchor": false
+},
+"qz_pl_foot_NE": {
+"local": [
+8.81,
+0.0,
+-9.715
+],
+"scene": [
+-472.484,
+2.27,
+270.722
+],
+"anchor": true
+},
+"qz_pl_top_NE": {
+"local": [
+8.81,
+0.6,
+-9.715
+],
+"scene": [
+-472.484,
+2.87,
+270.722
+],
+"anchor": false
+},
+"qz_pl_foot_SE": {
+"local": [
+8.81,
+0.0,
+-4.111
+],
+"scene": [
+-472.045,
+2.27,
+276.308
+],
+"anchor": true
+},
+"qz_pl_top_SE": {
+"local": [
+8.81,
+0.6,
+-4.111
+],
+"scene": [
+-472.045,
+2.87,
+276.308
+],
+"anchor": false
+},
+"qz_pl_foot_SW": {
+"local": [
+-13.182,
+0.01,
+-4.111
+],
+"scene": [
+-493.969,
+2.28,
+278.034
+],
+"anchor": true
+},
+"qz_pl_top_SW": {
+"local": [
+-13.182,
+0.6,
+-4.111
+],
+"scene": [
+-493.969,
+2.87,
+278.034
+],
+"anchor": false
+},
+"qz_eave_NW": {
+"local": [
+-13.482,
+4.31,
+-10.015
+],
+"scene": [
+-494.731,
+6.58,
+272.172
+],
+"anchor": false
+},
+"qz_eave_NE": {
+"local": [
+9.11,
+4.31,
+-10.015
+],
+"scene": [
+-472.209,
+6.58,
+270.399
+],
+"anchor": false
+},
+"qz_eave_SE": {
+"local": [
+9.11,
+4.31,
+-3.811
+],
+"scene": [
+-471.722,
+6.58,
+276.584
+],
+"anchor": false
+},
+"qz_eave_SW": {
+"local": [
+-13.482,
+4.31,
+-3.811
+],
+"scene": [
+-494.244,
+6.58,
+278.357
+],
+"anchor": false
+},
+"qz_ridge_W": {
+"local": [
+-12.39,
+6.78,
+-6.913
+],
+"scene": [
+-493.399,
+9.05,
+275.178
+],
+"anchor": false
+},
+"qz_ridge_E": {
+"local": [
+8.019,
+6.78,
+-6.913
+],
+"scene": [
+-473.053,
+9.05,
+273.577
+],
+"anchor": false
+},
+"qz_col_SW": {
+"local": [
+-12.382,
+0.6,
+-4.911
+],
+"scene": [
+-493.234,
+2.87,
+277.174
+],
+"anchor": false
+},
+"qz_col_SE": {
+"local": [
+8.01,
+0.6,
+-4.911
+],
+"scene": [
+-472.905,
+2.87,
+275.574
+],
+"anchor": false
+},
+"qz_baosha_S_pl_foot_NW": {
+"local": [
+-8.993,
+0.0,
+-5.311
+],
+"scene": [
+-489.887,
+2.27,
+276.509
+],
+"anchor": true
+},
+"qz_baosha_S_pl_top_NW": {
+"local": [
+-8.993,
+0.6,
+-5.311
+],
+"scene": [
+-489.887,
+2.87,
+276.509
+],
+"anchor": false
+},
+"qz_baosha_S_pl_foot_NE": {
+"local": [
+4.622,
+0.0,
+-5.311
+],
+"scene": [
+-476.314,
+2.27,
+275.441
+],
+"anchor": true
+},
+"qz_baosha_S_pl_top_NE": {
+"local": [
+4.622,
+0.6,
+-5.311
+],
+"scene": [
+-476.314,
+2.87,
+275.441
+],
+"anchor": false
+},
+"qz_baosha_S_pl_foot_SE": {
+"local": [
+4.622,
+0.002,
+-0.336
+],
+"scene": [
+-475.924,
+2.272,
+280.4
+],
+"anchor": true
+},
+"qz_baosha_S_pl_top_SE": {
+"local": [
+4.622,
+0.6,
+-0.336
+],
+"scene": [
+-475.924,
+2.87,
+280.4
+],
+"anchor": false
+},
+"qz_baosha_S_pl_foot_SW": {
+"local": [
+-8.993,
+0.006,
+-0.336
+],
+"scene": [
+-489.497,
+2.276,
+281.469
+],
+"anchor": true
+},
+"qz_baosha_S_pl_top_SW": {
+"local": [
+-8.993,
+0.6,
+-0.336
+],
+"scene": [
+-489.497,
+2.87,
+281.469
+],
+"anchor": false
+},
+"qz_baosha_S_eave_NW": {
+"local": [
+-9.293,
+3.67,
+-5.611
+],
+"scene": [
+-490.21,
+5.94,
+276.233
+],
+"anchor": false
+},
+"qz_baosha_S_eave_NE": {
+"local": [
+4.922,
+3.67,
+-5.611
+],
+"scene": [
+-476.038,
+5.94,
+275.118
+],
+"anchor": false
+},
+"qz_baosha_S_eave_SE": {
+"local": [
+4.922,
+3.67,
+-0.036
+],
+"scene": [
+-475.601,
+5.94,
+280.676
+],
+"anchor": false
+},
+"qz_baosha_S_eave_SW": {
+"local": [
+-9.293,
+3.67,
+-0.036
+],
+"scene": [
+-489.772,
+5.94,
+281.791
+],
+"anchor": false
+},
+"qz_baosha_S_ridge_W": {
+"local": [
+-8.312,
+5.76,
+-2.823
+],
+"scene": [
+-489.013,
+8.03,
+278.936
+],
+"anchor": false
+},
+"qz_baosha_S_ridge_E": {
+"local": [
+3.941,
+5.76,
+-2.823
+],
+"scene": [
+-476.798,
+8.03,
+277.974
+],
+"anchor": false
+},
+"qz_baosha_S_col_SW": {
+"local": [
+-8.193,
+0.6,
+-1.136
+],
+"scene": [
+-488.762,
+2.87,
+280.608
+],
+"anchor": false
+},
+"qz_baosha_S_col_SE": {
+"local": [
+3.822,
+0.6,
+-1.136
+],
+"scene": [
+-476.784,
+2.87,
+279.666
+],
+"anchor": false
+},
+"qz_plaque": {
+"local": [
+-2.186,
+3.72,
+-0.776
+],
+"scene": [
+-482.745,
+5.99,
+280.496
+],
+"anchor": false
+},
+"qz_baosha_N_pl_foot_SE": {
+"local": [
+4.622,
+-0.0,
+-8.515
+],
+"scene": [
+-476.565,
+2.27,
+272.247
+],
+"anchor": true
+},
+"qz_baosha_N_pl_top_SE": {
+"local": [
+4.622,
+0.6,
+-8.515
+],
+"scene": [
+-476.565,
+2.87,
+272.247
+],
+"anchor": false
+},
+"qz_baosha_N_pl_foot_SW": {
+"local": [
+-8.993,
+0.001,
+-8.515
+],
+"scene": [
+-490.138,
+2.271,
+273.315
+],
+"anchor": true
+},
+"qz_baosha_N_pl_top_SW": {
+"local": [
+-8.993,
+0.6,
+-8.515
+],
+"scene": [
+-490.138,
+2.87,
+273.315
+],
+"anchor": false
+},
+"qz_baosha_N_pl_foot_NW": {
+"local": [
+-8.993,
+0.007,
+-13.53
+],
+"scene": [
+-490.532,
+2.277,
+268.315
+],
+"anchor": true
+},
+"qz_baosha_N_pl_top_NW": {
+"local": [
+-8.993,
+0.6,
+-13.53
+],
+"scene": [
+-490.532,
+2.87,
+268.315
+],
+"anchor": false
+},
+"qz_baosha_N_pl_foot_NE": {
+"local": [
+4.622,
+0.01,
+-13.53
+],
+"scene": [
+-476.959,
+2.28,
+267.247
+],
+"anchor": true
+},
+"qz_baosha_N_pl_top_NE": {
+"local": [
+4.622,
+0.6,
+-13.53
+],
+"scene": [
+-476.959,
+2.87,
+267.247
+],
+"anchor": false
+},
+"qz_baosha_N_eave_SE": {
+"local": [
+4.922,
+3.67,
+-8.215
+],
+"scene": [
+-476.243,
+5.94,
+272.522
+],
+"anchor": false
+},
+"qz_baosha_N_eave_SW": {
+"local": [
+-9.293,
+3.67,
+-8.215
+],
+"scene": [
+-490.414,
+5.94,
+273.637
+],
+"anchor": false
+},
+"qz_baosha_N_eave_NW": {
+"local": [
+-9.293,
+3.67,
+-13.83
+],
+"scene": [
+-490.854,
+5.94,
+268.04
+],
+"anchor": false
+},
+"qz_baosha_N_eave_NE": {
+"local": [
+4.922,
+3.67,
+-13.83
+],
+"scene": [
+-476.683,
+5.94,
+266.924
+],
+"anchor": false
+},
+"qz_baosha_N_ridge_E": {
+"local": [
+3.934,
+5.76,
+-11.022
+],
+"scene": [
+-477.448,
+8.03,
+269.801
+],
+"anchor": false
+},
+"qz_baosha_N_ridge_W": {
+"local": [
+-8.305,
+5.76,
+-11.022
+],
+"scene": [
+-489.649,
+8.03,
+270.762
+],
+"anchor": false
+},
+"qz_baosha_N_col_NE": {
+"local": [
+3.822,
+0.6,
+-12.73
+],
+"scene": [
+-477.694,
+2.87,
+268.107
+],
+"anchor": false
+},
+"qz_baosha_N_col_NW": {
+"local": [
+-8.193,
+0.6,
+-12.73
+],
+"scene": [
+-489.672,
+2.87,
+269.05
+],
+"anchor": false
+}
+}
+}

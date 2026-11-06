@@ -1058,6 +1058,8 @@ def publish_models(book):
             if bad:
                 raise SystemExit(f"models/{folder.name}/summary.json: bridges not in structures.json: {bad}")
             out[mid]["bridges"] = sm["bridges"]
+        if sm.get("walls_cut"):  # Round 19: outlines (scene x z) where the model draws the walls itself: the view leaves out the plan's wall segments (structures.json) inside
+            out[mid]["walls_cut"] = sm["walls_cut"]
     write_if_changed(SITE_DATA / "models.json", json.dumps({"note": "Round 13: detailed models (models/<ID>-<slug>/summary.json), written by scripts/building_pages.py. Their boxes stay as the click target, unseen.", "models": out}, ensure_ascii=False, indent=1) + "\n")
     return out
 

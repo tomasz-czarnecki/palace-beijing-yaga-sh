@@ -3,34 +3,34 @@
  "kept": 759,
  "drawn_rows": 572,
  "rock_rows": 80,
- "areas": 463,
+ "areas": 459,
  "areas_by_kind": {
   "specimen_tree": 101,
-  "grove": 212,
+  "grove": 209,
   "bamboo_grove": 42,
-  "avenue": 22,
+  "avenue": 21,
   "reed_bed": 21,
   "lotus_pond": 40,
   "flower_bed": 25,
   "rockery": 86
  },
- "areas_sourced": 454,
+ "areas_sourced": 450,
  "areas_fill": 9,
- "plants": 40449,
+ "plants": 40416,
  "by_form": {
-  "pine": 4239,
-  "blossom": 2811,
-  "willow": 1435,
-  "broad": 2466,
+  "pine": 4287,
+  "blossom": 2770,
+  "willow": 1436,
+  "broad": 2461,
   "topiary": 354,
   "cypress": 261,
-  "bamboo": 4815,
-  "reed": 7568,
-  "floating": 2728,
-  "lotus": 13147,
-  "shrub": 625
+  "bamboo": 4807,
+  "reed": 7562,
+  "floating": 2726,
+  "lotus": 13150,
+  "shrub": 602
  },
- "assumed_plants": 6356,
+ "assumed_plants": 6416,
  "rockeries": 86,
  "rockeries_unplaced": [],
  "areas_skipped": [
@@ -326,6 +326,26 @@
    "shore"
   ],
   [
+   "YM01",
+   "杂树",
+   "rear_court"
+  ],
+  [
+   "YM01",
+   "松",
+   "rear_court"
+  ],
+  [
+   "YM01",
+   "松",
+   "rockery"
+  ],
+  [
+   "YM01",
+   "落叶乔木",
+   "hill"
+  ],
+  [
    "YM03",
    "松",
    "rockery"
@@ -477,7 +497,7 @@
   ]
  ],
  "files_mb": {
-  "layer": 2.51,
+  "layer": 2.5,
   "json": 0.05,
   "bin": 0.57
  }

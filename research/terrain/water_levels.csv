@@ -43,18 +43,18 @@ body,water_ids,names,area_m2,level_m_egm2008,depth_m,method,sources,confidence
 41,W0138,,683,43.61,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 42,W0047,,3457,43.49,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
 43,W0091,,1299,43.57,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-44,W0209,,391,43.65,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-45,W0264,,290,44.05,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-46,W0063,,2376,44.07,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-47,W0164,,570,44.17,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-48,W0006;W0027;W0044;W0056;W0073;W0129;W0140;W0168;W0176;W0183;W0190;W0197;W0205;W0253;W0268;W0294;W0302;W0354;W0356,后湖,58649,44.04,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-49,W0193,,415,44.19,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-50,W0155,,570,44.3,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-51,W0325,,163,44.4,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-52,W0061;W0082,,3787,44.39,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-53,W0025,前湖,6742,44.3,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-54,W0070,,1910,44.29,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-55,W0135,,688,44.38,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+44,W0264,,290,44.05,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+45,W0063,,2376,44.07,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+46,W0164,,570,44.17,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+47,W0006;W0027;W0044;W0056;W0073;W0129;W0140;W0168;W0176;W0183;W0190;W0197;W0205;W0253;W0268;W0294;W0302;W0354;W0356,后湖,58649,44.04,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+48,W0193,,415,44.19,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+49,W0155,,570,44.3,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+50,W0325,,163,44.4,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+51,W0061;W0082,,3787,44.39,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+52,W0025,前湖,6742,44.3,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+53,W0070,,1910,44.29,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+54,W0135,,688,44.38,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+55,W0364,,303,44.44,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 56,W0101,,992,43.05,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 57,W0347,,136,43.16,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 58,W0194,,359,43.07,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
@@ -63,8 +63,8 @@ body,water_ids,names,area_m2,level_m_egm2008,depth_m,method,sources,confidence
 61,W0272;W0362,,357,43.31,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 62,W0288;W0316,,412,43.63,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 63,W0126,,849,43.6,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-64,W0321,,183,43.62,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-65,W0022;W0039;W0049;W0112;W0167;W0172;W0214;W0254;W0345,,18120,43.59,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+64,W0209,,391,43.65,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+65,W0321,,183,43.62,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 66,W0245,,302,43.63,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 67,W0016,曲院风荷,10900,43.78,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
 68,W0018,曲院风荷,10363,43.91,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
@@ -89,19 +89,19 @@ body,water_ids,names,area_m2,level_m_egm2008,depth_m,method,sources,confidence
 87,W0259,,223,43.2,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 88,W0062,,2192,43.36,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 89,W0137;W0284,,863,43.41,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-90,W0001,福海,258299,43.18,2.3,the plain along its shore minus 1.5 m; depth 福海 2.3 m (S1002),S04;S159;S1002,C
-91,W0077,,1658,43.69,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-92,W0023;W0026;W0086;W0106;W0133;W0143;W0210;W0290;W0336,,18107,43.54,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-93,W0094,,1220,43.61,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-94,W0081,,1475,43.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-95,W0147,,662,43.74,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-96,W0351,,150,43.8,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-97,W0218,,365,43.9,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-98,W0139,,691,43.94,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-99,W0348,,136,43.98,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-100,W0206,,333,44.15,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-101,W0309,,180,44.37,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-102,W0031,,6564,44.39,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+90,W0022;W0039;W0049;W0112;W0167;W0172;W0214;W0254;W0345,,18120,43.59,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+91,W0001,福海,258299,43.18,2.3,the plain along its shore minus 1.5 m; depth 福海 2.3 m (S1002),S04;S159;S1002,C
+92,W0077,,1658,43.69,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+93,W0023;W0026;W0086;W0106;W0133;W0143;W0210;W0290;W0336,,18107,43.54,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+94,W0094,,1220,43.61,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+95,W0081,,1475,43.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+96,W0147,,662,43.74,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+97,W0351,,150,43.8,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+98,W0218,,365,43.9,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+99,W0139,,691,43.94,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+100,W0348,,136,43.98,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+101,W0206,,333,44.15,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+102,W0309,,180,44.37,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 103,W0096;W0247,,1677,44.46,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 104,W0123;W0198,,1212,44.57,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 105,W0040;W0099;W0181;W0277,,6261,44.63,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
@@ -134,57 +134,58 @@ body,water_ids,names,area_m2,level_m_egm2008,depth_m,method,sources,confidence
 132,W0108,,1109,44.18,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
 133,W0033,,6845,44.28,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
 134,W0011;W0211,,22455,44.23,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-135,W0275,,271,44.45,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-136,W0146,,756,44.42,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-137,W0036;W0160,,6858,44.38,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-138,W0120,,964,44.49,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-139,W0161;W0192;W0281;W0333;W0339,,1414,42.47,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-140,W0097,,1272,42.68,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-141,W0221,,344,42.87,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-142,W0079,,1517,42.99,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-143,W0293,,199,43.25,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-144,W0337,,156,43.54,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-145,W0331,,166,43.62,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-146,W0156,,623,43.67,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-147,W0088,,1406,43.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-148,W0130,,885,43.74,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-149,W0208,,413,43.7,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-150,W0223,,468,43.9,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-151,W0338,,145,42.16,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-152,W0301,,193,42.02,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-153,W0343,,143,42.39,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-154,W0311,,177,42.02,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-155,W0024,方河,6972,41.99,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-156,W0233;W0242,,597,42.33,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-157,W0346,,159,42.2,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-158,W0340,,165,42.25,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-159,W0317,,157,42.38,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-160,W0213,,382,42.31,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-161,W0328,,159,42.3,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-162,W0300,,190,42.61,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-163,W0059,,2673,42.64,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-164,W0005,,51465,42.4,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-165,W0002;W0009;W0203;W0229;W0258;W0299;W0329,,114475,42.53,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-166,W0004;W0248,,51382,42.75,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-167,W0271,,229,42.75,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-168,W0015,,11048,42.41,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-169,W0020;W0270,,8844,42.74,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-170,W0188,,403,42.99,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-171,W0021,,7571,43.0,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-172,W0159,,569,42.57,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-173,W0286,,221,43.03,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-174,W0115,,944,42.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-175,W0334,,161,42.76,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-176,W0359,,147,43.05,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-177,W0200,,397,42.71,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-178,W0265,,262,42.76,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-179,W0239,,319,43.04,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-180,W0314,,184,43.13,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-181,W0222,,364,43.19,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-182,W0262,,281,43.14,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-183,W0308,,188,43.23,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-184,W0306,,189,43.18,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-185,W0215,,361,43.46,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-186,W0010,,22350,43.74,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
-187,W0204,,485,43.83,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
-188,W0069,,2859,44.08,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+135,W0031,,6564,44.39,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+136,W0275,,271,44.45,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+137,W0146,,756,44.42,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+138,W0036;W0160,,6858,44.38,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+139,W0120,,964,44.49,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+140,W0161;W0192;W0281;W0333;W0339,,1414,42.47,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+141,W0097,,1272,42.68,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+142,W0221,,344,42.87,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+143,W0079,,1517,42.99,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+144,W0293,,199,43.25,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+145,W0337,,156,43.54,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+146,W0331,,166,43.62,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+147,W0156,,623,43.67,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+148,W0088,,1406,43.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+149,W0130,,885,43.74,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+150,W0208,,413,43.7,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+151,W0223,,468,43.9,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+152,W0338,,145,42.16,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+153,W0301,,193,42.02,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+154,W0343,,143,42.39,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+155,W0311,,177,42.02,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+156,W0024,方河,6972,41.99,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+157,W0233;W0242,,597,42.33,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+158,W0346,,159,42.2,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+159,W0340,,165,42.25,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+160,W0317,,157,42.38,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+161,W0213,,382,42.31,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+162,W0328,,159,42.3,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+163,W0300,,190,42.61,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+164,W0059,,2673,42.64,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+165,W0005,,51465,42.4,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+166,W0002;W0009;W0203;W0229;W0258;W0299;W0329,,114475,42.53,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+167,W0004;W0248,,51382,42.75,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+168,W0271,,229,42.75,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+169,W0015,,11048,42.41,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+170,W0020;W0270,,8844,42.74,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+171,W0188,,403,42.99,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+172,W0021,,7571,43.0,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+173,W0159,,569,42.57,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+174,W0286,,221,43.03,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+175,W0115,,944,42.66,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+176,W0334,,161,42.76,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+177,W0359,,147,43.05,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+178,W0200,,397,42.71,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+179,W0265,,262,42.76,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+180,W0239,,319,43.04,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+181,W0314,,184,43.13,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+182,W0222,,364,43.19,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+183,W0262,,281,43.14,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+184,W0308,,188,43.23,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+185,W0306,,189,43.18,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+186,W0215,,361,43.46,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+187,W0010,,22350,43.74,2.0,the plain along its shore minus 1.5 m; depth about 2 m (S1002),S04;S159;S1002,C
+188,W0204,,485,43.83,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C
+189,W0069,,2859,44.08,1.5,the plain along its shore minus 1.5 m; depth small pond,S04;S159;S1002,C

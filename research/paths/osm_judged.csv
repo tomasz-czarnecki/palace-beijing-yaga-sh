@@ -67,7 +67,8 @@ osm-way-1031890437,service,,246.8,0.0,0.0,0.0,0.27,undecided
 osm-way-1031890438,service,,407.6,0.0,0.0,0.0,0.0,undecided
 osm-way-1031907053,footway,,52.1,0.0,0.18,0.0,0.0,undecided
 osm-way-1037504794,footway,,12.1,0.0,0.0,0.0,0.0,undecided
-osm-way-1037504801,service,,31.4,0.0,0.0,0.0,0.0,undecided
+osm-way-1037504800,service,,4.5,0.0,0.0,0.0,0.0,undecided
+osm-way-1037504801,service,,177.4,0.0,0.0,0.0,0.0,undecided
 osm-way-1216377973,footway,,75.0,0.0,0.21,0.0,0.0,undecided
 osm-way-1216377974,path,,114.8,0.43,0.11,0.0,0.27,modern
 osm-way-1232568986,service,,137.9,0.0,0.0,0.0,0.0,undecided
@@ -145,7 +146,7 @@ osm-way-1355990405,track,,182.6,0.26,0.05,0.0,0.25,modern
 osm-way-1355990406,track,,57.7,0.0,0.0,0.0,0.0,undecided
 osm-way-1355990407,path,,79.1,0.2,0.36,0.0,0.2,modern
 osm-way-1355990408,track,,70.7,0.0,0.3,0.0,0.18,modern
-osm-way-1355990409,track,,124.2,0.05,0.43,0.16,0.07,modern
+osm-way-1355990409,track,,124.2,0.05,0.43,0.09,0.07,modern
 osm-way-1355991932,track,,160.5,0.01,0.19,0.27,0.08,undecided
 osm-way-1355991933,track,,52.9,0.0,0.35,0.0,0.0,modern
 osm-way-1355991934,footway,,52.6,0.54,0.05,0.0,0.46,modern
@@ -161,10 +162,11 @@ osm-way-1365359109,footway,,10.8,0.0,0.0,0.0,0.0,undecided
 osm-way-1365359110,footway,,7.7,0.0,0.0,0.0,0.0,undecided
 osm-way-1416574347,footway,,20.0,0.0,0.0,0.0,0.0,undecided
 osm-way-1444260612,service,,30.6,0.0,0.36,0.1,0.0,modern
-osm-way-1476987004,service,,171.8,0.0,0.0,0.0,0.0,undecided
-osm-way-1476987005,service,,125.8,0.0,0.0,0.0,0.0,undecided
+osm-way-1476987004,service,,179.7,0.0,0.0,0.0,0.0,undecided
+osm-way-1476987005,service,,160.8,0.0,0.05,0.0,0.0,undecided
 osm-way-1476987006,service,,162.9,0.0,0.0,0.0,0.0,undecided
-osm-way-1476987008,service,,20.6,0.0,0.0,0.0,0.0,undecided
+osm-way-1476987008,service,,78.4,0.0,0.0,0.0,0.0,undecided
+osm-way-1476987009,service,,65.2,0.0,0.0,0.0,0.0,undecided
 osm-way-1524245837,footway,,18.4,0.0,0.0,0.0,0.0,undecided
 osm-way-1524245839,footway,,53.2,0.0,0.0,0.0,0.0,undecided
 osm-way-1524246246,footway,,12.6,0.57,0.0,0.0,0.43,modern
@@ -362,7 +364,7 @@ osm-way-584882116,footway,,29.1,0.07,0.0,0.0,0.47,undecided
 osm-way-584882117,footway,,50.8,0.44,0.0,0.0,0.35,modern
 osm-way-584882118,footway,,81.6,0.22,0.0,0.0,0.48,undecided
 osm-way-584882153,footway,,244.2,0.07,0.0,0.0,0.09,undecided
-osm-way-584882155,footway,,66.4,0.0,0.0,0.3,0.0,undecided
+osm-way-584882155,footway,,66.4,0.0,0.0,0.31,0.0,undecided
 osm-way-584882164,footway,,184.7,0.07,0.0,0.0,0.28,undecided
 osm-way-584882165,footway,,89.2,0.0,0.0,0.0,0.07,undecided
 osm-way-584882166,footway,,361.5,0.05,0.04,0.0,0.2,undecided
@@ -370,7 +372,7 @@ osm-way-584882170,footway,,150.1,0.0,0.08,0.0,0.0,undecided
 osm-way-584882172,footway,,58.6,0.0,0.01,0.0,0.0,undecided
 osm-way-584882173,footway,,71.3,0.0,0.16,0.0,0.04,undecided
 osm-way-584882177,footway,,294.3,0.3,0.0,0.0,0.46,modern
-osm-way-628032082,service,,216.3,0.0,0.0,0.0,0.16,undecided
+osm-way-628032082,service,,220.0,0.0,0.0,0.0,0.15,undecided
 osm-way-628032084,service,,176.6,0.0,0.0,0.0,0.0,undecided
 osm-way-628032085,service,,79.7,0.22,0.0,0.0,0.21,undecided
 osm-way-628032086,service,,146.1,0.38,0.0,0.0,0.37,modern
@@ -393,7 +395,7 @@ osm-way-727046648,footway,,168.3,0.12,0.15,0.0,0.31,modern
 osm-way-727046658,path,,42.7,0.99,0.0,0.0,0.01,modern
 osm-way-78029371,footway,,151.1,0.01,0.36,0.0,0.08,modern
 osm-way-78029372,footway,,191.7,0.68,0.0,0.0,0.32,modern
-osm-way-78029373,footway,,1126.9,0.33,0.12,0.04,0.24,modern
+osm-way-78029373,footway,,1126.9,0.33,0.12,0.0,0.26,modern
 osm-way-829962894,footway,,623.6,0.19,0.0,0.0,0.23,undecided
 osm-way-829962895,footway,,316.1,0.15,0.13,0.03,0.06,modern
 osm-way-829962896,footway,,405.5,0.0,0.25,0.01,0.02,modern

@@ -1,0 +1,47 @@
+{
+ "id": "YM02-01",
+ "aliases": [],
+ "name": "勤政殿 Qinzheng Dian",
+ "glb": "model.glb",
+ "position": [
+  -480.505,
+  2.27,
+  281.098
+ ],
+ "rotationY": 0.07854,
+ "line": "The emperor's office hall of 勤政亲贤 east of the audience court: five bays with a three-bay porch 抱厦 front and back as the Yangshi Lei plan 勤政殿地盘图样 has it (A) and S01 draws it (B), its walled court before it; every height, the roofs and the court's walls are C.",
+ "rows": [
+  [
+   "Plan",
+   "Five bays facing south with three-bay porches front and rear (勤政殿地盘图样, mhymy ysltd 7310 and 11009, A; S05 j80:11b, A); 22.2 m wide on S01 (B)"
+  ],
+  [
+   "Roofs",
+   "Rolled 歇山, grey, the porches' roofs joined to the hall's slopes (C: no picture of the 1860 state; the 1744 leaf shows an earlier one, S41)"
+  ],
+  [
+   "Plaques",
+   "勤政亲贤 in front, 为君难 at the back (S05 j80:18a, A; boards C)"
+  ],
+  [
+   "Court",
+   "As S01 draws it, walled, paved, a gate in its south wall (B; the walls' height and colour C)"
+  ],
+  [
+   "Inside",
+   "In 1837 (most likely) the east study got a front porch, a south door and large glass panes (S211 竹叶亭杂记; not drawn: the interior is out of scope)"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 22.0,
+  "depth_m": 12.4,
+  "eave_m": 4.86,
+  "ridge_m": 6.78,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "hides": [],
+ "tris": 4624,
+ "glb_bytes": 160600,
+ "made_by": "models/YM01-zhengda-guangming/zhengdaguangming.py"
+}

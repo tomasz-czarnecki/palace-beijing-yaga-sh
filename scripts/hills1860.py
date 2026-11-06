@@ -54,6 +54,17 @@ def xz(geom):
     return shapely.transform(geom, lambda c: np.column_stack(to_xz(c[:, 0], c[:, 1])))
 
 
+def model_courts():
+    """Round 19: the courts, yards and terraces a detailed model paves (models/*/joints.json `clear` and `decks`, scene x z, from the model's last run) are not free land.
+    A generated hill stood 7 m high in the paved court before 正大光明殿 (YM01). Positions never depend on the ground, so this is a fixed point too."""
+    out = []
+    for jp in sorted((ROOT / "models").glob("*/joints.json")):
+        j = json.load(open(jp, encoding="utf-8"))
+        polys = list(j.get("clear", [])) + [d["poly"] for d in j.get("decks", [])]
+        out += [Polygon(p).buffer(0).buffer(CLEAR["court"]) for p in polys if len(p) >= 3]
+    return out
+
+
 def ll(geom):
     return shapely.transform(geom, lambda c: np.column_stack(to_lonlat(c[:, 0], c[:, 1])))
 
@@ -150,6 +161,7 @@ def main():
     excl += [xz(shape(f["geometry"])).buffer(CLEAR["plan_hill"]) for f in plan_hills]
     excl += [g for sid, (g, p) in scenes.items() if p.get("garden") == "Xiyang Lou" or sid.startswith("XY") or sid in OPEN_GROUND]
     excl += [xz(shape(f["geometry"])).buffer(CLEAR["court"]) for f in halls if f["properties"].get("shape") == "court"]
+    excl += model_courts()
     free = raster_mask(garden, xs, zs) & ~raster_mask(unary_union(excl), xs, zs)
     disk = np.hypot(*np.mgrid[-2:3, -2:3]) * STEP <= OPEN_M + 0.01
     free = ndimage.binary_opening(free, structure=disk)

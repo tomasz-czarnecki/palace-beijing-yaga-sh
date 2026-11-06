@@ -13,11 +13,11 @@
    "primitives": 50,
    "extent_m": [
     88.9,
-    16.1,
+    16.0,
     199.5
    ],
-   "triangles": 78202,
-   "fill_triangles": 48676,
+   "triangles": 78226,
+   "fill_triangles": 48688,
    "glb_mb": 2.4,
    "glb_gz_mb": 0.71,
    "joints": [
@@ -189,52 +189,52 @@
     {
      "name": "gate_flight_foot_L",
      "kind": "flight foot",
-     "gap_m": -0.19
+     "gap_m": -0.16
     },
     {
      "name": "gate_flight_foot_R",
      "kind": "flight foot",
-     "gap_m": -0.22
+     "gap_m": -0.15
     },
     {
      "name": "gate_flight_W_foot_L",
      "kind": "flight foot",
-     "gap_m": -0.24
+     "gap_m": -0.16
     },
     {
      "name": "gate_flight_W_foot_R",
      "kind": "flight foot",
-     "gap_m": -0.2
+     "gap_m": -0.16
     },
     {
      "name": "gate_flight_E_foot_L",
      "kind": "flight foot",
-     "gap_m": -0.22
+     "gap_m": -0.16
     },
     {
      "name": "gate_flight_E_foot_R",
      "kind": "flight foot",
-     "gap_m": -0.33
+     "gap_m": -0.16
     },
     {
      "name": "side_flight_W_foot_L",
      "kind": "flight foot",
-     "gap_m": -0.31
+     "gap_m": -0.16
     },
     {
      "name": "side_flight_W_foot_R",
      "kind": "flight foot",
-     "gap_m": -0.18
+     "gap_m": -0.15
     },
     {
      "name": "side_flight_E_foot_L",
      "kind": "flight foot",
-     "gap_m": -0.32
+     "gap_m": -0.16
     },
     {
      "name": "side_flight_E_foot_R",
      "kind": "flight foot",
-     "gap_m": -0.45
+     "gap_m": -0.16
     },
     {
      "name": "wallW0_0",
@@ -304,7 +304,7 @@
    ],
    "joint_gap_m": {
     "max_above": 0.0,
-    "max_below": 0.45,
+    "max_below": 0.44,
     "n": 56
    },
    "ways": [
@@ -558,17 +558,17 @@
     {
      "name": "north_stair_foot_W",
      "kind": "stair foot",
-     "gap_m": -0.03
+     "gap_m": -0.12
     },
     {
      "name": "north_stair_foot_E",
      "kind": "stair foot",
-     "gap_m": -0.03
+     "gap_m": -0.13
     },
     {
      "name": "north_basin_ring",
      "kind": "paving foot",
-     "gap_m": -0.74
+     "gap_m": -0.92
     },
     {
      "name": "block_SW",
@@ -593,7 +593,7 @@
    ],
    "joint_gap_m": {
     "max_above": 0.01,
-    "max_below": 0.74,
+    "max_below": 0.92,
     "n": 22
    },
    "ways": [
@@ -683,7 +683,7 @@
      "at": "XY01-M01:model north_stair_foot_E",
      "entry": "north_stair_foot_E",
      "plan_m": 0.0,
-     "height_m": 0.1,
+     "height_m": 0.2,
      "drawn_by_model": false,
      "ok": true
     }
@@ -1914,6 +1914,774 @@
     }
    ]
   },
+  "YM01": {
+   "folder": "YM01-zhengda-guangming",
+   "figures": 35,
+   "grades": {
+    "A": 6,
+    "B": 24,
+    "C": 5
+   },
+   "materials": 48,
+   "primitives": 48,
+   "extent_m": [
+    110.2,
+    15.2,
+    166.6
+   ],
+   "triangles": 35315,
+   "fill_triangles": 19570,
+   "glb_mb": 1.11,
+   "glb_gz_mb": 0.31,
+   "joints": [
+    {
+     "name": "zg_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "zg_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zg_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "zg_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "yt_0",
+     "kind": "terrace foot",
+     "gap_m": -0.24
+    },
+    {
+     "name": "yt_1",
+     "kind": "terrace foot",
+     "gap_m": -0.25
+    },
+    {
+     "name": "side_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "side_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "side_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "side_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "side_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "side_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "side_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "side_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "gal_E_0",
+     "kind": "gallery foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gal_E_1",
+     "kind": "gallery foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_E0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_E0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhifang_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline3_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gateline3_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhaomen_W_pier-1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhaomen_W_pier+1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhaomen_E_pier-1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zhaomen_E_pier+1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "bridge_N",
+     "kind": "bridge end",
+     "gap_m": -0.05
+    },
+    {
+     "name": "bridge_S",
+     "kind": "bridge end",
+     "gap_m": -0.05
+    },
+    {
+     "name": "neichaofang_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "neichaofang_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "range_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "range_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_inner_W0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_inner_W0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_inner_E0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_inner_E0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_W2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_wall_E2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zuomen_W_pier-1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zuomen_W_pier+1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zuomen_E_pier-1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "zuomen_E_pier+1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "dgm_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "dgm_terr_0",
+     "kind": "terrace foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "dgm_terr_1",
+     "kind": "terrace foot",
+     "gap_m": -0.18
+    },
+    {
+     "name": "waichaofang_W_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "waichaofang_W_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "waichaofang_W_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "waichaofang_W_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "waichaofang_E_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "waichaofang_E_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "waichaofang_E_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "waichaofang_E_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.25,
+    "n": 88
+   },
+   "ways": [
+    {
+     "way": "YMC-001",
+     "kind": "imperial_road",
+     "at": "F0252:model dgm_terr_front",
+     "entry": "dgm_terr_front",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-004",
+     "kind": "paved_way",
+     "at": "F0252:model dgm_back_+0.0",
+     "entry": "dgm_back_+0.0",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-005",
+     "kind": "bridge_approach",
+     "at": "F0001:model bridge_N",
+     "entry": "bridge_N",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-006",
+     "kind": "paved_way",
+     "at": "F0001:model yt_front",
+     "entry": "yt_front",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-006",
+     "kind": "paved_way",
+     "at": "F0004:model yt_front",
+     "entry": "yt_front",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-007",
+     "kind": "paved_way",
+     "at": "F0004:model yt_front",
+     "entry": "yt_front",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-008",
+     "kind": "courtyard_path",
+     "at": "F0252:model zuomen_W_out",
+     "entry": "zuomen_W_out",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-008",
+     "kind": "courtyard_path",
+     "at": "F0002:model zuomen_W_out",
+     "entry": "zuomen_W_out",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-009",
+     "kind": "courtyard_path",
+     "at": "F0252:model zuomen_E_in",
+     "entry": "zuomen_E_in",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-009",
+     "kind": "courtyard_path",
+     "at": "F0003:model zuomen_E_in",
+     "entry": "zuomen_E_in",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-030",
+     "kind": "service_path",
+     "at": "F0004:model yt_left",
+     "entry": "yt_left",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  },
+  "YM02-01": {
+   "folder": "YM02-01-qinzheng-dian",
+   "figures": 5,
+   "grades": {
+    "A": 2,
+    "B": 2,
+    "C": 1
+   },
+   "materials": 27,
+   "primitives": 27,
+   "extent_m": [
+    33.7,
+    6.9,
+    43.1
+   ],
+   "triangles": 4624,
+   "fill_triangles": 1124,
+   "glb_mb": 0.16,
+   "glb_gz_mb": 0.04,
+   "joints": [
+    {
+     "name": "qz_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "qz_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "qz_baosha_S_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_baosha_S_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_baosha_S_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_baosha_S_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "qz_baosha_N_pl_0",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_baosha_N_pl_1",
+     "kind": "platform foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_baosha_N_pl_2",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "qz_baosha_N_pl_3",
+     "kind": "platform foot",
+     "gap_m": -0.16
+    },
+    {
+     "name": "qz_wall0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall3_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wall3_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wallNW0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wallNW0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wallNE0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_wallNE0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_gate_pier-1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    },
+    {
+     "name": "qz_gate_pier+1",
+     "kind": "gate pier",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.15,
+    "max_below": 0.16,
+    "n": 26
+   },
+   "ways": [
+    {
+     "way": "YMC-010",
+     "kind": "courtyard_path",
+     "at": "F0008:model qz_gate_out",
+     "entry": "qz_gate_out",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-011",
+     "kind": "courtyard_path",
+     "at": "F0008:model qz_gate_out",
+     "entry": "qz_gate_out",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMC-028",
+     "kind": "bridge_approach",
+     "at": "F0008:model qz_baosha_S_front_+0.0",
+     "entry": "qz_baosha_S_front_+0.0",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  },
   "YM03-21": {
    "folder": "YM03-21-ruyi-qiao",
    "figures": 1,
@@ -2496,6 +3264,54 @@
      "ok": true
     }
    ]
+  },
+  "YM41-12": {
+   "folder": "YM41-12-da-yingbi",
+   "figures": 3,
+   "grades": {
+    "A": 0,
+    "B": 2,
+    "C": 1
+   },
+   "materials": 8,
+   "primitives": 8,
+   "extent_m": [
+    42.3,
+    5.6,
+    2.4
+   ],
+   "triangles": 386,
+   "fill_triangles": 0,
+   "glb_mb": 0.02,
+   "glb_gz_mb": 0.0,
+   "joints": [
+    {
+     "name": "yb_WN",
+     "kind": "base foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yb_WS",
+     "kind": "base foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yb_EN",
+     "kind": "base foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "yb_ES",
+     "kind": "base foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.15,
+    "max_below": 0.15,
+    "n": 4
+   },
+   "ways": []
   }
  },
  "limits": {

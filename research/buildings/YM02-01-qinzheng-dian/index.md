@@ -26,15 +26,13 @@ Yuanming Yuan
 
 ## Our model now
 
-On the block drawn on the Qing plan S01: position and frontage from the plan, heights and roof from the typology of its hall class, its form drawn by the hall kit. It will be updated as the research goes on.
+The emperor's office hall of 勤政亲贤 east of the audience court: five bays with a three-bay porch 抱厦 front and back as the Yangshi Lei plan 勤政殿地盘图样 has it (A) and S01 draws it (B), its walled court before it; every height, the roofs and the court's walls are C.
 
-- **Box:** 17.76 × 15.17 m, main hall
-- **Heights:** platform 0.7 m, eave 4.4 m, ridge 9.54 m above the ground
-- **Roof:** hip-and-gable 歇山, rolled ridge 卷棚, grey tile
-- **Faces:** 175.5° from north
-- **Fit:** reduced towards the size drawn on the plan, to stand clear of its neighbours or the water; moved 0.1 m
-- **Drawn:** by the hall kit: 5 bays, the middle widest, a porch front and back, steps on the back, front, 歇山 hip-and-gable with a rolled ridge 卷棚, grey tile, a painted beam under the eave. From its own figures and readings where the dossier gives them (roof read: halls.csv S08 C; tiles read: halls.csv S08 C), the rest from the typology of its hall class.
-- **Confidence:** B
+- **Plan:** Five bays facing south with three-bay porches front and rear (勤政殿地盘图样, mhymy ysltd 7310 and 11009, A; S05 j80:11b, A); 22.2 m wide on S01 (B)
+- **Roofs:** Rolled 歇山, grey, the porches' roofs joined to the hall's slopes (C: no picture of the 1860 state; the 1744 leaf shows an earlier one, S41)
+- **Plaques:** 勤政亲贤 in front, 为君难 at the back (S05 j80:18a, A; boards C)
+- **Court:** As S01 draws it, walled, paved, a gate in its south wall (B; the walls' height and colour C)
+- **Inside:** In 1837 (most likely) the east study got a front porch, a south door and large glass panes (S211 竹叶亭杂记; not drawn: the interior is out of scope)
 
 ## Pictures (1)
 
@@ -110,6 +108,7 @@ Modern interpretation, not evidence.
 - Q82: YM02-01 勤政殿
 - Q104: 烫样 dates
 - Q194: How did the emperor cross the 前湖 from 九洲清晏?
+- Q261: 勤政殿's heights and roofs
 
 <!-- generated:end -->
 

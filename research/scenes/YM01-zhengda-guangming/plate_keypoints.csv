@@ -1,0 +1,17 @@
+plate,photo_id,object,point,x,y,sure,use,note
+,P0001,YM01,zg_eave_SW,1460,641,2,,"正大光明殿 (the hall at the back of the court; Round 19 reading on a 5x crop of the 1920 px copy): the west tip of the front eave"
+,P0001,YM01,zg_eave_SE,1589,640,3,,"the east tip of the front eave, under the 歇山's east gable (the covered way joins there)"
+,P0001,YM01,zg_ridge_W,1480,620,3,,the west end of the rolled ridge
+,P0001,YM01,zg_ridge_E,1573,618,2,,"the east end of the ridge, at the top of the east gable"
+,P0001,YM01,zg_col_SW,1470,666,3,,"the foot of the west corner column of the front colonnade, on the platform (the leaf of 1744 has no terrace 月台: the platform's height is a change of state, the columns' feet still a test of width)"
+,P0001,YM01,zg_col_SE,1586,666,3,,the foot of the east corner column of the front
+,P0001,YM01,gate_eave_SW,1332,776,2,,"出入贤良门 (the raised gate hall with the red doors; 3.5x crop): the west tip of the front eave"
+,P0001,YM01,gate_eave_SE,1462,774,2,,the east tip of the front eave
+,P0001,YM01,gate_ridge_W,1351,754,2,,the west end of the ridge
+,P0001,YM01,gate_ridge_E,1442,754,2,,the east end of the ridge
+,P0001,YM01,gate_col_SW,1341,807,2,,the foot of the west corner column of the front
+,P0001,YM01,gate_col_SE,1447,807,2,,the foot of the east corner column of the front
+,P0001,YM01,zhifang_W_eave_SW,1254,780,2,,"the west wing (the duty rooms 直房 west of the gate): the west tip of its front eave"
+,P0001,YM01,zhifang_W_col_SW,1257,807,3,,the foot of its west corner column
+,P0001,YM01,zhifang_E_eave_SE,1546,777,2,,the east wing: the east tip of its front eave
+,P0001,YM01,zhifang_E_col_SE,1540,806,3,,the foot of its east corner column

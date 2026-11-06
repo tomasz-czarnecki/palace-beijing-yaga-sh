@@ -826,6 +826,15 @@ def water_layers(comp, bname, hill_rects) -> None:
         kind = {"water": "canal" if reg.get("max_half_width_px", 99) < 40 else ("lake" if area > 15000 else "pond")}.get(k, k)
         props = {"id": f"{prefix[k]}{idn[k]:04d}", "region_id": rid, "kind": kind, "name_zh": nm, "name_pinyin": pinyin(nm) if nm else "", "area_m2": round(area), "sources": "S01", "confidence": conf, "note": c.get("note", "")}
         feats[k].append((g, ring_sets, props))
+    # Round 19: water the tracer could not close (a canal drawn as two ink lines a few px apart), traced by hand in plan px: research/plan/water_manual.json.
+    # Numbered after the traced bodies, so their ids do not move.
+    for r in json.loads((PLAN / "water_manual.json").read_text(encoding="utf-8")) if (PLAN / "water_manual.json").exists() else []:
+        g = Polygon(r["points"]).buffer(0)
+        water_polys.append(g)
+        idn["water"] += 1
+        props = {"id": f"W{idn['water']:04d}", "region_id": r["region_id"], "kind": r["kind"], "name_zh": r["name_zh"], "name_pinyin": pinyin(r["name_zh"]) if r["name_zh"] else "",
+                 "area_m2": round(area_m2(warp_ring(r["points"]))), "sources": "S01", "confidence": r["confidence"], "note": r["note"]}
+        feats["water"].append((g, [warp_ring(r["points"])], props))
     write_layer("water_1860", [poly_feature(rs, p) for _, rs, p in feats["water"]])
     write_layer("fields_1860", [poly_feature(rs, p) for _, rs, p in feats["field"]])
 

@@ -1,0 +1,216 @@
+{
+ "id": "YM01",
+ "frame": "origin at the front middle of 正大光明殿's box F0004 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "zg_bays": {
+   "value": "7 bays: 5.168 + 2 x 4.832 + 4 x 4.32 m, porches 1.92 m all round",
+   "source": "S310",
+   "grade": "A",
+   "note": "NLC 样001-4 正大光明白差准底 as transcribed on mhymy record 10451: 明间一丈六尺一寸五, 二次间一丈五尺一寸, 四梢间一丈三尺五寸, 廊宽六尺; 32.11 m between the end columns of the seven bays, 35.95 m with the side porches"
+  },
+  "zg_depth": {
+   "value": "12.16 m between the 金柱 lines + 2 x 1.92 m porches = 16.0 m",
+   "source": "S310",
+   "grade": "A",
+   "note": "金柱中进深三丈八尺 (same slip); 进深五间 (S06, B): the 12.16 m split into three equal spans (C)"
+  },
+  "zg_porches": {
+   "value": "open porches front and sides; the rear porch walled in",
+   "source": "S310",
+   "grade": "A",
+   "note": "record 10451: 大殿结构本为周围廊式，但后廊被封入室内，仅三面有外廊，两山的廊子内无门窗装修 (the slip, as the 1744 leaf shows)"
+  },
+  "zg_fittings": {
+   "value": "door screens in the five middle bays front and back; the end bays windows over a sill wall in front, walled at the back",
+   "source": "S310;S251",
+   "grade": "B",
+   "note": "record 10451: 外檐装修全部为隔扇门，前后檐共十樘，后檐两端的两间未安木装修，均砌墙 (A); Barrow 1793: brick to about 4 ft between the inner columns, oiled-paper lattice above, opening entirely on public occasions (E1026, B): the front end bays drawn as windows on a sill wall (C)"
+  },
+  "zg_platform": {
+   "value": "39.3 x 19.2 m, 1.22 m high",
+   "source": "S02;S251",
+   "grade": "B",
+   "note": "Malone measured the foundation on site: 129 x 63 ft, 4 ft high (S02 p.75, E1009); Barrow: a granite platform about 4 ft high (S251 p.124, E1026)"
+  },
+  "zg_col": {
+   "value": 5.12,
+   "source": "S02;S251",
+   "grade": "C",
+   "note": "16 尺 (research/typology/params.json by_name, kept for this hall in Q182); Barrow's room was 20 ft (6.10 m) to the painted ceiling (E1026), above the eave columns as in a hall with porches"
+  },
+  "zg_columns": {
+   "value": "ten columns across the front, red; bases 0.84 m",
+   "source": "S02",
+   "grade": "B",
+   "note": "Malone: the façade presented a colonnade of ten columns; round column bases 2 ft 9 in across (S02 pp.75-76, E1009); red by the end of Qianlong's reign (S02 p.76)"
+  },
+  "zg_roof": {
+   "value": "single-eave rolled 歇山, grey tile",
+   "source": "S08;S337",
+   "grade": "B",
+   "note": "the 1744 leaf: 歇山, single eaves, the ridge reads as rolled, grey (S08 P0001, A for 1744); S337: 单檐卷棚歇山, ten purlins, grey tile (E1013, B); the 举架 of the grand_hall class (C)"
+  },
+  "zg_band": {
+   "value": "bracket band, painted blue, green, red and gilt",
+   "source": "S251;S240",
+   "grade": "B",
+   "note": "Barrow: a painted frieze in blue, red, green and gilt under a wire net against birds (E1026); Wolseley 1860: the same net under the eaves (E1033); the brackets and their count C"
+  },
+  "zg_flights": {
+   "value": "three flights from the terrace to the platform: the middle one 5.17 m wide, one before each end bay",
+   "source": "S02;S08",
+   "grade": "C",
+   "note": "Malone: ascended by three sets of stone steps (S02 p.75, B); the 1744 leaf paints a wide middle flight and a narrower one beside it (S08 P0001, A for 1744); where the third stands and the widths C"
+  },
+  "zg_plaque": {
+   "value": "正大光明, Yongzheng's hand, on the front eave",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j80:10b 世宗御題四字額者凡十有四正大光明殿其一也; the board's size and colours C"
+  },
+  "yuetai": {
+   "value": "38.40 x 14.82 m, 0.26 m high, four censers",
+   "source": "S119",
+   "grade": "B",
+   "note": "月台 12丈 x 4.63丈 x 0.8尺 with four censers, added between 1775 and 1793 (S119, as in research/typology/params.json; a secondary source); S01 draws it as wide as the hall (B); a balustrade round it C (the brief; no source shows one); the censers' form C"
+  },
+  "court": {
+   "value": "flagged, from the terrace to the gate line, between the side halls",
+   "source": "S240;S242;S01",
+   "grade": "B",
+   "note": "Wolseley 1860: a long flagged court with the hall at its far side (E1033); M'Ghee 1860: a second court about the same size (E2104); its extent as S01 draws it; a raised axis way C"
+  },
+  "side_halls": {
+   "value": "five bays each, facing the court",
+   "source": "S05;S01",
+   "grade": "B",
+   "note": "S05 j80:9b 東西配殿各五楹 (A); S01's 西穿堂 and 东穿堂 at the court's sides (B); their forms the class's (C)"
+  },
+  "gallery_E": {
+   "value": "a covered way from the hall's east end to the east range",
+   "source": "S08;S02;S01",
+   "grade": "B",
+   "note": "the 1744 leaf: a long low gallery running east from the hall (S08 P0001); Malone: a covered passage to the east (S02 p.76, E1009); S01's line at y 5413; its form C"
+  },
+  "shoushan": {
+   "value": "rock peaks behind the hall, 3-8 m above the hill",
+   "source": "S05;S08",
+   "grade": "C",
+   "note": "S05 j80:11a 屋後峭石壁立玉筍嶙峋 (A); the 1744 leaf's tall slender blue-grey peaks among pines (S08 P0001); their number, places and heights C (the leaf's are 2-3 eave heights, painted tall: Q198); on S01's rock ridges (H0055)"
+  },
+  "gate": {
+   "value": "出入贤良门: five bays, rolled 歇山, red plank doors in the middle three bays",
+   "source": "S05;S08;S337;S01",
+   "grade": "B",
+   "note": "S05 j80:9a 出入賢良門五楹 (A); S01's row of cells, about 21 m (B); S337: 卷棚歇山 (E1013, B); the 1744 leaf: a raised gate hall with red doors in its middle bays (S08 P0001); widths, column and platform the gate_hall class (C)"
+  },
+  "gate_plaque": {
+   "value": "出入贤良, Yongzheng's hand",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j80:9b 出入賢良門額世宗御書; the board C"
+  },
+  "zhifang": {
+   "value": "duty rooms either side of the gate, lower, gabled, white walls",
+   "source": "S05;S08;S01",
+   "grade": "B",
+   "note": "S05 j80:9a 門左右為直房 (A); the 1744 leaf: lower wings of about five bays, gabled, white walls and green lattice either side of the gate (S08 P0001); at S01's boxes B1151 and B1154; their form C"
+  },
+  "gate_line_wall": {
+   "value": "rubble-stone wall about 4 m high on the gate line",
+   "source": "S245;S08",
+   "grade": "B",
+   "note": "Varin 1860: the third enclosure had a wall about 4 m high and two small side doors (S245 pp.227-228, E2106, B); the 1744 leaf paints the wall on this line in rubble stone 虎皮石 (S08 P0001); its coping C"
+  },
+  "zhaomen": {
+   "value": "two side gates 罩门 in the gate line",
+   "source": "S05;S245;S01",
+   "grade": "B",
+   "note": "S05 j80:9b 東西設兩罩門 (A); Varin: two small side doors (B); placed in S01's two gaps beside the gate (B); their form C"
+  },
+  "moat": {
+   "value": "the moon-shaped canal, about 3 m wide, lined with white marble, red railings on its banks",
+   "source": "S05;S245;S08;S01",
+   "grade": "B",
+   "note": "S05 j80:9b 門前河形如月 (A); S01's two lines about 3 m apart (B, research/plan/water_manual.json); Varin 1860: a canal lined with white marble (S245 pp.227-228, B); the 1744 leaf: red railings along the canal's banks (S08 P0001); the water's level Round 10's (C)"
+  },
+  "bridge": {
+   "value": "one flat marble bridge on the axis, 4.6 m wide, its north end flared, wooden railings",
+   "source": "S01;S211;S245;S08",
+   "grade": "B",
+   "note": "S01 draws one bridge on the axis with a flared north end (B); S211: the bow-backed bridge before 出入贤良门 levelled flat in 己亥 1839 (E2443, A); Varin 1860: the bridge of marble with two wooden side galleries (S245 p.228, B): read as wooden railings (C); S05 gives three bridges (Q130): not drawn"
+  },
+  "dragons": {
+   "value": "two gilt bronze dragons on the bridge",
+   "source": "S245",
+   "grade": "B",
+   "note": "Varin: two gilt bronze dragons on the marble bridge, carried off later (S245 p.233 n.1, E2122); their places and form C"
+  },
+  "crossing": {
+   "value": "a slab crossing east of the axis",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01 breaks the canal's lines for about 3 m east of the axis (x 3365-3379): read as a crossing; a plain stone slab (C)"
+  },
+  "inner_court": {
+   "value": "flagged, the court offices 内朝房 either side, a long range on each side",
+   "source": "S242;S05;S01",
+   "grade": "B",
+   "note": "M'Ghee 1860: inside the first gate a large flagged courtyard, some hundred yards wide by eighty deep, with guard rooms at each side (E2104, B; his estimate: S01 gives about 85 x 40 m); S05 j80:9a 度橋東西朝房各五楹 (A); S01's west range (B1178) and its unboxed east twin (B); the halls' forms C"
+  },
+  "dgm": {
+   "value": "大宫门: five bays on a base 21.57 x 11.33 x 0.77 m, rolled 歇山, red plank doors with gilt studs",
+   "source": "S102;S05;S240;S337",
+   "grade": "B",
+   "note": "the 正大光明 survey report: the gate hall's base 21.57 x 11.33 m, 0.77 m high (S102, E1017, B); S05 j80:8b 大宫門五楹 (A); Wolseley 1860: red doors picked out in gold, the sills 2-3 ft above the pavement (E2109, B); S337: 卷棚歇山 (B); the column 4.16 m and the brackets C"
+  },
+  "dgm_plaque": {
+   "value": "圆明园, Yongzheng's hand",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j80:1b 懸大宫門者世宗御書 (the Kangxi plaque hangs on 圆明园殿); the board C"
+  },
+  "dgm_terrace": {
+   "value": "the gate's terrace 月台, 21.6 x 10 m, 0.40 m",
+   "source": "S01;S42",
+   "grade": "B",
+   "note": "S01 draws a rectangle as wide as the gate before it (B); S42 and S102 measure the spirit wall from the 宫门月台's south edge (E1017); its height C"
+  },
+  "lions": {
+   "value": "a pair of bronze lions on stone pedestals on the terrace",
+   "source": "S42;S240;S245;S01",
+   "grade": "B",
+   "note": "bronze lions from 1763 (S42); Wolseley: colossal, bronze-coloured, on granite pedestals (S240 p.230, E2123); Varin: bronze on white marble pedestals 3 m high (S245 p.233, E2122); S01's two squares on the terrace (B); their form C (Wolseley's 'colossal' read as about 3.6 m with the pedestal)"
+  },
+  "zuomen": {
+   "value": "左门: a small gate in the wall either side of 大宫门",
+   "source": "S42;S01",
+   "grade": "B",
+   "note": "S42 两侧设左右门; S01's two small boxes in the wall (both read 左门); their form C"
+  },
+  "palace_wall": {
+   "value": "the palace wall of the gate line: red, grey coping, 4.2 m",
+   "source": "S42;S01",
+   "grade": "C",
+   "note": "大宫门 stands astride the palace wall (S42 东西骑建宫墙, B); S01's double line west and east of the gate and round the inner court (Round 19's W01); red and the height C (the 宫墙 of the palaces)"
+  },
+  "waichaofang": {
+   "value": "外朝房: five bays each, either side of the road before the gate",
+   "source": "S05;S01",
+   "grade": "B",
+   "note": "S05 j80:8b 門前左右朝房各五楹 (A); at S01's boxes F0254, F0255 (B); their form the class's (C)"
+  },
+  "road": {
+   "value": "the stone road 石甬路 on the axis, 4.8 m wide",
+   "source": "S05;S42;S01",
+   "grade": "B",
+   "note": "S05 j80:7b 大宫門前輦道; S42 宫门前石甬路; S01's two lines 4.8 m apart (B)"
+  },
+  "colours": {
+   "value": "red columns and doors, green-blue lattice and beams, grey tile, white and rubble walls",
+   "source": "S08;S02",
+   "grade": "B",
+   "note": "the 1744 leaf (S08 P0001, A for 1744): red columns and doors, green-blue lattice, grey tile, white walls with grey coping round the office courts, red railings; Malone: red columns by the end of Qianlong's reign (S02 p.76)"
+  }
+ }
+}

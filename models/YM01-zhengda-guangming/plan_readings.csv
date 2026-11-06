@@ -1,0 +1,35 @@
+name,what,plan_px,note
+hall_strip,正大光明殿: the row of seven cells S01 draws for the hall,3231 5415;3383 5474,"S01 (Round 19 reading, 2.4x crop 'hall'): seven cells between x 3231 and 3383 (152 px, about 31 m), y 5415-5474, a double line along the front (the porch); the slip's hall is 35.95 x 16.0 m and Malone's foundation 39.3 x 19.2 m: S01 draws the hall about 0.88 times its size"
+yuetai,the rectangle before the hall with the label 正大光明: read as the terrace 月台,3233 5474;3385 5549,"S01 crop 'hall': X 440-805, Y 225-405 at 2.4x; as wide as the hall, 75 px (about 16 m) deep; S119's 月台 is 38.40 x 14.82 m"
+gallery_E,the line from the hall's north-east corner east to the east side hall,3383 5413;3504 5413,"S01 crop 'hall': a double line at y 5413 from the hall's back corner to the east range; the 1744 leaf paints a long low covered gallery running east from the hall (S08 P0001) and Malone writes of a covered passage to the east (S02 p.76): read as that gallery"
+side_W,西穿堂: the west side hall (S05 東西配殿各五楹),3081 5484;3112 5567,"S01 crop 'hall': five cells N-S at x 3081-3112, y 5484-5567, the label 西穿堂 (Round 1, box F0005)"
+side_E,东穿堂: the east side hall,3481 5472;3508 5551,"S01 crop 'hall': five cells N-S at x 3481-3508, y 5472-5551, the label 东穿堂 (box F0006)"
+court_E,the court's east wall,3505 5413;3505 5655,"S01 crop 'hall': a single line at x 3502-3510 from the gallery line to the gate line; the west of 洞明堂's compound"
+gate,出入贤良门: the gate hall's cells,3256 5655;3356 5682,"S01 crop 'gate': a row of cells x 3256-3356 (100 px, about 21 m), y 5655-5682, the label written right to left below it; five bays (S05 j80:9a 出入賢良門五楹)"
+gate_line,the court's south wall on the gate line,3012 5662;3505 5662,"S01 crop 'gate': the line along the top of the cells at y 5660-5664 runs from x 3050 to 3550; the 直房 hang south of it; drawn from the east end of the kit hall B1150 (x 3012) to the court's east wall"
+zhifang_W,the west duty-room range beside the gate (B1151),3131 5660;3221 5682,"S01: four cells; S05 j80:9a 門左右為直房; the 1744 leaf paints lower five-bay wings either side of the gate"
+zhifang_E,the east duty-room range beside the gate (B1154),3385 5657;3479 5680,S01: five cells
+zhaomen_W,the west gap in the gate line: a side gate 罩门,3221 5662;3256 5662,"S01 leaves the line open between the west range and the gate; S05 j80:9b 東西設兩罩門, Varin 1860: two small side doors (S245 pp.227-228); the gate in the gap C"
+zhaomen_E,the east gap in the gate line,3356 5662;3385 5662,as the west
+bridge,the bridge on the axis over the moat,3298 5741;3320 5765,"S01 crop 'moatE' at 4x: a box x 3297.5-3320, y 5741-5765 (about 4.6 m wide) with a flare on its north end, x 3287.5-3331 at y 5732 (about 9 m): one bridge drawn (S05 j80:9b gives three, Q130)"
+bridge_flare,the bridge's flared north end,3287.5 5732;3331 5741,S01 crop 'moatE'
+crossing_E,the plan's break in the moat east of the axis,3365 5741;3379 5751,"S01 crop 'moatE': the channel's two lines end at x 3365 and start again at x 3379: a crossing about 3 m wide, drawn as a slab bridge (C)"
+neichaofang_W,内朝房 west (F0002),3131 5776;3165 5853,"S01 crop 'gate': five cells N-S, the label 配殿; S05 j80:9a 度橋東西朝房各五楹"
+neichaofang_E,内朝房 east (F0003),3425 5764;3460 5845,S01: five cells N-S
+range_E,the long range on the inner court's east side,3473 5750;3496 5880,"S01 crop 'gate': a long N-S row of cells at x 3473-3496 from just south of the moat to y 5880, the twin of the west range B1178 (x 3092-3121); Round 1 gave it no box; its north end held back to 5750 from the moat (C)"
+wall_inner_W,the inner court's west side: the garden wall (Round 19 W01),3088 5765;3090 5966,"S01: the line behind the west range, from the moat line to the slanted corner of the 大宫门 wall"
+wall_inner_E,the inner court's east side,3500 5768;3497 5957,S01: the line behind the east range
+dgm,大宫门: the gate hall's cells,3246 5920;3348 5951,"S01 crop 'dgm': five cells x 3246-3348 (102 px), y 5920-5951; the dig: base 21.57 x 11.33 m, 0.77 m high (S102)"
+dgm_yuetai,the terrace before 大宫门,3244 5951;3348 5999,"S01 crop 'dgm': a rectangle as wide as the gate, 48 px (about 10 m) deep; S42's 宫门月台"
+lion_W,the west lion's pedestal on the terrace,3254 5980,"S01 crop 'dgm': a small square on the terrace's west side; Wolseley and Varin saw a pair of colossal bronze lions on pedestals either side of the road (S240 p.230, S245 p.233)"
+lion_E,the east lion's pedestal,3337 5980,S01 crop 'dgm': the twin square
+dgm_wall_W,the wall west of 大宫门 to its slanted corner,3246 5940;3115 5938;3090 5966,"S01 crop 'dgm': a double line west of the gate (about 1.7 m apart), turning south-west at x 3115"
+dgm_wall_E,the wall east of 大宫门,3348 5932;3463 5928;3497 5957,S01 crop 'dgm': as the west
+zuomen_W,左门: the small gate in the wall west of 大宫门,3181 5940;3204 5949,"S01 crop 'dgm': a small two-cell box in the wall, labelled 左门 (both labels read 左门); S42 两侧设左右门"
+zuomen_E,左门 east,3379 5930;3408 5942,S01 crop 'dgm'
+road_S,the stone road south of the terrace,3283 5999;3306 6105,"S01 crop 'dgm': two lines 23 px (about 4.8 m) apart on the axis running south; S05 j80:7b 大宫門前輦道, S42 宫门前石甬路"
+qz_hall,勤政殿: the hall of five bays,3627.5 5412;3734 5443,"S01 crop 'qinzheng' at 4x: the whole width x 3627.5-3734 (about 22 m) between y 5412 and 5443"
+qz_baosha_S,勤政殿: its front porch 抱厦 of three bays,3650 5443;3716 5457.5,S01 crop 'qinzheng': the middle cells run on south of the hall to y 5457.5 (S310 rec. 7310: 五间 with 抱厦三间 front and back)
+qz_baosha_N,勤政殿: its rear porch 抱厦,3650 5397.5;3716 5412,S01 crop 'qinzheng': the middle cells run on north to y 5397.5
+qz_court,勤政殿's court,3602.5 5460;3760 5587,"S01 crop 'qinzheng': a walled court before the hall, x 3602.5-3760, y 5460-5587, a gate in its south wall"
+qz_gate,the court's south gate,3671 5579;3691 5595,S01 crop 'qinzheng': a small box in the south wall

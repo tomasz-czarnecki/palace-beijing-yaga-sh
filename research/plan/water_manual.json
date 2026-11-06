@@ -1,0 +1,12 @@
+[
+ {
+  "region_id": "RM001",
+  "class": "water",
+  "name_zh": "",
+  "kind": "canal",
+  "confidence": "B",
+  "points": [[3047, 5701], [3065, 5700], [3102.5, 5698], [3115, 5700], [3130, 5710], [3145, 5727.5], [3160, 5745], [3172.5, 5752.5], [3202.5, 5754], [3290, 5750], [3320, 5746], [3365, 5741], [3379, 5740], [3415, 5736], [3435, 5722.5], [3452.5, 5707.5], [3470, 5694], [3495, 5686], [3549, 5684],
+             [3549, 5699], [3505, 5697.5], [3480, 5702.5], [3460, 5717.5], [3440, 5732.5], [3420, 5745], [3379, 5751], [3365, 5751], [3320, 5757], [3295, 5764], [3265, 5767.5], [3190, 5766], [3165, 5762.5], [3152.5, 5755], [3140, 5740], [3127.5, 5727.5], [3115, 5717.5], [3102.5, 5714], [3050, 5715], [3047, 5715]],
+  "note": "manual (Round 19): the moon-shaped canal before 出入贤良门 (S05 j80:9b 門前河形如月, its water from the west running east to the sluice at 如意门), traced on 4x crops of S01 between the two ink lines, 13-16 px apart (about 3 m); the channel runs on under the bridge on the axis (x 3298-3320) and under the plan's break east of it (x 3365-3379). Too narrow for the tracer: its two arms were land regions R2698 and R2782. Lined with white marble (Varin 1860, S245 pp.227-228)."
+ }
+]

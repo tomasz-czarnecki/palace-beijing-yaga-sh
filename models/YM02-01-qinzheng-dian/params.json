@@ -1,0 +1,36 @@
+{
+ "id": "YM02-01",
+ "frame": "origin at the front middle of the box F0008 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "qz_plan": {
+   "value": "five bays with a three-bay porch 抱厦 front and back, facing south",
+   "source": "S310;S01",
+   "grade": "A",
+   "note": "勤政殿地盘图样 (mhymy ysltd 7310, free part) and ysltd/11009: 五间 facing south with 抱厦三间 front and rear (A); S01 draws the same: five bays about 22 m, the middle three run on south and north (B, plan_readings.csv qz_*); S05 j80:11b 正殿五楹 (A)"
+  },
+  "qz_sizes": {
+   "value": "22.2 m frontage, 6.6 m deep body, porches 3.3 m",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 in plan pixels (x 3627.5-3734, y 5397.5-5457.5); the bays' widths, the depth's split and every height C"
+  },
+  "qz_roof": {
+   "value": "rolled 歇山, grey; the porches' rolled roofs joined to the hall's slopes",
+   "source": "S08",
+   "grade": "C",
+   "note": "the class (the 1744 leaf shows an earlier state here: S41); grey as the garden's halls (S08)"
+  },
+  "qz_plaques": {
+   "value": "勤政亲贤 front, 为君难 rear",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j80:18a: 額曰勤政親賢; 後楹額曰為君難; boards C"
+  },
+  "qz_court": {
+   "value": "the walled court before it as S01 draws it, paved, a gate in its south wall",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 crop 'qinzheng': the court x 3602.5-3760, y 5460-5587, a small gate box in the south wall; white walls with grey coping (C)"
+  }
+ }
+}

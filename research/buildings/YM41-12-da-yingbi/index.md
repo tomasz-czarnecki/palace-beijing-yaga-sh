@@ -21,7 +21,12 @@ Yuanming Yuan
 
 ## Our model now
 
-No box in the 3D view: the plan shows no building here, or a plot, water, a hill or a name only.
+The spirit wall that closed the road south of 大宫门: its length, thickness and height from Malone's measurements and the survey report (B), its place 204.8 m south of the gate's terrace (the survey report, B), beyond the plan; its ornament is not known and its form is the screen wall's typology (C).
+
+- **Size:** 41.6 m long (S102), over 5 ft = 1.52 m thick and about 15 ft = 4.57 m high (Malone, S02 p.69); B
+- **Place:** On the axis, 204.8 m south of the 大宫门 terrace's south edge (S102, B); off S01, so the bearing is the model's axis (C)
+- **Form:** A stone base, the faces framed with a middle panel, a grey tiled hip coping (C: Malone calls it ornamented and gives no more)
+- **Later:** It stood after 1860 until it was torn down for its materials, after Malone measured it (S02 p.69)
 
 ## Pictures (0)
 

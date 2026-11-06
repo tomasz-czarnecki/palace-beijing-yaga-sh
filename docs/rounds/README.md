@@ -29,6 +29,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r16_yuanying` | not recorded | 2026-11-06, from 03:49 | about 1 h | - | see its result row | see the git log | done |
 | `palace_r17_hanjing` | not recorded | 2026-11-06, from 04:44 | about 2 h 30 min | - | see its result row | see the git log | done |
 | `palace_r18_jiuzhou` | not recorded | 2026-11-06, from 06:57 | about 2 h | - | see its result row | see the git log | done |
+| `palace_r19_zhengda` | not recorded | 2026-11-06, from 07:51 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -636,3 +637,32 @@ Brief: `palace_r18_jiuzhou.md`. The central axis of 九洲清晏 YM03 in its sta
 - **The leaf's readings:** two points on neighbouring halls, found on the overlay, re-read; the fit got worse and truer.
 - **Open:** Q250-Q255; every width, depth and height of 奉三无私殿 and 九洲清晏殿 is C until 样011-3 is seen; the kit's 七间殿 (S01's Tongzhi design) stands east of 九洲清晏殿 (Q255); the bridge to 来青亭 (BR007) stays Round 10's deck.
 
+## palace_r19_zhengda
+
+Brief: `palace_r19_zhengda.md`. The formal entrance of the garden, 正大光明 YM01 with 大宫门, the third detailed model of a Chinese compound, `models/YM01-zhengda-guangming/`, with 勤政殿 YM02-01 and the spirit wall YM41-12 as small models of their own.
+
+**What it delivered:**
+- **The model:** from the terrace before 大宫门 to the rock peaks behind the hall, 160 m: 大宫门 on the dig's base (21.57 x 11.33 x 0.77 m, S102) with Yongzheng's plaque and red plank doors, the palace wall either side with a 左门 in each run, its terrace with the pair of bronze lions on S01's squares, the 外朝房 and the stone road; the inner court, flagged, with the 内朝房, the west range (kit) and its unboxed east twin, the garden wall round it; the moon-shaped canal (Round 10's water, its marble lining and coping, red railings on both banks), the flat marble bridge on the axis with its flared north end, wooden railings and two gilt dragons, a slab crossing in S01's break; 出入贤良门 of five bays with plaques front and back, the duty rooms either side, the gate line's rubble wall 4 m high and its two side gates; the flagged court with the five-bay side halls, the covered way east and the court's east wall; 正大光明殿 from the slip 样001-4 (seven bays, porches 1.92 m all round, the rear porch walled in, ten red columns across the front) on Malone's platform with three flights from S119's terrace (four censers, a balustrade); ten slender rock peaks and two rock piles of 寿山. 勤政殿: five bays with three-bay porches front and back (ysltd 7310), its plaques, its walled court. 大影壁: 41.6 x 1.52 x 4.57 m, 204.8 m south of the gate's terrace, its ornament C.
+- **Tools and layers:** `research/plan/water_manual.json` (water the tracer could not close, traced by hand; read by `scripts/build_r1.py`): the canal W0364; W01 moved round the gate court (`research/plan/walls.json`, `walls_manual.json`; Q259); `scripts/hills1860.py` `model_courts()` (no generated hill in a court, yard or terrace a model paves); `scripts/kit1860.py` `model_hides()` (a summary's `hides` now hides the box: nothing read it before); a summary's `walls_cut` (`scripts/building_pages.py`, `3d.js` `buildStructures`); key points `<hall>_col_<corner>`; the trace YMC-001 got a point on its drawn line so that the road meets the gate's terrace (`research/paths/traces.csv`).
+- **Key points:** 16 on the leaf P0001 (`research/scenes/YM01-zhengda-guangming/plate_keypoints.csv`), read by the coordinator on 3.5x and 5x crops; no readers were spawned (one picture).
+- **Questions** Q256-Q263; three wish rows; the dossier's notes.
+
+**Numbers:**
+- **check_models:** YM01 35,315 triangles (19,570 fill), GLB 1.11 MB, 0.31 MB compressed; 88 ground joints, none above the ground, deepest 0.25 m in; 11 ways at its boxes, 0 off. YM02-01 4,624 triangles (1,124 fill), 0.04 MB compressed; 26 joints, deepest 0.16 m; 3 ways, 0 off. YM41-12 386 triangles; 4 joints, 0.15 m in. CC02 78,202 to 78,226 triangles: five generated hills left its courts and forecourt, so its ground moved.
+- **Fit (rms at the object, one camera on all 16 points):** P0001 3.6 m (median 3.0, max 6.2 m; 14.2 px). The gate, its wings and the hall lie on the leaf's; the leaf paints the east ends 15-24 px further east and every column taller (Q263).
+- **The axis:** S01's eight reads spread 4.26 m on the box F0004's bearing, 2.76 m on the axis S01 draws (the frame turned 2.25°).
+- **Sizes against S01:** the hall group 34.1 m deep as stated against S01's 26.8 m; the hall 39.2 m wide against S01's 31.7 m; 大宫门 21.57 m against 20.7 m; 出入贤良门 22.6 m against 20.5 m. The court 22.6 m from the terrace to the gate line, 79 m between the side halls; the inner court 83 m wide, 29.8 m from the canal to 大宫门. The canal 303 m2, its water 1.65 m under the bridge's deck.
+- **Ground and planting:** hills 472 to 462 (the 7.2 m hill H2342 in the court before the hall, five in 含经堂's courts); YM01's planting areas 17 to 13; the planting keeps off the courts.
+- **Paths:** lines crossing a box, wall or water 84 to 83 (A or B 22 to 22); route R1 530.7 to 540.4 m (勤政殿 is reached at its front porch inside its court), R2 210.7 to 211.4 m (the road now meets 大宫门's terrace).
+- **Cost:** the overview draws 1.195 M triangles (1.157 M in Round 18) at a 635 ms median frame in software WebGL. The site grows by 1.3 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser` (port 8954), `check_greens.py --browser` (port 8955).
+- Step 6 run twice after the last change to the layers: no file changed (md5 of site/, models/ and research/); the generator run twice: the same GLBs; `scripts/building_pages.py` run twice: no file of `site/` changed.
+- Screenshots in `screenshots/r19/`, opened: before (the kit) and after from the same 21 views (aerial, the leaf's direction, the gate's front, the gate court, the court at eye height, the rear from the north, both sides, the hall's front, the bridge, the lions, the overview; the terrace's corner, 大宫门's terrace, the hall's rear wall and west side, the peaks, the canal, 勤政殿 front and rear, the spirit wall), `conf=1` and `assumed=0`, the panels of YM01, YM02-01 and YM41-12, the processional way R2 at four stops; the overlay of P0001 (blend, edges, side by side, the points); v1's shots kept in scratch.
+
+**Went wrong or left open:**
+- **A generated hill of 7.2 m stood in the court** and lifted the terrace 5.8 m on the first run; **a kit gate hall stood on the bridge** (`gates.json` G02: `hides` was published but never read); **the garden wall ran along the canal through the bridge**; **大宫门 stood 3 m off the axis** on the box's bearing; **the road ended at a court office's flight** (the model's zone dropped its last point): all found on the shots or the run's numbers, fixed at their source.
+- **Two cameras stood inside a hall or a roof** (the canal, 勤政殿) and two inside tree crowns: re-aimed.
+- **The panel's Chinese characters render as boxes** in the headless Chrome of this server (no CJK font): the browser's, not the page's.
+- **Open:** Q256-Q263; every height but the platforms' is C until the Yangshi Lei sheets of 正大光明 are seen (wishlist); the Fan Lakes south of the gate are not in the ground (beyond S01).

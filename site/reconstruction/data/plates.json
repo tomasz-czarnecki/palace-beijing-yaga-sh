@@ -1649,6 +1649,31 @@
 }
 }
 },
+"P0001": {
+"object": "YM01",
+"plate": "",
+"image": "photos/P0001.jpg",
+"size": [
+1920,
+1096
+],
+"fits": {
+"all": {
+"position": [
+-450.64,
+108.89,
+432.72
+],
+"yaw_deg": 353.27,
+"pitch_deg": -4.4,
+"f_px": 490.6,
+"du_px": 843.7,
+"dv_px": -179.9,
+"k_vertical": 1.0,
+"rms_px": 14.2
+}
+}
+},
 "P0003": {
 "object": "YM03",
 "plate": "",

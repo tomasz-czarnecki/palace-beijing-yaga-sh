@@ -89,6 +89,38 @@
     5775
    ],
    [
+    3500,
+    5768
+   ],
+   [
+    3497,
+    5957
+   ],
+   [
+    3463,
+    5928
+   ],
+   [
+    3348,
+    5932
+   ],
+   [
+    3246,
+    5940
+   ],
+   [
+    3115,
+    5938
+   ],
+   [
+    3090,
+    5966
+   ],
+   [
+    3088,
+    5765
+   ],
+   [
     3000,
     5761
    ],
@@ -129,7 +161,7 @@
     323
    ]
   ],
-  "note": "Single inner line of the wall ring; the double lines further out (x about 222/241 on the west, y about 190/210 on the north) are read as the road or moat strip outside it. Gate G05 at the east end sits on this line. Picked by eye from crops and line profiles, not snapped: expect about 10-20 px off the ink.",
+  "note": "Single inner line of the wall ring; the double lines further out (x about 222/241 on the west, y about 190/210 on the north) are read as the road or moat strip outside it. Gate G05 at the east end sits on this line. Picked by eye from crops and line profiles, not snapped: expect about 10-20 px off the ink. Round 19: between x 3900 and 3000 the ring goes round the gate court of 正大光明 (the court's east and west ranges, the 大宫门 line with the gate and its 左门), as S01 draws it and as the dig and S42 have the gate standing on the palace wall (东西骑建宫墙); before, the ring ran straight along the moat before 出入贤良门. The plan was not re-traced: its regions keep the old line burnt in (research/plan/regions.json).",
   "source": "S01"
  },
  {

@@ -1,0 +1,81 @@
+{
+ "object": "YM01",
+ "label": "",
+ "points_from": "model YM01-zhengda-guangming",
+ "cameras": {
+  "P0001": {
+   "plate": "",
+   "image": "P0001.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1096
+   ],
+   "object": "YM01",
+   "points_from": "model YM01-zhengda-guangming",
+   "prior": {
+    "lat": 40.0001008,
+    "lon": 116.2911548,
+    "err": 120.0,
+    "bearing": 345.0,
+    "eye": 80.0,
+    "eye_sd": 60.0,
+    "f2400": 3805.9137628358553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 19: the 1744 leaf is a painting, not a photograph: a bird's-eye view from the south-south-east over the moat, the gate and the court to the hall (the hall's east gable shows, and the hall stands right of the gate in the picture: the painter's eye east of the axis); the prior is weak on purpose (120 m in plan, eye 80 m, sd 60 m, an assumed 35° lens): the fit measures how far one perspective camera can explain the painter's placing of the gate, its wings and the hall"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      -450.64,
+      108.89,
+      432.72
+     ],
+     "yaw_deg": 353.27,
+     "pitch_deg": -4.4,
+     "f_px": 490.6,
+     "du_px": 843.7,
+     "dv_px": -179.9,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 106.44,
+     "moved_from_prior_m": 81.1,
+     "points": {
+      "n": 16,
+      "rms_px": 14.2,
+      "median_px": 13.0,
+      "max_px": 26.8,
+      "rms_m": 3.6,
+      "median_m": 3.04,
+      "max_m": 6.19
+     },
+     "tests": {
+      "n": 16,
+      "rms_px": 14.2,
+      "median_px": 13.0,
+      "max_px": 26.8,
+      "rms_m": 3.6,
+      "median_m": 3.04,
+      "max_m": 6.19
+     },
+     "sure12": {
+      "n": 10,
+      "rms_px": 13.8,
+      "median_px": 12.0,
+      "max_px": 26.8,
+      "rms_m": 3.22,
+      "median_m": 2.74,
+      "max_m": 5.99
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

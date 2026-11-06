@@ -399,8 +399,8 @@
    "grade_class": "fill"
   }
  },
- "deck_y": 2.19,
- "forecourt_y": 0.09,
+ "deck_y": 2.16,
+ "forecourt_y": 0.06,
  "axis_x": -0.73,
  "axis_spread_m": 1.0,
  "gate_flight_run_m": 4.2,
@@ -467,5 +467,5 @@
   "basis": "E0068 (淳化轩's court plums), S940 p.364 (pine, bamboo and plum outside 三友轩); places C"
  },
  "sanyou_walk_m": 1.5,
- "triangles": 78202
+ "triangles": 78226
 }

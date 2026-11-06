@@ -80,6 +80,15 @@ def model_ids():
     return out
 
 
+def model_hides():
+    """Round 19: boxes a detailed model names in `hides` (phantom volumes standing inside it, not its own rows: a gate box of gates.json on its bridge): the kit draws
+    nothing for them and halls3d.js puts them with the model's boxes (src model), unseen once the model has loaded."""
+    out = set()
+    for p in (ROOT / "models").glob("*/summary.json"):
+        out.update(json.load(open(p, encoding="utf-8")).get("hides", []))
+    return out
+
+
 def steps_by_box(feats):
     """The sides of each box that a way of Round 9 reaches (paths_1860 from_at / to_at, 'F0568:front'), with where along the side the way arrives (m from the side's middle): steps there."""
     frames = {}
@@ -439,6 +448,7 @@ def main():
     feats = fc["features"]
     steps = steps_by_box(feats)
     models = model_ids()
+    hidden = model_hides()
     halls = {}
     for f in feats:
         p = f["properties"]
@@ -452,7 +462,7 @@ def main():
             halls[p["id"]] = shape_entry(p)
         else:
             halls[p["id"]] = hall_entry(p, steps, models)
-        if p["building_id"] in models:  # Round 13: a detailed model stands here; the kit draws nothing for its boxes (European ones too)
+        if p["building_id"] in models or p["id"] in hidden:  # Round 13: a detailed model stands here; the kit draws nothing for its boxes (European ones too). Round 19: nor for a box it hides
             halls[p["id"]]["src"] = "model"
     court = courts(feats)
     out = {

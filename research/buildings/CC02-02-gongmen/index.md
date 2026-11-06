@@ -73,6 +73,10 @@ The walled compound as the plan S01 draws it, on the terrace the dig shows, with
 - Q159: Commons files the bronze qilin before 仁寿殿 at 颐和园 (Category:Statue of Qilin (Hall of Benevo
 - Q186: Which line on the plan is the garden wall on the north and west of Yuanming Yuan?
 - Q196: The width of a paved way 甬道 is not known anywhere
+- Q256: S01 draws 正大光明殿 and its terrace small
+- Q259: The garden wall round the gate court
+- Q260: The lions of 大宫门
+- Q262: The east range of the inner court
 
 <!-- generated:end -->
 

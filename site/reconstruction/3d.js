@@ -117,8 +117,8 @@ const state = { kit: params.get("kit") !== "0", halls: params.get("halls") !== "
 const meshes = {};
 let walking = false, touring = null;
 
-// Walls as thin solids, bridges as decks. One mesh each. Bridges with a row in buildings.csv are clickable through `bridgeBoxes`. Round 18: a bridge a detailed model draws (models.json `bridges`) is left out.
-function buildStructures(data, skipBridges = new Set()) {
+// Walls as thin solids, bridges as decks. One mesh each. Bridges with a row in buildings.csv are clickable through `bridgeBoxes`. Round 18: a bridge a detailed model draws (models.json `bridges`) is left out; Round 19: so are the wall segments inside a model's `walls_cut`.
+function buildStructures(data, skipBridges = new Set(), wallCuts = []) {
   const group = new THREE.Group();
   const pushBox = (out, ax, az, bx, bz, half, y0, y1, y0b = y0, y1b = y1) => {
     const dx = bx - ax, dz = bz - az, len = Math.hypot(dx, dz) || 1, nx = (-dz / len) * half, nz = (dx / len) * half;
@@ -131,7 +131,8 @@ function buildStructures(data, skipBridges = new Set()) {
   };
   const wall = [];
   const half = data.wall.thickness_m / 2;
-  for (const [ax, az, bx, bz, y0, y1] of data.wall.segments) pushBox(wall, ax, az, bx, bz, half, y0, y1);
+  const cut = (x, z) => wallCuts.some((poly) => { let ins = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) ins = !ins; } return ins; });
+  for (const [ax, az, bx, bz, y0, y1] of data.wall.segments) if (!cut((ax + bx) / 2, (az + bz) / 2)) pushBox(wall, ax, az, bx, bz, half, y0, y1); // Round 19: a model's `walls_cut` (it draws those walls itself)
   const wallGeo = new THREE.BufferGeometry();
   wallGeo.setAttribute("position", new THREE.BufferAttribute(new Float32Array(wall), 3));
   wallGeo.computeVertexNormals();
@@ -217,7 +218,7 @@ async function main() {
   const greens = buildGreens({ meta: greensMeta, buf: greensBuf, datum: meta.datum_m, toXZ });
   world.add(greens.group);
   greensUpdate = greens.update;
-  meshes.structures = buildStructures(structures, new Set(Object.values(MODELS).flatMap((c) => c.bridges || [])));
+  meshes.structures = buildStructures(structures, new Set(Object.values(MODELS).flatMap((c) => c.bridges || [])), Object.values(MODELS).flatMap((c) => c.walls_cut || []));
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
   // Round 16: a raised floor a model draws (a terrace, models.json `decks`) carries the ways that cross it: they are laid on it, not on the ground under it

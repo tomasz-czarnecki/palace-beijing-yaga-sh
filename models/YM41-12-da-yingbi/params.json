@@ -1,0 +1,24 @@
+{
+ "id": "YM41-12",
+ "frame": "origin at the wall's middle at its ground; x east along the wall, y up, z south (scripts/model_site.py)",
+ "params": {
+  "yb_size": {
+   "value": "41.6 m long, 1.5 m thick, 4.57 m high",
+   "source": "S102;S02",
+   "grade": "B",
+   "note": "the survey report: 东西长41.6 m (S102, E1017); Malone measured it before it was torn down: 137 ft long, over 5 ft thick, about 15 ft high (S02 p.69, E2114: 41.8 x 1.52 x 4.57 m)"
+  },
+  "yb_place": {
+   "value": "204.8 m south of the gate terrace's south edge, on the axis",
+   "source": "S102",
+   "grade": "B",
+   "note": "自宫门月台南沿至影壁 204.8 m (S102, E1017); beyond the plan S01, which stops about 140 m south of the gate: on the model's axis (C for its bearing)"
+  },
+  "yb_form": {
+   "value": "a screen wall on a stone base, its faces framed, a tiled hip coping",
+   "source": "S02",
+   "grade": "C",
+   "note": "Malone: an ornamented spirit wall (S02 p.69); the base, the panels and the coping the screen wall's typology (C)"
+  }
+ }
+}

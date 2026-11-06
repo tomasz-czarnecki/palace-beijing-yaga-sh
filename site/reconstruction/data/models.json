@@ -73,7 +73,7 @@
    "decks": [
     {
      "name": "terrace",
-     "y": 2.82,
+     "y": 2.79,
      "poly": [
       [
        826.829,
@@ -135,7 +135,7 @@
     },
     {
      "name": "north_gate",
-     "y": 2.97,
+     "y": 2.94,
      "poly": [
       [
        865.011,
@@ -352,6 +352,146 @@
     "XY11-M53"
    ]
   },
+  "YM01": {
+   "url": "models/YM01/model.glb",
+   "name": "正大光明 Zhengda Guangming",
+   "aliases": [
+    "YM01-01",
+    "YM01-02",
+    "YM01-03",
+    "YM01-08",
+    "YM01-09",
+    "YM01-B1151",
+    "YM01-B1154",
+    "YM41-01",
+    "YM41-02",
+    "YM41-04"
+   ],
+   "position": [
+    -558.931,
+    2.33,
+    297.617
+   ],
+   "rotationY": 0.05142,
+   "caption": {
+    "frontage_m": 83.3,
+    "depth_m": 164.5,
+    "eave_m": 6.93,
+    "ridge_m": 12.66,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [
+    "GB02",
+    "GB27",
+    "GB28"
+   ],
+   "boxes": [
+    "F0001",
+    "F0002",
+    "F0003",
+    "F0004",
+    "F0005",
+    "F0006",
+    "F0252",
+    "F0254",
+    "F0255",
+    "F1358",
+    "F1359"
+   ],
+   "decks": [
+    {
+     "name": "yuetai",
+     "y": 2.675,
+     "poly": [
+      [
+       -576.834,
+       299.331
+      ],
+      [
+       -538.485,
+       297.357
+      ],
+      [
+       -537.724,
+       312.154
+      ],
+      [
+       -576.073,
+       314.127
+      ]
+     ]
+    },
+    {
+     "name": "dgm_terrace",
+     "y": 2.9,
+     "poly": [
+      [
+       -563.182,
+       400.871
+      ],
+      [
+       -541.641,
+       399.762
+      ],
+      [
+       -541.255,
+       407.261
+      ],
+      [
+       -562.797,
+       408.37
+      ]
+     ]
+    }
+   ],
+   "bridges": [
+    "BR006"
+   ],
+   "walls_cut": [
+    [
+     [
+      -603.257,
+      326.886
+     ],
+     [
+      -512.073,
+      322.193
+     ],
+     [
+      -507.408,
+      409.524
+     ],
+     [
+      -597.145,
+      414.143
+     ]
+    ]
+   ]
+  },
+  "YM02-01": {
+   "url": "models/YM02-01/model.glb",
+   "name": "勤政殿 Qinzheng Dian",
+   "aliases": [],
+   "position": [
+    -480.505,
+    2.27,
+    281.098
+   ],
+   "rotationY": 0.07854,
+   "caption": {
+    "frontage_m": 22.0,
+    "depth_m": 12.4,
+    "eave_m": 4.86,
+    "ridge_m": 6.78,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "F0008"
+   ]
+  },
   "YM03-21": {
    "url": "models/YM03-21/model.glb",
    "name": "如意桥 Ruyi Qiao",
@@ -453,6 +593,26 @@
     "F0022",
     "F0569"
    ]
+  },
+  "YM41-12": {
+   "url": "models/YM41-12/model.glb",
+   "name": "大影壁 Da Yingbi",
+   "aliases": [],
+   "position": [
+    -541.5,
+    2.706,
+    612.345
+   ],
+   "rotationY": 0.05142,
+   "caption": {
+    "frontage_m": 41.6,
+    "depth_m": 1.52,
+    "top_m": 51.13,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": []
   }
  }
 }
