@@ -91,8 +91,8 @@ plate,photo_id,object,point,x,y,sure,use,note
 10,P0050,XY08,blk_ridge_N,497,380,2,,north end of the north end-pavilion's short top ridge (lower edge of ridge below ornament); the long middle roof's ridge is lower (y~402) and meets this pavilion's hip at x~593
 10,P0050,XY08,blk_ridge_S,1887,377,2,,south end of the south end-pavilion's short top ridge; the long middle roof's ridge meets this pavilion's hip at x~1790 y~401
 10,P0050,XY08,blk_stair_land_W,1200,668,3,,top of the landing's front parapet on the axis (base of the fish-and-shell cascade group); the landing floor edge itself is hidden behind the parapet
-10,P0050,XY08,pool12_rim_N,422,1031,2,,leftmost (north) point of the curved rim's outer edge where it sweeps back to the north stair foot; image-extreme not plan-extreme
-10,P0050,XY08,pool12_rim_S,1978,1027,2,,rightmost (south) point of the curved rim's outer edge at the south stair foot; image-extreme not plan-extreme
+10,P0050,XY08,pool12_rim_L,422,1031,2,,leftmost (north) point of the curved rim's outer edge where it sweeps back to the north stair foot; image-extreme not plan-extreme
+10,P0050,XY08,pool12_rim_R,1978,1027,2,,rightmost (south) point of the curved rim's outer edge at the south stair foot; image-extreme not plan-extreme
 10,P0050,XY08,pool12_rim_W,1200,1191,2,,top edge of the front rim band on the axis (bottom of rim y~1210); sea-creature scrollwork sits on it
 11,P0051,XY08,blk_cornice_NE,2070,654,2,,cornice top under the tile row at the NE corner (turn into the east face)
 11,P0051,XY08,blk_cornice_NW,2270,654,1,,cornice top under the tile row at the NW corner
@@ -173,3 +173,99 @@ plate,photo_id,object,point,x,y,sure,use,note
 ,P0189,XY01,wing_cornice_NW,977,244,2,,
 ,P0189,XY01,wing_rail_NE,141,215,2,,top of corner pedestal; ornament/rubble above
 ,P0189,XY01,wing_rail_NW,962,210,2,,top of corner pedestal; set in ~15 px from the cornice tip
+10,P0050,XY08,attic_top_N,946,386,1,,outer top corner of the projecting cornice of the attic's north end pier (under its urn)
+10,P0050,XY08,attic_top_S,1443,386,1,,outer top corner of the projecting cornice of the attic's south end pier (under its urn)
+10,P0050,XY08,attic_crest_top,1198,312,2,,top of the flower/flame cluster crowning the basket ornament on the broken pediment
+10,P0050,XY08,colW_N_cap,1103,496,2,,top of the abacus of the free Corinthian column left of the upper door (entablature block above it)
+10,P0050,XY08,colW_S_cap,1286,496,2,,top of the abacus of the free Corinthian column right of the upper door
+10,P0050,XY08,midroof_ridge_N,601,401,2,,where the scalloped top of the middle roof's tiles meets the north pavilion's hip; ridge itself not drawn as a separate member
+10,P0050,XY08,midroof_ridge_S,1789,396,2,,where the scalloped top of the middle roof's tiles meets the south pavilion's hip
+10,P0050,XY08,wing_rail_NW,294,658,2,,"outer front corner of the cap of the corner pier of the north wing's balustrade (urn on it), tree close"
+10,P0050,XY08,wing_rail_SW,2099,656,2,,"outer front corner of the cap of the corner pier of the south wing's balustrade (urn on it), foliage close"
+10,P0050,XY08,terr_rail_N,1065,702,3,skip: no terrace balustrade with end posts; the cascade parapet spans the terrace front,top of the outer scroll end of the cascade parapet (north)
+10,P0050,XY08,terr_rail_S,1330,704,3,skip: no terrace balustrade with end posts; the cascade parapet spans the terrace front,top of the outer scroll end of the cascade parapet (south)
+10,P0050,XY08,stair_N_landing,697,801,2,,"outer (front, lower) end of the rope-moulded top of the half-way landing's parapet on the inner side; a scroll end, no separate post"
+10,P0050,XY08,stair_S_landing,1697,801,2,,"outer (front, lower) end of the rope-moulded top of the half-way landing's parapet on the inner side; a scroll end, no separate post"
+10,P0050,XY08,stair_N_foot,410,1197,3,,where the lowest step's edge meets the rock at the outer side; the true corner is hidden by the rock
+10,P0050,XY08,stair_S_foot,1984,1200,3,,where the lowest step's edge meets the rock at the outer side; the true corner is hidden by the rock
+10,P0050,XY08,zod_N1_head,895,889,2,,top of the ox's skull between the horns (horn tips y~879); figure nearest the axis
+10,P0050,XY08,zod_N6_head,594,924,2,,top of the head of the front figure (far left) of the north row
+10,P0050,XY08,zod_S1_head,1494,889,2,,top of the head of the figure nearest the axis in the south row (rat-like head)
+10,P0050,XY08,zod_S6_head,1798,919,2,,top of the head of the front figure (far right) of the south row
+10,P0050,XY08,zod_plinth_N6_front,519,1018,3,,front end of the plinth top beyond figure 6's pedestal where the rim's shell ornaments begin; edge merges into them
+10,P0050,XY08,zod_plinth_S6_front,1874,1017,3,,front end of the plinth top beyond figure 6's pedestal where the rim's shell ornaments begin; edge merges into them
+10,P0050,XY08,shell_top,1200,802,3,,"shell's upper rim where it meets the central carved column, interpolated across it; the column's flat basin above it, top y~779"
+10,P0050,XY08,vase_top,1200,992,2,,top of the flower/rock cluster in the vase's top bowl where the jet leaves it (bowl rim y~1003)
+10,P0050,XY08,ped_N_top,154,1054,2,,middle of the top edge of the pedestal base's cornice on its front face (front face x 54-254; side face to the right)
+10,P0050,XY08,ped_S_top,2238,1047,2,,middle of the top edge of the pedestal base's cornice on its front face (front face x 2140-2335; side face to the left)
+,P0774,XY08,blk_ped_apex_W,535,106,2,,"top of the ogee cartouche frame on the axis, the highest standing point; the crest ornament is gone"
+,P0774,XY08,attic_top_N,348,118,3,,outer top corner of the north attic end pier's cornice (urn stump above); branches across it
+,P0774,XY08,attic_top_S,721,119,2,,outer top corner of the south attic end pier's cornice (urn stump above it)
+,P0774,XY08,blk_door_W_head,533,218,2,,"top of the dark opening of the upper centre door under its frame band (band y~209-217), on the axis"
+,P0774,XY08,wing_rail_NW,20,293,3,skip: outer corner hidden by a tree at the frame edge,top of the north wing's balustrade rail at its leftmost visible point
+,P0774,XY08,shell_top,534,365,3,skip: probable shell outline behind branches; not certain,dark curved rim of a fan-shaped form below the cascade on the axis
+,P0303,XY08,shell_top,600,326,3,,"shell's upper rim where it meets the fluted central column (column x ~582-617), as on plate 10; a flat slab (basin?) lies on top, top y~307"
+,P0303,XY08,stair_N_landing,238,313,3,,"top of the outer (left, lower) end of the landing's box parapet with the cartouche; rope rail and posts gone"
+,P0303,XY08,stair_S_landing,880,310,3,,"top of the outer (right, lower) end of the landing's box parapet with the oval cartouche; a fallen volute lies beside it"
+,P0303,XY08,zod_plinth_N6_front,52,405,3,skip: front end broken or buried; not sure this ledge is the figures' plinth,front (left) end of the broad ledge along the foot of the north stair wall
+11,P0051,XY08,wb_foot_NE,402,1001,2,,"outer corner of the E end section's plinth on the pavement, left end of the water building; the east block's wall abuts just left"
+11,P0051,XY08,wb_foot_NW,1601,1000,2,,right end of the water building's dark plinth on the pavement where the link's arcade base starts
+11,P0051,XY08,wb_cornice_NE,398,712,1,,"left (east) outer end of the main cornice's top, under the roof balustrade's base"
+11,P0051,XY08,wb_cornice_NW,1600,713,2,,right (west) outer end of the main cornice's top
+11,P0051,XY08,wb_rail_NE,415,666,1,,"top of the roof balustrade's corner post at the left (east) end, under its urn"
+11,P0051,XY08,wb_rail_NW,1579,668,2,,"top of the roof balustrade's corner post at the right (west) end, under its urn"
+11,P0051,XY08,wb_door_NE_head,547,850,2,,"crown of the arched door in the E end section (left), inner edge of the fanlight arch"
+11,P0051,XY08,wb_door_NC_head,1010,841,1,,"crown of the centre arched door, inner edge of the fanlight arch"
+11,P0051,XY08,wb_door_NW_head,1447,849,2,,"crown of the arched door in the W end section (right), inner edge of the fanlight arch"
+11,P0051,XY08,wbpav_E_eave_NE,552,586,2,,"left tip of the east raised tier's front (north) eave, the upturned curl"
+11,P0051,XY08,wbpav_E_eave_NW,691,588,2,,right tip of the east raised tier's front (north) eave; its west side recedes far to the right (engraver's perspective)
+11,P0051,XY08,wbpav_E_ridge,653,553,3,skip: ridge seen end-on; the apex of the front hip (ridge's north end) not its middle,apex of the east tier's roof under the crowning scroll
+11,P0051,XY08,wbpav_W_eave_NE,1355,589,2,,"left tip of the west raised tier's front (north) eave, the upturned curl"
+11,P0051,XY08,wbpav_W_eave_NW,1499,588,2,,"right tip of the west raised tier's front (north) eave, the upturned curl"
+11,P0051,XY08,wbpav_W_ridge,1416,550,3,skip: ridge seen end-on; the apex of the front hip (ridge's north end) not its middle,apex of the west tier's roof under the crowning scroll
+11,P0051,XY08,link_rail_N,1790,836,2,,right end of the link's horizontal roof balustrade (top of coping) where it runs into the west block's east face
+11,P0051,XY08,end_panel_N,2177,770,1,,centre of the great framed panel (with the scroll ornament) on the upper storey of the west block's north end face
+11,P0051,XY08,es_L1_rail_N,172,855,3,,top of the corner post (under its urn) of the lower balustrade at the far left: read as the lowest landing at the east block's outer east corner; identification uncertain
+11,P0051,XY08,es_L3_rail_N,287,794,3,,top of the post (under its urn) at the east end of the higher balustrade next to the water building: read as the top level's outer end; identification uncertain
+11,P0051,XY08,es_corner_NE_foot,156,997,3,,"foot of the lower wall's left (east) corner on the pavement, half hidden by a topiary"
+13,P0053,XY08,wb_foot_SW,790,1004,2,,"outer corner of the water building's corner-pilaster plinth on the pavement at the left (west) end, where the link's base meets it"
+13,P0053,XY08,wb_foot_SE,1994,995,2,,outer corner of the corner-pilaster plinth at the right (east) end on the pavement; the east block's panelled wall abuts just right
+13,P0053,XY08,wb_cornice_SW,786,719,1,,left (west) outer end of the main cornice's top
+13,P0053,XY08,wb_cornice_SE,1987,702,1,,right (east) outer end of the main cornice's top
+13,P0053,XY08,wb_rail_SW,809,676,1,,"top of the roof balustrade's corner post at the left (west) end, under its urn"
+13,P0053,XY08,wb_rail_SE,1970,657,1,,"top of the roof balustrade's corner post at the right (east) end, under its urn"
+13,P0053,XY08,wb_door_SW_head,945,857,1,,"crown of the arched door in the W end section (left), inner edge of the fanlight arch"
+13,P0053,XY08,wb_door_SC_head,1381,843,1,,"crown of the centre arched door, inner edge of the arch"
+13,P0053,XY08,wb_door_SE_head,1842,845,1,,"crown of the arched door in the E end section (right), inner edge of the fanlight arch"
+13,P0053,XY08,wbpav_W_eave_SW,884,602,2,,"left tip of the west raised tier's front (south) eave, at the foot of the upturned curl"
+13,P0053,XY08,wbpav_W_eave_SE,1036,603,2,,"right tip of the west raised tier's front (south) eave, at the foot of the upturned curl"
+13,P0053,XY08,wbpav_W_ridge,970,564,3,skip: ridge seen end-on; the apex of the front hip (ridge's south end) not its middle,apex of the west tier's roof under the crowning scroll
+13,P0053,XY08,wbpav_E_eave_SW,1690,595,2,,"left tip of the east raised tier's front (south) eave, at the foot of the curl; its west side recedes far to the left"
+13,P0053,XY08,wbpav_E_eave_SE,1832,592,2,,"right tip of the east raised tier's front (south) eave, at the foot of the curl"
+13,P0053,XY08,wbpav_E_ridge,1727,548,3,skip: the ridge's south end (apex of the front hip); the ridge runs back north-west along the long sloping line with two ornaments,apex of the east tier's roof under the crowning scroll
+13,P0053,XY08,link_rail_S,609,840,2,,left end of the link's horizontal roof balustrade (top of the end post) where it meets the west block's east face
+13,P0053,XY08,end_panel_S,223,777,1,,centre of the great framed panel (scroll and rosette ornament) on the upper storey of the west block's south end face
+13,P0053,XY08,es_L3_rail_S,2104,778,3,,top of the post (under its urn) at the east end of the higher balustrade next to the water building: read as the top level's outer end; identification uncertain
+13,P0053,XY08,es_L1_rail_S,2221,840,3,,top of the corner post (under its urn) at the right (east) end of the lower balustrade: read as the lowest landing at the outer east corner; identification uncertain
+13,P0053,XY08,es_corner_SE_foot,2241,981,3,,outer corner of the lower wall's plinth at the right (east) end on the pavement
+,P0299,XY08,wb_cornice_SW,338,389,3,,far (west) end of the long south face: top of the entablature at the outer corner of the projecting W end section (read as the water building; its east return lies in shadow to the right)
+,P0299,XY08,wb_foot_SW,339,500,3,skip: the foot is buried in rubble; the lowest visible point of the corner pilaster,"base of the corner pilaster at the far (west) end, in rubble"
+,P0299,XY08,wb_cornice_SE,514,306,3,skip: the cornice is broken at the corner; last surviving top of the entablature just west of the junction with the brick masses,near (east) end of the surviving entablature of the long south face
+12,P0052,XY08,es_door_head,1200,817,1,,"crown of the arched door's opening: inner edge of the arch ring over the tympanum with the rosette, on the axis (x 1200 = midline of the door leaves)"
+12,P0052,XY08,es_foot_S,1055,1131,3,,"flight 1 south (left): door-side bottom corner of the lowest step where its end meets the passage floor; two steps drawn at the foot, facing the passage, then hidden by the balustrade"
+12,P0052,XY08,es_foot_N,1341,1130,3,,"flight 1 north (right): door-side bottom corner of the lowest step on the passage floor; small drawing, edges ambiguous by 3-5 px"
+12,P0052,XY08,es_corner_SE_foot,328,1178,2,,"outer bottom corner of the block's plinth on the pavement at the left (south) end; wall face above at x 349, wall foot y 1158; plinth top 1158, plinth front 1167-1178"
+12,P0052,XY08,es_corner_NE_foot,2070,1198,2,,"outer bottom corner of the plinth at the right (north) end; wall face at x 2054, wall foot y 1176; the right end is drawn about 20 px lower than the left throughout"
+12,P0052,XY08,es_L1_rail_S,376,878,2,,top of the cap of the corner post of the lowest landing's balustrade at the left (south-east) corner; an urn stands on it (urn not included)
+12,P0052,XY08,es_L1_rail_N,2026,896,2,,top of the cap of the corner post at the right (north-east) corner of the lowest landing; urn on it not included
+12,P0052,XY08,es_L2_rail_C,1200,752,3,skip: no balustrade on the axis,"the middle landing is two half-landings left and right of the door's rocaille crest; their rails' top is at y 751-752 (left inner post x 1044-1068, right inner post x 1332-1352, outer posts at x 840 and about 1555); this row is that level carried to the axis"
+12,P0052,XY08,es_L3_rail_S,518,702,2,,top of the cap of the outer corner post of the top level's balustrade at the left (south) end; urn on it not included
+12,P0052,XY08,es_L3_rail_N,1889,718,2,,top of the cap of the outer corner post of the top level's balustrade at the right (north) end; urn on it not included
+12,P0052,XY08,es_top_rail_C,1201,593,1,,"top of the rail of the short balustrade on the axis in front of the raised hall, between its end posts at x 1130 and 1272 where the two long inward flights arrive"
+12,P0052,XY08,wbpav_E_eave_SE,884,498,2,,left (south-east) corner of the hall's roof: outer end of the eave's tile edge just above the cornice; the hip ends in an upturned scroll rising to y 456 (not taken)
+12,P0052,XY08,wbpav_E_eave_NE,1524,500,2,,right (north-east) corner: outer end of the eave's tile edge; scroll ornament rises to about y 458 (not taken)
+12,P0052,XY08,wbpav_E_ridge,1200,392,2,,"top of the ridge band on the axis, where the crowning ornament (pine-cone finial to y ~335) sits on it; ridge runs x 1060-1350 between end scrolls"
+,P0170,XY08,wb_door_NE_head,1052,489,1,,"crown of the open arch (top of the dark opening) of the door in the middle bay of the E end section, north front; the door with the rocaille crest above"
+,P0170,XY08,wb_cornice_NE,815,321,3,,"top of the cornice at the NE corner pier (x 802-846) where the east face's cornice (rising left to y 307 at x 598) meets the north front's (y 319-325); rubble-strewn edge, +-4 px"
+,P0170,XY08,wb_foot_NE,815,641,3,skip: foot hidden,"lowest visible point of the NE corner pier's lit face; below it a dark mass (rubble or the plinth in shadow) to y ~670; the east face's plinth ledge reaches the corner at about (800,670); the ground line is not visible"
+,P0170,XY08,es_L1_rail_N,207,350,3,skip: identity of the landing uncertain,"top of the cap of a free-standing square post on the east block's north side, at the head of the lower visible flight; it may be the NE corner post of a landing (L1 or L2), its balustrade gone"

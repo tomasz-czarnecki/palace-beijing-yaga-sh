@@ -41,9 +41,9 @@
   "ends_over_water": 0
  },
  "ways": {
-  "points": 9733,
+  "points": 9747,
   "no_land": 23,
-  "ends": 1495,
+  "ends": 1494,
   "end_max_m": 1.7,
   "ends_over_0.5": 2,
   "ends_over_0.5_AB": 0

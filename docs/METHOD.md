@@ -343,6 +343,14 @@ Round 13 (`models/XY01-xieqiqu/README.md`, `tools/plate_overlay.py`). The order 
 6. **The model joins the rest:** its entries become the doors the ways snap to, its footprints what the ways route round and the planting keeps clear of, its boxes stay the click target, unseen. A traced way that starts inside the model (the plan sits about 12 m off the ruin here) loses its points inside and snaps from the first point beyond.
 7. **Carry round, mark it.** Faces no picture shows are copied from the documented ones into their own `~fill` materials: one switch hides them, one tints them.
 
+Round 14 (`models/XY08-haiyan-tang/README.md`) built a whole complex of five parts the same way, from four plates and few photographs, and added:
+8. **The readers' notes on form are worth more than their points.** The points measure; the notes find the form. Three findings came from the notes, and each moved plate 12's or plate 10's fit by a third or more: the bent stairs (an upper flight outward, a landing, a lower flight forward along the pool), the four flights a side of the east stair, and the east tier being a long hall. Ask readers to describe how stairs run and what stands where, not only to place crosses.
+9. **Fit by part.** One camera cannot hold a complex whose parts a plate draws at different scales (plates 11 and 13 draw the water building 1.4 times too long against the west block). A camera per part (`--parts`) tests each part's own heights and widths, and the disagreement between parts becomes a question (Q225) instead of a residual spread over everything.
+10. **Check a key point's definition before you move the model.** The middle ridge's point was put where the range ends; the plate shows where the ridge runs into the pavilion's hip, 3.8 m further out. A large residual on one point and none on its neighbours is usually a definition, not a form.
+11. **Let the footings follow the ground.** A plinth drawn down to the lowest ground under a whole part sank 1.2-2.8 m where the court rose. Draw the skirt along each edge at the ground there (`skirt` in the generator): every contact is then 0.1-0.2 m in.
+12. **The model's court can cover what the ground does not know.** Round 10 holds the water clock's pool as a sunken water body 1.5 m below the court; the model's pool, its paved court (plate 10) and steps down at the court's front cover it, and the planting keeps off the court as a footprint.
+13. **When the photographs are too few, the plate's figures stand, and the photograph's disagreement is written down.** Ohlmer's single west photograph puts the attic 1.65 ± 0.42 m high against the plate's 2.6 m (`models/XY08-haiyan-tang/measure.py`): recorded (Q228), not carried.
+
 ## Pitfalls and fixes
 
 **The kit (Round 11):**
@@ -357,6 +365,13 @@ Round 13 (`models/XY01-xieqiqu/README.md`, `tools/plate_overlay.py`). The order 
 - **The dossier's heights (15.1 m eave, 18.3 m ridge) were the plates' module.** The photographs gave 11.6 and 14.0 m. Heights read on an engraving by a module inherit its idealisation.
 - **The panel's model view showed an empty disc.** The copy handed to `model3d.js` kept its transform on the group; that file reads raw positions. Bake the transform into the copied geometry.
 - **A background "foreground" agent.** The Agent tool started the readers in the background by default; they finished before the turn ended. Keep waiting for every notification before the final message.
+
+**The second model (Round 14):**
+- **The agents went to the background again** (the Agent tool's default; `run_in_background: false` must be set on each call). All three finished within 10 minutes and before the turn ended.
+- **Arches hung upside down.** `arc_pts` took its start angle from `atan2(y - cy, -half)`; for a semicircle `y - cy` is ±0.0 and the angle came out -π for some arches. 20 of the pilot's 204 arches had been inverted unseen since Round 13. A frontal close-up of one wall found it; the fix is `t0 = π - t1`. Shoot at least one frontal close-up of every kind of opening.
+- **A body box covered its own façade.** The link's and the wings' solid boxes stood in the planes of their faces, so the arches and windows cut in the faces showed a flat wall. Draw the faces as the walls and keep any inside block behind them.
+- **Degenerate cameras.** Two photographs with one and two points gave a camera with a focal length of 0 or 10⁸ px and errors of 10⁶ m in the table. The tool now leaves out a picture with fewer than four points.
+- **Panels without Chinese.** Headless Chromium had no CJK font: point `FONTCONFIG_FILE` at a fonts.conf that adds the Noto files (`/opt/data/cache/fonts`).
 
 **Running the agents:**
 - **A research round launched its subagents in the background, ended its turn "waiting", and print mode killed them after 10 minutes.** It exited 0 with almost nothing delivered ($9, 17 min). Fix: foreground subagents only, several Agent calls in one message; `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0` in the chain; and chains gated on deliverables, not on the exit code alone.

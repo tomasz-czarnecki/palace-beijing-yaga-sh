@@ -3,9 +3,9 @@
  "kept": 759,
  "drawn_rows": 572,
  "rock_rows": 80,
- "areas": 467,
+ "areas": 466,
  "areas_by_kind": {
-  "specimen_tree": 103,
+  "specimen_tree": 102,
   "grove": 210,
   "bamboo_grove": 42,
   "avenue": 24,
@@ -15,15 +15,15 @@
   "hedge": 1,
   "rockery": 86
  },
- "areas_sourced": 458,
+ "areas_sourced": 457,
  "areas_fill": 9,
- "plants": 40110,
+ "plants": 40210,
  "by_form": {
-  "pine": 4263,
-  "blossom": 2838,
-  "willow": 1424,
-  "broad": 2552,
-  "topiary": 246,
+  "pine": 4280,
+  "blossom": 2857,
+  "willow": 1407,
+  "broad": 2527,
+  "topiary": 352,
   "cypress": 261,
   "bamboo": 4458,
   "reed": 7568,
@@ -32,7 +32,7 @@
   "shrub": 624,
   "hedge": 1
  },
- "assumed_plants": 6464,
+ "assumed_plants": 6459,
  "rockeries": 86,
  "rockeries_unplaced": [],
  "areas_skipped": [
@@ -205,6 +205,12 @@
    "no land (or water) for this place in the scene"
   ],
   [
+   "XY07",
+   "荷",
+   "front_court",
+   "no land (or water) for this place in the scene"
+  ],
+  [
    "QC42",
    "柳",
    "north",
@@ -283,6 +289,11 @@
    "court"
   ],
   [
+   "XY08",
+   "龙爪槐",
+   "south"
+  ],
+  [
    "XY10",
    "松·修剪",
    "scene"
@@ -296,11 +307,6 @@
    "QC49",
    "柳",
    "shore"
-  ],
-  [
-   "XY07",
-   "荷",
-   "front_court"
   ],
   [
    "YM03",

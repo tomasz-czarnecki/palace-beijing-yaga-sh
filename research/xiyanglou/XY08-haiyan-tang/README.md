@@ -393,6 +393,7 @@ The stone stair walls and blocks of the west front, the pool's edge and the shel
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q70. 海晏堂 (Round 6).** Side fronts: S604 13 bays, 105 m; on plates 11 and 13 that makes a door about 5 m wide and 11 m high, while 13 bays = 39 m gives a door 1.9 x 4.3 m. The plan fits 39 m for the middle strip and about 102 m for the whole flank: so 105 m is probably the flank, unproved. Cornice: plate 10 13.2 m, pl
 - **Q74. Two buildings called 蓄水楼 (Round 6).** XY02 at the west and the tank block XY08-01 at 海晏堂: the press and S821 use the word for the second. S310 also calls XY02 西水车房, while S01's 西水?房 stands on 海晏堂's west machine house XY08-N01. Keep them apart when taking a date over. S600's 1763 stands at the name 蓄水楼; its 1795 
+- **Q228. 海晏堂's attic.** Ohlmer's photograph P0774 of 1873 (four points, behind trees) gives the attic over the centre bays 1.65 ± 0.42 m above the cornice (`models/XY08-haiyan-tang/measure.py`); plate 10 by its module 2.6 m, and its ratio of the attic's width to the height from the door's head to the pediment is 2.6 aga
 
 ## Wishlist
 
@@ -400,9 +401,23 @@ The stone stair walls and blocks of the west front, the pool's edge and the shel
 | 西洋楼区域考古勘探报告 (S149), 远瀛观遗址考古发掘简报 (S153) in full, and the digs of 2015-16 at 海晏堂 and 养雀笼 | Plan positions of 蓄水楼, 养雀笼 (±15 m), the terrace of 远瀛观, risers and treads on the stairs | mhymy paid or mini-program; 北京市考古研究院 | By hand |
 | A tape on site: one door, one column base, one riser each at 谐奇趣, 海晏堂, 远瀛观, 花园门 | The module behind every plate reading (Q65, Q68) | Site | Visit; 1 hour |
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
+| Round 14: 样式雷 东水车房 底样 样094-4 (E2414) at full resolution, the other 海晏堂 sheets of the NLC set, and 金勋's plans and elevations of 1924 (in Adam 1936, S37) | The model of 海晏堂's biggest guesses: the east block's four flights and their levels (L2, L3), the raised tiers' size and the reservoir's walls on the roof (Q225, Q230); the west block's depth (11 m, between the plan's 9 m and 22.7 m) | NLC 善本部; Lazarist press, Peking 1936 | Library request |
+| Round 14: a second photograph of 海晏堂's west front before 1900 (P0721 at MIT in a sharper copy, the Ohlmer negatives) and one of its east end | The attic (Q228) and the storeys of the west block, which rest on plate 10's module alone; the east block's width (Q230) | MIT Visualizing Cultures, Hildesheim, Qin Feng | By hand |
+| Round 14: the report of the 2015 dig at 海晏堂 (S310's extract: 800 m², the wheel rooms, the drains) | The stair blocks and the pool in plan, the water building's walls and end sections (Q227, Q229) | 北京市考古研究院, mhymy | By hand |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+**Round 14: the detailed model** (`models/XY08-haiyan-tang/README.md`). Built from plates 10-13, Ohlmer's P0774 and the ruin photographs, with S01 and the ruin's footprint for the places. 96 key points were read (`plate_keypoints.csv`) and fitted by part (`plate_fit_XY08.csv`): the west block 0.5-0.6 m on plates 10, 11 and 13, plate 12 0.64 m, the water building 1.3-1.4 m (median 0.4 m), the water clock 1.9 m.
+
+What the model changed against this sheet's figures (all C):
+- The east raised tier is a long hall about 14.5 m N-S, not 9.3 m: the sheet's figure was plate 12's module at the stairs' depth.
+- The east stair has four flights a side, not three, with landings at about 3.5, 4.8, 6.0 and 8.1 m.
+- The water building's doors crown at 4.2 m, half the storey.
+- The stairs before the west front bend: an upper flight outward from the door's landing, a half-way landing, then a lower flight forward along the pool with the twelve figures at its foot.
+- The wings stand at the block's ends (Q226).
+
+Open: Q225 (plates 11 and 13 draw the water building 1.4 times too long against the west block), Q227, Q228 (the attic: P0774 1.65 m against the plate's 2.6 m), Q229, Q230, Q231.

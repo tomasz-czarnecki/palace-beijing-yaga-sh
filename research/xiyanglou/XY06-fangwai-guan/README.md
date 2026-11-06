@@ -198,6 +198,7 @@ The stone frame of the doors and piers, and pieces of the stairs. Brick cores ar
 - **Q56. Reconstructions against the period evidence.** None of these changes a row; all are for the detailed models. 上下天光 YM08: the album reads as asymmetrical, while the dig found two identical symmetrical foundations and a 乾隆 archive says two hexagonal pavilions (S505, S152): for 1860 the album may be out of date. Xiy
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q69. Colours of the 1780s state (Round 6).** The one period colour image found is the unfinished watercolour of plate 1 in the Rylands set (S700, research-only), perhaps only a lay-in, grade C. A coloured sketch sent to Delatour in 1786-87 (S258 p.171) has not been found. Witnesses: Choutzé 1876 one pavilion with vio
+- **Q207. Each European front as the plates draw it.** The stone kit gives every building the same parts: rusticated base, pilasters, arches, a pediment on the main fronts, a balustrade. The plates show different orders, windows, stairs and crests on each. The roof colours are known for 谐奇趣 (S700) and 方外观 (S06, Q69) only
 
 ## Wishlist
 

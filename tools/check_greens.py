@@ -123,7 +123,10 @@ def xz(geom):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--browser", action="store_true")
+    ap.add_argument("--port", type=int, default=8881, help="the local server's port (Round 14: each round its own range)")
     args = ap.parse_args()
+    global PORT
+    PORT = args.port
     if args.browser:
         run_browser()
     fails = []

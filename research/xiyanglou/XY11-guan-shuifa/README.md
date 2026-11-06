@@ -168,6 +168,7 @@ Five panels and two obelisks standing, set up in 1977 by the park: a re-erection
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q65. How far the plates can be trusted for size (Round 6).** The focal length f about 1250 px rests on plate 2 alone (ring pavement 1241, rubble spacing 1275), checked on plate 1 by an octagon of 8.9 m against 8.6 m on the plan, and is carried to the other 18 as an assumption, so their viewpoints are low confidence. 
 - **Q71. 观水法 on the axis (Round 6).** Niche to throne is 41.7 m by OSM's point and the row, 57 m as the plan draws it. The ruin lies under trees, so the screen may stand up to 15 m further south. Today's panels were re-erected in 1977 and prove nothing alone. P0193 (Child) shows steps in front of a side gate where plate 
+- **Q212. The tall tiered columns at 大水法 and 观水法.** `xiyanglou/views.csv` reads them as fountain towers; the planting worker reads the hatching on P0055 and P0056 as clipped foliage, ten or so discs on a stem. Drawn as topiary (GS-0508), C. (Round 12)
 
 ## Wishlist
 

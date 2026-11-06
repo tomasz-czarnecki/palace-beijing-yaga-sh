@@ -121,8 +121,8 @@ def arc_pts(a0, a1, y, rise, n):
     c = (a0 + a1) / 2
     R = (half * half + rise * rise) / (2 * rise)
     cy = y + rise - R
-    t0 = math.atan2(y - cy, -half)
     t1 = math.atan2(y - cy, half)
+    t0 = math.pi - t1  # Round 14: atan2(y - cy, -half) gave -pi for some semicircles (y - cy = -0.0), and 20 of 204 arches hung downward
     return [(c + R * math.cos(t0 + (t1 - t0) * k / n), cy + R * math.sin(t0 + (t1 - t0) * k / n)) for k in range(n + 1)]
 
 

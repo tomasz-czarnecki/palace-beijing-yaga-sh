@@ -1,0 +1,35 @@
+{
+ "pictures": [
+  "P0774"
+ ],
+ "scale": "W 47.2 m (S01) and the plan's positions held",
+ "figures": {
+  "H2": {
+   "prior": 13.2,
+   "measured": 13.91,
+   "se": 1.6,
+   "prior_sd": 2.0
+  },
+  "ped_apex": {
+   "prior": 17.5,
+   "measured": 16.12,
+   "se": 1.63,
+   "prior_sd": 2.5
+  },
+  "attic_h": {
+   "prior": 2.6,
+   "measured": 1.65,
+   "se": 0.42,
+   "prior_sd": 1.5
+  }
+ },
+ "residuals": {
+  "P0774": {
+   "n": 4,
+   "rms_px_before": 18.8,
+   "rms_px_after": 2.1,
+   "f_px": 1623.0,
+   "k": 1.0
+  }
+ }
+}

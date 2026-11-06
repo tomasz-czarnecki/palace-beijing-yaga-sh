@@ -1,0 +1,22 @@
+{
+ "note": "The model's own views for tools/plate_overlay.mjs --views: [name, eye, target] in the model's frame (x south, y up from the west block's base, z west). Round 14.",
+ "views": [
+  ["front", [0, 12, 88], [0, 7, 8]],
+  ["front_water_clock", [0, 5.5, 52], [0, 3.0, 22]],
+  ["rear", [6, 16, -135], [0, 6, -80]],
+  ["north_side", [-82, 16, -30], [0, 6, -30]],
+  ["south_side", [82, 16, -30], [0, 6, -30]],
+  ["aerial", [85, 72, 70], [0, 3, -30]],
+  ["aerial_rear", [-85, 62, -140], [0, 3, -45]],
+  ["detail_figures_N", [-1, 3.6, 34], [-12, 2.4, 25]],
+  ["detail_figures_S", [1, 3.6, 34], [12, 2.4, 25]],
+  ["detail_west_front", [-14, 12, 30], [-8, 10, 0]],
+  ["joint_stair_foot_N", [-27, 2.6, 47], [-16, 1.0, 35]],
+  ["joint_terrace_S", [6, 10, 26], [10, 7.2, 14]],
+  ["detail_link_S", [22, 3.0, -20], [4.7, 2.4, -20]],
+  ["joint_link_S", [16, 4, -14], [5, 2.5, -20]],
+  ["joint_wb_SE", [24, 4, -98], [11, 3, -68]],
+  ["joint_east_stairs", [2, 7, -112], [0, 4, -88]],
+  ["roof_tank", [22, 24, -36], [0, 9, -47]]
+ ]
+}

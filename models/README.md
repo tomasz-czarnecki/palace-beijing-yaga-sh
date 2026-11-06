@@ -1,10 +1,11 @@
 # Detailed building models
 
-One folder per modelled building, `<ID>-<slug>/`, as in Küstrin (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh/models/README.md`). The ID is the row of `research/buildings.csv` it replaces in the 3D view; the slug is the page's (`research/buildings/<ID>-<slug>/`). Round 13 made the first: `XY01-xieqiqu/` (谐奇趣, the pilot; its README has the method, the iteration log and the fit).
+One folder per modelled building, `<ID>-<slug>/`, as in Küstrin (`/opt/data/workspace/000_Dev/kostrzyn-yaga-sh/models/README.md`). The ID is the row of `research/buildings.csv` it replaces in the 3D view; the slug is the page's (`research/buildings/<ID>-<slug>/`). Round 13 made the first: `XY01-xieqiqu/` (谐奇趣, the pilot; its README has the method, the iteration log and the fit). Round 14 made the second: `XY08-haiyan-tang/` (海晏堂, the whole complex, west block to east stairs, with the water clock and the reservoir).
 
 Each folder holds:
 - `README.md`: the evidence (a `## Evidence` list), the method, the iteration log, where the model and the pictures disagree.
-- The generator: a Python script writing `model.glb` with `scripts/model_mesh.py`.
+- The generator: a Python script writing `model.glb` with `scripts/model_mesh.py`. From Round 14 the façade openings, pilasters, entablatures, cartouches, balustrades, urns, jets and hip roofs come from `scripts/model_parts.py` (`Parts(mesh)`); the pilot keeps its own copies so that its GLB stays as it was.
+- `views.json` (optional, Round 14): the model's own views, `[name, eye, target]` in its frame, for `tools/plate_overlay.mjs --views`.
 - `params.json`: every figure with `value`, `source`, `grade` and `note`.
 - `keypoints.json`: named points, local and scene, for `tools/plate_overlay.py`.
 - `joints.json`: `joints` (where the model touches the ground), `entries` (doors and stair feet: the ways of Round 9 snap to them, `scripts/paths1860.py`), `footprints` (polygons the ways and the planting keep clear of, `scripts/greens1860.py`).
@@ -42,6 +43,15 @@ Each folder holds:
 - Stairs and pools: `stair_rail_S`, `nland_C`, `nstair_foot_E`, `pool_rim_W`, `nfount_rim_L`.
 - The octagons and colonnades: `oct?_low_L` (the end of the face turned to the viewer), `oct?_lowout_L` (the outline's extreme), `col?_in`, `col?_out`.
 - 海晏堂's kit baseline: `blk_foot_NW`, `blk_cornice_SE`, `blk_ridge_N`, `blk_eave_NE`, `blk_ped_apex_W`, `blk_door_W_head`, `blk_stair_land_W`, `pool12_rim_W`.
+
+海晏堂's vocabulary (Round 14), the same scheme for a complex of several parts:
+- The west block: the `blk_*` names of the kit baseline, plus `attic_top_N`, `attic_crest_top`, `colW_N_cap`, `midroof_ridge_N` (where the middle ridge meets a pavilion's hip), `wing_rail_NW`, `end_panel_N`.
+- The terrace and the water clock: `terr_rail_N`, `stair_N_landing` (the post at the landing's front end, inner side), `stair_N_foot`, `zod_N1_head` and `zod_N6_head` (figures numbered from the back), `zod_plinth_N6_front`, `pool12_rim_W`, `pool12_rim_L` and `_R` (the rim's extremes as seen), `shell_top`, `vase_top`, `ped_N_top`.
+- The water building: `link_rail_N`, `wb_foot_NW`, `wb_cornice_NW`, `wb_rail_NW` (the W end is the one by the west block), `wb_door_NW_head`, `wb_door_NC_head`, `wbpav_W_eave_NE`, `wbpav_E_ridge`.
+- The east block: `es_door_head`, `es_foot_N`, `es_corner_NE_foot`, `es_L1_rail_N`, `es_L3_rail_N`, `es_top_rail_C`.
+- The readers' brief with every definition: `docs/rounds/common/palace_r14_haiyan_vocab.md`.
+
+**Fits by part.** Where a plate draws the parts of a complex at different scales (plates 11 and 13 draw 海晏堂's water building 1.4 times too long against its west block), `tools/plate_overlay.py fit --parts 'west=^(blk|...)_;water=^(wb|wbpav|link)_'` fits a camera of its own to each part with six points or more (`part_<name>` in the fit table and in `plates.json`). It tests each part's own heights and widths; the disagreement between the parts is a question, not a residual to tune.
 
 A generator defines each name as a point, or as candidates picked by the camera (`facing`, `left`, `right`). With no model, `tools/plate_overlay.py` derives the `blk_*` points from the stone kit's numbers.
 

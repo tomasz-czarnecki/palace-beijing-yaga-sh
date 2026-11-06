@@ -21,12 +21,15 @@ south wing of the west block · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from the four plates of 1783-86 (10 west, 11 north, 12 east, 13 south), Ohlmer's photograph of the west front of 1873 and the ruin photographs of about 1902-1920, the plan S01 and the ruin's footprint; every figure is a reading (C) unless the row says otherwise. Faces no picture shows (the stairs' outer walls, the reservoir on the roof, the west wheel house's west face) are carried round from the documented parts (assumed).
 
-- **1 ×:** west block, two storeys, 11 bays on the west front: 47.2 × 22.7 m, eave 13.2 m, ridge 15.7 m
-- **1 ×:** link to the west machine house: 19 × 9.4 m, eave 9 m, ridge 10.8 m
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** C, all assumed
+- **West block:** 47.2 m along the west front, eleven bays on two storeys (S310, B): upper floor and terrace at 7.2 m, cornice 13.2 m, end pavilions under square roofs to 16.5 m, the attic's pediment 17.5 m (plate 10, C)
+- **Stairs:** two diagonal flights 5 m wide from the terrace to the court, a landing half-way, carved balustrades (plate 10, C); in plan S01's stair blocks (B)
+- **Water clock 十二时辰水法:** the pool between the stairs with a convex front (S01's slip, plate 10, C); twelve seated figures with bronze heads about 0.5 m high (S849, B) on plinths 1.5 m high, six a side; south 鼠 虎 龙 马 猴 狗, north 牛 兔 蛇 羊 鸡 猪 (S823, C); the great shell and the vase fountain on the axis (plate 10, P0303, C)
+- **Where the heads are:** seven are in China: ox, tiger, monkey and boar at the Poly Art Museum; horse at the garden since 2020; rat and hare at the National Museum since 2013. Dragon, snake, goat, rooster and dog: whereabouts unknown (S822, S823, S817)
+- **Water building 蓄水楼:** thirteen bays, 38.4 m, its cornice and roof terrace at 8.1 m (plates 11-13, C); the reservoir 锡海 27.36 × 5.92 m, 1.44 m deep (S310, S06, B; S600, A) on the roof between two raised tiers with hip roofs to 14.6 m (plates 11, 12, C)
+- **East stairs:** three flights in a zig-zag to landings at 3.5, 4.8 and 8.1 m over the passage door (plate 12, C)
+- **Colours:** white stone, light wall panels, peacock-green glazed tiles with yellow ridges (S310, B, as said of the wing roofs), red-brown bronze heads (S823)
 
 ## Pictures (0)
 

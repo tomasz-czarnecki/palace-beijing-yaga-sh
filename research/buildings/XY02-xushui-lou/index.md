@@ -134,6 +134,7 @@ Modern interpretation, not evidence.
 - Q32: OSM errors
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q74: Two buildings called 蓄水楼 (Round 6)
+- Q225: Plates 11 and 13 draw the water building long
 
 <!-- generated:end -->
 

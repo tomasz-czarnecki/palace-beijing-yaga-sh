@@ -326,6 +326,10 @@ The base of the stair, stacked marble blocks and a few columns on site; 800 ston
 - **Q72. 谐奇趣 (Round 6).** Lei sheet no. 985, with over 120 dimensions: S108 says National Library of China, S310 Palace Museum Library. No absolute size is printed in S108, which also has 235 m² of buildings on a site of 9956 m², probably a slip. Depth: plan 8.6 m, box 14 m, a weak door module on P0165 15.6 m. Malone put
 - **Q75. Fragments and their wording (Round 6).** The XY's stone mostly left between 1900 and the 1970s, not in 1860: say "looted" only with a witness, "removed" with a date for stone. The Bergen pieces: S810 and S811 say looted in 1860 and left in the Republic; S812 says nobody knows how Munthe got them. They are rail p
 - **Q187. Changchun Yuan's west part reads 12-23 m too far east.** Five check points on the channels west of 思永斋 and 海岳开襟 (K-CC-01, 03, 04, 05, 06) all come out east (and some north) of today's, under both fits; the 谐奇趣 ruins stand about 15 m west of where the plan's wall line put them (Q64). Changchun's smoothing (λ 10,
+- **Q207. Each European front as the plates draw it.** The stone kit gives every building the same parts: rusticated base, pilasters, arches, a pediment on the main fronts, a balustrade. The plates show different orders, windows, stairs and crests on each. The roof colours are known for 谐奇趣 (S700) and 方外观 (S06, Q69) only
+- **Q219. The plates draw 谐奇趣 taller than it stood.** Three of Ohlmer's photographs of 1873 (P0186, P0187, P0189) put the top storey at about 0.45 of the main storey's height and the centre block 11.7 m wide; plates 1 and 2 draw it about 1.5 times as tall and 13.8-14.4 m wide. With the model built to the photographs, the
+- **Q224. The ways round 谐奇趣 sit about 12 m off the model.** The north axis CCX-005 as traced on S01 starts in the court south of the ruin-placed block (the plan's offset in this strip, Q64, Q187). `scripts/paths1860.py` now drops a traced point inside a model and snaps the end to the model's own entry (the north stair's
+- **Q228. 海晏堂's attic.** Ohlmer's photograph P0774 of 1873 (four points, behind trees) gives the attic over the centre bays 1.65 ± 0.42 m above the cornice (`models/XY08-haiyan-tang/measure.py`); plate 10 by its module 2.6 m, and its ratio of the attic's width to the height from the door's head to the pediment is 2.6 aga
 
 ## Wishlist
 
@@ -335,6 +339,8 @@ The base of the stair, stacked marble blocks and a few columns on site; 800 ston
 | A tape on site: one door, one column base, one riser each at 谐奇趣, 海晏堂, 远瀛观, 花园门 | The module behind every plate reading (Q65, Q68) | Site | Visit; 1 hour |
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Round 13: 样式雷 谐奇趣 sheet 985 (and 986), the plan with over 120 dimensions (S108, S310) | Every C figure of the pilot model: the depth, the storeys, the stair, the colonnades' junction (Q72, Q220, Q222); the scale behind every photographic figure (Q219) | 国家图书馆 or 故宫博物院图书馆; S108's authors | Library request |
+| Round 13: a survey of the pool's original kerb, the north basin's spot and the stair's plinth at 谐奇趣 | The pool's size (Q223), the north basin's place, the stair's foot | the park; S108's survey | a site visit with a tape, 1 hour |
 
 <!-- generated:end -->
 

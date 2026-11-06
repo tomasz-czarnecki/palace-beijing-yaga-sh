@@ -4,7 +4,8 @@
 //   node tools/plate_overlay.mjs --object XY01 [--port 8891] [--fits all,anchored] [--views] [--before /opt/data/cache/scratch/palace_r13_pilot_before/site] [--tag after]
 //
 // Needs Node and Playwright outside the repo (NODE_PATH, default /opt/data/cache/scratch/palace_r11_kit_tools/node_modules) and a Chrome (CHROME_PATH). Starts tools/serve_local.py --public on --port
-// (and a plain static server on port + 1 for --before), stops them at the end. Software WebGL: everything of one view from one page load. Writes screenshots/r13/.
+// (and a plain static server on port + 1 for --before), stops them at the end. Software WebGL: everything of one view from one page load. Writes screenshots/r13/, or --out <dir> (Round 14: screenshots/r14).
+// The model's own views: models/<ID>-<slug>/views.json if the model has one ([name, eye, target] in its frame), else the pilot's list below.
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
@@ -23,7 +24,7 @@ const OBJ = opt('object', 'XY01');
 const PORT = Number(opt('port', '8891'));
 const FITS = opt('fits', 'all,anchored').split(',');
 const TAG = opt('tag', 'after');
-const OUT = path.join(ROOT, 'screenshots/r13');
+const OUT = path.resolve(ROOT, opt('out', 'screenshots/r13'));
 fs.mkdirSync(OUT, { recursive: true });
 const py = path.join(ROOT, '.venv/bin/python');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -79,7 +80,7 @@ if (!has('views-only')) {
 }
 
 // ---- 2. the model's own views, as world cameras from the model's frame (data/models.json)
-const VIEWS = [
+let VIEWS = [
   // name, eye [x, y, z] and target in the model's frame (x east, y up from its base, z south)
   ['front', [0, 14, 78], [0, 6, 8]],
   ['rear', [4, 16, -72], [0, 6, -6]],
@@ -94,6 +95,10 @@ const VIEWS = [
   ['joint_colonnade_w', [-26, 3, 4], [-15, 1.2, 2]],
   ['joint_north_stairs', [7, 2.4, -24], [2, 0.6, -11]],
 ];
+for (const d of fs.readdirSync(path.join(ROOT, 'models'))) {
+  const vf = path.join(ROOT, 'models', d, 'views.json');
+  if (d.startsWith(OBJ + '-') && fs.existsSync(vf)) VIEWS = JSON.parse(fs.readFileSync(vf, 'utf8')).views;
+}
 const toWorld = (c, p) => { const s = Math.sin(c.rotationY), k = Math.cos(c.rotationY); return [c.position[0] + k * p[0] + s * p[2], c.position[1] + p[1], c.position[2] - s * p[0] + k * p[2]]; };
 async function views(siteBase, tag, withPanel) {
   const page = await newPage(1400, 900);
@@ -112,7 +117,8 @@ async function views(siteBase, tag, withPanel) {
     await page.goto(`${siteBase}/reconstruction/3d.html?shot=1&labels=0&${extra[0]}`, { waitUntil: 'load' });
     await page.waitForFunction('window.__ready === true', null, { timeout: 600000 });
     await page.waitForFunction('window.__modelsReady === true', null, { timeout: 120000 }).catch(() => {});
-    const e = toWorld(frame, [70, 60, 95]), t = toWorld(frame, [0, 3, 8]);
+    const av = VIEWS.find((v) => v[0] === 'aerial') || ['aerial', [70, 60, 95], [0, 3, 8]];
+    const e = toWorld(frame, av[1]), t = toWorld(frame, av[2]);
     await page.evaluate(([e, t]) => { const v = window.viewer; v.camera.position.set(...e); v.controls.target.set(...t); v.controls.update(); }, [e, t]);
     await settle(page);
     await canvasPng(page, path.join(OUT, `${tag}_aerial_${extra[1]}.png`));
@@ -123,7 +129,7 @@ async function views(siteBase, tag, withPanel) {
   const p2 = await newPage(1400, 900);
   await p2.goto(`${siteBase}/reconstruction/3d.html?b=${OBJ}&labels=0`, { waitUntil: 'load' });
   await p2.waitForFunction('window.__ready === true && window.__modelsReady === true', null, { timeout: 600000 });
-  await p2.evaluate(() => window.viewer.open('XY01'));
+  await p2.evaluate((o) => window.viewer.open(o), OBJ);
   await sleep(4000);
   await p2.evaluate(() => { const s = [...document.querySelectorAll('#bpanel h3')].find((h) => /Our model now/.test(h.textContent)); if (s) s.scrollIntoView(); });
   await sleep(4000);

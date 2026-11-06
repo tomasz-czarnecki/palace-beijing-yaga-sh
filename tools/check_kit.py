@@ -170,9 +170,12 @@ def before_joints(site):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--browser", action="store_true")
+    ap.add_argument("--port", type=int, default=8873, help="the local server's port (Round 14: each round its own range)")
     ap.add_argument("--before-url")
     ap.add_argument("--before", type=Path)
     args = ap.parse_args()
+    global PORT
+    PORT = args.port
     if args.before:
         print(json.dumps(before_joints(args.before / "site" if (args.before / "site").exists() else args.before), indent=1))
         return

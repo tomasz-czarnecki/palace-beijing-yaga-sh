@@ -154,6 +154,7 @@ Nothing located in our sources; its place is known only from the plan, to about 
 - **Q32. OSM errors.** 线法画 (west of 方河), 养雀笼, possibly 映水兰香; 蓄水楼 point at 116.3055 is 海晏堂's reservoir, not XY02; 谐奇趣's point is 23 m from the ruin. Used only as a hint. Positions come from S01 for all but rows noted `S03`.
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q74. Two buildings called 蓄水楼 (Round 6).** XY02 at the west and the tank block XY08-01 at 海晏堂: the press and S821 use the word for the second. S310 also calls XY02 西水车房, while S01's 西水?房 stands on 海晏堂's west machine house XY08-N01. Keep them apart when taking a date over. S600's 1763 stands at the name 蓄水楼; its 1795 
+- **Q225. Plates 11 and 13 draw the water building long.** On both, the thirteen-bay front of the water building (蓄水楼) stands about 1.4 times as long against the west block's end as the model allows: the model takes 38.4 m between its two boxes, from S01 (the west wheel house's face, x 9967) and the ruin-placed reservoir
 
 ## Wishlist
 

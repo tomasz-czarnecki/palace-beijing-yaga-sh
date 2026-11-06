@@ -1,0 +1,399 @@
+{
+ "id": "XY08",
+ "frame": "x south along the west front, y up from the west block's base, z west (out of the front); metres",
+ "params": {
+  "W": {
+   "value": 47.2,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "frontage of the west block: plan S01 225 px at the local 4.80 px/m (b); plate 10's eleven bays read on it (c)"
+  },
+  "D": {
+   "value": 11.0,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "depth of the two-storey range: S01 draws a stepped outline 9.0 m deep behind front parts reaching 22.7 m; plate 11 draws the north end narrow. 11 m, between"
+  },
+  "bays": {
+   "value": 11,
+   "source": "S310;S109",
+   "grade": "B",
+   "note": "eleven bays on both levels, the west front (S310, B)"
+  },
+  "pav_w": {
+   "value": 10.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the end pavilions under their own square roofs, two bays: plate 10, 294 px at its module"
+  },
+  "cen_w": {
+   "value": 12.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the centre three bays (window, door, window) proud of the range, with the attic above: plate 10"
+  },
+  "cen_proj": {
+   "value": 1.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "how far the centre stands forward: plate 10 draws free columns at the door, the bays nearly flush"
+  },
+  "H1": {
+   "value": 7.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the upper floor and the terrace at the head of the stairs: plate 10's module, 208 px"
+  },
+  "H2": {
+   "value": 13.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the main cornice's top: plate 10's module, 380 px; plates 11 and 13 read 9.3 and 8.6 m at their own tie (Q70)"
+  },
+  "ridge_mid": {
+   "value": 15.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the long middle roof's ridge: plate 10, 453 px"
+  },
+  "ridge_pav": {
+   "value": 16.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the end pavilions' short ridges stand higher than the middle ridge: plate 10, 23 px of 2400"
+  },
+  "attic_h": {
+   "value": 2.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the attic over the centre bays, above the cornice: plate 10"
+  },
+  "ped_apex": {
+   "value": 17.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "top of the attic's broken pediment where its crest starts: plate 10, 123 px above the cornice at its module (4.3 m)"
+  },
+  "wing_w": {
+   "value": 6.4,
+   "source": "S01",
+   "grade": "C",
+   "note": "the single-storey wing rooms with flat roofs and balustrades before the end pavilions (S310: 'flat-roof rooms below with stone balustrades'): plan block B0154, 6.4 m N-S"
+  },
+  "wing_d": {
+   "value": 6.0,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "how far the wings come forward: plan B0154 is 13.3 m W-E, half of it inside the range; plate 10's balconies are shallow"
+  },
+  "wing_x": {
+   "value": 20.4,
+   "source": "S71;S871",
+   "grade": "C",
+   "note": "the wings' middle from the axis: plate 10 and Ohlmer's P0774 put the balconies' outer corners at the block's ends (v3: fit 3.1-3.5 m off with the plan's place); S01's block B0154 stands 3.3 m in from the end (Q226)"
+  },
+  "terr_w": {
+   "value": 7.54,
+   "source": "S01;S310",
+   "grade": "C",
+   "note": "the landing before the upper door: the roof of the lower centre's west-going bay (S310), the plan's H hall 7.54 m N-S (x 9776-9831, y 1092-1128)"
+  },
+  "terr_z": {
+   "value": 11.35,
+   "source": "S01",
+   "grade": "C",
+   "note": "its front, the H hall's front on the plan (x 9776), the box's front; the cascade below it. The plan's 'terrace' 19.9 m wide at x 9751-9772 is the two stairs' upper ends with this landing between (v2)"
+  },
+  "st_top": {
+   "value": [
+    5.2,
+    9.6
+   ],
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the stair's upper end in plan (x, z): plate 10's upper flights arrive beside the door, their inner walls meeting at the shell (P0303); S01's 'terrace' 19.9 m wide covers both tops (v2)"
+  },
+  "st_foot": {
+   "value": [
+    15.5,
+    36.0
+   ],
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the stair's foot at the court: the outer front corner of S01's stair block (x 9660, y 1005: z 35.5, x 20.8 less the band's half-width)"
+  },
+  "st_w": {
+   "value": 5.0,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the band's width: S01's blocks 11.4-15.5 m across a diagonal band; plate 10 draws a wide flight with a balustrade each side"
+  },
+  "st_land": {
+   "value": 3.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the half-way landing with its carved panel: plate 10"
+  },
+  "st_land_at": {
+   "value": [
+    11.0,
+    15.6
+   ],
+   "source": "S71",
+   "grade": "C",
+   "note": "where the upper flight meets the half-way landing (x, z): plate 10's upper flights run outward from the door's landing, the lower flights forward along the pool (the west reader; v3)"
+  },
+  "st_mid": {
+   "value": 0.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the half-way landing's level as a share of the rise"
+  },
+  "plinth_h": {
+   "value": 1.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the plinth under the figures, above the pool's rim: plate 10's module (60 px at 38.9 px/m)"
+  },
+  "plinth_d": {
+   "value": 1.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "its depth before the stair wall: plate 10"
+  },
+  "fig_h": {
+   "value": 1.45,
+   "source": "S849;S71",
+   "grade": "C",
+   "note": "a seated figure on its pedestal, head included; the bronze heads are about 0.5 m high (S849, B), the bodies are lost; plate 10 draws the figure about as tall as the plinth"
+  },
+  "head_h": {
+   "value": 0.5,
+   "source": "S849",
+   "grade": "B",
+   "note": "the bronze heads, about 50 cm high: the press on the originals (S849)"
+  },
+  "rim_h": {
+   "value": 0.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pool's rim above the court"
+  },
+  "shell_w": {
+   "value": 3.2,
+   "source": "S71;S337",
+   "grade": "C",
+   "note": "the great shell: plate 10 draws it as wide as two figures; S337 gives about 2 m high (method e, a lead)"
+  },
+  "shell_h": {
+   "value": 2.7,
+   "source": "S337;S71",
+   "grade": "C",
+   "note": "its height above its pedestal: S337's 'about two metres' (a lead); plate 10's fit wants 0.5 m more (v4)"
+  },
+  "vase_z": {
+   "value": 24.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the vase fountain on the axis, two thirds of the way from the shell to the pool's front rim: plate 10"
+  },
+  "vase_h": {
+   "value": 1.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the vase fountain's top above the water: plate 10's fit put a 2.35 m vase 1.2 m too high (v4)"
+  },
+  "court_z": {
+   "value": 47.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the paved court before the pool, to beyond the pedestals: plate 10 draws it paved in squares with a path on the axis"
+  },
+  "ped_x": {
+   "value": 20.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the two great pedestals at the court's front corners, outside the stair feet: plate 10 (S02: 'two great pedestals')"
+  },
+  "ped_z": {
+   "value": 39.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "as above, a little before the pool's front"
+  },
+  "ped_s": {
+   "value": 3.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "their base, square: plate 10"
+  },
+  "ped_h": {
+   "value": 2.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "their body's height to the cornice; a crown above: plate 10 (v4: the fit put the v3 cornice 2 m too high)"
+  },
+  "link_w": {
+   "value": 9.4,
+   "source": "S01",
+   "grade": "C",
+   "note": "the link between the west block and the west wheel house: plan x 9876-9967, 9.4 m N-S"
+  },
+  "link_h": {
+   "value": 4.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "single storey, arcaded, a balustraded roof: plate 13 draws its arcade below the range's windows"
+  },
+  "wb_z0": {
+   "value": -28.4,
+   "source": "S01;S850",
+   "grade": "C",
+   "note": "the water building's west face: the box XY08-M39 (plan x 9967)"
+  },
+  "wb_z1": {
+   "value": -66.8,
+   "source": "S01;S850",
+   "grade": "C",
+   "note": "its east face: the box XY08-M40's east end, placed on the ruin (S850)"
+  },
+  "wb_bays": {
+   "value": 13,
+   "source": "S604;S415",
+   "grade": "B",
+   "note": "thirteen bays on the north and south fronts with two slight projections at the ends (S604 via S415, B); plates 11 and 13 read 3-7-3"
+  },
+  "wb_w": {
+   "value": 19.1,
+   "source": "S01",
+   "grade": "C",
+   "note": "the range's depth N-S: the plan's middle strip y 1062-1153"
+  },
+  "wb_proj": {
+   "value": 0.75,
+   "source": "S415;S71",
+   "grade": "C",
+   "note": "the end sections' projection: 'two slight projections' (S415); plate 11 draws the return as one narrow pilaster strip, about a quarter bay; the plan draws the west wheel house 25.8 m N-S, 3.35 m each side (Q227)"
+  },
+  "Hr": {
+   "value": 8.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the water building's cornice and roof terrace: plate 12's top landing 8.1 m, plates 11 and 13 8.6-9.3 m by their tie; one level with the east stairs' top"
+  },
+  "tank_l": {
+   "value": 27.36,
+   "source": "S310;S06;S109",
+   "grade": "B",
+   "note": "the reservoir 锡海 27.36 m E-W = 8.55 丈 (S310, S06, S109)"
+  },
+  "tank_w": {
+   "value": 5.92,
+   "source": "S310;S06",
+   "grade": "B",
+   "note": "5.92 m N-S = 1.85 丈 (S310, S06); S109 and the old params say 5.72 (a correction question stays open)"
+  },
+  "tank_d": {
+   "value": 1.44,
+   "source": "S600",
+   "grade": "A",
+   "note": "1.44 m deep = 4 尺 5 寸, from a Qing drawing cited by S600 (n. 46)"
+  },
+  "tank_wall": {
+   "value": 1.2,
+   "source": "S593;S110",
+   "grade": "C",
+   "note": "the tank's walls on the roof: the casing was up to 5 m thick below (S110, S593); on the roof a parapet, C"
+  },
+  "pav_lz": {
+   "value": 5.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the raised wheel-house tiers at the ends of the roof, E-W: plate 11 draws them 135 px at 24.5 px/m; 27.36 + 2 x 5.5 = 38.4 m, the range"
+  },
+  "pav_lx": {
+   "value": 14.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the east tier's width N-S: plates 11 and 13 draw it a long hall, its ridge running back N-S; plate 12's fit puts its eaves 2.7 m further out each side than a 9.3 m body (v4; the dossier's 9.3 m was plate 12's module at the stairs' depth)"
+  },
+  "pavW_lx": {
+   "value": 6.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the west tier's width N-S: plates 11 and 13 draw it about square (the sides reader)"
+  },
+  "pav_eave": {
+   "value": 3.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "their walls above the roof: plate 12's hall eaves 10.3 m less the roof 8.1 m, with plate 11"
+  },
+  "pav_ridge": {
+   "value": 14.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "their ridge: plates 11 and 13 put the crown at 14.3-14.5 m; plate 12 by its module 13.6 m, its fit 1.4 m higher (v4)"
+  },
+  "eb_w": {
+   "value": 26.1,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the east block's front: plan x 10154-10264 and plate 12, 26.1 m"
+  },
+  "eb_z1": {
+   "value": -90.7,
+   "source": "S01",
+   "grade": "C",
+   "note": "its east face: the box XY08-M41"
+  },
+  "L1": {
+   "value": 3.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lowest landings at the block's outer ends: plate 12"
+  },
+  "L2": {
+   "value": 4.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the half-landings beside the door's crest: plate 12 (its module 5.5 m; v4 with L3)"
+  },
+  "L3": {
+   "value": 6.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the third landings at the outer ends: plate 12 draws four flights a side (the east reader); its corner post fitted 1 m below the v3 level of 6.8 m"
+  },
+  "wb_door": {
+   "value": 4.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the water building's door crowns (and its window heads): plate 11 at 0.52 of the storey, the dossier's door 1.9 x 4.3 m (v4; v3 had 5.6 m)"
+  },
+  "es_door": {
+   "value": 4.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the east passage door's crown: plate 12's fit put it 1.8 m above the dossier's 3.6 m arch crown; taken half-way (v4)"
+  },
+  "fl_w": {
+   "value": 2.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "each flight's width: plate 12 draws three flights stacked in the block's depth"
+  },
+  "es_door_w": {
+   "value": 1.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the passage door: plate 12, 88 px at 51.7 px/m; its arch crown at 3.6 m"
+  },
+  "rail": {
+   "value": 1.05,
+   "source": "S71",
+   "grade": "C",
+   "note": "balustrade height"
+  }
+ }
+}

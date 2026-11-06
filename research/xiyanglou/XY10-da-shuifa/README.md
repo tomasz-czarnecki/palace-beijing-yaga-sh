@@ -226,6 +226,7 @@ The arch of the niche, the basin stones and the two tower bases. Which stones ar
 - **Q48. Xiyang Lou.** Round 6 closes three points: on the Rylands set the sheet printed 二 is marked Planche I and the one printed 一 Planche II, in a French hand, so the swap is on the sheets; plate 15's centre is a stag and hounds, as S258 says; plate 9 shows five pavilions on walks in a concave line. Delatour's plates 
 - **Q49. Captions overruled by form (old photographs).** Carved-column ruin: captioned Xianfa gate (P0179), Dashuifa (P0216, P0199), plate 19 (Skušek): by form 远瀛观 XY09, plate P0054. Sirén 003717 (P0214), captioned 远瀛观, shows 大水法. Skušek "Theater" and the holder's 谐奇趣: 方外观 XY06 by plate P0048. The Skušek album's names ar
 - **Q71. 观水法 on the axis (Round 6).** Niche to throne is 41.7 m by OSM's point and the row, 57 m as the plan draws it. The ruin lies under trees, so the screen may stand up to 15 m further south. Today's panels were re-erected in 1977 and prove nothing alone. P0193 (Child) shows steps in front of a side gate where plate 
+- **Q212. The tall tiered columns at 大水法 and 观水法.** `xiyanglou/views.csv` reads them as fountain towers; the planting worker reads the hatching on P0055 and P0056 as clipped foliage, ten or so discs on a stem. Drawn as topiary (GS-0508), C. (Round 12)
 
 ## Wishlist
 

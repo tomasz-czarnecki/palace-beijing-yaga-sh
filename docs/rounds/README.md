@@ -23,6 +23,8 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r10_ground` | not recorded | 2026-11-05, from 20:34 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r11_kit` | not recorded | 2026-11-05, from 21:53 | about 1 h 35 min | - | see its result row | see the git log | done |
 | `palace_r12_greens` | not recorded | 2026-11-05, from 23:04 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r13_pilot` | not recorded | 2026-11-06, before 01:30 | see its log | - | see its result row | 75bd43b | done |
+| `palace_r14_haiyan` | not recorded | 2026-11-06, from 01:30 | see its log | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -421,3 +423,59 @@ Also: parent fallback in the panel, `research/evidence/facts.csv`, `tools/check_
 - A pool measured on plate 1 alone ran into the lake: dropped. S01's pool stands (Q223).
 - New questions: Q219 (the plates' tall top storey), Q220 (the south stair's lower flights), Q221 (the north feet), Q222 (the colonnades' junctions), Q223 (the pool's size; the brief's 30 × 18 m is not in the data), Q224 (the ways about 12 m off the ruin-placed model).
 - Every figure is C until the Yangshi Lei sheet 985 is seen. Photographic heights rest on the plan's frontage (±15 %).
+
+## palace_r14_haiyan
+
+**Asked:** the detailed model of 海晏堂 XY08 built from the references, by the pilot's method: the west block, the stairs, the roof; the reservoir 锡海 (XY08-01) and the water clock 十二时辰水法 (XY08-02) with its twelve figures and the shell; the unnamed parts; the match check against every plate and photograph; the ruin photographs for the sides; `tools/check_models.py`; screenshots; docs. The twelve figures to be drawn factually, and the panel to say which heads survive and where.
+
+**Delivered:**
+- **The model** `models/XY08-haiyan-tang/`, the whole complex in one GLB:
+  - the west block: eleven bays, end pavilions, attic, wings;
+  - the terrace with the cascade's parapet and the two fish; the bent stairs;
+  - the water clock: twelve seated figures with bronze heads in S823's order, the shell with its column and basin, the vase fountain, the pool, the paved court, two great pedestals;
+  - the arcaded link with a flight onto the roof;
+  - the water building of thirteen bays with the reservoir on its roof between two raised tiers;
+  - the east block with four flights a side.
+  The panel shows it with "Our model now", the rows of what each part rests on, and where the heads are today.
+- **96 key points** read by three readers on plates 10-13 and P0774, P0303, P0170, P0299, from one vocabulary (`docs/rounds/common/palace_r14_haiyan_vocab.md`).
+- **Tools:**
+  - `scripts/model_parts.py`: the pilot's façade, rail and roof helpers, shared.
+  - `tools/plate_overlay.py`: `--parts` (a camera per part), `--shots`; pictures with fewer than four points left out; the compose step also composes the part fits.
+  - `tools/plate_overlay.mjs`: `--out`, and each model's own views (`models/XY08-haiyan-tang/views.json`).
+  - `tools/check_kit.py` and `tools/check_greens.py`: `--port`.
+- **Ways and docs:**
+  - `research/paths/exceptions.csv`: four rows for the ways the model draws.
+  - Q225-Q231 and three wish rows.
+- **The pilot's arches:** 20 of 谐奇趣's 204 arches hung downward (a sign error in `arc_pts` for a semicircle); fixed there too, its key points and joints unchanged.
+
+**Numbers:**
+- **check_models:**
+  - Before the round: XY01 only.
+  - After: XY08 has 72,916 triangles (2,014 fill); GLB 2.23 MB, 0.63 MB compressed (budget 1.5).
+  - 56 joints: none floats (highest 0.11 m into the ground), deepest 0.21 m. In v1, before the footings followed the ground, six were 1.2-2.8 m deep.
+  - Seven ways end at its boxes; 0 off.
+- **Fit (rms at the object):**
+  - Plate 10, all: 3.71 m with the Round 13 kit, 2.07 m (v2), 1.41 m (v5).
+  - Plate 10, by part: west block 0.58 m, water clock 1.88 m.
+  - Plates 11 and 13, west block: 0.49 m each (the kit had 2.0 m on these points).
+  - Plates 11 and 13, water building: 1.32 and 1.39 m (median 0.4 m). As one camera, 5.2 and 7.7 m: the plates draw the water building long (Q225).
+  - Plate 12: 1.19 m (v3) to 0.64 m (v5).
+- **Cost:** the overview draws 1.00 M triangles (0.93 M before) at a 570 ms median frame in software WebGL (583 ms before). The site grows by about 2.2 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_kit.py --browser`, `check_greens.py --browser`.
+- `scripts/building_pages.py` was run twice; the second run changed nothing (md5).
+- Screenshots in `screenshots/r14/`, opened:
+  - overlays (blend, edges, side by side) for every plate, every fit and every part;
+  - before (the kit) and after views: front, the water clock, rear, both sides, aerials, details of the figures, the west front and the link, the joints, the roof with the reservoir;
+  - `conf=1` and `assumed=0`;
+  - the panel with the viewer.
+
+**Went wrong or left open:**
+- The readers were started in the background again (the Agent tool's default). All three finished within 10 minutes and before the turn ended.
+- **v1's terrace was a 20 m block** across the front. Plate 10 and P0303 showed the stairs converging on a landing before the door, with the shell at the V's apex.
+- **Two bad definitions:**
+  - The middle ridge's key point was put at the range's end; the plate reads where the ridge meets the pavilion's hip.
+  - The east raised tier's width (9.3 m) was plate 12's module taken at the stairs' depth.
+- **Covered openings:** the link's and the wings' body boxes covered their own arches and windows.
+- **Open questions:** Q225 (the water building's length on plates 11, 13), Q226 (the wings), Q227 (the end sections' projection), Q228 (the attic: P0774 against plate 10), Q229 (plate 10's foreground), Q230 (the east block's width), Q231 (the figures' bodies).

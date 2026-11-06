@@ -229,6 +229,385 @@
      "ok": true
     }
    ]
+  },
+  "XY08": {
+   "folder": "XY08-haiyan-tang",
+   "figures": 64,
+   "grades": {
+    "A": 1,
+    "B": 5,
+    "C": 58
+   },
+   "materials": 30,
+   "primitives": 31,
+   "extent_m": [
+    49.0,
+    19.9,
+    139.1
+   ],
+   "triangles": 72916,
+   "fill_triangles": 2014,
+   "glb_mb": 2.23,
+   "glb_gz_mb": 0.63,
+   "joints": [
+    {
+     "name": "wblock_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wblock_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wblock_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wblock_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingN_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingN_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingN_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingN_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingS_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingS_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingS_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wingS_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terrace_front_N",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "terrace_front_S",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "stair_N_foot",
+     "kind": "stair foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "stair_S_foot",
+     "kind": "stair foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "plinth_N",
+     "kind": "plinth foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "plinth_S",
+     "kind": "plinth foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_0",
+     "kind": "paving foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_18",
+     "kind": "paving foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_19",
+     "kind": "paving foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_20",
+     "kind": "paving foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "court_steps_foot",
+     "kind": "stair foot",
+     "gap_m": -0.21
+    },
+    {
+     "name": "ped_N_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_N_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_N_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_N_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_S_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_S_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_S_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "ped_S_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "link_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "link_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "link_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "link_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_W_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_W_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_W_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_W_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_M_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_M_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_M_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_M_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_E_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_E_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_E_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wb_E_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_top_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_top_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_top_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_top_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_corner_NE",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "eb_corner_SE",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "es_door_sill",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "es_F1_foot_N",
+     "kind": "stair foot",
+     "gap_m": -0.13
+    },
+    {
+     "name": "es_F1_foot_S",
+     "kind": "stair foot",
+     "gap_m": -0.11
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.11,
+    "max_below": 0.21,
+    "n": 56
+   },
+   "ways": [
+    {
+     "way": "CCX-014",
+     "kind": "paved_way",
+     "at": "XY08-M42:model court_front",
+     "entry": "court_front",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "CCX-016",
+     "kind": "steps",
+     "at": "XY08-M37:front",
+     "entry": "stair_S_foot",
+     "plan_m": 28.37,
+     "height_m": 0.14,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-015",
+     "kind": "steps",
+     "at": "XY08-M37:front",
+     "entry": "stair_S_foot",
+     "plan_m": 28.37,
+     "height_m": 0.14,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-018",
+     "kind": "gallery",
+     "at": "XY08-M37:front",
+     "entry": "stair_S_foot",
+     "plan_m": 28.37,
+     "height_m": 0.14,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-018",
+     "kind": "gallery",
+     "at": "XY08-M39:right",
+     "entry": "wb_door_NW",
+     "plan_m": 3.4,
+     "height_m": 0.25,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-019",
+     "kind": "gallery",
+     "at": "XY08-M39:right",
+     "entry": "wb_door_NW",
+     "plan_m": 3.4,
+     "height_m": 0.25,
+     "drawn_by_model": true,
+     "ok": true
+    },
+    {
+     "way": "CCX-019",
+     "kind": "gallery",
+     "at": "XY08-M40:back",
+     "entry": "wb_door_NM",
+     "plan_m": 6.56,
+     "height_m": 0.02,
+     "drawn_by_model": true,
+     "ok": true
+    }
+   ]
   }
  },
  "limits": {

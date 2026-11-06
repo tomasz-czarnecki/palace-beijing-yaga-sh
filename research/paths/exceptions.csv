@@ -18,3 +18,8 @@ CCX-002,cross,"Round 13: the east colonnade of 谐奇趣 is drawn by its detaile
 CCX-002,joint,"Round 13: as above; its ends are inside the model, which joins the block and the octagon itself"
 CCX-003,cross,"Round 13: the south stair of 谐奇趣 is drawn by its detailed model (models/XY01-xieqiqu/); the trace stays as S01 draws it and is not drawn in the view"
 CCX-004,cross,"Round 13: as CCX-003"
+CCX-015,cross,"Round 14: the north stair of 海晏堂 is drawn by its detailed model (models/XY08-haiyan-tang/), a diagonal flight from the door's landing to the court; the trace stays as S01 draws it and is not drawn in the view"
+CCX-016,cross,"Round 14: the south stair of 海晏堂, as CCX-015"
+CCX-018,cross,"Round 14: the link between 海晏堂's west block and the water building is drawn by its detailed model (models/XY08-haiyan-tang/), an arcade with a roof terrace; the trace stays as S01 draws it and is not drawn in the view"
+CCX-019,cross,"Round 14: the plan's 'wing to the reservoir' is the middle of the water building, drawn by the detailed model of 海晏堂 (models/XY08-haiyan-tang/); the trace stays as S01 draws it and is not drawn in the view"
+CCX-019,joint,"Round 14: as above; its ends are inside the model"

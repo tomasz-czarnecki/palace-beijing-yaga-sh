@@ -24,6 +24,7 @@ Research-only pictures (rights_class not free) are read from research/raw/photos
 
 import argparse
 import csv
+import re
 import json
 import math
 import sys
@@ -39,7 +40,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from scene1860 import DATUM_M, to_xz  # noqa: E402
 
 XY = ROOT / "research/xiyanglou"
-SHOTS = ROOT / "screenshots/r13"
+SHOTS = ROOT / "screenshots/r13"  # --shots screenshots/r14 (Round 14)
 SIGMA = {"1": 3.0, "2": 8.0, "3": 15.0}
 F_PLATE_2400 = 1250.0  # viewpoints.csv: 'D=f/s with f=1250 px of plates 1-2', on the 2400 px copies
 
@@ -254,7 +255,24 @@ def stats(rows):
             "rms_m": round(float(np.sqrt((em ** 2).mean())), 2), "median_m": round(float(np.median(em)), 2), "max_m": round(float(em.max()), 2)}
 
 
+def parts_of(args):
+    """--parts 'wb=^(wb|wbpav)_;blk=^blk_' -> [(name, regex)]"""
+    out = []
+    for item in (getattr(args, "parts", "") or "").split(";"):
+        if "=" in item:
+            k, v = item.split("=", 1)
+            out.append((k.strip(), v.strip()))
+    return out
+
+
+def set_shots(args):
+    global SHOTS
+    if getattr(args, "shots", ""):
+        SHOTS = ROOT / args.shots
+
+
 def cmd_fit(args):
+    set_shots(args)
     cat = catalogue()
     pts_def, origin = model_points(args.object)
     rows = [r for r in rd(XY / "plate_keypoints.csv") if r["object"].split("-")[0] == args.object.split("-")[0]]
@@ -275,6 +293,9 @@ def cmd_fit(args):
         obs = {r["point"]: (float(r["x"]), float(r["y"]), r["sure"]) for r in mine if not r.get("use", "").startswith("skip")}
         skipped = {r["point"]: (float(r["x"]), float(r["y"]), r["sure"]) for r in mine if r.get("use", "").startswith("skip")}
         missing = sorted(n for n in obs if n not in pts)
+        if len([n for n in obs if n in pts]) < 4:  # Round 14: a camera has eight unknowns; fewer than four points cannot place it (P0170, P0299 of 海晏堂)
+            print(f"{pid}: {len(obs)} points, too few for a camera: left out")
+            continue
         cams[pid] = {"plate": plate, "image": f"{pid}.jpg", "free": free, "size": list(size), "object": args.object, "points_from": origin, "prior": pr, "not_in_model": missing, "fits": {}}
         for use in ("anchored", "all", "stretch") if plate else ("anchored", "all"):
             n_anchor = sum(1 for n in obs if n in pts and pts[n][1])
@@ -302,7 +323,30 @@ def cmd_fit(args):
                 "position": [round(float(c), 2) for c in cam[:3]], "yaw_deg": round(math.degrees(cam[3]) % 360, 2), "pitch_deg": round(math.degrees(cam[4]), 2), "f_px": round(math.exp(cam[5]), 1),
                 "du_px": round(float(cam[6]), 1), "dv_px": round(float(cam[7]), 1), "k_vertical": round(math.exp(cam[8]), 3) if len(cam) > 8 else 1.0, "eye_above_ground_m": round(float(cam[1] - gy), 2), "moved_from_prior_m": round(float(np.hypot(cam[0] - C0[0], cam[2] - C0[2])), 1),
                 "points": stats([r for r in out if r["role"] != "skipped"]), "tests": stats([r for r in out if r["role"] == "test"]), "sure12": stats([r for r in out if r["sure"] in ("1", "2") and r["role"] != "skipped"]), "skipped": stats([r for r in out if r["role"] == "skipped"])}
-        draw_points(pid, path, free, [r for r in table if r["image"] == pid], args.object)
+        # Round 14: part-wise fits (--parts name=regex;...): a camera of its own for each part of a long complex, where a plate draws its parts at different scales
+        # (海晏堂's plate 11 draws the water building about 1.4 times as long against the west block as the plan and the ruin allow). Not a fit of the whole: a test of each part's own heights and widths.
+        for part, rx in parts_of(args):
+            sub = {n: o for n, o in obs.items() if re.match(rx, n) and n in pts}
+            if len(sub) < 6:
+                continue
+            use = "stretch" if plate else "all"
+            cam, used, C0 = fit_camera(sub, pts, size, pr, use)
+            pts_p = resolve(pts_def, cam[:3])
+            cam, used, C0 = fit_camera(sub, pts_p, size, pr, use)
+            out = []
+            F = math.exp(cam[5])
+            for n, (u, v, sr) in sub.items():
+                p, zc = project(cam, pts_p[n][0], size)
+                err = float(np.hypot(p[0] - u, p[1] - v))
+                out.append({"image": pid, "plate": plate, "object": args.object, "fit": f"part_{part}", "point": n, "sure": sr, "role": "anchor" if pts_p[n][1] else "test", "in_fit": True,
+                            "x_img": u, "y_img": v, "x_model": round(float(p[0]), 1), "y_model": round(float(p[1]), 1), "dx": round(float(p[0] - u), 1), "dy": round(float(p[1] - v), 1),
+                            "err_px": round(err, 1), "depth_m": round(float(zc), 1), "err_m": round(err * float(zc) / F, 2)})
+            table += out
+            cams[pid]["fits"][f"part_{part}"] = {"position": [round(float(c), 2) for c in cam[:3]], "yaw_deg": round(math.degrees(cam[3]) % 360, 2), "pitch_deg": round(math.degrees(cam[4]), 2), "f_px": round(F, 1),
+                                                  "du_px": round(float(cam[6]), 1), "dv_px": round(float(cam[7]), 1), "k_vertical": round(math.exp(cam[8]), 3) if len(cam) > 8 else 1.0,
+                                                  "moved_from_prior_m": round(float(np.hypot(cam[0] - C0[0], cam[2] - C0[2])), 1), "points": stats(out), "tests": stats(out), "sure12": stats([r for r in out if r["sure"] in ("1", "2")]), "skipped": {"n": 0}}
+            print(f"  {pid} part {part}: {stats(out)}")
+        draw_points(pid, path, free, [r for r in table if r["image"] == pid and not r["fit"].startswith("part_")], args.object)
         a = cams[pid]["fits"].get("all", {})
         b = cams[pid]["fits"].get("anchored", {})
         print(f"{pid} plate {plate or '-'}: {len(obs)} read, {len(missing)} not in the model; all: {a.get('points')}; anchored tests: {b.get('tests', b.get('skipped'))}")
@@ -351,12 +395,14 @@ def draw_points(pid, path, free, rows, obj):
 
 # ---------------------------------------------------------------- composites: the render beside and over the picture
 def cmd_compose(args):
+    set_shots(args)
     cat = catalogue()
     d = json.load(open(XY / f"plate_cameras_{args.object}.json", encoding="utf-8"))
     for pid, c in d["cameras"].items():
         path, free = image_path(pid, cat)
         dest = SHOTS if free else SHOTS / "local"
-        for use in ("all", "anchored", "stretch"):
+        fits = ["all", "anchored", "stretch"] + sorted(k for k in c["fits"] if k.startswith("part_"))  # Round 14: the part-wise fits too
+        for use in fits:
             rp = dest / f"render_{pid}_{args.object}_{use}.png"
             if not rp.exists():
                 continue
@@ -388,8 +434,11 @@ def main():
     f.add_argument("--object", required=True)
     f.add_argument("--images", default="")
     f.add_argument("--label", default="")
+    f.add_argument("--shots", default="")
+    f.add_argument("--parts", default="", help="part-wise fits as well: 'name=regex;name=regex' on the point names (Round 14)")
     c = sub.add_parser("compose")
     c.add_argument("--object", required=True)
+    c.add_argument("--shots", default="")
     args = ap.parse_args()
     {"fit": cmd_fit, "compose": cmd_compose}[args.cmd](args)
 
