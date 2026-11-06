@@ -1,0 +1,473 @@
+{
+  "note": "The homepage's AI pictures: the hero carousel and the gallery slots. Edit this file, then run `uv run python tools/home_gallery.py`; it writes the blocks between the <!-- gallery:...:start --> markers of site/index.html and site/zh/index.html. Cameras are in cameras.json (viewer world metres, x east, z south, y up). Hero slides: `file` is the stem of their pictures in this folder (`-1280`, `-1920`, `-2560`, `-3840`, `-phone`), `short` the one line under the title, `ai` the full note (the lightbox), `reach` the wedge's length in metres if the default clamp is too short, `bg` the picture's average colour top and bottom (shown while it decodes). `frame` is how the picture shows the render: 16:9 the whole render, 3:4 a centre crop of a 16:9 render, 4:5 a crop of a 9:16 render at its full width; the map's wedge takes its width from it. `landmark` is the building the picture shows (an id of site/reconstruction/data/buildings_1860.geojson), `open` the panel the caption links to in the 3D view. See PLACEHOLDERS.md.",
+  "label": {
+    "en": "AI visualisation based on our 3D model, not a historical photograph",
+    "zh": "AI 图像，依据我们的三维模型，并非历史照片"
+  },
+  "hero": [
+    "hero-overview",
+    "hero-jiuzhou",
+    "hero-hanjing",
+    "hero-fuhai",
+    "hero-haiyan-dusk"
+  ],
+  "groups": [
+    {
+      "id": "day",
+      "eyebrow": {
+        "en": "From our model",
+        "zh": "据模型而绘"
+      },
+      "h2": {
+        "en": "A day in the gardens, <span class=\"accent\">from our model.</span>",
+        "zh": "园中一日，<span class=\"accent\">据模型而绘。</span>"
+      },
+      "rows": [
+        [
+          "home-gate-morning"
+        ],
+        [
+          "home-fuhai-dawn",
+          "home-haiyantang-afternoon"
+        ],
+        [
+          "home-dashuifa-playing",
+          "home-lantern-night"
+        ],
+        [
+          "home-snow-halls"
+        ]
+      ]
+    },
+    {
+      "id": "above",
+      "eyebrow": {
+        "en": "From above",
+        "zh": "俯瞰"
+      },
+      "h2": {
+        "en": "Unrolled like <span class=\"accent\">a handscroll.</span>",
+        "zh": "如手卷般 <span class=\"accent\">徐徐展开。</span>"
+      },
+      "strip": [
+        "home-aerial-overview",
+        "home-aerial-axis",
+        "home-aerial-fuhai",
+        "home-aerial-xiyanglou",
+        "home-surroundings"
+      ],
+      "strip_label": {
+        "en": "Views from above, scroll sideways",
+        "zh": "俯瞰图，可左右滑动"
+      },
+      "hint": {
+        "en": "Scroll sideways",
+        "zh": "左右滑动"
+      }
+    }
+  ],
+  "placeholders": {
+    "home-surroundings": {
+      "aspect": "9:16",
+      "alt": {
+        "en": "AI visualisation: the gardens in their setting, the camps, villages and neighbouring gardens, with the Jade Spring hills and the Western Hills behind.",
+        "zh": "AI 图像：园林周围的营房、村落和邻近园林，远处是玉泉山和西山。"
+      },
+      "title": {
+        "en": "Beyond the walls",
+        "zh": "园墙之外"
+      },
+      "text": {
+        "en": "Camps, villages and the Western Hills.",
+        "zh": "营房、村落与西山。"
+      }
+    }
+  },
+  "landmarks": [
+    "YM41",
+    "YM01",
+    "YM03",
+    "YM32",
+    "CC02",
+    "XY01",
+    "XY08",
+    "XY09",
+    "XY10",
+    "YM29",
+    "YM46",
+    "QC11"
+  ],
+  "seals": [
+    "YM41",
+    "YM01",
+    "YM03",
+    "YM32",
+    "CC02",
+    "XY08",
+    "XY10",
+    "QC11"
+  ],
+  "views": {
+    "hero-overview": {
+      "frame": "16:9",
+      "landmark": "YM41",
+      "open": null,
+      "reach": 1700,
+      "file": "hero-1-overview",
+      "bg": [
+        "#afa696",
+        "#6c6a5a"
+      ],
+      "title": {
+        "en": "The gardens from the south, a summer evening",
+        "zh": "夏日傍晚，从南面俯瞰园林"
+      },
+      "text": {
+        "en": "From high above the south, in low evening sun, looking north over the lakes and islands of <span lang=\"zh-Hans\">圆明园</span> Yuanming Yuan, with the plain and the Western Hills beyond.",
+        "zh": "夏日傍晚的斜阳中，从南面高空向北俯瞰圆明园的湖泊和岛屿，远处是平原和西山。"
+      },
+      "short": {
+        "en": "At this height the AI drew the layout freely: an impression, not a map.",
+        "zh": "在这样的高度，AI 自由地重画了布局：这是印象，不是地图。"
+      },
+      "ai": {
+        "en": "Only the camera comes from our model. At this height the AI has redrawn the lakes, islands and halls freely, and drawn the European palaces at the back far too large; the villages, fields, smoke and boats are its own. Take it as an impression, not a map.",
+        "zh": "只有视点来自我们的模型。在这样的高度，AI 自由地重画了湖泊、岛屿和殿宇，后面的西洋楼也画得太大；村庄、田地、炊烟和船都是它画的。请把它当作印象，而不是地图。"
+      },
+      "alt": {
+        "en": "AI picture: a vast garden of lakes, islands and halls among trees seen from high above in low golden light, boats on a broad lake in front, two large European-style stone palaces at the back and fields and hills reaching to the horizon.",
+        "zh": "AI 图像：金色斜阳中从高空俯瞰一片广阔的园林，湖泊、岛屿和殿宇掩映在树林中，近处宽阔的湖面上有船，后面有两座高大的欧式石砌宫殿，田野和山一直延伸到天边。"
+      }
+    },
+    "hero-jiuzhou": {
+      "frame": "16:9",
+      "landmark": "YM03",
+      "open": "YM03",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">九洲清晏</span> Jiuzhou Qingyan, the emperor's island, at dawn",
+        "zh": "晨光中的九洲清晏"
+      },
+      "text": {
+        "en": "Looking north from high above the gate court, over the audience hall and the Front Lake to the island of the emperor's residence, a late-autumn morning.",
+        "zh": "深秋清晨，从宫门内院的高空向北，越过正大光明殿和前湖，望向皇帝起居的九洲清晏岛。"
+      },
+      "ai": {
+        "en": "The lakes, the islands and where the halls stand come from our model. The yellow and green glazed roofs are the AI's: the album of 1744 paints these halls with grey tiles. No photograph of them standing is known.",
+        "zh": "湖、岛和殿宇的位置来自我们的模型。黄绿琉璃屋顶是 AI 画的：1744 年的《四十景图》里这些殿宇是灰瓦。目前不知道有它们完好时的照片。"
+      },
+      "alt": {
+        "en": "AI picture: an aerial view at dawn of a lake ringed by islands crowded with halls among autumn trees, a large yellow-roofed hall in the foreground and mist over the plain behind.",
+        "zh": "AI 图像：清晨俯瞰一片湖水，四周的岛上殿宇密布，掩映在秋树之间，近处是一座黄顶大殿，远处平原上有薄雾。"
+      },
+      "file": "hero-2-jiuzhou",
+      "bg": [
+        "#bda7a6",
+        "#796457"
+      ],
+      "short": {
+        "en": "Lakes, islands and the halls' places from our model; the glazed roofs are the AI's.",
+        "zh": "湖、岛和殿宇的位置来自我们的模型；琉璃屋顶是 AI 画的。"
+      }
+    },
+    "hero-hanjing": {
+      "frame": "16:9",
+      "landmark": "CC02",
+      "open": "CC02",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">含经堂</span> Hanjing Tang in deep snow",
+        "zh": "大雪中的含经堂"
+      },
+      "text": {
+        "en": "The walled residence in <span lang=\"zh-Hans\">长春园</span> Changchun Yuan from the south-east, a winter morning, the lakes around it frozen.",
+        "zh": "冬日清晨，从东南面望长春园中的含经堂，四周的湖面已经结冰。"
+      },
+      "ai": {
+        "en": "The wall, the courts and the halls follow our model; their yellow glazed roofs are our guess (grade C). The people on the ice, the smoke and the fields are imagined, and the snowy mountains stand far nearer than the Western Hills do. No photograph of the compound standing is known.",
+        "zh": "围墙、院落和殿宇依照我们的模型；黄琉璃屋顶是我们的推测（C 级）。冰上的人、炊烟和田地是想象的，雪山也画得比真实的西山近得多。目前不知道有这组建筑完好时的照片。"
+      },
+      "alt": {
+        "en": "AI picture: a walled palace compound with yellow roofs seen from above in deep snow, a marble bridge and frozen lakes with small figures on the ice, snowy hills behind.",
+        "zh": "AI 图像：从高处俯瞰大雪中一组黄顶的围墙院落，旁边有石桥，结冰的湖面上有小小的人影，后面是积雪的山。"
+      },
+      "file": "hero-3-hanjing",
+      "bg": [
+        "#aeb7cb",
+        "#a8abba"
+      ],
+      "short": {
+        "en": "Walls, courts and halls from our model, the yellow roofs our guess (grade C); the people on the ice and the near mountains are imagined.",
+        "zh": "围墙、院落和殿宇来自我们的模型，黄琉璃屋顶是我们的推测（C 级）；冰上的人和近处的山是想象的。"
+      }
+    },
+    "hero-fuhai": {
+      "frame": "16:9",
+      "landmark": "YM32",
+      "open": "YM32",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">福海</span> Fu Hai and <span lang=\"zh-Hans\">蓬岛瑶台</span> Pengdao Yaotai, a summer evening",
+        "zh": "夏日傍晚的福海与蓬岛瑶台"
+      },
+      "text": {
+        "en": "The island halls in the middle of the Sea of Blessings, seen from high over its south shore, boats on the water.",
+        "zh": "从福海南岸上空望湖心的蓬岛瑶台，湖上有船。"
+      },
+      "ai": {
+        "en": "The lake and the islets come from our model, the glazed roofs from the album leaf of 1744. The lotus, the boats and the buildings on the far shore are the AI's. No photograph of the island's halls standing is known.",
+        "zh": "湖面和小岛来自我们的模型，琉璃屋顶依照 1744 年的画页。荷花、船和对岸的房屋都是 AI 画的。目前不知道有岛上殿宇完好时的照片。"
+      },
+      "alt": {
+        "en": "AI picture: a wide lake seen from above in evening light, a small island in the middle with glazed-roofed halls and lotus around it, boats on the water and willows on the shore.",
+        "zh": "AI 图像：傍晚的光线中俯瞰一片宽阔的湖，湖心小岛上有琉璃顶的殿宇，四周是荷叶，湖上有船，岸边是柳树。"
+      },
+      "file": "hero-4-fuhai",
+      "bg": [
+        "#a49b8d",
+        "#62675f"
+      ],
+      "short": {
+        "en": "Lake and islets from our model, the glazed roofs after the 1744 album; boats, lotus and the far shore are the AI's.",
+        "zh": "湖面和小岛来自我们的模型，琉璃屋顶依照 1744 年的画页；船、荷花和对岸是 AI 画的。"
+      }
+    },
+    "hero-haiyan-dusk": {
+      "frame": "16:9",
+      "landmark": "XY08",
+      "open": "XY08",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">海晏堂</span> Haiyan Tang at dusk",
+        "zh": "黄昏时的海晏堂"
+      },
+      "text": {
+        "en": "The west front of the Hall of Peaceful Seas, its double stair around the basin of the water clock, seen from the west, low over the water.",
+        "zh": "从西面贴近水面望海晏堂西立面，双跑楼梯环抱着水力钟的水池。"
+      },
+      "ai": {
+        "en": "The front, the stair and the basin follow our model and the copperplate of 1786. The AI has left out the twelve seated bronze figures of the water clock and put stone lions on the stair; the lanterns, the attendants and the long pool in the foreground are imagined.",
+        "zh": "立面、楼梯和水池依照我们的模型和 1786 年的铜版画。AI 漏掉了水力钟的十二尊青铜坐像，在楼梯上画了石狮；灯笼、侍从和前景的长水池都是想象的。"
+      },
+      "alt": {
+        "en": "AI picture: a two-storey European-style stone palace at dusk, its double stair lined with lanterns and stone lions around a basin with a shell fountain, reflected in a still pool where attendants light lanterns.",
+        "zh": "AI 图像：黄昏中的一座两层欧式石砌宫殿，双跑楼梯上排列着灯笼和石狮，环抱着一座贝壳喷泉的水池，倒映在前面平静的水面上，侍从正在点灯。"
+      },
+      "file": "hero-5-haiyan-dusk",
+      "bg": [
+        "#7389ad",
+        "#473f47"
+      ],
+      "short": {
+        "en": "Front, stair and basin from our model and the 1786 copperplate; lanterns and people imagined.",
+        "zh": "立面、楼梯和水池依照我们的模型和 1786 年的铜版画；灯笼和人物是想象的。"
+      }
+    },
+    "home-gate-morning": {
+      "frame": "16:9",
+      "landmark": "YM41",
+      "open": "YM41",
+      "title": {
+        "en": "The forecourt of <span lang=\"zh-Hans\">大宫门</span> Da Gongmen, an autumn morning",
+        "zh": "秋日清晨的大宫门前院"
+      },
+      "text": {
+        "en": "At eye level in the forecourt south of the main gate, looking north at the gate and the ranges on either side.",
+        "zh": "站在正门南边的前院里平视，向北看大宫门和两侧的房屋。"
+      },
+      "ai": {
+        "en": "The gate and the side ranges stand where our model of Round 19 puts them. The officials, horses and sedan chair are imagined; the roofs and trees are the AI's.",
+        "zh": "大宫门和两侧房屋的位置依照我们第 19 轮的模型。官员、马匹和轿子是想象的，屋顶和树木是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a wide earthen forecourt in early autumn light, a stone-paved road leading to a gate hall with grey roofs, low halls either side, officials, horses and a sedan chair in the court.",
+        "zh": "AI 图像：初秋晨光中宽阔的土院，一条石板路通向灰瓦门殿，两侧是低矮的房屋，院中有官员、马匹和一顶轿子。"
+      }
+    },
+    "home-fuhai-dawn": {
+      "frame": "4:5",
+      "landmark": "YM32",
+      "open": "YM32",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">福海</span> Fu Hai at dawn",
+        "zh": "清晨的福海"
+      },
+      "text": {
+        "en": "Mist on the Sea of Blessings, looking across the water to <span lang=\"zh-Hans\">蓬岛瑶台</span> Pengdao Yaotai from a little above the lake.",
+        "zh": "晨雾笼罩福海，从略高于湖面的地方隔水望向蓬岛瑶台。"
+      },
+      "ai": {
+        "en": "Only the island's place and the direction of the view come from our model. The hall, the shore in front, the boats and the people are the AI's.",
+        "zh": "只有小岛的位置和视线方向来自我们的模型。殿宇、近处的岸、船和人物都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: mist over a still lake at dawn, a yellow-roofed hall on a stone terrace at the water's edge, small boats with canopies, willows and pines framing the view.",
+        "zh": "AI 图像：清晨平静的湖面上飘着薄雾，水边石台上有一座黄顶殿宇，湖上有带篷的小船，柳树和松树环绕。"
+      }
+    },
+    "home-haiyantang-afternoon": {
+      "frame": "16:9",
+      "landmark": "XY08",
+      "open": "XY08",
+      "title": {
+        "en": "The west front of <span lang=\"zh-Hans\">海晏堂</span> Haiyan Tang, an afternoon",
+        "zh": "午后的海晏堂西立面"
+      },
+      "text": {
+        "en": "The double stair embracing the basin of the water clock and its twelve seated figures, in low afternoon sun.",
+        "zh": "午后斜阳下，双跑楼梯环抱水力钟的水池和池边十二尊坐像。"
+      },
+      "ai": {
+        "en": "The front, the stair and the basin follow our model of Round 14 and the copperplates. The people and their dress are imagined.",
+        "zh": "立面、楼梯和水池依照我们第 14 轮的模型和铜版画。人物和服饰是想象的。"
+      },
+      "alt": {
+        "en": "AI picture: the west front of a European-style stone palace, a double stair curving down around a basin with a shell fountain, seated bronze figures along its sides, people in Qing dress in the court.",
+        "zh": "AI 图像：一座欧式石砌宫殿的西立面，双跑楼梯弯曲而下，环抱着有贝壳喷泉的水池，池边排列着青铜坐像，院中有穿清代服饰的人。"
+      }
+    },
+    "home-dashuifa-playing": {
+      "frame": "16:9",
+      "landmark": "XY10",
+      "open": "XY10",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">大水法</span> Da Shuifa, the Great Fountain, playing",
+        "zh": "喷水的大水法"
+      },
+      "text": {
+        "en": "From the court in front: the niche, the water steps, the basin with the stag and hounds, and the two towers of jets.",
+        "zh": "从前面的广场看：石龛、跌水台阶、有鹿和猎犬雕像的水池，以及两座喷水塔。"
+      },
+      "ai": {
+        "en": "The niche, the steps, the basin and the towers follow our model of Round 15 and plate 15. The people, the parasols and the trees behind are the AI's.",
+        "zh": "石龛、台阶、水池和喷水塔依照我们第 15 轮的模型和第十五幅铜版画。人物、伞和后面的树是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a carved stone fountain niche with water cascading down its steps into a basin with a bronze stag and hounds, tall jets either side, people in Qing dress with parasols in front.",
+        "zh": "AI 图像：雕花石龛，水沿台阶跌落到有青铜鹿和猎犬的水池中，两侧水柱高喷，前面是穿清代服饰、打着伞的人。"
+      }
+    },
+    "home-lantern-night": {
+      "frame": "4:5",
+      "landmark": "YM32",
+      "open": "YM54",
+      "title": {
+        "en": "A night of lanterns by <span lang=\"zh-Hans\">福海</span> Fu Hai, imagined",
+        "zh": "想象中的福海灯夜"
+      },
+      "text": {
+        "en": "Red lanterns along a hall on the shore under a full moon. The night is imagined, not a recorded festival.",
+        "zh": "满月之下，岸边殿宇挂满红灯笼。这是想象的夜景，不是记载中的某个节日。"
+      },
+      "ai": {
+        "en": "Only the viewpoint comes from our model, and loosely. The hall, the lanterns and the people are the AI's.",
+        "zh": "只有视点来自我们的模型，而且只是大致如此。殿宇、灯笼和人物都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a two-storey hall on a lake shore at night hung with rows of red lanterns, a full moon above, a small boat and floating lights on the dark water.",
+        "zh": "AI 图像：夜晚湖岸上一座两层殿宇挂满红灯笼，天上一轮满月，黑色的水面上有一条小船和漂浮的灯。"
+      }
+    },
+    "home-snow-halls": {
+      "frame": "16:9",
+      "landmark": "YM41",
+      "open": "YM41",
+      "title": {
+        "en": "The forecourt of <span lang=\"zh-Hans\">大宫门</span> Da Gongmen in snow",
+        "zh": "雪中的大宫门前院"
+      },
+      "text": {
+        "en": "The same forecourt on a winter morning, looking north to the gate.",
+        "zh": "同一个前院的冬日清晨，向北望大宫门。"
+      },
+      "ai": {
+        "en": "The gate and the side ranges follow our model. The walls across the court, the sedan chairs, the riders and the smoke are the AI's.",
+        "zh": "大宫门和两侧房屋依照我们的模型。院中的墙、轿子、骑马的人和烟都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a snow-covered forecourt on a bright winter morning, a red wall with an opening before a gate hall, officials, sedan chairs and riders in the snow, bare trees white with frost.",
+        "zh": "AI 图像：晴朗冬日清晨积雪的前院，一道开有门洞的红墙后面是门殿，雪地里有官员、轿子和骑马的人，光秃的树挂着白霜。"
+      }
+    },
+    "home-aerial-overview": {
+      "frame": "3:4",
+      "landmark": "YM32",
+      "open": null,
+      "title": {
+        "en": "The gardens from the west",
+        "zh": "从西面俯瞰园林"
+      },
+      "text": {
+        "en": "From high above the west on an overcast autumn day, looking east over the lakes and islands to <span lang=\"zh-Hans\">福海</span> Fu Hai.",
+        "zh": "阴天的秋日，从西面高空向东俯瞰湖泊和岛屿，一直望到福海。"
+      },
+      "ai": {
+        "en": "At this height the AI has redrawn the layout freely, and the mountains on the horizon are its own: take it as an impression, not a map.",
+        "zh": "在这样的高度，AI 自由地重画了布局，地平线上的山也是它画的：请把它当作印象，而不是地图。"
+      },
+      "alt": {
+        "en": "AI picture: lakes and islands with halls among autumn trees seen from high above under an overcast sky, a large lake with an island hall beyond and hills on the horizon.",
+        "zh": "AI 图像：阴天里从高空俯瞰秋树掩映的湖泊、岛屿和殿宇，远处是一片大湖和湖心的殿宇，地平线上有山。"
+      }
+    },
+    "home-aerial-axis": {
+      "frame": "3:4",
+      "landmark": "YM01",
+      "open": "YM01",
+      "title": {
+        "en": "The axis from above",
+        "zh": "俯瞰中轴线"
+      },
+      "text": {
+        "en": "Looking north from above the forecourt: <span lang=\"zh-Hans\">大宫门</span> Da Gongmen, the court, <span lang=\"zh-Hans\">正大光明</span> Zhengda Guangming, then the Front Lake and the emperor's island.",
+        "zh": "从前院上空向北：大宫门、院子、正大光明殿，然后是前湖和九洲清晏。"
+      },
+      "ai": {
+        "en": "The halls' places follow our model, but the AI has left out the canal and the second gate, <span lang=\"zh-Hans\">出入贤良门</span> Churu Xianliang Men, and coloured the roofs: the album of 1744 paints them grey.",
+        "zh": "建筑位置依照我们的模型，但 AI 漏掉了水渠和第二道门出入贤良门，还给屋顶上了颜色：1744 年的画页里它们是灰瓦。"
+      },
+      "alt": {
+        "en": "AI picture: a palace axis seen from high above on a summer morning, a gate with a green roof, a wide court, a great hall with a yellow roof, then a lake and an island with halls.",
+        "zh": "AI 图像：夏日清晨从高空俯瞰宫殿中轴线：绿顶的宫门、宽阔的院子、黄顶的大殿，然后是湖和岛上的殿宇。"
+      }
+    },
+    "home-aerial-fuhai": {
+      "frame": "3:4",
+      "landmark": "YM32",
+      "open": "YM32",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">福海</span> Fu Hai in spring",
+        "zh": "春天的福海"
+      },
+      "text": {
+        "en": "<span lang=\"zh-Hans\">蓬岛瑶台</span> Pengdao Yaotai from high over the south of the lake, the shores in blossom, an early spring morning.",
+        "zh": "早春清晨，从福海南部上空望蓬岛瑶台，岸边花开。"
+      },
+      "ai": {
+        "en": "The island's place follows our model; the halls, the blossom and the boats are the AI's.",
+        "zh": "小岛的位置依照我们的模型；殿宇、花和船是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: an island with grey- and yellow-roofed halls in a still lake seen from above, pink blossom and willows on its shore, two boats on the water.",
+        "zh": "AI 图像：从高处俯瞰平静湖中的小岛，岛上有灰顶和黄顶的殿宇，岸边是粉色的花和柳树，水上有两条船。"
+      }
+    },
+    "home-aerial-xiyanglou": {
+      "frame": "3:4",
+      "landmark": "XY08",
+      "open": "XY08",
+      "title": {
+        "en": "The European palaces from above",
+        "zh": "俯瞰西洋楼"
+      },
+      "text": {
+        "en": "<span lang=\"zh-Hans\">海晏堂</span> Haiyan Tang from above the west on an autumn afternoon, the strip of the European palaces running on behind it.",
+        "zh": "秋日午后，从西面上空望海晏堂，西洋楼的建筑在它后面向东排开。"
+      },
+      "ai": {
+        "en": "The west front, its stair and the basin follow our model; what lies behind it, the trees and the carriages are the AI's free drawing.",
+        "zh": "西立面、楼梯和水池依照我们的模型；后面的部分、树木和马车是 AI 自由画的。"
+      },
+      "alt": {
+        "en": "AI picture: a European-style stone palace seen from above in autumn, its double stair around a fountain basin, a long axis of fountains and pavilions behind among golden trees.",
+        "zh": "AI 图像：秋天从高处俯瞰一座欧式石砌宫殿，双跑楼梯环抱喷泉水池，后面金黄的树林间是一条排列着喷泉和亭子的长轴线。"
+      }
+    }
+  }
+}

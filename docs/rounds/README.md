@@ -735,3 +735,29 @@ Brief: `palace_r20_surroundings.md`. What stood and ran round the three gardens 
   - The Fan Lakes before the gate are not drawn (Q272); 万寿山's form is today's (Q280).
   - Q264-Q280.
 
+
+## palace_r22_hero
+
+Briefs: `palace_r22_hero.md` (a carousel with a locator map, the gallery's first AI pictures) and `palace_r22b_hero_fullscreen.md`, which overrides its hero after Tomasz saw the first attempt (a framed carousel in the right half of the hero; that attempt was reverted, its draft reused for the generator, the gallery and the zh page).
+
+**What it delivered:**
+- **The hero is the picture:** full-screen, edge to edge (100svh less the header, at least 620 px), a carousel of five 4K renders (5504 x 3072 painted, published 16:9 at 1280, 1920, 2560 and 3840, and a 1200 x 1800 crop for phones). Chosen from twelve takes by eye: the gardens from the south at golden hour, 九洲清晏 at dawn, 含经堂 in snow, 福海 and 蓬岛瑶台 on a summer evening, 海晏堂 at dusk. 大水法 was left out: one take invents a canal where 观水法 stands and a crowd with parasols, the other looks like a miniature.
+- **On the picture:** the headline, the chip, the two buttons and the seal at the lower left on a soft dark glow that follows the words; under them each slide's title, its one line on what the AI invented, the label "AI visualisation based on our 3D model, not a historical photograph" and "View large" (the 3840 in the lightbox, with the full note); the dots, pause and a progress line in the middle; a small locator (96-120 px, 80 on phones) with its one-line caption at the right; a paper hills edge into the page below. The 1744 leaf moved to the intro as evidence.
+- **Behaviour** (`site/main.js` `startHero`): 8 s a slide, 1.2 s crossfade, a 5 percent zoom; the progress line is the clock, so pause, hover or focus on the controls, a hidden tab and the hero out of view hold all of it; arrows, dots, keys, swipe; nothing turns by itself with reduced motion. Slide 1 is preloaded up to the 2560 and takes the 3840 after load only where it can win; the others come out of `<template>`s one ahead of the slide shown.
+- **The gallery:** ten AI pictures in Round 21's slots, each with an honest caption and a locator (`gv-where`); `home-surroundings` stays a placeholder.
+- **The generator:** `tools/home_gallery.py` writes the hero, the gallery, the map symbol (`<symbol id="gmap">` from `walls_1860`, `water_1860`, the plan's hills and `buildings_1860`, one SVG unit a metre in the view's frame) and the preload into both pages from `site/assets/gallery/views.json`, `site/assets/gallery/cameras.json` (now with `hero-overview`) and `site/assets/gallery/manifest.json`; `--check` prints where each dot lands. How to add a picture: `site/assets/gallery/PLACEHOLDERS.md`.
+- **Credits:** `site/credits.html#ai-pictures`: the model (Nano Banana Pro, Gemini 3 Pro Image, via OpenRouter; 2K gallery, 4K hero) and the look-references. P0053-P0055 are PD-Art; P0001, P0003, P0032 and P0102 are BnF scans, reusable for non-commercial purposes only.
+- **Fonts:** the homepage subsets rebuilt (744 characters); the serif one grew from 213 to 334 KB (it had been cut to 500 characters).
+
+**Checked:**
+- `tools/hero_test.mjs`: 51 checks on EN and zh pass (autoplay, pause, arrows, dots, keys, wrap, hover hold, lightbox, the locator moving, reduced motion, the phone crop, what is fetched when, no errors, no horizontal scroll).
+- Contrast of the light words over the picture, measured on every slide at 390, 768, 1280, 1920 and 2560 (the 95th-percentile brightest pixel behind each word, shadows not counted): all pass AA; the tightest are the title 圆明园 at 3.13 on the snow slide on a phone (large text, needs 3.0) and the slide title at 4.90 at 768.
+- Dots: 海晏堂 52 m from its building, 福海 183 m south of 蓬岛瑶台, 含经堂 176 m south of its hall, 九洲清晏 263 m south of the island (above the gate court), the overview 1.1 km south of the gate.
+- 917 local links and files on the two homepages and the credits resolve; `check_evidence.py`, `check_pages.py`, `check_docs.py` pass.
+- Screenshots in `screenshots/r22/` (every slide, EN at 390, 768, 1280, 1920, 2560; zh at 390, 1280, 1920; the gallery).
+
+**Went wrong or left open:**
+- **Weight:** slide 1 is 159 KB (up to 1280 wide), 330 KB (1920), 516 KB (2560) or 304 KB (phone); with the fonts, the first load at 1920 is about 1.2 MB (958 KB before), the whole page scrolled through 5.2 MB (2.2 MB before, the ten gallery pictures most of it). The serif subset (334 KB) is the largest piece after the picture.
+- **Hover** holds the carousel only over its controls and captions: the picture fills the screen, so a hold on any hover would stop it for most visitors.
+- On phones the words and their shade cover about half the picture; the one-line note is hidden there (it stays in the lightbox).
+- The overview at 800 m is an impression: the AI redrew the layout and drew the European palaces far too large; its caption says so.

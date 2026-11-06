@@ -1,23 +1,28 @@
-# Homepage picture slots (AI renders to come)
+# Homepage pictures: the hero carousel, the gallery slots, their maps
 
-The homepage (`site/index.html`, and `site/zh/index.html` with the same slots) shows a designed placeholder, `figure.ph`, wherever an AI render will go. Each placeholder names its slot (`data-slot`), its aspect ratio (`data-aspect`) and carries the alt text the render will get (`data-alt`).
+The homepage (`site/index.html` and `site/zh/index.html`) shows AI pictures made from our 3D model in two places: the full-screen carousel at the top (Round 22b) and the gallery slots of "The views" (Round 22). Every one carries the AI label, a caption that says what comes from our model and what the AI added, and a small map (the locator) of where the picture looks from. A slot without its picture keeps Round 21's designed placeholder, `figure.ph`.
 
 Note: this file sits under `site/`, so a host serving `site/` would serve it too. It holds no private information; move it to `docs/` if that matters.
 
-## How to put a render in place
+## How to add a picture, a camera and a caption
 
-1. Export the render as WebP, named after its slot: `site/assets/gallery/<slot>.webp` (for example `site/assets/gallery/home-gate-morning.webp`). Keep each file under 400 KB; if it is heavier at the size below, export it narrower.
-2. Add the slot's name to `ready` in `site/assets/gallery/manifest.json`:
-   `{ "ready": ["home-gate-morning"] }`
-3. Done. `site/main.js` reads the manifest, puts the picture in the frame (lazy-loaded), adds the "AI visualisation" label on the picture (Chinese page: "AI 图像"), turns the caption's "Picture to come" into "AI visualisation", and opens it in the lightbox on click. Both language pages pick it up.
+Everything is written by `tools/home_gallery.py` from three files in this folder, between the `<!-- gallery:<name>:start -->` and `<!-- gallery:<name>:end -->` markers of both pages. Never edit the blocks by hand.
 
-Without the manifest entry the placeholder stays, even if the file exists. A single figure can also be switched on by hand with `data-ready="1"` on its `figure.ph`.
+1. **The picture.**
+   - A gallery slot: `<slot>.webp` here (for example `home-gate-morning.webp`), under 400 KB, sized as listed below.
+   - A hero slide: five files `hero-<n>-<slug>-1280.webp`, `-1920.webp`, `-2560.webp`, `-3840.webp` (16:9, 3840 x 2160 the largest) and `-phone.webp` (a 1200 x 1800 centre crop, 2:3, for screens up to 700 px wide). Slide 1 may weigh at most 600 KB at 1920 and 2560 and as the phone crop: it is the first paint (the script refuses more).
+2. **The camera.** `cameras.json`, keyed by the view's id: `eye` and `target` in the 3D view's metres (x east, z south, y up), `bearing_deg` (the compass direction looked toward), `fov_vertical_deg`, `height_above_ground_m`. These are the layout cameras the renders started from; the AI keeps the viewpoint roughly, so the captions say "about". The map's dot is the eye, its wedge the field of view along the bearing.
+3. **The caption.** `views.json`, under `views`, keyed by the same id: `frame` (16:9, 3:4 a centre crop of a 16:9 render, 4:5 a crop of a 9:16 render: the wedge's width comes from it), `landmark` (the building shown, an id of `site/reconstruction/data/buildings_1860.geojson`), `open` (the panel the gallery caption links to in 3D, or null), `title`, `text`, `ai` (what comes from our model and what the AI invented), `alt`, each in `en` and `zh`. A hero slide also has `file` (the stem of its pictures), `short` (the one line under its title on the picture; `ai` goes in the lightbox), `bg` (its average colour top and bottom, shown while it decodes) and, if the wedge must reach further than 760 m, `reach`.
+4. **Where it goes.** `views.json` `hero` is the carousel's order (the brightest first); `groups` the gallery's rows and the "From above" strip. A gallery slot shows its picture only once its id is in `ready` of `manifest.json`.
+5. **Run** `uv run python tools/home_gallery.py` (with `--check` it also prints where each dot lands against its landmark, in metres). Then, if a caption brought new Chinese characters, rebuild the font subsets (`tools/font_subset.py`, see its header), and run `node tools/hero_test.mjs`.
 
-Every render must carry the AI label. The component adds it by itself; do not remove it, and do not put a render anywhere on the site without it.
+Honest captions: name each building as `research/buildings.csv` does; anything the research does not support (a festival, skaters, a use) is "imagined"; say where no photograph of a building standing is known. The look-references the renders were shown and their licences are in `site/credits.html#ai-pictures`.
 
-The drafts named below are in `/opt/data/workspace/higgsfield_output/palace_life/`. They are drafts: they stay out of the site until Tomasz picks them. The model screenshots they started from are in `refs/`, `refs_a/`, `refs_v/` and `refs_x/` there.
+The hero's behaviour (`site/main.js`, `startHero`): slide 1 is in the page and preloaded up to the 2560 (the 3840 is added after load, only on screens that can use it); each further slide comes out of its `<template>` one ahead of the slide shown; about 8 s a picture with a 1.2 s crossfade and a 5 percent zoom; the progress line under the dots is the clock, held by the pause button, hover on the controls, focus on them, a hidden tab and the hero out of view; no autoplay and no zoom with reduced motion.
 
-Sizes are twice the largest size the page shows each slot at (the gallery is at most 1440 px wide, less 48 px margins each side).
+## The slots as Round 21 planned them
+
+The sizes and scenes Round 21 asked for, kept for the next renders. The drafts named are in `/opt/data/workspace/higgsfield_output/palace_life/`; the model screenshots they started from are in `refs/`, `refs_a/`, `refs_v/` and `refs_x/` there. Sizes are twice the largest size the page shows each slot at (the gallery is at most 1440 px wide, less 48 px margins each side).
 
 ## In "A day in the gardens"
 
