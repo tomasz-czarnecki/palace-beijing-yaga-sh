@@ -1,0 +1,81 @@
+{
+ "object": "YM17",
+ "label": "",
+ "points_from": "model YM17-hongci-yonghu",
+ "cameras": {
+  "P0017": {
+   "plate": "",
+   "image": "P0017.jpg",
+   "free": true,
+   "size": [
+    1920,
+    1084
+   ],
+   "object": "YM17",
+   "points_from": "model YM17-hongci-yonghu",
+   "prior": {
+    "lat": 40.0072188,
+    "lon": 116.28455,
+    "err": 150.0,
+    "bearing": 345.0,
+    "eye": 100.0,
+    "eye_sd": 70.0,
+    "f2400": 3805.9137628358553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 27: the 1744 leaf is a painting, not a photograph: a bird's-eye view from the south-south-east over the lake shore and the pine wood to the glazed archway, the bridges, the walled courts and the hall (the halls' east ends show and recede up and to the right, each court standing right of the one before it: the painter's eye east of the axis); the prior is weak on purpose (150 m in plan, eye 100 m, sd 70 m, an assumed 35° lens), as for P0001, P0003 and P0029: the fit measures how far one perspective camera can explain the painter's placing of the halls, gates, bridges and archway"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      -741.71,
+      279.69,
+      401.63
+     ],
+     "yaw_deg": 351.77,
+     "pitch_deg": -15.2,
+     "f_px": 4971.6,
+     "du_px": 1730.7,
+     "dv_px": -27.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 277.06,
+     "moved_from_prior_m": 775.5,
+     "points": {
+      "n": 29,
+      "rms_px": 19.9,
+      "median_px": 10.9,
+      "max_px": 47.7,
+      "rms_m": 3.96,
+      "median_m": 2.36,
+      "max_m": 9.99
+     },
+     "tests": {
+      "n": 29,
+      "rms_px": 19.9,
+      "median_px": 10.9,
+      "max_px": 47.7,
+      "rms_m": 3.96,
+      "median_m": 2.36,
+      "max_m": 9.99
+     },
+     "sure12": {
+      "n": 29,
+      "rms_px": 19.9,
+      "median_px": 10.9,
+      "max_px": 47.7,
+      "rms_m": 3.96,
+      "median_m": 2.36,
+      "max_m": 9.99
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

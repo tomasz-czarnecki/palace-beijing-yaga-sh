@@ -191,6 +191,7 @@ Modern interpretation, not evidence.
 - Q198: The album's hills are too tall
 - Q256: S01 draws 正大光明殿 and its terrace small
 - Q257: The terrace 月台 of 正大光明殿
+- Q298: 安佑宫's size on S01 against its rank. (Round 27)
 
 <!-- generated:end -->
 

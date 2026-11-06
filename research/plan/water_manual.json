@@ -43,5 +43,25 @@
              [6529.0, 1065.0], [6529.0, 1068.0], [6522.0, 1075.0], [6520.0, 1082.0], [6515.0, 1088.0], [6515.0, 1094.0], [6511.0, 1097.0], [6516.0, 1103.0], [6516.0, 1108.0], [6520.0, 1112.0], [6525.0, 1113.0], [6530.0, 1121.0], [6535.0, 1145.0], [6534.0, 1166.0], [6527.0, 1182.0], [6520.0, 1187.0], [6510.0, 1189.0], [6510.0, 1193.0], [6504.0, 1198.0],
              [6510.0, 1204.0], [6510.0, 1209.0], [6525.0, 1214.0], [6535.0, 1222.0], [6537.0, 1228.0], [6534.0, 1242.0], [6522.0, 1260.0], [6498.0, 1278.0], [6467.0, 1291.0], [6408.0, 1303.0], [6375.0, 1306.0], [6361.0, 1310.0], [6283.0, 1321.0], [6277.0, 1325.0], [6279.0, 1349.0]],
   "note": "manual (Round 24): the water from 涌金桥 east along the channel to the inlet before 方壶胜境, the tracer's region R0018 taken whole (its outline in plan px as research/plan/regions.json has it); it was classed land by default, so the leaf's terraces (S08 P0029: three pavilions on white terraces in the water, the front range on a marble base at the water) and S01's (the cruciform and square terraces, the causeway) stood on dry land (Q191). Joined to it, the ink band of S01's flights round the square terrace of 迎薰亭 (plan x 7975-8112, y 1262-1352, less the terrace x 8003-8085, y 1267-1338, and the causeway x 8032-8059): the lines and cells are no region, so they were land beside the model's terrace. Its two holes are the strokes of the labels 方壶胜境 and 迎薰亭, not islands: left out. Kept as land in regions_classified.csv so that the traced ids do not move (as Round 19's canal)."
+ },
+ {
+  "region_id": "RM002",
+  "class": "water",
+  "name_zh": "",
+  "kind": "canal",
+  "confidence": "B",
+  "islands": false,
+  "points": [[786.5, 1384.4], [885.2, 1396.3], [905.2, 1400.8], [925.1, 1411.2], [940.1, 1425.1], [952.1, 1433.5], [964.0, 1437.0], [987.0, 1439.3], [1010.0, 1441.6], [1021.9, 1441.1], [1039.9, 1433.3], [1059.9, 1425.7], [1079.9, 1421.2], [1100.9, 1420.8], [1206.8, 1432.0], [1206.8, 1444.0], [1100.9, 1430.8], [1079.9, 1431.2], [1059.9, 1435.7], [1039.9, 1443.3], [1021.9, 1451.1], [1010.0, 1451.6], [987.0, 1448.8], [964.0, 1446.5], [952.1, 1444.6], [940.1, 1438.1], [925.1, 1424.2], [905.2, 1411.8], [885.2, 1406.3], [786.5, 1394.4]],
+  "note": "manual (Round 27): the inner moat of 鸿慈永祜 between its outer and inner walls, a moon river 月河 bowed south on the axis, traced on 5x crops of S01 between its two ink lines (8-10 px, about 2.2 m) as one channel across the five breaks where S01 draws its bridges (x 874-885, 958-964, 982-992, 1010-1018, 1101-1108); S05 j81:20a 門前白玉石橋三座 (A); Malone: a second moat with three bridges and two side bridges (S02 p.85, E1563, B). Too narrow for the tracer: drawn on S01 as closed pieces, it was land. A moat inside a compound closes no island: `islands` false keeps it out of research/layers/islands_1860 (scripts/build_r1.py), so that I004 and the ids after it do not change."
+ },
+ {
+  "region_id": "RM003",
+  "class": "water",
+  "name_zh": "",
+  "kind": "canal",
+  "confidence": "B",
+  "islands": false,
+  "points": [[716.7, 1375.9], [770.5, 1382.4], [770.5, 1392.5], [748.6, 1390.8], [748.7, 1556.5], [752.7, 1576.1], [780.6, 1611.5], [820.5, 1648.4], [864.3, 1669.7], [982.0, 1684.7], [1109.8, 1699.1], [1151.7, 1682.2], [1191.7, 1651.1], [1215.7, 1618.0], [1220.7, 1588.7], [1221.8, 1448.9], [1219.8, 1440.6], [1221.8, 1433.9], [1239.7, 1436.2], [1235.8, 1445.6], [1233.7, 1530.3], [1232.7, 1598.2], [1223.7, 1633.0], [1199.7, 1662.0], [1159.7, 1697.1], [1109.7, 1716.1], [982.0, 1701.7], [860.4, 1686.2], [830.5, 1671.7], [790.6, 1646.9], [750.7, 1612.0], [730.8, 1579.5], [723.8, 1548.5], [722.7, 1468.0], [721.7, 1392.6]],
+  "note": "manual (Round 27): the outer moat 月河 of 鸿慈永祜, a U round the forecourt with the three timber archways and the south half of the outer wall, traced on 2.5x crops of S01 between its two ink lines (12-26 px, 2.7-5.7 m) from the caps beside the outer wall at y 1405-1420 to the south side at y 1684-1702, one channel across the five breaks where S01 draws the bridges (x 864-874, 946-955, 973-991, 1010-1018, 1102-1110); S05 j81:20a 其南為月河橋 (A); Malone: the moat is crossed by five marble bridges, the middle one for the emperor alone (S02 p.85, E1563, B). Drawn on S01 as closed pieces, it was land. `islands` false, as RM002."
  }
 ]

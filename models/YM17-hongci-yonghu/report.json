@@ -1,0 +1,379 @@
+{
+ "halls": {
+  "hall": {
+   "frontage_m": 31.6,
+   "depth_m": 15.76,
+   "platform_m": 0.3,
+   "eave_m": 5.75,
+   "ridge_m": 12.65,
+   "roof": "xs",
+   "double_eave": 1,
+   "tile": "yellow",
+   "bays": 9,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": -0.43,
+   "z": -10.91,
+   "above_court_m": {
+    "eave": 7.35,
+    "ridge": 14.25
+   }
+  },
+  "peidian_W": {
+   "frontage_m": 18.78,
+   "depth_m": 8.67,
+   "platform_m": 0.6,
+   "eave_m": 4.62,
+   "ridge_m": 7.46,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "yellow",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": -30.75,
+   "z": 23.33
+  },
+  "peidian_E": {
+   "frontage_m": 17.84,
+   "depth_m": 8.46,
+   "platform_m": 0.6,
+   "eave_m": 4.62,
+   "ridge_m": 7.4,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "yellow",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": 32.07,
+   "z": 21.96
+  },
+  "beiting_W": {
+   "across_m": 6.93,
+   "platform_m": 0.6,
+   "low_eave_m": 4.5,
+   "top_m": 10.35
+  },
+  "beiting_E": {
+   "across_m": 6.93,
+   "platform_m": 0.6,
+   "low_eave_m": 4.5,
+   "top_m": 10.35
+  },
+  "gate": {
+   "frontage_m": 14.06,
+   "depth_m": 8.27,
+   "platform_m": 1.2,
+   "eave_m": 5.85,
+   "ridge_m": 8.51,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "yellow",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": -0.43,
+   "z": 41.73,
+   "terrace_depth_m": 2.5,
+   "top_above_court_m": 1.2,
+   "between_end_columns_m": 12.26,
+   "depth_m_s01": 6.47
+  },
+  "chaofang_W": {
+   "frontage_m": 14.27,
+   "depth_m": 6.66,
+   "platform_m": 0.45,
+   "eave_m": 4.07,
+   "ridge_m": 6.35,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill",
+   "x": -37.08,
+   "z": 61.66
+  },
+  "chaofang_E": {
+   "frontage_m": 15.01,
+   "depth_m": 6.44,
+   "platform_m": 0.45,
+   "eave_m": 4.07,
+   "ridge_m": 6.28,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill",
+   "x": 37.98,
+   "z": 60.34
+  },
+  "gate_N": {
+   "frontage_m": 9.1,
+   "depth_m": 5.6,
+   "platform_m": 0.6,
+   "eave_m": 4.42,
+   "ridge_m": 6.37,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "yellow",
+   "bays": 3,
+   "flights": 2,
+   "grade_class": "fill",
+   "x": -0.43,
+   "z": -29.03
+  },
+  "range_NW": {
+   "frontage_m": 18.08,
+   "depth_m": 4.83,
+   "platform_m": 0.45,
+   "eave_m": 3.87,
+   "ridge_m": 5.65,
+   "roof": "ys",
+   "double_eave": 0,
+   "tile": "grey",
+   "bays": 5,
+   "flights": 1,
+   "grade_class": "fill",
+   "x": -44.57,
+   "z": -19.99
+  },
+  "range_NE": {
+   "frontage_m": 21.06,
+   "depth_m": 4.43,
+   "platform_m": 0.45,
+   "eave_m": 3.87,
+   "ridge_m": 5.52,
+   "roof": "ys",
+   "double_eave": 0,
+   "tile": "grey",
+   "bays": 6,
+   "flights": 1,
+   "grade_class": "fill",
+   "x": 46.35,
+   "z": -18.48
+  },
+  "pailou_W": {
+   "frontage_m": 9.45,
+   "ridge_m": 7.95
+  },
+  "pailou_E": {
+   "frontage_m": 9.65,
+   "ridge_m": 7.95
+  },
+  "pailou_S": {
+   "frontage_m": 9.45,
+   "ridge_m": 7.95
+  },
+  "zhifu": {
+   "frontage_m": 9.15,
+   "depth_m": 6.43,
+   "platform_m": 0.5,
+   "eave_m": 4.32,
+   "ridge_m": 6.53,
+   "roof": "xs",
+   "double_eave": 0,
+   "tile": "yellow",
+   "bays": 3,
+   "flights": 1,
+   "grade_class": "doc",
+   "x": 28.4,
+   "z": 138.45
+  }
+ },
+ "shear": {
+  "k": -0.1294,
+  "deg": -7.38,
+  "pivot_x": -0.34,
+  "outer_wall_corners_moved_m": [
+   6.04,
+   6.3,
+   6.43,
+   5.81
+  ]
+ },
+ "rot_box": 0.050615,
+ "rot_axis": 0.037093,
+ "axis_x": -0.43,
+ "axis_spread_m": 3.32,
+ "axis_reads": {
+  "platform": 0.5,
+  "yuetai": 0.82,
+  "flight_C": 0.37,
+  "gate": -0.56,
+  "gates_S": -0.5,
+  "qilin": -0.34,
+  "pailou_S": -1.19,
+  "huabiao": 2.12,
+  "gate_N": -0.52,
+  "bridge_inner_mid": -0.25,
+  "bridge_outer_mid": -0.45
+ },
+ "moats": {
+  "inner": {
+   "water_id": "W0366",
+   "water_y": -1.42,
+   "area_m2": 217.0
+  },
+  "outer": {
+   "water_id": "W0367",
+   "water_y": -1.28,
+   "area_m2": 850.3
+  }
+ },
+ "hall_s01": {
+  "bays_m": [
+   2.971,
+   3.244,
+   3.246,
+   3.248,
+   3.521,
+   3.524,
+   3.255,
+   3.529,
+   3.26
+  ],
+  "spans_back_to_front_m": [
+   4.162,
+   7.205,
+   2.591
+  ],
+  "between_end_columns_m": 29.8,
+  "between_rows_m": 13.96,
+  "s01_middle_off_axis_m": 0.45
+ },
+ "terrace": {
+  "platform_m": [
+   39.56,
+   18.84
+  ],
+  "yuetai_m": [
+   25.05,
+   10.52
+  ],
+  "top_above_court_m": 1.6,
+  "court_ground_y": 0.048
+ },
+ "flights": {
+  "flight_C": {
+   "width_m": 8.07,
+   "run_m": 5.41
+  },
+  "flight_W": {
+   "width_m": 3.3,
+   "run_m": 5.19
+  },
+  "flight_E": {
+   "width_m": 3.52,
+   "run_m": 5.19
+  },
+  "flight_SW": {
+   "width_m": 5.65,
+   "run_m": 3.2
+  },
+  "flight_SE": {
+   "width_m": 5.64,
+   "run_m": 3.5
+  }
+ },
+ "bridges": {
+  "bridge_in_0": {
+   "width_m": 2.4,
+   "length_m": 4.88,
+   "water_span_m": 2.28,
+   "crown_above_water_m": 1.8,
+   "x": -23.87
+  },
+  "bridge_in_1": {
+   "width_m": 2.4,
+   "length_m": 4.85,
+   "water_span_m": 2.25,
+   "crown_above_water_m": 2.08,
+   "x": -6.27
+  },
+  "bridge_in_2": {
+   "width_m": 3.2,
+   "length_m": 4.77,
+   "water_span_m": 2.17,
+   "crown_above_water_m": 2.17,
+   "x": -0.43
+  },
+  "bridge_in_3": {
+   "width_m": 2.4,
+   "length_m": 4.88,
+   "water_span_m": 2.28,
+   "crown_above_water_m": 2.07,
+   "x": 5.14
+  },
+  "bridge_in_4": {
+   "width_m": 2.4,
+   "length_m": 4.88,
+   "water_span_m": 2.28,
+   "crown_above_water_m": 1.8,
+   "x": 24.63
+  },
+  "bridge_out_0": {
+   "width_m": 2.4,
+   "length_m": 7.53,
+   "water_span_m": 3.93,
+   "crown_above_water_m": 1.8,
+   "x": -24.95
+  },
+  "bridge_out_1": {
+   "width_m": 3.0,
+   "length_m": 7.54,
+   "water_span_m": 3.94,
+   "crown_above_water_m": 2.64,
+   "x": -7.6
+  },
+  "bridge_out_2": {
+   "width_m": 4.2,
+   "length_m": 7.54,
+   "water_span_m": 3.94,
+   "crown_above_water_m": 2.4,
+   "x": -0.43
+  },
+  "bridge_out_3": {
+   "width_m": 3.0,
+   "length_m": 7.54,
+   "water_span_m": 3.94,
+   "crown_above_water_m": 2.32,
+   "x": 5.96
+  },
+  "bridge_out_4": {
+   "width_m": 2.4,
+   "length_m": 7.54,
+   "water_span_m": 3.94,
+   "crown_above_water_m": 1.8,
+   "x": 25.72
+  }
+ },
+ "bank_rails": {
+  "moat_in": 7,
+  "moat_out": 8
+ },
+ "liulifang": {
+  "s01_length_m": 13.36,
+  "s01_depth_m": 2.83,
+  "s01_off_square_middle_m": -2.15,
+  "square_m": [
+   29.32,
+   31.87
+  ]
+ },
+ "triangles": 67322,
+ "walls": {
+  "inner_m": [
+   72.24,
+   61.5
+  ],
+  "outer_m": [
+   96.29,
+   101.32
+  ],
+  "inner_h": 4.2,
+  "outer_h": 4.4
+ }
+}

@@ -1,57 +1,57 @@
 {
- "spec_hash": "c33401f0af406023528f6f4c62413071",
- "measured_utc": "2026-11-06 18:56",
+ "spec_hash": "b614ddef4879f935bfcdee4a794eb58a",
+ "measured_utc": "2026-11-06 19:58",
  "after": {
-  "url": "http://127.0.0.1:9126/reconstruction/3d.html?shot=1",
-  "load_s": 3.169,
+  "url": "http://127.0.0.1:9134/reconstruction/3d.html?shot=1",
+  "load_s": 2.88,
   "views": {
    "overview_kit": {
-    "frame_ms_median": 466.9,
-    "frame_ms_min": 425.7,
-    "frame_ms_max": 760.7,
-    "drawn_triangles": 1636945,
-    "draw_calls": 963,
-    "triangles_in_memory": 1720327
+    "frame_ms_median": 945.7,
+    "frame_ms_min": 639.9,
+    "frame_ms_max": 986.9,
+    "drawn_triangles": 1699568,
+    "draw_calls": 1012,
+    "triangles_in_memory": 1782950
    },
    "court_kit": {
-    "frame_ms_median": 261.6,
-    "frame_ms_min": 239.6,
-    "frame_ms_max": 350.3,
-    "drawn_triangles": 929159,
+    "frame_ms_median": 340.9,
+    "frame_ms_min": 255.6,
+    "frame_ms_max": 415.3,
+    "drawn_triangles": 925868,
     "draw_calls": 112,
-    "triangles_in_memory": 2413613
+    "triangles_in_memory": 2476028
    },
    "hall_kit": {
-    "frame_ms_median": 522.9,
-    "frame_ms_min": 374.6,
-    "frame_ms_max": 602.2,
-    "drawn_triangles": 1356461,
+    "frame_ms_median": 636.7,
+    "frame_ms_min": 523.7,
+    "frame_ms_max": 691.5,
+    "drawn_triangles": 1353508,
     "draw_calls": 404,
-    "triangles_in_memory": 2526222
+    "triangles_in_memory": 2588359
    },
    "overview_boxes": {
-    "frame_ms_median": 653.3,
-    "frame_ms_min": 401.8,
-    "frame_ms_max": 804.9,
-    "drawn_triangles": 1523168,
-    "draw_calls": 711,
-    "triangles_in_memory": 2339589
+    "frame_ms_median": 696.4,
+    "frame_ms_min": 440.1,
+    "frame_ms_max": 746.6,
+    "drawn_triangles": 1586742,
+    "draw_calls": 762,
+    "triangles_in_memory": 2402142
    },
    "court_boxes": {
-    "frame_ms_median": 235.8,
-    "frame_ms_min": 169.5,
-    "frame_ms_max": 262,
-    "drawn_triangles": 830131,
+    "frame_ms_median": 263.9,
+    "frame_ms_min": 185.6,
+    "frame_ms_max": 280,
+    "drawn_triangles": 826254,
     "draw_calls": 78,
-    "triangles_in_memory": 2547477
+    "triangles_in_memory": 2609822
    },
    "hall_boxes": {
-    "frame_ms_median": 575.2,
-    "frame_ms_min": 411.8,
-    "frame_ms_max": 623.1,
-    "drawn_triangles": 1239210,
+    "frame_ms_median": 444.6,
+    "frame_ms_min": 400.1,
+    "frame_ms_max": 483.3,
+    "drawn_triangles": 1235768,
     "draw_calls": 325,
-    "triangles_in_memory": 2526222
+    "triangles_in_memory": 2588359
    }
   },
   "errors": []

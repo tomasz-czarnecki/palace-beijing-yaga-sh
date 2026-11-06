@@ -833,9 +833,11 @@ def water_layers(comp, bname, hill_rects) -> None:
         feats[k].append((g, ring_sets, props))
     # Round 19: water the tracer could not close (a canal drawn as two ink lines a few px apart), traced by hand in plan px: research/plan/water_manual.json.
     # Numbered after the traced bodies, so their ids do not move.
+    # Round 27: `islands` false (a moat inside a compound) keeps a body out of the islands' water network, so that it does not cut an island and renumber the rest.
     for r in json.loads((PLAN / "water_manual.json").read_text(encoding="utf-8")) if (PLAN / "water_manual.json").exists() else []:
         g = Polygon(r["points"]).buffer(0)
-        water_polys.append(g)
+        if r.get("islands", True):
+            water_polys.append(g)
         idn["water"] += 1
         props = {"id": f"W{idn['water']:04d}", "region_id": r["region_id"], "kind": r["kind"], "name_zh": r["name_zh"], "name_pinyin": pinyin(r["name_zh"]) if r["name_zh"] else "",
                  "area_m2": round(area_m2(warp_ring(r["points"]))), "sources": "S01", "confidence": r["confidence"], "note": r["note"]}

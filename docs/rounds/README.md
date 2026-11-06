@@ -33,6 +33,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r20_surroundings` | not recorded | 2026-11-06, from 09:02 | about 1 h 40 min | - | see its result row | see the git log | done |
 | `palace_r25_wenyuan` | not recorded | 2026-11-06, from 16:41 | see its log | - | see its result row | see the git log | done |
 | `palace_r26_maze` | not recorded | 2026-11-06, from 17:44 | about 1 h 30 min | - | see its result row | see the git log | done |
+| `palace_r27_anyou` | not recorded | 2026-11-06, from 19:01 | about 1 h 30 min | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -940,3 +941,37 @@ Brief: `palace_r26_maze.md`. The twelfth and thirteenth detailed models, built f
 - **Found on the shots and fixed:** the north hall's hip roof (the plate draws a gable: 1.99 to 1.61 m on plate 5); the side gates' leaves as a black slab; a blank wall over the aviary's west door (now plate 6's transom); its blank ends (now blind arched panels, C); G36's box before the east front; two cameras inside a wall and on a coping.
 - **Open:** Q292-Q294. The east front's plan is faceted where P0192 shows a curve; the capitals are plain blocks; the north hall's façades and the paving are assumed; 花园门 XY03 is still the kit's tall box where plate 5 draws two finial piers.
 
+## palace_r27_anyou
+
+Brief: `palace_r27_anyou.md`. The fourteenth detailed model, built from the references: 鸿慈永祜 YM17, the ancestral temple 安佑宫 (YM17-10) with 安佑门 (YM17-06) and the whole precinct (`models/YM17-hongci-yonghu/`). No subagent: the plan, the leaf and the texts were read by the round itself.
+
+**What it rests on:**
+- **S01**, re-read on 2.5-6x crops with a 5 px grid (`models/YM17-hongci-yonghu/plan_readings.csv`): the hall's ten by four column lines (Malone's forty pillars), the T-shaped terrace and its five flights, every hall, wall, gate, pailou and square, the two moats with five breaks each (Malone's five bridges on each), the 华表 on a square of 30 m (Malone's 100 ft).
+- **S05** (A) for the halls, bays, names and the archways' faces; **Malone** (B) for the moats, the bridges, the gates, the walls' yellow coping, the qilin, the burners, the terrace's five stairs; **the leaf P0017** (A for 1744) for the forms and colours; **S943, S980** for the 华表, the qilin's bases and the ramp stone; **P0196** (about 1882) for the 华表's dragon and top.
+
+**New in the pipeline:**
+- `level` in a model's joints (`Site.LEVEL` in `scripts/model_site.py`, read by `scripts/hills1860.py`): earth courts where no generated hill stands but the planting stays. Hills of 4.5 m (forecourt) and 5.9 m (inside the square of 华表) had stood there.
+- `islands` false in `research/plan/water_manual.json` (`scripts/build_r1.py`): a moat inside a compound closes no island, so no island id moves. W0366 (inner moat, RM002) and W0367 (outer moat 月河, RM003), their points rectified for the fit's shear by `models/YM17-hongci-yonghu/anyougong.py --moats`.
+- `research/plan/water_removed.json`: W0152, the strip between the walls on the east side (an automatic wash call, C), is land.
+- `research/paths/exceptions.csv`: YMW-057, -058, -059 (S01's flights of the terrace, drawn by the model) cross; YMW-059's foot (the rectification moves the model's flight about 2 m) joint.
+- `research/questions.md`: Q295 (the fit's shear here), Q296 (the heights), Q297 (the bridges), Q298 (the hall's size on S01).
+
+**Numbers:**
+- **check_models:** YM17 67,322 triangles (15,194 fill), GLB 2.06 MB, 0.58 MB compressed; 252 joints, none above the ground, deepest 0.47 m in; 10 ways at its boxes, 0 off.
+- **The shear:** in the model's frame S01's east-west lines fall 7.4° (k -0.129 on the four long walls), its north-south lines 0.8°; rectified about the axis, the outer wall's corners moved 5.9-6.4 m and it measures 96 x 100 m (113 m deep before). The axis's middles spread 3.32 m.
+- **The leaf P0017** (`research/scenes/YM17-hongci-yonghu/plate_fit.csv`): 29 points, 3.96 m rms at the object (19.9 px), median 2.36 m, max 9.99 m (the inner wall's south-east corner); the hall's eight points 1.0-2.9 m.
+- **Sweep** (environment `YM17_COL`, `YM17_RISE`, never in step 6): the hall's column 4.0-5.8 m and the upper rise 5.9-7.9 m move the hall's points between 1.69 and 2.15 m rms and the whole fit between 3.85 and 3.90 m. The leaf does not settle the heights (Q296); 4.6 and 6.9 m kept (C).
+- **Kit:** forms from a model 103 to 120 boxes. **Planting:** 41,334 to 41,260 plants. **Hills:** 464 to 459, the free land's ids renumbered from H2095 (generated, referenced nowhere by hand). **Water:** 366 to 367 bodies. **Paths:** lines crossing a box, wall or water 88 (A or B 29) to 91 (32), the three flights the model draws; bridge ends without an approach 13 to 15 (BR017, an unnamed bridge east of the compound: its ways now meet the outer wall; not a failure).
+- **Cost:** the overview draws 1.700 M triangles (Round 26: 1.637 M, +3.8%). Its median frame was 946 ms against 467 ms in Round 26, measured with a load average near 3 on 4 cores (the boxes-only overview also slowed, 653 to 696 ms): not comparable. The site grows by 2.14 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (generator idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_surroundings.py`, `check_kit.py --browser` (port 9134), `check_greens.py --browser` (port 9135).
+- Step 6 run twice at the end: the second pass changed no file of `site/`, `models/` or `research/` (md5).
+- Screenshots in `screenshots/r27/`, opened: before (the kit, from a copy of `site/` taken at the round's start) and after from the same 19 cameras (two aerials, the hall's front, the rear from the north-east, both sides, 安佑门, the inner moat, the forecourt, the outer bridges, the glazed archway, a 华表, the terrace, a stele pavilion, the three gates, 致孚殿, two joints, from above), `beforeafter_*.png`, the panel, and the leaf's overlay (`overlay_P0017_YM17_all_*.jpg`; the leaf is free).
+
+**Went wrong or left open:**
+- **The shear** was found only when the outer wall came out 113 m deep; measure a compound's wall angles in the frame first (`docs/METHOD.md` 40).
+- **Found on the shots and fixed:** hills in the courts; a grey band between the hall's eaves; the plaque on the lower eave; 安佑门's terrace crowding the inner bridges; oversized clasp stones; three cameras inside a roof or a tree.
+- **The south archway** had been centred on the mean axis, 1.2 m off S01's bar; a way through its box missed its entries by 1.58 m. It stands on S01's bar now, with an entry in its middle bay.
+- **The panel's Chinese characters render as boxes** in this server's headless Chrome (no CJK font), as in Round 26.
+- **Open:** Q295-Q298, Q179 (two or four 华表: four drawn); the qilin's and the bronzes' forms; what the corner ranges were.

@@ -231,7 +231,7 @@ Machine-readable: `dimensions.json`. Figures by method: a 7, b 9, c 0, d 0, e 0.
 | YM17 | the scene's outline on the plan | Area | 29800 m² | 3000 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM17 | the scene's outline on the plan | Extent, long side | 292 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM17 | the scene's outline on the plan | Extent, short side | 123 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| YM17 | water inside the scene's outline | Water inside the outline | 3880 m² | 390 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| YM17 | water inside the scene's outline | Water inside the outline | 4310 m² | 430 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 | YM17-02 | marble 华表 (pair at PKU) | Ridge height | 8 m | 0.5 | a | B | S980 | page text | metres as stated | 华表由汉白玉雕成，通高约8米 (moved object, so place is not evidence; height is) | viewed |
 | YM17-02 | 华表 octagonal 须弥座 | Platform height | 1.24 m | 0.05 | a | B | S980 | page text | metres as stated | 下方的八方形、须弥座高为1.24米 | viewed |
 | YM17-02 | four marble pillars round the outer pailou | Pillar spacing | 30.5 m | 5 | b | B | S02 | p.84 (E1561) | 1 ft = 0.3048 m | Malone on the ruin: four marble pillars about twenty feet high, about 100 ft apart at the corners of a square (E1561); 100 ft = 30.5 m | viewed |
@@ -251,6 +251,7 @@ No excavation report of the 安佑宫 platform was found. Yangshi Lei plans or s
 - **Q180. YM17.** YM17: the stele in the Kanripo text reads 鳩工於乾隆庚午而蕆事於癸亥; 庚午 would be 1750, after 癸亥 (1743). Probably a copying error for 壬戌 (1742), which S05's own note (建自乾隆七年) supports. Check another edition before quoting it. (verify_b worker, Round 7)
 - **Q181. YM17 and YM29.** YM17 and YM29: E1561 gives the 华表 as about 20 ft (6.1 m), S980 about 8 m overall; and the S943 page says the qilin went from the garden to Peking University in 1925 in one place and via 载涛 and 朗润园 in another. (verify_b worker, Round 7)
 - **Q185. Typology, 石华表 YM17-02.** Typology, 石华表 YM17-02: the four marble columns of 安佑宫, about 8 m high on an octagonal base of 1.24 m (S980, S818), stand in the 3D view as a square pavilion box. Proposal: a column shape, or no box, in boxes1860.py. Not applied (coordinator worker, Round 7) **Round 11: left open.** Sinc
+- **Q295. The fit's shear at 鸿慈永祜. (Round 27)** In the frame of the YM17 model the fit in use turns S01's north-south lines within 0.8° of the axis but its east-west lines 7.4° (the four long walls: slopes -0.124, -0.136, -0.125, -0.133), so S01's rectangles come out as parallelograms and the outer wall 113 m deep for ab
 
 ### Wishlist rows that name it
 
@@ -258,9 +259,13 @@ No excavation report of the 安佑宫 platform was found. Yangshi Lei plans or s
 |---|---|---|---|
 | excavation or survey report of 鸿慈永祜 / 安佑宫 platform | the nine-bay box sized from S01 and 寿皇殿 analogy | 北京市考古研究院; 圆明园管理处 yjbg list | digs worker; request |
 | a measured photograph or survey of the PKU and National Library 华表 pairs | the 8 m (S980) vs 20 ft (Malone) conflict for YM17-02 | 北京大学 燕园; 国家图书馆古籍馆 文津楼 | photos worker or a site visit |
+| Round 27: the Yangshi Lei sheet 安佑宫供器尺寸及殿底样 (NLC 样035-4-2, E1566) and the plates of 《国家图书馆藏样式雷图档·圆明园卷初编》 pp.362-386 on 鸿慈永祜 (E1565) | The model's biggest guesses: every height of 安佑宫 and its terrace (the leaf does not settle them, Q296) and its size, S01's grid being small for its rank (Q298) | National Library of China; the 初编 in a library | Request a copy or read the volume; 1 day |
+| Round 27: a control point at 鸿慈永祜 (the 华表's old bases, a foundation in the park) measured with a phone GPS | A test of the fit's 7.4° shear there (Q295) | Site; the park's office | Visit; 1 hour |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+**Round 27: the detailed model** (`models/YM17-hongci-yonghu/`, its README has the evidence, the method and the iteration log). The whole precinct as S01 draws it and S05, Malone and the leaf describe it: 安佑宫 on S01's grid of ten by four columns (Malone's forty pillars), double-eaved 歇山 in yellow tile, on its T-shaped marble terrace with five flights and the ramp stone; the side halls, stele pavilions and burners; 安佑门 on its terrace; the two red walls with yellow coping and their gates; the inner and outer moats (water traced in Round 27, `research/plan/water_manual.json` RM002, RM003) with five bridges each; the three timber archways with their props, the qilin; 致孚殿 in its yard; the glazed archway and the four 华表. The leaf P0017 fitted at 3.96 m rms over 29 points (`plate_fit.csv`); it does not settle the heights (Q296). The plan's shear is rectified about the axis (Q295). Open: Q295-Q298, Q179 (two or four 华表: four drawn).

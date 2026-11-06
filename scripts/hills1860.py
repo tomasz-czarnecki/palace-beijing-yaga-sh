@@ -56,11 +56,12 @@ def xz(geom):
 
 def model_courts():
     """Round 19: the courts, yards and terraces a detailed model paves (models/*/joints.json `clear` and `decks`, scene x z, from the model's last run) are not free land.
-    A generated hill stood 7 m high in the paved court before 正大光明殿 (YM01). Positions never depend on the ground, so this is a fixed point too."""
+    A generated hill stood 7 m high in the paved court before 正大光明殿 (YM01). Positions never depend on the ground, so this is a fixed point too.
+    Round 27: `level` too, the courts a model leaves earth for their trees (the planting may stand there) but no generated hill may (鸿慈永祜 YM17)."""
     out = []
     for jp in sorted((ROOT / "models").glob("*/joints.json")):
         j = json.load(open(jp, encoding="utf-8"))
-        polys = list(j.get("clear", [])) + [d["poly"] for d in j.get("decks", [])]
+        polys = list(j.get("clear", [])) + [d["poly"] for d in j.get("decks", [])] + list(j.get("level", []))
         out += [Polygon(p).buffer(0).buffer(CLEAR["court"]) for p in polys if len(p) >= 3]
     return out
 

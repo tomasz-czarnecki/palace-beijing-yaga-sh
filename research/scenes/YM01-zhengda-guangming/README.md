@@ -325,6 +325,7 @@ Apart from 样001-4, read only in the mhymy transcription (S310 rec. 10451), no 
 - **Q256. S01 draws 正大光明殿 and its terrace small.** S01's hall is 31.7 m across its seven cells, its terrace as wide: 26.8 m from the hall's back to the terrace's front (run on the readings, `models/YM01-zhengda-guangming/report.json`). The slip 样001-4 gives 35.95 x 16.0 m between the eave columns, Malone's foundation 39.
 - **Q257. The terrace 月台 of 正大光明殿.** S119 gives 12丈 x 4.63丈 x 0.8尺 (38.40 x 14.82 x 0.26 m): a terrace a hand high before a platform of 1.22 m (Malone, Barrow). '0.8尺' may be a misprint (八尺, 2.56 m, would rise above the platform). Nothing says it had a balustrade; the model draws one (the brief, C) and the terrace 0.26 m
 - **Q263. The leaf of 1744 against the model of 正大光明.** One camera fits the leaf's 16 points to 3.6 m rms at the object; the leaf paints the gate's and the hall's east ends 15-24 px further east than the model, and every column's foot 10-16 px lower (taller columns), as it paints halls 1.5-1.9 times too tall elsewhere (Q
+- **Q298. 安佑宫's size on S01 against its rank. (Round 27)** S01's grid gives nine bays of 2.97-3.53 m, 29.8 x 13.96 m between the columns, small for a nine-bay double-eaved hall of the dynasty's ancestors; S01 draws 正大光明殿 0.8 times the slip's size (Q256). If the same holds here the hall was about 37 x 17 m. The model keep
 
 ### Wishlist rows that name it
 

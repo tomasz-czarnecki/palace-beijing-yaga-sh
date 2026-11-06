@@ -1944,6 +1944,31 @@
 }
 }
 },
+"P0017": {
+"object": "YM17",
+"plate": "",
+"image": "photos/P0017.jpg",
+"size": [
+1920,
+1084
+],
+"fits": {
+"all": {
+"position": [
+-741.71,
+279.69,
+401.63
+],
+"yaw_deg": 351.77,
+"pitch_deg": -15.2,
+"f_px": 4971.6,
+"du_px": 1730.7,
+"dv_px": -27.8,
+"k_vertical": 1.0,
+"rms_px": 19.9
+}
+}
+},
 "P0029": {
 "object": "YM29",
 "plate": "",

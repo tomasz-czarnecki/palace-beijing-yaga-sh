@@ -268,6 +268,7 @@ Modern interpretation, not evidence.
 - Q256: S01 draws 正大光明殿 and its terrace small
 - Q257: The terrace 月台 of 正大光明殿
 - Q263: The leaf of 1744 against the model of 正大光明
+- Q298: 安佑宫's size on S01 against its rank. (Round 27)
 
 <!-- generated:end -->
 

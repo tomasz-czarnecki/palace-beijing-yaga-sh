@@ -1,31 +1,31 @@
 {
- "plants": 41334,
+ "plants": 41260,
  "by_form": {
-  "pine": 4193,
-  "blossom": 2671,
-  "willow": 1392,
-  "broad": 2413,
+  "pine": 4130,
+  "blossom": 2692,
+  "willow": 1411,
+  "broad": 2369,
   "topiary": 354,
   "cypress": 261,
   "bamboo": 4730,
-  "reed": 7792,
-  "floating": 2757,
-  "lotus": 14174,
-  "shrub": 597
+  "reed": 7787,
+  "floating": 2758,
+  "lotus": 14172,
+  "shrub": 596
  },
  "by_species": {
-  "荷": 14174,
-  "芦苇": 5104,
+  "荷": 14172,
+  "芦苇": 5099,
   "竹": 4730,
-  "松": 4178,
-  "落叶乔木": 2035,
-  "花树": 1940,
-  "荇": 1582,
-  "柳": 1392,
+  "松": 4115,
+  "落叶乔木": 1990,
+  "花树": 1947,
+  "荇": 1583,
+  "柳": 1411,
   "蓼": 871,
   "蘆": 794,
   "蒲": 729,
-  "桃": 525,
+  "桃": 539,
   "菱": 407,
   "萍": 381,
   "松·修剪": 354,
@@ -33,11 +33,11 @@
   "柏": 261,
   "菊": 252,
   "蒹葭": 169,
-  "树": 155,
+  "树": 154,
   "花": 140,
   "芦荻": 125,
   "山桃": 123,
-  "阔叶树": 93,
+  "阔叶树": 94,
   "杏": 66,
   "苹": 63,
   "牡丹": 40,
@@ -54,29 +54,29 @@
   "林": 11,
   "玉兰": 9,
   "楓": 9,
+  "林木": 7,
   "卉木": 7,
-  "林木": 6,
   "龙爪槐": 4,
   "玉蘭": 4,
   "嘉樹叢卉": 4,
-  "花木": 3,
   "梅": 2,
   "梨": 2,
   "鼠姑": 2,
+  "花木": 2,
   "黑枣": 1,
   "槲": 1
  },
  "trees_confidence": {
-  "A": 30295,
-  "B": 3454,
-  "C": 7585
+  "A": 30297,
+  "B": 3452,
+  "C": 7511
  },
  "extent_confidence": {
-  "C": 34125,
-  "B": 7209
+  "C": 34059,
+  "B": 7201
  },
- "assumed": 6180,
- "on_generated_hills": 11682,
+ "assumed": 6107,
+ "on_generated_hills": 11513,
  "areas": {
   "n": 457,
   "by_kind": {
@@ -117,134 +117,134 @@
   "water_level_gap_max_m": 0.005
  },
  "rockeries": {
-  "n": 85,
+  "n": 84,
   "by_kind": {
    "standing": 23,
    "shore": 32,
    "hill": 27,
-   "screen": 3
+   "screen": 2
   },
   "grade": {
    "B": 27,
-   "A": 51,
+   "A": 50,
    "C": 7
   },
   "extent": {
-   "C": 53,
+   "C": 52,
    "B": 32
   },
   "floating": 0,
   "in_box": 0,
   "shore_dry": [],
   "shore_meeting_water": 32,
-  "height_m": "n 85, median 3.20, p90 5.48, max 6.00 m"
+  "height_m": "n 84, median 3.20, p90 5.51, max 6.00 m"
  },
  "files_mb": {
   "greens_1860.json": 0.054,
-  "greens_1860.geojson": 2.477,
-  "greens_1860.bin": 0.579
+  "greens_1860.geojson": 2.479,
+  "greens_1860.bin": 0.578
  },
  "browser": {
-  "measured_utc": "2026-11-06 18:57",
+  "measured_utc": "2026-11-06 20:00",
   "views": {
    "overview_off": {
-    "frame_ms_median": 428.7,
-    "frame_ms_min": 363.3,
-    "frame_ms_max": 614,
-    "drawn_triangles": 1366173,
-    "draw_calls": 783,
+    "frame_ms_median": 462,
+    "frame_ms_min": 379.2,
+    "frame_ms_max": 643.9,
+    "drawn_triangles": 1430126,
+    "draw_calls": 832,
     "greens_near_instances": 0,
     "greens_near_triangles": 0,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "scene_off": {
-    "frame_ms_median": 345.3,
-    "frame_ms_min": 251.1,
-    "frame_ms_max": 412.8,
-    "drawn_triangles": 1103128,
+    "frame_ms_median": 269.6,
+    "frame_ms_min": 254.3,
+    "frame_ms_max": 275.2,
+    "drawn_triangles": 1101188,
     "draw_calls": 293,
     "greens_near_instances": 0,
     "greens_near_triangles": 0,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "near_off": {
-    "frame_ms_median": 257.8,
-    "frame_ms_min": 224.1,
-    "frame_ms_max": 288.9,
-    "drawn_triangles": 944329,
+    "frame_ms_median": 256.3,
+    "frame_ms_min": 223.3,
+    "frame_ms_max": 289.8,
+    "drawn_triangles": 942496,
     "draw_calls": 165,
     "greens_near_instances": 0,
     "greens_near_triangles": 0,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "overview_summer": {
-    "frame_ms_median": 735.8,
-    "frame_ms_min": 584.5,
-    "frame_ms_max": 908.6,
-    "drawn_triangles": 1636945,
-    "draw_calls": 963,
+    "frame_ms_median": 499.6,
+    "frame_ms_min": 471.7,
+    "frame_ms_max": 520.9,
+    "drawn_triangles": 1699568,
+    "draw_calls": 1012,
     "greens_near_instances": 0,
     "greens_near_triangles": 0,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "scene_summer": {
-    "frame_ms_median": 310,
-    "frame_ms_min": 293.9,
-    "frame_ms_max": 337.2,
-    "drawn_triangles": 1285550,
+    "frame_ms_median": 385.4,
+    "frame_ms_min": 310.9,
+    "frame_ms_max": 486.5,
+    "drawn_triangles": 1282551,
     "draw_calls": 361,
-    "greens_near_instances": 2872,
-    "greens_near_triangles": 76258,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_near_instances": 2863,
+    "greens_near_triangles": 75994,
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "near_summer": {
-    "frame_ms_median": 395,
-    "frame_ms_min": 337.9,
-    "frame_ms_max": 447.6,
-    "drawn_triangles": 1100339,
+    "frame_ms_median": 306.4,
+    "frame_ms_min": 272.2,
+    "frame_ms_max": 362.6,
+    "drawn_triangles": 1097459,
     "draw_calls": 207,
-    "greens_near_instances": 7734,
-    "greens_near_triangles": 157802,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_near_instances": 7737,
+    "greens_near_triangles": 157990,
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "scene_spring": {
-    "frame_ms_median": 303.2,
-    "frame_ms_min": 294.5,
-    "frame_ms_max": 310.6,
-    "drawn_triangles": 1282518,
+    "frame_ms_median": 521.5,
+    "frame_ms_min": 486.5,
+    "frame_ms_max": 556.6,
+    "drawn_triangles": 1279375,
     "draw_calls": 361,
-    "greens_near_instances": 2872,
-    "greens_near_triangles": 73106,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_near_instances": 2863,
+    "greens_near_triangles": 72674,
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "scene_autumn": {
-    "frame_ms_median": 512.3,
-    "frame_ms_min": 400.4,
-    "frame_ms_max": 647.7,
-    "drawn_triangles": 1282518,
+    "frame_ms_median": 440.8,
+    "frame_ms_min": 308.9,
+    "frame_ms_max": 527.1,
+    "drawn_triangles": 1279375,
     "draw_calls": 361,
-    "greens_near_instances": 2872,
-    "greens_near_triangles": 73106,
-    "greens_far_triangles": 253954,
-    "rock_triangles": 16860
+    "greens_near_instances": 2863,
+    "greens_near_triangles": 72674,
+    "greens_far_triangles": 253004,
+    "rock_triangles": 16480
    },
    "scene_winter": {
-    "frame_ms_median": 423.7,
-    "frame_ms_min": 399,
-    "frame_ms_max": 488,
-    "drawn_triangles": 1254480,
+    "frame_ms_median": 351.3,
+    "frame_ms_min": 298.5,
+    "frame_ms_max": 381.1,
+    "drawn_triangles": 1251338,
     "draw_calls": 356,
-    "greens_near_instances": 2872,
-    "greens_near_triangles": 49802,
-    "greens_far_triangles": 239780,
-    "rock_triangles": 16860
+    "greens_near_instances": 2863,
+    "greens_near_triangles": 49370,
+    "greens_far_triangles": 238832,
+    "rock_triangles": 16480
    }
   },
   "errors": []

@@ -1,0 +1,4371 @@
+{
+ "id": "YM17",
+ "position": [
+  -1135.542,
+  1.83,
+  -601.112
+ ],
+ "rotationY": 0.037093,
+ "joints": [
+  {
+   "name": "terrace_0",
+   "scene": [
+    -1156.474,
+    1.67,
+    -620.093
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_1",
+   "scene": [
+    -1116.943,
+    1.67,
+    -621.56
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_2",
+   "scene": [
+    -1116.244,
+    1.68,
+    -602.729
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_3",
+   "scene": [
+    -1123.496,
+    1.68,
+    -602.46
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_4",
+   "scene": [
+    -1123.105,
+    1.702,
+    -591.945
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_5",
+   "scene": [
+    -1148.134,
+    1.726,
+    -591.016
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_6",
+   "scene": [
+    -1148.524,
+    1.692,
+    -601.531
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "terrace_7",
+   "scene": [
+    -1155.775,
+    1.712,
+    -601.262
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "peidian_W_pl_0",
+   "scene": [
+    -1169.385,
+    1.742,
+    -567.112
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_W_pl_1",
+   "scene": [
+    -1170.081,
+    1.742,
+    -585.883
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_W_pl_2",
+   "scene": [
+    -1161.418,
+    1.742,
+    -586.205
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_W_pl_3",
+   "scene": [
+    -1160.722,
+    1.742,
+    -567.434
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_E_pl_0",
+   "scene": [
+    -1098.787,
+    1.696,
+    -589.428
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_E_pl_1",
+   "scene": [
+    -1098.125,
+    1.696,
+    -571.598
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_E_pl_2",
+   "scene": [
+    -1106.579,
+    1.696,
+    -571.285
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "peidian_E_pl_3",
+   "scene": [
+    -1107.24,
+    1.696,
+    -589.114
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_W_pl_0",
+   "scene": [
+    -1156.042,
+    1.724,
+    -593.361
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_W_pl_1",
+   "scene": [
+    -1160.863,
+    1.724,
+    -591.151
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_W_pl_2",
+   "scene": [
+    -1163.073,
+    1.724,
+    -595.972
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_W_pl_3",
+   "scene": [
+    -1158.252,
+    1.724,
+    -598.182
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_E_pl_0",
+   "scene": [
+    -1107.37,
+    1.68,
+    -595.571
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_E_pl_1",
+   "scene": [
+    -1112.191,
+    1.68,
+    -593.361
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_E_pl_2",
+   "scene": [
+    -1114.4,
+    1.68,
+    -598.182
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "beiting_E_pl_3",
+   "scene": [
+    -1109.579,
+    1.68,
+    -600.392
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "liaoting_W_foot",
+   "scene": [
+    -1163.088,
+    1.76,
+    -563.383
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "liaoting_E_foot",
+   "scene": [
+    -1103.552,
+    1.75,
+    -566.428
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "gate_terrace_0",
+   "scene": [
+    -1141.304,
+    1.76,
+    -555.049
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "gate_terrace_1",
+   "scene": [
+    -1127.25,
+    1.76,
+    -555.571
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "gate_terrace_2",
+   "scene": [
+    -1127.155,
+    1.76,
+    -553.023
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "gate_terrace_3",
+   "scene": [
+    -1141.21,
+    1.76,
+    -552.501
+   ],
+   "kind": "terrace foot"
+  },
+  {
+   "name": "gate_pl_0",
+   "scene": [
+    -1141.609,
+    1.757,
+    -563.268
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "gate_pl_1",
+   "scene": [
+    -1127.555,
+    1.757,
+    -563.79
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "iwall0_0",
+   "scene": [
+    -1169.601,
+    1.76,
+    -558.089
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall0_1",
+   "scene": [
+    -1171.881,
+    1.67,
+    -619.545
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall1_0",
+   "scene": [
+    -1171.881,
+    1.67,
+    -619.545
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall1_1",
+   "scene": [
+    -1099.687,
+    1.652,
+    -622.224
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall2_0",
+   "scene": [
+    -1099.687,
+    1.652,
+    -622.224
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall2_1",
+   "scene": [
+    -1097.407,
+    1.76,
+    -560.769
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S0_0",
+   "scene": [
+    -1169.601,
+    1.76,
+    -558.089
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S0_1",
+   "scene": [
+    -1159.359,
+    1.76,
+    -558.469
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S1_0",
+   "scene": [
+    -1155.562,
+    1.76,
+    -558.61
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S1_1",
+   "scene": [
+    -1141.506,
+    1.76,
+    -559.132
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S2_0",
+   "scene": [
+    -1127.352,
+    1.76,
+    -559.657
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S2_1",
+   "scene": [
+    -1112.775,
+    1.76,
+    -560.198
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S3_0",
+   "scene": [
+    -1108.978,
+    1.76,
+    -560.339
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "iwall_S3_1",
+   "scene": [
+    -1097.407,
+    1.76,
+    -560.769
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "gate_side_W_pier-1",
+   "scene": [
+    -1159.009,
+    1.76,
+    -558.482
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_side_W_pier+1",
+   "scene": [
+    -1155.911,
+    1.76,
+    -558.597
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_side_E_pier-1",
+   "scene": [
+    -1112.425,
+    1.76,
+    -560.211
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_side_E_pier+1",
+   "scene": [
+    -1109.328,
+    1.76,
+    -560.326
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "bridge_in_0_NW",
+   "scene": [
+    -1158.789,
+    1.86,
+    -551.405
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_0_NE",
+   "scene": [
+    -1156.391,
+    1.86,
+    -551.494
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_0_SW",
+   "scene": [
+    -1158.608,
+    1.86,
+    -546.529
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_0_SE",
+   "scene": [
+    -1156.21,
+    1.86,
+    -546.618
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_1_NW",
+   "scene": [
+    -1140.944,
+    1.86,
+    -545.19
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_1_NE",
+   "scene": [
+    -1138.546,
+    1.86,
+    -545.279
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_1_SW",
+   "scene": [
+    -1140.765,
+    1.865,
+    -540.346
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_1_SE",
+   "scene": [
+    -1138.366,
+    1.893,
+    -540.435
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_2_NW",
+   "scene": [
+    -1135.512,
+    1.86,
+    -545.441
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_2_NE",
+   "scene": [
+    -1132.314,
+    1.86,
+    -545.56
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_2_SW",
+   "scene": [
+    -1135.335,
+    2.011,
+    -540.671
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_2_SE",
+   "scene": [
+    -1132.137,
+    2.081,
+    -540.789
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_3_NW",
+   "scene": [
+    -1129.556,
+    1.86,
+    -545.95
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_3_NE",
+   "scene": [
+    -1127.158,
+    1.879,
+    -546.039
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_3_SW",
+   "scene": [
+    -1129.375,
+    1.86,
+    -541.073
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_3_SE",
+   "scene": [
+    -1126.977,
+    1.86,
+    -541.162
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_4_NW",
+   "scene": [
+    -1110.339,
+    1.86,
+    -553.879
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_4_NE",
+   "scene": [
+    -1107.94,
+    1.86,
+    -553.968
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_4_SW",
+   "scene": [
+    -1110.157,
+    1.86,
+    -549.0
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_in_4_SE",
+   "scene": [
+    -1107.759,
+    1.86,
+    -549.089
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "chaofang_W_pl_0",
+   "scene": [
+    -1173.368,
+    1.76,
+    -530.865
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_W_pl_1",
+   "scene": [
+    -1173.897,
+    1.76,
+    -545.123
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_W_pl_2",
+   "scene": [
+    -1167.245,
+    1.76,
+    -545.37
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_W_pl_3",
+   "scene": [
+    -1166.716,
+    1.76,
+    -531.112
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_E_pl_0",
+   "scene": [
+    -1092.409,
+    1.76,
+    -549.84
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_E_pl_1",
+   "scene": [
+    -1091.852,
+    1.76,
+    -534.84
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_E_pl_2",
+   "scene": [
+    -1098.293,
+    1.76,
+    -534.601
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "chaofang_E_pl_3",
+   "scene": [
+    -1098.849,
+    1.76,
+    -549.601
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "jingting_W_foot",
+   "scene": [
+    -1167.871,
+    1.76,
+    -551.934
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "jingting_E_foot",
+   "scene": [
+    -1099.362,
+    1.76,
+    -555.642
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "owall0_0",
+   "scene": [
+    -1179.818,
+    1.899,
+    -527.131
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall0_1",
+   "scene": [
+    -1183.576,
+    1.644,
+    -628.382
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall1_0",
+   "scene": [
+    -1183.576,
+    1.644,
+    -628.382
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall1_1",
+   "scene": [
+    -1141.65,
+    1.65,
+    -629.938
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall2_0",
+   "scene": [
+    -1132.456,
+    1.65,
+    -630.279
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall2_1",
+   "scene": [
+    -1087.357,
+    1.887,
+    -631.952
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall3_0",
+   "scene": [
+    -1087.357,
+    1.887,
+    -631.952
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall3_1",
+   "scene": [
+    -1083.599,
+    1.897,
+    -530.701
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S0_0",
+   "scene": [
+    -1179.818,
+    1.899,
+    -527.131
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S0_1",
+   "scene": [
+    -1159.027,
+    1.775,
+    -527.902
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S1_0",
+   "scene": [
+    -1155.229,
+    1.77,
+    -528.043
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S1_1",
+   "scene": [
+    -1140.729,
+    1.76,
+    -528.581
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S2_0",
+   "scene": [
+    -1137.032,
+    1.76,
+    -528.719
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S2_1",
+   "scene": [
+    -1135.844,
+    1.76,
+    -528.763
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S3_0",
+   "scene": [
+    -1130.747,
+    1.76,
+    -528.952
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S3_1",
+   "scene": [
+    -1129.559,
+    1.76,
+    -528.996
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S4_0",
+   "scene": [
+    -1125.862,
+    1.76,
+    -529.133
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S4_1",
+   "scene": [
+    -1111.219,
+    1.763,
+    -529.676
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S5_0",
+   "scene": [
+    -1107.422,
+    1.791,
+    -529.817
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "owall_S5_1",
+   "scene": [
+    -1083.599,
+    1.897,
+    -530.701
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "gate3_W_0",
+   "scene": [
+    -1140.981,
+    1.76,
+    -529.973
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_W_1",
+   "scene": [
+    -1136.884,
+    1.76,
+    -530.125
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_W_2",
+   "scene": [
+    -1136.78,
+    1.76,
+    -527.327
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_W_3",
+   "scene": [
+    -1140.877,
+    1.76,
+    -527.175
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_C_0",
+   "scene": [
+    -1136.096,
+    1.76,
+    -530.154
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_C_1",
+   "scene": [
+    -1130.599,
+    1.76,
+    -530.358
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_C_2",
+   "scene": [
+    -1130.495,
+    1.76,
+    -527.56
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_C_3",
+   "scene": [
+    -1135.992,
+    1.76,
+    -527.356
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_E_0",
+   "scene": [
+    -1129.811,
+    1.76,
+    -530.388
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_E_1",
+   "scene": [
+    -1125.714,
+    1.76,
+    -530.54
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_E_2",
+   "scene": [
+    -1125.61,
+    1.76,
+    -527.741
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate3_E_3",
+   "scene": [
+    -1129.707,
+    1.76,
+    -527.589
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "gate_out_W_pier-1",
+   "scene": [
+    -1158.777,
+    1.77,
+    -527.912
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_out_W_pier+1",
+   "scene": [
+    -1155.479,
+    1.77,
+    -528.034
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_out_E_pier-1",
+   "scene": [
+    -1110.97,
+    1.76,
+    -529.686
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_out_E_pier+1",
+   "scene": [
+    -1107.672,
+    1.76,
+    -529.808
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "gate_N_pl_0",
+   "scene": [
+    -1141.704,
+    1.607,
+    -632.738
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "gate_N_pl_1",
+   "scene": [
+    -1132.61,
+    1.607,
+    -633.075
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "gate_N_pl_2",
+   "scene": [
+    -1132.402,
+    1.607,
+    -627.479
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "gate_N_pl_3",
+   "scene": [
+    -1141.496,
+    1.607,
+    -627.141
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "yard_NW0_0",
+   "scene": [
+    -1174.967,
+    1.655,
+    -628.688
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW0_1",
+   "scene": [
+    -1173.77,
+    1.69,
+    -606.586
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW1_0",
+   "scene": [
+    -1173.77,
+    1.69,
+    -606.586
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW1_1",
+   "scene": [
+    -1176.568,
+    1.686,
+    -606.48
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW2_0",
+   "scene": [
+    -1179.566,
+    1.685,
+    -606.366
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW2_1",
+   "scene": [
+    -1182.363,
+    1.765,
+    -606.26
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NW_gate_pier-1",
+   "scene": [
+    -1179.416,
+    1.681,
+    -606.376
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "yard_NW_gate_pier+1",
+   "scene": [
+    -1176.718,
+    1.681,
+    -606.477
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "range_NW_pl_0",
+   "scene": [
+    -1182.905,
+    1.644,
+    -610.318
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NW_pl_1",
+   "scene": [
+    -1183.576,
+    1.644,
+    -628.382
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NW_pl_2",
+   "scene": [
+    -1178.744,
+    1.644,
+    -628.561
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NW_pl_3",
+   "scene": [
+    -1178.074,
+    1.644,
+    -610.497
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "yard_NE0_0",
+   "scene": [
+    -1095.988,
+    1.65,
+    -631.199
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE0_1",
+   "scene": [
+    -1094.837,
+    1.66,
+    -608.171
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE1_0",
+   "scene": [
+    -1094.837,
+    1.66,
+    -608.171
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE1_1",
+   "scene": [
+    -1092.509,
+    1.657,
+    -608.239
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE2_0",
+   "scene": [
+    -1089.51,
+    1.702,
+    -608.326
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE2_1",
+   "scene": [
+    -1087.182,
+    1.802,
+    -608.394
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "yard_NE_gate_pier-1",
+   "scene": [
+    -1092.36,
+    1.654,
+    -608.263
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "yard_NE_gate_pier+1",
+   "scene": [
+    -1089.662,
+    1.654,
+    -608.363
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "range_NE_pl_0",
+   "scene": [
+    -1088.083,
+    1.643,
+    -631.904
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NE_pl_1",
+   "scene": [
+    -1087.302,
+    1.643,
+    -610.855
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NE_pl_2",
+   "scene": [
+    -1091.73,
+    1.643,
+    -610.691
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "range_NE_pl_3",
+   "scene": [
+    -1092.511,
+    1.643,
+    -631.739
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "qilin_W_base_0",
+   "scene": [
+    -1143.401,
+    1.76,
+    -527.538
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_W_base_1",
+   "scene": [
+    -1141.842,
+    1.76,
+    -527.595
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_W_base_2",
+   "scene": [
+    -1141.764,
+    1.76,
+    -525.497
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_W_base_3",
+   "scene": [
+    -1143.323,
+    1.76,
+    -525.439
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_E_base_0",
+   "scene": [
+    -1125.366,
+    1.76,
+    -528.342
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_E_base_1",
+   "scene": [
+    -1123.807,
+    1.76,
+    -528.4
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_E_base_2",
+   "scene": [
+    -1123.729,
+    1.76,
+    -526.302
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "qilin_E_base_3",
+   "scene": [
+    -1125.288,
+    1.76,
+    -526.244
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "pailou_W_prop0S",
+   "scene": [
+    -1141.656,
+    1.82,
+    -512.028
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_prop0N",
+   "scene": [
+    -1147.052,
+    1.82,
+    -511.828
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_post0",
+   "scene": [
+    -1144.354,
+    1.77,
+    -511.928
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_W_prop1S",
+   "scene": [
+    -1141.761,
+    1.82,
+    -514.863
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_prop1N",
+   "scene": [
+    -1147.157,
+    1.82,
+    -514.662
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_post1",
+   "scene": [
+    -1144.459,
+    1.77,
+    -514.762
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_W_prop2S",
+   "scene": [
+    -1141.901,
+    1.82,
+    -518.641
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_prop2N",
+   "scene": [
+    -1147.297,
+    1.82,
+    -518.441
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_post2",
+   "scene": [
+    -1144.599,
+    1.77,
+    -518.541
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_W_prop3S",
+   "scene": [
+    -1142.006,
+    1.82,
+    -521.475
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_prop3N",
+   "scene": [
+    -1147.403,
+    1.82,
+    -521.275
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_W_post3",
+   "scene": [
+    -1144.704,
+    1.77,
+    -521.375
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_E_prop0S",
+   "scene": [
+    -1124.684,
+    1.81,
+    -522.528
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_prop0N",
+   "scene": [
+    -1119.287,
+    1.81,
+    -522.728
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_post0",
+   "scene": [
+    -1121.985,
+    1.76,
+    -522.628
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_E_prop1S",
+   "scene": [
+    -1124.576,
+    1.81,
+    -519.634
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_prop1N",
+   "scene": [
+    -1119.18,
+    1.81,
+    -519.835
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_post1",
+   "scene": [
+    -1121.878,
+    1.76,
+    -519.734
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_E_prop2S",
+   "scene": [
+    -1124.433,
+    1.81,
+    -515.776
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_prop2N",
+   "scene": [
+    -1119.037,
+    1.81,
+    -515.976
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_post2",
+   "scene": [
+    -1121.735,
+    1.76,
+    -515.876
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_E_prop3S",
+   "scene": [
+    -1124.326,
+    1.81,
+    -512.883
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_prop3N",
+   "scene": [
+    -1118.929,
+    1.81,
+    -513.083
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_E_post3",
+   "scene": [
+    -1121.627,
+    1.76,
+    -512.983
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_S_prop0S",
+   "scene": [
+    -1138.205,
+    1.899,
+    -501.499
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_prop0N",
+   "scene": [
+    -1138.405,
+    1.899,
+    -506.895
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_post0",
+   "scene": [
+    -1138.305,
+    1.849,
+    -504.197
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_S_prop1S",
+   "scene": [
+    -1135.371,
+    1.899,
+    -501.604
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_prop1N",
+   "scene": [
+    -1135.571,
+    1.899,
+    -507.0
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_post1",
+   "scene": [
+    -1135.471,
+    1.849,
+    -504.302
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_S_prop2S",
+   "scene": [
+    -1131.592,
+    1.899,
+    -501.744
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_prop2N",
+   "scene": [
+    -1131.792,
+    1.899,
+    -507.141
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_post2",
+   "scene": [
+    -1131.692,
+    1.849,
+    -504.443
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "pailou_S_prop3S",
+   "scene": [
+    -1128.757,
+    1.899,
+    -501.85
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_prop3N",
+   "scene": [
+    -1128.958,
+    1.899,
+    -507.246
+   ],
+   "kind": "prop foot"
+  },
+  {
+   "name": "pailou_S_post3",
+   "scene": [
+    -1128.858,
+    1.849,
+    -504.548
+   ],
+   "kind": "post foot"
+  },
+  {
+   "name": "bridge_out_0_NW",
+   "scene": [
+    -1157.533,
+    2.0,
+    -488.563
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_0_NE",
+   "scene": [
+    -1155.135,
+    2.0,
+    -488.652
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_0_SW",
+   "scene": [
+    -1157.254,
+    2.0,
+    -481.037
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_0_SE",
+   "scene": [
+    -1154.856,
+    2.011,
+    -481.126
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_1_NW",
+   "scene": [
+    -1140.501,
+    2.0,
+    -489.254
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_1_NE",
+   "scene": [
+    -1137.504,
+    2.213,
+    -489.366
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_1_SW",
+   "scene": [
+    -1140.222,
+    2.636,
+    -481.724
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_1_SE",
+   "scene": [
+    -1137.224,
+    2.411,
+    -481.835
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_2_NW",
+   "scene": [
+    -1133.938,
+    2.169,
+    -489.53
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_2_NE",
+   "scene": [
+    -1129.74,
+    2.105,
+    -489.686
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_2_SW",
+   "scene": [
+    -1133.658,
+    2.147,
+    -481.997
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_2_SE",
+   "scene": [
+    -1129.461,
+    2.0,
+    -482.153
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_3_NW",
+   "scene": [
+    -1126.949,
+    2.025,
+    -489.912
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_3_NE",
+   "scene": [
+    -1123.951,
+    2.0,
+    -490.023
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_3_SW",
+   "scene": [
+    -1126.669,
+    2.0,
+    -482.379
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_3_SE",
+   "scene": [
+    -1123.671,
+    2.42,
+    -482.491
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_4_NW",
+   "scene": [
+    -1106.922,
+    2.0,
+    -491.033
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_4_NE",
+   "scene": [
+    -1104.524,
+    2.0,
+    -491.122
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_4_SW",
+   "scene": [
+    -1106.643,
+    2.0,
+    -483.503
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "bridge_out_4_SE",
+   "scene": [
+    -1104.245,
+    2.0,
+    -483.592
+   ],
+   "kind": "bridge end"
+  },
+  {
+   "name": "zhifu_wall0_0",
+   "scene": [
+    -1109.225,
+    1.779,
+    -471.171
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall0_1",
+   "scene": [
+    -1096.201,
+    1.687,
+    -471.654
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall1_0",
+   "scene": [
+    -1096.201,
+    1.687,
+    -471.654
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall1_1",
+   "scene": [
+    -1095.591,
+    3.504,
+    -455.218
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall2_0",
+   "scene": [
+    -1095.591,
+    3.504,
+    -455.218
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall2_1",
+   "scene": [
+    -1108.615,
+    2.717,
+    -454.735
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall3_0",
+   "scene": [
+    -1108.615,
+    2.717,
+    -454.735
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall3_1",
+   "scene": [
+    -1108.867,
+    1.837,
+    -461.533
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall4_0",
+   "scene": [
+    -1108.986,
+    1.807,
+    -464.731
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_wall4_1",
+   "scene": [
+    -1109.225,
+    1.779,
+    -471.171
+   ],
+   "kind": "wall foot"
+  },
+  {
+   "name": "zhifu_gate_pier-1",
+   "scene": [
+    -1108.873,
+    1.793,
+    -461.683
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "zhifu_gate_pier+1",
+   "scene": [
+    -1108.98,
+    1.793,
+    -464.581
+   ],
+   "kind": "gate pier"
+  },
+  {
+   "name": "zhifu_pl_0",
+   "scene": [
+    -1098.981,
+    1.725,
+    -468.5
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "zhifu_pl_1",
+   "scene": [
+    -1098.642,
+    1.725,
+    -459.356
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "zhifu_pl_2",
+   "scene": [
+    -1105.064,
+    1.725,
+    -459.117
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "zhifu_pl_3",
+   "scene": [
+    -1105.403,
+    1.725,
+    -468.262
+   ],
+   "kind": "platform foot"
+  },
+  {
+   "name": "liulifang_0_0",
+   "scene": [
+    -1131.668,
+    1.91,
+    -392.013
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_0_1",
+   "scene": [
+    -1128.643,
+    1.91,
+    -392.125
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_0_2",
+   "scene": [
+    -1128.52,
+    1.91,
+    -388.798
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_0_3",
+   "scene": [
+    -1131.545,
+    1.91,
+    -388.686
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_1_0",
+   "scene": [
+    -1127.993,
+    1.91,
+    -392.149
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_1_1",
+   "scene": [
+    -1124.293,
+    1.91,
+    -392.287
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_1_2",
+   "scene": [
+    -1124.169,
+    1.91,
+    -388.959
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_1_3",
+   "scene": [
+    -1127.87,
+    1.91,
+    -388.822
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_2_0",
+   "scene": [
+    -1123.643,
+    1.91,
+    -392.311
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_2_1",
+   "scene": [
+    -1120.618,
+    1.91,
+    -392.423
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_2_2",
+   "scene": [
+    -1120.495,
+    1.91,
+    -389.096
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "liulifang_2_3",
+   "scene": [
+    -1123.52,
+    1.91,
+    -388.983
+   ],
+   "kind": "gate base"
+  },
+  {
+   "name": "huabiao_NW_0",
+   "scene": [
+    -1142.553,
+    1.94,
+    -405.99
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NW_1",
+   "scene": [
+    -1140.654,
+    1.94,
+    -406.06
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NW_2",
+   "scene": [
+    -1140.584,
+    1.94,
+    -404.162
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NW_3",
+   "scene": [
+    -1142.482,
+    1.94,
+    -404.091
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NE_0",
+   "scene": [
+    -1113.373,
+    1.893,
+    -408.062
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NE_1",
+   "scene": [
+    -1111.474,
+    1.893,
+    -408.132
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NE_2",
+   "scene": [
+    -1111.404,
+    1.893,
+    -406.233
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_NE_3",
+   "scene": [
+    -1113.303,
+    1.893,
+    -406.163
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SW_0",
+   "scene": [
+    -1140.823,
+    1.9,
+    -374.287
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SW_1",
+   "scene": [
+    -1138.924,
+    1.9,
+    -374.358
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SW_2",
+   "scene": [
+    -1138.853,
+    1.9,
+    -372.459
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SW_3",
+   "scene": [
+    -1140.752,
+    1.9,
+    -372.388
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SE_0",
+   "scene": [
+    -1111.463,
+    1.9,
+    -376.119
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SE_1",
+   "scene": [
+    -1109.565,
+    1.9,
+    -376.19
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SE_2",
+   "scene": [
+    -1109.494,
+    1.9,
+    -374.291
+   ],
+   "kind": "base foot"
+  },
+  {
+   "name": "huabiao_SE_3",
+   "scene": [
+    -1111.393,
+    1.9,
+    -374.221
+   ],
+   "kind": "base foot"
+  }
+ ],
+ "entries": [
+  {
+   "name": "terrace_flight_C",
+   "scene": [
+    -1135.419,
+    1.87,
+    -586.07
+   ]
+  },
+  {
+   "name": "terrace_flight_W",
+   "scene": [
+    -1142.404,
+    1.876,
+    -586.033
+   ]
+  },
+  {
+   "name": "terrace_flight_E",
+   "scene": [
+    -1127.589,
+    1.864,
+    -586.588
+   ]
+  },
+  {
+   "name": "terrace_flight_SW",
+   "scene": [
+    -1151.608,
+    1.867,
+    -595.649
+   ]
+  },
+  {
+   "name": "terrace_flight_SE",
+   "scene": [
+    -1119.793,
+    1.841,
+    -597.14
+   ]
+  },
+  {
+   "name": "hall_front_+0.0",
+   "scene": [
+    -1136.066,
+    3.478,
+    -603.525
+   ]
+  },
+  {
+   "name": "peidian_W_front_+0.0",
+   "scene": [
+    -1159.871,
+    1.91,
+    -576.864
+   ]
+  },
+  {
+   "name": "peidian_E_front_+0.0",
+   "scene": [
+    -1108.109,
+    1.88,
+    -580.155
+   ]
+  },
+  {
+   "name": "beiting_W_S",
+   "scene": [
+    -1159.379,
+    1.89,
+    -589.855
+   ]
+  },
+  {
+   "name": "beiting_W_N",
+   "scene": [
+    -1159.736,
+    1.872,
+    -599.477
+   ]
+  },
+  {
+   "name": "beiting_E_S",
+   "scene": [
+    -1110.706,
+    1.862,
+    -592.065
+   ]
+  },
+  {
+   "name": "beiting_E_N",
+   "scene": [
+    -1111.063,
+    1.83,
+    -601.688
+   ]
+  },
+  {
+   "name": "gate_back_+0.0",
+   "scene": [
+    -1134.671,
+    1.901,
+    -565.928
+   ]
+  },
+  {
+   "name": "gate_front_+0.0",
+   "scene": [
+    -1134.094,
+    1.91,
+    -550.363
+   ]
+  },
+  {
+   "name": "gate_front_-5.0",
+   "scene": [
+    -1139.057,
+    1.91,
+    -550.179
+   ]
+  },
+  {
+   "name": "gate_front_+5.0",
+   "scene": [
+    -1129.13,
+    1.91,
+    -550.548
+   ]
+  },
+  {
+   "name": "gate_side_W_out",
+   "scene": [
+    -1157.412,
+    1.91,
+    -557.241
+   ]
+  },
+  {
+   "name": "gate_side_W_in",
+   "scene": [
+    -1157.508,
+    1.91,
+    -559.839
+   ]
+  },
+  {
+   "name": "gate_side_E_out",
+   "scene": [
+    -1110.828,
+    1.91,
+    -558.97
+   ]
+  },
+  {
+   "name": "gate_side_E_in",
+   "scene": [
+    -1110.925,
+    1.91,
+    -561.568
+   ]
+  },
+  {
+   "name": "bridge_in_0_N",
+   "scene": [
+    -1157.612,
+    1.91,
+    -552.049
+   ]
+  },
+  {
+   "name": "bridge_in_0_S",
+   "scene": [
+    -1157.387,
+    1.91,
+    -545.974
+   ]
+  },
+  {
+   "name": "bridge_in_1_N",
+   "scene": [
+    -1139.767,
+    1.91,
+    -545.834
+   ]
+  },
+  {
+   "name": "bridge_in_1_S",
+   "scene": [
+    -1139.543,
+    1.91,
+    -539.791
+   ]
+  },
+  {
+   "name": "bridge_in_2_N",
+   "scene": [
+    -1133.935,
+    1.91,
+    -546.1
+   ]
+  },
+  {
+   "name": "bridge_in_2_S",
+   "scene": [
+    -1133.714,
+    1.947,
+    -540.13
+   ]
+  },
+  {
+   "name": "bridge_in_3_N",
+   "scene": [
+    -1128.379,
+    1.91,
+    -546.595
+   ]
+  },
+  {
+   "name": "bridge_in_3_S",
+   "scene": [
+    -1128.154,
+    1.91,
+    -540.518
+   ]
+  },
+  {
+   "name": "bridge_in_4_N",
+   "scene": [
+    -1109.162,
+    1.91,
+    -554.523
+   ]
+  },
+  {
+   "name": "bridge_in_4_S",
+   "scene": [
+    -1108.936,
+    1.91,
+    -548.445
+   ]
+  },
+  {
+   "name": "chaofang_W_front_+0.0",
+   "scene": [
+    -1166.081,
+    1.999,
+    -538.274
+   ]
+  },
+  {
+   "name": "chaofang_E_front_+0.0",
+   "scene": [
+    -1099.47,
+    1.91,
+    -542.068
+   ]
+  },
+  {
+   "name": "gate3_W_out",
+   "scene": [
+    -1138.804,
+    1.912,
+    -526.601
+   ]
+  },
+  {
+   "name": "gate3_W_in",
+   "scene": [
+    -1138.956,
+    1.91,
+    -530.699
+   ]
+  },
+  {
+   "name": "gate3_C_out",
+   "scene": [
+    -1133.219,
+    1.91,
+    -526.809
+   ]
+  },
+  {
+   "name": "gate3_C_in",
+   "scene": [
+    -1133.372,
+    1.91,
+    -530.906
+   ]
+  },
+  {
+   "name": "gate3_E_out",
+   "scene": [
+    -1127.635,
+    1.91,
+    -527.016
+   ]
+  },
+  {
+   "name": "gate3_E_in",
+   "scene": [
+    -1127.787,
+    1.91,
+    -531.113
+   ]
+  },
+  {
+   "name": "gate_out_W_out",
+   "scene": [
+    -1157.08,
+    1.923,
+    -526.674
+   ]
+  },
+  {
+   "name": "gate_out_W_in",
+   "scene": [
+    -1157.176,
+    1.92,
+    -529.272
+   ]
+  },
+  {
+   "name": "gate_out_E_out",
+   "scene": [
+    -1109.273,
+    1.928,
+    -528.448
+   ]
+  },
+  {
+   "name": "gate_out_E_in",
+   "scene": [
+    -1109.369,
+    1.918,
+    -531.046
+   ]
+  },
+  {
+   "name": "gate_N_front_+0.0",
+   "scene": [
+    -1136.905,
+    1.81,
+    -626.111
+   ]
+  },
+  {
+   "name": "gate_N_back_+0.0",
+   "scene": [
+    -1137.201,
+    1.76,
+    -634.105
+   ]
+  },
+  {
+   "name": "yard_NW_gate_out",
+   "scene": [
+    -1178.019,
+    1.839,
+    -605.127
+   ]
+  },
+  {
+   "name": "yard_NW_gate_in",
+   "scene": [
+    -1178.115,
+    1.83,
+    -607.726
+   ]
+  },
+  {
+   "name": "range_NW_front_+0.0",
+   "scene": [
+    -1177.509,
+    1.83,
+    -619.562
+   ]
+  },
+  {
+   "name": "yard_NE_gate_out",
+   "scene": [
+    -1090.962,
+    1.857,
+    -607.014
+   ]
+  },
+  {
+   "name": "yard_NE_gate_in",
+   "scene": [
+    -1091.059,
+    1.805,
+    -609.613
+   ]
+  },
+  {
+   "name": "range_NE_front_+0.0",
+   "scene": [
+    -1093.02,
+    2.064,
+    -621.182
+   ]
+  },
+  {
+   "name": "pailou_W_S",
+   "scene": [
+    -1143.33,
+    1.947,
+    -516.696
+   ]
+  },
+  {
+   "name": "pailou_W_N",
+   "scene": [
+    -1145.728,
+    1.951,
+    -516.607
+   ]
+  },
+  {
+   "name": "pailou_W_C",
+   "scene": [
+    -1144.529,
+    1.95,
+    -516.652
+   ]
+  },
+  {
+   "name": "pailou_E_S",
+   "scene": [
+    -1123.006,
+    1.938,
+    -517.761
+   ]
+  },
+  {
+   "name": "pailou_E_N",
+   "scene": [
+    -1120.607,
+    1.937,
+    -517.85
+   ]
+  },
+  {
+   "name": "pailou_E_C",
+   "scene": [
+    -1121.806,
+    1.938,
+    -517.805
+   ]
+  },
+  {
+   "name": "pailou_S_S",
+   "scene": [
+    -1133.537,
+    2.027,
+    -503.173
+   ]
+  },
+  {
+   "name": "pailou_S_N",
+   "scene": [
+    -1133.626,
+    2.019,
+    -505.572
+   ]
+  },
+  {
+   "name": "pailou_S_C",
+   "scene": [
+    -1133.581,
+    2.023,
+    -504.372
+   ]
+  },
+  {
+   "name": "bridge_out_0_N",
+   "scene": [
+    -1156.356,
+    2.05,
+    -489.207
+   ]
+  },
+  {
+   "name": "bridge_out_0_S",
+   "scene": [
+    -1156.032,
+    2.05,
+    -480.482
+   ]
+  },
+  {
+   "name": "bridge_out_1_N",
+   "scene": [
+    -1139.025,
+    2.062,
+    -489.909
+   ]
+  },
+  {
+   "name": "bridge_out_1_S",
+   "scene": [
+    -1138.701,
+    2.696,
+    -481.18
+   ]
+  },
+  {
+   "name": "bridge_out_2_N",
+   "scene": [
+    -1131.861,
+    2.05,
+    -490.208
+   ]
+  },
+  {
+   "name": "bridge_out_2_S",
+   "scene": [
+    -1131.537,
+    2.116,
+    -481.475
+   ]
+  },
+  {
+   "name": "bridge_out_3_N",
+   "scene": [
+    -1125.472,
+    2.05,
+    -490.567
+   ]
+  },
+  {
+   "name": "bridge_out_3_S",
+   "scene": [
+    -1125.148,
+    2.05,
+    -481.835
+   ]
+  },
+  {
+   "name": "bridge_out_4_N",
+   "scene": [
+    -1105.746,
+    2.05,
+    -491.677
+   ]
+  },
+  {
+   "name": "bridge_out_4_S",
+   "scene": [
+    -1105.422,
+    2.05,
+    -482.947
+   ]
+  },
+  {
+   "name": "zhifu_gate_out",
+   "scene": [
+    -1107.627,
+    1.947,
+    -463.18
+   ]
+  },
+  {
+   "name": "zhifu_gate_in",
+   "scene": [
+    -1110.226,
+    2.057,
+    -463.084
+   ]
+  },
+  {
+   "name": "zhifu_front_+0.0",
+   "scene": [
+    -1106.133,
+    1.919,
+    -463.656
+   ]
+  },
+  {
+   "name": "liulifang_0_out",
+   "scene": [
+    -1130.008,
+    2.06,
+    -388.092
+   ]
+  },
+  {
+   "name": "liulifang_0_in",
+   "scene": [
+    -1130.18,
+    2.059,
+    -392.719
+   ]
+  },
+  {
+   "name": "liulifang_1_out",
+   "scene": [
+    -1125.996,
+    2.06,
+    -388.241
+   ]
+  },
+  {
+   "name": "liulifang_1_in",
+   "scene": [
+    -1126.167,
+    2.059,
+    -392.868
+   ]
+  },
+  {
+   "name": "liulifang_2_out",
+   "scene": [
+    -1121.983,
+    2.06,
+    -388.39
+   ]
+  },
+  {
+   "name": "liulifang_2_in",
+   "scene": [
+    -1122.155,
+    2.058,
+    -393.017
+   ]
+  }
+ ],
+ "footprints": [
+  [
+   [
+    -1156.474,
+    -620.093
+   ],
+   [
+    -1116.943,
+    -621.56
+   ],
+   [
+    -1116.244,
+    -602.729
+   ],
+   [
+    -1123.496,
+    -602.46
+   ],
+   [
+    -1123.105,
+    -591.945
+   ],
+   [
+    -1148.134,
+    -591.016
+   ],
+   [
+    -1148.524,
+    -601.531
+   ],
+   [
+    -1155.775,
+    -601.262
+   ]
+  ],
+  [
+   [
+    -1152.461,
+    -619.286
+   ],
+   [
+    -1120.885,
+    -620.458
+   ],
+   [
+    -1120.301,
+    -604.711
+   ],
+   [
+    -1151.877,
+    -603.539
+   ]
+  ],
+  [
+   [
+    -1169.385,
+    -567.112
+   ],
+   [
+    -1170.081,
+    -585.883
+   ],
+   [
+    -1161.418,
+    -586.205
+   ],
+   [
+    -1160.722,
+    -567.434
+   ]
+  ],
+  [
+   [
+    -1098.787,
+    -589.428
+   ],
+   [
+    -1098.125,
+    -571.598
+   ],
+   [
+    -1106.579,
+    -571.285
+   ],
+   [
+    -1107.24,
+    -589.114
+   ]
+  ],
+  [
+   [
+    -1156.042,
+    -593.361
+   ],
+   [
+    -1157.995,
+    -591.257
+   ],
+   [
+    -1160.863,
+    -591.151
+   ],
+   [
+    -1162.966,
+    -593.104
+   ],
+   [
+    -1163.073,
+    -595.972
+   ],
+   [
+    -1161.12,
+    -598.075
+   ],
+   [
+    -1158.252,
+    -598.182
+   ],
+   [
+    -1156.148,
+    -596.229
+   ]
+  ],
+  [
+   [
+    -1107.37,
+    -595.571
+   ],
+   [
+    -1109.322,
+    -593.468
+   ],
+   [
+    -1112.191,
+    -593.361
+   ],
+   [
+    -1114.294,
+    -595.314
+   ],
+   [
+    -1114.4,
+    -598.182
+   ],
+   [
+    -1112.447,
+    -600.286
+   ],
+   [
+    -1109.579,
+    -600.392
+   ],
+   [
+    -1107.476,
+    -598.439
+   ]
+  ],
+  [
+   [
+    -1164.228,
+    -564.441
+   ],
+   [
+    -1162.029,
+    -564.523
+   ],
+   [
+    -1161.948,
+    -562.324
+   ],
+   [
+    -1164.146,
+    -562.242
+   ]
+  ],
+  [
+   [
+    -1104.692,
+    -567.487
+   ],
+   [
+    -1102.493,
+    -567.568
+   ],
+   [
+    -1102.412,
+    -565.37
+   ],
+   [
+    -1104.61,
+    -565.288
+   ]
+  ],
+  [
+   [
+    -1141.304,
+    -555.049
+   ],
+   [
+    -1127.25,
+    -555.571
+   ],
+   [
+    -1127.155,
+    -553.023
+   ],
+   [
+    -1141.21,
+    -552.501
+   ]
+  ],
+  [
+   [
+    -1141.609,
+    -563.268
+   ],
+   [
+    -1127.555,
+    -563.79
+   ],
+   [
+    -1127.248,
+    -555.521
+   ],
+   [
+    -1141.302,
+    -554.999
+   ]
+  ],
+  [
+   [
+    -1171.282,
+    -619.567
+   ],
+   [
+    -1172.481,
+    -619.523
+   ],
+   [
+    -1170.2,
+    -558.067
+   ],
+   [
+    -1169.001,
+    -558.112
+   ]
+  ],
+  [
+   [
+    -1099.665,
+    -621.624
+   ],
+   [
+    -1099.71,
+    -622.823
+   ],
+   [
+    -1171.903,
+    -620.144
+   ],
+   [
+    -1171.859,
+    -618.945
+   ]
+  ],
+  [
+   [
+    -1098.006,
+    -560.746
+   ],
+   [
+    -1096.807,
+    -560.791
+   ],
+   [
+    -1099.088,
+    -622.246
+   ],
+   [
+    -1100.287,
+    -622.202
+   ]
+  ],
+  [
+   [
+    -1159.337,
+    -557.87
+   ],
+   [
+    -1159.381,
+    -559.069
+   ],
+   [
+    -1169.623,
+    -558.689
+   ],
+   [
+    -1169.578,
+    -557.49
+   ]
+  ],
+  [
+   [
+    -1141.484,
+    -558.532
+   ],
+   [
+    -1141.528,
+    -559.732
+   ],
+   [
+    -1155.584,
+    -559.21
+   ],
+   [
+    -1155.539,
+    -558.011
+   ]
+  ],
+  [
+   [
+    -1112.753,
+    -559.599
+   ],
+   [
+    -1112.797,
+    -560.798
+   ],
+   [
+    -1127.374,
+    -560.257
+   ],
+   [
+    -1127.329,
+    -559.058
+   ]
+  ],
+  [
+   [
+    -1097.385,
+    -560.169
+   ],
+   [
+    -1097.429,
+    -561.368
+   ],
+   [
+    -1109.0,
+    -560.939
+   ],
+   [
+    -1108.956,
+    -559.74
+   ]
+  ],
+  [
+   [
+    -1173.368,
+    -530.865
+   ],
+   [
+    -1173.897,
+    -545.123
+   ],
+   [
+    -1167.245,
+    -545.37
+   ],
+   [
+    -1166.716,
+    -531.112
+   ]
+  ],
+  [
+   [
+    -1092.409,
+    -549.84
+   ],
+   [
+    -1091.852,
+    -534.84
+   ],
+   [
+    -1098.293,
+    -534.601
+   ],
+   [
+    -1098.849,
+    -549.601
+   ]
+  ],
+  [
+   [
+    -1169.642,
+    -555.17
+   ],
+   [
+    -1166.345,
+    -555.293
+   ],
+   [
+    -1166.222,
+    -551.995
+   ],
+   [
+    -1169.52,
+    -551.873
+   ]
+  ],
+  [
+   [
+    -1101.133,
+    -558.879
+   ],
+   [
+    -1097.835,
+    -559.001
+   ],
+   [
+    -1097.713,
+    -555.703
+   ],
+   [
+    -1101.011,
+    -555.581
+   ]
+  ],
+  [
+   [
+    -1182.976,
+    -628.404
+   ],
+   [
+    -1184.175,
+    -628.359
+   ],
+   [
+    -1180.418,
+    -527.109
+   ],
+   [
+    -1179.219,
+    -527.153
+   ]
+  ],
+  [
+   [
+    -1141.628,
+    -629.338
+   ],
+   [
+    -1141.672,
+    -630.537
+   ],
+   [
+    -1183.598,
+    -628.981
+   ],
+   [
+    -1183.553,
+    -627.782
+   ]
+  ],
+  [
+   [
+    -1087.334,
+    -631.353
+   ],
+   [
+    -1087.379,
+    -632.552
+   ],
+   [
+    -1132.478,
+    -630.878
+   ],
+   [
+    -1132.434,
+    -629.679
+   ]
+  ],
+  [
+   [
+    -1084.199,
+    -530.679
+   ],
+   [
+    -1083.0,
+    -530.724
+   ],
+   [
+    -1086.757,
+    -631.975
+   ],
+   [
+    -1087.956,
+    -631.93
+   ]
+  ],
+  [
+   [
+    -1159.005,
+    -527.303
+   ],
+   [
+    -1159.049,
+    -528.502
+   ],
+   [
+    -1179.841,
+    -527.73
+   ],
+   [
+    -1179.796,
+    -526.531
+   ]
+  ],
+  [
+   [
+    -1140.707,
+    -527.982
+   ],
+   [
+    -1140.751,
+    -529.181
+   ],
+   [
+    -1155.252,
+    -528.643
+   ],
+   [
+    -1155.207,
+    -527.444
+   ]
+  ],
+  [
+   [
+    -1135.821,
+    -528.163
+   ],
+   [
+    -1135.866,
+    -529.362
+   ],
+   [
+    -1137.054,
+    -529.318
+   ],
+   [
+    -1137.009,
+    -528.119
+   ]
+  ],
+  [
+   [
+    -1129.537,
+    -528.396
+   ],
+   [
+    -1129.582,
+    -529.595
+   ],
+   [
+    -1130.77,
+    -529.551
+   ],
+   [
+    -1130.725,
+    -528.352
+   ]
+  ],
+  [
+   [
+    -1111.197,
+    -529.077
+   ],
+   [
+    -1111.242,
+    -530.276
+   ],
+   [
+    -1125.884,
+    -529.733
+   ],
+   [
+    -1125.84,
+    -528.534
+   ]
+  ],
+  [
+   [
+    -1083.577,
+    -530.102
+   ],
+   [
+    -1083.621,
+    -531.301
+   ],
+   [
+    -1107.444,
+    -530.417
+   ],
+   [
+    -1107.4,
+    -529.218
+   ]
+  ],
+  [
+   [
+    -1141.704,
+    -632.738
+   ],
+   [
+    -1132.61,
+    -633.075
+   ],
+   [
+    -1132.402,
+    -627.479
+   ],
+   [
+    -1141.496,
+    -627.141
+   ]
+  ],
+  [
+   [
+    -1174.27,
+    -606.559
+   ],
+   [
+    -1173.271,
+    -606.613
+   ],
+   [
+    -1174.468,
+    -628.715
+   ],
+   [
+    -1175.466,
+    -628.661
+   ]
+  ],
+  [
+   [
+    -1176.587,
+    -606.98
+   ],
+   [
+    -1176.549,
+    -605.98
+   ],
+   [
+    -1173.751,
+    -606.086
+   ],
+   [
+    -1173.789,
+    -607.086
+   ]
+  ],
+  [
+   [
+    -1182.382,
+    -606.76
+   ],
+   [
+    -1182.344,
+    -605.761
+   ],
+   [
+    -1179.547,
+    -605.867
+   ],
+   [
+    -1179.585,
+    -606.866
+   ]
+  ],
+  [
+   [
+    -1182.905,
+    -610.318
+   ],
+   [
+    -1183.576,
+    -628.382
+   ],
+   [
+    -1178.744,
+    -628.561
+   ],
+   [
+    -1178.074,
+    -610.497
+   ]
+  ],
+  [
+   [
+    -1095.336,
+    -608.146
+   ],
+   [
+    -1094.337,
+    -608.196
+   ],
+   [
+    -1095.488,
+    -631.224
+   ],
+   [
+    -1096.487,
+    -631.174
+   ]
+  ],
+  [
+   [
+    -1092.495,
+    -607.739
+   ],
+   [
+    -1092.524,
+    -608.739
+   ],
+   [
+    -1094.851,
+    -608.671
+   ],
+   [
+    -1094.822,
+    -607.672
+   ]
+  ],
+  [
+   [
+    -1087.168,
+    -607.894
+   ],
+   [
+    -1087.197,
+    -608.894
+   ],
+   [
+    -1089.525,
+    -608.826
+   ],
+   [
+    -1089.496,
+    -607.827
+   ]
+  ],
+  [
+   [
+    -1088.083,
+    -631.904
+   ],
+   [
+    -1087.302,
+    -610.855
+   ],
+   [
+    -1091.73,
+    -610.691
+   ],
+   [
+    -1092.511,
+    -631.739
+   ]
+  ],
+  [
+   [
+    -1143.401,
+    -527.538
+   ],
+   [
+    -1141.842,
+    -527.595
+   ],
+   [
+    -1141.764,
+    -525.497
+   ],
+   [
+    -1143.323,
+    -525.439
+   ]
+  ],
+  [
+   [
+    -1125.366,
+    -528.342
+   ],
+   [
+    -1123.807,
+    -528.4
+   ],
+   [
+    -1123.729,
+    -526.302
+   ],
+   [
+    -1125.288,
+    -526.244
+   ]
+  ],
+  [
+   [
+    -1144.758,
+    -511.493
+   ],
+   [
+    -1144.789,
+    -512.332
+   ],
+   [
+    -1143.95,
+    -512.364
+   ],
+   [
+    -1143.919,
+    -511.524
+   ]
+  ],
+  [
+   [
+    -1144.863,
+    -514.327
+   ],
+   [
+    -1144.894,
+    -515.167
+   ],
+   [
+    -1144.055,
+    -515.198
+   ],
+   [
+    -1144.024,
+    -514.358
+   ]
+  ],
+  [
+   [
+    -1145.003,
+    -518.106
+   ],
+   [
+    -1145.035,
+    -518.945
+   ],
+   [
+    -1144.195,
+    -518.977
+   ],
+   [
+    -1144.164,
+    -518.137
+   ]
+  ],
+  [
+   [
+    -1145.109,
+    -520.94
+   ],
+   [
+    -1145.14,
+    -521.779
+   ],
+   [
+    -1144.3,
+    -521.811
+   ],
+   [
+    -1144.269,
+    -520.971
+   ]
+  ],
+  [
+   [
+    -1121.581,
+    -523.063
+   ],
+   [
+    -1121.55,
+    -522.224
+   ],
+   [
+    -1122.39,
+    -522.193
+   ],
+   [
+    -1122.421,
+    -523.032
+   ]
+  ],
+  [
+   [
+    -1121.474,
+    -520.17
+   ],
+   [
+    -1121.443,
+    -519.33
+   ],
+   [
+    -1122.282,
+    -519.299
+   ],
+   [
+    -1122.313,
+    -520.139
+   ]
+  ],
+  [
+   [
+    -1121.331,
+    -516.312
+   ],
+   [
+    -1121.3,
+    -515.472
+   ],
+   [
+    -1122.139,
+    -515.441
+   ],
+   [
+    -1122.17,
+    -516.28
+   ]
+  ],
+  [
+   [
+    -1121.223,
+    -513.418
+   ],
+   [
+    -1121.192,
+    -512.579
+   ],
+   [
+    -1122.032,
+    -512.547
+   ],
+   [
+    -1122.063,
+    -513.387
+   ]
+  ],
+  [
+   [
+    -1138.741,
+    -504.601
+   ],
+   [
+    -1137.901,
+    -504.632
+   ],
+   [
+    -1137.87,
+    -503.793
+   ],
+   [
+    -1138.709,
+    -503.762
+   ]
+  ],
+  [
+   [
+    -1135.906,
+    -504.706
+   ],
+   [
+    -1135.067,
+    -504.738
+   ],
+   [
+    -1135.036,
+    -503.898
+   ],
+   [
+    -1135.875,
+    -503.867
+   ]
+  ],
+  [
+   [
+    -1132.127,
+    -504.847
+   ],
+   [
+    -1131.288,
+    -504.878
+   ],
+   [
+    -1131.257,
+    -504.038
+   ],
+   [
+    -1132.096,
+    -504.007
+   ]
+  ],
+  [
+   [
+    -1129.293,
+    -504.952
+   ],
+   [
+    -1128.453,
+    -504.983
+   ],
+   [
+    -1128.422,
+    -504.144
+   ],
+   [
+    -1129.262,
+    -504.112
+   ]
+  ],
+  [
+   [
+    -1096.183,
+    -471.155
+   ],
+   [
+    -1096.22,
+    -472.154
+   ],
+   [
+    -1109.243,
+    -471.671
+   ],
+   [
+    -1109.206,
+    -470.671
+   ]
+  ],
+  [
+   [
+    -1096.091,
+    -455.2
+   ],
+   [
+    -1095.092,
+    -455.237
+   ],
+   [
+    -1095.702,
+    -471.673
+   ],
+   [
+    -1096.701,
+    -471.636
+   ]
+  ],
+  [
+   [
+    -1108.633,
+    -455.235
+   ],
+   [
+    -1108.596,
+    -454.235
+   ],
+   [
+    -1095.573,
+    -454.719
+   ],
+   [
+    -1095.61,
+    -455.718
+   ]
+  ],
+  [
+   [
+    -1108.367,
+    -461.551
+   ],
+   [
+    -1109.367,
+    -461.514
+   ],
+   [
+    -1109.114,
+    -454.716
+   ],
+   [
+    -1108.115,
+    -454.753
+   ]
+  ],
+  [
+   [
+    -1108.725,
+    -471.19
+   ],
+   [
+    -1109.724,
+    -471.152
+   ],
+   [
+    -1109.485,
+    -464.712
+   ],
+   [
+    -1108.486,
+    -464.749
+   ]
+  ],
+  [
+   [
+    -1098.981,
+    -468.5
+   ],
+   [
+    -1098.642,
+    -459.356
+   ],
+   [
+    -1105.064,
+    -459.117
+   ],
+   [
+    -1105.403,
+    -468.262
+   ]
+  ],
+  [
+   [
+    -1133.119,
+    -392.009
+   ],
+   [
+    -1119.171,
+    -392.527
+   ],
+   [
+    -1119.044,
+    -389.099
+   ],
+   [
+    -1132.992,
+    -388.582
+   ]
+  ],
+  [
+   [
+    -1142.656,
+    -406.086
+   ],
+   [
+    -1140.558,
+    -406.164
+   ],
+   [
+    -1140.48,
+    -404.066
+   ],
+   [
+    -1142.579,
+    -403.988
+   ]
+  ],
+  [
+   [
+    -1113.477,
+    -408.158
+   ],
+   [
+    -1111.378,
+    -408.236
+   ],
+   [
+    -1111.3,
+    -406.137
+   ],
+   [
+    -1113.399,
+    -406.059
+   ]
+  ],
+  [
+   [
+    -1140.926,
+    -374.383
+   ],
+   [
+    -1138.828,
+    -374.461
+   ],
+   [
+    -1138.75,
+    -372.363
+   ],
+   [
+    -1140.848,
+    -372.285
+   ]
+  ],
+  [
+   [
+    -1111.567,
+    -376.216
+   ],
+   [
+    -1109.468,
+    -376.294
+   ],
+   [
+    -1109.39,
+    -374.195
+   ],
+   [
+    -1111.489,
+    -374.117
+   ]
+  ]
+ ],
+ "decks": [
+  {
+   "name": "terrace",
+   "y": 3.478,
+   "poly": [
+    [
+     -1156.474,
+     -620.093
+    ],
+    [
+     -1116.943,
+     -621.56
+    ],
+    [
+     -1116.244,
+     -602.729
+    ],
+    [
+     -1123.496,
+     -602.46
+    ],
+    [
+     -1123.105,
+     -591.945
+    ],
+    [
+     -1148.134,
+     -591.016
+    ],
+    [
+     -1148.524,
+     -601.531
+    ],
+    [
+     -1155.775,
+     -601.262
+    ]
+   ]
+  },
+  {
+   "name": "gate_terrace",
+   "y": 3.11,
+   "poly": [
+    [
+     -1141.304,
+     -555.049
+    ],
+    [
+     -1127.25,
+     -555.571
+    ],
+    [
+     -1127.155,
+     -553.023
+    ],
+    [
+     -1141.21,
+     -552.501
+    ]
+   ]
+  }
+ ],
+ "clear": [
+  [
+   [
+    -1138.006,
+    -585.674
+   ],
+   [
+    -1137.255,
+    -565.431
+   ],
+   [
+    -1132.058,
+    -565.624
+   ],
+   [
+    -1132.809,
+    -585.867
+   ]
+  ],
+  [
+   [
+    -1141.956,
+    -527.135
+   ],
+   [
+    -1140.976,
+    -500.726
+   ],
+   [
+    -1123.938,
+    -501.358
+   ],
+   [
+    -1124.918,
+    -527.767
+   ]
+  ],
+  [
+   [
+    -1134.662,
+    -500.96
+   ],
+   [
+    -1134.256,
+    -490.019
+   ],
+   [
+    -1129.459,
+    -490.197
+   ],
+   [
+    -1129.865,
+    -501.138
+   ]
+  ],
+  [
+   [
+    -1136.116,
+    -540.141
+   ],
+   [
+    -1135.753,
+    -530.367
+   ],
+   [
+    -1130.956,
+    -530.545
+   ],
+   [
+    -1131.319,
+    -540.319
+   ]
+  ],
+  [
+   [
+    -1136.481,
+    -549.975
+   ],
+   [
+    -1136.33,
+    -545.911
+   ],
+   [
+    -1131.533,
+    -546.089
+   ],
+   [
+    -1131.684,
+    -550.153
+   ]
+  ],
+  [
+   [
+    -1128.355,
+    -397.89
+   ],
+   [
+    -1127.805,
+    -383.07
+   ],
+   [
+    -1123.808,
+    -383.219
+   ],
+   [
+    -1124.358,
+    -398.038
+   ]
+  ]
+ ],
+ "level": [
+  [
+   [
+    -1186.685,
+    -631.268
+   ],
+   [
+    -1084.47,
+    -635.062
+   ],
+   [
+    -1080.49,
+    -527.815
+   ],
+   [
+    -1182.705,
+    -524.022
+   ]
+  ],
+  [
+   [
+    -1182.816,
+    -527.02
+   ],
+   [
+    -1080.601,
+    -530.813
+   ],
+   [
+    -1079.126,
+    -491.064
+   ],
+   [
+    -1181.341,
+    -487.271
+   ]
+  ],
+  [
+   [
+    -1111.298,
+    -473.095
+   ],
+   [
+    -1094.277,
+    -473.727
+   ],
+   [
+    -1093.519,
+    -453.294
+   ],
+   [
+    -1110.539,
+    -452.662
+   ]
+  ],
+  [
+   [
+    -1146.787,
+    -410.874
+   ],
+   [
+    -1106.854,
+    -412.356
+   ],
+   [
+    -1105.269,
+    -369.652
+   ],
+   [
+    -1145.202,
+    -368.171
+   ]
+  ]
+ ]
+}

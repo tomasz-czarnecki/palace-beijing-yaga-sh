@@ -1,0 +1,210 @@
+{
+ "id": "YM17",
+ "frame": "origin at the front middle of 安佑宫's box F0096 at its ground; z south along S01's axis, x east, y up (scripts/model_site.py)",
+ "params": {
+  "layout": {
+   "value": "as S01 draws the compound, re-read in plan pixels (plan_readings.csv)",
+   "source": "S01",
+   "grade": "B",
+   "note": "Round 27 reading on 2.5-6x crops with a 5 px grid; placed by the fit in use (research/georef/); S01 is B until Q2 is settled"
+  },
+  "axis": {
+   "value": "one straight axis from the hall to the middle of the four 华表",
+   "source": "S01",
+   "grade": "B",
+   "note": "the middles S01 draws on it (hall, terrace, flights, 安佑门, the bridges' middles, the three gates, the qilin, the south archway, the 华表 square, the north gate) spread over a few metres (report.json axis_spread_m); the axis-borne parts are centred on their mean"
+  },
+  "hall_bays": {
+   "value": "nine bays, ten column lines across the front, as S01 draws them",
+   "source": "S05;S01;S02",
+   "grade": "B",
+   "note": "S05 j81:20a 重檐正殿九楹 (A); S01's ten lines (B, plan_readings.csv hall_cols); Malone: ten pillars across the front, forty in all (S02 p.88 n., E1562, B: what he counted on the ruin's platform)"
+  },
+  "hall_depth": {
+   "value": "four rows of columns, three spans back to front about 4.2, 7.2 and 2.6 m, the front span a porch",
+   "source": "S01;S02",
+   "grade": "B",
+   "note": "S01's four rows (hall_rows); with the ten lines Malone's forty pillars; the porch's depth and the doors behind it C"
+  },
+  "hall_size": {
+   "value": "about 30 x 14 m between the end columns, by S01",
+   "source": "S01",
+   "grade": "B",
+   "note": "the box of Round 2 (34 x 20.5 m) came from the hall scale of 4.2 px/m, C; by the fit in use S01's columns span 30 m and 14 m; no stated size is known (the Yangshi Lei sheet 安佑宫供器尺寸及殿底样, E1566, not seen)"
+  },
+  "hall_roof": {
+   "value": "double-eaved 歇山 in yellow glazed tile",
+   "source": "S08;S360;S02",
+   "grade": "A",
+   "note": "the leaf: a gable triangle shows at the east end of the upper roof, so 歇山 (S08 P0017, A for 1744); S360's note (E1560): nine bays, 重檐歇山, yellow glazed; Malone: a double roof of yellow glazed tile (E1562)"
+  },
+  "hall_col": {
+   "value": 4.6,
+   "source": "S08",
+   "grade": "C",
+   "note": "the leaf paints the lower columns about 0.15 of the hall's width (P0017, read on the 1300 px copy); with S01's 30 m, 4.6 m; the leaf's fit (research/scenes/YM17-hongci-yonghu/plate_fit.csv) tests it; the 举架 and the upper storey the grand_hall class (C)"
+  },
+  "hall_front": {
+   "value": "red lattice doors in all nine bays behind a porch of red columns, green-blue beams under both eaves",
+   "source": "S08",
+   "grade": "A",
+   "note": "the leaf on the enlarged crop (ym17_c1, Round 7): red columns, red lattice, green-blue painted beams under both eaves; the doors' pattern C"
+  },
+  "hall_plaque": {
+   "value": "安佑宫, Qianlong's hand",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j81:21a 與安佑門安佑宫額皆御書; the board C"
+  },
+  "terrace": {
+   "value": "one marble terrace under the hall and before it, T-shaped as S01 draws it, 1.6 m above the court, balustraded, five flights",
+   "source": "S01;S02;S08;S943",
+   "grade": "B",
+   "note": "S01's outline (platform and 月台 as one, no line between) (B); Malone: a marble terrace with five stairs, the middle one carved with dragons (E1562, B); the leaf: white balustrades (A); its height C: the ramp stone 3.15 m long (S943) laid at a stair's slope gives 1.4 m, S01's flights (3.6-5.1 m long) 1.8-2.6 m at 0.15 m risers"
+  },
+  "flights": {
+   "value": "three flights at the front, one on each side of the 月台, as S01 draws them, their runs S01's",
+   "source": "S01;S02",
+   "grade": "B",
+   "note": "S01 (flight_C, _W, _E, _SW, _SE); Malone's five stairs (E1562); the risers 0.15 m and so the treads from the runs C"
+  },
+  "ramp": {
+   "value": "the dragon-and-cloud ramp stone 御路 in the middle flight, 1.30 m wide",
+   "source": "S943",
+   "grade": "B",
+   "note": "one of its stones is at Peking University, 3.15 x 1.30 m, the relief 1.00 m wide, its pair at the east gate of 颐和园 (S943); the carving drawn as raised blocks (C)"
+  },
+  "bronzes": {
+   "value": "two censers, two cranes and two deer on the terrace",
+   "source": "S361;S02;S08",
+   "grade": "B",
+   "note": "E1564 (S361): bronze deer and cranes before the hall; Malone: incense burners and bronze birds and animals (E1562); the leaf: vessels on the terrace (A, too small to name); places and forms C"
+  },
+  "beiting": {
+   "value": "two octagonal stele pavilions with double eaves, yellow, over marble steles",
+   "source": "S05;S02;S08;S01",
+   "grade": "B",
+   "note": "S05 碑亭各一 (A); Malone: two double-roofed pavilions over marble steles (E1562, B); the leaf: double eaves, yellow (A); S01's octagons about 6.6 m (B); walls, arched doors and heights C"
+  },
+  "peidian": {
+   "value": "the side halls, five bays each, single-eave 歇山 in yellow tile",
+   "source": "S05;S08;S01",
+   "grade": "B",
+   "note": "S05 左右配殿各五楹 (A); S01's cells against the inner wall (B); the leaf: yellow 歇山 roofs (A); heights and porches C"
+  },
+  "liaoting": {
+   "value": "two green-glazed burners 燎炉 by the inner gate",
+   "source": "S05;S02;S01",
+   "grade": "B",
+   "note": "S05 燎亭各一 (A); Malone: two green glazed incense burners in the inner court (E1562, B); at S01's squares; their form C"
+  },
+  "gate": {
+   "value": "安佑门: five bays, single-eave 歇山 in yellow tile, on a marble terrace in the inner wall",
+   "source": "S05;S08;S02;S01",
+   "grade": "B",
+   "note": "S05 宫門五楹南向為安佑門 (A); the leaf: a yellow-roofed gate hall with a white terrace and balustrade before it (A); Malone: a marble terrace with the inner gate (E1563, B); S01: 12.3 x 6.3 m between its columns, a middle row on the wall line (B); the widths' split, the column 3.8 m, the terrace 1.2 m and its depth C"
+  },
+  "gate_plaque": {
+   "value": "安佑门, Qianlong's hand",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j81:21a; the board C"
+  },
+  "walls": {
+   "value": "two red walls with yellow glazed coping",
+   "source": "S02;S08;S01",
+   "grade": "B",
+   "note": "Malone (E1563, B); S01's lines (B); the leaf paints both walls vermilion, their caps read grey-green on the leaf (A for the red; the cap's yellow is Malone's); heights 4.2 and 4.4 m and thickness C"
+  },
+  "inner_side_gates": {
+   "value": "a small gate either side of 安佑门 in the inner wall, yellow roofs",
+   "source": "S01;S08",
+   "grade": "B",
+   "note": "S01's cells (B); the leaf: small gates with yellow roofs (A); their form C"
+  },
+  "inner_moat": {
+   "value": "a moon river between the walls, lined with stone, five marble bridges",
+   "source": "S05;S02;S01",
+   "grade": "B",
+   "note": "S05 門前白玉石橋三座 (A); Malone: a second moat with three bridges and two side bridges (E1563, B); S01's channel and breaks (B, water RM002); its lining, railing and the bridges' form C"
+  },
+  "chaofang": {
+   "value": "waiting rooms 朝房, five bays each, between the walls",
+   "source": "S05;S01",
+   "grade": "B",
+   "note": "S05 朝房各五楹 (A); S01's cells (B); their form the class's (C)"
+  },
+  "jingting": {
+   "value": "two well pavilions between the walls",
+   "source": "S05;S02;S01",
+   "grade": "B",
+   "note": "S05 左右井亭各一 (A); Malone: two covered wells (E1563, B); S01's squares (B); the form C"
+  },
+  "outer_gates": {
+   "value": "five gates in the outer wall: three glazed gates in the middle, a smaller gate at each side",
+   "source": "S02;S08;S01",
+   "grade": "B",
+   "note": "Malone: five gates in a red wall (E1563, B); S01's blocks (B); the leaf: three arched gates with glazed frames and yellow roofs, red doors, and small side gates with yellow roofs (A); sizes and heights C"
+  },
+  "qilin": {
+   "value": "two stone qilin on stone bases before the three middle gates",
+   "source": "S02;S943;S01",
+   "grade": "B",
+   "note": "Malone (E1563, B); S943: 1.74 m high on bases 0.98 m high, 1.41 x 1.95 m, each beast and its base cut from two stones; first before 大宫门, here from 1741; at Peking University since 1925 (B); S01's squares (B); the beast's form C (no photograph on disk)"
+  },
+  "sanfang": {
+   "value": "three timber archways 三坊 before the gates, red posts held by diagonal props, small yellow roofs",
+   "source": "S05;S08;S01",
+   "grade": "B",
+   "note": "S05 坊南及東西復有三坊環列 with their six faces named (A); the leaf: timber archways with red diagonal props 戗杆 and yellow roofs with green-blue painted beams (A); S01's bars, 9.3-9.6 m (B); four posts and three roofs, heights C"
+  },
+  "outer_moat": {
+   "value": "the outer moat 月河, a U round the forecourt, lined with stone, red railings on its banks, five marble bridges",
+   "source": "S05;S02;S08;S01",
+   "grade": "B",
+   "note": "S05 其南為月河橋 (A); Malone: five marble bridges, the middle one for the emperor alone (E1563, B); the leaf: three white arched bridges with balustrades and red railings along the banks (A); S01's band and breaks (B, water RM003); the two end bridges' form C"
+  },
+  "zhifu": {
+   "value": "致孚殿: three bays facing west in a red-walled yard, yellow tile",
+   "source": "S05;S08;S01",
+   "grade": "B",
+   "note": "S05 又東南為致孚殿三楹西向 (A), with the carved 圆明园记 inside (S05 j81:21b); the leaf: a small yellow-roofed hall in a red-walled yard (A); S01's yard and cells (B); heights C"
+  },
+  "liulifang": {
+   "value": "the glazed archway 鸿慈永祜坊: three glazed gates between four short red walls with glazed discs",
+   "source": "S05;S02;S08;S01",
+   "grade": "B",
+   "note": "S05: 琉璃坊座南面額 鸿慈永祜, north face 燕翼長詒 (A); Malone: a glazed pailou of four short walls and three gates (E1561, B); the leaf: three gates with blue-green glazed frames and yellow roofs between red walls with round glazed panels (A); S01's bar 13.7 x 2.5 m (B); heights C"
+  },
+  "huabiao": {
+   "value": "four marble 华表 at the corners of a square of 30 m round the archway, 8 m high on octagonal bases 1.24 m high",
+   "source": "S02;S980;S818;S01",
+   "grade": "B",
+   "note": "Malone: four marble pillars about 100 ft apart at the corners of a square (E1561); S01's squares 30.2 x 30.0 m apart (B); S980, S818: about 8 m high, the base 1.24 m (B); S05 has 左右石華表各一 (two, Q179): four drawn; the dragon, the cloud board, the dew plate and the beast after P0196 (c. 1882) and P0809-P0813 (today), their sizes C"
+  },
+  "colours": {
+   "value": "red walls and columns, yellow glazed roofs, green-blue beams, white marble",
+   "source": "S08;S02",
+   "grade": "A",
+   "note": "the leaf (S08 P0017, A for 1744); Malone's yellow glazed tile (E1562, E1563)"
+  },
+  "corner_ranges": {
+   "value": "a long range in a walled yard in each north corner of the outer court",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01's cells and yard lines (B); S05 names no building there: unnamed (C: a store or kitchen range, grey tile)"
+  },
+  "north_gate": {
+   "value": "a gate of three bays in the outer wall's north side",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01's three cells (B); form C"
+  },
+  "paving": {
+   "value": "the forecourt, the ways on the axis and between the gates paved; the courts earth with their trees",
+   "source": "S08",
+   "grade": "C",
+   "note": "the leaf paints the forecourt and the inner court grey; the planting of Round 12 keeps its trees in the courts (research/greens/species.csv GS-0634)"
+  }
+ }
+}
