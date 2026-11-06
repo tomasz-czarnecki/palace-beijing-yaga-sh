@@ -113,10 +113,12 @@ Water on the old site, its north bank about 7 m inside the plan's. The south ban
 
 - **Q7. Accuracy of the georeference, honestly.** LOO RMS 16.5 m, block cross-validation 19.8 m, but the check against independent labels is not blind: the georef worker edited its check set after seeing errors (first pass median 52 m, kept set 31 m; the JSON keeps both). Second check, on the final data (`plan/coverage.j
 - **Q32. OSM errors.** 线法画 (west of 方河), 养雀笼, possibly 映水兰香; 蓄水楼 point at 116.3055 is 海晏堂's reservoir, not XY02; 谐奇趣's point is 23 m from the ruin. Used only as a hint. Positions come from S01 for all but rows noted `S03`.
+- **Q313. 线法墙's stage depth on plate 20. (Round 30)** S01 puts 方河's end about 10 m before the first pair of flats; Round 10's water W0024 ends 14 m before them. Plate 20 draws the two gates close behind the bank's coping, and the whole plate fits one camera at 1.51 m rms (0.99 m with its heights stretched 1.29 times), ea
 
 ## Wishlist
 
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Round 30: the Lei plan 线法墙地样 (E0993, E2415; S603 p.124 note 11: 圆明园资料集 1984 p.83) with its marked dimensions and laid-down elevations | 线法墙's number of flats (Q16, Q73), their spacing and heights, the stage's depth before 方河 (Q313), whether the gates were masonry or painted (Q314); today the flats' outlines and relief are all C | 国家图书馆善本部; 圆明园资料集 (1984) | Find a scan of the 1984 book or the 1933 北平图书馆馆刊 圆明园专号 |
 
 <!-- generated:end -->
 

@@ -62,7 +62,7 @@ None of its own.
 
 ## Open questions
 
-None that name it.
+- Q312: 线法山门's walls. (Round 30)
 
 <!-- generated:end -->
 

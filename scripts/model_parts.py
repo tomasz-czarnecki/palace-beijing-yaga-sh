@@ -265,3 +265,69 @@ class Parts:
                 p = P(sa * x0, ya + la, sz * z0)
                 out["eaves"][(1 if p[0] > cx else -1, 1 if p[2] > cz else -1)] = p
         return out
+
+    # ------------------------------------------------------------ Round 30: the east end's ornament (线法山门, 螺蛳牌楼, 线法墙), in a face frame
+    def shell(self, sc, yb, r, d=0.0, ribs=9, mat="sculpt", rib_mat="marble", depth=0.18):
+        """A scallop shell standing on its hinge at (sc, yb): a fan of ribs, alternately raised (plates 17 and 19: over the doors and the arch)."""
+        m = self.m
+        pts = [(sc + r * math.cos(math.pi * k / ribs), yb + r * 1.05 * math.sin(math.pi * k / ribs)) for k in range(ribs + 1)]
+        for k in range(ribs):
+            dd = d + (depth if k % 2 == 0 else depth * 0.55)
+            m.poly([(sc, yb, d + 0.04), (pts[k][0], pts[k][1], dd), (pts[k + 1][0], pts[k + 1][1], dd)], mat if k % 2 == 0 else rib_mat)
+        m.box(sc - r * 0.35, sc + r * 0.35, yb - 0.12, yb + 0.02, d, d + depth + 0.04, mat, skip=("back",))
+
+    def wreath(self, sc, yc, r, d=0.0, tube=0.12, n=14, mat="sculpt", width_y=1.0):
+        """A ring of laurel standing in the face's plane (plate 17: the garland over the gate's centre)."""
+        m = self.m
+        for k in range(n):
+            a0, a1 = 2 * math.pi * k / n, 2 * math.pi * (k + 1) / n
+            p0 = (sc + r * math.cos(a0), yc + r * width_y * math.sin(a0))
+            p1 = (sc + r * math.cos(a1), yc + r * width_y * math.sin(a1))
+            for dd in (d - tube, d + tube):
+                q0 = (sc + (r - tube) * math.cos(a0), yc + (r - tube) * width_y * math.sin(a0))
+                q1 = (sc + (r - tube) * math.cos(a1), yc + (r - tube) * width_y * math.sin(a1))
+                o0 = (sc + (r + tube) * math.cos(a0), yc + (r + tube) * width_y * math.sin(a0))
+                o1 = (sc + (r + tube) * math.cos(a1), yc + (r + tube) * width_y * math.sin(a1))
+                m.poly([(q0[0], q0[1], dd), (o0[0], o0[1], dd), (o1[0], o1[1], dd), (q1[0], q1[1], dd)], mat)
+            m.poly([(p0[0] + tube * math.cos(a0), p0[1] + tube * math.sin(a0), d - tube), (p1[0] + tube * math.cos(a1), p1[1] + tube * math.sin(a1), d - tube),
+                    (p1[0] + tube * math.cos(a1), p1[1] + tube * math.sin(a1), d + tube), (p0[0] + tube * math.cos(a0), p0[1] + tube * math.sin(a0), d + tube)], mat)
+
+    def slab(self, outline, d0, d1, mat="sculpt"):
+        """A cut-out panel (a scrolled crest, a cartouche's outline) between the planes d0 and d1: the outline (s, y), convex pieces or a fan from its first point."""
+        m = self.m
+        m.poly([(s, y, d1) for s, y in outline], mat)
+        m.poly([(s, y, d0) for s, y in outline[::-1]], mat)
+        n = len(outline)
+        for i in range(n):
+            (a, b), (c, e) = outline[i], outline[(i + 1) % n]
+            m.poly([(a, b, d0), (c, e, d0), (c, e, d1), (a, b, d1)], mat)
+
+    def scroll(self, sc, y0, h, w, sx=1, d=0.0, t=0.2, mat="sculpt", n=10):
+        """A volute in profile, its curl at the foot (plate 17: the buttress scrolls at the gate's ends; plate 19: the crest's consoles): a band that sweeps out by w over the height h and curls in."""
+        pts = []
+        for k in range(n + 1):
+            u = k / n
+            pts.append((sc + sx * w * (1 - u) ** 1.6, y0 + h * u))
+        curl = [(sc + sx * (w - 0.5 * w * (1 - math.cos(math.pi * j / 6)) * 0.6), y0 + 0.3 * w * math.sin(math.pi * j / 6)) for j in range(7)]
+        outer = curl[::-1] + pts[1:]
+        inner = [(s - sx * min(t, abs(s - sc)), y) for s, y in outer]
+        for (a, b), (c, e), (f, g), (p, q) in zip(outer[:-1], outer[1:], inner[1:], inner[:-1]):
+            self.m.poly([(a, b, d - t / 2), (c, e, d - t / 2), (f, g, d - t / 2), (p, q, d - t / 2)], mat)
+            self.m.poly([(p, q, d + t / 2), (f, g, d + t / 2), (c, e, d + t / 2), (a, b, d + t / 2)], mat)
+            self.m.poly([(a, b, d - t / 2), (a, b, d + t / 2), (c, e, d + t / 2), (c, e, d - t / 2)], mat)
+
+    def rusticated(self, s0, s1, y0, y1, course=0.62, out=0.14, mat="rustic", joint="joint", bands=True):
+        """A pier of banded blocks (plate 20: the gates of 线法墙): projecting blocks on a recessed core, the joints dark."""
+        m = self.m
+        m.box(s0, s1, y0, y1, 0.0, out * 0.4, joint, skip=("back",))
+        y = y0
+        k = 0
+        while y < y1 - 0.05:
+            yt = min(y + course - 0.08, y1)
+            inset = 0.0 if k % 2 == 0 else 0.12
+            m.box(s0 + inset, s1 - inset, y + 0.04, yt, out * 0.4, out, mat, skip=("back",))
+            if bands and (s1 - s0) > 1.2:
+                mid = (s0 + s1) / 2 + (0.25 if k % 2 else -0.25)
+                m.box(mid - 0.03, mid + 0.03, y + 0.04, yt, out, out + 0.01, joint, skip=("back",))
+            y += course
+            k += 1

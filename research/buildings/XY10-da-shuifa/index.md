@@ -224,6 +224,7 @@ Modern interpretation, not evidence.
 - Q234: The tower basins' places
 - Q237: 大水法's niche in the 1780s and today
 - Q240: The clock gate on P0776 and P0183's camera
+- Q313: 线法墙's stage depth on plate 20. (Round 30)
 
 <!-- generated:end -->
 

@@ -231,6 +231,7 @@ The arch of the niche, the basin stones and the two tower bases. Which stones ar
 - **Q234. The tower basins' places.** On the ruin (S850) the east basin of 大水法 lies 5.6 m further south than the west one, measured along the axis; S603 gives the two basins 62 m apart and symmetric about the axis, and S01's water bodies sit at 17.5 and 18.4 m south of the niche's box. The model puts both on one line acr
 - **Q237. 大水法's niche in the 1780s and today.** Today the niche's opening runs down to the plinth (P0641, P0340); plate 15 draws a sill band at the piers' flare with the cascade's sheet falling below it, and P0762 shows the opening's back sill at the terrace's level. The model has the 1780s sill at the terrace's level an
 - **Q240. The clock gate on P0776 and P0183's camera.** On Ohlmer's view of 大水法 (P0776, 1873) the clock gate behind the niche draws 2.5 times larger than the Round 15 camera (62 m from the gate) allows at a 4.2 m column spacing, 1.75 times at the model's 6.0 m: either the camera stood nearer or the gate is larger still; 
+- **Q313. 线法墙's stage depth on plate 20. (Round 30)** S01 puts 方河's end about 10 m before the first pair of flats; Round 10's water W0024 ends 14 m before them. Plate 20 draws the two gates close behind the bank's coping, and the whole plate fits one camera at 1.51 m rms (0.99 m with its heights stretched 1.29 times), ea
 
 ## Wishlist
 

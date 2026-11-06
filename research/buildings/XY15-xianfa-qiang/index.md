@@ -24,21 +24,13 @@ Hu Tung Hsien Fa T'u, Hsien Fa Picture East of the Lake · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 20 of 1783-86 and the plan's six flats a side; the two gates are the plate's, every flat's outline and relief is assumed, because the painted scenes are lost (C).
 
-- **1 ×:** painted screen N1: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen S1: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen N2: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen S2: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen N3: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen S3: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen N4: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen S4: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen N5: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **1 ×:** painted screen S5: 7.3 × 1.8 m, eave 8.7 m, ridge 8.7 m
-- **More:** 3 other kinds of box
-- **Drawn:** by the stone kit, the kit's reading of the plates, C, not a detailed model
-- **Confidence:** C, all assumed
+- **Gates:** the first pair of flats, nearest the water, as plate 20 draws them: rusticated piers, an arch 2.38 m wide to 6.55 m with radiating voussoirs, corbels under the cornice at 8.6 m, a hipped cap to 10.4 m with urns and a pineapple (11.65 m), a lion on a ball at each side (read at the plan's 7.3 m, C)
+- **Flats:** five more pairs of flats 7.3 m wide on S01's places, narrowing towards the back wall; cut to the outline of painted houses whose eaves fall towards the axis (from 8.2 m to 4.2 m), their roofs, windows and doors in low relief: assumed, the paintings are lost (S02: 'partly modeled and partly painted', C)
+- **Back wall:** 6 m with a range of hills on it (S02: a back wall, painted; its height and outline assumed, C)
+- **Landing:** 6 steps 9 m wide with rounded ends from the stage down to 方河 on the axis (plate 20, C)
+- **Assumed:** the flats' and the back wall's outlines and relief, every back with its bracing (C, the pale tint with conf=1); the two ranges at the ends are the kit's
 
 ## Inside it (2)
 
@@ -112,6 +104,8 @@ Modern interpretation, not evidence.
 - Q63: The strip's length (Round 6)
 - Q64: The plan's scale and turn in this strip (Round 6)
 - Q73: The east end (Round 6)
+- Q313: 线法墙's stage depth on plate 20. (Round 30)
+- Q314: 线法墙's two gates on plate 20. (Round 30)
 
 <!-- generated:end -->
 

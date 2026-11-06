@@ -146,15 +146,19 @@ The mound and a base. The pavilion and gate are gone.
 - **Q16. 海晏堂's east half and the plan's working names.** S01 writes 黄花灯 (黄花阵), 转马台 (线法山), 线法画 (线法墙), 西水?房. Its 海晏堂 has three parts that map poorly onto the plates' single mass. 线法画 has 6 walls per side on S01, Malone says 5, `params.json` 7 pairs.
 - **Q60. Captions and claims, old photographs (Round 5).** Before 1900 "Yuen Ming Yuen" in a caption is no evidence of this garden: Favier's plates (S460) show Longevity Hill and the Jade Belt Bridge, Thomson's at Wellcome show Fragrant Hill, Beato's Wellcome lake view Longevity Hill and Jade Spring Hill, 清国戦地写真集録 (S654)
 - **Q73. The east end (Round 6).** 线法墙: 5 a side (S02), 6 (S01), 7 (S361, S06), 11 in all (Lei plan, S310 extract), 5 ± 1 on plate 20. Our six, as drawn. 螺蛳牌楼: 22.9 m on plate 19, 34-49 m for the plan's figure, no check. 线法山: 42 m at the outer ring on the plan; 6500 m² (S310 extract) would be 91 m across, so that figure 
+- **Q312. 线法山门's walls. (Round 30)** S01 draws the hill's west wall straight north-south either side of the gap where the gate stands. Plate 17 draws panelled walls from the gate's ends to the sheet's edges; read as lines by the camera fitted to the gate (`models/XY12-01-xianfa-shan-men/measure.py`), their copings vote f
 
 ## Wishlist
 
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
 | Round 10: the 1933 survey map (S15) read for its 地形测量: contours or spot heights, and the hills it draws | Every hill outline and height of `hills_1860` but 线法山 (Q29, Q199) | S15: NLC, the park (康睦's gift), two other copies | ask the park for a scan or a photograph of the sheet's legend and one hill |
+| Round 30: a dig or a survey of 线法山门's footing and the hill's west wall | The gate's depth (2.0 m, a guess) and the walls' line (Q312: S01 straight, plate 17 bending back) | 圆明园管理处; the 1978-83 clearing of the base sites (S847) | Ask the park through Tomasz |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+Round 30: the gate 线法山门 (XY12-01) is a detailed model built from plate 17 at S01's gap of 13.6 m (`models/XY12-01-xianfa-shan-men/README.md`): plate 17 fits at 0.14 m rms over 33 points. Readings at 2-3x moved the dossier's figures: the arch 2.08 m wide (not 2.3) to 4.25 m, the doors 1.30 m wide (not 1.6) to 2.65 m, the cornice 6.03 m, the crest 8.58 m. The walls either side stand on S01's straight line; plate 17's copings lean back east (Q312). P0768 (Giles) does not match plate 17 and is not used for the gate. The hill and its pavilion stay the kit's.

@@ -23,15 +23,12 @@ Hsien Fa Shan Tung Men, East Gate to Hsien Fa Hill · Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 19 of 1783-86, drawn frontally; the plan draws only an ornamental figure and no photograph of it is in hand, so every figure is a reading (C) on a weak module.
 
-- **Box:** 22.9 × 3 m, european
-- **Part:** east gate, three arches and two side rooms
-- **Heights:** platform 0.2 m, eave 6.8 m, ridge 11 m above the ground
-- **Roof:** gable 硬山 or 悬山, glazed tile
-- **Faces:** 262.6° from north
-- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
-- **Confidence:** C, assumed
+- **West front:** 22.9 m wide (plate 19 on the dossier's weak module, C): the arch 2.82 m wide to 5.77 m between two free columns, a square-headed door 1.25 × 3.55 m either side under a shell, the end bays with their panels; four columns 5.2 m, the carved vines over the piers and round the shafts (S02 p.159)
+- **Cornice and crests:** the wavy cornice at 6.9 m over the outer columns and 6.6 m over the inner ones, rising to 7.36 m over the arch; the attic with its broken scroll pediment (8.5 m) and the trophy group (10.7 m), trophies over the columns, the end urns (plate 19, C)
+- **Towers:** a tower over each side bay, 3.05 m square: a body with scrolls and a cartouche, a flared cornice at 9.1 m, a concave pyramidal cap, a lantern and an urn to 12 m (plate 19, C)
+- **Assumed:** the depth (3 m), the east face, the ends, the passages and the side rooms, carried round from the west front (C, the pale tint with conf=1)
 
 ## Pictures (4)
 

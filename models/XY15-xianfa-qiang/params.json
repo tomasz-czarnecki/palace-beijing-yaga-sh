@@ -1,0 +1,114 @@
+{
+ "id": "XY15",
+ "frame": "x south along the back wall's west front (to the right seen from the west), y up from the ground at the back wall's box, z west (out of the front, towards 方河); the origin at the back wall's front middle; metres",
+ "params": {
+  "flat_w": {
+   "value": 7.3,
+   "source": "S01",
+   "grade": "C",
+   "note": "each flat: S01's elements 7.27 x 1.8 m (b), six a side (Q16, Q73); the boxes of Round 6 place them"
+  },
+  "flat_t": {
+   "value": 0.45,
+   "source": "S02",
+   "grade": "C",
+   "note": "a flat's thickness: S02 'walls set like the wings of a stage'; the plan's 1.8 m ink taken as the flat and its bracing behind (assumed)"
+  },
+  "gate_arch_w": {
+   "value": 2.38,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the gates' arches: plate 20, 100 px of the left gate's 350 (2.09 m) and 110 of the right's 300 (2.68 m) at the plan's 7.3 m; the mean (Q314)"
+  },
+  "gate_arch_top": {
+   "value": 6.55,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the arches' crowns: plate 20, the left gate 6.03 m, the right 7.06 m on their own widths; the mean (Q314)"
+  },
+  "gate_cornice": {
+   "value": 8.6,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the cornice's top: plate 20, the left gate 7.97 m (y 497 over 879, 47.9 px/m), the right 9.29 m (y 522 over 904, 41.1 px/m): the plate draws the two gates 17% apart in proportion (Q314); the mean, near the dossier's 8.7 m"
+  },
+  "gate_cornice_h": {
+   "value": 0.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cornice's depth: plate 20, y 494-526"
+  },
+  "gate_ridge": {
+   "value": 10.4,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the hipped cap's ridge: plate 20, 9.62 and 11.19 m (y 418, 444); its length 3.9 m (x 255-445)"
+  },
+  "gate_ridge_l": {
+   "value": 3.85,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cap's ridge length: plate 20, 190 px of the left gate's 350 (3.96 m) and 154 of the right's 300 (3.75 m)"
+  },
+  "gate_urn": {
+   "value": 11.0,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the urns at the ridge's ends, their tips: plate 20, 10.35 and 11.65 m"
+  },
+  "gate_pine": {
+   "value": 11.65,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the pineapple on the ridge's middle, its tip: plate 20, 10.8 and 12.5 m"
+  },
+  "gate_course": {
+   "value": 0.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the piers' courses of banded blocks: plate 20, eight from the impost band to the foot on the left gate"
+  },
+  "lion_y": {
+   "value": 5.0,
+   "source": "S71;S01",
+   "grade": "C",
+   "note": "the impost ledge the lions sit on, at the piers' outer corners: plate 20, 4.4 and 5.7 m; the lions on balls to about 6.1 m"
+  },
+  "eye_h": {
+   "value": 1.6,
+   "source": "S02",
+   "grade": "C",
+   "note": "the height the flats' eaves converge to on the axis (a standing viewer across the water): the stage's rule, assumed"
+  },
+  "eave_1": {
+   "value": 8.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the eaves' height at the first pair's offset (23.2 m), just under the gates' cornice: plate 20's painted houses beside the gates rise to it; assumed"
+  },
+  "flat_min": {
+   "value": 4.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lowest flat's top: assumed, so that the innermost pair still screens the wings behind"
+  },
+  "back_h": {
+   "value": 6.0,
+   "source": "S02;S71",
+   "grade": "C",
+   "note": "the back wall's height with hills on it to 7.6 m: S02 'a back wall' painted; plate 20 paints hills behind the town; the height assumed"
+  },
+  "steps_w": {
+   "value": 9.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the landing's width on the axis: plate 20, its top step about 530 px against the gates' 1,340 px apart; assumed from the camera prior"
+  },
+  "steps_n": {
+   "value": 6,
+   "source": "S71",
+   "grade": "C",
+   "note": "six steps with rounded ends, each wider than the one above: plate 20, read at 1.5x (the dossier's first count was five)"
+  }
+ }
+}

@@ -387,11 +387,12 @@ def court_area(feats):
     hills = unary_union([xz(shape(f["geometry"])).buffer(0) for f in layer("hills_1860") if (f["properties"].get("height_est_m") or 0) >= 1.0])
     scenes = {f["properties"]["id"]: xz(shape(f["geometry"])).buffer(0) for f in layer("scenes_1860")}
     groups, all_boxes = defaultdict(list), []
+    hidden = model_hides()  # Round 30: a phantom box a model hides gets no court either (GB39's apron stood in plate 19's view of 螺蛳牌楼)
     for f in feats:
         p = f["properties"]
         poly = xz(shape(f["geometry"]))
         all_boxes.append(poly)
-        if p.get("european") or p.get("shape") or p.get("over_water") or p["hall_class"] == "gallery":
+        if p.get("european") or p.get("shape") or p.get("over_water") or p["hall_class"] == "gallery" or p["id"] in hidden:
             continue
         groups[p["parent_id"] or p["building_id"]].append(poly)
     parts = []

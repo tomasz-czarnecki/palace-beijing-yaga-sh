@@ -1,0 +1,256 @@
+{
+ "object": "XY15",
+ "label": "",
+ "points_from": "model XY15-xianfa-qiang",
+ "cameras": {
+  "P0060": {
+   "plate": "20",
+   "image": "P0060.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1383
+   ],
+   "object": "XY15",
+   "points_from": "model XY15-xianfa-qiang",
+   "prior": {
+    "lat": 40.012318,
+    "lon": 116.310574,
+    "err": 20.0,
+    "bearing": 83.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. Over the east end of 方河; nothing stood there. Stage-set depth. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      1126.0,
+      9.23,
+      -849.21
+     ],
+     "yaw_deg": 79.45,
+     "pitch_deg": -0.51,
+     "f_px": 2561.0,
+     "du_px": -227.2,
+     "dv_px": -100.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 12.74,
+     "moved_from_prior_m": 35.2,
+     "points": {
+      "n": 32,
+      "rms_px": 78.6,
+      "median_px": 74.1,
+      "max_px": 136.4,
+      "rms_m": 2.26,
+      "median_m": 2.12,
+      "max_m": 4.03
+     },
+     "tests": {
+      "n": 22,
+      "rms_px": 92.8,
+      "median_px": 87.0,
+      "max_px": 136.4,
+      "rms_m": 2.68,
+      "median_m": 2.48,
+      "max_m": 4.03
+     },
+     "sure12": {
+      "n": 24,
+      "rms_px": 80.7,
+      "median_px": 76.7,
+      "max_px": 136.4,
+      "rms_m": 2.32,
+      "median_m": 2.2,
+      "max_m": 4.03
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      1141.36,
+      11.91,
+      -850.28
+     ],
+     "yaw_deg": 84.17,
+     "pitch_deg": 2.1,
+     "f_px": 2067.5,
+     "du_px": 24.6,
+     "dv_px": -377.8,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 15.42,
+     "moved_from_prior_m": 19.8,
+     "points": {
+      "n": 32,
+      "rms_px": 54.7,
+      "median_px": 45.3,
+      "max_px": 94.7,
+      "rms_m": 1.51,
+      "median_m": 1.25,
+      "max_m": 2.64
+     },
+     "tests": {
+      "n": 22,
+      "rms_px": 41.5,
+      "median_px": 35.7,
+      "max_px": 85.7,
+      "rms_m": 1.15,
+      "median_m": 1.0,
+      "max_m": 2.39
+     },
+     "sure12": {
+      "n": 24,
+      "rms_px": 49.2,
+      "median_px": 39.8,
+      "max_px": 94.7,
+      "rms_m": 1.35,
+      "median_m": 1.09,
+      "max_m": 2.64
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      1146.62,
+      2.78,
+      -848.74
+     ],
+     "yaw_deg": 89.22,
+     "pitch_deg": -1.28,
+     "f_px": 1842.0,
+     "du_px": 294.8,
+     "dv_px": 133.3,
+     "k_vertical": 1.285,
+     "eye_above_ground_m": 6.29,
+     "moved_from_prior_m": 14.9,
+     "points": {
+      "n": 32,
+      "rms_px": 33.9,
+      "median_px": 24.9,
+      "max_px": 71.2,
+      "rms_m": 0.92,
+      "median_m": 0.69,
+      "max_m": 1.94
+     },
+     "tests": {
+      "n": 22,
+      "rms_px": 31.7,
+      "median_px": 22.4,
+      "max_px": 71.2,
+      "rms_m": 0.89,
+      "median_m": 0.64,
+      "max_m": 1.94
+     },
+     "sure12": {
+      "n": 24,
+      "rms_px": 32.1,
+      "median_px": 22.4,
+      "max_px": 69.1,
+      "rms_m": 0.86,
+      "median_m": 0.64,
+      "max_m": 1.74
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "part_gL": {
+     "position": [
+      1166.58,
+      2.11,
+      -862.62
+     ],
+     "yaw_deg": 86.33,
+     "pitch_deg": -1.96,
+     "f_px": 1471.0,
+     "du_px": -77.8,
+     "dv_px": 138.3,
+     "k_vertical": 0.94,
+     "moved_from_prior_m": 11.9,
+     "points": {
+      "n": 14,
+      "rms_px": 10.8,
+      "median_px": 8.4,
+      "max_px": 28.7,
+      "rms_m": 0.23,
+      "median_m": 0.18,
+      "max_m": 0.6
+     },
+     "tests": {
+      "n": 14,
+      "rms_px": 10.8,
+      "median_px": 8.4,
+      "max_px": 28.7,
+      "rms_m": 0.23,
+      "median_m": 0.18,
+      "max_m": 0.6
+     },
+     "sure12": {
+      "n": 10,
+      "rms_px": 6.8,
+      "median_px": 5.5,
+      "max_px": 11.2,
+      "rms_m": 0.15,
+      "median_m": 0.12,
+      "max_m": 0.24
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "part_gR": {
+     "position": [
+      1165.07,
+      5.37,
+      -845.92
+     ],
+     "yaw_deg": 79.84,
+     "pitch_deg": -3.51,
+     "f_px": 1359.8,
+     "du_px": 73.3,
+     "dv_px": 68.5,
+     "k_vertical": 1.102,
+     "moved_from_prior_m": 7.2,
+     "points": {
+      "n": 14,
+      "rms_px": 14.9,
+      "median_px": 7.0,
+      "max_px": 31.1,
+      "rms_m": 0.36,
+      "median_m": 0.17,
+      "max_m": 0.75
+     },
+     "tests": {
+      "n": 14,
+      "rms_px": 14.9,
+      "median_px": 7.0,
+      "max_px": 31.1,
+      "rms_m": 0.36,
+      "median_m": 0.17,
+      "max_m": 0.75
+     },
+     "sure12": {
+      "n": 10,
+      "rms_px": 16.3,
+      "median_px": 7.0,
+      "max_px": 31.1,
+      "rms_m": 0.4,
+      "median_m": 0.17,
+      "max_m": 0.75
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

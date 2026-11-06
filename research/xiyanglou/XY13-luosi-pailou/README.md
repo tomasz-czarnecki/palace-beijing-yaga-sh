@@ -122,9 +122,12 @@ Nothing located in our sources, and no modern photograph within 100 m on Commons
 
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Free modern photos of 螺蛳牌楼 and 方河 with its bank, 线法山门 close, 谐奇趣 from the pond, 养雀笼 east gate on the axis, 远瀛观 frontal from the south, a person for scale at each | Sides with no today's picture | Commons has 0 geotagged hits at 100 m for XY13, XY14 | Visit |
+| Round 30: Moore's negative J-00426, 'Xianfashan east gate' (Royal BC Museum MS-3171, P0225), at full size | 螺蛳牌楼's size: today 22.9 m on the dossier's weak module (the arch taken as 3 m); a person or a course of stone in the photograph would scale it (Q73), and its vines and towers as they stood | Royal BC Museum, BC Archives | A person in a browser; order a scan (the holder's site refused automated access, Q33) |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+Round 30: a detailed model built from plate 19 (`models/XY13-luosi-pailou/README.md`), 41 points, 0.19 m rms. Readings at 1.3-2.2x on the dossier's frontage of 22.9 m: the arch 2.82 m wide to 5.77 m, the doors 1.25 x 3.55 m, the cornice wavy (6.9 m over the outer columns, 6.6 m over the inner, 7.36 m on the axis), the attic 3.7 m wide to 8.5 m, the trophy group 10.7 m, the towers' urns 12.0 m. The kit's default gate hall GB39 on the wall gap 20 m west, in plate 19's line of sight, is hidden. The size still rests on the dossier's weak module (Q73): Moore's photograph (P0225) is the best hope.

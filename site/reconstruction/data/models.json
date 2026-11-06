@@ -792,6 +792,89 @@
     "XY11-M53"
    ]
   },
+  "XY12-01": {
+   "url": "models/XY12-01/model.glb",
+   "name": "线法山门 Xianfa Shan Men",
+   "aliases": [],
+   "position": [
+    927.21,
+    1.07,
+    -840.031
+   ],
+   "rotationY": -1.441642,
+   "caption": {
+    "frontage_m": 13.6,
+    "depth_m": 2.0,
+    "eave_m": 6.03,
+    "ridge_m": 8.58,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY12-M55"
+   ]
+  },
+  "XY13": {
+   "url": "models/XY13/model.glb",
+   "name": "螺蛳牌楼 Luosi Pailou",
+   "aliases": [],
+   "position": [
+    1006.125,
+    0.05,
+    -844.345
+   ],
+   "rotationY": -1.441642,
+   "caption": {
+    "frontage_m": 22.9,
+    "depth_m": 3.0,
+    "eave_m": 6.9,
+    "ridge_m": 12.0,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [
+    "GB39"
+   ],
+   "boxes": [
+    "XY13-M56"
+   ]
+  },
+  "XY15": {
+   "url": "models/XY15/model.glb",
+   "name": "线法墙 Xianfa Qiang",
+   "aliases": [],
+   "position": [
+    1230.556,
+    -0.09,
+    -861.559
+   ],
+   "rotationY": -1.441642,
+   "caption": {
+    "frontage_m": 56.099999999999994,
+    "depth_m": 33.5,
+    "eave_m": 8.6,
+    "ridge_m": 11.65,
+    "assumed": true,
+    "confidence": "C"
+   },
+   "hides": [],
+   "boxes": [
+    "XY15-M57",
+    "XY15-M58",
+    "XY15-M59",
+    "XY15-M60",
+    "XY15-M61",
+    "XY15-M62",
+    "XY15-M63",
+    "XY15-M64",
+    "XY15-M65",
+    "XY15-M66",
+    "XY15-M67",
+    "XY15-M68",
+    "XY15-M69"
+   ]
+  },
   "YM01": {
    "url": "models/YM01/model.glb",
    "name": "正大光明 Zhengda Guangming",

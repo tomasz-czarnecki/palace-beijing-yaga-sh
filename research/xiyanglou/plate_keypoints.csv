@@ -818,3 +818,109 @@ plate,photo_id,object,point,x,y,sure,use,note
 ,P0168,XY05,e_pier_C_R_cap,757,330,2,,top of the scrolled capital of the pier right of the arch where the band above starts
 ,P0168,XY05,e_niche_L_head,393,364,3,,crown of the left niche's opening under the frame (seen obliquely; small)
 ,P0168,XY05,e_niche_R_head,856,395,2,,crown of the right niche's opening under the frame (above the shell's scalloped edge)
+17,P0057,XY12-01,foot_L,807,998,3,,the body's north end at the foot; the clipped trees cover the foot: read where the end's line meets the scroll's foot
+17,P0057,XY12-01,foot_R,1592,998,3,,the body's south end at the foot (as foot_L)
+17,P0057,XY12-01,cornice_L,793,650,2,,the main cornice's top at its north end
+17,P0057,XY12-01,cornice_R,1600,650,2,,the main cornice's top at its south end
+17,P0057,XY12-01,pil_out_L_cap,852,718,2,,the outer north pilaster's capital top (the dentil band) on its middle
+17,P0057,XY12-01,pil_out_R_cap,1540,718,2,,the outer south pilaster's capital top
+17,P0057,XY12-01,pil_in_L_cap,1062,718,2,,the inner north pilaster's capital top
+17,P0057,XY12-01,pil_in_R_cap,1330,718,2,,the inner south pilaster's capital top
+17,P0057,XY12-01,pil_in_L_foot,1062,996,3,,the inner north pilaster's pedestal at the foot (behind the trees)
+17,P0057,XY12-01,pil_in_R_foot,1330,996,3,,the inner south pilaster's pedestal at the foot (behind the trees)
+17,P0057,XY12-01,arch_crown,1200,753,1,,the arch's intrados at its crown
+17,P0057,XY12-01,arch_foot_L,1140,995,3,,the arch's north jamb at the threshold (the path; trees either side)
+17,P0057,XY12-01,arch_foot_R,1260,995,3,,the arch's south jamb at the threshold
+17,P0057,XY12-01,door_L_head,962,845,2,,the north door's opening at its head (inside the beaded frame)
+17,P0057,XY12-01,door_R_head,1430,845,2,,the south door's opening at its head
+17,P0057,XY12-01,door_L_crest,963,735,2,,the top of the shell over the north door
+17,P0057,XY12-01,door_R_crest,1430,735,2,,the top of the shell over the south door
+17,P0057,XY12-01,attic_top,1196,592,2,,the broken pediment over the centre at its top (under the shell)
+17,P0057,XY12-01,crest_top,1196,503,1,,the crossed ribbons over the garland at their top
+17,P0057,XY12-01,side_crest_L_top,955,558,2,,the garland ring over the north side bay at its top
+17,P0057,XY12-01,side_crest_R_top,1437,558,2,,the garland ring over the south side bay at its top
+17,P0057,XY12-01,urn_out_L_top,852,582,2,,the lyre finial over the outer north pilaster at its top
+17,P0057,XY12-01,urn_out_R_top,1540,582,2,,the lyre finial over the outer south pilaster at its top
+17,P0057,XY12-01,urn_in_L_top,1067,578,2,,the lyre finial over the inner north pilaster at its top
+17,P0057,XY12-01,urn_in_R_top,1325,578,2,,the lyre finial over the inner south pilaster at its top
+17,P0057,XY12-01,vase_L_top,812,615,2,,the vase at the cornice's north end at its top
+17,P0057,XY12-01,vase_R_top,1580,615,2,,the vase at the cornice's south end at its top
+17,P0057,XY12-01,scroll_L_top,793,858,2,,the buttress scroll at the north end at its top
+17,P0057,XY12-01,scroll_R_top,1600,858,2,,the buttress scroll at the south end at its top
+17,P0057,XY12-01,wall_urn_L0_top,688,883,2,,the urn on its pedestal before the north wall nearer the gate: its top
+17,P0057,XY12-01,wall_urn_L1_top,620,883,2,,the urn on its pedestal before the north wall further from the gate: its top
+17,P0057,XY12-01,wall_urn_R0_top,1715,892,2,,the urn on its pedestal before the south wall nearer the gate: its top
+17,P0057,XY12-01,wall_urn_R1_top,1787,886,2,,the urn on its pedestal before the south wall further from the gate: its top
+19,P0059,XY13,col_out_L_cap,812,787,2,,the outer north column's capital top
+19,P0059,XY13,col_out_R_cap,1577,787,2,,the outer south column's capital top
+19,P0059,XY13,col_in_L_cap,1036,787,2,,the inner north column's capital top (beside the arch)
+19,P0059,XY13,col_in_R_cap,1336,787,2,,the inner south column's capital top
+19,P0059,XY13,col_out_L_foot,812,1010,2,,the outer north column's plinth at its top (the base's foot)
+19,P0059,XY13,col_out_R_foot,1577,1010,2,,the outer south column's plinth at its top
+19,P0059,XY13,col_in_L_foot,1036,1008,2,,the inner north column's plinth at its top
+19,P0059,XY13,col_in_R_foot,1336,1008,2,,the inner south column's plinth at its top
+19,P0059,XY13,arch_crown,1190,760,2,,the arch's intrados at its crown (the water and hills seen through it)
+19,P0059,XY13,arch_spring_L,1128,825,3,,the arch's north springing (where the curve leaves the jamb)
+19,P0059,XY13,arch_spring_R,1252,825,3,,the arch's south springing
+19,P0059,XY13,arch_foot_L,1128,1012,2,,the arch's north jamb at the threshold
+19,P0059,XY13,arch_foot_R,1252,1012,2,,the arch's south jamb at the threshold
+19,P0059,XY13,door_L_head,920,857,2,,the north door's opening at its head
+19,P0059,XY13,door_R_head,1472,857,2,,the south door's opening at its head
+19,P0059,XY13,door_L_crest,920,772,2,,the shell over the north door at its top
+19,P0059,XY13,door_R_crest,1472,772,2,,the shell over the south door at its top
+19,P0059,XY13,cornice_out_L,812,712,2,,the cornice's top over the outer north column
+19,P0059,XY13,cornice_out_R,1568,708,2,,the cornice's top over the outer south column
+19,P0059,XY13,cornice_in_L,1036,725,3,,the cornice's top over the inner north column (under the trophy's block: weak)
+19,P0059,XY13,cornice_in_R,1336,722,3,,the cornice's top over the inner south column (weak)
+19,P0059,XY13,cornice_C,1190,690,2,,the curved cornice's top on the axis over the arch
+19,P0059,XY13,attic_top_L,1105,640,2,,the attic's upper cornice at its north end
+19,P0059,XY13,attic_top_R,1268,640,2,,the attic's upper cornice at its south end
+19,P0059,XY13,trophy_C_top,1188,545,2,,the trophy group over the centre at its top (a crown)
+19,P0059,XY13,trophy_in_L_top,1043,636,2,,the trophy over the inner north column at its top
+19,P0059,XY13,trophy_in_R_top,1343,641,2,,the trophy over the inner south column at its top
+19,P0059,XY13,trophy_out_L_top,815,627,2,,the trophy with a round shield over the outer north column at its top
+19,P0059,XY13,trophy_out_R_top,1568,630,2,,the trophy with a round shield over the outer south column at its top
+19,P0059,XY13,tower_L_finial,922,483,1,,the urn on the north tower's lantern at its tip
+19,P0059,XY13,tower_R_finial,1466,485,1,,the urn on the south tower's lantern at its tip
+19,P0059,XY13,tower_L_cap,922,545,2,,the north tower's cap at the lantern's plate
+19,P0059,XY13,tower_R_cap,1466,548,2,,the south tower's cap at the lantern's plate
+19,P0059,XY13,tower_L_cornice_l,858,612,2,,the north tower's flared cornice at its left corner
+19,P0059,XY13,tower_L_cornice_r,990,612,2,,the north tower's flared cornice at its right corner
+19,P0059,XY13,tower_R_cornice_l,1412,615,2,,the south tower's flared cornice at its left corner
+19,P0059,XY13,tower_R_cornice_r,1545,615,2,,the south tower's flared cornice at its right corner
+19,P0059,XY13,end_finial_L_top,718,664,2,,the urn at the north end at its top
+19,P0059,XY13,end_finial_R_top,1672,668,2,,the urn at the south end at its top
+19,P0059,XY13,end_L_foot,700,1015,3,,the north end's outer corner at the foot (behind a clipped tree)
+19,P0059,XY13,end_R_foot,1705,1015,3,,the south end's outer corner at the foot
+20,P0060,XY15,gate_L_foot_l,172,879,2,,the north gate's front at its north foot (the plinth's top)
+20,P0060,XY15,gate_L_foot_r,522,879,2,,the north gate's front at its south foot
+20,P0060,XY15,gate_L_cornice_l,140,497,3,,the north gate's cornice at its north end (its end is lost in the trees: weak)
+20,P0060,XY15,gate_L_cornice_r,557,497,3,,the north gate's cornice at its south end
+20,P0060,XY15,gate_L_arch_crown,350,590,2,,the north gate's arch at its crown (the intrados)
+20,P0060,XY15,gate_L_arch_foot_l,300,875,3,,the north gate's arch at its north jamb's foot
+20,P0060,XY15,gate_L_arch_foot_r,400,875,3,,the north gate's arch at its south jamb's foot
+20,P0060,XY15,gate_L_ridge_l,255,418,2,,the north gate's hipped cap: the ridge's north end
+20,P0060,XY15,gate_L_ridge_r,445,418,2,,the north gate's hipped cap: the ridge's south end
+20,P0060,XY15,gate_L_pine_top,340,362,1,,the pineapple on the north gate's ridge at its tip
+20,P0060,XY15,gate_L_urn_l_top,240,383,2,,the urn at the north gate's ridge's north end at its tip
+20,P0060,XY15,gate_L_urn_r_top,437,383,2,,the urn at the north gate's ridge's south end at its tip
+20,P0060,XY15,gate_L_lion_l,165,592,2,,the lion at the north gate's north corner at its head
+20,P0060,XY15,gate_L_lion_r,497,595,2,,the lion at the north gate's south corner at its head
+20,P0060,XY15,gate_R_foot_l,1860,904,2,,the south gate's front at its north foot
+20,P0060,XY15,gate_R_foot_r,2160,904,2,,the south gate's front at its south foot
+20,P0060,XY15,gate_R_cornice_l,1850,522,3,,the south gate's cornice at its north end (weak)
+20,P0060,XY15,gate_R_cornice_r,2199,522,3,,the south gate's cornice at its south end (in the trees: weak)
+20,P0060,XY15,gate_R_arch_crown,2019,615,2,,the south gate's arch at its crown
+20,P0060,XY15,gate_R_arch_foot_l,1964,900,3,,the south gate's arch at its north jamb's foot
+20,P0060,XY15,gate_R_arch_foot_r,2074,900,3,,the south gate's arch at its south jamb's foot
+20,P0060,XY15,gate_R_ridge_l,1942,444,2,,the south gate's ridge's north end
+20,P0060,XY15,gate_R_ridge_r,2096,444,2,,the south gate's ridge's south end
+20,P0060,XY15,gate_R_pine_top,2028,389,1,,the pineapple on the south gate's ridge at its tip
+20,P0060,XY15,gate_R_urn_l_top,1964,417,2,,the urn at the south gate's ridge's north end
+20,P0060,XY15,gate_R_urn_r_top,2083,420,2,,the urn at the south gate's ridge's south end
+20,P0060,XY15,gate_R_lion_l,1871,647,2,,the lion at the south gate's north corner at its head
+20,P0060,XY15,gate_R_lion_r,2174,661,2,,the lion at the south gate's south corner at its head
+20,P0060,XY15,steps_top_l,1000,962,2,,the landing's top step at its north end (under the bank's coping)
+20,P0060,XY15,steps_top_r,1345,962,2,,the landing's top step at its south end
+20,P0060,XY15,steps_foot_l,905,1040,2,,the landing's lowest step at its north front corner (at the water)
+20,P0060,XY15,steps_foot_r,1460,1036,2,,the landing's lowest step at its south front corner

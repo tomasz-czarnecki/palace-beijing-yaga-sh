@@ -1,0 +1,47 @@
+{
+ "id": "XY15",
+ "aliases": [],
+ "name": "线法墙 Xianfa Qiang",
+ "glb": "model.glb",
+ "position": [
+  1230.556,
+  -0.09,
+  -861.559
+ ],
+ "rotationY": -1.441642,
+ "line": "Modelled from plate 20 of 1783-86 and the plan's six flats a side; the two gates are the plate's, every flat's outline and relief is assumed, because the painted scenes are lost (C).",
+ "rows": [
+  [
+   "Gates",
+   "the first pair of flats, nearest the water, as plate 20 draws them: rusticated piers, an arch 2.38 m wide to 6.55 m with radiating voussoirs, corbels under the cornice at 8.6 m, a hipped cap to 10.4 m with urns and a pineapple (11.65 m), a lion on a ball at each side (read at the plan's 7.3 m, C)"
+  ],
+  [
+   "Flats",
+   "five more pairs of flats 7.3 m wide on S01's places, narrowing towards the back wall; cut to the outline of painted houses whose eaves fall towards the axis (from 8.2 m to 4.2 m), their roofs, windows and doors in low relief: assumed, the paintings are lost (S02: 'partly modeled and partly painted', C)"
+  ],
+  [
+   "Back wall",
+   "6 m with a range of hills on it (S02: a back wall, painted; its height and outline assumed, C)"
+  ],
+  [
+   "Landing",
+   "6 steps 9 m wide with rounded ends from the stage down to 方河 on the axis (plate 20, C)"
+  ],
+  [
+   "Assumed",
+   "the flats' and the back wall's outlines and relief, every back with its bracing (C, the pale tint with conf=1); the two ranges at the ends are the kit's"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 56.099999999999994,
+  "depth_m": 33.5,
+  "eave_m": 8.6,
+  "ridge_m": 11.65,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "hides": [],
+ "tris": 6532,
+ "fill_tris": 3822,
+ "glb_bytes": 214248
+}

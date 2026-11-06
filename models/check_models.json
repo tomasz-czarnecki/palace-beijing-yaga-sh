@@ -5970,6 +5970,457 @@
     }
    ]
   },
+  "XY12-01": {
+   "folder": "XY12-01-xianfa-shan-men",
+   "figures": 28,
+   "grades": {
+    "A": 0,
+    "B": 0,
+    "C": 28
+   },
+   "materials": 14,
+   "primitives": 14,
+   "extent_m": [
+    74.7,
+    9.9,
+    3.3
+   ],
+   "triangles": 7445,
+   "fill_triangles": 2571,
+   "glb_mb": 0.24,
+   "glb_gz_mb": 0.06,
+   "joints": [
+    {
+     "name": "gate_foot_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "scroll_L",
+     "kind": "wall foot",
+     "gap_m": -0.1
+    },
+    {
+     "name": "scroll_R",
+     "kind": "wall foot",
+     "gap_m": -0.1
+    },
+    {
+     "name": "wall_L_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_L_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_L_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_L_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_L_end",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L0_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L0_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L1_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_L1_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_R_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_R_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_R_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_R_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall_R_end",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R0_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R0_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R1_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "urn_ped_R1_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.1,
+    "max_below": 0.15,
+    "n": 32
+   },
+   "ways": [
+    {
+     "way": "CCX-029",
+     "kind": "paved_way",
+     "at": "XY12-M55:model west_arch",
+     "entry": "west_arch",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "CCX-030",
+     "kind": "paved_way",
+     "at": "XY12-M55:model east_arch",
+     "entry": "east_arch",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  },
+  "XY13": {
+   "folder": "XY13-luosi-pailou",
+   "figures": 28,
+   "grades": {
+    "A": 0,
+    "B": 0,
+    "C": 28
+   },
+   "materials": 16,
+   "primitives": 16,
+   "extent_m": [
+    23.8,
+    12.2,
+    5.6
+   ],
+   "triangles": 11000,
+   "fill_triangles": 4444,
+   "glb_mb": 0.34,
+   "glb_gz_mb": 0.1,
+   "joints": [
+    {
+     "name": "gate_foot_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_2",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_foot_3",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "col_L_out",
+     "kind": "column plinth",
+     "gap_m": -0.05
+    },
+    {
+     "name": "col_R_out",
+     "kind": "column plinth",
+     "gap_m": -0.05
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.15,
+    "n": 6
+   },
+   "ways": [
+    {
+     "way": "CCX-032",
+     "kind": "paved_way",
+     "at": "XY13-M56:model west_arch",
+     "entry": "west_arch",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "CCX-033",
+     "kind": "paved_way",
+     "at": "XY13-M56:model east_arch",
+     "entry": "east_arch",
+     "plan_m": 0.0,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
+  },
+  "XY15": {
+   "folder": "XY15-xianfa-qiang",
+   "figures": 18,
+   "grades": {
+    "A": 0,
+    "B": 0,
+    "C": 18
+   },
+   "materials": 18,
+   "primitives": 18,
+   "extent_m": [
+    55.6,
+    15.0,
+    49.2
+   ],
+   "triangles": 6532,
+   "fill_triangles": 3822,
+   "glb_mb": 0.21,
+   "glb_gz_mb": 0.05,
+   "joints": [
+    {
+     "name": "gate_N_N",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "gate_N_S",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "gate_S_N",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "gate_S_S",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N2_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N2_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S2_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S2_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N3_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N3_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S3_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S3_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N4_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N4_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S4_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S4_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N5_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N5_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S5_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S5_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N6_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_N6_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S6_in",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "flat_S6_out",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "back_N",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "back_S",
+     "kind": "wall foot",
+     "gap_m": -0.05
+    },
+    {
+     "name": "steps_head",
+     "kind": "stair head",
+     "gap_m": -0.05
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.05,
+    "n": 27
+   },
+   "ways": []
+  },
   "YM01": {
    "folder": "YM01-zhengda-guangming",
    "figures": 35,

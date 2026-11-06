@@ -82,6 +82,7 @@ Modern interpretation, not evidence.
 
 - Q7: Accuracy of the georeference, honestly
 - Q32: OSM errors
+- Q313: 线法墙's stage depth on plate 20. (Round 30)
 
 <!-- generated:end -->
 

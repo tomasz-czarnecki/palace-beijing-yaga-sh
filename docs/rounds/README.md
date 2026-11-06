@@ -36,6 +36,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r27_anyou` | not recorded | 2026-11-06, from 19:01 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r28_zhengjue` | not recorded | 2026-11-06, from 20:16 | about 2 h | - | see its result row | see the git log | done |
 | `palace_r29_shizilin` | not recorded | 2026-11-06, from 21:58 | about 3 h 30 min | - | see its result row | see the git log | done |
+| `palace_r30_xianfa` | not recorded | 2026-11-06, from 23:06 | see its result row | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -1038,4 +1039,14 @@ Brief: `palace_r29_shizilin.md`. The sixteenth detailed model, built from the re
 - **Found on the shots and fixed:** the rocks as crystal shards (now stacked tiers), the rockery too low (now 1.4-3.4 m, a 5.2 m summit, sixteen standing peaks), the court before 纳景堂 as a raised slab, the wisteria as solid slabs, 占峰亭's stair over 横碧轩's platform.
 - **Left:** the kit's paved court of the default box D018 (小香幢's box of Round 2) still shows as a pale square north of the garden (`scripts/kit1860.py` makes courts round boxes a model owns); the landing CCX-061 of Round 9 stands in the water just outside the water gate.
 - **Open:** Q306-Q311; every height and every hall's form are C; the identification of the unnamed halls.
+
+## palace_r30_xianfa
+
+Brief: `palace_r30_xianfa.md`. The seventeenth to nineteenth detailed models, built from the references: the east end of the Xiyang Lou, 线法山门 XY12-01 (`models/XY12-01-xianfa-shan-men/`), 螺蛳牌楼 XY13 (`models/XY13-luosi-pailou/`) and 线法墙 XY15 (`models/XY15-xianfa-qiang/`). No subagent: the plates and the plan were read by the round itself, at 1.3-3x with a grid of original pixels.
+- **线法山门** from plate 17 at S01's gap (13.6 m): 33 key points, 0.14 m rms (anchored tests 0.20 m). The walls read as lines (`models/XY12-01-xianfa-shan-men/measure.py`): the copings vote for walls bending back east at 20-30° (4.9-6.5 px against 17.4-17.8 px for S01's straight line), the panels the other way; the plan kept (Q312). The forecourt `level` (a generated hill of 4.3 m had stood there).
+- **螺蛳牌楼** from plate 19 on the dossier's weak module (22.9 m): 41 key points, 0.19 m rms (anchored tests 0.45 m); the wavy cornice and the attic's width moved by the residuals; `hides` GB39, the kit's default gate hall in the plate's line of sight, and the kit now gives a hidden box no court.
+- **线法墙**: plate 20's two gates on the first flats, each on its own camera at 0.23 and 0.36 m once the caps were drawn as the plate shows them (ridges 3.85 m, not a hip's 6.2 m); the whole plate 1.51 m (0.99 m stretched 1.29 times): the plate draws the two gates 17% apart in proportion and the stage shallower than the plan (Q313, Q314). Five more pairs of flats on S01's boxes, cut to painted houses and assumed; the back wall; six steps to 方河; the east shore a stone quay (`research/terrain/readings.csv` R10-476).
+- **Shared:** `shell`, `wreath`, `slab`, `scroll`, `rusticated` in `scripts/model_parts.py`.
+- **Left:** the hill's pavilion XY12-02 (the kit's) stands over the gate in plate 17's camera, where the plate draws trees; the two ranges at 线法墙's ends stay the kit's; Moore's photograph of 螺蛳牌楼 (P0225) and the Lei plan 线法墙地样 are not in hand.
+- **Open:** Q312-Q314; every figure of the three models is C.
 

@@ -1,0 +1,45 @@
+{
+ "id": "XY13",
+ "aliases": [],
+ "name": "螺蛳牌楼 Luosi Pailou",
+ "glb": "model.glb",
+ "position": [
+  1006.125,
+  0.05,
+  -844.345
+ ],
+ "rotationY": -1.441642,
+ "line": "Modelled from plate 19 of 1783-86, drawn frontally; the plan draws only an ornamental figure and no photograph of it is in hand, so every figure is a reading (C) on a weak module.",
+ "rows": [
+  [
+   "West front",
+   "22.9 m wide (plate 19 on the dossier's weak module, C): the arch 2.82 m wide to 5.77 m between two free columns, a square-headed door 1.25 × 3.55 m either side under a shell, the end bays with their panels; four columns 5.2 m, the carved vines over the piers and round the shafts (S02 p.159)"
+  ],
+  [
+   "Cornice and crests",
+   "the wavy cornice at 6.9 m over the outer columns and 6.6 m over the inner ones, rising to 7.36 m over the arch; the attic with its broken scroll pediment (8.5 m) and the trophy group (10.7 m), trophies over the columns, the end urns (plate 19, C)"
+  ],
+  [
+   "Towers",
+   "a tower over each side bay, 3.05 m square: a body with scrolls and a cartouche, a flared cornice at 9.1 m, a concave pyramidal cap, a lantern and an urn to 12 m (plate 19, C)"
+  ],
+  [
+   "Assumed",
+   "the depth (3 m), the east face, the ends, the passages and the side rooms, carried round from the west front (C, the pale tint with conf=1)"
+  ]
+ ],
+ "caption": {
+  "frontage_m": 22.9,
+  "depth_m": 3.0,
+  "eave_m": 6.9,
+  "ridge_m": 12.0,
+  "assumed": true,
+  "confidence": "C"
+ },
+ "hides": [
+  "GB39"
+ ],
+ "tris": 11000,
+ "fill_tris": 4444,
+ "glb_bytes": 343564
+}

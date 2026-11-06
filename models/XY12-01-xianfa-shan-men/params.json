@@ -1,0 +1,174 @@
+{
+ "id": "XY12-01",
+ "frame": "x south along the west front (to the right seen from the west), y up from the ground at the gate's box, z west (out of the front); the origin at the west front's middle; metres",
+ "params": {
+  "w": {
+   "value": 13.6,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the body's width: the gap in the hill's west wall on S01, 13.58 m (b); plate 17's body is the module (787 px)"
+  },
+  "d": {
+   "value": 2.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the depth: the box's guess (Round 6); plate 17 shows no side"
+  },
+  "pil_out": {
+   "value": 5.96,
+   "source": "S71",
+   "grade": "C",
+   "note": "the outer pilasters' middles from the axis: plate 17, x 852 and 1540 about the axis at x 1196 (Round 30 readings at 3x)"
+  },
+  "pil_out_w": {
+   "value": 1.05,
+   "source": "S71",
+   "grade": "C",
+   "note": "the outer pilasters' width: plate 17, about 60 px with their borders"
+  },
+  "pil_in": {
+   "value": 2.32,
+   "source": "S71",
+   "grade": "C",
+   "note": "the inner pilasters' middles either side of the arch: plate 17, x 1062 and 1330"
+  },
+  "pil_in_w": {
+   "value": 1.04,
+   "source": "S71",
+   "grade": "C",
+   "note": "the inner pilasters' width: plate 17, 60 px"
+  },
+  "ped_h": {
+   "value": 0.55,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pilasters' pedestals: plate 17, their caps about 32 px over the foot (the trees cover the foot: weak)"
+  },
+  "shaft_top": {
+   "value": 4.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "the pilasters' shafts to the capitals' necks: plate 17, y 745"
+  },
+  "cap_top": {
+   "value": 4.85,
+   "source": "S71",
+   "grade": "C",
+   "note": "the capitals' tops (with the dentils and the carved dosseret over them): plate 17, y 720"
+  },
+  "cornice": {
+   "value": 6.03,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cornice's top: plate 17, y 650 over the foot at 998 (dossier 6.1 m)"
+  },
+  "frieze": {
+   "value": 5.35,
+   "source": "S71",
+   "grade": "C",
+   "note": "the frieze's long panels: plate 17, y 670-690 (5.35-5.70 m)"
+  },
+  "arch_w": {
+   "value": 2.08,
+   "source": "S71",
+   "grade": "C",
+   "note": "the arch's opening: plate 17, x 1140-1260 between the jambs' panels (dossier 2.3 m)"
+  },
+  "arch_top": {
+   "value": 4.25,
+   "source": "S71",
+   "grade": "C",
+   "note": "the arch's crown (the intrados): plate 17, y 753; a half circle, the springing at 3.2 m (the imposts at y 815: 3.17 m)"
+  },
+  "door_w": {
+   "value": 1.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' openings: plate 17, x 925-1000 inside the beaded frames (frames 1.9 m over all; dossier 1.6 m)"
+  },
+  "door_h": {
+   "value": 2.65,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' heads: plate 17, y 845; square-headed in a beaded frame"
+  },
+  "door_x": {
+   "value": 4.04,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' middles from the axis: plate 17, x 962 and 1430"
+  },
+  "door_crest": {
+   "value": 4.56,
+   "source": "S71",
+   "grade": "C",
+   "note": "the shell over each door's scrolled hood, its top: plate 17, y 735; the hood at y 795-805"
+  },
+  "attic_top": {
+   "value": 7.04,
+   "source": "S71",
+   "grade": "C",
+   "note": "the broken pediment over the centre, its top: plate 17, y 592, x 1118-1283 (2.9 m wide)"
+  },
+  "crest_top": {
+   "value": 8.58,
+   "source": "S71",
+   "grade": "C",
+   "note": "the garland crest over the centre with its ribbons, its top: plate 17, y 503 (dossier 8.7 m)"
+  },
+  "side_crest_top": {
+   "value": 7.63,
+   "source": "S71",
+   "grade": "C",
+   "note": "the crests of scrolls and garlands over the side bays: plate 17, y 558; 2.5 m wide"
+  },
+  "urn_top": {
+   "value": 7.25,
+   "source": "S71",
+   "grade": "C",
+   "note": "the lyre-and-garland finials over the four pilasters: plate 17, y 578-585"
+  },
+  "vase_top": {
+   "value": 6.64,
+   "source": "S71",
+   "grade": "C",
+   "note": "the vases at the ends of the cornice: plate 17, y 615"
+  },
+  "scroll_h": {
+   "value": 2.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "the scrolled buttresses at the ends' feet: plate 17, from y 858 to the foot, about 1 m out from the body"
+  },
+  "wall_h": {
+   "value": 2.7,
+   "source": "S71;S116",
+   "grade": "C",
+   "note": "the walls either side: plate 17, 155 px at the gate's end (2.7 m at the gate's scale); the garden walls of 2.8 m (S116, S117) agree"
+  },
+  "wall_end": {
+   "value": 30.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the walls' run from the gate to the strip's long walls: S01 draws the hill's west wall north and south of the gap, about 145 px (30 m) each (b)"
+  },
+  "wall_splay": {
+   "value": 0.0,
+   "source": "S01;S71",
+   "grade": "C",
+   "note": "the walls' angle off the gate's line: S01 draws them straight north-south (0). Plate 17's copings read as lines (measure.py) vote for walls bending back east at 20-30 degrees, 2.4 m high (4.9-6.5 px rms against 17.4-17.8 px for the straight line), but its panels grow towards the sheet's edges as if the walls came forward: the plate's perspective is constructed, the plan wins (Q312)"
+  },
+  "wall_pil": {
+   "value": 2.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the walls' pilasters with sunk panels between: plate 17, eight a side between the gate and the sheet's edge"
+  },
+  "wall_urn": {
+   "value": 1.4,
+   "source": "S71",
+   "grade": "C",
+   "note": "two urns on pedestals a side before the walls next to the gate, 1.4 and 2.55 m along the wall from its start at the gate: plate 17, x 688, 620 and 1715, 1787 (68-72 px apart, 1.1-1.2 m at the fitted camera)"
+  }
+ }
+}

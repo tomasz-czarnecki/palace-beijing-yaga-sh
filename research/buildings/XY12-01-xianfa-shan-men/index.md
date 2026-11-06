@@ -24,13 +24,12 @@ Xiyang Lou
 
 ## Our model now
 
-Simple massing of a European palace: position and footprint from the ruin, the plan or a survey, heights read from the plates of the 1780s (research/xiyanglou/boxes.csv). Not a detailed model yet; the figures and their methods are in the Dimensions block.
+Modelled from plate 17 of 1783-86, drawn frontally and read at the plan's width; no photograph of the gate standing or of its ruin is known, so every figure is a reading (C).
 
-- **Box:** 13.6 × 2 m, european, wall
-- **Part:** triple gate
-- **Faces:** 262.6° from north
-- **Drawn:** by the stone kit: base, pilasters, arched openings, entablature, balustrade and a glazed roof, as the plates of the 1780s show such fronts; the kit's reading, C, not a detailed model
-- **Confidence:** C, assumed
+- **West front:** a triple gate 13.6 m wide (S01's gap, b): the arch 2.08 m wide to 4.25 m, a square-headed door 1.3 × 2.65 m either side under a shell, four carved pilasters on pedestals with capitals at 4.85 m, the entablature with its frieze panels to 6.03 m (plate 17, C)
+- **Crests:** the attic with its broken pediment (7.04 m) and the garland crest over the centre (8.58 m), crests of scrolls and garlands over the side bays (7.63 m), lyre finials over the pilasters (7.25 m) and vases at the ends (plate 17, C)
+- **Walls:** panelled walls 2.7 m high with pilasters, sunk panels and a coping, from the gate's ends north and south 30 m on S01's straight line (plate 17's copings lean back east: Q312), an urn on a pedestal by the gate on each side (plate 17, C)
+- **Assumed:** the depth (2 m), the east face, the ends and the passages, carried round from the west front; the walls' backs and their ends (C, the pale tint with conf=1)
 
 ## Pictures (4)
 
@@ -66,7 +65,7 @@ Simple massing of a European palace: position and footprint from the ruin, the p
 
 ## Open questions
 
-None that name it.
+- Q312: 线法山门's walls. (Round 30)
 
 <!-- generated:end -->
 

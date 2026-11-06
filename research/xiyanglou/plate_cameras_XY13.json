@@ -1,0 +1,168 @@
+{
+ "object": "XY13",
+ "label": "",
+ "points_from": "model XY13-luosi-pailou",
+ "cameras": {
+  "P0059": {
+   "plate": "19",
+   "image": "P0059.jpg",
+   "free": true,
+   "size": [
+    2400,
+    1407
+   ],
+   "object": "XY13",
+   "points_from": "model XY13-luosi-pailou",
+   "prior": {
+    "lat": 40.012197,
+    "lon": 116.308341,
+    "err": 15.0,
+    "bearing": 83.0,
+    "eye": 4.0,
+    "eye_sd": 3.0,
+    "f2400": 1250.0,
+    "f_sd": 0.25,
+    "kind": "plate",
+    "basis": "D=f/s with f=1250 px of plates 1-2. West of the arches, looking east through them to the water. Key plan only. Anchor: footprints box or row."
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "position": [
+      976.38,
+      8.5,
+      -839.01
+     ],
+     "yaw_deg": 80.92,
+     "pitch_deg": -0.11,
+     "f_px": 1299.7,
+     "du_px": 15.5,
+     "dv_px": -48.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 6.97,
+     "moved_from_prior_m": 6.0,
+     "points": {
+      "n": 41,
+      "rms_px": 17.1,
+      "median_px": 12.1,
+      "max_px": 36.2,
+      "rms_m": 0.41,
+      "median_m": 0.28,
+      "max_m": 0.89
+     },
+     "tests": {
+      "n": 33,
+      "rms_px": 18.7,
+      "median_px": 13.9,
+      "max_px": 36.2,
+      "rms_m": 0.45,
+      "median_m": 0.32,
+      "max_m": 0.89
+     },
+     "sure12": {
+      "n": 35,
+      "rms_px": 18.1,
+      "median_px": 12.1,
+      "max_px": 36.2,
+      "rms_m": 0.43,
+      "median_m": 0.28,
+      "max_m": 0.89
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "all": {
+     "position": [
+      953.87,
+      9.33,
+      -836.74
+     ],
+     "yaw_deg": 80.49,
+     "pitch_deg": -3.76,
+     "f_px": 2357.4,
+     "du_px": -59.3,
+     "dv_px": 55.6,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 4.23,
+     "moved_from_prior_m": 16.9,
+     "points": {
+      "n": 41,
+      "rms_px": 8.3,
+      "median_px": 5.6,
+      "max_px": 20.7,
+      "rms_m": 0.19,
+      "median_m": 0.13,
+      "max_m": 0.46
+     },
+     "tests": {
+      "n": 33,
+      "rms_px": 8.1,
+      "median_px": 5.6,
+      "max_px": 20.7,
+      "rms_m": 0.18,
+      "median_m": 0.13,
+      "max_m": 0.46
+     },
+     "sure12": {
+      "n": 35,
+      "rms_px": 8.6,
+      "median_px": 5.9,
+      "max_px": 20.7,
+      "rms_m": 0.19,
+      "median_m": 0.14,
+      "max_m": 0.46
+     },
+     "skipped": {
+      "n": 0
+     }
+    },
+    "stretch": {
+     "position": [
+      953.26,
+      8.83,
+      -836.81
+     ],
+     "yaw_deg": 80.43,
+     "pitch_deg": -3.53,
+     "f_px": 2376.7,
+     "du_px": -69.3,
+     "dv_px": 70.6,
+     "k_vertical": 1.007,
+     "eye_above_ground_m": 3.88,
+     "moved_from_prior_m": 17.5,
+     "points": {
+      "n": 41,
+      "rms_px": 8.2,
+      "median_px": 6.0,
+      "max_px": 21.3,
+      "rms_m": 0.18,
+      "median_m": 0.14,
+      "max_m": 0.47
+     },
+     "tests": {
+      "n": 33,
+      "rms_px": 8.0,
+      "median_px": 5.4,
+      "max_px": 21.3,
+      "rms_m": 0.18,
+      "median_m": 0.12,
+      "max_m": 0.47
+     },
+     "sure12": {
+      "n": 35,
+      "rms_px": 8.4,
+      "median_px": 6.0,
+      "max_px": 21.3,
+      "rms_m": 0.19,
+      "median_m": 0.14,
+      "max_m": 0.47
+     },
+     "skipped": {
+      "n": 0
+     }
+    }
+   }
+  }
+ }
+}

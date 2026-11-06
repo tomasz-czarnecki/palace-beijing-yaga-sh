@@ -159,15 +159,20 @@ Nothing to read on the ground: the place is a car park on today's imagery (S850)
 - **Q63. The strip's length (Round 6).** Through the georeference, from the plan's west wall to the far wall of 线法墙: 804-806 m (817 by a rough sum from 谐奇趣's axis). Stated: 860 m (S149, S108), 855 m (S604). So about 6% short, while spans inside the strip hold ratio 1 to surveyed sizes. Either the stated figure runs to wa
 - **Q64. The plan's scale and turn in this strip (Round 6).** Buildings and pools hold ratio about 1 to surveyed sizes at the local ground scale (0.99 for buildings, n=5; 0.98 for spaces, n=7), so the METHOD's "buildings at another scale" does not hold here, and rows sized by the hall scale run about 15% large. Exception
 - **Q73. The east end (Round 6).** 线法墙: 5 a side (S02), 6 (S01), 7 (S361, S06), 11 in all (Lei plan, S310 extract), 5 ± 1 on plate 20. Our six, as drawn. 螺蛳牌楼: 22.9 m on plate 19, 34-49 m for the plan's figure, no check. 线法山: 42 m at the outer ring on the plan; 6500 m² (S310 extract) would be 91 m across, so that figure 
+- **Q313. 线法墙's stage depth on plate 20. (Round 30)** S01 puts 方河's end about 10 m before the first pair of flats; Round 10's water W0024 ends 14 m before them. Plate 20 draws the two gates close behind the bank's coping, and the whole plate fits one camera at 1.51 m rms (0.99 m with its heights stretched 1.29 times), ea
+- **Q314. 线法墙's two gates on plate 20. (Round 30)** The left (north) gate is drawn 350 px wide with its cornice 382 px over its foot, the right (south) one 300 px wide with its cornice 382 px over its foot: 17% apart in proportion, and the right one 25 px lower on the sheet, though S01 places them 1.3 m apart in depth an
 
 ## Wishlist
 
 | 样式雷 谐奇趣 sheet no. 985 with over 120 dimensions (S108, S310), 东水车房 样094-4, 线法墙地样, 黄花阵地基图样 样337-146 | The first absolute sizes for 谐奇趣; the first modelling target's biggest guesses (Q72) | 《国家图书馆藏样式雷图档·圆明园卷》 初编 and 续编; 故宫博物院图书馆 for 985, 986 | Library, or S108's authors |
 | Old photographs of 螺蛳牌楼, 线法山门, 线法墙, 蓄水楼, 远瀛观 north, 谐奇趣 west end, 海晏堂 east; Moore's 29 negatives (Royal BC Museum MS-3171, J-00426 etc.); Gamble (Duke); Morrison (Harvard) | Sides with no old photograph | Holders' sites refused automated access (Q33) | A browser |
 | Malone's plates pp.72, 99, 140 as jp2 at IA; 《国立北平图书馆馆刊》 1933 圆明园专号 (线法墙地样) | Q4, Q36: the flap at 九洲清晏 | IA; NLC | Download pages; find a scan |
+| Round 30: the Lei plan 线法墙地样 (E0993, E2415; S603 p.124 note 11: 圆明园资料集 1984 p.83) with its marked dimensions and laid-down elevations | 线法墙's number of flats (Q16, Q73), their spacing and heights, the stage's depth before 方河 (Q313), whether the gates were masonry or painted (Q314); today the flats' outlines and relief are all C | 国家图书馆善本部; 圆明园资料集 (1984) | Find a scan of the 1984 book or the 1933 北平图书馆馆刊 圆明园专号 |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+Round 30: a detailed model of the whole stage (`models/XY15-xianfa-qiang/README.md`): plate 20's two rusticated gates on the first pair of flats (each fits its own camera at 0.23 and 0.36 m; the plate draws them 17% apart in proportion, Q314), five more pairs of flats on S01's boxes cut to painted houses (assumed: the paintings are lost), the back wall, six steps down to 方河 on the axis (plate 20; five in the first count), the east shore of 方河 a stone quay. The whole plate fits one camera only at 1.51 m: it draws the stage shallower than the plan (Q313).

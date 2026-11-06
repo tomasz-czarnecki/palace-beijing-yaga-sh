@@ -1,0 +1,174 @@
+{
+ "id": "XY13",
+ "frame": "x south along the west front (to the right seen from the west), y up from the ground at the gate's box, z west (out of the front); the origin at the west front's middle; metres",
+ "params": {
+  "w": {
+   "value": 22.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the frontage: plate 19, x 693-1705, on the dossier's module (the arch taken as 3 m, weak); S01's figure spans 34-49 m and is ornamental (Q73)"
+  },
+  "d": {
+   "value": 3.0,
+   "source": "S01",
+   "grade": "C",
+   "note": "the depth: the box's guess (Round 6); the towers over the side bays are drawn square on plate 19, 3.05 m across their cornices, so a depth of about 3 m carries them"
+  },
+  "col_out": {
+   "value": 8.67,
+   "source": "S71",
+   "grade": "C",
+   "note": "the outer columns' middles from the axis: plate 19, x 805 and 1572"
+  },
+  "col_in": {
+   "value": 3.39,
+   "source": "S71",
+   "grade": "C",
+   "note": "the inner columns' middles, either side of the arch: plate 19, x 1036 and 1336"
+  },
+  "col_r": {
+   "value": 0.3,
+   "source": "S71",
+   "grade": "C",
+   "note": "the columns' radius: plate 19, the shafts 25-28 px"
+  },
+  "col_h": {
+   "value": 5.2,
+   "source": "S71",
+   "grade": "C",
+   "note": "the columns to their capitals' tops: plate 19, y 785 (dossier 5.4 m)"
+  },
+  "plinth": {
+   "value": 0.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the columns' bases on their plinths: plate 19, y 990-1015"
+  },
+  "arch_w": {
+   "value": 2.82,
+   "source": "S71",
+   "grade": "C",
+   "note": "the arch's opening: plate 19, x 1128-1252 (the dossier's module took it as 3 m)"
+  },
+  "arch_top": {
+   "value": 5.77,
+   "source": "S71",
+   "grade": "C",
+   "note": "the arch's crown: plate 19, y 760; a half circle, the springing at 4.3 m"
+  },
+  "door_w": {
+   "value": 1.25,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' openings: plate 19, 55 px inside the frames (frames 2.0 m)"
+  },
+  "door_x": {
+   "value": 6.29,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' middles: plate 19, x 920 and 1472 about the axis at x 1191"
+  },
+  "door_h": {
+   "value": 3.55,
+   "source": "S71",
+   "grade": "C",
+   "note": "the side doors' heads: plate 19, y 857, square-headed in moulded frames"
+  },
+  "door_crest": {
+   "value": 5.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the shell over each door, its top: plate 19, y 772"
+  },
+  "cornice_out": {
+   "value": 6.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cornice's top over the outer columns: plate 19, y 708-712 (dossier 6.8 m)"
+  },
+  "cornice_in": {
+   "value": 6.6,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cornice's top over the inner columns: plate 19, y 722-725, lower than over the outer ones: the cornice is wavy"
+  },
+  "cornice_dip": {
+   "value": 0.15,
+   "source": "S71",
+   "grade": "C",
+   "note": "how far the cornice sags between the inner and the outer columns, under the towers: plate 19 hides it behind the towers' bases; assumed"
+  },
+  "cornice_c": {
+   "value": 7.36,
+   "source": "S71",
+   "grade": "C",
+   "note": "the cornice's top on the axis, where it rises in a curve over the arch: plate 19, y 690"
+  },
+  "attic_top": {
+   "value": 8.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the attic over the centre with its broken scroll pediment and fluted frieze: plate 19, x 1105-1268, its top y 640"
+  },
+  "attic_w": {
+   "value": 3.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the attic's width at its upper cornice: plate 19, x 1105-1268"
+  },
+  "trophy_c": {
+   "value": 10.7,
+   "source": "S71",
+   "grade": "C",
+   "note": "the trophy group over the centre: plate 19, top y 543 (dossier 11.0 m)"
+  },
+  "trophy_in": {
+   "value": 8.5,
+   "source": "S71",
+   "grade": "C",
+   "note": "the trophies over the inner columns: plate 19, top y 640"
+  },
+  "trophy_out": {
+   "value": 8.8,
+   "source": "S71",
+   "grade": "C",
+   "note": "the trophies with round shields over the outer columns: plate 19, top y 625"
+  },
+  "tower_w": {
+   "value": 3.05,
+   "source": "S71",
+   "grade": "C",
+   "note": "the towers' width at their cornice: plate 19, x 852-990"
+  },
+  "tower_base": {
+   "value": 7.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the towers' bodies from the main cornice: plate 19, y 700"
+  },
+  "tower_cornice": {
+   "value": 9.1,
+   "source": "S71",
+   "grade": "C",
+   "note": "the towers' flared cornices: plate 19, y 612-615"
+  },
+  "tower_cap": {
+   "value": 10.65,
+   "source": "S71",
+   "grade": "C",
+   "note": "the concave pyramidal caps to the lanterns' plates: plate 19, y 545-548"
+  },
+  "tower_top": {
+   "value": 12.0,
+   "source": "S71",
+   "grade": "C",
+   "note": "the urn finials' tips: plate 19, y 483 (dossier 12.3 m)"
+  },
+  "end_top": {
+   "value": 7.9,
+   "source": "S71",
+   "grade": "C",
+   "note": "the finials at the ends: plate 19, y 664-668"
+  }
+ }
+}
