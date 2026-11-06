@@ -3981,6 +3981,225 @@
     "n": 4
    },
    "ways": []
+  },
+  "YM46": {
+   "folder": "YM46-wenyuan-ge",
+   "figures": 20,
+   "grades": {
+    "A": 1,
+    "B": 14,
+    "C": 5
+   },
+   "materials": 59,
+   "primitives": 59,
+   "extent_m": [
+    49.8,
+    17.4,
+    76.1
+   ],
+   "triangles": 21204,
+   "fill_triangles": 3418,
+   "glb_mb": 0.8,
+   "glb_gz_mb": 0.25,
+   "joints": [
+    {
+     "name": "wall0_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall0_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall1_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall1_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall2_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall2_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall3_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall3_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall4_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall4_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall5_0",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "wall5_1",
+     "kind": "wall foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_0",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_4",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_8",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_12",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_16",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_20",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_24",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_28",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_32",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_36",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_40",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_44",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_48",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "pool_52",
+     "kind": "pool face foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "lf_terrace_0",
+     "kind": "terrace foot",
+     "gap_m": -0.17
+    },
+    {
+     "name": "lf_terrace_5",
+     "kind": "terrace foot",
+     "gap_m": -0.27
+    },
+    {
+     "name": "lf_terrace_10",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "lf_terrace_15",
+     "kind": "terrace foot",
+     "gap_m": -0.22
+    },
+    {
+     "name": "yuetai_2",
+     "kind": "terrace foot",
+     "gap_m": -0.15
+    },
+    {
+     "name": "gate_S_front_+0.0_foot",
+     "kind": "flight foot",
+     "gap_m": -0.05
+    }
+   ],
+   "joint_gap_m": {
+    "max_above": -0.05,
+    "max_below": 0.27,
+    "n": 32
+   },
+   "ways": [
+    {
+     "way": "YMW-021",
+     "kind": "courtyard_path",
+     "at": "F0613:model lib_back",
+     "entry": "lib_back",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMW-020",
+     "kind": "courtyard_path",
+     "at": "F0613:model lib_back",
+     "entry": "lib_back",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    },
+    {
+     "way": "YMW-023",
+     "kind": "paved_way",
+     "at": "F0613:model gate_S_back_+0.0",
+     "entry": "gate_S_back_+0.0",
+     "plan_m": 0.01,
+     "height_m": 0.07,
+     "drawn_by_model": false,
+     "ok": true
+    }
+   ]
   }
  },
  "limits": {

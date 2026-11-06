@@ -156,17 +156,14 @@ None chosen yet.
 
 ## Dimension sheet
 
-Machine-readable: `dimensions.json`. Figures by method: a 7, b 7, c 0, d 0, e 1. a, a published survey, excavation report or measured drawing, or a Qing drawing or text that writes the figure; b, measured on the plan or a ruin footprint; c, read from a painting or woodcut by module; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it. Rows marked `run` were measured by `scripts/scenes_dossiers.py` on the traced layers. The Qing module: 1 营造尺 = 0.32 m.
+Machine-readable: `dimensions.json`. Figures by method: a 7, b 4, c 0, d 0, e 1. a, a published survey, excavation report or measured drawing, or a Qing drawing or text that writes the figure; b, measured on the plan or a ruin footprint; c, read from a painting or woodcut by module; d, estimated from a photograph with a known object; e, typology, or a figure with no survey behind it. Rows marked `run` were measured by `scripts/scenes_dossiers.py` on the traced layers. The Qing module: 1 营造尺 = 0.32 m.
 
 | Row | Part | What | Value | ± | Method | Grade | Source | Locator | Scale | Basis | Seen |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| YM46 | island I040 (文源阁) | Island area | 1500 m² | 200 | b | B | S01 | layers/islands_1860, UTM 50N, polygon area | UTM 50N | land enclosed by the water traced from S01 | run |
-| YM46 | island I040 (文源阁) | Island, short side | 35 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
-| YM46 | island I040 (文源阁) | Island, long side | 48 m | 10 | b | B | S01 | layers/islands_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 | land enclosed by the water traced from S01 | run |
 | YM46 | the scene's outline on the plan | Area | 3400 m² | 300 | b | C | S01 | layers/scenes_1860, UTM 50N, polygon area | UTM 50N | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM46 | the scene's outline on the plan | Extent, long side | 75 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
 | YM46 | the scene's outline on the plan | Extent, short side | 49 m | 10 | b | C | S01 | layers/scenes_1860, UTM 50N, minimum rotated rectangle | the georeferenced plan S01 (RMS 10.6 m, research/georef/) | the outline a plan reader drew round the island or court of the scene (Round 1); not a boundary known from a source | run |
-| YM46 | water inside the scene's outline | Water inside the outline | 360 m² | 40 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
+| YM46 | water inside the scene's outline | Water inside the outline | 350 m² | 30 | b | B | S01 | layers/water_1860 within layers/scenes_1860 | UTM 50N | the water traced from S01 inside the reader's outline | run |
 | YM46-01 | 文源阁 library, centre bay 明间 | Bay width | 5.12 m | 0.03 | a | B | S105 | section 3.3 and note [4], fig. 11 (光绪朝《圆明园慎修思永及文源阁丈尺册》) | 营造尺 0.32 m | 明间面宽一丈六尺 = 16 尺 = 5.12 m; the 丈尺册 is of the Guangxu reign, after 1860, so B, not A | viewed |
 | YM46-01 | 文源阁 library, four 次间 | Bay width | 4 m | 0.03 | a | B | S105 | note [4] | 营造尺 0.32 m | 四次间各面宽一丈二尺五寸 = 12.5 尺 = 4.00 m each | viewed |
 | YM46-01 | 文源阁 library, middle depth 中进深 | Depth middle | 7.68 m | 0.03 | a | B | S105 | note [4] | 营造尺 0.32 m | 中进深二丈四尺 = 7.68 m; 前后廊上步各深一丈一尺 = 3.52 m each; total 46 尺 = 14.72 m | viewed |
@@ -189,7 +186,7 @@ Not written yet.
 - **Q84. YM46-01 文源阁.** YM46-01 文源阁: the model. The 文源阁记 (S05 j81:36b-37a, E2194) says the plan copies 天一阁 of the Fan family in Ningbo 'down to the bays and the sizes of beams and columns'; the 1776 poem (j81:37b, E2186) says 文津阁 was built first and 文源 'imitates 文津' (此即肖文津), with a 月台 and piled rocks like it. So for the 
 - **Q96. Hérisson (S246 pp.320-324) describes a yellow-tiled 'Bibliothèque impériale' 40 x 10 x 12 .** Hérisson (S246 pp.320-324) describes a yellow-tiled 'Bibliothèque impériale' 40 x 10 x 12 m, a porcelain pagoda 8 x 6 m on a rock hill, a copy of the Nanjing tower and a 20 m bronze Buddha. None can be tied safely to a 
 - **Q105. YM46 文源阁.** YM46 文源阁: the plan Tsinghua T0049 is dated 光绪二十四年 (1898) on mhymy 7842. If its 黄签 give bays and depths they describe the ruin or a post-1860 project; check against the 1774 text (S05) before any use. Was there a plan to rebuild 文源阁 in 1898? (plans worker, Round 7)
-- **Q110. YM46-03 碑亭.** YM46-03 碑亭: the Guangxu 丈尺册 (S105 note [2]) gives the stele pavilion platform as 1丈4尺 square = 4.48 m; our row reads 6.9 x 7.9 m off S01. Use 4.48 m for the platform (the roof may overhang, but not by 1.5-2 m a side). (digs worker, Round 7)
+- **Q110. YM46-03 碑亭.** YM46-03 碑亭: the Guangxu 丈尺册 (S105 note [2]) gives the stele pavilion platform as 1丈4尺 square = 4.48 m; our row reads 6.9 x 7.9 m off S01. Use 4.48 m for the platform (the roof may overhang, but not by 1.5-2 m a side). (digs worker, Round 7) Round 25: done in the model (models/YM46-wenyuan-ge/): th
 - **Q111. YM46-01 文源阁 roof.** YM46-01 文源阁 roof: S105 (sect. 3.4) records the dispute: 金勋 remembered a 歇山 roof and a late-Qing repair drawing 圆明园内文源阁图样 shows 歇山, while 郭黛姮's reconstruction uses 硬山 like 文津阁. Our row has 硬山. The 2024 dig (S133, S134) confirmed six bays and black glazed tiles but, in what we have read, not t
 - **Q122. Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is capt.** Commons File:Wenyuan_Pavilion.png (1910, from data.zjda.gov.cn, Zhejiang Archives) is captioned 'Wenyuan Pavilion' but shows an intact two-storey library with a Taihu rock in front; 文源阁 YM46 burned in October 1860, so 
 - **Q125. Geotagged Commons coverage is thin.** Geotagged Commons coverage is thin: within 150 m of 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 平湖秋月 YM31, 曲院风荷 YM39 and 坐石临流 YM38 there is no geotagged file; exact-phrase searches for 文源阁, 舍卫城, 同乐园, 澹泊宁静, 勤政亲贤, 圆明园大宫门 and 坐石临流 return no modern photo of the sites (only P0197/P0198 for 舍
@@ -204,9 +201,25 @@ Not written yet.
 | Free modern photos of 文源阁 YM46 (the 2024 dig and the 石玲峰 base), 舍卫城 YM45, 同乐园 YM44, 山高水长 YM15, 澹泊宁静 YM20, 勤政亲贤 YM02, 大宫门 YM41, 武陵春色 YM14 | no picture of the present ground for these scenes | the site, or Commons uploads after 2024 | Ask Tomasz or a visitor to photograph each site with a person in frame, geotagged, and upload CC BY-SA; or the park office's own release |
 | Free modern photos of 万方安和 YM13 (the swastika platform in the water, beyond P0381), 蓬岛瑶台 YM32 from the 福海 shore, 同乐园 YM44, 文源阁 YM46, 舍卫城 YM45, 山高水长 YM15, 勤政亲贤 YM02, 大宫门 YM41, 武陵春色 YM14 | the empty or single-picture 'today' slots of these scenes | Flickr (needs an API key: Openverse indexes only part of it), Panoramio archive on Commons (exhausted by two workers), the park's own photo pages (rights unclear) | Flickr API search with license=4,5,9,10 and bbox around each scene; or a site visit |
 | Old photographs (1900-1940) of the Chinese scenes outside the Xiyang Lou: 正觉寺, 舍卫城, 文源阁 and 石玲峰, 福海 and its islands, 大宫门, 绮春园宫门, 含经堂, in Sidney Gamble (Duke), Hedda Morrison (Harvard-Yenching) and C. F. Moore (Royal BC Museum) | Round 7 found no new old photograph of any Yuanming Yuan scene outside the Xiyang Lou; every candidate on Commons was catalogued already | repository.duke.edu/dc/gamble; hollis.harvard.edu; Royal BC Museum MS-3171 | A person in a browser: the three refuse automated access (Q33, Q62); not tried again this round, as the brief asked |
+| Round 25: the 2024 文源阁 dig's report (北京市考古研究院) with its measured plan and sections; the full Guangxu 丈尺册 《圆明园慎修思永及文源阁丈尺册》 (S105 note [4]) | The model's biggest guess: every height of 文源阁 (taken from 文渊阁's photograph, Q287), the roof form (Q111), the pool's and the 月台's sizes (Q291) | 北京市考古研究院; the 丈尺册 where S105's authors read it | Watch for the brief; ask S105's authors |
 
 <!-- generated:end -->
 
 ## Notes
 
 <!-- Yours: regeneration never touches this part. -->
+
+### Round 25: the detailed model
+
+`models/YM46-wenyuan-ge/` draws the whole court (README there: the evidence, the match check, the iteration log). In short:
+
+- **Layout (B):** S01 re-read on 4x-6x crops (`models/YM46-wenyuan-ge/plan_readings.csv`). The library's grid is 23.5 x 14.3 m on the plan against 22.72 x 14.72 m in the 丈尺册. The 明间 is the third cell from the west, in line with both gates; the 月台 is S01's rectangle before the library.
+- **Heights (C):** measured on the sister 文渊阁's south front (P0555) in this library's bays (`models/YM46-wenyuan-ge/measure.py`):
+  - columns 2.51 m, the skirt roof's drip 3.34 m;
+  - the upper windows 5.08-6.15 m, the top eave's drip 7.26 m above the floor;
+  - the ridge 13.1 m above the court.
+
+  The fit of P0555 to the finished model is 0.20 m rms at the object over 13 points (`plate_fit.csv`; the viewpoint is virtual, `photo_viewpoints.csv`). It tests the proportion against the sister, not this library's own heights (Q287).
+- **Kept against other readings:** the roof 硬山 (Q111), 玲峰 4.10 m (Q288), the stele pavilion's platform 4.48 m (Q110).
+- **The water round the court:** the ring between the wall and the double lines is land since Round 25 (W0047 removed, Q289); the pool is Round 10's W0230.
+- **Not found:** the brief's 'pool of 15 by 7 zhang' is in no source the repo holds (Q291).

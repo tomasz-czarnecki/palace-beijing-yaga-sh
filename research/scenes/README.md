@@ -44,7 +44,7 @@ Halls: rows inside it; own: with a picture or text of their own. Pictures: tied 
 | YM32 | 蓬岛瑶台 Pengdao Yaotai | 1 | 11 | 8 | 12 (10) | 7 | 31 (0) | 0 | 2 (2) | 7 | 0 | 0 | 0 | 6 | 52.1 | yes | [YM32-pengdao-yaotai](YM32-pengdao-yaotai/README.md) |
 | YM54 | 福海 Fu Hai | 1 | 0 | 0 | 5 (5) | 2 | 40 (0) | 0 | 1 (1) | 3 | 0 | 0 | 0 | 2 | 24.0 |  | [YM54-fu-hai](YM54-fu-hai/README.md) |
 | YM29 | 方壶胜境 Fanghu Shengjing | 1 | 25 | 8 | 12 (10) | 7 | 22 (3) | 0 | 0 | 4 | 1 (1) | 0 | 0 | 6 | 47.2 | yes | [YM29-fanghu-shengjing](YM29-fanghu-shengjing/README.md) |
-| YM46 | 文源阁 Wenyuan Ge | 1 | 6 | 4 | 0 (0) | 0 | 35 (4) | 1 | 7 (7) | 7 | 0 | 0 | 1 (1) | 6 | 39.5 |  | [YM46-wenyuan-ge](YM46-wenyuan-ge/README.md) |
+| YM46 | 文源阁 Wenyuan Ge | 1 | 6 | 4 | 0 (0) | 0 | 35 (4) | 1 | 7 (7) | 4 | 0 | 0 | 1 (1) | 6 | 39.5 |  | [YM46-wenyuan-ge](YM46-wenyuan-ge/README.md) |
 | YM45 | 舍卫城 Shewei Cheng | 1 | 38 | 7 | 3 (1) | 1 | 29 (0) | 0 | 2 (2) | 3 | 0 | 0 | 1 (1) | 4 | 21.9 |  | [YM45-shewei-cheng](YM45-shewei-cheng/README.md) |
 | YM44 | 同乐园 Tongle Yuan | 1 | 23 | 8 | 1 (1) | 0 | 39 (5) | 0 | 19 (19) | 3 | 0 | 0 | 1 (1) | 5 | 58.9 | yes | [YM44-tongle-yuan](YM44-tongle-yuan/README.md) |
 | YM15 | 山高水长 Shangao Shuichang | 1 | 10 | 2 | 6 (6) | 4 | 31 (4) | 0 | 1 (1) | 3 | 0 | 0 | 0 | 6 | 39.1 |  | [YM15-shangao-shuichang](YM15-shangao-shuichang/README.md) |
@@ -119,7 +119,7 @@ Halls: rows inside it; own: with a picture or text of their own. Pictures: tied 
 | QC19 | 四宜书屋 (绮春) Siyi Shuwu (Qichun) | 4 | 15 | 0 | 1 (1) | 0 | 18 (2) | 1 | 5 (5) | 4 | 0 | 0 | 0 | 2 | 23.8 |  | [QC19-siyi-shuwu-qichun](QC19-siyi-shuwu-qichun/README.md) |
 | QC06 | 凤麟洲 Fenglin Zhou | 4 | 2 | 0 | 4 (4) | 0 | 31 (0) | 1 | 2 (2) | 7 | 0 | 0 | 0 | 2 | 25.1 |  | [QC06-fenglin-zhou](QC06-fenglin-zhou/README.md) |
 
-Dossiers: 81, public pages 10. Figures in all: 588 (a 192, b 384, c 3, d 0, e 9); from research 206 (a 192, b 2, c 3, d 0, e 9), measured here on the layers 382. Halls with evidence of their own: 529 of 1174.
+Dossiers: 81, public pages 10. Figures in all: 585 (a 192, b 381, c 3, d 0, e 9); from research 206 (a 192, b 2, c 3, d 0, e 9), measured here on the layers 379. Halls with evidence of their own: 529 of 1174.
 
 ## Typology check
 

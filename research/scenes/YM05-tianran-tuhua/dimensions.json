@@ -43,7 +43,7 @@
   },
   {
    "id": "YM05",
-   "part": "island I064 (天然图画)",
+   "part": "island I063 (天然图画)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 110.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM05",
-   "part": "island I064 (天然图画)",
+   "part": "island I063 (天然图画)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 144.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM05",
-   "part": "island I064 (天然图画)",
+   "part": "island I063 (天然图画)",
    "what": "island_area",
    "label": "Island area",
    "value": 13600.0,

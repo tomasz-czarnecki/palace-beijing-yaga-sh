@@ -804,9 +804,14 @@ def water_layers(comp, bname, hill_rects) -> None:
     water_polys = []
     idn = Counter()
     prefix = {"water": "W", "island": "I", "hill": "H", "field": "FD"}
+    # Round 25: traced water a later reading found to be land (research/plan/water_removed.json): dropped, its number kept taken so that the ids after it do not move
+    removed = {r["region_id"] for r in json.loads((PLAN / "water_removed.json").read_text(encoding="utf-8"))} if (PLAN / "water_removed.json").exists() else set()
     for rid, c in sorted(cls.items()):
         k = c["class"]
         if k not in prefix or rid not in regs:
+            continue
+        if k == "water" and rid in removed:
+            idn["water"] += 1
             continue
         reg = regs[rid]
         outer = reg["polygon"]

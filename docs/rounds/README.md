@@ -31,6 +31,7 @@ One entry per round: each was one `claude -p` run from a brief. The briefs are b
 | `palace_r18_jiuzhou` | not recorded | 2026-11-06, from 06:57 | about 2 h | - | see its result row | see the git log | done |
 | `palace_r19_zhengda` | not recorded | 2026-11-06, from 07:51 | about 1 h 30 min | - | see its result row | see the git log | done |
 | `palace_r20_surroundings` | not recorded | 2026-11-06, from 09:02 | about 1 h 40 min | - | see its result row | see the git log | done |
+| `palace_r25_wenyuan` | not recorded | 2026-11-06, from 16:41 | see its log | - | see its result row | see the git log | done |
 
 ## palace_home
 
@@ -833,3 +834,72 @@ Brief: `palace_r24_fanghu.md`. 方壶胜境 YM29, the tenth detailed model and t
   - Every height is C until 样042-2 is seen.
   - The ruin photographs were not fitted (Q283).
   - Lotus covers the inlet. Round 12 places it from the 1742 poem (荷瓣漂红霞一湖, E1841), while the leaf of 1744 shows clear water before the terraces.
+
+## palace_r25_wenyuan
+
+Brief: `palace_r25_wenyuan.md`. 文源阁 YM46, the eleventh detailed model and the fifth of a Chinese compound: the library of the Four Treasuries in its walled rock garden, `models/YM46-wenyuan-ge/`.
+
+**What it delivered:**
+- **The evidence:** no picture of 文源阁 standing or of its ruin is known (Q122, Q125); the dossier's eleven pictures are its sisters and comparables. The model rests on:
+  - S01, re-read on 4x-6x crops (`models/YM46-wenyuan-ge/plan_readings.csv`);
+  - the Guangxu 丈尺册's bays and depths quoted by S105 (B);
+  - the texts of S05 (A), Malone (B), the dig of 2024 (S133, S134, S942: B);
+  - the sisters' photographs (twins: form and proportion only).
+- **The library:**
+  - six bays from the west, 1.60 + 4.00 + 4.00 + 5.12 + 4.00 + 4.00 = 22.72 m, by 3.52 + 7.68 + 3.52 = 14.72 m; S01's grid 23.53 x 14.28 m;
+  - the 明间 third from the west, in line with both gates;
+  - galleries front and back, the doors and windows at the inner columns, a skirt roof 腰檐 front and back between grey brick gable walls carried forward as end piers;
+  - the upper storey over the whole depth with short windows, the plaque;
+  - 硬山 in black glaze with green trim, the ridges green with white wave crests (Malone);
+  - dark green columns (S105), red frames, green lattice and rails (the sisters).
+- **Its storeys, measured on a sister:** `models/YM46-wenyuan-ge/measure.py` fits a camera jointly with five heights on 文渊阁's south front (P0555), in 文源阁's bays, the drips and window frames as lines. Results above the floor (a twin's proportion, C; Q287):
+  - columns 2.51 m, the skirt roof's drip 3.34 m;
+  - the upper windows 5.08-6.15 m, the top eave's drip 7.26 m;
+  - the ridge 13.1 m above the court.
+
+  The class had guessed 1.3-1.7 times more.
+- **The court:**
+  - a deck 0.10 m above the library's ground (the dig: the yard raised); the terrace 月台 on the pool (S01; the poem's 月臺);
+  - the pool (W0230) sunk 1.6 m with rock banks; 玲峰, 4.10 m, pierced, on its oval stone terrace in the water (Malone; Q288);
+  - the stele pavilion on the 丈尺册's 4.48 m platform with the stele inside (Q110);
+  - 274 blocks of rockery on S01's outlines; 趣亭 on the south rockery (C, Q290); two standing stones and two pedestals (S01's circles and squares, C); a small pond in the north-east corner (the dig, C);
+  - the rubble wall (the dig), the three-bay south gate, the north gate.
+- **The water round the court:** Round 1 had classed the ring between the wall and the double lines round the court as water (W0047, an automatic wash call, C). S01 draws the south gate opening on it and a gap in the double line in line with the gate, so the ring is land now:
+  - `research/plan/water_removed.json`, read by `scripts/build_r1.py`, keeps the number W0047 taken so that no other id moves (Q289);
+  - the forecourt is `clear`, so no generated hill stands before the gate.
+- **The planting's 玲峰:** the model's `models/YM46-wenyuan-ge/joints.json` lists `rockeries` (YM46). `scripts/greens1860.py` places no rockery of Round 12 there (GR-083 was a generated standing rock on land) and keeps its number taken.
+- **Tools:** `Site.ROCKERIES` (`scripts/model_site.py`); the generator's `library()`, `window2()`, `lump()` (rocks with irregular tops), `rock_mass()`, `standing_rock()`.
+
+**Numbers:**
+- **check_models:** YM46 21,204 triangles (3,418 fill), GLB 0.80 MB, 0.25 MB compressed; 32 ground joints, none above the ground, deepest 0.27 m in; 3 ways at its boxes, 0 off. Joints on the decks: 11 at 0.00 m.
+- **Fit:**
+  - `models/YM46-wenyuan-ge/measure.py` on P0555: 8 points and 16 line readings, 5.0 px rms (max 15.2);
+  - `tools/plate_overlay.py fit` on P0555 from a virtual viewpoint: 13 true points, 0.20 m rms at the object (14.9 px; median 0.18 m, max 0.36 m at the plaque's bottom). The line readings are `skip` there (0.33-0.41 m off as points).
+- **The plan:** the axis (明间, both gates, 玲峰) reads over 0.54 m; the 明间 is 0.35 m from S01's middle cell.
+- **Ground and water:**
+  - water features 367 to 366, bodies 189 to 188, islands 64 to 63 (I040, 文源阁's court, went; the islands after it moved up one);
+  - free-land hills 411 to 410, 107.27 to 107.53 ha (the layer measured in UTM).
+- **Planting:** 41,431 to 41,399 plants (assumed 6,247 to 6,236), rockeries 86 to 85, one drawn by the model.
+- **Kit:** forms from a model 82 to 86 boxes (F0276, F0277, F0612, F0613); YM46-04 柳浪闻莺, outside the wall, stays the kit's.
+- **Paths:** lines crossing a box, wall or water 87 (A or B 28), as at the round's start. The first version's 趣亭 pad across YMW-022 was found by `tools/check_paths.py` and moved.
+- **Cost:** the overview draws 1.537 M triangles at a 512 ms median frame in software WebGL (`check_kit.py --browser`, port 9113). The site grows by 0.79 MB.
+
+**Checked:**
+- These pass: `tools/check_models.py`, `check_pages.py` (generator idempotent), `check_evidence.py`, `check_georef.py`, `check_paths.py`, `check_docs.py`, `check_ground.py`, `check_surroundings.py`, `check_kit.py --browser` (port 9113), `check_greens.py --browser` (port 9114).
+- Step 6 from `build_r1.py`, then three passes: the fourth changed no file of `site/`, `models/` or `research/` (md5).
+- Screenshots in `screenshots/r25/`, opened:
+  - before (the kit, from a copy of `site/` taken at the round's start) and after, from the same 18 cameras: aerial, front from the gate, the front across the pool, the rear, both sides, the rock, the stele pavilion, outside the south gate, the library's south-west corner, the overview, the 月台 at the pool, 玲峰, the wall's north-west foot outside, the south gate's threshold, the rear gallery, the east gable, 趣亭;
+  - `conf=1` and `assumed=0`; the panel of YM46 with "Our model now";
+  - the overlay of P0555 (blend, edges, side by side, the points).
+
+**Went wrong or left open:**
+- **The first heights** were the class's, 1.3-1.7 times the sister's. They were replaced by the measurement once the overlay showed it.
+- **Drip lines read as points** pulled the first fit (20.3 px rms, 0.27 m). They are lines, measured across in `models/YM46-wenyuan-ge/measure.py` and `skip` in the point fit (14.9 px, 0.20 m).
+- **The gate opened onto water** (W0047), and once the ring was land a generated hill rose before the gate. Both are fixed at their source (`water_removed.json`, the forecourt `clear`). The double lines themselves (ditches round the rice fields) are not traced as water (Q289).
+- **First looks:** the gallery's lattice rendered as a black beam; the rocks were tombstones; 玲峰 was a stack of boxes; 趣亭's 歇山 on a square plan broke (now a pyramid). All found on the shots and fixed.
+- **One close-up camera** stood at the floor's level inside the pool's outline and saw Round 10's ground under the floor; the court from above is whole. The camera was moved.
+- **The panel's Chinese characters render as boxes** in the headless Chrome of this server (no CJK font): the browser's, not the page's.
+- **Open:**
+  - Q287-Q291; Q110 done in the model, Q111 kept 硬山 with the reasons.
+  - Every height rests on a sister's proportion until the dig's report or the full 丈尺册 is seen.
+  - The brief's 'pool of 15 by 7 zhang' is in no source the repo holds (Q291).

@@ -59,6 +59,7 @@ class Site:
         self.KP, self.JOINTS, self.ENTRIES, self.FOOTPRINTS = {}, [], [], []
         self.DECKS = []  # Round 16: raised floors the model draws and people walk on (a terrace): [name, y, polygon (x, z)]
         self.CLEAR = []  # Round 17: areas the planting keeps off but the ways may cross (a paved court, a lawn): polygons (x, z); scripts/greens1860.py reads them
+        self.ROCKERIES = []  # Round 25: scene ids whose rockeries and standing rocks the model draws itself; scripts/greens1860.py places none for them
 
     # ---- frames
     def to_scene(self, p):
@@ -154,7 +155,8 @@ class Site:
                    "entries": [{"name": e[0], "scene": self.to_scene(e[1:4])} for e in self.ENTRIES],
                    "footprints": [[self.to_scene((x, 0.0, z))[::2] for x, z in fp] for fp in self.FOOTPRINTS],
                    **({"decks": [{"name": n, "y": self.to_scene((0.0, y, 0.0))[1], "poly": [self.to_scene((x, 0.0, z))[::2] for x, z in poly]} for n, y, poly in self.DECKS]} if self.DECKS else {}),
-                   **({"clear": [[self.to_scene((x, 0.0, z))[::2] for x, z in fp] for fp in self.CLEAR]} if self.CLEAR else {})},
+                   **({"clear": [[self.to_scene((x, 0.0, z))[::2] for x, z in fp] for fp in self.CLEAR]} if self.CLEAR else {}),
+                   **({"rockeries": sorted(self.ROCKERIES)} if self.ROCKERIES else {})},
                   open(here / "joints.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         json.dump(summary, open(here / "summary.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 

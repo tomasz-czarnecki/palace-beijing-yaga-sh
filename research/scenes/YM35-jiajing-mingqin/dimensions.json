@@ -43,7 +43,7 @@
   },
   {
    "id": "YM35",
-   "part": "island I050 (夹镜鸣琴)",
+   "part": "island I049 (夹镜鸣琴)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 27.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM35",
-   "part": "island I050 (夹镜鸣琴)",
+   "part": "island I049 (夹镜鸣琴)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 34.0,
@@ -107,7 +107,7 @@
   },
   {
    "id": "YM35",
-   "part": "island I050 (夹镜鸣琴)",
+   "part": "island I049 (夹镜鸣琴)",
    "what": "island_area",
    "label": "Island area",
    "value": 700.0,

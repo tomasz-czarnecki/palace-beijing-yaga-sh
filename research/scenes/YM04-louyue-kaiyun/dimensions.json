@@ -43,7 +43,7 @@
   },
   {
    "id": "YM04",
-   "part": "island I063 (镂月开云)",
+   "part": "island I062 (镂月开云)",
    "what": "island_d",
    "label": "Island, short side",
    "value": 98.0,
@@ -59,7 +59,7 @@
   },
   {
    "id": "YM04",
-   "part": "island I063 (镂月开云)",
+   "part": "island I062 (镂月开云)",
    "what": "island_w",
    "label": "Island, long side",
    "value": 114.0,
@@ -91,7 +91,7 @@
   },
   {
    "id": "YM04",
-   "part": "island I063 (镂月开云)",
+   "part": "island I062 (镂月开云)",
    "what": "island_area",
    "label": "Island area",
    "value": 8300.0,

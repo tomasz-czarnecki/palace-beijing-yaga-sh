@@ -1,0 +1,248 @@
+{
+ "halls": {
+  "lib": {
+   "frontage_m": 22.72,
+   "depth_m": 14.72,
+   "platform_m": [
+    24.72,
+    16.52,
+    0.75
+   ],
+   "column_m": 2.51,
+   "skirt_drip_m": 3.34,
+   "windows2_m": [
+    5.08,
+    6.15
+   ],
+   "eave_drip_m": 7.26,
+   "ridge_m": 12.33,
+   "ridge_above_court_m": 13.08,
+   "bays": [
+    1.6,
+    4.0,
+    4.0,
+    5.12,
+    4.0,
+    4.0
+   ],
+   "depths": [
+    3.52,
+    7.68,
+    3.52
+   ],
+   "x": -0.05,
+   "z": -7.73,
+   "floor_y": 0.85
+  },
+  "beiting": {
+   "platform_m": 4.48,
+   "plan_square_m": [
+    5.43,
+    5.55
+   ],
+   "eave_m": 3.87,
+   "finial_m": 6.62,
+   "x": 17.87,
+   "z": -9.38
+  },
+  "gate_S": {
+   "frontage_m": 11.64,
+   "depth_m": 5.4,
+   "bays": [
+    3.4,
+    3.84,
+    3.4
+   ],
+   "eave_m": 4.47,
+   "ridge_m": 6.35
+  },
+  "quting": {
+   "side_m": 3.2,
+   "floor_above_court_m": 2.6,
+   "ridge_above_court_m": 7.2,
+   "x": 3.63,
+   "z": 33.54
+  }
+ },
+ "deck_joints": [
+  [
+   "gate_N_in",
+   "court_1",
+   0.0
+  ],
+  [
+   "yt_W_foot",
+   "court_1",
+   0.0
+  ],
+  [
+   "yt_W_top",
+   "yuetai",
+   0.0
+  ],
+  [
+   "yt_E_foot",
+   "court_1",
+   0.0
+  ],
+  [
+   "yt_E_top",
+   "yuetai",
+   0.0
+  ],
+  [
+   "lib_front",
+   "yuetai",
+   0.0
+  ],
+  [
+   "lib_back",
+   "court_1",
+   0.0
+  ],
+  [
+   "bt_front",
+   "court_1",
+   0.0
+  ],
+  [
+   "gate_S_back_+0.0",
+   "court_0",
+   0.0
+  ],
+  [
+   "quting_stair_foot",
+   "court_0",
+   0.0
+  ],
+  [
+   "quting_stair_top",
+   "quting_pad",
+   0.0
+  ]
+ ],
+ "water_y": -1.49,
+ "water_m": 43.49,
+ "court_y": 0.1,
+ "pool_m2": 348.4,
+ "layout": {
+  "plan_lib_m": [
+   23.53,
+   14.28
+  ],
+  "lib_m": [
+   22.72,
+   14.72
+  ],
+  "ming_x_plan": 1.1,
+  "ming_x_model": 0.75,
+  "gate_S_x": 1.13,
+  "gate_N_x": 0.59,
+  "lingfeng_x": 0.68,
+  "court_m": [
+   48.07,
+   68.49
+  ]
+ },
+ "court_m2": 2880.3,
+ "lingfeng": {
+  "terrace_m": [
+   5.55,
+   5.03
+  ],
+  "terrace_top_above_water": 0.6,
+  "rock_m": 4.1,
+  "x": 0.68,
+  "z": 16.77,
+  "in_pool": true
+ },
+ "yuetai_m": [
+  25.05,
+  8.13
+ ],
+ "forecourt_m": 10.7,
+ "rocks": {
+  "north_W": {
+   "blocks": 20,
+   "area_m2": 54.1,
+   "h_m": [
+    0.8,
+    1.9
+   ]
+  },
+  "north_E": {
+   "blocks": 17,
+   "area_m2": 53.2,
+   "h_m": [
+    0.8,
+    1.9
+   ]
+  },
+  "NE": {
+   "blocks": 11,
+   "area_m2": 35.4,
+   "h_m": [
+    1.2,
+    2.6
+   ]
+  },
+  "west": {
+   "blocks": 60,
+   "area_m2": 160.1,
+   "h_m": [
+    0.7,
+    1.7
+   ]
+  },
+  "east": {
+   "blocks": 35,
+   "area_m2": 139.4,
+   "h_m": [
+    0.7,
+    1.7
+   ]
+  },
+  "SW": {
+   "blocks": 54,
+   "area_m2": 163.8,
+   "h_m": [
+    1.2,
+    2.8
+   ]
+  },
+  "SE": {
+   "blocks": 26,
+   "area_m2": 69.0,
+   "h_m": [
+    1.2,
+    2.6
+   ]
+  },
+  "pool_W": {
+   "blocks": 8,
+   "area_m2": 30.3,
+   "h_m": [
+    0.8,
+    1.8
+   ]
+  },
+  "SE_group": {
+   "blocks": 13,
+   "area_m2": 33.9,
+   "h_m": [
+    0.8,
+    2.0
+   ]
+  },
+  "south": {
+   "blocks": 30,
+   "area_m2": 73.6,
+   "h_m": [
+    1.8,
+    3.4000000000000004
+   ]
+  }
+ },
+ "rock_blocks": 274,
+ "triangles": 21204
+}

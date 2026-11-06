@@ -1,8 +1,8 @@
 osm_id,highway,name,length_m,over_water,through_box,near_way,on_shore,class
 osm-way-1023641189,footway,,44.5,0.0,0.11,0.0,0.0,undecided
 osm-way-1023641190,footway,,12.3,0.22,0.0,0.0,0.67,undecided
-osm-way-1023641468,service,,104.0,0.14,0.0,0.0,0.27,undecided
-osm-way-1023641469,service,,24.8,0.7,0.0,0.0,0.3,modern
+osm-way-1023641468,service,,104.0,0.14,0.0,0.0,0.26,undecided
+osm-way-1023641469,service,,24.8,0.0,0.0,0.0,0.0,undecided
 osm-way-1023641470,footway,,12.9,0.0,0.56,0.0,0.0,modern
 osm-way-1023641471,footway,,9.2,0.0,0.59,0.0,0.0,modern
 osm-way-1030031236,service,,143.1,0.0,0.32,0.0,0.0,modern
@@ -105,7 +105,7 @@ osm-way-1352930640,track,,28.2,0.46,0.0,0.0,0.41,modern
 osm-way-1352930641,footway,,10.0,1.0,0.0,0.0,0.0,modern
 osm-way-1352930643,track,,245.3,0.07,0.02,0.0,0.64,undecided
 osm-way-1352930645,footway,,24.2,0.0,0.0,0.0,0.0,undecided
-osm-way-1352930646,footway,,185.7,0.1,0.0,0.28,0.73,old_alignment_plausible
+osm-way-1352930646,footway,,185.7,0.02,0.0,0.04,0.34,undecided
 osm-way-1352930647,footway,,211.8,0.0,0.0,0.0,0.02,undecided
 osm-way-1352930648,footway,,58.8,0.0,0.0,0.0,0.0,undecided
 osm-way-1352930649,track,,76.0,0.47,0.23,0.0,0.23,modern
@@ -316,7 +316,7 @@ osm-way-584742781,footway,,4.4,0.0,0.18,0.0,1.0,old_alignment_plausible
 osm-way-584742782,footway,,17.0,0.0,0.0,0.0,0.0,undecided
 osm-way-584742783,footway,,10.0,0.0,0.0,0.0,0.95,old_alignment_plausible
 osm-way-584742784,service,,132.8,0.13,0.05,0.0,0.1,undecided
-osm-way-584742785,service,,158.9,0.0,0.03,0.0,0.21,undecided
+osm-way-584742785,service,,158.9,0.0,0.03,0.0,0.04,undecided
 osm-way-584742786,service,,149.7,0.0,0.0,0.0,0.0,undecided
 osm-way-584742788,footway,,310.7,0.0,0.16,0.03,0.0,undecided
 osm-way-584742789,footway,,176.9,0.18,0.0,0.0,0.42,undecided

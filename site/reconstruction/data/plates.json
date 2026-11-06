@@ -1723,6 +1723,31 @@
 "rms_px": 13.0
 }
 }
+},
+"P0555": {
+"object": "YM46",
+"plate": "",
+"image": "photos/P0555.jpg",
+"size": [
+1280,
+960
+],
+"fits": {
+"all": {
+"position": [
+-596.44,
+2.7,
+-579.85
+],
+"yaw_deg": 7.53,
+"pitch_deg": 24.67,
+"f_px": 1289.9,
+"du_px": -95.6,
+"dv_px": -264.5,
+"k_vertical": 1.0,
+"rms_px": 14.9
+}
+}
 }
 }
 }

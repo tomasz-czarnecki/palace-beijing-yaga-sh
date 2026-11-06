@@ -1,0 +1,30 @@
+plate,photo_id,object,point,x,y,sure,use,note
+,P0555,YM46,lib_colS2_foot,97,845,2,,"Round 25 reading on 2x crops of the 1280 px copy (p555_d): 文渊阁's (twin T056) front column west of the 明间's west neighbour, at the gallery floor; read in 文源阁's bays (models/YM46-wenyuan-ge/measure.py): column 2 from the west"
+,P0555,YM46,lib_colS2_top,97,632,2,,"the same column's top, under the beam 额枋"
+,P0555,YM46,lib_colS3_foot,420,842,2,,the 明间's west column at the floor (the plaque 文淵閣 hangs over the bay to its east: 585-660)
+,P0555,YM46,lib_colS3_top,420,637,2,,its top under the beam
+,P0555,YM46,lib_colS4_foot,829,840,2,,the 明间's east column at the floor
+,P0555,YM46,lib_colS4_top,829,642,2,,its top
+,P0555,YM46,lib_colS5_foot,1085,835,2,,"the next column east at the floor, behind the bridge's balusters"
+,P0555,YM46,lib_colS5_top,1085,647,2,,its top
+,P0555,YM46,lib_skS2,97,554,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line","the skirt roof's drip line (the drip tiles' lower edge) read at column 2's x: a line, measured across by measure.py; as a point it is good to a few px along the line"
+,P0555,YM46,lib_skS3,420,557,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the skirt's drip line at column 3's x
+,P0555,YM46,lib_skS4,829,568,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the skirt's drip line at column 4's x
+,P0555,YM46,lib_skS5,1085,574,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the skirt's drip line at column 5's x
+,P0555,YM46,lib_eaveS2,97,214,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the top eave's drip line at column 2's x (p555_a)
+,P0555,YM46,lib_eaveS3,420,241,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the top eave's drip line at column 3's x (p555_b)
+,P0555,YM46,lib_eaveS4,829,270,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the top eave's drip line at column 4's x
+,P0555,YM46,lib_eaveS5,1085,288,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the top eave's drip line at column 5's x (the overview crop)
+,P0555,YM46,lib_win2_sill_a,205,415,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line","the upper windows' lower frame, the bay west of column 3 (p555_a): a line"
+,P0555,YM46,lib_win2_sill_b,405,425,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the same line near column 3
+,P0555,YM46,lib_win2_sill_c,530,440,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the 明间's windows' lower frame (p555_b)
+,P0555,YM46,lib_win2_sill_d,700,445,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line","the same, east part of the 明间"
+,P0555,YM46,lib_win2_head_a,205,330,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line","the upper windows' upper frame, the bay west of column 3"
+,P0555,YM46,lib_win2_head_b,405,340,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the same near column 3
+,P0555,YM46,lib_win2_head_c,530,357,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line",the 明间's windows' upper frame
+,P0555,YM46,lib_win2_head_d,700,362,1,"skip: a line read at a column's x (or in a bay), measured across as a line by models/YM46-wenyuan-ge/measure.py; as a point it would be off along the line","the same, east part"
+,P0555,YM46,lib_ucolS2_top,157,315,1,,the upper storey column above column 2 at the beam (p555_a: the green post between the window groups)
+,P0555,YM46,lib_ucolS3_top,438,340,1,,the upper column above column 3 at the beam (p555_b)
+,P0555,YM46,lib_ucolS4_top,783,360,1,,the upper column above column 4 at the beam (p555_b)
+,P0555,YM46,lib_plaque_top,622,270,1,,"the plaque 文淵閣: the top of its frame, middle (p555_b)"
+,P0555,YM46,lib_plaque_bottom,622,360,1,,"the plaque: the bottom of its frame, middle"

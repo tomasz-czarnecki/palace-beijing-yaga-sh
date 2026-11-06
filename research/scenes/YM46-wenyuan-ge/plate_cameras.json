@@ -1,0 +1,87 @@
+{
+ "object": "YM46",
+ "label": "",
+ "points_from": "model YM46-wenyuan-ge",
+ "cameras": {
+  "P0555": {
+   "plate": "",
+   "image": "P0555.jpg",
+   "free": true,
+   "size": [
+    1280,
+    960
+   ],
+   "object": "YM46",
+   "points_from": "model YM46-wenyuan-ge",
+   "prior": {
+    "lat": 40.00965,
+    "lon": 116.289964,
+    "err": 10.0,
+    "bearing": 15.0,
+    "eye": 3.02,
+    "eye_sd": 1.5,
+    "f2400": 3805.9137628358553,
+    "f_sd": 0.3,
+    "kind": "photo",
+    "basis": "Round 25: a virtual viewpoint. P0555 is the south front of 文渊阁 in the Forbidden City (twin T056), not 文源阁: no picture of 文源阁 standing is known (Q122, Q125). The camera is placed before the model where models/YM46-wenyuan-ge/measure.py's camera stands (fitted on the same points in 文源阁's bays: 35 m south-south-west of the library's middle, 1.05 m above its floor, 31.6 degrees across), so that the fit tests the model's proportions against the sister's, never a place; the lens a weak prior"
+   },
+   "not_in_model": [],
+   "fits": {
+    "anchored": {
+     "skipped": "0 anchor points"
+    },
+    "all": {
+     "position": [
+      -596.44,
+      2.7,
+      -579.85
+     ],
+     "yaw_deg": 7.53,
+     "pitch_deg": 24.67,
+     "f_px": 1289.9,
+     "du_px": -95.6,
+     "dv_px": -264.5,
+     "k_vertical": 1.0,
+     "eye_above_ground_m": 4.18,
+     "moved_from_prior_m": 10.8,
+     "points": {
+      "n": 13,
+      "rms_px": 14.9,
+      "median_px": 14.5,
+      "max_px": 25.6,
+      "rms_m": 0.2,
+      "median_m": 0.18,
+      "max_m": 0.36
+     },
+     "tests": {
+      "n": 13,
+      "rms_px": 14.9,
+      "median_px": 14.5,
+      "max_px": 25.6,
+      "rms_m": 0.2,
+      "median_m": 0.18,
+      "max_m": 0.36
+     },
+     "sure12": {
+      "n": 13,
+      "rms_px": 14.9,
+      "median_px": 14.5,
+      "max_px": 25.6,
+      "rms_m": 0.2,
+      "median_m": 0.18,
+      "max_m": 0.36
+     },
+     "skipped": {
+      "n": 8,
+      "rms_px": 37.3,
+      "median_px": 34.3,
+      "max_px": 61.2,
+      "rms_m": 0.5,
+      "median_m": 0.48,
+      "max_m": 0.81
+     }
+    }
+   }
+  }
+ }
+}

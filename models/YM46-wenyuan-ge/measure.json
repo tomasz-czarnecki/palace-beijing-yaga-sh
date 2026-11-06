@@ -1,0 +1,81 @@
+{
+ "photo": "P0555",
+ "building": "文渊阁 (twin T056), read in 文源阁's bays (S105)",
+ "cases": [
+  {
+   "skirt_out_m": 1.5,
+   "eave_out_m": 1.0,
+   "heights_m": {
+    "col_top": 2.51,
+    "skirt_drip": 3.34,
+    "win2_sill": 5.08,
+    "win2_head": 6.15,
+    "eave_drip": 7.26
+   },
+   "camera": {
+    "C": [
+     -8.14,
+     1.05,
+     34.64
+    ],
+    "yaw_deg": 18.5,
+    "pitch_deg": 7.0,
+    "hfov_deg": 31.6
+   },
+   "rms_px": 5.01,
+   "max_px": 15.21,
+   "points": 8,
+   "line_readings": 16
+  },
+  {
+   "skirt_out_m": 1.0,
+   "eave_out_m": 1.0,
+   "heights_m": {
+    "col_top": 2.51,
+    "skirt_drip": 3.39,
+    "win2_sill": 5.08,
+    "win2_head": 6.15,
+    "eave_drip": 7.26
+   },
+   "camera": {
+    "C": [
+     -8.14,
+     1.05,
+     34.64
+    ],
+    "yaw_deg": 18.5,
+    "pitch_deg": 7.0,
+    "hfov_deg": 31.6
+   },
+   "rms_px": 5.01,
+   "max_px": 15.21,
+   "points": 8,
+   "line_readings": 16
+  },
+  {
+   "skirt_out_m": 2.0,
+   "eave_out_m": 1.5,
+   "heights_m": {
+    "col_top": 2.51,
+    "skirt_drip": 3.3,
+    "win2_sill": 5.08,
+    "win2_head": 6.15,
+    "eave_drip": 7.14
+   },
+   "camera": {
+    "C": [
+     -8.13,
+     1.05,
+     34.64
+    ],
+    "yaw_deg": 18.5,
+    "pitch_deg": 7.0,
+    "hfov_deg": 31.6
+   },
+   "rms_px": 5.01,
+   "max_px": 15.21,
+   "points": 8,
+   "line_readings": 16
+  }
+ ]
+}

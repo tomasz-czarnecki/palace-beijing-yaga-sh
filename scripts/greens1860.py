@@ -760,8 +760,17 @@ def main():
         kind = rock_kind(r["where"] + " " + r["what"], place)
         rock_groups[(r["scene_id"], kind, "")].append(("reading", r))
     rockeries = []
+    # Round 25: a detailed model that draws a scene's rockeries itself (models/<ID>-<slug>/joints.json `rockeries`): none placed there; the ids of the others keep their numbers
+    by_model = {}
+    for jp in sorted((ROOT / "models").glob("*/joints.json")):
+        jj = json.load(open(jp, encoding="utf-8"))
+        for sid in jj.get("rockeries", []):
+            by_model[sid] = jj.get("id", jp.parent.name)
     for (sid, kind, hall_id), items in sorted(rock_groups.items()):
         if sid.startswith("GARDEN"):
+            continue
+        if sid in by_model:
+            rockeries.append({"scene": sid, "kind": kind, "placed": False, "by_model": by_model[sid], "items": items})
             continue
         rng = np.random.default_rng(seed_of("rock", sid, kind, hall_id))
         first = next((x for t, x in items if t == "row"), None) or {"place_text": items[0][1]["where"], "quote": items[0][1]["what"], "note": ""}
@@ -785,7 +794,7 @@ def main():
         rockeries.append({"scene": sid, "kind": kind, "placed": True, "fp": fp, "base": base, "top": top_ground + h_above, "h_above": h_above, "sources": srcs,
                           "confidence": conf, "extent_confidence": "B" if leaf and kind != "hill" else "C", "items": items, "hall": hall[0]["building_id"] if hall else ""})
     site.freeze_rocks()
-    print(f"rockeries: {sum(r['placed'] for r in rockeries)} placed of {len(rockeries)} groups")
+    print(f"rockeries: {sum(r['placed'] for r in rockeries)} placed of {len(rockeries)} groups; {sum(bool(r.get('by_model')) for r in rockeries)} drawn by a model")
 
     # 2. the sourced areas
     planter = Planter(site)
@@ -1025,8 +1034,10 @@ def main():
     for i, a in enumerate([a for a in areas if a.get("props")]):
         pos_of[a["idx"]] = i
     rock_out = []
-    for k, r in enumerate([r for r in rockeries if r["placed"]]):
+    for k, r in enumerate([r for r in rockeries if r["placed"] or r.get("by_model")]):
         rid = f"GR-{k + 1:03d}"
+        if r.get("by_model"):
+            continue  # drawn by the model: its number stays taken, so the ids after it do not move
         r["id"] = rid
         item_ids = [x["id"] if t == "row" else x["reading"] for t, x in r["items"]]
         where = "; ".join(dict.fromkeys((x.get("place_text") or x.get("where") or "") for t, x in r["items"]))[:300]
@@ -1066,7 +1077,8 @@ def main():
            "areas": len(area_meta), "areas_by_kind": dict(Counter(f["properties"]["kind"] for f in feats)),
            "areas_sourced": sum(1 for a in area_meta if not a[6]), "areas_fill": sum(1 for a in area_meta if a[6]),
            "plants": len(kept), "by_form": dict(forms), "assumed_plants": int(sum(1 for p in kept if by_idx[p["area"]]["props"]["assumed"])),
-           "rockeries": len(rock_out), "rockeries_unplaced": [(r["scene"], r["kind"], len(r["items"])) for r in rockeries if not r["placed"]],
+           "rockeries": len(rock_out), "rockeries_unplaced": [(r["scene"], r["kind"], len(r["items"])) for r in rockeries if not r["placed"] and not r.get("by_model")],
+           "rockeries_by_model": [(r["scene"], r["kind"], r["by_model"]) for r in rockeries if r.get("by_model")],
            "areas_skipped": [(a["key"][0], a["key"][1], a["key"][3], a["skip"]) for a in areas if a.get("skip")],
            "areas_empty": [(a["key"][0], a["key"][1], a["key"][3]) for a in areas if a.get("geom") is not None and not a.get("placed") and not a.get("fill")],
            "files_mb": {"layer": round(PUB_LAYER.stat().st_size / 1e6, 2), "json": round(OUT_JSON.stat().st_size / 1e6, 2), "bin": round(OUT_BIN.stat().st_size / 1e6, 2)}}

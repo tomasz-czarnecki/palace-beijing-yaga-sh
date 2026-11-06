@@ -1,0 +1,126 @@
+{
+ "id": "YM46",
+ "frame": "origin at the front middle of the library's box F0276 at its ground; x east along the front, y up, z south (scripts/model_site.py)",
+ "params": {
+  "layout": {
+   "value": "the court's wall, the library, the terrace 月台, the pool and 玲峰's terrace, the stele pavilion, the rockeries, the two gates as S01 draws them",
+   "source": "S01",
+   "grade": "B",
+   "note": "S01 re-read in Round 25 on 4x and 6x crops (plan_readings.csv): every line in plan pixels; S01 is B until Q2; its scale here about 0.20 m a pixel across and 0.22 down"
+  },
+  "bays": {
+   "value": "six bays: from the west the stair bay 1.60 m, 4.00, 4.00, the 明间 5.12, 4.00, 4.00 m; 22.72 m between the end columns",
+   "source": "S105;S05;S01",
+   "grade": "B",
+   "note": "the Guangxu 丈尺册 (S105 note [4]): 明间面宽一丈六尺, 四次间各一丈二尺五寸, 西稍间五尺, 71 尺; after 1860, so B; S05 上下各六楹 (A); S01 draws five cells, the west one wide (the stair bay drawn with its neighbour), the 明间 third from the west and in line with both gates"
+  },
+  "depth": {
+   "value": "galleries front and back 3.52 m, the middle 7.68 m: 14.72 m between the front and back columns",
+   "source": "S105",
+   "grade": "B",
+   "note": "the 丈尺册: 中进深二丈四尺, 前后廊上步各深一丈一尺, 46 尺 (S105 note [4]); S01's grid 13.1 m deep, its gallery lines drawn"
+  },
+  "storeys": {
+   "value": "two storeys seen from outside, three inside (明二暗三): the ground storey with its galleries, a skirt roof 腰檐 front and back, the upper storey over the whole depth",
+   "source": "S05;S105;S422",
+   "grade": "B",
+   "note": "S05 上下各六楹 (A); S105: a lower floor with the study and the west stair, a mezzanine and a top floor of shelves (B); the sisters 文津阁 (P0551) and 文渊阁 (P0555) show the skirt roof and the upper storey over the galleries (twins, form only)"
+  },
+  "roof": {
+   "value": "a 硬山 roof, black glazed tile with green trim 剪边, the ridges green with white waves",
+   "source": "S133;S105;S02;E2186",
+   "grade": "B",
+   "note": "the dig: black glazed tiles (S133, S942's photo: black and green); S105: 硬山, black with green edging; Malone: fragments of glazed tile with waves in white and green (S02 p.90); 硬山 kept against 金勋's memory and a late-Qing sheet of 歇山 (Q111): the 1776 poem says the library copies 文津阁 (此即肖文津, E2186) and 文津阁 and 天一阁 are 硬山; the waves' form C"
+  },
+  "colours": {
+   "value": "dark green columns, red door and window frames, green gallery lattice and rails, grey brick gable walls, white plaster under the upper windows, blue-green beams",
+   "source": "S105;S422",
+   "grade": "B",
+   "note": "S105: grey brick walls and dark green columns (B); the red frames, the green lattice and rails and the plaster band after the sisters' photographs (P0551, P0555: twins, C)"
+  },
+  "heights": {
+   "value": "platform 0.75 m; above the floor: the ground storey's columns 2.51 m, the skirt roof's drip 3.34 m, the upper windows 5.08-6.15 m, the top eave's drip 7.26 m; the roof's rise 0.58 of its half depth",
+   "source": "S422;S105;S101",
+   "grade": "C",
+   "note": "no figure for a height of 文源阁 has been seen (the dig's report is not out, the 丈尺册 as quoted gives none: Q287); measured on the sister 文渊阁's south front (P0555, twin T056) in 文源阁's bays by a camera fitted jointly with the heights (models/YM46-wenyuan-ge/measure.py: rms 5.0 px; its side bay against its 明间 0.78 on the picture, 文源阁's 0.78), a twin's proportion; the platform and the roof's rise the storeyed hall class and the Qing manual's 举架 (S101)"
+  },
+  "plaque": {
+   "value": "the plaque 文源閣 under the upper eave of the 明间",
+   "source": "S05",
+   "grade": "A",
+   "note": "S05 j81:36a: 閣額 ... 御書 (A); the board's size and place C"
+  },
+  "yuetai": {
+   "value": "the terrace 月台 before the library, 0.45 m above the court, its south edge the pool's bank, flights at its ends",
+   "source": "S01;S05",
+   "grade": "B",
+   "note": "S01's rectangle joined to the library's front (B); the 1776 poem 亦復有月臺 (S05 j81:37b, A); the dig's terrace (S133); its height and flights C"
+  },
+  "pool": {
+   "value": "the pool before the library: Round 10's water W0230 (348 m2), its banks of rock and its face up to the court",
+   "source": "S01;S02;S134",
+   "grade": "B",
+   "note": "S01 draws the pool with rock banks (B); Malone: a pool before the library with water-worn rock round it (S02 pp.89-90); the dig: one pond south of the hall, tied by culverts to the river outside (S134, S942); the brief's 15 by 7 zhang is in no source we hold"
+  },
+  "lingfeng": {
+   "value": "玲峰: a pierced standing rock 4.1 m high on an oval stone terrace 0.6 m above the water in the pool, with Qianlong's poem cut on its face",
+   "source": "S05;S02;S134",
+   "grade": "B",
+   "note": "S05 j81:36b 閣前石為玲峯刋御製文源閣詩 (A); Malone: 'a huge monolith with inscriptions on it and pierced with many holes, rising 12 or 15 feet from a stone terrace in the middle of the pool' (S02 pp.89-90: 3.7-4.6 m, B); S105 'over 6 m' (Q288); the dig: its base of long slabs tied with iron dovetails (S134); the terrace S01's oval; the rock's form C"
+  },
+  "beiting": {
+   "value": "the stele pavilion east of the library: a 4.48 m square platform, four columns, a pyramid roof; inside the stele of the 文源阁记",
+   "source": "S05;S105;S01;S02",
+   "grade": "B",
+   "note": "S05 j81:36b 閣東亭内石碣刋御製文源閣記 (A); the platform 1丈4尺 square (S105 note [2], Q110); Malone saw the marble stele standing (S02 p.89); the pavilion's form and tile C"
+  },
+  "rockeries": {
+   "value": "rock banks inside the wall all round, masses in the corners, the large rockery between the pool and the south gate",
+   "source": "S01;S05;S133",
+   "grade": "B",
+   "note": "S01 draws them (B); the 1776 poem: strange stones heaped into peaks (詭石堆竒岫, S05 j81:37b, A); the dig: three culverts under the rockery behind the gate (S133); every rock's form and height C"
+  },
+  "quting": {
+   "value": "趣亭: a small square pavilion on the rockery's summit with a rock stair",
+   "source": "S133;S01",
+   "grade": "C",
+   "note": "the dig names a 趣亭 (S133) and S942 two pavilions; S01 draws a small circle on the rockery's summit; the sister 文津阁's pavilion on its rockery (P0550) gives the form (twin: C)"
+  },
+  "gate_S": {
+   "value": "the south gate: three bays astride the wall, the middle one the door",
+   "source": "S01;S133",
+   "grade": "B",
+   "note": "S01's three cells (B); the dig found the gate (S133); bays, heights and tile C"
+  },
+  "gate_N": {
+   "value": "the north gate: a door in the wall",
+   "source": "S01;S942",
+   "grade": "B",
+   "note": "S01's small arch on the north wall; the dig: a door south and north (S942); its form C"
+  },
+  "wall": {
+   "value": "the court's wall of 虎皮石 rubble, 3.0 m above the court, a tiled coping",
+   "source": "S01;S133",
+   "grade": "B",
+   "note": "S01's lines (B); the dig: walls of 虎皮石 rubble, not city brick (S133); height and coping C"
+  },
+  "court": {
+   "value": "the court's floor 0.1 m above the library's ground, raised above the land outside, earth with the flagstone paths of Round 9",
+   "source": "S942;S134",
+   "grade": "C",
+   "note": "the dig: the yard raised a little so storm water left by a wall drain, the ground inside higher than outside (S942, S134); paths of unworked flagstones (S942); its level C"
+  },
+  "pond_NE": {
+   "value": "a small pond among the rocks in the north-east corner",
+   "source": "S942;S133",
+   "grade": "C",
+   "note": "the dig: two ponds, one south of the hall and one in the north-east corner (S942) or east of the library (S133); S01 does not draw it; its place and size C"
+  },
+  "squares": {
+   "value": "two small stone pedestals west and east of the south rockery",
+   "source": "S01",
+   "grade": "C",
+   "note": "S01 draws two squares about 2.6 m; what they were is unknown: pedestals C"
+  }
+ }
+}
