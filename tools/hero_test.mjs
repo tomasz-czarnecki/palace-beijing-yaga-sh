@@ -83,11 +83,13 @@ try {
     // hover on the controls holds it
     await page.hover('.hero-dot >> nth=0');
     ok(`${tag}: hovering the controls holds the clock`, await page.evaluate(() => document.querySelector('.hero-full').hasAttribute('data-still')));
-    // the lightbox opens the 3840
-    await page.click('.hero-cap.is-on .hero-large');
-    const lb = await page.evaluate(() => ({ open: !!document.querySelector('dialog[open]'), src: document.querySelector('dialog.lb img')?.src.split('/').pop(), cap: document.querySelector('dialog.lb .lb-cap')?.textContent }));
-    ok(`${tag}: View large opens the 3840 in the lightbox, with the AI note`, lb.open && /-3840\.webp$/.test(lb.src) && /AI/.test(lb.cap), lb.src);
-    await page.keyboard.press('Escape');
+    // the lightbox opens the 3840 (the "View large" link was removed from the hero on Nov 6 at Tomasz's request: checked only if it is shown)
+    if (await page.isVisible('.hero-cap.is-on .hero-large')) {
+      await page.click('.hero-cap.is-on .hero-large');
+      const lb = await page.evaluate(() => ({ open: !!document.querySelector('dialog[open]'), src: document.querySelector('dialog.lb img')?.src.split('/').pop(), cap: document.querySelector('dialog.lb .lb-cap, dialog.lb figcaption')?.textContent || '' }));
+      ok(`${tag}: View large opens the 3840 in the lightbox, with the AI note`, lb.open && /-3840\.webp$/.test(lb.src) && /AI/.test(lb.cap), lb.src);
+      await page.keyboard.press('Escape');
+    }
     const sw = await page.evaluate(() => document.documentElement.scrollWidth);
     ok(`${tag}: no horizontal scroll at 1920`, sw <= 1920, String(sw));
     ok(`${tag}: no console errors or failed requests at 1920`, errors.length === 0, errors.slice(0, 4).join(' | '));
