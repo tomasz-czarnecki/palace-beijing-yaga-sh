@@ -13,6 +13,88 @@
   ],
   "groups": [
     {
+      "id": "new",
+      "posts": true,
+      "eyebrow": {
+        "en": "New in our model, Rounds 24 to 30",
+        "zh": "模型新增，第 24 至 30 轮"
+      },
+      "h2": {
+        "en": "The newest places, <span class=\"accent\">painted from our models.</span>",
+        "zh": "最新建模的地方，<span class=\"accent\">据模型而绘。</span>"
+      },
+      "rows": [
+        [
+          "home-np-fanghu"
+        ],
+        [
+          "home-np-fanghu-shore",
+          "home-np-zhengjue"
+        ],
+        [
+          "home-np-anyou"
+        ],
+        [
+          "home-np-anyou-hall",
+          "home-np-shizilin"
+        ],
+        [
+          "home-np-maze"
+        ],
+        [
+          "home-np-luosi"
+        ]
+      ]
+    },
+    {
+      "id": "light",
+      "posts": true,
+      "eyebrow": {
+        "en": "The whole gardens",
+        "zh": "全园"
+      },
+      "h2": {
+        "en": "The gardens from above, <span class=\"accent\">in every light.</span>",
+        "zh": "俯瞰全园，<span class=\"accent\">晨昏四时。</span>"
+      },
+      "rows": [
+        [
+          "home-ov-spring"
+        ],
+        [
+          "home-ov-autumn",
+          "home-fuhai-moon"
+        ],
+        [
+          "home-ov-lanterns"
+        ]
+      ]
+    },
+    {
+      "id": "xyl",
+      "posts": true,
+      "eyebrow": {
+        "en": "The European palaces",
+        "zh": "西洋楼"
+      },
+      "h2": {
+        "en": "Stone fronts <span class=\"accent\">and fountains.</span>",
+        "zh": "石砌立面，<span class=\"accent\">与喷泉。</span>"
+      },
+      "rows": [
+        [
+          "home-xyl-dusk"
+        ],
+        [
+          "home-dashuifa-above",
+          "home-dashuifa-spring"
+        ],
+        [
+          "home-xyl-strip"
+        ]
+      ]
+    },
+    {
       "id": "day",
       "eyebrow": {
         "en": "From our model",
@@ -95,7 +177,11 @@
     "XY10",
     "YM29",
     "YM46",
-    "QC11"
+    "QC11",
+    "YM17",
+    "XY04",
+    "CC13",
+    "XY13"
   ],
   "seals": [
     "YM41",
@@ -467,6 +553,345 @@
       "alt": {
         "en": "AI picture: a European-style stone palace seen from above in autumn, its double stair around a fountain basin, a long axis of fountains and pavilions behind among golden trees.",
         "zh": "AI 图像：秋天从高处俯瞰一座欧式石砌宫殿，双跑楼梯环抱喷泉水池，后面金黄的树林间是一条排列着喷泉和亭子的长轴线。"
+      }
+    },
+    "home-np-fanghu": {
+      "frame": "16:9",
+      "landmark": "YM29",
+      "open": "YM29",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">方壶胜境</span> Fanghu Shengjing on a spring morning",
+        "zh": "春晨的方壶胜境"
+      },
+      "text": {
+        "en": "The terraces of Fanghu Shengjing (YM29) over their inlet north-east of <span lang=\"zh-Hans\">福海</span> Fu Hai, from high above the water to the south. Our model of Round 24 sets nine two-storey towers in three ranges on the upper terrace, joined by galleries, with pavilions out on the water, after the album leaf of 1744 and the texts.",
+        "zh": "从南面高空隔水望福海东北的方壶胜境（YM29）。我们第 24 轮的模型在上层台上排了三排共九座两层楼阁，以游廊相连，水中还有亭子，依据 1744 年的画页和文献。"
+      },
+      "ai": {
+        "en": "The towers, terraces and pavilions stand where our model puts them, and their coloured roofs follow the leaf. The boats, the blossom, the villages and smoke beyond the wall and the far mountains are the AI's.",
+        "zh": "楼阁、台和亭子的位置依照我们的模型，彩色屋顶依照画页。船、花、墙外的村庄和炊烟以及远山都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: tiered halls with yellow, green and blue glazed roofs on a white terrace jutting into a lake, a small pavilion on a square platform in the water, boats with wakes, blossom and willows on the shores, a long red wall at the right and fields and hills beyond.",
+        "zh": "AI 图像：湖湾中伸出一座白石台，台上是层层殿阁，屋顶有黄、绿、蓝色琉璃，水中方台上有一座小亭，湖上有船，岸边是花和柳树，右边是一道长长的红墙，远处是田野和山。"
+      }
+    },
+    "home-np-fanghu-shore": {
+      "frame": "16:9",
+      "landmark": "YM29",
+      "open": "YM29",
+      "title": {
+        "en": "The towers of <span lang=\"zh-Hans\">方壶胜境</span> Fanghu Shengjing across the water, an autumn afternoon",
+        "zh": "秋日午后隔水望方壶胜境"
+      },
+      "text": {
+        "en": "At eye level about 70 m south of the terraces, looking north across the inlet: the pavilion <span lang=\"zh-Hans\">迎薰亭</span> Yingxun Ting on its square terrace with steps down to the water, the lower terrace and the towers behind (YM29). Every height in our model is a guess, grade C.",
+        "zh": "在台基南面约 70 米处平视，隔着水湾向北看：方台上的迎薰亭和通到水面的台阶，后面是下层台和楼阁（YM29）。我们模型中的高度都是推测，C 级。"
+      },
+      "ai": {
+        "en": "The terraces, the pavilion and the towers follow our model, and the leaf's yellow, purple-brown and blue tiles come through in the AI's roofs. The trees in front, the barge, the lotus and the visitors are its own.",
+        "zh": "台、亭子和楼阁依照我们的模型，画页上的黄、紫褐、蓝色琉璃在 AI 画的屋顶上也看得出来。前景的树、游船、荷叶和游人都是它画的。"
+      },
+      "alt": {
+        "en": "AI picture: framed by golden autumn trees, a pavilion with a yellow roof on a white marble platform in a lake, steps down to the water, a barge beside it, and behind it a long terrace with tiered halls under yellow, purple-brown and blue roofs.",
+        "zh": "AI 图像：金黄的秋树环绕着画面，湖中白石方台上有一座黄顶亭子，台阶通到水面，旁边停着游船，后面长长的台基上是层层殿阁，屋顶是黄、紫褐和蓝色。"
+      }
+    },
+    "home-np-zhengjue": {
+      "frame": "16:9",
+      "landmark": "QC11",
+      "open": "QC11",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">正觉寺</span> Zhengjue Si, a summer evening",
+        "zh": "夏日傍晚的正觉寺"
+      },
+      "text": {
+        "en": "The Tibetan Buddhist temple of <span lang=\"zh-Hans\">绮春园</span> Qichun Yuan (QC11), from high above its gate, looking north along its axis to the halls in their courts. It is the one group of the gardens that came through 1860 (S145); our model of Round 28 follows the plan S01 and what still stands.",
+        "zh": "从山门上空沿中轴向北俯瞰绮春园的藏传佛教寺院正觉寺（QC11）和各进院落中的殿宇。它是园中唯一保存过 1860 年的一组建筑（S145）；我们第 28 轮的模型依照平面图 S01 和现存的建筑。"
+      },
+      "ai": {
+        "en": "The wall, the courts and the halls' places follow our model. The road and carts outside the wall, the villages, the smoke and the far mountains are the AI's, and so are the shapes of the lakes on either side.",
+        "zh": "围墙、院落和殿宇的位置依照我们的模型。墙外的路和马车、村庄、炊烟和远山都是 AI 画的，两侧湖岸的形状也是。"
+      },
+      "alt": {
+        "en": "AI picture: a walled temple of red walls and grey and glazed roofs seen from high above in warm evening light, courts on an axis among willows, lakes with boats either side, a road with carts along the red outer wall in front and hills on the horizon.",
+        "zh": "AI 图像：傍晚暖光中从高空俯瞰一座红墙围合的寺院，灰瓦和琉璃屋顶，院落沿中轴排列，掩映在柳树中，两侧湖上有船，前面红色外墙边的路上有马车，地平线上是山。"
+      }
+    },
+    "home-np-anyou": {
+      "frame": "16:9",
+      "landmark": "YM17",
+      "open": "YM17",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">鸿慈永祜</span> Hongci Yonghu, the ancestral temple, an autumn morning",
+        "zh": "秋晨的鸿慈永祜"
+      },
+      "text": {
+        "en": "The precinct of the ancestral temple <span lang=\"zh-Hans\">安佑宫</span> Anyou Gong (YM17) in the north-west of <span lang=\"zh-Hans\">圆明园</span> Yuanming Yuan, from high above the south, looking north along its axis: the moats with their bridges, the gate and the great hall under its yellow roof. Our model of Round 27 follows the plan S01, the album leaf of 1744 and Malone's walk over the ruin.",
+        "zh": "从南面高空沿中轴向北俯瞰圆明园西北部的祖庙安佑宫（YM17）：护城河和桥、宫门以及黄瓦大殿。我们第 27 轮的模型依照平面图 S01、1744 年的画页和后人对遗址的记述。"
+      },
+      "ai": {
+        "en": "The walls, the moats, the gates and the halls follow our model; the yellow tile follows the leaf. The villages, the smoke, the carts on the road and the mountains are the AI's.",
+        "zh": "围墙、河道、门和殿宇依照我们的模型，黄琉璃瓦依照画页。村庄、炊烟、路上的车和远山都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a walled temple precinct with yellow and green glazed roofs seen from high above on a clear autumn morning, moats with white bridges and balustrades around it, autumn trees, lakes at the right and hills behind.",
+        "zh": "AI 图像：晴朗的秋日清晨从高空俯瞰一处围墙环绕的祖庙，屋顶是黄绿琉璃，四周河道上有白石桥和栏杆，秋树环绕，右边是湖，后面是山。"
+      }
+    },
+    "home-np-anyou-hall": {
+      "frame": "16:9",
+      "landmark": "YM17-06",
+      "open": "YM17",
+      "title": {
+        "en": "The gate of <span lang=\"zh-Hans\">安佑宫</span> Anyou Gong, an autumn morning",
+        "zh": "秋晨的安佑门"
+      },
+      "text": {
+        "en": "At eye level on the axis, looking north over the marble bridge of the inner moat (<span lang=\"zh-Hans\">白玉石桥</span>, YM17-07) to the gate <span lang=\"zh-Hans\">安佑门</span> Anyou Men (YM17-06) on its terrace, a side hall behind the red wall. Malone counted five bridges over each moat; our model draws them where the plan breaks the moats.",
+        "zh": "在中轴线上平视，越过内河上的白玉石桥（YM17-07）向北看台基上的安佑门（YM17-06），红墙后是配殿。据记载每道河上各有五座桥；我们的模型把它们画在平面图上河道断开的地方。"
+      },
+      "ai": {
+        "en": "The bridge, the gate and the wall follow our model loosely. The lions, the painted beams and the figures are the AI's.",
+        "zh": "桥、门和墙大致依照我们的模型。石狮、彩画和人物是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a gate hall with a yellow glazed roof and red columns on a white marble terrace with stone lions, red walls either side, a white marble bridge with carved balustrades over still water in front, a few figures in Qing dress, cypresses and morning haze.",
+        "zh": "AI 图像：白石台基上一座黄琉璃瓦、红柱的门殿，前有石狮，两侧是红墙，近处平静的水面上有一座雕栏白石桥，几个穿清代服饰的人，柏树和晨雾。"
+      }
+    },
+    "home-np-shizilin": {
+      "frame": "16:9",
+      "landmark": "CC13",
+      "open": "CC13",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">狮子林</span> Shizi Lin, the rockery garden, in late spring",
+        "zh": "暮春的狮子林"
+      },
+      "text": {
+        "en": "The rockery garden of 1772 in <span lang=\"zh-Hans\">长春园</span> Changchun Yuan (CC13), after the garden of the same name in Suzhou, from high above the south: the pool with its rock mountain and peaks, the halls round the courts. No picture of it standing is known; our model of Round 29 rests on the plan S01 and Qianlong's sixteen poems, which name each scene.",
+        "zh": "从南面高空俯瞰长春园中 1772 年仿苏州狮子林建成的叠石园林（CC13）：水池、石山和峰石，以及院落四周的殿宇。目前不知道有它完好时的图像；我们第 29 轮的模型依据平面图 S01 和乾隆的十六首诗，诗中写到每一景。"
+      },
+      "ai": {
+        "en": "The pool, the rockery and the halls' places follow our model. The European palaces at the back are drawn loosely, and the fields, the villages, the smoke and the hills are the AI's.",
+        "zh": "水池、石山和殿宇的位置依照我们的模型。后面的西洋楼画得很随意，田野、村庄、炊烟和山都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a garden of pale rockeries, ponds and grey-roofed halls with one green and yellow glazed hall, seen from high above in late spring, blossom and willows along canals, a lake behind and fields reaching to distant hills.",
+        "zh": "AI 图像：暮春时从高空俯瞰一座园林，浅色的叠石、水池和灰瓦殿宇中有一座黄绿琉璃顶的殿，河边是花和柳树，后面是湖，田野一直延伸到远山。"
+      }
+    },
+    "home-np-maze": {
+      "frame": "16:9",
+      "landmark": "XY04",
+      "open": "XY04",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">黄花阵</span> Huanghua Zhen, the maze, a summer afternoon",
+        "zh": "夏日午后的黄花阵"
+      },
+      "text": {
+        "en": "The maze of the European palaces (XY04), from high above the south: carved brick walls round a pavilion raised in the centre. Our model of Round 26 traces its 171 walls on the plan S01 and sets them in the block measured where today's rebuilt maze stands (S310).",
+        "zh": "从南面高空俯瞰西洋楼的迷宫黄花阵（XY04）：雕花砖墙环绕着中央高台上的亭子。我们第 26 轮的模型在平面图 S01 上描出 171 道墙，并按今天复建迷宫处测得的范围（S310）放置。"
+      },
+      "ai": {
+        "en": "The AI kept the walled block and a pavilion in the middle, but drew the walls as terraces and the pavilion as a Chinese tower: plate 5 of 1786 shows a domed European pavilion on a drum. The Chinese halls in front stand where <span lang=\"zh-Hans\">谐奇趣</span> Xieqiqu, a European palace, stood; the canal and the boats are its own too.",
+        "zh": "AI 保留了围合的方块和中间的亭子，但把墙画成了台阶状，把亭子画成了中式楼阁：1786 年的第五幅铜版画上是一座鼓座上的穹顶西式亭子。前面的中式殿宇所在的位置原本是西式宫殿谐奇趣，河道和船也是它画的。"
+      },
+      "alt": {
+        "en": "AI picture: a large maze of low stepped walls seen from above in summer, a tiered pavilion with a golden roof in the centre, grey-roofed halls in front, a yellow-roofed hall behind, a canal with boats at the right and fields to the horizon.",
+        "zh": "AI 图像：夏日从高处俯瞰一座由低矮阶状墙组成的大迷宫，中央是一座金顶的多层亭子，前面是灰瓦殿宇，后面有一座黄顶殿，右边河上有船，田野一直延伸到天边。"
+      }
+    },
+    "home-np-luosi": {
+      "frame": "16:9",
+      "landmark": "XY13",
+      "open": "XY13",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">螺蛳牌楼</span> Luosi Pailou, at the east end of the European palaces",
+        "zh": "西洋楼东端的螺蛳牌楼"
+      },
+      "text": {
+        "en": "At eye level beside the gate <span lang=\"zh-Hans\">螺蛳牌楼</span> Luosi Pailou (XY13), between the perspective hill and <span lang=\"zh-Hans\">方河</span> Fang He, a summer afternoon. Our model of Round 30 reads its arch, the carved vines on its piers and its two towers off plate 19 of 1786 (0.19 m rms over 41 points); its size rests on a weak module, grade C.",
+        "zh": "夏日午后，在螺蛳牌楼（XY13）旁平视，它位于线法山和方河之间。我们第 30 轮的模型依据 1786 年的第十九幅铜版画读出拱门、柱墩上的雕花藤蔓和两座塔楼（41 个点，均方根误差 0.19 米）；它的尺寸依据一个不太可靠的模数，C 级。"
+      },
+      "ai": {
+        "en": "The arch, the piers with their twisted vines and the two capped towers follow our model and the plate. The weathered grey of the stone, the pools around it and the two people are the AI's.",
+        "zh": "拱门、缠藤的柱墩和两座带顶的塔楼依照我们的模型和铜版画。石头的灰暗旧色、四周的水池和两个人物都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a carved stone gate in European style with a round arch, twisted columns wound with vines and two small towers with domed caps, standing on a paved walk between still pools, pines and willows around and two people walking towards it.",
+        "zh": "AI 图像：一座西式雕花石门，有半圆拱、缠着藤蔓的螺旋柱和两座圆顶小塔，立在两片静水之间的石板路上，四周是松树和柳树，两个人正向它走去。"
+      }
+    },
+    "home-ov-spring": {
+      "frame": "16:9",
+      "landmark": "YM32",
+      "open": null,
+      "reach": 1600,
+      "title": {
+        "en": "The gardens on a spring morning, in mist",
+        "zh": "春晨薄雾中的园林"
+      },
+      "text": {
+        "en": "From high above the south-west, looking north-east over the lakes and islands of <span lang=\"zh-Hans\">圆明园</span> Yuanming Yuan towards <span lang=\"zh-Hans\">福海</span> Fu Hai, the shores in blossom and mist lying on the water.",
+        "zh": "从西南面高空向东北俯瞰圆明园的湖泊和岛屿，一直望向福海，岸边花开，水面上浮着薄雾。"
+      },
+      "ai": {
+        "en": "Only the camera comes from our model. At this height the AI has redrawn the lakes, islands and halls freely, and the blossom, the boats, the villages and the hills are its own: take it as an impression, not a map.",
+        "zh": "只有视点来自我们的模型。在这样的高度，AI 自由地重画了湖、岛和殿宇，花、船、村庄和山都是它画的：请把它当作印象，而不是地图。"
+      },
+      "alt": {
+        "en": "AI picture: lakes and islands with yellow- and grey-roofed halls seen from high above at dawn in spring, pink blossom along the shores, mist on the water, villages with smoke and fields fading into haze and hills.",
+        "zh": "AI 图像：春天清晨从高空俯瞰湖泊和岛屿，黄顶和灰顶的殿宇，岸边是粉色的花，水面上有薄雾，村庄里升起炊烟，田野渐渐隐入雾和远山。"
+      }
+    },
+    "home-ov-autumn": {
+      "frame": "16:9",
+      "landmark": "YM32",
+      "open": null,
+      "reach": 1600,
+      "title": {
+        "en": "A grey autumn day over the gardens",
+        "zh": "阴沉秋日里的园林"
+      },
+      "text": {
+        "en": "From high above the west, looking east over the lakes and islands of <span lang=\"zh-Hans\">圆明园</span> Yuanming Yuan, with <span lang=\"zh-Hans\">福海</span> Fu Hai and its island hall at the top of the picture.",
+        "zh": "从西面高空向东俯瞰圆明园的湖泊和岛屿，画面上方是福海和湖心的殿宇。"
+      },
+      "ai": {
+        "en": "Only the camera comes from our model. The AI has redrawn the layout, put a European-style palace at the right where none stood (the European palaces lay to the north-east, at the left of this view) and added the villages and the smoke; the mountains on the horizon are invented too, for east of the gardens lies the plain.",
+        "zh": "只有视点来自我们的模型。AI 重画了布局，在右边画了一座本不存在的西式宫殿（西洋楼在东北，即画面的左边），还加了村庄和炊烟；地平线上的山也是想象的，因为园林东面是平原。"
+      },
+      "alt": {
+        "en": "AI picture: islands crowded with halls among red and gold autumn trees in a lake seen from high above under a grey sky, a large lake with an island hall beyond, a pale European-style palace at the right, villages and fields, hills on the horizon.",
+        "zh": "AI 图像：阴天从高空俯瞰湖中的岛屿，殿宇密布，掩映在红黄色的秋树中，远处一片大湖，湖心有殿，右边有一座浅色的西式宫殿，还有村庄和田野，地平线上有山。"
+      }
+    },
+    "home-ov-lanterns": {
+      "frame": "16:9",
+      "landmark": "YM32",
+      "open": null,
+      "reach": 1600,
+      "title": {
+        "en": "A night of lanterns over the gardens, imagined",
+        "zh": "想象中的园林灯夜"
+      },
+      "text": {
+        "en": "From high above the south-east under a full moon, looking north-west over <span lang=\"zh-Hans\">福海</span> Fu Hai and its island towards the Western Hills, lanterns along the shores and the walls. The night is imagined, not a recorded festival.",
+        "zh": "满月之下，从东南面高空向西北俯瞰福海和湖心岛，一直望到西山，岸边和墙上挂满灯笼。这是想象的夜景，不是记载中的某个节日。"
+      },
+      "ai": {
+        "en": "Only the camera comes from our model, and the hills do stand to the north-west. The lights, the fireworks, the boats and the layout are the AI's; in our 3D view the lanterns are a guess too, grade C.",
+        "zh": "只有视点来自我们的模型，西山确实在西北方。灯光、烟花、船和布局都是 AI 画的；在我们的三维视图里，灯笼也是推测，C 级。"
+      },
+      "alt": {
+        "en": "AI picture: the gardens seen from high above at night under a full moon, lines of warm lanterns along shores, walls and bridges, a square lake with a lit island in the middle, two small fireworks and dark hills on the horizon.",
+        "zh": "AI 图像：满月下从高空俯瞰夜色中的园林，岸边、墙上和桥上排着暖色的灯笼，一片方形的湖中间是灯火通明的小岛，远处有两朵小烟花，地平线上是黑色的山。"
+      }
+    },
+    "home-fuhai-moon": {
+      "frame": "16:9",
+      "landmark": "YM32",
+      "open": "YM54",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">福海</span> Fu Hai under a full moon, imagined",
+        "zh": "想象中的福海月夜"
+      },
+      "text": {
+        "en": "From the shore, a few metres up, looking north-west across the water towards <span lang=\"zh-Hans\">蓬岛瑶台</span> Pengdao Yaotai (YM32) on a night of lanterns. The night is imagined, not a recorded festival.",
+        "zh": "从岸边略高处向西北隔水望蓬岛瑶台（YM32），夜里挂满灯笼。这是想象的夜景，不是记载中的某个节日。"
+      },
+      "ai": {
+        "en": "Only the viewpoint comes from our model, and loosely. The hall on the near shore, the lanterns, the floating lights and the people are the AI's.",
+        "zh": "只有视点来自我们的模型，而且只是大致如此。近岸的殿宇、灯笼、水上的灯和人物都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a hall with red lanterns on a lake shore at night, a full moon and its reflection, floating lights and lotus leaves on the dark water, people walking along a lantern-lit embankment, pines and willows.",
+        "zh": "AI 图像：夜晚湖岸上一座挂着红灯笼的殿宇，一轮满月倒映在水中，黑色的水面上漂着灯和荷叶，人们沿着挂满灯笼的堤岸走着，四周是松树和柳树。"
+      }
+    },
+    "home-xyl-dusk": {
+      "frame": "16:9",
+      "landmark": "XY08",
+      "open": "XY08",
+      "title": {
+        "en": "The European palaces at dusk, late autumn",
+        "zh": "深秋黄昏中的西洋楼"
+      },
+      "text": {
+        "en": "From about 100 m above the west of <span lang=\"zh-Hans\">海晏堂</span> Haiyan Tang (XY08), looking east along the strip of the European palaces in the last light.",
+        "zh": "从海晏堂（XY08）西面约 100 米高处，在暮色中向东望西洋楼一带。"
+      },
+      "ai": {
+        "en": "Only the camera and the look of the stone fronts come from our model and the copperplates of 1786. The palace in the middle is the AI's blend of <span lang=\"zh-Hans\">海晏堂</span> Haiyan Tang and <span lang=\"zh-Hans\">远瀛观</span> Yuanying Guan, and the Chinese halls, the lake and the bridge round it are its own; the lanterns and the people are imagined.",
+        "zh": "只有视点和石砌立面的样子来自我们的模型和 1786 年的铜版画。中间的宫殿是 AI 把海晏堂和远瀛观混在一起画的，四周的中式殿宇、湖和桥也是它画的；灯笼和人物是想象的。"
+      },
+      "alt": {
+        "en": "AI picture: an ornate European-style stone palace with a clock gable and wide stairs seen from above at dusk, Chinese halls with glazed roofs in front, a moat with a round-arched bridge and lantern-lit boats at the right, autumn trees glowing under an orange sky.",
+        "zh": "AI 图像：黄昏时从高处看一座装饰繁复的欧式石砌宫殿，有钟面山花和宽大的台阶，前面是琉璃顶的中式殿宇，右边河上有圆拱桥和点灯的船，秋树在橙色的天空下闪着光。"
+      }
+    },
+    "home-dashuifa-above": {
+      "frame": "16:9",
+      "landmark": "XY10",
+      "open": "XY10",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">大水法</span> Da Shuifa, the Great Fountain, from above",
+        "zh": "俯瞰大水法"
+      },
+      "text": {
+        "en": "From about 110 m over the court, looking north-north-east across the basin and its jets to the niche of the Great Fountain (XY10), with the hall of <span lang=\"zh-Hans\">远瀛观</span> Yuanying Guan (XY09) on its terrace behind.",
+        "zh": "从广场上空约 110 米处向北偏东看，越过水池和喷泉望大水法（XY10）的石龛，后面是台上的远瀛观（XY09）。"
+      },
+      "ai": {
+        "en": "The basin, the niche and the stairs follow our model of Round 15 and plate 15, loosely. The parterres in front, the yellow-roofed Chinese hall at the right, the canal with its boats and the people with parasols are the AI's.",
+        "zh": "水池、石龛和台阶大致依照我们第 15 轮的模型和第十五幅铜版画。前面的花坛、右边的黄顶中式殿宇、河上的船和打伞的人都是 AI 画的。"
+      },
+      "alt": {
+        "en": "AI picture: a great fountain seen from above on a bright day, tall jets rising from a round basin before a carved stone niche, European-style palaces with green glazed roofs behind, clipped parterres in front, a yellow-roofed Chinese hall at the right and people with parasols.",
+        "zh": "AI 图像：晴天从高处俯瞰一座大型喷泉，圆形水池里水柱高喷，后面是雕花石龛，再后面是绿琉璃顶的欧式宫殿，前面是修剪整齐的花坛，右边是一座黄顶中式殿宇，还有打伞的人。"
+      }
+    },
+    "home-dashuifa-spring": {
+      "frame": "16:9",
+      "landmark": "XY10",
+      "open": "XY10",
+      "title": {
+        "en": "<span lang=\"zh-Hans\">大水法</span> Da Shuifa on a spring morning",
+        "zh": "春晨的大水法"
+      },
+      "text": {
+        "en": "At eye level in the court in front of the Great Fountain (XY10), looking north to the niche with its shell crest, the water steps and the basin with the stag and the hounds, blossom on either side.",
+        "zh": "在大水法（XY10）前的广场上平视，向北看顶上有贝壳的石龛、跌水台阶和有鹿与猎犬的水池，两侧花开。"
+      },
+      "ai": {
+        "en": "The niche, the steps and the basin follow our model and plate 15. The two towers of jets are missing and the AI has put clocks on the piers; the blossom, the men sweeping and the visitors are imagined.",
+        "zh": "石龛、台阶和水池依照我们的模型和第十五幅铜版画。两座喷水塔没有画出来，AI 还在柱墩上画了钟；花、扫地的人和游人都是想象的。"
+      },
+      "alt": {
+        "en": "AI picture: a carved stone fountain niche crowned by a great shell, water running down its steps into a basin where bronze animals spout jets, pink and white blossom trees either side, a few people in Qing dress and two sweepers.",
+        "zh": "AI 图像：雕花石龛顶上是一只大贝壳，水沿台阶流进水池，池中的青铜动物喷着水，两侧是粉色和白色的花树，有几个穿清代服饰的人和两个扫地的人。"
+      }
+    },
+    "home-xyl-strip": {
+      "frame": "16:9",
+      "landmark": "XY08",
+      "open": "XY08",
+      "title": {
+        "en": "The strip of the European palaces from the south",
+        "zh": "从南面俯瞰西洋楼"
+      },
+      "text": {
+        "en": "From about 250 m above the lakes of <span lang=\"zh-Hans\">长春园</span> Changchun Yuan, looking north across the narrow strip where the European palaces stood along the garden's north wall (XY01 to XY15).",
+        "zh": "从长春园湖面上空约 250 米处向北，望沿园北墙排开的狭长的西洋楼一带（XY01 至 XY15）。"
+      },
+      "ai": {
+        "en": "At this height the AI has redrawn the palaces and their fountains freely, so take it as an impression, not a map; the fields, the villages and the hills beyond the wall are its own.",
+        "zh": "在这样的高度，AI 自由地重画了这些宫殿和喷泉，请把它当作印象，而不是地图；墙外的田野、村庄和山都是它画的。"
+      },
+      "alt": {
+        "en": "AI picture: a broad view from high above of a lake with boats and bridges in front, wooded grounds with scattered halls, a row of pale European-style palaces with fountains and pools in the middle distance, and fields reaching to hills under a soft sky.",
+        "zh": "AI 图像：从高空远望，近处湖上有船和桥，林地中散布着殿宇，中景是一排浅色的欧式宫殿和喷泉水池，田野一直延伸到柔和天空下的远山。"
       }
     }
   }

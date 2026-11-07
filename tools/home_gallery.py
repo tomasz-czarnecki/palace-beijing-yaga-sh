@@ -12,6 +12,10 @@ day and above (the gallery's groups). The hero's headline and buttons are hand-w
 Hero pictures (Round 22b): assets/gallery/<file>-1280/-1920/-2560/-3840.webp (16:9) and -phone.webp (2:3 centre crop, max-width 700px).
 Slide 1 is in the page with srcset up to 2560 (first paint under about 600 KB); main.js adds the 3840 after load. Slides 2 on come
 out of <template>s, one ahead of the one shown.
+Gallery pictures: Round 22's are one assets/gallery/<slot>.webp each. Round 31's come in widths, <slot>-640/-1600/-2400.webp (srcset, lazy)
+and <slot>-1600.jpg (what the lightbox opens); a slot with all four takes them. A group with `posts: true` draws its one-picture rows
+edge to edge (.gv-post, the full-screen posts of the Küstrin gallery, the caption card over the picture's lower left). Every picture's
+lightbox carries its title, text and the AI line (data-lb-cap); main.js adds the AI label.
 After the Küstrin site's scripts/home_gallery.py (the locator, the hero's templates), redrawn for this site.
 
 The map: one <symbol id="gmap"> per page, drawn from our public layers only (site/reconstruction/data: walls_1860, water_1860
@@ -46,6 +50,7 @@ PAGES = {"en": (ROOT / "site/index.html", ""), "zh": (ROOT / "site/zh/index.html
 FIRST_PAINT = 600_000  # what the hero's first picture may weigh at the largest size the page offers it before load
 HERO_SIZES = (1280, 1920, 2560, 3840)
 HERO_W, HERO_H = 3840, 2160
+GALLERY_SIZES = (640, 1600, 2400)  # Round 31's gallery pictures: <vid>-<w>.webp, and <vid>-1600.jpg for the lightbox
 PHONE_W, PHONE_H = 1200, 1800
 
 MAP_PX = 150  # the map's width on the page the dot and the labels are sized for
@@ -357,18 +362,39 @@ def where(vid, lang, pre):
     )
 
 
-def card(vid, lang, pre, strip=False):
+def sized(vid):
+    """Round 31: a picture in several widths, <vid>-640/-1600/-2400.webp, and <vid>-1600.jpg for the lightbox. Round 22's are one <vid>.webp."""
+    return all((GAL / f"{vid}-{w}.webp").exists() for w in GALLERY_SIZES) and (GAL / f"{vid}-1600.jpg").exists()
+
+
+def lb_caption(vid, lang):
+    """The lightbox's line: the title, the text and what the AI added (main.js appends the AI label)."""
+    v = SPEC["views"][vid]
+    stop = ". " if lang == "en" else "。"
+    return f"{plain(v['title'][lang])}{stop}{plain(v['text'][lang])} {plain(v['ai'][lang])}"
+
+
+def card(vid, lang, pre, strip=False, sizes="100vw"):
     """A filled slot: the picture in its frame, the caption with what the AI added, the locator. Classes as Round 21's placeholder once filled, so its CSS and the lightbox hold."""
     w = WORDS[lang]
     v = SPEC["views"][vid]
-    im = Image.open(GAL / f"{vid}.webp")
     title = plain(v["title"][lang])
     alt = html.escape(v["alt"][lang], quote=True)
+    stem = f"{pre}assets/gallery/{vid}"
+    if sized(vid):
+        im = Image.open(GAL / f"{vid}-{GALLERY_SIZES[-1]}.webp")
+        big = f"{stem}-1600.jpg"
+        img = (f'<img src="{stem}-1600.webp" srcset="{srcset(stem, GALLERY_SIZES)}" sizes="{sizes}" width="{im.width}" height="{im.height}" '
+               f'loading="lazy" decoding="async" alt="{alt}">')
+    else:
+        im = Image.open(GAL / f"{vid}.webp")
+        big = f"{stem}.webp"
+        img = f'<img src="{stem}.webp" width="{im.width}" height="{im.height}" loading="lazy" decoding="async" alt="{alt}">'
     h = "h3"
     return (
         f'<figure class="ph ph-filled" data-slot="{vid}" data-aspect="{v["frame"]}" id="view-{vid}">'
-        f'<a class="gv-pic ph-link" href="{pre}assets/gallery/{vid}.webp" data-lb data-lb-ai aria-label="{w["enlarge"]}: {html.escape(title, quote=True)}">'
-        f'<span class="ph-frame"><img src="{pre}assets/gallery/{vid}.webp" width="{im.width}" height="{im.height}" loading="lazy" decoding="async" alt="{alt}">'
+        f'<a class="gv-pic ph-link" href="{big}" data-lb data-lb-ai data-lb-cap="{html.escape(lb_caption(vid, lang), quote=True)}" aria-label="{w["enlarge"]}: {html.escape(title, quote=True)}">'
+        f'<span class="ph-frame">{img}'
         f'<span class="pic-tag is-ai">{w["ai"]}</span></span></a>'
         f'<figcaption class="gv-cap"><{h}>{v["title"][lang]}</{h}><p>{v["text"][lang]}</p><p class="gv-ai">{v["ai"][lang]}</p>'
         f'{where(vid, lang, pre)}<span class="gv-label">{w["ai"]}</span></figcaption>'
@@ -394,25 +420,37 @@ def placeholder(slot, lang, strip=False):
     )
 
 
-def slot(vid, lang, pre, strip=False):
-    if vid in READY and vid in SPEC["views"] and (GAL / f"{vid}.webp").exists():
-        return card(vid, lang, pre, strip)
+def slot(vid, lang, pre, strip=False, sizes="100vw"):
+    if vid in READY and vid in SPEC["views"] and ((GAL / f"{vid}.webp").exists() or sized(vid)):
+        return card(vid, lang, pre, strip, sizes)
     return placeholder(vid, lang, strip)
 
 
+ROW_SIZES = {"wide": "(max-width: 900px) 100vw, 58vw", "narrow": "(max-width: 900px) 100vw, 42vw"}  # the 7fr and 5fr columns of a .gv-row, at most 1440 px
+
+
 def group_block(g, lang, pre):
+    """A group: its heading, then its rows. A `posts` group (Round 31) draws its one-picture rows edge to edge (.gv-post), the full-screen posts of the Küstrin gallery;
+    a row of two 16:9 pictures puts its wide column on the left, then on the right, in turn."""
     out = [f'<div class="views-head"><div class="eyebrow"><span class="eyebrow-bar"></span>{g["eyebrow"][lang]}</div><h2>{g["h2"][lang]}</h2></div>']
     if "strip" in g:
         cards = "\n".join(slot(v, lang, pre, strip=True) for v in g["strip"])
         out.append(f'<div class="scroll-strip"><div class="scroll-track" tabindex="0" role="region" aria-label="{g["strip_label"][lang]}">\n{cards}\n</div><p class="scroll-hint">{g["hint"][lang]}</p></div>')
+    pairs = 0
     for i, row in enumerate(g.get("rows", [])):
         if len(row) == 1:
-            out.append(f'<div class="gv gv-full reveal">{slot(row[0], lang, pre)}</div>')
+            post = " gv-post" if g.get("posts") else ""
+            out.append(f'<div class="gv gv-full{post} reveal">{slot(row[0], lang, pre)}</div>')
         else:
             # the row's narrow slot is the 4:5 one; its side alternates as in Round 21
             kinds = ["narrow" if SPEC["views"].get(v, {}).get("frame") == "4:5" else "wide" for v in row]
             cls = "gv-row gv-row-narrow" if kinds[0] == "narrow" else "gv-row"
-            out.append(f'<div class="{cls}">' + "".join(f'<div class="gv gv-{k} reveal">{slot(v, lang, pre)}</div>' for v, k in zip(row, kinds)) + "</div>")
+            cols = ["wide", "narrow"] if cls == "gv-row" else ["narrow", "wide"]  # the 7fr and 5fr columns, for each picture's `sizes`
+            if g.get("posts") and kinds == ["wide", "wide"]:
+                if pairs % 2:
+                    cls, cols = "gv-row gv-row-flip", ["narrow", "wide"]  # both stay 16:9, the wide column moves right
+                pairs += 1
+            out.append(f'<div class="{cls}">' + "".join(f'<div class="gv gv-{k} reveal">{slot(v, lang, pre, sizes=ROW_SIZES[c])}</div>' for v, k, c in zip(row, kinds, cols)) + "</div>")
     return "\n".join(out)
 
 
@@ -422,21 +460,31 @@ def fill(page, key, block):
     return re.sub(re.escape(start) + r".*?" + re.escape(end), lambda _: f"{start}\n{block}\n{end}", page, flags=re.S)
 
 
+def gallery_views():
+    """Every view the gallery shows, group by group: rows, then the strip."""
+    return [v for g in SPEC["groups"] for v in [x for r in g.get("rows", []) for x in r] + g.get("strip", [])]
+
+
 def check():
-    """Where each dot lands, against the landmark the picture says it shows."""
+    """Where each dot lands, against the landmark the picture says it shows. `off line` is how far the landmark stands from the
+    eye-to-target line (Round 31: the building a caption names should be within about 60 m of it), `inside` whether the dot is in a garden."""
     print(f"map viewBox {VIEW}; 1 SVG unit = 1 m; {SCALE:.1f} m per px at {MAP_PX} px wide")
-    print(f"{'view':28} {'eye (svg x, y)':>18} {'landmark':10} {'landmark (svg)':>18} {'dist m':>7} {'bearing':>7} {'to lm':>6}")
-    for vid in SPEC["hero"] + [v for g in SPEC["groups"] for r in g.get("rows", []) for v in r] + SPEC["groups"][1]["strip"]:
+    print(f"{'view':28} {'eye (svg x, y)':>18} {'landmark':10} {'landmark (svg)':>18} {'dist m':>7} {'bearing':>7} {'to lm':>6} {'off line':>8} inside")
+    gardens = unary_union(list(RINGS.values()))
+    for vid in SPEC["hero"] + gallery_views():
         if vid not in CAMS or vid not in SPEC["views"]:
             continue
         cam = CAMS[vid]
         ex, _, ez = cam["eye"]
+        tx, _, tz = cam["target"]
         lm = SPEC["views"][vid]["landmark"]
         lx, lz = place(lm)
         # the camera's own bearing against the one its eye and target give
-        b = bearing(cam["target"][0] - ex, cam["target"][2] - ez)
+        b = bearing(tx - ex, tz - ez)
         to_lm = bearing(lx - ex, lz - ez)
-        print(f"{vid:28} {ex:8.1f} {ez:8.1f}  {lm:10} {lx:8.1f} {lz:8.1f} {math.dist((ex, ez), (lx, lz)):7.0f} {cam['bearing_deg']:4.0f}/{b:3.0f} {to_lm:6.0f}  nearest {nearest(cam)[0]}")
+        off = LineString([(ex, ez), (ex + 3 * (tx - ex), ez + 3 * (tz - ez))]).distance(Point(lx, lz))  # the line runs on past the target
+        inside = "yes" if gardens.buffer(30).contains(Point(ex, ez)) else "no"
+        print(f"{vid:28} {ex:8.1f} {ez:8.1f}  {lm:10} {lx:8.1f} {lz:8.1f} {math.dist((ex, ez), (lx, lz)):7.0f} {cam['bearing_deg']:4.0f}/{b:3.0f} {to_lm:6.0f} {off:8.0f} {inside:6} nearest {nearest(cam)[0]}")
 
 
 def main():
@@ -468,7 +516,7 @@ def main():
                 done.append(key)
         path.write_text(page, encoding="utf-8")
         print(f"{path.name} ({lang}): wrote {', '.join(done)}")
-    print("hero", len(SPEC["hero"]), "slides; filled slots", sum(1 for g in SPEC["groups"] for r in g.get("rows", []) for v in r if v in READY) + sum(1 for v in SPEC["groups"][1]["strip"] if v in READY), "; map defs", len(base_map("en")), "bytes")
+    print("hero", len(SPEC["hero"]), "slides; filled slots", sum(1 for v in gallery_views() if v in READY), "; map defs", len(base_map("en")), "bytes")
     if "--check" in sys.argv:
         check()
 

@@ -471,6 +471,16 @@ a.gv-pic { cursor: zoom-in; }
 .ph.ph-filled .ph-frame { outline: 0; background: var(--surface); }
 .gv-full .ph .ph-frame { max-height: 88svh; }
 
+/* Round 31: full-screen posts, as in the Küstrin gallery. A post runs edge to edge and as tall as the screen allows; its caption card
+   overlaps the picture's lower left, lined up with the text column. Rows of two in these groups put the wide picture left, then right. */
+.gv-full.gv-post { max-width: none; padding: 0; }
+.gv-post .ph-frame { border-left: 0; border-right: 0; }
+.gv-post .ph .ph-frame { max-height: 92svh; }
+.gv-post .ph-filled .pic-tag { top: 16px; left: max(var(--gutter), calc((100% - var(--gallery-max)) / 2 + var(--gutter))); }
+.gv-post .gv-cap { width: min(720px, calc(100% - 2 * var(--gutter))); margin: -120px 0 0 max(var(--gutter), calc((100% - var(--gallery-max)) / 2 + var(--gutter))); box-shadow: 0 18px 40px -26px rgba(30, 24, 18, 0.5); }
+.gv-row-flip { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); }
+.gv-post + .gv-post { margin-top: clamp(64px, 8vw, 112px); }
+
 /* From above: a strip of tall views, scrolled sideways like a handscroll */
 .scroll-strip { max-width: var(--gallery-max); margin: 0 auto; padding: 0 var(--gutter); }
 .scroll-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 300px); gap: clamp(16px, 2vw, 28px); overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; padding: 6px 2px 18px; scrollbar-color: var(--line-strong) transparent; }
@@ -595,10 +605,12 @@ a.gv-pic { cursor: zoom-in; }
 
 @media (max-width: 860px) {
   .split, .intro .split { grid-template-columns: minmax(0, 1fr); }
-  .gv-row, .gv-row-narrow { grid-template-columns: minmax(0, 1fr); }
+  .gv-row, .gv-row-narrow, .gv-row-flip { grid-template-columns: minmax(0, 1fr); }
   .gv-row > * + * { margin-top: 40px; }
   .gv-narrow { max-width: 560px; }
   .gv-full .gv-cap { width: auto; margin: 12px 0 0; box-shadow: none; }
+  .gv-post .gv-cap { margin: 12px var(--gutter) 0; }
+  .gv-post .ph-filled .pic-tag { left: 12px; top: 12px; }
   .gv-full .pic-tag { bottom: 12px; }
   .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }

@@ -223,5 +223,245 @@
   "fov_vertical_deg": 60,
   "bearing_deg": 0,
   "height_above_ground_m": 800
+ },
+ "home-np-fanghu": {
+  "eye": [
+   291,
+   134.7,
+   -640.4
+  ],
+  "target": [
+   291,
+   0.8,
+   -790.4
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 0,
+  "height_above_ground_m": 135
+ },
+ "home-np-fanghu-shore": {
+  "eye": [
+   291,
+   3.8,
+   -720.4
+  ],
+  "target": [
+   291,
+   14.8,
+   -790.4
+  ],
+  "fov_vertical_deg": 62,
+  "bearing_deg": 0,
+  "height_above_ground_m": 4
+ },
+ "home-np-zhengjue": {
+  "eye": [
+   541.9,
+   132.1,
+   752.9
+  ],
+  "target": [
+   541.9,
+   1.9,
+   612.9
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 0,
+  "height_above_ground_m": 130
+ },
+ "home-np-anyou": {
+  "eye": [
+   -1135.5,
+   142.1,
+   -441.1
+  ],
+  "target": [
+   -1135.5,
+   1.8,
+   -601.1
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 0,
+  "height_above_ground_m": 140
+ },
+ "home-np-anyou-hall": {
+  "eye": [
+   -1135.5,
+   4.9,
+   -526.1
+  ],
+  "target": [
+   -1135.5,
+   11.8,
+   -601.1
+  ],
+  "fov_vertical_deg": 62,
+  "bearing_deg": 0,
+  "height_above_ground_m": 3
+ },
+ "home-np-shizilin": {
+  "eye": [
+   1141.3,
+   110.5,
+   -660.9
+  ],
+  "target": [
+   1141.3,
+   0.5,
+   -780.9
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 0,
+  "height_above_ground_m": 111
+ },
+ "home-np-maze": {
+  "eye": [
+   454.6,
+   105.7,
+   -718.6
+  ],
+  "target": [
+   454.6,
+   0.5,
+   -828.6
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 0,
+  "height_above_ground_m": 105
+ },
+ "home-np-luosi": {
+  "eye": [
+   994.1,
+   2.1,
+   -823.6
+  ],
+  "target": [
+   1006.1,
+   6,
+   -844.3
+  ],
+  "fov_vertical_deg": 62,
+  "bearing_deg": 30,
+  "height_above_ground_m": 2
+ },
+ "home-ov-spring": {
+  "eye": [
+   -910.7,
+   1103.6,
+   660.7
+  ],
+  "target": [
+   150,
+   3.6,
+   -400
+  ],
+  "fov_vertical_deg": 60,
+  "bearing_deg": 45,
+  "height_above_ground_m": 1101
+ },
+ "home-ov-autumn": {
+  "eye": [
+   -850,
+   1453.6,
+   -400
+  ],
+  "target": [
+   150,
+   3.6,
+   -400
+  ],
+  "fov_vertical_deg": 60,
+  "bearing_deg": 90,
+  "height_above_ground_m": 1452
+ },
+ "home-ov-lanterns": {
+  "eye": [
+   857.1,
+   1453.6,
+   307.1
+  ],
+  "target": [
+   150,
+   3.6,
+   -400
+  ],
+  "fov_vertical_deg": 60,
+  "bearing_deg": 315,
+  "height_above_ground_m": 1452
+ },
+ "home-fuhai-moon": {
+  "eye": [
+   218,
+   6.2,
+   -303.1
+  ],
+  "target": [
+   104.9,
+   5.2,
+   -416.3
+  ],
+  "fov_vertical_deg": 55,
+  "bearing_deg": 315,
+  "height_above_ground_m": 6
+ },
+ "home-xyl-dusk": {
+  "eye": [
+   561.8,
+   100.4,
+   -782.2
+  ],
+  "target": [
+   675,
+   -0.6,
+   -802.2
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 80,
+  "height_above_ground_m": 100
+ },
+ "home-dashuifa-above": {
+  "eye": [
+   792.7,
+   111,
+   -704.1
+  ],
+  "target": [
+   822.4,
+   -1.1,
+   -815.1
+  ],
+  "fov_vertical_deg": 58,
+  "bearing_deg": 15,
+  "height_above_ground_m": 110
+ },
+ "home-dashuifa-spring": {
+  "eye": [
+   829.5,
+   1.5,
+   -772.7
+  ],
+  "target": [
+   822.2,
+   5,
+   -842.3
+  ],
+  "fov_vertical_deg": 60,
+  "bearing_deg": 354,
+  "height_above_ground_m": 2
+ },
+ "home-xyl-strip": {
+  "eye": [
+   655,
+   251.2,
+   -682.2
+  ],
+  "target": [
+   655,
+   0.3,
+   -802.2
+  ],
+  "fov_vertical_deg": 62,
+  "bearing_deg": 0,
+  "height_above_ground_m": 250
  }
 }
