@@ -194,6 +194,11 @@
     #plate-ui { position: fixed; left: 12px; bottom: 12px; z-index: 6; background: #fffdf8ee; border: 1px solid #d8d0c2; border-radius: 6px; padding: 8px 10px; font: 12px/1.4 system-ui, sans-serif; color: #3a3226; display: none; max-width: 420px; }
     #plate-ui label { margin-right: 10px; }
     body.shot #plate-ui { display: none !important; }
+    /* Round 32: the header's Tour button (tour3d.js draws the tour's own chrome) */
+    .tour-btn { flex: none; min-height: 28px; padding: 0 10px; border: 1px solid #17130F; border-radius: 3px; background: #17130F; color: #F5EEE2; font: 11px 'Geist Mono', ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; cursor: pointer; white-space: nowrap; }
+    .tour-btn:hover { background: #2F2720; } .tour-btn:focus-visible { outline: 2px solid #DB6543; outline-offset: 2px; }
+    .tour-btn[hidden] { display: none; }
+    body.guided .recon-header, body.guided #panel, body.guided #bpanel, body.guided #back, body.guided #walk-tip, body.guided #walk-exit, body.guided #hover { display: none !important; }
     body.shot #panel, body.shot #bpanel, body.shot #back, body.shot #walk-tip, body.shot #walk-exit, body.shot #loading { display: none !important; }
   </style>
 </head>
@@ -208,6 +213,7 @@
         <output id="tod-time" for="sun-hour" aria-live="off">18:30</output>
         <button type="button" class="tod-button tod-speed" id="tod-speed" hidden aria-label="Speed 1 times, press to change">1×</button>
       </div>
+      <button type="button" class="tour-btn" id="tour-btn" hidden title="A guided tour of the gardens, about five minutes">Tour</button>
     </div>
     <nav aria-label="Reconstruction">
       <a href="../">Homepage</a>

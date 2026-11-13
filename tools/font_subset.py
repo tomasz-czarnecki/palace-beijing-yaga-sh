@@ -7,6 +7,7 @@ https://github.com/notofonts/noto-cjk (Sans/OTF/SimplifiedChinese, Serif/OTF/Sim
 Usage: cd <folder with sans.otf and serif.otf> && python3 <repo>/tools/font_subset.py <repo>
 For the Xiyang Lou pages: the same, with `xy` as a second argument. It leaves the homepage's subsets alone, and writes noto-sans-sc-xy.woff2 (what those pages use and the base subset lacks) and noto-serif-sc-xy.woff2 (their headings and plan labels only), and site/xiyanglou/fonts.css with their unicode-range, so the homepage never loads them. Run it after any change to their Chinese text.
 For the page on the surroundings (Round 20): `around`, the same way (noto-*-sc-around.woff2, site/around/fonts.css).
+For the guided tour (Round 32): `tour`, serif only: noto-serif-sc-tour.woff2 (family 'Noto Serif SC Tour', named in tour3d.js and tools/tour_page.py), from data/tour.json, tour3d.js and the tour pages. Run it after changing the tour's Chinese text.
 For the scene pages (Round 7): `scenes` as the second argument, the same way: noto-sans-sc-scenes.woff2, noto-serif-sc-scenes.woff2 and site/scenes/fonts.css, from every page under site/scenes/ and site/zh/scenes/. Run it after scripts/scenes_page.py whenever their Chinese text changed.
 Needs uvx (/opt/data/.local/bin/uvx) for fonttools. Copied from the homepage round's scratch script palace_home_subset.py.
 """
@@ -49,6 +50,17 @@ if len(sys.argv) > 2 and sys.argv[2] == 'scenes':
 if len(sys.argv) > 2 and sys.argv[2] == 'around':  # Round 20: the page on the surroundings
     files = sorted(str(p.relative_to(R / 'site')) for d in ('around', 'zh/around') for p in (R / 'site' / d).rglob('*.html')) + ['around/plan.svg']
     xy('around', files, 'around', 'the page on the surroundings', serif_from_body=True)
+    sys.exit(0)
+if len(sys.argv) > 2 and sys.argv[2] == 'tour':  # Round 32: the guided tour sets all its Chinese in the serif
+    # One file, 'Noto Serif SC Tour', with every character of the tour's captions, chrome and pages that the homepage's serif subset lacks.
+    # tour3d.js and the tour pages name it after 'Noto Serif SC' in their font stacks, so the browser takes from it only what the subset lacks.
+    files = ['reconstruction/data/tour.json', 'reconstruction/tour3d.js', 'tour.html', 'zh/tour.html']
+    text = ''.join((R / 'site' / f).read_text(encoding='utf-8') for f in files)
+    wanted = {c for c in text if ord(c) > 0x2E7F} - base_chars('noto-serif-sc-subset.woff2')
+    u = ''.join(sorted(wanted))
+    out = R / 'site/assets/fonts/noto-serif-sc-tour.woff2'
+    subprocess.run(['uvx', '--from', 'fonttools[woff]', 'pyftsubset', 'serif.otf', '--text=' + u, '--flavor=woff2', '--layout-features=*', '--output-file=' + str(out)], check=True)
+    print(out.name, len(u), 'chars', out.stat().st_size // 1024, 'kB')
     sys.exit(0)
 text = ''
 for f in ['index.html', 'zh/index.html', 'reconstruction/index.html']:  # credits.html lists hundreds of titles: it falls back to the system font

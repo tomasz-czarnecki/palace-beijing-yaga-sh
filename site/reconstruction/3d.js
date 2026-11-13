@@ -12,6 +12,10 @@
 // &light=clean|sun (default sun, or what the visitor last chose; shot=1 and plate= are Clean unless they say sun) &time=<clock hour, 0-24, Beijing> &cycle=1 (the day plays from there) &lightq=high|mid|low|min &panel=1 (the cog's panel open). The time of day is in the header; the layers, the light and the legend are under the cog.
 const params = new URLSearchParams(location.search);
 const shot = Boolean(params.get("shot"));
+// Round 32: the guided tour (tour3d.js, data/tour.json), fetched only for ?tour=1, the page /tour (tour.html, body data-tour="page") or the header's Tour button: the normal view never loads it.
+const tourPage = document.body.dataset.tour === "page";
+const TOUR_WANTED = !shot && (tourPage || params.get("tour") === "1");
+let guided = false, sizer = null; // while the tour plays: no names, no picking, its own frame loop; sizer: the tour's letterbox (?aspect=)
 if (shot) document.body.classList.add("shot");
 
 // Round 23: the layers and settings, hidden on every load, open from the cog in the header (as in Küstrin); nothing remembered. Wired before anything loads, so the cog works from the first moment.
@@ -90,6 +94,25 @@ const loadBeauty = () => (beautyCode ||= (async () => {
   const url = URL.createObjectURL(new Blob([await res.text(), "\n//# sourceURL=beauty3d.js"], { type: "text/javascript" }));
   try { return await import(url); } finally { URL.revokeObjectURL(url); }
 })());
+// Round 32: the guided tour, the same way: fetched on demand, so the normal view never loads it.
+let tourCode = null, guidedTour = null;
+const loadTour = () => (tourCode ||= (async () => {
+  const res = await fetch("tour3d.js");
+  if (!res.ok) throw new Error(`tour3d.js: ${res.status}`);
+  const url = URL.createObjectURL(new Blob([await res.text(), "\n//# sourceURL=tour3d.js"], { type: "text/javascript" }));
+  try { return await import(url); } finally { URL.revokeObjectURL(url); }
+})());
+async function startGuided(opts = {}) {
+  if (guidedTour) return guidedTour;
+  try {
+    const { createTour } = await loadTour();
+    guidedTour = await createTour(window.viewer, { page: tourPage, lang: document.documentElement.lang === "zh-Hans" || document.documentElement.lang === "zh" ? "zh" : "en", params, onExit: () => { guidedTour = null; }, ...opts });
+  } catch (err) {
+    tourCode = null;
+    console.warn("The tour is not loaded:", err);
+  }
+  return guidedTour;
+}
 const reduced = () => shot || matchMedia("(prefers-reduced-motion: reduce)").matches;
 const SKY = 0xcfd8dd;
 
@@ -130,7 +153,7 @@ function fitNearPlane() {
 }
 let labels = [];
 function updateLabels() {
-  const on = state.labels && !shot && !walking && !touring;
+  const on = state.labels && !shot && !walking && !touring && !guided;
   for (const l of labels) {
     const d = camera.position.distanceTo(l.position);
     if (l.userData.around) { l.visible = on && state.around && !(l.userData.assumed && !state.assumed) && (l.userData.rank === 1 ? d > 900 : d < 3200); continue; } // Round 20
@@ -143,17 +166,19 @@ function render(daylight = false) {
   fitNearPlane();
   updateLabels();
   // Round 11: the kit builds the near detail of the tiles in reach; while some wait, another frame follows. A still (shot=1) waits for all. Round 12: so do the plants.
-  const kitWaits = kitUpdate && kitUpdate(camera, shot ? 1e9 : 4), greensWait = greensUpdate && greensUpdate(camera, shot ? 1e9 : 3);
-  if ((kitWaits || greensWait) && !kitFrame) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
+  const kitWaits = kitUpdate && kitUpdate(camera, shot ? 1e9 : guided ? 2 : 4), greensWait = greensUpdate && greensUpdate(camera, shot ? 1e9 : guided ? 1 : 3);
+  if ((kitWaits || greensWait) && !kitFrame && !guided) kitFrame = requestAnimationFrame(() => { kitFrame = 0; render(); });
   renderer.render(scene, camera);
 }
 controls.addEventListener("change", () => render());
-addEventListener("resize", () => {
-  camera.aspect = innerWidth / innerHeight;
+function resize() {
+  const [w, h] = sizer ? sizer() : [innerWidth, innerHeight];
+  camera.aspect = w / h;
   setOffset(offset);
-  renderer.setSize(innerWidth, innerHeight);
+  renderer.setSize(w, h);
   render();
-});
+}
+addEventListener("resize", resize);
 
 // The panel covers part of the canvas, so the picture's centre moves into the part still free. Pixels, as in camera.setViewOffset.
 let offset = [0, 0];
@@ -304,6 +329,7 @@ async function main() {
   const a = meta.lonlat;
   const toXZ = ([lon, lat]) => [a.x[0] + a.x[1] * (lon - a.lon0) + a.x[2] * (lat - a.lat0), a.z[0] + a.z[1] * (lon - a.lon0) + a.z[2] * (lat - a.lat0)];
   const ground = buildGround({ meta, buf, gridBuf, levelBuf });
+  if (TOUR_WANTED) loadTour().catch(() => { tourCode = null; }); // on its way while the gardens build
   const { groundAt, waterLevelAt } = ground;
   world.add(ground.group);
   const around = outerMeta && outerBuf ? buildAround({ meta: outerMeta, buf: outerBuf, data: aroundData, inner: ground, datum: meta.datum_m }) : null;
@@ -314,6 +340,7 @@ async function main() {
   meshes.structures = buildStructures(structures, new Set(Object.values(MODELS).flatMap((c) => c.bridges || [])), Object.values(MODELS).flatMap((c) => c.walls_cut || []));
   world.add(meshes.structures);
   const halls = buildHalls({ fc, toXZ, datum: meta.datum_m, kit: kitSpec });
+  if (TOUR_WANTED) halls.setModelled(true); // Round 32: the tour starts before every model is in; a model's plain boxes would stand in it as it arrives, so they never show
   // Round 16: a raised floor a model draws (a terrace, models.json `decks`) carries the ways that cross it: they are laid on it, not on the ground under it
   const decks = Object.values(MODELS).flatMap((c) => c.decks || []);
   const inPoly = (x, z, poly) => { let ins = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const [xi, zi] = poly[i], [xj, zj] = poly[j]; if ((zi > z) !== (zj > z) && x < ((xj - xi) * (z - zi)) / (zj - zi) + xi) ins = !ins; } return ins; };
@@ -342,6 +369,7 @@ async function main() {
       o.raycast = () => {}; // clicks go to the boxes (halls3d.js pick)
     });
     halls.mesh.add(g);
+    if (TOUR_WANTED) beauty?.modelsChanged(); // the tour may be playing: its shadows and its patch now
     if (params.get("plateonly") && params.get("plateonly") !== id) g.visible = false; // Round 16: &plateonly=<ID>, a development switch for the overlays: the other detailed models hidden (a niche before a hall)
     detailed[id] = { group: g, c };
   }).map((p) => p.catch((err) => console.warn("Detailed model not loaded, the boxes stay:", err)))).then(() => {
@@ -350,7 +378,9 @@ async function main() {
     beauty?.modelsChanged(); // their shadows, their patches, their lit windows
     render();
     window.__modelsReady = true;
+    tourButton.hidden = false;
   });
+  const tourButton = document.getElementById("tour-btn");
   let modelSelected = new Set();
   function applyModels() {
     for (const [id, { group }] of Object.entries(detailed)) {
@@ -760,7 +790,7 @@ async function main() {
     }
   });
   el.addEventListener("pointerup", (e) => {
-    if (walking || touring || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
+    if (walking || touring || guided || !down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 4) return;
     const hit = hitAt(e);
     if (hit) open(hit.box.bid, hit.box);
     else { const ah = aroundAt(e); if (ah) open(ah.id); else { openToken++; closeAll(); } }
@@ -768,7 +798,7 @@ async function main() {
   const labelOf = (b) => [b.props.name || "Hall without a name on the plan", b.props.assumed ? "(assumed)" : ""].filter(Boolean).join(" ");
   let hoverEvent = null;
   el.addEventListener("pointermove", (e) => {
-    if (walking || touring || e.pointerType !== "mouse" || e.buttons) { label.hidden = true; return; }
+    if (walking || touring || guided || e.pointerType !== "mouse" || e.buttons) { label.hidden = true; return; }
     if (!hoverEvent) requestAnimationFrame(() => {
       const hit = hitAt(hoverEvent), ah = hit ? null : aroundAt(hoverEvent);
       el.style.cursor = hit || ah ? "pointer" : "";
@@ -942,6 +972,14 @@ async function main() {
   // A link to the dark, and the render tools, wait for the lanterns; the day doesn't, they follow behind it.
   if (beauty?.on && (shot || navigator.webdriver || beautyDay?.down(beauty.hour) || isDown(beauty.hour))) await beauty.nightReady();
   performance.mark("palace-light-on");
+  window.viewer = { setLight, cycle, panelCog, get beauty() { return beauty; }, around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, wayGroundAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways,
+    // Round 32: what the guided tour (tour3d.js) reads and switches
+    models: MODELS, meshes, labels: () => labels, resize, guidedTour: () => guidedTour, startGuided,
+    setGuided(on) { guided = on; if (on) { if (walking) stopWalk(); if (touring) stopTour(true); closeAll(); label.hidden = true; } updateLabels(); },
+    setSizer(fn) { sizer = fn; resize(); },
+  };
+  tourButton.onclick = () => startGuided();
+  if (TOUR_WANTED) startGuided({ chapter: params.get("ch") });
   const deep = params.get("b");
   if (deep) await open(deep.toUpperCase());
   await modelsReady;
@@ -957,7 +995,6 @@ async function main() {
     u.searchParams.delete("cycle");
     history.replaceState(null, "", u);
   }
-  window.viewer = { setLight, cycle, panelCog, get beauty() { return beauty; }, around, detailed, preview, modelFor, kit, greens, state, apply, scene, camera, controls, render, open, close: closeAll, halls, byBuilding, byParent, byBoxId, boxesOf, groundAt, waterLevelAt, ground, meta, toXZ, renderer, walk: { start: startWalk, stop: stopWalk }, tour: { start: startTour, stop: stopTour, next: nextStop, get: () => touring }, keys, setOffset, ways };
   window.__ready = true;
 }
 

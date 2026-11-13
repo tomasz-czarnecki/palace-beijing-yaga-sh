@@ -168,7 +168,9 @@
       if (v && phase === "base") allDone();
     },
   });
-  const allDone = (note) => {
+  // Round 32: the guided tour starts before every detailed building is in (they come in as it plays): it closes the card itself.
+  window.__loaderDone = (note) => allDone(note, 300);
+  const allDone = (note, delay) => {
     if (phase === "after") return;
     phase = "after";
     restore();
@@ -182,7 +184,7 @@
     setTimeout(() => {
       root.classList.add("done");
       setTimeout(() => root.remove(), 900);
-    }, note ? 6000 : 1600);
+    }, delay ?? (note ? 6000 : 1600));
   };
   // An error before the gardens are built: say so and offer a reload, but keep watching. A harmless error must not leave the card over a
   // working view, so if 3d.js still reaches __ready the card closes as usual; the × hides it at any time.

@@ -1,0 +1,257 @@
+{
+  "note": "Round 32: the guided tour of the 3D view (tour3d.js). Hand-edited. A chapter's poses are key camera poses: `at` a model id of data/models.json (e and t in its own frame: x to its right, z out of its front, y up from the model's foot, metres) or `world` (scene metres: x east, z south, y above the water). `k` places a pose in the chapter's time after the flight in (0 to 1); `g` 1 measures e's height from the ground under it. `seconds` is the whole chapter, the flight in included; `hour` the clock hour (Beijing) the chapter settles on, eased in during the flight. Captions only restate the research (research/buildings.csv, research/scenes/, research/xiyanglou/, models/*/README.md): `grade` A, B or C as on the site, `basis` what it rests on, `note` a line such as no photograph of it standing. The `models` it shows: tools/tour_test.mjs checks that every model of data/models.json is in view in at least one chapter. Add a chapter: record poses with ?tourdev=1 (Record pose), paste them here.",
+  "version": 1,
+  "start_hour": 4.75,
+  "light_chips": [
+    { "id": "dawn", "hour": 4.95, "en": "Dawn", "zh": "黎明" },
+    { "id": "morning", "hour": 8.5, "en": "Morning", "zh": "上午" },
+    { "id": "golden", "hour": 18.9, "en": "Golden", "zh": "夕照" },
+    { "id": "blue", "hour": 20.3, "en": "Blue", "zh": "暮色" },
+    { "id": "night", "hour": 22.0, "en": "Night", "zh": "夜" }
+  ],
+  "chapters": [
+    {
+      "id": "panorama", "chip": { "en": "Panorama", "zh": "全景" }, "seconds": 22, "hour": 5.6, "models": [],
+      "title": { "zh": "圆明园", "en": "Yuanmingyuan, the three gardens" },
+      "text": {
+        "en": "Three gardens on the plain north-west of Beijing, 圆明园, 长春园 and 绮春园: about 335 hectares inside their walls, a third of it water, as they stood before October 1860.",
+        "zh": "北京西北郊平原上的三座园林：圆明园、长春园和绮春园。围墙内约335公顷，约三分之一是水面。这里是它们1860年10月以前的样子。"
+      },
+      "grade": "B", "basis": { "en": "positions from a Qing plan (S01)", "zh": "位置依据清代平面图（S01）" },
+      "poses": [
+        { "at": "world", "e": [120, 2500, 2350], "t": [60, 0, -180] },
+        { "at": "world", "e": [-120, 1050, 1650], "t": [-220, 0, -40], "k": 0.5 },
+        { "at": "world", "e": [-400, 300, 1160], "t": [-540, 10, 420] }
+      ]
+    },
+    {
+      "id": "gate", "chip": { "en": "Gate", "zh": "宫门" }, "seconds": 16, "hour": 6.4, "models": ["YM41-12", "YM01"],
+      "title": { "zh": "大宫门", "en": "Da Gongmen, the palace gate" },
+      "text": {
+        "en": "The formal way in, from the south: the great spirit wall, then the palace gate 大宫门 on the base its excavation measured, 21.6 by 11.3 metres, a bronze lion on either side.",
+        "zh": "正式的入口自南而来：先是大影壁，再是大宫门。宫门台基按考古发掘实测为21.6米乘11.3米，两侧各有一尊铜狮。"
+      },
+      "grade": "A", "basis": { "en": "the gate's base from the excavation; heights C", "zh": "宫门台基依据考古发掘；高度为推测（C）" },
+      "poses": [
+        { "at": "YM01", "e": [-45, 34, 430], "t": [0, 3, 310] },
+        { "at": "YM01", "e": [32, 22, 300], "t": [0, 6, 165], "k": 0.35 },
+        { "at": "YM01", "e": [-22, 28, 210], "t": [0, 6, 95], "k": 0.7 },
+        { "at": "YM01", "e": [8, 42, 160], "t": [0, 8, 25] }
+      ]
+    },
+    {
+      "id": "audience", "chip": { "en": "Audience hall", "zh": "正大光明" }, "seconds": 18, "hour": 7.0, "models": ["YM01", "YM02-01"],
+      "title": { "zh": "正大光明", "en": "Zhengda Guangming, \"Upright and Bright\"" },
+      "text": {
+        "en": "The audience hall of 1725, seven bays with porches all round, its plan from a Qing building slip. To the east, 勤政殿, where the emperor read memorials and received officials day by day.",
+        "zh": "正大光明殿建于1725年，面阔七间，四面出廊，平面依据清代样式雷图档。东侧是勤政殿，皇帝在此日常批阅奏章、召见臣工。"
+      },
+      "grade": "A", "basis": { "en": "plans from Qing drawings; heights C", "zh": "平面依据清代图档；高度为推测（C）" },
+      "poses": [
+        { "at": "YM01", "e": [-70, 44, 95], "t": [0, 8, 0] },
+        { "at": "YM01", "e": [-14, 17, 58], "t": [2, 9, 0], "k": 0.35 },
+        { "at": "YM01", "e": [62, 28, 48], "t": [72, 5, -12], "k": 0.7 },
+        { "at": "YM01", "e": [125, 38, 8], "t": [79, 4, -13] }
+      ]
+    },
+    {
+      "id": "island", "chip": { "en": "Emperor's island", "zh": "九洲清晏" }, "seconds": 19, "hour": 8.0, "models": ["YM03", "YM03-21", "YM03-22", "YM03-23"],
+      "title": { "zh": "九洲清晏", "en": "Jiuzhou Qingyan, the emperor's island" },
+      "text": {
+        "en": "The largest of the nine islands round the Back Lake, and the emperors' residence. Its axis halls burned in 1836 and were rebuilt by 1837; three named bridges joined it to the shores.",
+        "zh": "九洲清晏是后湖周围九座岛中最大的一座，是皇帝的寝居。中轴殿宇1836年焚毁，1837年重建；三座有名的桥把它和湖岸连在一起。"
+      },
+      "grade": "B", "basis": { "en": "the plan; one hall from a slip of 1855 (A); heights C", "zh": "依据平面图；一座殿依据1855年样式雷图档（A）；高度为推测（C）" },
+      "note": { "en": "No photograph of its halls standing is known.", "zh": "未见这些殿宇完好时的照片。" },
+      "poses": [
+        { "at": "YM03", "e": [-95, 17, 80], "t": [-20, 5, -10] },
+        { "at": "YM03", "e": [-62, 19, 30], "t": [0, 5, -35], "k": 0.33 },
+        { "at": "YM03", "e": [72, 40, -38], "t": [0, 4, -60], "k": 0.66 },
+        { "at": "YM03", "e": [40, 72, -195], "t": [-25, 4, -62] }
+      ]
+    },
+    {
+      "id": "fuhai", "chip": { "en": "Fuhai", "zh": "福海" }, "seconds": 18, "hour": 9.0, "models": [],
+      "title": { "zh": "福海", "en": "Fuhai, the Sea of Blessings" },
+      "text": {
+        "en": "A lake of about 28 hectares. On its three islets stood 蓬岛瑶台, made after paintings of the isles of the immortals; the 1744 album paints its main hall under a glazed roof.",
+        "zh": "福海水面约28公顷。湖中三座小岛上是蓬岛瑶台，仿照画中仙山楼阁而建；1744年的图册把它的主殿画成琉璃瓦顶。"
+      },
+      "grade": "B", "basis": { "en": "lake and islets from the plan; halls drawn by the kit (C)", "zh": "湖面和岛屿依据平面图；殿宇按构件规则生成（C）" },
+      "note": { "en": "No photograph of the island's halls standing is known.", "zh": "未见岛上殿宇完好时的照片。" },
+      "poses": [
+        { "at": "world", "e": [-75, 26, -245], "t": [105, 6, -400] },
+        { "at": "world", "e": [25, 8, -335], "t": [108, 6, -405], "k": 0.35 },
+        { "at": "world", "e": [175, 24, -330], "t": [105, 6, -402], "k": 0.68 },
+        { "at": "world", "e": [235, 62, -475], "t": [100, 4, -400] }
+      ]
+    },
+    {
+      "id": "fanghu", "chip": { "en": "Fanghu", "zh": "方壶胜境" }, "seconds": 17, "hour": 10.0, "models": ["YM29"],
+      "title": { "zh": "方壶胜境", "en": "Fanghu Shengjing" },
+      "text": {
+        "en": "Terraces built out over the water carry nine two-storey towers in three ranges, roofed in yellow, purple-brown and blue tiles as the 1744 album leaf paints them. Every height is a guess.",
+        "zh": "台基伸入水中，上面是三排九座两层楼阁，按1744年图册所绘覆以黄、紫褐、蓝色琉璃瓦。所有高度都是推测。"
+      },
+      "grade": "C", "basis": { "en": "layout from the plan, colours from the 1744 leaf, heights C", "zh": "布局依据平面图，色彩依据1744年图册，高度为推测（C）" },
+      "poses": [
+        { "at": "YM29", "e": [-80, 28, 150], "t": [0, 8, 10] },
+        { "at": "YM29", "e": [-12, 9, 100], "t": [0, 10, 0], "k": 0.35 },
+        { "at": "YM29", "e": [62, 22, 72], "t": [0, 12, -20], "k": 0.7 },
+        { "at": "YM29", "e": [98, 45, -12], "t": [0, 10, -30] }
+      ]
+    },
+    {
+      "id": "library", "chip": { "en": "Library", "zh": "文源阁" }, "seconds": 17, "hour": 11.0, "models": ["YM46"],
+      "title": { "zh": "文源阁", "en": "Wenyuan Ge, the library" },
+      "text": {
+        "en": "Built in 1774 to hold one set of the Four Treasuries. Its bays come from a later Qing survey register, its storeys from its surviving sister, 文渊阁 in the Forbidden City.",
+        "zh": "文源阁建于1774年，收藏一部《四库全书》。开间依据清代后期的丈尺册，层高参照至今尚存的姊妹建筑，紫禁城的文渊阁。"
+      },
+      "grade": "B", "basis": { "en": "bays from the survey register; storeys from a sister (C)", "zh": "开间依据丈尺册；层高参照姊妹建筑（C）" },
+      "note": { "en": "No picture of it standing, or of its ruin, is known.", "zh": "未见它完好时或其遗址的图像。" },
+      "poses": [
+        { "at": "YM46", "e": [-62, 52, 112], "t": [0, 5, 0] },
+        { "at": "YM46", "e": [-26, 22, 58], "t": [0, 6, -5], "k": 0.35 },
+        { "at": "YM46", "e": [42, 18, 32], "t": [0, 7, -5], "k": 0.6 },
+        { "at": "YM46", "e": [72, 36, -42], "t": [0, 6, 0] }
+      ]
+    },
+    {
+      "id": "temple", "chip": { "en": "Ancestral temple", "zh": "安佑宫" }, "seconds": 18, "hour": 12.5, "models": ["YM17"],
+      "title": { "zh": "安佑宫", "en": "Anyou Gong, the ancestral temple" },
+      "text": {
+        "en": "鸿慈永祜, the ancestral temple built in 1742 and 1743, where the portraits of the Kangxi and Yongzheng emperors were kept: nine bays under a double yellow roof, as the 1744 leaf paints it.",
+        "zh": "鸿慈永祜是1742至1743年建成的祖祠，安佑宫内供奉康熙、雍正两帝的御容。大殿面阔九间，重檐黄琉璃瓦顶，与1744年图册所绘相同。"
+      },
+      "grade": "B", "basis": { "en": "the plan; the roof from the 1744 leaf (A); heights C", "zh": "依据平面图；屋顶依据1744年图册（A）；高度为推测（C）" },
+      "poses": [
+        { "at": "YM17", "e": [0, 62, 335], "t": [0, 5, 150] },
+        { "at": "YM17", "e": [0, 32, 205], "t": [0, 8, 60], "k": 0.4 },
+        { "at": "YM17", "e": [0, 24, 98], "t": [0, 9, 0], "k": 0.75 },
+        { "at": "YM17", "e": [-62, 38, 52], "t": [0, 8, 0] }
+      ]
+    },
+    {
+      "id": "hanjing", "chip": { "en": "Hanjing Tang", "zh": "含经堂" }, "seconds": 20, "hour": 14.0, "models": ["CC02"],
+      "title": { "zh": "含经堂", "en": "Hanjing Tang" },
+      "text": {
+        "en": "The palace compound of 长春园, raised on a terrace above its forecourt. It rests on the Qing plans and on the excavation of 2001 to 2003; the yellow glazed roofs are a guess.",
+        "zh": "含经堂是长春园的宫殿院落，建在高出前院的台基上。复原依据清代平面图和2001至2003年的考古发掘；黄琉璃瓦顶是推测。"
+      },
+      "grade": "B", "basis": { "en": "Qing plans and the excavation; roofs and heights C", "zh": "依据清代平面图和考古发掘；屋顶和高度为推测（C）" },
+      "note": { "en": "No picture of its halls standing survives.", "zh": "未见其殿宇完好时的图像。" },
+      "poses": [
+        { "at": "CC02", "e": [-125, 72, 205], "t": [0, 5, 20] },
+        { "at": "CC02", "e": [-52, 36, 132], "t": [0, 6, 0], "k": 0.33 },
+        { "at": "CC02", "e": [42, 32, 42], "t": [0, 8, -20], "k": 0.58 },
+        { "at": "CC02", "e": [112, 56, -62], "t": [0, 6, -20] }
+      ]
+    },
+    {
+      "id": "lion-grove", "chip": { "en": "Lion Grove", "zh": "狮子林" }, "seconds": 16, "hour": 15.0, "models": ["CC13"],
+      "title": { "zh": "狮子林", "en": "Shizi Lin, the Lion Grove" },
+      "text": {
+        "en": "A rockery garden made in 1772 after the Suzhou garden of that name and Ni Zan's scroll. Its sixteen scenes come from the Qianlong emperor's poems; the rocks' forms are assumed.",
+        "zh": "狮子林是1772年仿照苏州狮子林和倪瓒画卷建成的叠石园林。十六景依据乾隆的御制诗；山石的形态是推测。"
+      },
+      "grade": "C", "basis": { "en": "layout from the plan (B), scenes from the poems; forms C", "zh": "布局依据平面图（B），景名依据御制诗；形态为推测（C）" },
+      "note": { "en": "No picture of it standing is known.", "zh": "未见它完好时的图像。" },
+      "poses": [
+        { "at": "CC13", "e": [-42, 42, 112], "t": [18, 4, 10] },
+        { "at": "CC13", "e": [8, 19, 72], "t": [16, 4, 5], "k": 0.35 },
+        { "at": "CC13", "e": [78, 36, 66], "t": [20, 4, 5], "k": 0.7 },
+        { "at": "CC13", "e": [112, 46, -22], "t": [20, 4, 10] }
+      ]
+    },
+    {
+      "id": "zhengjue", "chip": { "en": "Zhengjue Si", "zh": "正觉寺" }, "seconds": 17, "hour": 16.0, "models": ["QC11"],
+      "title": { "zh": "正觉寺", "en": "Zhengjue Si, the temple" },
+      "text": {
+        "en": "A Tibetan Buddhist temple finished in 1773 outside the west wall of 绮春园 and kept by lamas. It was spared in October 1860; its gate, which still stands, is modelled from photographs.",
+        "zh": "正觉寺1773年建成，在绮春园西墙外，由喇嘛住持。1860年10月它没有被焚毁；至今尚存的山门依据照片建模。"
+      },
+      "grade": "B", "basis": { "en": "the plan and what survives; the lost halls' forms C", "zh": "依据平面图和现存建筑；已毁殿宇的形态为推测（C）" },
+      "poses": [
+        { "at": "QC11", "e": [42, 46, 172], "t": [0, 5, 40] },
+        { "at": "QC11", "e": [-12, 18, 102], "t": [0, 6, 45], "k": 0.35 },
+        { "at": "QC11", "e": [-34, 42, 30], "t": [0, 6, -30], "k": 0.6 },
+        { "at": "QC11", "e": [-72, 52, -45], "t": [0, 6, -55] }
+      ]
+    },
+    {
+      "id": "xieqiqu", "chip": { "en": "Xieqiqu", "zh": "谐奇趣" }, "seconds": 20, "hour": 17.4, "models": ["XY01", "XY05", "XY04"],
+      "title": { "zh": "谐奇趣", "en": "Xieqiqu, and the maze" },
+      "text": {
+        "en": "The first of the European palaces, which rose along the north edge of 长春园 from 1747. Behind it the aviary gate 养雀笼 and the maze 黄花阵. All drawn from the copperplates of 1786.",
+        "zh": "谐奇趣是西洋楼中最早的一座；西洋楼自1747年起沿长春园北界陆续建成。其后是养雀笼门和迷宫黄花阵，均依据1786年的铜版画建模。"
+      },
+      "grade": "C", "basis": { "en": "from the 1786 plates and photographs of 1873", "zh": "依据1786年铜版画和1873年的照片" },
+      "poses": [
+        { "at": "XY01", "e": [-32, 30, 122], "t": [0, 7, 0] },
+        { "at": "XY01", "e": [26, 12, 62], "t": [0, 8, 0], "k": 0.33 },
+        { "at": "XY01", "e": [70, 46, -36], "t": [36, 5, -52], "k": 0.63 },
+        { "at": "XY01", "e": [62, 72, -112], "t": [-8, 3, -140] }
+      ]
+    },
+    {
+      "id": "haiyan", "chip": { "en": "Haiyan Tang", "zh": "海晏堂" }, "seconds": 20, "hour": 18.3, "models": ["XY06", "XY08"],
+      "title": { "zh": "海晏堂", "en": "Fangwaiguan and Haiyan Tang" },
+      "text": {
+        "en": "Past the small pavilion 方外观 stands 海晏堂. Before its west front was the water clock: twelve seated figures with bronze animal heads. Seven heads are in China today; where the other five are is not known.",
+        "zh": "经过小巧的方外观，便是海晏堂。西立面前是十二生肖水法：十二尊兽首人身坐像。如今七尊兽首在中国，其余五尊下落不明。"
+      },
+      "grade": "C", "basis": { "en": "from the 1786 plates", "zh": "依据1786年铜版画" },
+      "poses": [
+        { "at": "XY08", "e": [50, 30, 126], "t": [-16, 6, 98] },
+        { "at": "XY08", "e": [56, 22, 84], "t": [0, 8, 30], "k": 0.35 },
+        { "at": "XY08", "e": [30, 13, 100], "t": [0, 6, 38], "k": 0.66 },
+        { "at": "XY08", "e": [-42, 32, 72], "t": [0, 10, 10] }
+      ]
+    },
+    {
+      "id": "fountains", "chip": { "en": "Great Fountain", "zh": "大水法" }, "seconds": 20, "hour": 18.95, "models": ["XY11", "XY10", "XY09"],
+      "title": { "zh": "大水法", "en": "Dashuifa, the Great Fountain" },
+      "text": {
+        "en": "The great fountain, with the hall 远瀛观 on its terrace behind and, facing it, the emperor's seat 观水法. Their broken stones are the best known ruin of the gardens today.",
+        "zh": "大水法的后方高台上是远瀛观，对面是皇帝观赏水景的观水法。它们的残石是今天圆明园最为人熟知的遗迹。"
+      },
+      "grade": "C", "basis": { "en": "from the 1786 plates and photographs of 1873 to 2025", "zh": "依据1786年铜版画和1873至2025年的照片" },
+      "poses": [
+        { "at": "XY10", "e": [0, 32, 98], "t": [0, 8, 0] },
+        { "at": "XY10", "e": [-20, 17, 40], "t": [0, 9, -2], "k": 0.33 },
+        { "at": "XY10", "e": [46, 14, 26], "t": [0, 10, -10], "k": 0.66 },
+        { "at": "XY10", "e": [56, 40, -42], "t": [0, 12, -25] }
+      ]
+    },
+    {
+      "id": "east-end", "chip": { "en": "East end", "zh": "线法墙" }, "seconds": 20, "hour": 19.75, "models": ["XY12-01", "XY13", "XY15"],
+      "title": { "zh": "线法墙", "en": "Xianfa Qiang, the perspective walls" },
+      "text": {
+        "en": "At the east end: the gates 线法山门 and 螺蛳牌楼 and, across the water of 方河, 线法墙, flats painted with a European town like the wings of a stage. The paintings are lost; these houses are assumed.",
+        "zh": "西洋楼的最东端：线法山门、螺蛳牌楼，隔着方河是线法墙，画墙像舞台布景一样排列，上面画着欧洲街景。原画已失，这些房屋是推测。"
+      },
+      "grade": "C", "basis": { "en": "gates from the 1786 plates; the paintings assumed", "zh": "门依据1786年铜版画；画面为推测" },
+      "poses": [
+        { "at": "XY13", "e": [16, 24, 128], "t": [-6, 5, 79] },
+        { "at": "XY13", "e": [26, 30, 42], "t": [0, 6, 0], "k": 0.33 },
+        { "at": "XY13", "e": [12, 12, -70], "t": [11, 5, -200], "k": 0.66 },
+        { "at": "XY13", "e": [4, 7, -150], "t": [11, 6, -212] }
+      ]
+    },
+    {
+      "id": "night", "chip": { "en": "Night", "zh": "夜" }, "seconds": 22, "hour": 21.6, "hour_span": "chapter", "models": [],
+      "title": { "zh": "圆明园", "en": "Yuanmingyuan, before October 1860" },
+      "text": {
+        "en": "In October 1860 French and British troops looted the gardens, and on 18 and 19 October British troops burned them on Lord Elgin's order. The lanterns here are assumed.",
+        "zh": "1860年10月，英法军队劫掠了圆明园；10月18日至19日，英军奉额尔金之命将其焚毁。图中的灯火是推测。"
+      },
+      "grade": "C", "basis": { "en": "the night and its lanterns: assumed", "zh": "夜景和灯火为推测" },
+      "poses": [
+        { "at": "world", "e": [1110, 55, -770], "t": [1235, 5, -862] },
+        { "at": "world", "e": [1450, 520, 150], "t": [500, 0, -450], "k": 0.45 },
+        { "at": "world", "e": [720, 720, 1150], "t": [0, 0, -260] }
+      ]
+    }
+  ]
+}

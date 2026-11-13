@@ -480,6 +480,14 @@ Round 23 ported Küstrin's Beautiful light (`site/reconstruction/beauty3d.js`, `
 5. **Merged meshes without normals get a slope-scaled depth offset** in their shadow pass (a custom depth material) in place of the normal bias they can't take; flat things laid on the ground (paths, courts, patches) take shadow but cast none.
 6. **Every tool that compares pictures asks for Clean** (`light=clean`): the plate overlay, the AI-picture cameras, the checks' screenshots.
 
+### 22. A guided tour: the model as a live film (Round 32)
+
+The tour (`site/reconstruction/tour3d.js`, `site/reconstruction/data/tour.json`, `/tour`) plays the 3D view as a film in the visitor's browser, chapter by chapter, with a caption for each.
+1. **Tour captions only restate the research.** Every sentence comes from the dossiers, the model READMEs or `research/buildings.csv`, with the site's grade and what it rests on; what no source shows (the hour, the lanterns, a guessed height) is said to be assumed.
+2. **Author poses in the models' own frames**, not in hand-typed world numbers, so a moved or rebuilt model carries its camera with it; a recorder (`?tourdev=1`) writes them.
+3. **The camera is a function of time**, never of frames: a slow machine drops frames, not seconds, and the captions stay in step. Test every path for clearance and turning speed before looking at it (`tools/tour_sheets.mjs`); a long flight that turns the view round needs time in proportion to the turn.
+4. **One viewer, two doors.** The public page is the 3D view's own HTML with another head, written by a script, so the viewer is never forked.
+
 ## Pitfalls and fixes
 
 **The kit (Round 11):**
