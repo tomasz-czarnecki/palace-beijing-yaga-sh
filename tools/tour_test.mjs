@@ -5,7 +5,7 @@
 // the normal view; /tour shows its poster and starts on Begin, /tour?ch= and /zh/tour; a phone (390 x 844, touch): the chips scroll sideways, the card is narrow, a swipe up is the
 // next chapter, a tap pauses; a 4K screen; reduced motion starts paused; no console errors, no failed requests; and the pages are up to date (tools/tour_page.py --check).
 // Prints what /tour fetches before its first frame and in all (bytes as served here, and gzip as a host would send them), and the size of tour3d.js and tour.json.
-// --perf also plays the whole tour twice at speed 1.5, at lightq=low and at the quality the view starts on, and prints the frame times per chapter and every step down.
+// --perf also plays the whole tour twice at speed 2, at lightq=low and at the quality the view starts on, and prints the frame times per chapter and every step down.
 // Prints a pass/fail list; exits 1 on any failure.
 //   node tools/tour_test.mjs [--port 9182] [--base http://127.0.0.1:9180] [--out <dir>] [--perf]
 import fs from 'node:fs';
@@ -128,7 +128,7 @@ try {
     await sleep(300);
     check('a second click plays', (await state(page)).playing);
     await page.click('#tour [data-act="speed"]');
-    check('the speed button steps the speed', (await page.evaluate(() => window.__tour.speed)) === 1.5);
+    check('the speed button steps the speed', (await page.evaluate(() => window.__tour.speed)) === 2);
     await page.click('#tour [data-act="lang"]');
     await sleep(200);
     const zh = await page.evaluate(() => ({ lang: window.__tour.lang, text: document.querySelector('#tour .t-texts').textContent, chip: document.querySelector('#tour .t-chapters .chip').textContent }));
@@ -281,15 +281,15 @@ try {
   try { execFileSync(REPO + '/.venv/bin/python', [REPO + '/tools/tour_page.py', '--check'], { cwd: REPO }); check('the tour pages are up to date with 3d.html (tools/tour_page.py --check)', true); }
   catch (e) { check('the tour pages are up to date with 3d.html (tools/tour_page.py --check)', false, String(e.stderr || e.stdout)); }
 
-  // ---- --perf: the whole tour, live, at speed 1.5 ----
+  // ---- --perf: the whole tour, live, at speed 2 ----
   if (process.argv.includes('--perf')) {
     for (const q of ['lightq=low', '']) {
-      const { ctx, page } = await open(`/reconstruction/3d.html?tour=1&speed=1.5${q ? '&' + q : ''}`, { viewport: { width: 1280, height: 720 } });
+      const { ctx, page } = await open(`/reconstruction/3d.html?tour=1&speed=2${q ? '&' + q : ''}`, { viewport: { width: 1280, height: 720 } });
       const tot = await page.evaluate(() => window.__tour.total);
       const w0 = Date.now();
       await page.waitForFunction(() => window.__tour.ended, null, { polling: 2000, timeout: 1800000 });
       const r = await page.evaluate(() => ({ frames: window.__tour.frameStats(), steps: window.__tour.adaptations, quality: window.viewer.beauty.quality, clamps: window.__tour.clamps }));
-      console.log(`  perf ${q || 'the quality the view starts on (no lightq)'}: the ${tot} s tour played in ${((Date.now() - w0) / 1000).toFixed(0)} s at speed 1.5; quality at the end ${r.quality}; ${r.steps.length} step(s) down; eye clamped on ${r.clamps} frames`);
+      console.log(`  perf ${q || 'the quality the view starts on (no lightq)'}: the ${tot} s tour played in ${((Date.now() - w0) / 1000).toFixed(0)} s at speed 2; quality at the end ${r.quality}; ${r.steps.length} step(s) down; eye clamped on ${r.clamps} frames`);
       console.table(r.frames);
       for (const s of r.steps) console.log('   step', JSON.stringify(s));
       fs.writeFileSync(`${OUT}/perf_${q ? 'low' : 'auto'}.json`, JSON.stringify(r, null, 1));

@@ -4,11 +4,11 @@
 // timed by a monotone cubic through the poses' times with a still start and end, so a dropped frame never makes it jump and the captions never drift. The eye is kept 1.7 m above the ground, the water and a model's
 // terrace, and out of every hall's box. The hour of Beautiful light (beauty3d.js) eases from chapter to chapter during the flight in. The clock is wall-clock time times the speed; it holds while a chapter's models are still loading.
 // URL (read here): tour=1 (3d.html: start the tour), ch=<chapter id>, ui=0 (no controls, the cursor hides after 2 s), captions=en|zh|both|none, aspect=16:9|9:16 (letterbox), fs=1 (full screen on the first click),
-// poster=0 (/tour: start without the poster), tourdev=1 (the authoring drawer: Record pose prints the camera as a pose of tour.json), speed=0.5|1|1.5, lightq= (pins the quality: no adaptation).
+// poster=0 (/tour: start without the poster), tourdev=1 (the authoring drawer: Record pose prints the camera as a pose of tour.json), speed=0.5|1|2|3|4, lightq= (pins the quality: no adaptation).
 // window.__tour: the test's handle (tools/tour_test.mjs).
 
 const CAPTION_IN_S = 0.6, CAPTION_OUT_S = 0.8, EYE_CLEAR_M = 1.7, BOX_CLEAR_M = 2.5, RESUME_S = 1.5, MANUAL_EASE_S = 1.5;
-const SPEEDS = [0.5, 1, 1.5];
+const SPEEDS = [0.5, 1, 2, 3, 4]; // the button steps through these; at 3x and 4x the captions shrink to their title (a chapter is then only a few seconds)
 const FRAME_BUDGET_MS = 33, ADAPT_WINDOW_S = 2.5; // frames slower than this, as a median over the window: one step down, at most once a chapter
 const BASE_FOV = 45, PORTRAIT_MIN_HFOV = 50, MAX_FOV = 85; // portrait: the horizontal field widens so the subject stays in frame
 
@@ -62,6 +62,32 @@ function monotone(ts, vs) {
   };
 }
 
+
+// The camera's own inertia (Nov 13): the spline is the path the camera is asked to follow; the eye and the look follow it through a critically damped lag in WALL-CLOCK time, so a kink, a push off a hall's box or a fast flight is rounded
+// whatever the speed (at 4x the lag stays the same half second). The look is smoothed as yaw and pitch (the shortest way round), not as a point, so a target near the eye cannot swing the picture.
+const EYE_TAU = 0.42, LOOK_TAU = 0.6, DIST_TAU = 0.5, YAW_CAP_DEG = 24, PITCH_CAP_DEG = 10; // the look may not turn faster than this (a soft cap, tanh), however the path swings: a subject the eye sweeps past close by is let slip from the middle of the picture for a moment instead
+function makeSmoother() {
+  const st = { ok: false, ex: 0, ey: 0, ez: 0, yaw: 0, pitch: 0, dist: 1 };
+  const dirOf = (e, t) => { const dx = t.x - e.x, dy = t.y - e.y, dz = t.z - e.z, l = Math.hypot(dx, dy, dz) || 1; return { yaw: Math.atan2(dx, -dz), pitch: Math.asin(clamp(dy / l, -1, 1)), dist: l }; };
+  return {
+    state: st,
+    reset() { st.ok = false; },
+    // eye/tgt: the ideal pose (Vector3s, written over with the smoothed one); dt: wall-clock seconds
+    step(eye, tgt, dt, rate = 1) { // rate: the caps grow with the square root of the tour's speed
+      const d = dirOf(eye, tgt);
+      if (!st.ok || dt <= 0) { st.ok = true; st.ex = eye.x; st.ey = eye.y; st.ez = eye.z; st.yaw = d.yaw; st.pitch = d.pitch; st.dist = d.dist; return false; }
+      const ae = 1 - Math.exp(-dt / EYE_TAU), al = 1 - Math.exp(-dt / LOOK_TAU), ad = 1 - Math.exp(-dt / DIST_TAU);
+      st.ex += (eye.x - st.ex) * ae; st.ey += (eye.y - st.ey) * ae; st.ez += (eye.z - st.ez) * ae;
+      let dy = d.yaw - st.yaw; dy -= Math.round(dy / (2 * Math.PI)) * 2 * Math.PI;
+      const cy = (YAW_CAP_DEG * Math.PI / 180) * dt * rate, cp = (PITCH_CAP_DEG * Math.PI / 180) * dt * rate;
+      st.yaw += cy * Math.tanh((dy * al) / cy); st.pitch += cp * Math.tanh(((d.pitch - st.pitch) * al) / cp); st.dist += (d.dist - st.dist) * ad;
+      eye.set(st.ex, st.ey, st.ez);
+      tgt.set(st.ex + Math.sin(st.yaw) * Math.cos(st.pitch) * st.dist, st.ey + Math.sin(st.pitch) * st.dist, st.ez - Math.cos(st.yaw) * Math.cos(st.pitch) * st.dist);
+      return true;
+    },
+  };
+}
+
 export async function createTour(V, opts = {}) {
   const params = opts.params || new URLSearchParams(location.search);
   const data = await fetch("data/tour.json").then((r) => r.json());
@@ -96,8 +122,10 @@ export async function createTour(V, opts = {}) {
 
   // ---- the timeline ----
   let total = 0;
-  chapters.forEach((ch, i) => {
+  const buildTimeline = (pace) => { total = 0; chapters.forEach((ch, i) => {
     const prev = chapters[i - 1];
+    const pk = pace?.[i] || { kt: 1, kd: 1 }, s0 = (ch.seconds0 ??= ch.seconds);
+    let secs = s0, travelU = 0;
     const eyes = [], tgts = [], ts = [];
     const own = ch.poses.map((p, k) => (p.k ?? (ch.poses.length > 1 ? k / (ch.poses.length - 1) : 0)));
     let travel = 0;
@@ -106,7 +134,13 @@ export async function createTour(V, opts = {}) {
       // long enough for the distance and for the turn: a look that swings round needs time, or the picture whips (20 degrees a second on average, under 40 at the fastest)
       const da = prev.tgts[prev.tgts.length - 1].clone().sub(a).setY(0).normalize(), db = ch.tgts[0].clone().sub(b).setY(0).normalize();
       const turn = (Math.acos(clamp(da.dot(db), -1, 1)) * 180) / Math.PI;
-      travel = ch.travel ?? clamp(Math.max(3 + dist / 170, turn / 20), 3, 12);
+      if (ch.travel != null) travel = ch.travel;
+      else { // Nov 13, after the first look: flights were quick and swingy (about 110 m/s at the fastest, a look turning 40 degrees a second): now about 55 m/s on average, the look 14 degrees a second on average, and the chapter grows by what the flight gains so the dwell at the building keeps its time
+        const was = clamp(Math.max(3 + dist / 170, turn / 20), 3, 12);
+        travel = clamp(Math.max(4 + dist / 110, turn / 14), 4, 16);
+        secs += Math.max(0, travel - was);
+      }
+      travelU = travel; travel *= pk.kt; // the pace of the flight (see PACE below)
       eyes.push(a.clone()); tgts.push(prev.tgts[prev.tgts.length - 1].clone()); ts.push(0);
       if (dist > 500) { // a long flight goes up and over: an aerial pass
         const mid = a.clone().lerp(b, 0.5);
@@ -115,7 +149,8 @@ export async function createTour(V, opts = {}) {
         eyes.push(mid); tgts.push(mt); ts.push(travel * 0.5);
       }
     }
-    const rest = ch.seconds - travel;
+    const rest = (secs - travelU) * pk.kd; // the dwell at the building, stretched only where the camera would move too fast
+    ch.seconds = travel + rest;
     ch.eyes.forEach((e, k) => { eyes.push(e.clone()); tgts.push(ch.tgts[k].clone()); ts.push(travel + own[k] * rest); });
     // the last pose holds a moment while the caption fades, so the chapter ends at rest
     ch.start = total; ch.travel = travel; ch.end = total + ch.seconds; total = ch.end;
@@ -132,7 +167,8 @@ export async function createTour(V, opts = {}) {
     }
     ch.hourFrom = prev ? prev.hour : data.start_hour ?? ch.hour;
     ch.hourOver = ch.hour_span === "chapter" || !prev ? ch.seconds : Math.max(travel, 2.5);
-  });
+  }); };
+  buildTimeline(null);
   const chapterAt = (t) => { for (let i = 0; i < chapters.length; i++) if (t < chapters[i].end) return i; return chapters.length - 1; };
 
   // ---- the camera at a time, clamped clear of the ground and the halls ----
@@ -193,6 +229,39 @@ export async function createTour(V, opts = {}) {
     return lerp(ch.hourFrom, ch.hour, smoother(lt / ch.hourOver));
   };
 
+
+  // ---- the pace (Nov 13): the camera's speed and the look's turn rate, measured over every chapter's flight and dwell as poseAt gives them (97th percentile, 10 samples a second), and the flight or the dwell stretched, only as much as
+  // needed, until they stay under the limits; so a fast sweep or a look that whips round gets more time instead of being cut. A long flight at 2 km up is allowed its speed; the same speed 30 m above a roof is not. ----
+  const PACE = { v: 80, yaw: 22, pitch: 9, flightMax: 2.2, dwellMax: 1.6, heightFor: 400 };
+  const pace = chapters.map(() => ({ kt: 1, kd: 1, vF: 0, yawF: 0, vD: 0, yawD: 0, clamped: 0 }));
+  const measurePace = () => {
+    const e = new THREE.Vector3(), t = new THREE.Vector3(), q97 = (a) => (a.length ? a.sort((x, y) => x - y)[Math.floor(0.97 * (a.length - 1))] : 0);
+    chapters.forEach((ch, i) => {
+      const seg = { F: { v: [], y: [], p: [] }, D: { v: [], y: [], p: [] } };
+      let pe = null, py = null, pp = null, cl = 0;
+      for (let lt = 0; lt < ch.seconds; lt += 0.1) {
+        const P = poseAt(ch.start + lt, e, t);
+        if (P.clamped) cl++;
+        const dx = t.x - e.x, dy = t.y - e.y, dz = t.z - e.z, l = Math.hypot(dx, dy, dz) || 1, yaw = Math.atan2(dx, -dz), pitch = Math.asin(clamp(dy / l, -1, 1));
+        if (pe) {
+          let d = yaw - py; d -= Math.round(d / (2 * Math.PI)) * 2 * Math.PI;
+          const part = lt < ch.travel ? seg.F : seg.D;
+          // a flight high above the ground is allowed more speed: the apparent motion is what counts
+          const h = Math.max(30, e.y - groundY(e.x, e.z)), allow = Math.max(1, Math.min(h / PACE.heightFor, 6));
+          part.v.push(e.distanceTo(pe) / 0.1 / allow); part.y.push((Math.abs(d) * 57.2958) / 0.1); part.p.push((Math.abs(pitch - pp) * 57.2958) / 0.1);
+        }
+        pe = e.clone(); py = yaw; pp = pitch;
+      }
+      const need = (part) => Math.max(q97(part.v) / PACE.v, q97(part.y) / PACE.yaw, q97(part.p) / PACE.pitch);
+      const pr = pace[i];
+      pr.vF = +q97(seg.F.v).toFixed(1); pr.yawF = +q97(seg.F.y).toFixed(1); pr.vD = +q97(seg.D.v).toFixed(1); pr.yawD = +q97(seg.D.y).toFixed(1); pr.clamped = cl;
+      pr.kt = ch.travel > 0 ? clamp(need(seg.F), 1, PACE.flightMax) : 1;
+      pr.kd = clamp(need(seg.D), 1, PACE.dwellMax);
+    });
+  };
+  measurePace();
+  buildTimeline(pace);
+
   // ---- state ----
   let tt = 0, playing = false, speed = SPEEDS.includes(Number(params.get("speed"))) ? Number(params.get("speed")) : reducedMotion ? 0.75 : 1;
   let raf = 0, last = 0, curIndex = -1, manual = null, blend = null, waiting = false, ended = false, alive = true, userPaused = false;
@@ -223,6 +292,7 @@ export async function createTour(V, opts = {}) {
   #tour .t-text.zh, #tour .t-text :lang(zh) { font-family: 'Noto Serif SC', 'Noto Serif SC Tour', 'Songti SC', 'STSong', 'Newsreader', serif; font-style: normal; }
   #tour .t-text.zh { font-size: 15.5px; line-height: 1.6; }
   #tour .t-text + .t-text { margin-top: 4px; }
+  #tour.fast .t-text, #tour.fast .t-basis, #tour.fast .t-note { display: none; }
   #tour .t-meta { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; margin-top: 8px; font-size: 11.5px; color: #D9CDBB; }
   #tour .t-grade { padding: 1px 6px; border-radius: 3px; font: 600 10.5px 'Geist Mono', ui-monospace, monospace; letter-spacing: .06em; color: #fff; }
   #tour .t-grade.A { background: #2f7d4a; } #tour .t-grade.B { background: #9b7424; } #tour .t-grade.C { background: #a2402a; }
@@ -346,6 +416,7 @@ export async function createTour(V, opts = {}) {
     set("prev", "◀", L.prev); set("next", "▶", L.next);
     set("play", playing ? "❚❚" : "▶", playing ? L.pause : L.play);
     set("speed", `${speed}×`, `${L.speed} ${speed}×`);
+    root.classList.toggle("fast", speed >= 3);
     $(".t-chapters").setAttribute("aria-label", L.chapters);
     $(".t-lights").setAttribute("aria-label", L.light);
     chapterChips.forEach((b, i) => { b.textContent = chapters[i].chip[lang]; b.setAttribute("aria-current", String(i === curIndex)); });
@@ -419,9 +490,22 @@ export async function createTour(V, opts = {}) {
   };
   const ahead = new THREE.Object3D(), aheadEye = new THREE.Vector3(), aheadTgt = new THREE.Vector3();
   let frameNo = 0;
+  const sm = makeSmoother();
+  let smLastNow = 0, smLastTt = -1;
   const draw = (now) => {
     const P = poseAt(tt, eyeAt, tgtAt, playing);
     if (userPaused && !playing) { setHourNow(currentHour(now)); V.render(); return; } // the visitor holds the camera: only the light moves
+    { // the inertia: only while the clock runs; a seek, a jump of the clock or a stall cuts to the ideal pose, a pause keeps the camera where it is
+      const dtw = clamp((now - smLastNow) / 1000, 0, 0.25), jumped = Math.abs(tt - smLastTt) > 1.5 || tt < smLastTt;
+      if (playing && !jumped && !blend) {
+        sm.step(P.eye, P.tgt, dtw, Math.sqrt(speed));
+        clampEye(P.eye); sm.state.ex = P.eye.x; sm.state.ey = P.eye.y; sm.state.ez = P.eye.z;
+      } else if (!playing && !jumped && sm.state.ok && !blend && tt === smLastTt) {
+        P.eye.set(sm.state.ex, sm.state.ey, sm.state.ez);
+        P.tgt.set(sm.state.ex + Math.sin(sm.state.yaw) * Math.cos(sm.state.pitch) * sm.state.dist, sm.state.ey + Math.sin(sm.state.pitch) * sm.state.dist, sm.state.ez - Math.cos(sm.state.yaw) * Math.cos(sm.state.pitch) * sm.state.dist);
+      } else sm.reset();
+      smLastNow = now; smLastTt = tt;
+    }
     if (blend) {
       const k = smoother((now - blend.t0) / (RESUME_S * 1000));
       P.eye.lerpVectors(blend.eye, P.eye, k); P.tgt.lerpVectors(blend.tgt, P.tgt, k);
@@ -454,7 +538,7 @@ export async function createTour(V, opts = {}) {
   const tick = (now) => {
     raf = 0;
     if (!alive) return;
-    const dt = clamp((now - last) / 1000, 0, 1); // the clock is wall-clock time (a slow machine drops frames, not seconds); a stall longer than a second is not a leap; a hidden tab restarts the count (onShow); a frame's timestamp may come before the loop's start
+    const dt = clamp((now - last) / 1000, 0, 0.5); // the clock is wall-clock time (a slow machine drops frames, not seconds); a stall longer than a second is not a leap; a hidden tab restarts the count (onShow); a frame's timestamp may come before the loop's start
     last = now;
     if (playing && !ended) {
       let next = tt + dt * speed;
@@ -762,8 +846,30 @@ export async function createTour(V, opts = {}) {
   const api = {
     chapters: chapters.map((c) => ({ id: c.id, start: c.start, end: c.end, travel: c.travel, seconds: c.seconds, hour: c.hour, models: c.models })),
     get total() { return total; }, get t() { return tt; }, get index() { return curIndex; }, get playing() { return playing; }, get waiting() { return waiting; }, get ended() { return ended; },
-    get speed() { return speed; }, get lang() { return lang; }, get cinema() { return cinema; }, get clamps() { return clamps; }, get adaptations() { return adaptLog; },
+    get pace() { return pace; }, get speed() { return speed; }, get lang() { return lang; }, get cinema() { return cinema; }, get clamps() { return clamps; }, get adaptations() { return adaptLog; },
     frameStats: () => { const by = {}; for (const f of frameLog) (by[chapters[f.i]?.id] ||= []).push(f.ms); return Object.fromEntries(Object.entries(by).map(([k, v]) => { v.sort((a, b) => a - b); return [k, { frames: v.length, median: +v[Math.floor(v.length / 2)].toFixed(1), p90: +v[Math.floor(v.length * 0.9)].toFixed(1) }]; })); },
+    // The camera's motion over the whole tour as the viewer would see it at a steady fps and a speed, without rendering: the fastest turn and the highest acceleration per chapter, and the sharpest bend (degrees per second per second)
+    smoothness(fps = 30, spd = 1, raw = false) {
+      const sim = makeSmoother(), e = new THREE.Vector3(), t = new THREE.Vector3(), out = chapters.map((c) => ({ id: c.id, yawMax: 0, pitchMax: 0, speedMax: 0, accMax: 0, jerkTurn: 0, yawAt: 0 }));
+      let prevE = null, prevYaw = null, prevPitch = null, prevV = null, prevW = null;
+      const dtw = 1 / fps;
+      for (let x = 0; x < total - 1e-3; x += dtw * spd) {
+        const P = poseAt(x, e, t); sim.step(P.eye, P.tgt, raw ? 0 : dtw, Math.sqrt(spd)); clampEye(P.eye);
+        sim.state.ex = P.eye.x; sim.state.ey = P.eye.y; sim.state.ez = P.eye.z;
+        const o = out[P.i], dir = { yaw: sim.state.yaw, pitch: sim.state.pitch };
+        if (prevE) {
+          const v = P.eye.distanceTo(prevE) / dtw;
+          let dy = dir.yaw - prevYaw; dy -= Math.round(dy / (2 * Math.PI)) * 2 * Math.PI;
+          const w = Math.hypot(dy, dir.pitch - prevPitch) / dtw;
+          o.speedMax = Math.max(o.speedMax, v); { const yy = (Math.abs(dy) / dtw) * 57.2958; if (yy > o.yawMax) { o.yawMax = yy; o.yawAt = +(x - chapters[P.i].start).toFixed(1); } } o.pitchMax = Math.max(o.pitchMax, (Math.abs(dir.pitch - prevPitch) / dtw) * 57.2958);
+          if (prevV !== null) o.accMax = Math.max(o.accMax, Math.abs(v - prevV) / dtw);
+          if (prevW !== null) o.jerkTurn = Math.max(o.jerkTurn, (Math.abs(w - prevW) / dtw) * 57.2958);
+          prevV = v; prevW = w;
+        }
+        prevE = P.eye.clone(); prevYaw = dir.yaw; prevPitch = dir.pitch;
+      }
+      return out.map((o) => ({ ...o, speedMax: +o.speedMax.toFixed(1), yawMax: +o.yawMax.toFixed(1), pitchMax: +o.pitchMax.toFixed(1), accMax: +o.accMax.toFixed(1), jerkTurn: +o.jerkTurn.toFixed(1) }));
+    },
     seek(t) { tt = clamp(t, 0, total - 1e-3); ended = false; userPaused = false; blend = null; $(".t-cardbox.end").hidden = true; draw(performance.now()); },
     seekChapter: (i) => seekChapter(i, false), play, pause: (byUser = false) => pause(byUser), exit, poseAt: (t) => { const P = poseAt(t, new THREE.Vector3(), new THREE.Vector3()); return { eye: P.eye.toArray(), tgt: P.tgt.toArray(), i: P.i }; },
     hourAt, clearance, inView, recordPose, setCinema, act,
